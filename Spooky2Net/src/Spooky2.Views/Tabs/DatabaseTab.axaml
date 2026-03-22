@@ -1,0 +1,266 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Spooky2.Views.Tabs.DatabaseTab">
+
+    <Grid RowDefinitions="Auto,*"
+          Margin="4">
+
+        <!-- Row 0: Search bar -->
+        <Grid Grid.Row="0"
+              ColumnDefinitions="*,Auto,Auto,Auto"
+              Margin="0,0,0,4">
+            <TextBox Grid.Column="0"
+                     Text="{Binding ManualFrequencyText}"
+                     Watermark="Search programs..."
+                     ToolTip.Tip="Search for programs in the database"
+                     Margin="0,0,4,0" />
+            <Button Grid.Column="1"
+                    Content="Search"
+                    Command="{Binding SearchDatabaseCommand}"
+                    ToolTip.Tip="Search"
+                    Width="72" Height="30"
+                    Margin="0,0,2,0" />
+            <Button Grid.Column="2"
+                    Content="In Results"
+                    Command="{Binding SearchInResultsCommand}"
+                    ToolTip.Tip="Search within current results"
+                    Width="80" Height="30"
+                    Margin="0,0,2,0" />
+            <Button Grid.Column="3"
+                    Content="Clear"
+                    Command="{Binding ClearFrequenciesCommand}"
+                    ToolTip.Tip="Clear search"
+                    Width="60" Height="30" />
+        </Grid>
+
+        <!-- Row 1: Main content -->
+        <Grid Grid.Row="1"
+              ColumnDefinitions="*,185">
+
+            <!-- Left side: Frequency list + Loaded Programs + Options -->
+            <Grid Grid.Column="0"
+                  RowDefinitions="3*,Auto,2*"
+                  Margin="0,0,4,0">
+
+                <!-- Frequency/Program list -->
+                <Grid Grid.Row="0"
+                      ColumnDefinitions="*,Auto">
+                    <ListBox Grid.Column="0"
+                             ItemsSource="{Binding FrequencyList}"
+                             SelectedItem="{Binding SelectedFrequencyItem}"
+                             SelectionMode="Multiple"
+                             FontFamily="Courier New"
+                             FontSize="12" />
+                    <Button Grid.Column="1"
+                            Content="?"
+                            ToolTip.Tip="Show the database help screen"
+                            Width="24" Height="24"
+                            VerticalAlignment="Bottom"
+                            Margin="2,0,0,0" />
+                </Grid>
+
+                <!-- Counter -->
+                <StackPanel Grid.Row="1"
+                            Orientation="Horizontal"
+                            Margin="0,4,0,4">
+                    <TextBlock Text="{Binding ResultCountLabel, FallbackValue='0 / 0'}"
+                               VerticalAlignment="Center"
+                               Margin="0,0,8,0" />
+                </StackPanel>
+
+                <!-- Bottom section: Loaded Programs + Options + MicroGen -->
+                <Grid Grid.Row="2"
+                      ColumnDefinitions="*,Auto,*,*">
+
+                    <!-- Loaded Programs -->
+                    <Grid Grid.Column="0"
+                          RowDefinitions="Auto,*,Auto">
+                        <StackPanel Grid.Row="0" Orientation="Horizontal" Spacing="4" Margin="0,0,0,2">
+                            <TextBlock Text="Loaded Programs" FontWeight="Bold" VerticalAlignment="Center" />
+                            <Button Content="+"
+                                    Command="{Binding AddManualFrequencyCommand}"
+                                    ToolTip.Tip="Load the selected frequencies"
+                                    Width="24" Height="24" />
+                        </StackPanel>
+                        <ListBox Grid.Row="1"
+                                 ItemsSource="{Binding LoadedPrograms}"
+                                 SelectedItem="{Binding SelectedLoadedProgram}" />
+                        <TextBlock Grid.Row="2"
+                                   Text="{Binding EstimatedRunTime, FallbackValue='Estimated Total Run Time 00:00:00'}"
+                                   Margin="0,2,0,0"
+                                   FontSize="10" />
+                    </Grid>
+
+                    <!-- Loaded Programs action buttons -->
+                    <StackPanel Grid.Column="1"
+                                Orientation="Vertical"
+                                Spacing="2"
+                                VerticalAlignment="Top"
+                                Margin="2,20,2,0">
+                        <Button Content="X"
+                                Command="{Binding RemoveLoadedProgramCommand}"
+                                ToolTip.Tip="Remove selected program"
+                                Width="24" Height="24" />
+                        <Button Content="S"
+                                Command="{Binding SaveLoadedProgramsCommand}"
+                                ToolTip.Tip="Save"
+                                Width="24" Height="24" />
+                        <Button Content="SA"
+                                Command="{Binding SaveLoadedProgramsAsCommand}"
+                                ToolTip.Tip="Save As"
+                                Width="24" Height="24" />
+                        <Button Content="^"
+                                Command="{Binding MoveLoadedProgramUpCommand}"
+                                ToolTip.Tip="Move up"
+                                Width="24" Height="24" />
+                        <Button Content="^^"
+                                Command="{Binding MoveLoadedProgramTopCommand}"
+                                ToolTip.Tip="Move to top"
+                                Width="24" Height="24"
+                                FontSize="9" />
+                        <Button Content="v"
+                                Command="{Binding MoveLoadedProgramDownCommand}"
+                                ToolTip.Tip="Move down"
+                                Width="24" Height="24" />
+                    </StackPanel>
+
+                    <!-- Options GroupBox -->
+                    <Border Grid.Column="2"
+                            BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                            BorderThickness="1"
+                            CornerRadius="4"
+                            Padding="6"
+                            Margin="2,0,2,0">
+                        <StackPanel Spacing="2">
+                            <TextBlock Text="Options" FontWeight="Bold" Margin="0,0,0,4" />
+
+                            <Grid ColumnDefinitions="Auto,60" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto">
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="Repeat Each Frequency:" VerticalAlignment="Center" FontSize="10" Margin="0,0,4,1" />
+                                <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding RepeatEachFrequency, FallbackValue=1}" FontSize="10" Height="22" />
+
+                                <TextBlock Grid.Row="1" Grid.Column="0" Text="Repeat Each Program:" VerticalAlignment="Center" FontSize="10" Margin="0,0,4,1" />
+                                <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding RepeatEachProgram, FallbackValue=1}" FontSize="10" Height="22" />
+
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="Repeat Sequence:" VerticalAlignment="Center" FontSize="10" Margin="0,0,4,1" />
+                                <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding RepeatSequence, FallbackValue=1}" FontSize="10" Height="22" />
+
+                                <TextBlock Grid.Row="3" Grid.Column="0" Text="Repeat Chain:" VerticalAlignment="Center" FontSize="10" Margin="0,0,4,1" />
+                                <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding RepeatChain, FallbackValue=1}" FontSize="10" Height="22" />
+
+                                <TextBlock Grid.Row="4" Grid.Column="0" Text="Dwell Multiplier:" VerticalAlignment="Center" FontSize="10" Margin="0,0,4,1" />
+                                <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding DwellMultiplier, FallbackValue=1}" FontSize="10" Height="22" />
+
+                                <TextBlock Grid.Row="5" Grid.Column="0" Text="Frequency Multiplier:" VerticalAlignment="Center" FontSize="10" Margin="0,0,4,1" />
+                                <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding FrequencyMultiplier, FallbackValue=1}" FontSize="10" Height="22" />
+                            </Grid>
+
+                            <Separator Margin="0,4" />
+
+                            <StackPanel Spacing="1">
+                                <StackPanel Orientation="Horizontal" Spacing="4">
+                                    <CheckBox Content="Run" IsChecked="{Binding RunEnabled}" FontSize="10" />
+                                    <TextBlock Text="Out1" VerticalAlignment="Center" FontSize="10" />
+                                    <TextBox Text="{Binding Out1Hz, FallbackValue=0}" Width="50" FontSize="10" Height="22" />
+                                    <TextBlock Text="Hz" VerticalAlignment="Center" FontSize="10" />
+                                    <TextBlock Text="Out2" VerticalAlignment="Center" FontSize="10" />
+                                    <TextBox Text="{Binding Out2Hz, FallbackValue=0}" Width="50" FontSize="10" Height="22" />
+                                    <TextBlock Text="Hz" VerticalAlignment="Center" FontSize="10" />
+                                </StackPanel>
+                                <CheckBox Content="Remove Duplicate Frequencies" IsChecked="{Binding RemoveDuplicateFrequencies}" FontSize="10" />
+                                <StackPanel Orientation="Horizontal" Spacing="4">
+                                    <TextBlock Text="+/-" VerticalAlignment="Center" FontSize="10" />
+                                    <TextBox Text="{Binding DuplicateTolerancePercent, FallbackValue=0}" Width="40" FontSize="10" Height="22" />
+                                    <TextBlock Text="%" VerticalAlignment="Center" FontSize="10" />
+                                </StackPanel>
+                                <CheckBox Content="Apply Inhibit Factor" IsChecked="{Binding ApplyInhibitFactor}" FontSize="10" />
+                                <CheckBox Content="Apply Tissue Factor" IsChecked="{Binding ApplyTissueFactor}" FontSize="10" />
+                                <StackPanel Orientation="Horizontal" Spacing="4">
+                                    <TextBlock Text="+" VerticalAlignment="Center" FontSize="10" />
+                                    <TextBox Text="{Binding AddHz, FallbackValue=0}" Width="50" FontSize="10" Height="22" />
+                                    <TextBlock Text="Hz" VerticalAlignment="Center" FontSize="10" />
+                                </StackPanel>
+                                <ComboBox SelectedIndex="0" FontSize="10" Height="26" HorizontalAlignment="Stretch">
+                                    <ComboBoxItem Content="Do NOT sort frequencies" />
+                                    <ComboBoxItem Content="Sort ascending" />
+                                    <ComboBoxItem Content="Sort descending" />
+                                </ComboBox>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- MicroGen GroupBox -->
+                    <Border Grid.Column="3"
+                            BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                            BorderThickness="1"
+                            CornerRadius="4"
+                            Padding="6"
+                            Margin="2,0,0,0">
+                        <StackPanel Spacing="4">
+                            <TextBlock Text="MicroGen" FontWeight="Bold" Margin="0,0,0,4" />
+
+                            <Button Content="Blood Purifier"
+                                    Command="{Binding SendToMicroGenBloodPurifierCommand}"
+                                    ToolTip.Tip="Program MicroGen to function as a Blood Purifier"
+                                    HorizontalAlignment="Stretch"
+                                    Height="28" FontSize="10" />
+                            <Button Content="Zapper"
+                                    Command="{Binding SendToMicroGenZapperCommand}"
+                                    ToolTip.Tip="Program MicroGen to function as a Zapper"
+                                    HorizontalAlignment="Stretch"
+                                    Height="28" FontSize="10" />
+                            <Button Content="Low-Power Cable"
+                                    Command="{Binding SendToMicroGenLowPowerCommand}"
+                                    ToolTip.Tip="Send the frequencies to MicroGen Low-Power TENS cable"
+                                    HorizontalAlignment="Stretch"
+                                    Height="28" FontSize="10" />
+                            <Button Content="High-Power Cable"
+                                    Command="{Binding SendToMicroGenHighPowerCommand}"
+                                    ToolTip.Tip="Send the frequencies to MicroGen High-Power TENS cable"
+                                    HorizontalAlignment="Stretch"
+                                    Height="28" FontSize="10" />
+
+                            <StackPanel Orientation="Horizontal" Spacing="8" Margin="0,4,0,0">
+                                <TextBlock Text="Dwell" VerticalAlignment="Center" FontSize="10" />
+                                <TextBox Text="{Binding DwellSeconds}"
+                                         Width="60"
+                                         HorizontalContentAlignment="Center"
+                                         ToolTip.Tip="The number of seconds to run each frequency"
+                                         FontSize="10" Height="22" />
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </Grid>
+
+            <!-- Right side: Database checkboxes -->
+            <StackPanel Grid.Column="1" Width="185" Spacing="8">
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1"
+                        CornerRadius="4"
+                        Padding="8">
+                    <StackPanel Spacing="2">
+                        <TextBlock Text="Database" FontWeight="Bold" Margin="0,0,0,4" />
+                        <WrapPanel>
+                            <CheckBox Content="ALT" IsChecked="{Binding UseAlternativeDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="KHZ" IsChecked="{Binding UseKilohertzDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="BFB" IsChecked="{Binding UseBiofeedbackDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="MW" IsChecked="{Binding UseMolecularWeightDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="BIO" IsChecked="{Binding UseBiologicalDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="PROV" IsChecked="{Binding UseProvisionalDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="CAFL" IsChecked="{Binding UseCaflDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="RIFE" IsChecked="{Binding UseRifeDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="CUST" IsChecked="{Binding UseCustomDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="RUSS" IsChecked="{Binding UseRussianDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="DNA" IsChecked="{Binding UseDnaDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="SD" IsChecked="{Binding UseSdDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="ETDFL" IsChecked="{Binding UseEtdflDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="VEGA" IsChecked="{Binding UseVegaDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="HC" IsChecked="{Binding UseHealingCodesDatabase}" Margin="0,0,8,2" />
+                            <CheckBox Content="XTRA" IsChecked="{Binding UseExtraDatabase}" Margin="0,0,8,2" />
+                        </WrapPanel>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

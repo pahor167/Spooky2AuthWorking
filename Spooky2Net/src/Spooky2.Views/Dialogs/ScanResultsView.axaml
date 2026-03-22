@@ -1,0 +1,81 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="using:Spooky2.Views.Controls"
+        x:Class="Spooky2.Views.Dialogs.ScanResultsView"
+        Title="Scan Results"
+        Width="800" Height="600"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="Arial"
+        FontSize="13">
+
+    <Grid Margin="8" ColumnDefinitions="*,Auto,Auto" RowDefinitions="Auto,*,Auto,Auto">
+
+        <!-- Top bar: title + Create Program button -->
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Scan Results" FontWeight="Bold" FontSize="16"
+                   VerticalAlignment="Center" Margin="0,0,0,6" />
+        <Button Grid.Row="0" Grid.Column="2" Command="{Binding CreateProgramCommand}"
+                ToolTip.Tip="Opens the Create Program window to save the frequencies found"
+                Content="Create Program" Margin="4,0,0,6" />
+
+        <!-- Main content: ListBox + side buttons + Reverse Lookup -->
+        <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" ColumnDefinitions="*,Auto,Auto" Margin="0,0,0,6">
+
+            <!-- Results ListBox -->
+            <ListBox Grid.Column="0" ItemsSource="{Binding ScanResults}" SelectedItems="{Binding SelectedResults}"
+                     SelectionMode="Multiple" Margin="0,0,6,0"
+                     FontFamily="Courier New" FontSize="12" />
+
+            <!-- Action buttons -->
+            <StackPanel Grid.Column="1" Spacing="6" VerticalAlignment="Top" Margin="0,0,6,0">
+                <Button Content="Select All" Command="{Binding SelectAllCommand}"
+                        ToolTip.Tip="Select all frequencies" Width="100" />
+                <Button Content="Clear Sel." Command="{Binding ClearSelectionCommand}"
+                        ToolTip.Tip="Clear the frequency selection" Width="100" />
+                <Button Content="Clear Hits" Command="{Binding ClearHitsCommand}"
+                        ToolTip.Tip="Clear the hits" Width="100" />
+                <Button Content="Copy" Command="{Binding CopyCommand}"
+                        ToolTip.Tip="Copy the frequencies to the clipboard" Width="100" />
+            </StackPanel>
+
+            <!-- Reverse Lookup Frame -->
+            <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="1" CornerRadius="4" Padding="8" MinWidth="250">
+                <StackPanel Spacing="6">
+                    <TextBlock Text="Reverse Lookup" FontWeight="Bold" />
+
+                    <CheckBox Content="Include Harmonics" IsChecked="{Binding IncludeHarmonics}"
+                              ToolTip.Tip="Include harmonic matches of higher database frequencies in the reverse lookup analysis" />
+                    <CheckBox Content="Include Sub-Harmonics" IsChecked="{Binding IncludeSubHarmonics}"
+                              ToolTip.Tip="Include sub harmonic matches of lower database frequencies in the reverse lookup analysis" />
+
+                    <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto" Margin="0,4,0,0">
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="% Tolerance:" VerticalAlignment="Center" Margin="0,0,8,4" />
+                        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding ReverseLookupTolerance, FallbackValue=0.025}"
+                                 HorizontalAlignment="Left" Width="80" Margin="0,0,0,4"
+                                 ToolTip.Tip="Apply this tolerance when finding frequency matches" />
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Factor:" VerticalAlignment="Center" Margin="0,0,8,0" />
+                        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding HarmonicFactor, FallbackValue=2}"
+                                 HorizontalAlignment="Left" Width="80"
+                                 ToolTip.Tip="The factor or divisor to determine harmonic or subharmonic values" />
+                    </Grid>
+
+                    <ComboBox ItemsSource="{Binding DatabaseOptions}" SelectedItem="{Binding SelectedDatabase}"
+                              HorizontalAlignment="Stretch" Margin="0,4,0,0" />
+
+                    <Button Content="Go" Command="{Binding ReverseLookupCommand}"
+                            HorizontalAlignment="Right" Width="80"
+                            ToolTip.Tip="Find frequency matches from the selected Spooky2 databases" />
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- Row 2: Scan Results Graph -->
+        <controls:SpectralGraph Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3"
+                Frequencies="{Binding GraphFrequencies}"
+                Amplitudes="{Binding GraphAmplitudes}"
+                MaxFrequency="{Binding GraphMaxFrequency}"
+                Title="Scan Results"
+                MinHeight="180"
+                Margin="0,6,0,0" />
+    </Grid>
+</Window>

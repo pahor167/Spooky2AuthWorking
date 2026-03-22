@@ -1,0 +1,27 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Spooky2.Views.Dialogs.UpdatePresetsView"
+        Title="Update Presets"
+        Width="500" Height="300"
+        WindowStartupLocation="CenterOwner"
+        CanResize="False"
+        FontFamily="Arial"
+        FontSize="13">
+
+    <Grid Margin="16" RowDefinitions="*,Auto,Auto">
+
+        <!-- Row 0: Status area -->
+        <StackPanel Grid.Row="0" VerticalAlignment="Center" Spacing="12">
+            <TextBlock Text="{Binding StatusLabel, FallbackValue=Updating presets...}"
+                       HorizontalAlignment="Center" FontSize="14" TextWrapping="Wrap" TextAlignment="Center" />
+            <ProgressBar Minimum="0" Maximum="100" Value="{Binding ProgressValue}"
+                         IsVisible="{Binding IsProgressVisible}" Height="20" Margin="0,8,0,0" />
+            <TextBlock Text="{Binding DetailStatus}" HorizontalAlignment="Center"
+                       FontSize="11" Foreground="Gray" TextWrapping="Wrap" TextAlignment="Center" />
+        </StackPanel>
+
+        <!-- Row 2: Cancel button -->
+        <Button Grid.Row="2" Content="Cancel" Command="{Binding CancelCommand}"
+                HorizontalAlignment="Center" Width="100" Margin="0,16,0,0" />
+    </Grid>
+</Window>

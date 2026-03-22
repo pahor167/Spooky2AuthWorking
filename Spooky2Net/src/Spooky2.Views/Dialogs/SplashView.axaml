@@ -1,0 +1,28 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Spooky2.Views.Dialogs.SplashView"
+        Width="400" Height="300"
+        WindowStartupLocation="CenterScreen"
+        SystemDecorations="None"
+        CanResize="False"
+        FontFamily="Arial"
+        FontSize="13"
+        Background="White">
+
+    <Grid ColumnDefinitions="Auto,*" Margin="0">
+
+        <!-- Left: Logo area -->
+        <Border Grid.Column="0" Width="140" Background="#E0E0E0" Margin="0,24,0,0" VerticalAlignment="Top">
+            <TextBlock Text="Spooky2" HorizontalAlignment="Center" VerticalAlignment="Center"
+                       Foreground="Gray" FontSize="14" FontWeight="Bold" Padding="8" />
+        </Border>
+
+        <!-- Right: Status labels -->
+        <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="16,0,16,0" Spacing="16">
+            <TextBlock Text="{Binding StatusLine1, FallbackValue=-}" HorizontalAlignment="Center"
+                       FontSize="14" TextWrapping="Wrap" TextAlignment="Center" />
+            <TextBlock Text="{Binding StatusLine2, FallbackValue=-}" HorizontalAlignment="Center"
+                       FontSize="14" TextWrapping="Wrap" TextAlignment="Center" />
+        </StackPanel>
+    </Grid>
+</Window>

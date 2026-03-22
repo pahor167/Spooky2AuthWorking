@@ -1,0 +1,154 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:tabs="clr-namespace:Spooky2.Views.Tabs"
+        xmlns:controls="clr-namespace:Spooky2.Views.Controls"
+        x:Class="Spooky2.Views.MainWindow"
+        Title="Spooky2"
+        WindowState="Maximized"
+        FontFamily="Arial"
+        FontSize="11.25"
+        WindowStartupLocation="CenterOwner">
+
+    <NativeMenu.Menu>
+        <NativeMenu>
+            <NativeMenuItem Header="File">
+                <NativeMenu>
+                    <NativeMenuItem Header="Save" Command="{Binding SaveCommand}" />
+                    <NativeMenuItemSeparator />
+                    <NativeMenuItem Header="Exit" Command="{Binding ExitApplicationCommand}" />
+                </NativeMenu>
+            </NativeMenuItem>
+            <NativeMenuItem Header="System">
+                <NativeMenu>
+                    <NativeMenuItem Header="Identify Generators" Command="{Binding IdentifyGeneratorsCommand}" />
+                    <NativeMenuItem Header="Identify USB Devices" Command="{Binding IdentifyUsbDevicesCommand}" />
+                    <NativeMenuItem Header="Rescan Devices" Command="{Binding RescanDevicesCommand}" />
+                    <NativeMenuItemSeparator />
+                    <NativeMenuItem Header="Install XM Drivers" Command="{Binding InstallXmDriversCommand}" />
+                    <NativeMenuItem Header="Install GeneratorX Drivers" Command="{Binding InstallGeneratorXDriversCommand}" />
+                    <NativeMenuItem Header="Install Chain Editor" Command="{Binding InstallChainEditorCommand}" />
+                    <NativeMenuItemSeparator />
+                    <NativeMenuItem Header="Clean Registry" Command="{Binding CleanRegistryCommand}" />
+                    <NativeMenuItem Header="Update GX Pro Firmware" Command="{Binding UpdateGxProFirmwareCommand}" />
+                    <NativeMenuItem Header="GX Pro Firmware Instructions" Command="{Binding GxProFirmwareInstructionsCommand}" />
+                    <NativeMenuItem Header="GX Screen ON" Command="{Binding GxScreenOnCommand}" />
+                    <NativeMenuItem Header="GX Screen OFF" Command="{Binding GxScreenOffCommand}" />
+                </NativeMenu>
+            </NativeMenuItem>
+            <NativeMenuItem Header="Generators">
+                <NativeMenu>
+                    <NativeMenuItem Header="Global Start" Command="{Binding GlobalStartCommand}" />
+                    <NativeMenuItem Header="Global Stop" Command="{Binding GlobalStopCommand}" />
+                    <NativeMenuItem Header="Global Pause" Command="{Binding GlobalPauseCommand}" />
+                    <NativeMenuItem Header="Global Unpause" Command="{Binding GlobalUnpauseCommand}" />
+                    <NativeMenuItem Header="Global Hold" Command="{Binding GlobalHoldCommand}" />
+                    <NativeMenuItem Header="Global Resume" Command="{Binding GlobalResumeCommand}" />
+                    <NativeMenuItemSeparator />
+                    <NativeMenuItem Header="Global Erase" Command="{Binding GlobalEraseCommand}" />
+                </NativeMenu>
+            </NativeMenuItem>
+            <NativeMenuItem Header="Database">
+                <NativeMenu>
+                    <NativeMenuItem Header="Refresh Database" Command="{Binding RefreshDatabaseCommand}" />
+                    <NativeMenuItem Header="Refresh Waveforms" Command="{Binding RefreshWaveformsCommand}" />
+                    <NativeMenuItem Header="Refresh Freq Wobbles" Command="{Binding RefreshFreqWobblesCommand}" />
+                    <NativeMenuItemSeparator />
+                    <NativeMenuItem Header="Write Database Text" Command="{Binding WriteDatabaseTextCommand}" />
+                    <NativeMenuItem Header="Extract Preset Frequencies" Command="{Binding ExtractPresetFrequenciesCommand}" />
+                    <NativeMenuItemSeparator />
+                    <NativeMenuItem Header="Edit Custom Database 1" Command="{Binding EditCustomDatabase1Command}" />
+                    <NativeMenuItem Header="Edit Custom Database 2" Command="{Binding EditCustomDatabase2Command}" />
+                    <NativeMenuItem Header="Edit Custom Database 3" Command="{Binding EditCustomDatabase3Command}" />
+                    <NativeMenuItem Header="Edit Custom Database 4" Command="{Binding EditCustomDatabase4Command}" />
+                    <NativeMenuItemSeparator />
+                    <NativeMenuItem Header="Select Custom Database 2" Command="{Binding SelectCustomDatabase2Command}" />
+                    <NativeMenuItem Header="Select Custom Database 3" Command="{Binding SelectCustomDatabase3Command}" />
+                    <NativeMenuItem Header="Select Custom Database 4" Command="{Binding SelectCustomDatabase4Command}" />
+                    <NativeMenuItemSeparator />
+                    <NativeMenuItem Header="Edit BFB Database" Command="{Binding EditBfbDatabaseCommand}" />
+                    <NativeMenuItem Header="Select BFB Database" Command="{Binding SelectBfbDatabaseCommand}" />
+                </NativeMenu>
+            </NativeMenuItem>
+            <NativeMenuItem Header="Tools">
+                <NativeMenu>
+                    <NativeMenuItem Header="Create Program" Command="{Binding CreateProgramCommand}" />
+                    <NativeMenuItem Header="Create Carrier Sweep" Command="{Binding CreateCarrierSweepCommand}" />
+                    <NativeMenuItem Header="Create Spectrum Sweep" Command="{Binding CreateSpectrumSweepCommand}" />
+                    <NativeMenuItemSeparator />
+                    <NativeMenuItem Header="CS Calculator" Command="{Binding OpenCsCalculatorCommand}" />
+                    <NativeMenuItemSeparator />
+                    <NativeMenuItem Header="Update Presets" Command="{Binding UpdatePresetsCommand}" />
+                </NativeMenu>
+            </NativeMenuItem>
+            <NativeMenuItem Header="Settings">
+                <NativeMenu>
+                    <NativeMenuItem Header="Restore Settings Defaults" Command="{Binding RestoreDefaultsCommand}" />
+                    <NativeMenuItem Header="Restore BFB Defaults" Command="{Binding RestoreBfbDefaultsCommand}" />
+                    <NativeMenuItemSeparator />
+                    <NativeMenuItem Header="Toggle Advanced Features" Command="{Binding ToggleAdvancedFeaturesCommand}" />
+                    <NativeMenuItem Header="User's Guide Mode" Command="{Binding ToggleUsersGuideModeCommand}" />
+                </NativeMenu>
+            </NativeMenuItem>
+            <NativeMenuItem Header="Help">
+                <NativeMenu>
+                    <NativeMenuItem Header="User's Guide" Command="{Binding OpenUsersGuideCommand}" />
+                    <NativeMenuItem Header="About Spooky" Command="{Binding ShowAboutCommand}" />
+                </NativeMenu>
+            </NativeMenuItem>
+        </NativeMenu>
+    </NativeMenu.Menu>
+
+    <DockPanel>
+        <!-- Status Bar -->
+        <Border DockPanel.Dock="Bottom"
+                Background="{DynamicResource SystemControlBackgroundChromeMediumBrush}"
+                Padding="8,4"
+                Height="33">
+            <TextBlock Text="{Binding StatusBarText}"
+                       VerticalAlignment="Center" />
+        </Border>
+
+        <!-- Generator Panels -->
+        <ItemsControl DockPanel.Dock="Bottom"
+                      ItemsSource="{Binding Generators}"
+                      Margin="0,4,0,0">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Vertical" Spacing="2" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <controls:GeneratorPanel DataContext="{Binding}" />
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <!-- Main Tab Control -->
+        <TabControl>
+            <TabItem Header="Presets">
+                <tabs:PresetsTab DataContext="{Binding Presets}" />
+            </TabItem>
+            <TabItem Header="Programs">
+                <tabs:DatabaseTab DataContext="{Binding Database}" />
+            </TabItem>
+            <TabItem Header="Settings">
+                <tabs:SettingsTab DataContext="{Binding Settings}" />
+            </TabItem>
+            <TabItem Header="Control">
+                <tabs:ControlTab DataContext="{Binding Control}" />
+            </TabItem>
+            <TabItem Header="System">
+                <tabs:SystemTab DataContext="{Binding System}" />
+            </TabItem>
+            <TabItem Header="Internet">
+                <TextBlock Text="Internet tab - placeholder"
+                           Margin="16"
+                           VerticalAlignment="Top" />
+            </TabItem>
+            <TabItem Header="Errors">
+                <tabs:GeneratorErrorsTab />
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

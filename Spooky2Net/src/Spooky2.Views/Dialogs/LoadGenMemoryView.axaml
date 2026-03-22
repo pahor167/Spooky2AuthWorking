@@ -1,0 +1,74 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Spooky2.Views.Dialogs.LoadGenMemoryView"
+        Title="Load Generator Memory"
+        Width="600" Height="500"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="Arial"
+        FontSize="13">
+
+    <Grid Margin="8" RowDefinitions="Auto,Auto,*,Auto" ColumnDefinitions="*,Auto">
+
+        <!-- Row 0: Save button -->
+        <Button Grid.Row="0" Grid.Column="1" Content="Save" Command="{Binding SaveCommand}"
+                Width="80" Margin="0,0,0,8"
+                ToolTip.Tip="Save programs" />
+
+        <!-- Row 1: New Program Name -->
+        <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" ColumnDefinitions="Auto,*" Margin="0,0,0,6">
+            <TextBlock Text="New Program Name:" VerticalAlignment="Center" Margin="0,0,8,0" />
+            <TextBox Grid.Column="1" Text="{Binding NewProgramName}" />
+        </Grid>
+
+        <!-- Row 2: Program list + Details panel -->
+        <Grid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" ColumnDefinitions="*,Auto,Auto" Margin="0,0,0,8">
+
+            <!-- Program names list -->
+            <ListBox Grid.Column="0" ItemsSource="{Binding ProgramNames}" SelectedIndex="{Binding SelectedProgramIndex}"
+                     Margin="0,0,8,0" />
+
+            <!-- Delete button -->
+            <Button Grid.Column="1" Content="Delete" Command="{Binding DeleteProgramCommand}"
+                    VerticalAlignment="Top" Margin="0,0,8,0"
+                    ToolTip.Tip="Delete selected program" />
+
+            <!-- Details panel -->
+            <StackPanel Grid.Column="2" Spacing="4" MinWidth="180">
+                <Border Width="120" Height="120" Background="#E0E0E0" CornerRadius="4" Margin="0,0,0,8">
+                    <TextBlock Text="Logo" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray" />
+                </Border>
+
+                <TextBlock Text="{Binding GeneratorNumber}" IsVisible="{Binding GeneratorNumber, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+
+                <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" Margin="0,4,0,0">
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Amplitude (V):" HorizontalAlignment="Right" Margin="0,0,4,2" />
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Amplitude}" Margin="0,0,0,2" />
+
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Offset (%):" HorizontalAlignment="Right" Margin="0,0,4,2" />
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Offset}" Margin="0,0,0,2" />
+
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Dwell (S):" HorizontalAlignment="Right" Margin="0,0,4,2" />
+                    <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding DwellSeconds}" Margin="0,0,0,2" />
+
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="Gate On (mS):" HorizontalAlignment="Right" Margin="0,0,4,2" />
+                    <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding GateOnMs}" Margin="0,0,0,2" />
+
+                    <TextBlock Grid.Row="4" Grid.Column="0" Text="Gate Off (mS):" HorizontalAlignment="Right" Margin="0,0,4,2" />
+                    <TextBlock Grid.Row="4" Grid.Column="1" Text="{Binding GateOffMs}" Margin="0,0,0,2" />
+
+                    <TextBlock Grid.Row="5" Grid.Column="0" Text="Freq Count:" HorizontalAlignment="Right" Margin="0,0,4,2" />
+                    <TextBlock Grid.Row="5" Grid.Column="1" Text="{Binding FrequencyCount}" Margin="0,0,0,2" />
+                </Grid>
+
+                <TextBlock Text="{Binding TotalRunTime}" Margin="0,4,0,0" />
+            </StackPanel>
+        </Grid>
+
+        <!-- Row 3: Load/Cancel buttons -->
+        <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal"
+                    HorizontalAlignment="Center" Spacing="16">
+            <Button Content="Load" Command="{Binding LoadCommand}" Width="100" />
+            <Button Content="Cancel" Command="{Binding CancelCommand}" Width="100" />
+        </StackPanel>
+    </Grid>
+</Window>

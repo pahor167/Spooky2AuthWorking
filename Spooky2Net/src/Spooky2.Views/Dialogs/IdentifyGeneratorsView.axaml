@@ -1,0 +1,37 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Spooky2.Views.Dialogs.IdentifyGeneratorsView"
+        Title="Identify Generators"
+        Width="500" Height="400"
+        WindowStartupLocation="CenterOwner"
+        CanResize="False"
+        FontFamily="Arial"
+        FontSize="13">
+
+    <Grid Margin="8" RowDefinitions="Auto,Auto,*,Auto">
+
+        <!-- Row 0: Logo + Close button -->
+        <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto" Margin="0,0,0,8">
+            <Border Grid.Column="0" Width="120" Height="120" Background="#E0E0E0" CornerRadius="4">
+                <!-- Logo placeholder -->
+                <TextBlock Text="Logo" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray" />
+            </Border>
+            <Button Grid.Column="2" Content="X" Command="{Binding CloseCommand}" VerticalAlignment="Top"
+                    Width="40" Height="40" HorizontalContentAlignment="Center"
+                    ToolTip.Tip="Close this window" />
+        </Grid>
+
+        <!-- Row 1: Generator Status label -->
+        <TextBlock Grid.Row="1" Text="{Binding GeneratorStatusLabel, FallbackValue=Generator Status}"
+                   HorizontalAlignment="Center" FontWeight="Bold" Margin="0,0,0,6" />
+
+        <!-- Row 2: Status TextBox (read-only, multiline, scrollable) -->
+        <TextBox Grid.Row="2" Text="{Binding StatusText}" IsReadOnly="True"
+                 AcceptsReturn="True" TextWrapping="Wrap"
+                 Margin="0,0,0,8" />
+
+        <!-- Row 3: Close button -->
+        <Button Grid.Row="3" Content="Close" Command="{Binding CloseCommand}"
+                HorizontalAlignment="Center" Width="100" />
+    </Grid>
+</Window>

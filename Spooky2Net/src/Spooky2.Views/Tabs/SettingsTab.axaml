@@ -1,0 +1,516 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Spooky2.Views.Tabs.SettingsTab">
+
+    <ScrollViewer HorizontalScrollBarVisibility="Auto"
+                  VerticalScrollBarVisibility="Auto">
+        <Grid ColumnDefinitions="320,400,*" Margin="8">
+
+            <!-- ═══════════════════════════════════════════════════════════ -->
+            <!-- LEFT COLUMN                                                -->
+            <!-- ═══════════════════════════════════════════════════════════ -->
+            <StackPanel Grid.Column="0" Spacing="6" Margin="0,0,6,0">
+
+                <!-- Signal Settings -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1" CornerRadius="4" Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Signal Settings" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <!-- Header -->
+                        <Grid ColumnDefinitions="100,70,70,50">
+                            <TextBlock Grid.Column="1" Text="Out 1" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                            <TextBlock Grid.Column="2" Text="Out 2" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                            <TextBlock Grid.Column="3" Text="Unit" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                        </Grid>
+
+                        <!-- Duty Cycle -->
+                        <Grid ColumnDefinitions="100,70,70,50">
+                            <TextBlock Grid.Column="0" Text="Duty Cycle" VerticalAlignment="Center" />
+                            <TextBox Grid.Column="1" Text="{Binding DutyCycleOut1}" HorizontalContentAlignment="Center" Margin="0,0,4,2" />
+                            <TextBox Grid.Column="2" Text="{Binding DutyCycleOut2}" HorizontalContentAlignment="Center" Margin="0,0,4,2" />
+                            <TextBlock Grid.Column="3" Text="%" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </Grid>
+
+                        <!-- Amplitude -->
+                        <Grid ColumnDefinitions="100,70,70,50">
+                            <TextBlock Grid.Column="0" Text="Amplitude" VerticalAlignment="Center" />
+                            <TextBox Grid.Column="1" Text="{Binding AmplitudeOut1}" HorizontalContentAlignment="Center" Margin="0,0,4,2" />
+                            <TextBox Grid.Column="2" Text="{Binding AmplitudeOut2}" HorizontalContentAlignment="Center" Margin="0,0,4,2" />
+                            <TextBlock Grid.Column="3" Text="V" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </Grid>
+
+                        <!-- Offset -->
+                        <Grid ColumnDefinitions="100,70,70,50">
+                            <TextBlock Grid.Column="0" Text="Offset" VerticalAlignment="Center" />
+                            <TextBox Grid.Column="1" Text="{Binding OffsetOut1}" HorizontalContentAlignment="Center" Margin="0,0,4,2" />
+                            <TextBox Grid.Column="2" Text="{Binding OffsetOut2}" HorizontalContentAlignment="Center" Margin="0,0,4,2" />
+                            <TextBlock Grid.Column="3" Text="%" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </Grid>
+
+                        <!-- Phase -->
+                        <Grid ColumnDefinitions="100,70,70,50">
+                            <TextBlock Grid.Column="0" Text="Phase" VerticalAlignment="Center" />
+                            <TextBox Grid.Column="1" Text="{Binding PhaseOut1}" HorizontalContentAlignment="Center" Margin="0,0,4,2" />
+                            <TextBox Grid.Column="2" Text="{Binding PhaseOut2}" HorizontalContentAlignment="Center" Margin="0,0,4,2" />
+                            <TextBlock Grid.Column="3" Text="" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </Grid>
+
+                        <CheckBox Content="Modulate Out 1" IsChecked="{Binding ModulateOut1}" Margin="0,4,0,0" />
+                    </StackPanel>
+                </Border>
+
+                <!-- Gating -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1" CornerRadius="4" Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Gating" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <StackPanel Orientation="Horizontal" Spacing="12">
+                            <RadioButton Content="4 Hz Gate" GroupName="GatingMode" IsChecked="{Binding Is4HzGate}" />
+                            <RadioButton Content="Timed Gate" GroupName="GatingMode" IsChecked="{Binding IsTimedGate}" />
+                        </StackPanel>
+
+                        <!-- Header -->
+                        <Grid ColumnDefinitions="80,30,70,70" Margin="0,4,0,0">
+                            <TextBlock Grid.Column="2" Text="ms On" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                            <TextBlock Grid.Column="3" Text="ms Off" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                        </Grid>
+
+                        <!-- Out 1 -->
+                        <Grid ColumnDefinitions="80,30,70,70">
+                            <TextBlock Grid.Column="0" Text="Out 1" VerticalAlignment="Center" />
+                            <CheckBox Grid.Column="1" IsChecked="{Binding GatingOut1Enabled}" VerticalAlignment="Center" />
+                            <TextBox Grid.Column="2" Text="{Binding GatingOut1MsOn}" HorizontalContentAlignment="Center" Margin="0,0,4,2" />
+                            <TextBox Grid.Column="3" Text="{Binding GatingOut1MsOff}" HorizontalContentAlignment="Center" Margin="0,0,0,2" />
+                        </Grid>
+
+                        <!-- Out 2 -->
+                        <Grid ColumnDefinitions="80,30,70,70">
+                            <TextBlock Grid.Column="0" Text="Out 2" VerticalAlignment="Center" />
+                            <CheckBox Grid.Column="1" IsChecked="{Binding GatingOut2Enabled}" VerticalAlignment="Center" />
+                            <TextBox Grid.Column="2" Text="{Binding GatingOut2MsOn}" HorizontalContentAlignment="Center" Margin="0,0,4,0" />
+                            <TextBox Grid.Column="3" Text="{Binding GatingOut2MsOff}" HorizontalContentAlignment="Center" />
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- Wobble -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1" CornerRadius="4" Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Wobble" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <!-- Amplitude Wobble -->
+                        <Grid ColumnDefinitions="120,100,50,80">
+                            <TextBlock Grid.Column="0" Text="Amplitude Wobble" VerticalAlignment="Center" />
+                            <ComboBox Grid.Column="1" ItemsSource="{Binding WobbleModes}" SelectedItem="{Binding AmplitudeWobbleMode}" Margin="0,0,4,2" />
+                            <TextBox Grid.Column="2" Text="{Binding AmplitudeWobblePercent}" HorizontalContentAlignment="Center" Margin="0,0,4,2" />
+                            <TextBox Grid.Column="3" Text="{Binding AmplitudeWobbleSteps}" HorizontalContentAlignment="Center" Margin="0,0,0,2" />
+                        </Grid>
+
+                        <!-- Frequency Wobble -->
+                        <Grid ColumnDefinitions="120,100,50,80">
+                            <TextBlock Grid.Column="0" Text="Frequency Wobble" VerticalAlignment="Center" />
+                            <ComboBox Grid.Column="1" ItemsSource="{Binding WobbleModes}" SelectedItem="{Binding FrequencyWobbleMode}" Margin="0,0,4,2" />
+                            <TextBox Grid.Column="2" Text="{Binding FrequencyWobblePercent}" HorizontalContentAlignment="Center" Margin="0,0,4,2" />
+                            <TextBox Grid.Column="3" Text="{Binding FrequencyWobbleSteps}" HorizontalContentAlignment="Center" Margin="0,0,0,2" />
+                        </Grid>
+
+                        <!-- Harmonic Wobble -->
+                        <Grid ColumnDefinitions="120,*">
+                            <TextBlock Grid.Column="0" Text="Harmonic Wobble" VerticalAlignment="Center" />
+                            <ComboBox Grid.Column="1" ItemsSource="{Binding HarmonicWobbleModes}" SelectedItem="{Binding HarmonicWobbleMode}" />
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- Schedule -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1" CornerRadius="4" Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Schedule" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <StackPanel Orientation="Horizontal" Spacing="4">
+                            <TextBlock Text="Run From:" VerticalAlignment="Center" Width="70" />
+                            <TextBox Text="{Binding ScheduleRunFrom}" Width="80" HorizontalContentAlignment="Center" />
+                            <TextBlock Text="to" VerticalAlignment="Center" Margin="4,0" />
+                            <TextBox Text="{Binding ScheduleRunTo}" Width="80" HorizontalContentAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Spacing="4">
+                            <TextBlock Text="Start In:" VerticalAlignment="Center" Width="70" />
+                            <TextBox Text="{Binding StartInDays}" Width="40" HorizontalContentAlignment="Center" />
+                            <TextBlock Text="Days" VerticalAlignment="Center" />
+                            <TextBox Text="{Binding StartInHours}" Width="40" HorizontalContentAlignment="Center" />
+                            <TextBlock Text="Hours" VerticalAlignment="Center" />
+                            <TextBox Text="{Binding StartInMinutes}" Width="40" HorizontalContentAlignment="Center" />
+                            <TextBlock Text="Minutes" VerticalAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Spacing="4">
+                            <TextBlock Text="After:" VerticalAlignment="Center" Width="70" />
+                            <TextBox Text="{Binding AfterHours}" Width="40" HorizontalContentAlignment="Center" />
+                            <TextBlock Text="Hours," VerticalAlignment="Center" />
+                            <RadioButton Content="Stop" GroupName="AfterAction" IsChecked="{Binding AfterActionStop}" />
+                            <RadioButton Content="Advance To Next Preset" GroupName="AfterAction" IsChecked="{Binding AfterActionAdvance}" />
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Contact Mode Options -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1" CornerRadius="4" Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Contact Mode Options" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <StackPanel Orientation="Horizontal" Spacing="4">
+                            <CheckBox Content="Ramp Up:" IsChecked="{Binding RampUpEnabled}" />
+                            <TextBox Text="{Binding RampUpRate}" Width="50" HorizontalContentAlignment="Center" />
+                            <TextBlock Text="V/Sec" VerticalAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Spacing="4">
+                            <CheckBox Content="Ramp Down:" IsChecked="{Binding RampDownEnabled}" />
+                            <TextBox Text="{Binding RampDownRate}" Width="50" HorizontalContentAlignment="Center" />
+                            <TextBlock Text="V/Sec" VerticalAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Spacing="4">
+                            <CheckBox Content="Reduce Amplitude &lt;:" IsChecked="{Binding ReduceAmplitudeEnabled}" />
+                            <TextBox Text="{Binding ReduceAmplitudeFrequency}" Width="60" HorizontalContentAlignment="Center" />
+                            <TextBlock Text="kHz" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Frequency Limits -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1" CornerRadius="4" Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Frequency Limits (Hz)" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <!-- Header -->
+                        <Grid ColumnDefinitions="30,100,100,80">
+                            <TextBlock Grid.Column="1" Text="Out 1" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                            <TextBlock Grid.Column="2" Text="Out 2" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                        </Grid>
+
+                        <!-- Greater than -->
+                        <Grid ColumnDefinitions="30,100,100,80">
+                            <TextBlock Grid.Column="0" Text=">" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                            <TextBox Grid.Column="1" Text="{Binding FreqLimitGreaterOut1}" HorizontalContentAlignment="Center" Margin="0,0,4,2" />
+                            <TextBox Grid.Column="2" Text="{Binding FreqLimitGreaterOut2}" HorizontalContentAlignment="Center" Margin="0,0,4,2" />
+                            <ComboBox Grid.Column="3" ItemsSource="{Binding FreqLimitModes}" SelectedItem="{Binding FreqLimitGreaterMode}" Margin="0,0,0,2" />
+                        </Grid>
+
+                        <!-- Less than -->
+                        <Grid ColumnDefinitions="30,100,100,80">
+                            <TextBlock Grid.Column="0" Text="&lt;" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                            <TextBox Grid.Column="1" Text="{Binding FreqLimitLessOut1}" HorizontalContentAlignment="Center" Margin="0,0,4,0" />
+                            <TextBox Grid.Column="2" Text="{Binding FreqLimitLessOut2}" HorizontalContentAlignment="Center" Margin="0,0,4,0" />
+                            <ComboBox Grid.Column="3" ItemsSource="{Binding FreqLimitModes}" SelectedItem="{Binding FreqLimitLessMode}" />
+                        </Grid>
+
+                        <TextBlock Text="* = Experimental" FontSize="9" Foreground="Gray" Margin="0,4,0,0" />
+                    </StackPanel>
+                </Border>
+
+            </StackPanel>
+
+            <!-- ═══════════════════════════════════════════════════════════ -->
+            <!-- CENTER COLUMN                                              -->
+            <!-- ═══════════════════════════════════════════════════════════ -->
+            <StackPanel Grid.Column="1" Spacing="6" Margin="6,0,6,0">
+
+                <!-- Output Control -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1" CornerRadius="4" Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Output Control" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <StackPanel Orientation="Horizontal" Spacing="4">
+                            <TextBlock Text="Out 1 = (" VerticalAlignment="Center" />
+                            <TextBox Text="{Binding Out1Multiplier}" Width="40" HorizontalContentAlignment="Center" />
+                            <TextBlock Text="X" VerticalAlignment="Center" />
+                            <TextBox Text="{Binding Out1Factor}" Width="40" HorizontalContentAlignment="Center" />
+                            <TextBlock Text=") +" VerticalAlignment="Center" />
+                            <TextBox Text="{Binding Out1Offset}" Width="50" HorizontalContentAlignment="Center" />
+                            <TextBlock Text="Hz" VerticalAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Spacing="4">
+                            <TextBlock Text="Swap Waveform Every:" VerticalAlignment="Center" />
+                            <TextBox Text="{Binding SwapWaveformSeconds}" Width="50" HorizontalContentAlignment="Center" />
+                            <TextBlock Text="Seconds" VerticalAlignment="Center" />
+                        </StackPanel>
+
+                        <Border Height="4" />
+
+                        <RadioButton Content="Out 2 = (Out 1 X 1) + 0" GroupName="OutputMode" IsChecked="{Binding Out2FollowsOut1}" />
+                        <RadioButton Content="Out 1 fixed at 0" GroupName="OutputMode" IsChecked="{Binding Out1Fixed}" />
+                        <RadioButton Content="Out 2 Follows Program Freq" GroupName="OutputMode" IsChecked="{Binding Out2FollowsProgram}" />
+                        <RadioButton Content="Out 2 = ABS(F1-F2)" GroupName="OutputMode" IsChecked="{Binding Out2AbsDiff}" />
+                        <RadioButton Content="Out 2 Runs Every Second Freq" GroupName="OutputMode" IsChecked="{Binding Out2EverySecond}" />
+                        <RadioButton Content="Out 1 runs all freqs" GroupName="OutputMode" IsChecked="{Binding Out1AllFreqs}" />
+
+                        <Border Height="4" />
+
+                        <CheckBox Content="Hz. Out 2 = Abs(Out1-F1) Hz" IsChecked="{Binding Out2AbsOut1F1}" />
+                        <CheckBox Content="Out 2 = ABS(F1-F2)" IsChecked="{Binding Out2AbsF1F2}" />
+                        <CheckBox Content="Swap Out 1 + Out 2" IsChecked="{Binding SwapOut1Out2}" />
+                    </StackPanel>
+                </Border>
+
+                <!-- Waveform Setup -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1" CornerRadius="4" Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Waveform Setup" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <!-- Waveform grid header -->
+                        <Grid ColumnDefinitions="30,30,80,30,50,50,70,40">
+                            <TextBlock Grid.Column="0" Text="1" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                            <TextBlock Grid.Column="1" Text="2" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                            <TextBlock Grid.Column="2" Text="Waveform" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                            <TextBlock Grid.Column="3" Text="" HorizontalAlignment="Center" />
+                            <TextBlock Grid.Column="4" Text="WCM" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                            <TextBlock Grid.Column="5" Text="Spike" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                            <TextBlock Grid.Column="6" Text="Length Ratio" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                            <TextBlock Grid.Column="7" Text="%" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                        </Grid>
+
+                        <!-- Waveform rows 1-10 -->
+                        <Grid ColumnDefinitions="30,30,80,30,50,50,70,40">
+                            <RadioButton Grid.Column="0" GroupName="WaveOut1" IsChecked="{Binding Wave1Out1Selected}" HorizontalAlignment="Center" />
+                            <RadioButton Grid.Column="1" GroupName="WaveOut2" IsChecked="{Binding Wave1Out2Selected}" HorizontalAlignment="Center" />
+                            <Border Grid.Column="2" Background="#333" Height="20" Margin="2" CornerRadius="2" />
+                            <CheckBox Grid.Column="3" IsChecked="{Binding Wave1Enabled}" HorizontalAlignment="Center" />
+                            <TextBox Grid.Column="4" Text="{Binding Wave1Wcm}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="5" Text="{Binding Wave1Spike}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="6" Text="{Binding Wave1LengthRatio}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="7" Text="{Binding Wave1Percent}" HorizontalContentAlignment="Center" Margin="1,0" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="30,30,80,30,50,50,70,40">
+                            <RadioButton Grid.Column="0" GroupName="WaveOut1" IsChecked="{Binding Wave2Out1Selected}" HorizontalAlignment="Center" />
+                            <RadioButton Grid.Column="1" GroupName="WaveOut2" IsChecked="{Binding Wave2Out2Selected}" HorizontalAlignment="Center" />
+                            <Border Grid.Column="2" Background="#333" Height="20" Margin="2" CornerRadius="2" />
+                            <CheckBox Grid.Column="3" IsChecked="{Binding Wave2Enabled}" HorizontalAlignment="Center" />
+                            <TextBox Grid.Column="4" Text="{Binding Wave2Wcm}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="5" Text="{Binding Wave2Spike}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="6" Text="{Binding Wave2LengthRatio}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="7" Text="{Binding Wave2Percent}" HorizontalContentAlignment="Center" Margin="1,0" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="30,30,80,30,50,50,70,40">
+                            <RadioButton Grid.Column="0" GroupName="WaveOut1" IsChecked="{Binding Wave3Out1Selected}" HorizontalAlignment="Center" />
+                            <RadioButton Grid.Column="1" GroupName="WaveOut2" IsChecked="{Binding Wave3Out2Selected}" HorizontalAlignment="Center" />
+                            <Border Grid.Column="2" Background="#333" Height="20" Margin="2" CornerRadius="2" />
+                            <CheckBox Grid.Column="3" IsChecked="{Binding Wave3Enabled}" HorizontalAlignment="Center" />
+                            <TextBox Grid.Column="4" Text="{Binding Wave3Wcm}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="5" Text="{Binding Wave3Spike}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="6" Text="{Binding Wave3LengthRatio}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="7" Text="{Binding Wave3Percent}" HorizontalContentAlignment="Center" Margin="1,0" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="30,30,80,30,50,50,70,40">
+                            <RadioButton Grid.Column="0" GroupName="WaveOut1" IsChecked="{Binding Wave4Out1Selected}" HorizontalAlignment="Center" />
+                            <RadioButton Grid.Column="1" GroupName="WaveOut2" IsChecked="{Binding Wave4Out2Selected}" HorizontalAlignment="Center" />
+                            <Border Grid.Column="2" Background="#333" Height="20" Margin="2" CornerRadius="2" />
+                            <CheckBox Grid.Column="3" IsChecked="{Binding Wave4Enabled}" HorizontalAlignment="Center" />
+                            <TextBox Grid.Column="4" Text="{Binding Wave4Wcm}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="5" Text="{Binding Wave4Spike}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="6" Text="{Binding Wave4LengthRatio}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="7" Text="{Binding Wave4Percent}" HorizontalContentAlignment="Center" Margin="1,0" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="30,30,80,30,50,50,70,40">
+                            <RadioButton Grid.Column="0" GroupName="WaveOut1" IsChecked="{Binding Wave5Out1Selected}" HorizontalAlignment="Center" />
+                            <RadioButton Grid.Column="1" GroupName="WaveOut2" IsChecked="{Binding Wave5Out2Selected}" HorizontalAlignment="Center" />
+                            <Border Grid.Column="2" Background="#333" Height="20" Margin="2" CornerRadius="2" />
+                            <CheckBox Grid.Column="3" IsChecked="{Binding Wave5Enabled}" HorizontalAlignment="Center" />
+                            <TextBox Grid.Column="4" Text="{Binding Wave5Wcm}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="5" Text="{Binding Wave5Spike}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="6" Text="{Binding Wave5LengthRatio}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="7" Text="{Binding Wave5Percent}" HorizontalContentAlignment="Center" Margin="1,0" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="30,30,80,30,50,50,70,40">
+                            <RadioButton Grid.Column="0" GroupName="WaveOut1" IsChecked="{Binding Wave6Out1Selected}" HorizontalAlignment="Center" />
+                            <RadioButton Grid.Column="1" GroupName="WaveOut2" IsChecked="{Binding Wave6Out2Selected}" HorizontalAlignment="Center" />
+                            <Border Grid.Column="2" Background="#333" Height="20" Margin="2" CornerRadius="2" />
+                            <CheckBox Grid.Column="3" IsChecked="{Binding Wave6Enabled}" HorizontalAlignment="Center" />
+                            <TextBox Grid.Column="4" Text="{Binding Wave6Wcm}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="5" Text="{Binding Wave6Spike}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="6" Text="{Binding Wave6LengthRatio}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="7" Text="{Binding Wave6Percent}" HorizontalContentAlignment="Center" Margin="1,0" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="30,30,80,30,50,50,70,40">
+                            <RadioButton Grid.Column="0" GroupName="WaveOut1" IsChecked="{Binding Wave7Out1Selected}" HorizontalAlignment="Center" />
+                            <RadioButton Grid.Column="1" GroupName="WaveOut2" IsChecked="{Binding Wave7Out2Selected}" HorizontalAlignment="Center" />
+                            <Border Grid.Column="2" Background="#333" Height="20" Margin="2" CornerRadius="2" />
+                            <CheckBox Grid.Column="3" IsChecked="{Binding Wave7Enabled}" HorizontalAlignment="Center" />
+                            <TextBox Grid.Column="4" Text="{Binding Wave7Wcm}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="5" Text="{Binding Wave7Spike}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="6" Text="{Binding Wave7LengthRatio}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="7" Text="{Binding Wave7Percent}" HorizontalContentAlignment="Center" Margin="1,0" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="30,30,80,30,50,50,70,40">
+                            <RadioButton Grid.Column="0" GroupName="WaveOut1" IsChecked="{Binding Wave8Out1Selected}" HorizontalAlignment="Center" />
+                            <RadioButton Grid.Column="1" GroupName="WaveOut2" IsChecked="{Binding Wave8Out2Selected}" HorizontalAlignment="Center" />
+                            <Border Grid.Column="2" Background="#333" Height="20" Margin="2" CornerRadius="2" />
+                            <CheckBox Grid.Column="3" IsChecked="{Binding Wave8Enabled}" HorizontalAlignment="Center" />
+                            <TextBox Grid.Column="4" Text="{Binding Wave8Wcm}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="5" Text="{Binding Wave8Spike}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="6" Text="{Binding Wave8LengthRatio}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="7" Text="{Binding Wave8Percent}" HorizontalContentAlignment="Center" Margin="1,0" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="30,30,80,30,50,50,70,40">
+                            <RadioButton Grid.Column="0" GroupName="WaveOut1" IsChecked="{Binding Wave9Out1Selected}" HorizontalAlignment="Center" />
+                            <RadioButton Grid.Column="1" GroupName="WaveOut2" IsChecked="{Binding Wave9Out2Selected}" HorizontalAlignment="Center" />
+                            <Border Grid.Column="2" Background="#333" Height="20" Margin="2" CornerRadius="2" />
+                            <CheckBox Grid.Column="3" IsChecked="{Binding Wave9Enabled}" HorizontalAlignment="Center" />
+                            <TextBox Grid.Column="4" Text="{Binding Wave9Wcm}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="5" Text="{Binding Wave9Spike}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="6" Text="{Binding Wave9LengthRatio}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="7" Text="{Binding Wave9Percent}" HorizontalContentAlignment="Center" Margin="1,0" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="30,30,80,30,50,50,70,40">
+                            <RadioButton Grid.Column="0" GroupName="WaveOut1" IsChecked="{Binding Wave10Out1Selected}" HorizontalAlignment="Center" />
+                            <RadioButton Grid.Column="1" GroupName="WaveOut2" IsChecked="{Binding Wave10Out2Selected}" HorizontalAlignment="Center" />
+                            <Border Grid.Column="2" Background="#333" Height="20" Margin="2" CornerRadius="2" />
+                            <CheckBox Grid.Column="3" IsChecked="{Binding Wave10Enabled}" HorizontalAlignment="Center" />
+                            <TextBox Grid.Column="4" Text="{Binding Wave10Wcm}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="5" Text="{Binding Wave10Spike}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="6" Text="{Binding Wave10LengthRatio}" HorizontalContentAlignment="Center" Margin="1,0" />
+                            <TextBox Grid.Column="7" Text="{Binding Wave10Percent}" HorizontalContentAlignment="Center" Margin="1,0" />
+                        </Grid>
+
+                        <Border Height="4" />
+
+                        <!-- Waveform dropdowns -->
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <ComboBox ItemsSource="{Binding WaveformPresets}" SelectedItem="{Binding SelectedWaveformPreset}" Width="120" />
+                            <ComboBox ItemsSource="{Binding WaveformShapes}" SelectedItem="{Binding SelectedWaveformShape}" Width="120" />
+                        </StackPanel>
+
+                        <!-- Follow/Spike/Inverse options -->
+                        <StackPanel Orientation="Horizontal" Spacing="8" Margin="0,4,0,0">
+                            <RadioButton Content="Follow Out 1" GroupName="WaveFollow" IsChecked="{Binding FollowOut1}" />
+                            <RadioButton Content="Spike +" GroupName="WaveFollow" IsChecked="{Binding SpikePlus}" />
+                            <RadioButton Content="Inverse -" GroupName="WaveFollow" IsChecked="{Binding InverseMinus}" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <CheckBox Content="+Spike" IsChecked="{Binding PlusSpikeEnabled}" />
+                            <CheckBox Content="-Spike" IsChecked="{Binding MinusSpikeEnabled}" />
+                            <CheckBox Content="-Edge" IsChecked="{Binding MinusEdgeEnabled}" />
+                            <TextBlock Text="Count:" VerticalAlignment="Center" />
+                            <TextBox Text="{Binding SpikeCount}" Width="40" HorizontalContentAlignment="Center" />
+                        </StackPanel>
+
+                        <!-- F2 formula -->
+                        <StackPanel Orientation="Horizontal" Spacing="4" Margin="0,4,0,0">
+                            <TextBlock Text="F2 = F1 X" VerticalAlignment="Center" />
+                            <TextBox Text="{Binding F2Multiplier}" Width="40" HorizontalContentAlignment="Center" />
+                            <TextBlock Text="Hz" VerticalAlignment="Center" />
+                            <TextBox Text="{Binding F2Offset}" Width="50" HorizontalContentAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Spacing="4">
+                            <CheckBox Content="Add F1 to F2" IsChecked="{Binding AddF1ToF2}" />
+                            <ComboBox ItemsSource="{Binding F1F2Modes}" SelectedItem="{Binding SelectedF1F2Mode}" Width="100" />
+                        </StackPanel>
+
+                        <!-- Graph display -->
+                        <StackPanel Orientation="Horizontal" Spacing="8" Margin="0,4,0,0">
+                            <TextBlock Text="Graph Display:" VerticalAlignment="Center" />
+                            <RadioButton Content="MN" GroupName="GraphDisplay" IsChecked="{Binding GraphDisplayMn}" />
+                            <RadioButton Content="BN" GroupName="GraphDisplay" IsChecked="{Binding GraphDisplayBn}" />
+                        </StackPanel>
+
+                        <!-- Write Waveforms button -->
+                        <Button Content="Write Waveforms"
+                                Command="{Binding WriteWaveformsCommand}"
+                                HorizontalAlignment="Stretch"
+                                Margin="0,4,0,0" />
+                    </StackPanel>
+                </Border>
+
+            </StackPanel>
+
+            <!-- ═══════════════════════════════════════════════════════════ -->
+            <!-- RIGHT COLUMN                                               -->
+            <!-- ═══════════════════════════════════════════════════════════ -->
+            <StackPanel Grid.Column="2" Spacing="6" Margin="6,0,0,0">
+
+                <!-- Restore Defaults + Startup Options -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8">
+                    <Button Content="Restore Defaults"
+                            Command="{Binding RestoreDefaultsCommand}"
+                            ToolTip.Tip="Return the settings on this page to default values"
+                            Width="140" Height="33" />
+                </StackPanel>
+
+                <!-- Startup Options -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1" CornerRadius="4" Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Startup Options" FontWeight="Bold" Margin="0,0,0,4" />
+                        <RadioButton Content="Manual Start" GroupName="StartupMode" IsChecked="{Binding ManualStart}" />
+                        <RadioButton Content="Auto Start" GroupName="StartupMode" IsChecked="{Binding AutoStart}" />
+                        <RadioButton Content="Auto Resume" GroupName="StartupMode" IsChecked="{Binding AutoResume}" />
+                    </StackPanel>
+                </Border>
+
+                <!-- Audio Options -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1" CornerRadius="4" Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Audio Options" FontWeight="Bold" Margin="0,0,0,4" />
+                        <CheckBox Content="Notify When Zero Hz" IsChecked="{Binding NotifyWhenZeroHz}" />
+                        <CheckBox Content="Notify When Program Advances" IsChecked="{Binding NotifyWhenProgramAdvances}" />
+                    </StackPanel>
+                </Border>
+
+                <!-- Waveform Display (preview placeholders) -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1" CornerRadius="4" Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Waveform Display" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <!-- Waveform preview 1 (Out 1 - red) -->
+                        <Border Background="#1AFF0000" BorderBrush="#FF0000" BorderThickness="1"
+                                Height="60" CornerRadius="2">
+                            <TextBlock Text="Out 1 Waveform Preview" Foreground="#FF0000"
+                                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                                       FontSize="10" />
+                        </Border>
+
+                        <!-- Waveform preview 2 (Out 2 - blue) -->
+                        <Border Background="#1A0000FF" BorderBrush="#0000FF" BorderThickness="1"
+                                Height="60" CornerRadius="2">
+                            <TextBlock Text="Out 2 Waveform Preview" Foreground="#0000FF"
+                                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                                       FontSize="10" />
+                        </Border>
+
+                        <!-- Waveform preview 3 (Combined - black) -->
+                        <Border Background="#1A000000" BorderBrush="#000000" BorderThickness="1"
+                                Height="60" CornerRadius="2">
+                            <TextBlock Text="Combined Waveform Preview"
+                                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                                       FontSize="10" />
+                        </Border>
+                    </StackPanel>
+                </Border>
+
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</UserControl>

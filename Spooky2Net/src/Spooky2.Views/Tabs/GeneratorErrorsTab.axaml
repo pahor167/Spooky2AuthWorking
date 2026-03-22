@@ -1,0 +1,38 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Spooky2.Views.Tabs.GeneratorErrorsTab">
+
+    <DockPanel Margin="8">
+
+        <!-- Top bar: Title + buttons -->
+        <Grid DockPanel.Dock="Top"
+              ColumnDefinitions="*,Auto,Auto"
+              Margin="0,0,0,8">
+
+            <TextBlock Grid.Column="0"
+                       Text="Errors"
+                       FontWeight="Bold"
+                       FontSize="14"
+                       VerticalAlignment="Center"
+                       Margin="24,0,0,0" />
+
+            <Button Grid.Column="1"
+                    Content="Clear Errors"
+                    Command="{Binding ClearErrorsCommand}"
+                    ToolTip.Tip="Clear the list of Errors"
+                    Margin="0,0,8,0"
+                    Width="120" Height="35" />
+
+            <Button Grid.Column="2"
+                    Content="Write to File"
+                    Command="{Binding WriteErrorsToFileCommand}"
+                    ToolTip.Tip="Write the full list of errors to a file of your choosing"
+                    Width="120" Height="35" />
+        </Grid>
+
+        <!-- Error list -->
+        <ListBox ItemsSource="{Binding ErrorMessages}"
+                 Background="{DynamicResource SystemControlBackgroundBaseLowBrush}"
+                 Margin="24,0,24,0" />
+    </DockPanel>
+</UserControl>

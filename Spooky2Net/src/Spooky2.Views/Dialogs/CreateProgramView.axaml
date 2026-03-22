@@ -1,0 +1,60 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Spooky2.Views.Dialogs.CreateProgramView"
+        Title="Create Program"
+        Width="700" Height="600"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="Arial"
+        FontSize="13">
+
+    <Grid Margin="8" RowDefinitions="Auto,Auto,Auto,*,Auto,Auto,Auto,Auto,Auto">
+
+        <!-- Row 0: Program Name description -->
+        <TextBlock Grid.Row="0" Text="Give your program a descriptive name. This will assist you when you do a program search."
+                   TextWrapping="Wrap" Margin="0,0,0,4" />
+
+        <!-- Row 1: Program Name + Save button -->
+        <Grid Grid.Row="1" ColumnDefinitions="Auto,*,Auto" Margin="0,0,0,8">
+            <TextBlock Text="Program Name:" VerticalAlignment="Center" Margin="0,0,8,0" />
+            <TextBox Grid.Column="1" Text="{Binding ProgramName}"
+                     ToolTip.Tip="Give your program set a descriptive name." />
+            <Button Grid.Column="2" Command="{Binding SaveCommand}" Margin="8,0,0,0"
+                    ToolTip.Tip="Add the program to the Custom database" Content="Save" Width="60" />
+        </Grid>
+
+        <!-- Row 2: Frequency Source label -->
+        <TextBlock Grid.Row="2" Text="Frequencies" Margin="0,0,0,2" />
+
+        <!-- Row 3: Frequency Source (multiline) -->
+        <TextBox Grid.Row="3" Text="{Binding FrequencySource}" AcceptsReturn="True" TextWrapping="Wrap"
+                 ToolTip.Tip="Enter frequencies and optional advanced commands, comma separated."
+                 Margin="0,0,0,6" />
+
+        <!-- Row 4: Frequencies label -->
+        <TextBlock Grid.Row="4" Text="Frequencies (comma-separated):" Margin="0,0,0,2" />
+
+        <!-- Row 5: Frequencies TextBox -->
+        <TextBox Grid.Row="5" Text="{Binding Frequencies}" AcceptsReturn="True" TextWrapping="Wrap"
+                 Height="80" Margin="0,0,0,6" />
+
+        <!-- Row 6: Dwell -->
+        <StackPanel Grid.Row="6" Spacing="4" Margin="0,0,0,4">
+            <TextBlock Text="Enter the default duration (in seconds) you wish to apply each frequency." />
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <TextBlock Text="Dwell:" VerticalAlignment="Center" />
+                <TextBox Text="{Binding DefaultDwell, FallbackValue=180}" Width="80" HorizontalContentAlignment="Center"
+                         ToolTip.Tip="This is the default number of seconds each frequency should run." />
+                <TextBlock Text="{Binding DatabaseName}" VerticalAlignment="Center" Foreground="Gray"
+                           IsVisible="{Binding DatabaseName, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Row 7: Notes label -->
+        <TextBlock Grid.Row="7" Text="Any notes for this program should be entered here. Spooky2 will include this in searches."
+                   Margin="0,0,0,2" />
+
+        <!-- Row 8: Notes -->
+        <TextBox Grid.Row="8" Text="{Binding Notes}" AcceptsReturn="True" TextWrapping="Wrap" Height="80"
+                 ToolTip.Tip="Enter a good description. This will help during searches later" />
+    </Grid>
+</Window>

@@ -1,0 +1,425 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Spooky2.Views.Tabs.SystemTab">
+
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled"
+                  VerticalScrollBarVisibility="Auto">
+        <Grid ColumnDefinitions="*,*"
+              Margin="8">
+
+            <!-- Left column -->
+            <StackPanel Grid.Column="0" Spacing="8" Margin="0,0,8,0">
+
+                <!-- General Settings -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1"
+                        CornerRadius="4"
+                        Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="General Settings" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <Grid ColumnDefinitions="*,*">
+                            <!-- Column 1 -->
+                            <StackPanel Grid.Column="0" Spacing="2">
+                                <CheckBox Content="Display Port Number"
+                                          IsChecked="{Binding DisplayPortNumber}"
+                                          ToolTip.Tip="Display port number alongside generator name" />
+                                <CheckBox Content="High CPU Priority"
+                                          IsChecked="{Binding HighCpuPriorityEnabled}"
+                                          ToolTip.Tip="Set Spooky to run at high CPU priority on your system" />
+                                <CheckBox Content="Write Program Log"
+                                          IsChecked="{Binding WriteLogFile}"
+                                          ToolTip.Tip="Write a program log file" />
+                                <CheckBox Content="Show Decimal Time In Seconds"
+                                          IsChecked="{Binding ShowDecimalTimeInSeconds}"
+                                          ToolTip.Tip="Show time values with decimal precision in seconds" />
+
+                                <Border Height="8" />
+
+                                <CheckBox Content="Always Overwrite Generator"
+                                          IsChecked="{Binding AlwaysOverwriteGenerator}"
+                                          ToolTip.Tip="Always overwrite generator settings without asking" />
+                                <CheckBox Content="Auto Close Control Panel"
+                                          IsChecked="{Binding AutoCloseControlPanel}"
+                                          ToolTip.Tip="Automatically close control panel after starting" />
+                                <CheckBox Content="Disable Tooltips"
+                                          IsChecked="{Binding DisableTooltips}"
+                                          ToolTip.Tip="Disable all tooltips throughout the application" />
+                                <CheckBox Content="Show Program Total Run Time"
+                                          IsChecked="{Binding ShowProgramTotalRunTime}"
+                                          ToolTip.Tip="Show total run time for programs" />
+                                <CheckBox Content="Enable Right-Click Contextual Help"
+                                          IsChecked="{Binding EnableContextualHelp}"
+                                          ToolTip.Tip="Enable contextual help on right-click" />
+
+                                <Border Height="8" />
+
+                                <CheckBox Content="Prevent Computer Hibernation"
+                                          IsChecked="{Binding PreventHibernation}"
+                                          ToolTip.Tip="Prevent the computer from hibernating while Spooky is running" />
+                                <CheckBox Content="Display GX Current + Angle"
+                                          IsChecked="{Binding DisplayGxCurrentAngle}"
+                                          ToolTip.Tip="Display GX current and angle values" />
+                                <CheckBox Content="Fast"
+                                          IsChecked="{Binding FastBfbModeEnabled}"
+                                          ToolTip.Tip="Enable fast BFB mode" />
+                            </StackPanel>
+
+                            <!-- Column 2 -->
+                            <StackPanel Grid.Column="1" Spacing="2">
+                                <CheckBox Content="Read Single BFB Variable"
+                                          IsChecked="{Binding ReadSingleBfbVariable}"
+                                          ToolTip.Tip="Read only a single BFB variable instead of both" />
+                                <CheckBox Content="Save BFB Work Files"
+                                          IsChecked="{Binding SaveBfbWorkFiles}"
+                                          ToolTip.Tip="Save BFB work files for analysis" />
+                                <CheckBox Content="Pulse Sound During BFB"
+                                          IsChecked="{Binding PulseSoundDuringBfb}"
+                                          ToolTip.Tip="Play pulse sound during biofeedback scans" />
+                                <CheckBox Content="Pause Generators During BFB"
+                                          IsChecked="{Binding PauseGeneratorsDuringBfb}"
+                                          ToolTip.Tip="Pause generators during biofeedback scans" />
+                                <CheckBox Content="Save on every Scan/Run cycle"
+                                          IsChecked="{Binding SaveOnEveryCycle}"
+                                          ToolTip.Tip="Save data on every scan or run cycle" />
+                                <CheckBox Content="Accumulate Scan/Run Cycle Hits"
+                                          IsChecked="{Binding AccumulateCycleHits}"
+                                          ToolTip.Tip="Accumulate hits across scan and run cycles" />
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- Active Databases -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1"
+                        CornerRadius="4"
+                        Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Active Databases" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <Grid ColumnDefinitions="Auto,160,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto">
+                            <CheckBox Grid.Row="0" Grid.Column="0"
+                                      IsChecked="{Binding MainDatabaseEnabled}"
+                                      Margin="0,0,4,2" />
+                            <TextBlock Grid.Row="0" Grid.Column="1"
+                                       Text="Main Database:" VerticalAlignment="Center" />
+                            <TextBlock Grid.Row="0" Grid.Column="2"
+                                       Text="{Binding MainDatabasePath}" VerticalAlignment="Center" />
+
+                            <CheckBox Grid.Row="1" Grid.Column="0"
+                                      IsChecked="{Binding DnaDatabaseEnabled}"
+                                      Margin="0,0,4,2" />
+                            <TextBlock Grid.Row="1" Grid.Column="1"
+                                       Text="DNA Database:" VerticalAlignment="Center" />
+                            <TextBlock Grid.Row="1" Grid.Column="2"
+                                       Text="{Binding DnaDatabasePath}" VerticalAlignment="Center" />
+
+                            <CheckBox Grid.Row="2" Grid.Column="0"
+                                      IsChecked="{Binding NonHumanDnaDatabaseEnabled}"
+                                      Margin="0,0,4,2" />
+                            <TextBlock Grid.Row="2" Grid.Column="1"
+                                       Text="Non-Human DNA Database:" VerticalAlignment="Center" />
+                            <TextBlock Grid.Row="2" Grid.Column="2"
+                                       Text="{Binding NonHumanDnaDatabasePath}" VerticalAlignment="Center" />
+
+                            <CheckBox Grid.Row="3" Grid.Column="0"
+                                      IsChecked="{Binding MwDatabaseEnabled}"
+                                      Margin="0,0,4,2" />
+                            <TextBlock Grid.Row="3" Grid.Column="1"
+                                       Text="Molecular Weight Database:" VerticalAlignment="Center" />
+                            <TextBlock Grid.Row="3" Grid.Column="2"
+                                       Text="{Binding MwDatabasePath}" VerticalAlignment="Center" />
+
+                            <CheckBox Grid.Row="4" Grid.Column="0"
+                                      IsChecked="{Binding CustomDb1Enabled}"
+                                      Margin="0,0,4,2" />
+                            <TextBlock Grid.Row="4" Grid.Column="1"
+                                       Text="Custom Database #1:" VerticalAlignment="Center" />
+                            <TextBlock Grid.Row="4" Grid.Column="2"
+                                       Text="{Binding CustomDb1Path}" VerticalAlignment="Center" />
+
+                            <CheckBox Grid.Row="5" Grid.Column="0"
+                                      IsChecked="{Binding CustomDb2Enabled}"
+                                      Margin="0,0,4,2" />
+                            <TextBlock Grid.Row="5" Grid.Column="1"
+                                       Text="Custom Database #2:" VerticalAlignment="Center" />
+                            <TextBlock Grid.Row="5" Grid.Column="2"
+                                       Text="{Binding CustomDb2Path}" VerticalAlignment="Center" />
+
+                            <CheckBox Grid.Row="6" Grid.Column="0"
+                                      IsChecked="{Binding CustomDb3Enabled}"
+                                      Margin="0,0,4,2" />
+                            <TextBlock Grid.Row="6" Grid.Column="1"
+                                       Text="Custom Database #3:" VerticalAlignment="Center" />
+                            <TextBlock Grid.Row="6" Grid.Column="2"
+                                       Text="{Binding CustomDb3Path}" VerticalAlignment="Center" />
+
+                            <CheckBox Grid.Row="7" Grid.Column="0"
+                                      IsChecked="{Binding CustomDb4Enabled}"
+                                      Margin="0,0,4,2" />
+                            <TextBlock Grid.Row="7" Grid.Column="1"
+                                       Text="Custom Database #4:" VerticalAlignment="Center" />
+                            <TextBlock Grid.Row="7" Grid.Column="2"
+                                       Text="{Binding CustomDb4Path}" VerticalAlignment="Center" />
+
+                            <CheckBox Grid.Row="8" Grid.Column="0"
+                                      IsChecked="{Binding BiofeedbackDatabaseEnabled}"
+                                      Margin="0,0,4,2" />
+                            <TextBlock Grid.Row="8" Grid.Column="1"
+                                       Text="Biofeedback Database:" VerticalAlignment="Center" />
+                            <TextBlock Grid.Row="8" Grid.Column="2"
+                                       Text="{Binding BiofeedbackDatabasePath}" VerticalAlignment="Center" />
+
+                            <CheckBox Grid.Row="9" Grid.Column="0"
+                                      IsChecked="{Binding EncyclopediaEnabled}"
+                                      Margin="0,0,4,2" />
+                            <TextBlock Grid.Row="9" Grid.Column="1"
+                                       Text="Encyclopedia:" VerticalAlignment="Center" />
+                            <TextBlock Grid.Row="9" Grid.Column="2"
+                                       Text="{Binding EncyclopediaPath}" VerticalAlignment="Center" />
+                        </Grid>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+            <!-- Right column -->
+            <StackPanel Grid.Column="1" Spacing="8" Margin="8,0,0,0">
+
+                <!-- Spooky Pulse Limits -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1"
+                        CornerRadius="4"
+                        Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Spooky Pulse Limits" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <Grid ColumnDefinitions="100,80" RowDefinitions="Auto,Auto,Auto">
+                            <TextBlock Grid.Row="0" Grid.Column="0"
+                                       Text="Min BPM" VerticalAlignment="Center" />
+                            <TextBox Grid.Row="0" Grid.Column="1"
+                                     Text="{Binding MinimumBeatsPerMinute}"
+                                     HorizontalContentAlignment="Center"
+                                     ToolTip.Tip="Minimum acceptable pulse rate during biofeedback scans"
+                                     Margin="0,0,0,4" />
+
+                            <TextBlock Grid.Row="1" Grid.Column="0"
+                                       Text="Max BPM" VerticalAlignment="Center" />
+                            <TextBox Grid.Row="1" Grid.Column="1"
+                                     Text="{Binding MaximumBeatsPerMinute}"
+                                     HorizontalContentAlignment="Center"
+                                     ToolTip.Tip="Maximum acceptable pulse rate during biofeedback scans"
+                                     Margin="0,0,0,4" />
+
+                            <TextBlock Grid.Row="2" Grid.Column="0"
+                                       Text="Max HRV" VerticalAlignment="Center" />
+                            <TextBox Grid.Row="2" Grid.Column="1"
+                                     Text="{Binding MaximumHeartRateVariability}"
+                                     HorizontalContentAlignment="Center"
+                                     ToolTip.Tip="The maximum allowable change of pulse rate between heart beats" />
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- Skin/Font/Sounds -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1"
+                        CornerRadius="4"
+                        Padding="8">
+                    <StackPanel Spacing="4">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock Text="Skin" VerticalAlignment="Center" Width="80" />
+                            <ComboBox ItemsSource="{Binding Skins}"
+                                      SelectedItem="{Binding SelectedSkin}"
+                                      ToolTip.Tip="Change the look of Spooky"
+                                      Width="180" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock Text="Font Size" VerticalAlignment="Center" Width="80" />
+                            <TextBox Text="{Binding FontSize}"
+                                     Width="60"
+                                     HorizontalContentAlignment="Center"
+                                     ToolTip.Tip="Set the application font size" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock Text="Sounds" VerticalAlignment="Center" Width="80" />
+                            <ComboBox ItemsSource="{Binding SoundPacks}"
+                                      SelectedItem="{Binding SelectedSoundPack}"
+                                      ToolTip.Tip="Set the voice or sounds of Spooky"
+                                      Width="180" />
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Frequency Blacklist Control -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1"
+                        CornerRadius="4"
+                        Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Frequency Blacklist Control" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <Grid ColumnDefinitions="*,Auto" Margin="0,0,0,4">
+                            <TextBox Grid.Column="0"
+                                     Text="{Binding BlacklistFrequencyText}"
+                                     ToolTip.Tip="Enter the frequency you want Spooky2 to avoid"
+                                     Margin="0,0,4,0" />
+                            <Button Grid.Column="1"
+                                    Content="+"
+                                    Command="{Binding AddBlacklistFrequencyCommand}"
+                                    ToolTip.Tip="Add the entered frequency to the Frequency Blacklist"
+                                    Width="25" Height="25" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="*,Auto">
+                            <ListBox Grid.Column="0"
+                                     ItemsSource="{Binding BlacklistFrequencies}"
+                                     Height="84"
+                                     ToolTip.Tip="List of frequencies that Spooky2 will avoid" />
+                            <Button Grid.Column="1"
+                                    Command="{Binding ClearBlacklistCommand}"
+                                    ToolTip.Tip="Clear the frequency blacklist"
+                                    Width="33" Height="33"
+                                    VerticalAlignment="Top"
+                                    Margin="4,0,0,0"
+                                    Content="X" />
+                        </Grid>
+
+                        <CheckBox Content="Octave"
+                                  IsChecked="{Binding BlacklistOctaveEnabled}"
+                                  ToolTip.Tip="Avoid Octave harmonics and sub harmonics of the blacklist frequencies" />
+                        <CheckBox Content="Decade"
+                                  IsChecked="{Binding BlacklistDecadeEnabled}"
+                                  ToolTip.Tip="Avoid Decade harmonics and subharmonics of the blacklist frequencies" />
+                    </StackPanel>
+                </Border>
+
+                <!-- Connected Hardware -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1"
+                        CornerRadius="4"
+                        Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Connected Hardware" FontWeight="Bold" Margin="0,0,0,4" />
+                        <ListBox ItemsSource="{Binding ConnectedHardware}"
+                                 Height="100"
+                                 Background="{DynamicResource SystemControlBackgroundBaseLowBrush}" />
+                    </StackPanel>
+                </Border>
+
+                <!-- Global Wobble -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1"
+                        CornerRadius="4"
+                        Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Global Wobble" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <!-- Header row -->
+                        <Grid ColumnDefinitions="150,170,60,90">
+                            <TextBlock Grid.Column="1" Text="Waveform" HorizontalAlignment="Center" />
+                            <TextBlock Grid.Column="2" Text="%" HorizontalAlignment="Center" />
+                            <TextBlock Grid.Column="3" Text="Steps" HorizontalAlignment="Center" />
+                        </Grid>
+
+                        <!-- Amplitude Wobble -->
+                        <Grid ColumnDefinitions="150,170,60,90">
+                            <TextBlock Grid.Column="0" Text="Amplitude Wobble"
+                                       VerticalAlignment="Center" />
+                            <ComboBox Grid.Column="1"
+                                      ItemsSource="{Binding WobbleWaveforms}"
+                                      SelectedItem="{Binding AmplitudeWobbleWaveform}"
+                                      ToolTip.Tip="The Amplitude will wobble using this waveform"
+                                      Margin="0,0,4,4" />
+                            <TextBox Grid.Column="2"
+                                     Text="{Binding AmplitudeWobblePercent}"
+                                     HorizontalContentAlignment="Center"
+                                     Margin="0,0,4,4" />
+                            <TextBox Grid.Column="3"
+                                     Text="{Binding AmplitudeWobbleSteps}"
+                                     HorizontalContentAlignment="Center"
+                                     Margin="0,0,0,4" />
+                        </Grid>
+
+                        <!-- Frequency Wobble -->
+                        <Grid ColumnDefinitions="150,170,60,90">
+                            <TextBlock Grid.Column="0" Text="Frequency Wobble"
+                                       VerticalAlignment="Center" />
+                            <ComboBox Grid.Column="1"
+                                      ItemsSource="{Binding WobbleWaveforms}"
+                                      SelectedItem="{Binding FrequencyWobbleWaveform}"
+                                      ToolTip.Tip="The Frequency will wobble using this waveform"
+                                      Margin="0,0,4,0" />
+                            <TextBox Grid.Column="2"
+                                     Text="{Binding FrequencyWobblePercent}"
+                                     HorizontalContentAlignment="Center"
+                                     Margin="0,0,4,0" />
+                            <TextBox Grid.Column="3"
+                                     Text="{Binding FrequencyWobbleSteps}"
+                                     HorizontalContentAlignment="Center" />
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- Frequency Conversions -->
+                <Border BorderBrush="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                        BorderThickness="1"
+                        CornerRadius="4"
+                        Padding="8">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Frequency Conversions" FontWeight="Bold" Margin="0,0,0,4" />
+
+                        <Grid ColumnDefinitions="130,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto">
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="MW to Hz Factor"
+                                       HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,8,4" />
+                            <TextBox Grid.Row="0" Grid.Column="1"
+                                     Text="{Binding MwToHzFactor}"
+                                     HorizontalContentAlignment="Center"
+                                     Margin="0,0,0,4" />
+
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="MW Inhibit Factor"
+                                       HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,8,4" />
+                            <TextBox Grid.Row="1" Grid.Column="1"
+                                     Text="{Binding MwInhibitFactor}"
+                                     HorizontalContentAlignment="Center"
+                                     Margin="0,0,0,4" />
+
+                            <TextBlock Grid.Row="2" Grid.Column="0" Text="DNA to Hz Factor"
+                                       HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,8,4" />
+                            <TextBox Grid.Row="2" Grid.Column="1"
+                                     Text="{Binding DnaToHzFactor}"
+                                     HorizontalContentAlignment="Center"
+                                     Margin="0,0,0,4" />
+
+                            <TextBlock Grid.Row="3" Grid.Column="0" Text="RNA to Hz Factor"
+                                       HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,8,4" />
+                            <TextBox Grid.Row="3" Grid.Column="1"
+                                     Text="{Binding RnaToHzFactor}"
+                                     HorizontalContentAlignment="Center"
+                                     Margin="0,0,0,4" />
+
+                            <TextBlock Grid.Row="4" Grid.Column="0" Text="mRNA to Hz Factor"
+                                       HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,8,4" />
+                            <TextBox Grid.Row="4" Grid.Column="1"
+                                     Text="{Binding MrnaToHzFactor}"
+                                     HorizontalContentAlignment="Center"
+                                     Margin="0,0,0,4" />
+
+                            <TextBlock Grid.Row="5" Grid.Column="0" Text="Tissue Factor"
+                                       HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,8,0" />
+                            <TextBox Grid.Row="5" Grid.Column="1"
+                                     Text="{Binding TissueFactor}"
+                                     HorizontalContentAlignment="Center" />
+                        </Grid>
+
+                        <Button Content="Reset MW Factors"
+                                Command="{Binding ResetMwFactorsCommand}"
+                                ToolTip.Tip="Reset Molecular Weight Factors to default values"
+                                HorizontalAlignment="Right"
+                                Margin="0,4,0,0" />
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</UserControl>

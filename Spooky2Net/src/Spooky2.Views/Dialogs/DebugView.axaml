@@ -1,0 +1,30 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Spooky2.Views.Dialogs.DebugView"
+        Title="Debug Output"
+        Width="800" Height="500"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="Arial"
+        FontSize="12">
+
+    <Grid Margin="8" RowDefinitions="*,Auto,*">
+
+        <!-- Top: Debug messages list + Clear button -->
+        <Grid Grid.Row="0" ColumnDefinitions="*,Auto">
+            <ListBox Grid.Column="0" ItemsSource="{Binding DebugMessages}" Margin="0,0,6,0" />
+            <Button Grid.Column="1" Content="Clear" Command="{Binding ClearDebugCommand}"
+                    VerticalAlignment="Top" Width="60"
+                    ToolTip.Tip="Clear all the debug messages" />
+        </Grid>
+
+        <GridSplitter Grid.Row="1" Height="6" HorizontalAlignment="Stretch" />
+
+        <!-- Bottom: Error messages list + Clear button -->
+        <Grid Grid.Row="2" ColumnDefinitions="*,Auto">
+            <ListBox Grid.Column="0" ItemsSource="{Binding ErrorMessages}" Margin="0,0,6,0" />
+            <Button Grid.Column="1" Content="Clear" Command="{Binding ClearErrorsCommand}"
+                    VerticalAlignment="Top" Width="60"
+                    ToolTip.Tip="Clear all the error messages" />
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,32 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Spooky2.Views.Dialogs.ProcessFormTextView"
+        Title="Process Text"
+        Width="600" Height="500"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="Arial"
+        FontSize="13">
+
+    <Grid Margin="8" RowDefinitions="Auto,*,Auto,*,Auto">
+
+        <!-- Row 0: Input label -->
+        <TextBlock Grid.Row="0" Text="Input Text:" FontWeight="Bold" Margin="0,0,0,4" />
+
+        <!-- Row 1: Input TextBox -->
+        <TextBox Grid.Row="1" Text="{Binding InputText}" AcceptsReturn="True" TextWrapping="Wrap"
+                 Margin="0,0,0,8" />
+
+        <!-- Row 2: Output label -->
+        <TextBlock Grid.Row="2" Text="Output Text:" FontWeight="Bold" Margin="0,0,0,4" />
+
+        <!-- Row 3: Output TextBox (read-only) -->
+        <TextBox Grid.Row="3" Text="{Binding OutputText}" IsReadOnly="True"
+                 AcceptsReturn="True" TextWrapping="Wrap" Margin="0,0,0,8" />
+
+        <!-- Row 4: Buttons -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center" Spacing="16">
+            <Button Content="Process" Command="{Binding ProcessCommand}" Width="100" />
+            <Button Content="Close" Command="{Binding CloseCommand}" Width="100" />
+        </StackPanel>
+    </Grid>
+</Window>

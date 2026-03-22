@@ -1,0 +1,38 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Spooky2.Views.Dialogs.ReverseLookupView"
+        Title="Reverse Lookup"
+        Width="600" Height="500"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="Arial"
+        FontSize="13">
+
+    <Grid Margin="8" RowDefinitions="Auto,Auto,*,Auto,Auto">
+
+        <!-- Row 0: Header + Save button -->
+        <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto" Margin="0,0,0,8">
+            <Border Grid.Column="0" Width="120" Height="120" Background="#E0E0E0" CornerRadius="4" Margin="0,0,12,0">
+                <TextBlock Text="Logo" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray" />
+            </Border>
+            <TextBlock Grid.Column="1" Text="{Binding HeaderText, FallbackValue=Header}" FontSize="14"
+                       VerticalAlignment="Center" TextWrapping="Wrap" />
+            <Button Grid.Column="2" Content="Save" Command="{Binding SaveCommand}"
+                    VerticalAlignment="Top" Width="60"
+                    ToolTip.Tip="Save and exit" />
+        </Grid>
+
+        <!-- Row 1: Disclaimer -->
+        <TextBlock Grid.Row="1" Text="PLEASE NOTE: This is NOT a diagnostic tool. Many health issues share the same frequencies. You do not necessarily have the conditions listed."
+                   TextWrapping="Wrap" Foreground="Red" FontSize="11" Margin="0,0,0,8" />
+
+        <!-- Row 2: Rich text results area -->
+        <TextBox Grid.Row="2" Text="{Binding ResultsText}" IsReadOnly="True"
+                 AcceptsReturn="True" TextWrapping="Wrap" Margin="0,0,0,8" />
+
+        <!-- Row 3: Friends of Spooky credits area -->
+        <TextBox Grid.Row="3" Text="{Binding CreditsText}" IsReadOnly="True" IsEnabled="False"
+                 AcceptsReturn="True" TextWrapping="Wrap" BorderThickness="0" Height="80"
+                 Background="Transparent" FontSize="11"
+                 ToolTip.Tip="Friends of Spooky." />
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Spooky2.Views.Dialogs.GraphicsView"
+        Title="Graphics"
+        Width="600" Height="400"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="Arial"
+        FontSize="13">
+
+    <Grid Margin="8">
+        <!-- Canvas / image display area -->
+        <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="2" Background="White">
+            <Panel>
+                <Image Source="{Binding DisplayImage}" Stretch="Uniform" />
+                <!-- Fallback text when no image is loaded -->
+                <TextBlock Text="Graphics Display" HorizontalAlignment="Center" VerticalAlignment="Center"
+                           Foreground="Gray" FontStyle="Italic" FontSize="16"
+                           IsVisible="{Binding !HasImage}" />
+            </Panel>
+        </Border>
+    </Grid>
+</Window>

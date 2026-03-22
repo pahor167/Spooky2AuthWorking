@@ -1,0 +1,10 @@
+bin/
+obj/
+publish-win/
+Spooky2Net-win64.zip
+*.user
+.vs/
+*.pdb
+debug.log
+/tmp/
+.DS_Store

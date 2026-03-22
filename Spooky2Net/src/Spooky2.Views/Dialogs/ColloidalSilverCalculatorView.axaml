@@ -1,0 +1,88 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Spooky2.Views.Dialogs.ColloidalSilverCalculatorView"
+        Title="Colloidal / Ionic Silver Calculator"
+        Width="900" Height="700"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="Arial"
+        FontSize="13">
+
+    <Grid Margin="8" RowDefinitions="Auto,*,Auto">
+
+        <!-- Top: Two GroupBoxes side by side -->
+        <Grid Grid.Row="0" ColumnDefinitions="*,*" Margin="0,0,0,8">
+
+            <!-- Colloidal By Calculation -->
+            <HeaderedContentControl Grid.Column="0" Margin="0,0,4,0">
+                <HeaderedContentControl.Header>
+                    <TextBlock Text="Colloidal By Calculation" FontWeight="Bold" />
+                </HeaderedContentControl.Header>
+                <Border BorderBrush="Gray" BorderThickness="1" Padding="8" CornerRadius="4">
+                    <StackPanel Spacing="6">
+                        <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto" Margin="0">
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="Electrode Gauge (AWG):" VerticalAlignment="Center" Margin="0,0,8,4" />
+                            <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding ElectrodeGauge}" Margin="0,0,0,4" />
+
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="Water Volume (mL):" VerticalAlignment="Center" Margin="0,0,8,4" />
+                            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding WaterVolume}" Margin="0,0,0,4" />
+
+                            <TextBlock Grid.Row="2" Grid.Column="0" Text="Current (mA):" VerticalAlignment="Center" Margin="0,0,8,4" />
+                            <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding CurrentMa}" Margin="0,0,0,4" />
+
+                            <TextBlock Grid.Row="3" Grid.Column="0" Text="Target PPM:" VerticalAlignment="Center" Margin="0,0,8,4" />
+                            <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding TargetPpm}" Margin="0,0,0,4" />
+
+                            <TextBlock Grid.Row="4" Grid.Column="0" Text="Electrode Surface Area (cm²):" VerticalAlignment="Center" Margin="0,0,8,4" />
+                            <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding ElectrodeSurfaceArea}" IsReadOnly="True" Margin="0,0,0,4" />
+                        </Grid>
+
+                        <Separator Margin="0,4" />
+
+                        <TextBlock Text="Results:" FontWeight="Bold" />
+                        <TextBlock Text="{Binding CalculatedTime}" />
+                        <TextBlock Text="{Binding CalculatedVolume}" />
+                    </StackPanel>
+                </Border>
+            </HeaderedContentControl>
+
+            <!-- Ionic By Measurement -->
+            <HeaderedContentControl Grid.Column="1" Margin="4,0,0,0">
+                <HeaderedContentControl.Header>
+                    <TextBlock Text="Ionic By Measurement" FontWeight="Bold" />
+                </HeaderedContentControl.Header>
+                <Border BorderBrush="Gray" BorderThickness="1" Padding="8" CornerRadius="4">
+                    <StackPanel Spacing="6">
+                        <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto" Margin="0">
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="Initial TDS (ppm):" VerticalAlignment="Center" Margin="0,0,8,4" />
+                            <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding InitialTds}" Margin="0,0,0,4" />
+
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="Current TDS (ppm):" VerticalAlignment="Center" Margin="0,0,8,4" />
+                            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding CurrentTds}" Margin="0,0,0,4" />
+
+                            <TextBlock Grid.Row="2" Grid.Column="0" Text="Target PPM:" VerticalAlignment="Center" Margin="0,0,8,4" />
+                            <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding IonicTargetPpm, FallbackValue=20}" Margin="0,0,0,4" />
+                        </Grid>
+
+                        <Separator Margin="0,4" />
+
+                        <TextBlock Text="Results:" FontWeight="Bold" />
+                        <TextBlock Text="{Binding IonicResult}" />
+                    </StackPanel>
+                </Border>
+            </HeaderedContentControl>
+        </Grid>
+
+        <!-- Middle: Additional info / help text area -->
+        <TextBox Grid.Row="1"
+                 Text="{Binding HelpText}"
+                 IsReadOnly="True"
+                 AcceptsReturn="True"
+                 TextWrapping="Wrap"
+                 Margin="0,4" />
+
+        <!-- Bottom: Result labels -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Spacing="16" Margin="0,8,0,0">
+            <TextBlock Text="{Binding StatusLabel}" FontWeight="Bold" FontSize="14" VerticalAlignment="Center" />
+        </StackPanel>
+    </Grid>
+</Window>

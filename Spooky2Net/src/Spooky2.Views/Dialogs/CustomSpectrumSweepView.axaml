@@ -1,0 +1,61 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="using:Spooky2.Views.Controls"
+        x:Class="Spooky2.Views.Dialogs.CustomSpectrumSweepView"
+        Title="Create Spectrum Sweep"
+        Width="1365" Height="836"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="Arial"
+        FontSize="13">
+
+    <Grid Margin="8" RowDefinitions="Auto,Auto,Auto,Auto,*,Auto">
+
+        <!-- Row 0: Program Name + Save button -->
+        <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto" Margin="0,0,0,6">
+            <TextBlock Text="Program Name:" VerticalAlignment="Center" Margin="0,0,8,0" />
+            <TextBox Grid.Column="1" Text="{Binding ProgramName}" />
+            <Button Grid.Column="2" Content="Save" Command="{Binding SaveCommand}" Margin="8,0,0,0" Width="80" />
+        </Grid>
+
+        <!-- Row 1: Parameters -->
+        <Grid Grid.Row="1" ColumnDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto" Margin="0,0,0,6">
+            <TextBlock Text="Max Frequency:" VerticalAlignment="Center" Margin="0,0,4,0" />
+            <TextBox Grid.Column="1" Text="{Binding MaxFrequency, FallbackValue=200000}" Width="100" Margin="0,0,12,0" />
+
+            <TextBlock Grid.Column="2" Text="Modulation Freq:" VerticalAlignment="Center" Margin="0,0,4,0" />
+            <TextBox Grid.Column="3" Text="{Binding ModulationFrequency, FallbackValue=5500}" Width="100" Margin="0,0,12,0" />
+
+            <TextBlock Grid.Column="4" Text="Tolerance:" VerticalAlignment="Center" Margin="0,0,4,0" />
+            <TextBox Grid.Column="5" Text="{Binding Tolerance, FallbackValue=.025}" Width="80" Margin="0,0,12,0" />
+
+            <TextBlock Grid.Column="6" Text="Dwell:" VerticalAlignment="Center" Margin="0,0,4,0" />
+            <TextBox Grid.Column="7" Text="{Binding Dwell, FallbackValue=300}" Width="80" />
+        </Grid>
+
+        <!-- Row 2: Notes -->
+        <Grid Grid.Row="2" RowDefinitions="Auto,Auto" Margin="0,0,0,6">
+            <TextBlock Text="Notes:" Margin="0,0,0,2" />
+            <TextBox Grid.Row="1" Text="{Binding Notes}" AcceptsReturn="True" TextWrapping="Wrap" Height="100"
+                     ToolTip.Tip="Enter notes for the Program here. This will help in searches later" />
+        </Grid>
+
+        <!-- Row 3: Sweep Info Labels -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Spacing="16" Margin="0,0,0,6">
+            <TextBlock Text="Sweep Info:" FontWeight="Bold" />
+            <TextBlock Text="{Binding SweepInfoLabel}" />
+        </StackPanel>
+
+        <!-- Row 4: Graph area -->
+        <Grid Grid.Row="4" RowDefinitions="Auto,*" Margin="0,0,0,6">
+            <CheckBox Grid.Row="0" Content="Show Spectral Analysis" IsChecked="{Binding ShowGraph}" Margin="0,0,0,4"
+                      ToolTip.Tip="Toggle display of the spectral analysis graph" />
+            <controls:SpectralGraph Grid.Row="1"
+                    IsVisible="{Binding ShowGraph}"
+                    Frequencies="{Binding GraphFrequencies}"
+                    Amplitudes="{Binding GraphAmplitudes}"
+                    MaxFrequency="{Binding MaxCarrierFrequency}"
+                    Title="Spectrum Sweep Analysis"
+                    ToolTip.Tip="Spectral analysis" />
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,221 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Spooky2.Views.Tabs.PresetsTab">
+
+    <Grid RowDefinitions="Auto,Auto,*,Auto,Auto,*"
+          Margin="4">
+
+        <!-- Row 0: Current path display + Search bar -->
+        <Grid Grid.Row="0"
+              ColumnDefinitions="*,300,Auto,Auto,Auto,Auto,Auto"
+              Margin="0,0,0,2">
+
+            <!-- Current path -->
+            <TextBox Grid.Column="0"
+                     Text="{Binding CurrentPath}"
+                     IsReadOnly="True"
+                     FontSize="10"
+                     VerticalAlignment="Center"
+                     Margin="0,0,4,0" />
+
+            <!-- Search textbox -->
+            <TextBox Grid.Column="1"
+                     Text="{Binding SearchText}"
+                     Watermark="Search presets..."
+                     VerticalAlignment="Center"
+                     Margin="0,0,2,0" />
+
+            <!-- Search button -->
+            <Button Grid.Column="2"
+                    Content="&#x1F50D;"
+                    Command="{Binding SearchCommand}"
+                    ToolTip.Tip="Search the presets for the search string"
+                    Width="30" Height="30"
+                    Margin="0,0,2,0" />
+
+            <!-- Clear button -->
+            <Button Grid.Column="3"
+                    Content="X"
+                    Command="{Binding ClearSearchCommand}"
+                    ToolTip.Tip="Clear the search string"
+                    Width="30" Height="30"
+                    Margin="0,0,4,0" />
+
+            <!-- Navigation: Up -->
+            <Button Grid.Column="4"
+                    Content="^"
+                    Command="{Binding NavigateUpCommand}"
+                    ToolTip.Tip="Move up one level"
+                    Width="30" Height="30"
+                    Margin="0,0,2,0" />
+
+            <!-- Navigation: Home -->
+            <Button Grid.Column="5"
+                    Content="H"
+                    Command="{Binding NavigateHomeCommand}"
+                    ToolTip.Tip="Go to Home directory"
+                    Width="30" Height="30"
+                    Margin="0,0,2,0" />
+
+            <!-- Navigation: User -->
+            <Button Grid.Column="6"
+                    Content="U"
+                    Command="{Binding NavigateUserCommand}"
+                    ToolTip.Tip="Go to User directory"
+                    Width="30" Height="30" />
+        </Grid>
+
+        <!-- Row 1: Checkbox + count labels -->
+        <Grid Grid.Row="1"
+              ColumnDefinitions="Auto,Auto,Auto,Auto,Auto,*,Auto"
+              Margin="0,0,0,2">
+
+            <CheckBox Grid.Column="0"
+                      IsChecked="{Binding LoadProgramsOnSelect}"
+                      ToolTip.Tip="Load the frequencies of the selected Preset"
+                      Margin="0,0,2,0" />
+            <TextBlock Grid.Column="1"
+                       Text="Load Programs/Notes"
+                       VerticalAlignment="Center"
+                       Margin="0,0,12,0" />
+            <TextBlock Grid.Column="2"
+                       Text="{Binding PresetCountLabel, FallbackValue='Presets 0'}"
+                       VerticalAlignment="Center"
+                       Margin="0,0,12,0" />
+            <TextBlock Grid.Column="3"
+                       Text="{Binding ProgramCountLabel, FallbackValue='Programs 0'}"
+                       VerticalAlignment="Center"
+                       Margin="0,0,12,0" />
+            <TextBlock Grid.Column="4"
+                       Text="{Binding ChainCountLabel, FallbackValue='Presets/Chains 0'}"
+                       VerticalAlignment="Center"
+                       Margin="0,0,12,0" />
+            <TextBlock Grid.Column="6"
+                       Text="{Binding EstimatedTotalRunTime, FallbackValue='Estimated Total Run Time 00:00:00'}"
+                       VerticalAlignment="Center" />
+        </Grid>
+
+        <!-- Row 2: Main content area — 3 columns -->
+        <Grid Grid.Row="2"
+              ColumnDefinitions="3*,Auto,3*,4*"
+              Margin="0,0,0,2">
+
+            <!-- Left column: Preset/folder list -->
+            <ListBox Grid.Column="0"
+                     ItemsSource="{Binding PresetFiles}"
+                     SelectedItem="{Binding SelectedPresetPath}"
+                     Margin="0,0,2,0" />
+
+            <!-- Center column: Action buttons -->
+            <StackPanel Grid.Column="1"
+                        Orientation="Vertical"
+                        Spacing="4"
+                        VerticalAlignment="Top"
+                        Margin="2,0,2,0">
+                <Button Content="X"
+                        Command="{Binding DeletePresetCommand}"
+                        ToolTip.Tip="Delete selected Preset"
+                        Width="30" Height="30"
+                        Foreground="Red" />
+                <Button Content="S"
+                        Command="{Binding SavePresetCommand}"
+                        ToolTip.Tip="Save the current Settings and Programs as a Preset for later use"
+                        Width="30" Height="30" />
+                <Button Content="SA"
+                        Command="{Binding SavePresetAsCommand}"
+                        ToolTip.Tip="Save As..."
+                        Width="30" Height="30" />
+                <Button Content="E"
+                        Command="{Binding EditPresetCommand}"
+                        ToolTip.Tip="Edit the selected Preset or Preset Chain"
+                        Width="30" Height="30" />
+            </StackPanel>
+
+            <!-- Right top: Notes header + Programs list + Notes textbox -->
+            <Grid Grid.Column="2"
+                  RowDefinitions="Auto,*"
+                  Margin="2,0,2,0">
+                <TextBlock Grid.Row="0"
+                           Text="Notes"
+                           FontWeight="Bold"
+                           Margin="0,0,0,2" />
+                <ListBox Grid.Row="1"
+                         ItemsSource="{Binding ProgramsList}"
+                         SelectedItem="{Binding SelectedProgram}"
+                         MinHeight="60" />
+            </Grid>
+
+            <!-- Far right: Notes text -->
+            <TextBox Grid.Column="3"
+                     Text="{Binding NotesText}"
+                     IsReadOnly="True"
+                     AcceptsReturn="True"
+                     TextWrapping="Wrap"
+                     Margin="2,0,0,0"
+                     Background="{DynamicResource SystemControlBackgroundBaseLowBrush}" />
+        </Grid>
+
+        <!-- Row 3: Arrow button to add to chain -->
+        <Button Grid.Row="3"
+                Content="v"
+                Command="{Binding AddToChainCommand}"
+                ToolTip.Tip="Add the Preset to a Chain"
+                Width="30" Height="24"
+                HorizontalAlignment="Left"
+                Margin="0,2,0,2" />
+
+        <!-- Row 4: Chain section labels -->
+        <Grid Grid.Row="4"
+              ColumnDefinitions="*,Auto,*"
+              Margin="0,0,0,2">
+            <TextBlock Grid.Column="0"
+                       Text="Presets to Chain"
+                       FontWeight="Bold" />
+            <TextBlock Grid.Column="2"
+                       Text="{Binding ChainLoadedLabel, FallbackValue='Presets/Chains'}"
+                       FontWeight="Bold" />
+        </Grid>
+
+        <!-- Row 5: Chain area — left list, center buttons, right list -->
+        <Grid Grid.Row="5"
+              ColumnDefinitions="*,Auto,*"
+              Margin="0,0,0,0">
+
+            <!-- Left: Chain items list -->
+            <ListBox Grid.Column="0"
+                     ItemsSource="{Binding PresetChainItems}"
+                     SelectedItem="{Binding SelectedChainItem}"
+                     Margin="0,0,2,0" />
+
+            <!-- Center: Chain action buttons -->
+            <StackPanel Grid.Column="1"
+                        Orientation="Vertical"
+                        Spacing="4"
+                        VerticalAlignment="Top"
+                        Margin="2,0,2,0">
+                <Button Content="S"
+                        Command="{Binding SaveChainCommand}"
+                        ToolTip.Tip="Save the currently loaded Presets as a Preset Chain"
+                        Width="30" Height="30" />
+                <Button Content="C"
+                        Command="{Binding CopyChainCommand}"
+                        ToolTip.Tip="Copy Chain"
+                        Width="30" Height="30" />
+                <Button Content="^"
+                        Command="{Binding MoveChainUpCommand}"
+                        ToolTip.Tip="Move the Preset up"
+                        Width="30" Height="30" />
+                <Button Content="v"
+                        Command="{Binding MoveChainDownCommand}"
+                        ToolTip.Tip="Move the Preset down"
+                        Width="30" Height="30" />
+            </StackPanel>
+
+            <!-- Right: Loaded chain items -->
+            <ListBox Grid.Column="2"
+                     ItemsSource="{Binding LoadedChainItems}"
+                     SelectedItem="{Binding SelectedLoadedChainItem}"
+                     Margin="2,0,0,0" />
+        </Grid>
+    </Grid>
+</UserControl>
