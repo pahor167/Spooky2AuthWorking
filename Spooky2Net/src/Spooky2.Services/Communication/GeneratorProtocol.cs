@@ -194,21 +194,21 @@ public static class GeneratorProtocol
     public static string BuildSetDwellTime(string value) =>
         $":w23={value}"; // Sends ":w23=<dwell>" — originally BuildSetParam23
 
-    /// <summary>Build set output 1 frequency. (Main.frm:43518, 57198)</summary>
-    public static string BuildSetFrequency1(double frequency) =>
-        $":w24={frequency.ToString(System.Globalization.CultureInfo.InvariantCulture)},"; // Sends ":w24=<freq>,"
+    /// <summary>Build set output 1 frequency in nanoHz. From serial dump: freq 1652608.15 Hz → :w24=1652608154681650,</summary>
+    public static string BuildSetFrequency1(double frequencyHz) =>
+        $":w24={(long)(frequencyHz * 1e9)},"; // Sends ":w24=<nanoHz>,"
 
-    /// <summary>Build set output 2 frequency. (Main.frm:43540, 57360)</summary>
-    public static string BuildSetFrequency2(double frequency) =>
-        $":w25={frequency.ToString(System.Globalization.CultureInfo.InvariantCulture)},"; // Sends ":w25=<freq>,"
+    /// <summary>Build set output 2 frequency in nanoHz.</summary>
+    public static string BuildSetFrequency2(double frequencyHz) =>
+        $":w25={(long)(frequencyHz * 1e9)},"; // Sends ":w25=<nanoHz>,"
 
-    /// <summary>Build set output 1 phase angle. (Main.frm:53738)</summary>
-    public static string BuildSetPhaseAngle1(string value) =>
-        $":w28={value}"; // Sends ":w28=<phase>" — originally BuildSetParam28
+    /// <summary>Set output 1 amplitude in centivolt. :w28=2000, = 20.00V</summary>
+    public static string BuildSetAmplitudeCv1(int centivolt) =>
+        $":w28={centivolt},"; // Sends ":w28=<centivolt>,"
 
-    /// <summary>Build set output 2 phase angle. (Main.frm:53746)</summary>
-    public static string BuildSetPhaseAngle2(string value) =>
-        $":w29={value}"; // Sends ":w29=<phase>" — originally BuildSetParam29
+    /// <summary>Set output 2 amplitude in centivolt. :w29=1950, = 19.50V</summary>
+    public static string BuildSetAmplitudeCv2(int centivolt) =>
+        $":w29={centivolt},"; // Sends ":w29=<centivolt>,"
 
     /// <summary>Build set output 1 amplitude. (Main.frm:43642)</summary>
     public static string BuildSetAmplitude1(int amplitude) =>
@@ -233,6 +233,29 @@ public static class GeneratorProtocol
     /// <summary>Build set frequency sweep end. (Main.frm:53786)</summary>
     public static string BuildSetSweepEnd(string value) =>
         $":w51={value}"; // Sends ":w51=<freq>" — originally BuildSetParam51
+
+    // ────────────────────────────────────────────────────────────────
+    // Biofeedback and display commands (from serial dump analysis)
+    // ────────────────────────────────────────────────────────────────
+
+    /// <summary>Set display name. :n00=text</summary>
+    public static string BuildSetDisplayName(string name) => $":n00={name}";
+
+    /// <summary>Read angle/impedance for biofeedback. Response: :r11=value.</summary>
+    public static readonly string ReadAngle = ":r11=,";
+
+    /// <summary>Read current for biofeedback. Response: :r12=value.</summary>
+    public static readonly string ReadCurrent = ":r12=,";
+
+    /// <summary>Clear frequency channel 1. :w12=0,,</summary>
+    public static readonly string ClearFrequency1 = ":w12=0,,";
+
+    /// <summary>Clear frequency channel 2. :w12=,0,</summary>
+    public static readonly string ClearFrequency2 = ":w12=,0,";
+
+    /// <summary>Build waveform table upload. :a11=val1,val2,... through :a24=...</summary>
+    public static string BuildWaveformTable(int tableIndex, IEnumerable<int> values) =>
+        $":a{tableIndex}={string.Join(",", values)},";
 
     // ────────────────────────────────────────────────────────────────
     // Response parsing
@@ -302,12 +325,26 @@ public static class GeneratorProtocol
         return System.Text.Encoding.ASCII.GetString(data, 0, length).Trim();
     }
 
+    /// <summary>
+    /// Parses a sensor reading response from the generator.
+    /// Response format: ":r11=53001." or ":r12=6557." where the trailing period is a terminator.
+    /// </summary>
+    public static double ParseSensorReading(string response)
+    {
+        var trimmed = response.Trim().TrimStart(':');
+        var eqIdx = trimmed.IndexOf('=');
+        if (eqIdx < 0) return 0;
+        var valStr = trimmed[(eqIdx + 1)..].TrimEnd('.');
+        return double.TryParse(valStr, System.Globalization.NumberStyles.Float,
+            System.Globalization.CultureInfo.InvariantCulture, out var val) ? val : 0;
+    }
+
     private static string ExtractResponseValue(string response)
     {
         var equalsIndex = response.IndexOf('=');
         if (equalsIndex >= 0 && equalsIndex < response.Length - 1)
         {
-            return response[(equalsIndex + 1)..].TrimEnd(',').Trim();
+            return response[(equalsIndex + 1)..].TrimEnd(',').TrimEnd('.').Trim();
         }
 
         return string.Empty;

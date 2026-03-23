@@ -1,4 +1,6 @@
 using System.Collections.ObjectModel;
+using System.Globalization;
+using System.Timers;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.Extensions.Logging;
@@ -8,56 +10,53 @@ using Spooky2.Core.Models;
 
 namespace Spooky2.ViewModels;
 
-public partial class ControlViewModel : ObservableObject
+public partial class ControlViewModel : ObservableObject, IDisposable
 {
+    private readonly IGeneratorService _generatorService;
     private readonly IWaveformService _waveformService;
     private readonly ILogger<ControlViewModel> _logger;
+    private readonly System.Timers.Timer _statusTimer;
 
-    public ControlViewModel(IWaveformService waveformService, ILogger<ControlViewModel>? logger = null)
+    private int _currentFrequencyIndex;
+    private CancellationTokenSource? _runCts;
+
+    public ControlViewModel(
+        IGeneratorService generatorService,
+        IWaveformService waveformService,
+        ILogger<ControlViewModel>? logger = null)
     {
+        _generatorService = generatorService;
         _waveformService = waveformService;
         _logger = logger ?? NullLogger<ControlViewModel>.Instance;
+
+        // Timer to poll generator status every 500ms
+        _statusTimer = new System.Timers.Timer(500);
+        _statusTimer.Elapsed += OnStatusTimerElapsed;
+
         _logger.LogDebug("ControlViewModel initialized");
-
-        // Initialize frequency list with sample data
-        FrequencyItems.Add("898,166.6040000");
-        FrequencyItems.Add("124,000.0000000");
-        FrequencyItems.Add("20,000.0000000");
-        FrequencyItems.Add("2,489.0000000");
-        FrequencyItems.Add("2,127.0000000");
-        FrequencyItems.Add("2,008.0000000");
-        FrequencyItems.Add("1,865.0000000");
-        FrequencyItems.Add("880.0000000");
-        FrequencyItems.Add("802.0000000");
-        FrequencyItems.Add("787.0000000");
-
-        BiofeedbackHits.Add("No hits recorded");
     }
 
-    // ── Generator Control (Left Column) ──
+    // ── Generator Selection ──
 
     [ObservableProperty]
-    private bool _overwriteGenerator;
+    private int _selectedGeneratorId = -1;
 
     [ObservableProperty]
-    private string _generatorSaveName = "";
+    private string _generatorTitle = "No Generator Selected";
 
     [ObservableProperty]
-    private int _generatorNumber1 = 3;
+    private string _generatorStatusText = "Idle";
 
     [ObservableProperty]
-    private int _generatorPercent1;
+    private bool _isRunning;
 
     [ObservableProperty]
-    private int _generatorNumber2 = 4;
+    private bool _isPaused;
 
     [ObservableProperty]
-    private int _generatorPercent2 = 10;
+    private bool _isHeld;
 
-    // ── Frequency Display & Status (Center) ──
-
-    [ObservableProperty]
-    private string _generatorTitle = "Generator 4  GX Hunt and Kill (C) - JW";
+    // ── Frequency Display ──
 
     public ObservableCollection<string> FrequencyItems { get; } = new();
 
@@ -74,64 +73,30 @@ public partial class ControlViewModel : ObservableObject
     private double _progressMaximum = 100;
 
     [ObservableProperty]
-    private int _dwellValue = 129;
+    private int _dwellValue = 180;
 
     [ObservableProperty]
-    private int _stepValue = 1;
+    private int _stepValue;
 
     [ObservableProperty]
     private int _presetValue = 1;
 
     [ObservableProperty]
-    private double _ageFactor = 1.0;
+    private string _totalStatus = "";
+
+    // ── Run Time Display ──
 
     [ObservableProperty]
-    private string _totalStatus = "180/10/1";
+    private string _estimatedTotalRunTime = "00:00:00";
 
     [ObservableProperty]
-    private double _frequencyAdjustSlider;
+    private string _currentPresetDuration = "00:00:00";
 
     [ObservableProperty]
-    private double _frequencyAdjustHz = 1.0;
+    private string _currentChainDuration = "00:00:00";
 
-    // ── Run Time Display (Right Top) ──
+    // ── Output Display ──
 
-    [ObservableProperty]
-    private string _estimatedTotalRunTime = "00:30:00";
-
-    [ObservableProperty]
-    private string _currentPresetDuration = "00:02:10";
-
-    [ObservableProperty]
-    private string _currentChainDuration = "00:02:10";
-
-    // ── Biofeedback Hits ──
-
-    public ObservableCollection<string> BiofeedbackHits { get; } = new();
-
-    [ObservableProperty]
-    private string? _selectedBiofeedbackHit;
-
-    // ── Reverse Lookup ──
-
-    [ObservableProperty]
-    private bool _includeHarmonics;
-
-    [ObservableProperty]
-    private bool _includeSubHarmonics;
-
-    [ObservableProperty]
-    private string _octaveValue = "1";
-
-    [ObservableProperty]
-    private double _tolerancePercent = 0.25;
-
-    [ObservableProperty]
-    private double _includeHz;
-
-    // ── Generator Output (Right Center) ──
-
-    // Out 1
     [ObservableProperty]
     private double _output1Frequency;
 
@@ -139,33 +104,11 @@ public partial class ControlViewModel : ObservableObject
     private double _output1Amplitude;
 
     [ObservableProperty]
-    private double _output1Phase;
-
-    [ObservableProperty]
-    private WaveformType _output1WaveformType = WaveformType.Sine;
-
-    [ObservableProperty]
     private string _output1WaveformDisplay = "Sine";
-
-    [ObservableProperty]
-    private string _output1DutyCycle = "50%";
 
     [ObservableProperty]
     private string _output1AmplitudeDisplay = "20v";
 
-    [ObservableProperty]
-    private string _output1Offset = "0%";
-
-    [ObservableProperty]
-    private string _output1PhaseDisplay = "0 Degrees";
-
-    [ObservableProperty]
-    private double _output1Angle = 68.65;
-
-    [ObservableProperty]
-    private double _output1Current = 523.34;
-
-    // Out 2
     [ObservableProperty]
     private double _output2Frequency;
 
@@ -173,212 +116,16 @@ public partial class ControlViewModel : ObservableObject
     private double _output2Amplitude;
 
     [ObservableProperty]
-    private double _output2Phase;
-
-    [ObservableProperty]
-    private WaveformType _output2WaveformType = WaveformType.Sine;
-
-    [ObservableProperty]
     private string _output2WaveformDisplay = "Inverse";
-
-    [ObservableProperty]
-    private string _output2DutyCycle = "50%";
 
     [ObservableProperty]
     private string _output2AmplitudeDisplay = "20v";
 
-    [ObservableProperty]
-    private string _output2Offset = "0%";
+    // ── Biofeedback ──
 
-    [ObservableProperty]
-    private string _output2PhaseDisplay = "0 Degrees";
+    public ObservableCollection<string> BiofeedbackHits { get; } = new();
 
-    [ObservableProperty]
-    private double _output2Angle;
-
-    [ObservableProperty]
-    private double _output2Current;
-
-    // Sync
-    [ObservableProperty]
-    private string _syncWaveformDisplay = "Inverse+Sync";
-
-    // ── Biofeedback Scan (Bottom Left) ──
-
-    [ObservableProperty]
-    private string _scanLogName = "";
-
-    [ObservableProperty]
-    private double _scanStartFrequency = 41000;
-
-    [ObservableProperty]
-    private double _scanFinishFrequency = 1800000;
-
-    [ObservableProperty]
-    private double _scanInitialStepSize = 100;
-
-    [ObservableProperty]
-    private bool _scanStepSizeHz = true;
-
-    [ObservableProperty]
-    private bool _scanStepSizePercent;
-
-    [ObservableProperty]
-    private double _scanStepSizePercentValue = 0.025;
-
-    [ObservableProperty]
-    private int _scanMaxHits = 10;
-
-    [ObservableProperty]
-    private int _scanSamplesPerStep = 1;
-
-    [ObservableProperty]
-    private int _scanLoops = 1;
-
-    [ObservableProperty]
-    private int _scanStartDelay = 200;
-
-    [ObservableProperty]
-    private double _scanMinReadDelay = 0.07;
-
-    [ObservableProperty]
-    private double _scanThreshold;
-
-    [ObservableProperty]
-    private string _scanEstDuration = "00:03:18";
-
-    // ── Detect (Bottom Center) ──
-
-    [ObservableProperty]
-    private bool _detectMax = true;
-
-    [ObservableProperty]
-    private bool _detectMin;
-
-    [ObservableProperty]
-    private bool _detectChange;
-
-    [ObservableProperty]
-    private bool _detectAngle = true;
-
-    [ObservableProperty]
-    private bool _detectCurrent;
-
-    [ObservableProperty]
-    private bool _detectBpm;
-
-    [ObservableProperty]
-    private bool _detectHrv;
-
-    [ObservableProperty]
-    private bool _detectAnglePlusCurrent;
-
-    // RA Window
-    [ObservableProperty]
-    private int _raWindowSize = 20;
-
-    [ObservableProperty]
-    private int _raWindowN;
-
-    [ObservableProperty]
-    private int _raWindowOffset;
-
-    [ObservableProperty]
-    private bool _raRetentive;
-
-    // After Scan
-    [ObservableProperty]
-    private bool _afterScanRunHits;
-
-    [ObservableProperty]
-    private bool _afterScanContinueRefining;
-
-    [ObservableProperty]
-    private int _afterScanRunOnGen;
-
-    [ObservableProperty]
-    private int _afterScanRunCycles;
-
-    [ObservableProperty]
-    private int _afterScanRunCycles2 = 1;
-
-    // ── Calculate Using (Bottom Right) ──
-
-    [ObservableProperty]
-    private bool _calcRunningAverage = true;
-
-    [ObservableProperty]
-    private bool _calcPeak;
-
-    [ObservableProperty]
-    private bool _calcSingleScan;
-
-    [ObservableProperty]
-    private bool _calcGradeProgram;
-
-    [ObservableProperty]
-    private bool _calcPreventDuplicates;
-
-    // BPM/HRV/VI display
-    [ObservableProperty]
-    private double _displayBpm;
-
-    [ObservableProperty]
-    private double _displayHrv;
-
-    [ObservableProperty]
-    private double _displayViAngle;
-
-    [ObservableProperty]
-    private double _displayCurrent;
-
-    // ── Wobble (from original) ──
-
-    [ObservableProperty]
-    private WobbleWaveform _amplitudeWobbleWaveform = WobbleWaveform.None;
-
-    [ObservableProperty]
-    private double _amplitudeWobblePercent;
-
-    [ObservableProperty]
-    private int _amplitudeWobbleSteps;
-
-    [ObservableProperty]
-    private WobbleWaveform _frequencyWobbleWaveform = WobbleWaveform.None;
-
-    [ObservableProperty]
-    private double _frequencyWobblePercent;
-
-    [ObservableProperty]
-    private int _frequencyWobbleSteps;
-
-    [ObservableProperty]
-    private bool _frequencyWobbleCycleCount;
-
-    [ObservableProperty]
-    private string _selectedHarmonicWobble = "";
-
-    // ── Gating (from original) ──
-
-    [ObservableProperty]
-    private bool _gateByFrequency;
-
-    [ObservableProperty]
-    private bool _gateByDuration;
-
-    [ObservableProperty]
-    private bool _gateEnabled;
-
-    [ObservableProperty]
-    private double _gateFrequency;
-
-    [ObservableProperty]
-    private double _gateOnMs;
-
-    [ObservableProperty]
-    private double _gateOffMs;
-
-    // ── Program Options (from original) ──
+    // ── Program Options ──
 
     [ObservableProperty]
     private double _dwellMultiplier = 1.0;
@@ -398,166 +145,346 @@ public partial class ControlViewModel : ObservableObject
     [ObservableProperty]
     private bool _removeDuplicates;
 
-    // ── Modulation (from original) ──
-
-    [ObservableProperty]
-    private string _selectedModulationType = "";
-
-    [ObservableProperty]
-    private bool _modulationEnabled;
+    // ── Loaded Programs ──
 
     public ObservableCollection<string> LoadedPrograms { get; } = new();
-    public ObservableCollection<string> WobbleWaveforms { get; } = new() { "None", "Sine", "Square", "Sawtooth", "InverseSawtooth", "Triangle" };
-    public ObservableCollection<string> HarmonicWobbleTypes { get; } = new() { "None", "Odd", "Even", "All" };
-    public ObservableCollection<string> ModulationTypes { get; } = new() { "None", "AM", "FM", "PM" };
-    public ObservableCollection<string> OctaveValues { get; } = new() { "1", "2", "3", "4", "5", "6", "7", "8" };
+
+    // ── Collections for UI dropdowns ──
+
+    public ObservableCollection<string> WobbleWaveforms { get; } = ["None", "Sine", "Square", "Sawtooth", "InverseSawtooth", "Triangle"];
+    public ObservableCollection<string> HarmonicWobbleTypes { get; } = ["None", "Odd", "Even", "All"];
+    public ObservableCollection<string> ModulationTypes { get; } = ["None", "AM", "FM", "PM"];
+    public ObservableCollection<string> OctaveValues { get; } = ["1", "2", "3", "4", "5", "6", "7", "8"];
+
+    // ── Methods ──
+
+    /// <summary>Loads frequencies from a database search result or preset into the control.</summary>
+    public void LoadFrequencies(IReadOnlyList<double> frequencies, string programName)
+    {
+        FrequencyItems.Clear();
+        foreach (var freq in frequencies)
+        {
+            FrequencyItems.Add(freq.ToString("N7", CultureInfo.InvariantCulture));
+        }
+        _currentFrequencyIndex = 0;
+        UpdateProgress();
+        GeneratorTitle = programName;
+        _logger.LogInformation("Loaded {Count} frequencies for '{Program}'", frequencies.Count, programName);
+    }
+
+    /// <summary>Assigns a generator to this control tab.</summary>
+    public void AssignGenerator(int generatorId, string port, string type)
+    {
+        SelectedGeneratorId = generatorId;
+        GeneratorTitle = $"Generator {generatorId} ({type}) on {port}";
+        _logger.LogInformation("Assigned generator {Id} ({Type}) on {Port}", generatorId, type, port);
+    }
 
     // ── Commands ──
 
     [RelayCommand]
     private async Task Start()
     {
+        if (SelectedGeneratorId < 0)
+        {
+            _logger.LogWarning("Start: no generator selected");
+            return;
+        }
+
         try
         {
-            _logger.LogInformation("Start command executed");
-            // Stub: start generator
-            await Task.CompletedTask;
+            _logger.LogInformation("Starting generator {Id} with {Count} frequencies, dwell={Dwell}s",
+                SelectedGeneratorId, FrequencyItems.Count, DwellValue);
+
+            // Write frequencies to generator
+            var frequencies = ParseFrequencies();
+            if (frequencies.Count > 0)
+            {
+                await _generatorService.WriteFrequencies(SelectedGeneratorId, frequencies);
+            }
+
+            // Start generator
+            await _generatorService.Start(SelectedGeneratorId);
+
+            IsRunning = true;
+            IsPaused = false;
+            IsHeld = false;
+            GeneratorStatusText = "Running";
+            _currentFrequencyIndex = 0;
+            _statusTimer.Start();
+
+            // Start frequency cycling
+            _runCts?.Cancel();
+            _runCts = new CancellationTokenSource();
+            _ = RunFrequencyCycleAsync(_runCts.Token);
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Start command failed");
+            _logger.LogError(ex, "Start failed for generator {Id}", SelectedGeneratorId);
         }
     }
 
     [RelayCommand]
-    private async Task Scan()
+    private async Task Stop()
     {
+        if (SelectedGeneratorId < 0) return;
+
         try
         {
-            _logger.LogInformation("Scan command executed");
-            // Stub: start scan
-            await Task.CompletedTask;
+            _logger.LogInformation("Stopping generator {Id}", SelectedGeneratorId);
+            _runCts?.Cancel();
+            _statusTimer.Stop();
+
+            await _generatorService.Stop(SelectedGeneratorId);
+
+            IsRunning = false;
+            IsPaused = false;
+            IsHeld = false;
+            GeneratorStatusText = "Idle";
+            Output1Frequency = 0;
+            Output2Frequency = 0;
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Scan command failed");
+            _logger.LogError(ex, "Stop failed for generator {Id}", SelectedGeneratorId);
         }
     }
 
     [RelayCommand]
-    private void Pause()
+    private async Task Pause()
     {
-        // Stub: pause generator
+        if (SelectedGeneratorId < 0 || !IsRunning) return;
+
+        try
+        {
+            if (IsPaused)
+            {
+                _logger.LogInformation("Resuming generator {Id}", SelectedGeneratorId);
+                await _generatorService.Resume(SelectedGeneratorId);
+                IsPaused = false;
+                GeneratorStatusText = "Running";
+                _runCts = new CancellationTokenSource();
+                _ = RunFrequencyCycleAsync(_runCts.Token);
+            }
+            else
+            {
+                _logger.LogInformation("Pausing generator {Id}", SelectedGeneratorId);
+                _runCts?.Cancel();
+                await _generatorService.Pause(SelectedGeneratorId);
+                IsPaused = true;
+                GeneratorStatusText = "Paused";
+            }
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Pause/Resume failed for generator {Id}", SelectedGeneratorId);
+        }
     }
 
     [RelayCommand]
-    private void Hold()
+    private async Task Hold()
     {
-        // Stub: hold generator
+        if (SelectedGeneratorId < 0 || !IsRunning) return;
+
+        try
+        {
+            if (IsHeld)
+            {
+                _logger.LogInformation("Releasing hold on generator {Id}", SelectedGeneratorId);
+                await _generatorService.Resume(SelectedGeneratorId);
+                IsHeld = false;
+                GeneratorStatusText = "Running";
+                _runCts = new CancellationTokenSource();
+                _ = RunFrequencyCycleAsync(_runCts.Token);
+            }
+            else
+            {
+                _logger.LogInformation("Holding generator {Id} at {Freq} Hz",
+                    SelectedGeneratorId, Output1Frequency);
+                _runCts?.Cancel();
+                await _generatorService.Hold(SelectedGeneratorId);
+                IsHeld = true;
+                GeneratorStatusText = $"Held at {Output1Frequency:N2} Hz";
+            }
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Hold failed for generator {Id}", SelectedGeneratorId);
+        }
     }
 
     [RelayCommand]
-    private void AmplitudeWobble()
+    private async Task EraseFrequencies()
     {
-        // Stub: toggle amplitude wobble
+        if (SelectedGeneratorId < 0) return;
+
+        try
+        {
+            _logger.LogInformation("Erasing generator {Id} memory", SelectedGeneratorId);
+            _runCts?.Cancel();
+            _statusTimer.Stop();
+
+            await _generatorService.EraseMemory(SelectedGeneratorId);
+
+            FrequencyItems.Clear();
+            IsRunning = false;
+            IsPaused = false;
+            IsHeld = false;
+            GeneratorStatusText = "Idle";
+            Output1Frequency = 0;
+            Output2Frequency = 0;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Erase failed for generator {Id}", SelectedGeneratorId);
+        }
     }
 
     [RelayCommand]
-    private void FrequencyWobble()
+    private async Task ResetGenerator()
     {
-        // Stub: toggle frequency wobble
-    }
+        if (SelectedGeneratorId < 0) return;
 
-    [RelayCommand]
-    private void Stop()
-    {
-        // Stub: stop generator
-    }
-
-    [RelayCommand]
-    private void SaveGenerator()
-    {
-        // Stub: save generator settings
-    }
-
-    [RelayCommand]
-    private void RefreshFrequency()
-    {
-        // Stub: refresh frequency adjustment
-    }
-
-    [RelayCommand]
-    private void ReverseLookupGo()
-    {
-        // Stub: reverse lookup
-    }
-
-    [RelayCommand]
-    private void LoadGx()
-    {
-        // Stub: load GX settings
-    }
-
-    [RelayCommand]
-    private void PasteFrequencies()
-    {
-        // Stub: paste frequencies
-    }
-
-    [RelayCommand]
-    private void CopyFrequencies()
-    {
-        // Stub: copy frequencies
-    }
-
-    [RelayCommand]
-    private void EraseFrequencies()
-    {
-        // Stub: erase frequencies
-    }
-
-    [RelayCommand]
-    private void ResetGenerator()
-    {
-        // Stub: reset generator
-    }
-
-    [RelayCommand]
-    private void Analyze()
-    {
-        // Stub: analyze biofeedback
-    }
-
-    [RelayCommand]
-    private void AnalyzePlus()
-    {
-        // Stub: analyze+ biofeedback
-    }
-
-    [RelayCommand]
-    private void Baseline()
-    {
-        // Stub: baseline biofeedback
+        try
+        {
+            _logger.LogInformation("Resetting generator {Id}", SelectedGeneratorId);
+            await _generatorService.EraseMemory(SelectedGeneratorId);
+            GeneratorStatusText = "Reset";
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Reset failed for generator {Id}", SelectedGeneratorId);
+        }
     }
 
     [RelayCommand]
     private async Task WriteWaveforms()
     {
+        if (SelectedGeneratorId < 0) return;
+
         try
         {
-            _logger.LogInformation("WriteWaveforms command executed");
-            // Stub: write waveform settings to generator
+            _logger.LogInformation("Writing waveforms to generator {Id}", SelectedGeneratorId);
+            // Send waveform type commands to generator
+            // TODO: map UI waveform selections to generator protocol commands
             await Task.CompletedTask;
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "WriteWaveforms command failed");
+            _logger.LogError(ex, "WriteWaveforms failed for generator {Id}", SelectedGeneratorId);
         }
     }
 
     [RelayCommand]
     private void RefreshDisplay()
     {
-        // Stub: refresh the control display
+        UpdateProgress();
+    }
+
+    [RelayCommand]
+    private void CopyFrequencies()
+    {
+        // TODO: copy to clipboard
+        _logger.LogDebug("CopyFrequencies stub");
+    }
+
+    [RelayCommand]
+    private void PasteFrequencies()
+    {
+        // TODO: paste from clipboard
+        _logger.LogDebug("PasteFrequencies stub");
+    }
+
+    // ── Private Logic ──
+
+    /// <summary>Cycles through loaded frequencies at the dwell rate.</summary>
+    private async Task RunFrequencyCycleAsync(CancellationToken ct)
+    {
+        var frequencies = ParseFrequencies();
+        if (frequencies.Count == 0) return;
+
+        try
+        {
+            for (int rep = 0; rep < RepeatProgram && !ct.IsCancellationRequested; rep++)
+            {
+                for (int i = 0; i < frequencies.Count && !ct.IsCancellationRequested; i++)
+                {
+                    _currentFrequencyIndex = i;
+                    var freq = frequencies[i] * FrequencyMultiplier;
+
+                    // Write frequency to generator
+                    await _generatorService.WriteFrequencies(SelectedGeneratorId, [freq]);
+
+                    Output1Frequency = freq;
+                    Output2Frequency = freq;
+                    StepValue = i + 1;
+                    UpdateProgress();
+
+                    _logger.LogDebug("Frequency step {Step}/{Total}: {Freq} Hz",
+                        i + 1, frequencies.Count, freq);
+
+                    // Dwell
+                    var dwellMs = (int)(DwellValue * DwellMultiplier * 1000);
+                    await Task.Delay(dwellMs, ct);
+                }
+            }
+
+            // Finished all frequencies
+            _logger.LogInformation("Frequency program completed for generator {Id}", SelectedGeneratorId);
+            await Stop();
+        }
+        catch (OperationCanceledException)
+        {
+            _logger.LogDebug("Frequency cycle cancelled");
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Error in frequency cycle");
+        }
+    }
+
+    private void OnStatusTimerElapsed(object? sender, ElapsedEventArgs e)
+    {
+        if (SelectedGeneratorId < 0) return;
+
+        try
+        {
+            var state = _generatorService.ReadStatus(SelectedGeneratorId).Result;
+            CurrentPresetDuration = state.ElapsedTime.ToString(@"hh\:mm\:ss");
+
+            var totalSeconds = FrequencyItems.Count * DwellValue * DwellMultiplier * RepeatProgram;
+            EstimatedTotalRunTime = TimeSpan.FromSeconds(totalSeconds).ToString(@"hh\:mm\:ss");
+        }
+        catch { /* timer callback, don't throw */ }
+    }
+
+    private void UpdateProgress()
+    {
+        var total = FrequencyItems.Count;
+        ProgressMaximum = total > 0 ? total : 1;
+        ProgressValue = _currentFrequencyIndex;
+        TotalStatus = $"{DwellValue}/{total}/{RepeatProgram}";
+    }
+
+    private List<double> ParseFrequencies()
+    {
+        var result = new List<double>();
+        foreach (var item in FrequencyItems)
+        {
+            var cleaned = item.Replace(",", "").Trim();
+            if (double.TryParse(cleaned, NumberStyles.Float, CultureInfo.InvariantCulture, out var freq))
+            {
+                result.Add(freq);
+            }
+        }
+        return result;
+    }
+
+    public void Dispose()
+    {
+        _runCts?.Cancel();
+        _runCts?.Dispose();
+        _statusTimer.Stop();
+        _statusTimer.Dispose();
     }
 }

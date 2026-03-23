@@ -7,12 +7,13 @@ namespace Spooky2.Services.Tests;
 /// <summary>
 /// Tests for the generator USB HID command protocol.
 /// Verifies command encoding, response parsing, and byte framing.
-/// Concern: HID report sizing — commands must be properly encoded/decoded.
+/// Tests are based on captured serial port communication dumps from Data/StartHuntAndKill
+/// and Data/FinishHuntAndKill.
 /// </summary>
 public class GeneratorProtocolTests
 {
     // ─────────────────────────────────────────────────────────────
-    // Command string format tests
+    // Command string format tests (existing static commands)
     // ─────────────────────────────────────────────────────────────
 
     [Fact]
@@ -30,7 +31,6 @@ public class GeneratorProtocolTests
     [Fact]
     public void StartOutput1_HasCorrectFormat()
     {
-        // Register 61, value 1
         Assert.Equal(":w611", GeneratorProtocol.StartOutput1);
     }
 
@@ -52,23 +52,173 @@ public class GeneratorProtocolTests
         Assert.Equal(":w620", GeneratorProtocol.StopOutput2);
     }
 
+    [Fact]
+    public void StaticCommands_MatchExpectedValues()
+    {
+        Assert.Equal(":a00", GeneratorProtocol.ActionPing);
+        Assert.Equal(":a0012345", GeneratorProtocol.ActionHandshake);
+        Assert.Equal(":w610", GeneratorProtocol.StopOutput1);
+        Assert.Equal(":w611", GeneratorProtocol.StartOutput1);
+        Assert.Equal(":w620", GeneratorProtocol.StopOutput2);
+        Assert.Equal(":w621", GeneratorProtocol.StartOutput2);
+        Assert.Equal(":r68", GeneratorProtocol.ReadFirmwareVersion);
+        Assert.Equal(":r80", GeneratorProtocol.ReadHardwareType);
+        Assert.Equal(":r91", GeneratorProtocol.ReadSerialNumber);
+    }
+
     // ─────────────────────────────────────────────────────────────
-    // Parameterized command builder tests
+    // Frequency encoding (verified from Data/FinishHuntAndKill dump)
+    // Encoding: Hz * 1e9 (nanoHz)
     // ─────────────────────────────────────────────────────────────
 
     [Fact]
-    public void BuildSetFrequency1_FormatsCorrectly()
+    public void BuildSetFrequency1_EncodesAsNanoHz()
     {
-        var cmd = GeneratorProtocol.BuildSetFrequency1(76000.5);
-        Assert.Equal(":w24=76000.5,", cmd);
+        // From dump: frequency ~1652608.15 Hz -> :w24=1652608154681650,
+        // We verify the encoding formula: Hz * 1e9
+        var cmd = GeneratorProtocol.BuildSetFrequency1(1000.0);
+        Assert.Equal(":w24=1000000000000,", cmd);
+    }
+
+    [Theory]
+    [InlineData(41000.0)]      // Scan start
+    [InlineData(1800000.0)]    // Scan end
+    [InlineData(100.0)]
+    [InlineData(0.5)]          // Sub-Hz
+    [InlineData(76000.5)]      // Typical frequency with decimal
+    public void BuildSetFrequency1_ValidFrequencies(double freqHz)
+    {
+        var cmd = GeneratorProtocol.BuildSetFrequency1(freqHz);
+        Assert.StartsWith(":w24=", cmd);
+        Assert.EndsWith(",", cmd);
+
+        // Verify we can decode back
+        var valStr = cmd.Replace(":w24=", "").TrimEnd(',');
+        var nanoHz = long.Parse(valStr);
+        var decodedHz = nanoHz / 1e9;
+        Assert.Equal(freqHz, decodedHz, precision: 5);
     }
 
     [Fact]
-    public void BuildSetFrequency2_FormatsCorrectly()
+    public void BuildSetFrequency2_EncodesAsNanoHz()
     {
-        var cmd = GeneratorProtocol.BuildSetFrequency2(152000);
-        Assert.Equal(":w25=152000,", cmd);
+        var cmd = GeneratorProtocol.BuildSetFrequency2(880.0);
+        Assert.Equal(":w25=880000000000,", cmd);
     }
+
+    // ─────────────────────────────────────────────────────────────
+    // Frequency step verification (from biofeedback scan dump)
+    // ─────────────────────────────────────────────────────────────
+
+    [Fact]
+    public void BiofeedbackScan_StepSize_MatchesDump()
+    {
+        // From dump: consecutive :w24 values
+        long v1 = 1652608154681650;
+        long v2 = 1653021306720320;
+
+        double freq1 = v1 / 1e9; // Hz
+        double freq2 = v2 / 1e9;
+        double step = freq2 - freq1;
+        double expectedStep = freq1 * 0.00025; // 0.025%
+
+        Assert.Equal(expectedStep, step, precision: 1);
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // Amplitude commands (verified from dump stop sequence)
+    // :w28/:w29 are amplitude in centivolt
+    // ─────────────────────────────────────────────────────────────
+
+    [Fact]
+    public void BuildSetAmplitudeCv_Format()
+    {
+        // From dump: :w28=2000, = 20.00V, :w28=1950, = 19.50V
+        Assert.Equal(":w28=2000,", GeneratorProtocol.BuildSetAmplitudeCv1(2000));
+        Assert.Equal(":w29=1950,", GeneratorProtocol.BuildSetAmplitudeCv2(1950));
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // Stop sequence (from FinishHuntAndKill dump)
+    // ─────────────────────────────────────────────────────────────
+
+    [Fact]
+    public void StopSequence_MatchesDump()
+    {
+        // Dump shows this exact stop sequence:
+        // :w12=0,,    (clear freq ch1)
+        // :w12=,0,    (clear freq ch2)
+        // :w28=1950,  (amplitude ch1)
+        // :w29=1950,  (amplitude ch2)
+        // :n00=Port 4 - GX Hunt and Kill (C)  (display name)
+        // :w24=1634122798580760,  (idle frequency)
+        // :w28=2000,  (amplitude ch1)
+        // :w29=2000,  (amplitude ch2)
+
+        Assert.Equal(":w12=0,,", GeneratorProtocol.ClearFrequency1);
+        Assert.Equal(":w12=,0,", GeneratorProtocol.ClearFrequency2);
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // Display name (from both dumps)
+    // ─────────────────────────────────────────────────────────────
+
+    [Theory]
+    [InlineData("Port 3 - Running Biofeedback")]
+    [InlineData("Port 4 - GX Hunt and Kill (C)")]
+    public void BuildSetDisplayName_MatchesDump(string name)
+    {
+        var cmd = GeneratorProtocol.BuildSetDisplayName(name);
+        Assert.Equal($":n00={name}", cmd);
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // Sensor reading parsing (from FinishHuntAndKill responses)
+    // ─────────────────────────────────────────────────────────────
+
+    [Theory]
+    [InlineData(":r11=53001.", 53001.0)]
+    [InlineData(":r12=6557.", 6557.0)]
+    [InlineData(":r11=52998.", 52998.0)]
+    [InlineData(":r12=6559.", 6559.0)]
+    public void ParseSensorReading_MatchesDumpResponses(string response, double expected)
+    {
+        var value = GeneratorProtocol.ParseSensorReading(response);
+        Assert.Equal(expected, value);
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // Read commands format
+    // ─────────────────────────────────────────────────────────────
+
+    [Fact]
+    public void ReadAngle_Format()
+    {
+        Assert.Equal(":r11=,", GeneratorProtocol.ReadAngle);
+    }
+
+    [Fact]
+    public void ReadCurrent_Format()
+    {
+        Assert.Equal(":r12=,", GeneratorProtocol.ReadCurrent);
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // Waveform upload (from StartHuntAndKill dump)
+    // ─────────────────────────────────────────────────────────────
+
+    [Fact]
+    public void BuildWaveformTable_Format()
+    {
+        // From dump: :a11=512,515,518,521,...
+        var values = new[] { 512, 515, 518, 521 };
+        var cmd = GeneratorProtocol.BuildWaveformTable(11, values);
+        Assert.Equal(":a11=512,515,518,521,", cmd);
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // Existing parameterized command builder tests
+    // ─────────────────────────────────────────────────────────────
 
     [Fact]
     public void BuildSetAmplitude1_FormatsCorrectly()
@@ -183,9 +333,17 @@ public class GeneratorProtocolTests
     }
 
     [Fact]
+    public void EncodeCommandToBytes_AppendsCorrectTerminator()
+    {
+        var bytes = GeneratorProtocol.EncodeCommandToBytes(":w24=1000,");
+        var text = System.Text.Encoding.ASCII.GetString(bytes);
+        Assert.EndsWith("\r\n", text);
+    }
+
+    [Fact]
     public void EncodeCommandToBytes_IsAscii()
     {
-        var bytes = GeneratorProtocol.EncodeCommandToBytes(":w24=76000.5,");
+        var bytes = GeneratorProtocol.EncodeCommandToBytes(":w24=76000500000000,");
 
         // All bytes should be valid ASCII (< 128)
         Assert.All(bytes, b => Assert.True(b < 128, $"Byte {b} is not valid ASCII"));
@@ -204,7 +362,6 @@ public class GeneratorProtocolTests
     [Fact]
     public void DecodeResponseFromBytes_StripsNullBytes()
     {
-        // HID reports are often padded with null bytes
         var data = new byte[] { (byte)'o', (byte)'k', 0, 0, 0, 0, 0 };
         var result = GeneratorProtocol.DecodeResponseFromBytes(data);
 
@@ -277,7 +434,6 @@ public class GeneratorProtocolTests
     [Fact]
     public void ParseResponse_ValueWithTrailingComma()
     {
-        // Generator responses often have trailing commas
         var response = GeneratorProtocol.ParseResponse("ok=120,");
 
         Assert.True(response.IsSuccess);
@@ -287,10 +443,21 @@ public class GeneratorProtocolTests
     [Fact]
     public void ParseResponse_UnknownPrefix_TreatedAsSuccess()
     {
-        // Some responses may not start with ok/err
         var response = GeneratorProtocol.ParseResponse("v2.34");
 
         Assert.True(response.IsSuccess);
+    }
+
+    [Theory]
+    [InlineData(":ok", true, "")]
+    [InlineData(":r11=53001.", true, "53001")]
+    [InlineData(":r12=6557.", true, "6557")]
+    [InlineData(":r90=123456789,987654321.", true, "123456789,987654321")]
+    public void ParseResponse_MatchesDumpResponses(string response, bool expectedSuccess, string expectedValue)
+    {
+        var result = GeneratorProtocol.ParseResponse(response);
+        Assert.Equal(expectedSuccess, result.IsSuccess);
+        Assert.Equal(expectedValue, result.Value);
     }
 
     // ─────────────────────────────────────────────────────────────
@@ -300,7 +467,7 @@ public class GeneratorProtocolTests
     [Theory]
     [InlineData(":a00")]
     [InlineData(":r68")]
-    [InlineData(":w24=76000.5,")]
+    [InlineData(":w24=76000500000000,")]
     [InlineData(":w11=1,0,")]
     [InlineData(":w95=12021")]
     public void EncodeAndDecode_RoundTrip(string command)
@@ -308,7 +475,6 @@ public class GeneratorProtocolTests
         var encoded = GeneratorProtocol.EncodeCommandToBytes(command);
         var decoded = GeneratorProtocol.DecodeResponseFromBytes(encoded);
 
-        // After round-trip, we get the command back (minus CRLF which gets trimmed)
         Assert.Equal(command, decoded);
     }
 

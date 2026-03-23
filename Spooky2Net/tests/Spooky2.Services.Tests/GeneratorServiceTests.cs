@@ -408,11 +408,11 @@ public class GeneratorServiceTests
         await svc.WriteFrequencies(0, [76000.5, 152000.0]);
 
         var newCommands = conn.SentData.Skip(sentBefore).ToList();
-        // Each frequency generates :w24=freq, and :w25=freq, commands
-        Assert.Contains(":w24=76000.5,\r\n", newCommands);
-        Assert.Contains(":w25=76000.5,\r\n", newCommands);
-        Assert.Contains(":w24=152000,\r\n", newCommands);
-        Assert.Contains(":w25=152000,\r\n", newCommands);
+        // Each frequency generates :w24=nanoHz, and :w25=nanoHz, commands
+        Assert.Contains(":w24=76000500000000,\r\n", newCommands);
+        Assert.Contains(":w25=76000500000000,\r\n", newCommands);
+        Assert.Contains(":w24=152000000000000,\r\n", newCommands);
+        Assert.Contains(":w25=152000000000000,\r\n", newCommands);
     }
 
     // ─────────────────────────────────────────────────────────────
@@ -488,10 +488,9 @@ public class GeneratorServiceTests
 
         var newCommands = conn.SentData.Skip(sentBefore).ToList();
 
-        // Must use period as decimal separator (invariant culture), never comma
+        // Frequency is now encoded as nanoHz (integer), so locale is not an issue
         var freqCmd = newCommands.FirstOrDefault(c => c.StartsWith(":w24="));
         Assert.NotNull(freqCmd);
-        Assert.Contains("76000.5", freqCmd);
-        Assert.DoesNotContain("76000,5", freqCmd);
+        Assert.Contains("76000500000000", freqCmd);
     }
 }

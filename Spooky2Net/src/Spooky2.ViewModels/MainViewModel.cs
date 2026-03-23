@@ -65,6 +65,7 @@ public partial class MainViewModel : ObservableObject
         Database = new DatabaseViewModel(databaseService, microGenService);
         Settings = new SettingsViewModel();
         System = new SystemViewModel(settingsService);
+        Control = new ControlViewModel(generatorService, new Spooky2.Services.Waveform.WaveformService());
 
         _ = InitializeAsync();
     }
@@ -110,6 +111,13 @@ public partial class MainViewModel : ObservableObject
                         Status = state.Status.ToString()
                     };
                     Generators.Add(vm);
+                }
+
+                // Assign first generator to the Control tab
+                if (found.Count > 0 && Control != null)
+                {
+                    Control.AssignGenerator(found[0].Id, found[0].Port, found[0].CurrentProgram);
+                    _logger.LogInformation("Assigned generator {Id} to Control tab", found[0].Id);
                 }
 
                 _logger.LogInformation("Initialization complete, {Count} generator(s) found", found.Count);
@@ -172,7 +180,7 @@ public partial class MainViewModel : ObservableObject
 
     public SystemViewModel System { get; }
 
-    public ControlViewModel? Control { get; set; }
+    public ControlViewModel Control { get; }
 
     public ObservableCollection<GeneratorViewModel> Generators { get; } = new();
 

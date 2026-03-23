@@ -113,8 +113,8 @@ public class MicroGenTests
         // Should send: dwell, freq1, freq2, start1, start2
         Assert.Equal(5, sent.Count);
         Assert.Contains(":w23=180,", sent[0]);     // Dwell time
-        Assert.Contains(":w24=76000,", sent[1]);    // Output 1 frequency
-        Assert.Contains(":w25=76000,", sent[2]);    // Output 2 frequency
+        Assert.Contains(":w24=76000000000000,", sent[1]);    // Output 1 frequency (nanoHz)
+        Assert.Contains(":w25=76000000000000,", sent[2]);    // Output 2 frequency (nanoHz)
         Assert.Contains(":w611", sent[3]);           // Start output 1
         Assert.Contains(":w621", sent[4]);           // Start output 2
     }
@@ -236,13 +236,12 @@ public class MicroGenTests
     {
         var (service, factory) = CreateService();
 
-        // 76000.5 should be "76000.5" not "76000,5" regardless of locale
+        // 76000.5 Hz should encode as 76000500000000 nanoHz (integer, no locale issues)
         await service.SendToLowPower("/dev/tty.test", [76000.5], 180);
 
         var sent = factory.LastConnection!.SentData;
         var freqCmd = sent.First(s => s.Contains(":w24="));
-        Assert.Contains("76000.5", freqCmd);
-        Assert.DoesNotContain("76000,5", freqCmd);
+        Assert.Contains("76000500000000", freqCmd);
     }
 
     // ─────────────────────────────────────────────────────────────
