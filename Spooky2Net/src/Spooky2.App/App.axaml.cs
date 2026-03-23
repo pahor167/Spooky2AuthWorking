@@ -16,6 +16,7 @@ using Spooky2.Services.CarrierSweep;
 using Microsoft.Extensions.Logging;
 using Spooky2.ViewModels;
 using Spooky2.Views;
+using Avalonia.Controls;
 using Spooky2.Views.Services;
 using System.Threading.Tasks;
 
@@ -48,6 +49,8 @@ public class App : Application
 
     private static async Task InitializeAsync(MainWindow window)
     {
+        try
+        {
         // Small yield to let the window paint first
         await Task.Delay(50);
 
@@ -95,5 +98,41 @@ public class App : Application
         {
             window.DataContext = Services.GetRequiredService<MainViewModel>();
         });
+        }
+        catch (Exception ex)
+        {
+            // Write crash to file AND show in UI — don't silently die
+            var crashLog = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "crash.log");
+            var msg = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] FATAL: {ex}\n";
+            try { File.AppendAllText(crashLog, msg); } catch { }
+
+            Avalonia.Threading.Dispatcher.UIThread.Post(() =>
+            {
+                var splash = window.FindControl<Avalonia.Controls.Border>("LoadingSplash");
+                if (splash != null)
+                {
+                    var panel = splash.Child as Avalonia.Controls.StackPanel;
+                    if (panel != null)
+                    {
+                        var errText = new Avalonia.Controls.TextBlock
+                        {
+                            Text = $"Startup failed:\n{ex.Message}\n\nSee crash.log for details.",
+                            Foreground = Avalonia.Media.Brushes.OrangeRed,
+                            TextWrapping = Avalonia.Media.TextWrapping.Wrap,
+                            MaxWidth = 500,
+                            HorizontalAlignment = Avalonia.Layout.HorizontalAlignment.Center
+                        };
+                        panel.Children.Add(errText);
+
+                        // Hide progress bar
+                        foreach (var child in panel.Children)
+                        {
+                            if (child is Avalonia.Controls.ProgressBar pb)
+                                pb.IsVisible = false;
+                        }
+                    }
+                }
+            });
+        }
     }
 }
