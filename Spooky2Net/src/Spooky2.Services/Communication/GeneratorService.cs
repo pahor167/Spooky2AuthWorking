@@ -5,23 +5,18 @@ using Spooky2.Core.Models;
 namespace Spooky2.Services.Communication;
 
 /// <summary>
-/// Generator control service managing state for discovered Spooky2 generators.
-/// Communicates via serial ports (COM ports), matching the VB6 discovery flow
-/// (Proc_0_214/Proc_0_213). Generator types:
-///   - Type 1 (XM): 57600 baud, 8N1
-///   - Type 2 (GeneratorX): 115200 baud, 8N1
-///   - Type 3 (GeneratorX Pro): 115200 baud, 8N1
+/// Generator control service. Communicates via serial ports matching the VB6 protocol.
+/// Port is kept open per generator to avoid open/close overhead on every command.
 /// </summary>
-public sealed class GeneratorService : IGeneratorService
+public sealed class GeneratorService : IGeneratorService, IDisposable
 {
-    private const int CommandDelayMs = 50;
-
     private readonly ISerialPortFactory _serialPortFactory;
     private readonly ILogger<GeneratorService> _logger;
     private readonly Dictionary<int, GeneratorState> _generatorStates = new();
     private readonly Dictionary<int, List<double>> _loadedFrequencies = new();
     private readonly Dictionary<int, DateTime> _startTimes = new();
     private readonly Dictionary<int, PortConfig> _portConfigs = new();
+    private readonly Dictionary<int, ISerialPortConnection> _openPorts = new();
 
     private sealed record PortConfig(string PortName, int BaudRate);
 
@@ -40,7 +35,6 @@ public sealed class GeneratorService : IGeneratorService
 
         foreach (var port in ports)
         {
-            // Try XM baud rate first (57600), then GX (115200)
             foreach (var baudRate in new[] { 57600, 115200 })
             {
                 try
@@ -48,24 +42,17 @@ public sealed class GeneratorService : IGeneratorService
                     _logger.LogDebug("Probing {Port} at {Baud} baud...", port, baudRate);
 
                     using var connection = _serialPortFactory.Open(port, baudRate);
-
-                    // Wait for DTR/RTS to settle — CH342 USB-serial needs time
                     Thread.Sleep(200);
-
-                    // Flush any garbage in the buffer
                     try { if (connection.BytesAvailable > 0) connection.ReadExisting(); } catch { }
 
-                    // Determine generator type
                     string generatorType;
 
                     if (baudRate == 115200)
                     {
-                        // GeneratorX authentication protocol
-                        // Step 1: Generate challenge (permutation of 1-9)
                         var challenge = GeneratorAuthentication.GenerateChallenge();
                         var challengeCmd = $":r90={challenge},";
                         _logger.LogDebug("  Sending challenge: {Cmd}", challengeCmd);
-                        var challengeResponse = SendCommandOnConnection(connection, challengeCmd);
+                        var challengeResponse = SendOnConnection(connection, challengeCmd);
 
                         if (string.IsNullOrEmpty(challengeResponse))
                         {
@@ -75,7 +62,6 @@ public sealed class GeneratorService : IGeneratorService
 
                         _logger.LogInformation("  Generator responded on {Port} at {Baud}: {Response}", port, baudRate, challengeResponse);
 
-                        // Step 2: Parse response - format is ":r90=ECHO,DEVICE_RESPONSE."
                         var responseBody = challengeResponse.TrimStart(':');
                         if (!responseBody.StartsWith("r90=")) continue;
                         responseBody = responseBody.Substring(4).TrimEnd('.');
@@ -86,19 +72,13 @@ public sealed class GeneratorService : IGeneratorService
                         var echo = parts[0];
                         var deviceResp = parts[1];
 
-                        // Verify echo
                         var expectedEcho = GeneratorAuthentication.ComputeEcho(challenge, deviceResp);
                         if (expectedEcho != echo)
                             _logger.LogWarning("  Echo mismatch: expected={Expected} got={Got}", expectedEcho, echo);
-                        else
-                            _logger.LogDebug("  Echo verified OK");
 
-                        // Step 3: Compute auth token (uses only challenge + deviceResp, not echo)
                         var authToken = GeneratorAuthentication.ComputeAuthToken(challenge, deviceResp);
                         var authCmd = $":w92={authToken}.";
-                        _logger.LogDebug("  Sending auth token: {Cmd}", authCmd);
-                        var authResponse = SendCommandOnConnection(connection, authCmd);
-                        _logger.LogDebug("  Auth response: {Response}", authResponse);
+                        var authResponse = SendOnConnection(connection, authCmd);
 
                         if (authResponse == null || !authResponse.Contains("ok"))
                         {
@@ -108,54 +88,32 @@ public sealed class GeneratorService : IGeneratorService
 
                         _logger.LogInformation("  Authenticated on {Port}!", port);
 
-                        // Step 4: Read hardware info
-                        var hwResponse = SendCommandOnConnection(connection, GeneratorProtocol.ReadHardwareInfo);
-                        _logger.LogDebug("  Hardware: {Response}", hwResponse);
-
-                        // Step 5: Read firmware name
-                        var fwResponse = SendCommandOnConnection(connection, GeneratorProtocol.QueryFirmwareName);
-                        _logger.LogDebug("  Firmware: {Response}", fwResponse);
-
-                        // Step 6: Initialize generator
-                        SendCommandOnConnection(connection, GeneratorProtocol.BuildSyncOnOff(false));
-                        SendCommandOnConnection(connection, GeneratorProtocol.BuildWaveformInversion(false, false));
-                        SendCommandOnConnection(connection, GeneratorProtocol.BuildSetFrequency1(0));
-                        SendCommandOnConnection(connection, GeneratorProtocol.BuildSetFrequency2(0));
-                        SendCommandOnConnection(connection, GeneratorProtocol.BuildLowFrequencyMode(true, true));
-                        SendCommandOnConnection(connection, $":w24=00,");
-                        SendCommandOnConnection(connection, GeneratorProtocol.BuildSetAmplitude1(120));
-                        SendCommandOnConnection(connection, GeneratorProtocol.BuildSetAmplitude2(120));
+                        SendOnConnection(connection, GeneratorProtocol.ReadHardwareInfo);
+                        SendOnConnection(connection, GeneratorProtocol.QueryFirmwareName);
+                        SendOnConnection(connection, GeneratorProtocol.BuildSyncOnOff(false));
+                        SendOnConnection(connection, GeneratorProtocol.BuildWaveformInversion(false, false));
+                        SendOnConnection(connection, GeneratorProtocol.BuildSetFrequency1(0));
+                        SendOnConnection(connection, GeneratorProtocol.BuildSetFrequency2(0));
+                        SendOnConnection(connection, GeneratorProtocol.BuildLowFrequencyMode(true, true));
+                        SendOnConnection(connection, $":w24=00,");
+                        SendOnConnection(connection, GeneratorProtocol.BuildSetAmplitude1(120));
+                        SendOnConnection(connection, GeneratorProtocol.BuildSetAmplitude2(120));
 
                         generatorType = "GeneratorX";
                     }
                     else
                     {
-                        // XM legacy handshake protocol
-                        // Step 1: Ping with :a00
-                        var pingResponse = SendCommandOnConnection(connection, GeneratorProtocol.ActionPing);
+                        var pingResponse = SendOnConnection(connection, GeneratorProtocol.ActionPing);
                         if (string.IsNullOrEmpty(pingResponse))
                         {
                             _logger.LogDebug("  No response on {Port} at {Baud}", port, baudRate);
                             continue;
                         }
-                        _logger.LogInformation("  Generator found on {Port} at {Baud}! Ping response: {Response}", port, baudRate, pingResponse);
 
-                        // Step 2: Handshake with :a0012345
-                        var handshakeResponse = SendCommandOnConnection(connection, GeneratorProtocol.ActionHandshake);
-                        _logger.LogDebug("  Handshake response: {Response}", handshakeResponse);
-
-                        // Step 3: Read hardware type :r80
-                        var hwResponse = SendCommandOnConnection(connection, GeneratorProtocol.ReadHardwareType);
-                        _logger.LogDebug("  Hardware type: {Response}", hwResponse);
-
-                        // Step 4: Read firmware :r68
-                        var fwResponse = SendCommandOnConnection(connection, GeneratorProtocol.ReadFirmwareVersion);
-                        var hasSync = fwResponse?.Contains("SYNC") ?? false;
-                        _logger.LogDebug("  Firmware: {Response} (Sync={HasSync})", fwResponse, hasSync);
-
-                        // Step 5: Read serial :r91
-                        var serialResponse = SendCommandOnConnection(connection, GeneratorProtocol.ReadSerialNumber);
-                        _logger.LogDebug("  Serial: {Response}", serialResponse);
+                        SendOnConnection(connection, GeneratorProtocol.ActionHandshake);
+                        SendOnConnection(connection, GeneratorProtocol.ReadHardwareType);
+                        SendOnConnection(connection, GeneratorProtocol.ReadFirmwareVersion);
+                        SendOnConnection(connection, GeneratorProtocol.ReadSerialNumber);
 
                         generatorType = "XM";
                     }
@@ -172,13 +130,9 @@ public sealed class GeneratorService : IGeneratorService
                     };
 
                     foundGenerators.Add(state);
-
-                    // Store connection details for later use
                     _portConfigs[genId] = new PortConfig(port, baudRate);
-
                     _logger.LogInformation("  Registered as Generator {Id} ({Type}) on {Port}", genId, generatorType, port);
-
-                    break; // Found on this port, don't try other baud rates
+                    break;
                 }
                 catch (Exception ex)
                 {
@@ -187,10 +141,10 @@ public sealed class GeneratorService : IGeneratorService
             }
         }
 
-        // Update internal state
         _generatorStates.Clear();
         _loadedFrequencies.Clear();
         _startTimes.Clear();
+        CloseAllPorts();
         foreach (var state in foundGenerators)
         {
             _generatorStates[state.Id] = state;
@@ -205,10 +159,9 @@ public sealed class GeneratorService : IGeneratorService
     {
         ValidateGeneratorExists(generatorId);
 
-        // Clean slate before starting (matches original Spooky2 stop/idle sequence)
-        SendCommand(generatorId, GeneratorProtocol.BuildModulationOnOff(false, false)); // :w13=0,
-        SendCommand(generatorId, GeneratorProtocol.ClearFrequency1);                   // :w12=0,,
-        SendCommand(generatorId, GeneratorProtocol.ClearFrequency2);                   // :w12=,0,
+        SendCommand(generatorId, GeneratorProtocol.BuildModulationOnOff(false, false));
+        SendCommand(generatorId, GeneratorProtocol.ClearFrequency1);
+        SendCommand(generatorId, GeneratorProtocol.ClearFrequency2);
 
         _startTimes[generatorId] = DateTime.UtcNow;
         _generatorStates[generatorId] = _generatorStates[generatorId] with
@@ -217,7 +170,6 @@ public sealed class GeneratorService : IGeneratorService
             ElapsedTime = TimeSpan.Zero
         };
 
-        // Start output 1 (:w611) and output 2 (:w621) - Main.frm:37615, 37667
         SendCommand(generatorId, GeneratorProtocol.StartOutput1);
         SendCommand(generatorId, GeneratorProtocol.StartOutput2);
         await Task.CompletedTask;
@@ -235,29 +187,23 @@ public sealed class GeneratorService : IGeneratorService
             CurrentFrequency = 0
         };
 
-        // Stop outputs
         SendCommand(generatorId, GeneratorProtocol.StopOutput1);
         SendCommand(generatorId, GeneratorProtocol.StopOutput2);
-
-        // Clean slate (matches original Spooky2 idle sequence from serial dump)
-        SendCommand(generatorId, GeneratorProtocol.BuildModulationOnOff(false, false)); // :w13=0,
-        SendCommand(generatorId, GeneratorProtocol.ClearFrequency1);                   // :w12=0,,
-        SendCommand(generatorId, GeneratorProtocol.ClearFrequency2);                   // :w12=,0,
+        SendCommand(generatorId, GeneratorProtocol.BuildModulationOnOff(false, false));
+        SendCommand(generatorId, GeneratorProtocol.ClearFrequency1);
+        SendCommand(generatorId, GeneratorProtocol.ClearFrequency2);
         await Task.CompletedTask;
     }
 
     public async Task Pause(int generatorId)
     {
         ValidateGeneratorExists(generatorId);
-
         var elapsed = CalculateElapsed(generatorId);
         _generatorStates[generatorId] = _generatorStates[generatorId] with
         {
             Status = GeneratorStatus.Paused,
             ElapsedTime = elapsed
         };
-
-        // Pause is implemented as stopping both outputs
         SendCommand(generatorId, GeneratorProtocol.StopOutput1);
         SendCommand(generatorId, GeneratorProtocol.StopOutput2);
         await Task.CompletedTask;
@@ -266,31 +212,20 @@ public sealed class GeneratorService : IGeneratorService
     public async Task Hold(int generatorId)
     {
         ValidateGeneratorExists(generatorId);
-
         var elapsed = CalculateElapsed(generatorId);
         _generatorStates[generatorId] = _generatorStates[generatorId] with
         {
             Status = GeneratorStatus.Held,
             ElapsedTime = elapsed
         };
-
-        // Hold keeps outputs running but freezes frequency progression;
-        // no stop command is sent - the frequency timer is paused in state only.
-        // Outputs remain active so the current frequency continues to be emitted.
         await Task.CompletedTask;
     }
 
     public async Task Resume(int generatorId)
     {
         ValidateGeneratorExists(generatorId);
-
         _startTimes[generatorId] = DateTime.UtcNow;
-        _generatorStates[generatorId] = _generatorStates[generatorId] with
-        {
-            Status = GeneratorStatus.Running
-        };
-
-        // Resume by restarting both outputs
+        _generatorStates[generatorId] = _generatorStates[generatorId] with { Status = GeneratorStatus.Running };
         SendCommand(generatorId, GeneratorProtocol.StartOutput1);
         SendCommand(generatorId, GeneratorProtocol.StartOutput2);
         await Task.CompletedTask;
@@ -300,49 +235,28 @@ public sealed class GeneratorService : IGeneratorService
     {
         ValidateGeneratorExists(generatorId);
         ArgumentNullException.ThrowIfNull(frequencies);
-
         _loadedFrequencies[generatorId] = new List<double>(frequencies);
 
-        // Write each frequency pair to both outputs using :w24 (out1) and :w25 (out2)
-        // Main.frm:43518, 43540, 57198, 57357, 57360
         foreach (var frequency in frequencies)
         {
-            var cmd1 = GeneratorProtocol.BuildSetFrequency1(frequency);
-            var cmd2 = GeneratorProtocol.BuildSetFrequency2(frequency);
-            SendCommand(generatorId, cmd1);
-            SendCommand(generatorId, cmd2);
+            SendCommand(generatorId, GeneratorProtocol.BuildSetFrequency1(frequency));
+            SendCommand(generatorId, GeneratorProtocol.BuildSetFrequency2(frequency));
         }
 
         if (frequencies.Count > 0)
         {
-            _generatorStates[generatorId] = _generatorStates[generatorId] with
-            {
-                CurrentFrequency = frequencies[0]
-            };
+            _generatorStates[generatorId] = _generatorStates[generatorId] with { CurrentFrequency = frequencies[0] };
         }
-
         await Task.CompletedTask;
     }
 
     public Task<GeneratorState> ReadStatus(int generatorId)
     {
         if (!_generatorStates.TryGetValue(generatorId, out var state))
-        {
-            state = new GeneratorState
-            {
-                Id = generatorId,
-                Status = GeneratorStatus.Idle
-            };
-        }
+            state = new GeneratorState { Id = generatorId, Status = GeneratorStatus.Idle };
 
-        // Update elapsed time if currently running
         if (state.Status == GeneratorStatus.Running && _startTimes.TryGetValue(generatorId, out var startTime))
-        {
-            state = state with
-            {
-                ElapsedTime = DateTime.UtcNow - startTime
-            };
-        }
+            state = state with { ElapsedTime = DateTime.UtcNow - startTime };
 
         return Task.FromResult(state);
     }
@@ -350,63 +264,36 @@ public sealed class GeneratorService : IGeneratorService
     public async Task EraseMemory(int generatorId)
     {
         ValidateGeneratorExists(generatorId);
-
         _generatorStates[generatorId] = _generatorStates[generatorId] with
         {
-            Status = GeneratorStatus.Idle,
-            CurrentFrequency = 0,
-            CurrentProgram = string.Empty,
-            ElapsedTime = TimeSpan.Zero
+            Status = GeneratorStatus.Idle, CurrentFrequency = 0,
+            CurrentProgram = string.Empty, ElapsedTime = TimeSpan.Zero
         };
-
         _loadedFrequencies[generatorId] = new List<double>();
         _startTimes.Remove(generatorId);
 
-        // Stop both outputs first
         SendCommand(generatorId, GeneratorProtocol.StopOutput1);
         SendCommand(generatorId, GeneratorProtocol.StopOutput2);
-
-        // Turn off amplitudes on both channels
         SendCommand(generatorId, GeneratorProtocol.AmplitudeOffChannel1);
         SendCommand(generatorId, GeneratorProtocol.AmplitudeOffChannel2);
-
-        // Turn off bias/offset
         SendCommand(generatorId, GeneratorProtocol.BiasOff);
-
-        // Turn off gating
         SendCommand(generatorId, GeneratorProtocol.GateOff);
-
-        // Reset spectrum mode (:w420)
         SendCommand(generatorId, GeneratorProtocol.SpectrumModeOff);
-
-        // Reset dwell time
         SendCommand(generatorId, GeneratorProtocol.DwellTimeZero);
-
-        // Set default amplitude (120) on both channels
         SendCommand(generatorId, GeneratorProtocol.BuildSetAmplitude1(120));
         SendCommand(generatorId, GeneratorProtocol.BuildSetAmplitude2(120));
-
-        // Reset frequencies to 0
         SendCommand(generatorId, GeneratorProtocol.BuildSetFrequency1(0));
         SendCommand(generatorId, GeneratorProtocol.BuildSetFrequency2(0));
-
         await Task.CompletedTask;
     }
 
     public async Task IdentifyGenerators()
     {
         await FindGenerators();
-
-        // Send identification queries to each discovered generator
         foreach (var generatorId in _generatorStates.Keys.ToList())
         {
-            // Read device info (:r00) - Main.frm:43818
             SendCommand(generatorId, GeneratorProtocol.ReadDeviceInfo);
-
-            // Read hardware info (:r02=0,) - Main.frm:43833
             SendCommand(generatorId, GeneratorProtocol.ReadHardwareInfo);
-
-            // Read hardware capability (:r81) - Main.frm:43097
             SendCommand(generatorId, GeneratorProtocol.ReadHardwareCapability);
         }
     }
@@ -428,49 +315,25 @@ public sealed class GeneratorService : IGeneratorService
     public Task SendCommandsBatch(int generatorId, IReadOnlyList<string> commands)
     {
         ValidateGeneratorExists(generatorId);
-        if (!_portConfigs.TryGetValue(generatorId, out var config))
-            return Task.CompletedTask;
+        var conn = GetOrOpenPort(generatorId);
+        if (conn == null) return Task.CompletedTask;
 
-        try
+        _logger.LogDebug("[GEN {Id}] Batch: {Count} commands", generatorId, commands.Count);
+        foreach (var command in commands)
         {
-            _logger.LogDebug("[GEN {Id}] Batch sending {Count} commands", generatorId, commands.Count);
-            using var connection = _serialPortFactory.Open(config.PortName, config.BaudRate);
-            Thread.Sleep(50); // settle
-
-            foreach (var command in commands)
-            {
-                var fullCommand = command + GeneratorProtocol.CommandTerminator;
-                connection.Write(fullCommand);
-                // Tiny delay between commands (~3ms matches original dump timing)
-                Thread.Sleep(3);
-                // Drain any response bytes without blocking
-                try { if (connection.BytesAvailable > 0) connection.ReadExisting(); } catch { }
-            }
-
-            // Final flush — read any remaining responses
-            Thread.Sleep(50);
-            try { if (connection.BytesAvailable > 0) connection.ReadExisting(); } catch { }
-
-            _logger.LogDebug("[GEN {Id}] Batch complete", generatorId);
+            conn.Write(command + GeneratorProtocol.CommandTerminator);
+            BlockingRead(conn);
         }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "[GEN {Id}] Batch send failed", generatorId);
-        }
-
         return Task.CompletedTask;
     }
 
-    /// <summary>
-    /// Sends a text-based command to a generator over serial port and reads the response.
-    /// Commands are ASCII-encoded with CRLF terminator, matching the VB6
-    /// Proc_0_272 implementation.
-    /// </summary>
-    /// <param name="generatorId">The generator device index.</param>
-    /// <param name="command">The command string (e.g. ":w611", ":r68").</param>
-    /// <returns>The response string, or null if communication failed.</returns>
-    private string? SendCommand(int generatorId, string command)
+    // ── Port management ──
+
+    private ISerialPortConnection? GetOrOpenPort(int generatorId)
     {
+        if (_openPorts.TryGetValue(generatorId, out var existing))
+            return existing;
+
         if (!_portConfigs.TryGetValue(generatorId, out var config))
         {
             _logger.LogWarning("[GEN {Id}] No port config found", generatorId);
@@ -479,10 +342,44 @@ public sealed class GeneratorService : IGeneratorService
 
         try
         {
+            var conn = _serialPortFactory.Open(config.PortName, config.BaudRate);
+            Thread.Sleep(50);
+            _openPorts[generatorId] = conn;
+            return conn;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "[GEN {Id}] Failed to open port", generatorId);
+            return null;
+        }
+    }
+
+    private void CloseAllPorts()
+    {
+        foreach (var conn in _openPorts.Values)
+        {
+            try { conn.Dispose(); } catch { }
+        }
+        _openPorts.Clear();
+    }
+
+    // ── Command sending ──
+
+    private string? SendCommand(int generatorId, string command)
+    {
+        var conn = GetOrOpenPort(generatorId);
+        if (conn == null) return null;
+
+        try
+        {
             _logger.LogDebug("[GEN {Id}] TX: {Command}", generatorId, command);
 
-            using var connection = _serialPortFactory.Open(config.PortName, config.BaudRate);
-            var response = SendCommandOnConnection(connection, command);
+            // Flush stale data
+            try { if (conn.BytesAvailable > 0) conn.ReadExisting(); } catch { }
+
+            conn.Write(command + GeneratorProtocol.CommandTerminator);
+
+            var response = BlockingRead(conn);
 
             _logger.LogDebug("[GEN {Id}] RX: {Response}", generatorId, response);
             return response;
@@ -490,78 +387,68 @@ public sealed class GeneratorService : IGeneratorService
         catch (Exception ex)
         {
             _logger.LogError(ex, "[GEN {Id}] Error sending: {Command}", generatorId, command);
+            // Port might be dead, close it so next call reopens
+            _openPorts.Remove(generatorId);
+            try { conn.Dispose(); } catch { }
             return null;
         }
     }
 
-    private string? SendCommandOnConnection(ISerialPortConnection connection, string command)
+    /// <summary>
+    /// Blocking read — waits for CRLF-terminated response from generator.
+    /// No polling needed. ReadLine blocks until \n arrives or timeout expires.
+    /// Generator responds in &lt;1ms at 115200 baud, so this returns almost instantly.
+    /// </summary>
+    private static string? BlockingRead(ISerialPortConnection conn)
     {
-        // Flush any stale data in the buffer before sending
+        try
+        {
+            var line = conn.ReadLine(); // blocks until \n or timeout
+            return line?.Trim();
+        }
+        catch { return null; }
+    }
+
+    /// <summary>For discovery probing — uses the old slow method with proper timeouts.</summary>
+    private string? SendOnConnection(ISerialPortConnection connection, string command)
+    {
         try { if (connection.BytesAvailable > 0) connection.ReadExisting(); } catch { }
 
-        var fullCommand = command + GeneratorProtocol.CommandTerminator;
-        var txBytes = System.Text.Encoding.ASCII.GetBytes(fullCommand);
-        _logger.LogDebug("    TX bytes [{Len}]: {Hex}",
-            txBytes.Length, BitConverter.ToString(txBytes));
+        connection.Write(command + GeneratorProtocol.CommandTerminator);
 
-        connection.Write(fullCommand);
+        const int timeoutMs = 2000;
+        var sw = System.Diagnostics.Stopwatch.StartNew();
 
-        // Wait for response — VB6 SComm32x reads from input buffer after a delay.
-        // Poll the buffer for up to ReadTimeoutMs, checking every PollIntervalMs.
-        const int readTimeoutMs = 2000;
-        const int pollIntervalMs = 100;
-        var elapsed = 0;
-
-        while (elapsed < readTimeoutMs)
+        while (sw.ElapsedMilliseconds < timeoutMs)
         {
-            Thread.Sleep(pollIntervalMs);
-            elapsed += pollIntervalMs;
-
+            Thread.Sleep(10);
             try
             {
-                var avail = connection.BytesAvailable;
-                if (avail > 0)
+                if (connection.BytesAvailable > 0)
                 {
-                    _logger.LogDebug("    {Avail} byte(s) available after {Ms}ms", avail, elapsed);
-                    // Small extra delay to let the full response arrive
-                    Thread.Sleep(100);
-                    var response = connection.ReadExisting();
-                    var rxBytes = System.Text.Encoding.ASCII.GetBytes(response);
-                    _logger.LogDebug("    RX bytes [{Len}]: {Hex}",
-                        rxBytes.Length, BitConverter.ToString(rxBytes));
-                    _logger.LogDebug("    RX text: '{Response}'", response.Trim());
-                    var trimmed = response.Trim();
-                    if (!string.IsNullOrEmpty(trimmed))
-                        return trimmed;
+                    Thread.Sleep(20); // let full response arrive for multi-byte responses
+                    var response = connection.ReadExisting()?.Trim();
+                    if (!string.IsNullOrEmpty(response))
+                        return response;
                 }
             }
-            catch (Exception ex)
-            {
-                _logger.LogDebug("    Read error: {Error}", ex.Message);
-                return null;
-            }
+            catch { return null; }
         }
 
-        _logger.LogDebug("    Timeout after {Ms}ms, no data received", readTimeoutMs);
+        _logger.LogDebug("    Timeout after {Ms}ms, no data received", timeoutMs);
         return null;
     }
 
     private void ValidateGeneratorExists(int generatorId)
     {
         if (!_generatorStates.ContainsKey(generatorId))
-        {
-            throw new InvalidOperationException(
-                $"Generator {generatorId} not found. Call FindGenerators() first to discover available generators.");
-        }
+            throw new InvalidOperationException($"Generator {generatorId} not found. Call FindGenerators() first.");
     }
 
-    private TimeSpan CalculateElapsed(int generatorId)
-    {
-        if (_startTimes.TryGetValue(generatorId, out var startTime))
-        {
-            return DateTime.UtcNow - startTime;
-        }
+    private TimeSpan CalculateElapsed(int generatorId) =>
+        _startTimes.TryGetValue(generatorId, out var startTime)
+            ? DateTime.UtcNow - startTime
+            : _generatorStates[generatorId].ElapsedTime;
 
-        return _generatorStates[generatorId].ElapsedTime;
-    }
+    public void Dispose() => CloseAllPorts();
 }
