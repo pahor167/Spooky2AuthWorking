@@ -1,3 +1,5 @@
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Spooky2.Core.Interfaces;
 
 namespace Spooky2.Services.IO;
@@ -8,6 +10,13 @@ namespace Spooky2.Services.IO;
 /// </summary>
 public sealed class FileService : IFileService
 {
+    private readonly ILogger<FileService> _logger;
+
+    public FileService(ILogger<FileService>? logger = null)
+    {
+        _logger = logger ?? NullLogger<FileService>.Instance;
+        _logger.LogDebug("FileService initialized");
+    }
     public bool Exists(string path)
     {
         return File.Exists(NormalisePath(path));
@@ -23,7 +32,12 @@ public sealed class FileService : IFileService
         string normalised = NormalisePath(path);
         if (File.Exists(normalised))
         {
+            _logger.LogDebug("Deleting file '{Path}'", normalised);
             File.Delete(normalised);
+        }
+        else
+        {
+            _logger.LogWarning("Attempted to delete non-existent file '{Path}'", normalised);
         }
     }
 
@@ -32,7 +46,12 @@ public sealed class FileService : IFileService
         string normalised = NormalisePath(path);
         if (Directory.Exists(normalised))
         {
+            _logger.LogDebug("Deleting directory '{Path}' (recursive={Recursive})", normalised, recursive);
             Directory.Delete(normalised, recursive);
+        }
+        else
+        {
+            _logger.LogWarning("Attempted to delete non-existent directory '{Path}'", normalised);
         }
     }
 
@@ -61,31 +80,59 @@ public sealed class FileService : IFileService
 
     public async Task<string> ReadAllText(string path)
     {
-        return await File.ReadAllTextAsync(NormalisePath(path));
+        string normalised = NormalisePath(path);
+        _logger.LogDebug("Reading file '{Path}'", normalised);
+        try
+        {
+            return await File.ReadAllTextAsync(normalised);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to read file '{Path}'", normalised);
+            throw;
+        }
     }
 
     public async Task WriteAllText(string path, string content)
     {
         string normalised = NormalisePath(path);
+        _logger.LogDebug("Writing file '{Path}' ({Length} chars)", normalised, content?.Length ?? 0);
         string? dir = Path.GetDirectoryName(normalised);
         if (dir is not null && !Directory.Exists(dir))
         {
             Directory.CreateDirectory(dir);
         }
 
-        await File.WriteAllTextAsync(normalised, content);
+        try
+        {
+            await File.WriteAllTextAsync(normalised, content);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to write file '{Path}'", normalised);
+            throw;
+        }
     }
 
     public async Task AppendText(string path, string content)
     {
         string normalised = NormalisePath(path);
+        _logger.LogDebug("Appending to file '{Path}' ({Length} chars)", normalised, content?.Length ?? 0);
         string? dir = Path.GetDirectoryName(normalised);
         if (dir is not null && !Directory.Exists(dir))
         {
             Directory.CreateDirectory(dir);
         }
 
-        await File.AppendAllTextAsync(normalised, content);
+        try
+        {
+            await File.AppendAllTextAsync(normalised, content);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to append to file '{Path}'", normalised);
+            throw;
+        }
     }
 
     /// <summary>

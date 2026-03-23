@@ -1,5 +1,7 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Spooky2.Core.Interfaces;
 using Spooky2.Core.Models;
 
@@ -8,10 +10,13 @@ namespace Spooky2.ViewModels;
 public partial class SystemViewModel : ObservableObject
 {
     private readonly ISettingsService _settingsService;
+    private readonly ILogger<SystemViewModel> _logger;
 
-    public SystemViewModel(ISettingsService settingsService)
+    public SystemViewModel(ISettingsService settingsService, ILogger<SystemViewModel>? logger = null)
     {
         _settingsService = settingsService;
+        _logger = logger ?? NullLogger<SystemViewModel>.Instance;
+        _logger.LogDebug("SystemViewModel initialized");
     }
 
     // ── General Settings (Column 1) ──
@@ -283,20 +288,44 @@ public partial class SystemViewModel : ObservableObject
     [RelayCommand]
     private async Task RestoreDefaults()
     {
-        await _settingsService.RestoreDefaults();
+        try
+        {
+            _logger.LogInformation("Restoring system defaults");
+            await _settingsService.RestoreDefaults();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to restore system defaults");
+        }
     }
 
     [RelayCommand]
     private async Task RestoreBfbDefaults()
     {
-        await _settingsService.RestoreBfbDefaults();
+        try
+        {
+            _logger.LogInformation("Restoring BFB defaults");
+            await _settingsService.RestoreBfbDefaults();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to restore BFB defaults");
+        }
     }
 
     [RelayCommand]
     private async Task SaveSettings()
     {
-        // Stub: gather settings into dictionary and save
-        await Task.CompletedTask;
+        try
+        {
+            _logger.LogInformation("Saving settings");
+            // Stub: gather settings into dictionary and save
+            await Task.CompletedTask;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to save settings");
+        }
     }
 
     [RelayCommand]

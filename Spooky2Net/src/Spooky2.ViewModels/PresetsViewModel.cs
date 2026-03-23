@@ -1,6 +1,8 @@
 using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Spooky2.Core.Interfaces;
 
 namespace Spooky2.ViewModels;
@@ -9,11 +11,14 @@ public partial class PresetsViewModel : ObservableObject
 {
     private readonly IPresetService _presetService;
     private readonly IFileService _fileService;
+    private readonly ILogger<PresetsViewModel> _logger;
 
-    public PresetsViewModel(IPresetService presetService, IFileService fileService)
+    public PresetsViewModel(IPresetService presetService, IFileService fileService, ILogger<PresetsViewModel>? logger = null)
     {
         _presetService = presetService;
         _fileService = fileService;
+        _logger = logger ?? NullLogger<PresetsViewModel>.Instance;
+        _logger.LogDebug("PresetsViewModel initialized");
     }
 
     [ObservableProperty]
@@ -52,11 +57,20 @@ public partial class PresetsViewModel : ObservableObject
             return;
         }
 
-        var results = await _presetService.SearchPresets(SearchText, CurrentDirectory);
-        PresetFiles.Clear();
-        foreach (var file in results)
+        try
         {
-            PresetFiles.Add(file);
+            _logger.LogDebug("Searching presets for '{SearchText}' in '{Directory}'", SearchText, CurrentDirectory);
+            var results = await _presetService.SearchPresets(SearchText, CurrentDirectory);
+            _logger.LogInformation("Preset search returned {Count} results for '{SearchText}'", results.Count, SearchText);
+            PresetFiles.Clear();
+            foreach (var file in results)
+            {
+                PresetFiles.Add(file);
+            }
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Preset search failed for '{SearchText}'", SearchText);
         }
     }
 
@@ -92,9 +106,18 @@ public partial class PresetsViewModel : ObservableObject
             return;
         }
 
-        var preset = await _presetService.LoadPreset(SelectedPresetPath);
-        ProgramsDisplay = string.Join(Environment.NewLine, preset.Programs.Select(p => p.Name));
-        NotesText = preset.Name;
+        try
+        {
+            _logger.LogDebug("Loading preset from '{Path}'", SelectedPresetPath);
+            var preset = await _presetService.LoadPreset(SelectedPresetPath);
+            _logger.LogInformation("Loaded preset '{Name}' with {Count} programs", preset.Name, preset.Programs.Count);
+            ProgramsDisplay = string.Join(Environment.NewLine, preset.Programs.Select(p => p.Name));
+            NotesText = preset.Name;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to load preset from '{Path}'", SelectedPresetPath);
+        }
     }
 
     [RelayCommand]
@@ -109,7 +132,15 @@ public partial class PresetsViewModel : ObservableObject
     {
         if (!string.IsNullOrWhiteSpace(SelectedPresetPath))
         {
-            await _presetService.DeletePreset(SelectedPresetPath);
+            try
+            {
+                _logger.LogInformation("Deleting preset at '{Path}'", SelectedPresetPath);
+                await _presetService.DeletePreset(SelectedPresetPath);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Failed to delete preset at '{Path}'", SelectedPresetPath);
+            }
         }
     }
 

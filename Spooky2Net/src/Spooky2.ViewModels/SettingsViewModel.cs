@@ -1,6 +1,8 @@
 using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 
 namespace Spooky2.ViewModels;
 
@@ -11,8 +13,12 @@ namespace Spooky2.ViewModels;
 /// </summary>
 public partial class SettingsViewModel : ObservableObject
 {
-    public SettingsViewModel()
+    private readonly ILogger<SettingsViewModel> _logger;
+
+    public SettingsViewModel(ILogger<SettingsViewModel>? logger = null)
     {
+        _logger = logger ?? NullLogger<SettingsViewModel>.Instance;
+        _logger.LogDebug("SettingsViewModel initialized");
         WobbleModes = new ObservableCollection<string> { "Disabled", "Triangle", "Sine", "Sawtooth", "Square" };
         HarmonicWobbleModes = new ObservableCollection<string> { "None", "Octave", "Decade" };
         FreqLimitModes = new ObservableCollection<string> { "Octave", "Decade", "None" };
@@ -385,6 +391,7 @@ public partial class SettingsViewModel : ObservableObject
     [RelayCommand]
     private void RestoreDefaults()
     {
+        _logger.LogInformation("Restoring settings defaults");
         DutyCycleOut1 = 50;
         DutyCycleOut2 = 50;
         AmplitudeOut1 = 20;

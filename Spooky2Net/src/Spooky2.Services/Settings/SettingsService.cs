@@ -1,3 +1,5 @@
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Spooky2.Core.Interfaces;
 
 namespace Spooky2.Services.Settings;
@@ -9,18 +11,30 @@ namespace Spooky2.Services.Settings;
 public sealed class SettingsService : ISettingsService
 {
     private readonly string _rootPath;
+    private readonly ILogger<SettingsService> _logger;
 
-    public SettingsService(string rootPath = ".")
+    public SettingsService(ILogger<SettingsService> logger)
+        : this(".", logger)
+    {
+    }
+
+    public SettingsService(string rootPath = ".", ILogger<SettingsService>? logger = null)
     {
         _rootPath = rootPath;
+        _logger = logger ?? NullLogger<SettingsService>.Instance;
+        _logger.LogDebug("SettingsService initialized with root path '{RootPath}'", _rootPath);
     }
 
     public async Task<Dictionary<string, string>> LoadSettings(string configFile)
     {
+        _logger.LogDebug("Loading settings from '{ConfigFile}'", configFile);
         var settings = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
 
         if (!File.Exists(configFile))
+        {
+            _logger.LogWarning("Settings file not found: '{ConfigFile}'", configFile);
             return settings;
+        }
 
         var lines = await File.ReadAllLinesAsync(configFile);
 
@@ -42,11 +56,13 @@ public sealed class SettingsService : ISettingsService
             settings[key] = value;
         }
 
+        _logger.LogInformation("Loaded {Count} settings from '{ConfigFile}'", settings.Count, configFile);
         return settings;
     }
 
     public async Task SaveSettings(string configFile, Dictionary<string, string> settings)
     {
+        _logger.LogDebug("Saving {Count} settings to '{ConfigFile}'", settings.Count, configFile);
         string? directory = Path.GetDirectoryName(configFile);
         if (directory is not null && !Directory.Exists(directory))
         {
@@ -60,10 +76,12 @@ public sealed class SettingsService : ISettingsService
         }
 
         await File.WriteAllLinesAsync(configFile, lines);
+        _logger.LogInformation("Settings saved to '{ConfigFile}'", configFile);
     }
 
     public async Task RestoreDefaults()
     {
+        _logger.LogInformation("Restoring default system settings");
         var defaults = new Dictionary<string, string>
         {
             ["ShowTooltips"] = "True",
@@ -102,6 +120,7 @@ public sealed class SettingsService : ISettingsService
 
     public async Task RestoreBfbDefaults()
     {
+        _logger.LogInformation("Restoring default BFB settings");
         var defaults = new Dictionary<string, string>
         {
             ["BFB_ScanType"] = "Range",

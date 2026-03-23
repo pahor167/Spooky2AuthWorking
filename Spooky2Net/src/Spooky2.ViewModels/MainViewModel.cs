@@ -3,6 +3,8 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Spooky2.Core.Interfaces;
 using Spooky2.ViewModels.Dialogs;
 
@@ -18,6 +20,7 @@ public partial class MainViewModel : ObservableObject
     private readonly IDialogService _dialogService;
     private readonly IColloidalSilverCalculator _colloidalSilverCalculator;
     private readonly ICarrierSweepService _carrierSweepService;
+    private readonly ILogger<MainViewModel> _logger;
     private readonly string _rootPath;
 
     private static readonly string[] RequiredDirectories =
@@ -42,6 +45,7 @@ public partial class MainViewModel : ObservableObject
         IColloidalSilverCalculator colloidalSilverCalculator,
         ICarrierSweepService carrierSweepService,
         IMicroGenService microGenService,
+        ILogger<MainViewModel>? logger = null,
         string? rootPath = null)
     {
         _generatorService = generatorService;
@@ -52,7 +56,10 @@ public partial class MainViewModel : ObservableObject
         _dialogService = dialogService;
         _colloidalSilverCalculator = colloidalSilverCalculator;
         _carrierSweepService = carrierSweepService;
+        _logger = logger ?? NullLogger<MainViewModel>.Instance;
         _rootPath = rootPath ?? Directory.GetCurrentDirectory();
+
+        _logger.LogInformation("MainViewModel initializing, root path: '{RootPath}'", _rootPath);
 
         Presets = new PresetsViewModel(presetService, fileService);
         Database = new DatabaseViewModel(databaseService, microGenService);
@@ -66,18 +73,22 @@ public partial class MainViewModel : ObservableObject
     {
         try
         {
+            _logger.LogDebug("Starting async initialization");
+
             // Create required directories
             foreach (string dir in RequiredDirectories)
             {
                 string fullPath = Path.Combine(_rootPath, dir);
                 if (!_fileService.IsDirectory(fullPath))
                 {
+                    _logger.LogDebug("Creating required directory '{Directory}'", fullPath);
                     _fileService.CreateDirectory(fullPath);
                 }
             }
 
             // Load settings from Data/SystemCFG.txt
             string configPath = Path.Combine(_rootPath, "Data", "SystemCFG.txt");
+            _logger.LogDebug("Loading settings from '{ConfigPath}'", configPath);
             var settings = await _settingsService.LoadSettings(configPath);
 
             // Apply loaded settings to Settings ViewModel properties
@@ -88,6 +99,7 @@ public partial class MainViewModel : ObservableObject
             // Try to discover generators
             try
             {
+                _logger.LogDebug("Discovering generators");
                 var found = await _generatorService.FindGenerators();
                 foreach (var state in found)
                 {
@@ -100,18 +112,21 @@ public partial class MainViewModel : ObservableObject
                     Generators.Add(vm);
                 }
 
+                _logger.LogInformation("Initialization complete, {Count} generator(s) found", found.Count);
                 if (found.Count > 0)
                 {
                     StatusBarText = $"Spooky2 (c) John White - Ready ({found.Count} generator(s) found)";
                 }
             }
-            catch
+            catch (Exception ex)
             {
+                _logger.LogWarning(ex, "Generator discovery failed (non-fatal)");
                 // Generator discovery failure is non-fatal
             }
         }
         catch (Exception ex)
         {
+            _logger.LogError(ex, "Initialization failed");
             StatusBarText = $"Initialization error: {ex.Message}";
         }
     }
@@ -164,23 +179,41 @@ public partial class MainViewModel : ObservableObject
     [RelayCommand]
     private async Task GlobalStart()
     {
-        StatusBarText = "Starting all generators...";
-        foreach (var generator in Generators)
+        try
         {
-            await _generatorService.Start(generator.GeneratorId);
+            _logger.LogInformation("Starting all {Count} generators", Generators.Count);
+            StatusBarText = "Starting all generators...";
+            foreach (var generator in Generators)
+            {
+                await _generatorService.Start(generator.GeneratorId);
+            }
+            StatusBarText = "All generators started";
         }
-        StatusBarText = "All generators started";
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to start all generators");
+            StatusBarText = $"Error starting generators: {ex.Message}";
+        }
     }
 
     [RelayCommand]
     private async Task GlobalStop()
     {
-        StatusBarText = "Stopping all generators...";
-        foreach (var generator in Generators)
+        try
         {
-            await _generatorService.Stop(generator.GeneratorId);
+            _logger.LogInformation("Stopping all {Count} generators", Generators.Count);
+            StatusBarText = "Stopping all generators...";
+            foreach (var generator in Generators)
+            {
+                await _generatorService.Stop(generator.GeneratorId);
+            }
+            StatusBarText = "All generators stopped";
         }
-        StatusBarText = "All generators stopped";
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to stop all generators");
+            StatusBarText = $"Error stopping generators: {ex.Message}";
+        }
     }
 
     [RelayCommand]
@@ -238,20 +271,30 @@ public partial class MainViewModel : ObservableObject
     [RelayCommand]
     private async Task RescanDevices()
     {
-        StatusBarText = "Rescanning for devices...";
-        var found = await _generatorService.FindGenerators();
-        Generators.Clear();
-        foreach (var state in found)
+        try
         {
-            var vm = new GeneratorViewModel(_generatorService)
+            _logger.LogInformation("Rescanning for devices");
+            StatusBarText = "Rescanning for devices...";
+            var found = await _generatorService.FindGenerators();
+            Generators.Clear();
+            foreach (var state in found)
             {
-                GeneratorId = state.Id,
-                Port = state.Port,
-                Status = state.Status.ToString()
-            };
-            Generators.Add(vm);
+                var vm = new GeneratorViewModel(_generatorService)
+                {
+                    GeneratorId = state.Id,
+                    Port = state.Port,
+                    Status = state.Status.ToString()
+                };
+                Generators.Add(vm);
+            }
+            _logger.LogInformation("Rescan complete, found {Count} generator(s)", found.Count);
+            StatusBarText = $"Found {found.Count} generator(s)";
         }
-        StatusBarText = $"Found {found.Count} generator(s)";
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Device rescan failed");
+            StatusBarText = $"Rescan failed: {ex.Message}";
+        }
     }
 
     [RelayCommand]
@@ -293,9 +336,18 @@ public partial class MainViewModel : ObservableObject
     [RelayCommand]
     private async Task RefreshDatabase()
     {
-        StatusBarText = "Refreshing database...";
-        await _databaseService.RefreshDatabase();
-        StatusBarText = "Database refreshed";
+        try
+        {
+            _logger.LogInformation("Refreshing database");
+            StatusBarText = "Refreshing database...";
+            await _databaseService.RefreshDatabase();
+            StatusBarText = "Database refreshed";
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Database refresh failed");
+            StatusBarText = $"Database refresh failed: {ex.Message}";
+        }
     }
 
     [RelayCommand]
@@ -307,17 +359,35 @@ public partial class MainViewModel : ObservableObject
     [RelayCommand]
     private async Task UpdatePresets()
     {
-        StatusBarText = "Updating presets...";
-        await _presetService.UpdatePresets();
-        StatusBarText = "Presets updated";
+        try
+        {
+            _logger.LogInformation("Updating presets");
+            StatusBarText = "Updating presets...";
+            await _presetService.UpdatePresets();
+            StatusBarText = "Presets updated";
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Preset update failed");
+            StatusBarText = $"Preset update failed: {ex.Message}";
+        }
     }
 
     [RelayCommand]
     private async Task RestoreDefaults()
     {
-        StatusBarText = "Restoring defaults...";
-        await _settingsService.RestoreDefaults();
-        StatusBarText = "Defaults restored";
+        try
+        {
+            _logger.LogInformation("Restoring defaults");
+            StatusBarText = "Restoring defaults...";
+            await _settingsService.RestoreDefaults();
+            StatusBarText = "Defaults restored";
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Restore defaults failed");
+            StatusBarText = $"Restore defaults failed: {ex.Message}";
+        }
     }
 
     [RelayCommand]
@@ -368,9 +438,18 @@ public partial class MainViewModel : ObservableObject
     [RelayCommand]
     private async Task SaveSettings()
     {
-        StatusBarText = "Saving settings...";
-        await System.SaveSettingsCommand.ExecuteAsync(null);
-        StatusBarText = "Settings saved";
+        try
+        {
+            _logger.LogInformation("Saving settings");
+            StatusBarText = "Saving settings...";
+            await System.SaveSettingsCommand.ExecuteAsync(null);
+            StatusBarText = "Settings saved";
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Save settings failed");
+            StatusBarText = $"Save settings failed: {ex.Message}";
+        }
     }
 
     // ── Database menu ──────────────────────────────────────────────

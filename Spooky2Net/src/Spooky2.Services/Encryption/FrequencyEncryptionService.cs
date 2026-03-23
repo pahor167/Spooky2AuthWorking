@@ -1,4 +1,6 @@
 using System.Text;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Spooky2.Core.Interfaces;
 
 namespace Spooky2.Services.Encryption;
@@ -10,6 +12,13 @@ namespace Spooky2.Services.Encryption;
 /// </summary>
 public sealed class FrequencyEncryptionService : IFrequencyEncryptionService
 {
+    private readonly ILogger<FrequencyEncryptionService> _logger;
+
+    public FrequencyEncryptionService(ILogger<FrequencyEncryptionService>? logger = null)
+    {
+        _logger = logger ?? NullLogger<FrequencyEncryptionService>.Instance;
+        _logger.LogDebug("FrequencyEncryptionService initialized");
+    }
     private const string Digits = "0123456789";
 
     // VB6 original: 100 10-digit permutation strings initialized in Form_Load
@@ -40,6 +49,7 @@ public sealed class FrequencyEncryptionService : IFrequencyEncryptionService
     // VB6 original: EncryptFreq
     public string EncryptFrequencyLine(string frequencyDataLine)
     {
+        _logger.LogDebug("EncryptFrequencyLine called with input length {Length}", frequencyDataLine?.Length ?? 0);
         if (string.IsNullOrEmpty(frequencyDataLine))
             return string.Empty;
 
@@ -101,6 +111,7 @@ public sealed class FrequencyEncryptionService : IFrequencyEncryptionService
     // VB6 original: DecryptFreq
     public string DecryptFrequencyLine(string frequencyDataLine)
     {
+        _logger.LogDebug("DecryptFrequencyLine called with input length {Length}", frequencyDataLine?.Length ?? 0);
         // Minimum length is 5: 4-digit prefix + at least 1 character of data
         if (string.IsNullOrEmpty(frequencyDataLine) || frequencyDataLine.Length < 5)
             return frequencyDataLine ?? string.Empty;

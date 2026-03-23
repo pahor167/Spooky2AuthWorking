@@ -1,7 +1,10 @@
 using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Spooky2.Core.Interfaces;
+using Spooky2.Core.Models;
 
 namespace Spooky2.ViewModels;
 
@@ -9,15 +12,13 @@ public partial class DatabaseViewModel : ObservableObject
 {
     private readonly IDatabaseService _databaseService;
     private readonly IMicroGenService _microGenService;
+    private readonly ILogger<DatabaseViewModel> _logger;
+
+    /// <summary>All entries loaded from all enabled databases (decrypted once, kept in memory).</summary>
+    private List<DatabaseEntry> _allEntries = [];
 
     [ObservableProperty]
     private string _selectedMicroGenPort = "";
-
-    public DatabaseViewModel(IDatabaseService databaseService, IMicroGenService microGenService)
-    {
-        _databaseService = databaseService;
-        _microGenService = microGenService;
-    }
 
     [ObservableProperty]
     private string _manualFrequencyText = "";
@@ -25,81 +26,110 @@ public partial class DatabaseViewModel : ObservableObject
     [ObservableProperty]
     private int _dwellSeconds = 180;
 
-    // VB6 original: UseRife
     [ObservableProperty]
-    private bool _useRifeDatabase = true;
+    private bool _isLoading;
 
-    // CAFL = Consolidated Annotated Frequency List
     [ObservableProperty]
-    private bool _useCaflDatabase = true;
+    private string _statusText = "";
 
-    // XTRA = Extra/supplementary frequencies
-    [ObservableProperty]
-    private bool _useExtraDatabase = true;
-
-    // VB6 original: UseCust
-    [ObservableProperty]
-    private bool _useCustomDatabase = true;
-
-    // VB6 original: UseDna
-    [ObservableProperty]
-    private bool _useDnaDatabase = true;
-
-    // HC = Healing Codes database
-    [ObservableProperty]
-    private bool _useHealingCodesDatabase = true;
-
-    // VB6 original: UseAlt
-    [ObservableProperty]
-    private bool _useAlternativeDatabase = true;
-
-    // VB6 original: UseBio
-    [ObservableProperty]
-    private bool _useBiologicalDatabase = true;
-
-    // PROV = Provisional/unverified
-    [ObservableProperty]
-    private bool _useProvisionalDatabase = true;
-
-    // MW = Molecular Weight
-    [ObservableProperty]
-    private bool _useMolecularWeightDatabase = true;
-
-    // VB6 original: UseVega
-    [ObservableProperty]
-    private bool _useVegaDatabase = true;
-
-    // ETDFL = Extended Target Disease Frequency List
-    [ObservableProperty]
-    private bool _useEtdflDatabase = true;
-
-    // BFB = Biofeedback
-    [ObservableProperty]
-    private bool _useBiofeedbackDatabase = true;
-
-    // KHZ = Kilohertz range frequencies
-    [ObservableProperty]
-    private bool _useKilohertzDatabase = true;
-
-    // SD = Spooky Database
-    [ObservableProperty]
-    private bool _useSdDatabase = true;
-
-    // RUSS = Russian frequency research
-    [ObservableProperty]
-    private bool _useRussianDatabase = true;
-
-    // RRM = Remote Rife Machine frequencies
-    [ObservableProperty]
-    private bool _useRrmDatabase = true;
+    // Database selection flags (all on by default)
+    [ObservableProperty] private bool _useRifeDatabase = true;
+    [ObservableProperty] private bool _useCaflDatabase = true;
+    [ObservableProperty] private bool _useExtraDatabase = true;
+    [ObservableProperty] private bool _useCustomDatabase = true;
+    [ObservableProperty] private bool _useDnaDatabase = true;
+    [ObservableProperty] private bool _useHealingCodesDatabase = true;
+    [ObservableProperty] private bool _useAlternativeDatabase = true;
+    [ObservableProperty] private bool _useBiologicalDatabase = true;
+    [ObservableProperty] private bool _useProvisionalDatabase = true;
+    [ObservableProperty] private bool _useMolecularWeightDatabase = true;
+    [ObservableProperty] private bool _useVegaDatabase = true;
+    [ObservableProperty] private bool _useEtdflDatabase = true;
+    [ObservableProperty] private bool _useBiofeedbackDatabase = true;
+    [ObservableProperty] private bool _useKilohertzDatabase = true;
+    [ObservableProperty] private bool _useSdDatabase = true;
+    [ObservableProperty] private bool _useRussianDatabase = true;
+    [ObservableProperty] private bool _useRrmDatabase = true;
 
     public ObservableCollection<string> FrequencyList { get; } = new();
 
-    [RelayCommand]
-    private async Task LoadFrequencies()
+    public DatabaseViewModel(IDatabaseService databaseService, IMicroGenService microGenService, ILogger<DatabaseViewModel>? logger = null)
     {
-        // Stub: load frequencies from selected databases
-        await Task.CompletedTask;
+        _databaseService = databaseService;
+        _microGenService = microGenService;
+        _logger = logger ?? NullLogger<DatabaseViewModel>.Instance;
+
+        // Load all databases at startup (fire-and-forget, shows loading indicator)
+        _ = LoadAllDatabasesAsync();
+    }
+
+    /// <summary>
+    /// Loads and decrypts all enabled databases once at startup.
+    /// Populates the full list so the user sees all entries immediately.
+    /// </summary>
+    private async Task LoadAllDatabasesAsync()
+    {
+        try
+        {
+            IsLoading = true;
+            StatusText = "Decrypting frequency database...";
+            _logger.LogInformation("Loading all databases at startup");
+
+            var enabledDatabases = GetEnabledDatabases();
+            var allEntries = new List<DatabaseEntry>();
+
+            foreach (var db in enabledDatabases)
+            {
+                try
+                {
+                    var entries = await _databaseService.LoadDatabase(db);
+                    allEntries.AddRange(entries);
+                    StatusText = $"Loading... {allEntries.Count:N0} programs";
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Failed to load database '{Database}'", db);
+                }
+            }
+
+            _allEntries = allEntries;
+            _logger.LogInformation("All databases loaded: {Count} total entries", _allEntries.Count);
+
+            // Show all entries
+            ApplyFilter("");
+            StatusText = $"{_allEntries.Count:N0} programs loaded";
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to load databases at startup");
+            StatusText = "Failed to load databases";
+        }
+        finally
+        {
+            IsLoading = false;
+        }
+    }
+
+    /// <summary>Filters the in-memory list instantly. Empty query = show all.</summary>
+    private void ApplyFilter(string query)
+    {
+        FrequencyList.Clear();
+
+        IEnumerable<DatabaseEntry> filtered = _allEntries;
+        if (!string.IsNullOrWhiteSpace(query))
+        {
+            filtered = _allEntries.Where(e => e.Name.Contains(query, StringComparison.OrdinalIgnoreCase));
+        }
+
+        foreach (var entry in filtered)
+        {
+            var freqs = string.Join(", ", entry.Frequencies);
+            FrequencyList.Add($"{entry.Name} [{entry.Category}]: {freqs}");
+        }
+
+        StatusText = string.IsNullOrWhiteSpace(query)
+            ? $"{FrequencyList.Count:N0} programs"
+            : $"{FrequencyList.Count:N0} / {_allEntries.Count:N0} programs matching \"{query}\"";
     }
 
     [RelayCommand]
@@ -115,51 +145,77 @@ public partial class DatabaseViewModel : ObservableObject
     [RelayCommand]
     private void ClearFrequencies()
     {
-        FrequencyList.Clear();
+        ManualFrequencyText = "";
+        ApplyFilter("");
     }
 
     [RelayCommand]
-    private async Task SearchDatabase()
+    private Task SearchDatabase()
     {
-        var enabledDatabases = GetEnabledDatabases();
-        var results = await _databaseService.SearchDatabase(ManualFrequencyText, enabledDatabases);
-        FrequencyList.Clear();
-        foreach (var entry in results)
-        {
-            FrequencyList.Add($"{entry.Name}: {string.Join(", ", entry.Frequencies)}");
-        }
+        _logger.LogDebug("Search: '{Query}'", ManualFrequencyText);
+        ApplyFilter(ManualFrequencyText);
+        return Task.CompletedTask;
     }
 
     [RelayCommand]
     private async Task SendToMicroGenLowPower()
     {
-        var frequencies = ParseFrequencyList();
-        if (frequencies.Count == 0 || string.IsNullOrWhiteSpace(SelectedMicroGenPort)) return;
-        await _microGenService.SendToLowPower(SelectedMicroGenPort, frequencies, DwellSeconds);
+        try
+        {
+            var frequencies = ParseFrequencyList();
+            if (frequencies.Count == 0 || string.IsNullOrWhiteSpace(SelectedMicroGenPort)) return;
+            _logger.LogInformation("Sending {Count} frequencies to MicroGen LowPower on port {Port}", frequencies.Count, SelectedMicroGenPort);
+            await _microGenService.SendToLowPower(SelectedMicroGenPort, frequencies, DwellSeconds);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to send to MicroGen LowPower");
+        }
     }
 
     [RelayCommand]
     private async Task SendToMicroGenHighPower()
     {
-        var frequencies = ParseFrequencyList();
-        if (frequencies.Count == 0 || string.IsNullOrWhiteSpace(SelectedMicroGenPort)) return;
-        await _microGenService.SendToHighPower(SelectedMicroGenPort, frequencies, DwellSeconds);
+        try
+        {
+            var frequencies = ParseFrequencyList();
+            if (frequencies.Count == 0 || string.IsNullOrWhiteSpace(SelectedMicroGenPort)) return;
+            await _microGenService.SendToHighPower(SelectedMicroGenPort, frequencies, DwellSeconds);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to send to MicroGen HighPower");
+        }
     }
 
     [RelayCommand]
     private async Task SendToMicroGenZapper()
     {
-        var frequencies = ParseFrequencyList();
-        if (frequencies.Count == 0 || string.IsNullOrWhiteSpace(SelectedMicroGenPort)) return;
-        await _microGenService.SendToZapper(SelectedMicroGenPort, frequencies, DwellSeconds);
+        try
+        {
+            var frequencies = ParseFrequencyList();
+            if (frequencies.Count == 0 || string.IsNullOrWhiteSpace(SelectedMicroGenPort)) return;
+            await _microGenService.SendToZapper(SelectedMicroGenPort, frequencies, DwellSeconds);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to send to MicroGen Zapper");
+        }
     }
 
     [RelayCommand]
     private async Task SendToMicroGenBloodPurifier()
     {
-        var frequencies = ParseFrequencyList();
-        if (frequencies.Count == 0 || string.IsNullOrWhiteSpace(SelectedMicroGenPort)) return;
-        await _microGenService.SendToBloodPurifier(SelectedMicroGenPort, frequencies, DwellSeconds);
+        try
+        {
+            var frequencies = ParseFrequencyList();
+            if (frequencies.Count == 0 || string.IsNullOrWhiteSpace(SelectedMicroGenPort)) return;
+            await _microGenService.SendToBloodPurifier(SelectedMicroGenPort, frequencies, DwellSeconds);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to send to MicroGen BloodPurifier");
+        }
     }
 
     private List<double> ParseFrequencyList()
@@ -167,7 +223,6 @@ public partial class DatabaseViewModel : ObservableObject
         var result = new List<double>();
         foreach (var entry in FrequencyList)
         {
-            // Entries may be in format "Name: freq1, freq2" or just raw numbers
             var colonIndex = entry.IndexOf(':');
             var freqPart = colonIndex >= 0 ? entry[(colonIndex + 1)..] : entry;
             foreach (var token in freqPart.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries))

@@ -1,3 +1,5 @@
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Spooky2.Core.Interfaces;
 using Spooky2.Core.Models;
 
@@ -11,14 +13,18 @@ namespace Spooky2.Services.Presets;
 public sealed class PresetService : IPresetService
 {
     private readonly IFileService _fileService;
+    private readonly ILogger<PresetService> _logger;
 
-    public PresetService(IFileService fileService)
+    public PresetService(IFileService fileService, ILogger<PresetService>? logger = null)
     {
         _fileService = fileService;
+        _logger = logger ?? NullLogger<PresetService>.Instance;
+        _logger.LogDebug("PresetService initialized");
     }
 
     public async Task<Preset> LoadPreset(string path)
     {
+        _logger.LogDebug("Loading preset from '{Path}'", path);
         var content = await _fileService.ReadAllText(path);
         var lines = content.Split(['\r', '\n'], StringSplitOptions.RemoveEmptyEntries);
 
@@ -67,17 +73,21 @@ public sealed class PresetService : IPresetService
             }
             : new List<FrequencyProgram>();
 
-        return new Preset
+        var preset = new Preset
         {
             Name = programName,
             Programs = programs,
             Settings = settings,
             FilePath = path
         };
+        _logger.LogInformation("Preset '{Name}' loaded from '{Path}' with {SettingCount} settings and {FreqCount} frequencies",
+            programName, path, settings.Count, frequencies.Count);
+        return preset;
     }
 
     public async Task SavePreset(Preset preset, string path)
     {
+        _logger.LogDebug("Saving preset '{Name}' to '{Path}'", preset.Name, path);
         var lines = new List<string>();
 
         // Write settings as key=value pairs
@@ -100,10 +110,12 @@ public sealed class PresetService : IPresetService
 
         var content = string.Join(Environment.NewLine, lines);
         await _fileService.WriteAllText(path, content);
+        _logger.LogInformation("Preset '{Name}' saved to '{Path}'", preset.Name, path);
     }
 
     public Task DeletePreset(string path)
     {
+        _logger.LogInformation("Deleting preset at '{Path}'", path);
         if (_fileService.IsDirectory(path))
         {
             _fileService.DeleteDirectory(path, recursive: true);
@@ -118,8 +130,10 @@ public sealed class PresetService : IPresetService
 
     public Task<List<string>> SearchPresets(string searchText, string directory)
     {
+        _logger.LogDebug("Searching presets for '{SearchText}' in '{Directory}'", searchText, directory);
         var results = new List<string>();
         SearchDirectory(directory, searchText, results);
+        _logger.LogInformation("Preset search for '{SearchText}' returned {Count} results", searchText, results.Count);
         return Task.FromResult(results);
     }
 
@@ -148,6 +162,7 @@ public sealed class PresetService : IPresetService
 
     public async Task<PresetChain> LoadPresetChain(string path)
     {
+        _logger.LogDebug("Loading preset chain from '{Path}'", path);
         var content = await _fileService.ReadAllText(path);
         var lines = content.Split(['\r', '\n'], StringSplitOptions.RemoveEmptyEntries);
 
@@ -177,6 +192,7 @@ public sealed class PresetService : IPresetService
             }
             else
             {
+                _logger.LogWarning("Preset chain references missing file: '{PresetPath}'", presetPath);
                 // Add a placeholder preset for missing files
                 presets.Add(new Preset
                 {
@@ -195,6 +211,7 @@ public sealed class PresetService : IPresetService
 
     public async Task SavePresetChain(PresetChain chain, string path)
     {
+        _logger.LogDebug("Saving preset chain '{Name}' with {Count} presets to '{Path}'", chain.Name, chain.Presets.Count, path);
         var lines = new List<string> { chain.Name };
 
         foreach (var preset in chain.Presets)

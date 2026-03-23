@@ -1,6 +1,8 @@
 using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Spooky2.Core.Interfaces;
 using Spooky2.Core.Models;
 
@@ -9,10 +11,13 @@ namespace Spooky2.ViewModels;
 public partial class ControlViewModel : ObservableObject
 {
     private readonly IWaveformService _waveformService;
+    private readonly ILogger<ControlViewModel> _logger;
 
-    public ControlViewModel(IWaveformService waveformService)
+    public ControlViewModel(IWaveformService waveformService, ILogger<ControlViewModel>? logger = null)
     {
         _waveformService = waveformService;
+        _logger = logger ?? NullLogger<ControlViewModel>.Instance;
+        _logger.LogDebug("ControlViewModel initialized");
 
         // Initialize frequency list with sample data
         FrequencyItems.Add("898,166.6040000");
@@ -412,15 +417,31 @@ public partial class ControlViewModel : ObservableObject
     [RelayCommand]
     private async Task Start()
     {
-        // Stub: start generator
-        await Task.CompletedTask;
+        try
+        {
+            _logger.LogInformation("Start command executed");
+            // Stub: start generator
+            await Task.CompletedTask;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Start command failed");
+        }
     }
 
     [RelayCommand]
     private async Task Scan()
     {
-        // Stub: start scan
-        await Task.CompletedTask;
+        try
+        {
+            _logger.LogInformation("Scan command executed");
+            // Stub: start scan
+            await Task.CompletedTask;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Scan command failed");
+        }
     }
 
     [RelayCommand]
@@ -522,8 +543,16 @@ public partial class ControlViewModel : ObservableObject
     [RelayCommand]
     private async Task WriteWaveforms()
     {
-        // Stub: write waveform settings to generator
-        await Task.CompletedTask;
+        try
+        {
+            _logger.LogInformation("WriteWaveforms command executed");
+            // Stub: write waveform settings to generator
+            await Task.CompletedTask;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "WriteWaveforms command failed");
+        }
     }
 
     [RelayCommand]

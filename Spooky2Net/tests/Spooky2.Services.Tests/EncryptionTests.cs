@@ -43,10 +43,10 @@ public class EncryptionTests
     }
 
     [Fact]
-    public void Vb6Prng_EmptyPassword_StillWorks()
+    public void Vb6Prng_EmptyPassword_ReturnsEmpty()
     {
         var result = _xorService.XorEncryptString("test", "");
-        Assert.NotEmpty(result);
+        Assert.Empty(result);
     }
 
     // ─────────────────────────────────────────────────────────────

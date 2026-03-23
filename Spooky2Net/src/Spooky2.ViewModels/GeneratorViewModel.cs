@@ -1,5 +1,7 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Spooky2.Core.Interfaces;
 
 namespace Spooky2.ViewModels;
@@ -7,10 +9,13 @@ namespace Spooky2.ViewModels;
 public partial class GeneratorViewModel : ObservableObject
 {
     private readonly IGeneratorService _generatorService;
+    private readonly ILogger<GeneratorViewModel> _logger;
 
-    public GeneratorViewModel(IGeneratorService generatorService)
+    public GeneratorViewModel(IGeneratorService generatorService, ILogger<GeneratorViewModel>? logger = null)
     {
         _generatorService = generatorService;
+        _logger = logger ?? NullLogger<GeneratorViewModel>.Instance;
+        _logger.LogDebug("GeneratorViewModel initialized");
     }
 
     [ObservableProperty]
@@ -34,36 +39,76 @@ public partial class GeneratorViewModel : ObservableObject
     [RelayCommand]
     private async Task Start()
     {
-        await _generatorService.Start(GeneratorId);
-        Status = "Running";
+        try
+        {
+            _logger.LogInformation("Starting generator {Id}", GeneratorId);
+            await _generatorService.Start(GeneratorId);
+            Status = "Running";
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to start generator {Id}", GeneratorId);
+        }
     }
 
     [RelayCommand]
     private async Task Stop()
     {
-        await _generatorService.Stop(GeneratorId);
-        Status = "Idle";
+        try
+        {
+            _logger.LogInformation("Stopping generator {Id}", GeneratorId);
+            await _generatorService.Stop(GeneratorId);
+            Status = "Idle";
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to stop generator {Id}", GeneratorId);
+        }
     }
 
     [RelayCommand]
     private async Task Pause()
     {
-        await _generatorService.Pause(GeneratorId);
-        Status = "Paused";
+        try
+        {
+            _logger.LogInformation("Pausing generator {Id}", GeneratorId);
+            await _generatorService.Pause(GeneratorId);
+            Status = "Paused";
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to pause generator {Id}", GeneratorId);
+        }
     }
 
     [RelayCommand]
     private async Task Hold()
     {
-        await _generatorService.Hold(GeneratorId);
-        Status = "Held";
+        try
+        {
+            _logger.LogInformation("Holding generator {Id}", GeneratorId);
+            await _generatorService.Hold(GeneratorId);
+            Status = "Held";
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to hold generator {Id}", GeneratorId);
+        }
     }
 
     [RelayCommand]
     private async Task Resume()
     {
-        await _generatorService.Resume(GeneratorId);
-        Status = "Running";
+        try
+        {
+            _logger.LogInformation("Resuming generator {Id}", GeneratorId);
+            await _generatorService.Resume(GeneratorId);
+            Status = "Running";
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to resume generator {Id}", GeneratorId);
+        }
     }
 
     [RelayCommand]
