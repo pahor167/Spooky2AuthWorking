@@ -90,12 +90,10 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
 
                         SendOnConnection(connection, GeneratorProtocol.ReadHardwareInfo);
                         SendOnConnection(connection, GeneratorProtocol.QueryFirmwareName);
-                        SendOnConnection(connection, GeneratorProtocol.BuildSyncOnOff(false));
-                        SendOnConnection(connection, GeneratorProtocol.BuildWaveformInversion(false, false));
-                        SendOnConnection(connection, GeneratorProtocol.BuildSetFrequency1(0));
-                        SendOnConnection(connection, GeneratorProtocol.BuildSetFrequency2(0));
-                        SendOnConnection(connection, GeneratorProtocol.BuildLowFrequencyMode(true, true));
-                        SendOnConnection(connection, $":w24=00,");
+                        // Minimal init — do NOT send :w25 or extra :w24 resets.
+                        // The original Spooky2 doesn't send these during discovery.
+                        // Sending :w25 or wrong :w24 format may change the generator's
+                        // frequency interpretation mode (nanoHz scale factor).
                         SendOnConnection(connection, GeneratorProtocol.BuildSetAmplitude1(120));
                         SendOnConnection(connection, GeneratorProtocol.BuildSetAmplitude2(120));
 
@@ -282,8 +280,8 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
         SendCommand(generatorId, GeneratorProtocol.DwellTimeZero);
         SendCommand(generatorId, GeneratorProtocol.BuildSetAmplitude1(120));
         SendCommand(generatorId, GeneratorProtocol.BuildSetAmplitude2(120));
-        SendCommand(generatorId, GeneratorProtocol.BuildSetFrequency1(0));
-        SendCommand(generatorId, GeneratorProtocol.BuildSetFrequency2(0));
+        SendCommand(generatorId, GeneratorProtocol.ClearFrequency1);
+        SendCommand(generatorId, GeneratorProtocol.ClearFrequency2);
         await Task.CompletedTask;
     }
 
