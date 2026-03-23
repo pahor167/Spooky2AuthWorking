@@ -332,7 +332,8 @@ public class DumpIntegrationTests
 
         await svc.RunBiofeedbackScan(0, parameters);
 
-        var log = vgen.CommandLog;
+        // Filter out waveform table uploads (:a11-:a24) for assertion clarity
+        var log = vgen.CommandLog.Where(c => !c.StartsWith(":a")).ToList();
 
         // Should start with display name
         Assert.StartsWith(":n00=", log[0]);
@@ -425,9 +426,10 @@ public class DumpIntegrationTests
             // Expected
         }
 
-        var ourCmds = vgen.CommandLog;
+        // Filter out waveform tables for comparison (they go first in ours, not in this dump)
+        var ourCmds = vgen.CommandLog.Where(c => !c.StartsWith(":a")).ToList();
 
-        // Compare first commands: display name
+        // Compare: display name
         Assert.StartsWith(":n00=Port 4 - Running Biofeedback", dumpTx[0]);
         Assert.StartsWith(":n00=Port 4 - Running Biofeedback", ourCmds[0]);
 
@@ -445,6 +447,10 @@ public class DumpIntegrationTests
         // Compare: first ramp step
         Assert.Equal(dumpTx[6], ourCmds[6]); // :w28=12,
         Assert.Equal(dumpTx[7], ourCmds[7]); // :w29=12,
+
+        // Verify waveform tables WERE uploaded (just not in this dump comparison)
+        var waveformCmds = vgen.CommandLog.Where(c => c.StartsWith(":a")).ToList();
+        Assert.Equal(12, waveformCmds.Count); // 12 tables: :a11 through :a24
     }
 
     // ─────────────────────────────────────────────────────────────

@@ -57,6 +57,13 @@ public sealed class ScanService : IScanService
             // Matches serial dump: :n00 → :w24=Hz → :w28/:w29=6 →
             //   :w11=1,, → :w11=,1, → ramp 6→2000 in ~330 steps
             // ══════════════════════════════════════════════════════════
+            progress?.Report(new ScanProgress { StatusText = "Uploading waveform tables..." });
+
+            // Upload DDS waveform tables — CRITICAL: without these, frequency output is garbage.
+            // 12 tables × 1024 samples each, extracted from original Spooky2 dump.
+            _logger.LogInformation("Uploading {Count} waveform tables", WaveformTables.Commands.Length);
+            await _generatorService.SendCommandsBatch(generatorId, WaveformTables.Commands);
+
             progress?.Report(new ScanProgress { StatusText = "Setting up generator..." });
 
             // Display name
