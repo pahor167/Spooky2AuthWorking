@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Salicylate Intolerance (Coil)"
+"Preset_Notes=Salicylate Intolerance for Coil
+
+Salicylate intolerance, also known as salicylate sensitivity, is a non-IgE-mediated adverse reaction to naturally occurring salicylates in foods (e.g., fruits, vegetables, spices, herbs) and synthetic forms such as acetylsalicylic acid (aspirin). It affects a significant subset of individuals with asthma, chronic rhinosinusitis with nasal polyps, and related conditions, often manifesting as aspirin-exacerbated respiratory disease (AERD, or Samter's triad). Symptoms range from respiratory (bronchospasm, nasal congestion, rhinorrhea, polyps), dermatological (urticaria, angioedema), gastrointestinal (nausea, pain), to systemic pseudo-anaphylactoid reactions. Unlike true allergies, it involves pharmacological intolerance without immune memory.
+
+Pathophysiologically, salicylates inhibit COX-1, depleting protective prostaglandin E2 (PGE2) that normally downregulates the 5-lipoxygenase pathway. This shifts arachidonic acid metabolism toward excessive cysteinyl leukotriene (CysLT) production, causing inflammation, bronchoconstriction, and edema. Concurrently, mast cells, eosinophils, basophils, platelets, and lymphocytes hyperactivate, releasing histamine, proteases, and cytokines. Type 2 inflammation amplifies via IL-33, TSLP, IL-4/IL-13, and IL-5, promoting eosinophilia and chronic tissue remodeling.
+
+The proposed polypeptides are all conceptually designed short sequences (12 residues, C-terminally amidated for protease resistance and bioavailability). They target key mechanistic axes without exacerbating COX inhibition.
+
+D1, an amphipathic helical peptide, penetrates membranes to disrupt 5-lipoxygenase or CysLT receptor assemblies, reducing leukotriene overproduction central to bronchoconstriction and edema.
+D2, a polybasic peptide, electrostatically binds mast cell surfaces to stabilize membranes and block degranulation signals triggered by the intolerance cascade.
+D3, a charged repeating peptide, interferes with cytokine-receptor interactions (e.g., IL-5 or IL-4/13 pathways) to dampen eosinophil recruitment and type 2 skewing.
+D4, a hydrophobic peptide, integrates into lipid rafts to modulate arachidonic acid release or enzyme localization, favoring balanced eicosanoid production.
+
+These designs draw from established peptide classes (amphipathic, cationic, hydrophobic) with proven anti-inflammatory feasibility in models; amidation enhances half-life, while short length supports synthesis, low immunogenicity, and potential inhalation/topical delivery for respiratory/GI symptoms.
+
+"
+"Loaded_Programs=Salicylate Intolerance p01"
+"Loaded_Programs=Salicylate Intolerance p02"
+"Loaded_Programs=Salicylate Intolerance p03"
+"Loaded_Programs=Salicylate Intolerance p04"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M113.084,M128.095,M113.084,M71.037,M113.084,M128.095,M71.037,M113.084,M127.111,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M185.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M128.095,M57.021,M71.037,M128.095,M57.021,M71.037,M128.095,M57.021,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M147.068,M113.084,M147.068,M113.084,M147.068,M113.084,M147.068,M113.084,M147.068,M112.100,0=4,"
+"[/Preset]"

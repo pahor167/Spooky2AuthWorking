@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Lesch-Nyhan Syndrome (S)"
+"Preset_Notes=Lesch-Nyhan Syndrome for Scalar
+
+Lesch-Nyhan Syndrome (LNS) is a rare X-linked recessive genetic disorder caused by mutations in the HPRT1 gene, resulting in severe deficiency or complete absence of hypoxanthine-guanine phosphoribosyltransferase (HGPRT) enzyme activity. This disrupts the purine salvage pathway, leading to excessive de novo purine synthesis, uric acid overproduction, and consequent hyperuricemia, gouty arthritis, nephrolithiasis, and potential renal failure. Neurologically and behaviorally, LNS is characterized by extrapyramidal dystonia, choreoathetosis, spasticity, dysarthria, and most distinctly, compulsive self-injurious behaviors (e.g., lip/finger biting, head banging) that emerge in childhood despite patients often sensing pain normally. Cognitive impairment varies but is common, with basal ganglia dysfunction central to the motor and behavioral phenotype. Pathophysiology includes dopaminergic neuron deficits (reduced striatal dopamine), impaired energy metabolism in midbrain dopaminergic cells, oxidative stress, and dysregulated purinergic signaling, though the precise link between purine metabolism and neurobehavioral symptoms remains incompletely understood.
+
+The proposed polypeptides are all conceptual designed sequences (flagged as designed) due to the absence of established real-world polypeptide therapeutics for LNS across literature, patents, and clinical databases. A designed polypeptide conceptually incorporates purine-interacting residues to potentially enhance salvage efficiency or reduce substrate accumulation. Another designed polypeptide uses aromatic and basic motifs to conceptually modulate dopamine receptor activity, targeting self-injurious compulsions linked to basal ganglia dopaminergic imbalance. A third designed polypeptide integrates antioxidant-promoting residues to conceptually counteract oxidative stress and support neuronal energy metabolism. The fourth designed polypeptide employs proline-rich and basic elements for structural stability, conceptually aiding motor pathway modulation to ease dystonia. These short polypeptides exhibit favorable physicochemical properties (low molecular weight, charged residues for solubility, no complex PTMs) and synthetic accessibility, with potential for further optimization in delivery or stability.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Lesch-Nyhan Syndrome p01"
+"Loaded_Programs=Lesch-Nyhan Syndrome p02"
+"Loaded_Programs=Lesch-Nyhan Syndrome p03"
+"Loaded_Programs=Lesch-Nyhan Syndrome p04"
+"Loaded_Frequencies=M137.059=1,M57.021,M156.101,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M163.063,M186.079,M156.101,M128.095,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M103.009,M186.079,M87.032,M128.095,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M128.095,M128.095,M99.068,M99.068,M156.101,M57.021,M57.021,M71.037,M113.084,0=4,"
+"[/Preset]"

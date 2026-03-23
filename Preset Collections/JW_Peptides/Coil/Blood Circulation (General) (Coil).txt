@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Blood Circulation (General) (Coil)"
+"Preset_Notes=Blood Circulation (General) for Coil
+
+Suboptimal blood circulation manifests as reduced tissue perfusion, often due to vasoconstriction, endothelial dysfunction, or increased vascular resistance, leading to symptoms like fatigue, cold extremities, edema, and impaired organ function.
+
+1. VPAC receptor agonism: VIP - Potent activator of VPAC1/2 receptors increasing cAMP in vascular smooth muscle for broad systemic vasodilation and improved peripheral blood flow.
+2. CALCRL/RAMP receptor agonism: Adrenomedullin - Enhances endothelial nitric oxide release and cAMP signaling for sustained vasodilation, renal perfusion, and vascular protection.
+3. CLR/RAMP1 receptor agonism: CGRP - Powerful dilator via sensory nerve release, particularly effective in coronary, cerebral, and peripheral circulation.
+4. NPR-A receptor agonism: ANP - Promotes natriuresis, diuresis, and direct arterial/venous dilation to reduce vascular resistance and optimize cardiac preload.
+5. APJ receptor agonism: Apelin-13 - Boosts cardiac inotropy alongside endothelium-dependent vasodilation for enhanced systemic and microvascular circulation.
+6. B2 receptor agonism: Bradykinin - Rapid and potent vasodilation through endothelial NO and prostacyclin release, increasing local blood flow.
+7. Innate repair receptor activation: ARA-290 - Selective non-erythropoietic signaling reducing vascular inflammation and improving microcirculatory integrity.
+8. eNOS substrate enhancement: Poly-Arg8-NH2 - Designed amidated octa-arginine peptide delivering concentrated L-arginine to fuel nitric oxide synthesis for endothelial-dependent relaxation.
+
+"
+"Loaded_Programs=Blood Circulation (General) p01"
+"Loaded_Programs=Blood Circulation (General) p02"
+"Loaded_Programs=Blood Circulation (General) p03"
+"Loaded_Programs=Blood Circulation (General) p04"
+"Loaded_Programs=Blood Circulation (General) p05"
+"Loaded_Programs=Blood Circulation (General) p06"
+"Loaded_Programs=Blood Circulation (General) p07"
+"Loaded_Programs=Blood Circulation (General) p08"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M97.053,M57.021,M147.068,M87.032,M97.053,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M155.117,0=4,"
+"[/Preset]"

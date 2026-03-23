@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Increase Reflex (Nerve Response and Running) Speed (C)"
+"Preset_Notes=Increase Reflex (Nerve Response and Running) Speed for Contact
+
+The condition involves improving reflex speed through enhanced nerve response and running speed via better neuromuscular performance. The proposed polypeptides target evidence-based therapeutic axes including nerve regeneration, cognitive enhancement, neuromuscular improvement, muscle growth, endurance, recovery, inflammation reduction, and energy optimization to achieve faster reflexes and improved running capabilities.
+1. Nerve regeneration: BPC-157 promotes axonal regeneration and nerve healing.
+2. Cognitive enhancement: Semax improves focus and reaction time through BDNF modulation.
+3. Neuromuscular improvement: VIP enhances neuromuscular transmission and function.
+4. Muscle growth: Ipamorelin stimulates GH release for muscle development.
+5. Endurance enhancement: MOTS-c optimizes mitochondrial function for better stamina.
+6. Recovery acceleration: TB-500 facilitates tissue repair and actin regulation.
+7. Inflammation reduction: KPV reduces inflammation via alpha-MSH pathways.
+8. Energy optimization: Humanin protects mitochondria and enhances energy production.
+9. Optimized reflex pathway: Reflex-Eng, an engineered peptide combining motifs from Semax and BPC-157, modulates reflex pathways for faster nerve response.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Increase Reflex (Nerve Response and Running) Speed p01"
+"Loaded_Programs=Increase Reflex (Nerve Response and Running) Speed p02"
+"Loaded_Programs=Increase Reflex (Nerve Response and Running) Speed p03"
+"Loaded_Programs=Increase Reflex (Nerve Response and Running) Speed p04"
+"Loaded_Programs=Increase Reflex (Nerve Response and Running) Speed p05"
+"Loaded_Programs=Increase Reflex (Nerve Response and Running) Speed p06"
+"Loaded_Programs=Increase Reflex (Nerve Response and Running) Speed p07"
+"Loaded_Programs=Increase Reflex (Nerve Response and Running) Speed p08"
+"Loaded_Programs=Increase Reflex (Nerve Response and Running) Speed p09"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M85.053=1,M137.059,M205.074,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M127.074,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M173.051=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,M57.021,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M96.069,0=4,"
+"[/Preset]"

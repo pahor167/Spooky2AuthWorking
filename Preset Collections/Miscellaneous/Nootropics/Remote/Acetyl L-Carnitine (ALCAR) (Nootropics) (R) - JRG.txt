@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Acetyl L-Carnitine (ALCAR) (Nootropics) (R) - JRG"
+"Loaded_Programs=Acetyl L-Carnitine (ALCAR) (CUST)"
+"Loaded_Frequencies=M203.11576,"
+"Preset_Notes=Acetyl L-Carnitine ((R)-3-Acetyloxy-4-trimethylammonio-butanoate) is an acetylated form of L-Carnitine. A derivative of the amino acid lysine which is naturally produced in your liver and kidneys. This synthesized form can easily cross the blood-brain barrier.|ALCAR is a nootropic because it targets your brain metabolism, boosts mitochondria energy, and acts as a neuroprotectant. Acetyl L-Carnitine protects neurotransmitters which makes it a powerful compliment to boost the effectiveness of other nootropics.|Acetyl-l-carnitine boosts memory, mental alertness, fluid thought, and is a strong antioxidant.|The usual suggested dosage for ALCAR is 500 - 1,500 mg per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

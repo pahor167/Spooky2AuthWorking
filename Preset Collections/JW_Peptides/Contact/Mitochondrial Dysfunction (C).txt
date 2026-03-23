@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Mitochondrial Dysfunction (C)"
+"Preset_Notes=Mitochondrial Dysfunction for Contact
+
+Mitochondrial dysfunction refers to a state where the mitochondria, the powerhouses of the cell, fail to function properly, leading to impaired energy production, increased oxidative stress, and cellular damage. This condition can arise from various causes, including genetic mutations in mitochondrial DNA or nuclear genes encoding mitochondrial proteins, environmental toxins, aging-related decline, and chronic diseases such as diabetes, neurodegenerative disorders like Alzheimer's and Parkinson's, cardiovascular diseases, and metabolic syndromes. Symptoms often manifest as fatigue, muscle weakness, neurological impairments, organ failure, and accelerated aging, depending on the affected tissues. Pathophysiologically, it involves disruptions in the electron transport chain, reduced ATP synthesis, excessive reactive oxygen species (ROS) production, altered mitochondrial dynamics (fission and fusion), impaired mitophagy (selective degradation of damaged mitochondria), and defective biogenesis (formation of new mitochondria). These lead to a vicious cycle of energy deficit, inflammation, and cell death via apoptosis or necrosis.
+
+The proposed polypeptides address mitochondrial dysfunction through multiple therapeutic axes. Atrial natriuretic peptide enhances mitophagy to remove damaged mitochondria, restoring cellular homeostasis. The designed polypeptide for mitophagy mimics signals to activate the PINK1/Parkin pathway, promoting clearance of dysfunctional organelles. Elamipretide targets oxidative stress by scavenging ROS within mitochondria, preserving membrane integrity and function. The designed polypeptide for oxidative stress incorporates antioxidant motifs to neutralize free radicals and reduce lipid peroxidation. SHLP2 supports bioenergetics by stabilizing electron transport chain components, improving ATP production. The designed polypeptide for bioenergetics facilitates electron transfer efficiency. MOTS-c promotes mitochondrial biogenesis via activation of PGC-1{alpha} pathways, increasing mitochondrial mass and resilience. The designed polypeptide for biogenesis upregulates transcription factors for new mitochondrial formation. Together, these real and designed polypeptides (flagged where designed) provide a comprehensive approach, with feasibility supported by preclinical evidence showing improved mitochondrial parameters, reduced inflammation, and enhanced cellular viability.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Mitochondrial Dysfunction p01"
+"Loaded_Programs=Mitochondrial Dysfunction p02"
+"Loaded_Programs=Mitochondrial Dysfunction p03"
+"Loaded_Programs=Mitochondrial Dysfunction p04"
+"Loaded_Programs=Mitochondrial Dysfunction p05"
+"Loaded_Programs=Mitochondrial Dysfunction p06"
+"Loaded_Programs=Mitochondrial Dysfunction p07"
+"Loaded_Programs=Mitochondrial Dysfunction p08"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M103.009,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M103.009,M114.043,M87.032,M147.068,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M156.101,M147.068,M57.021,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M163.063,M186.079,M101.048,M87.032,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M57.021,M99.068,M128.095,M147.068,M147.068,M101.048,M113.084,M87.032,M101.048,M156.101,M147.068,M147.068,M97.053,M87.032,M99.068,M128.058,M156.101,M71.037,M99.068,M97.053,M113.084,M186.079,M101.048,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M114.043,M113.084,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M87.032,M101.048,M99.068,M103.009,0=4,"
+"[/Preset]"

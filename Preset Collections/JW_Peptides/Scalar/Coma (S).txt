@@ -1,0 +1,61 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Coma (S)"
+"Preset_Notes=Coma for Scalar
+
+Coma is a profound state of unconsciousness characterized by lack of arousal and awareness, commonly resulting from traumatic brain injury, ischemic/anoxic insults, stroke, or other neurological damage, with secondary injury cascades exacerbating neuronal loss and poor recovery outcomes. Key pathophysiological axes include excitotoxicity, neuroinflammation, oxidative stress/redox imbalance, apoptosis, mitochondrial dysfunction, impaired neuroplasticity/arousal, blood-brain barrier disruption, and secondary tissue damage.
+
+Real-world polypeptide applications in coma are limited and mostly investigational or regional (e.g., Semax and Selank for neurorecovery in brain injury, davunetide/NAP in trials for related neurodegeneration, CN-105 and other apoE mimetics for acute injury, arginine-rich peptides like R18 for excitotoxicity in preclinical models, with mixtures like Cerebrolysin used adjunctively in some settings); however, many involve non-listed residues/modifications, fusions, mixtures, or insufficient compliant mass verification from single sources, necessitating fallback to designed polypeptides. This set comprises 18 novel designed polypeptides providing comprehensive axis coverage, incorporating >=2 non-standard residues per sequence for potential selectivity, with ~44% cyclic (disulfide-bridged) for protease resistance and linear ones N-acetylated/C-amidated for stability; all are conceptual with short lengths (5-8 residues) for synthetic feasibility and physicochemical optimization (charged residues for solubility, limited hydrophobics for bioavailability).
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Coma p01"
+"Loaded_Programs=Coma p02"
+"Loaded_Programs=Coma p03"
+"Loaded_Programs=Coma p04"
+"Loaded_Programs=Coma p05"
+"Loaded_Programs=Coma p06"
+"Loaded_Programs=Coma p07"
+"Loaded_Programs=Coma p08"
+"Loaded_Programs=Coma p09"
+"Loaded_Programs=Coma p10"
+"Loaded_Programs=Coma p11"
+"Loaded_Programs=Coma p12"
+"Loaded_Programs=Coma p13"
+"Loaded_Programs=Coma p14"
+"Loaded_Programs=Coma p15"
+"Loaded_Programs=Coma p16"
+"Loaded_Programs=Coma p17"
+"Loaded_Programs=Coma p18"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M113.048,M150.954,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M156.090=1,M85.053,M114.079,M86.048,M113.048,M57.021,0=4,"
+"Loaded_Frequencies=M237.148=1,M114.079,M86.048,M113.048,M112.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M114.079,M86.048,M102.001,M57.021,0=4,"
+"Loaded_Frequencies=M200.095=1,M113.084,M114.079,M86.048,M85.053,M87.032,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M114.079,M100.064,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M156.090=1,M86.048,M114.079,M113.048,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M100.064,M114.079,M113.048,M86.048,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M237.148=1,M114.079,M86.048,M113.048,M85.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M113.084,M101.048,M86.048,M102.001,M97.053,0=4,"
+"Loaded_Frequencies=M200.095=1,M150.954,M114.079,M86.048,M112.100,0=4,"
+"Loaded_Frequencies=M102.001=1,M237.148,M114.079,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M156.090=1,M86.048,M85.053,M113.048,M150.954,M57.021,0=4,"
+"Loaded_Frequencies=M237.148=1,M200.095,M114.079,M86.048,M112.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M85.053,M113.048,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M200.095=1,M150.954,M86.048,M114.079,M112.064,0=4,"
+"Loaded_Frequencies=M156.090=1,M85.053,M114.079,M86.048,M149.970,0=4,"
+"Loaded_Frequencies=M102.001=1,M101.048,M114.043,M86.048,M97.053,M114.079,M57.021,M102.001,0=4,"
+"[/Preset]"

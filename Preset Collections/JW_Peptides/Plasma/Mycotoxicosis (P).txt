@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Mycotoxicosis (P)"
+"Preset_Notes=Mycotoxicosis for Plasma
+
+Mycotoxicosis is the clinical syndrome resulting from exposure to mycotoxins, toxic secondary metabolites produced by molds such as Aspergillus, Fusarium, and Penicillium species contaminating crops, foods, and feeds. Major mycotoxins include aflatoxin B1 (hepatocarcinogenic), ochratoxin A (nephrotoxic), zearalenone (estrogen-like reproductive effects), fumonisins (neurotoxic), and trichothecenes such as deoxynivalenol (DON, causes emesis and feed refusal) and T-2 toxin (severe cytotoxicity). Acute exposure leads to symptoms like vomiting, diarrhea, anorexia, hemorrhage, and immune suppression; chronic exposure contributes to organ damage (liver, kidney), growth impairment, immunosuppression, and increased cancer risk. Central pathophysiology involves generation of reactive oxygen species leading to oxidative stress, lipid peroxidation, mitochondrial dysfunction, apoptosis, inflammation, protein synthesis inhibition, and disruption of cellular redox homeostasis, with Nrf2 pathway impairment exacerbating damage.
+
+The proposed polypeptides target pivotal mechanisms of mycotoxin toxicity for therapeutic intervention. Real Gly-Pro-Ala peptide, identified from fish skin gelatin hydrolysate, alleviates DON-induced oxidative stress and intestinal injury by promoting Nrf2 nuclear translocation and upregulation of antioxidant enzymes in preclinical mouse and cellular models. Real SWGPFPF mimotope, selected via phage display against DON-specific antibody, exhibits high-affinity binding to DON and antagonizes its inhibition of protein synthesis in vitro. Designed capped Nrf2-Keap1 disruptor, rationally derived from the Nrf2 Neh2 domain's high-affinity Keap1-binding motif (LDEETGEFL core) with terminal N-acetylation and C-amidation for enhanced proteolytic stability, aims to disrupt Keap1 inhibition and amplify endogenous Nrf2-mediated antioxidant defenses against mycotoxin-induced ROS. Designed lysine-flanked DON binder, based on SWGPFPF motif with flanking lysines and terminal capping for improved solubility and mucoadhesive properties, facilitates gastrointestinal sequestration to reduce mycotoxin absorption and bioavailability.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Mycotoxicosis p01"
+"Loaded_Programs=Mycotoxicosis p02"
+"Loaded_Programs=Mycotoxicosis p03"
+"Loaded_Programs=Mycotoxicosis p04"
+"Loaded_Frequencies=M57.021=1,M97.053,M71.037,0=4,"
+"Loaded_Frequencies=M87.032=1,M186.079,M57.021,M97.053,M147.068,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M115.027,M129.043,M129.043,M101.048,M57.021,M129.043,M147.068,M113.084,M127.111,0=4,"
+"Loaded_Frequencies=M170.106=1,M128.095,M87.032,M186.079,M57.021,M97.053,M147.068,M97.053,M147.068,M128.095,M127.111,0=4,"
+"[/Preset]"

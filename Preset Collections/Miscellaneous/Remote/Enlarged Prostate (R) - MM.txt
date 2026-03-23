@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Enlarged Prostate (R) - MM"
+"Repeat_Each_Program=5"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Amplitude=20"
+"Out2_Amplitude=20"
+"Out2_Hz_Constant=.1"
+"Preset_Notes=These are Manuel Mallo's recommended settings and frequencies for Prostate enlargement.
+
+Run this Preset after the ODD/EVEN Protocol. This Preset works in conjunction with the Enlarged Prostate ODD (C) - MM Preset and Enlarged Prostate EVEN (C) - MM Preset.
+
+This Preset has been designed for use in Remote Mode using Spooky Boost.
+
+Spooky Remote provides a convenient way to treat conditions from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Select the essential oils you wish to run, and start the generator. DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Settings_Frequency_Wobble_Percentage=.025"
+"Hz_Gate=1"
+"Dwell_Multiplier=.35"
+"F1_Modulation_Type=Modulate F2 using F1 (AM DSB)"
+"Harmonic_Wobble=Fibonacci 12 Stage Wobble"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"Out1_Frequency_Limit_Harmonic_Type=Octave"
+"Out2_Frequency_Limit_Harmonic_Type=Octave"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=MM_ModSquareDC83"
+"User_Defined_2_Waveform=MM_ModSquareDC83"
+"Manual_Start=False"
+"Out2_User_Defined_2=True"
+"InverseWave=False"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Enable_Invert_User_Defined_2=1"
+"Enable_Amplitude_RampUp=1"
+"Enable_Amplitude_Ramp_Down=1"
+"Notify_When_Zero_Hz=1"
+"Loaded_Programs=Prostate Enlarged (PROV)"
+"Loaded_Programs=Prostate (CAFL)"
+"Loaded_Programs=Prostate Hyperplasia (PROV)"
+"Loaded_Frequencies=2250=180,2128=180,2050=180,920=180,690=180,666=180,"
+"Loaded_Frequencies=727=240,787=240,880=240,5000=240,"
+"Loaded_Frequencies=920=300,"
+"[/Preset]"

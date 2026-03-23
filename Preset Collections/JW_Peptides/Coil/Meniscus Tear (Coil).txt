@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Meniscus Tear (Coil)"
+"Preset_Notes=Meniscus Tear for Coil
+
+A meniscal tear is a common knee injury involving damage to the meniscus, the C-shaped fibrocartilage that cushions and stabilizes the femur and tibia, distributing load and facilitating smooth movement. Causes include acute trauma (twisting or hyperflexion with the foot planted, often in sports) or degenerative changes (age-related wear, obesity, or repetitive stress leading to fraying). Symptoms include localized pain (medial or lateral), swelling, effusion, mechanical catching/locking, popping sensations, instability, and reduced range of motion. Pathophysiology centers on the meniscus's limited healing potential: the outer 'red zone' has vascular supply enabling some repair via extrinsic pathways, while the inner 'avascular white zone' relies on poor intrinsic healing with low cellularity and nutrient diffusion, resulting in persistent tears. Tears trigger local inflammation with pro-inflammatory cytokines (IL-1, TNF-{alpha}), catabolic enzymes (MMPs, ADAMTS), matrix degradation, impaired collagen/proteoglycan synthesis, synovial inflammation, and progressive joint degeneration, often accelerating posttraumatic osteoarthritis with cartilage loss, subchondral changes, and chronic pain.
+
+Standard treatments range from conservative (rest, ice, NSAIDs, physical therapy) to surgical (arthroscopic partial meniscectomy or repair), but outcomes vary due to poor spontaneous healing in avascular regions, risk of OA progression post-meniscectomy, and resistance to full restoration. The proposed polypeptides target key axes: tissue regeneration/ECM remodeling, inflammation/catabolism modulation, and cell migration/angiogenesis. Real polypeptide BPC-157 (pentadecapeptide from gastric origin, investigational with preclinical tendon/ligament/cartilage repair and pilot human intra-articular data for knee pain including meniscal tears) promotes multi-modal healing via angiogenesis (VEGFR2-NO), growth hormone receptor upregulation, anti-inflammatory macrophage shift, and cytoprotection. Real polypeptide Thymosin Beta-4 (natural actin-sequestering protein with evidence in ligament/wound models) enhances cell migration, proliferation, angiogenesis, and anti-fibrotic effects for avascular zone support. Designed polypeptides (literature-derived self-assembling motifs with C-terminal amidation for protease resistance/stability): KLD-12 analog forms beta-sheet hydrogels mimicking ECM to support fibrochondrocyte viability and matrix deposition; RADA16 analog self-assembles into nanofibers promoting chondrogenic differentiation and glycosaminoglycan retention; MMP-degradable disulfide-cyclized analog allows controlled scaffold breakdown facilitating new matrix integration. Collectively, these address poor vascularity/inflammation-driven non-healing with high feasibility via intra-articular delivery, favorable solubility/charge, low immunogenicity, and in silico stability; physicochemical advantages include enhanced bioavailability in joint milieu without systemic toxicity seen in small molecules.
+
+"
+"Loaded_Programs=Meniscus Tear p01"
+"Loaded_Programs=Meniscus Tear p02"
+"Loaded_Programs=Meniscus Tear p03"
+"Loaded_Programs=Meniscus Tear p04"
+"Loaded_Programs=Meniscus Tear p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M115.027,M113.084,M128.095,M113.084,M115.027,M113.084,M128.095,M113.084,M115.027,M112.100,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M70.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M102.001,M57.021,M97.053,M128.058,M57.021,M113.084,M186.079,M57.021,M128.058,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"[/Preset]"

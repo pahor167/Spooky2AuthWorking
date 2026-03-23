@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Rat-Bite Fever (C)"
+"Preset_Notes=Rat-Bite Fever for Contact
+
+Rat-bite fever is a rare zoonotic bacterial infection caused by Streptobacillus moniliformis (streptobacillosis, prevalent in North America) or Spirillum minus (sodoku, prevalent in Asia), transmitted via rodent bites, scratches, or contact with contaminated materials. Symptoms include abrupt fever, rash, polyarthralgias, vomiting, and potential complications like endocarditis or sepsis if untreated. Standard treatment is antibiotics (e.g., penicillin), but antimicrobial peptides provide potential alternatives with direct bactericidal mechanisms targeting gram-negative pathogens.
+1. Pore-forming activity: Magainin_2 - Forms toroidal pores in bacterial membranes, leading to cytoplasmic leakage and death, particularly effective against gram-negative bacteria.
+2. Carpet-mode membrane disruption: Cecropin A - Alpha-helical peptide that carpets and solubilizes gram-negative outer membranes without requiring specific receptors.
+3. Beta-barrel pore formation: Protegrin-1 - Disulfide-stabilized beta-sheet structure inserts into membranes to form large pores, delivering broad and potent activity against gram-negative pathogens.
+4. Intracellular targeting: Indolicidin - Short tryptophan-rich peptide that translocates across membranes to inhibit intracellular processes like DNA and protein synthesis.
+5. Gram-negative specific interference: Thanatin - Binds lipopolysaccharide (LPS) and disrupts outer membrane integrity while inhibiting bacterial respiration.
+6. Multifunctional innate defense: Human Beta-Defensin 3 (hBD-3) - Human endogenous peptide combining membrane disruption with immunomodulatory effects, including chemokine attraction.
+7. Engineered membrane permeabilization: Omiganan - Synthetic indolicidin analog optimized for enhanced potency, stability, and reduced toxicity in targeting bacterial membranes.
+8. Tryptophan-rich selective disruption: RBF-Des1 - Designed short peptide leveraging aromatic tryptophan insertion for high-affinity binding and disruption of negatively charged gram-negative membranes.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Rat-Bite Fever p01"
+"Loaded_Programs=Rat-Bite Fever p02"
+"Loaded_Programs=Rat-Bite Fever p03"
+"Loaded_Programs=Rat-Bite Fever p04"
+"Loaded_Programs=Rat-Bite Fever p05"
+"Loaded_Programs=Rat-Bite Fever p06"
+"Loaded_Programs=Rat-Bite Fever p07"
+"Loaded_Programs=Rat-Bite Fever p08"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M71.037,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M128.095,M128.095,M97.053,M99.068,M97.053,M113.084,M113.084,M163.063,M102.001,M114.043,M156.101,M156.101,M101.048,M57.021,M128.095,M102.001,M128.058,M156.101,M131.040,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M228.090=1,M128.095,M186.079,M113.084,M128.095,M128.095,M186.079,M113.084,M127.111,0=4,"
+"[/Preset]"

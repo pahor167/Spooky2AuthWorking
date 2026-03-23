@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Motion Sickness (C)"
+"Preset_Notes=Motion Sickness for Contact
+
+Motion sickness is a common condition involving symptoms such as nausea, vomiting, dizziness, pallor, and sweating due to sensory mismatches between the vestibular system, visual cues, and proprioception during travel or motion exposure. Mechanistic rationale: The polypeptides target essential axes like anticholinergic modulation to inhibit muscarinic signaling in the vestibular nuclei, antihistaminic effects to block H1 receptors reducing histamine-mediated nausea, anti-emetic actions via serotonin or neurokinin pathways to suppress emetic centers, vestibular modulation for habituation and fluid balance, thermoregulation to prevent temperature-linked exacerbation, gut-brain axis to modulate vagal and hormonal signals, and sensory conflict resolution to align multisensory inputs; due to limited real-world polypeptides, designed ones are flagged and used to ensure comprehensive coverage.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Motion Sickness p01"
+"Loaded_Programs=Motion Sickness p02"
+"Loaded_Programs=Motion Sickness p03"
+"Loaded_Programs=Motion Sickness p04"
+"Loaded_Programs=Motion Sickness p05"
+"Loaded_Programs=Motion Sickness p06"
+"Loaded_Programs=Motion Sickness p07"
+"Loaded_Programs=Motion Sickness p08"
+"Loaded_Programs=Motion Sickness p09"
+"Loaded_Programs=Motion Sickness p10"
+"Loaded_Programs=Motion Sickness p11"
+"Loaded_Programs=Motion Sickness p12"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M113.048,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M100.064=1,M237.148,M113.084,M200.095,M114.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M758.675,M85.053,M102.001,M113.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M114.079,M243.029,M100.064,M113.084,0=4,"
+"Loaded_Frequencies=M113.048=1,M237.148,M86.048,M170.061,M307.009,0=4,"
+"Loaded_Frequencies=M85.053=1,M200.095,M150.954,M114.079,M86.048,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.048,M102.001,M86.048,M237.148,M102.001,0=4,"
+"Loaded_Frequencies=M200.095=1,M237.148,M758.675,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M113.084,M150.954,M102.001,M86.048,0=4,"
+"Loaded_Frequencies=M85.053=1,M114.079,M100.064,M200.095,M237.148,0=4,"
+"Loaded_Frequencies=M113.048=1,M150.954,M86.048,M113.084,M243.029,0=4,"
+"[/Preset]"

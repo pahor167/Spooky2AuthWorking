@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Rhodiola Rosea (Nootropics) (R) - JRG"
+"Loaded_Programs=Rhodiola Rosea (CUST)"
+"Loaded_Frequencies=M300.12090,"
+"Preset_Notes=AMPK (adenosine monophosphate-activated protein kinase) is an enzyme found inside each of our cells and works as the body's master regulating switch. AMPK is reduced as we age. But it is possible to increase AMPK using compounds such as Rhodiola Rosea.|When AMPK is switched on it triggers the use of stored energy from fats, removes fats and sugars from the blood, boosts mitochondria production, reduces inflammation, and takes out the cellular garbage.|When AMPK is activated in brain cells it prevents diseases such as Alzheimer's and Parkinson's.|Rhodiola Rosea is a plant that grows at high altitudes and in cold regions of the world. It decreases depression and stress-related mood swings, reduces fatigue, stimulates energy and alertness, and boosts cognition.|Dosage of Rhodiola Rosea is from 150 - 200 mg. per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

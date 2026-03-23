@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Loose Teeth (C)"
+"Preset_Notes=Loose Teeth for Contact
+
+Loose teeth are primarily caused by periodontitis, a chronic inflammatory condition triggered by bacterial biofilms, leading to gingival inflammation, periodontal pocket formation, alveolar bone loss, periodontal ligament degradation, and eventual tooth mobility. Therapeutic strategies target bacterial control, inflammation reduction, oxidative stress, immune balance, and tissue regeneration.
+
+1. Broad-spectrum antimicrobial: Indolicidin - Potent AMP effective against gram-positive and negative oral bacteria
+2. Membrane-disrupting antimicrobial: Lactoferricin B - Targets bacterial membranes in periodontal biofilms
+3. Oral wound healing and antimicrobial: Histatin 5 - Natural salivary peptide that kills microbes and promotes mucosal re-epithelialization
+4. Gram-negative targeting: Human Beta-Defensin 3 (hBD-3) - Highly active against Porphyromonas gingivalis and anaerobes
+5. Oral biofilm control: P-113 - Histatin-derived peptide with strong anti-biofilm activity in periodontitis
+6. Inflammation resolution: Annexin_A1_Ac2-26 - Promotes pro-resolving pathways to reduce periodontal inflammation
+7. Inflammatory mediator inhibition: Catestatin - Reduces catecholamine-driven inflammation
+8. Cytokine suppression: Cortistatin - Broad anti-inflammatory effects in chronic conditions
+9. Immune balance: Thymosin alpha 1 - Regulates immune response to prevent excessive inflammation
+10. Oxidative stress reduction: Carnosine - Scavenges ROS and buffers in inflamed tissues
+11. Gingival regeneration: EGF - Stimulates epithelial proliferation and migration
+12. Angiogenesis promotion: QK - VEGF-mimetic peptide enhances vascularization for tissue repair
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Loose Teeth p01"
+"Loaded_Programs=Loose Teeth p02"
+"Loaded_Programs=Loose Teeth p03"
+"Loaded_Programs=Loose Teeth p04"
+"Loaded_Programs=Loose Teeth p05"
+"Loaded_Programs=Loose Teeth p06"
+"Loaded_Programs=Loose Teeth p07"
+"Loaded_Programs=Loose Teeth p08"
+"Loaded_Programs=Loose Teeth p09"
+"Loaded_Programs=Loose Teeth p10"
+"Loaded_Programs=Loose Teeth p11"
+"Loaded_Programs=Loose Teeth p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M114.043=1,M87.032,M115.027,M87.032,M129.043,M102.001,M97.053,M113.084,M87.032,M137.059,M115.027,M57.021,M163.063,M102.001,M113.084,M137.059,M115.027,M57.021,M99.068,M113.084,M102.001,M163.063,M113.084,M129.043,M71.037,M128.095,M163.063,M71.037,M102.001,M102.001,M99.068,M99.068,M57.021,M163.063,M113.084,M57.021,M129.043,M156.101,M102.001,M128.058,M163.063,M156.101,M115.027,M113.084,M128.095,M186.079,M186.079,M129.043,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M113.084,0=4,"
+"[/Preset]"

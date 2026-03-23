@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Ectodermal Dysplasia (P)"
+"Preset_Notes=Ectodermal Dysplasia for Plasma
+
+Ectodermal dysplasia (ED) is a heterogeneous group of inherited disorders characterized by abnormalities in the development of ectodermal-derived structures, including the skin, hair, nails, teeth, sweat glands, salivary glands, and lacrimal glands. The condition is primarily genetic, with over 200 subtypes identified, the most common being X-linked hypohidrotic ectodermal dysplasia (XLHED) caused by mutations in the EDA gene, as well as other forms linked to genes like EDAR, EDARADD, and WNT10A. Causes include mutations that disrupt key signaling pathways such as EDA/EDAR/NF-kB, WNT, FGF, and BMP, leading to impaired ectoderm-mesoderm interactions during embryogenesis. Symptoms vary by subtype but often include sparse or absent hair (hypotrichosis), missing or malformed teeth (hypodontia or anodontia), reduced or absent sweating (hypohidrosis or anhidrosis) leading to heat intolerance, dry and thin skin prone to eczema or erosions, brittle or absent nails, and occasionally respiratory issues due to abnormal mucous glands or skeletal abnormalities in certain types like cranioectodermal dysplasia. Pathophysiology involves defective morphogenesis of ectodermal appendages, resulting from altered gene expression in signaling molecules that regulate cell proliferation, differentiation, and apoptosis in ectodermal tissues. Complications can include recurrent infections, dental problems affecting nutrition, overheating, and psychosocial issues due to cosmetic alterations.
+
+The proposed polypeptides address the condition through multiple therapeutic axes, with a mechanistic rationale grounded in current scientific understanding. Due to limited real-world polypeptides identified from tool searches (only CNP retrieved with verifiable sequence; others exceeded length limits or sequences not extracted due to tool failures, leading to shortfall of min_real_polypeptides=14; supplemented with designed to meet totals), most are designed (flagged as such). For bone growth axis, the real-world CNP polypeptide inhibits FGFR3-RAF1-MEK/ERK signaling to stimulate endochondral bone growth, potentially alleviating skeletal dysplasia in subtypes like cranioectodermal dysplasia. Designed polypeptides for EDA signaling axis (D1, D2, D9, D16) mimic key motifs in EDA's receptor-binding domain to activate EDAR and downstream NF-kB pathway, promoting ectodermal appendage formation with considerations for bioavailability and stability (e.g., short length for penetration, physicochemical properties like hydrophilicity for solubility). For sweat gland development axis (D3, D10, D17), designed peptides enhance FGF and inhibit BMP signaling to induce glandular differentiation, feasibility based on embryonic signaling recapitulation, with neutral pI for tissue compatibility. For dental development axis (D4, D11), designed sequences target WNT pathway activation for tooth morphogenesis, incorporating motifs for cell adhesion and proliferation. For hair development axis (D5, D12), polypeptides stimulate keratinocyte differentiation via growth factor mimics, addressing hypotrichosis. For skin wound healing axis (D6, D13), antimicrobial and collagen-mimicking designs promote barrier repair and reduce inflammation. For nail development axis (D7, D14), peptides support keratin structural integrity. For salivary/lacrimal gland function axis (D8, D15), designs aim at aquaporin regulation or anti-inflammatory effects to improve secretion. Overall, feasibility includes in vitro testing for binding affinity, in vivo models for efficacy, and physicochemical optimization (e.g., molecular weight <3 kDa for topical delivery, no toxic residues).
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Ectodermal Dysplasia p01"
+"Loaded_Programs=Ectodermal Dysplasia p02"
+"Loaded_Programs=Ectodermal Dysplasia p03"
+"Loaded_Programs=Ectodermal Dysplasia p04"
+"Loaded_Programs=Ectodermal Dysplasia p05"
+"Loaded_Programs=Ectodermal Dysplasia p06"
+"Loaded_Programs=Ectodermal Dysplasia p07"
+"Loaded_Programs=Ectodermal Dysplasia p08"
+"Loaded_Programs=Ectodermal Dysplasia p09"
+"Loaded_Programs=Ectodermal Dysplasia p10"
+"Loaded_Programs=Ectodermal Dysplasia p11"
+"Loaded_Programs=Ectodermal Dysplasia p12"
+"Loaded_Programs=Ectodermal Dysplasia p13"
+"Loaded_Programs=Ectodermal Dysplasia p14"
+"Loaded_Programs=Ectodermal Dysplasia p15"
+"Loaded_Programs=Ectodermal Dysplasia p16"
+"Loaded_Programs=Ectodermal Dysplasia p17"
+"Loaded_Programs=Ectodermal Dysplasia p18"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M99.068=1,M129.043,M97.053,M163.063,M97.053,M128.058,M97.053,M129.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M99.068,M115.027,M87.032,M97.053,M71.037,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M57.021,M147.068,M128.095,M57.021,M147.068,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M99.068,M99.068,M163.063,M97.053,M186.079,M101.048,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M87.032,M156.101,M128.095,M163.063,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M137.059,M113.084,M114.043,M87.032,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M97.053=1,M115.027,M99.068,M147.068,M137.059,M99.068,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M113.084,M137.059,M101.048,M113.084,M163.063,M57.021,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M103.009,M156.101,M156.101,M186.079,M128.095,M186.079,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M128.058,M57.021,M97.053,M128.058,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M129.043,M71.037,M129.043,M129.043,M129.043,M71.037,0=4,"
+"Loaded_Frequencies=M115.027=1,M115.027,M115.027,M99.068,M115.027,M115.027,M115.027,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M87.032,M71.037,M87.032,M87.032,M87.032,M71.037,0=4,"
+"Loaded_Frequencies=M128.058=1,M128.058,M128.058,M99.068,M128.058,M128.058,M128.058,M99.068,0=4,"
+"[/Preset]"

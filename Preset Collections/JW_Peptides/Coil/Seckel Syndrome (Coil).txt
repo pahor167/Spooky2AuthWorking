@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Seckel Syndrome (Coil)"
+"Preset_Notes=Seckel Syndrome for Coil
+
+Seckel syndrome is a rare autosomal recessive disorder featuring primordial dwarfism, severe microcephaly, intellectual disability, and characteristic facial features, primarily due to mutations in ATR and related DNA damage response genes causing replication stress and developmental apoptosis. Proposed polypeptides target key therapeutic axes from case reports, preclinical models, and pathway research:
+1. Postnatal growth promotion and height improvement
+2. Brain development support and neuroprotection
+3. Cell proliferation and anti-apoptotic effects
+4. Cognitive function enhancement
+5. DNA damage checkpoint enhancement
+Assignments and mechanisms:
+- Somatropin (real, recombinant human growth hormone used in Seckel case reports): Activates GH signaling to stimulate linear growth and partially improve final height.
+- Mecasermin (real, recombinant human IGF-1, rational extension from primordial dwarfism studies): Promotes cellular anabolism, neuronal survival, and brain growth via IGF-1 receptor.
+- Thymosin {beta}4 (real, in clinical trials for tissue repair): Enhances actin dynamics, cell migration, proliferation, and anti-apoptosis for developmental support.
+- NAP (davunetide) (real, investigational neuroprotective peptide): Stabilizes microtubules, reduces neuronal apoptosis, and improves cognitive outcomes in models.
+- ATRmimic-1 (designed, N-acetylated/C-amidated motif derived from TopBP1 activation domain): Engineered to potentially boost ATR signaling, improving replication stress tolerance and genomic stability.
+
+"
+"Loaded_Programs=Seckel Syndrome p01"
+"Loaded_Programs=Seckel Syndrome p02"
+"Loaded_Programs=Seckel Syndrome p03"
+"Loaded_Programs=Seckel Syndrome p04"
+"Loaded_Programs=Seckel Syndrome p05"
+"Loaded_Frequencies=M147.068=1,M97.053,M101.048,M113.084,M97.053,M113.084,M87.032,M156.101,M113.084,M147.068,M115.027,M114.043,M71.037,M131.040,M113.084,M156.101,M71.037,M137.059,M156.101,M113.084,M137.059,M128.058,M113.084,M71.037,M147.068,M115.027,M101.048,M163.063,M128.058,M129.043,M147.068,M129.043,M129.043,M71.037,M163.063,M113.084,M97.053,M128.095,M129.043,M128.058,M128.095,M163.063,M87.032,M147.068,M113.084,M128.058,M114.043,M97.053,M128.058,M101.048,M87.032,M113.084,M102.001,M147.068,M87.032,M129.043,M87.032,M113.084,M97.053,M101.048,M97.053,M87.032,M114.043,M156.101,M129.043,M129.043,M101.048,M128.058,M128.058,M128.095,M87.032,M114.043,M113.084,M129.043,M113.084,M113.084,M156.101,M113.084,M87.032,M113.084,M113.084,M113.084,M113.084,M128.058,M87.032,M186.079,M113.084,M129.043,M97.053,M99.068,M128.058,M147.068,M113.084,M156.101,M87.032,M99.068,M147.068,M71.037,M114.043,M87.032,M113.084,M99.068,M163.063,M57.021,M71.037,M87.032,M115.027,M87.032,M114.043,M99.068,M163.063,M115.027,M113.084,M113.084,M128.095,M115.027,M113.084,M129.043,M129.043,M57.021,M113.084,M128.058,M101.048,M113.084,M131.040,M57.021,M156.101,M113.084,M129.043,M115.027,M57.021,M87.032,M97.053,M156.101,M101.048,M57.021,M128.058,M113.084,M147.068,M128.095,M128.058,M101.048,M163.063,M87.032,M128.095,M147.068,M115.027,M101.048,M114.043,M87.032,M137.059,M114.043,M115.027,M115.027,M71.037,M113.084,M113.084,M128.095,M114.043,M163.063,M57.021,M113.084,M113.084,M163.063,M102.001,M147.068,M156.101,M128.095,M115.027,M131.040,M115.027,M128.095,M99.068,M129.043,M101.048,M147.068,M113.084,M156.101,M113.084,M99.068,M128.058,M102.001,M156.101,M87.032,M99.068,M129.043,M57.021,M87.032,M102.001,M57.021,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M129.043,M101.048,M113.084,M102.001,M57.021,M71.037,M129.043,M113.084,M99.068,M115.027,M71.037,M113.084,M128.058,M147.068,M99.068,M102.001,M57.021,M115.027,M156.101,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M97.053,M101.048,M57.021,M163.063,M57.021,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,M57.021,M113.084,M99.068,M115.027,M129.043,M102.001,M102.001,M147.068,M156.101,M87.032,M102.001,M115.027,M113.084,M156.101,M156.101,M113.084,M129.043,M131.040,M163.063,M102.001,M71.037,M97.053,M113.084,M128.095,M97.053,M71.037,M128.095,M87.032,M71.037,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.054=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M127.074,0=4,"
+"Loaded_Frequencies=M99.032=1,M128.095,M186.079,M87.032,M113.084,M113.084,M71.037,M128.095,M128.095,M147.068,M113.084,M129.043,M87.032,M99.068,M128.095,M128.095,M186.079,M156.101,M147.068,M57.021,M115.027,M97.053,M113.084,M115.027,M99.068,M70.053,0=4,"
+"[/Preset]"

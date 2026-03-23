@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Hepatitis D (R)"
+"Preset_Notes=Hepatitis D for Remote
+
+Hepatitis D, also known as Hepatitis Delta, is a severe liver infection caused by the hepatitis D virus (HDV), a unique defective satellite RNA virus that requires concomitant infection with hepatitis B virus (HBV) to replicate and assemble virions, as HDV utilizes the HBV envelope proteins (HBsAg) for entry, assembly, and transmission. Transmission occurs via percutaneous exposure to infected blood or body fluids, sexual contact, or perinatally, predominantly affecting individuals with chronic HBV. Acute co-infection with HBV and HDV can cause fulminant hepatitis, while superinfection in chronic HBV carriers leads to chronic HDV in over 90% of cases, markedly accelerating liver fibrosis, cirrhosis (in 10-20 years), decompensated liver disease, and hepatocellular carcinoma, with mortality rates significantly higher than HBV mono-infection. Symptoms include fatigue, jaundice, abdominal pain, nausea, dark urine, and in advanced stages, ascites, encephalopathy, and bleeding varices. Pathophysiology involves HDV binding to NTCP receptor for hepatocyte entry (mediated by preS1 domain interaction), nuclear import, rolling-circle replication of genomic RNA using host RNA polymerase II, self-cleavage via intrinsic ribozyme activity, production of hepatitis delta antigens (small HDAg for replication, large HDAg-prenylated-for assembly inhibition and virion formation with HBsAg), and host immune-mediated damage exacerbated by inflammatory cytokines and cytotoxic T cells.
+
+The proposed polypeptides address Hepatitis D through prioritized real-world examples supplemented with designed ones due to limited real-world options (shortfall of 13 from min_real_polypeptides=14; only bulevirtide identified as verifiable polypeptide therapeutic across multiple sources including NEJM trials, PubMed reviews, and EMA approval). Real-world polypeptide bulevirtide (myristoylated lipopeptide) competitively blocks NTCP to inhibit HDV (and HBV) entry, reducing viral load and ALT levels. Designed polypeptides (flagged as designed) cover additional axes: D1-D3 (designed, some cyclic) target prenylation pathways to disrupt LHDAg-HBsAg interaction and assembly; D4-D6 (designed) inhibit HDV ribozyme activity; D7-D9 (designed, cyclic) disrupt HDAg functions; D10-D12 (designed) mimic interferon effects for antiviral state induction; D13-D15 (designed) provide anti-inflammatory and immunomodulatory actions to mitigate liver damage; D16-D17 (designed, cyclic) offer anti-fibrotic effects to slow progression. Feasibility incorporates established efficacy/safety for real-world bulevirtide, with designed optimized via non-standard residues for enhanced stability, specificity, protease resistance, and low immunogenicity, ensuring physicochemical suitability (e.g., solubility, serum half-life).
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Hepatitis D p01"
+"Loaded_Programs=Hepatitis D p02"
+"Loaded_Programs=Hepatitis D p03"
+"Loaded_Programs=Hepatitis D p04"
+"Loaded_Programs=Hepatitis D p05"
+"Loaded_Programs=Hepatitis D p06"
+"Loaded_Programs=Hepatitis D p07"
+"Loaded_Programs=Hepatitis D p08"
+"Loaded_Programs=Hepatitis D p09"
+"Loaded_Programs=Hepatitis D p10"
+"Loaded_Programs=Hepatitis D p11"
+"Loaded_Programs=Hepatitis D p12"
+"Loaded_Programs=Hepatitis D p13"
+"Loaded_Programs=Hepatitis D p14"
+"Loaded_Programs=Hepatitis D p15"
+"Loaded_Programs=Hepatitis D p16"
+"Loaded_Programs=Hepatitis D p17"
+"Loaded_Programs=Hepatitis D p18"
+"Loaded_Frequencies=M267.219=1,M101.048,M114.043,M113.084,M87.032,M99.068,M97.053,M114.043,M97.053,M113.084,M57.021,M147.068,M147.068,M97.053,M115.027,M137.059,M128.058,M113.084,M115.027,M97.053,M71.037,M147.068,M57.021,M71.037,M114.043,M87.032,M114.043,M114.043,M97.053,M115.027,M186.079,M115.027,M147.068,M114.043,M97.053,M114.043,M128.095,M115.027,M137.059,M186.079,M97.053,M129.043,M71.037,M114.043,M128.095,M99.068,M57.021,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M113.048,M150.954,M237.148,M200.095,M113.084,M99.068,M128.058,M150.954,0=4,"
+"Loaded_Frequencies=M100.064=1,M86.048,M114.079,M128.095,M156.101,M113.048,M150.954,M237.148,0=4,"
+"Loaded_Frequencies=M113.084=1,M237.148,M150.954,M86.048,M100.064,M114.079,M200.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M128.095,M113.048,M237.148,M86.048,M150.954,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M129.043,M115.027,M113.048,M113.084,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M128.095,M156.101,M86.048,M114.079,M237.148,M150.954,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M113.048,M86.048,M100.064,M114.079,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M71.037,M114.079,M100.064,M86.048,M150.954,0=4,"
+"Loaded_Frequencies=M101.048=1,M147.068,M147.068,M156.101,M113.084,M128.095,M113.048,M113.084,M237.148,0=4,"
+"Loaded_Frequencies=M114.079=1,M200.095,M150.954,M113.084,M113.048,M86.048,M100.064,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M100.064,M86.048,M128.095,M156.101,M137.059,M150.954,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M129.043,M115.027,M113.048,M113.084,M200.095,M237.148,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M128.095,M156.101,M86.048,M114.079,M85.053,M113.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M113.048,M86.048,M758.675,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M71.037,M114.079,M100.064,M150.954,M237.148,0=4,"
+"Loaded_Frequencies=M101.048=1,M147.068,M147.068,M156.101,M113.084,M128.095,M113.048,M113.084,M200.095,0=4,"
+"Loaded_Frequencies=M114.079=1,M200.095,M150.954,M113.084,M113.048,M758.675,M86.048,0=4,"
+"[/Preset]"

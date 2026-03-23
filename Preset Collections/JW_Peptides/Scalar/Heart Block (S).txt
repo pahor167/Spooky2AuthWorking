@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Heart Block (S)"
+"Preset_Notes=Heart Block for Scalar
+
+Heart Block refers to atrioventricular (AV) conduction disturbances where electrical impulses from the atria to ventricles are delayed or blocked, resulting in bradycardia, symptoms like fatigue/syncope, and potential need for pacing; causes include fibrosis, ischemia, inflammation, and metabolic stress affecting the AV node/His-Purkinje system.
+
+The proposed polypeptides target evidence-based therapeutic axes from cardiac electrophysiology literature, including neuropeptide facilitation of AV conduction, cytoprotective maintenance of conduction tissue integrity, melanocortin suppression of inflammation contributing to block, and novel gap junction conductance optimization for direct conduction improvement.
+
+1. Vasoactive intestinal peptide (VIP) positive dromotropic effects: VIP, a cardiac neuropeptide, enhances AV nodal conduction and reduces block severity in models.
+2. Calcitonin gene-related peptide (CGRP) facilitation of conduction: CGRP exerts positive dromotropic effects, improving impulse propagation through the AV node.
+3. Stable gastric pentadecapeptide (BPC-157) cytoprotection: BPC-157 provides broad protection in cardiac disturbances, supporting conduction system stability.
+4. {alpha}-MSH-derived tripeptide (KPV) anti-inflammatory modulation: KPV suppresses pro-inflammatory cytokines implicated in inflammatory conduction disorders.
+5. Engineered AAP10-derived octapeptide gap junction enhancement: All-D-amino stabilized analog with charged extension optimizes intercellular coupling and conduction velocity under stress.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Heart Block p01"
+"Loaded_Programs=Heart Block p02"
+"Loaded_Programs=Heart Block p03"
+"Loaded_Programs=Heart Block p04"
+"Loaded_Programs=Heart Block p05"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M113.048,M57.021,M71.037,M57.021,M128.095,M156.101,0=4,"
+"[/Preset]"

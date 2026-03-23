@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Infertility (Male) (R)"
+"Preset_Notes=Infertility (Male) for Remote
+
+Male infertility refers to the inability of a man to contribute to conception despite regular unprotected intercourse, often stemming from issues like low sperm count, poor sperm motility, hormonal imbalances, oxidative stress, inflammation, metabolic disorders, or genetic factors. Mechanistic rationale: The selected polypeptides target key therapeutic axes including HPG axis regulation for hormonal balance, oxidative stress reduction to protect sperm integrity, spermatogenesis enhancement to improve sperm production, sperm motility improvement for better fertilization potential, metabolic regulation to address obesity or diabetes-related infertility, and additional mechanisms such as anti-inflammatory effects and hypoxia protection. Designed polypeptides are flagged where used to ensure comprehensive coverage of all aspects, providing conceptual designs based on known pathways with scientific rationale for feasibility and modes of action, including physicochemical properties like stability and solubility.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Infertility (Male) p01"
+"Loaded_Programs=Infertility (Male) p02"
+"Loaded_Programs=Infertility (Male) p03"
+"Loaded_Programs=Infertility (Male) p04"
+"Loaded_Programs=Infertility (Male) p05"
+"Loaded_Programs=Infertility (Male) p06"
+"Loaded_Programs=Infertility (Male) p07"
+"Loaded_Programs=Infertility (Male) p08"
+"Loaded_Programs=Infertility (Male) p09"
+"Loaded_Programs=Infertility (Male) p10"
+"Loaded_Programs=Infertility (Male) p11"
+"Loaded_Programs=Infertility (Male) p12"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M147.068,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,M57.021,M128.095,M156.101,M163.063,M128.095,M128.058,M156.101,M99.068,M128.095,M114.043,M127.111,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.095,M129.043,M97.053,M113.084,M156.101,M97.053,M156.101,M102.001,M156.101,M97.053,M113.084,M114.043,M71.037,M101.048,M113.084,M71.037,M99.068,M129.043,M128.095,M129.043,M57.021,M102.001,M97.053,M99.068,M102.001,M113.084,M101.048,M99.068,M114.043,M101.048,M101.048,M113.084,M102.001,M71.037,M57.021,M163.063,M102.001,M97.053,M101.048,M131.040,M101.048,M156.101,M99.068,M113.084,M128.058,M57.021,M99.068,M113.084,M97.053,M71.037,M113.084,M97.053,M128.058,M99.068,M99.068,M102.001,M114.043,M163.063,M156.101,M115.027,M99.068,M156.101,M147.068,M129.043,M87.032,M113.084,M156.101,M113.084,M97.053,M57.021,M102.001,M97.053,M156.101,M57.021,M99.068,M114.043,M97.053,M99.068,M99.068,M87.032,M163.063,M71.037,M99.068,M71.037,M113.084,M87.032,M102.001,M128.058,M102.001,M71.037,M113.084,M102.001,M156.101,M156.101,M87.032,M101.048,M101.048,M115.027,M102.001,M57.021,M57.021,M97.053,M128.095,M115.027,M137.059,M97.053,M113.084,M101.048,M102.001,M115.027,M115.027,M97.053,M156.101,M147.068,M128.058,M115.027,M87.032,M87.032,M87.032,M87.032,M128.095,M71.037,M97.053,M97.053,M97.053,M87.032,M113.084,M97.053,M87.032,M97.053,M87.032,M156.101,M113.084,M97.053,M57.021,M97.053,M87.032,M115.027,M101.048,M97.053,M113.084,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M114.043=1,M87.032,M102.001,M129.043,M113.084,M101.048,M114.043,M113.084,M101.048,M113.084,M71.037,M113.084,M129.043,M128.095,M129.043,M129.043,M102.001,M156.101,M147.068,M102.001,M113.084,M87.032,M114.043,M101.048,M101.048,M186.079,M102.001,M71.037,M57.021,M163.063,M102.001,M163.063,M101.048,M156.101,M115.027,M113.084,M99.068,M163.063,M128.095,M115.027,M97.053,M71.037,M156.101,M97.053,M128.095,M113.084,M128.058,M128.095,M101.048,M102.001,M101.048,M147.068,M128.095,M129.043,M113.084,M99.068,M129.043,M101.048,M99.068,M156.101,M156.101,M97.053,M57.021,M102.001,M71.037,M137.059,M137.059,M71.037,M115.027,M87.032,M113.084,M163.063,M101.048,M163.063,M97.053,M99.068,M101.048,M128.058,M102.001,M137.059,M102.001,M57.021,M128.095,M102.001,M115.027,M87.032,M115.027,M101.048,M115.027,M102.001,M101.048,M99.068,M156.101,M156.101,M57.021,M113.084,M57.021,M97.053,M87.032,M163.063,M102.001,M87.032,M147.068,M57.021,M131.040,M128.095,M129.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.048,M102.001,M113.084,M87.032,M86.048,M156.101,M147.068,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M99.068=1,M114.079,M87.032,M100.064,M97.053,M150.954,M128.095,M163.063,M101.048,M85.053,0=4,"
+"[/Preset]"

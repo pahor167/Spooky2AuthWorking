@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Spine Wear and Tear (Non Age Related) (P)"
+"Preset_Notes=Spine Wear and Tear (Non Age Related) for Plasma
+
+Spine wear and tear (non-age related) refers to the degeneration of spinal structures such as intervertebral discs, facet joints, vertebrae, and surrounding tissues due to factors like trauma, repetitive mechanical stress, or overuse, leading to inflammation, pain, reduced mobility, and potential nerve compression. 
+
+Peptides address this by reducing inflammation, promoting cartilage and disc regeneration, providing analgesia, offering neuroprotection against nerve damage, and supporting bone remodeling to strengthen spinal integrity. Real-world peptides such as VIP and PACAP modulate immune responses and neurogenesis; Ac2-26 and Cortistatin-14 inhibit pro-inflammatory mediators; TLQP-21 influences pain pathways; MOTS-c enhances mitochondrial function for cellular repair; OM-LV20 and VD11 promote recovery post-injury; A91 boosts neuroprotective immunity; Teriparatide stimulates bone formation. Designed peptides 11 and 12 provide additional targeted antioxidant and immunomodulatory effects to cover oxidative stress and fibrosis axes.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Spine Wear and Tear (Non Age Related) p01"
+"Loaded_Programs=Spine Wear and Tear (Non Age Related) p02"
+"Loaded_Programs=Spine Wear and Tear (Non Age Related) p03"
+"Loaded_Programs=Spine Wear and Tear (Non Age Related) p04"
+"Loaded_Programs=Spine Wear and Tear (Non Age Related) p05"
+"Loaded_Programs=Spine Wear and Tear (Non Age Related) p06"
+"Loaded_Programs=Spine Wear and Tear (Non Age Related) p07"
+"Loaded_Programs=Spine Wear and Tear (Non Age Related) p08"
+"Loaded_Programs=Spine Wear and Tear (Non Age Related) p09"
+"Loaded_Programs=Spine Wear and Tear (Non Age Related) p10"
+"Loaded_Programs=Spine Wear and Tear (Non Age Related) p11"
+"Loaded_Programs=Spine Wear and Tear (Non Age Related) p12"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,M57.021,M128.095,M156.101,M163.063,M128.095,M128.058,M156.101,M99.068,M128.095,M114.043,M128.095,0=4,"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M113.084,M128.058,M97.053,M97.053,M71.037,M87.032,M87.032,M156.101,M156.101,M156.101,M137.059,M147.068,M137.059,M137.059,M71.037,M113.084,M97.053,M97.053,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M99.068,M57.021,M128.095,M113.084,M113.084,M128.095,M57.021,M71.037,M99.068,M57.021,M71.037,M99.068,M71.037,M128.095,M99.068,M147.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M115.027,M129.043,M113.084,M186.079,M97.053,M97.053,M186.079,M113.084,M97.053,M103.009,0=4,"
+"Loaded_Frequencies=M99.068=1,M137.059,M147.068,M147.068,M71.037,M114.043,M113.084,M99.068,M101.048,M97.053,M156.101,M101.048,M97.053,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M150.954=1,M113.048,M113.084,M115.027,M129.043,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M237.148=1,M114.079,M100.064,M87.032,M101.048,M128.058,0=4,"
+"[/Preset]"

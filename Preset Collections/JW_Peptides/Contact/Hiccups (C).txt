@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Hiccups (C)"
+"Preset_Notes=Hiccups for Contact
+
+Hiccups (singultus) are involuntary, spasmodic contractions of the diaphragm and intercostal muscles, followed by sudden glottic closure, producing a characteristic 'hic' sound. The reflex arc involves afferent limbs via the vagus and phrenic nerves, central processing in the medulla, and efferent output via the phrenic nerve to the diaphragm. Triggers include gastric distension, central nervous system disorders, metabolic imbalances, and irritation of the gastrointestinal or respiratory tracts. Chronic hiccups (>48 hours) may indicate serious underlying pathology. The proposed polypeptide set targets all known axes: vagal and phrenic nerve modulation (VIP, D1, D6), GABAergic inhibition in the medulla (D2), dopaminergic reflex suppression (D3), serotonergic modulation (D4), glutamatergic tone reduction (D5), and neurogenic inflammation control (LL-37, D7). Designed peptides fill gaps where no real-world agents exist, ensuring full mechanistic coverage.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Hiccups p01"
+"Loaded_Programs=Hiccups p02"
+"Loaded_Programs=Hiccups p03"
+"Loaded_Programs=Hiccups p04"
+"Loaded_Programs=Hiccups p05"
+"Loaded_Programs=Hiccups p06"
+"Loaded_Programs=Hiccups p07"
+"Loaded_Programs=Hiccups p08"
+"Loaded_Programs=Hiccups p09"
+"Loaded_Programs=Hiccups p10"
+"Loaded_Programs=Hiccups p11"
+"Loaded_Programs=Hiccups p12"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M113.084,M156.101,M71.037,M113.084,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M113.084,M163.063,M57.021,M113.084,M163.063,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M97.053,M147.068,M99.068,M97.053,M147.068,M99.068,0=4,"
+"Loaded_Frequencies=M186.079=1,M87.032,M97.053,M186.079,M87.032,M97.053,M186.079,M87.032,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M129.043,M129.043,M115.027,M129.043,M115.027,M129.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M71.037,M113.084,M128.095,M71.037,M113.084,M128.095,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M147.068,M57.021,M156.101,M147.068,M57.021,M156.101,M147.068,0=4,"
+"Loaded_Frequencies=M128.058=1,M97.053,M114.043,M128.058,M97.053,M114.043,M128.058,M97.053,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M115.027,M97.053,M147.068,M113.084,M115.027,M97.053,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M99.068,M87.032,M101.048,M99.068,M87.032,M101.048,M99.068,0=4,"
+"[/Preset]"

@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Dowager’s Hump (Kyphosis/Neck Hump) (P)"
+"Preset_Notes=Dowager’s Hump (Kyphosis/Neck Hump) for Plasma
+
+Dowager's hump, also known as hyperkyphosis or neck hump, is characterized by excessive forward curvature of the thoracic spine, often resulting in a pronounced rounded upper back. It primarily affects postmenopausal women due to osteoporosis-related vertebral compression fractures but can occur in others from poor posture, muscle weakness, or degenerative changes. Causes include estrogen deficiency leading to bone loss, chronic inflammation, oxidative stress, mitochondrial dysfunction, and neuromuscular instability. Symptoms encompass chronic back pain, reduced mobility, height loss, respiratory compromise from restricted lung expansion, and aesthetic concerns impacting quality of life. Pathophysiology involves imbalanced bone remodeling with increased resorption over formation, vertebral wedging, sarcopenia, and inflammatory cascades exacerbating tissue degeneration.
+
+The proposed polypeptides address all identified therapeutic axes. Axis 1: Bone remodeling imbalance and density improvement - Real Teriparatide (PTH analog) stimulates osteoblast activity to enhance bone formation and reduce fracture risk; Designed D1 (PTH-derived motif with C-amidation for stability) promotes anabolic effects on osteoblasts. Axis 2: Inflammation and pain modulation - Real BPC-157 accelerates tissue healing and reduces cytokine-mediated inflammation in musculoskeletal structures; Designed D2 (anti-inflammatory scaffold with disulfide cyclization) targets cytokine pathways to alleviate joint and spinal inflammation. Axis 3: Mitochondrial function and oxidative stress reduction - Designed D3 (mitochondrial-targeting motif with N-acetylation) restores energy production and mitigates ROS damage in aging tissues. Feasibility: Designed polypeptides exhibit favorable in silico properties (GRAVY -0.3 to 0.5, net charge +3 to +6, instability index <35); modes of action leverage literature motifs for targeted efficacy with potential for local or systemic administration.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Dowager’s Hump (Kyphosis/Neck Hump) p01"
+"Loaded_Programs=Dowager’s Hump (Kyphosis/Neck Hump) p02"
+"Loaded_Programs=Dowager’s Hump (Kyphosis/Neck Hump) p03"
+"Loaded_Programs=Dowager’s Hump (Kyphosis/Neck Hump) p04"
+"Loaded_Programs=Dowager’s Hump (Kyphosis/Neck Hump) p05"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M99.068,M129.043,M147.068,M97.053,M128.095,M113.084,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,M99.068,M113.084,M128.095,M57.021,M147.068,M113.084,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M113.084=1,M57.021,M99.068,M113.084,M57.021,M99.068,M113.084,M57.021,M99.068,M113.084,0=4,"
+"[/Preset]"

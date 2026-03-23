@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Hypoparathyroidism (S)"
+"Preset_Notes=Hypoparathyroidism for Scalar
+
+Hypoparathyroidism is a rare endocrine disorder characterized by insufficient production of parathyroid hormone (PTH) by the parathyroid glands, leading to hypocalcemia, hyperphosphatemia, and associated clinical manifestations. The condition can be congenital, often due to genetic mutations such as in the GCM2, PTH, or AIRE genes, or acquired, most commonly from surgical damage during thyroidectomy, autoimmune destruction, or infiltration by diseases like hemochromatosis or metastasis. Symptoms arise from low serum calcium levels and include neuromuscular irritability (tetany, paresthesia, muscle cramps), cardiac arrhythmias (prolonged QT interval), seizures, basal ganglia calcification, cataracts, dental abnormalities, and skeletal changes with increased bone density but reduced remodeling. Pathophysiologically, PTH deficiency impairs renal calcium reabsorption and phosphate excretion via reduced activation of PTH receptor 1 (PTHR1) in the kidney, decreases 1-alpha-hydroxylase activity leading to low calcitriol and diminished intestinal calcium absorption, and limits bone resorption by osteoclasts, resulting in disrupted mineral homeostasis. Chronic cases may lead to nephrocalcinosis, renal impairment, and reduced quality of life.
+
+The proposed polypeptides address hypoparathyroidism through targeted mechanisms across key pathophysiological axes, with real-world polypeptides prioritized for PTH replacement and supplemented by designed ones for comprehensive coverage. The real-world rhPTH(1-84) directly replaces missing PTH, activating PTHR1 to enhance renal calcium retention, phosphate excretion, and bone turnover, with proven efficacy in clinical trials for normalizing serum calcium without hypercalciuria. Similarly, teriparatide (PTH(1-34)) mimics PTH's N-terminal active domain to stimulate PTHR1, improving calcium homeostasis and used off-label or in studies for hypoparathyroidism. Palopegteriparatide, a pegylated PTH(1-34) prodrug, provides sustained PTH activity for once-daily dosing, addressing compliance and fluctuating levels. Eneboparatide, a modified PTH analog, selectively activates the R0 conformation of PTHR1 for prolonged signaling without excessive bone resorption. The designed polypeptides fill gaps: one enhances 1-alpha-hydroxylase activity to boost calcitriol production and intestinal calcium uptake; another promotes renal tubular calcium reabsorption via CaSR modulation; a third increases phosphate excretion by inhibiting sodium-phosphate cotransporters; a fourth stimulates bone remodeling through RANKL mimicry; a fifth reduces neuromuscular excitability by stabilizing voltage-gated channels; a sixth supports parathyroid cell regeneration via stem cell factors; a seventh modulates autoimmune responses if applicable; and an eighth optimizes vitamin D receptor activation for better absorption. These designed polypeptides are engineered for stability, specificity, and bioavailability, with rationales based on pathway analyses and analogous therapeutics.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Hypoparathyroidism p01"
+"Loaded_Programs=Hypoparathyroidism p02"
+"Loaded_Programs=Hypoparathyroidism p03"
+"Loaded_Programs=Hypoparathyroidism p04"
+"Loaded_Programs=Hypoparathyroidism p05"
+"Loaded_Programs=Hypoparathyroidism p06"
+"Loaded_Programs=Hypoparathyroidism p07"
+"Loaded_Programs=Hypoparathyroidism p08"
+"Loaded_Programs=Hypoparathyroidism p09"
+"Loaded_Programs=Hypoparathyroidism p10"
+"Loaded_Programs=Hypoparathyroidism p11"
+"Loaded_Programs=Hypoparathyroidism p12"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,M99.068,M71.037,M113.084,M57.021,M71.037,M97.053,M113.084,M71.037,M97.053,M156.101,M115.027,M57.021,M57.021,M113.084,M156.101,M97.053,M156.101,M128.095,M128.095,M129.043,M115.027,M114.043,M99.068,M113.084,M99.068,M129.043,M87.032,M137.059,M129.043,M128.095,M87.032,M113.084,M57.021,M129.043,M71.037,M115.027,M71.037,M113.084,M57.021,M115.027,M128.095,M71.037,M128.095,M87.032,M128.058,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,0=4,"
+"Loaded_Frequencies=M71.037=1,M99.068,M71.037,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M128.058,M156.101,M71.037,M128.095,M186.079,M113.084,M128.058,M115.027,M71.037,M156.101,M156.101,M156.101,M71.037,M147.068,M113.084,M137.059,M128.095,M113.084,M113.084,M71.037,M129.043,M113.084,M137.059,M101.048,M71.037,M129.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M99.068,M128.095,M99.068,M128.095,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M129.043,M129.043,M129.043,M129.043,M129.043,M129.043,M129.043,M129.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M99.068,M156.101,M99.068,M156.101,M99.068,M156.101,M99.068,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M128.058=1,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,0=4,"
+"Loaded_Frequencies=M71.037=1,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,0=4,"
+"[/Preset]"

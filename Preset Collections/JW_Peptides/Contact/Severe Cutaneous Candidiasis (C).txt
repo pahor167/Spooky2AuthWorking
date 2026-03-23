@@ -1,0 +1,54 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Severe Cutaneous Candidiasis (C)"
+"Preset_Notes=Severe Cutaneous Candidiasis for Contact
+
+Severe Cutaneous Candidiasis (Inflammatory Type with Massive Edema)
+
+Severe cutaneous candidiasis involving extensive Candida colonization with severe inflammatory response characterized by massive facial and hand edema, exudative (weeping) skin lesions, and dermal soreness. The condition indicates compromised skin barrier with potential biofilm formation and requires immediate antifungal intervention combined with anti-inflammatory support and barrier restoration.
+
+1. Direct antifungal/Anti-inflammatory: LL-37 - Cathelicidin disrupts Candida cell membrane via electrostatic interaction with cell wall mannan; inhibits fungal adhesion to host tissues; reduces local TNF-{alpha} and IL-6 production at infection site
+2. Candida-specific cytotoxicity/Iron chelation: Histatin 5 - Binds fungal Hsp70 chaperones (Ssa1/2) for intracellular translocation; targets mitochondrial complex I inducing ROS burst; disrupts potassium homeostasis via Trk1p transporter
+3. Broad antifungal/Biofilm inhibition: hBD-3 (Human Beta-Defensin 3) - Disrupts fungal plasma membrane; active against Candida biofilms; salt-insensitive maintaining function in inflamed/edematous tissue; recruits neutrophils and macrophages
+4. Iron chelation/Membrane disruption: Lactoferricin B - N-terminal lactoferrin fragment chelates iron essential for Candida metabolism; destabilizes fungal membrane through electrostatic interactions; synergistic with azole antifungals
+5. Broad-spectrum antimicrobial/Biofilm prevention: Omiganan - Indolicidin analog permeabilizes microbial membranes; inhibits Candida biofilm formation on skin surface; rapid fungicidal activity against yeast and hyphal forms
+6. Wound healing/Anti-inflammatory: Thymosin Beta-4 (TB-500) - Sequesters G-actin promoting keratinocyte and fibroblast migration; reduces TNF-{alpha} and inflammatory cytokines; enhances granulation tissue formation for barrier repair
+7. Barrier repair/Anti-inflammatory: GHK-Cu - Copper-tripeptide complex upregulates 400+ repair genes; stimulates glycosaminoglycan synthesis for moisture retention and barrier restoration; anti-inflammatory properties reduce skin redness
+8. Immune modulation/Pain reduction: ARA-290 - Erythropoietin-derived tissue-protective peptide; modulates inflammatory cytokine cascade; reduces neuropathic pain signals associated with severe skin inflammation
+9. Tissue repair/Angiogenesis: BPC-157 - Upregulates vascular endothelial growth factor (VEGF); promotes angiogenesis in damaged dermal tissue; accelerates wound healing and granulation tissue formation
+10. Anti-inflammatory/Mast cell stabilization: KPV - Short tripeptide downregulates pro-inflammatory cytokines; stabilizes mast cells reducing histamine release and vascular permeability (edema reduction)
+11. Biofilm disruption/Hyphal inhibition: CandiClear-1 (designed) - Cationic amphipathic peptide with high positive charge density for electrostatic binding to Candida cell wall; proline-kinked structure disrupts biofilm extracellular matrix; targets hyphal-specific surface proteins to inhibit tissue invasion
+12. Barrier restoration/Edema reduction: DermShield-1 (designed) - Laminin-5 mimetic sequence promotes keratinocyte adhesion and migration for re-epithelialization; arginine-mediated nitric oxide production improves vascular tone and reduces edema; supports basement membrane reconstruction
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Severe Cutaneous Candidiasis p01"
+"Loaded_Programs=Severe Cutaneous Candidiasis p02"
+"Loaded_Programs=Severe Cutaneous Candidiasis p03"
+"Loaded_Programs=Severe Cutaneous Candidiasis p04"
+"Loaded_Programs=Severe Cutaneous Candidiasis p05"
+"Loaded_Programs=Severe Cutaneous Candidiasis p06"
+"Loaded_Programs=Severe Cutaneous Candidiasis p07"
+"Loaded_Programs=Severe Cutaneous Candidiasis p08"
+"Loaded_Programs=Severe Cutaneous Candidiasis p09"
+"Loaded_Programs=Severe Cutaneous Candidiasis p10"
+"Loaded_Programs=Severe Cutaneous Candidiasis p11"
+"Loaded_Programs=Severe Cutaneous Candidiasis p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M198.112=1,M156.101,M57.021,M156.101,M128.095,M99.068,M99.068,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M99.032=1,M128.058,M97.053,M156.101,M56.037,0=4,"
+"[/Preset]"

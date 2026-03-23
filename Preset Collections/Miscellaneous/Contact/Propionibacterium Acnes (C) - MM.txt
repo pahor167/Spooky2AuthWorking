@@ -1,0 +1,67 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=Propionibacterium Acnes (C) - MM"
+"BFB_Start_Frequency=20000"
+"BFB_Finish_Frequency=18000000"
+"BFB_Single_Scan=1"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_%=.125"
+"BFB_Start_Delay=100"
+"BFB_Threshold=.4"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"BFB_Max_HRV=20"
+"Repeat_Sequence=0"
+"Frequency_Slider_Scale=0"
+"Out1_Amplitude=15"
+"Out2_Amplitude=15"
+"Out2_Hz_Factor=.03125"
+"Out1_Shadow_Hz_Factor=1"
+"Out1_Fixed_Frequency=0"
+"Preset_Notes=Propionibacterium Acnes Contact preset. By Manuel Mallo
+
+*Important*: Use the Colloidal Silver port of Spooky Boost to prevent skin burns.
+
+This preset has the frequencies for all the 36 known strains of this dangerous pathogen.
+
+It is involved in some cancers (prostate cancer included), as well as some other diseases, as acne, ankilosing spondylitis, sciatica (it attaks the nerves), arthitits, etc, etc.
+
+It has an active role in chronic inflammation, and systemic infections, preparing the field for other organisms to attack, as streptoccoccus.
+
+Also has an important role in morgellons disease, helping to the worsening of that condition.
+
+Boost device is needed, except fot the plasma one.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the Colloidal_Silver port of Spooky Boost."
+"Settings_Frequency_Wobble_Percentage=.0005"
+"Settings_Frequency_Wobble_Steps=180"
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"User_Defined_1_WCM=2"
+"User_Defined_2_WCM=2"
+"Triangle_Spike_Ratio=2"
+"F1_Factor=11"
+"Settings_Harmonic_Wobble_Down=0"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=MM_ModSquareDC83"
+"User_Defined_2_Waveform=MM_ModSquareDC83"
+"Out1_Fixed_Frequency=False"
+"Gate_Hz_Option=False"
+"Gate_On_Off_Duration_Option=True"
+"Out1_Sine=False"
+"Out1_User_Defined_1=True"
+"Out2_User_Defined_2=True"
+"InverseWave=False"
+"Enable_Reduce_Low_Frequency_Amplitude=0"
+"Enable_Tissue_Factor=1"
+"Enable_Invert_User_Defined_2=1"
+"Enable_Amplitude_RampUp=0"
+"Enable_Amplitude_Ramp_Down=0"
+"Notify_When_Zero_Hz=0"
+"Loaded_Programs=MM_Propionibacterium acnes (CUST)"
+"Loaded_Frequencies=8887259.46=180,8954286.49=180,8957848.95=180,8966285.19=180,8966285.19=180,8973546.31=180,8973546.31=180,8974316.33=180,8975635.76=180,8975696.92=180,8975696.92=180,8978431.62=180,8978431.62=180,8990770.15=180,9063584.69=180,9075937.12=180,9077558.09=180,9105591.21=180,9139174.80=180,9212045.36=180,9212045.36=180,9212106.44=180,9212106.44=180,9212365.54=180,"
+"[/Preset]"

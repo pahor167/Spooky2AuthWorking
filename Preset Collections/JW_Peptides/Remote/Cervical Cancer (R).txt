@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Cervical Cancer (R)"
+"Preset_Notes=Cervical Cancer for Remote
+
+Cervical cancer is predominantly driven by persistent high-risk human papillomavirus (HPV) infection, leading to expression of viral oncoproteins E6 and E7, which inactivate p53 and Rb tumor suppressors, promote immortalization, genomic instability, immune evasion, angiogenesis, and metastasis. The proposed polypeptides target evidence-based anticancer mechanisms from peptide studies, including those demonstrating cytotoxicity in cervical cancer models (e.g., HeLa cells) and relevance to HPV-transformed cells, focusing on membrane disruption, apoptosis induction, p53 restoration, and immunomodulation.
+
+1. Pore-forming cytolysis of cancer cells: Melittin disrupts lipid membranes leading to rapid lysis.
+2. Broad cationic amphipathic oncolysis with potential anti-HPV effects: LL-37 exhibits direct anticancer and antiviral activity.
+3. Mitochondrial membrane permeabilization and apoptosis induction: KLAK_LAK selectively targets and disrupts cancer cell mitochondria.
+4. p53 pathway restoration (countering E6-mediated degradation): Azurin_p28 stabilizes p53 to promote apoptosis.
+5. Selective lytic cytotoxicity and immunogenic death: Lactoferricin B induces membrane damage in cancer cells.
+6. Tryptophan-rich membrane perturbation: Indolicidin potently disrupts cancer cell membranes.
+7. Defensin-mediated direct kill and immune activation: Human Beta-Defensin 3 (hBD-3) combines cytolytic and immunomodulatory effects.
+8. Amphipathic {alpha}-helical disruption: Cecropin A exhibits strong anticancer activity via membrane lysis.
+9. Optimized selectivity and potency: CervLyt-Eng, an engineered Trp-rich cationic peptide (Ac-RKKWWKWWKR-NH2) derived from antimicrobial motifs, designed for enhanced stability and targeted disruption in HPV-associated cancer cells.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Cervical Cancer p01"
+"Loaded_Programs=Cervical Cancer p02"
+"Loaded_Programs=Cervical Cancer p03"
+"Loaded_Programs=Cervical Cancer p04"
+"Loaded_Programs=Cervical Cancer p05"
+"Loaded_Programs=Cervical Cancer p06"
+"Loaded_Programs=Cervical Cancer p07"
+"Loaded_Programs=Cervical Cancer p08"
+"Loaded_Programs=Cervical Cancer p09"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M101.048,M71.037,M71.037,M115.027,M131.040,M128.058,M57.021,M99.068,M99.068,M101.048,M115.027,M57.021,M131.040,M71.037,M87.032,M57.021,M113.084,M115.027,M128.095,M115.027,M163.063,M113.084,M128.095,M97.053,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.059,M128.095,M163.063,M163.063,M103.009,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M103.009,M71.037,M99.068,M113.084,M87.032,M103.009,M113.084,M97.053,M128.095,M129.043,M129.043,M128.059,M113.084,M57.021,M128.095,M103.009,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M103.009,M103.009,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M71.037,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M128.095,M186.079,M186.079,M128.095,M186.079,M186.079,M128.095,M156.101,0=4,"
+"[/Preset]"

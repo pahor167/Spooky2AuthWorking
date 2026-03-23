@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Oak (S)"
+"Preset_Notes=Oak / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Oak - The plodder who keeps going past the point of exhaustion.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Oak (S)"
+"Loaded_Frequencies=318.03,"
+"[/Preset]"

@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Proteinuria (Coil)"
+"Preset_Notes=Proteinuria for Coil
+
+Proteinuria is characterized by excessive protein in the urine due to disruption of the glomerular filtration barrier, commonly associated with diabetic nephropathy, glomerulonephritis, hypertensive nephrosclerosis, and other forms of chronic kidney disease, often progressing to renal fibrosis and function loss.
+
+1. Protective RAS modulation: Angiotensin-(1-7) - Activates Mas receptor to oppose Ang II-mediated vasoconstriction, inflammation, and podocyte injury, thereby reducing proteinuria.
+2. BMP regenerative signaling: THR-123 - Oral ALK3 agonist that mimics BMP-7 activity to promote tubular repair, inhibit fibrosis, and decrease protein leakage in preclinical CKD models.
+3. Renal hemodynamic improvement: C-Peptide - Restores deficient C-peptide levels in diabetes to enhance nitric oxide bioavailability, reduce glomerular hyperfiltration, and lower albuminuria.
+4. Natriuretic pressure reduction: Atrial Natriuretic Peptide (ANP) - Binds NPR-A to induce vasodilation and natriuresis, lowering intraglomerular pressure and exerting antiproteinuric effects.
+5. Anti-fibrotic TGF-{beta} inhibition: Ac-SDKP - Blocks TGF-{beta}/Smad signaling to suppress renal fibroblast activation and interstitial fibrosis contributing to proteinuria.
+6. Stabilized protective RAS: Ac-DRVYIHP-NH2 - Protease-resistant analog of Ang-(1-7) for prolonged Mas receptor activation and sustained reduction in glomerular protein leakage.
+
+"
+"Loaded_Programs=Proteinuria p01"
+"Loaded_Programs=Proteinuria p02"
+"Loaded_Programs=Proteinuria p03"
+"Loaded_Programs=Proteinuria p04"
+"Loaded_Programs=Proteinuria p05"
+"Loaded_Programs=Proteinuria p06"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M103.009=1,M163.063,M147.068,M115.027,M115.027,M87.032,M87.032,M114.043,M99.068,M113.084,M103.009,M128.095,M128.095,M163.063,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M129.043,M115.027,M113.084,M128.058,M99.068,M57.021,M128.058,M99.068,M129.043,M113.084,M57.021,M57.021,M57.021,M97.053,M57.021,M71.037,M57.021,M87.032,M113.084,M128.058,M97.053,M113.084,M71.037,M113.084,M129.043,M57.021,M87.032,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M96.069,0=4,"
+"Loaded_Frequencies=M157.038=1,M156.101,M99.068,M163.063,M113.084,M137.059,M96.069,0=4,"
+"[/Preset]"

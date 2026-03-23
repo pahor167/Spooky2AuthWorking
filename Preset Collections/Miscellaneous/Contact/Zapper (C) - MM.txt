@@ -1,0 +1,55 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=Zapper (C) - MM"
+"Force_MW_to_Hz_Factor="
+"Force_BP_to_Hz_Factor="
+"Force_Tissue_Factor="
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=152000"
+"BFB_Single_Scan=1"
+"BFB_Initial_Step_Size_Hz=20"
+"BFB_Initial_Step_Size_%=.025"
+"BFB_Max_Hits_To_Find=20"
+"BFB_Loops=1"
+"BFB_Threshold=.01"
+"BFB_BPM=True"
+"BFB_After_Scan_Run_Hits=0"
+"BFB_Repeat_BFB=1"
+"BFB_Continue_Refining_Hits=0"
+"BFB_Detect_mA=False"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Swap_Waveform_Time=60"
+"Preset_Notes=This is a Contact Mode 'Zapper' preset designed to target a broad range of diseases.
+
+The preset uses a DC offset, so GREAT CARE needs to be taken. If you feel any discomfort, discontinue use immediately.
+
+In the words of the author, Manuel Mallo:
+
+'I have been improving it over time, and now it works nicely. I use it whenever the invader is unknown, mainly colds, but it does a good job at killing.
+
+The waveform is swapped every 30 seconds to prevent burns (due to acid build up).
+
+It also has a positive offset of 103% to make sure no negative part of the waveform is present simultaneously with positive.
+
+The offset is achieved by the waveform (100%), and by the offset setting (3%).'
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the Colloidal_Silver port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Repeating an earlier warning: stop treatment if you experience any discomfort."
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"After_x_Hrs_Stop=False"
+"After_x_Hrs_Advance=True"
+"Advance_When_Complete=True"
+"User_Defined_1_Waveform=MM_ModSquareDC83"
+"Out1_Sine=False"
+"Out1_User_Defined_1=True"
+"Out2_Follow_Out1_Wave=False"
+"Positive_Waveform_Only=True"
+"Enable_Invert_Follow_Out1_Wave=0"
+"Notify_When_Program_Advances=0"
+"Loaded_Programs=Clark 30KHz Zapper Contact (XTRA)"
+"Loaded_Frequencies=30000=420,0=1260,30000=420,0=1260,30000=420,"
+"[/Preset]"

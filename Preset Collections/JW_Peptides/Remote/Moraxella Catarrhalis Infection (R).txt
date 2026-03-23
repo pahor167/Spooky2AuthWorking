@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Moraxella Catarrhalis Infection (R)"
+"Preset_Notes=Moraxella Catarrhalis Infection for Remote
+
+Moraxella catarrhalis (previously classified as Branhamella catarrhalis or Neisseria catarrhalis) is a Gram-negative, aerobic diplococcus commonly colonizing the human upper respiratory tract. It is a significant opportunistic pathogen causing acute otitis media in children, sinusitis, and exacerbations of chronic obstructive pulmonary disease in adults, often complicated by beta-lactamase production leading to antibiotic resistance. Peptide-based therapeutics offer promising alternatives or adjuncts through direct antimicrobial action and immune modulation.
+
+1. Human {beta}-defensin 3 defense: Human Beta-Defensin 3 (hBD-3) - Bactericidal via membrane disruption; specifically induced by M. catarrhalis in pulmonary epithelium
+2. Human {beta}-defensin 2 defense: Human Beta-Defensin 2 (hBD-2) - Innate bactericidal activity against Gram-negative respiratory pathogens including otitis media agents
+3. Human {beta}-defensin 1 defense: Human Beta-Defensin 1 (hBD-1) - Constitutive epithelial defense with activity against M. catarrhalis
+4. Alpha-defensin defense: HNP-1_Alpha_Defensin - Neutrophil-derived pore-forming killing of engulfed Gram-negative bacteria
+5. Tryptophan-rich peptide: Indolicidin - Rapid penetration and disruption of Gram-negative membranes with intracellular targeting
+6. Cyclic {beta}-sheet peptide: Protegrin-1 - Potent broad-spectrum pore formation effective against resistant Gram-negative strains
+7. Proline-rich peptide: Thanatin - Targets bacterial outer membrane and septum formation in Gram-negative species
+8. {alpha}-helical cecropin: Cecropin A - Selective carpet mechanism lysis of Gram-negative bacterial membranes
+9. {alpha}-helical magainin: Magainin_2 - Amphipathic helical disruption of Gram-negative outer membranes
+10. Synthetic magainin analog: Pexiganan - Engineered {alpha}-helical peptide with optimized potency against Gram-negative pathogens
+11. Synthetic indolicidin analog: Omiganan - Modified tryptophan-rich sequence for enhanced stability and Gram-negative activity
+12. Innate defense regulator: IDR-1018 - Immunomodulatory and direct antimicrobial effects promoting clearance of bacterial infections
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Moraxella Catarrhalis Infection p01"
+"Loaded_Programs=Moraxella Catarrhalis Infection p02"
+"Loaded_Programs=Moraxella Catarrhalis Infection p03"
+"Loaded_Programs=Moraxella Catarrhalis Infection p04"
+"Loaded_Programs=Moraxella Catarrhalis Infection p05"
+"Loaded_Programs=Moraxella Catarrhalis Infection p06"
+"Loaded_Programs=Moraxella Catarrhalis Infection p07"
+"Loaded_Programs=Moraxella Catarrhalis Infection p08"
+"Loaded_Programs=Moraxella Catarrhalis Infection p09"
+"Loaded_Programs=Moraxella Catarrhalis Infection p10"
+"Loaded_Programs=Moraxella Catarrhalis Infection p11"
+"Loaded_Programs=Moraxella Catarrhalis Infection p12"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M102.001,M137.059,M97.053,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M102.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M102.001,M102.001,M128.095,M128.095,M96.069,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M163.063,M114.043,M102.001,M99.068,M87.032,M87.032,M57.021,M57.021,M128.058,M102.001,M113.084,M163.063,M87.032,M71.037,M102.001,M97.053,M113.084,M147.068,M101.048,M128.095,M113.084,M128.058,M57.021,M101.048,M102.001,M163.063,M156.101,M57.021,M128.095,M71.037,M128.095,M102.001,M102.001,M127.111,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M128.095,M128.095,M97.053,M99.068,M97.053,M113.084,M113.084,M163.063,M102.001,M114.043,M156.101,M156.101,M101.048,M57.021,M128.095,M102.001,M128.058,M156.101,M131.040,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M101.048,M99.068,M128.095,M114.043,M128.058,M156.101,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"[/Preset]"

@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Lyme Disease (Coil)"
+"Preset_Notes=Lyme Disease for Coil
+
+Lyme Disease & Lyme Co-infections (Bartonella, Borrelia species, Tick-Borne Relapsing Fever, Babesiosis, Human Granulocytic Anaplasmosis, etc.)
+
+Lyme co-infections involve multiple tick-borne pathogens causing overlapping symptoms like fatigue, arthritis, neurological deficits, and systemic inflammation. Proposed polypeptides from literature target key therapeutic axes including direct antimicrobial action against specific pathogens, immune modulation, and tissue repair to address persistent infection and damage.
+
+1. Antimicrobial against Borrelia: Cecropin A - Pore-forming peptide disrupting bacterial membranes
+2. Antimicrobial against Borrelia: Magainin 2 - Amphipathic alpha-helical peptide lysing microbial cells
+3. Broad antimicrobial: LL-37 - Human cathelicidin with bactericidal and antiparasitic effects
+4. Antimicrobial against Bartonella: Lactoferricin B - Iron-chelating peptide inhibiting intracellular bacteria
+5. Immune modulation: Thymosin Alpha-1 - Enhances T-cell function and balances immunity against infections
+6. Anti-inflammatory: KPV - Suppresses cytokine storms and reduces tissue inflammation
+7. Tissue repair: BPC-157 - Promotes healing of damaged tissues from chronic infection
+8. Mitochondrial support: MOTS-c - Improves cellular energy and reduces oxidative stress from pathogens
+9. Antiparasitic for Babesia: Protegrin-1 - Cationic peptide targeting protozoan membranes
+10. Multi-pathogen targeting: BorDes-1 - Designed cyclic peptide disrupting Borrelia and co-infection membranes
+
+"
+"Loaded_Programs=Lyme Disease p01"
+"Loaded_Programs=Lyme Disease p02"
+"Loaded_Programs=Lyme Disease p03"
+"Loaded_Programs=Lyme Disease p04"
+"Loaded_Programs=Lyme Disease p05"
+"Loaded_Programs=Lyme Disease p06"
+"Loaded_Programs=Lyme Disease p07"
+"Loaded_Programs=Lyme Disease p08"
+"Loaded_Programs=Lyme Disease p09"
+"Loaded_Programs=Lyme Disease p10"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M101.048,M99.068,M128.095,M114.043,M128.058,M156.101,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M103.009=1,M186.079,M137.059,M128.095,M97.053,M57.021,M156.101,M99.068,M103.009,0=4,"
+"[/Preset]"

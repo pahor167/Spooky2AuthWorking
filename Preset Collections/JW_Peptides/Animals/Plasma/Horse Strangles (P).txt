@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Horse Strangles (P)"
+"Preset_Notes=Horse Strangles for Plasma
+
+Horse strangles is a highly contagious upper respiratory tract infection caused by the bacterium *Streptococcus equi subspecies equi* (*S. equi*). It is characterized by sudden onset of fever, followed by mucopurulent nasal discharge and the swelling and subsequent abscessation of the submandibular and retropharyngeal lymph nodes. In severe cases, the swelling can become so pronounced that it obstructs the horse's airway, leading to the 'strangles' name. Recent research from 2024-2026 has focused on overcoming the limitations of current modified-live vaccines, specifically by developing multi-component subunit vaccines like Strangvac and identifying novel immunogenic peptides through ORFeome phage display to target the bacteria's evasive mechanisms.
+
+1. Virulence Factor Inhibition: SeM-N (N-terminal Fragment) - A key antigenic peptide from the M-like protein of *S. equi* that inhibits phagocytosis; targeting this region helps restore the host's ability to clear bacteria.
+2. Cell Wall Adhesion: CNE-derived Peptide - A collagen-binding protein fragment designed to block the bacteria's ability to adhere to the host’s extracellular matrix in the upper respiratory tract.
+3. Immune Evasion Blockade: EAG-mimetic Peptide - A sequence that targets the IgG and albumin-binding protein of *S. equi*, preventing the bacteria from 'cloaking' itself from the equine immune system.
+4. Mucosal Immunity Induction: Strangvac 4 (Component-8) - A specific recombinant fusion peptide used in intramuscular subunit vaccines to provide high levels of protection without the risk of abscessation associated with live vaccines.
+5. Inflammatory Modulation: eNAP-1 (Equine Neutrophil Antimicrobial Peptide) - A natural equine peptide that provides rapid-onset antibacterial activity and modulates the massive neutrophil influx to reduce tissue damage.
+6. Diagnostic & Vaccine Candidate: Proline-Rich Repeat Protein (PRP-S1) - A highly conserved surface peptide identified in 2025 as a robust candidate for universal *S. equi* protection across global strains.
+7. Enzymatic Degradation: Serine Peptidase Fragment (SP-S2) - An immunogenic peptide derived from *S. equi* surface enzymes, used to induce antibodies that neutralize the bacteria's tissue-degrading capabilities.
+8. Optimization Axis: Strangles-Shield-V1 - An engineered polypeptide designed as a multivalent antigen, combining conserved epitopes from SeM, CNE, and SEQ_0402 to provide a broad-spectrum, non-infectious vaccine response.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Horse Strangles p01"
+"Loaded_Programs=Horse Strangles p02"
+"Loaded_Programs=Horse Strangles p03"
+"Loaded_Programs=Horse Strangles p04"
+"Loaded_Programs=Horse Strangles p05"
+"Loaded_Programs=Horse Strangles p06"
+"Loaded_Programs=Horse Strangles p07"
+"Loaded_Programs=Horse Strangles p08"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M128.095,M163.063,M99.068,M87.032,M113.084,M115.027,M99.068,M101.048,M113.084,M128.058,M128.058,M113.084,M129.043,M87.032,M137.059,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M128.058=1,M114.043,M129.043,M129.043,M129.043,M114.043,M113.084,M113.084,M113.084,M147.068,M113.084,M115.027,M128.095,M128.095,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M57.021,M129.043,M129.043,M128.058,M113.084,M129.043,M156.101,M131.040,M156.101,M156.101,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M114.043=1,M101.048,M113.084,M114.043,M137.059,M113.084,M115.027,M128.095,M163.063,M128.095,M113.084,M156.101,M113.084,M113.084,M115.027,0=4,"
+"Loaded_Frequencies=M156.101=1,M131.040,M128.095,M137.059,M114.043,M113.084,M99.068,M114.043,M115.027,M128.095,M163.063,M128.095,0=4,"
+"Loaded_Frequencies=M97.053=1,M156.101,M97.053,M156.101,M97.053,M156.101,M97.053,M156.101,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.058,M156.101,M113.084,M114.043,M129.043,M129.043,M115.027,M128.095,M129.043,M113.084,M156.101,M101.048,M71.037,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M114.043,M113.084,M101.048,M128.095,M156.101,M113.084,M113.084,M115.027,M128.095,M156.101,M113.084,M113.084,M115.027,M156.101,M129.043,M128.058,M113.084,M114.043,0=4,"
+"[/Preset]"

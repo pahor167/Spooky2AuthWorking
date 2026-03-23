@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Femoral Nerve Compression (L)"
+"Preset_Notes=Femoral Nerve Compression for Laser
+
+Femoral nerve compression, often manifesting as femoral neuropathy, occurs when the nerve is compressed as it passes under the inguinal ligament or through the iliopsoas muscle. This entrapment leads to ischemia, impaired axonal transport, and localized edema, resulting in quadriceps weakness, hip flexor paralysis, and sensory loss in the anterior thigh. The pathophysiology involves mechanical demyelination followed by axonal degeneration if the pressure is not relieved. Therapeutic strategies focus on alleviating mechanical strain, promoting axonal regrowth (regeneration), reducing neuroinflammation within the nerve sheath, and stabilizing the neuromuscular junction (NMJ) to prevent muscle atrophy.
+
+Axonal Regeneration: BPC-157 - A stable pentadecapeptide that promotes the regrowth of nerve fibers and accelerates functional recovery of the quadriceps.
+Neuroinflammation Resolution: ARA 290 - An erythropoietin-derived peptide that activates the innate repair receptor to suppress microglia-mediated inflammation and allodynia.
+Neuroprotection & Energetics: P7C3-A20 - A proneurogenic agent that maintains NAD+ levels to protect neurons from ischemic damage and oxidative stress.
+Extracellular Matrix Remodeling: TB-500 - A synthetic fragment of Thymosin Beta-4 that reduces perineural fibrosis and promotes healthy tissue migration.
+Growth Factor Mimesis: CH02 - A small peptide agonist of FGFR2 that activates AKT/mTOR signaling to enhance axon growth and sensory-motor recovery.
+RhoA Inhibition: C3156-181 - A 26-amino-acid fragment that promotes axonal elongation and reduces inhibitory sprouting by down-regulating active RhoA.
+Endothelial Stabilization: GHK-Cu - Enhances vascular permeability and angiogenesis around the compressed nerve to resolve localized edema and ischemia.
+Optimization Axis (Designed): Femoro-Glide-1 - A synthetic multivalent peptide designed to mimic neural cell adhesion molecules (NCAMs) and enhance nerve gliding within the femoral triangle.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Femoral Nerve Compression p01"
+"Loaded_Programs=Femoral Nerve Compression p02"
+"Loaded_Programs=Femoral Nerve Compression p03"
+"Loaded_Programs=Femoral Nerve Compression p04"
+"Loaded_Programs=Femoral Nerve Compression p05"
+"Loaded_Programs=Femoral Nerve Compression p06"
+"Loaded_Programs=Femoral Nerve Compression p07"
+"Loaded_Programs=Femoral Nerve Compression p08"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M137.059,M128.095,M137.059,M128.095,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M156.101,M57.021,M115.027,M156.101,M57.021,M115.027,M156.101,0=4,"
+"[/Preset]"

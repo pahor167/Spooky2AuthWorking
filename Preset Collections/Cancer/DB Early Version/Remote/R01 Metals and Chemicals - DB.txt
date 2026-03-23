@@ -1,0 +1,60 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=R01 Metals and Chemicals - DB"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=152000"
+"BFB_Initial_Step_Size_Hz=20"
+"BFB_Start_Delay=30"
+"BFB_Samples_Per_Step=1"
+"Out1_Amplitude=10"
+"Out2_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=Cancer Protocol, Phase I-Terrain. Remote Mode.
+
+Update: February 2017.
+
+For best results, use a Bio North (white) Spooky Remote connected to the BN port of a Spooky Boost 3.0/2.0. This Remote kills and heals very effectively. The black Magnetic Remote (MN) is designed for short-term use only, and can have unexpected consequences for some people when used long-term.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Arsenic as XTRA
+Mercury Toxicity V CAFL
+Heavy Metal Toxicity XTRA
+Pesticide Detox CAFL
+Detox Fluoride 2 XTRA
+Detox Fluoride XTRA
+Calcifications XTRA
+Detox Matrix XTRA"
+"Text41=0"
+"Triangle_Spike_Ratio=2"
+"User_Defined_1_Waveform=Colloidal Silver"
+"Manual_Start=False"
+"BFB_Calculate_Using_RA=True"
+"BFB_Calculate_Using_Peak=False"
+"BFB_HRV=True"
+"BFB_Detect_mA=False"
+"Out1_Square_Hbomb=True"
+"Out1_User_Defined_1=False"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"Enable_Remove_Duplicate_Frequencies=1"
+"Loaded_Programs=Arsenic as (XTRA)"
+"Loaded_Programs=Mercury Toxicity V (CAFL)"
+"Loaded_Programs=Heavy Metal Toxicity (XTRA)"
+"Loaded_Programs=Pesticide Detox (CAFL)"
+"Loaded_Programs=Detox Fluoride 2 (XTRA)"
+"Loaded_Programs=Detox Fluoride (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Detox Matrix (XTRA)"
+"Loaded_Frequencies=364.56=180,393=180,16724.61=180,"
+"Loaded_Frequencies=47=300,48=300,49=300,75=300,"
+"Loaded_Frequencies=317=180,1902=180,4202.3=180,5333.69=180,9887=180,14164.1=180,15952.79=180,19007.15=180,19007.2=180,19169.38=180,19516.29=180,21822.15=180,"
+"Loaded_Frequencies=73=180,26=180,6=180,1=180,"
+"Loaded_Frequencies=158.87=420,56656.4=420,"
+"Loaded_Frequencies=19169.38=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=10000=180,3176=180,3040=180,880=180,787=180,751=180,727=180,625=180,522=180,465=180,444=180,440=180,1505=180,1035.9=180,3176=180,676=180,635=180,146=180,250=180,304=180,306=180,148=180,152=180,63=180,"
+"[/Preset]"

@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Patellofemoral Pain Syndrome (PFPS) (P)"
+"Preset_Notes=Patellofemoral Pain Syndrome (PFPS) for Plasma
+
+Patellofemoral Pain Syndrome (PFPS), also known as runner's knee, is a common musculoskeletal condition characterized by anterior knee pain originating from the patellofemoral joint. It primarily affects active individuals, such as athletes, military personnel, and young females, with a prevalence of up to 25% in the general population and higher in sports settings. Causes include biomechanical abnormalities like patellar malalignment, maltracking, patella alta, trochlear dysplasia, increased Q-angle, foot pronation or supination, hip muscle weakness (abductors and external rotators), quadriceps imbalance (particularly vastus medialis obliquus weakness relative to vastus lateralis), tight soft tissues (iliotibial band, hamstrings, gastrocnemius), and overuse or training errors leading to excessive joint loading. Environmental factors such as inadequate footwear, rapid increases in activity intensity, and poor recovery exacerbate the risk. Symptoms typically involve insidious onset of diffuse pain around or behind the patella, aggravated by activities that load the joint, such as squatting, running, stair climbing or descending, prolonged sitting (theater sign), and jumping. Pain may be accompanied by crepitus, mild swelling, stiffness, and functional limitations, impacting quality of life and potentially leading to long-term issues like patellofemoral osteoarthritis if untreated. Pathophysiology encompasses multifactorial mechanisms: elevated patellofemoral joint stress from reduced contact areas and abnormal kinematics, resulting in cartilage degradation, subchondral bone overload, and inflammation; neuromuscular dysfunction with delayed muscle activation and reduced proprioception; potential tissue ischemia from mechanical compression of blood vessels; and altered pain processing, including central sensitization in chronic cases. Progression can lead to persistent pain lasting years, reduced physical activity, and secondary degenerative changes.
+
+The proposed polypeptides address PFPS by targeting key pathophysiological mechanisms, including cartilage stress reduction, tissue regeneration, inflammation modulation, pain relief, and support for biomechanical stability through enhanced matrix formation and cell recruitment. Real-world polypeptides like BPC-157 promote cartilage repair and reduce pain by accelerating healing and modulating inflammatory pathways; Thymosin Beta-4 aids tissue repair and anti-inflammation by stabilizing actin and inhibiting cytokine release; AOD9604 supports joint health by mimicking growth hormone effects on cartilage metabolism; KPV exerts potent anti-inflammatory effects via alpha-MSH pathways; Thymosin Alpha 1 enhances immune regulation to mitigate chronic inflammation; P15-1 facilitates cartilage matrix integration and repair; E7 and L7 promote mesenchymal stem cell homing and adhesion for regenerative processes; TGFBP recruits growth factors for chondrogenic differentiation; HA-binding and chondroitin-binding peptides mimic extracellular matrix to protect and stabilize cartilage; RADA16-1 and KLD-12 form self-assembling hydrogels that scaffold cartilage formation; N-cadherin mimic enhances cell interactions for chondrogenesis. These collectively reduce joint stress, improve tracking, and alleviate overload. The designed polypeptides supplement coverage: D1 targets muscle strengthening by mimicking growth-promoting sequences to balance quadriceps and hip muscles; D2 enhances flexibility through protease modulation to relieve tight tissues; D3 corrects biomechanical alignment by supporting ligament integrity; D4 improves neuromuscular control via proprioceptive signaling enhancement. Feasibility is high due to peptides' stability, targeted delivery (e.g., oral or injectable), and minimal side effects in studies; physicochemical factors include optimal hydrophobicity for membrane penetration, positive charge for cellular uptake, and resistance to degradation for sustained action.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p01"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p02"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p03"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p04"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p05"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p06"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p07"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p08"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p09"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p10"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p11"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p12"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p13"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p14"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p15"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p16"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p17"
+"Loaded_Programs=Patellofemoral Pain Syndrome (PFPS) p18"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M156.101,M113.084,M99.068,M128.058,M102.001,M156.101,M87.032,M99.068,M129.043,M57.021,M87.032,M102.001,M57.021,M147.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M97.053,M113.084,M128.058,M113.084,M128.095,M131.04,0=4,"
+"Loaded_Frequencies=M113.084=1,M101.048,M137.059,M97.053,M156.101,M186.079,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M114.043,M57.021,M113.084,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M163.063,M97.053,M113.084,M87.032,M156.101,M97.053,M156.101,M156.101,M163.063,M156.101,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M97.053,M113.084,M87.032,M156.101,M97.053,M156.101,M128.095,M156.101,M103.009,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M115.027,M71.037,M156.101,M71.037,M156.101,M71.037,M156.101,M71.037,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M115.027,M113.084,M128.095,M113.084,M115.027,M128.095,M113.084,M115.027,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M103.009=1,M57.021,M57.021,M57.021,M97.053,M113.084,M129.043,M113.084,M156.101,M71.037,M57.021,M57.021,M57.021,M103.009,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M99.068,M115.027,M113.084,M57.021,M57.021,M57.021,M103.009,0=4,"
+"Loaded_Frequencies=M103.009=1,M115.027,M97.053,M57.021,M163.063,M113.084,M113.084,M57.021,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M99.068,M113.084,M128.095,M97.053,M128.058,M115.027,M147.068,M137.059,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M129.043,M156.101,M163.063,M131.040,M114.043,M103.009,M113.084,M186.079,0=4,"
+"[/Preset]"

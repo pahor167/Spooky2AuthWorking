@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW"
+"PresetName=Parasites 4 of 5 (P) - JW"
+"Preset_Notes=Overnight Preset for Spooky Plasma. Part 4 of 5.
+
+Independent lab results have verified the effectiveness of this set of Presets, with a full reduction of parasite burden in 2 patients after cycling through several times.
+
+Each parasite killing preset should be run for two consecutive nights before advancing to the next stage. After the 10th night, repeat the entire cycle if necessary.
+
+Place the plasma tube near to, or touching, your body. 
+Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Spooky Plasma Input. Out 2 to Spooky Plasma Modulation."
+"Dwell_Multiplier=2"
+"Loaded_Programs=Parasites Trichinella Spiralis (XTRA)"
+"Loaded_Programs=Trichinosis 1 (XTRA)"
+"Loaded_Programs=Trichinosis 3 (XTRA)"
+"Loaded_Programs=Dientamoeba Fragilis 1 (XTRA)"
+"Loaded_Programs=Dientamoeba Fragilis 2 (XTRA)"
+"Loaded_Programs=Dientamoeba Fragilis (HC)"
+"Loaded_Programs=Cyst Hydatid 1 (XTRA)"
+"Loaded_Programs=Hymenolepis Diminuta (XTRA)"
+"Loaded_Programs=Hymenolepis Cysticercoides (XTRA)"
+"Loaded_Frequencies=1002.65=180,20138.86=180,"
+"Loaded_Frequencies=101=180,230=180,541=180,822=180,1054=180,1372=180,12620.3=1800,12640.62=180,20138.86=180,"
+"Loaded_Frequencies=5411372=180,"
+"Loaded_Frequencies=1001.41=180,20113.97=180,"
+"Loaded_Frequencies=994.85=180,1001.41=180,1006.5=180,12542.19=180,12625=180,12689.05=180,"
+"Loaded_Frequencies=401350-406050=3600,"
+"Loaded_Frequencies=164=180,187=180,453=180,523=180,542=180,623=180,803=180,843=180,854=180,1223=180,1360=180,3032=180,5522=600,"
+"Loaded_Frequencies=1103.03=180,1192.65=180,13906.25=180,15035.94=180,"
+"Loaded_Frequencies=1184.83=180,1194.14=180,14937.5=180,15054.69=180,"
+"[/Preset]"

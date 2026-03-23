@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=High Cholesterol (L)"
+"Preset_Notes=High Cholesterol for Laser
+
+High cholesterol (hypercholesterolemia) involves mechanisms such as impaired reverse cholesterol transport (RCT), excessive LDL accumulation, hepatic cholesterol synthesis dysregulation, vascular inflammation from oxidized lipids, oxidative stress, and endothelial dysfunction. Biological targets include ABCA1 for cholesterol efflux, ApoA-I receptors, PCSK9 modulation, and inflammatory pathways. The proposed peptides target these through mimicking ApoA-I for HDL functionality, promoting efflux, reducing atherosclerosis, and anti-inflammatory effects. All 10 peptides are real-world validated (from literature, preclinical models, or patents like PMC articles on Apo mimetics), covering the condition comprehensively. Modes of action include forming amphipathic helices for lipid binding, increasing HDL anti-inflammatory properties, and lowering plasma cholesterol in hyperlipidemic models. Physicochemical considerations: many are acetylated and amidated for stability; D-amino acid versions (e.g., D-4F) enhance protease resistance but masses remain equivalent; pharmacodynamics favor oral or injectable routes for systemic lipid effects.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=High Cholesterol p01"
+"Loaded_Programs=High Cholesterol p02"
+"Loaded_Programs=High Cholesterol p03"
+"Loaded_Programs=High Cholesterol p04"
+"Loaded_Programs=High Cholesterol p05"
+"Loaded_Programs=High Cholesterol p06"
+"Loaded_Programs=High Cholesterol p07"
+"Loaded_Programs=High Cholesterol p08"
+"Loaded_Programs=High Cholesterol p09"
+"Loaded_Programs=High Cholesterol p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M186.079,M147.068,M128.095,M71.037,M147.068,M163.063,M115.027,M128.095,M99.068,M71.037,M129.043,M128.095,M147.068,M128.095,M129.043,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M186.079,M147.068,M128.095,M71.037,M147.068,M163.063,M115.027,M128.095,M99.068,M71.037,M129.043,M128.095,M147.068,M147.068,M129.043,M147.068,M129.043,M147.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M186.079,M113.084,M128.095,M71.037,M147.068,M163.063,M115.027,M128.095,M147.068,M147.068,M129.043,M128.095,M147.068,M128.095,M129.043,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M186.079,M113.084,M128.095,M71.037,M147.068,M163.063,M115.027,M128.095,M147.068,M147.068,M129.043,M128.095,M147.068,M128.095,M129.043,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M99.068,M113.084,M99.068,M128.059,M103.009,M113.084,M99.068,M87.032,M99.068,M129.043,M113.084,M103.009,M57.021,M147.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M99.068,M156.101,M156.101,M147.068,M113.084,M57.021,M156.101,M113.084,M113.084,M113.084,M156.101,M113.084,M156.101,M128.095,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"[/Preset]"

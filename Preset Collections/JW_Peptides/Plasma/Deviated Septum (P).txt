@@ -1,0 +1,44 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Deviated Septum (P)"
+"Preset_Notes=Deviated Septum for Plasma
+
+Deviated septum involves displacement of the nasal septum, often causing airway obstruction, recurrent sinus infections, chronic mucosal inflammation, and potential complications like nasal polyps or biofilms.
+
+1. Antimicrobial defense: Human Beta-Defensin 3 - Broad-spectrum antimicrobial activity targeting bacteria, fungi, and viruses in nasal secretions to reduce secondary infections.
+2. Biofilm disruption: IDR-1018 - Innate defense regulator that disrupts pathogen biofilms and modulates immune responses in chronic rhinosinusitis.
+3. Inflammation resolution: Annexin_A1_Ac2-26 - Mimics annexin A1 to promote pro-resolving pathways and reduce persistent nasal mucosal inflammation.
+4. Sympathetic modulation: Catestatin - Inhibits catecholamine release to dampen inflammatory and secretory responses in nasal tissue.
+5. Structural scaffolding: RADA16 - Self-assembling nanofiber hydrogel providing mechanical support and promoting tissue regeneration in septal defects.
+6. Epithelial repair: Histatin 5 - Accelerates epithelial cell migration and wound closure in damaged nasal mucosa.
+7. Immunoregulation: Thymopentin - Restores T-cell function and immune balance in chronic inflammatory conditions.
+8. Phagocyte activation: Tuftsin - Stimulates macrophage and neutrophil phagocytosis for enhanced pathogen clearance in sinuses.
+9. Opioid anti-inflammation: Dynorphin A (1-17) - Kappa-opioid receptor agonism to suppress inflammation associated with nasal polyps and CRS.
+10. Chondrogenic support: KLD-12 - Self-assembling peptide hydrogel mimicking ECM to promote chondrocyte proliferation and cartilage matrix deposition for septal repair.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Deviated Septum p01"
+"Loaded_Programs=Deviated Septum p02"
+"Loaded_Programs=Deviated Septum p03"
+"Loaded_Programs=Deviated Septum p04"
+"Loaded_Programs=Deviated Septum p05"
+"Loaded_Programs=Deviated Septum p06"
+"Loaded_Programs=Deviated Septum p07"
+"Loaded_Programs=Deviated Septum p08"
+"Loaded_Programs=Deviated Septum p09"
+"Loaded_Programs=Deviated Septum p10"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.095,M115.027,M99.068,M163.063,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M113.084,M156.101,M156.101,M113.084,M156.101,M97.053,M128.095,M113.084,M128.095,M186.079,M115.027,M114.043,M128.058,0=4,"
+"Loaded_Frequencies=M170.106=1,M113.084,M115.027,M113.084,M128.095,M113.084,M115.027,M113.084,M128.095,M113.084,M115.027,M112.10,0=4,"
+"[/Preset]"

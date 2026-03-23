@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Rock Water (S)"
+"Preset_Notes=Rock Water / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Rock Water - Self-denial, rigidity and self-repression.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Rock Water (S)"
+"Loaded_Frequencies=451.74,"
+"[/Preset]"

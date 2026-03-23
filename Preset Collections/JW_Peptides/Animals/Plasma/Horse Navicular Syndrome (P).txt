@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Horse Navicular Syndrome (P)"
+"Preset_Notes=Horse Navicular Syndrome for Plasma
+
+Horse Navicular Syndrome (HNS), also known as podotrochlear syndrome, is a chronic degenerative disease complex of the equine distal forelimb. It involves the navicular bone (distal sesamoid), the navicular bursa, and the deep digital flexor tendon (DDFT). The condition is characterized by an imbalance between mechanical loading and the structural integrity of the navicular apparatus, leading to subchondral bone remodeling, fibrocartilage erosion, and chronic inflammation.
+
+1. IL-1 Antagonism: IL-1RA-Eq15 - Inhibition of IL-1 receptor signaling to reduce bursa and tendon inflammation.
+2. Bone Remodeling: eTeriparatide - Anabolic stimulation of osteoblasts to repair navicular bone cystic lesions.
+3. Soft Tissue Repair: eIGF-1(1-20) - Promotes fibrocartilage and DDFT healing via type II collagen synthesis.
+4. Chondrogenesis: eBMP-2 Knuckle - Induces differentiation of synovial progenitor cells into chondrocytes.
+5. Vascularization: EqAngio-7 - Promotes neovascularization in ischemic areas of the navicular bone.
+6. Matrix Protection: Naviculen-1 - Hybrid BMP-2/IGF-1 mimetic for simultaneous bone and cartilage stabilization.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Horse Navicular Syndrome p01"
+"Loaded_Programs=Horse Navicular Syndrome p02"
+"Loaded_Programs=Horse Navicular Syndrome p03"
+"Loaded_Programs=Horse Navicular Syndrome p04"
+"Loaded_Programs=Horse Navicular Syndrome p05"
+"Loaded_Programs=Horse Navicular Syndrome p06"
+"Loaded_Frequencies=M137.059=1,M97.053,M113.084,M57.021,M128.095,M156.101,M97.053,M103.009,M128.095,M131.040,M128.058,M71.037,M147.068,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M129.043,M101.048,M113.084,M102.001,M57.021,M71.037,M129.043,M113.084,M99.068,M115.027,M71.037,M113.084,M128.058,M147.068,M99.068,M102.001,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M87.032,M131.040,M113.084,M163.063,M113.084,M115.027,M129.043,M114.043,M129.043,M128.095,M99.068,M99.068,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M99.068,M163.063,M57.021,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M87.032,M131.040,M113.084,M163.063,M113.084,M115.027,M57.021,M97.053,M129.043,M101.048,M113.084,M103.009,M57.021,M71.037,0=4,"
+"[/Preset]"

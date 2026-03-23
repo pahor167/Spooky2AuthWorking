@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=L09 Viruses D - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Laser.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Coxsackie B1 HC
+Coxsackie B2 CAFL
+Coxsackie B5 CAFL
+Coxsackie B4 HC
+Coxsackie B6 CAFL
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Coxsackie B1 (HC)"
+"Loaded_Programs=Coxsackie B2 (CAFL)"
+"Loaded_Programs=Coxsackie B5 (CAFL)"
+"Loaded_Programs=Coxsackie B4 (HC)"
+"Loaded_Programs=Coxsackie B6 (CAFL)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=360500-366100=3600,"
+"Loaded_Frequencies=705=300,534=300,867=300,"
+"Loaded_Frequencies=462=300,1043=300,1083=300,569=300,647=300,708=300,774=300,"
+"Loaded_Frequencies=361450-363700=3600,"
+"Loaded_Frequencies=488=300,736=300,814=300,343=300,551=300,657=300,668=300,669=300,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Wilson’s Disease (R)"
+"Preset_Notes=Wilson’s Disease for Remote
+
+Wilson’s Disease is a rare autosomal recessive disorder caused by mutations in the ATP7B gene, resulting in defective copper transport and toxic accumulation of copper in the liver, brain (particularly basal ganglia), cornea, and other tissues. This leads to oxidative stress via Fenton reactions, hepatocellular damage, fibrosis/cirrhosis, neurological symptoms (tremor, dystonia, dysarthria, psychiatric disturbances), and Kayser-Fleischer rings. Current treatments rely on small-molecule chelators (penicillamine, trientine), zinc to block intestinal absorption, or liver transplantation in severe cases. No established polypeptide therapies exist in clinical practice or comprehensive literature reviews. All proposed polypeptides are conceptually designed to address key therapeutic axes: copper chelation, reduction of intestinal copper absorption, antioxidant defense against copper-induced ROS, hepatoprotection/anti-fibrotic effects, neuroprotection, and anti-inflammatory modulation. Designs incorporate non-standard residues for enhanced affinity, stability, or redox properties; cyclic variants use disulfide bonds for improved resistance to proteolysis.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Wilson’s Disease p01"
+"Loaded_Programs=Wilson’s Disease p02"
+"Loaded_Programs=Wilson’s Disease p03"
+"Loaded_Programs=Wilson’s Disease p04"
+"Loaded_Programs=Wilson’s Disease p05"
+"Loaded_Programs=Wilson’s Disease p06"
+"Loaded_Programs=Wilson’s Disease p07"
+"Loaded_Programs=Wilson’s Disease p08"
+"Loaded_Programs=Wilson’s Disease p09"
+"Loaded_Programs=Wilson’s Disease p10"
+"Loaded_Programs=Wilson’s Disease p11"
+"Loaded_Programs=Wilson’s Disease p12"
+"Loaded_Programs=Wilson’s Disease p13"
+"Loaded_Programs=Wilson’s Disease p14"
+"Loaded_Programs=Wilson’s Disease p15"
+"Loaded_Programs=Wilson’s Disease p16"
+"Loaded_Programs=Wilson’s Disease p17"
+"Loaded_Programs=Wilson’s Disease p18"
+"Loaded_Frequencies=M156.101=1,M114.079,M128.095,M86.048,M156.101,M114.079,M128.095,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M114.079,M128.095,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.048,M114.079,M57.021,M87.032,M101.048,M86.048,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.048,M97.053,M113.048,M57.021,M85.053,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M97.053,M113.048,M97.053,M113.048,M57.021,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M85.053,M113.084,M57.021,M97.053,M113.048,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M57.021,M87.032,M150.954,M101.048,M113.048,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M113.048,M57.021,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M113.048,M129.043,M85.053,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M129.043,M115.027,M113.048,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M113.048,M85.053,M113.084,M129.043,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M103.009,M137.059,M103.009,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M137.059,M113.048,M103.009,M85.053,M86.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M137.059,M113.084,M137.059,M150.954,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M87.032,M57.021,M101.048,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M101.048,M86.048,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M101.048=1,M57.021,M87.032,M101.048,M57.021,M113.084,M85.053,0=4,"
+"[/Preset]"

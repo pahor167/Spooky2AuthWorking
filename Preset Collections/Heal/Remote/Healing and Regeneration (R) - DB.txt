@@ -1,0 +1,97 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Healing and Regeneration (R) - DB"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=152000"
+"BFB_Initial_Step_Size_Hz=20"
+"BFB_Start_Delay=30"
+"BFB_Samples_Per_Step=1"
+"Out1_Amplitude=5"
+"Out2_Amplitude=5"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=Remote Mode preset for total body healing & regeneration which runs until manually stopped. Proceeds from DNA/cell level to macro level.
+
+No killing is performed.
+
+Sandwich your DNA in some paper tape and place inside Spooky Remote. DNA Entanglement transfers the frequencies directly to your DNA.
+
+PROGRAMS:
+DNA Heal XTRA
+Nicotine Cravings 2 XTRA
+Capillaries Stimulate Healing XTRA
+Nerve Healing XTRA
+Nerve Healing 2 XTRA
+Accelerate Injury Healing XTRA
+Bones Stimulate Healing XTRA
+Ligament Stimulate Healing XTRA
+Muscles Stimulate Healing XTRA
+Wound Healing CAFL
+Tissue Healing and Regeneration XTRA
+Accelerate Scar Healing XTRA
+Healing Special XTRA
+Healing Infinite XTRA
+Healing and Regeneration 1 CAFL
+Healing and Regeneration 2 XTRA
+Regeneration and Healing 1 CAFL
+Regeneration and Healing XTRA
+DNA Create New XTRA
+"
+"Out1_Frequency_Limit_Harmonic_Type=Octave"
+"Out2_Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Square"
+"User_Defined_2_Waveform=Square"
+"Manual_Start=False"
+"BFB_Calculate_Using_RA=True"
+"BFB_Calculate_Using_Peak=False"
+"BFB_HRV=True"
+"BFB_Detect_mA=False"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"BFB_Single_Scan=1"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Enable_Invert_Spike_Waveform=1"
+"Loaded_Programs=Pause 60 Seconds (XTRA)"
+"Loaded_Programs=DNA Heal (XTRA)"
+"Loaded_Programs=Nicotine Cravings 2 (XTRA)"
+"Loaded_Programs=Capillaries Stimulate Healing (XTRA)"
+"Loaded_Programs=Nerve Healing (XTRA)"
+"Loaded_Programs=Nerve Healing 2 (XTRA)"
+"Loaded_Programs=Accelerate Injury Healing (XTRA)"
+"Loaded_Programs=Bones Stimulate Healing (XTRA)"
+"Loaded_Programs=Ligament Stimulate Healing (XTRA)"
+"Loaded_Programs=Muscles Stimulate Healing (XTRA)"
+"Loaded_Programs=Wound Healing (CAFL)"
+"Loaded_Programs=Tissue Healing and Regeneration (XTRA)"
+"Loaded_Programs=Accelerate Scar Healing (XTRA)"
+"Loaded_Programs=Healing Special (XTRA)"
+"Loaded_Programs=Healing Infinite (XTRA)"
+"Loaded_Programs=Healing and Regeneration 1 (CAFL)"
+"Loaded_Programs=Healing and Regeneration 2 (XTRA)"
+"Loaded_Programs=Regeneration and Healing 1 (CAFL)"
+"Loaded_Programs=Regeneration and Healing (XTRA)"
+"Loaded_Programs=DNA Create New (XTRA)"
+"Loaded_Frequencies=0=60,"
+"Loaded_Frequencies=5333.69=180,"
+"Loaded_Frequencies=111=180,"
+"Loaded_Frequencies=15.2=180,"
+"Loaded_Frequencies=2=180,657=180,5000=180,10000=180,"
+"Loaded_Frequencies=7.63=180,10=180,200=180,"
+"Loaded_Frequencies=47=180,"
+"Loaded_Frequencies=7=180,25=180,50=180,"
+"Loaded_Frequencies=9.69=180,50=180,120=180,"
+"Loaded_Frequencies=13.5=180,"
+"Loaded_Frequencies=2720=180,880=180,787=180,727=180,220=180,190=180,20=180,40=180,"
+"Loaded_Frequencies=47=180,266=180,1360=180,2128=180,2720=180,5000=180,"
+"Loaded_Frequencies=5.9=180,"
+"Loaded_Frequencies=5.8=180,8.01=180,9.6=180,59.3=180,148=180,216=180,266=180,2720=180,3000=180,20000=180,"
+"Loaded_Frequencies=1638=180,2444=180,3127=180,"
+"Loaded_Frequencies=2720=720,266=720,47=720,"
+"Loaded_Frequencies=47=180,2720=1800,"
+"Loaded_Frequencies=2720=180,2=180,20.5=180,3.9=180,4=180,50.5=180,6.3=180,148=180,7=180,"
+"Loaded_Frequencies=20.5=180,"
+"Loaded_Frequencies=7=180,"
+"[/Preset]"

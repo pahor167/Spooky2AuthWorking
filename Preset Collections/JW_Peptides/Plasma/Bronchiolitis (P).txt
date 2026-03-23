@@ -1,0 +1,50 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Bronchiolitis (P)"
+"Preset_Notes=Bronchiolitis for Plasma
+
+Bronchiolitis is a common viral infection affecting the small airways (bronchioles) in the lungs, primarily in infants and young children under 2 years old, often caused by respiratory syncytial virus (RSV), leading to symptoms such as wheezing, cough, respiratory distress, and potential complications like hypoxia or secondary bacterial infections.
+The polypeptides target key pathophysiological axes including viral fusion inhibition to prevent RSV entry, virucidal activity to disrupt the viral envelope, anti-inflammatory pathways to reduce cytokine-mediated lung damage, anti-fibrotic mechanisms to mitigate obliterative processes, oxidative stress reduction to limit ROS-induced tissue injury, microbiota modulation via the gut-lung axis, epithelial repair to restore airway integrity, surfactant modulation for improved lung function, GLP-1 signaling for attenuating type 2 immune responses, neutrophil inhibition to decrease pro-inflammatory effects, chemokine inhibition to block fibrocyte recruitment, and immunomodulation to enhance innate defenses like type I IFN signaling. Real-world polypeptides are prioritized based on verifiable studies; designed polypeptides (flagged as such) are conceptual constructs to ensure comprehensive coverage of all axes where real-world options are limited.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Bronchiolitis p01"
+"Loaded_Programs=Bronchiolitis p02"
+"Loaded_Programs=Bronchiolitis p03"
+"Loaded_Programs=Bronchiolitis p04"
+"Loaded_Programs=Bronchiolitis p05"
+"Loaded_Programs=Bronchiolitis p06"
+"Loaded_Programs=Bronchiolitis p07"
+"Loaded_Programs=Bronchiolitis p08"
+"Loaded_Programs=Bronchiolitis p09"
+"Loaded_Programs=Bronchiolitis p10"
+"Loaded_Programs=Bronchiolitis p11"
+"Loaded_Programs=Bronchiolitis p12"
+"Loaded_Programs=Bronchiolitis p13"
+"Loaded_Programs=Bronchiolitis p14"
+"Loaded_Programs=Bronchiolitis p15"
+"Loaded_Programs=Bronchiolitis p16"
+"Loaded_Programs=Bronchiolitis p17"
+"Loaded_Programs=Bronchiolitis p18"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M147.068,M97.053,M87.032,M115.027,M129.043,M147.068,M115.027,M71.037,M87.032,M113.084,M87.032,M128.058,M99.068,M129.043,M128.095,M113.084,M114.043,M128.058,M87.032,M113.084,M71.037,M147.068,M113.084,M156.101,M128.095,M87.032,M115.027,M113.084,M113.084,M137.059,M114.043,M99.068,M114.043,M71.037,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M97.053,M156.101,M147.068,M131.040,M114.043,M163.063,M101.048,M113.084,M114.043,M114.043,M101.048,M128.095,M114.043,M101.048,M114.043,M99.068,M101.048,M113.084,M87.032,M128.095,M128.095,M156.101,M128.095,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M147.068,M129.043,M99.068,M147.068,M114.043,M147.068,M99.068,M97.053,M103.009,M87.032,M113.084,M103.009,M87.032,M114.043,M114.043,M97.053,M101.048,M103.009,M186.079,M71.037,M113.084,M103.009,0=4,"
+"Loaded_Frequencies=M128.058=1,M115.027,M57.021,M163.063,M71.037,M57.021,M99.068,M113.084,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M103.009,M150.954,M113.048,M86.048,M103.009,0=4,"
+"Loaded_Frequencies=M156.101=1,M114.079,M100.064,M237.148,M128.095,0=4,"
+"Loaded_Frequencies=M101.001=1,M150.954,M113.048,M86.048,M100.064,M101.001,0=4,"
+"Loaded_Frequencies=M103.009=1,M85.053,M137.059,M114.079,M103.009,0=4,"
+"Loaded_Frequencies=M87.032=1,M86.048,M200.095,M113.048,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M114.079,M150.954,M97.053,M100.064,0=4,"
+"Loaded_Frequencies=M101.001=1,M113.084,M237.148,M86.048,M101.001,0=4,"
+"Loaded_Frequencies=M129.043=1,M85.053,M113.048,M150.954,M129.043,0=4,"
+"Loaded_Frequencies=M99.068=1,M100.064,M200.095,M114.079,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M86.048,M113.048,M237.148,M71.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M150.954,M85.053,M113.048,M156.101,0=4,"
+"[/Preset]"

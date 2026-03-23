@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Boils (Furuncles) (P)"
+"Preset_Notes=Boils (Furuncles) for Plasma
+
+Boils (furuncles) are painful, pus-filled infections of hair follicles primarily caused by *Staphylococcus aureus* (often MRSA strains), involving biofilm formation and intense inflammation; proposed peptides target direct bacterial killing, biofilm disruption, resistance circumvention, protease stability, topical delivery, host defense mimicry, and optimized selectivity.
+1. In vivo skin infection resolution: MPX - Wasp venom-derived amphipathic peptide that disrupts *S. aureus* membranes, inhibits biofilms, reduces inflammation, and accelerates wound healing in mouse models
+2. Topical eradication in human skin equivalents: P60.4Ac - N-acetylated synthetic cathelicidin derivative that eliminates planktonic and biofilm-associated MRSA on epidermal models without cytotoxicity
+3. Multidrug-resistant strain targeting: WR12 - Arginine/tryptophan-rich synthetic dodecapeptide with potent activity against VRSA/VISA, biofilm eradication, and in vivo lesion reduction
+4. Protease-resistant intracellular clearance: D-IK8 - All-D-amino acid retro-inverso octapeptide for enhanced stability, intracellular *S. aureus* killing, and antibiotic synergy
+5. Clinical-stage topical antimicrobial: Omiganan - Synthetic indolicidin analog developed for topical prevention/treatment of Gram-positive skin infections including *S. aureus*
+6. Endogenous cathelicidin defense: LL-37 - Human skin's primary antimicrobial peptide with direct killing, anti-biofilm activity, and immunomodulation against staphylococci
+7. Stability-optimized amphipathic variant: Designed-RWWRI - Engineered acetylated tryptophan/arginine peptide with inserted isoleucines for improved topical stability and selective *S. aureus* membrane disruption
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Boils (Furuncles) p01"
+"Loaded_Programs=Boils (Furuncles) p02"
+"Loaded_Programs=Boils (Furuncles) p03"
+"Loaded_Programs=Boils (Furuncles) p04"
+"Loaded_Programs=Boils (Furuncles) p05"
+"Loaded_Programs=Boils (Furuncles) p06"
+"Loaded_Programs=Boils (Furuncles) p07"
+"Loaded_Frequencies=M113.084=1,M114.043,M186.079,M128.095,M57.021,M113.084,M71.037,M71.037,M131.040,M71.037,M128.095,M128.095,M113.084,M112.10,0=4,"
+"Loaded_Frequencies=M155.095=1,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M129.043,M156.101,M113.084,M128.095,M156.101,M147.068,M113.084,M156.101,M129.043,M113.084,M99.068,M156.101,M97.053,M113.084,M155.117,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M186.079,M156.101,M186.079,M186.079,M156.101,M156.101,M186.079,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M113.084=1,M156.101,M113.084,M128.095,M113.084,M156.101,M113.084,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M198.112=1,M186.079,M186.079,M156.101,M113.084,M186.079,M186.079,M156.101,M113.084,M186.079,M186.079,M155.117,0=4,"
+"[/Preset]"

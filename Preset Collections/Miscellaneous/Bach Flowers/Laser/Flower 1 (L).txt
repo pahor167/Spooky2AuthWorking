@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=Flower 1 (L)"
+"Preset_Notes=Flower 1 / Spooky Laser
+
+Estimated Time: Run this preset for 39:00 minutes.
+Mimulus - Fear of known things. White Chestnut - Unwanted thoughts and mental arguments. Walnut - Protection from change and unwanted influences. Olive - Exhaustion following mental or physical effert. Elm - Overwhelmed by responsibility. Chestnut Bud - Failure to learn from mistakes.  Hornbeam - Procrastinationm tiredness at the thought of doing something. Beech - Intolerance. Holly - Hatred, envy and jealousy. Rock Rose - Terror fright. Wweet Chestnut - Extreme mental anguish,when everything has been tried and there is no light left. Honeysuckle - is living in the past,  Water Violet - is Pride and aloofness.
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Flower 1 (L)"
+"Loaded_Frequencies=492.23,247.09,261.26,431.65,463.13,425.77,257.45,490.87,479.48,277.99,421.51,275.98,370.22,"
+"[/Preset]"

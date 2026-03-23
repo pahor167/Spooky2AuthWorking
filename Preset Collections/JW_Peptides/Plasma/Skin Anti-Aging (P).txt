@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Skin Anti-Aging (P)"
+"Preset_Notes=Skin Anti-Aging for Plasma
+
+Advanced dermatological intervention strategy for 2026 utilizing multi-pathway peptide signaling to reverse structural degradation and neurogenic expression lines. 1. Neurotransmitter Inhibitor: Argireline - SNARE complex destabilization to reduce expression lines. 2. Signal Peptide: Matrixyl - Stimulates collagen I, III, and IV synthesis. 3. Carrier Peptide: GHK-Cu - Copper transport for wound healing and enzymatic antioxidant support. 4. Enzyme Inhibitor: Progeline - Inhibits progerin synthesis to improve jawline contour. 5. Anti-inflammatory: Rigin - Downregulates IL-6 to prevent saccharification and sagging. 6. ECM Reorganizer: Dermacell-26 - Hybrid collagen-fibronectin mimetic for rapid dermal density recovery.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Skin Anti-Aging p01"
+"Loaded_Programs=Skin Anti-Aging p02"
+"Loaded_Programs=Skin Anti-Aging p03"
+"Loaded_Programs=Skin Anti-Aging p04"
+"Loaded_Programs=Skin Anti-Aging p05"
+"Loaded_Programs=Skin Anti-Aging p06"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M366.325=1,M101.048,M101.048,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M196.053=1,M163.063,M99.068,0=4,"
+"Loaded_Frequencies=M335.251=1,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M394.331=1,M113.084,M163.063,M128.095,M86.048,0=4,"
+"[/Preset]"

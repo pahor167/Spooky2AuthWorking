@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Arterial Thrombosis (C)"
+"Preset_Notes=Arterial Thrombosis for Contact
+
+The peptides target key mechanisms in arterial thrombosis, such as inhibiting platelet aggregation, reducing fibrin generation, modulating thrombin activity, and promoting anti-thrombotic effects through various pathways.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Arterial Thrombosis p01"
+"Loaded_Programs=Arterial Thrombosis p02"
+"Loaded_Programs=Arterial Thrombosis p03"
+"Loaded_Programs=Arterial Thrombosis p04"
+"Loaded_Programs=Arterial Thrombosis p05"
+"Loaded_Programs=Arterial Thrombosis p06"
+"Loaded_Programs=Arterial Thrombosis p07"
+"Loaded_Programs=Arterial Thrombosis p08"
+"Loaded_Programs=Arterial Thrombosis p09"
+"Loaded_Programs=Arterial Thrombosis p10"
+"Loaded_Frequencies=M129.043=1,M113.084,M129.043,M115.027,M87.032,M113.084,M115.027,M87.032,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M101.048,M113.084,M128.058,M128.058,M129.043,M113.084,M129.043,M115.027,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M129.043,M113.084,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.095,M115.027,M129.043,M129.043,M113.084,M115.027,M87.032,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M115.027,M129.043,M129.043,M113.084,M115.027,M87.032,M113.084,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.058,M129.043,M71.037,M128.095,M71.037,M129.043,M113.084,M128.058,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M131.040,M113.084,M129.043,M129.043,M115.027,M113.084,M131.040,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M71.037,M113.084,M101.048,M129.043,M99.068,M115.027,M113.084,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M128.058=1,M129.043,M129.043,M113.084,M129.043,M129.043,M113.084,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M129.043,M115.027,M115.027,M163.063,M114.043,M87.032,M113.084,M128.058,M128.095,0=4,"
+"[/Preset]"

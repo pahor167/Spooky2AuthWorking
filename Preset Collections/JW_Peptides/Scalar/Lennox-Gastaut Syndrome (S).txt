@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Lennox-Gastaut Syndrome (S)"
+"Preset_Notes=Lennox-Gastaut Syndrome for Scalar
+
+Lennox-Gastaut Syndrome (LGS) is a severe, rare developmental and epileptic encephalopathy that typically emerges in childhood, often between ages 2 and 6, though onset can range from infancy to late childhood. It affects approximately 1-4% of childhood epilepsies and is characterized by a triad of features: multiple types of intractable seizures (most commonly tonic, atonic/drop attacks, and atypical absences, but also myoclonic, generalized tonic-clonic, and focal seizures); cognitive impairment or regression with behavioral disturbances; and distinctive electroencephalographic abnormalities, including slow spike-and-wave discharges (1.5-2.5 Hz) during wakefulness and bursts of paroxysmal fast activity (10-20 Hz) during sleep. Symptoms include frequent drop attacks causing falls and injuries, developmental stagnation or loss of milestones, intellectual disability (often moderate to severe), and psychiatric comorbidities like autism spectrum traits or hyperactivity. Prognosis is generally poor, with lifelong refractory seizures in most patients, high risk of sudden unexpected death in epilepsy (SUDEP), and significant dependence in adulthood.
+
+The pathophysiology is heterogeneous and multifactorial, often evolving from prior epileptic encephalopathies (e.g., infantile epileptic spasms syndrome/West syndrome in 10-30%) or underlying brain insults. Identified etiologies in 60-75% of cases include structural abnormalities (cortical dysplasias, tuberous sclerosis complex), genetic mutations (affecting ion channels like SCN2A, synaptic proteins like STXBP1, or chromatin regulators like CHD2), metabolic disorders, or perinatal injuries; the remainder are cryptogenic. Core mechanisms involve disrupted thalamocortical network dynamics leading to hyperexcitability, imbalance between excitatory (glutamatergic) and inhibitory (GABAergic) neurotransmission, aberrant signaling pathways (e.g., hyperactive mTOR in TSC-related cases), and secondary network epileptogenesis. Chronic seizures exacerbate neuronal damage, inflammation, and cognitive decline in a vicious cycle.
+
+Current management relies on antiseizure medications (e.g., valproate, clobazam, lamotrigine, rufinamide, cannabidiol), dietary therapies (ketogenic diet), neuromodulation (vagus nerve stimulation, deep brain stimulation), or resective surgery in rare focal cases, but these are largely symptomatic with limited impact on cognition or long-term seizure freedom.
+
+No real-world short polypeptides (3-50 residues) with established, investigational, or off-label therapeutic application in LGS were confirmed across comprehensive sources; historical reports of ACTH exist but lack modern validation or guideline support for this indication. The proposed set comprises four conceptual designed short polypeptides, each targeting a primary mechanistic axis to hypothetically provide adjunctive seizure control and neuroprotection.
+
+The first designed polypeptide conceptually enhances GABAergic inhibition to counter hyperexcitability.
+
+The second designed polypeptide targets voltage-gated ion channel function to stabilize membrane potentials and reduce seizure propagation.
+
+The third designed polypeptide modulates mTOR pathway hyperactivity, particularly relevant in genetic/tuberous sclerosis-associated subsets.
+
+The fourth designed polypeptide exerts broad neuroprotective effects to mitigate excitotoxicity and inflammation from recurrent seizures.
+
+These designed polypeptides are short (10 residues), enabling efficient synthesis, potential modifications for blood-brain barrier penetration and stability (e.g., cyclization, lipidation), and selective action with lower risk of systemic side effects compared to conventional therapies.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Lennox-Gastaut Syndrome p01"
+"Loaded_Programs=Lennox-Gastaut Syndrome p02"
+"Loaded_Programs=Lennox-Gastaut Syndrome p03"
+"Loaded_Programs=Lennox-Gastaut Syndrome p04"
+"Loaded_Frequencies=M57.021=1,M186.079,M128.095,M97.053,M156.101,M99.068,M137.059,M163.063,M147.068,M115.027,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M131.040,M101.048,M87.032,M156.101,M128.058,M97.053,M114.043,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M147.068,M57.021,M137.059,M128.095,M99.068,M115.027,M163.063,M87.032,M97.053,0=4,"
+"Loaded_Frequencies=M128.058=1,M114.043,M113.084,M129.043,M113.084,M156.101,M101.048,M131.040,M128.095,M186.079,0=4,"
+"[/Preset]"

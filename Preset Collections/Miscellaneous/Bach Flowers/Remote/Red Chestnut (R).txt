@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Red Chestnut (R)"
+"Preset_Notes=Red Chestnut / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Red Chestnut - Over-concern for the welfare of loved ones.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Red Chestnut (R)"
+"Loaded_Frequencies=292.06,"
+"[/Preset]"

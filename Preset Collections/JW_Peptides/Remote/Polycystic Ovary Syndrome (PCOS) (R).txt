@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Polycystic Ovary Syndrome (PCOS) (R)"
+"Preset_Notes=Polycystic Ovary Syndrome (PCOS) for Remote
+
+Polycystic Ovary Syndrome (PCOS) is a common endocrine disorder affecting approximately 6-20% of women of reproductive age, characterized by a heterogeneous presentation involving hormonal imbalances, metabolic disturbances, and reproductive challenges. The causes of PCOS are multifaceted, including genetic predispositions (such as polymorphisms in genes related to androgen synthesis and insulin signaling), environmental factors (like obesity, diet, and exposure to endocrine disruptors), and epigenetic modifications. Core pathophysiological features include hyperandrogenism, which arises from increased ovarian and adrenal androgen production driven by elevated luteinizing hormone (LH) pulses from disrupted hypothalamic-pituitary-ovarian axis regulation; insulin resistance, often exacerbated by visceral adiposity, leading to compensatory hyperinsulinemia that further stimulates ovarian theca cells to produce androgens; chronic low-grade inflammation marked by elevated cytokines like TNF-alpha and IL-6; gut microbiota dysbiosis contributing to altered short-chain fatty acid production and leaky gut syndrome; and metabolic complications such as dyslipidemia, impaired glucose tolerance, and increased risk for type 2 diabetes. Symptoms manifest as irregular or absent menstrual cycles due to anovulation, hirsutism, acne, and alopecia from excess androgens, infertility from ovulatory dysfunction, weight gain or difficulty losing weight, and psychological effects like anxiety and depression. Long-term risks include cardiovascular disease, endometrial cancer, and non-alcoholic fatty liver disease. The proposed polypeptides address these aspects through targeted mechanisms: GLP-1 analogs like liraglutide, semaglutide, and exenatide enhance insulin sensitivity, promote weight loss by reducing appetite and gastric emptying, and improve ovulatory function by normalizing LH/FSH ratios; tirzepatide, a dual agonist, further amplifies these effects by combining GLP-1 and GIP actions to regulate glucose homeostasis and reduce inflammation; native GLP-1 and GIP directly mitigate insulin resistance and hyperandrogenism by modulating gut-brain signaling; humanin protects against mitochondrial dysfunction and oxidative stress in ovarian cells, improving steroidogenesis; adropin regulates lipid metabolism and reduces inflammation via gut microbiota modulation; irisin enhances brown adipose tissue activity to combat obesity and insulin resistance; kisspeptin-10 restores hypothalamic signaling for better gonadotropin release and ovulation; C-type natriuretic peptide inhibits androgen synthesis in theca cells and supports follicular development; neurotensin modulates ovulatory pathways and reduces inflammation; preptin influences glucose metabolism and ovarian function; galanin aids in metabolic balance and reproductive hormone regulation. Designed polypeptides (flagged as D1-D4) supplement coverage for under-addressed axes like neurokinin 3 receptor pathway, autophagy, mitochondrial enhancement, and additional inflammation modulation, conceptualized as short peptides that mimic regulatory motifs to activate AMPK, inhibit NF-{kappa}B, or stabilize mitochondrial membranes, with feasibility based on physicochemical properties like solubility, stability, and receptor affinity, potentially administered subcutaneously for bioavailability.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p01"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p02"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p03"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p04"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p05"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p06"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p07"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p08"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p09"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p10"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p11"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p12"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p13"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p14"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p15"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p16"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p17"
+"Loaded_Programs=Polycystic Ovary Syndrome (PCOS) p18"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M129.043,M57.021,M101.048,M147.068,M113.084,M87.032,M115.027,M163.063,M87.032,M113.084,M71.037,M99.068,M113.084,M115.027,M128.095,M113.084,M128.058,M128.095,M71.037,M147.068,M99.068,M128.095,M186.079,M113.084,M113.084,M71.037,M128.095,M128.095,M57.021,M128.095,M128.095,M114.043,M115.027,M186.079,M128.095,M137.059,M114.043,M99.068,M113.084,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M163.063=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M113.084,M85.053,M113.084,M115.027,M128.095,M113.084,M128.058,M85.053,M71.037,M147.068,M99.068,M128.058,M186.079,M113.084,M113.084,M57.021,M97.053,M97.053,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M103.009=1,M137.059,M87.032,M156.101,M87.032,M71.037,M115.027,M97.053,M156.101,M128.058,M71.037,M147.068,M113.084,M113.084,M97.053,M128.058,M97.053,M137.059,M129.043,M57.021,M87.063,M163.063,M113.084,M113.084,M128.058,M97.053,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M147.068,M156.101,M147.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M113.084,M128.058,M163.063,M129.043,M114.043,M128.095,M97.053,M156.101,M156.101,M97.053,M163.063,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M103.057,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M113.084,M57.021,M103.009,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M101.048,M113.084,M114.043,M87.032,M71.037,M57.021,M163.063,M113.084,M113.084,M57.021,M97.053,M137.059,M71.037,M113.084,M115.027,M114.043,M137.059,M156.101,M87.032,M147.068,M137.059,M115.027,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M115.027=1,M99.068,M128.058,M97.053,M97.053,M57.021,M113.084,M128.095,M99.068,M186.079,M87.032,M115.027,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M113.084,M156.101,M57.021,M99.068,M99.068,M99.068,M128.095,M97.053,M71.037,M71.037,M113.084,M97.053,M57.021,M156.101,M137.059,M129.043,M57.021,M114.043,M156.101,M87.032,M147.068,M115.027,M128.095,M114.043,M57.021,M113.084,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M99.068,M156.101,M97.053,M114.043,M57.021,M113.084,M114.043,M57.021,M99.068,M113.084,M113.084,M57.021,M97.053,M137.059,M71.037,M99.068,M57.021,M114.043,M137.059,M156.101,M87.032,M147.068,M87.032,M115.027,M128.095,M114.043,M57.021,M113.084,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M114.043,M128.095,M57.021,M99.068,M113.084,M87.032,M129.043,M87.032,M87.032,M97.053,M114.043,M103.009,M97.053,M129.043,M128.095,M71.037,M97.053,M97.053,M97.053,M128.058,M128.095,M97.053,M87.032,M137.059,M129.043,M57.021,M87.032,M163.063,M113.084,M113.084,M128.058,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M113.084,M87.032,M103.009,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M113.084,M57.021,M103.009,0=4,"
+"[/Preset]"

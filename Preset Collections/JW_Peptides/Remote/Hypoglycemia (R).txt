@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Hypoglycemia (R)"
+"Preset_Notes=Hypoglycemia for Remote
+
+Hypoglycemia involves key mechanisms such as defective glucose counterregulation, excessive insulin activity, hepatic glycogen depletion, oxidative stress, and neuronal injury from low glucose. Biological targets include glucagon receptors for rapid glucose elevation, GLP-1 receptors for antagonism in reactive hypo, insulin secretion pathways, and mitochondrial stabilizers for cellular protection. The proposed peptides target these through hormone mimicry, receptor modulation, and cytoprotective actions. All 10 peptides are real-world validated (from clinical, preclinical, or literature sources like PubMed and PMC articles), covering the condition comprehensively without conceptual designs. Modes of action include inducing glycogenolysis and gluconeogenesis, blocking postprandial insulin surges, maintaining metabolic balance, and mitigating hypo-induced damage. Physicochemical considerations: linear structures with varying lengths for rapid absorption; some amidated for extended half-life; pharmacodynamics support injectable, nasal, or subcutaneous delivery for acute or preventive effects.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Hypoglycemia p01"
+"Loaded_Programs=Hypoglycemia p02"
+"Loaded_Programs=Hypoglycemia p03"
+"Loaded_Programs=Hypoglycemia p04"
+"Loaded_Programs=Hypoglycemia p05"
+"Loaded_Programs=Hypoglycemia p06"
+"Loaded_Programs=Hypoglycemia p07"
+"Loaded_Programs=Hypoglycemia p08"
+"Loaded_Programs=Hypoglycemia p09"
+"Loaded_Programs=Hypoglycemia p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M128.058,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M128.095,M163.063,M113.084,M115.027,M87.032,M156.101,M156.101,M71.037,M128.058,M115.027,M147.068,M99.068,M128.058,M186.079,M113.084,M114.043,M131.040,M114.043,M101.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M128.058,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M128.095,M163.063,M113.084,M115.027,M87.032,M156.101,M156.101,M71.037,M128.058,M115.027,M147.068,M99.068,M128.058,M186.079,M113.084,M114.043,M131.040,M114.043,M101.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M129.043,M115.027,M113.084,M128.059,M99.068,M57.021,M128.059,M99.068,M129.043,M113.084,M57.021,M57.021,M57.021,M97.053,M57.021,M71.037,M57.021,M87.032,M113.084,M128.059,M97.053,M113.084,M71.037,M113.084,M129.043,M57.021,M87.032,M113.084,M128.059,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"[/Preset]"

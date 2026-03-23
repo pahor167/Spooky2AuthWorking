@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Plague (C)"
+"Preset_Notes=Plague for Contact
+
+Plague is a severe zoonotic infection caused by the gram-negative bacterium *Yersinia pestis*, typically transmitted via flea bites or respiratory droplets, manifesting as bubonic, septicemic, or pneumonic forms with rapid progression and high mortality without prompt treatment.
+
+1. Cathelicidin pulmonary defense: LL-37 - Alpha-helical cationic disruption of bacterial membranes with immunomodulatory effects, showing modulated susceptibility in *Y. pestis* lung infections
+2. Engineered amphipathic optimization: WLBU2 - Highly potent synthetic cationic peptide exhibiting superior bactericidal activity against *Y. pestis* compared to natural cathelicidins
+3. Beta-sheet pore formation: Protegrin-1 - Cysteine-stabilized structure forming transmembrane pores for rapid lysis of gram-negative envelopes
+4. Tryptophan-rich membrane intercalation: Indolicidin - Short cationic peptide inducing membrane permeation and potential intracellular effects in resistant pathogens
+5. Non-lytic intracellular targeting: Buforin II - Histone-derived translocation across membranes to bind nucleic acids and inhibit replication
+6. LPS-specific outer membrane attack: Thanatin - Binds lipid A to disrupt outer membrane integrity selectively in gram-negative bacteria
+7. Defensin broad-spectrum immunomodulation: hBD-3 - Cationic beta-sheet peptide with direct killing and immune cell recruitment for enhanced bacterial clearance
+8. Repeating cationic motif lysis: VRW-16 - Designed amphipathic helical peptide with optimized Val-Arg-Trp repeats for selective gram-negative membrane disruption and low host toxicity
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Plague p01"
+"Loaded_Programs=Plague p02"
+"Loaded_Programs=Plague p03"
+"Loaded_Programs=Plague p04"
+"Loaded_Programs=Plague p05"
+"Loaded_Programs=Plague p06"
+"Loaded_Programs=Plague p07"
+"Loaded_Programs=Plague p08"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M99.068,M156.101,M156.101,M99.068,M156.101,M156.101,M186.079,M99.068,M156.101,M156.101,M99.068,M99.068,M156.101,M99.068,M99.068,M156.101,M156.101,M186.079,M99.068,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M128.095,M128.095,M97.053,M99.068,M97.053,M113.084,M113.084,M163.063,M102.001,M114.043,M156.101,M156.101,M101.048,M57.021,M128.095,M102.001,M128.058,M156.101,M131.040,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M114.043,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M156.101,M186.079,M99.068,M156.101,M156.101,M186.079,M99.068,M156.101,M156.101,M186.079,M99.068,M156.101,M156.101,M186.079,0=4,"
+"[/Preset]"

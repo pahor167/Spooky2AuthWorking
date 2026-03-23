@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\DNA (C) - JW"
+"PresetName=Dengue virus type 3 (DNA) (C) - JW"
+"Enable_Remove_Duplicate_Frequencies=1"
+"Remove_Duplicate_Frequencies_Tolerance=.125"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.This preset can be run normally, or started by pressing 'Scan'. This is useful for programs which contain many frequencies.||By pressing 'Scan', Spooky will perform a quick scan to detect the 10 frequencies which give the strongest response. Spooky will then automatically run those frequencies.||Connect your TENS pads or Spooky Hand Cylinders to the 'High Power' port of Spooky Boost v3.0 or higher.||Stop treatment if you experience any discomfort.||This preset contains the following strains:||Dengue virus type 3 DENV3/Thailand/1989/Yale-DH110/P2 (2025)|Dengue virus type 3 01004/DENV3/FG/2023-09-01 (2024)|Dengue virus type 3 DENV3/Malaysia/1990/Yale-DH120/P2 (2025)|Dengue virus type 3 DENV3/Saint_Kitts_Nev/2008/Yale-DH162/P2 (2025)|Dengue virus type 3 COL_DENV3_007_2014 (2025)|Dengue virus type 3 DG03 (2024)|Dengue virus type 3 DENV3/Nicaragua/2009/Yale-DH164/P2 (2025)|Dengue virus type 3 NIMH-1341_Z1_2024-07-22 polyprotein (POLY) gene (2024)|Dengue virus type 3 18013/DENV3/FG/2023-01-09 polyprotein (POLY) gene (2024)|Dengue virus type 3 CUBA_LIB2023_barcode63_D3-838 polyprotein (POLY) gene (2025)|Dengue virus type 3 1526
+DR
+2023-07-21 polyprotein (POLY) gene (2024)|Dengue virus type 3 CUBA_LIB2023_barcode85_D3-1273 polyprotein (POLY) gene (2025)|Dengue virus type 3 2637
+DR
+2023-08-28 polyprotein (POLY) gene (2024)|Dengue virus type 3 1368
+DR
+2023-07-14 polyprotein (POLY) gene (2024)|Dengue virus type 3 2631
+DR
+2023-08-27 polyprotein (POLY) gene (2024)|Dengue virus type 3 2605
+DR
+2023-08-29 polyprotein (POLY) gene (2024)|Dengue virus type 3 1303
+DR
+2023-07-17 polyprotein (POLY) gene (2024)|Dengue virus type 3 2693
+DR
+2023-08-12 polyprotein (POLY) gene (2024)|Dengue virus type 3 DenV3/Peru/INS-0018/2024 polyprotein (POLY) gene (2024)|Dengue virus type 3 18-00340 polyprotein (POLY) gene (2024)"
+"BiofeedbackPreset=1"
+"BFB_Grade_Program=1"
+"BFB_Max_Hits_To_Find=10"
+"BFB_Start_Delay=300"
+"BFB_Samples_Per_Step=10"
+"BFB_Loops=1"
+"BFB_Threshold=0"
+"BFB_Calculate_Using_Peak=True"
+"BFB_Detect_Max=True"
+"BFB_After_Scan_Run_Hits=1"
+"Baseline_Before_BFB=0"
+"BFB_After_Scan_Run_On_Gen=0"
+"BFB_Detect_mA=True"
+"Loaded_Programs=Dengue virus type 3 (DNA) (C) - JW (CUST)"
+"Loaded_Frequencies=~2082BLR38664,~7529BLR00196,~5025BLR38667,~3256BLR51195,~7068BLR66790,~2406BLR38666,~0901BLR26181,~1655BLR09550,~2945BLR94346,~7392BLR66277,~5898BLR69666,~6542BLR09563,~0254BLR43265,~5691BLR66293,~3297BLR66908,~4841BLR09981,~5130BLR61317,~3091BLR62520,~1597BLR96108,~9727BLR19382,"
+"[/Preset]"

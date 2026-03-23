@@ -1,0 +1,54 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R11 Biofilm Structure - DB"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: September 2016.
+
+IMPORTANT: If you're currently supplementing with fish oils, use CAUTION with these Serrapeptase programs. If you're currently using blood thinning drugs like warfarin, DO NOT USE these Serrapeptase programs at all - skip to the next preset.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Serrapeptase 1 AM_Res XTRA
+Serrapeptase 2 AM_Res XTRA
+Serrapeptase 3 XTRA
+Serrapeptase 1 AM_Res XTRA
+Serrapeptase 2 AM_Res XTRA
+Serrapeptase 3 XTRA
+Serrapeptase 1 AM_Res XTRA
+Serrapeptase 2 AM_Res XTRA
+Serrapeptase 3 XTRA
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Serrapeptase 1 AM_Res (XTRA)"
+"Loaded_Programs=Serrapeptase 2 AM_Res (XTRA)"
+"Loaded_Programs=Serrapeptase 3 (XTRA)"
+"Loaded_Programs=Serrapeptase 1 AM_Res (XTRA)"
+"Loaded_Programs=Serrapeptase 2 AM_Res (XTRA)"
+"Loaded_Programs=Serrapeptase 3 (XTRA)"
+"Loaded_Programs=Serrapeptase 1 AM_Res (XTRA)"
+"Loaded_Programs=Serrapeptase 2 AM_Res (XTRA)"
+"Loaded_Programs=Serrapeptase 3 (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=4491492.72=300,4491492.73=300,2245746.36=300,2245746.37=300,4482288.85=300,4482288.86=300,2241144.42=300,2241144.43=300,"
+"Loaded_Frequencies=4488420.57=180,4488420.58=180,2244210.28=180,2244210.29=180,4485352.61=180,4485352.62=180,2242676.3=180,2242676.31=180,"
+"Loaded_Frequencies=77405649416000000000000000=300,"
+"Loaded_Frequencies=4491492.72=300,4491492.73=300,2245746.36=300,2245746.37=300,4482288.85=300,4482288.86=300,2241144.42=300,2241144.43=300,"
+"Loaded_Frequencies=4488420.57=180,4488420.58=180,2244210.28=180,2244210.29=180,4485352.61=180,4485352.62=180,2242676.3=180,2242676.31=180,"
+"Loaded_Frequencies=77405649416000000000000000=300,"
+"Loaded_Frequencies=4491492.72=300,4491492.73=300,2245746.36=300,2245746.37=300,4482288.85=300,4482288.86=300,2241144.42=300,2241144.43=300,"
+"Loaded_Frequencies=4488420.57=180,4488420.58=180,2244210.28=180,2244210.29=180,4485352.61=180,4485352.62=180,2242676.3=180,2242676.31=180,"
+"Loaded_Frequencies=77405649416000000000000000=300,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

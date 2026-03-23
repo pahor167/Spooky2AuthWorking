@@ -1,0 +1,92 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=Human Papillomavirus (C) - MM"
+"BFB_Start_Frequency=20000"
+"BFB_Finish_Frequency=18000000"
+"BFB_Single_Scan=1"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_%=.125"
+"BFB_Start_Delay=100"
+"BFB_Threshold=.4"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"BFB_Max_HRV=20"
+"Repeat_Each_Frequency=3"
+"Repeat_Sequence=0"
+"Frequency_Slider_Scale=0"
+"Out1_Amplitude=10"
+"Out2_Amplitude=10"
+"Out2_Hz_Factor=.03125"
+"Out1_Shadow_Hz_Factor=1"
+"Out1_Fixed_Frequency=0"
+"Preset_Notes=Human Papillomavirus Remote preset. By Manuel Mallo
+
+*Important*: Use the Colloidal Silver port of Spooky Boost to prevent skin burns.
+
+Here you have the presets for probably the most dangerous pathogen there is, the Human Papillomavirus. There are over 1,180 different strains of the 100 types with their DNA sequenced.
+
+I have studied the distribution of freqs, and computed a repetitive multi sweep with a dwell of 28 hours for contact and plasma, and 84:09 for remote mode.
+
+As being tied to the machine 28 hours is a bit boring, it has been divided into steps of 4 hours, to be more easy to receive.
+
+For this preset to work more effectively, I had to create also a simple waveform to transmit the maximum amount of harmonics, but with a lower duty cycle. This new waveform, MM_ModSquareDC17 can also be used with other killing sets, as I have found it to be very effective to transmit frequencies, whether they are for killing or for healing purposes.
+
+As virtually every one of us are carrying a high load of any of the HPV targeted by this preset, it is expected to have some herx reactions during the session, so be properly hydrated to minimize the effect, and maximize the transmission efficiency.
+
+These presets are especially computed to target the following conditions:
+
+Cancer, anorectal - squamous cell carcinom
+Cancer, brain, glioblastoma
+Cancer, cervical
+Cancer, colon / colorectal
+Cancer, esophageal - squamous cell carcinoma
+Cancer, head & neck squamous cell carcinoma
+Cancer, lung
+Cancer, nasal inverted papilloma
+Cancer, ovarian
+Cancer, penile - squamous cell carcinoma
+Cancer, prostate
+Cancer, skin - squamous cell carcinoma
+Cancer, tonsil
+Condyloma acuminatum (genital warts)
+Genital warts
+Warts, common (Verruca vulgaris)
+Warts, filiform
+Warts, flat (Verruca plana)
+Warts, genital
+Warts, plantar
+
+Boost device is used with the contact and remote presets, to mix the two different signals generated to receive more harmonics. The remote one is intended for running it nonstop for a week at least. The more time, the better. It would be useful to write down the frequencies which produce any reaction, to repeat them if neccessary.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+Connect your Spooky Remote-BN or Spooky Remote v2.0 to the Colloidal Silver port of Spooky Boost."
+"Settings_Frequency_Wobble_Percentage=.0005"
+"Settings_Frequency_Wobble_Steps=120"
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"User_Defined_1_WCM=3"
+"User_Defined_2_WCM=3"
+"Triangle_Spike_Ratio=2"
+"F1_Factor=11"
+"Settings_Harmonic_Wobble_Down=0"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"User_Defined_1_Waveform=MM_ModSquareDC17"
+"User_Defined_2_Waveform=MM_ModSquareDC17"
+"Out1_Fixed_Frequency=False"
+"Gate_Hz_Option=False"
+"Gate_On_Off_Duration_Option=True"
+"Out1_Sine=False"
+"Out1_User_Defined_1=True"
+"Out2_User_Defined_2=True"
+"InverseWave=False"
+"Enable_Reduce_Low_Frequency_Amplitude=0"
+"Enable_Tissue_Factor=1"
+"Enable_Invert_User_Defined_2=1"
+"Enable_Amplitude_RampUp=0"
+"Enable_Amplitude_Ramp_Down=0"
+"Notify_When_Zero_Hz=0"
+"Loaded_Programs=MM_Human Papillomavirus (CUST)"
+"Loaded_Frequencies=8150000-8314620.13=14400,8314620.13-8482565.4=14400,8482565.4-8653902.96=14400,8653902.96-8828701.32=14400,8828701.32-9007030.41=14400,9007030.41-9188961.52=14400,9188961.52-9374567.43=14400,11998407=180,"
+"[/Preset]"

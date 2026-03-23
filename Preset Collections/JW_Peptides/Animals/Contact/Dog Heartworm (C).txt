@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dog Heartworm (C)"
+"Preset_Notes=Dog Heartworm for Contact
+
+Dog heartworm disease, also known as dirofilariasis, is a serious and potentially fatal parasitic infection in dogs caused by the nematode Dirofilaria immitis, transmitted through mosquito bites. The lifecycle involves mosquito ingestion of microfilariae from an infected host, development into infective L3 larvae in the mosquito, and transmission to a new dog where larvae mature into adults over 6-7 months, residing primarily in the pulmonary arteries and right heart chambers. Adults can grow up to 12 inches long, with females producing microfilariae that circulate in the blood. The disease progresses in stages: early asymptomatic, mild with cough and fatigue, moderate with exercise intolerance and weight loss, and severe with right heart failure, pulmonary hypertension, anemia, renal dysfunction, ascites, and caval syndrome (worms in the right atrium causing hemolysis and shock). Pathophysiology includes mechanical obstruction of blood flow by worms leading to endothelial damage, thrombosis, and vascular remodeling; inflammation from worm antigens and Wolbachia endosymbionts triggering immune responses; oxidative stress and proteotoxicity; autonomic dysfunction; and secondary organ damage to lungs, heart, kidneys, and liver. Chronic infection can lead to irreversible fibrosis. Prevention is key with macrocyclic lactones, but treatment involves adulticides like melarsomine, microfilaricides, and Wolbachia-targeting doxycycline, with risks of thromboembolism from dying worms.
+
+The proposed polypeptides are all designed (flagged as D1-D18) to address the multifaceted pathophysiology of dog heartworm disease through conceptual mechanisms inspired by antiparasitic and supportive therapies. D1-D3 target adulticide, larvicide, and microfilaricide axes by mimicking antimicrobial peptides that disrupt parasite membranes or inhibit development via charge interactions and protease inhibition. D4 focuses on Wolbachia targeting with sequences designed to penetrate and disrupt bacterial membranes. D5-D6 enhance immune modulation by stimulating Th1 responses or antibody production against parasite antigens. D7-D8 reduce inflammation and oxidative stress through cytokine modulation and antioxidant motifs. D9-D10 manage pulmonary hypertension by promoting vasodilation and reducing vascular remodeling. D11-D12 improve cardiac function by supporting myocardial contractility and reducing edema. D13 protects renal function by inhibiting fibrosis pathways. D14 addresses anemia by mimicking erythropoietin-like signals. D15-D16 provide vascular protection by stabilizing endothelium. D17-D18 offer overall antioxidant and anti-proteotoxic effects to mitigate tissue damage. Feasibility is based on established peptide therapeutics in veterinary parasitology, with short lengths (8-10 aa) ensuring high bioavailability, low immunogenicity, stability in plasma, and ease of synthesis/administration (e.g., oral or injectable). Physicochemical considerations include cationic/hydrophobic balance for membrane interaction, solubility in aqueous environments, and resistance to proteolysis. These designs supplement the shortfall of real-world polypeptides, as no verifiable sequences were obtained from sources.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dog Heartworm p01"
+"Loaded_Programs=Dog Heartworm p02"
+"Loaded_Programs=Dog Heartworm p03"
+"Loaded_Programs=Dog Heartworm p04"
+"Loaded_Programs=Dog Heartworm p05"
+"Loaded_Programs=Dog Heartworm p06"
+"Loaded_Programs=Dog Heartworm p07"
+"Loaded_Programs=Dog Heartworm p08"
+"Loaded_Programs=Dog Heartworm p09"
+"Loaded_Programs=Dog Heartworm p10"
+"Loaded_Programs=Dog Heartworm p11"
+"Loaded_Programs=Dog Heartworm p12"
+"Loaded_Programs=Dog Heartworm p13"
+"Loaded_Programs=Dog Heartworm p14"
+"Loaded_Programs=Dog Heartworm p15"
+"Loaded_Programs=Dog Heartworm p16"
+"Loaded_Programs=Dog Heartworm p17"
+"Loaded_Programs=Dog Heartworm p18"
+"Loaded_Frequencies=M156.101=1,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M71.037=1,M99.068,M71.037,M99.068,M71.037,M99.068,M71.037,M99.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.058,M137.059,M128.058,M137.059,M128.058,M137.059,M128.058,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M114.043,M131.040,M114.043,M131.040,M114.043,M131.040,M114.043,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.058,M97.053,M128.058,M97.053,M128.058,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M87.032,M156.101,M87.032,M156.101,M87.032,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M101.048=1,M99.068,M101.048,M99.068,M101.048,M99.068,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M186.079,M163.063,M186.079,M163.063,M186.079,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M115.027,M147.068,M57.021,M137.059,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M114.043,M97.053,M128.058,M156.101,M87.032,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M129.043,M115.027,M103.009,M87.032,M71.037,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M137.059,M147.068,M115.027,M163.063,M71.037,M87.032,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M128.058=1,M114.043,M131.040,M101.048,M99.068,M113.084,M129.043,M57.021,M128.095,M147.068,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M128.095,M87.032,M137.059,M115.027,M156.101,M163.063,M147.068,M57.021,0=4,"
+"[/Preset]"

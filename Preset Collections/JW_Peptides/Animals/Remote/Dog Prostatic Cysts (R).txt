@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Dog Prostatic Cysts (R)"
+"Preset_Notes=Dog Prostatic Cysts for Remote
+
+Prostatic cysts in dogs are fluid-filled sacs that develop within or near the prostate gland, commonly seen in intact male dogs, often as a sequela to benign prostatic hyperplasia (BPH), prostatitis, or congenital factors. Primary causes include hormonal imbalances, particularly elevated dihydrotestosterone (DHT) levels promoting glandular hyperplasia and ductal obstruction, leading to accumulation of prostatic fluid. Estrogens exacerbate stromal changes and fibrosis, while prolactin contributes to cellular proliferation. Symptoms manifest as urinary difficulties (dysuria, stranguria), bloody urine (hematuria), fecal straining (tenesmus), abdominal distension or pain, and if cysts become infected, fever, lethargy, or abscess formation. Pathophysiology entails androgen-stimulated epithelial and stromal growth causing cyst dilation, potential rupture or secondary infection, and compression of adjacent structures like the urethra or colon, risking urinary obstruction or infertility. Untreated, cysts can progress to life-threatening complications such as peritonitis or sepsis.
+
+The proposed polypeptides target key therapeutic axes to mitigate prostatic cysts. In the GnRH-mediated hormonal suppression axis, Deslorelin, a GnRH agonist, induces initial flare-up followed by pituitary downregulation, lowering testosterone and DHT, which shrinks the prostate and resolves cysts by reducing fluid production and hyperplasia. The designed polypeptide mimics GnRH to achieve analogous androgen suppression, promoting cyst regression. In the androgen signaling inhibition axis, GV1001 binds the androgen receptor, inhibiting epithelial-mesenchymal transition and proliferation, thereby decreasing cyst size and preventing recurrence. The designed polypeptide targets androgen pathways to block hyperplastic signals. For the prolactin signaling inhibition axis, the designed polypeptide acts as a receptor antagonist, disrupting JAK/STAT pathways to curb stromal and epithelial growth contributing to cyst formation. In the estrogen signaling modulation axis, the designed polypeptide selectively modulates estrogen receptors, countering ER-{alpha}-driven proliferation while enhancing ER-{beta} protective effects, addressing hormonal imbalances that exacerbate cysts.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Dog Prostatic Cysts p01"
+"Loaded_Programs=Dog Prostatic Cysts p02"
+"Loaded_Programs=Dog Prostatic Cysts p03"
+"Loaded_Programs=Dog Prostatic Cysts p04"
+"Loaded_Programs=Dog Prostatic Cysts p05"
+"Loaded_Programs=Dog Prostatic Cysts p06"
+"Loaded_Frequencies=M111.032=1,M137.059,M186.079,M87.032,M163.063,M186.079,M113.084,M156.101,M124.100,0=4,"
+"Loaded_Frequencies=M137.059=1,M186.079,M87.032,M163.063,M113.084,M156.101,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M156.101,M97.053,M71.037,M113.084,M113.084,M101.048,M87.032,M156.101,M113.084,M156.101,M147.068,M113.084,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M147.068,M87.032,M97.053,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M115.027,M113.084,M156.101,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M156.101,M147.068,M87.032,M113.084,M97.053,0=4,"
+"[/Preset]"

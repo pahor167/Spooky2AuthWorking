@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Detox VOCs (S)"
+"Preset_Notes=Detox VOCs for Scalar
+
+Detox (VOCs)
+
+Volatile Organic Compounds (VOCs) detoxification addresses exposure to harmful chemicals like benzene, toluene, and formaldehyde, which can cause oxidative stress, liver damage, respiratory issues, neurotoxicity, and inflammation. Mechanistic rationale: Peptides are proposed to cover axes including antioxidant defense, liver enzyme induction, renal clearance enhancement, respiratory protection, neuroprotection, immune support, anti-inflammatory effects, and VOC binding/chelation. Real-world peptides are prioritized based on pre-trained knowledge from sources like PubMed on detox and antioxidant peptides (e.g., glutathione for oxidative stress, carnosine for metal/chemical protection). For axes without established real-world peptides (most VOC-specific, as direct therapies are limited), designed peptides are used as fallback, flagged as [Designed]. These incorporate motifs like cysteine for binding, histidine for antioxidation, or charged residues for excretion, with rationale including oral feasibility, low immunogenicity, and actions like radical scavenging or CYP450 modulation. Physicochemical considerations: Peptides designed for stability in physiological pH, MW 600-2000 Da, and enhanced hydrophilicity.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Detox VOCs p01"
+"Loaded_Programs=Detox VOCs p02"
+"Loaded_Programs=Detox VOCs p03"
+"Loaded_Programs=Detox VOCs p04"
+"Loaded_Programs=Detox VOCs p05"
+"Loaded_Programs=Detox VOCs p06"
+"Loaded_Programs=Detox VOCs p07"
+"Loaded_Programs=Detox VOCs p08"
+"Loaded_Programs=Detox VOCs p09"
+"Loaded_Programs=Detox VOCs p10"
+"Loaded_Programs=Detox VOCs p11"
+"Loaded_Programs=Detox VOCs p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.058,M128.095,M113.084,M99.068,M137.059,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M115.027,M156.101,M99.068,M113.084,M128.095,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M103.009,M128.095,M99.068,M113.084,M87.032,M137.059,M103.009,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M128.095,M113.084,M99.068,M128.095,M137.059,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M115.027,M128.095,M99.068,M113.084,M156.101,M137.059,M115.027,0=4,"
+"[/Preset]"

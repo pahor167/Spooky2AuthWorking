@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Cellulitis (C)"
+"Preset_Notes=Cellulitis for Contact
+
+Cellulitis is an acute, spreading bacterial infection of the dermis and subcutaneous tissues, most commonly caused by Streptococcus pyogenes (group A streptococcus) or Staphylococcus aureus, entering through skin breaches such as cracks, cuts, or insect bites. It manifests with localized erythema, warmth, swelling, pain, and tenderness, often with indistinct borders, and may be accompanied by fever, chills, or lymphangitis in systemic cases; severe or recurrent episodes can lead to abscess formation, necrotizing infections, or chronic complications in predisposed individuals (e.g., lymphedema, diabetes). Pathophysiology involves bacterial proliferation and toxin release triggering a vigorous innate immune response, including cytokine-mediated vasodilation and permeability, neutrophil recruitment, and tissue edema, with potential for excessive inflammation exacerbating damage.
+
+The proposed polypeptides target key axes: direct bacterial eradication via membrane disruption, modulation of hyperinflammation to limit tissue injury, and support for skin barrier repair. Omiganan, a real investigational synthetic analog of bovine indolicidin studied for topical use in bacterial skin infections, exhibits potent Gram-positive killing. The designed head-to-tail cyclic polypeptide, rationally derived from arenicin-like {beta}-sheet antimicrobial motifs with cyclization for proteolytic stability and improved pharmacokinetics, enhances pathogen membrane targeting. Human beta-defensin 3 (hBD-3), a real endogenous peptide upregulated in infected skin with documented broad-spectrum activity and immunomodulation, reinforces innate defense against common cellulitis pathogens. The designed proline-rich polypeptide, inspired by apidaecin/oncopin family motifs with C-amide for drug-likeness and solubility, provides non-lytic antimicrobial action complementary to inflammatory control. GHK, a real naturally occurring tripeptide with evidence in skin remodeling, exerts antioxidant, anti-inflammatory, and fibroblast-stimulatory effects to accelerate resolution of infected tissue damage.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Cellulitis p01"
+"Loaded_Programs=Cellulitis p02"
+"Loaded_Programs=Cellulitis p03"
+"Loaded_Programs=Cellulitis p04"
+"Loaded_Programs=Cellulitis p05"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M156.101,M147.068,M97.053,M186.079,M186.079,M186.079,M97.053,M147.068,M113.084,M156.101,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M56.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"[/Preset]"

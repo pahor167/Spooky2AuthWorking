@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Ligament Repair (S)"
+"Preset_Notes=Ligament Repair for Scalar
+
+Ligament repair addresses injuries to dense connective tissues connecting bones, emphasizing regeneration through cell migration, stem cell activation, vascular supply, oxidative protection, adhesion signaling, and overall tissue rejuvenation.
+
+1. Cell migration promotion: Thymosin_beta_4 - Actin-sequestering peptide that promotes fibroblast migration, collagen deposition, and early healing responses in ligament injuries.
+2. Stem cell mitogenesis: Fulipiftide - PEDF-derived 29-mer peptide that exerts mitogenic effects on tendon/ligament stem/progenitor cells via ERK2/STAT3 signaling, enhancing cell accumulation and organized collagen regeneration.
+3. Antioxidant protection: Carnosine - Dipeptide scavenging reactive oxygen species and preventing oxidative damage to support ligament tissue integrity during repair.
+4. Angiogenesis induction: QK peptide - VEGF-mimetic peptide binding VEGFR to stimulate endothelial proliferation and neovascularization for improved nutrient delivery in healing ligaments.
+5. Cell adhesion enhancement: RGD-Int1 - Designed RGD-motif peptide interacting with integrins to promote cell-matrix adhesion, migration, and signaling critical for extracellular matrix remodeling.
+6. Connective tissue regeneration: Vilon - Bioregulatory dipeptide stimulating repair and differentiation processes in connective tissues including ligaments.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Ligament Repair p01"
+"Loaded_Programs=Ligament Repair p02"
+"Loaded_Programs=Ligament Repair p03"
+"Loaded_Programs=Ligament Repair p04"
+"Loaded_Programs=Ligament Repair p05"
+"Loaded_Programs=Ligament Repair p06"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M57.021,M71.037,M129.043,M128.058,M156.101,M101.048,M129.043,M87.032,M113.084,M113.084,M137.059,M156.101,M71.037,M113.084,M163.063,M163.063,M115.027,M113.084,M113.084,M87.032,M87.032,M97.053,M115.027,M113.084,M137.059,M57.021,M100.064,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M170.106=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M112.10,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,0=4,"
+"[/Preset]"

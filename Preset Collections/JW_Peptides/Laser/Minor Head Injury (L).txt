@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Minor Head Injury (L)"
+"Preset_Notes=Minor Head Injury for Laser
+
+Minor head injury (mild traumatic brain injury or concussion) involves acute biomechanical forces leading to transient brain dysfunction, with risks of secondary injury including neuroinflammation, oxidative stress, apoptosis, and cognitive deficits. Proposed polypeptides target key therapeutic axes derived from preclinical models:
+
+1. Targeted binding to upregulated extracellular matrix in injured brain
+2. Anti-apoptotic neuroprotection via erythropoietin mimicry
+3. Neuroinflammation suppression via apolipoprotein E mimicry
+4. Oxidative stress reduction via thioredoxin mimicry
+5. Neurotrophic support and cognitive recovery via GLP-1 receptor agonism
+
+Assignments and mechanisms:
+- CAQK (real, tetrapeptide identified by phage display): Binds specifically to tenascin C in injured brain tissue, reduces lesion volume, apoptosis, neuroinflammation, and improves functional outcomes in TBI models.
+- pHBSP (real, erythropoietin-derived): Mimics non-hematopoietic EPO effects, reduces inflammatory activation, and enhances cognitive recovery in mild TBI rat models.
+- CN-105 (real, ApoE-mimetic pentapeptide): Suppresses sterile immune activation, reduces histological damage, and improves functional outcomes in closed head injury models.
+- TXM-CB3 (real, thioredoxin-mimetic): Redox-active peptide that protects cognitive function and reduces neuronal damage post-mTBI via antioxidant effects.
+- Exendin-4 (real, natural GLP-1 receptor agonist peptide): Activates CREB pathway, reduces oxidative stress/excitotoxicity, mitigates cognitive and sensory deficits in mild TBI/concussion models.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Minor Head Injury p01"
+"Loaded_Programs=Minor Head Injury p02"
+"Loaded_Programs=Minor Head Injury p03"
+"Loaded_Programs=Minor Head Injury p04"
+"Loaded_Programs=Minor Head Injury p05"
+"Loaded_Frequencies=M103.009=1,M71.037,M128.058,M127.111,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M128.095,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M141.079=1,M87.032,M156.101,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M144.012=1,M97.053,M101.017,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"[/Preset]"

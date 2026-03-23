@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Bed Wetting (P)"
+"Preset_Notes=Bed Wetting for Plasma
+
+Bed wetting, or nocturnal enuresis, is the involuntary urination during sleep in children over the age of 5. It can be caused by factors such as nocturnal polyuria, bladder overactivity, and difficulty arousing from sleep. Therapeutic axes include: 1. Vasopressin pathway to reduce nighttime urine production. 2. Bladder overactivity to enhance bladder storage and reduce spasms. 3. Arousal dysfunction to improve wakefulness in response to bladder fullness. Assignments: Desmopressin addresses the vasopressin pathway by acting as a V2 receptor agonist, decreasing urine output. TAT-PirtN14 addresses bladder overactivity by inhibiting P2X3 receptors, reducing sensory signaling and overactivity. Engineered Orexin Fragment addresses arousal dysfunction by mimicking orexin peptides to promote arousal from sleep.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Bed Wetting p01"
+"Loaded_Programs=Bed Wetting p02"
+"Loaded_Programs=Bed Wetting p03"
+"Loaded_Frequencies=M97.053=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M163.063,M129.043,M113.084,M113.084,M137.059,M57.021,M71.037,M57.021,M114.043,M137.059,M71.037,M71.037,M57.021,M113.084,M113.084,M101.048,M112.10,0=4,"
+"[/Preset]"

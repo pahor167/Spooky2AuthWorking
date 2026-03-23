@@ -17,6 +17,7 @@ using Microsoft.Extensions.Logging;
 using Spooky2.ViewModels;
 using Spooky2.Views;
 using Spooky2.Views.Services;
+using System.Threading.Tasks;
 
 namespace Spooky2.App;
 
@@ -31,9 +32,28 @@ public class App : Application
 
     public override void OnFrameworkInitializationCompleted()
     {
+        if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
+        {
+            // Show window IMMEDIATELY with loading state — before DI/services
+            var window = new MainWindow();
+            desktop.MainWindow = window;
+            window.Show();
+
+            // Build services and set DataContext in background
+            _ = InitializeAsync(window);
+        }
+
+        base.OnFrameworkInitializationCompleted();
+    }
+
+    private static async Task InitializeAsync(MainWindow window)
+    {
+        // Small yield to let the window paint first
+        await Task.Delay(50);
+
         var services = new ServiceCollection();
 
-        // Register logging — console + file output for hardware debugging
+        // Register logging
         var logFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "debug.log");
         services.AddLogging(builder =>
         {
@@ -47,21 +67,17 @@ public class App : Application
         services.AddSingleton<IEncryptionService, EncryptionService>();
         services.AddSingleton<IFrequencyEncryptionService, FrequencyEncryptionService>();
         services.AddSingleton<IFileService, FileService>();
-        services.AddSingleton<IHidDeviceService, HidDeviceService>();
+        services.AddSingleton<ISettingsService, SettingsService>();
         services.AddSingleton<ISerialPortFactory, SerialPortFactory>();
         services.AddSingleton<IGeneratorService, GeneratorService>();
         services.AddSingleton<IPresetService, PresetService>();
         services.AddSingleton<IDatabaseService, DatabaseService>();
         services.AddSingleton<IWaveformService, WaveformService>();
         services.AddSingleton<IScanService, ScanService>();
-        services.AddSingleton<ISettingsService, SettingsService>();
         services.AddSingleton<IColloidalSilverCalculator, ColloidalSilverCalculatorService>();
         services.AddSingleton<ICarrierSweepService, CarrierSweepService>();
         services.AddSingleton<IMicroGenService, MicroGenService>();
         services.AddSingleton<IDialogService, DialogService>();
-        services.AddSingleton<IErrorLoggingService>(sp =>
-            new ErrorLoggingService(AppDomain.CurrentDomain.BaseDirectory));
-        services.AddSingleton<GeneratorPollingService>();
 
         // Register ViewModels
         services.AddTransient<MainViewModel>();
@@ -74,14 +90,10 @@ public class App : Application
 
         Services = services.BuildServiceProvider();
 
-        if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
+        // Set DataContext on UI thread — window is already visible
+        Avalonia.Threading.Dispatcher.UIThread.Post(() =>
         {
-            desktop.MainWindow = new MainWindow
-            {
-                DataContext = Services.GetRequiredService<MainViewModel>()
-            };
-        }
-
-        base.OnFrameworkInitializationCompleted();
+            window.DataContext = Services.GetRequiredService<MainViewModel>();
+        });
     }
 }

@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Porphyria Cutanea Tarda (Coil)"
+"Preset_Notes=Porphyria Cutanea Tarda for Coil
+
+Porphyria Cutanea Tarda (PCT) is the most common human porphyria, resulting from reduced activity of hepatic uroporphyrinogen decarboxylase (UROD), leading to accumulation of uroporphyrins and heptacarboxyporphyrins, causing photosensitivity with blistering, scarring, and fragility on sun-exposed skin, often accompanied by hypertrichosis, pigmentation changes, and milia. It typically manifests in adulthood, with triggers including iron overload, alcohol abuse, smoking, hepatitis C virus (HCV) infection, estrogen use, HIV, and genetic factors like UROD or HFE mutations. Pathophysiology involves iron-dependent oxidation forming a UROD inhibitor, exacerbated by oxidative stress, hepcidin dysregulation reducing iron export, and viral infections altering hepatic metabolism, resulting in porphyrin buildup and tissue damage via ROS upon light exposure.
+
+The proposed polypeptides target PCT axes: hepcidin regulates the hepcidin-ferroportin pathway to mitigate iron overload and restore UROD activity; designed polypeptides D1-D5 enhance porphyrin clearance, HCV antiviral effects, antioxidant defenses, and UROD stabilization, potentially reducing oxidative stress, mobilizing porphyrins, eradicating associated HCV, and improving enzyme function to alleviate cutaneous symptoms and prevent recurrence.
+
+"
+"Loaded_Programs=Porphyria Cutanea Tarda p01"
+"Loaded_Programs=Porphyria Cutanea Tarda p02"
+"Loaded_Programs=Porphyria Cutanea Tarda p03"
+"Loaded_Programs=Porphyria Cutanea Tarda p04"
+"Loaded_Programs=Porphyria Cutanea Tarda p05"
+"Loaded_Programs=Porphyria Cutanea Tarda p06"
+"Loaded_Frequencies=M115.027=1,M101.048,M137.059,M147.068,M97.053,M113.084,M103.009,M113.084,M147.068,M103.009,M103.009,M57.021,M103.009,M103.009,M137.059,M156.101,M87.032,M128.095,M103.009,M57.021,M131.040,M103.009,M103.009,M128.095,M101.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M115.027,M129.043,M129.043,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M137.059,M57.021,M87.032,M137.059,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M147.068,M147.068,M99.068,M115.027,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.058,M129.043,M97.053,0=4,"
+"[/Preset]"

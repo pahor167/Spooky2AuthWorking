@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Ovarian Cancer (S)"
+"Preset_Notes=Ovarian Cancer for Scalar
+
+The peptides selected for ovarian cancer therapy target multiple key mechanisms including specific tumor cell binding for targeted delivery, induction of apoptosis and necrosis in cancer cells, inhibition of angiogenesis, disruption of oncogenic signaling pathways like YAP, reduction of cancer stem cells, and prevention of metastasis. These real-world peptides have been validated in preclinical and clinical studies for their efficacy against ovarian cancer. No designed peptides were necessary as sufficient real-world options were available to cover the therapeutic axes.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Ovarian Cancer p01"
+"Loaded_Programs=Ovarian Cancer p02"
+"Loaded_Programs=Ovarian Cancer p03"
+"Loaded_Programs=Ovarian Cancer p04"
+"Loaded_Programs=Ovarian Cancer p05"
+"Loaded_Programs=Ovarian Cancer p06"
+"Loaded_Programs=Ovarian Cancer p07"
+"Loaded_Programs=Ovarian Cancer p08"
+"Loaded_Programs=Ovarian Cancer p09"
+"Loaded_Programs=Ovarian Cancer p10"
+"Loaded_Frequencies=M99.068=1,M114.043,M97.053,M147.068,M156.101,M97.053,M57.021,M115.027,M87.032,M129.042,M97.053,M97.053,M97.053,M71.037,M97.053,M57.021,M71.037,M128.058,M156.101,M71.037,M128.058,M131.040,M57.021,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M113.084,M87.032,M128.058,M129.042,M101.048,M147.068,M87.032,M115.027,M113.084,M186.079,M128.095,M113.084,M113.084,M156.101,M128.058,M113.084,M128.095,M113.084,M186.079,M147.068,M128.058,M114.043,M156.101,M156.101,M131.040,M128.095,M186.079,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.042,M101.048,M156.101,M97.053,M99.068,M71.037,M97.053,M137.058,M129.042,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M71.037,M101.048,M101.048,M101.048,M71.037,M87.032,M71.037,M71.037,M101.048,M71.037,M71.037,M71.037,M113.084,M57.021,M71.037,M101.048,M97.053,M156.101,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M156.101,M128.058,M128.058,M97.053,M156.101,M115.027,M97.053,M97.053,M101.048,M129.042,M101.048,M113.084,M129.042,M113.084,M129.042,M99.068,M87.032,M97.053,M115.027,M97.053,M71.037,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.095,M128.095,M128.095,M128.095,M113.084,M128.095,M71.037,M129.042,M113.084,M128.095,M113.084,M163.063,M99.068,M129.042,M101.048,M113.084,M115.027,M115.027,M113.084,M147.068,M129.042,M128.058,M186.079,M71.037,M137.058,M87.032,M129.042,M115.027,M113.084,0=4,"
+"Loaded_Frequencies=M137.058=1,M71.037,M113.084,M163.063,M97.053,M156.101,M137.058,0=4,"
+"Loaded_Frequencies=M97.053=1,M57.021,M97.053,M113.084,M97.053,M114.043,0=4,"
+"Loaded_Frequencies=M87.032=1,M186.079,M128.058,M113.084,M57.021,M57.021,M114.043,0=4,"
+"Loaded_Frequencies=M186.079=1,M87.032,M57.021,M97.053,M57.021,M99.068,M186.079,M57.021,M71.037,M87.032,M99.068,M128.095,0=4,"
+"[/Preset]"

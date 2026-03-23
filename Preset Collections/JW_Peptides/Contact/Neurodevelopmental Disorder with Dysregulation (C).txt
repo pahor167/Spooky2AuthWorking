@@ -1,0 +1,63 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Neurodevelopmental Disorder with Dysregulation (C)"
+"Preset_Notes=Neurodevelopmental Disorder with Dysregulation for Contact
+
+Neurodevelopmental Disorder with Dysregulation, Attention Deficits, Apraxia, Sensory Processing Issues, Mitochondrial Dysfunction, Poor Sleep, GI Dysbiosis, and Methylation-Related Genetic Variants
+
+The profile indicates a complex neurodevelopmental condition involving dopaminergic and GABAergic imbalance, impaired neuroplasticity/connectivity (frontal lobe EEG abnormalities), mitochondrial bioenergetic/neuroprotective deficits (fatigue, low stamina), immune dysregulation/GI dysbiosis (yeast, bloating, sensitivities), sleep disruption, social/speech challenges (apraxia, robotic speech), motor issues (hypotonia, poor coordination, retained reflexes), and methylation impairments (MTHFR and related variants). Expanded review supports 9 key therapeutic axes, each with two polypeptides: one real-world with mechanistic/preclinical evidence in overlapping neurodevelopmental/mitochondrial/immune conditions, paired with an engineered derivative for optimized stability, targeting, or complementary pathway coverage.
+
+1. Attention and executive function enhancement (dopaminergic/BDNF upregulation + motif optimization): Semax (real) and AttOpt-Eng (designed)
+2. Self-regulation and repetitive behavior reduction (GABA/enkephalin modulation + stabilized anxiolytic motif): Selank (real) and RegOpt-Eng (designed)
+3. Neural connectivity and frontal lobe integration (brain-specific repair + extended regulatory motif): Pinealon (real) and ConnOpt-Eng (designed)
+4. Mitochondrial energy production and stamina improvement (AMPK/glucose regulation + selected active fragment): MOTS-c (real) and MitoEn-Eng (designed)
+5. Mitochondrial neuroprotection and stress resistance (anti-apoptotic resilience + protective subdomain): SHLP2 (real) and MitoProt-Eng (designed)
+6. Immune modulation and GI dysbiosis correction (thymic T-cell balance + dipeptide immune support): Thymosin_alpha_1 (real) and ImmOpt-Eng (designed)
+7. Sleep architecture and awakening reduction (delta-wave promotion + core sleep-inducing motif): DSIP (real) and SleepOpt-Eng (designed)
+8. Social/communicational speech enhancement (oxytocin receptor signaling + key active fragment): Oxytocin (real) and CommOpt-Eng (designed)
+9. Motor coordination, apraxia, and hypotonia correction (actin dynamics/wound repair + N-terminal motility motif): Thymosin_beta_4 (real) and MotorOpt-Eng (designed)
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p01"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p02"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p03"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p04"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p05"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p06"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p07"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p08"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p09"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p10"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p11"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p12"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p13"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p14"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p15"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p16"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p17"
+"Loaded_Programs=Neurodevelopmental Disorder with Dysregulation p18"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M147.068=1,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M128.058,M129.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M57.021,M99.068,M128.095,M147.068,M147.068,M101.048,M113.084,M87.032,M101.048,M156.101,M147.068,M147.068,M97.053,M87.032,M99.068,M128.058,M156.101,M71.037,M99.068,M97.053,M113.084,M186.079,M101.048,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.095,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M71.037,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M186.079,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M57.021,M129.043,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M103.009=1,M163.063,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M129.043=1,M87.032,M137.059,M137.059,M71.037,M129.043,M113.084,M71.037,M129.043,M129.043,M71.037,M129.043,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M101.048,0=4,"
+"[/Preset]"

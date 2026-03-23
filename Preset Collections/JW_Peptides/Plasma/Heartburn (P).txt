@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Heartburn (P)"
+"Preset_Notes=Heartburn for Plasma
+
+Heartburn is a hallmark symptom of gastroesophageal reflux disease (GERD), resulting from acid reflux causing esophageal mucosal irritation, inflammation, esophagitis, and potential epithelial damage, often linked to lower esophageal sphincter dysfunction and oxidative stress.
+
+The proposed polypeptides target evidence-based therapeutic axes from reflux esophagitis models and mucosal protection studies, emphasizing healing, sphincter support, epithelial migration, inflammation reduction, regenerative remodeling, and novel acid-stable optimization.
+
+1. Stable gastric pentadecapeptide mucosal healing and sphincter reinforcement: BPC-157 counteracts reflux-induced esophagitis, promotes healing, and restores lower esophageal sphincter tone in dedicated models.
+2. Acetylated thymosin {beta}4 fragment actin-mediated repair: TB-500 enhances cell migration, reduces inflammation, and supports epithelial regeneration applicable to esophageal wound healing.
+3. Copper-binding tripeptide antioxidant and remodeling support: GHK-Cu protects against oxidative damage and stimulates tissue repair in gastric/esophageal mucosa.
+4. {alpha}-MSH-derived tripeptide inflammation suppression: KPV inhibits pro-inflammatory cytokines relevant to esophageal inflammatory responses.
+5. Engineered capped melanocortin tripeptide stability optimization: Ac-KPV-NH2 provides enhanced acid resistance and bioavailability for sustained anti-inflammatory action in reflux conditions.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Heartburn p01"
+"Loaded_Programs=Heartburn p02"
+"Loaded_Programs=Heartburn p03"
+"Loaded_Programs=Heartburn p04"
+"Loaded_Programs=Heartburn p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"[/Preset]"

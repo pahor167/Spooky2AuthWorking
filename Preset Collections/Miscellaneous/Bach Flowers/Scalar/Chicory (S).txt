@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Chicory (S)"
+"Preset_Notes=Chicory / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Chicory - Selfish, possessive love.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Chicory (S)"
+"Loaded_Frequencies=489.22,"
+"[/Preset]"

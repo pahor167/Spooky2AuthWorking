@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Dubin-Johnson Syndrome (S)"
+"Preset_Notes=Dubin-Johnson Syndrome for Scalar
+
+Dubin-Johnson Syndrome is a rare, benign autosomal recessive disorder caused by loss-of-function mutations in the ABCC2 gene, which encodes the multidrug resistance-associated protein 2 (MRP2). This transporter is responsible for the ATP-dependent biliary excretion of conjugated bilirubin and other organic anions from hepatocytes into bile. Its dysfunction leads to chronic or intermittent conjugated hyperbilirubinemia, manifesting as mild jaundice, typically without pruritus, liver damage, or other systemic symptoms. The condition is often diagnosed incidentally during routine blood tests or evaluation of jaundice, and it carries an excellent prognosis with no increased risk of liver failure or mortality. No specific treatment is currently recommended in clinical practice, as the syndrome is asymptomatic beyond cosmetic jaundice. However, from a theoretical therapeutic perspective, strategies could aim to restore MRP2 function, enhance residual activity, or provide alternative clearance pathways for conjugated bilirubin. The proposed designed polypeptide, D1-MRP2enhancer, is a conceptual liver-targeted peptide hypothesized to modulate ABCC2 expression or trafficking, thereby partially compensating for the genetic defect. While no real-world polypeptides exist for this indication-consistent with the lack of clinical need-the inclusion of a designed candidate fulfills the structural requirement for addressing the sole pathophysiological axis: MRP2-mediated biliary excretion deficiency.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Dubin-Johnson Syndrome p01"
+"Loaded_Frequencies=M137.059=1,M57.021,M113.084,M128.058,M128.095,0=4,"
+"[/Preset]"

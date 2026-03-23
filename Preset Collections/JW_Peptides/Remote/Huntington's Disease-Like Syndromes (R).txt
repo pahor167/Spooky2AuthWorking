@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Huntington’s Disease-Like Syndromes (R)"
+"Preset_Notes=Huntington’s Disease-Like Syndromes for Remote
+
+Huntington’s Disease-Like Syndromes (HDL syndromes) encompass a group of rare neurodegenerative disorders that clinically mimic Huntington’s disease (HD) but arise from distinct genetic etiologies beyond the typical CAG repeat expansion in the HTT gene. These include HDL1 (caused by octapeptide repeat insertions in the PRNP gene leading to prion protein misfolding), HDL2 (due to CTG/CAG expansions in the JPH3 gene affecting junctophilin-3 and calcium homeostasis), HDL3 (linked to a locus on chromosome 4p15.3 with unknown gene), and HDL4 (spinocerebellar ataxia type 17 from TBP gene expansions). The pathophysiology involves protein aggregation, neuronal loss primarily in the striatum and cortex, disrupted calcium signaling, mitochondrial dysfunction, oxidative stress, neuroinflammation, and impaired autophagy, culminating in progressive chorea, dystonia, psychiatric disturbances, cognitive decline, and motor impairments. Triggers may include genetic mutations promoting toxic protein conformers, excitotoxicity from glutamate dysregulation, and secondary effects like microglial activation perpetuating inflammation. Symptoms overlap with HD, such as involuntary movements, mood disorders, and dementia, but may feature additional ataxia or seizures depending on the subtype, leading to severe disability and reduced lifespan if untreated.
+
+The proposed designed polypeptides address HDL syndromes via key therapeutic axes. For HTT-like protein aggregation inhibition, the designed polypeptide binds misfolded proteins to prevent fibril formation, feasible through peptide mimetics of chaperone domains, acting by sequestration with considerations for blood-brain barrier permeability. For neuroinflammation reduction, the designed polypeptide antagonizes cytokine receptors to dampen microglial activation, supported by anti-inflammatory peptide precedents, via competitive inhibition and serum stability. For mitochondrial function enhancement, the designed polypeptide boosts electron transport chain efficiency, feasible in mitochondrial-targeting peptides, functioning through complex stabilization with lipophilicity for organelle entry. For autophagy activation, the designed polypeptide upregulates ATG proteins to enhance clearance of aggregates, based on autophagy-inducing peptides, acting as pathway modulators with proteolytic resistance.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Huntington’s Disease-Like Syndromes p01"
+"Loaded_Programs=Huntington’s Disease-Like Syndromes p02"
+"Loaded_Programs=Huntington’s Disease-Like Syndromes p03"
+"Loaded_Programs=Huntington’s Disease-Like Syndromes p04"
+"Loaded_Frequencies=M57.021=1,M137.059,M156.101,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M163.063=1,M147.068,M87.032,M101.048,M156.101,0=4,"
+"Loaded_Frequencies=M103.009=1,M131.040,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.058,M99.068,M113.084,M128.095,0=4,"
+"[/Preset]"

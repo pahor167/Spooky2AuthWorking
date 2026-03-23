@@ -1,0 +1,61 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Zika Virus Infection (S)"
+"Preset_Notes=Zika Virus Infection for Scalar
+
+Zika virus infection is an acute flavivirus disease transmitted primarily by Aedes mosquitoes, often asymptomatic or mild (fever, rash, conjunctivitis, joint pain), but associated with severe complications including Guillain-Barré syndrome in adults and congenital Zika syndrome (microcephaly, brain calcifications) in fetuses from maternal infection.
+
+Key therapeutic axes include viral entry and membrane fusion (envelope E protein stem and domain II/III), polyprotein processing (NS2B-NS3 protease essential for replication), RNA synthesis (NS5 polymerase), host cell receptor interactions (e.g., AXL/TYRO3), and dysregulated immune response (cytokine release, neuroinflammation). No approved specific antivirals or peptide therapeutics exist; management is supportive, with vaccines in development but none peptide-based in clinical use. Searches across PubMed and related sources identified preclinical peptide inhibitors (e.g., Z2 stem-derived entry inhibitor, GA-Hecate fusion peptide, claudin-derived, cathelicidin AMPs, macrocyclic/bicyclic NS2B-NS3 inhibitors), but no clinical therapeutic polypeptides, no established mature sequences for treatment, and limited verifiable exact sequences without access restrictions (shortfall from min_real_polypeptides=14 documented). 0 real-world polypeptides used; supplemented with 18 designed conceptual short scaffolds (flagged as designed) incorporating >=2 non-standard residues (Orn, Dap, Hyp, Sec, Abu) for stability/specificity, strict diversity (>50% difference, <=20% similarity), low hydrophobicity/aromatics, no excessive repeats, and >=30% cyclic (disulfide-constrained for named cyclic) for conformational rigidity. Full axis coverage achieved.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Zika Virus Infection p01"
+"Loaded_Programs=Zika Virus Infection p02"
+"Loaded_Programs=Zika Virus Infection p03"
+"Loaded_Programs=Zika Virus Infection p04"
+"Loaded_Programs=Zika Virus Infection p05"
+"Loaded_Programs=Zika Virus Infection p06"
+"Loaded_Programs=Zika Virus Infection p07"
+"Loaded_Programs=Zika Virus Infection p08"
+"Loaded_Programs=Zika Virus Infection p09"
+"Loaded_Programs=Zika Virus Infection p10"
+"Loaded_Programs=Zika Virus Infection p11"
+"Loaded_Programs=Zika Virus Infection p12"
+"Loaded_Programs=Zika Virus Infection p13"
+"Loaded_Programs=Zika Virus Infection p14"
+"Loaded_Programs=Zika Virus Infection p15"
+"Loaded_Programs=Zika Virus Infection p16"
+"Loaded_Programs=Zika Virus Infection p17"
+"Loaded_Programs=Zika Virus Infection p18"
+"Loaded_Frequencies=M87.032=1,M114.079,M57.021,M86.048,M113.048,M150.954,M128.095,M85.053,M87.032,M114.079,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M114.079,M87.032,M86.048,M113.048,M150.954,M85.053,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M57.021,M114.079,M128.095,M86.048,M113.048,M150.954,M85.053,M87.032,M128.095,0=4,"
+"Loaded_Frequencies=M114.079=1,M87.032,M86.048,M57.021,M150.954,M113.048,M128.095,M85.053,M114.079,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M86.048,M114.079,M113.048,M150.954,M128.095,M57.021,M85.053,M87.032,M114.079,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M150.954,M86.048,M57.021,M114.079,M113.048,M128.095,M85.053,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M114.079=1,M85.053,M57.021,M86.048,M113.048,M150.954,M128.095,M87.032,M114.079,M85.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M86.048,M114.079,M113.048,M87.032,M150.954,M85.053,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M57.021,M150.954,M86.048,M114.079,M128.095,M113.048,M85.053,M87.032,M128.095,M57.021,M114.079,0=4,"
+"Loaded_Frequencies=M114.079=1,M128.095,M87.032,M150.954,M86.048,M57.021,M114.079,M113.048,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M114.079,M85.053,M86.048,M150.954,M113.048,M128.095,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.095,M57.021,M114.079,M85.053,M86.048,M113.048,M150.954,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M114.079,M85.053,M86.048,M150.954,M113.048,M128.095,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M114.079=1,M57.021,M128.095,M114.079,M86.048,M113.048,M150.954,M85.053,M87.032,M114.079,0=4,"
+"Loaded_Frequencies=M87.032=1,M57.021,M114.079,M128.095,M150.954,M86.048,M113.048,M128.095,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M150.954,M86.048,M114.079,M113.048,M87.032,M128.095,M85.053,M114.079,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M114.079,M57.021,M86.048,M150.954,M128.095,M113.048,M85.053,M87.032,M114.079,0=4,"
+"Loaded_Frequencies=M114.079=1,M85.053,M86.048,M57.021,M113.048,M150.954,M128.095,M87.032,M114.079,M85.053,0=4,"
+"[/Preset]"

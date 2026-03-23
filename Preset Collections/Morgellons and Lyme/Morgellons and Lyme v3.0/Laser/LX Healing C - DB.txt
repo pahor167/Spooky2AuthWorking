@@ -1,0 +1,97 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=LX Healing C - DB"
+"Preset_Notes=M&L Protocol, Extras. Spooky Laser.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Skin Collagen Building XTRA
+Skin + Facial Toning XTRA
+Absentmindedness CAFL
+Clarity of Thought/Mental Function Stimulate XTRA
+Mental Function Improve XTRA
+Memory and Test-taking Improve XTRA
+Concentration Improve XTRA
+Emotional Balance 1 XTRA
+Emotions General Aid XTRA
+Grounding XTRA
+Essential Oil - Clarity XTRA
+Essential Oil - Motivation XTRA
+Essential Oil - Basil XTRA
+Essential Oil - Blue Tansy XTRA
+Essential Oil - En-R-Gee XTRA
+Essential Oil - Galbanum XTRA
+Essential Oil - Ravensara XTRA
+Essential Oil - Grounding XTRA
+Essential Oil - Frankincense XTRA
+Essential Oil - Thieves XTRA
+Essential Oil - Rose XTRA
+Essential Oil - Aroma Life XTRA
+Essential Oil - Angelica XTRA
+Essential Oil - Citrus Fresh XTRA
+Essential Oil - Joy XTRA
+Essential Oil - Forgiveness XTRA
+Essential Oil - Gathering XTRA
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Skin Collagen Building (XTRA)"
+"Loaded_Programs=Skin + Facial Toning (XTRA)"
+"Loaded_Programs=Absentmindedness (CAFL)"
+"Loaded_Programs=Clarity of Thought/Mental Function Stimulate (XTRA)"
+"Loaded_Programs=Mental Function Improve (XTRA)"
+"Loaded_Programs=Memory and Test-taking Improve (XTRA)"
+"Loaded_Programs=Concentration Improve (XTRA)"
+"Loaded_Programs=Emotional Balance 1 (XTRA)"
+"Loaded_Programs=Emotions General Aid (XTRA)"
+"Loaded_Programs=Grounding (XTRA)"
+"Loaded_Programs=Essential Oil - Clarity (XTRA)"
+"Loaded_Programs=Essential Oil - Motivation (XTRA)"
+"Loaded_Programs=Essential Oil - Basil (XTRA)"
+"Loaded_Programs=Essential Oil - Blue Tansy (XTRA)"
+"Loaded_Programs=Essential Oil - En-R-Gee (XTRA)"
+"Loaded_Programs=Essential Oil - Galbanum (XTRA)"
+"Loaded_Programs=Essential Oil - Ravensara (XTRA)"
+"Loaded_Programs=Essential Oil - Grounding (XTRA)"
+"Loaded_Programs=Essential Oil - Frankincense (XTRA)"
+"Loaded_Programs=Essential Oil - Thieves (XTRA)"
+"Loaded_Programs=Essential Oil - Rose (XTRA)"
+"Loaded_Programs=Essential Oil - Aroma Life (XTRA)"
+"Loaded_Programs=Essential Oil - Angelica (XTRA)"
+"Loaded_Programs=Essential Oil - Citrus Fresh (XTRA)"
+"Loaded_Programs=Essential Oil - Joy (XTRA)"
+"Loaded_Programs=Essential Oil - Forgiveness (XTRA)"
+"Loaded_Programs=Essential Oil - Gathering (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=190=180,370=180,7250=180,45750=180,120500=180,424000=180,467000=180,493100=180,750000=180,922530=180,"
+"Loaded_Frequencies=9.6=900,2.4=900,1.2=900,"
+"Loaded_Frequencies=5.8=900,"
+"Loaded_Frequencies=35=180,"
+"Loaded_Frequencies=20.8=180,"
+"Loaded_Frequencies=398=180,"
+"Loaded_Frequencies=5.79=180,7.83=180,20=180,35=180,10000=180,"
+"Loaded_Frequencies=15=180,644=180,764=180,"
+"Loaded_Frequencies=4.9=180,20=180,72=180,95=180,125=180,146=180,428=180,522=180,802=180,1550=180,10000=180,"
+"Loaded_Frequencies=194.71=180,"
+"Loaded_Frequencies=12625000=180,"
+"Loaded_Frequencies=12875000=180,"
+"Loaded_Frequencies=13000000=180,"
+"Loaded_Frequencies=13125000=180,"
+"Loaded_Frequencies=13250000=180,"
+"Loaded_Frequencies=14000000=180,"
+"Loaded_Frequencies=16750000=180,"
+"Loaded_Frequencies=17500000=180,"
+"Loaded_Frequencies=18375000=180,"
+"Loaded_Frequencies=18750000=180,"
+"Loaded_Frequencies=20000000=180,"
+"Loaded_Frequencies=21000000=180,"
+"Loaded_Frequencies=21250000=180,"
+"Loaded_Frequencies=22500000=180,"
+"Loaded_Frequencies=23500000=180,"
+"Loaded_Frequencies=24000000=180,"
+"Loaded_Frequencies=24750000=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

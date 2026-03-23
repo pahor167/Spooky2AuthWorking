@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Water Violet (S)"
+"Preset_Notes=Water Violet / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Water Violet - Quiet self-reliance leading to isolation.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Water Violet (S)"
+"Loaded_Frequencies=370.22,"
+"[/Preset]"

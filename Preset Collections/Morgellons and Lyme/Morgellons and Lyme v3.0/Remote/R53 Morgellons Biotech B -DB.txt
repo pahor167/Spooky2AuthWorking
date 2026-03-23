@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R53 Morgellons Biotech B -DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Plastics Detox XTRA
+Detox Plastics 2 XTRA
+Staphylococcus Epidermis XTRA
+Bisphenol A XTRA
+Smart Dust XTRA
+Silicone Detox XTRA
+Detox Aluminum XTRA
+Detox Barium XTRA
+Heavy Metals CAFL
+Your Scan Results CUST"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square_Hbomb=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Plastics Detox (XTRA)"
+"Loaded_Programs=Detox Plastics 2 (XTRA)"
+"Loaded_Programs=Staphylococcus Epidermis (XTRA)"
+"Loaded_Programs=Bisphenol A (XTRA)"
+"Loaded_Programs=Smart Dust (XTRA)"
+"Loaded_Programs=Silicone Detox (XTRA)"
+"Loaded_Programs=Detox Aluminum (XTRA)"
+"Loaded_Programs=Detox Barium (XTRA)"
+"Loaded_Programs=Heavy Metals (CAFL)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=7755766.6555=360,67553.6343=900,54423.7760=240,"
+"Loaded_Frequencies=67553.63=420,67553.64=420,1055.52=420,1055.53=420,54423.77=300,54423.78=300,"
+"Loaded_Frequencies=7755766.6555=1800,"
+"Loaded_Frequencies=1055.525=360,"
+"Loaded_Frequencies=55454.5454=1800,"
+"Loaded_Frequencies=787998.7877=1200,"
+"Loaded_Frequencies=15952.79=180,"
+"Loaded_Frequencies=19516.29=180,21822.15=180,"
+"Loaded_Frequencies=30000=900,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

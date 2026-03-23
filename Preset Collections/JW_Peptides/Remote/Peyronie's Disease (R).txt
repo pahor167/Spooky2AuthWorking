@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Peyronie’s Disease (R)"
+"Preset_Notes=Peyronie’s Disease for Remote
+
+The therapeutic strategy for Peyronie's Disease (PD) focuses on the resolution of the fibrotic plaque in the tunica albuginea, the reduction of acute-phase inflammation, and the management of associated pain and erectile dysfunction. The primary mechanistic axes include the inhibition of the Transforming Growth Factor beta (TGF-{beta}) pathway, which is the central driver of myofibroblast activation and collagen deposition, and the stimulation of matrix metalloproteinases (MMPs) for plaque resorption. Additionally, neurogenic inflammation and vascular health are addressed to alleviate pain and improve tissue elasticity. Peptides [11] and [12] are designed to specifically target the localized fibrotic environment.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Peyronie’s Disease p01"
+"Loaded_Programs=Peyronie’s Disease p02"
+"Loaded_Programs=Peyronie’s Disease p03"
+"Loaded_Programs=Peyronie’s Disease p04"
+"Loaded_Programs=Peyronie’s Disease p05"
+"Loaded_Programs=Peyronie’s Disease p06"
+"Loaded_Programs=Peyronie’s Disease p07"
+"Loaded_Programs=Peyronie’s Disease p08"
+"Loaded_Programs=Peyronie’s Disease p09"
+"Loaded_Programs=Peyronie’s Disease p10"
+"Loaded_Programs=Peyronie’s Disease p11"
+"Loaded_Programs=Peyronie’s Disease p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M101.048=1,M87.032,M113.084,M115.027,M71.037,M87.032,M113.084,M113.084,M186.079,M71.037,M131.040,M131.040,M128.058,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.084,M186.079,M147.068,M113.084,M97.053,M156.101,M87.032,M87.032,M186.079,M163.063,M129.043,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M186.079=1,M99.068,M115.027,M128.095,M57.021,M129.043,M128.058,M87.032,M163.063,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M71.037,M97.053,M57.021,M128.095,M115.027,M101.048,M113.084,M114.043,0=4,"
+"[/Preset]"

@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Ptosis (Droopy Eyelid) (C)"
+"Preset_Notes=Ptosis (Droopy Eyelid) for Contact
+
+Ptosis, or blepharoptosis, is characterized by abnormal drooping of the upper eyelid margin below its normal position (typically >2 mm below the superior limbus), resulting in reduced palpebral fissure height and potential visual field obstruction. Symptoms include cosmetic asymmetry, brow ache from frontalis compensation, fatigue, and in severe cases amblyopia (congenital) or functional visual impairment. Pathophysiology varies by subtype: aponeurotic (most common acquired form) involves age-related dehiscence, thinning, or disinsertion of the levator aponeurosis; myogenic arises from intrinsic levator palpebrae superioris dysfunction (e.g., dystrophies, chronic progressive external ophthalmoplegia, mitochondrial disorders); neurogenic stems from oculomotor nerve palsy, Horner's syndrome (sympathetic disruption affecting Müller's muscle), or central lesions; mechanical from external compression (tumors, edema); traumatic from direct injury. Congenital forms often feature levator dysgenesis with fibrofatty replacement.
+
+The proposed polypeptides are all conceptual designed short sequences targeting key therapeutic axes to promote eyelid elevation. One alternating cationic peptide conceptually mimics adrenergic signaling to activate Müller's muscle contraction, addressing mild acquired or sympathetic-related ptosis similar to pharmacological alpha-agonists. A proline-rich peptide aims to stabilize connective tissue and support aponeurotic integrity for involutional cases. An aromatic/hydrophobic sequence is designed to enhance levator muscle trophism in myogenic subtypes. A polar peptide targets neurotrophic support for neurogenic mechanisms. A glutamine/serine-rich motif conceptually facilitates neuromuscular transmission. Feasibility benefits from short lengths (5-9 residues) enabling straightforward solid-phase synthesis, reduced immunogenicity, and potential for topical/periocular delivery; mixed charged/hydrophobic residues ensure aqueous solubility and minimal aggregation risk, with no PTMs or long repeats for manufacturing ease and stability.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Ptosis (Droopy Eyelid) p01"
+"Loaded_Programs=Ptosis (Droopy Eyelid) p02"
+"Loaded_Programs=Ptosis (Droopy Eyelid) p03"
+"Loaded_Programs=Ptosis (Droopy Eyelid) p04"
+"Loaded_Programs=Ptosis (Droopy Eyelid) p05"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,0=4,"
+"Loaded_Frequencies=M147.068=1,M163.063,M147.068,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M114.043=1,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M128.058=1,M101.048,M87.032,M114.043,M128.058,0=4,"
+"[/Preset]"

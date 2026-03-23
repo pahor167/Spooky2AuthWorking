@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Broken Capillaries (P)"
+"Preset_Notes=Broken Capillaries for Plasma
+
+Broken capillaries, also known as telangiectasia or spider veins, are dilated small blood vessels near the skin surface often caused by aging, sun damage, genetics, rosacea, or trauma, resulting in visible redness and aesthetic concerns. Peptide therapies target multiple therapeutic axes to repair endothelium, strengthen vessel walls, promote balanced angiogenesis, and reduce inflammation for restored capillary integrity and reduced visibility.
+1. Angiogenesis and vascular cytoprotection: BPC-157 - Promotes endothelial cell proliferation, angiogenesis, and cytoprotection to repair and stabilize broken capillaries.
+2. Actin dynamics and endothelial migration: TB-500 - Enhances cell migration and cytoskeletal reorganization for rapid repair of damaged capillary endothelium.
+3. Collagen matrix remodeling and vessel strengthening: GHK - Stimulates collagen and elastin production to reinforce capillary walls and improve elasticity.
+4. Self-assembling nanofiber scaffold: RADA16 - Forms hydrogel matrix that supports cell adhesion, migration, and guided regeneration of vascular tissue.
+5. Immunomodulatory and pro-angiogenic defense: LL-37 - Provides antimicrobial protection while promoting angiogenesis and reducing inflammation in fragile capillaries.
+6. Anti-apoptotic capillary protection: Peptain-1 - Inhibits endothelial cell apoptosis and protects against capillary degeneration under ischemic or stress conditions.
+7. Endothelial barrier reinforcement: EndoBarrierPep - Engineered to stabilize tight junctions and reduce capillary permeability.
+8. VEGF signaling optimization: AngioOptPep - Fine-tunes VEGF pathways to promote stable vessel formation without excessive fragility.
+9. Oxidative stress defense: ROSDefendPep - Incorporates antioxidant motifs to shield capillary endothelium from reactive oxygen species damage.
+10. ECM structural mimicry: StructMimicPep - Mimics key ECM sequences to support long-term vessel wall integrity and remodeling.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Broken Capillaries p01"
+"Loaded_Programs=Broken Capillaries p02"
+"Loaded_Programs=Broken Capillaries p03"
+"Loaded_Programs=Broken Capillaries p04"
+"Loaded_Programs=Broken Capillaries p05"
+"Loaded_Programs=Broken Capillaries p06"
+"Loaded_Programs=Broken Capillaries p07"
+"Loaded_Programs=Broken Capillaries p08"
+"Loaded_Programs=Broken Capillaries p09"
+"Loaded_Programs=Broken Capillaries p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M147.068,M87.032,M99.068,M114.043,M113.084,M115.027,M99.068,M128.095,M137.059,M147.068,M87.032,M97.053,M129.043,M129.043,M113.084,M128.095,M99.068,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M128.095,M115.027,M129.043,M128.095,M156.101,M128.095,M128.095,M115.027,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M87.032,M163.063,M57.021,M115.027,M97.053,M156.101,M128.058,0=4,"
+"Loaded_Frequencies=M163.063=1,M186.079,M128.095,M137.059,M147.068,M163.063,M186.079,M128.095,M137.059,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M115.027,M128.095,M129.043,M71.037,M99.068,M113.084,M115.027,M128.095,0=4,"
+"[/Preset]"

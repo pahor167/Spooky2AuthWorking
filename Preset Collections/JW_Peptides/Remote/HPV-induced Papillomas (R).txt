@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=HPV-induced Papillomas (R)"
+"Preset_Notes=HPV-induced Papillomas for Remote
+
+HPV-induced papillomas are benign epithelial proliferations caused by human papillomavirus infection, including common warts, genital warts, and recurrent respiratory papillomatosis, characterized by viral persistence, impaired clearance, and potential for recurrence or malignancy in high-risk types. Proposed peptides target antiviral axes supported by literature on defensins, cathelicidins, and other AMPs that block HPV entry, infectivity, or infected cell viability.
+
+1. Cathelicidin antiviral defense: LL-37 - Human cathelicidin peptide with direct antiviral activity and immune modulation to enhance HPV clearance
+2. Beta-defensin protection: Human Beta-Defensin 3 (hBD-3) - Potent human defensin forming pores and blocking multiple HPV serotypes
+3. Lactoferrin-derived inhibition: Lactoferricin B - Bovine-derived fragment potently inhibiting HPV pseudovirus attachment and entry
+4. Theta-defensin blockade: {theta}-Defensin (RTD-1) - Cyclic primate defensin inhibiting high-risk HPV infection
+5. Alpha-defensin entry blockade: HNP-1_Alpha_Defensin - Human neutrophil peptide preventing papillomavirus uncoating and infection
+6. Alpha-defensin variant blockade: HNP-3_Alpha_Defensin - Variant neutrophil defensin with broad anti-papillomavirus activity
+7. Tryptophan-rich disruption: Indolicidin - Bovine peptide rapidly disrupting viral and cellular membranes in infected cells
+8. Beta-hairpin pore formation: Protegrin-1 - Porcine peptide forming pores to lyse HPV-infected cells
+9. Histone-derived intracellular action: Buforin II - Cell-penetrating peptide inhibiting viral processes inside infected cells
+10. Optimized cationic antimicrobial: Omiganan - Clinical-stage indolicidin analog with enhanced anti-HPV potential
+11. Proapoptotic amphipathic lysis: KLAK_LAK - Designed cationic peptide disrupting mitochondria in HPV-infected cells
+12. HSPG-competitive inhibition: PolyArg-10 - Designed deca-arginine peptide blocking HPV binding to heparan sulfate proteoglycans
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=HPV-induced Papillomas p01"
+"Loaded_Programs=HPV-induced Papillomas p02"
+"Loaded_Programs=HPV-induced Papillomas p03"
+"Loaded_Programs=HPV-induced Papillomas p04"
+"Loaded_Programs=HPV-induced Papillomas p05"
+"Loaded_Programs=HPV-induced Papillomas p06"
+"Loaded_Programs=HPV-induced Papillomas p07"
+"Loaded_Programs=HPV-induced Papillomas p08"
+"Loaded_Programs=HPV-induced Papillomas p09"
+"Loaded_Programs=HPV-induced Papillomas p10"
+"Loaded_Programs=HPV-induced Papillomas p11"
+"Loaded_Programs=HPV-induced Papillomas p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M102.001,M156.101,M102.001,M113.084,M102.001,M156.101,M156.101,M57.021,M99.068,M102.001,M156.101,M102.001,M113.084,M102.001,M101.048,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M115.027=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"[/Preset]"

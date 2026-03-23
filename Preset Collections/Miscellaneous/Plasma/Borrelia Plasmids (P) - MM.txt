@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW.txt"
+"PresetName=Borrelia Plasmids (P) - MM"
+"Preset_Notes=Borrelia Plasmids Plasma preset. By Manuel Mallo
+
+As some of you probably know, Borrelia is a pathogen that can easily ruin your life. 
+There are near 60,000 different strains and types for this pathogen, and that, probably, is the cause to be so difficult to eradicate.
+
+There are many frequencies in the database to fight Borrelia, but unless you know the type you're suffering, the frequencies apparently don't work. Even if you know the type, there are thousands of strains.
+
+I've been researching about Borrelia, and it appears that the key to fight this pathogen could be the plasmids it contains.
+
+It has been discovered that the plasmids are in charge of its malignancy, by taking control of various essential functions, as the reproduction, colonizing power, and the ability to hide from our immune system.
+
+This could be why this pathogen produces different effects on different people. The plasmids could be more effective on certain persons.
+https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3553-5
+
+There are many plasmids inside Borrelia, but the most common (and interesting for us) are the plasmids lp17, lp28-4, lp36, lp54 and cp26.
+
+These plasmids are on virtually every strain and type, so no matter if you have Burgdorfery, Anserina or Recurrentis, the type you have, almost for sure has some of these plasmids.
+
+The Plasma preset runs for 2:09:00, and the duration of the sessions must be calibrated according to the reactions it produce on each individual. If the herx is very strong, lower the number of sessions, of use it every other day.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+Place the plasma tube near to, or touching, your body. Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Spooky Plasma/Spooky Plasma Input. Out 2 to Spooky Plasma/Spooky Plasma Modulation."
+"Gate_On_Off_Duration_Option=True"
+"Loaded_Programs=MM_Borrelia plasmids (CUST)"
+"Loaded_Frequencies=6246950.42=180,5989729.42=180,5805845.42=180,5680145.00=180,5469984.49=180,5463716.07=180,7729315.10=180,9999447.80=180,7434051.67=180,7428296.35=180,6968126.11=180,6289761.91=180,6289070.85=180,5797321.04=180,5167669.09=180,5183455.93=180,8482975.82=180,8451903.61=180,7040465.55=180,6992489.46=180,6666750.94=180,6581802.62=180,6395161.88=180,6357236.09=180,6356101.94=180,6263803.90=180,6212244.72=180,6176284.80=180,6141878.56=180,6140037.68=180,6056088.11=180,6244562.82=180,6241100.12=180,6224293.99=180,6183543.54=180,6177557.73=180,6116782.93=180,6115384.60=180,6109416.83=180,6105736.92=180,6031877.14=180,6100019.88=180,6094273.77=180,"
+"[/Preset]"

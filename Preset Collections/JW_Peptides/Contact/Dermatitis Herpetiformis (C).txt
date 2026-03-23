@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dermatitis Herpetiformis (C)"
+"Preset_Notes=Dermatitis Herpetiformis for Contact
+
+Dermatitis herpetiformis (DH), also known as Duhring's disease, is a chronic autoimmune blistering skin disorder characterized by intensely pruritic polymorphic eruptions, typically symmetrical papulovesicles, excoriations, and crusted lesions on extensor surfaces such as elbows, knees, buttocks, and scalp. It is the specific cutaneous manifestation of gluten sensitivity, with nearly all patients exhibiting varying degrees of gluten-sensitive enteropathy akin to celiac disease, though often subclinical. Pathophysiology involves ingestion of gluten leading to IgA autoantibodies against tissue transglutaminase 2 (TG2) in the gut, with epitope spreading or cross-reactivity generating antibodies to epidermal transglutaminase 3 (TG3), the primary autoantigen in skin. Circulating IgA-anti-TG3 complexes deposit granularly in dermal papillae, activating complement, recruiting neutrophils and eosinophils, and releasing proteases that cause dermo-epidermal separation and subepidermal blisters. Contributing factors include HLA-DQ2/DQ8 predisposition, potential roles of cytokines such as IL-17, IL-36, and IL-31 in amplifying inflammation and itch, and impaired intestinal barrier permitting immunogenic gliadin peptides to trigger the cascade.
+
+The proposed polypeptides target three core therapeutic axes derived from established pathophysiology: (1) restoration of intestinal barrier integrity to limit gluten peptide translocation and downstream autoimmunity, addressed by the real-world investigational octapeptide larazotide (tight junction modulator with clinical evidence in celiac disease for reducing gluten-induced permeability and symptoms) and a designed stability-enhanced analog (N-acetylated and C-amidated with cationic lysine extension for protease resistance and improved mucosal adhesion, derived from the larazotide GGVLVQPG motif); (2) promotion of mucosal and cutaneous tissue repair to counteract enteropathy and blister damage, addressed by the real-world stable gastric pentadecapeptide BPC-157 (preclinical and investigational evidence for angiogenesis, collagen reorganization, and healing in gastrointestinal lesions and skin wounds); (3) suppression of neutrophilic inflammation and pruritus in skin, addressed by a designed multimeric KPV peptide (repetitive core anti-inflammatory motif from alpha-melanocyte-stimulating hormone, with N-acetylation and C-amidation for enhanced potency and stability in reducing cytokine-driven dermal inflammation).
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dermatitis Herpetiformis p01"
+"Loaded_Programs=Dermatitis Herpetiformis p02"
+"Loaded_Programs=Dermatitis Herpetiformis p03"
+"Loaded_Programs=Dermatitis Herpetiformis p04"
+"Loaded_Frequencies=M57.021=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M56.037,0=4,"
+"Loaded_Frequencies=M99.032=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M57.021,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"[/Preset]"

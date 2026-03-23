@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Rectal Prolapse (R)"
+"Preset_Notes=Rectal Prolapse for Remote
+
+Rectal prolapse is a debilitating condition characterized by the protrusion of the rectal wall through the anus, often resulting from a combination of factors including chronic straining due to constipation, weakening of the pelvic floor muscles and supportive ligaments from aging, multiple childbirths, or previous surgeries, neurological impairments such as pudendal nerve damage, inflammatory bowel diseases contributing to tissue inflammation and altered motility, and connective tissue disorders like Ehlers-Danlos syndrome. Symptoms manifest as a visible red mass protruding from the anus, especially during bowel movements, fecal incontinence, mucus discharge, rectal bleeding, chronic constipation or obstructed defecation, pain or discomfort in the anal region, and a sensation of incomplete evacuation. In severe cases, it can lead to ulceration, strangulation, or gangrene of the prolapsed tissue. Pathophysiologically, rectal prolapse involves multifactorial disruptions: pelvic floor dysfunction with sphincter atrophy and paradoxical puborectalis contraction, impaired sensorimotor function leading to reduced rectal sensation and propulsion, anatomical abnormalities such as rectocele or intussusception, chronic inflammation exacerbating tissue weakness, and potential circadian rhythm disturbances in immune responses that worsen bowel inflammation. Conservative management includes stool softeners and pelvic floor exercises, but surgical approaches like rectopexy or resection are often necessary for correction.
+
+The proposed polypeptides target various therapeutic axes to mitigate rectal prolapse. Real-world polypeptides like BPC-157 facilitate wound healing, nerve regeneration, and fistula closure, addressing sphincter repair and post-surgical recovery. Linaclotide and Plecanatide activate guanylate cyclase-C to enhance intestinal fluid secretion and motility, alleviating constipation and reducing straining that exacerbates prolapse. Teduglutide, a GLP-2 analog, improves bowel absorption and adaptation, supporting overall gastrointestinal function. VIP regulates motility and vasodilation, aiding in rectal propulsion. Substance P enhances sensory perception, improving rectal sensation. Alpha-MSH and Cortistatin provide anti-inflammatory effects, reducing bowel inflammation associated with prolapse. Ghrelin modulates gastrocolic reflexes and motility. TGF-beta2 promotes connective tissue remodeling and repair, strengthening pelvic support. CCK-8 influences postprandial gallbladder and rectal responses, aiding sensation. GLP-1 regulates incretin effects and gut hormones, supporting defecation. CGRP induces vasodilation and modulates motility, potentially relieving obstructed defecation. Argireline relaxes facial-like muscle contractions, conceptually aiding puborectalis relaxation. The designed polypeptides are flagged as conceptual: Peptide [15] targets circadian clock modulation to normalize immune responses in bowel tissue; Peptide [16] provides additional anti-inflammatory support; Peptide [17] enhances pelvic floor muscle strengthening; Peptide [18] improves rectal propulsion to address obstructed defecation.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Rectal Prolapse p01"
+"Loaded_Programs=Rectal Prolapse p02"
+"Loaded_Programs=Rectal Prolapse p03"
+"Loaded_Programs=Rectal Prolapse p04"
+"Loaded_Programs=Rectal Prolapse p05"
+"Loaded_Programs=Rectal Prolapse p06"
+"Loaded_Programs=Rectal Prolapse p07"
+"Loaded_Programs=Rectal Prolapse p08"
+"Loaded_Programs=Rectal Prolapse p09"
+"Loaded_Programs=Rectal Prolapse p10"
+"Loaded_Programs=Rectal Prolapse p11"
+"Loaded_Programs=Rectal Prolapse p12"
+"Loaded_Programs=Rectal Prolapse p13"
+"Loaded_Programs=Rectal Prolapse p14"
+"Loaded_Programs=Rectal Prolapse p15"
+"Loaded_Programs=Rectal Prolapse p16"
+"Loaded_Programs=Rectal Prolapse p17"
+"Loaded_Programs=Rectal Prolapse p18"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M102.001,M129.043,M163.063,M102.001,M102.001,M114.043,M97.053,M71.037,M102.001,M101.048,M57.021,M102.001,M163.063,0=4,"
+"Loaded_Frequencies=M114.043=1,M115.027,M129.043,M102.001,M129.043,M113.084,M102.001,M99.068,M114.043,M99.068,M71.037,M102.001,M101.048,M57.021,M102.001,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M113.084,M128.058,M101.048,M128.095,M113.084,M101.048,M115.027,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M212.128,M147.068,M113.084,M87.032,M97.053,M129.043,M137.059,M128.058,M156.101,M99.068,M128.058,M128.058,M156.101,M128.095,M129.043,M87.032,M128.095,M128.095,M97.053,M97.053,M71.037,M128.095,M113.084,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M115.027,M71.037,M71.037,M163.063,M102.001,M147.068,M156.101,M114.043,M99.068,M128.058,M115.027,M114.043,M102.001,M102.001,M113.084,M156.101,M97.053,M113.084,M163.063,M113.084,M115.027,M147.068,M128.095,M156.101,M115.027,M113.084,M57.021,M186.079,M128.095,M186.079,M113.084,M137.059,M129.043,M97.053,M128.095,M57.021,M163.063,M114.043,M71.037,M114.043,M147.068,M102.001,M71.037,M57.021,M71.037,M102.001,M97.053,M163.063,M113.084,M186.079,M87.032,M87.032,M115.027,M101.048,M128.058,M137.059,M87.032,M156.101,M99.068,M113.084,M87.032,M113.084,M163.063,M114.043,M101.048,M113.084,M114.043,M97.053,M129.043,M71.037,M87.032,M71.037,M87.032,M97.053,M102.001,M102.001,M99.068,M87.032,M128.058,M115.027,M113.084,M129.043,M97.053,M113.084,M101.048,M113.084,M113.084,M163.063,M163.063,M113.084,M57.021,M128.095,M101.048,M97.053,M128.095,M113.084,M129.043,M128.058,M113.084,M87.032,M114.043,M131.040,M113.084,M99.068,M128.095,M87.032,M102.001,M128.095,M102.001,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M163.063,M131.040,M57.021,M186.079,M131.040,M115.027,M146.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M156.101,M97.053,M137.059,M129.043,M163.063,M131.040,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M115.027=1,M103.009,M156.101,M97.053,M137.059,M128.095,M131.040,M87.032,M99.068,M101.048,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.095,M113.084,M131.040,M156.101,M97.053,M57.021,M87.032,M137.059,M163.063,0=4,"
+"Loaded_Frequencies=M99.068=1,M87.032,M101.048,M128.095,M113.084,M131.040,M114.043,M97.053,M137.059,M156.101,0=4,"
+"[/Preset]"

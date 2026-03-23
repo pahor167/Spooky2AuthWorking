@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Heart Attack (P)"
+"Preset_Notes=Heart Attack for Plasma
+
+Real-world peptides address key therapeutic axes for heart attack (myocardial infarction): anti-inflammatory action (BPC-157, VIP, CGRP), angiogenesis modulation (Thymosin {beta}4), renin-angiotensin system regulation and fibrosis restriction (Angiotensin-(1-7), ANP, BNP), mitochondrial protection and antioxidant effects (Humanin, CGRP), barrier function integrity (VIP, CGRP), and metabolic/endocrine support via natriuretic peptides (ANP, BNP). All peptides use standard residues with no terminal modifications or PTMs as validated in clinical/preclinical studies.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Heart Attack p01"
+"Loaded_Programs=Heart Attack p02"
+"Loaded_Programs=Heart Attack p03"
+"Loaded_Programs=Heart Attack p04"
+"Loaded_Programs=Heart Attack p05"
+"Loaded_Programs=Heart Attack p06"
+"Loaded_Programs=Heart Attack p07"
+"Loaded_Programs=Heart Attack p08"
+"Loaded_Programs=Heart Attack p09"
+"Loaded_Programs=Heart Attack p10"
+"Loaded_Frequencies=M57.021=1,M57.021,M97.053,M156.101,M57.021,M71.037,M97.053,M57.021,M71.037,M97.053,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M128.095,M129.043,M87.032,M101.048,M131.040,M113.084,M115.027,M97.053,M99.068,M129.043,M129.043,M113.084,M129.043,M128.059,M163.063,M128.095,M156.101,M129.043,M87.032,M97.053,M128.095,M163.063,M128.095,M113.084,M103.009,M113.084,M114.043,M57.021,M99.068,M71.037,M137.059,M113.084,M147.068,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M57.021,M156.101,M113.084,M113.084,M147.068,M87.032,M128.095,M97.053,M101.048,M103.009,M71.037,M163.063,M129.043,M128.059,M137.059,M71.037,M113.084,M57.021,M113.084,M99.068,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M115.027=1,M186.079,M128.095,M147.068,M113.084,M129.043,M128.059,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M115.027,M156.101,M97.053,M99.068,M128.059,M87.032,M99.068,M101.048,M128.095,M156.101,M113.084,M113.084,M156.101,M156.101,M163.063,M129.043,M114.043,M147.068,M57.021,M129.043,M103.009,M156.101,M113.084,M113.084,M131.040,M71.037,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M147.068,M99.068,M114.043,M97.053,M128.095,M115.027,M113.084,M113.084,M156.101,M163.063,M129.043,M101.048,M128.059,M115.027,M147.068,M99.068,M186.079,M113.084,M87.032,M156.101,M156.101,M71.037,M129.043,M147.068,M128.095,M103.009,M128.095,M115.027,0=4,"
+"Loaded_Frequencies=M115.027=1,M71.037,M103.009,M129.043,M87.032,M101.048,M71.037,M131.040,M137.059,M114.043,M128.095,M57.021,M99.068,M113.084,M97.053,M71.037,M114.043,M103.009,M113.084,M163.063,M156.101,M113.084,M128.059,M97.053,M128.059,M156.101,M156.101,M57.021,M97.053,M113.084,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M113.084,M147.068,M97.053,M101.048,M114.043,M97.053,M87.032,M128.095,M128.095,M128.059,M99.068,M129.043,M113.084,M131.040,M156.101,M186.079,M113.084,M128.095,M115.027,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M113.084,M57.021,M71.037,M156.101,M131.040,M87.032,M113.084,M137.059,M128.095,M186.079,M128.059,M114.043,M113.084,M147.068,M163.063,M156.101,M99.068,M113.084,M71.037,M128.059,M99.068,M163.063,M156.101,0=4,"
+"[/Preset]"

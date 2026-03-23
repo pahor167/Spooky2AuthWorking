@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Detox Oxalate (C)"
+"Preset_Notes=Detox Oxalate for Contact
+
+Oxalate Detoxification
+
+Oxalate detoxification addresses conditions of elevated oxalic acid or oxalate levels in the body, leading to hyperoxaluria (excess urinary oxalate) and associated complications. Primary hyperoxaluria is a rare genetic disorder involving defects in glyoxylate metabolism (e.g., AGXT, GRHPR, or HOGA1 mutations), causing hepatic overproduction of oxalate. Secondary hyperoxaluria arises from increased dietary intake (e.g., from spinach, nuts, chocolate), enteric overabsorption (e.g., in inflammatory bowel disease, bariatric surgery, or fat malabsorption), or other factors like ethylene glycol poisoning. Symptoms include recurrent calcium oxalate kidney stones, nephrolithiasis, nephrocalcinosis, chronic kidney disease progression, and in severe cases, end-stage renal failure with systemic oxalosis affecting bones, heart, and tissues. Pathophysiology centers on oxalate's poor solubility with calcium, forming crystals that induce renal tubular injury, oxidative stress via NADPH oxidase and reactive oxygen species, mitochondrial dysfunction, inflammation through NLRP3 inflammasome activation, and fibrosis, exacerbating stone formation and tissue damage.
+
+The proposed designed polypeptides provide oral gut-targeted interventions to lower systemic oxalate burden, complementing conservative measures like high fluid intake and low-oxalate diets. All are designed with stability enhancements (terminal capping or cyclization) for proteolytic resistance and drug-likeness, derived from rational principles and literature motifs. The capped polybasic oxalate binder uses high cationic charge for electrostatic sequestration of oxalate dianion in the gastrointestinal lumen, preventing absorption (rational design based on charge interaction with dicarboxylates). The variant cationic binder employs an alternative pattern for similar sequestration with improved diversity. The cyclic SLR-inspired peptide is a disulfide-cyclized mimetic derived from Oxalobacter formigenes Sel1-like repeat protein motifs known to stimulate intestinal oxalate secretion, promoting efflux via transporters like SLC26A2/A6 to reduce net absorption. The capped extended SLR mimetic extends the literature-derived fragment (e.g., AQYNLALMLEAGR core) with terminal capping for enhanced stability while retaining potential to activate secretion pathways. Together, these cover key axes of direct binding and secretion stimulation for effective oxalate detoxification.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Detox Oxalate p01"
+"Loaded_Programs=Detox Oxalate p02"
+"Loaded_Programs=Detox Oxalate p03"
+"Loaded_Programs=Detox Oxalate p04"
+"Loaded_Frequencies=M198.112=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M170.106=1,M156.101,M128.095,M156.101,M156.101,M128.095,M156.101,M156.101,M128.095,M155.117,0=4,"
+"Loaded_Frequencies=M102.001=1,M71.037,M128.058,M163.063,M114.043,M113.084,M71.037,M113.084,M131.040,M113.084,M129.043,M71.037,M57.021,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M128.058,M163.063,M114.043,M113.084,M71.037,M113.084,M131.040,M113.084,M129.043,M71.037,M57.021,M156.101,M71.037,M128.058,M163.063,M114.043,M113.084,M70.053,0=4,"
+"[/Preset]"

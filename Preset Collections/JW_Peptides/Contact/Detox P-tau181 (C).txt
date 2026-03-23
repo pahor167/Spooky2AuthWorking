@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Detox P-tau181 (C)"
+"Preset_Notes=Detox P-tau181 for Contact
+
+Detox (P-tau181)
+
+Detox (P-tau181) refers to strategies aimed at reducing levels of phosphorylated tau at threonine 181, a key pathological marker in Alzheimer's disease and related tauopathies, to mitigate neurodegeneration and cognitive decline. Key therapeutic axes identified: Tau kinase inhibition, HDAC inhibition, Anti-tau immunotherapy, Insulin signaling enhancement, Methylation modulation. Assignments: Peptide 1 targets Tau kinase inhibition as documented peptide. Peptide 2 targets HDAC inhibition mimicking inhibitory domains. Peptide 3 targets Anti-tau immunotherapy as documented vaccine peptide. Peptide 4 targets Insulin signaling enhancement as documented GLP-1 agonist. Peptide 5 targets Methylation modulation mimicking donor motifs. Mechanisms involve rational engineering based on literature motifs for stability and efficacy.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Detox P-tau181 p01"
+"Loaded_Programs=Detox P-tau181 p02"
+"Loaded_Programs=Detox P-tau181 p03"
+"Loaded_Programs=Detox P-tau181 p04"
+"Loaded_Programs=Detox P-tau181 p05"
+"Loaded_Frequencies=M198.112=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M57.021,M97.053,M128.095,M163.063,M170.106,M113.084,M128.058,M99.068,M57.021,M155.117,0=4,"
+"Loaded_Frequencies=M170.106=1,M156.101,M137.059,M156.101,M128.095,M156.101,M137.059,M156.101,M128.095,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M128.095=1,M115.027,M114.043,M113.084,M128.095,M137.059,M99.068,M97.053,M57.021,M57.021,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M198.112=1,M128.095,M131.040,M147.068,M156.101,M99.068,M57.021,M115.027,M87.032,M98.084,0=4,"
+"[/Preset]"

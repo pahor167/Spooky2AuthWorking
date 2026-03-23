@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Cat and Dog Taenia Taeniaeformis (S)"
+"Preset_Notes=Cat and Dog Taenia Taeniaeformis for Scalar
+
+Cat and Dog Taenia taeniaeformis (including larval form: Cysticercus fasciolaris)
+
+Taenia taeniaeformis is a cestode parasite with felids as definitive hosts and rodents as intermediates, where the larval Cysticercus fasciolaris forms hepatic cysts. The proposed polypeptides are antimicrobial peptides targeting membrane disruption and parasite killing, supported by direct evidence on related cestode cysticerci (e.g., Taenia crassiceps) and broad antihelminth activity in literature.
+
+1. Temporin family-mediated cysticerci membrane damage: Temporin A exerts direct effects on cestode larval stages per preclinical studies on similar cysticerci.
+2. Protegrin family beta-hairpin pore-formation: Protegrin-1 (and close analogs like Iseganan) disrupts parasite membranes in cestode cysticerci models.
+3. Human cathelicidin broad-spectrum antiparasitic action: LL-37 provides direct killing and immunomodulation applicable to helminth infections.
+4. Engineered cecropin-temporin hybrid optimization: Ac-KWKLFKKIFLPLIGRVLSGIL-NH2 combines cationic helix-forming motif with temporin core for enhanced charge, stability, and targeted disruption of parasite membranes.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Cat and Dog Taenia Taeniaeformis p01"
+"Loaded_Programs=Cat and Dog Taenia Taeniaeformis p02"
+"Loaded_Programs=Cat and Dog Taenia Taeniaeformis p03"
+"Loaded_Programs=Cat and Dog Taenia Taeniaeformis p04"
+"Loaded_Frequencies=M147.068=1,M113.084,M97.053,M113.084,M113.084,M57.021,M156.101,M99.068,M113.084,M87.032,M57.021,M113.084,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M103.009,M163.063,M103.009,M156.101,M156.101,M156.101,M147.068,M103.009,M99.068,M103.009,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M97.053,M156.101,M113.084,M99.068,M101.048,M129.043,M87.032,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M170.106=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M147.068,M113.084,M97.053,M113.084,M113.084,M57.021,M156.101,M99.068,M113.084,M87.032,M57.021,M113.084,M112.100,0=4,"
+"[/Preset]"

@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=McArdle Disease (P)"
+"Preset_Notes=McArdle Disease for Plasma
+
+McArdle disease (glycogen storage disease type V, GSD V) is a rare autosomal recessive metabolic myopathy caused by biallelic pathogenic variants in the PYGM gene encoding the muscle isoform of glycogen phosphorylase (myophosphorylase). Deficiency of this enzyme blocks the initial step of glycogenolysis in skeletal muscle, preventing release of glucose-1-phosphate from glycogen stores during anaerobic or high-intensity exercise. This results in an energy crisis with rapid fatigue, painful muscle cramps/contractures, exercise intolerance, elevated serum creatine kinase, and episodes of rhabdomyolysis with myoglobinuria ('dark urine') and risk of acute renal failure; a characteristic 'second wind' phenomenon occurs as muscle adapts to fatty acid oxidation and increased blood glucose delivery. Late-onset fixed proximal weakness and muscle wasting may develop. Diagnosis is confirmed by absent myophosphorylase activity in muscle biopsy (with subsarcolemmal glycogen accumulation), non-ischemic forearm exercise test showing absent lactate rise, or PYGM sequencing. Pathophysiology centers on impaired anaerobic ATP production, secondary mitochondrial dysfunction, oxidative stress from ROS accumulation, autophagic buildup due to blocked glycogen turnover, and potential inflammatory responses during rhabdomyolysis episodes.
+
+The proposed polypeptides are entirely conceptually designed short sequences, as comprehensive searches across PubMed, clinicaltrials.gov, patents, and related sources identified no real-world polypeptide, peptide, antibody, or protein therapeutics (established, investigational, preclinical, or off-label) for McArdle disease; current management is supportive (structured exercise, carbohydrate-rich pre-exercise meals, creatine supplementation) with emerging gene therapy (AAV-PYGM) and small-molecule approaches in trials, none involving short polypeptides. These designed polypeptides target five core mechanistic axes derived from documented pathophysiology: (1) blocked glycogenolysis and energy deficit, addressed by the first designed polypeptide to conceptually enhance alternative ATP pathways; (2) excessive glycogen accumulation and autophagic impairment, targeted by the second designed polypeptide to promote turnover; (3) oxidative stress and ROS-mediated damage during crises, countered by the third designed polypeptide with antioxidant properties; (4) mitochondrial dysfunction and impaired fatty acid oxidation adaptation, modulated by the fourth designed polypeptide to support energetics; (5) rhabdomyolysis-associated muscle damage and inflammation, ameliorated by the fifth designed polypeptide to provide protective and anti-inflammatory effects. Together, these provide multi-axis conceptual coverage to improve exercise tolerance, reduce crisis frequency/severity, and mitigate long-term muscle damage, with feasibility informed by metabolic myopathy models and exercise physiology.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=McArdle Disease p01"
+"Loaded_Programs=McArdle Disease p02"
+"Loaded_Programs=McArdle Disease p03"
+"Loaded_Programs=McArdle Disease p04"
+"Loaded_Programs=McArdle Disease p05"
+"Loaded_Frequencies=M156.101=1,M128.095,M71.037,M87.032,M97.053,M57.021,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M128.095,M186.079,M97.053,M128.058,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M103.009,M137.059,M101.048,M163.063,M103.009,M137.059,M186.079,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.095,M128.095,M156.101,M97.053,M147.068,M186.079,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M128.095,M137.059,M71.037,M57.021,M186.079,M101.048,0=4,"
+"[/Preset]"

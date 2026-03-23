@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Breast Cancer (S)"
+"Preset_Notes=Breast Cancer for Scalar
+
+Breast cancer is the most common malignancy in women worldwide, characterized by uncontrolled proliferation of abnormal cells in breast tissue, primarily originating from ductal or lobular epithelium. Causes include genetic mutations (e.g., BRCA1/2, TP53), hormonal factors ( prolonged estrogen exposure, early menarche, late menopause, hormone replacement therapy), lifestyle risks (obesity, alcohol, physical inactivity), environmental exposures, and family history. Symptoms often include a painless lump in the breast or axilla, nipple discharge or inversion, skin changes (dimpling, redness), breast pain, or swelling; advanced disease may present with bone pain, weight loss, or respiratory symptoms from metastasis. Pathophysiology involves dysregulation of cell cycle control, apoptosis evasion, sustained angiogenesis, tissue invasion, and metastasis via lymphatic or hematogenous routes, with molecular subtypes including hormone receptor-positive (HR+, estrogen/progesterone-driven), HER2-positive (amplification-driven aggressive growth), triple-negative (lacking ER/PR/HER2, often basal-like with poor prognosis), and others; key pathways encompass PI3K/AKT/mTOR hyperactivation, cell cycle dysregulation, DNA repair defects, and immunosuppressive tumor microenvironment.
+
+The proposed polypeptides target critical mechanistic axes in breast cancer management: multi-modal tissue protection and stabilization amid tumor growth or treatment stress, enhancement of regenerative repair with antioxidant effects to counter oxidative damage, promotion of extracellular matrix remodeling with potential anti-metastatic modulation, and regulation of chronic inflammation with immune resolution in the tumor microenvironment. Real-world polypeptides include BPC-157 (stable gastric pentadecapeptide with preclinical evidence for tissue protection, anti-inflammatory action, and supportive effects in cancer-associated models) and GHK (endogenous copper-binding tripeptide with documented antioxidant, gene-modulating, and remodeling activity potentially beneficial against metastatic progression). Designed polypeptides include a stabilized TB4-core (derived from the LKKTET actin-binding motif of Thymosin beta-4 with N-acetylation and C-amidation for proteolytic resistance and improved stability, to support cellular repair processes), a GHK-multimer (rational repeat extension of GHK motif with terminal modifications to amplify copper-mediated antioxidant and remodeling signals), and an IDR-inspired (based on innate defense regulator motifs like IDR-1018 with C-amidation for selective anti-inflammatory action while enhancing resolution in tumor-associated inflammation).
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Breast Cancer p01"
+"Loaded_Programs=Breast Cancer p02"
+"Loaded_Programs=Breast Cancer p03"
+"Loaded_Programs=Breast Cancer p04"
+"Loaded_Programs=Breast Cancer p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,M57.021,M57.021,M57.021,M137.059,M128.095,M57.021,M57.021,M57.021,M137.059,M127.111,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"[/Preset]"

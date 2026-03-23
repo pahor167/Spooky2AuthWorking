@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Strabismus (C)"
+"Preset_Notes=Strabismus for Contact
+
+Strabismus is a disorder of ocular alignment in which the eyes fail to point at the same object simultaneously, resulting in horizontal (inward esotropia or outward exotropia), vertical, or torsional misalignment. It affects approximately 2-4% of the population and can be congenital or acquired. Symptoms include diplopia (double vision), loss of binocular depth perception, amblyopia in children, head tilt or turn, and eye strain. Pathophysiology centers on disruption of balanced innervation to the six extraocular muscles by cranial nerves III, IV, and VI, leading to muscle strength or tone imbalance, restrictive orbital forces (e.g., in thyroid eye disease), abnormal sensory fusion, or central neural control defects. Uncorrected hyperopia or accommodative issues can drive inward deviation, while mechanical or inflammatory factors restrict movement.
+
+The polypeptide panel targets key therapeutic axes derived from current literature. Real-world polypeptides are limited to IGF-1 variants, demonstrated in preclinical primate and zebrafish models to increase force generation, mass, and alignment in underacting extraocular muscles via IGF signaling activation. Botulinum toxin, the primary clinical pharmacological agent, acts via chemodenervation but exceeds length constraints and is thus conceptually addressed by designed polypeptides. Designed polypeptides (clearly flagged as Designed below) supplement coverage with short, stable sequences incorporating non-standard residues for bioavailability, enforcing diversity, low similarity, controlled hydrophobicity, and partial cyclization. They conceptually target neuromuscular blockade (cationic/amphipathic disruption mimicking SNARE inhibition), anti-inflammatory modulation, neurotrophic support, mitochondrial stabilization (aromatic motifs inspired by protective peptides), and neural plasticity enhancement, providing comprehensive multi-axis intervention.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Strabismus p01"
+"Loaded_Programs=Strabismus p02"
+"Loaded_Programs=Strabismus p03"
+"Loaded_Programs=Strabismus p04"
+"Loaded_Programs=Strabismus p05"
+"Loaded_Programs=Strabismus p06"
+"Loaded_Programs=Strabismus p07"
+"Loaded_Programs=Strabismus p08"
+"Loaded_Programs=Strabismus p09"
+"Loaded_Programs=Strabismus p10"
+"Loaded_Programs=Strabismus p11"
+"Loaded_Programs=Strabismus p12"
+"Loaded_Programs=Strabismus p13"
+"Loaded_Programs=Strabismus p14"
+"Loaded_Programs=Strabismus p15"
+"Loaded_Programs=Strabismus p16"
+"Loaded_Programs=Strabismus p17"
+"Loaded_Programs=Strabismus p18"
+"Loaded_Frequencies=M57.021=1,M97.053,M129.043,M101.048,M113.084,M102.001,M57.021,M71.037,M129.043,M113.084,M99.068,M115.027,M71.037,M113.084,M128.058,M147.068,M99.068,M102.001,M57.021,M115.027,M156.101,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M97.053,M101.048,M57.021,M163.063,M57.021,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,M57.021,M113.084,M99.068,M115.027,M129.043,M102.001,M102.001,M147.068,M156.101,M87.032,M102.001,M115.027,M113.084,M156.101,M156.101,M113.084,M129.043,M131.040,M163.063,M102.001,M71.037,M97.053,M113.084,M128.095,M97.053,M71.037,M128.095,M87.032,M71.037,0=4,"
+"Loaded_Frequencies=M101.048=1,M113.084,M102.001,M57.021,M71.037,M129.043,M113.084,M99.068,M115.027,M71.037,M113.084,M128.058,M147.068,M99.068,M102.001,M57.021,M115.027,M156.101,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M97.053,M101.048,M57.021,M163.063,M57.021,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,M57.021,M113.084,M99.068,M115.027,M129.043,M102.001,M102.001,M147.068,M156.101,M87.032,M102.001,M115.027,M113.084,M156.101,M156.101,M113.084,M129.043,M131.040,M163.063,M102.001,M71.037,M97.053,M113.084,M128.095,M97.053,M71.037,M128.095,M87.032,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M147.068,M97.053,M71.037,M131.040,M97.053,M113.084,M87.032,M87.032,M113.084,M147.068,M99.068,M114.043,M57.021,M97.053,M156.101,M101.048,M113.084,M102.001,M57.021,M71.037,M129.043,M113.084,M99.068,M115.027,M71.037,M113.084,M128.058,M147.068,M99.068,M102.001,M57.021,M115.027,M156.101,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M97.053,M101.048,M57.021,M163.063,M57.021,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,M57.021,M113.084,M99.068,M115.027,M129.043,M102.001,M102.001,M147.068,M156.101,M87.032,M102.001,M115.027,M113.084,M156.101,M156.101,M113.084,M129.043,M131.040,M163.063,M102.001,M71.037,M97.053,M113.084,M128.095,M97.053,M71.037,M128.095,M87.032,M71.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M128.095,M156.101,M86.048,M114.079,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M85.053,M113.084,M156.101,M128.095,M86.048,M113.048,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M163.063,M114.079,M147.068,M113.048,M86.048,M150.954,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M97.053,M113.048,M86.048,M114.079,M87.032,M100.064,M102.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M86.048,M114.079,M113.048,M85.053,M113.084,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M237.148,M114.079,M86.048,M113.048,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M100.064,M114.079,M128.095,M156.101,M113.048,M85.053,M113.084,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M147.068,M186.079,M114.079,M86.048,M113.048,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.048,M114.079,M86.048,M128.095,M156.101,M150.954,M237.148,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M128.095,M156.101,M147.068,M163.063,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M113.084,M113.048,M86.048,M114.079,M128.095,M156.101,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M100.064,M86.048,M113.048,M114.079,M128.095,M156.101,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M113.048,M114.079,M86.048,M128.095,M147.068,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M150.954,M114.079,M86.048,M128.095,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M100.064,M86.048,M113.048,M85.053,M113.084,M128.095,0=4,"
+"[/Preset]"

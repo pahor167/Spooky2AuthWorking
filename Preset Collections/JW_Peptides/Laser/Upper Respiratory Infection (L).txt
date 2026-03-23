@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Upper Respiratory Infection (L)"
+"Preset_Notes=Upper Respiratory Infection for Laser
+
+Upper Respiratory Infection refers to acute infections of the upper airways (nose, pharynx, larynx, sinuses), predominantly caused by viruses such as rhinoviruses, coronaviruses, RSV, and influenza, leading to inflammation, mucus production, and symptoms like congestion, sore throat, and cough; peptide therapies target pathogen neutralization, immune support, and inflammation control.
+
+1. Broad-spectrum antimicrobial defense: LL-37 - Human cathelicidin peptide exhibiting direct antiviral and antibacterial activity while modulating immune responses in respiratory epithelium.
+2. Immunomodulatory enhancement: Thymosin_alpha_1 - Stimulates T-cell and dendritic cell function to augment antiviral immunity and restore immune homeostasis during infection.
+3. Membrane-disrupting antiviral activity: Lactoferricin B - Bovine-derived peptide that disrupts microbial membranes and inhibits viral replication in mucosal tissues.
+4. Epithelial innate defense: Human Beta-Defensin 3 (hBD-3) - Potent antimicrobial peptide promoting pathogen clearance and immune cell recruitment at airway surfaces.
+5. Airway anti-inflammatory modulation: VIP - Vasoactive intestinal peptide reducing pro-inflammatory cytokines and protecting epithelial integrity in infected airways.
+6. Oxidative stress mitigation: Carnosine - Dipeptide scavenging reactive oxygen species to protect respiratory mucosa from infection-induced damage.
+7. Viral entry inhibition: PolyArgShield - Designed nona-arginine peptide competitively blocking viral attachment to heparan sulfate proteoglycans on epithelial cells.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Upper Respiratory Infection p01"
+"Loaded_Programs=Upper Respiratory Infection p02"
+"Loaded_Programs=Upper Respiratory Infection p03"
+"Loaded_Programs=Upper Respiratory Infection p04"
+"Loaded_Programs=Upper Respiratory Infection p05"
+"Loaded_Programs=Upper Respiratory Infection p06"
+"Loaded_Programs=Upper Respiratory Infection p07"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"[/Preset]"

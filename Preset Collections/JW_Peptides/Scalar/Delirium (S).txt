@@ -1,0 +1,61 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Delirium (S)"
+"Preset_Notes=Delirium for Scalar
+
+Delirium is an acute, often reversible, syndrome of fluctuating attention, awareness, and cognition, commonly precipitated by infection, surgery, medications, or metabolic disturbances, with high incidence in hospitalized elderly and ICU patients leading to prolonged recovery and mortality risk. Key pathophysiological axes include neuroinflammation, cholinergic deficiency, dopaminergic hyperactivity, oxidative stress/redox imbalance, serotonergic dysregulation, sleep-wake cycle disruption, GABAergic imbalance, and blood-brain barrier/endothelial dysfunction.
+
+Real-world polypeptide applications in delirium are sparse and mostly adjunctive/regional (e.g., Cerebrolysin peptide mixture in some trials for postoperative cognitive recovery, limited data on Semax/Selank for arousal modulation, investigational apoE-mimetic peptides like CN-105 for inflammation); however, these involve mixtures, non-listed modifications, or insufficient single-source compliant mass verification, necessitating fallback to designed polypeptides. This set comprises 18 novel designed polypeptides providing comprehensive axis coverage, incorporating >=2 non-standard residues per sequence for potential selectivity, with ~44% cyclic (disulfide-bridged) for protease resistance and linear ones N-acetylated/C-amidated for stability; all are conceptual with short lengths (5-8 residues) for synthetic feasibility and physicochemical optimization (charged residues for solubility, limited hydrophobics for bioavailability).
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Delirium p01"
+"Loaded_Programs=Delirium p02"
+"Loaded_Programs=Delirium p03"
+"Loaded_Programs=Delirium p04"
+"Loaded_Programs=Delirium p05"
+"Loaded_Programs=Delirium p06"
+"Loaded_Programs=Delirium p07"
+"Loaded_Programs=Delirium p08"
+"Loaded_Programs=Delirium p09"
+"Loaded_Programs=Delirium p10"
+"Loaded_Programs=Delirium p11"
+"Loaded_Programs=Delirium p12"
+"Loaded_Programs=Delirium p13"
+"Loaded_Programs=Delirium p14"
+"Loaded_Programs=Delirium p15"
+"Loaded_Programs=Delirium p16"
+"Loaded_Programs=Delirium p17"
+"Loaded_Programs=Delirium p18"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M113.048,M150.954,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M156.090=1,M85.053,M114.079,M86.048,M113.048,M57.021,0=4,"
+"Loaded_Frequencies=M237.148=1,M114.079,M86.048,M113.048,M112.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M114.079,M86.048,M102.001,M57.021,0=4,"
+"Loaded_Frequencies=M200.095=1,M113.084,M114.079,M86.048,M85.053,M87.032,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M114.079,M100.064,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M156.090=1,M86.048,M114.079,M113.048,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M100.064,M114.079,M113.048,M86.048,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M237.148=1,M114.079,M86.048,M113.048,M85.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M113.084,M101.048,M86.048,M102.001,M97.053,0=4,"
+"Loaded_Frequencies=M200.095=1,M150.954,M114.079,M86.048,M112.100,0=4,"
+"Loaded_Frequencies=M102.001=1,M237.148,M114.079,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M156.090=1,M86.048,M85.053,M113.048,M150.954,M57.021,0=4,"
+"Loaded_Frequencies=M237.148=1,M200.095,M114.079,M86.048,M112.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M85.053,M113.048,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M200.095=1,M150.954,M86.048,M114.079,M112.064,0=4,"
+"Loaded_Frequencies=M156.090=1,M85.053,M114.079,M86.048,M149.970,0=4,"
+"Loaded_Frequencies=M102.001=1,M101.048,M114.043,M86.048,M97.053,M114.079,M57.021,M102.001,0=4,"
+"[/Preset]"

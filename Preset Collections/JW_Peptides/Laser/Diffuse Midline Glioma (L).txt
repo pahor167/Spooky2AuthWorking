@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Diffuse Midline Glioma (L)"
+"Preset_Notes=Diffuse Midline Glioma for Laser
+
+Diffuse Midline Glioma (DMG), frequently H3K27M-mutant, is a highly aggressive pediatric brainstem tumor with limited treatment options and poor prognosis despite radiation therapy. The proposed polypeptides target key therapeutic axes derived from ongoing clinical trials and preclinical research, focusing on immunotherapy, tumor-specific binding, blood-brain barrier penetration, intracellular access, junction modulation, and stability optimization to enhance immune responses and drug delivery.
+
+1. H3K27M neoantigen vaccination: H3K27M-vac (real) induces mutation-specific T-cell immunity in clinical trials.
+2. Glioma cell targeting: Chlorotoxin (real) preferentially binds DMG cells via chloride channels/matrix interactions.
+3. LRP1-mediated BBB transcytosis: Angiopep-2 (real) enables efficient brain penetration in tumor models.
+4. Cell-penetrating enhancement: TAT (real) facilitates intracellular delivery across membranes.
+5. Adherens junction modulation for transient BBB opening: ADH-1 (real) disrupts N-cadherin interactions to improve access.
+6. Protease-resistant neoantigen optimization: RI-H3K27M-Eng (designed) retro-inverso variant for enhanced stability and prolonged antigen presentation.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Diffuse Midline Glioma p01"
+"Loaded_Programs=Diffuse Midline Glioma p02"
+"Loaded_Programs=Diffuse Midline Glioma p03"
+"Loaded_Programs=Diffuse Midline Glioma p04"
+"Loaded_Programs=Diffuse Midline Glioma p05"
+"Loaded_Programs=Diffuse Midline Glioma p06"
+"Loaded_Frequencies=M156.101=1,M131.040,M87.032,M71.037,M97.053,M87.032,M101.048,M57.021,M57.021,M99.068,M128.095,M128.095,M97.053,M137.059,M156.101,M163.063,M156.101,M97.053,M57.021,M101.048,M99.068,M71.037,M113.084,M156.101,M129.043,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M102.001,M131.040,M97.053,M102.001,M147.068,M101.048,M101.048,M115.027,M137.059,M128.058,M131.040,M71.037,M156.101,M128.095,M102.001,M115.027,M115.027,M102.001,M102.001,M57.021,M57.021,M128.095,M57.021,M156.101,M57.021,M128.095,M102.001,M163.063,M57.021,M97.053,M128.058,M102.001,M113.084,M102.001,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M147.068,M147.068,M163.063,M57.021,M57.021,M87.032,M156.101,M57.021,M128.095,M156.101,M114.043,M114.043,M147.068,M128.095,M101.048,M129.043,M129.043,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M144.012=1,M137.059,M71.037,M99.068,M87.032,M101.017,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M129.043,M156.101,M71.037,M99.068,M101.048,M57.021,M97.053,M156.101,M156.101,M128.095,M128.095,M137.059,M97.053,M163.063,M156.101,M87.032,M87.032,M57.021,M57.021,M99.068,M128.095,M128.095,M87.032,M131.040,M156.101,0=4,"
+"[/Preset]"

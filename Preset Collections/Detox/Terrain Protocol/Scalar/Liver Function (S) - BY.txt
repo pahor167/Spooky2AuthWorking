@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"PresetName=1. Liver Function"
+"Loaded_Frequencies=33.13=200,537=200,751=200,802=200,1550=200,1552=200,33.13=200,537=200,751=200,802=200,1550=200,1552=200,33.13=200,537=200,751=200,802=200,1550=200,1552=200,33.13=200,537=200,751=200,802=200,1550=200,1552=200,33.13=200,537=200,751=200,802=200,1550=200,1552=200,33.13=200,537=200,751=200,802=200,1550=200,1552=200,0=200,"
+"Loaded_Programs=1. Liver Function"
+"Preset_Notes=Terrain Protocol for Scalar.
+
+This preset is one of many Scalar presets for the Terrain Protocol. Each frequency set runs for 2 hours, and is followed by a 3 minute beep. You may want to run this protocol in conjunction with 'Terrain (R) - BY' on another generator, or using the same generator. See \Detox\GUIDE Terrain Protocol - Click Me.pdf for a schedule to run these presets.
+
+To use the same generator, after a scalar set is finished, first change the hardware on the generator to the Spooky Remote, then choose 'Terrain (R) - BY' preset and skip to the frequency set that corresponds to the scalar set you just finished. When you are ready to do another scalar session, change the hardware on the generator to Scalar, reload this preset, and jump to the appropriate set.
+
+Entire Schedule for Terrain (Scalar)
+------------------------------------
+Each line has day, generator, preset, and frequency set. If the preset is empty, use the same preset as the last preset for the same generator. If the frequency set is empty, there is not need to skip to a particular frequency set. If the day for a generator is missing, this means you continue to run the previous program.
+
+Day, Gen, Preset
+1, 1, Scalar/Remove Metals (S) - BY
+1, 2, Remote/Terrain (R) - BY
+2, 1, Scalar/Remove Metals (S) - BY
+2, 1, Scalar/Remove Metals (S) - BY
+3, 1, Scalar/Remove Chemical Materials (S) - BY
+3, 1, Scalar/Remove Chemical Materials (S) - BY
+4, 1, Scalar/Remove Systemic Toxins 1 (S) - BY
+4, 1, Scalar/Remove Systemic Toxins 1 (S) - BY
+5, 1, Scalar/Remove Systemic Toxins 2 (S) - BY
+5, 1, Scalar/Remove Systemic Toxins 2 (S) - BY
+6, 1, Scalar/Remove Intestinal Toxins (S) - BY
+6, 1, Scalar/Remove Systemic Toxins 3 (S) - BY
+7, 1, Scalar/Parasites and Liver Function (S) - BY
+7, 1, Scalar/Parasites and Liver Function (S) - BY
+8, 1, Scalar/Kidney Function 1 (S) - BY
+8, 1, Scalar/Kidney Function 1 (S) - BY
+9, 1, Scalar/Kidney Function 2 (S) - BY
+9, 1, Scalar/Cleanse Blood (S) - BY
+10, 1, Scalar/Kidney and Liver Toxins (S) - BY
+10, 1, Scalar/Intestinal Parasites (S) - BY
+11, 1, Scalar/Lymphatic System 1 (S) - BY
+11, 1, Scalar/Lymphatic System 1 (S) - BY
+
+This preset has the following programs:
+
+Liver Function: Liver Function Balance - XTRA
+
+Here is a table to find the beginning of each day in this preset:
+1: Liver Function
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"

@@ -1,0 +1,45 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Stomach Spasms (S)"
+"Preset_Notes=Stomach Spasms for Scalar
+
+Stomach spasms involve involuntary contractions of the gastric and intestinal smooth muscle, frequently driven by dysmotility, visceral hypersensitivity, inflammation, mucosal irritation, or infection. The proposed polypeptides target seven evidence-based therapeutic axes derived from preclinical studies, mechanistic research, and emerging investigational peptide applications focused on relaxation, protection, pain modulation, and regeneration.
+
+1. Gastric pentadecapeptide cytoprotection and motility normalization: BPC-157 stabilizes enteric function, reduces hypermotility, and protects against spasm-inducing damage.
+2. {alpha}-MSH-derived tripeptide anti-inflammatory action: KPV (acetylated/amidated) potently reduces inflammatory mediators that trigger smooth muscle irritability.
+3. Vasoactive intestinal peptide inhibitory neurotransmission: VIP directly relaxes gastrointestinal smooth muscle via cAMP pathways.
+4. Oxytocin receptor agonism for visceral antinociception: Oxytocin modulates gut-specific receptors to suppress pain signaling and spasm activity.
+5. Cathelicidin multifunctional defense: LL-37 reinforces epithelial barrier, exerts antimicrobial effects, and balances immunity to prevent infection-related spasms.
+6. Copper-chelated tripeptide regeneration: GHK-Cu promotes tissue remodeling, growth factor release, and antioxidant protection for sustained recovery.
+7. Engineered collagen-mimetic structural support: Ac-(GPP)10-NH2 intercalates into extracellular matrix to enhance mucosal resilience against mechanical triggers.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Stomach Spasms p01"
+"Loaded_Programs=Stomach Spasms p02"
+"Loaded_Programs=Stomach Spasms p03"
+"Loaded_Programs=Stomach Spasms p04"
+"Loaded_Programs=Stomach Spasms p05"
+"Loaded_Programs=Stomach Spasms p06"
+"Loaded_Programs=Stomach Spasms p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

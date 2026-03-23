@@ -1,0 +1,82 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R06 Viruses A - DB"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Bacillus X Filter Cancer Carcinoma Rife
+BX Virus Carcinoma XTRA
+Cancer BXBY 2 XTRA
+Cancer HPV (Moles and Tumors) XTRA
+Simian Virus 40 XTRA
+Polyomavirus Infections XTRA
+Papilloma HPV 6a XTRA
+Papilloma HPV 6b XTRA
+Papilloma HPV 11 XTRA
+Papilloma HPV 16 XTRA
+Papilloma HPV 18 XTRA
+Papilloma HPV 33 XTRA
+Xenotropic Murine Leukemia Virus 2 XTRA
+Xenotropic Murine Leukemia Virus XTRA
+HIV 1 XTRA
+HIV 2 XTRA
+Diplococcus Pneumoniae_2 HC
+HERV XTRA
+Retrovirus Variants CAFL
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Inverted_Sawtooth=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Bacillus X Filter Cancer Carcinoma (Rife)"
+"Loaded_Programs=BX Virus Carcinoma (XTRA)"
+"Loaded_Programs=Cancer BXBY 2 (XTRA)"
+"Loaded_Programs=Cancer HPV (Moles and Tumors) (XTRA)"
+"Loaded_Programs=Simian Virus 40 (XTRA)"
+"Loaded_Programs=Polyomavirus Infections (XTRA)"
+"Loaded_Programs=Papilloma HPV 6a (XTRA)"
+"Loaded_Programs=Papilloma HPV 6b (XTRA)"
+"Loaded_Programs=Papilloma HPV 11 (XTRA)"
+"Loaded_Programs=Papilloma HPV 16 (XTRA)"
+"Loaded_Programs=Papilloma HPV 18 (XTRA)"
+"Loaded_Programs=Papilloma HPV 33 (XTRA)"
+"Loaded_Programs=Xenotropic Murine Leukemia Virus 2 (XTRA)"
+"Loaded_Programs=Xenotropic Murine Leukemia Virus (XTRA)"
+"Loaded_Programs=HIV 1 (XTRA)"
+"Loaded_Programs=HIV 2 (XTRA)"
+"Loaded_Programs=Diplococcus Pneumoniae_2 (HC)"
+"Loaded_Programs=HERV (XTRA)"
+"Loaded_Programs=Retrovirus Variants (CAFL)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=1604000=180,"
+"Loaded_Frequencies=3214900=180,"
+"Loaded_Frequencies=3208500=180,1604250=180,1500000=180,750000=180,"
+"Loaded_Frequencies=1603750=180,"
+"Loaded_Frequencies=79333.9=360,83173.3=360,95443=360,93806.5=360,132112=360,134443=360,138591.3=360,140781=360,141346=360,148107=360,335175=360,355436=360,385643=360,"
+"Loaded_Frequencies=130=180,520=180,6750=180,71250=180,105150=180,347500=180,572500=180,690000=180,775870=180,826900=180,"
+"Loaded_Frequencies=1130.09=180,2260.19=180,"
+"Loaded_Frequencies=1145.5=180,2291.09=180,"
+"Loaded_Frequencies=1141.29=180,2282.69=180,"
+"Loaded_Frequencies=1145.2=180,2290.5=180,"
+"Loaded_Frequencies=1152.09=180,2304.19=180,"
+"Loaded_Frequencies=1144.5=180,2289=180,"
+"Loaded_Frequencies=4673.6=180,"
+"Loaded_Frequencies=448=180,"
+"Loaded_Frequencies=4038462.95167=180,"
+"Loaded_Frequencies=3579218.8782=180,"
+"Loaded_Frequencies=365000=180,"
+"Loaded_Frequencies=419.4=180,"
+"Loaded_Frequencies=2489=180,465=180,727=180,787=180,880=180,448=180,800=180,10000=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

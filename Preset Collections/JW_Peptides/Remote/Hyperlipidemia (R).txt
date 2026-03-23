@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Hyperlipidemia (R)"
+"Preset_Notes=Hyperlipidemia for Remote
+
+Hyperlipidemia is a common metabolic disorder characterized by elevated levels of lipids, including cholesterol and triglycerides, in the bloodstream. It encompasses conditions such as hypercholesterolemia (high LDL-cholesterol), hypertriglyceridemia (high triglycerides), and mixed dyslipidemia. Causes include genetic factors (e.g., familial hypercholesterolemia due to LDLR, PCSK9, or APOB mutations), poor diet high in saturated fats and sugars, obesity, sedentary lifestyle, secondary conditions like diabetes mellitus, hypothyroidism, or nephrotic syndrome, and certain medications. Symptoms are often asymptomatic until advanced atherosclerosis develops, leading to coronary artery disease, stroke, peripheral artery disease, or pancreatitis in severe hypertriglyceridemia cases; visible signs may include xanthelasmas or corneal arcus in familial forms. Pathophysiology involves impaired lipid metabolism: excess hepatic cholesterol synthesis, reduced LDL receptor-mediated clearance, inhibited lipoprotein lipase activity causing triglyceride accumulation, diminished reverse cholesterol transport from periphery to liver, and pro-inflammatory effects of oxidized LDL promoting endothelial dysfunction and plaque formation.
+
+The proposed polypeptides target key mechanistic axes of hyperlipidemia to lower pathogenic lipids, improve clearance, and mitigate cardiovascular risk through complementary modes of action supported by literature-derived motifs and rational design for drug-likeness.
+
+- Axis 1: Inhibition of cholesterol biosynthesis via HMG-CoA reductase (HMGCR) - Addressed by a real food-derived peptide with documented HMGCR inhibitory activity in cellular models and a designed disulfide-cyclic hybrid incorporating motifs from soy and lupin peptides with N-acetylation, C-amidation, and cyclization for enhanced enzymatic inhibition, proteolytic stability, and bioavailability.
+- Axis 2: Inhibition of PCSK9 to prevent LDL receptor degradation and enhance hepatic LDL clearance - Addressed by a real investigational peptide (Pep2-8) with capped termini for potency in blocking PCSK9-LDLR interaction and a designed disulfide-cyclic peptide derived from LDLR EGF-A domain motif for tight binding, stability, and sustained LDL-C reduction.
+- Axis 3: Enhancement of reverse cholesterol transport and anti-atherogenic effects via ApoA-I mimicry - Addressed by the real investigational D-4F peptide (capped, D-amino acids for oral stability) that forms amphipathic helices to mobilize cholesterol efflux via ABCA1 and reduce inflammation, and a designed capped 18A-based mimetic with classic class A helical structure for similar HDL functionalization and plaque regression.
+- Axis 4: Inhibition of ANGPTL3 to activate lipoprotein lipase and lower triglycerides - Addressed by a designed amphipathic cationic peptide rationally crafted to disrupt ANGPTL3-LPL interaction through charge and hydrophobic interference, with capping for stability, promoting TG hydrolysis independent of LDL pathways.
+
+These collectively provide broad coverage of lipid synthesis, clearance, transport, and metabolism, with physicochemical optimizations (short lengths, cyclization/capping in designed) for feasibility as therapeutics.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Hyperlipidemia p01"
+"Loaded_Programs=Hyperlipidemia p02"
+"Loaded_Programs=Hyperlipidemia p03"
+"Loaded_Programs=Hyperlipidemia p04"
+"Loaded_Programs=Hyperlipidemia p05"
+"Loaded_Programs=Hyperlipidemia p06"
+"Loaded_Programs=Hyperlipidemia p07"
+"Loaded_Frequencies=M113.084=1,M71.037,M99.068,M97.053,M101.048,M57.021,M99.068,M71.037,0=4,"
+"Loaded_Frequencies=M143.059=1,M99.068,M147.068,M101.048,M87.032,M186.079,M129.043,M129.043,M163.063,M113.084,M115.027,M186.079,M98.084,0=4,"
+"Loaded_Frequencies=M157.038=1,M186.079,M147.068,M128.095,M71.037,M147.068,M163.063,M115.027,M128.095,M99.068,M71.037,M129.043,M128.095,M147.068,M128.095,M129.043,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M144.012=1,M113.084,M101.048,M147.068,M97.053,M57.021,M87.032,M71.037,M129.043,M115.027,M113.084,M71.037,M99.068,M97.053,M101.048,M57.021,M99.068,M71.037,M101.017,0=4,"
+"Loaded_Frequencies=M114.043=1,M87.032,M115.027,M87.032,M129.043,M102.001,M97.053,M113.084,M87.032,M137.059,M115.027,M57.021,M163.063,M102.001,M113.084,M137.059,M115.027,M57.021,M99.068,M113.084,M102.001,M163.063,M113.084,M129.043,M71.037,M128.095,M163.063,M71.037,M102.001,M102.001,M99.068,M99.068,M57.021,M163.063,M113.084,M57.021,M129.043,M156.101,M102.001,M128.058,M163.063,M156.101,M115.027,M113.084,M128.095,M186.079,M186.079,M129.043,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M157.038=1,M186.079,M113.084,M128.095,M71.037,M147.068,M163.063,M115.027,M128.095,M99.068,M71.037,M129.043,M128.095,M113.084,M128.095,M129.043,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M198.112=1,M128.095,M113.084,M147.068,M156.101,M128.095,M113.084,M147.068,M156.101,M128.095,M113.084,M147.068,M156.101,M127.111,0=4,"
+"[/Preset]"

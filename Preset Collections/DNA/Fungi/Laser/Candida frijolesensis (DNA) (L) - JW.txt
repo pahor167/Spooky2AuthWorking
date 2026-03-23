@@ -1,0 +1,8 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=Candida frijolesensis (DNA) (L) - JW"
+"Remove_Duplicate_Frequencies_Tolerance=0"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.||As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided.||This preset contains the following strains:||Candida frijolesensis NRRL Y-48060 mitochondrion|Candida frijolesensis mitochondrion"
+"Loaded_Programs=Candida frijolesensis (DNA) (L) - JW (CUST)"
+"Loaded_Frequencies=~1707BC91563,"
+"[/Preset]"

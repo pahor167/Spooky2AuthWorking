@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Bunions (P)"
+"Preset_Notes=Bunions for Plasma
+
+Bunions (hallux valgus) are a common foot deformity characterized by lateral deviation of the big toe, medial joint prominence, inflammation, pain, and potential secondary osteoarthritis, benefiting from therapies targeting repair, modulation of deforming forces, and symptom relief.
+
+1. Soft tissue repair: Thymosin_beta_4 - Actin-binding peptide promoting cell migration, collagen deposition, and anti-inflammatory effects to heal periarticular tissues.
+2. Neuromuscular modulation: Argireline - Acetyl hexapeptide inhibiting SNARE-mediated acetylcholine release to relax muscles and reduce deforming pull on the joint.
+3. Antioxidant protection: Carnosine - Dipeptide neutralizing reactive oxygen species and preventing glycation-related damage in stressed foot tissues.
+4. Connective tissue bioregulation: Vilon - Dipeptide stimulating regenerative processes and differentiation in connective tissues.
+5. Bone remodeling control: Salmon-Calcitonin - Inhibits osteoclast activity to manage bony enlargement and joint changes.
+6. Integrin modulation: RGD-Bun1 - Designed RGD-containing peptide modulating cell-matrix interactions to reduce fibrosis and support joint capsule integrity.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Bunions p01"
+"Loaded_Programs=Bunions p02"
+"Loaded_Programs=Bunions p03"
+"Loaded_Programs=Bunions p04"
+"Loaded_Programs=Bunions p05"
+"Loaded_Programs=Bunions p06"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M114.043,M113.084,M87.032,M101.048,M102.001,M99.068,M113.084,M57.021,M128.095,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M128.095,M113.084,M128.058,M101.048,M163.063,M97.053,M156.101,M101.048,M114.043,M101.048,M57.021,M87.032,M71.037,M101.048,M96.069,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"[/Preset]"

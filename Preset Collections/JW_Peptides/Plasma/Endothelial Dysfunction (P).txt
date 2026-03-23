@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Endothelial Dysfunction (P)"
+"Preset_Notes=Endothelial Dysfunction for Plasma
+
+Endothelial dysfunction is a hallmark of vascular pathology underlying atherosclerosis, hypertension, diabetes, and other cardiovascular conditions. It involves impaired endothelial nitric oxide production, heightened oxidative stress and inflammation, disrupted barrier integrity, and aberrant signaling leading to reduced vasorelaxation and increased risk of thrombosis and plaque formation.
+1. Nitric Oxide Pathway: BPC-157 - Activates Src-Cav-1-eNOS signaling to enhance NO production, endothelial cytoprotection, and angiogenesis modulation
+2. Oxidative Stress Reduction: VMP-19 - Reduces ROS and apoptosis in Ang II-challenged endothelial cells via SOD upregulation and caspase inhibition
+3. VEGF Signaling: QK Peptide - VEGF mimic that promotes endothelial cell proliferation, survival, and tube formation for vascular repair
+4. ECM Adhesion and Survival: A5G81 - Laminin-derived peptide enhancing endothelial spreading, proliferation, and survival in regenerative contexts
+5. ACE2 Activation: YYLLVR - Activates ACE2 to rebalance RAS, boost NO/eNOS, and restore endothelial function in hypertensive models
+6. LOX-1 Targeting: LSIPPKA - Selective binder to LOX-1 receptor on dysfunctional endothelium for targeted therapeutic delivery
+7. GLP-1 Receptor Agonism: GLP-1(7-36) - Metabolic peptide improving endothelial NO bioavailability and reducing inflammation in diabetes-associated dysfunction
+8. Endothelial Barrier Stabilization: eNOS-RRKRK - eNOS-derived motif that strengthens endothelial barrier and protects against inflammatory permeability
+9. Alternative RAS Pathway: Angiotensin-(1-7) - Mas receptor agonist counteracting Ang II effects to improve vasodilation and endothelial homeostasis
+10. EndMT Inhibition: ED-Opt1 - Engineered peptide optimized to inhibit endothelial-to-mesenchymal transition, preserving endothelial phenotype and function
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Endothelial Dysfunction p01"
+"Loaded_Programs=Endothelial Dysfunction p02"
+"Loaded_Programs=Endothelial Dysfunction p03"
+"Loaded_Programs=Endothelial Dysfunction p04"
+"Loaded_Programs=Endothelial Dysfunction p05"
+"Loaded_Programs=Endothelial Dysfunction p06"
+"Loaded_Programs=Endothelial Dysfunction p07"
+"Loaded_Programs=Endothelial Dysfunction p08"
+"Loaded_Programs=Endothelial Dysfunction p09"
+"Loaded_Programs=Endothelial Dysfunction p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M128.059,M115.027,M87.032,M99.068,M115.027,M147.068,M87.032,M113.084,M71.037,M115.027,M71.037,M113.084,M114.043,M101.048,M129.043,M147.068,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M101.048,M186.079,M128.059,M129.043,M113.084,M163.063,M128.059,M113.084,M128.095,M163.063,M128.095,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M128.059,M186.079,M137.059,M156.101,M99.068,M87.032,M99.068,M156.101,M186.079,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M163.063,M113.084,M113.084,M99.068,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M113.084,M97.053,M97.053,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M163.063=1,M87.032,M113.084,M156.101,M128.095,M97.053,M128.059,0=4,"
+"[/Preset]"

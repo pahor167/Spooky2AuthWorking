@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Optic Nerve Regeneration after Damage (L)"
+"Preset_Notes=Optic Nerve Regeneration after Damage for Laser
+
+Optic nerve damage leads to retinal ganglion cell (RGC) apoptosis and failed axon regeneration, driven by mitochondrial dysfunction, impaired fusion (MFN1/MFN2-mediated), reduced motility, oxidative stress, and energy deficit. The small molecule Mitochondrial Fusion Promoter M1 activates mitofusins to enhance fusion/motility and promote regeneration in models, inspiring designed peptide mimetics. Polypeptides targetily target mitochondrial dynamics, neuroprotection, anti-apoptosis, and regenerative signaling.
+
+1. Mitochondrial cardiolipin stabilization: Elamipretide - Binds cardiolipin to reduce ROS and optimize respiration in damaged RGC mitochondria.
+2. Innate repair receptor activation: ARA-290 - Selective EPO-derived neuroprotection and repair without hematopoietic effects.
+3. Mitochondrial anti-apoptotic: Humanin - Inhibits Bax and cytochrome c release to block apoptosis.
+4. Mitochondrial metabolic regulation: MOTS-c - AMPK activator improving energy homeostasis and resistance to stress.
+5. PACAP receptor activation: PACAP-27 - Potent neurotrophic/anti-apoptotic support for RGC survival and axon regrowth.
+6. VIP receptor modulation: VIP - Reduces inflammation and promotes RGC/ganglion cell survival.
+7. Bioregulatory protection: Pinealon - Tripeptide enhancing neural regeneration and protection.
+8. Adrenomedullin signaling: Adrenomedullin - Anti-apoptotic, anti-ischemic, and survival-promoting in hypoxic neurons.
+9. Inflammation resolution: Annexin_A1_Ac2-26 - N-terminal mimic resolving post-injury neuroinflammation.
+10. Mitochondrial-derived protection: SHLP2 - SHLP2 protects against mitochondrial stress and apoptosis.
+11. Mitofusin-1 mimetic promotion: MFN1-mimetic - Designed aromatic-cationic peptide to enhance MFN1-dependent mitochondrial fusion.
+12. Mitofusin-2 mimetic promotion: MFN2-mimetic - Designed aromatic-cationic peptide to enhance MFN2-dependent fusion and axonal transport.
+13. M1-inspired fusion promotion: M1-mimetic - Designed aromatic-cationic peptide mimicking M1 effects on mitofusin activation, fusion, and motility.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Optic Nerve Regeneration after Damage p01"
+"Loaded_Programs=Optic Nerve Regeneration after Damage p02"
+"Loaded_Programs=Optic Nerve Regeneration after Damage p03"
+"Loaded_Programs=Optic Nerve Regeneration after Damage p04"
+"Loaded_Programs=Optic Nerve Regeneration after Damage p05"
+"Loaded_Frequencies=M156.101=1,M191.095,M128.095,M146.084,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0M131.040,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0M131.040,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0M137.059,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M101.048,M128.095,M163.063,M128.095,M128.095,M128.095,M147.063,M71.037,M99.068,M128.095,M128.095,M163.063,M71.037,M71.037,M99.068,M113.084,0M137.059,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M113.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0M163.063,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0M71.037,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0M131.040,M57.021,M99.068,M128.095,M147.068,M147.068,M101.048,M113.084,M87.032,M101.048,M156.101,M147.068,M147.068,M97.053,M87.032,M99.068,M128.058,M156.101,M71.037,M99.068,M97.053,M113.084,M186.079,M101.048,M114.043,M87.032,0M128.095,M147.068,M156.101,M163.063,M128.095,M147.068,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M156.101=1,M147.068,M128.095,M163.063,M156.101,M147.068,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.095,M147.068,M163.063,M156.101,M128.095,M147.068,0=4,"
+"[/Preset]"

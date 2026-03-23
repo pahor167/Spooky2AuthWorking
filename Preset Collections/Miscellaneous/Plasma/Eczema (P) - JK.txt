@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"Gate_On_Off_Duration_Option=True"
+"PresetName=Eczema (P) - JK"
+"Preset_Notes=Eczema for Plasma by Jeff Kaczor
+
+This is a Plasma variation of the Eczema (C) - JK preset.
+
+It utilizes Eczema 2 (XTRA) which when researched, is a frequency set designed to target pathogenic factors.
+
+One application to two applications a day, and then give the body time to respond.
+
+Makes use of the Golden Ratio (P) - JW base settings to apply the set.
+
+---------
+
+Advanced Shell Preset for Spooky Plasma.
+
+Spooky Plasma is a modern plasma machine that has a very broad operating frequency range. It can operate both with or without a carrier frequency. This provides great flexibility, and allows Spooky Plasma to be the first Rife machine to apply the Golden Ratio to frequencies.
+
+In mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities. The value of Phi is approximately 1.61803398874989484820 ...
+
+or exactly:
+
+ 1 + sqrt(5)
+ ------------
+        2
+
+Phi is a remarkable number. Here's why:
+
+- The reciprocal of Phi (1/Phi, or phi) also equals 1 - Phi.
+- Orders of frequency sidebands created by Phi are exactly Phi distant apart.
+-DNA molecules: A DNA molecule measures 34 angstroms by 21 angstroms at each full cycle of the double helix spiral. In the Fibonacci series, 34 and 21 are successive numbers.
+- The Golden ratio appears in all other forms of nature and science.
+ 
+This Advanced Shell Preset can be used for any programs in the database.
+
+Connect OUT 1 to Input. Out 2 to Modulation."
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=Eczema 2 (XTRA)"
+"Loaded_Frequencies=9.18=180,9.19=180,9.39=180,9.4=180,20=180,120=180,415=180,660=180,664=180,690=180,707=180,727.5=180,770=180,787=180,802=180,916=180,1550=180,2127.5=180,2180=180,2720=180,5000=180,10000=180,"
+"[/Preset]"

@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Crab Apple (C)"
+"Preset_Notes=Crab Apple / Spooky Contact
+
+Estimated Time: Run this preset for 3:00 minutes.
+Crab Apple - The cleansing remedy, also for self-hatred.
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Crab Apple (C)"
+"Loaded_Frequencies=359.21F4096C0,"
+"[/Preset]"

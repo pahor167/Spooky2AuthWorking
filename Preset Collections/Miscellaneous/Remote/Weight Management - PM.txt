@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Weight Management - PM"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"BFB_Start_Frequency=10000"
+"BFB_Finish_Frequency=20000"
+"BFB_Max_Hits_To_Find=4"
+"BFB_Start_Delay=20"
+"BFB_Samples_Per_Step=1"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=Frequency Healings and Calorie Burning :  By Dr. Pankaj Mishra. 
+Edited by Ed Von.
+
+We all are aware that Muscles in the body utilize / consume calories. If calories are not expended, Cellulite deposits may form. Frequencies are useful here for tonification of the body, since an overweight person may be unable to perform exercise initially. These frequencies are very helpful.
+
+ORGAN TONER Frequencies :
+
+Cellulite Reduction Specific Frequencies
+The Cellulite Reduction Frequency Set, is based on Barbara Hero's Human Organ frequencies.
+
+Using a ratio of 3 activations of the muscle tuning fork to one activation of the fat cell tuning fork, the muscle and fat cells are stimulated and reminded of their respective healthy vibrations. A healthy fat cell knows when it is not needed, and has the ability to selfÅ-terminate.
+
+This preset is designed to trigger the release of excess fat cells, stimulate muscle growth, burn fat, and increase the metabolism.While this set can be used for general weight loss, it can also be used for targeting specific
+areas of the body, with the help of pad (contact) type devices.
+
+(Spooky Remote using JW Healing with Feathering) provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator. DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote-BN to the 'BN' port of Spooky Boost."
+"Harmonic_Wobble=+-.02% Feathering"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Manual_Start=False"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"Enable_Tissue_Factor=1"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=Weight management (CUST)"
+"Loaded_Programs=Weight management (cellulite) (CUST)"
+"Loaded_Frequencies=10=300, 14=300, 20=300, 90=300, 110=300, 111=300, 147=300, 164.3=300, 171.0=300, 183.58=300, 194.18=300, 194.71=300, 220.0=300, 250.0=300, 281.0=300, 281.6=300, 317.83=300, 319.88=300,"
+"Loaded_Frequencies=324=540, 295.8=180,"
+"[/Preset]"

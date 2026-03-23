@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Star of Bethlehem (S)"
+"Preset_Notes=Star of Bethlehem / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Star of Bethlehem - Shock.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Star of Bethlehem (S)"
+"Loaded_Frequencies=276.57,"
+"[/Preset]"

@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Age-Related Eye Regeneration (Coil)"
+"Preset_Notes=Age-Related Eye Regeneration for Coil
+
+Age-Related Eye Regeneration targets neuroprotective, anti-oxidative, anti-inflammatory, and adhesive mechanisms to preserve photoreceptors, RPE, and retinal function while countering oxidative stress, apoptosis, and vascular dysfunction in age-related conditions like AMD.
+
+1. Ocular neuropeptide neuroprotection: VIP - Activates VPAC receptors to enhance retinal cell survival and reduce inflammation.
+2. Mitochondrial anti-apoptosis: Humanin - Inhibits Bax translocation and cytochrome c release to protect against age-induced cell death in retina.
+3. Tissue-protective repair: ARA-290 - Selectively activates the innate repair receptor to attenuate chronic inflammation and promote ocular tissue recovery.
+4. Mitochondrial retrograde signaling: MOTS-c - Regulates metabolic homeostasis and stress resistance in aging retinal mitochondria.
+5. Anti-glycation buffering: Carnosine - Prevents protein cross-linking and carbonyl stress in lens and retinal tissues.
+6. Redox detoxification: Glutathione - Neutralizes reactive oxygen species to maintain photoreceptor integrity under oxidative load.
+7. Connexin hemichannel modulation: aCT1 - Stabilizes gap junctions and suppresses pathological neovascularization in AMD models.
+8. Laminin-mimetic adhesion: IKVAV - Promotes cell-matrix interactions to support RPE attachment and regenerative processes.
+
+"
+"Loaded_Programs=Age-Related Eye Regeneration p01"
+"Loaded_Programs=Age-Related Eye Regeneration p02"
+"Loaded_Programs=Age-Related Eye Regeneration p03"
+"Loaded_Programs=Age-Related Eye Regeneration p04"
+"Loaded_Programs=Age-Related Eye Regeneration p05"
+"Loaded_Programs=Age-Related Eye Regeneration p06"
+"Loaded_Programs=Age-Related Eye Regeneration p07"
+"Loaded_Programs=Age-Related Eye Regeneration p08"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.058,M97.053,M128.095,M113.084,M186.079,M147.068,M97.053,M114.043,M156.101,M156.101,M128.095,M97.053,M186.079,M128.095,M128.095,M156.101,M97.053,M156.101,M97.053,M115.027,M115.027,M113.084,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M99.068,M71.037,M99.068,0=4,"
+"[/Preset]"

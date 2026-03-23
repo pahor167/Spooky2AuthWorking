@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=Mimulus (L)"
+"Preset_Notes=Mimulus / Spooky Laser
+
+Estimated Time: Run this preset for 3:00 minutes.
+Mimulus - Fear of known things.
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Mimulus (L)"
+"Loaded_Frequencies=492.23,"
+"[/Preset]"

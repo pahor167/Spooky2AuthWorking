@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Ataxia-Telangiectasia (R)"
+"Preset_Notes=Ataxia-Telangiectasia for Remote
+
+Ataxia-Telangiectasia (A-T) is a rare, autosomal recessive neurodegenerative disorder caused by biallelic mutations in the ATM gene, which encodes a serine/threonine kinase critical for coordinating cellular responses to DNA double-strand breaks. The condition manifests in early childhood with progressive cerebellar ataxia, characterized by unsteady gait, dysarthria, choreoathetosis, and oculomotor apraxia, leading to severe motor impairment and wheelchair dependence by adolescence. Other hallmarks include ocular and cutaneous telangiectasias, immunodeficiency with recurrent sinopulmonary infections, insulin resistance, growth retardation, and a markedly increased predisposition to malignancies, particularly lymphomas and leukemias. Pathophysiologically, ATM deficiency impairs DNA damage repair, resulting in genomic instability, heightened oxidative stress from reactive oxygen species accumulation, mitochondrial dysfunction with impaired energy metabolism and increased apoptosis, chronic inflammation due to dysregulated immune responses, and progressive neuronal loss in the cerebellum and other brain regions. Without targeted therapies, management is supportive, focusing on physical therapy, infection prophylaxis, and cancer surveillance, with a median survival of around 25 years often limited by respiratory failure or malignancy.
+
+The proposed polypeptides address key therapeutic axes in A-T. For DNA damage response compensation, designed polypeptides conceptually mimic ATM substrates or activate compensatory pathways like ATR to enhance repair and reduce genomic instability. In oxidative stress mitigation, real-world polypeptides like GHK act as copper chelators and antioxidants to scavenge free radicals and protect neuronal cells, while designed ones boost NRF2 signaling for endogenous defense. For mitochondrial dysfunction correction, designed polypeptides aim to restore NAD+ levels or support electron transport chain integrity, improving energy production and reducing apoptosis. Anti-inflammatory approaches utilize real-world polypeptides such as Thymosin beta-4 to modulate cytokine release and immune cell activation, alleviating chronic inflammation; designed variants enhance this by targeting specific proinflammatory pathways. Neuroprotection is achieved through real-world options like BPC-157, which promotes neuronal survival and regeneration via growth factor-like effects, complemented by designed polypeptides that inhibit apoptotic cascades or support synaptic stability. These interventions collectively aim to slow neurodegeneration, bolster cellular resilience, and improve quality of life, with designed polypeptides flagged as conceptual innovations tailored to A-T mechanisms.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Ataxia-Telangiectasia p01"
+"Loaded_Programs=Ataxia-Telangiectasia p02"
+"Loaded_Programs=Ataxia-Telangiectasia p03"
+"Loaded_Programs=Ataxia-Telangiectasia p04"
+"Loaded_Programs=Ataxia-Telangiectasia p05"
+"Loaded_Programs=Ataxia-Telangiectasia p06"
+"Loaded_Programs=Ataxia-Telangiectasia p07"
+"Loaded_Programs=Ataxia-Telangiectasia p08"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M97.053,M113.084,M99.068,M113.084,M57.021,M71.037,M115.027,M71.037,M57.021,M71.037,M115.027,M128.095,M71.037,M87.032,M128.095,M129.043,M101.048,M128.095,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M129.043,M128.095,M128.095,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,M99.068,M113.084,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M99.068,M128.095,M114.043,M57.021,M129.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,0=4,"
+"[/Preset]"

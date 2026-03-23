@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Ventricular Fibrillation (Coil)"
+"Preset_Notes=Ventricular Fibrillation for Coil
+
+Ventricular fibrillation (VF) is a life-threatening cardiac arrhythmia characterized by rapid, disorganized electrical impulses in the ventricles, leading to ineffective pumping, loss of pulse, sudden cardiac arrest, and death if not promptly treated. It is often triggered by underlying conditions such as myocardial ischemia, infarction, electrolyte imbalances, cardiomyopathy, or channelopathies, with pathophysiology involving chaotic reentrant circuits, focal triggers from Purkinje fibers, altered ion channel function, autonomic imbalance, calcium mishandling, inflammation, and structural remodeling. Symptoms include collapse, unconsciousness, and no detectable pulse, requiring immediate defibrillation and CPR for survival, with long-term management focusing on implantable cardioverter-defibrillators, antiarrhythmics, and addressing root causes.
+
+The proposed polypeptides address VF through multiple mechanisms, prioritizing real-world ones like ANP and BNP for natriuretic signaling to reduce preload and afterload, GLP-1 for autonomic modulation and cardioprotection, and {psi}{epsilon}RACK for PKC activation in ischemia protection. Designed polypeptides supplement coverage: CaMKII inhibitor to stabilize calcium handling and prevent afterdepolarizations; p38 inhibitor to block stress kinase signaling; nerve regenerating peptide to restore sympathetic innervation; Purkinje modulator to suppress focal triggers; beta-adrenergic modulator to balance adrenergic responses; anti-inflammatory peptide to mitigate cytokine-induced remodeling; ion channel modulator to regulate Na/K/Ca currents; gap junction peptide to improve conduction homogeneity. Scientific rationale is based on VF's multifactorial nature, with polypeptides targeting key pathways to reduce arrhythmia susceptibility. Feasibility is high due to peptide stability, targeted delivery via injection or infusion, and low immunogenicity; modes of action include receptor agonism, enzyme inhibition, and channel modulation; physicochemical considerations involve positive net charge for solubility, amphipathicity for membrane interaction, and cyclization or modifications for half-life extension, ensuring therapeutic efficacy in acute and chronic settings.
+
+"
+"Loaded_Programs=Ventricular Fibrillation p01"
+"Loaded_Programs=Ventricular Fibrillation p02"
+"Loaded_Programs=Ventricular Fibrillation p03"
+"Loaded_Programs=Ventricular Fibrillation p04"
+"Loaded_Programs=Ventricular Fibrillation p05"
+"Loaded_Programs=Ventricular Fibrillation p06"
+"Loaded_Programs=Ventricular Fibrillation p07"
+"Loaded_Programs=Ventricular Fibrillation p08"
+"Loaded_Programs=Ventricular Fibrillation p09"
+"Loaded_Programs=Ventricular Fibrillation p10"
+"Loaded_Programs=Ventricular Fibrillation p11"
+"Loaded_Programs=Ventricular Fibrillation p12"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M115.027,M71.037,M97.053,M113.084,M57.021,M113.084,M163.063,M115.027,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M71.037,M113.084,M137.059,M156.101,M128.058,M129.043,M101.048,M99.068,M115.027,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M113.084,M128.095,M115.027,M156.101,M101.048,M186.079,M101.048,M113.084,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M99.068,M156.101,M87.032,M71.037,M128.095,M115.027,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M163.063,M113.084,M97.053,M156.101,M128.058,M57.021,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M156.101,M57.021,M156.101,M128.095,M57.021,M87.032,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M131.04,0=4,"
+"Loaded_Frequencies=M99.068=1,M147.068,M97.053,M99.068,M163.063,M156.101,M97.053,M156.101,M97.053,0=4,"
+"Loaded_Frequencies=M99.068=1,M115.027,M103.009,M147.068,M113.084,M87.032,M156.101,M97.053,M101.048,M129.043,M128.095,M101.048,0=4,"
+"[/Preset]"

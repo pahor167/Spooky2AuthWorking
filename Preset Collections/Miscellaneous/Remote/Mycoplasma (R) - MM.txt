@@ -1,0 +1,70 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Mycoplasma (R) - MM"
+"BFB_Start_Frequency=20000"
+"BFB_Finish_Frequency=18000000"
+"BFB_Single_Scan=1"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_Hz_Selected=False"
+"BFB_Initial_Step_Size_%=.125"
+"BFB_Initial_Step_Size_%_Selected=True"
+"BFB_Start_Delay=100"
+"BFB_Samples_Per_Step=1"
+"BFB_Threshold=.4"
+"BFB_Reverse_Lookup_Tolerance=.25"
+"BFB_Include_x_Hz_In_Search=0"
+"BFB_Calculate_Using_RA=True"
+"BFB_Calculate_Using_Peak=False"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"BFB_Max_HRV=20"
+"Repeat_Each_Frequency=3"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Amplitude=10"
+"Out2_Amplitude=10"
+"Out2_Hz_Factor=.03125"
+"Out1_Fixed_Frequency=0"
+"Preset_Notes=Mycoplasma Remote preset. By Manuel Mallo
+
+Mycoplasma is a genus of bacteria that lack a cell wall around their cell membrane. Without a cell wall, they are unaffected by many common antibiotics such as penicillin or other beta-lactam antibiotics that target cell wall synthesis, and that makes them very resistent (and dangerous).
+
+They produce several diseases, but the worst part is that Mycoplasma enhances the dangers of other pathogens.
+
+Mycoplasma debilitates our immune system by keeping it busy, making it easier for other micro-organisms to attack us.
+
+Reducing the load of Mycoplasma on our bodies is a great help for fighting almost every disease we are suffering.
+
+There are hundreds of especies, and all of them share the ultra small size (they are as small as certain viruses) and the
+lack of cell wall.
+
+The frequencies for this pathogen spreads over a great interval, so I have composed a repetitive stepped sweep (108 steps) that runs for 432 hours (18 days).
+
+The boost device is used to mix the two Outs for harmonic enhancement.
+
+The preset works best when used nonstop for a period of at least 18x3 days (54 days).
+
+Mycoplasma has a great impact on our health, so the time spent killing it, is worth its weight in gold, as many of you already know.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+Connect your Spooky Remote-BN or Spooky Remote v2.0 to the 'BN' port of Spooky Boost."
+"User_Defined_1_WCM=2"
+"User_Defined_2_WCM=2"
+"Triangle_Spike_Ratio=2"
+"F1_Factor=11"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"User_Defined_1_Waveform=MM_ModSquareDC17"
+"User_Defined_2_Waveform=MM_ModSquareDC17"
+"Out1_Fixed_Frequency=False"
+"Gate_Hz_Option=False"
+"Gate_On_Off_Duration_Option=True"
+"Out2_User_Defined_2=True"
+"InverseWave=False"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Enable_Invert_User_Defined_2=1"
+"Loaded_Programs=MM_Mycoplasma (CUST)"
+"Loaded_Frequencies=4800000-4896954.19=14400,4896954.19-4995866.74=14400,4995866.74-5096777.2=14400,5096777.2-5199725.93=14400,5199725.93-5304754.1=14400,5304754.1-5411903.72=14400,5411903.72-5521217.62=14400,5521217.62-5632739.54=14400,5632739.54-5746514.06=14400,5746514.06-5862586.69=14400,5862586.69-5981003.85=14400,5981003.85-6101812.89=14400,6101812.89-6225062.13=14400,6225062.13-6350800.85=14400,6350800.85-6479079.34=14400,6479079.34-6609948.9=14400,6609948.9-6743461.87=14400,6743461.87-6879671.64=14400,6879671.64-7018632.69=14400,7018632.69-7160400.57=14400,7160400.57-7305032=14400,7305032-7452584.81=14400,7452584.81-7603118=14400,7603118-7756691.79=14400,7756691.79-7913367.58=14400,7913367.58-8073208.03=14400,8073208.03-8236277.06=14400,8236277.06-8402639.89=14400,8402639.89-8572363.05=14400,8572363.05-8745514.41=14400,8745514.41-8922163.22=14400,8922163.22-9102380.12=14400,9102380.12-9286237.18=14400,9286237.18-9473807.94=14400,9473807.94-9665167.39=14400,9665167.39-9860392.08=14400,"
+"[/Preset]"

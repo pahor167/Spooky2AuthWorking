@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Lactose Intolerance (Coil)"
+"Preset_Notes=Lactose Intolerance for Coil
+
+Lactose intolerance is a digestive disorder characterized by the inability to properly digest lactose due to insufficient lactase enzyme, leading to gastrointestinal symptoms like bloating, diarrhea, and abdominal pain. 
+
+Real-world peptides such as GLP-2, teduglutide, and PYY enhance intestinal barrier integrity, nutrient absorption, and proabsorptive functions to mitigate malabsorption-related aspects of the condition. To cover additional axes like lactase induction, anti-inflammation, microbiome modulation, antioxidant protection, motility regulation, and symptom relief, designed peptides (flagged as designed) are proposed based on established peptide motifs for gut health, with feasibility grounded in known physicochemical properties and biological activities.
+
+"
+"Loaded_Programs=Lactose Intolerance p01"
+"Loaded_Programs=Lactose Intolerance p02"
+"Loaded_Programs=Lactose Intolerance p03"
+"Loaded_Programs=Lactose Intolerance p04"
+"Loaded_Programs=Lactose Intolerance p05"
+"Loaded_Programs=Lactose Intolerance p06"
+"Loaded_Programs=Lactose Intolerance p07"
+"Loaded_Programs=Lactose Intolerance p08"
+"Loaded_Programs=Lactose Intolerance p09"
+"Loaded_Programs=Lactose Intolerance p10"
+"Loaded_Programs=Lactose Intolerance p11"
+"Loaded_Programs=Lactose Intolerance p12"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M128.095,M113.084,M101.048,M115.027,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M128.095,M113.084,M101.048,M115.027,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M113.084,M128.095,M97.053,M129.043,M71.037,M97.053,M57.021,M129.043,M115.027,M71.037,M87.032,M97.053,M129.043,M129.043,M113.084,M114.043,M156.101,M163.063,M163.063,M71.037,M87.032,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M99.068,M101.048,M156.101,M128.058,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M113.048=1,M114.079,M100.064,M166.998,M97.053,M129.043,M129.043,M113.084,M114.043,M156.101,M163.063,M71.037,M87.032,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M114.079,M100.064,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M200.095,M113.048,M71.037,M102.001,M147.068,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M163.063=1,M86.048,M85.053,M57.021,M147.068,M113.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M113.084,M237.148,M758.675,M114.079,0=4,"
+"Loaded_Frequencies=M129.043=1,M86.048,M100.064,M142.111,M97.053,M113.048,M137.059,0=4,"
+"Loaded_Frequencies=M99.068=1,M150.954,M237.148,M85.053,M128.095,M129.043,M243.029,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M114.079,M200.095,M100.064,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M137.059,M163.063,M113.048,M113.084,M150.954,M102.001,0=4,"
+"[/Preset]"

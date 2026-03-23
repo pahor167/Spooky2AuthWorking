@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Horse Equine Metabolic Syndrome (EMS) (L)"
+"Preset_Notes=Horse Equine Metabolic Syndrome (EMS) for Laser
+
+Equine Metabolic Syndrome (EMS) is a complex metabolic and endocrine disorder in horses characterized by a classic triad: obesity (generalized or regional adiposity, such as a 'crested neck'), insulin dysregulation (ID), and a high predisposition to laminitis. In 2024-2026, the clinical focus has shifted from simple calorie restriction to the management of 'meta-inflammation.' Research indicates that adipose tissue in EMS horses acts as an active endocrine organ, secreting pro-inflammatory adipokines (IL-6, TNF-{alpha}) that directly impair insulin signaling pathways and compromise the vascular integrity of the hoof lamellae.
+
+1. Insulin Sensitization: [D-Leptin] Fragment 116-122 - A synthetic peptide derived from the leptin molecule that improves insulin sensitivity and modulates satiety signals in the equine hypothalamus.
+2. Incretin Axis Modulation: Equine GLP-1 Analog - A peptide designed to mimic glucagon-like peptide-1, enhancing glucose-dependent insulin secretion and slowing gastric emptying to blunt postprandial glucose spikes.
+3. Adipokine Regulation: Adiponectin-mimetic (ADP-355) - A first-in-class peptide agonist of the adiponectin receptor that counteracts insulin resistance and reduces systemic inflammation in obese equids.
+4. Lamellar Vascular Protection: BPC-157 - A stable gastric pentadecapeptide that promotes angiogenesis and tissue repair, specifically used to mitigate the vascular damage in the hoof associated with hyperinsulinemia.
+5. Endocrine Signaling Inhibition: PTP1B Inhibitor Peptide - A designed sequence that targets Protein Tyrosine Phosphatase 1B, a negative regulator of the insulin receptor, to enhance downstream signaling.
+6. Inflammation Mitigation: {alpha}-MSH (Melanocyte-Stimulating Hormone) - A conserved neuropeptide that exerts potent anti-inflammatory effects by inhibiting NF-{kappa}B activation in adipose tissue and lamellar cells.
+7. Mitochondrial Support: Elamipretide (SS-31) - A mitochondria-targeted peptide that reduces oxidative stress in skeletal muscle and liver, improving metabolic efficiency in insulin-resistant horses.
+8. Optimization Axis: EMS-Metabolite-V1 - An engineered polypeptide combining a glucose-transporter (GLUT4) activator motif with a TNF-{alpha} binding domain to simultaneously lower blood glucose and resolve meta-inflammation.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Horse Equine Metabolic Syndrome (EMS) p01"
+"Loaded_Programs=Horse Equine Metabolic Syndrome (EMS) p02"
+"Loaded_Programs=Horse Equine Metabolic Syndrome (EMS) p03"
+"Loaded_Programs=Horse Equine Metabolic Syndrome (EMS) p04"
+"Loaded_Programs=Horse Equine Metabolic Syndrome (EMS) p05"
+"Loaded_Programs=Horse Equine Metabolic Syndrome (EMS) p06"
+"Loaded_Programs=Horse Equine Metabolic Syndrome (EMS) p07"
+"Loaded_Programs=Horse Equine Metabolic Syndrome (EMS) p08"
+"Loaded_Frequencies=M113.084=1,M129.043,M156.101,M101.048,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.058,M113.084,M163.063,M128.058,M163.063,M147.068,M97.053,M129.043,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.058,M156.101,M114.043,M113.084,M129.043,M156.101,M156.101,M131.040,M156.101,M156.101,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M128.058,M128.058,M128.095,M128.095,M128.095,M128.095,0=4,"
+"[/Preset]"

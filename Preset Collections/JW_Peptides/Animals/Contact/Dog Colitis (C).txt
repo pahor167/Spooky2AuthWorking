@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dog Colitis (C)"
+"Preset_Notes=Dog Colitis for Contact
+
+Dog Colitis is inflammation of the colon, often idiopathic, infectious (e.g., parasites, bacteria), or dietary, presenting as large bowel diarrhea with mucus, blood, tenesmus, urgency, and abdominal pain. Pathophysiology includes disrupted mucosal barrier, dysbiosis, immune dysregulation with cytokine overproduction, and potential progression to chronic IBD.
+
+The proposed polypeptides treat Dog Colitis through anti-inflammatory suppression, microbiome restoration, and mucosal healing. For inflammation control, a designed polypeptide targets IL-6 pathways to reduce cytokine-driven damage; conceptual from anti-cytokine peptides in IBD models. For microbiome balance, a designed polypeptide promotes anti-pathogenic activity while fostering beneficial bacteria; akin to bacteriocins, it aids eubiosis. For mucosal repair, the real-world GHK enhances epithelial regeneration and collagen synthesis, addressing ulceration; used in wound healing, it mitigates colitis symptoms effectively.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dog Colitis p01"
+"Loaded_Programs=Dog Colitis p02"
+"Loaded_Programs=Dog Colitis p03"
+"Loaded_Frequencies=M113.084=1,M99.068,M113.084,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.095,M87.032,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"[/Preset]"

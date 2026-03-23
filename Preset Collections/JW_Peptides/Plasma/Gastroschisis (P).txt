@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Gastroschisis (P)"
+"Preset_Notes=Gastroschisis for Plasma
+
+Gastroschisis is a congenital abdominal wall defect involving evisceration of the intestines, leading to exposure-related inflammation, serosal peeling, potential necrosis, infection risk, dysmotility, and frequent short bowel syndrome post-repair. The selected real-world polypeptides target five evidence-based therapeutic axes derived from clinical trials, preclinical models, and investigational research on intestinal adaptation, repair, and protection.
+
+1. GLP-2 analog agonism: Teduglutide enhances enterocyte proliferation, villus height, and absorptive capacity to support bowel adaptation.
+2. Stable gastric pentadecapeptide repair: BPC-157 promotes angiogenesis, collagen organization, and rapid healing of damaged gastrointestinal tissue.
+3. Vasoactive intestinal peptide modulation: VIP exerts potent anti-inflammatory effects and supports intestinal barrier function and motility.
+4. Thymosin beta-4 promotion: Thymosin beta-4 accelerates epithelial migration, angiogenesis, and wound closure while reducing fibrosis.
+5. Copper-chelated tripeptide regeneration: GHK-Cu stimulates extracellular matrix remodeling, antioxidant activity, and growth factor production.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Gastroschisis p01"
+"Loaded_Programs=Gastroschisis p02"
+"Loaded_Programs=Gastroschisis p03"
+"Loaded_Programs=Gastroschisis p04"
+"Loaded_Programs=Gastroschisis p05"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M128.095,M113.084,M101.048,M115.027,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"[/Preset]"

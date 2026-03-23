@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Cystocele (R)"
+"Preset_Notes=Cystocele for Remote
+
+Cystocele is a form of pelvic organ prolapse where the bladder herniates into the anterior vaginal wall due to weakened pelvic support structures, often resulting from childbirth-related trauma, chronic straining, aging, menopause-induced estrogen decline, obesity, connective tissue disorders, or repetitive heavy lifting. This leads to fascial stretching or tears in the pubocervical ligament, muscle atrophy in the levator ani complex, and potential nerve damage, causing symptoms like vaginal bulging, pelvic pressure, urinary incontinence (stress or urge), retention with post-void residual urine, recurrent cystitis, and dyspareunia or bowel issues if concurrent with rectocele. Pathophysiologically, it involves imbalance in extracellular matrix turnover with elevated matrix metalloproteinases (MMPs) degrading collagen and elastin, reduced tissue inhibitor of metalloproteinases (TIMPs), inflammatory cytokine upregulation, and altered biomechanical forces on the pelvic diaphragm. The proposed polypeptides target these mechanisms: promoting regeneration of pelvic floor muscles to restore support, enhancing fascial integrity through MMP inhibition and collagen stabilization, mitigating chronic inflammation to facilitate healing and reduce symptoms, and optimizing bladder detrusor and sphincter function to address incontinence. The designed muscle regenerator is derived from an IGF-1 binding motif with disulfide cyclization for enhanced stability and bioavailability. The designed fascial reinforcer draws from a TIMP-1 inhibitory loop, cyclized via disulfide for proteolytic resistance. The designed inflammation modulator is based on a truncated cathelicidin motif without cyclization, focusing on cytokine suppression. The designed bladder function enhancer uses an alternating arginine-tryptophan pattern, head-to-tail cyclized for membrane interaction and receptor modulation feasibility.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Cystocele p01"
+"Loaded_Programs=Cystocele p02"
+"Loaded_Programs=Cystocele p03"
+"Loaded_Programs=Cystocele p04"
+"Loaded_Programs=Cystocele p05"
+"Loaded_Programs=Cystocele p06"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M97.053,M129.043,M101.048,M113.084,M102.001,M57.021,M71.037,M129.043,M113.084,M99.068,M115.027,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M99.068,M97.053,M97.053,M137.059,M97.053,M128.058,M101.048,M71.037,M147.068,M102.001,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,M102.001,0=4,"
+"[/Preset]"

@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Pulmonary Fibrosis (Lung Scarring) (C)"
+"Preset_Notes=Pulmonary Fibrosis (Lung Scarring) for Contact
+
+Pulmonary fibrosis encompasses a group of interstitial lung diseases characterized by progressive scarring of lung parenchyma, with idiopathic pulmonary fibrosis (IPF) being the most common and severe form of unknown etiology. It predominantly affects individuals over 50, with risk factors including smoking, environmental exposures, gastroesophageal reflux, and genetic predispositions (e.g., MUC5B variants). Clinical features include insidious progressive dyspnea, chronic dry cough, bibasilar velcro-like crackles, digital clubbing, fatigue, and acute exacerbations leading to respiratory failure. Pathophysiology involves repetitive alveolar epithelial cell injury or dysfunction, failed re-epithelialization, activation and proliferation of fibroblasts into myofibroblasts, excessive deposition of extracellular matrix (primarily collagen), formation of fibroblast foci, architectural distortion with honeycomb cysts, reduced lung compliance, impaired gas exchange, hypoxemia, and eventual pulmonary hypertension with right heart strain.
+
+The proposed polypeptides are all designed conceptual short sequences, as comprehensive internal knowledge and literature recall indicate sparse verifiable short real-world polypeptides (3-50 residues, standard chemistry) with direct preclinical, investigational, or clinical evidence specifically for pulmonary fibrosis treatment; current standards of care are non-peptide antifibrotics. These designed polypeptides target core axes multimodally for potential additive benefits. Peptide 1 (designed) is glycine-proline rich to conceptually interfere with collagen cross-linking and TGF-{beta}-driven ECM accumulation. Peptide 2 (designed) is arginine-lysine rich cationic to conceptually penetrate cells and suppress pro-fibrotic/inflammatory pathways. Peptide 3 (designed) is serine-glutamine rich polar to conceptually enhance epithelial integrity and repair. Peptide 4 (designed) is phenylalanine-tyrosine rich aromatic for conceptual antioxidant protection against reactive oxygen species. Peptide 5 (designed) is histidine-lysine rich to conceptually modulate immune dysregulation and microenvironment pH. Short lengths favor potential inhaled delivery, stability, and synthetic ease, though conceptual and requiring validation.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Pulmonary Fibrosis (Lung Scarring) p01"
+"Loaded_Programs=Pulmonary Fibrosis (Lung Scarring) p02"
+"Loaded_Programs=Pulmonary Fibrosis (Lung Scarring) p03"
+"Loaded_Programs=Pulmonary Fibrosis (Lung Scarring) p04"
+"Loaded_Programs=Pulmonary Fibrosis (Lung Scarring) p05"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.058,M87.032,M128.058,M87.032,M128.058,M87.032,M128.058,M87.032,M128.058,M87.032,M128.058,0=4,"
+"Loaded_Frequencies=M147.068=1,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M137.059,M128.095,M137.059,M128.095,M137.059,M128.095,M137.059,M128.095,M137.059,M128.095,0=4,"
+"[/Preset]"

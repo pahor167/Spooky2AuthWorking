@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Hemophilia (P)"
+"Preset_Notes=Hemophilia for Plasma
+
+Hemophilia encompasses X-linked recessive bleeding disorders, primarily hemophilia A (factor VIII deficiency) and hemophilia B (factor IX deficiency), with rarer forms like hemophilia C. It manifests with spontaneous or trauma-induced bleeding into joints (hemarthrosis), muscles, soft tissues, and potentially life-threatening intracranial or mucosal sites. Chronic hemarthrosis leads to synovitis, cartilage degradation, and debilitating arthropathy. Pathophysiology stems from impaired intrinsic tenase complex activity, reducing factor X activation and thrombin burst essential for stable clot formation, compounded by secondary inflammation and tissue damage from recurrent bleeds.
+
+The proposed polypeptides target hemostatic rebalancing and mitigation of secondary joint damage. The investigational TFPI-linear inhibitor peptide, derived from combinatorial library selections with demonstrated efficacy in enhancing thrombin generation in hemophilia plasma and reducing bleeding in preclinical models, blocks TFPI to amplify residual coagulation activity. The designed cyclic TFPI-inhibitor, rationally based on high-affinity TFPI Kunitz domain-binding motifs with disulfide cyclization, N-acetylation, and C-amidation for proteolytic resistance and pharmacokinetic improvement, provides potent rebalancing in factor-deficient states. BPC-157, a stable pentadecapeptide fragment with extensive preclinical evidence in accelerating musculoskeletal repair, promotes healing of bleed-damaged joints and tissues. The designed alternating cationic polypeptide, inspired by amphipathic helical immune modulators with C-amide for drug-likeness, attenuates chronic synovial inflammation. GHK, a naturally occurring tripeptide with established roles in wound healing, exerts antioxidant effects and stimulates extracellular matrix synthesis for remodeling. The designed proline-rich polypeptide, derived from collagen repeat motifs with C-amide for stability, supports structural restoration in arthropathic joints.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Hemophilia p01"
+"Loaded_Programs=Hemophilia p02"
+"Loaded_Programs=Hemophilia p03"
+"Loaded_Programs=Hemophilia p04"
+"Loaded_Programs=Hemophilia p05"
+"Loaded_Programs=Hemophilia p06"
+"Loaded_Frequencies=M141.079=1,M113.084,M99.068,M147.068,M101.048,M147.068,M156.101,M137.059,M114.043,M128.095,M113.084,M113.084,M57.021,M163.063,M129.043,M156.101,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M163.063,M128.095,M186.079,M137.059,M102.001,M71.037,M131.040,M156.101,M115.027,M131.040,M128.095,M57.021,M101.048,M131.040,M101.048,M102.001,M99.068,M186.079,M99.068,M128.095,M146.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M112.100,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M56.037,0=4,"
+"[/Preset]"

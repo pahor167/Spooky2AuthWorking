@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Detox Silicone Implants (L)"
+"Preset_Notes=Detox Silicone Implants for Laser
+
+Detox (Breast Implant Illness Support)
+
+Silicone implant detoxification addresses symptoms associated with Breast Implant Illness (BII), including chronic inflammation, oxidative stress, heavy metal toxicity, immune dysregulation, and post-explant tissue damage. The proposed polypeptides target evidence-based therapeutic axes from regenerative medicine and toxicology research to enhance liver detox, chelate heavy metals, reduce inflammation, boost antioxidants, promote healing, modulate immunity, support gut integrity, and mitigate oxidative damage for comprehensive recovery.
+
+1. Multi-system regeneration and post-explant healing: BPC-157 facilitates tendon, ligament, and soft tissue repair with robust preclinical evidence.
+2. Actin remodeling and anti-fibrotic activity: TB-500 promotes cell migration and angiogenesis, reducing scarring in recovery phases.
+3. Collagen remodeling and oxidative balance: GHK-Cu enhances extracellular matrix synthesis and antioxidant effects, aiding silicone-related damage.
+4. Master detoxification and phase II conjugation: Glutathione neutralizes toxins and supports heavy metal clearance with clinical use in detox protocols.
+5. Melanocortin-targeted inflammation reduction: KPV suppresses cytokine release, effective for systemic inflammatory responses.
+6. Innate repair for chronic neuropathic symptoms: ARA-290 activates anti-inflammatory pathways, resolving persistent BII effects.
+7. Immune modulation and barrier function: VIP regulates vasodilation and gut integrity, countering immune dysregulation.
+8. Optimized motif for dual anti-inflammatory and metal chelation: Ac-CHFRWC-NH2 (designed) integrates melanocortin core with thiol groups for enhanced cytokine control and toxin binding.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Detox Silicone Implants p01"
+"Loaded_Programs=Detox Silicone Implants p02"
+"Loaded_Programs=Detox Silicone Implants p03"
+"Loaded_Programs=Detox Silicone Implants p04"
+"Loaded_Programs=Detox Silicone Implants p05"
+"Loaded_Programs=Detox Silicone Implants p06"
+"Loaded_Programs=Detox Silicone Implants p07"
+"Loaded_Programs=Detox Silicone Implants p08"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M145.020=1,M137.059,M147.068,M156.101,M186.079,M102.025,0=4,"
+"[/Preset]"

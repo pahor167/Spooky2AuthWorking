@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Oak (R)"
+"Preset_Notes=Oak / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Oak - The plodder who keeps going past the point of exhaustion.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Oak (R)"
+"Loaded_Frequencies=318.03,"
+"[/Preset]"

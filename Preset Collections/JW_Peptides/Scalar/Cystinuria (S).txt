@@ -1,0 +1,61 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Cystinuria (S)"
+"Preset_Notes=Cystinuria for Scalar
+
+Cystinuria is an autosomal recessive genetic disorder primarily caused by mutations in the SLC3A1 (encoding rBAT) or SLC7A9 (encoding b0,+AT) genes, which form the heterodimeric amino acid transporter responsible for reabsorbing cystine and the dibasic amino acids lysine, arginine, and ornithine in the proximal renal tubules and small intestine. These mutations lead to impaired transport, resulting in excessive urinary excretion of cystine (cystinuria) and the dibasic amino acids. Cystine has low solubility in urine at physiological pH (below 7), leading to supersaturation, precipitation, and formation of cystine crystals and stones in the urinary tract. Symptoms typically begin in childhood or early adulthood and include recurrent flank pain, hematuria, urinary tract infections, nausea, vomiting, and in severe cases, obstructive uropathy leading to hydronephrosis, chronic kidney disease, hypertension, or end-stage renal disease. Pathophysiology involves multiple axes: defective amino acid transport causing hypercystinuria; cystine supersaturation and crystallization due to low solubility; oxidative stress from cystine accumulation exacerbating cellular damage in renal tubules; inflammatory responses triggered by stone formation and obstruction, including cytokine release and neutrophil infiltration; fibrotic remodeling in the kidney from repeated injury; disrupted metabolic homeostasis, such as altered sulfur metabolism; and potential secondary complications like infections and impaired renal function. Environmental factors, such as low fluid intake or high sodium/protein diet, worsen stone formation. Diagnosis includes urine analysis for cystine levels (>250 mg/L), stone composition, genetic testing, and imaging for stones.
+
+The proposed polypeptides, all designed (flagged as such due to shortfall of real-world polypeptides meeting criteria-after exhaustive tool-based searches across PubMed, NIH, and clinical databases, no verifiable real-world polypeptides within length limits or directly therapeutic were identified; enzymes like cystinase exceed 150 residues and were rejected per rules), address cystinuria through comprehensive coverage of its axes. Designed polypeptides target transporter modulation by conceptually binding mutant sites to enhance function or stabilize the heterodimer; cystine binding to form soluble complexes mimicking thiol mechanisms; crystal growth inhibition via surface adsorption to block nucleation sites; oxidative stress reduction through antioxidant motifs; anti-inflammatory effects to mitigate stone-induced inflammation; anti-fibrotic actions to prevent renal scarring; metabolic correction to lower cystine precursors; and renal protective mechanisms to preserve tubular integrity. Feasibility considers short peptide stability, potential for oral or renal-targeted delivery, low immunogenicity due to human-like sequences, and modes of action based on known protein-cystine interactions and physicochemical properties like charge and hydrophobicity optimized for solubility and binding affinity. These conceptual designs prioritize covering all axes with at least one polypeptide each, supplemented for depth.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Cystinuria p01"
+"Loaded_Programs=Cystinuria p02"
+"Loaded_Programs=Cystinuria p03"
+"Loaded_Programs=Cystinuria p04"
+"Loaded_Programs=Cystinuria p05"
+"Loaded_Programs=Cystinuria p06"
+"Loaded_Programs=Cystinuria p07"
+"Loaded_Programs=Cystinuria p08"
+"Loaded_Programs=Cystinuria p09"
+"Loaded_Programs=Cystinuria p10"
+"Loaded_Programs=Cystinuria p11"
+"Loaded_Programs=Cystinuria p12"
+"Loaded_Programs=Cystinuria p13"
+"Loaded_Programs=Cystinuria p14"
+"Loaded_Programs=Cystinuria p15"
+"Loaded_Programs=Cystinuria p16"
+"Loaded_Programs=Cystinuria p17"
+"Loaded_Programs=Cystinuria p18"
+"Loaded_Frequencies=M71.037=1,M113.084,M128.095,M97.053,M128.058,M99.068,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M147.068=1,M131.040,M129.043,M115.027,M137.059,M113.084,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M129.043,M129.043,M128.095,M101.048,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M186.079=1,M87.032,M99.068,M113.084,M131.040,M115.027,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.058,M71.037,M147.068,M113.084,M128.095,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M115.027,M114.043,M87.032,M131.040,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M101.048=1,M57.021,M129.043,M156.101,M163.063,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M131.040,M137.059,M147.068,M115.027,M87.032,M71.037,0=4,"
+"Loaded_Frequencies=M128.058=1,M186.079,M129.043,M156.101,M101.048,M163.063,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M131.040,M114.043,M128.095,M99.068,M57.021,M147.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M113.084,M147.068,M57.021,M137.059,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M147.068,M99.068,M131.040,M101.048,M128.058,M71.037,M129.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M163.063,M113.084,M128.095,M97.053,M131.040,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M99.068,M128.058,M101.048,M87.032,M128.095,M115.027,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M114.043,M147.068,M57.021,M156.101,M137.059,M97.053,M71.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.058,M99.068,M115.027,M87.032,M97.053,M101.048,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M156.101,M57.021,M137.059,M131.040,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M97.053=1,M101.048,M99.068,M87.032,M128.058,M128.058,M113.084,M115.027,0=4,"
+"[/Preset]"

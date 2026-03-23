@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Prostate Cancer (P)"
+"Preset_Notes=Prostate Cancer for Plasma
+
+Prostate cancer is a common malignancy in men, frequently androgen-dependent, with therapeutic needs in hormone suppression, growth factor receptor antagonism, tumor-specific immune activation, apoptosis induction, angiogenesis inhibition, and telomerase targeting.
+
+Androgen signaling inhibition: Gonadorelin - GnRH receptor agonist causing initial stimulation followed by desensitization and testosterone reduction.
+GRPR antagonism: GRPR-Ant1 - Designed bombesin analog antagonist blocking gastrin-releasing peptide receptor to inhibit tumor proliferation.
+Tumor antigen immunotherapy: TARP-EP1 - Designed TARP-derived epitope peptide for inducing cytotoxic T-cell responses against prostate tumor cells.
+Pro-apoptotic activity: KLAK-ProApop - Designed amphipathic helical peptide disrupting cancer cell mitochondrial membranes to trigger apoptosis.
+Angiogenesis inhibition: RGD-Ant1 - Designed RGD-motif peptide antagonizing integrins to suppress tumor neovascularization.
+Telomerase targeting: hTERT-EP1 - Designed hTERT-derived epitope peptide eliciting immune responses against telomerase-expressing cancer cells.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Prostate Cancer p01"
+"Loaded_Programs=Prostate Cancer p02"
+"Loaded_Programs=Prostate Cancer p03"
+"Loaded_Programs=Prostate Cancer p04"
+"Loaded_Programs=Prostate Cancer p05"
+"Loaded_Programs=Prostate Cancer p06"
+"Loaded_Frequencies=M111.032=1,M137.059,M186.079,M87.032,M163.063,M57.021,M113.084,M156.101,M97.053,M56.037,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.058,M186.079,M71.037,M99.068,M57.021,M137.059,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M113.084,M113.084,M97.053,M147.068,M97.053,M57.021,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M99.068,M115.027,M115.027,M147.068,M113.084,M113.084,M98.084,0=4,"
+"[/Preset]"

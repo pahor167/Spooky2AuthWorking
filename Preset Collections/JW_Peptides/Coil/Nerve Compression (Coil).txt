@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Nerve Compression (Coil)"
+"Preset_Notes=Nerve Compression for Coil
+
+Nerve compression is a condition characterized by excessive pressure on a peripheral nerve, often resulting in pain, numbness, tingling, muscle weakness, or loss of function, as seen in conditions like carpal tunnel syndrome or sciatica. 
+
+These peptides cover key therapeutic axes including anti-inflammatory (reducing swelling around nerves), analgesic (managing neuropathic pain), neuroprotective (preventing further nerve damage), regenerative (promoting axon regrowth and remyelination), myorelaxant (relaxing compressing muscles), vasodilatory (improving blood flow), antioxidant (mitigating oxidative damage), immunomodulatory (balancing immune responses), anti-fibrotic (preventing scar tissue buildup), and growth factor mimetic (stimulating repair signals) mechanisms to comprehensively address the multifaceted pathology of nerve compression. Designed peptides are used to supplement coverage where real-world options are limited.
+
+"
+"Loaded_Programs=Nerve Compression p01"
+"Loaded_Programs=Nerve Compression p02"
+"Loaded_Programs=Nerve Compression p03"
+"Loaded_Programs=Nerve Compression p04"
+"Loaded_Programs=Nerve Compression p05"
+"Loaded_Programs=Nerve Compression p06"
+"Loaded_Programs=Nerve Compression p07"
+"Loaded_Programs=Nerve Compression p08"
+"Loaded_Programs=Nerve Compression p09"
+"Loaded_Programs=Nerve Compression p10"
+"Loaded_Programs=Nerve Compression p11"
+"Loaded_Programs=Nerve Compression p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M87.032=1,M114.043,M163.063,M71.037,M113.084,M128.095,M57.021,M128.058,M57.021,M156.101,M101.048,M113.084,M163.063,M57.021,M147.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M87.032,M101.048,M101.048,M101.048,M114.043,M163.063,M101.048,0=4,"
+"Loaded_Frequencies=M99.032=1,M129.043,M156.101,M156.101,M128.058,M163.063,M147.068,M186.079,M113.084,M71.037,M186.079,M163.063,M128.095,M113.084,M71.037,M114.043,M87.032,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M147.068,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M198.112=1,M128.058,M113.084,M128.095,M113.084,M186.079,M147.068,M128.058,M114.043,M156.101,M156.101,M131.04,M128.095,M186.079,M128.095,M128.095,M103.009,M113.084,M156.101,M99.068,M156.101,M113.084,M71.037,M87.032,M137.059,M113.084,M156.101,M128.095,M113.084,M156.101,M128.095,M156.101,M113.084,M112.1,0=4,"
+"Loaded_Frequencies=M128.058=1,M114.043,M87.032,M163.063,M71.037,M115.027,M113.084,M186.079,M102.001,M128.058,M147.068,M137.059,M163.063,M131.04,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M128.095,M113.048,M156.101,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M237.148=1,M200.095,M113.084,M85.053,M86.048,M101.048,M87.032,M128.095,0=4,"
+"[/Preset]"

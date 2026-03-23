@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (C)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=C09 Viruses D - DB"
+"Preset_Notes=M&L Protocol, Phase I-Terrain. Contact Mode.
+
+Update: September 2019.
+
+PROGRAMS: 
+Coxsackie B1 HC
+Coxsackie B2 CAFL
+Coxsackie B5 CAFL
+Coxsackie B4 HC
+Coxsackie B6 CAFL
+Your Scan Results CUST
+
+For a high power treatment, connect TENS cable to 'HIGH PWR CONTACT' port of Spooky Boost. For a lower power treatment, connect TENS cable to 'COLLOIDAL SILVER' port of Spooky Boost. If you don't have Spooky Boost, connect TENS cable to Out 1. Connect your Hand Cylinders/Tens Contact Kit item/TENS pads to TENS cable."
+"Loaded_Programs=Coxsackie B1 (HC)"
+"Loaded_Programs=Coxsackie B2 (CAFL)"
+"Loaded_Programs=Coxsackie B5 (CAFL)"
+"Loaded_Programs=Coxsackie B4 (HC)"
+"Loaded_Programs=Coxsackie B6 (CAFL)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=360500-366100=3600,"
+"Loaded_Frequencies=705=300,534=300,867=300,"
+"Loaded_Frequencies=462=300,1043=300,1083=300,569=300,647=300,708=300,774=300,"
+"Loaded_Frequencies=361450-363700=3600,"
+"Loaded_Frequencies=488=300,736=300,814=300,343=300,551=300,657=300,668=300,669=300,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

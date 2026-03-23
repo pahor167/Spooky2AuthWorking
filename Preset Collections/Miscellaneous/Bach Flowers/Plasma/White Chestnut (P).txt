@@ -1,0 +1,15 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=White Chestnut (P)"
+"Preset_Notes=White Chestnut / Spooky Plasma
+
+Estimated Time: Run this preset for 3:00 minutes.
+White Chestnut - Unwanted thoughts and mental arguments, mind going around and around.
+
+Connect Out 1 to Input. Connect Out 2 to Modulation.
+"
+"Loaded_Programs=White Chestnut (P)"
+"Loaded_Frequencies=247.09,"
+"[/Preset]"

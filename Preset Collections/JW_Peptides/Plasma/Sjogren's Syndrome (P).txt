@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Sjögren’s Syndrome (P)"
+"Preset_Notes=Sjögren’s Syndrome for Plasma
+
+Sjögren's Syndrome is a systemic autoimmune disease characterized by lymphocytic infiltration of exocrine glands, resulting in dry mouth (xerostomia), dry eyes (keratoconjunctivitis sicca), glandular dysfunction, inflammation, neuropathy, and potential systemic complications. The proposed polypeptides target evidence-based therapeutic axes from preclinical models, clinical studies, and mechanistic research focused on glandular protection, regeneration, secretion stimulation, immune modulation, and nerve repair.
+
+1. Vasoactive intestinal peptide-mediated stimulation of salivary secretion, anti-inflammatory effects, and glandular protection: VIP improves gland function and reduces inflammation in SS models.
+2. Thymosin {beta}4-mediated ocular surface healing and anti-inflammatory effects: Promotes corneal integrity, mucin recovery, and reduces dry eye inflammation in autoimmune models.
+3. TSP-1-derived 4N1K peptide-mediated suppression of Th17 responses: Attenuates autoimmune ocular surface inflammation and dry eye in SS-associated models.
+4. ARA 290-mediated small nerve fiber regeneration: Enhances corneal and small fiber nerve density, alleviating neuropathic pain and sensory symptoms overlapping with SS.
+5. KP24-mediated submandibular gland tissue growth: Repeating KP motif enhances salivary gland cell aggregation and regeneration in vitro.
+6. {alpha}-MSH-derived KPV-mediated anti-inflammatory effects: Potent suppression of inflammation relevant to glandular autoimmune responses.
+7. GHK-Cu-mediated tissue remodeling and antioxidant support: Stimulates ECM synthesis, growth factors, and protects against oxidative damage in glandular tissues.
+8. Engineered GHK-TB hybrid-mediated optimized regeneration: Combines copper-binding motif with actin-sequestering sequence for enhanced wound healing and repair in exocrine glands.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Sjögren’s Syndrome p01"
+"Loaded_Programs=Sjögren’s Syndrome p02"
+"Loaded_Programs=Sjögren’s Syndrome p03"
+"Loaded_Programs=Sjögren’s Syndrome p04"
+"Loaded_Programs=Sjögren’s Syndrome p05"
+"Loaded_Programs=Sjögren’s Syndrome p06"
+"Loaded_Programs=Sjögren’s Syndrome p07"
+"Loaded_Programs=Sjögren’s Syndrome p08"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.04,M71.037,M129.043,M113.084,M129.043,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M147.068,M163.063,M99.068,M99.068,M131.04,M186.079,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M128.095,M97.053,M128.095,M97.053,M128.095,M97.053,M128.095,M97.053,M128.095,M97.053,M128.095,M97.053,M128.095,M97.053,M128.095,M97.053,M128.095,M97.053,M128.095,M97.053,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M99.032=1,M137.059,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M127.074,0=4,"
+"[/Preset]"

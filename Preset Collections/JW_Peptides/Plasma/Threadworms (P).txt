@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Threadworms (P)"
+"Preset_Notes=Threadworms for Plasma
+
+Threadworms, or pinworm infection (Enterobius vermicularis), is a prevalent intestinal nematode parasitism, particularly in children, characterized by perianal pruritus, restlessness, and occasional complications like appendicitis or secondary bacterial infections from scratching.
+
+The condition involves the lifecycle of the nematode Enterobius vermicularis, with adult worms in the gut and egg deposition causing symptoms. The polypeptide set prioritizes real-world examples with verified anthelmintic activity against nematodes (transferable due to shared biology, though not directly tested on E. vermicularis in sources). Only 4 real-world polypeptides identified via tool searches (PubMed/PMC articles on cyclotides and synthetic peptides), covering membrane permeabilization and cuticle disruption axes; shortfall from min_real_polypeptides due to dominance of small-molecule drugs (e.g., mebendazole) in clinical practice and limited peptide research for this parasite. Supplemented with 14 designed polypeptides (flagged) to meet minimums and expand conceptual coverage, using non-standard residues for improved charge targeting of nematode surfaces, redox modulation, and structural stability via cyclic scaffolds.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Threadworms p01"
+"Loaded_Programs=Threadworms p02"
+"Loaded_Programs=Threadworms p03"
+"Loaded_Programs=Threadworms p04"
+"Loaded_Programs=Threadworms p05"
+"Loaded_Programs=Threadworms p06"
+"Loaded_Programs=Threadworms p07"
+"Loaded_Programs=Threadworms p08"
+"Loaded_Programs=Threadworms p09"
+"Loaded_Programs=Threadworms p10"
+"Loaded_Programs=Threadworms p11"
+"Loaded_Programs=Threadworms p12"
+"Loaded_Programs=Threadworms p13"
+"Loaded_Programs=Threadworms p14"
+"Loaded_Programs=Threadworms p15"
+"Loaded_Programs=Threadworms p16"
+"Loaded_Programs=Threadworms p17"
+"Loaded_Programs=Threadworms p18"
+"Loaded_Frequencies=M71.037=1,M128.095,M113.084,M113.084,M97.053,M101.048,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M97.053,M99.068,M102.001,M57.021,M129.043,M101.048,M102.001,M99.068,M57.021,M57.021,M101.048,M102.001,M114.043,M101.048,M97.053,M57.021,M102.001,M101.048,M102.001,M87.032,M186.079,M97.053,M99.068,M102.001,M101.048,M156.101,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M113.084,M97.053,M102.001,M57.021,M129.043,M87.032,M102.001,M99.068,M147.068,M113.084,M97.053,M102.001,M113.084,M101.048,M87.032,M71.037,M113.084,M57.021,M102.001,M87.032,M102.001,M128.095,M87.032,M128.095,M99.068,M102.001,M163.063,M156.101,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M97.053,M102.001,M57.021,M129.043,M87.032,M102.001,M99.068,M186.079,M113.084,M97.053,M102.001,M113.084,M87.032,M87.032,M71.037,M113.084,M57.021,M102.001,M87.032,M102.001,M128.095,M114.043,M128.095,M99.068,M102.001,M163.063,M156.101,M114.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M128.095,M57.021,M113.048,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M114.079,M86.048,M128.095,M113.048,M237.148,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M200.095,M57.021,M150.954,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M237.148,M86.048,M114.079,M113.048,M150.954,M200.095,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M85.053,M114.079,M86.048,M57.021,M113.048,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M113.048,M150.954,M128.095,M57.021,M200.095,M237.148,M85.053,M114.079,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M85.053,M150.954,M57.021,M113.048,M200.095,M237.148,M128.095,0=4,"
+"Loaded_Frequencies=M113.048=1,M150.954,M114.079,M86.048,M57.021,M200.095,M85.053,M237.148,0=4,"
+"Loaded_Frequencies=M200.095=1,M237.148,M86.048,M114.079,M113.048,M150.954,M57.021,M85.053,0=4,"
+"Loaded_Frequencies=M85.053=1,M200.095,M237.148,M114.079,M86.048,M113.048,M150.954,M57.021,0=4,"
+"Loaded_Frequencies=M150.954=1,M85.053,M200.095,M237.148,M86.048,M114.079,M113.048,0=4,"
+"Loaded_Frequencies=M237.148=1,M113.048,M85.053,M200.095,M114.079,M86.048,M150.954,M57.021,0=4,"
+"Loaded_Frequencies=M200.095=1,M150.954,M237.148,M85.053,M113.048,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M113.048=1,M237.148,M200.095,M150.954,M85.053,M114.079,M86.048,0=4,"
+"[/Preset]"

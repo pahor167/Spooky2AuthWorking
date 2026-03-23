@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Phimosis (P)"
+"Preset_Notes=Phimosis for Plasma
+
+Pathological phimosis involves chronic inflammation and fibrosis of the foreskin, often linked to balanitis xerotica obliterans (BXO/lichen sclerosus), leading to scarring and reduced elasticity. Standard treatments focus on topical corticosteroids to reduce inflammation and circumcision for severe cases. The proposed polypeptides target complementary mechanistic axes drawn from wound healing, anti-inflammatory, and anti-fibrotic research to potentially support non-surgical management through tissue repair, reduced scarring, and improved foreskin retractability.
+
+1. Angiogenesis and tissue stabilization: BPC-157 promotes endothelial integrity and healing in preclinical wound models.
+2. Skin remodeling and collagen regulation: GHK-Cu stimulates regenerative pathways in human skin studies.
+3. Cell migration and anti-scarring: TB-500 (Thymosin {beta}4 fragment) enhances actin dynamics and reduces fibrosis in healing tissues.
+4. Potent anti-inflammatory signaling: KPV derives from {alpha}-MSH and suppresses inflammatory cytokines.
+5. Antimicrobial defense: LL-37 (cathelicidin) provides broad-spectrum activity to prevent secondary infections.
+6. Non-erythropoietic tissue protection: ARA-290 (cibinetide) mitigates chronic inflammation and promotes repair.
+7. Caveolin-mediated anti-fibrosis: E4_Antifibrotic targets pathways to reverse fibrotic remodeling.
+8. Elastin-inspired elasticity enhancement: ElastoPep-Eng (designed Ac-VPGVGVPGVGVPGVG-NH2) incorporates repetitive VPGVG motifs to promote flexible tissue properties.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Phimosis p01"
+"Loaded_Programs=Phimosis p02"
+"Loaded_Programs=Phimosis p03"
+"Loaded_Programs=Phimosis p04"
+"Loaded_Programs=Phimosis p05"
+"Loaded_Programs=Phimosis p06"
+"Loaded_Programs=Phimosis p07"
+"Loaded_Programs=Phimosis p08"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M102.001,M129.043,M101.048,M186.079,M156.101,M101.048,M129.043,M71.037,M97.053,M87.032,M71.037,M101.048,M57.021,M128.058,M71.037,M87.032,M87.032,M113.084,M113.084,M57.021,M57.021,M156.101,M113.084,M113.084,M57.021,M128.058,M87.032,M71.037,M71.037,M87.032,M102.001,M137.059,M137.059,M71.037,M163.063,M113.084,M99.068,M113.084,M102.001,M113.084,M129.043,M114.043,M87.032,M147.068,M131.040,M101.048,0=4,"
+"Loaded_Frequencies=M141.079=1,M97.053,M57.021,M99.068,M57.021,M99.068,M97.053,M57.021,M99.068,M57.021,M99.068,M97.053,M57.021,M99.068,M56.037,0=4,"
+"[/Preset]"

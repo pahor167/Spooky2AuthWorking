@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Pterostilbene (Nootropics) (R) - JRG"
+"Loaded_Programs=Pterostilbene (CUST)"
+"Loaded_Frequencies=M256.10994,"
+"Preset_Notes=Pterostilbene is found in cranberries, blueberries and grapes. And is a compound similar to Resveratrol.|Pterostilbene is a very potent antioxidant, stimulates Brain-Derived Neurotrophic Factor, promotes neuroplasticity, is anti-anxiety, boosts dopamine, and helps cognition, learning and memory.|Pterostilbene works by modifying enzymes linked to glucose levels. It helps reduce blood sugar and cholesterol. Which reduces oxidative stress and prevents heart attacks and stroke.|Pterostilbene is believed to be stronger than Resveratrol and has better bio-availability. Both compounds work in different ways in a human cell so are often stacked together.|Recommended dosage of Pterostilbene is 50 mg per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

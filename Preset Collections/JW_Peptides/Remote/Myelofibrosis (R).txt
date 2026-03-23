@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Myelofibrosis (R)"
+"Preset_Notes=Myelofibrosis for Remote
+
+Myelofibrosis (MF) is a chronic myeloproliferative neoplasm characterized by progressive bone marrow fibrosis, extramedullary hematopoiesis, splenomegaly, and severe constitutional symptoms. The pathophysiology is primarily driven by somatic mutations in JAK2 (V617F), CALR, or MPL, which cause constitutive activation of the JAK-STAT signaling pathway. This aberrant signaling triggers the overproduction of atypical megakaryocytes and monocytes, which in turn secrete high levels of profibrotic and proinflammatory cytokines, including TGF-{beta}, IL-6, and TNF-{alpha}. The resulting fibrotic remodeling of the bone marrow environment suppresses healthy hematopoiesis, leading to debilitating anemia and thrombocytopenia. Therapeutic strategies focus on inhibiting the JAK-STAT signaling axis, neutralizing profibrotic ligands within the TGF-{beta} superfamily, and modulating the inflammatory cytokine storm to restore the hematopoietic niche.
+
+The proposed set of polypeptides addresses these therapeutic axes through both established real-world sequences and novel designed candidates. The TGF-{beta}/fibrosis axis is targeted by the real-world peptides P144 and P17, which competitively inhibit TGF-{beta}1 signaling to reduce extracellular matrix deposition. JAK-STAT dysregulation is addressed by designed polypeptide D1-JAK-Block, which mimics the JH2 pseudokinase domain to inhibit mutant JAK2, and D3-STAT-Inh, which prevents STAT3 dimerization. Anemia and impaired erythropoiesis are managed via functional fragments of erythropoietin (Peptide 6) and the designed Activin A sequestrant D4-ACT-Bind. The inflammatory microenvironment is modulated by Thymosin alpha-1 and the tissue-remodeling peptide GHK. Additionally, designed polypeptide D2-CXCR-Mob targets the CXCR4 receptor to facilitate the mobilization of neoplastic stem cells from the fibrotic marrow. Senescence-associated fibrosis is addressed by the senolytic FOXO4-DRI fragment.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Myelofibrosis p01"
+"Loaded_Programs=Myelofibrosis p02"
+"Loaded_Programs=Myelofibrosis p03"
+"Loaded_Programs=Myelofibrosis p04"
+"Loaded_Programs=Myelofibrosis p05"
+"Loaded_Programs=Myelofibrosis p06"
+"Loaded_Programs=Myelofibrosis p07"
+"Loaded_Programs=Myelofibrosis p08"
+"Loaded_Programs=Myelofibrosis p09"
+"Loaded_Programs=Myelofibrosis p10"
+"Loaded_Programs=Myelofibrosis p11"
+"Loaded_Programs=Myelofibrosis p12"
+"Loaded_Frequencies=M101.048=1,M87.032,M113.084,M115.027,M71.037,M87.032,M113.084,M186.079,M71.037,M131.040,M131.040,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.084,M186.079,M147.068,M113.084,M97.053,M156.101,M87.032,M87.032,M186.079,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M97.053,M97.053,M156.101,M113.084,M113.084,M103.009,M115.027,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M101.048,M113.084,M156.101,M128.095,M129.043,M97.053,M71.037,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M147.068,M57.021,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M97.053=1,M101.048,M186.079,M131.040,M113.084,M103.009,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M156.101,M97.053,M114.043,M115.027,0=4,"
+"Loaded_Frequencies=M103.009=1,M137.059,M128.095,M186.079,M87.032,M57.021,0=4,"
+"[/Preset]"

@@ -1,0 +1,59 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Eastern Equine Encephalitis (C)"
+"Preset_Notes=Eastern Equine Encephalitis for Contact
+
+Eastern Equine Encephalitis (EEE) is a rare but potentially fatal mosquito-borne viral disease caused by the Eastern equine encephalitis virus (EEEV), an alphavirus in the Togaviridae family. The virus is endemic in North America, primarily along the Atlantic and Gulf coasts, with occasional outbreaks. It maintains an enzootic cycle between wild birds and Culiseta melanura mosquitoes in freshwater hardwood swamps, with bridge vectors (e.g., Aedes or Coquillettidia species) transmitting to humans and horses as dead-end hosts. Human cases are sporadic, with an average of 7-10 reported annually in the US, but carry high severity.
+
+Symptoms range from asymptomatic or mild febrile illness (fever, headache, myalgia) to severe neuroinvasive disease (encephalitis or meningitis), with sudden onset high fever, vomiting, altered mental status, seizures, and coma. Case fatality rate is approximately 30-50%, and survivors often suffer permanent neurologic deficits such as cognitive impairment, paralysis, or seizures.
+
+Pathophysiology involves initial viral replication at the bite site and lymph nodes, viremia, crossing of the blood-brain barrier, direct neuronal infection, massive inflammatory response with cytokine storm, vasogenic and cytotoxic edema, neuronal destruction, and disruption of CNS homeostasis.
+
+There is no approved specific antiviral treatment or human vaccine; management is entirely supportive (ventilation, seizure control, edema reduction). Experimental approaches in related alphaviruses suggest potential for antivirals, but none are established for EEE.
+
+All proposed polypeptides are designed conceptual constructs, as no real-world polypeptides with verifiable therapeutic application to EEE were identified despite comprehensive searches. The 18 designed polypeptides incorporate non-standard amino acids and structural modifications for enhanced stability, CNS penetration potential, and targeted activity. They collectively address all key axes: viral entry/fusion inhibition (disrupting E1 glycoprotein function), replication inhibition (targeting nsP2 protease), capsid interference (competing with host interactions), direct antiviral envelope disruption (HDP-mimetic), neuroinflammation reduction (cytokine modulation), neuroprotection (limiting apoptosis/edema), and prophylactic immunity induction (broad epitope presentation). Multiple polypeptides per axis ensure robust coverage, with cyclic forms for protease resistance and charged/amphipathic motifs for mechanism-specific efficacy.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Eastern Equine Encephalitis p01"
+"Loaded_Programs=Eastern Equine Encephalitis p02"
+"Loaded_Programs=Eastern Equine Encephalitis p03"
+"Loaded_Programs=Eastern Equine Encephalitis p04"
+"Loaded_Programs=Eastern Equine Encephalitis p05"
+"Loaded_Programs=Eastern Equine Encephalitis p06"
+"Loaded_Programs=Eastern Equine Encephalitis p07"
+"Loaded_Programs=Eastern Equine Encephalitis p08"
+"Loaded_Programs=Eastern Equine Encephalitis p09"
+"Loaded_Programs=Eastern Equine Encephalitis p10"
+"Loaded_Programs=Eastern Equine Encephalitis p11"
+"Loaded_Programs=Eastern Equine Encephalitis p12"
+"Loaded_Programs=Eastern Equine Encephalitis p13"
+"Loaded_Programs=Eastern Equine Encephalitis p14"
+"Loaded_Programs=Eastern Equine Encephalitis p15"
+"Loaded_Programs=Eastern Equine Encephalitis p16"
+"Loaded_Programs=Eastern Equine Encephalitis p17"
+"Loaded_Programs=Eastern Equine Encephalitis p18"
+"Loaded_Frequencies=M102.001=1,M156.101,M114.079,M128.095,M147.068,M113.048,M086.048,M102.001,0=4,"
+"Loaded_Frequencies=M156.090=1,M86.048,M128.095,M156.101,M57.021,M99.068,M147.068,M114.079,M113.048,M85.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M113.048,M156.101,M128.095,M114.079,M147.068,M102.001,0=4,"
+"Loaded_Frequencies=M192.965=1,M114.079,M86.048,M128.095,M156.101,M57.021,M113.048,M86.048,M114.079,M149.970,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M150.954,M156.101,M86.048,M114.079,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M128.059=1,M113.048,M114.079,M156.101,M128.095,M150.954,M86.048,M57.021,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M156.090=1,M156.101,M114.079,M128.095,M86.048,M156.101,M114.079,M128.095,M86.048,M155.117,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M147.068,M156.101,M113.048,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M156.090=1,M128.095,M86.048,M114.079,M57.021,M147.068,M99.068,M113.048,M86.048,M155.117,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M150.954,M86.048,M128.095,M114.079,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M156.090=1,M86.048,M114.079,M128.095,M57.021,M99.068,M147.068,M113.048,M86.048,M127.111,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M114.079,M86.048,M156.101,M113.048,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M128.059=1,M114.079,M86.048,M156.101,M57.021,M147.068,M99.068,M113.048,M114.079,M155.117,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M150.954,M128.095,M114.079,M86.048,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M156.090=1,M128.095,M114.079,M86.048,M57.021,M147.068,M99.068,M113.048,M86.048,M155.117,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M128.095,M156.101,M113.048,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M128.059=1,M86.048,M114.079,M128.095,M57.021,M99.068,M147.068,M113.048,M114.079,M127.111,0=4,"
+"Loaded_Frequencies=M156.090=1,M114.079,M86.048,M156.101,M128.095,M113.048,M86.048,M114.079,M113.048,M155.117,0=4,"
+"[/Preset]"

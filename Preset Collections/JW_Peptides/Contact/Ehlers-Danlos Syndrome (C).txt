@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Ehlers-Danlos Syndrome (C)"
+"Preset_Notes=Ehlers-Danlos Syndrome for Contact
+
+Ehlers-Danlos Syndrome (EDS) is a group of heritable connective tissue disorders caused by defects in collagen synthesis, structure, or processing, leading to joint hypermobility, skin fragility, chronic pain, vascular/GI complications, and inflammation from repetitive microtrauma. The proposed polypeptides address evidence-based axes from preclinical repair studies, emerging peptide research, and community/investigational use targeting regeneration, stabilization, inflammation, pain, and immune support.
+
+1. Copper-binding tripeptide-mediated ECM remodeling and collagen synthesis: GHK-Cu upregulates collagen production, reduces oxidative stress, and supports tissue restructuring relevant to defective matrices.
+
+2. Stable gastric pentadecapeptide-mediated multi-tissue regeneration: BPC-157 accelerates healing of tendons, ligaments, gut, and reduces inflammation in injury models applicable to EDS fragility.
+
+3. Acetylated thymosin fragment-mediated actin regulation and repair: TB-500 promotes cell migration, angiogenesis, and anti-fibrotic effects for soft tissue stability.
+
+4. Acetylated/amidated {alpha}-MSH tripeptide potent anti-inflammation: Ac-KPV-NH2 strongly suppresses inflammatory cytokines to mitigate chronic microtrauma responses.
+
+5. Acetylated immune-enhancing peptide for regenerative support: Thymosin {alpha}1 boosts thymic function, T-cell activity, and aids tissue repair in chronic conditions.
+
+6. Amidated vasoactive intestinal peptide for anti-inflammatory and GI/autonomic modulation: VIP exerts neuroprotective, vasodilatory, and anti-inflammatory effects addressing common EDS comorbidities.
+
+7. EPO-derived tissue-protective peptide for neuroprotection and anti-apoptosis: ARA 290 (Cibinetide) provides non-hematopoietic repair and pain relief in neuropathic models.
+
+8. Engineered glycine-proline-proline repeat collagen-mimetic for fibril stabilization: Ac-(GPP)10-NH2 forms triple-helical structures to reinforce and hybridize with defective collagen networks.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Ehlers-Danlos Syndrome p01"
+"Loaded_Programs=Ehlers-Danlos Syndrome p02"
+"Loaded_Programs=Ehlers-Danlos Syndrome p03"
+"Loaded_Programs=Ehlers-Danlos Syndrome p04"
+"Loaded_Programs=Ehlers-Danlos Syndrome p05"
+"Loaded_Programs=Ehlers-Danlos Syndrome p06"
+"Loaded_Programs=Ehlers-Danlos Syndrome p07"
+"Loaded_Programs=Ehlers-Danlos Syndrome p08"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

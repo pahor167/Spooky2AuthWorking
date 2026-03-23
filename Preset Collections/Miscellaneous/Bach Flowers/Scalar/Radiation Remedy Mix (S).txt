@@ -1,0 +1,14 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Radiation Remedy Mix (S)"
+"Preset_Notes=Radiation Remedy Mix / Spooky Scalar
+
+Estimated Time: Run this preset for 21:00 minutes.
+
+Radiation Remedy Discovered by Dr Westlakes contains: Cherry Plum, Gentian, Rock Rose, Star of Bethlehem, Vine, Walnut, & Wild Oat Toped up with Uncontaminated Sea Water. - very useful for people that work with computers and microwave ovens or people that get exposed to any form of radiation - X rays, Nuclear fallout, or people taking deep-ray therapy, cobalt therapy, kimo therapy or even watching too much television.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Radiation Remedy Mix (S)"
+"Loaded_Frequencies=262.01,265.67,277.99,276.57,383.91,261.26,430.20,"
+"[/Preset]"

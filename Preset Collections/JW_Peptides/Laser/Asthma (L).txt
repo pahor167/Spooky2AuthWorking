@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Asthma (L)"
+"Preset_Notes=Asthma for Laser
+
+Asthma is a chronic inflammatory airway disease characterized by reversible bronchoconstriction, Th2-driven inflammation, hyperresponsiveness, mucus hypersecretion, and remodeling, often triggered by allergens or irritants. The proposed polypeptides target evidence-based axes from preclinical asthma models and related respiratory research, emphasizing bronchodilation, anti-inflammation, immune modulation, tissue repair, and remodeling prevention.
+
+1. Vasoactive intestinal peptide-mediated bronchodilation and anti-inflammation: VIP relaxes airway smooth muscle, inhibits cytokine release, and reduces inflammation in asthma models.
+2. {alpha}-MSH-derived tripeptide melanocortin receptor agonism: KPV suppresses NF{kappa}B, reduces allergic airway inflammation, and modulates Th2 responses.
+3. Thymic peptide immune enhancement and modulation: Thymosin_alpha_1 restores immune balance and supports response in respiratory allergic/inflammatory conditions.
+4. EPO-derived cyclic peptide innate repair activation: ARA-290 mitigates inflammation and promotes tissue protection via repair receptor.
+5. Stable gastric pentadecapeptide mucosal healing: BPC-157 enhances epithelial integrity, angiogenesis, and recovery in pulmonary models.
+6. Copper-binding tripeptide antioxidant and ECM support: GHK-Cu promotes remodeling, growth factors, and oxidative balance relevant to airway stress.
+7. Thymosin {beta}4 fragment actin sequestration and migration: TB-500 facilitates repair, reduces inflammation, and aids epithelial healing.
+8. Engineered D-proline substituted {alpha}-MSH derivative optimization: KDPT (K(dP)T-NH2) provides enhanced stability and potency for melanocortin anti-inflammatory and anti-remodeling effects.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Asthma p01"
+"Loaded_Programs=Asthma p02"
+"Loaded_Programs=Asthma p03"
+"Loaded_Programs=Asthma p04"
+"Loaded_Programs=Asthma p05"
+"Loaded_Programs=Asthma p06"
+"Loaded_Programs=Asthma p07"
+"Loaded_Programs=Asthma p08"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M101.048,0=4,"
+"[/Preset]"

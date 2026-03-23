@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Nausea (S)"
+"Preset_Notes=Nausea for Scalar
+
+Nausea is a subjective sensation of unease and discomfort in the stomach with an urge to vomit, often caused by various factors including GI disorders, chemotherapy, pregnancy, or motion. 
+
+The polypeptides target multiple axes such as GIP receptor agonism, somatostatin receptor agonism, serotonin antagonism, dopamine antagonism, neurokinin-1 antagonism, cannabinoid modulation, histamine antagonism, muscarinic antagonism, and glucocorticoid effects to comprehensively address nausea mechanisms. Designed polypeptides are flagged as such and are conceptual to cover gaps.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Nausea p01"
+"Loaded_Programs=Nausea p02"
+"Loaded_Programs=Nausea p03"
+"Loaded_Programs=Nausea p04"
+"Loaded_Programs=Nausea p05"
+"Loaded_Programs=Nausea p06"
+"Loaded_Programs=Nausea p07"
+"Loaded_Programs=Nausea p08"
+"Loaded_Programs=Nausea p09"
+"Loaded_Programs=Nausea p10"
+"Loaded_Programs=Nausea p11"
+"Loaded_Programs=Nausea p12"
+"Loaded_Frequencies=M163.063=1,M71.037,M129.043,M57.021,M101.048,M147.068,M113.084,M87.032,M115.027,M163.063,M87.032,M113.084,M71.037,M131.040,M115.027,M128.095,M113.084,M137.059,M128.058,M128.058,M115.027,M147.068,M99.068,M114.043,M186.079,M113.084,M113.084,M71.037,M128.058,M128.095,M57.021,M128.095,M128.095,M114.043,M115.027,M186.079,M128.095,M137.059,M114.043,M113.084,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M147.068=1,M102.001,M147.068,M186.079,M128.095,M101.048,M102.001,M101.048,0=4,"
+"Loaded_Frequencies=M201.079=1,M102.001,M163.063,M186.079,M128.095,M99.068,M102.001,M100.064,0=4,"
+"Loaded_Frequencies=M147.068=1,M102.001,M163.063,M186.079,M128.095,M99.068,M102.001,M100.064,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M114.079,M150.954,M237.148,0=4,"
+"Loaded_Frequencies=M85.053=1,M86.048,M100.064,M114.079,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M758.675=1,M86.048,M114.079,M85.053,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M243.029,M87.032,M137.059,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M113.084=1,M200.095,M100.064,M86.048,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M237.148,M114.079,M113.048,M102.001,0=4,"
+"[/Preset]"

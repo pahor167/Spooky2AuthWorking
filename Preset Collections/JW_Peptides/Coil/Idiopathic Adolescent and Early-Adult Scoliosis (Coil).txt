@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Idiopathic Adolescent and Early-Adult Scoliosis (Coil)"
+"Preset_Notes=Idiopathic Adolescent and Early-Adult Scoliosis for Coil
+
+Idiopathic adolescent and early-adult scoliosis is a three-dimensional spinal deformity of unknown etiology, typically presenting during growth spurts, characterized by lateral curvature, vertebral rotation, reduced bone density (osteopenia), paraspinal muscle asymmetry, potential neuromuscular deficits, and altered calmodulin regulation in progressive cases. Proposed polypeptides target key pathophysiological axes supported by literature on osteopenia, muscle imbalance, growth abnormalities, and calmodulin hyperactivity in AIS:
+1. Bone density enhancement: Salmon Calcitonin - Potent inhibitor of osteoclast-mediated bone resorption, addressing osteopenia commonly observed in AIS patients.
+2. Paraspinal muscle regeneration: MGF - Stimulates satellite cell proliferation and muscle hypertrophy, potentially correcting muscle asymmetry in scoliosis.
+3. Growth hormone modulation: Ipamorelin - Selective GH secretagogue that increases IGF-1 levels, supporting balanced skeletal development during adolescence.
+4. Neuromuscular optimization: Semax - Increases BDNF expression, improving neural adaptation and potentially proprioceptive feedback in AIS.
+5. Osteogenic stimulation: P-15 - Collagen-mimetic peptide that promotes osteoblast attachment, differentiation, and bone formation.
+6. Calmodulin regulation: MLCK Calmodulin-Binding Peptide - High-affinity calmodulin antagonist, reduces excessive calmodulin activity linked to progressive scoliosis.
+
+"
+"Loaded_Programs=Idiopathic Adolescent and Early-Adult Scoliosis p01"
+"Loaded_Programs=Idiopathic Adolescent and Early-Adult Scoliosis p02"
+"Loaded_Programs=Idiopathic Adolescent and Early-Adult Scoliosis p03"
+"Loaded_Programs=Idiopathic Adolescent and Early-Adult Scoliosis p04"
+"Loaded_Programs=Idiopathic Adolescent and Early-Adult Scoliosis p05"
+"Loaded_Programs=Idiopathic Adolescent and Early-Adult Scoliosis p06"
+"Loaded_Frequencies=M102.001=1,M87.032,M114.043,M113.084,M87.032,M101.048,M102.001,M99.068,M113.084,M57.021,M128.095,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M128.095,M113.084,M128.058,M101.048,M163.063,M97.053,M156.101,M101.048,M57.021,M57.021,M87.032,M57.021,M101.048,M96.069,0=4,"
+"Loaded_Frequencies=M163.063=1,M129.043,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M101.048,M57.021,M163.063,M57.021,M147.068,M128.058,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,0=4,"
+"Loaded_Frequencies=M85.053=1,M137.059,M205.074,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M156.101,M186.079,M128.095,M128.095,M114.043,M147.068,M113.084,M71.037,M99.068,M87.032,M71.037,M71.037,M114.043,M156.101,M147.068,M128.095,0=4,"
+"[/Preset]"

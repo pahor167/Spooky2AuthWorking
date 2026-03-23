@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=L50 Body Sites B - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Laser.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Dental Infection CAFL
+Paradontosis BIO
+Periodontal Diseases KHZ
+Ear Conditions Various CAFL
+Eustachian Tube XTRA
+Mastoiditis KHZ
+Mastoiditis CAFL
+Haemophilus Influenzae HC
+Haemophilus Influenzae 2 XTRA
+Haemophilus Influenzae 3 XTRA
+Haemophilus Influenzae B XTRA
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Dental Infection (CAFL)"
+"Loaded_Programs=Paradontosis (BIO)"
+"Loaded_Programs=Periodontal Diseases (KHZ)"
+"Loaded_Programs=Ear Conditions Various (CAFL)"
+"Loaded_Programs=Eustachian Tube (XTRA)"
+"Loaded_Programs=Mastoiditis (KHZ)"
+"Loaded_Programs=Mastoiditis (CAFL)"
+"Loaded_Programs=Haemophilus Influenzae (HC)"
+"Loaded_Programs=Haemophilus Influenzae 2 (XTRA)"
+"Loaded_Programs=Haemophilus Influenzae 3 (XTRA)"
+"Loaded_Programs=Haemophilus Influenzae B (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=960=180,660=180,666=180,690=180,727=180,784=180,787=180,800=180,880=180,1560=180,1840=180,1998=180,2489=180,"
+"Loaded_Frequencies=424=180,1552=180,"
+"Loaded_Frequencies=60=180,320=180,730=180,870=180,12330=180,15000=180,85540=180,150000=180,225360=180,575830=180,"
+"Loaded_Frequencies=10000=180,880=180,787=180,727=180,776=180,766=180,688=180,683=180,652=180,645=180,542=180,535=180,440=180,410=180,340=180,201=180,158=180,20=180,9.19=180,"
+"Loaded_Frequencies=465=180,660=180,690=180,727.5=180,776=180,787=180,802=180,880=180,1550=180,"
+"Loaded_Frequencies=70=180,220=180,700=180,2500=180,39000=180,300500=180,411510=180,605650=180,747000=180,907110=180,"
+"Loaded_Frequencies=287=180,"
+"Loaded_Frequencies=336410=180,"
+"Loaded_Frequencies=832.86=180,16728.45=180,"
+"Loaded_Frequencies=542=180,"
+"Loaded_Frequencies=652=180,942=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

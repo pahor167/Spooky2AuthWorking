@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dog and Cat Tapeworm (C)"
+"Preset_Notes=Dog and Cat Tapeworm for Contact
+
+Dog and Cat Tapeworm refers to cestode infections in dogs and cats, primarily caused by Dipylidium caninum, Taenia spp., and Echinococcus spp., leading to gastrointestinal distress, weight loss, and potential zoonotic transmission. Key therapeutic axes identified: Secretin receptor stimulation, Ion channel modulation, Enzyme inhibition, Tegument disruption, Lifecycle interruption. Assignments: Peptide 1 targets Secretin receptor stimulation as documented depsipeptide. Peptide 2 targets Ion channel modulation as documented depsipeptide. Peptide 3 targets Enzyme inhibition mimicking Kunitz motifs. Peptide 4 targets Tegument disruption with cationic motifs. Peptide 5 targets Lifecycle interruption mimicking larval disruptors. Mechanisms involve rational engineering based on literature motifs for stability and efficacy.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dog and Cat Tapeworm p01"
+"Loaded_Programs=Dog and Cat Tapeworm p02"
+"Loaded_Programs=Dog and Cat Tapeworm p03"
+"Loaded_Programs=Dog and Cat Tapeworm p04"
+"Loaded_Programs=Dog and Cat Tapeworm p05"
+"Loaded_Frequencies=M127.100=1,M72.021,M127.100,M247.107,M127.100,M72.021,M127.100,M247.107,0=4,"
+"Loaded_Frequencies=M127.100=1,M72.021,M127.100,M148.052,M127.100,M72.021,M127.100,M148.052,0=4,"
+"Loaded_Frequencies=M113.084=1,M147.068,M99.068,M147.068,M113.084,M147.068,M99.068,M147.068,M113.084,M147.068,M99.068,M147.068,M113.084,M147.068,M99.068,M147.068,M113.084,M147.068,M99.068,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M128.095,M156.101,M128.095,M128.095,M156.101,M128.095,M128.095,M156.101,M128.095,M128.095,M156.101,M128.095,M128.095,M156.101,M128.095,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M99.068,M71.037,M113.084,M99.068,M71.037,M113.084,M99.068,M71.037,M113.084,M99.068,M71.037,M113.084,M99.068,M71.037,M113.084,M99.068,M71.037,M113.084,0=4,"
+"[/Preset]"

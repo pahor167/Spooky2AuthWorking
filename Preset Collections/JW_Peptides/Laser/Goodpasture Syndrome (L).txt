@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Goodpasture Syndrome (L)"
+"Preset_Notes=Goodpasture Syndrome for Laser
+
+Goodpasture Syndrome is a rare but severe autoimmune disorder characterized by the production of autoantibodies targeting the glomerular basement membrane (GBM) in the kidneys and the alveolar basement membrane in the lungs. These pathogenic anti-GBM antibodies specifically recognize epitopes on the {alpha}3 chain of type IV collagen, leading to complement activation, neutrophil recruitment, and tissue destruction. The condition manifests as rapidly progressive glomerulonephritis with hematuria, proteinuria, and renal failure, often accompanied by pulmonary hemorrhage causing hemoptysis, dyspnea, and respiratory failure. The pathophysiology involves a complex interplay of genetic predisposition (particularly HLA-DR15 haplotype), environmental triggers (such as hydrocarbon exposure, smoking, or infections), and loss of immune tolerance to the normally cryptic {alpha}3(IV)NC1 domain. Current standard treatment involves aggressive immunosuppression with corticosteroids and cyclophosphamide combined with plasmapheresis to remove circulating antibodies, but these approaches carry significant risks of infection, malignancy, and incomplete efficacy. The proposed polypeptide designs address five key therapeutic axes: D1-AntiGBMblocker (designed) functions as a high-affinity decoy that binds circulating anti-GBM antibodies, preventing their interaction with basement membrane targets; D2-ImmunoRegulator (designed) modulates T-cell differentiation and cytokine profiles to restore immune tolerance without broad immunosuppression; D3-BcellInhibitor (designed) selectively targets B-cell receptors involved in anti-GBM antibody production while sparing protective immunity; D4-GBMshield (designed) mimics the critical {alpha}3(IV)NC1 epitope to competitively inhibit antibody binding to native basement membrane structures; D5-PeroxidaseModulator (designed) protects basement membrane integrity by modulating peroxidasin activity and preventing oxidative damage to collagen networks. These designed polypeptides offer a multi-pronged approach to address the autoimmune attack while preserving essential immune functions and tissue repair mechanisms.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Goodpasture Syndrome p01"
+"Loaded_Programs=Goodpasture Syndrome p02"
+"Loaded_Programs=Goodpasture Syndrome p03"
+"Loaded_Programs=Goodpasture Syndrome p04"
+"Loaded_Programs=Goodpasture Syndrome p05"
+"Loaded_Frequencies=M71.037=1,M87.032,M113.084,M99.068,M71.037,M87.032,M113.084,M99.068,M71.037,M87.032,M113.084,M99.068,M71.037,M87.032,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M71.037,M99.068,M114.043,M113.084,M71.037,M99.068,M114.043,M113.084,M71.037,M99.068,M114.043,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M114.043,M99.068,M71.037,M113.084,M114.043,M99.068,M71.037,M113.084,M114.043,M99.068,M71.037,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M99.068=1,M71.037,M87.032,M114.043,M99.068,M71.037,M87.032,M114.043,M99.068,M71.037,M87.032,M114.043,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M71.037,M87.032,M101.048,M71.037,M87.032,M101.048,M71.037,M87.032,M101.048,M71.037,0=4,"
+"[/Preset]"

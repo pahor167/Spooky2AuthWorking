@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Back Problems (C)"
+"Preset_Notes=Back Problems for Contact
+
+Back problems encompass a range of musculoskeletal conditions affecting the spine, including chronic lower back pain, herniated discs, degenerative disc disease, spinal stenosis, facet joint osteoarthritis, muscle strains, ligament sprains, and myofascial pain syndromes. These issues cause persistent aching, stiffness, sharpness on movement, reduced mobility, muscle spasms, radiating pain (sciatica), numbness, or weakness, often leading to significant disability, sleep disturbance, and reduced quality of life. Pathophysiology involves mechanical overload causing microtears in muscles/ligaments, disc dehydration and protrusion compressing nerves, synovial inflammation in facet joints, enthesopathy at tendon insertions, central/peripheral sensitization heightening pain perception, low-grade inflammation with elevated cytokines (IL-6, TNF-{alpha}), oxidative stress, impaired blood supply, and disrupted extracellular matrix remodeling with collagen degradation.
+
+The proposed polypeptides target core therapeutic axes: tissue repair and regeneration, anti-inflammation, nociceptive pain modulation, muscle relaxation, and neuroprotection. The real-world polypeptide BPC-157 accelerates healing of spinal tissues, muscles, tendons, ligaments, and discs by enhancing fibroblast migration, collagen deposition, angiogenesis via VEGF, and countering inflammatory damage while protecting against further injury. The designed polypeptides complement this: one cationic amphipathic designed polypeptide suppresses local inflammation; another aromatic-rich designed polypeptide interferes with pain transmission pathways; a third polar hydroxy-rich designed polypeptide promotes muscle relaxation and spasm relief; and a fourth charged alternating designed polypeptide supports nerve protection and reduces radiculopathy. This multi-axis coverage provides comprehensive management, with designed sequences optimized for stability, tissue penetration, low immunogenicity, and feasibility for local injection or systemic use.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Back Problems p01"
+"Loaded_Programs=Back Problems p02"
+"Loaded_Programs=Back Problems p03"
+"Loaded_Programs=Back Problems p04"
+"Loaded_Programs=Back Problems p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M186.079,M147.068,M186.079,M147.068,M186.079,M147.068,M186.079,M147.068,M186.079,M147.068,M186.079,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M115.027,M156.101,M115.027,M156.101,M115.027,M156.101,M115.027,M156.101,M115.027,M156.101,M115.027,0=4,"
+"[/Preset]"

@@ -1,0 +1,8 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW"
+"PresetName=Streptacidiphilus bronchialis (DNA) (P) - JW"
+"Remove_Duplicate_Frequencies_Tolerance=0"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||This preset contains the following strains:||Streptacidiphilus bronchialis DSM 106435 chromosome"
+"Loaded_Programs=Streptacidiphilus bronchialis (DNA) (P) - JW (CUST)"
+"Loaded_Frequencies=~2694BL3030226,"
+"[/Preset]"

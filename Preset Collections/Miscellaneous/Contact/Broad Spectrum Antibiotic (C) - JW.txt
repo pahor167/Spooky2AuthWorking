@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=Broad Spectrum Antibiotic (C) - JW"
+"BFB_Finish_Frequency=18000000"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_%=.125"
+"BFB_Start_Delay=30"
+"BFB_Loops=1"
+"BFB_Threshold=.2"
+"BFB_Refine_Percentage=10"
+"BFB_Reverse_Lookup_Tolerance=.0625"
+"BFB_BPM=True"
+"BFB_After_Scan_Run_Hits=0"
+"BFB_Repeat_BFB=1"
+"BFB_Continue_Refining_Hits=0"
+"BFB_Detect_mA=False"
+"BFB_Max_HRV=20"
+"Swap_Waveform_Time=60"
+"Preset_Notes=This is a Contact Mode Broad Spectrum Antibiotic Preset designed for contact use. Each frequency has been carefully chosen to give the best results for general use, then raised to be above sensation level. If you are unsure 'What Ails Ye' this is the Preset for you!
+
+Higher Octaves of each of these frequencies were used:
+
+Frequency    Database Usage
+880          652
+787          592
+20           522
+727          477
+7500         341
+1550         337
+802          333
+10000        314
+728          271
+465          262
+
+To prevent the buildup of acids during treatment, the polarity of the signal is regularly reversed.
+
+Use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"Triangle_Spike_Ratio=0"
+"User_Defined_1_Waveform=Square"
+"User_Defined_2_Waveform=Square"
+"Out1_Sine=False"
+"Out1_Inverted_Sawtooth=True"
+"Enable_Tissue_Factor=1"
+"FreqToAdd=0"
+"Loaded_Programs=Greatest Hits - Top 10 50 kHz - 100 kHz Range (CUST)"
+"Loaded_Frequencies=81920=180,80000=180,56320=180,61440=180,51200=180,50368=180,64000=180,93056=180,60000=180,65536=180,"
+"[/Preset]"

@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Vestibulodynia (C)"
+"Preset_Notes=Vestibulodynia for Contact
+
+Vestibulodynia is a localized form of vulvodynia characterized by severe pain upon touch or pressure to the vaginal vestibule. It involves complex mechanisms including peripheral nerve hypersensitivity (neuroinflammation), pelvic floor muscle dysfunction, and central sensitization.
+
+1. Neuroinflammation Inhibition: BPC-157 - Promotes healing of nerve tissue and reduces inflammatory cytokines in localized tissues.
+2. Nociceptor Desensitization: Argireline - A hexapeptide that mimics the SNAPE complex to inhibit the release of neurotransmitters involved in pain signaling.
+3. Muscle Relaxation: Dalargin - A leucine-enkephalin analogue that modulates opioid receptors to provide peripheral analgesia and reduce muscle guarding.
+4. Tissue Regeneration: GHK-Cu - Stimulates collagen synthesis and modulates the microenvironment to repair thinned or fragile vestibular epithelium.
+5. Central Sensitization Modulation: Selank - A synthetic heptapeptide that regulates GABAergic activity to diminish the emotional and systemic impact of chronic pain.
+6. Neuropeptide Regulation: Substance P Antagonist Peptide - Competitively inhibits Substance P binding to NK1 receptors to reduce neurogenic inflammation.
+7. Mast Cell Stabilization: Gastric Inhibitory Polypeptide (Fragment) - Shown in emerging research to modulate mast cell degranulation, a key driver of vestibular irritation.
+8. Vascular Normalization: Angiotensin-(1-7) - Counteracts the pro-inflammatory effects of Angiotensin II, potentially improving microcirculation in chronic pain sites.
+9. Nerve Growth Factor Inhibition: NGF-Inhibitory Peptide - Designed to block the interaction between NGF and its receptor TrkA, directly addressing nerve fiber proliferation.
+10. Endorphin System Support: D-Ala2-D-Leu5-Enkephalin (DADLE) - A highly stable delta-opioid receptor agonist for localized pain relief.
+11. Extracellular Matrix Integrity: Matrixyl (Pal-GHK) - Enhances the structural integrity of the basement membrane in the vestibular mucosa.
+12. Targeted Desensitization: Vestibulo-Calm - Engineered to target the TRPV1 receptor complex specifically in mucosal nerve endings to raise the threshold for tactile pain.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Vestibulodynia p01"
+"Loaded_Programs=Vestibulodynia p02"
+"Loaded_Programs=Vestibulodynia p03"
+"Loaded_Programs=Vestibulodynia p04"
+"Loaded_Programs=Vestibulodynia p05"
+"Loaded_Programs=Vestibulodynia p06"
+"Loaded_Programs=Vestibulodynia p07"
+"Loaded_Programs=Vestibulodynia p08"
+"Loaded_Programs=Vestibulodynia p09"
+"Loaded_Programs=Vestibulodynia p10"
+"Loaded_Programs=Vestibulodynia p11"
+"Loaded_Programs=Vestibulodynia p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M129.043,M115.027,M129.043,M113.084,M113.084,M163.063,M113.084,M128.095,M163.063,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M186.079,M163.063,M103.009,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M115.027,M71.037,M115.027,M113.084,M129.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M186.079=1,M97.053,M163.063,M128.095,M156.101,M113.084,M115.027,M115.027,M129.043,M71.037,M147.068,M57.021,M137.059,0=4,"
+"[/Preset]"

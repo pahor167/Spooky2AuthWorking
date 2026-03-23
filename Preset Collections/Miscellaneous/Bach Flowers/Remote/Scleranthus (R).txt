@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Scleranthus (R)"
+"Preset_Notes=Scleranthus / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Scleranthus - Inability to choose between alternatives.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Scleranthus (R)"
+"Loaded_Frequencies=307.07,"
+"[/Preset]"

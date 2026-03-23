@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Vitiligo (C)"
+"Preset_Notes=Vitiligo for Contact
+
+Vitiligo (Autoimmune Depigmentation Disorder)
+
+Vitiligo is a chronic autoimmune disorder characterized by selective destruction of melanocytes, resulting in patchy depigmentation of skin and hair. Pathogenesis involves autoreactive CD8+ T cells targeting melanocyte antigens (tyrosinase, gp100), oxidative stress-induced melanocyte damage, and defective immune tolerance. Current therapeutic strategies focus on immunosuppression (JAK inhibitors, corticosteroids), phototherapy to stimulate residual melanocyte activity, and emerging biologics targeting IL-15 and CXCL10 pathways. Repigmentation requires both cessation of autoimmune attack and activation of melanocyte stem cells from follicular reservoirs.
+
+Therapeutic peptide interventions:
+1. Melanocortin stimulation/MC1R activation (Melanogenesis): Afamelanotide - Synthetic {alpha}-MSH analog binding MC1R to stimulate melanocyte proliferation and melanin synthesis; enhanced stability via Nle4 and D-Phe7 substitutions; Phase 3 trials for vitiligo repigmentation
+2. Anti-inflammatory/Immunomodulation: KPV - C-terminal fragment of {alpha}-MSH retaining anti-inflammatory activity; suppresses IL-1{beta} and NF{kappa}B signaling; reduces autoimmune melanocyte attack without hyperpigmentation effects
+3. Melanocyte migration/proliferation (bFGF pathway): Melgain (IS-103) - Basic fibroblast growth factor fragment stimulating melanocyte migration and proliferation; enhances melanin synthesis via tyrosinase activation; marketed topical for vitiligo repigmentation
+4. Oxidative stress reduction: OxiDefend-1 - Cysteine-rich metal-chelating peptide designed to neutralize reactive oxygen species; mimics metallothionein function to protect melanocytes from oxidative damage in vitiligo lesions
+5. Treg enhancement/Immune tolerance: TregMod-1 - Designed Tregitope-like sequence to induce regulatory T cell activity; restores immune tolerance and suppresses autoreactive CD8+ T cells attacking melanocytes without broad immunosuppression
+6. CXCL10/CXCR3 antagonism (T cell recruitment blockade): CXCR3Ant-1 - CXCR3 receptor antagonist peptide blocking IFN{gamma}-inducible chemokine signaling; prevents pathogenic T cell recruitment to skin lesions; reduces autoimmune inflammation in depigmented patches
+7. Wnt/{beta}-catenin pathway activation (Melanocyte stem cell differentiation): WntBoost-1 - Wnt pathway agonist designed to activate {beta}-catenin signaling; promotes differentiation of melanocyte stem cells from follicular reservoirs into functional melanocytes for repigmentation
+8. Tyrosinase enhancement/Melanogenic gene expression: MelaninPro-1 - Nuclear-localizing basic peptide designed to upregulate MITF and tyrosinase expression; enhances melanogenic enzyme activity and melanin production in residual melanocytes
+9. Nrf2/ARE pathway activation (Antioxidant response): Nrf2Act-1 - Synthetic ETGE-repeat peptide mimicking Keap1 binding motif; displaces Nrf2 from Keap1 to activate antioxidant response element; induces phase II detoxification enzymes in melanocytes
+10. Mitochondrial protection/Energy metabolism: MitoShield-1 - Alternating Phe-Lys amphipathic peptide targeting mitochondrial membrane; protects against oxidative phosphorylation dysfunction and ROS generation in stressed melanocytes
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Vitiligo p01"
+"Loaded_Programs=Vitiligo p02"
+"Loaded_Programs=Vitiligo p03"
+"Loaded_Programs=Vitiligo p04"
+"Loaded_Programs=Vitiligo p05"
+"Loaded_Programs=Vitiligo p06"
+"Loaded_Programs=Vitiligo p07"
+"Loaded_Programs=Vitiligo p08"
+"Loaded_Programs=Vitiligo p09"
+"Loaded_Programs=Vitiligo p10"
+"Loaded_Frequencies=M87.032=1,M163.063,M87.032,M113.084,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M87.032,M156.101,M128.095,M163.063,M87.032,M87.032,M186.079,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M103.009,M57.021,M103.009,M97.053,M103.009,M57.021,M103.009,M57.021,M103.009,0=4,"
+"Loaded_Frequencies=M97.053=1,M129.043,M115.027,M163.063,M87.032,M129.043,M113.084,M113.084,M57.021,M128.059,0=4,"
+"Loaded_Frequencies=M113.084=1,M101.048,M71.037,M103.009,M156.101,M113.084,M97.053,M57.021,M57.021,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M57.021,M57.021,M71.037,M113.084,M113.084,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M87.032,M156.101,M128.095,M129.043,M129.043,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M101.048,M57.021,M129.043,M129.043,M101.048,M57.021,M129.043,M129.043,M101.048,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M129.043,M147.068,M128.095,M129.043,M147.068,M128.095,M129.043,M147.068,0=4,"
+"[/Preset]"

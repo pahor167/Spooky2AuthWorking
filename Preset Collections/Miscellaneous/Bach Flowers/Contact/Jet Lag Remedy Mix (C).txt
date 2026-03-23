@@ -1,0 +1,22 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Jet Lag Remedy Mix (C)"
+"Preset_Notes=Jet Lag Remedy Mix / Spooky Contact
+
+Estimated Time: Run this preset for 24:00 minutes.
+
+Jet Lag Remedy: This combination helps you adjust to the time change and with the physical tiredness and impatience that comes from sitting in a plane for hours. Start taking this combination a couple of days before the flight and continue while flying and afterward until all symptoms are gone.
+Olive: Helps you over the physical exhaustion of traveling and being on the road for several hours.
+Walnut: Helps you adjust to a new time zone and place.
+Impatiens: Helps you from getting impatient while sitting in a plane for several hours without much to do.
+Rescue Sleep: A wonderful combination of Rescue Remedy and White Chestnut which helps when you feel restless and have cluttered unwanted thoughts.
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Jet Lag Remedy Mix (C)"
+"Loaded_Frequencies=431.65F4096C0,261.26F4096C0,463.06F4096C0,262.01F4096C0,415.26F4096C0,277.99F4096C0,276.57F4096C0,425.77F4096C0,"
+"[/Preset]"

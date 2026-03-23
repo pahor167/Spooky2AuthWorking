@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Petechiae (R)"
+"Preset_Notes=Petechiae for Remote
+
+Petechiae are tiny, pinpoint-sized hemorrhages under the skin or mucous membranes, appearing as red, purple, or brown spots that do not blanch under pressure, resulting from the rupture of small blood vessels or capillaries and subsequent leakage of red blood cells into surrounding tissues. This condition is typically a symptom rather than a standalone disease, often signaling underlying issues such as low platelet counts (thrombocytopenia), impaired platelet function, abnormalities in the coagulation cascade, or compromised vascular wall integrity due to inflammation, infection, or mechanical stress. Common causes include viral or bacterial infections (e.g., meningococcemia or Rocky Mountain spotted fever), autoimmune disorders like immune thrombocytopenic purpura (ITP) where platelets are destroyed by the immune system, medication side effects (e.g., from anticoagulants or chemotherapy), nutritional deficiencies (e.g., vitamin C or K scarcity leading to scurvy or coagulopathy), physical straining (e.g., during vomiting, coughing, or childbirth), and systemic conditions such as vasculitis, sepsis, or leukemia. Symptoms are usually cosmetic and asymptomatic but may accompany more severe manifestations like easy bruising, prolonged bleeding from cuts, nosebleeds, gum bleeding, blood in urine or stool, fatigue, fever, or joint pain depending on the root cause. Pathophysiologically, petechiae arise when the hemostatic mechanisms fail: platelets normally aggregate to form plugs at sites of vascular injury, supported by coagulation factors that stabilize clots, but deficiencies in these components or vessel fragility allow extravasation of blood; for instance, in thrombocytopenia, fewer platelets mean inadequate sealing of microvascular leaks, while in vasculitis, inflammatory damage weakens endothelial barriers.
+
+The proposed polypeptides target these pathophysiological axes to mitigate petechiae by enhancing platelet production, function, and survival; modulating coagulation pathways; strengthening vascular integrity; reducing inflammation; and combating infectious triggers. For thrombocytopenia due to reduced platelet production, polypeptides like TMP mimic thrombopoietin to stimulate megakaryocyte maturation and platelet release from bone marrow via receptor activation, increasing circulating platelet counts to better seal vascular leaks. In immune-mediated destruction, immune-modulatory effects help suppress autoantibody production or platelet clearance. For platelet dysfunction, peptides like pENW, RGDS, and GLP-1 improve aggregation and activation through signaling pathways such as Akt inhibition or nitric oxide modulation, ensuring effective hemostasis. Anti-thrombotic peptides from milk (VPP, IPP, MAIPPKKNQDK) balance coagulation by inhibiting excessive thrombin activity or platelet aggregation without promoting bleeding, feasible given their natural origin and low toxicity. For coagulation disorders, Tridegin inhibits factor XIIIa to prevent over-stabilization of clots while allowing necessary hemostasis. Vascular integrity is bolstered by Ac-SDKP, BPC157, C16, and TFPI-2 C-terminal peptides, which promote endothelial repair, reduce permeability, and protect against oxidative stress via mechanisms like angiogenesis stimulation or protease inhibition, with high solubility and stability enhancing bioavailability. LL37 addresses infection-related petechiae through antimicrobial action against bacteria and viruses, disrupting membranes and modulating immune responses. Chemerin15 attenuates inflammation in vasculitis by regulating leukocyte recruitment and cytokine release. Designed polypeptides (flagged below) conceptually extend coverage: D1 for enhanced immune tolerance in autoimmune thrombocytopenia via hypothetical receptor antagonism; D2 for additional vascular stabilization through endothelial junction reinforcement; D3 for fine-tuned coagulation modulation by targeting specific factors; D4 for broad anti-inflammatory effects on HPA axis-related stress responses. These designed ones are feasible based on peptide engineering principles, with modes of action inferred from similar structures, physicochemical properties like amphipathicity for membrane interaction, and potential for therapeutic delivery via injection or topical application.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Petechiae p01"
+"Loaded_Programs=Petechiae p02"
+"Loaded_Programs=Petechiae p03"
+"Loaded_Programs=Petechiae p04"
+"Loaded_Programs=Petechiae p05"
+"Loaded_Programs=Petechiae p06"
+"Loaded_Programs=Petechiae p07"
+"Loaded_Programs=Petechiae p08"
+"Loaded_Programs=Petechiae p09"
+"Loaded_Programs=Petechiae p10"
+"Loaded_Programs=Petechiae p11"
+"Loaded_Programs=Petechiae p12"
+"Loaded_Programs=Petechiae p13"
+"Loaded_Programs=Petechiae p14"
+"Loaded_Programs=Petechiae p15"
+"Loaded_Programs=Petechiae p16"
+"Loaded_Programs=Petechiae p17"
+"Loaded_Programs=Petechiae p18"
+"Loaded_Frequencies=M113.084=1,M129.043,M57.021,M97.053,M101.048,M113.084,M156.101,M128.058,M186.079,M113.084,M71.037,M71.037,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M111.032=1,M114.043,M186.079,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M97.053,0=4,"
+"Loaded_Frequencies=M113.084=1,M97.053,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M113.084,M97.053,M97.053,M128.095,M128.095,M114.043,M128.095,M115.027,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M71.037,M147.068,M115.027,M113.084,M101.048,M163.063,M99.068,M156.101,M113.084,M128.095,M147.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M129.043,M115.027,M97.053,M137.059,M57.021,M163.063,M147.068,M113.084,M97.053,M57.021,M128.095,M128.095,M147.068,M71.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.095,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.095,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M186.079,M113.084,M99.068,M128.095,M57.021,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M57.021,M97.053,M129.043,M113.084,M113.084,M115.027,M114.043,M129.043,M128.095,M99.068,M87.032,M97.053,M129.043,M147.068,M147.068,M99.068,M113.084,M57.021,M156.101,M57.021,M113.084,M103.009,M97.053,M128.095,M87.032,M115.027,M128.095,M113.084,M115.027,M97.053,M114.043,M114.043,M113.084,M87.032,M156.101,M114.043,M103.009,0=4,"
+"Loaded_Frequencies=M128.095=1,M101.048,M128.095,M156.101,M128.095,M128.095,M128.095,M128.095,M128.095,M156.101,M99.068,M113.084,M71.037,M163.063,M129.043,M129.043,M113.084,M147.068,M99.068,M128.095,M114.043,M131.040,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.095,M186.079,M147.068,M137.059,M156.101,M115.027,M137.059,M101.048,M57.021,M101.048,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M57.021,M113.084,M97.053,M115.027,M87.032,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M137.059,M186.079,M57.021,M128.095,M101.048,M71.037,M113.084,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M97.053=1,M101.048,M57.021,M156.101,M128.095,M128.095,M71.037,M147.068,M113.084,M128.095,0=4,"
+"[/Preset]"

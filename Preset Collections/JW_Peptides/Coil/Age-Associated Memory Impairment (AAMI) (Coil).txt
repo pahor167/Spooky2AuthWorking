@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Age-Associated Memory Impairment (AAMI) (Coil)"
+"Preset_Notes=Age-Associated Memory Impairment (AAMI) for Coil
+
+Age-Associated Memory Impairment (AAMI) is characterized by subjective and objective declines in episodic memory and learning efficiency with normal aging, without progressing to mild cognitive impairment or dementia, often linked to reduced neurotrophic support, synaptic plasticity, neuroinflammation, and disrupted sleep consolidation.
+
+1. Neurotrophic factor induction: Semax - Elevates BDNF and NGF levels to enhance neuronal survival, plasticity, and memory processing.
+2. Stress-resilient memory enhancement: Selank - Inhibits enkephalin degradation and modulates serotonin for improved emotional regulation and cognitive stability.
+3. Epigenetic brain normalization: Pinealon - Regulates pineal and brain cell gene expression to mitigate age-related functional decline.
+4. Restorative sleep facilitation: DSIP - Promotes delta-wave sleep essential for memory consolidation and overnight cognitive restoration.
+5. Synaptic plasticity promotion: FGL - Mimics NCAM FG-loop to activate FGFR and strengthen synaptic maturation and connectivity.
+6. Hybrid neuroimmune regeneration: KEDR - Designed cationic tetrapeptide integrating bioregulator motifs for neuroprotection and potential enhanced BBB penetration.
+
+"
+"Loaded_Programs=Age-Associated Memory Impairment (AAMI) p01"
+"Loaded_Programs=Age-Associated Memory Impairment (AAMI) p02"
+"Loaded_Programs=Age-Associated Memory Impairment (AAMI) p03"
+"Loaded_Programs=Age-Associated Memory Impairment (AAMI) p04"
+"Loaded_Programs=Age-Associated Memory Impairment (AAMI) p05"
+"Loaded_Programs=Age-Associated Memory Impairment (AAMI) p06"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M99.068,M163.063,M99.068,M99.068,M71.037,M129.043,M114.043,M128.058,M128.058,M57.021,M128.095,M87.032,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,M115.027,M156.101,0=4,"
+"[/Preset]"

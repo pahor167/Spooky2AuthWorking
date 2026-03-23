@@ -1,0 +1,59 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Cutaneous Candidiasis (S)"
+"Preset_Notes=Cutaneous Candidiasis for Scalar
+
+Cutaneous candidiasis is a superficial fungal infection of the skin caused primarily by *Candida albicans*, often occurring in warm, moist areas and leading to redness, itching, and maceration. Standard treatments involve topical antifungals, but resistance is increasing. Polypeptides provide promising alternatives through multimodal actions including membrane disruption, intracellular targeting (e.g., ROS induction and mitochondrial dysfunction), and immunomodulation, with low likelihood of resistance and excellent suitability for topical application. The set prioritizes real-world antimicrobial peptides with documented anti-*Candida* activity from peer-reviewed literature, supplemented with designed polypeptides (flagged below) for diversity, axis coverage, and incorporation of non-standard residues for potential stability enhancements.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Cutaneous Candidiasis p01"
+"Loaded_Programs=Cutaneous Candidiasis p02"
+"Loaded_Programs=Cutaneous Candidiasis p03"
+"Loaded_Programs=Cutaneous Candidiasis p04"
+"Loaded_Programs=Cutaneous Candidiasis p05"
+"Loaded_Programs=Cutaneous Candidiasis p06"
+"Loaded_Programs=Cutaneous Candidiasis p07"
+"Loaded_Programs=Cutaneous Candidiasis p08"
+"Loaded_Programs=Cutaneous Candidiasis p09"
+"Loaded_Programs=Cutaneous Candidiasis p10"
+"Loaded_Programs=Cutaneous Candidiasis p11"
+"Loaded_Programs=Cutaneous Candidiasis p12"
+"Loaded_Programs=Cutaneous Candidiasis p13"
+"Loaded_Programs=Cutaneous Candidiasis p14"
+"Loaded_Programs=Cutaneous Candidiasis p15"
+"Loaded_Programs=Cutaneous Candidiasis p16"
+"Loaded_Programs=Cutaneous Candidiasis p17"
+"Loaded_Programs=Cutaneous Candidiasis p18"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M97.053=1,M147.068,M128.095,M113.084,M87.032,M113.084,M137.059,M113.084,0=4,"
+"Loaded_Frequencies=M99.068=1,M114.043,M186.079,M128.095,M128.095,M113.084,M113.084,M57.021,M128.095,M113.084,M113.084,M128.095,M99.068,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M71.037,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M57.021,M186.079,M147.068,M128.095,M71.037,M131.040,M128.095,M87.032,M113.084,M71.037,M128.095,M147.068,M113.084,M71.037,M128.095,M129.043,M128.095,M113.084,M128.095,M129.043,M137.059,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M113.084,M87.032,M113.084,M113.084,M128.095,M128.095,M99.068,M113.084,M97.053,M128.095,M99.068,M131.040,M71.037,M137.059,M131.040,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M97.053,M147.068,M128.095,M113.084,M87.032,M113.084,M137.059,M113.084,0=4,"
+"Loaded_Frequencies=M114.079=1,M128.095,M113.048,M86.048,M156.101,M57.021,M114.079,M113.084,M99.068,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M128.095,M113.048,M156.101,M86.048,M113.084,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M156.101,M113.048,M128.095,M57.021,M86.048,M99.068,M147.068,M114.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M156.101,M128.095,M114.079,M113.048,M113.084,M57.021,M86.048,M102.001,0=4,"
+"[/Preset]"

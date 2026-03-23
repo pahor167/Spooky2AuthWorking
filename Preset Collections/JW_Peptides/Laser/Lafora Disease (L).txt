@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Lafora Disease (L)"
+"Preset_Notes=Lafora Disease for Laser
+
+Lafora disease is a rare, fatal, autosomal recessive neurodegenerative disorder classified as a form of progressive myoclonic epilepsy, typically onsetting in adolescence with initial seizures, rapidly progressing to frequent myoclonic jerks, generalized tonic-clonic seizures, visual hallucinations, ataxia, dysarthria, cognitive deterioration, and profound dementia, leading to a vegetative state and death usually within a decade. It is caused by loss-of-function mutations in either EPM2A (encoding laforin, a glycogen phosphatase) or NHLRC1 (encoding malin, an E3 ubiquitin ligase that targets proteins including glycogen synthase), resulting in abnormal hyperphosphorylation of glycogen, formation of insoluble, poorly branched polyglucosan inclusions (Lafora bodies) in neurons, astrocytes, muscle, liver, and other tissues, impaired autophagic clearance, endoplasmic reticulum stress, neuroinflammation, and widespread neuronal apoptosis.
+
+No disease-modifying treatments exist; management is symptomatic with anti-epileptic drugs (e.g., valproate, clonazepam, levetiracetam, perampanel) to control seizures and myoclonus, though efficacy wanes over time. Experimental approaches in preclinical models include glycogen synthase inhibition, downregulation of protein targeting to glycogen (PTG), autophagy enhancers, and gene therapies or antisense oligonucleotides to restore laforin/malin function, but no polypeptide therapies have been reported in literature, trials, or patents.
+
+The proposed polypeptides are all conceptual designed sequences, as comprehensive searches confirmed no real-world polypeptides with evidence for therapeutic use in Lafora disease. These designed polypeptides target principal axes: the first designed polypeptide conceptually modulates glycogen dephosphorylation pathways to limit hyperphosphorylation and Lafora body formation; the second designed polypeptide promotes autophagic flux to facilitate aggregate clearance; the third designed polypeptide exerts neuroprotective effects to attenuate seizure severity and neuronal loss. Physicochemical properties include short lengths with standard residues for synthetic accessibility, proteolytic stability, and potential blood-brain barrier penetration via optimization, with mechanisms hypothetically grounded in the core glycogen dysregulation and clearance deficits, necessitating empirical validation.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Lafora Disease p01"
+"Loaded_Programs=Lafora Disease p02"
+"Loaded_Programs=Lafora Disease p03"
+"Loaded_Frequencies=M156.101=1,M137.059,M57.021,M115.027,M101.048,M147.068,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.058,M99.068,M87.032,M114.043,M113.084,M156.101,M163.063,M113.084,M137.059,0=4,"
+"Loaded_Frequencies=M128.095=1,M131.040,M129.043,M186.079,M103.009,M97.053,M57.021,M99.068,M115.027,0=4,"
+"[/Preset]"

@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Xeroderma Pigmentosum (Coil)"
+"Preset_Notes=Xeroderma Pigmentosum for Coil
+
+Xeroderma Pigmentosum (XP) is a rare autosomal recessive genetic disorder caused by mutations in genes responsible for the nucleotide excision repair (NER) pathway, which is essential for repairing DNA damage induced by ultraviolet (UV) radiation from sunlight. The primary genes affected include XPA, XPB, XPC, XPD, XPE, XPF, XPG, and XPV, leading to impaired recognition, incision, and resynthesis of damaged DNA strands. This results in accumulation of UV-induced lesions such as cyclobutane pyrimidine dimers and (6-4) photoproducts, promoting mutagenesis and carcinogenesis. Symptoms typically appear in early childhood and include extreme photosensitivity with severe sunburns, blistering, and erythema after minimal sun exposure, persistent hyperpigmentation or freckling on sun-exposed areas, dry and parchment-like skin (xerosis), telangiectasia, and a dramatically increased risk of developing skin cancers like basal cell carcinoma, squamous cell carcinoma, and melanoma at a young age. Ocular manifestations may involve photophobia, conjunctivitis, keratitis, and increased risk of ocular surface cancers. In approximately 20-30% of cases, particularly those with mutations in XPA, XPB, XPD, or XPG, neurological complications arise, including progressive neurodegeneration, sensorineural hearing loss, cognitive impairment, ataxia, and peripheral neuropathy due to unrepaired oxidative DNA damage in non-dividing cells. Pathophysiology centers on defective NER leading to genomic instability, chronic inflammation from immune response to damaged cells, oxidative stress exacerbation, and premature cellular senescence, culminating in tissue degeneration and high cancer incidence, with XP patients having over 1000-fold increased risk of skin cancer and reduced life expectancy if unmanaged.
+
+The proposed polypeptides address XP through comprehensive therapeutic axes, prioritizing real-world options where available and supplementing with designed ones to ensure full coverage. The real-world polypeptide Afamelanotide stimulates melanogenesis via alpha-MSH mimicry, increasing eumelanin production for natural photoprotection, reducing UV penetration, and enhancing DNA repair efficiency as shown in clinical trials; its feasibility is supported by good bioavailability and safety profile. Designed polypeptides D1 and D2 enhance NER by mimicking key domains of XPA and XPC proteins to facilitate damage recognition and recruitment of repair factors, with scientific rationale rooted in NER biochemistry and physicochemical considerations like positive charge for DNA binding and short length for stability. D3 provides photoprotection through aromatic residues that absorb UV, preventing lesion formation; feasibility includes topical application potential. D4 acts in chemoprevention by inhibiting oncogenic signaling pathways like PI3K/AKT, reducing tumor initiation. D5 modulates anti-inflammatory responses by mimicking cytokine inhibitors, suppressing Th2 cytokines and eosinophil activation to mitigate chronic skin inflammation. D6 boosts antioxidant defenses with thiol groups to scavenge ROS, addressing oxidative damage amplification in XP. D7 targets senotherapeutics, disrupting SASP via JAK-like inhibition to clear senescent cells and reduce aging-like phenotypes. D8 offers neurological protection by promoting BDNF-like signaling to support neuronal DNA repair and survival. D9 provides ocular protection by inhibiting VEGF pathways to prevent corneal and retinal damage. D10 and D11 supplement immune modulation and tissue regeneration axes, respectively, with modes of action involving receptor binding to balance immune responses and activate fibroblast growth factors for skin healing; all designed polypeptides are conceptualized with amphipathic structures for cell penetration, low immunogenicity, and enzymatic stability, though requiring further preclinical validation.
+
+"
+"Loaded_Programs=Xeroderma Pigmentosum p01"
+"Loaded_Programs=Xeroderma Pigmentosum p02"
+"Loaded_Programs=Xeroderma Pigmentosum p03"
+"Loaded_Programs=Xeroderma Pigmentosum p04"
+"Loaded_Programs=Xeroderma Pigmentosum p05"
+"Loaded_Programs=Xeroderma Pigmentosum p06"
+"Loaded_Programs=Xeroderma Pigmentosum p07"
+"Loaded_Programs=Xeroderma Pigmentosum p08"
+"Loaded_Programs=Xeroderma Pigmentosum p09"
+"Loaded_Programs=Xeroderma Pigmentosum p10"
+"Loaded_Programs=Xeroderma Pigmentosum p11"
+"Loaded_Programs=Xeroderma Pigmentosum p12"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M113.084,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M156.101,M128.095,M97.053,M156.101,M128.095,M97.053,M156.101,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M113.084,M113.084,M137.059,M137.059,M113.084,M113.084,M137.059,M137.059,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.058,M114.043,M97.053,M147.068,M128.058,M114.043,M97.053,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M128.058,M57.021,M71.037,M128.095,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M137.059,M57.021,M87.032,M137.059,M57.021,M87.032,M137.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M97.053,M99.068,M71.037,M97.053,M99.068,M71.037,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.058,M113.084,M128.095,M113.084,M186.079,M147.068,M128.058,M114.043,M156.101,M156.101,M131.040,M128.095,M186.079,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M113.084,M128.095,M113.084,M71.037,M113.084,M128.095,M71.037,M128.095,M71.037,M71.037,M128.095,M71.037,M71.037,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M103.009=1,M87.032,M113.084,M97.053,M97.053,M129.043,M99.068,M147.068,M114.043,M128.095,M97.053,M147.068,M99.068,M163.063,M113.084,M113.084,0=4,"
+"[/Preset]"

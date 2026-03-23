@@ -1,0 +1,71 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW.txt"
+"PresetName=Spooky Cold Laser Ear Infection (L) - MM"
+"BFB_Start_Frequency=41000"
+"BFB_Finish_Frequency=18000000"
+"BFB_Include_Octave=0"
+"BFB_Single_Scan=0"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_Hz=100"
+"BFB_Initial_Step_Size_%=.125"
+"BFB_Max_Hits_To_Find=10"
+"BFB_Start_Delay=30"
+"BFB_Threshold=.2"
+"BFB_Refine_Percentage=10"
+"BFB_Reverse_Lookup_Tolerance=.0625"
+"BFB_Include_x_Hz_In_Search=0"
+"BFB_BPM=True"
+"BFB_Angle=False"
+"BFB_After_Scan_Run_Hits=0"
+"BFB_Repeat_BFB=1"
+"BFB_After_Scan_Run_On_Gen=0"
+"BFB_Continue_Refining_Hits=0"
+"BFB_Max_HRV=20"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Offset=-100"
+"Out2_Offset=-100"
+"Preset_Notes=Ear Infection Cold Laser. By Manuel Mallo
+
+Cold Laser Therapy, or Low Level Laser Therapy (LLLT) is a treatment that uses a precise specific wavelength of light to interact with tissue. This helps to accelerate the body natural healing process. People who suffer from a variety of acute and chronic conditions can use Cold Laser Therapy to help eliminate pain, swelling, reduce spasms and increase functionality.
+
+Cold lasers are low power lasers which provide non-thermal photons of light. These photons pass through the dermis, epidermis, and the subcutaneous tissue or tissue fat under the skin. They are often used for up to 30 minutes at a time, though longer treatment durations cause no adverse effects.
+
+The light energy is absorbed and interacts with the light sensitive elements within the cell. This process is very similar to photosynthesis in plants. Sunlight is absorbed by plants, which is then converted to energy for the plant to grow. 
+
+The light energy absorbed by cells allows each cell to 'normalize'. This increasing intracellular metabolism results in a reduction in pain, inflammation, edema and reduced healing time. Photons absorbed by the cells through laser therapy stimulate the mitochondria to accelerate production of ATP. This biochemical increase in cell energy is used to transform live cells from a state of illness to a stable, healthy state. 
+
+Cold laser therapy can stimulate most cell types, including muscle, ligament, cartilage, nerves, and many more.
+
+Several treatments may be required before any improvement is observed. Old injuries may initially become irritated during the initial stages of treatment.
+
+Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided.
+
+Use at your own risk."
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"Triangle_Spike_Ratio=2"
+"Schedule_Run_From=Midnight"
+"Schedule_Run_To=Midnight"
+"User_Defined_1_Waveform=Alpha-Stim"
+"User_Defined_2_Waveform=Alpha-Stim"
+"InverseWave=False"
+"Loaded_Programs=Eustachian Tube (XTRA)"
+"Loaded_Programs=Pneumococcal Infections (KHZ)"
+"Loaded_Programs=Pneumococcus (CAFL)"
+"Loaded_Programs=Pneumococcus (VEGA)"
+"Loaded_Programs=Streptococcus Pneumoniae (CAFL)"
+"Loaded_Programs=Streptococcus Pneumoniae (HC)"
+"Loaded_Programs=Streptococcus Sweep TR (XTRA)"
+"Loaded_Programs=Ear Discharge (XTRA)"
+"Loaded_Frequencies=465=180,660=180,690=180,727.5=180,776=180,787=180,802=180,880=180,1550=180,"
+"Loaded_Frequencies=50=180,350=180,2750=180,30930=180,75810=180,187500=180,405320=180,715000=180,803510=180,905320=180,"
+"Loaded_Frequencies=231=240,232=240,683=240,846=240,8865=240,"
+"Loaded_Frequencies=683=180,"
+"Loaded_Frequencies=231=180,232=180,776=180,766=180,728=180,846=180,8865=180,"
+"Loaded_Frequencies=366850-370200=3600,"
+"Loaded_Frequencies=5632.8152-5763=1800,5763-6053.125=1800,"
+"Loaded_Frequencies=9.18=180,9.19=180,20.660=180,690=180,727.5=180,787=180,880=180,"
+"[/Preset]"

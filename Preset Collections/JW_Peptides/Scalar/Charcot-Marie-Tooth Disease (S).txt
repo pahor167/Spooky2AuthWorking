@@ -1,0 +1,44 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Charcot-Marie-Tooth Disease (S)"
+"Preset_Notes=Charcot-Marie-Tooth Disease for Scalar
+
+Charcot-Marie-Tooth disease is a group of inherited peripheral neuropathies characterized by progressive muscle weakness, sensory loss, and foot deformities due to demyelination or axonal degeneration in various subtypes.
+1. Neurotrophic support: Semax - Synthetic ACTH analog with neurotrophic and protective effects on peripheral nerves.
+2. Axonal protection: Selank - Tuftsin analog with anxiolytic and neuroprotective properties reducing stress impacts on neuropathy.
+3. Myelin stabilization: Pinealon - Tripeptide promoting nerve tissue differentiation and protection.
+4. Anti-inflammatory: Thymogen - Dipeptide modulating immune response in neural tissues.
+5. Mitochondrial function: MOTS-c - Mitochondrial-derived peptide regulating energy metabolism and reducing oxidative stress in neurons.
+6. Gap junction modulation: TAT-GAP24 - Cell-penetrating GAP24-derived peptide restoring Ca2+-dependent gating of mutant connexin32 hemichannels in CMT1X.
+7. Mitochondrial fusion promotion: MFN2-Act1 - Designed coiled-coil peptide stabilizing active mitofusin conformation to enhance mitochondrial fusion in axonal subtypes.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Charcot-Marie-Tooth Disease p01"
+"Loaded_Programs=Charcot-Marie-Tooth Disease p02"
+"Loaded_Programs=Charcot-Marie-Tooth Disease p03"
+"Loaded_Programs=Charcot-Marie-Tooth Disease p04"
+"Loaded_Programs=Charcot-Marie-Tooth Disease p05"
+"Loaded_Programs=Charcot-Marie-Tooth Disease p06"
+"Loaded_Programs=Charcot-Marie-Tooth Disease p07"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M186.079,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M71.037,M71.037,M113.084,M129.043,M128.095,M129.043,M113.084,M71.037,M71.037,M113.084,M129.043,M128.095,M129.043,M113.084,M71.037,M71.037,M113.084,M129.043,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,15 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Rock Water (P)"
+"Preset_Notes=Rock Water / Spooky Plasma
+
+Estimated Time: Run this preset for 3:00 minutes.
+Rock Water - Self-denial, rigidity and self-repression.
+
+Connect Out 1 to Input. Connect Out 2 to Modulation.
+"
+"Loaded_Programs=Rock Water (P)"
+"Loaded_Frequencies=451.74,"
+"[/Preset]"

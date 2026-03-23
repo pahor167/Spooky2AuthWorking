@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Tricuspid Atresia (L)"
+"Preset_Notes=Tricuspid Atresia for Laser
+
+Tricuspid Atresia is a rare congenital heart defect present at birth, characterized by the complete absence or agenesis of the tricuspid valve, which normally allows blood flow from the right atrium to the right ventricle. This results in a hypoplastic or underdeveloped right ventricle, forcing deoxygenated blood to mix with oxygenated blood through an atrial septal defect (ASD) or ventricular septal defect (VSD), leading to cyanosis (bluish skin coloration due to low oxygen levels). The condition affects approximately 1 in 10,000 live births and is often associated with other anomalies such as pulmonary stenosis, transposition of the great arteries, or heterotaxy syndrome. Genetic factors, including mutations in genes like ZFPM2/FOG2, HEY2, NFATC1, NKX2-5, and MYH6, play a role, though the exact etiology remains multifactorial, potentially involving environmental influences during early embryonic heart development. Symptoms manifest shortly after birth, including cyanosis, tachypnea (rapid breathing), poor feeding, lethargy, and failure to thrive; in severe cases, it progresses to metabolic acidosis, shock, or heart failure due to pulmonary overcirculation or underperfusion. Pathophysiology centers on disrupted blood flow: deoxygenated blood from the body enters the right atrium but cannot pass to the right ventricle, shunting leftward via an ASD to the left atrium, mixing with oxygenated blood from the lungs, then pumped systemically by the left ventricle. Pulmonary blood flow depends on a patent ductus arteriosus (PDA) or VSD; if restricted, hypoxia ensues, while unrestricted flow causes congestive heart failure from volume overload. Long-term complications include protein-losing enteropathy (PLE), thrombosis, arrhythmias, neurodevelopmental delays via the heart-brain axis, and single-ventricle physiology post-palliation, increasing risks of liver dysfunction and reduced exercise tolerance.
+
+The proposed polypeptides address key therapeutic axes in Tricuspid Atresia, including fluid balance, cardiac protection, growth promotion, and hemodynamic regulation. Atrial Natriuretic Peptide (ANP) and B-type Natriuretic Peptide (BNP) target the natriuretic system to promote diuresis, vasodilation, and blood pressure regulation, alleviating heart failure symptoms. Apelin and Elabela engage the APJ receptor to enhance contractility, reduce fibrosis, and support cardiovascular homeostasis. Vasopressin modulates antidiuretic effects to manage fluid overload in congestive states. Insulin-like Growth Factor-1 (IGF-1) stimulates cardiac cell proliferation and repair in hypoplastic structures. The designed polypeptides supplement coverage: D1 mimics angiogenic factors to improve pulmonary vascular development and oxygenation; D2 targets fibrinolytic pathways to prevent or treat PLE; D3 provides anti-inflammatory action by modulating cytokine responses to reduce systemic inflammation; D4 offers neuroprotection via the heart-brain axis to mitigate developmental delays; D5 stabilizes endothelial function to prevent vascular leakage and thrombosis; D6 promotes cardiac remodeling through chaperone-like activity to support single-ventricle adaptation.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Tricuspid Atresia p01"
+"Loaded_Programs=Tricuspid Atresia p02"
+"Loaded_Programs=Tricuspid Atresia p03"
+"Loaded_Programs=Tricuspid Atresia p04"
+"Loaded_Programs=Tricuspid Atresia p05"
+"Loaded_Programs=Tricuspid Atresia p06"
+"Loaded_Programs=Tricuspid Atresia p07"
+"Loaded_Programs=Tricuspid Atresia p08"
+"Loaded_Programs=Tricuspid Atresia p09"
+"Loaded_Programs=Tricuspid Atresia p10"
+"Loaded_Programs=Tricuspid Atresia p11"
+"Loaded_Programs=Tricuspid Atresia p12"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M147.068,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M102.001,M128.095,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M99.068,M114.043,M113.084,M101.048,M131.040,M156.101,M156.101,M128.095,M113.084,M156.101,M137.059,M114.043,M102.001,M113.084,M128.058,M156.101,M156.101,M102.001,M131.040,M97.053,M113.084,M137.059,M156.101,M99.068,M147.068,M97.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M129.043,M101.048,M113.084,M102.001,M57.021,M71.037,M129.043,M113.084,M99.068,M115.027,M71.037,M113.084,M128.058,M147.068,M99.068,M102.001,M57.021,M115.027,M156.101,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M97.053,M101.048,M57.021,M163.063,M57.021,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,M57.021,M113.084,M99.068,M115.027,M129.043,M102.001,M102.001,M147.068,M156.101,M87.032,M102.001,M115.027,M113.084,M156.101,M156.101,M113.084,M129.043,M131.040,M163.063,M102.001,M71.037,M97.053,M113.084,M128.095,M97.053,M71.037,M128.095,M87.032,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M163.063,M97.053,M128.058,M156.101,M87.032,M101.048,M99.068,M186.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M131.040,M114.043,M113.084,M137.059,M147.068,M129.043,M115.027,M103.009,M71.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M87.032,M101.048,M128.058,M97.053,M97.053,M113.084,M128.095,M101.048,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M99.068,M115.027,M129.043,M103.009,M103.009,M147.068,M156.101,M87.032,M103.009,0=4,"
+"Loaded_Frequencies=M115.027=1,M113.084,M156.101,M156.101,M113.084,M129.043,M131.040,M163.063,M103.009,M71.037,M97.053,0=4,"
+"[/Preset]"

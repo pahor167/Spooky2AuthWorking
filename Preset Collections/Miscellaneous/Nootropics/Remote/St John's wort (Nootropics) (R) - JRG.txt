@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=St John's wort (Nootropics) (R) - JRG"
+"Loaded_Programs=St John's wort (CUST)"
+"Loaded_Frequencies=M504.08452,"
+"Preset_Notes=St John's wort (hypericum perforatum) is a plant that has been traditionally used for mood disorders and wound healing. Today its used mostly as a treatment for anxiety, depression and stress.|St John's wort easily crosses the blood-brain barrier. And seems to work by preventing the re-uptake of serotonin in the brain.|A word of caution, however. St John's wort is a strong CYP3A4 liver enzyme inducer. This enzyme is responsible for metabolizing psychoactive compounds in the liver. And translates to nullifying the effect of any other nootropics you may be taking.|Dosing St John's Wort is anywhere from 900 to 1,800 mg per day. But be careful of using it with any other nootropics or medications.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

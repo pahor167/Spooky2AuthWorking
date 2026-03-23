@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Nefiracetam (Nootropics) (R) - JRG"
+"Loaded_Programs=Nefiracetam (CUST)"
+"Loaded_Frequencies=M246.13683,"
+"Preset_Notes=Nefiracetam is one of the newer nootropics in the racetam family of cognitive enhancers. Developed in Japan, nefiracetam is used to treat learning and memory deficit diseases.|Nefiracetam is structurally similar to Aniracetam but considered much more potent. This fat-soluble nootropic easily crosses the blood-brain barrier. It works in the hippocampus area of your brain to boost memory and recall.|Nefiracetam is used clinically to treat and prevent seizures, severe depression, and has shown neuroprotective qualities.|Dosing Nefiracetam is based on body weight. Acceptable dosage levels according to limited reported user experience is 100 - 900 mg. per day. Most nootropic users experience some benefit in the lower range.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Landau-Kleffner Syndrome (R)"
+"Preset_Notes=Landau-Kleffner Syndrome for Remote
+
+Landau-Kleffner Syndrome (LKS), also known as acquired epileptic aphasia, is a rare pediatric epileptic encephalopathy typically onsetting between ages 3-8 years in previously normally developing children. It is characterized by subacute regression of language abilities, beginning with verbal auditory agnosia (inability to recognize speech sounds) progressing to severe receptive and expressive aphasia, alongside paroxysmal EEG abnormalities with electrical status epilepticus during slow-wave sleep (ESES/CSWS) in most cases and clinical seizures (often focal or generalized tonic-clonic) in approximately 70%. Additional features may include behavioral regressions such as hyperactivity, irritability, attention deficits, and occasionally mild cognitive or motor impairments. The core pathophysiology involves epileptiform discharges disrupting cortical language networks through mechanisms of secondary bilateral synchrony, potentially exacerbated by underlying inflammatory or autoimmune processes in subsets of patients, with genetic contributions (e.g., GRIN2A mutations affecting NMDA receptor function) identified in some cases.
+
+The proposed polypeptides comprehensively target principal therapeutic axes derived from clinical evidence and pathophysiological insights. Adrenocorticotropic Hormone (ACTH, real-world) addresses the immunomodulatory axis by stimulating endogenous glucocorticoid production, suppressing inflammation, reducing ESES burden, and improving language outcomes in responsive cases. A designed polybasic polypeptide (flagged as designed) conceptually complements immunomodulation through charged interactions potentially stabilizing neuronal excitability. A designed serine/threonine-rich polypeptide (flagged as designed) targets spike-wave suppression via conceptual enhancement of inhibitory signaling pathways. A designed acidic polypeptide (flagged as designed) conceptually modulates glutamatergic neurotransmission to counteract NMDA-related hyperexcitability. A designed aromatic-rich polypeptide (flagged as designed) offers conceptual neurotrophic stabilization to support synaptic recovery and language network rehabilitation. The real-world polypeptide leverages established (though off-label) clinical use with documented EEG and symptomatic benefits, while the short designed polypeptides exhibit excellent synthetic feasibility, aqueous solubility from charged/aromatic residues, and metabolic stability without complex post-translational modifications.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Landau-Kleffner Syndrome p01"
+"Loaded_Programs=Landau-Kleffner Syndrome p02"
+"Loaded_Programs=Landau-Kleffner Syndrome p03"
+"Loaded_Programs=Landau-Kleffner Syndrome p04"
+"Loaded_Programs=Landau-Kleffner Syndrome p05"
+"Loaded_Frequencies=M87.032=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,M57.021,M128.095,M128.095,M156.101,M156.101,M97.053,M99.068,M128.095,M99.068,M163.063,M97.053,M114.043,M57.021,M71.037,M129.043,M115.027,M129.043,M87.032,M71.037,M129.043,M71.037,M147.068,M97.053,M113.084,M129.043,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M128.095,M156.101,M156.101,M128.095,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M147.068=1,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,0=4,"
+"[/Preset]"

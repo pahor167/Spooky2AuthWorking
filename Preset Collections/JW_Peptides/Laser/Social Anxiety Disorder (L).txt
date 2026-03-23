@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Social Anxiety Disorder (L)"
+"Preset_Notes=Social Anxiety Disorder for Laser
+
+Social Anxiety Disorder involves persistent fear of social scrutiny, avoidance behaviors, and heightened amygdala reactivity, often linked to impaired neuropeptide signaling, reduced social reward processing, neurotransmitter imbalances, and chronic stress. The proposed polypeptides, supported by preclinical models, clinical observations, and trials, target neuropeptide pathways to promote anxiolysis, emotional resilience, and social function.
+
+1. Tuftsin analog-mediated anxiolysis and mood stabilization: Selank reduces generalized and social anxiety symptoms with rapid onset and no sedation.
+2. ACTH(4-7) derivative for adaptogenic and cognitive support: Semax attenuates anxiety-like behaviors and enhances stress resistance.
+3. Cyclic nonapeptide social motivation enhancement: Oxytocin mitigates social fear and improves interpersonal processing in SAD trials.
+4. Nonapeptide stress tolerance promotion: DSIP induces relaxation and counters anxiety-associated tension.
+5. Vasoactive intestinal polypeptide immunomodulatory anxiolysis: VIP balances neuroimmune responses contributing to anxiety relief.
+6. Copper-binding tripeptide regenerative stress resilience: GHK-Cu supports remodeling and antioxidant defense against chronic anxiety stressors.
+7. Engineered NPY C-terminal fragment for Y2/Y5 receptor-targeted social fear reduction: Ac-NPY(25-36)-NH2 optimizes the anxiolytic motif from neuropeptide Y with modifications for stability and potential BBB penetration.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Social Anxiety Disorder p01"
+"Loaded_Programs=Social Anxiety Disorder p02"
+"Loaded_Programs=Social Anxiety Disorder p03"
+"Loaded_Programs=Social Anxiety Disorder p04"
+"Loaded_Programs=Social Anxiety Disorder p05"
+"Loaded_Programs=Social Anxiety Disorder p06"
+"Loaded_Programs=Social Anxiety Disorder p07"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M198.112=1,M137.059,M163.063,M113.084,M114.043,M113.084,M113.084,M101.048,M156.101,M128.058,M156.101,M162.079,0=4,"
+"[/Preset]"

@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Brugada Syndrome (P)"
+"Preset_Notes=Brugada Syndrome for Plasma
+
+Brugada Syndrome is an inherited cardiac channelopathy characterized by a distinctive ST-segment elevation in the right precordial leads (V1-V3) and an increased risk of sudden cardiac death due to polymorphic ventricular tachycardia or ventricular fibrillation. It is primarily caused by loss-of-function mutations in the SCN5A gene, which encodes the alpha subunit of the cardiac sodium channel Na<sub>v</sub>1.5, resulting in reduced inward sodium current (I<sub>Na</sub>) during phase 0 of the action potential. This creates a transmural voltage gradient in the right ventricular epicardium, exacerbated by a prominent transient outward potassium current (I<sub>to</sub>), leading to premature repolarization and arrhythmogenesis. Additional genes (e.g., CACNA1C, SCN1B) affecting calcium or sodium channel function may contribute. Current management relies on implantable cardioverter-defibrillators (ICDs) for high-risk patients, with quinidine (a non-peptide I<sub>to</sub> blocker) used off-label in select cases. No approved peptide therapeutics exist, but emerging strategies include rescuing Na<sub>v</sub>1.5 trafficking defects and modulating ion currents. The proposed set includes one real-world investigational peptide derived from patent literature (Nav1.5-Trafficking-Peptide) designed to restore surface expression of mutant Na<sub>v</sub>1.5 channels, and two designed peptides: D2-ItoInhibitor, a conceptual I<sub>to</sub>-blocking peptide mimicking natural toxin effects without disulfide complexity, and D1-CaV1.2modulator, a short peptide hypothesized to support L-type calcium channel stability to counterbalance repolarization abnormalities. These candidates collectively address the three key pathophysiological axes: sodium current deficiency, excessive potassium efflux, and secondary calcium current insufficiency.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Brugada Syndrome p01"
+"Loaded_Programs=Brugada Syndrome p02"
+"Loaded_Programs=Brugada Syndrome p03"
+"Loaded_Frequencies=M128.058=1,M113.084,M128.095,M113.084,M186.079,M147.068,M128.058,M114.043,M156.101,M156.101,M131.040,M128.095,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M156.101,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M99.068,M129.043,M115.027,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Typhus (L)"
+"Preset_Notes=Typhus for Laser
+
+Typhus encompasses a group of acute febrile illnesses caused by obligate intracellular Gram-negative bacteria of the Rickettsiaceae family, primarily Rickettsia prowazekii (epidemic typhus, transmitted by body lice), Rickettsia typhi (murine or endemic typhus, flea-borne from rodents), and Orientia tsutsugamushi (scrub typhus, chigger mite-borne). These diseases thrive in conditions of overcrowding, poor sanitation, and vector exposure, with epidemic typhus historically associated with wars and famines, murine typhus in urban rodent-infested areas, and scrub typhus in rural Asia-Pacific regions. Initial symptoms appear 7-14 days post-exposure and include sudden high fever (up to 40 C), severe headache, chills, myalgias, arthralgias, malaise, and a maculopapular rash starting on the trunk and spreading centrifugally (except in scrub typhus, where an eschar at the bite site is common). Advanced cases may involve delirium, confusion, stupor, seizures, pneumonia, myocarditis, hepatitis, renal failure, gangrene, and multi-organ dysfunction, with untreated mortality rates of 10-60% for epidemic typhus, 1-4% for murine, and up to 35% for scrub typhus. Pathophysiologically, rickettsiae adhere to and invade vascular endothelial cells via outer membrane proteins (e.g., OmpB), inducing actin polymerization for entry, escaping phagosomes, and replicating in the cytoplasm. This triggers endothelial activation, increased vascular permeability, fluid leakage, edema, hypotension, and microthrombi formation (vasculitis). Immune responses involve type 1-skewed inflammation with elevated cytokines (IL-8, TNF-{alpha}, IFN-{gamma}, IL-1{beta}), NLRP3 inflammasome activation, hemophagocytosis, and dendritic cell-mediated dissemination via CCR7. Additional axes include bacterial metabolic exploitation of host nutrients, neuroinflammation leading to encephalitis/meningitis, and pulmonary alveolar damage with interstitial pneumonia. Genetic factors (e.g., HLA types) and co-infections modulate severity. Standard treatment is doxycycline, but resistance emerges, necessitating novel therapeutics.
+
+The proposed polypeptides address typhus's core pathophysiological axes through targeted antimicrobial, immunomodulatory, and protective mechanisms. Real-world polypeptides, drawn from verifiable sources, include Cecropin A and Ceratotoxin A, which exert direct bactericidal effects on Rickettsia by disrupting membranes, thus covering the antimicrobial axis; HtrA-derived peptides (PNSSWGRYGLKMGLR, MLNELTPEL, VTNGIISSK) and OmpB-derived epitopes (SKGVNVDTV, ANSTLQIGG, IVEFVNTGP) stimulate B- and T-cell responses to enhance adaptive immunity against bacterial antigens, addressing the immune epitope axis. Designed polypeptides supplement coverage: D1 targets vascular endothelial stabilization by mimicking factor H interactions to reduce permeability and vasculitis; D2 interferes with cytokine signaling pathways to mitigate inflammatory overresponse; D3 inhibits key rickettsial metabolic enzymes to halt intracellular replication; D4 disrupts CCR7-dependent dendritic cell migration to limit bacterial dissemination; D5 modulates neuroinflammatory pathways to prevent central nervous system complications; D6 enhances pulmonary epithelial barrier function and reduces alveolar inflammation. Scientific rationale is grounded in rickettsial pathogenesis, where polypeptides offer specificity, low toxicity, and potential for conjugation to improve delivery (e.g., via nanoparticles for intracellular targeting). Feasibility includes established peptide synthesis, stability in serum, and precedents in antimicrobial peptide therapies for intracellular pathogens; however, challenges like rapid clearance necessitate modifications. Physicochemical properties emphasize cationic, amphipathic structures for membrane interaction, short lengths for penetration, and balanced hydrophobicity to avoid host cell toxicity.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Typhus p01"
+"Loaded_Programs=Typhus p02"
+"Loaded_Programs=Typhus p03"
+"Loaded_Programs=Typhus p04"
+"Loaded_Programs=Typhus p05"
+"Loaded_Programs=Typhus p06"
+"Loaded_Programs=Typhus p07"
+"Loaded_Programs=Typhus p08"
+"Loaded_Programs=Typhus p09"
+"Loaded_Programs=Typhus p10"
+"Loaded_Programs=Typhus p11"
+"Loaded_Programs=Typhus p12"
+"Loaded_Programs=Typhus p13"
+"Loaded_Programs=Typhus p14"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M71.037,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M57.021,M87.032,M71.037,M113.084,M128.095,M128.095,M71.037,M113.084,M97.053,M99.068,M71.037,M128.095,M128.095,M113.084,M57.021,M128.095,M113.084,M71.037,M113.084,M97.053,M113.084,M71.037,M128.095,M71.037,M71.037,M113.084,M97.053,0=4,"
+"Loaded_Frequencies=M97.053=1,M114.043,M87.032,M87.032,M186.079,M57.021,M156.101,M163.063,M57.021,M113.084,M128.095,M131.040,M57.021,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M113.084,M114.043,M129.043,M113.084,M101.048,M97.053,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M99.068=1,M101.048,M114.043,M57.021,M113.084,M113.084,M87.032,M87.032,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.095,M57.021,M99.068,M114.043,M99.068,M115.027,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M114.043,M87.032,M101.048,M113.084,M128.058,M113.084,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M99.068,M129.043,M147.068,M99.068,M114.043,M101.048,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M97.053,M128.095,M147.068,M113.084,M137.059,M113.084,M71.037,M128.095,M128.095,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M97.053,M87.032,M113.084,M101.048,M103.009,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M113.084,M128.095,M113.084,M113.084,M128.095,M113.084,M113.084,M128.095,M113.084,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.095,M113.084,M57.021,M128.095,M71.037,M113.084,M57.021,M128.095,M113.084,M113.084,M137.059,M101.048,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M156.101,M113.084,M131.040,M156.101,M113.084,M113.084,M156.101,M99.068,M113.084,M128.095,M113.084,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M186.079,M128.095,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M71.037,0=4,"
+"[/Preset]"

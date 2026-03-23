@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Congenital Erythropoietic Porphyria (S)"
+"Preset_Notes=Congenital Erythropoietic Porphyria for Scalar
+
+Congenital erythropoietic porphyria (CEP), also known as Günther disease, is an extremely rare autosomal recessive disorder caused by severely deficient activity of uroporphyrinogen III synthase (UROS), the fourth enzyme in the heme biosynthetic pathway. This deficiency leads to massive accumulation of non-physiologic type I isomers (uroporphyrin I and coproporphyrin I) in erythroid precursors, red blood cells, plasma, and tissues. Clinical manifestations typically begin in infancy with dark red urine staining diapers, followed by severe cutaneous photosensitivity upon light exposure, resulting in blistering, erosions, infections, scarring, and progressive photomutilation of sun-exposed areas (face, hands). Additional features include hemolytic anemia (often transfusion-dependent in severe cases), erythrodontia (reddish teeth fluorescing under UV light), hypertrichosis, splenomegaly, osteopenia, and in severe untreated cases, significant morbidity from deformities and infections. The disease severity varies with residual UROS activity; milder late-onset forms exist but are uncommon.
+
+No disease-modifying polypeptide therapies are established or in clinical development for CEP based on comprehensive searches across PubMed, patents, clinical trials, and databases; current management is supportive (strict photoprotection, transfusions, splenectomy, beta-carotene, hydroxyurea) with hematopoietic stem cell transplantation as the only curative option for severe cases. Emerging small-molecule approaches include pharmacological chaperones (e.g., ciclopirox), proteasome inhibitors, and iron chelators, but none involve polypeptides. The proposed interventions are entirely conceptually designed short polypeptides addressing four core therapeutic axes derived from pathophysiology: (1) rescue of mutant UROS stability/function, (2) reduction of porphyrin overload in erythropoiesis, (3) mitigation of cutaneous phototoxicity and oxidative damage, (4) alleviation of hemolytic anemia and ineffective erythropoiesis. All polypeptides are 6-residue linear sequences using standard amino acids for synthetic ease, stability, and low immunogenicity, with high pairwise diversity (>50% sequence difference) and no excessive residue repeats. Peptide 1 (FKKRGD) incorporates basic and aspartic motifs for potential chaperone-like stabilization of misfolded UROS. Peptide 2 (LIVPQA) features hydrophobic/aliphatic residues to hypothetically interfere with porphyrin aggregation or export. Peptide 3 (DDTEKS) employs acidic and polar residues for possible antioxidant or photoprotective effects. Peptide 4 (WYHPLR) combines aromatic and basic elements for putative membrane protection or anti-hemolytic activity. Feasibility is excellent given short length allowing straightforward synthesis, potential for modifications (cyclization, pegylation) to improve pharmacokinetics, and precedent for bioactive hexapeptides in related metabolic and dermatologic contexts, though efficacy would require rigorous preclinical testing.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Congenital Erythropoietic Porphyria p01"
+"Loaded_Programs=Congenital Erythropoietic Porphyria p02"
+"Loaded_Programs=Congenital Erythropoietic Porphyria p03"
+"Loaded_Programs=Congenital Erythropoietic Porphyria p04"
+"Loaded_Frequencies=M147.068=1,M128.095,M128.095,M156.101,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M99.068,M97.053,M128.058,M71.037,0=4,"
+"Loaded_Frequencies=M115.027=1,M115.027,M101.048,M129.043,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M137.059,M97.053,M113.084,M156.101,0=4,"
+"[/Preset]"

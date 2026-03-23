@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Cold Diuresis (C)"
+"Preset_Notes=Cold Diuresis for Contact
+
+Cold diuresis is a physiological response to cold exposure characterized by increased urine production due to peripheral vasoconstriction, increased central blood volume, suppression of ADH, and activation of natriuretic peptides. It can lead to dehydration if not managed. The following peptides are proposed to mitigate this condition:
+
+1. Vasopressin V2 receptor activation: Vasopressin - Binds to V2 receptors in the collecting ducts of the kidney, stimulating cAMP production and insertion of aquaporin-2 water channels, increasing water reabsorption and reducing urine output.
+2. Selective V2 receptor activation: Desmopressin - Synthetic analog of vasopressin with enhanced antidiuretic activity and reduced vasopressor effects, used to counteract diuresis.
+3. Natriuretic peptide receptor A antagonism: A 71915 - Competitive antagonist of NPRA, inhibits ANP and BNP signaling, reducing natriuresis and diuresis.
+4. Vasopressin analog for antidiuresis: Lypressin - Similar to vasopressin, with lysine at position 8, providing antidiuretic effects.
+5. Antidiuretic effect via V2 receptor: Oxytocin - Binds to V2 receptors at higher doses, promoting antidiuresis.
+6. Designed NPRA antagonist: Designed NPRA Antagonist - Designed based on ANP ring structure to act as antagonist, reducing ANP-induced natriuresis.
+7. Designed V2 agonist: Designed V2 Agonist - Modified vasopressin sequence with increased stability for prolonged antidiuretic effect.
+8. Designed ADH mimic: Designed ADH Mimic - Short cyclic peptide mimicking vasopressin binding loop for V2 activation.
+9. Designed ANP sequestering peptide: Designed ANP Sequester - Peptide designed to bind and inactivate ANP, reducing its diuretic effects.
+10. Designed aquaporin modulator: Designed AQP Modulator - Peptide to directly enhance aquaporin-2 expression or activity.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Cold Diuresis p01"
+"Loaded_Programs=Cold Diuresis p02"
+"Loaded_Programs=Cold Diuresis p03"
+"Loaded_Programs=Cold Diuresis p04"
+"Loaded_Programs=Cold Diuresis p05"
+"Loaded_Programs=Cold Diuresis p06"
+"Loaded_Programs=Cold Diuresis p07"
+"Loaded_Programs=Cold Diuresis p08"
+"Loaded_Programs=Cold Diuresis p09"
+"Loaded_Programs=Cold Diuresis p10"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M97.053=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M102.001,M153.115,M57.021,M57.021,M156.101,M113.084,M115.027,M156.101,M113.084,M159.068,M156.101,M101.017,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M147.068,M57.021,M57.021,M156.101,M113.084,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M101.017,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M128.095,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M147.068,M128.058,M114.043,M102.001,M97.053,M155.117,0=4,"
+"Loaded_Frequencies=M71.037=1,M115.027,M137.059,M128.095,M113.084,M97.053,M128.058,M156.101,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M71.037=1,M156.101,M128.095,M99.068,M113.084,0=4,"
+"[/Preset]"

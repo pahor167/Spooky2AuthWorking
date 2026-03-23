@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Ménière’s Disease (C)"
+"Preset_Notes=Ménière’s Disease for Contact
+
+Ménière’s disease is a chronic idiopathic inner ear disorder characterized by recurrent episodic vertigo lasting minutes to hours, fluctuating sensorineural hearing loss typically low-frequency, persistent or intermittent tinnitus, and a sensation of aural fullness or pressure in the affected ear, usually unilateral initially but potentially bilateral over time. Causes remain incompletely understood but involve multifactorial contributions including genetic predispositions (familial in ~10% of cases with autosomal patterns), environmental triggers, allergic or autoinflammatory responses, vascular dysregulation, and disruptions in inner ear fluid homeostasis; secondary associations include migraine overlap and prior head trauma. Symptoms profoundly impair quality of life with unpredictable attacks causing nausea, imbalance, and progressive hearing impairment potentially leading to severe deafness, alongside psychological burden from chronic uncertainty. Pathophysiology centers on endolymphatic hydrops as a hallmark histopathological finding, though likely an epiphenomenon rather than primary cause, with underlying mechanisms encompassing immune-mediated inflammation, altered stria vascularis function, impaired microcirculation, ion channel dysregulation (e.g., aquaporins, potassium recycling), and neurogenic inflammatory pathways potentially involving CGRP release akin to vestibular migraine.
+
+The proposed polypeptides provide targeted disease-modifying potential through rationally designed analogs derived from established neuropeptide motifs, optimized for drug-likeness via length constraints, terminal capping for proteolytic resistance, and cyclization for conformational stability and bioavailability, addressing core pathophysiological axes while complementing symptomatic treatments like diuretics or intratympanic therapies.
+
+- Axis 1: Reduction of endolymphatic hydrops and fluid dysregulation - Addressed by a disulfide-cyclic capped analog of atrial natriuretic peptide, leveraging its established natriuretic and diuretic actions in inner ear fluid models to promote endolymph drainage and normalize pressure, with cyclization and capping enhancing stability against peptidases.
+- Axis 2: Suppression of inner ear immune dysregulation and inflammation - Addressed by a capped analog of alpha-melanocyte-stimulating hormone, based on its potent melanocortin receptor-mediated anti-inflammatory effects documented in otoprotection studies, reducing cytokine-driven damage and autoinflammatory responses.
+- Axis 3: Enhancement of cochlear microcirculation and vasodilation - Addressed by a head-to-tail cyclic capped analog of vasoactive intestinal peptide, derived from its known vasodilatory and neuroprotective roles in inner ear vasculature, improving blood flow and stria vascularis function.
+- Axis 4: Inhibition of CGRP-mediated neurogenic inflammation - Addressed by a capped linear analog of the CGRP(8-37) fragment, utilizing its established receptor antagonist motif to block CGRP signaling implicated in vertigo pathogenesis and migraine-like mechanisms in Ménière’s disease.
+
+These designs collectively target complementary pathways for broad coverage, with favorable physicochemical profiles (hydrophilic GRAVY scores, balanced charges, low instability indices) supporting feasibility as topical, intratympanic, or systemic candidates.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Ménière’s Disease p01"
+"Loaded_Programs=Ménière’s Disease p02"
+"Loaded_Programs=Ménière’s Disease p03"
+"Loaded_Programs=Ménière’s Disease p04"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"[/Preset]"

@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Mustard (S)"
+"Preset_Notes=Mustard / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Mustard - Deep gloom for not reason.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Mustard (S)"
+"Loaded_Frequencies=254.78,"
+"[/Preset]"

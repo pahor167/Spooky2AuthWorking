@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Agrimony (S)"
+"Preset_Notes=Agrimony / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Agrimony - Mental torture behind a cheerful face.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Agrimony (S)"
+"Loaded_Frequencies=310.31,"
+"[/Preset]"

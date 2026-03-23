@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Slurred Speech (Dysarthria - Viral Cause) (R)"
+"Preset_Notes=Slurred Speech (Dysarthria - Viral Cause) for Remote
+
+Slurred speech, known as dysarthria, is a motor speech disorder characterized by poor articulation of words due to impaired muscle control in the face, mouth, and respiratory system. When caused by viral infections, it often stems from neurological damage inflicted by viruses that target the central or peripheral nervous system. Common viral culprits include herpes simplex virus (HSV), varicella-zoster virus (VZV), human immunodeficiency virus (HIV), Zika virus, cytomegalovirus (CMV), and enteroviruses, which can lead to conditions like viral encephalitis, meningitis, Guillain-Barré syndrome, or post-infectious neuropathies. These viruses invade neural tissues, replicate within cells, and trigger immune responses that result in inflammation, demyelination, edema, or direct neuronal death. Symptoms manifest as mumbled or nasal speech, reduced speech rate, imprecise consonants, monotone voice, and difficulty with prosody, severely impacting communication and quality of life. Pathophysiologically, viral proteins interfere with ion channels, synaptic transmission, and myelin integrity in brain regions like the cerebellum, brainstem, or cranial nerves (e.g., VII, IX, X, XII), disrupting fine motor coordination for speech. Early intervention is crucial to prevent permanent damage, though recovery depends on the extent of neural injury and timely antiviral treatment.
+
+The proposed polypeptides address dysarthria of viral origin through targeted therapeutic axes, focusing on halting viral progression and supporting neural recovery. In the antiviral axis, the designed antiviral peptide is flagged as designed and derived from literature motifs of cationic antimicrobial peptides (e.g., from defensins and cathelicidins), featuring an amphipathic alpha-helical structure with high arginine and lysine content for membrane disruption, combined with head-to-tail cyclization for enhanced serum stability and bioavailability; this mechanism inhibits viral entry and replication, directly tackling the infectious cause to prevent further neurological deterioration. For the neuroprotection axis, NAP is a real-world investigational peptide that stabilizes microtubules, reduces tau hyperphosphorylation, and inhibits apoptosis in stressed neurons, based on preclinical studies showing efficacy in models of neurotoxic insults similar to viral damage, thereby preserving speech-motor neural circuits. The designed neuroprotective peptide, flagged as designed, extends the NAP core motif with flanking residues inspired by blood-brain barrier-penetrating peptides from literature (e.g., angiopep-like sequences), incorporating Aib for conformational rigidity and limited N-acetylation for metabolic resistance, promoting neuronal survival and synaptic plasticity to aid speech recovery; feasibility is supported by in silico predictions of low instability and favorable hydrophilicity, with modes of action including caspase inhibition and anti-oxidative effects, considering physicochemical properties like net positive charge for cellular uptake without toxicity.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Slurred Speech (Dysarthria - Viral Cause) p01"
+"Loaded_Programs=Slurred Speech (Dysarthria - Viral Cause) p02"
+"Loaded_Programs=Slurred Speech (Dysarthria - Viral Cause) p03"
+"Loaded_Frequencies=M156.101=1,M113.084,M147.068,M115.027,M128.095,M113.084,M156.101,M128.058,M99.068,M113.084,M156.101,M128.095,M147.068,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M71.037=1,M87.032,M114.043,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"[/Preset]"

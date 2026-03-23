@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Dog Exercise-induced Collapse (EIC) (L)"
+"Preset_Notes=Dog Exercise-induced Collapse (EIC) for Laser
+
+Dog Exercise-induced Collapse (EIC) is an autosomal recessive neurogenetic disorder primarily affecting Labrador Retrievers and related breeds. It is characterized by muscle weakness, incoordination, and life-threatening collapse following 5-20 minutes of high-intensity exercise or extreme excitement. The condition is caused by a specific point mutation (c.767G>T) in the Dynamin-1 (DNM1) gene, which leads to an Arg256Leu (R256L) substitution in the highly conserved GTPase domain of the DNM1 protein. Under normal conditions, DNM1 facilitates the fission of synaptic vesicles from the plasma membrane, a process essential for neurotransmitter recycling. During intense activity, the demand for vesicle recycling spikes; the R256L mutant protein fails to maintain sufficient endocytic rates, leading to a depletion of the available vesicle pool and subsequent failure of synaptic transmission in the spinal cord and peripheral nerves.
+
+1. Synaptic Vesicle Endocytosis Support: Dynamin-1 - Essential for vesicle fission; R256L mutation impairs GTPase activity during high-demand recycling.
+2. Synaptic Scaffold Stabilization: Syndapin-1 (PACSIN1) - Interacts with DNM1 via SH3 domains to recruit and orient the protein at the vesicle neck.
+3. Neurotransmission Recovery: Neuropeptide Y (NPY) - Modulates presynaptic release and may exert a protective effect on overworked motor neurons.
+4. Mitochondrial Bioenergetics: Elamipretide - Targets cardiolipin to improve ATP production, supporting the high metabolic cost of vesicle recycling.
+5. Neuroprotective Antioxidant: TXM-CB3 - A thioredoxin-mimetic peptide that reduces oxidative stress linked to intense neuronal firing and DNM1 dysfunction.
+6. Optimized Recruitment Axis: DNM1-PRD Mimetic - Designed to competitively enhance the recruitment of wild-type-like scavenging mechanisms.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Dog Exercise-induced Collapse (EIC) p01"
+"Loaded_Programs=Dog Exercise-induced Collapse (EIC) p02"
+"Loaded_Programs=Dog Exercise-induced Collapse (EIC) p03"
+"Loaded_Programs=Dog Exercise-induced Collapse (EIC) p04"
+"Loaded_Programs=Dog Exercise-induced Collapse (EIC) p05"
+"Loaded_Programs=Dog Exercise-induced Collapse (EIC) p06"
+"Loaded_Frequencies=M71.037=1,M156.101,M57.021,M156.101,M156.101,M156.101,M156.101,M156.101,M97.053,M101.048,M156.101,M156.101,M71.037,M97.053,M71.037,M99.068,M97.053,M97.053,M71.037,M156.101,M97.053,M57.021,M156.101,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M87.032,M97.053,M101.048,M87.032,M87.032,M97.053,M101.048,M97.053,M128.058,M156.101,M156.101,M71.037,M97.053,M71.037,M99.068,M97.053,M97.053,M71.037,M156.101,M97.053,M57.021,M156.101,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.043,M97.053,M57.021,M129.043,M115.027,M71.037,M97.053,M71.037,M129.043,M115.027,M131.040,M71.037,M156.101,M163.063,M163.063,M87.032,M71.037,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M113.084,M101.048,M156.101,M128.058,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M103.009=1,M129.043,M103.009,0=4,"
+"Loaded_Frequencies=M71.037=1,M103.009,M156.101,M128.058,M128.095,M113.084,M128.058,M113.084,M97.053,M156.101,M156.101,M57.021,M156.101,M156.101,0=4,"
+"[/Preset]"

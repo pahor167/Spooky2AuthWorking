@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Ankylosing Spondylitis (C)"
+"Preset_Notes=Ankylosing Spondylitis for Contact
+
+Ankylosing spondylitis (AS) is a chronic autoimmune spondyloarthropathy primarily affecting the spine and sacroiliac joints, causing inflammation, pain, stiffness, enthesitis, and progressive ankylosis, driven by dysregulated IL-17/Th17, TNF pathways, and HLA-B27-associated mechanisms. The proposed polypeptides target emerging and translationally relevant axes from inflammatory arthritis models, peptide clinic applications, and preclinical data for cytokine suppression, tissue protection, regeneration, pain relief, and remodeling.
+
+1. Copper-binding tripeptide ECM remodeling and anti-inflammatory support: GHK-Cu modulates fibrosis, antioxidant activity, and repair in chronic inflammatory conditions.
+2. Gastric pentadecapeptide multi-pathway cytoprotection: BPC-157 protects entheses, reduces inflammation, and promotes healing in spondyloarthritis-relevant models.
+3. Thymosin {beta}4 fragment actin-mediated regeneration: TB-500 enhances cell migration, anti-fibrotic effects, and recovery in musculoskeletal inflammation.
+4. EPO-derived IRR agonist neuropathic pain relief: ARA-290 mitigates chronic pain and supports neuroprotection in inflammatory states.
+5. {alpha}-MSH-derived tripeptide cytokine suppression: KPV potently inhibits pro-inflammatory mediators central to AS pathogenesis.
+6. Engineered stabilized {alpha}-MSH motif optimization: Ac-KPV-NH2 improves protease resistance, bioavailability, and targeted anti-inflammatory potency for sustained delivery.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Ankylosing Spondylitis p01"
+"Loaded_Programs=Ankylosing Spondylitis p02"
+"Loaded_Programs=Ankylosing Spondylitis p03"
+"Loaded_Programs=Ankylosing Spondylitis p04"
+"Loaded_Programs=Ankylosing Spondylitis p05"
+"Loaded_Programs=Ankylosing Spondylitis p06"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"[/Preset]"

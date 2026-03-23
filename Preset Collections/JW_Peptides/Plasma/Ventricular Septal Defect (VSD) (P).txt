@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Ventricular Septal Defect (VSD) (P)"
+"Preset_Notes=Ventricular Septal Defect (VSD) for Plasma
+
+Ventricular septal defect is a congenital heart defect featuring a hole in the interventricular septum, often causing left-to-right shunting, ventricular overload, and potential complications like pulmonary hypertension or heart failure. Small defects may close spontaneously via muscular/fibrous tissue growth; proposed polypeptides promote regenerative mechanisms including progenitor activation, stem cell recruitment, balanced remodeling, inflammatory resolution, angiogenesis, and cell adhesion to support non-surgical closure or repair.
+
+1. Cardiac regeneration: Thymosin beta-4 - Activates epicardial progenitors, enhances cardiomyocyte survival, promotes angiogenesis, and reduces adverse remodeling for septal tissue repair. 
+2. Stem cell mobilization: Substance P - Recruits bone marrow stem cells, stimulates angiogenesis, and facilitates wound healing responses in cardiac tissue. 
+3. Anti-fibrosis: Ac-SDKP - Inhibits fibroblast proliferation and collagen deposition to prevent excessive scarring while allowing regenerative remodeling. 
+4. Inflammatory resolution: Annexin A1 Ac2-26 - Mimics annexin A1 to resolve inflammation, reduce neutrophil infiltration, and protect against cardiomyocyte damage. 
+5. Angiogenesis: QK - VEGF-mimetic helical peptide that activates VEGF receptors to drive endothelial proliferation and neovascularization. 
+6. Hybrid adhesion/angiogenesis: SVVYGLRGD hybrid (designed) - Fusion of osteopontin-derived pro-angiogenic SVVYGLR motif with RGD integrin-binding sequence to enhance cell recruitment and vascular ingrowth at the defect site.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Ventricular Septal Defect (VSD) p01"
+"Loaded_Programs=Ventricular Septal Defect (VSD) p02"
+"Loaded_Programs=Ventricular Septal Defect (VSD) p03"
+"Loaded_Programs=Ventricular Septal Defect (VSD) p04"
+"Loaded_Programs=Ventricular Septal Defect (VSD) p05"
+"Loaded_Programs=Ventricular Septal Defect (VSD) p06"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M112.100,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M99.068,M163.063,M57.021,M113.084,M156.101,M57.021,M115.027,0=4,"
+"[/Preset]"

@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Verruca Vulgaris (C)"
+"Preset_Notes=Verruca Vulgaris for Contact
+
+Verruca vulgaris (common warts) are benign cutaneous proliferations caused by HPV types (e.g., 1, 2, 4, 27, 57). The condition is characterized by hyperkeratosis, acanthosis, and papillomatosis. Therapeutic intervention requires a multi-pronged approach:
+1. Immune Surveillance Reactivation: Warts persist due to local immune evasion. Agonizing Toll-like Receptors (TLR) or stimulating defensin release is critical to trigger host rejection.
+2. Keratolytic/Desmosomal Disruption: Destabilizing the intercellular junctions (desmosomes) in the hyperkeratotic mass to promote shedding and drug penetration.
+3. Viral Replication Blockade: Inhibiting the HPV E1-E2 interaction to halt viral genome maintenance in the basal layer.
+4. Anti-Angiogenesis: Targeting the dilated capillaries (thrombosed vessels) that supply the wart core.
+5. Pro-apoptotic Induction: Triggering apoptosis in infected keratinocytes that are protected by viral anti-apoptotic proteins (E6/E7).
+6. Viral Capsid Neutralization: Mimicking cell-surface proteoglycans to intercept viral particles preventing autoinoculation.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Verruca Vulgaris p01"
+"Loaded_Programs=Verruca Vulgaris p02"
+"Loaded_Programs=Verruca Vulgaris p03"
+"Loaded_Programs=Verruca Vulgaris p04"
+"Loaded_Programs=Verruca Vulgaris p05"
+"Loaded_Programs=Verruca Vulgaris p06"
+"Loaded_Programs=Verruca Vulgaris p07"
+"Loaded_Frequencies=M170.117=1,M128.095,M113.084,M147.068,M156.101,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M103.009=1,M97.053,M202.074,M137.059,M113.048,M103.009,0=4,"
+"Loaded_Frequencies=M115.027=1,M166.998,M129.043,M166.998,M115.027,M99.068,M97.053,0=4,"
+"Loaded_Frequencies=M758.676=1,M170.106,M113.084,M147.068,M168.964,M71.037,0=4,"
+"Loaded_Frequencies=M317.122=1,M128.059,M101.048,M163.063,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M99.068,M255.119,M115.027,M113.084,0=4,"
+"Loaded_Frequencies=M103.009=1,M156.101,M57.021,M115.027,M147.068,M103.009,0=4,"
+"[/Preset]"

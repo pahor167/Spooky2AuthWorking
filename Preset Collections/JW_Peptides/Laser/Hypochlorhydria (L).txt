@@ -1,0 +1,45 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Hypochlorhydria (L)"
+"Preset_Notes=Hypochlorhydria for Laser
+
+Hypochlorhydria is characterized by insufficient hydrochloric acid production in the stomach, impairing protein digestion, nutrient absorption (e.g., B12, iron, calcium), and increasing susceptibility to enteric infections and small intestinal bacterial overgrowth (SIBO) due to reduced bactericidal barrier function. Proposed polypeptides target key therapeutic axes derived from gastric physiology and peptide research:
+
+1. Gastric acid secretion stimulation: Pentagastrin - Synthetic analog binding gastrin receptors to directly stimulate parietal cell HCl secretion.
+2. Gastric mucosal regeneration: Thymosin beta-4 - Accelerates epithelial migration, angiogenesis, and repair of damaged gastric lining.
+3. Prevention of bacterial overgrowth: hBD-3 - Human beta-defensin with broad antimicrobial spectrum against pathogens thriving in low-acid conditions.
+4. Gastric antioxidant defense: Carnosine - Scavenges reactive oxygen species and protects mucosal cells from oxidative damage.
+5. Enhancement of gastric motility: Substance P - Tachykinin peptide promoting smooth muscle contraction for improved emptying and reduced stasis.
+6. Immune enhancement: Thymosin alpha-1 - Modulates T-cell and dendritic cell activity to support clearance of contributing pathogens like H. pylori.
+7. Reduction of gastric inflammation: Cortistatin - Exerts somatostatin-like anti-inflammatory effects to mitigate gastritis.
+8. Broad-spectrum antimicrobial: Lactoferricin B - Bovine-derived peptide disrupting microbial membranes in the gastric environment.
+9. Gastric cytoprotection: Adrenomedullin - Increases mucosal blood flow and mucus production for enhanced barrier function.
+10. Optimized acid stimulation: GastroStim-1 - Designed stable minimal gastrin core analog for targeted and sustained receptor activation.
+11. Optimized antimicrobial action: HexaLacto - Designed cationic hexapeptide optimized for efficient bacterial membrane disruption in hypochlorhydric stomach.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Hypochlorhydria p01"
+"Loaded_Programs=Hypochlorhydria p02"
+"Loaded_Programs=Hypochlorhydria p03"
+"Loaded_Programs=Hypochlorhydria p04"
+"Loaded_Programs=Hypochlorhydria p05"
+"Loaded_Programs=Hypochlorhydria p06"
+"Loaded_Programs=Hypochlorhydria p07"
+"Loaded_Programs=Hypochlorhydria p08"
+"Loaded_Programs=Hypochlorhydria p09"
+"Loaded_Programs=Hypochlorhydria p10"
+"Loaded_Programs=Hypochlorhydria p11"
+"Loaded_Frequencies=M71.037=1,M186.079,M131.040,M115.027,M146.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M114.043,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M228.090=1,M131.040,M115.027,M146.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M128.058,M186.079,M155.093,0=4,"
+"[/Preset]"

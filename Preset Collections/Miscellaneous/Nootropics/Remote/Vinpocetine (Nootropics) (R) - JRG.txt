@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Vinpocetine (Nootropics) (R) - JRG"
+"Loaded_Programs=Vinpocetine (CUST)"
+"Loaded_Frequencies=M350.19943,"
+"Preset_Notes=Vinpocetine enhances brain blood flow by dilating blood vessels. And reducing blood viscosity or thickness.|Vinpocetine is derived from the periwinkle plant. It easily crosses the blood-brain barrier. And helps improve brain blood supply, boosts oxygen and glucose use by the brain, maintains healthy levels of neurotransmitters, and promotes better concentration, focus, and memory.|Dosing Vinpocetine as a nootropic is 10 mg up to three times per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

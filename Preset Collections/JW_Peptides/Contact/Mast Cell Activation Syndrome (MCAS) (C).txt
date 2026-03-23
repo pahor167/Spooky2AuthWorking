@@ -1,0 +1,58 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Mast Cell Activation Syndrome (MCAS) (C)"
+"Preset_Notes=Mast Cell Activation Syndrome (MCAS) for Contact
+
+Comprehensive peptide therapy targeting the complex pathophysiology of Mast Cell Activation Syndrome, characterized by inappropriate mast cell activation and release of inflammatory mediators (histamine, tryptase, cytokines, prostaglandins) affecting multiple organ systems. This protocol addresses: mast cell membrane stabilization and degranulation prevention, tryptase inhibition and PAR-2 pathway blockade, KIT/CD117 receptor modulation, Siglec-8 inhibitory pathway engagement, neuronal protection from mast cell mediators, antimicrobial defense against infection triggers, gut barrier integrity restoration, GLP-1 receptor-mediated mast cell inhibition (89% clinical benefit per 2025 Afrin et al. case series), and cytokine storm suppression. Targets both IgE-dependent and IgE-independent mast cell activation pathways.
+
+1. Mast cell inflammatory modulation: Ac-KPV-NH2 - Alpha-MSH-derived tripeptide; potently inhibits NF-kB activation; suppresses mast cell degranulation and pro-inflammatory cytokine release (TNF-{alpha}, IL-6); modulates neurogenic inflammation
+2. Mast cell stabilization and immune tolerance: alpha-MSH - Tridecapeptide melanocortin; inhibits mast cell activation via MC1R/MC5R; reduces histamine and tryptase release; anti-inflammatory in neuro-immune axis; promotes immune tolerance
+3. Gut barrier integrity and mast cell stabilization: BPC-157 - Cytoprotective pentadecapeptide; stabilizes mast cells in GI tract; prevents stress-induced degranulation; accelerates intestinal wound healing; modulates NO pathway and VEGF expression
+4. Neuro-immune mast cell regulation: VIP - Vasoactive intestinal peptide; paradoxical mast cell regulation - protects neurons from mast cell-induced toxicity while modulating mast cell reactivity; stabilizes enteric nervous system in MCAS
+5. GLP-1 receptor-mediated mast cell inhibition: GLP-1-RA-Core - GLP-1 receptor agonist core sequence; 2025 clinical series shows 89% of MCAS patients benefit; reduces mast cell activation via GLP-1R on mast cells; dampens inflammatory mediator release; metabolic-immune modulation
+6. Antimicrobial defense and mast cell pathogen response: LL-37 - Cathelicidin-derived antimicrobial peptide; MCAS patients often have recurrent infections; LL-37 provides broad-spectrum pathogen defense while modulating mast cell responses to microbial triggers
+7. Antimicrobial mast cell trigger reduction: CIT-8 - Amphipathic antimicrobial peptide; reduces bacterial and fungal burden that triggers mast cell activation; particularly relevant for MCAS patients with recurrent skin and gut infections
+8. Tryptase inhibition and mast cell mediator blockade: TryptaseBlock-1 - Designed cationic tridecapeptide targeting mast cell beta-tryptase active site; blocks tryptase-mediated PAR-2 activation; reduces vascular permeability and tissue edema; complements nafamostat mechanism
+9. Siglec-8 engagement and mast cell inhibition: SiglecMim-1 - Designed heptapeptide mimicking 6-sulfo-sialyl Lewis X glycan ligand; engages Siglec-8 inhibitory receptor on mast cells; induces inhibition of Fc{epsilon}RI-mediated degranulation without apoptosis; novel glycomimetic approach
+10. KIT receptor modulation and mast cell proliferation: KitInhib-1 - Designed heptapeptide interfering with stem cell factor (SCF) binding to KIT/CD117; reduces mast cell survival signals; modulates KIT downstream signaling (PI3K, MAPK); complements masitinib mechanism
+11. Mast cell degranulation inhibition: HistamineRelease-1 - Designed heptapeptide stabilizing mast cell membrane; contains RGD motif for integrin engagement; reduces calcium influx required for degranulation; prevents histamine and prostaglandin D2 release
+12. Neuronal protection from mast cell toxicity: NeuroProtect-1 - Designed tandem KPV heptapeptide; protects enteric and sensory neurons from mast cell-induced neurotoxicity; reduces neuroinflammation; stabilizes nerve-mast cell cross-talk; prevents neuronal hyperexcitability
+13. Mucosal barrier sealing: BarrierSeal-1 - Designed cationic heptapeptide enhancing tight junctions in gut and respiratory mucosa; reduces allergen and pathogen penetration that triggers mast cells; strengthens epithelial barrier against mast cell trigger exposure
+14. Mast cell cytokine storm suppression: CytokineCalm-1 - Designed heptapeptide modulating mast cell cytokine production; reduces IL-6, IL-8, TNF-{alpha} release without preventing degranulation; targets late-phase allergic inflammation; stabilizes mast cell transcriptional response
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p01"
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p02"
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p03"
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p04"
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p05"
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p06"
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p07"
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p08"
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p09"
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p10"
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p11"
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p12"
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p13"
+"Loaded_Programs=Mast Cell Activation Syndrome (MCAS) p14"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M147.068,M128.095,M99.068,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,0=4,"
+"Loaded_Frequencies=M114.043=1,M163.063,M101.048,M87.032,M57.021,M163.063,M103.009,0=4,"
+"Loaded_Frequencies=M115.027=1,M99.068,M87.032,M57.021,M186.079,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M87.032,M97.053,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,M57.021,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M87.032,M147.068,M156.101,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M99.068,M71.037,M57.021,M128.058,M101.048,M87.032,0=4,"
+"[/Preset]"

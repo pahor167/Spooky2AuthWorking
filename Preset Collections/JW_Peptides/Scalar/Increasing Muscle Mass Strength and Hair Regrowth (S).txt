@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Increasing Muscle Mass/Strength and Hair Regrowth (S)"
+"Preset_Notes=Increasing Muscle Mass/Strength and Hair Regrowth for Scalar
+
+The combined goals target skeletal muscle hypertrophy, strength gains, and recovery through anabolic, regenerative, and growth factor pathways, while promoting hair regrowth via follicle stem cell activation, angiogenic support, dermal remodeling, and cycle progression. The proposed polypeptides prioritize real-world candidates with documented evidence in muscle repair, GH modulation, and hair stimulation studies, supplemented by one engineered hybrid for dual optimization.
+
+1. Long-acting GHRH analog for sustained GH/IGF-1 elevation: CJC-1295_no_DAC (real), enhances muscle protein synthesis and body composition.
+2. Selective GHRP for pulsatile GH release: Ipamorelin (real), supports strength, recovery, and lean mass without common side effects.
+3. PEGylated mechano-growth factor for localized hypertrophy: Peg-MGF (real), activates satellite cells in trained muscle for repair and growth.
+4. Stable gastric pentadecapeptide for multi-tissue healing: BPC-157 (real), accelerates tendon/muscle recovery and angiogenesis.
+5. Synthetic actin-binding fragment for migration and regeneration: TB-500 (real), promotes muscle repair and hair follicle dynamics.
+6. Copper tripeptide complex for dermal and follicle remodeling: GHK-Cu (real), enlarges hair follicles and stimulates growth/thickness.
+7. Full-length thymosin for stem cell mobilization: Thymosin_beta_4 (real), potently drives hair regrowth and broad regenerative effects.
+8. Hybrid copper-actin motif for dual targeting: GHK-TBhybrid (designed), N-acetylated/C-amidated Ac-GHKLKKTETQ-NH2 fusion combining GHK remodeling with LKKTETQ actin core for enhanced stability and synergistic muscle/hair benefits.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Increasing Muscle Mass/Strength and Hair Regrowth p01"
+"Loaded_Programs=Increasing Muscle Mass/Strength and Hair Regrowth p02"
+"Loaded_Programs=Increasing Muscle Mass/Strength and Hair Regrowth p03"
+"Loaded_Programs=Increasing Muscle Mass/Strength and Hair Regrowth p04"
+"Loaded_Programs=Increasing Muscle Mass/Strength and Hair Regrowth p05"
+"Loaded_Programs=Increasing Muscle Mass/Strength and Hair Regrowth p06"
+"Loaded_Programs=Increasing Muscle Mass/Strength and Hair Regrowth p07"
+"Loaded_Programs=Increasing Muscle Mass/Strength and Hair Regrowth p08"
+"Loaded_Frequencies=M163.063=1,M71.037,M115.027,M71.037,M113.084,M147.068,M101.048,M114.043,M87.032,M163.063,M156.101,M128.095,M99.068,M113.084,M57.021,M128.058,M113.084,M87.032,M71.037,M156.101,M128.095,M113.084,M113.084,M115.027,M87.032,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M85.053=1,M137.059,M205.074,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M163.063=1,M129.043,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M101.048,M57.021,M163.063,M57.021,M147.068,M128.058,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M127.074,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M99.032=1,M137.059,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M127.074,0=4,"
+"[/Preset]"

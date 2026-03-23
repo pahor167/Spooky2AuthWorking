@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Astaxanthin (Nootropics) (R) - JRG"
+"Loaded_Programs=Astaxanthin (CUST)"
+"Loaded_Frequencies=M596.38656,"
+"Preset_Notes=Astaxanthin is a natural pink xanthophyll found primarily in Haematococcus pluvialis algae, and the salmon, shellfish, krill, and birds that feed on them (i.e., pink flamingos).|It is one of the few antioxidants that can cross the blood-brain barrier and blood-retinal barrier, benefiting both your brain and vision.|As a nootropic, Astaxanthin is a potent antioxidant and anti-inflammatory providing protection from Alzheimer's, Parkinsons disease, and other neurodegenerative disease.|Astaxanthin protects your cells from the destructive effects caused by free radicals and protects cognitive function by increasing cerebral blood flow for better memory and overall cognitive performance.|And supplementing with Astaxanthin helps reduce cortisol, a biomarker for stress and mental fatigue.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

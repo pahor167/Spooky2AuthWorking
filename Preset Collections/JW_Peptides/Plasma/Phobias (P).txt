@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Phobias (P)"
+"Preset_Notes=Phobias for Plasma
+
+Phobias are anxiety disorders marked by intense, irrational, and persistent fear of specific objects, situations, or activities, resulting in avoidance behavior that significantly impairs daily functioning. Types include specific phobias (e.g., animals, heights, blood), social phobia (social anxiety disorder), and agoraphobia. Pathophysiology involves hyperactivity of the amygdala fear circuit, impaired fear extinction due to dysfunctional prefrontal-amygdala connectivity, imbalances in GABAergic inhibition, serotonergic and dopaminergic transmission, heightened sympathetic arousal, and emerging evidence of neuroinflammatory contributions via microglial activation and cytokine effects on neural plasticity.
+
+The proposed polypeptides target three key therapeutic axes: (1) anxiolytic and neuroplastic enhancement to alleviate baseline anxiety and support therapeutic exposure, addressed by the real-world Selank (synthetic heptapeptide tuftsin analog with documented clinical anxiolytic effects through BDNF upregulation, serotonin modulation, and GABA enhancement) and a designed extended cationic analog (derived from Selank motif with added lysines/arginines, N-acetylation, and C-amidation for proteolytic stability and prolonged action); (2) modulation of fear processing and extinction learning, addressed by the real-world oxytocin (endogenous cyclic nonapeptide with investigational intranasal application for reducing amygdala reactivity and enhancing trust/extinction in social and specific phobias); (3) mitigation of neuroinflammation exacerbating fear circuitry, addressed by a designed multimeric KPV peptide (repetitive motif from alpha-MSH anti-inflammatory core, with N-acetylation and C-amidation for drug-likeness and potency).
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Phobias p01"
+"Loaded_Programs=Phobias p02"
+"Loaded_Programs=Phobias p03"
+"Loaded_Programs=Phobias p04"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"[/Preset]"

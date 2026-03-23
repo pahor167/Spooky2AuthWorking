@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Pericardial Fat Pad (C)"
+"Preset_Notes=Pericardial Fat Pad for Contact
+
+Excess accumulation in the pericardial fat pad (encompassing epicardial and pericardial adipose tissue) is associated with heightened cardiovascular risk, pro-inflammatory adipokine secretion, metabolic dysfunction, atrial fibrillation, and heart failure progression. The proposed polypeptides, selected from clinical trials and preclinical evidence, target fat volume reduction, promotion of thermogenic browning, metabolic regulation, and protective anti-inflammatory effects to mitigate these risks.
+
+1. Dual GLP-1/GIP receptor agonism for superior pericardial fat reduction: Tirzepatide significantly decreases pericardial adipose tissue volume.
+2. GLP-1 receptor agonism for epicardial fat modulation and browning: Semaglutide reduces EAT and activates genes for fatty acid oxidation and white-to-brown differentiation.
+3. Atrial natriuretic peptide signaling for thermogenic browning: ANP induces browning and thermogenic actions in adipose tissue.
+4. Mitochondrial-encoded peptide for systemic metabolic homeostasis: MOTS-c improves insulin sensitivity and counters fat accumulation.
+5. Mitochondrial-derived anti-apoptotic protection: Humanin safeguards against metabolic and oxidative stress in cardiac-related contexts.
+6. Stable gastric pentadecapeptide for cytoprotection: BPC-157 exerts endothelial and organ-protective effects beneficial for cardiac health.
+7. Copper-binding tripeptide for regenerative support: GHK-Cu promotes ECM remodeling and antioxidant activity in adipose-influenced tissues.
+8. Engineered stabilized MOTS-c fragment for novel metabolic optimization: Ac-MRWQEMGYIFYPRK-NH2 shortens the native sequence with acetylation/amidation for improved stability, solubility, and potential enhanced browning/metabolic effects in pericardial fat.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Pericardial Fat Pad p01"
+"Loaded_Programs=Pericardial Fat Pad p02"
+"Loaded_Programs=Pericardial Fat Pad p03"
+"Loaded_Programs=Pericardial Fat Pad p04"
+"Loaded_Programs=Pericardial Fat Pad p05"
+"Loaded_Programs=Pericardial Fat Pad p06"
+"Loaded_Programs=Pericardial Fat Pad p07"
+"Loaded_Programs=Pericardial Fat Pad p08"
+"Loaded_Frequencies=M163.063=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M113.084,M85.053,M113.084,M115.027,M128.095,M113.084,M128.058,M85.053,M71.037,M147.068,M99.068,M128.058,M186.079,M113.084,M113.084,M57.021,M97.053,M97.053,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"[/Preset]"

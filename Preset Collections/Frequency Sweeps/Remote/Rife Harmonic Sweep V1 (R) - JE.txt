@@ -1,0 +1,246 @@
+"[Preset]"
+"PresetName=Rife Harmonic Sweep V1 (R) - JE"
+"Repeat_Each_Frequency=1"
+"Repeat_Each_Program=1"
+"Repeat_Sequence=1"
+"Repeat_Chain=1"
+"Frequency_Multiplier=1"
+"Out1_Phase_Angle=0"
+"Duty_Cycle=50"
+"BFB_Start_Frequency=1500000"
+"BFB_Finish_Frequency=1700000"
+"BFB_Initial_Step_Size_Hz=375"
+"BFB_Decimal_Places=0"
+"BFB_Max_Hits_To_Find=5"
+"BFB_Start_Delay=30"
+"BFB_Samples_Per_Step=1"
+"Email_Address="
+"Amplitude=20"
+"Out1_Offset=0"
+"Out2_Hz_Factor=-1"
+"Out2_Hz_Constant=6010100"
+"Swap_Waveform_Time=0"
+"Out1_Shadow_Generator=0"
+"Out1_Shadow_Hz_Factor=1"
+"Out1_Shadow_Hz_Constant=0"
+"Schedule_Run_For=0"
+"Schedule_Delay_Start_Days=0"
+"Schedule_Delay_Start_Hours=0"
+"Schedule_Delay_Start_Minutes=0"
+"Out2_Offset=0"
+"Out2_Phase_Angle=0"
+"Preset_Notes=DO NOT USE WITH SPOOKY PLASMA - Remote Mode only. 
+
+Rife Harmonic Preset (Version 1)
+--------------------------------------
+by Jason Elliott
+Idea:
+------
+It was designed to target Rife's original frequencies values given for 
+StreptoThrix,
+Anthrax,
+B or E Coli Rod & Virus,
+BX and BY,
+Gonorrhea,
+Pnuemonia or spinal menigitis
+Staph Aureus,
+Strep Pyogenes,
+Syphillis,
+Tetanus,
+TB Rod & Virus,
+Typhoid Rod & Virus.
+
+and to be a sweep that could be run occaisionally.
+
+Method:
+----------
+Rife's frequencies are multiplied so as to give a harmonic close to 3.1Mhz. 
+The lowest and highest harmonics are then used as a guide for the low & high settings of a spectrum sweep.
+
+Spectrum sweep is designed differently here in that only 10 child frequencies are used; this is so power retained is greater and our 'comb' does not try to do too much at once to the DNA.
+
+According to Spooky2 interface, frequencies are applied for at least 1.5 hrs.
+A low 0.6 Hz gate is applied to create a pumping effect.
+
+Transmits two simultaneous sweeps - one proceeds from low to high, the other from high to low.
+
+Since the application is intense the sweep only runs once.
+
+Details:
+---------
+
+Sweep Information:
+-----------------------
+Spectrum Low= 2794300Hz, High = 3215800Hz
+Tolerance = .025%
+Application time = 5750 Secs
+WCM X = 10
+Frequency Hits = 1
+
+Yields:
+Spectrum = 7.013%
+Frequency spacing = 21075 Hz
+Total sweep duration 24:00:02
+Sweep speed = 0.26131 Hz / sec
+Spectrum amplitude = 2V
+
+Pump:
+-------
+Gated at 0.6 Hz.
+
+Warnings:
+------------
+For experimentation only, this sweep is NOT proven as safe or effective.
+The sweep runs for 24 hrs.  Take the usual precautions such as drinking
+lots of water, and stop if you experience discomfort. 
+
+Feedback:
+-----------
+Please post feedback to the spooky2 forum.
+Information reports such as 'nothing' or 'no effect' are appreciated.
+
+Prior work:
+-------------
+This sweep is based on the work and ideas of the Spooky2 team & members, concepts from John Bedini's RPX pad-machine, and Tom Bearden's scalar time-reversal ideas; and of course Hoyland and Rife.
+
+History:
+---------
+V1: 
+Use a spectrum sweep to approximate side-band+audio Bedini concept.
+Use Spooky2 gate as longtitudional equivalent of a contact pump-wave.
+"
+"Settings_Frequency_Wobble_Percentage=0"
+"Settings_Amplitude_Wobble_Steps=16"
+"Settings_Amplitude_Wobble_Percentage=0"
+"Settings_Frequency_Wobble_Steps=16"
+"Out1_Max_Freq=0"
+"Out1_Min_Freq=0"
+"Out2_Max_Freq=0"
+"Out2_Min_Freq=0"
+"Hz_Gate=.6"
+"Reduce_Amplitude_Frequency=10"
+"Dwell_Multiplier=1"
+"Sine_WCM=10"
+"Square_WCM=1"
+"Sawtooth_WCM=1"
+"Inverted_Sawtooth_WCM=1"
+"Triangle_WCM=1"
+"Sine_Damped_WCM=8"
+"Square_Damped_WCM=8"
+"Sine_Hbomb_WCM=16"
+"Square_Hbomb_WCM=16"
+"User_Defined_1_WCM=1"
+"User_Defined_2_WCM=1"
+"Sine_Spike_Length=0"
+"Square_Spike_Length=0"
+"Sawtooth_Spike_Length=0"
+"Inverted_Sawtooth_Spike_Length=0"
+"Triangle_Spike_Length=0"
+"SineDamped_Spike_Length=0"
+"Square_Damped_Spike_Length=0"
+"Sine_Hbomb_Spike_Length=0"
+"Square_Hbomb_Spike_Length=0"
+"User_Defined_1_Spike_Length=0"
+"User_Defined_2_Spike_Length=0"
+"Sine_Spike_Ratio=2"
+"Square_Spike_Ratio=2"
+"Sawtooth_Spike_Ratio=2"
+"Inverted_Sawtooth_Spike_Ratio=2"
+"Sine_Damped_Spike_Ratio=2"
+"Square_Damped_Spike_Ratio=2"
+"Sine_Hbomb_Spike_Ratio=2"
+"Square_Hbomb_Spike_Ratio=2"
+"User_Defined_1_Spike_Ratio=2"
+"User_Defined_2_Spike_Ratio=2"
+"Sine_Spectrum=7.013"
+"Square_Spectrum=0"
+"Sawtooth_Spectrum=0"
+"Inverted_Sawtooth_Spectrum=0"
+"Triangle_Spectrum=0"
+"Sine_Damped_Spectrum=0"
+"Square_Damped_Spectrum=0"
+"Sine_Hbomb_Spectrum=0"
+"Square_Hbomb_Spectrum=0"
+"User_Defined_1_Spectrum=0"
+"User_Defined_2_Spectrum=0"
+"F1_Factor=1"
+"F1_Phase_Angle=0"
+"Maximum_Spike_Count=0"
+"F1_Modulation_Type=Add F1 to F2"
+"Harmonic_Wobble=None"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"Frequency_Limit_Harmonic_Type=Decade"
+"Frequency_Sort_Option=Do NOT sort frequencies"
+"Amplitude_Wobble_Type=Disabled"
+"Frequency_Wobble_Type=Disabled"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"User_Defined_2_Waveform=Sine"
+"Auto_Start=False"
+"Auto_Resume=False"
+"Manual_Start=False"
+"BFB_Calculate_Using_RA=True"
+"BFB_Calculate_Using_Peak=False"
+"BFB_BPM=True"
+"BFB_HRV=False"
+"BFB_Angle=False"
+"BFB_Detect_Max=True"
+"BFB_Detect_Min=False"
+"BFB_Detect_mA=False"
+"Out1_Sine=True"
+"Out1_Square=False"
+"Out1_Sawtooth=False"
+"Out1_Inverted_Sawtooth=False"
+"Out1_Triangle=False"
+"Out1_Sine_Damped=False"
+"Out1_Square_Damped=False"
+"Out1_Sine_Hbomb=False"
+"Out1_Square_Hbomb=False"
+"Out1_User_Defined_1=False"
+"Out1_User_Defined_2=False"
+"Out2_Sine=False"
+"Out2_Square=False"
+"Out2_Sawtooth=False"
+"Out2_Inverted_Sawtooth=False"
+"Out_2_Triangle=False"
+"Out2_Sine_Damped=False"
+"Out2_Square_Damped=False"
+"Out2_Sine_Hbomb=False"
+"Out2_Square_Hbomb=False"
+"Out2_User_Defined_2=False"
+"Follow_Out1_Wave=True"
+"SpikeWave=False"
+"InverseWave=False"
+"Enable_F2_Modulation=0"
+"Enable_Reduce_Low_Frequency_Amplitude=0"
+"BFB_Single_Scan=0"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"Enable_Gate_Out1=1"
+"Enable_Gate_Out2=1"
+"Enable_Tissue_Factor=0"
+"Enable_Remove_Duplicate_Frequencies=1"
+"Remove_Duplicate_Frequencies_Tolerance=0"
+"Enable_Positive_Spike=1"
+"Enable_Negative_Spike=1"
+"Negative_Edge_For_Spike=0"
+"Enable_Invert_Sine=0"
+"Enable_Invert_Square=0"
+"Enable_Invert_Sawtooth=0"
+"Enable_Invert_Inverted_Sawtooth=0"
+"Enable_Invert_Triangle=0"
+"Enable_Invert_Sine_Damped=0"
+"Enable_Invert_Square_Damped=0"
+"Enable_Invert_Sine_Hbomb=0"
+"Enable_Invert_Square_Hbomb=0"
+"Enable_Invert_User_Defined_1=0"
+"Enable_Invert_User_Defined_2=0"
+"Enable_Invert_Spike_Waveform=1"
+"Enable_Amplitude_RampUp=0"
+"Enable_Amplitude_Ramp_Down=0"
+"Enable_Swap_Frequency_And_Amplitude=0"
+"Notify_When_Zero_Hz=0"
+"Out2_Subtract_DataBase_Frequency=0"
+"Loaded_Programs=RIFE HARMONIC 24 HR SWEEP (CUST)"
+"Loaded_Frequencies=2993761.238-3016338.762=86402,"
+"[/Preset]"

@@ -1,0 +1,73 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=P17 Biofilm Builders E - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Plasma.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Serratia Marcescens 1 XTRA
+Serratia Marcescens XTRA
+Salmonella Typhimurium_1 HC
+Salmonella Typhi CAFL
+Salmonella Typhimurium CAFL
+Salmonella Typhi XTRA
+Bacteroides Fragilis HC
+Nisin XTRA
+Calcifications XTRA
+
+Connect OUT 1 to Input, Out 2 to Modulation.
+"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Programs=Serratia Marcescens 1 (XTRA)"
+"Loaded_Programs=Serratia Marcescens (XTRA)"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"Loaded_Frequencies=866.2=180,970.03=180,872.76=180,11003.12=180,21840.63=180,21937.5=180,"
+"Loaded_Frequencies=20010.1057=900,24755.6555=900,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Salmonella Typhimurium_1 (HC) High"
+"Loaded_Programs=Salmonella Typhimurium_1 (HC)"
+"Loaded_Frequencies=382300-386550=3600,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Salmonella Typhi (CAFL) Low"
+"Loaded_Programs=Salmonella Typhi (CAFL)"
+"Loaded_Programs=Salmonella Typhimurium (CAFL)"
+"Loaded_Frequencies=420=180,664=180,8656=180,773=180,"
+"Loaded_Frequencies=693=300,754=300,762=300,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Salmonella Typhi (XTRA) High"
+"Loaded_Programs=Salmonella Typhi (XTRA)"
+"Loaded_Programs=Bacteroides Fragilis (HC)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Frequencies=655555.5555=180,"
+"Loaded_Frequencies=324300-325000=3600,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Calcifications (XTRA) Low"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

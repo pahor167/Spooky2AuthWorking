@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Joint Hypermobility Syndrome (P)"
+"Preset_Notes=Joint Hypermobility Syndrome for Plasma
+
+Joint Hypermobility Syndrome (JHS), frequently overlapping with hypermobile Ehlers-Danlos syndrome (hEDS), features excessive joint mobility, chronic pain, instability, and connective tissue fragility linked to impaired collagen and extracellular matrix. The proposed polypeptides target regenerative axes supported by preclinical studies, wound healing models, and clinical observations in connective tissue disorders.
+
+1. Copper tripeptide-mediated collagen synthesis and ECM remodeling: GHK-Cu upregulates collagen production, modulates gene expression for repair, and provides antioxidant support in fragile tissues.
+2. Thymosin {beta}4 fragment-mediated actin regulation and anti-fibrotic repair: TB-500 promotes cell migration, reduces inflammation and fibrosis, and enhances flexibility in connective tissues.
+3. Gastric pentapeptide-mediated musculoskeletal protection and healing: BPC-157 accelerates tendon, ligament, and joint repair while stabilizing tissues and reducing inflammatory damage.
+4. Engineered collagen-mimetic stabilization of defective fibrils: Ac-(GPP)10-NH2 integrates into collagen structures to reinforce triple-helix integrity and improve joint stability.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Joint Hypermobility Syndrome p01"
+"Loaded_Programs=Joint Hypermobility Syndrome p02"
+"Loaded_Programs=Joint Hypermobility Syndrome p03"
+"Loaded_Programs=Joint Hypermobility Syndrome p04"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

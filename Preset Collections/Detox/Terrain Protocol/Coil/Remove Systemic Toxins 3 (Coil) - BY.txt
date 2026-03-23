@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"PresetName=1. Remove Systemic Toxins 3"
+"Loaded_Frequencies=2.4=106,5.8=106,6.3=106,7.8=106,20=106,26=106,35=106,60=106,72=106,125=106,165=106,200=106,444=106,465=106,522=106,588=106,600=106,625=106,650=106,666=106,685=106,690=106,727=106,760=106,776=106,787=106,802=106,832=106,880=106,1250=106,1500=106,1550=106,1850=106,2127=106,2.4=106,5.8=106,6.3=106,7.8=106,20=106,26=106,35=106,60=106,72=106,125=106,165=106,200=106,444=106,465=106,522=106,588=106,600=106,625=106,650=106,666=106,685=106,690=106,727=106,760=106,776=106,787=106,802=106,832=106,880=106,1250=106,1500=106,1550=106,1850=106,2127=106,0=244,"
+"Loaded_Programs=1. Remove Systemic Toxins 3"
+"Preset_Notes=Terrain Protocol for Coil.
+
+This preset is one of many Coil presets for the Terrain Protocol. Each frequency set runs for 2 hours, and is followed by a 3 minute beep. You may want to run this protocol in conjunction with 'Terrain (R) - BY' on another generator, or using the same generator. See \Detox\GUIDE Terrain Protocol - Click Me.pdf for a schedule to run these presets.
+
+To use the same generator, after a plasma set is finished, first change the hardware on the generator to the Spooky Remote, then choose 'Terrain (R) - BY' preset and skip to the frequency set that corresponds to the plasma set you just finished. When you are ready to do another plasma session, change the hardware on the generator to plasma/Spooky Central, reload this preset, and jump to the appropriate set.
+
+Entire Schedule for Terrain (Coil)
+------------------------------------
+Each line has day, generator, preset, and frequency set. If the preset is empty, use the same preset as the last preset for the same generator. If the frequency set is empty, there is not need to skip to a particular frequency set. If the day for a generator is missing, this means you continue to run the previous program.
+
+Day, Gen, Preset
+1, 1, Coil/Remove Metals (P) - BY
+1, 2, Remote/Terrain (R) - BY
+2, 1, Coil/Remove Metals (P) - BY
+2, 1, Coil/Remove Metals (P) - BY
+3, 1, Coil/Remove Chemical Materials (P) - BY
+3, 1, Coil/Remove Chemical Materials (P) - BY
+4, 1, Coil/Remove Systemic Toxins 1 (P) - BY
+4, 1, Coil/Remove Systemic Toxins 1 (P) - BY
+5, 1, Coil/Remove Systemic Toxins 2 (P) - BY
+5, 1, Coil/Remove Systemic Toxins 2 (P) - BY
+6, 1, Coil/Remove Intestinal Toxins (P) - BY
+6, 1, Coil/Remove Systemic Toxins 3 (P) - BY
+7, 1, Coil/Parasites and Liver Function (P) - BY
+7, 1, Coil/Parasites and Liver Function (P) - BY
+8, 1, Coil/Kidney Function 1 (P) - BY
+8, 1, Coil/Kidney Function 1 (P) - BY
+9, 1, Coil/Kidney Function 2 (P) - BY
+9, 1, Coil/Cleanse Blood (P) - BY
+10, 1, Coil/Kidney and Liver Toxins (P) - BY
+10, 1, Coil/Intestinal Parasites (P) - BY
+11, 1, Coil/Lymphatic System 1 (P) - BY
+11, 1, Coil/Lymphatic System 1 (P) - BY
+
+This preset has the following programs:
+
+Remove Systemic Toxins 3: Detox 4 Toxins Throughout the Body - CAFL
+
+Here is a table to find the beginning of each day in this preset:
+1: Remove Systemic Toxins 3
+
+Connect Spooky PEMF Coil to Generator 1, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"

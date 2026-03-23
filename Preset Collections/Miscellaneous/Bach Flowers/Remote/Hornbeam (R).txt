@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Hornbeam (R)"
+"Preset_Notes=Hornbeam / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Hornbeam - Procrastinationm tiredness at the thought of doing something.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Hornbeam (R)"
+"Loaded_Frequencies=257.45,"
+"[/Preset]"

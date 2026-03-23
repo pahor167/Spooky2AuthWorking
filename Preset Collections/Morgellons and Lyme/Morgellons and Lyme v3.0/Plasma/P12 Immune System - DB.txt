@@ -1,0 +1,57 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=P12 Immune System - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Plasma.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Interleukin PROV
+Leukocytogenesis Stimulate XTRA
+White Blood Cell Stimulation CAFL
+Aconite CAFL
+Immune System Stimulation 3 PROV
+Essential Oil - Citrus Fresh XTRA
+Essential Oil - Ravensara XTRA
+Essential Oil - Thieves XTRA
+
+Connect OUT 1 to Input, Out 2 to Modulation.
+"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Programs=Interleukin (PROV)"
+"Loaded_Programs=Leukocytogenesis Stimulate (XTRA)"
+"Loaded_Programs=White Blood Cell Stimulation (CAFL)"
+"Loaded_Programs=Aconite (CAFL)"
+"Loaded_Programs=Immune System Stimulation 3 (PROV)"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"Loaded_Frequencies=3448=180,2929=180,4014=180,5611=180,2867=180,2855=180,2791=180,"
+"Loaded_Frequencies=30=300,727=300,"
+"Loaded_Frequencies=432=180,1862=180,2008=180,2128=180,2180=180,2791=180,2855=180,2867=180,2929=180,3347=180,3448=180,4014=180,5611=180,"
+"Loaded_Frequencies=3347=300,5611=300,2791=300,"
+"Loaded_Frequencies=8=240,20=240,120=240,304=240,432=240,464=240,665=240,728=240,800=240,880=240,1488=240,1862=240,2008=240,2128=240,2180=240,2489=240,2720=240,2791=240,2855=240,2867=240,2929=240,3176=240,3347=240,3448=240,4014=240,5000=240,5611=240,10000=240,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Essential Oil - Citrus Fresh (XTRA) High"
+"Loaded_Programs=Essential Oil - Citrus Fresh (XTRA)"
+"Loaded_Programs=Essential Oil - Ravensara (XTRA)"
+"Loaded_Programs=Essential Oil - Thieves (XTRA)"
+"Loaded_Frequencies=22500000=180,"
+"Loaded_Frequencies=16750000=180,"
+"Loaded_Frequencies=18750000=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Pause 30 Seconds (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

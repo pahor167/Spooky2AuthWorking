@@ -1,0 +1,61 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Aplastic Anemia (S)"
+"Preset_Notes=Aplastic Anemia for Scalar
+
+Aplastic Anemia is a bone marrow failure disorder characterized by hypocellular bone marrow and pancytopenia due to immune-mediated destruction of hematopoietic stem cells, inflammatory cytokines, microenvironmental alterations, and potential clonal evolution. 
+
+The proposed polypeptides address key therapeutic axes including immunosuppression to mitigate T-cell attack, hematopoiesis stimulation to boost blood cell production, microenvironment modulation to support stromal function, cytokine inhibition to reduce IFN-{gamma} and other inhibitors, anti-inflammatory effects to alleviate systemic and gut inflammation, HSC transplant support to enhance engraftment, clonal inhibition to prevent malignant evolution, and apoptosis regulation to protect HSCs. Real-world polypeptides are prioritized based on verified sources; designed polypeptides (flagged as designed) are conceptual fallbacks to cover all axes where real-world options are limited, with rationales based on known mechanisms, feasibility through physicochemical properties like solubility and stability, and modes of action such as receptor binding or enzyme inhibition.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Aplastic Anemia p01"
+"Loaded_Programs=Aplastic Anemia p02"
+"Loaded_Programs=Aplastic Anemia p03"
+"Loaded_Programs=Aplastic Anemia p04"
+"Loaded_Programs=Aplastic Anemia p05"
+"Loaded_Programs=Aplastic Anemia p06"
+"Loaded_Programs=Aplastic Anemia p07"
+"Loaded_Programs=Aplastic Anemia p08"
+"Loaded_Programs=Aplastic Anemia p09"
+"Loaded_Programs=Aplastic Anemia p10"
+"Loaded_Programs=Aplastic Anemia p11"
+"Loaded_Programs=Aplastic Anemia p12"
+"Loaded_Programs=Aplastic Anemia p13"
+"Loaded_Programs=Aplastic Anemia p14"
+"Loaded_Programs=Aplastic Anemia p15"
+"Loaded_Programs=Aplastic Anemia p16"
+"Loaded_Programs=Aplastic Anemia p17"
+"Loaded_Programs=Aplastic Anemia p18"
+"Loaded_Frequencies=M57.021=1,M57.021,M101.048,M163.063,M87.032,M101.001,M137.059,M147.068,M57.021,M97.053,M113.084,M101.048,M186.079,M99.068,M101.001,M128.095,M97.053,M128.058,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M101.001=1,M86.048,M114.079,M97.053,M128.095,M101.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M200.095,M128.058,M129.043,M100.064,0=4,"
+"Loaded_Frequencies=M101.001=1,M86.048,M114.079,M87.032,M71.037,M101.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M237.148,M113.048,M85.053,M128.095,0=4,"
+"Loaded_Frequencies=M101.001=1,M100.064,M114.079,M97.053,M137.059,M101.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M156.101,M87.032,M99.068,M150.954,0=4,"
+"Loaded_Frequencies=M101.001=1,M86.048,M200.095,M128.058,M115.027,M101.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M114.079,M97.053,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M101.001=1,M100.064,M113.048,M71.037,M137.059,M101.001,0=4,"
+"Loaded_Frequencies=M113.084=1,M237.148,M156.101,M87.032,M99.068,0=4,"
+"Loaded_Frequencies=M101.001=1,M86.048,M114.079,M115.027,M71.037,M101.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M113.048,M97.053,M128.095,M137.059,0=4,"
+"Loaded_Frequencies=M101.001=1,M100.064,M200.095,M87.032,M115.027,M101.001,0=4,"
+"Loaded_Frequencies=M113.084=1,M114.079,M156.101,M71.037,M99.068,0=4,"
+"Loaded_Frequencies=M101.001=1,M86.048,M113.048,M115.027,M137.059,M101.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M237.148,M97.053,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M101.001=1,M100.064,M114.079,M71.037,M115.027,M101.001,0=4,"
+"[/Preset]"

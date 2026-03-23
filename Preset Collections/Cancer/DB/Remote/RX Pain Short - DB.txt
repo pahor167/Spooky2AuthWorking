@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"Out1_User_Defined_1=False"
+"Out1_Square_Hbomb=True"
+"Out1_Amplitude=10"
+"Out2_Amplitude=10"
+"PresetName=RX Pain Short - DB"
+"Preset_Notes=Cancer Protocol, Extras. Remote Mode.
+
+Update: November 2016.
+
+IMPORTANT: this preset kills pathogens. Use ALL Detox (R) - DB on another generator while running this. Use as required, for as long as necessary.
+
+PROGRAMS:
+Endorphin Release XTRA
+Cancer Pain CAFL
+Endorphin Release XTRA
+Cancer Pain XTRA
+Endorphin Release XTRA
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost."
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Cancer Pain (CAFL)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Cancer Pain (XTRA)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=3000=180,95=180,2127=180,2008=180,727=180,690=180,666=180,"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=95=180,660=180,690=180,727.5=180,2008=180,2127.5=180,2720=180,3000=180,10000=180,"
+"Loaded_Frequencies=38=180,"
+"[/Preset]"

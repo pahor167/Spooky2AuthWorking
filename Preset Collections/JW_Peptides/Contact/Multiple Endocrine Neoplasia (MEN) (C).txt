@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Multiple Endocrine Neoplasia (MEN) (C)"
+"Preset_Notes=Multiple Endocrine Neoplasia (MEN) for Contact
+
+Multiple Endocrine Neoplasia comprises inherited syndromes driven by germ-line mutations (MEN1 or RET) that foster multi-centric endocrine tumorigenesis. MEN-1 features inactivating menin loss, leading to primary hyperparathyroidism, pancreatic & pituitary NETs, plus thymic, adrenal and cutaneous lesions. MEN-2 displays RET activation, yielding medullary thyroid carcinoma, pheochromocytoma and (in 2A) parathyroid disease. The designed peptide panel addresses: (1) menin-MLL disruption to brake MEN1-mutant tumour growth; (2) RET conformational blockade to silence kinase signalling; (3) broad-spectrum somatostatin mimic for hormone suppression; (4) VEGF-pathway antagonism to starve highly vascular NETs; (5) immune-checkpoint engaging peptide to restore T-cell activity; (6) PTHrP antagonist to counteract malignant hyper-calcaemia. All six sequences are de-novo, length-constrained, diversity-validated, and terminate with the required suffix. 
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Multiple Endocrine Neoplasia (MEN) p01"
+"Loaded_Programs=Multiple Endocrine Neoplasia (MEN) p02"
+"Loaded_Programs=Multiple Endocrine Neoplasia (MEN) p03"
+"Loaded_Programs=Multiple Endocrine Neoplasia (MEN) p04"
+"Loaded_Programs=Multiple Endocrine Neoplasia (MEN) p05"
+"Loaded_Programs=Multiple Endocrine Neoplasia (MEN) p06"
+"Loaded_Frequencies=M113.084=1,M131.040,M114.043,M97.053,M128.095,M57.021,M137.059,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M113.084,M131.040,M137.059,M114.043,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M128.095,M57.021,M131.040,M114.043,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M114.043,M99.068,M128.095,M97.053,M131.040,0=4,"
+"Loaded_Frequencies=M113.084=1,M131.040,M114.043,M99.068,M128.095,M97.053,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M114.043,M113.084,M97.053,M99.068,0=4,"
+"[/Preset]"

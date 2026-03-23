@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Mitochondrial DNA Repair (C)"
+"Preset_Notes=Mitochondrial DNA Repair for Contact
+
+Mitochondrial DNA repair involves mechanisms to correct damage to mtDNA, crucial for preventing mitochondrial disorders. Therapeutic axes include: 1. Base Excision Repair (BER) enhancement. 2. POLG and replication/repair enzyme support. 3. Mitophagy promotion. 4. Antioxidant protection. 5. Mitochondria-targeted delivery for repair. Assignments: MitoBER-Pep1 covers axis 1; MitoPOLG-Pep1 covers axis 2; Humanin covers axis 3; Elamipretide covers axis 4; Pep-1 covers axis 5. Mechanisms: MitoBER-Pep1 is rationally engineered with cationic and aromatic residues for mitochondrial targeting and potential enhancement of BER processes based on literature motifs for DNA repair facilitation. MitoPOLG-Pep1 is designed to support POLG through similar targeting motifs, potentially stabilizing replication complexes. Humanin, a mitochondrial-derived peptide, promotes mitophagy and protective responses to maintain mtDNA integrity. Elamipretide interacts with cardiolipin to reduce oxidative stress, thereby protecting mtDNA from damage. Pep-1, a cell-penetrating peptide, enables targeted delivery of repair components to mitochondria.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Mitochondrial DNA Repair p01"
+"Loaded_Programs=Mitochondrial DNA Repair p02"
+"Loaded_Programs=Mitochondrial DNA Repair p03"
+"Loaded_Programs=Mitochondrial DNA Repair p04"
+"Loaded_Programs=Mitochondrial DNA Repair p05"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,M101.048,M186.079,M186.079,M129.043,M101.048,M186.079,M186.079,M101.048,M129.043,M186.079,M87.032,M128.058,M97.053,M128.095,M128.095,M128.095,M156.101,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M147.068,M156.101,M128.095,M147.068,M156.101,M128.095,M147.068,M156.101,M128.095,M147.068,0=4,"
+"Loaded_Frequencies=M186.079=1,M156.101,M147.068,M186.079,M156.101,M147.068,M186.079,M156.101,M147.068,M186.079,0=4,"
+"[/Preset]"

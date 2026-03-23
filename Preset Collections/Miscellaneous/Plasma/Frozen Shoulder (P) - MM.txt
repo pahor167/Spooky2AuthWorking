@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"Gate_On_Off_Duration_Option=True"
+"PresetName=MM_Frozen Shoulder(P)"
+"Preset_Notes=Frozen Shoulder Plasma preset. By Manuel Mallo
+
+Frozen Shoulder refers to gradual stiffness and pain in your shoulder joints. Hormonal imbalance, Diabetes, a weakened immune system or a long time limitation of shoulder motion can contribute to Frozen Shoulder. Studies have shown that people with diabetes are three times more to get Frozen Shoulder than others. If you have neck and shoulder pain, shoulder motion limitation, swelling, and stiffness, you may be prone to get Frozen Shoulder.
+
+Manuel Mallo had a great success in treating Frozen Shoulder.
+
+Two years ago, he had a terrible pain in his left shoulder. The pain was making his life miserable. He was even unable to sleep.
+
+Then he tried the presets he created (especially in contact mode), and also did a liver cleanse (using Dr. Hulda Clark method). After a couple of months of slow but continuous improvement, the pain completely disappeared. Now he is still pain-free.
+
+He used the contact preset once daily, and the remote preset 24/7 for 2 months. Every other day, he also used the preset for Staphylococcus Aureus, which is in Spooky2 software now.
+
+While running the Frozen Shoulder presets, plasma preset must be used without boost, and without altering the settings, unless you know perfectly what you’re doing.
+
+Monitor carefully any adverse effect, and if there are reactions to any frequency, you can repeat it.
+
+Place the plasma tube near to, or touching, your body. Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Frozen shoulder (CUST)"
+"Loaded_Programs=Glandulas Stenulson (CUST)"
+"Loaded_Programs=Mucormycosis (CAFL)"
+"Loaded_Programs=Zygomycosis (CAFL)"
+"Loaded_Frequencies=660=180,690=180,727.5=180,776=180,787=180,802=180,1550=180,880=180,10000=180,"
+"Loaded_Frequencies=1335=180,635=180,1537=180,763=180,654=180,326=180,324=240,528=240,15=240,"
+"Loaded_Frequencies=623=300,733=300,942=300,"
+"Loaded_Frequencies=942=300,623=300,733=300,"
+"[/Preset]"

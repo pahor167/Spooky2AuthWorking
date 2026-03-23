@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Brain Fog (Coil)"
+"Preset_Notes=Brain Fog for Coil
+
+Brain fog is characterized by cognitive impairments including poor concentration, memory lapses, and mental fatigue, often stemming from neuroinflammation, stress, disrupted sleep, gut dysfunction, and reduced neuroplasticity. The selected real-world polypeptides target five evidence-based therapeutic axes supported by preclinical, clinical, and emerging research.
+
+1. BDNF upregulation and neuroplasticity enhancement: Semax boosts BDNF levels and TrkB signaling, promoting neuronal survival and synaptic plasticity for improved cognition.
+2. Anxiolytic and neurotransmitter modulation: Selank balances GABA and serotonin activity, reducing stress-induced fog while enhancing focus and mood stability.
+3. Bioregulatory neuroprotection and focus restoration: Pinealon supports brain cell integrity, epigenetic regulation, and mental sharpness via direct neuroprotective mechanisms.
+4. Promotion of restorative sleep: DSIP induces delta-wave sleep, facilitating glymphatic clearance and cognitive recovery from fatigue.
+5. Gut-brain axis stabilization and anti-inflammatory effects: BPC-157 heals gastrointestinal barriers, modulates inflammation, and exerts neuroprotective effects across the brain-gut axis.
+
+"
+"Loaded_Programs=Brain Fog p01"
+"Loaded_Programs=Brain Fog p02"
+"Loaded_Programs=Brain Fog p03"
+"Loaded_Programs=Brain Fog p04"
+"Loaded_Programs=Brain Fog p05"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"[/Preset]"

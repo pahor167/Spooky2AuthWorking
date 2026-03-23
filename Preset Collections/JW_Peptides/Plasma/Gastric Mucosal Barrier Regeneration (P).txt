@@ -1,0 +1,50 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Gastric Mucosal Barrier Regeneration (P)"
+"Preset_Notes=Gastric Mucosal Barrier Regeneration for Plasma
+
+Gastric Mucosal Barrier Regeneration, also known as gastric ulcer healing or mucosal repair process, is a multifaceted regenerative response to injury involving restoration of the pre-epithelial mucus-bicarbonate barrier, epithelial cell restitution and proliferation, post-epithelial vascular integrity, stem cell-driven gland renewal, and resolution of inflammation/oxidative stress, critical for treating peptic ulcers, NSAID gastropathy, H. pylori gastritis, and atrophic gastritis to prevent complications like bleeding or malignancy. Polypeptide therapeutics address these core pathophysiologic axes comprehensively. 
+
+1. Pleiotropic cytoprotection and wound healing: BPC-157 - Stable gastric pentadecapeptide that promotes rapid mucosal repair, angiogenesis, and counteracts multiple ulcerogens via NO, VEGF, and FAK signaling. 
+2. Antioxidant defense via Nrf2 and microbiota reshaping: HeriPep-1 - Hericium-derived peptide that activates Nrf2 antioxidant pathway, reduces oxidative stress, enhances tight junctions, and reshapes gastric microbiota to combat H. pylori-induced damage. 
+3. Tight junction reinforcement: TJ-Restore-1 - Upregulates expression of ZO-1, occludin, and claudins to seal paracellular pathways and prevent epithelial leakage in the gastric barrier. 
+4. Epithelial restitution and cell migration: Restit-1 - Enhances trefoil factor-like activity to accelerate wound closure through rapid epithelial cell migration over denuded areas. 
+5. Growth factor-mediated epithelial proliferation: Prolif-1 - Mimics EGFR ligands to stimulate progenitor cell proliferation and renewal of gastric glands. 
+6. Angiogenesis and gastric mucosal blood flow restoration: Angio-1 - Promotes VEGF-like signaling and endothelial integrity to improve microcirculation and nutrient delivery to healing mucosa. 
+7. Anti-inflammatory and cytokine modulation: AntiInf-1 - Suppresses NF-{kappa}B and pro-inflammatory cytokines to resolve chronic inflammation and support barrier recovery. 
+8. Gastric stem cell activation and gland regeneration: StemReg-1 - Activates gastric stem/progenitor cells to regenerate lost parietal and chief cells in atrophic mucosa. 
+9. Mucus layer and bicarbonate barrier enhancement: Mucus-1 - Stimulates mucin and bicarbonate secretion to strengthen the pre-epithelial physicochemical barrier. 
+10. Gut microbiota modulation and SCFA signaling for barrier integrity: MicroMod-1 - Enhances beneficial bacteria and short-chain fatty acid production to support epithelial tight junctions and immune homeostasis. 
+11. Apoptosis inhibition and cell survival signaling: Survive-1 - Activates AKT/anti-apoptotic pathways to prevent programmed cell death in stressed gastric epithelial cells. 
+12. Nitric oxide and prostaglandin E2 synergistic protection: NO-PGE-1 - Boosts NO and PGE2 production for vasodilation, mucus secretion, and cytoprotection against aggressive factors.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Gastric Mucosal Barrier Regeneration p01"
+"Loaded_Programs=Gastric Mucosal Barrier Regeneration p02"
+"Loaded_Programs=Gastric Mucosal Barrier Regeneration p03"
+"Loaded_Programs=Gastric Mucosal Barrier Regeneration p04"
+"Loaded_Programs=Gastric Mucosal Barrier Regeneration p05"
+"Loaded_Programs=Gastric Mucosal Barrier Regeneration p06"
+"Loaded_Programs=Gastric Mucosal Barrier Regeneration p07"
+"Loaded_Programs=Gastric Mucosal Barrier Regeneration p08"
+"Loaded_Programs=Gastric Mucosal Barrier Regeneration p09"
+"Loaded_Programs=Gastric Mucosal Barrier Regeneration p10"
+"Loaded_Programs=Gastric Mucosal Barrier Regeneration p11"
+"Loaded_Programs=Gastric Mucosal Barrier Regeneration p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M87.032,M97.053,M113.084,M163.063,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M103.009,M113.084,M115.027,M87.032,M57.021,M163.063,M128.058,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M147.068,M147.068,M97.053,M103.009,M103.009,M97.053,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M103.009,M113.084,M137.059,M115.027,M57.021,M99.068,M103.009,M131.040,M163.063,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.058,M57.021,M99.068,M97.053,M156.101,M57.021,M115.027,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M97.053,M128.058,M156.101,M147.068,M113.084,M115.027,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M97.053,M129.043,M131.040,M97.053,M113.084,M186.079,0=4,"
+"Loaded_Frequencies=M97.053=1,M57.021,M87.032,M101.048,M97.053,M97.053,M57.021,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M87.032=1,M103.009,M147.068,M71.037,M97.053,M129.043,M97.053,M101.048,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M101.048,M97.053,M101.048,M129.043,M114.043,M113.084,0=4,"
+"Loaded_Frequencies=M97.053=1,M57.021,M129.043,M87.032,M163.063,M114.043,M101.048,M137.059,0=4,"
+"[/Preset]"

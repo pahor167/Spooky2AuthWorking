@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Larch (R)"
+"Preset_Notes=Larch / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Larch - Lack of confidence.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Larch (R)"
+"Loaded_Frequencies=336.52,"
+"[/Preset]"

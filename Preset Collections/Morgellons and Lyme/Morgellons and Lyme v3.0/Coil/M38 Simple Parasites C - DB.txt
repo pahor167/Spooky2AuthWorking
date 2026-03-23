@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"Repeat_Chain=0"
+"PresetName=M38 Simple Parasites C - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Coil.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Blastocystis Hominis CAFL
+Blastocystis Hominis Infections KHZ
+Protomyxzoa Rheumatica XTRA
+Leishmania Braziliensis HC
+Leishmania Donovani HC
+
+Connect Spooky PEMF Coil to the generator, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+"
+"Loaded_Programs=Blastocystis Hominis (CAFL)"
+"Loaded_Programs=Blastocystis Hominis Infections (KHZ)"
+"Loaded_Programs=Protomyxzoa Rheumatica (XTRA)"
+"Loaded_Programs=Leishmania Braziliensis (HC)"
+"Loaded_Programs=Leishmania Donovani (HC)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=365=180,595=180,844=180,848=180,1201=180,1243=180,5777=180,11425=180,11841=180,11967=180,13145=180,13469=180,21776=180,"
+"Loaded_Frequencies=10=180,460=180,750=180,2750=180,7500=180,47500=180,96500=180,357300=180,834000=180,937410=180,"
+"Loaded_Frequencies=1583=180,515=180,515-521=1260,"
+"Loaded_Frequencies=400050-405100=3600,"
+"Loaded_Frequencies=398000-402650=3600,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

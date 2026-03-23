@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Phosphatidylserine (PS) (Nootropics) (R) - JRG"
+"Loaded_Programs=Phosphatidylserine (PS) (CUST)"
+"Loaded_Frequencies=M385.11378,"
+"Preset_Notes=Phosphatidylserine (PS) is vital for the brain because this phospholipid is found in all cells, but most highly concentrated in brain cell wall membranes.|Phosphatidylserine helps in the storage, release and activity of neurotransmitters and their receptors.|Phosphatidylserine production declines as we age. And the reason why supplementation of this nootropic is so critical.|Study after study shows supplementation of Phosphatidylserine can boost cognition, focus, memory, and recall.|Phosphatidylserine (PS) is now derived from plant sources, such as soybean lecithin, or sunflower lecithin. Plant derived PS is equally effective and safer than that derived from animal brain sources.|Dosing Phosphatidylserine (PS) is anywhere from 100 - 300 mg per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R73 Morgellons Infrastructure T - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+EcR Protein 4 CUST
+3-Dehydroecdysone AM_Deb CUST
+3-Dehydroecdysone AM_Res CUST
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=EcR Protein 4 (CUST)"
+"Loaded_Programs=3-Dehydroecdysone AM_Deb (CUST)"
+"Loaded_Programs=3-Dehydroecdysone AM_Res (CUST)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=4938349.53=120,4938349.54=120,2469174.76=120,2469174.77=120,4530440.9=120,4530440.91=120,2265220.45=120,2265220.46=120,4518294.94=120,4518294.95=120,2259147.47=120,2259147.48=120,4458529.14=120,4458529.15=120,2229264.57=120,2229264.58=120,3719615.6=120,3719615.61=120,1859807.8=120,1859807.81=120,3629319.53=120,3629319.54=120,1814659.76=120,1814659.77=120,3542626.44=120,3542626.45=120,1771313.22=120,1771313.23=120,3349939.31=120,3349939.32=120,1674969.65=120,1674969.66=120,3109975.53=120,3109975.54=120,1554987.76=120,1554987.77=120,4406075.85=120,4406075.86=120,2203037.92=120,2203037.93=120,"
+"Loaded_Frequencies=10460.61=600,10460.62=600,10460.1-10461.1=600,3991369.22=600,3991369.23=600,3991368.7-3991369.7=600,"
+"Loaded_Frequencies=7396.77=600,7396.78=600,7396.3-7397.3=600,2822324.24=600,2822324.25=600,2822323.7-2822324.7=600,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

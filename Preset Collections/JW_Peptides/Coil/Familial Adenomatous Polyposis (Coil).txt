@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Familial Adenomatous Polyposis (Coil)"
+"Preset_Notes=Familial Adenomatous Polyposis for Coil
+
+Familial Adenomatous Polyposis (FAP) is an autosomal dominant genetic disorder caused by germline mutations in the APC gene, leading to hundreds to thousands of colorectal adenomas that progress to colorectal cancer if untreated. Causes include APC mutations disrupting Wnt signaling, resulting in uncontrolled cell proliferation, inflammation, and metabolic changes. Symptoms often include rectal bleeding, abdominal pain, and diarrhea, with extracolonic manifestations like duodenal adenomas, desmoids, and osteomas. Pathophysiology involves Wnt hyperactivation, inflammatory cascades, polyamine dysregulation, mTOR signaling, and bile acid imbalances via FXR/RXR.
+
+The polypeptides address all identified axes: Axis 1: Wnt pathway hyperactivation - Designed D1 (beta-catenin binder motif with disulfide for stability) inhibits beta-catenin, reducing proliferation. Axis 2: Inflammatory pathways - Designed D2 (COX inhibitory domain with N-ac for bioavailability) suppresses prostaglandin synthesis, mitigating inflammation. Axis 3: Polyamine metabolism - Designed D3 (ODC inhibitor motif with C-am for stability) reduces polyamine levels, slowing adenoma growth. Axis 4: mTOR pathway - Designed D4 (mTOR binding helix with head-to-tail cyclization) inhibits mTORC1, promoting apoptosis. Axis 5: FXR/RXR activation - Designed D5 (FXR agonist mimic with disulfide) activates FXR, regulating bile acids and antagonizing Wnt. Feasibility: Designed polypeptides are stable, soluble (GRAVY <0.5, charge +2 to +5, instability <30); modes target key pathways with low toxicity.
+
+"
+"Loaded_Programs=Familial Adenomatous Polyposis p01"
+"Loaded_Programs=Familial Adenomatous Polyposis p02"
+"Loaded_Programs=Familial Adenomatous Polyposis p03"
+"Loaded_Programs=Familial Adenomatous Polyposis p04"
+"Loaded_Programs=Familial Adenomatous Polyposis p05"
+"Loaded_Frequencies=M57.021=1,M71.037,M113.084,M97.053,M115.027,M129.043,M147.068,M128.095,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M113.084,M97.053,M128.095,M99.068,M113.084,M97.053,M101.048,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M115.027,M113.084,M128.095,M97.053,M113.084,M128.095,M71.037,M115.027,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M99.068,M128.095,M113.084,M99.068,M128.095,M113.084,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M129.043,M113.084,M99.068,M147.068,M129.043,M113.084,M99.068,M147.068,M129.043,0=4,"
+"[/Preset]"

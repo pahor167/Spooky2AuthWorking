@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=P20 Co-infections A - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Plasma.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Lyme Hatchlings Eggs CAFL
+Borrelia Hatchlings and Eggs XTRA
+Lyme Spirochete Inhabited Microbes XTRA
+Borrelia Spirochete Inhabited Microbes XTRA
+Detox 3 Toxins in the Kidneys and Liver PROV
+
+Connect OUT 1 to Input, Out 2 to Modulation.
+"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Programs=Lyme Hatchlings Eggs (CAFL)"
+"Loaded_Programs=Borrelia Hatchlings and Eggs (XTRA)"
+"Loaded_Programs=Lyme Spirochete Inhabited Microbes (XTRA)"
+"Loaded_Programs=Borrelia Spirochete Inhabited Microbes (XTRA)"
+"Loaded_Programs=Detox 3 Toxins in the Kidneys and Liver (PROV)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"Loaded_Frequencies=640=180,8554=180,203=180,412=180,414=180,589=180,667=180,840=180,1000=180,1072=180,1087=180,1105=180,"
+"Loaded_Frequencies=203=180,214=180,414=180,589=180,640=180,667=180,840=180,1000=180,1072=180,1087=180,1105=180,8554=180,"
+"Loaded_Frequencies=12283=180,13888.87=180,15208.19=180,17013.88=180,18361.25=180,19599.93=180,20148=180,20854.18=180,21888=180,"
+"Loaded_Frequencies=13888.87=3000,19599.93=180,20148=180,17013.88=180,20854.18=180,15208.19=180,16666.5=180,18361.25=180,21888=180,12283=180,"
+"Loaded_Frequencies=2.4=78,6.3=78,7.8=78,9.2=78,14=78,20=78,35=78,60=78,72=78,95=78,126=78,160=78,200=78,240=78,440=78,444=78,465=78,522=78,600=78,625=78,666=78,690=78,727=78,787=78,802=78,832=78,880=78,1500=78,1550=78,1865=78,2000=78,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

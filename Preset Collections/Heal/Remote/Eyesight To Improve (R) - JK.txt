@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Eyesight To Improve (R) - JK"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=100000"
+"BFB_Decimal_Places=2"
+"BFB_Max_Hits_To_Find=4"
+"BFB_Start_Delay=20"
+"BFB_Samples_Per_Step=6"
+"Out1_Amplitude=20"
+"Out2_Amplitude=20"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=Eyesight To Improve for Remote by Jeff Kaczor
+
+This preset is designed to target common vision ailments, including floaters and retinal detachment.
+
+I have been running this preset for over a year now.  It makes use a spiked square wave coupled with the 11th harmonic.  While most will consider this a healing modality, there are some frequencies that target pathogenic factors; therefore, this is a blended modality preset.
+
+I used a custom waveform setup from JW with good results, so I kept it.
+
+The idea behind this waveform is that the single directional spike generates a magnetic field that is aligned with the field of the strong neodymium magnet.  This creates a single offset magnetic barb that greatly increases the performance of the Spooky Remote.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator. DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote-BN to the 'BN' port of Spooky Boost."
+"Square_WCM=3"
+"Square_Spike_Length=15"
+"F1_Factor=11"
+"Maximum_Spike_Count=1"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Manual_Start=False"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Enable_F2_Modulation=1"
+"BFB_Grade_Program=0"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Enable_Negative_Spike=0"
+"Loaded_Programs=Eyesight to Improve (XTRA)"
+"Loaded_Programs=Vision Acuity (CAFL)"
+"Loaded_Programs=Floaters (KHZ)"
+"Loaded_Programs=Retinal Detachment (KHZ)"
+"Loaded_Frequencies=266=360,350=360,360=360,1830=360,"
+"Loaded_Frequencies=350=180,360=180,1802=180,1806=180,1810=180,1814=180,1818=180,1822=180,1826=180,1830=180,1834=180,1838=180,1842=180,1846=180,1848=180,1852=180,1856=180,1860=180,3176=180,"
+"Loaded_Frequencies=130=180,350=180,850=180,5430=180,17500=180,42500=180,236420=180,478500=180,527000=180,667000=180,"
+"Loaded_Frequencies=80=180,460=180,1000=180,7500=180,217500=180,327500=180,452500=180,665750=180,796500=180,834250=180,"
+"[/Preset]"

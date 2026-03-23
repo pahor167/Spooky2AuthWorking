@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Digestive System Support (P)"
+"Preset_Notes=Digestive System Support for Plasma
+
+Digestive system support encompasses strategies to maintain or restore gastrointestinal health, addressing issues like barrier dysfunction, inflammation, dysbiosis, motility disorders, and related axes that impact overall digestion, absorption, and homeostasis. 
+
+The polypeptides target axes such as intestinal barrier integrity (e.g., tight junction regulation), anti-inflammatory pathways (e.g., cytokine suppression), microbiota modulation (e.g., promoting beneficial bacteria), gastrointestinal motility (e.g., stimulating contractions), acid secretion control (e.g., inhibiting excess), immune response (e.g., antimicrobial activity), appetite regulation (e.g., satiety signaling), gut-liver balance (e.g., reducing inflammation), neurotransmitter modulation (e.g., vagal signaling), and oxidative stress mitigation (e.g., antioxidant enhancement); real-world polypeptides are prioritized from validated sources, with designed ones (flagged) for supplementary coverage, rationales based on receptor interactions or enzymatic effects, feasible via synthesis, modes via binding or modulation, considering stability and permeability.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Digestive System Support p01"
+"Loaded_Programs=Digestive System Support p02"
+"Loaded_Programs=Digestive System Support p03"
+"Loaded_Programs=Digestive System Support p04"
+"Loaded_Programs=Digestive System Support p05"
+"Loaded_Programs=Digestive System Support p06"
+"Loaded_Programs=Digestive System Support p07"
+"Loaded_Programs=Digestive System Support p08"
+"Loaded_Programs=Digestive System Support p09"
+"Loaded_Programs=Digestive System Support p10"
+"Loaded_Programs=Digestive System Support p11"
+"Loaded_Programs=Digestive System Support p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M97.053,M113.084,M147.068,M101.048,M101.048,M163.063,M57.021,M129.043,M113.084,M128.058,M156.101,M131.040,M128.058,M129.043,M128.095,M129.043,M156.101,M114.043,M128.095,M57.021,M128.058,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M243.020,M131.040,M57.021,M186.079,M131.040,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M85.053,M113.048,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M113.084,M200.095,M100.064,M237.148,0=4,"
+"[/Preset]"

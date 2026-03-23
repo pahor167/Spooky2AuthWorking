@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Bursitis (Coil)"
+"Preset_Notes=Bursitis for Coil
+
+Bursitis is an inflammatory condition affecting the bursae, small fluid-filled sacs that reduce friction between bones, tendons, muscles, and skin near joints. Common locations include the shoulder (subacromial), elbow (olecranon), hip (trochanteric), and knee (prepatellar). It presents with localized pain, swelling, tenderness, warmth, and restricted movement, often worsened by activity or pressure. Causes include repetitive overuse, prolonged pressure, acute trauma, infection (septic bursitis, less common), or association with systemic conditions like rheumatoid arthritis or gout. Pathophysiology involves mechanical irritation triggering synovial cell proliferation, increased fluid production, and inflammatory cascade with cytokine release (e.g., TNF-{alpha}, IL-1), neutrophil infiltration, and potential fibrosis in chronic cases.
+
+The proposed polypeptides target key aspects of bursitis: inflammation reduction, tissue regeneration, and matrix remodeling. BPC-157, a stable gastric pentadecapeptide with emerging preclinical and investigational evidence in musculoskeletal disorders, exerts broad protective effects by modulating nitric oxide pathways, reducing pro-inflammatory cytokines, and accelerating healing in tendons and joints. The designed amphipathic helical polypeptide, derived from cationic helical motifs known for immune modulation, reduces inflammation through potential interference with inflammatory signaling and improved solubility. TB-500 (synthetic Thymosin Beta-4), supported by research on actin regulation, promotes cell migration, angiogenesis, and anti-inflammatory effects to facilitate regeneration of damaged periarticular tissues. The designed cyclic RGD polypeptide, based on integrin-binding motifs from extracellular matrix proteins with disulfide cyclization for enhanced stability, supports cell adhesion and migratory processes critical for repair. GHK-Cu, a copper-complexed tripeptide with documented roles in wound healing, stimulates collagen synthesis, exerts antioxidant activity, and attenuates inflammation for tissue remodeling. The designed collagen-mimic polypeptide, inspired by proline-rich motifs from collagen hydrolysates with C-amide for stability, enhances fibroblast activity and extracellular matrix restoration.
+
+"
+"Loaded_Programs=Bursitis p01"
+"Loaded_Programs=Bursitis p02"
+"Loaded_Programs=Bursitis p03"
+"Loaded_Programs=Bursitis p04"
+"Loaded_Programs=Bursitis p05"
+"Loaded_Programs=Bursitis p06"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M113.084,M128.095,M71.037,M113.084,M128.095,M71.037,M113.084,M128.095,M71.037,M71.037,M113.084,M128.095,M113.084,M70.053,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

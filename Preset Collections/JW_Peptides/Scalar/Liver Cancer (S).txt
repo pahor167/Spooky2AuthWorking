@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Liver Cancer (S)"
+"Preset_Notes=Liver Cancer for Scalar
+
+Liver cancer, or hepatocellular carcinoma (HCC), is a primary malignancy of the liver often associated with chronic liver disease, leading to high mortality due to rapid progression and metastasis. Mechanistic rationale: The peptides address therapeutic axes including targeted delivery to HCC cells, anti-angiogenesis to inhibit tumor vascularization, apoptosis induction in cancer cells, anti-proliferation to halt cell growth, metastasis inhibition to prevent spread, immunomodulation to enhance anti-tumor immunity, anti-inflammatory effects to reduce tumor-promoting environments, antioxidant activity to mitigate oxidative damage, growth factor inhibition (e.g., HGF/c-Met), and cancer stem cell targeting. The first 10 are real-world peptides validated in studies for these effects. The last 2 are designed peptides to enhance coverage of antioxidant and stem cell targeting axes (flagged as designed).
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Liver Cancer p01"
+"Loaded_Programs=Liver Cancer p02"
+"Loaded_Programs=Liver Cancer p03"
+"Loaded_Programs=Liver Cancer p04"
+"Loaded_Programs=Liver Cancer p05"
+"Loaded_Programs=Liver Cancer p06"
+"Loaded_Programs=Liver Cancer p07"
+"Loaded_Programs=Liver Cancer p08"
+"Loaded_Programs=Liver Cancer p09"
+"Loaded_Programs=Liver Cancer p10"
+"Loaded_Programs=Liver Cancer p11"
+"Loaded_Programs=Liver Cancer p12"
+"Loaded_Frequencies=M87.032=1,M147.068,M87.032,M113.084,M113.084,M137.059,M101.048,M97.053,M113.084,M113.084,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M113.084,M163.063,M97.053,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M87.032,M99.068,M113.084,M57.021,M87.032,M99.068,M71.037,M128.095,M137.059,M99.068,M113.084,M97.053,M137.059,M99.068,M99.068,M97.053,M99.068,M113.084,M71.037,M129.043,M137.059,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M163.063,M114.043,M163.063,M71.037,M128.095,M128.095,M113.084,M71.037,M114.043,M113.084,M71.037,M128.095,M128.095,M147.068,M71.037,M114.043,M71.037,M113.084,M186.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M71.037,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.058,M137.059,M97.053,M87.032,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M57.021,M147.068,M137.059,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M101.048,M186.079,M128.095,M114.043,M87.032,M114.043,M57.021,M101.048,M186.079,M71.037,M113.084,M114.043,M99.068,M71.037,M101.048,M129.043,M113.084,M128.095,M128.095,M129.043,M186.079,M101.048,M186.079,M87.032,M137.059,M156.101,M97.053,M163.063,M113.084,M71.037,M137.059,0=4,"
+"Loaded_Frequencies=M103.009=1,M137.059,M137.059,M137.059,M156.101,M131.040,M87.032,M156.101,M97.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M86.048,M114.079,M237.148,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M200.095,M758.675,M85.053,M100.064,0=4,"
+"[/Preset]"

@@ -1,0 +1,18 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Rescue Plus Mix (C)"
+"Preset_Notes=Rescue Plus Mix / Spooky Contact
+
+Estimated Time: Run this preset for 24:00 minutes.
+
+Rescue Plus Remedy contains: Cherry Plum - for fear of loosing control - both mentally & physically, Clematis - for the dreamy absent-minded- mental escape from reality, Impatiens - for the impatient person, Rock Rose - For terror & panic and Star Of Bethlehem - for shock of all kinds, White Chestnut - To help ease restless mind, Vitamin B5 & Vitamin B12
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Rescue Plus Mix (C)"
+"Loaded_Frequencies=463.06F4096C0,262.01F4096C0,415.26F4096C0,277.99F4096C0,276.57F4096C0,247.09F4096C0,M476.536F0C0,M1355.388F0C0,"
+"[/Preset]"

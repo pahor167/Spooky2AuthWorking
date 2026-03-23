@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Anaplasmosis (S)"
+"Preset_Notes=Anaplasmosis for Scalar
+
+Anaplasmosis is a tick-borne infectious disease caused by bacteria of the Anaplasma genus, such as Anaplasma phagocytophilum in humans and Anaplasma marginale in cattle, leading to symptoms like fever, chills, headache, muscle aches, and potentially severe complications if untreated. The identified therapeutic axes are: 1. Targeting bacterial surface proteins for immune response. 2. Inhibiting host cholesterol recruitment via flotillins. 3. Preventing bacterial-induced anti-apoptosis in neutrophils. 4. Disrupting bacterial exploitation of multivesicular body biogenesis. 5. Modulating ceramide-1-phosphate to prevent Golgi fragmentation. The polypeptides are assigned as follows: Peptide 1 targets axis 1, Peptide 2 targets axis 2, Peptide 3 targets axis 3, Peptide 4 targets axis 4, Peptide 5 targets axis 5. Mechanisms: Peptide 1 induces a balanced humoral and cellular immune response against bacterial surface proteins. Peptide 2 interferes with flotillin-mediated cholesterol recruitment to block bacterial infection. Peptide 3 promotes neutrophil apoptosis to limit bacterial survival. Peptide 4 disrupts multivesicular body pathways to inhibit bacterial proliferation. Peptide 5 modulates ceramide-1-phosphate signaling to maintain Golgi integrity and reduce bacterial exploitation.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Anaplasmosis p01"
+"Loaded_Programs=Anaplasmosis p02"
+"Loaded_Programs=Anaplasmosis p03"
+"Loaded_Programs=Anaplasmosis p04"
+"Loaded_Programs=Anaplasmosis p05"
+"Loaded_Frequencies=M87.032=1,M101.048,M87.032,M87.032,M128.058,M113.084,M57.021,M57.021,M57.021,M87.032,M87.032,M101.048,M87.032,M87.032,M128.058,M113.084,M57.021,M57.021,M57.021,M87.032,M87.032,M101.048,M87.032,M87.032,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M99.068,M101.048,M71.037,M71.037,M131.040,M57.021,M131.040,M113.084,M186.079,M87.032,M113.084,M128.095,M87.032,M113.084,M87.032,M71.037,M115.027,M113.084,M128.058,M131.040,M128.058,M101.048,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M131.040,M156.101,M97.053,M129.043,M113.084,M186.079,M113.084,M71.037,M128.058,M129.043,M113.084,M156.101,M156.101,M113.084,M57.021,M115.027,M129.043,M114.043,M71.037,M163.063,M163.063,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M87.032,M99.068,M99.068,M113.084,M128.095,M71.037,M128.095,M129.043,M147.068,M57.021,M113.084,M87.032,M115.027,M113.084,M101.048,M103.009,M57.021,M57.021,M71.037,M147.068,M87.032,M87.032,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M129.043,M147.068,M131.040,M156.101,M128.095,M57.021,M137.059,M114.043,M131.040,M99.068,M97.053,M147.068,M99.068,M147.068,M115.027,M147.068,M57.021,M137.059,M128.058,M114.043,M156.101,0=4,"
+"[/Preset]"

@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Vulvar Cancer (R)"
+"Preset_Notes=Vulvar Cancer for Remote
+
+Vulvar cancer, primarily squamous cell carcinoma, arises from HPV-associated pathways or chronic inflammatory conditions like lichen sclerosus, featuring immune dysregulation, persistent mucosal inflammation, impaired wound healing post-treatment, and treatment-related complications such as lymphedema and neuropathy. The proposed polypeptides draw from evidence in gynecological mucosal immunity, anticancer antimicrobial peptides, regenerative healing, and supportive tissue protection.
+
+1. Human cathelicidin antimicrobial and immunomodulatory activity: LL-37 exerts direct antitumor effects and supports innate defense in gynecological cancers.
+2. Stable gastric pentadecapeptide mucosal healing: BPC-157 accelerates repair of vulvar ulcers and surgical wounds.
+3. {alpha}-MSH-derived tripeptide inflammation suppression: KPV mitigates chronic inflammatory pathways in vulvar dermatoses and cancer-associated inflammation.
+4. Copper-binding tripeptide regenerative support: GHK-Cu promotes ECM remodeling and antioxidant protection in vulvar tissue.
+5. EPO-derived fragment innate repair activation: ARA-290 reduces inflammation and protects against treatment-related complications.
+6. Acetylated thymosin {beta}4 fragment re-epithelialization: TB-500 enhances cell migration and healing in post-surgical vulvar wounds.
+7. Engineered LL-37 core helical fragment for selective antitumor potency: Ac-FKRIVQRIKDFLR-NH2 (N-acetylated and amidated derivative) optimizes stability and cancer cell targeting based on cathelicidin motifs.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Vulvar Cancer p01"
+"Loaded_Programs=Vulvar Cancer p02"
+"Loaded_Programs=Vulvar Cancer p03"
+"Loaded_Programs=Vulvar Cancer p04"
+"Loaded_Programs=Vulvar Cancer p05"
+"Loaded_Programs=Vulvar Cancer p06"
+"Loaded_Programs=Vulvar Cancer p07"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"[/Preset]"

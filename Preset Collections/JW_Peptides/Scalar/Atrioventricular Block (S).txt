@@ -1,0 +1,60 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Atrioventricular Block (S)"
+"Preset_Notes=Atrioventricular Block for Scalar
+
+Atrioventricular block is a cardiac conduction disorder characterized by delayed or interrupted electrical impulses from the atria to the ventricles, often resulting in bradycardia, symptoms of low output, or need for pacing in advanced degrees. Peptide-based approaches target enhanced gap junction coupling, receptor-mediated conduction improvement, risk reduction in comorbid conditions, and direct chronotropic support.
+
+1. Gap junction enhancement: Rotigaptide - Modulates Cx43 to prevent uncoupling and improve conduction velocity in cardiac tissue
+2. Gap junction conductance increase: AAP10 - Enhances intercellular gap junction communication, serving as antiarrhythmic precursor
+3. GLP-1 receptor agonism: Semaglutide - Reduces incidence of complete atrioventricular block in high-risk patients
+4. GLP-1 receptor agonism: Liraglutide - Provides cardioprotection with potential benefits to conduction stability
+5. Dual GLP-1/GIP receptor agonism: Tirzepatide - Delivers advanced cardiovascular risk reduction including conduction-related events
+6. BNP receptor activation: BNP - Increases heart rate and atrioventricular electrical conduction
+7. CNP receptor activation: CNP - Stimulates ionic currents to enhance sinoatrial and atrial conduction
+8. Apelin receptor agonism: Apelin-13 - Ameliorates conduction disturbances in cardiac remodeling models
+9. Extended apelin receptor agonism: Apelin-17 - Offers prolonged apelinergic support for conduction improvement
+10. CGRP receptor activation: CGRP - Exerts positive chronotropic and conduction-facilitating effects
+11. ANP receptor activation: ANP - Reduces cardiac preload while supporting rhythm and conduction
+12. Engineered cationic gap junction variant: Designed-Cationic-AAP - Designed AAP analog with added cationic residues for enhanced penetration and conduction modulation
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Atrioventricular Block p01"
+"Loaded_Programs=Atrioventricular Block p02"
+"Loaded_Programs=Atrioventricular Block p03"
+"Loaded_Programs=Atrioventricular Block p04"
+"Loaded_Programs=Atrioventricular Block p05"
+"Loaded_Programs=Atrioventricular Block p06"
+"Loaded_Programs=Atrioventricular Block p07"
+"Loaded_Programs=Atrioventricular Block p08"
+"Loaded_Programs=Atrioventricular Block p09"
+"Loaded_Programs=Atrioventricular Block p10"
+"Loaded_Programs=Atrioventricular Block p11"
+"Loaded_Programs=Atrioventricular Block p12"
+"Loaded_Frequencies=M205.074=1,M97.053,M113.048,M57.021,M71.037,M56.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M57.021,M113.048,M97.053,M162.079,0=4,"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M113.084,M85.053,M113.084,M115.027,M128.095,M113.084,M128.058,M85.053,M71.037,M147.068,M99.068,M128.058,M186.079,M113.084,M113.084,M57.021,M97.053,M97.053,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M147.068,M156.101,M156.101,M128.058,M156.101,M97.053,M156.101,M113.084,M87.032,M137.059,M128.095,M57.021,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M99.032=1,M156.101,M57.021,M113.048,M97.053,M155.117,0=4,"
+"[/Preset]"

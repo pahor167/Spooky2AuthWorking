@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Vocal Cord Nodules, Cysts, Polyps (R)"
+"Preset_Notes=Vocal Cord Nodules, Cysts, Polyps for Remote
+
+Vocal cord nodules, cysts, and polyps are common benign phonotraumatic lesions of the vocal folds resulting from repetitive mechanical stress during voice use; pathogenesis centers on mucosal inflammation with cytokine release (IL-1{beta}, TNF-{alpha}, IL-6), oxidative stress from vibration-induced ROS accumulation, TGF-{beta}-driven fibrosis with excessive collagen deposition and reduced hyaluronan/elastin in the superficial lamina propria, impaired epithelial barrier repair, vascular fragility leading to hemorrhage (polyps), fibroblast hyperplasia (nodules), cyst formation from epithelial invagination, and deficient lubrication causing disrupted mucosal wave, glottal incompetence, and chronic hoarseness/voice fatigue. 
+
+1. Inflammation suppression: VocalLesionInflamPep - Suppresses NF-{kappa}B-driven pro-inflammatory cytokines (IL-1{beta}, TNF-{alpha}, IL-6) in vocal fold mucosa and fibroblasts to resolve phonotrauma-induced edema and inflammation. 
+2. Anti-fibrotic protection: VocalLesionFibroPep - Downregulates TGF-{beta}1/Smad signaling to inhibit myofibroblast activation and excessive collagen I deposition in the superficial lamina propria. 
+3. ECM remodeling and viscoelastic restoration: VocalLesionECMPep - Stimulates fibroblast production of hyaluronan and elastin while modulating MMP activity for optimal SLP matrix repair and mucosal wave pliability. 
+4. Antioxidant and cytoprotection: VocalLesionAntiOxPep - Targets mitochondrial ROS scavenging to protect vocal fold fibroblasts and epithelium from phonotrauma-induced oxidative damage and apoptosis. 
+5. Epithelial regeneration: VocalLesionEpiPep - Promotes keratinocyte proliferation, migration, and differentiation for rapid repair of mucosal epithelium over the lesions. 
+6. Angiogenesis and vascular repair: VocalLesionAngioPep - Upregulates VEGF to promote controlled neovascularization and resolution of hemorrhagic components in polyps. 
+7. Fibroblast modulation: VocalLesionFibroModPep - Regulates fibroblast proliferation and migration to prevent nodule hyperplasia while promoting controlled ECM synthesis. 
+8. Mucosal lubrication and protection: VocalLesionLubPep - Enhances glycosaminoglycan and mucus production for improved lubrication, reducing friction and preventing further phonotrauma.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Vocal Cord Nodules, Cysts, Polyps p01"
+"Loaded_Programs=Vocal Cord Nodules, Cysts, Polyps p02"
+"Loaded_Programs=Vocal Cord Nodules, Cysts, Polyps p03"
+"Loaded_Programs=Vocal Cord Nodules, Cysts, Polyps p04"
+"Loaded_Programs=Vocal Cord Nodules, Cysts, Polyps p05"
+"Loaded_Programs=Vocal Cord Nodules, Cysts, Polyps p06"
+"Loaded_Programs=Vocal Cord Nodules, Cysts, Polyps p07"
+"Loaded_Programs=Vocal Cord Nodules, Cysts, Polyps p08"
+"Loaded_Frequencies=M156.101=1,M128.095,M129.043,M113.084,M128.095,M128.095,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M87.032,M113.084,M115.027,M114.043,M114.043,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M57.021,M99.068,M57.021,M99.068,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M103.009=1,M131.040,M131.040,M87.032,M186.079,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.095,M97.053,M128.058,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M99.068,M97.053,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M57.021,M71.037,M57.021,M87.032,0=4,"
+"[/Preset]"

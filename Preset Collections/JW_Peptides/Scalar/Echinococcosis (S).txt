@@ -1,0 +1,63 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Echinococcosis (S)"
+"Preset_Notes=Echinococcosis for Scalar
+
+Echinococcosis is a neglected zoonotic parasitic disease caused by infection with larval stages (metacestodes) of Echinococcus tapeworms, predominantly Echinococcus granulosus sensu lato (causing cystic echinococcosis, CE) and Echinococcus multilocularis (causing alveolar echinococcosis, AE). Transmission occurs via fecal-oral route through ingestion of eggs from definitive hosts (canids), with humans as accidental intermediate hosts. Oncospheres hatch in the intestine, penetrate the wall, and migrate via blood/lymph to organs (primarily liver ~70%, lungs ~20%, occasionally brain, bone, or other sites), developing into fluid-filled cysts (CE) or infiltrative multivesicular lesions (AE). Symptoms arise from mechanical pressure, including abdominal/lung pain, jaundice, biliary obstruction, or cough/hemoptysis; cyst rupture risks anaphylaxis and secondary dissemination. AE behaves like a malignant tumor with endless peripheral proliferation, leading to organ failure if untreated. Pathophysiology features parasite immune evasion via laminated layer, host Th2-biased response in CE (tolerance), or chronic inflammation in AE, with fibrosis and angiogenesis supporting growth.
+
+Standard management includes surgery (cyst removal), percutaneous PAIR (puncture-aspiration-injection-reaspiration with scolicidal agents), long-term benzimidazoles (albendazole preferred) targeting parasite microtubules, or watch-and-wait for inactive CE cysts. Prevention relies on deworming dogs and EG95 vaccination in livestock (recombinant protein, not human-use peptide).
+
+The proposed 18 polypeptides are all conceptually designed (explicitly flagged as designed throughout), as extensive searches confirmed numerous experimental recombinant proteins (e.g., EG95, P29) and synthetic epitope peptides for animal vaccination or diagnosis but yielded no verifiable short polypeptide sequences with precise residue masses suitable for inclusion under strict rules; thus, 0 real-world polypeptides were used (documenting shortfall from min_real_polypeptides), supplemented entirely with designed ones to meet requirements. These address key axes: direct protoscolicidal membrane disruption (cationic AMP-like, including disulfide-cyclized for stability), induction of protective humoral immunity (epitope-mimicking with modified residues for enhanced antigenicity/stability), stimulation of cellular immune clearance, and interference with parasite receptor tyrosine kinase/growth signaling (phosphotyrosine motif mimics). Incorporation of non-standard residues and modifications aims to improve bioavailability, resistance to proteolysis, and targeted efficacy against parasite viability/growth while minimizing host toxicity.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Echinococcosis p01"
+"Loaded_Programs=Echinococcosis p02"
+"Loaded_Programs=Echinococcosis p03"
+"Loaded_Programs=Echinococcosis p04"
+"Loaded_Programs=Echinococcosis p05"
+"Loaded_Programs=Echinococcosis p06"
+"Loaded_Programs=Echinococcosis p07"
+"Loaded_Programs=Echinococcosis p08"
+"Loaded_Programs=Echinococcosis p09"
+"Loaded_Programs=Echinococcosis p10"
+"Loaded_Programs=Echinococcosis p11"
+"Loaded_Programs=Echinococcosis p12"
+"Loaded_Programs=Echinococcosis p13"
+"Loaded_Programs=Echinococcosis p14"
+"Loaded_Programs=Echinococcosis p15"
+"Loaded_Programs=Echinococcosis p16"
+"Loaded_Programs=Echinococcosis p17"
+"Loaded_Programs=Echinococcosis p18"
+"Loaded_Frequencies=M102.001=1,M128.095,M114.079,M128.095,M86.048,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M114.079,M128.095,M86.048,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M147.068,M114.079,M99.068,M86.048,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M114.079,M156.101,M86.048,M128.095,M114.079,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M128.095,M86.048,M156.101,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M128.095,M114.079,M113.084,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M341.239=1,M128.095,M114.079,M128.095,M86.048,M156.101,M147.068,M113.084,M114.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M114.079,M156.101,M86.048,M128.095,M114.079,M156.101,M86.048,M128.095,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M113.048,M71.037,M87.032,M101.048,M86.048,M57.021,M97.053,M113.048,M128.095,M114.079,M113.084,M127.074,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.048,M57.021,M86.048,M87.032,M101.048,M114.079,M99.068,M85.053,M97.053,M128.095,M113.084,M146.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M101.048,M113.048,M128.058,M86.048,M97.053,M57.021,M114.079,M71.037,M128.095,M113.048,M156.101,M113.084,M112.100,0=4,"
+"Loaded_Frequencies=M139.064=1,M57.021,M113.048,M128.095,M114.079,M101.048,M87.032,M86.048,M71.037,M128.058,M113.048,M99.068,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M114.079,M156.101,M128.095,M86.048,M156.101,M128.095,M114.079,M156.101,M128.095,M86.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M86.048,M156.101,M114.079,M128.095,M86.048,M156.101,M114.079,M128.095,0=4,"
+"Loaded_Frequencies=M150.954=1,M156.101,M86.048,M128.095,M150.954,M114.079,M86.048,M156.101,M150.954,0=4,"
+"Loaded_Frequencies=M129.043=1,M243.029,M86.048,M57.021,M115.027,M114.079,M243.029,M128.095,M113.048,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M114.079,M243.029,M86.048,M129.043,M113.048,M243.029,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M113.048,M243.029,M114.079,M115.027,M86.048,M243.029,M129.043,M156.101,0=4,"
+"[/Preset]"

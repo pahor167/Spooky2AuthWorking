@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Gastroparesis (S)"
+"Preset_Notes=Gastroparesis for Scalar
+
+Gastroparesis is characterized by delayed gastric emptying in the absence of mechanical obstruction, commonly associated with diabetic autonomic neuropathy, mucosal damage, inflammation, and impaired contractile function, resulting in nausea, vomiting, bloating, and malnutrition. The proposed polypeptides target mechanistic axes supported by preclinical studies, investigational trials of ghrelin/motilin mimetics, and evidence for neuroprotection and tissue healing in gastrointestinal disorders.
+
+1. Ghrelin receptor agonism for prokinetic stimulation: GHRP-6 accelerates gastric emptying and improves motility in diabetic gastroparesis models.
+2. Erythropoietin-derived neuroprotection: ARA-290 reduces diabetic neuropathy and supports nerve regeneration applicable to vagal dysfunction.
+3. Thymosin {beta}4-derived actin modulation: TB-500 promotes cell migration, anti-fibrosis, and tissue repair in gastric contexts.
+4. Stable gastric pentadecapeptide cytoprotection: BPC-157 protects gastric mucosa, supports integrity, and aids healing.
+5. Stabilized motilin N-terminal fragment for enhanced prokinetic targeting: Ac-FVPIFTYGELQR-NH2 is an engineered analog optimized for stability and motilin receptor-mediated phase III contractions.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Gastroparesis p01"
+"Loaded_Programs=Gastroparesis p02"
+"Loaded_Programs=Gastroparesis p03"
+"Loaded_Programs=Gastroparesis p04"
+"Loaded_Programs=Gastroparesis p05"
+"Loaded_Frequencies=M137.059=1,M186.079,M71.037,M186.079,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M97.053,M113.084,M147.068,M101.048,M163.063,M57.021,M129.043,M113.084,M128.058,M156.101,0=4,"
+"[/Preset]"

@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=For Over-sensitivity to influences and ideas (L)"
+"Preset_Notes=For Over-sensitivity to influences and ideas / Spooky Laser
+
+Estimated Time: Run this preset for 12:00 minutes.
+Agrimony - Mental torture behind a cheerful face. Centaury - The inability to say 'no'. Walnut - Protection from change and unwanted influences. Any changes in your life. Holly - Hatred, envy and jealousy.
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=For Over-sensitivity to influences and ideas (L)"
+"Loaded_Frequencies=310.31,384.68,261.26,479.48,"
+"[/Preset]"

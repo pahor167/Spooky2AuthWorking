@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Gluteal Tendinopathy (C)"
+"Preset_Notes=Gluteal Tendinopathy for Contact
+
+The peptides target multiple therapeutic axes for gluteal tendinopathy, including anti-inflammatory actions to reduce pain and swelling, promotion of tendon regeneration for tissue repair, pain management for symptom relief, anti-fibrotic properties to prevent scarring, antioxidant effects to mitigate oxidative stress, enhancement of angiogenesis for improved blood supply, and overall muscle and tendon support. The first 10 peptides are real-world with validated evidence from tendinopathy and tendon healing studies, while peptides 11 and 12 are designed to supplement coverage in antioxidant and regenerative axes, flagged as designed.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Gluteal Tendinopathy p01"
+"Loaded_Programs=Gluteal Tendinopathy p02"
+"Loaded_Programs=Gluteal Tendinopathy p03"
+"Loaded_Programs=Gluteal Tendinopathy p04"
+"Loaded_Programs=Gluteal Tendinopathy p05"
+"Loaded_Programs=Gluteal Tendinopathy p06"
+"Loaded_Programs=Gluteal Tendinopathy p07"
+"Loaded_Programs=Gluteal Tendinopathy p08"
+"Loaded_Programs=Gluteal Tendinopathy p09"
+"Loaded_Programs=Gluteal Tendinopathy p10"
+"Loaded_Programs=Gluteal Tendinopathy p11"
+"Loaded_Programs=Gluteal Tendinopathy p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M128.058,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M128.095,M163.063,M113.084,M115.027,M87.032,M156.101,M156.101,M71.037,M128.058,M115.027,M147.068,M99.068,M128.058,M186.079,M113.084,M114.043,M131.040,M114.043,M101.048,0=4,"
+"Loaded_Frequencies=M99.068=1,M57.021,M99.068,M71.037,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M113.048,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M156.101,M128.058,M99.068,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M156.101,M115.027,M129.043,M99.068,M87.032,M101.048,0=4,"
+"[/Preset]"

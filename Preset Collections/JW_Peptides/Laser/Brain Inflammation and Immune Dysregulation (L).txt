@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Brain Inflammation and Immune Dysregulation (L)"
+"Preset_Notes=Brain Inflammation and Immune Dysregulation for Laser
+
+Brain inflammation and immune dysregulation represent convergent pathologies involving microglial activation, blood-brain barrier compromise, neurotrophic factor depletion, and systemic inflammatory signaling. Therapeutic intervention requires modulation of cytokine networks, restoration of barrier integrity, promotion of neural repair, and regulation of innate and adaptive immune responses.
+
+1. Neuroprotection and Neurotrophic Support: Semax - Modulates NGF and BDNF expression in CNS, enhances cerebral circulation, regulates pro-inflammatory cytokine cascade
+2. Anxiolytic and Cytokine Modulation: Selank - Modulates IL-6 and TNF-alpha production, stabilizes stress-induced immune responses, inhibits enkephalinase activity
+3. Barrier Integrity and Tissue Repair: BPC-157 - Stabilizes blood-brain barrier integrity, modulates nitric oxide pathway, promotes neural and vascular tissue regeneration
+4. Immune System Modulation: Thymosin Alpha-1 (T{alpha}1) - Modulates TLR signaling pathways, promotes dendritic cell maturation, balances Th1/Th2 immune responses
+5. Regenerative Anti-Inflammation: Thymosin Beta-4 (TB4) - Sequesters actin to reduce inflammatory signaling, promotes cell migration and tissue repair, modulates integrin-mediated responses
+6. Melanocortin Anti-Inflammation: KPV - Modulates melanocortin receptors to suppress inflammation, reduces pro-inflammatory cytokine production, mitigates neuroinflammatory processes
+7. Innate Immune Defense: LL-37 - Provides broad-spectrum antimicrobial defense, modulates neutrophil extracellular trap formation, regulates adaptive immune cell recruitment
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Brain Inflammation and Immune Dysregulation p01"
+"Loaded_Programs=Brain Inflammation and Immune Dysregulation p02"
+"Loaded_Programs=Brain Inflammation and Immune Dysregulation p03"
+"Loaded_Programs=Brain Inflammation and Immune Dysregulation p04"
+"Loaded_Programs=Brain Inflammation and Immune Dysregulation p05"
+"Loaded_Programs=Brain Inflammation and Immune Dysregulation p06"
+"Loaded_Programs=Brain Inflammation and Immune Dysregulation p07"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"[/Preset]"

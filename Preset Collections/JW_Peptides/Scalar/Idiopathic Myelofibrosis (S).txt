@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Idiopathic Myelofibrosis (S)"
+"Preset_Notes=Idiopathic Myelofibrosis for Scalar
+
+Idiopathic myelofibrosis, now more commonly termed primary myelofibrosis (PMF), is a clonal myeloproliferative neoplasm originating from hematopoietic stem cells, characterized by progressive bone marrow fibrosis, extramedullary hematopoiesis (primarily in spleen and liver), cytopenias (especially anemia), splenomegaly, and constitutional symptoms including fatigue, night sweats, weight loss, pruritus, bone pain, and cachexia. Severe cases carry risk of leukemic transformation. Pathophysiology is driven by acquired driver mutations-JAK2 V617F (~60%), CALR exon 9 frameshifts (~25%), MPL (~10%)-with triple-negative cases involving other alterations; these converge on constitutive activation of JAK-STAT signaling, leading to megakaryocyte hyperplasia/dysplasia, excessive release of pro-fibrotic (TGF-{beta}, PDGF) and pro-inflammatory cytokines (IL-1, IL-6, CXCL8), stromal reactive changes with reticulin/collagen deposition, disrupted hematopoietic niche, ineffective erythropoiesis, and apoptosis resistance in clonal cells.
+
+The proposed polypeptides are all designed conceptual short sequences due to absence of verifiable short real-world polypeptides with standard residue chemistry directly targeting PMF in the searched literature and databases. Peptide 1 (designed) is a cationic arginine/lysine/phenylalanine-rich sequence conceptually optimized for cell penetration and interference with hyperactive JAK-STAT intracellular signaling. Peptide 2 (designed) is proline/glycine-rich to conceptually disrupt TGF-{beta}-mediated fibrogenesis and collagen assembly. Peptide 3 (designed) is glutamine/asparagine/serine/threonine-rich for conceptual immunomodulation of pro-inflammatory cytokine cascades. Peptide 4 (designed) is aromatic tyrosine/tryptophan/phenylalanine-rich to conceptually target anti-apoptotic protein interactions. Peptide 5 (designed) is histidine/lysine-rich to conceptually modulate megakaryocyte signaling and pH-sensitive processes. These diverse short designs prioritize synthetic accessibility, potential stability, and multimodal axis coverage; feasibility includes easy chemical synthesis and modification for delivery, though preclinical validation would be required.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Idiopathic Myelofibrosis p01"
+"Loaded_Programs=Idiopathic Myelofibrosis p02"
+"Loaded_Programs=Idiopathic Myelofibrosis p03"
+"Loaded_Programs=Idiopathic Myelofibrosis p04"
+"Loaded_Programs=Idiopathic Myelofibrosis p05"
+"Loaded_Frequencies=M156.101=1,M128.095,M128.095,M147.068,M156.101,M128.095,M128.095,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M128.058=1,M128.058,M114.043,M114.043,M87.032,M87.032,M101.048,M101.048,M128.058,M128.058,0=4,"
+"Loaded_Frequencies=M163.063=1,M186.079,M163.063,M147.068,M163.063,M186.079,M163.063,M147.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M128.095,M137.059,M128.095,M128.095,M137.059,M128.095,M128.095,0=4,"
+"[/Preset]"

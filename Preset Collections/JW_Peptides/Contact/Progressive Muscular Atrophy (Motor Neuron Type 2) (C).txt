@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Progressive Muscular Atrophy (Motor Neuron Type 2) (C)"
+"Preset_Notes=Progressive Muscular Atrophy (Motor Neuron Type 2) for Contact
+
+Progressive Muscular Atrophy (Motor Neuron Type 2), also known as Spinal Muscular Atrophy Type 2 (SMA Type 2), is an autosomal recessive genetic disorder caused by homozygous deletions or mutations in the survival motor neuron 1 (SMN1) gene on chromosome 5q13, leading to insufficient production of the SMN protein essential for motor neuron survival. This results in progressive degeneration of lower motor neurons in the spinal cord and brainstem, manifesting as symmetrical proximal muscle weakness, hypotonia, and atrophy, typically onsetting between 6 and 18 months of age. Affected individuals can usually sit unassisted but cannot stand or walk independently, and the disease progresses to involve respiratory muscles, leading to frequent infections, scoliosis, joint contractures, and feeding difficulties due to bulbar involvement. The pathophysiology involves disrupted snRNP assembly, impaired RNA splicing, axonal transport defects, neuromuscular junction instability, and non-cell autonomous contributions from skeletal muscle and other tissues, with severity modified by the number of SMN2 gene copies, which produce limited functional SMN protein due to exon 7 skipping.
+
+The proposed polypeptides target key therapeutic axes: neuroprotection to preserve motor neurons, anti-atrophy mechanisms to maintain muscle mass, and enhanced delivery to improve CNS penetration. PACAP-27 provides neuroprotection by activating cAMP-dependent pathways, inhibiting apoptosis, and promoting neuronal survival in SMA models. The Vicia faba anti-atrophy peptide stimulates protein synthesis through rpS6 phosphorylation while reducing atrophy-related gene expression, addressing muscle wasting in SMA. The (RXRRBR)2XB cell-penetrating peptide facilitates systemic delivery of therapeutics across the blood-brain barrier, increasing SMN levels in CNS and peripheral tissues in preclinical SMA studies. The designed cyclic neuroprotective peptide, flagged as designed and derived from PACAP motifs with head-to-tail cyclization for enhanced stability, aims to prolong anti-apoptotic effects in motor neurons. The designed anti-atrophy variant, flagged as designed and based on Vicia faba motifs with substitutions and C-amidation for improved bioavailability, rationally enhances rpS6 activation across concentrations. The designed disulfide cyclic cell-penetrating peptide, flagged as designed and based on arginine-rich motifs with cysteine disulfide bridges for cyclization, improves therapeutic cargo delivery with better serum stability, drawing from literature on CPP optimization for neuromuscular diseases.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Progressive Muscular Atrophy (Motor Neuron Type 2) p01"
+"Loaded_Programs=Progressive Muscular Atrophy (Motor Neuron Type 2) p02"
+"Loaded_Programs=Progressive Muscular Atrophy (Motor Neuron Type 2) p03"
+"Loaded_Programs=Progressive Muscular Atrophy (Motor Neuron Type 2) p04"
+"Loaded_Programs=Progressive Muscular Atrophy (Motor Neuron Type 2) p05"
+"Loaded_Programs=Progressive Muscular Atrophy (Motor Neuron Type 2) p06"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M101.048,M128.095,M163.063,M128.095,M128.095,M128.095,M147.063,M71.037,M99.068,M128.095,M128.095,M163.063,M71.037,M71.037,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M113.084,M97.053,M87.032,M163.063,M87.032,M97.053,M87.032,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M156.101,M156.101,M71.037,M156.101,M156.101,M113.084,M156.101,M156.101,M71.037,M156.101,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M97.053,M128.095,M163.063,M101.048,M97.053,M128.095,M71.037,M155.117,0=4,"
+"Loaded_Frequencies=M101.001=1,M156.101,M156.101,M156.101,M156.101,M101.001,0=4,"
+"[/Preset]"

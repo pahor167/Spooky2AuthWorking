@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Testicular Torsion (Coil)"
+"Preset_Notes=Testicular Torsion for Coil
+
+Testicular torsion is a urological emergency characterized by twisting of the spermatic cord, leading to ischemia and potential necrosis of the testis if untreated. Peptide interventions target ischemia-reperfusion injury, oxidative stress, inflammation, hormonal disruption, and pain to preserve testicular function and fertility.
+
+1. Mast Cell Modulation: VIP - Provides antioxidant and anti-inflammatory protection while altering mast cell activity to mitigate detorsion injury.
+2. GLP-1 Receptor Agonism: Semaglutide - Attenuates testicular dysfunction by modulating the GLP-1-PPAR-{alpha}-Kisspeptin-Steroidogenesis pathway to reduce inflammation and apoptosis.
+3. Oxidative Stress and Inflammation Reduction: Phoenixin-14 - Decreases MDA levels, increases SOD, and lowers TNF-{alpha} and IL-6 to ameliorate torsion-detorsion damage.
+4. Hormonal Protection: Kisspeptin-10 - Modulates ischemia-reperfusion injury to support steroidogenesis and testicular recovery.
+5. Leydig Cell Targeting: LCHP1 - Enables specific homing to Leydig cells for targeted therapeutic delivery in testicular disorders.
+6. ROS Neutralization: Carnosine - Scavenges reactive oxygen species generated during reperfusion to protect cellular integrity.
+7. Mitochondrial Stabilization: MOTS-c - Enhances metabolic regulation and protects against ischemic stress in testicular tissue.
+8. Inflammatory Resolution: Annexin_A1_Ac2-26 - Promotes resolution of inflammation by activating pro-resolving pathways.
+9. Vasodilation Enhancement: Adrenomedullin - Improves renal and testicular perfusion while providing cytoprotection during reperfusion.
+10. Natriuretic Decongestion: ANP - Reduces venous pressure and manages fluid balance to alleviate ischemia-related hypertension.
+11. Sympathetic Modulation: Catestatin - Suppresses excessive catecholamine release to mitigate pain and vascular tone dysregulation.
+12. Chronic Pain Suppression: Salmon-Calcitonin - Inhibits nociceptive signaling for sustained relief from torsion-associated pain.
+13. Nrf2 Pathway Activation: Nrf2-Activating Peptide - Stimulates Nrf2 to induce antioxidant responses and counteract oxidative damage in reperfusion injury.
+
+"
+"Loaded_Programs=Testicular Torsion p01"
+"Loaded_Programs=Testicular Torsion p02"
+"Loaded_Programs=Testicular Torsion p03"
+"Loaded_Programs=Testicular Torsion p04"
+"Loaded_Programs=Testicular Torsion p05"
+"Loaded_Programs=Testicular Torsion p06"
+"Loaded_Programs=Testicular Torsion p07"
+"Loaded_Programs=Testicular Torsion p08"
+"Loaded_Programs=Testicular Torsion p09"
+"Loaded_Programs=Testicular Torsion p10"
+"Loaded_Programs=Testicular Torsion p11"
+"Loaded_Programs=Testicular Torsion p12"
+"Loaded_Programs=Testicular Torsion p13"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M115.027=1,M99.068,M128.058,M97.053,M97.053,M57.021,M113.084,M128.095,M99.068,M186.079,M87.032,M115.027,M97.053,M146.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M57.021,M71.037,M114.043,M87.032,M113.084,M57.021,M113.084,M99.068,M128.058,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M114.043,M113.084,M87.032,M101.048,M102.001,M99.068,M113.084,M57.021,M128.095,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M128.095,M113.084,M128.058,M101.048,M163.063,M97.053,M156.101,M101.048,M114.043,M101.048,M57.021,M87.032,M114.043,M101.048,M96.069,0=4,"
+"Loaded_Frequencies=M113.084=1,M115.027,M129.043,M129.043,M101.048,M57.021,M129.043,M147.068,M112.10,0=4,"
+"[/Preset]"

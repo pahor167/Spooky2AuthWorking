@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Thyroid Balance (Stabilise) (R)"
+"Preset_Notes=Thyroid Balance (Stabilise) for Remote
+
+Thyroid balance (stabilise) involves precise regulation of thyroid hormone production, conversion, and signaling to achieve and maintain euthyroid homeostasis, countering dysregulation in the HPT axis, autoimmune thyroiditis, impaired peripheral conversion, oxidative damage during hormonogenesis, and gut-derived triggers of autoimmunity.
+
+1. TRH-TSH axis modulation: TRH - Stimulates pituitary TSH release to normalize thyroid hormone output and HPT axis feedback for balance in hypothyroid or imbalanced states.
+2. TSH receptor tolerance: TSHR-Des1 - Arginine-rich peptide designed to promote regulatory T-cell induction and tolerance to TSH receptor epitopes, suppressing autoantibody-mediated hyperthyroidism in Graves' disease.
+3. Thyroglobulin antigen blockade: TG-Des2 - Lysine-glycine alternating peptide optimized to interfere with thyroglobulin peptide presentation on MHC, reducing T-cell activation in Hashimoto's thyroiditis.
+4. Oxidative protection: Ox-Des3 - Methionine-cysteine alternating peptide engineered to bolster antioxidant defenses and protect thyrocytes from hydrogen peroxide and ROS-induced damage during hormone synthesis.
+5. Deiodinase enhancement: Deio-Des4 - Isoleucine-leucine-valine repeat peptide designed to stabilize type 2 deiodinase enzyme structure and activity for efficient T4 to T3 conversion in peripheral tissues.
+6. Thyroid receptor beta mimicry: TRB-Des5 - Tyrosine-phenylalanine alternating peptide to selectively modulate TR{beta} signaling for metabolic benefits without cardiac side effects of excess thyroid hormone.
+7. Thyroid inflammation modulation: Inf-Des6 - Tryptophan-arginine alternating peptide designed to inhibit pro-inflammatory cytokine signaling and reduce lymphocytic infiltration in autoimmune thyroiditis.
+8. Iodide uptake optimization: NIS-Des7 - Glycine-proline repeat peptide to enhance sodium-iodide symporter expression and function for improved iodide trapping and thyroid hormone synthesis.
+9. Mitochondrial optimization: Mito-Des8 - Histidine homopeptide engineered to support mitochondrial membrane potential and ATP production in energy-demanding thyroid follicular cells.
+10. Gut-thyroid axis support: Gut-Des9 - Glutamine homopeptide to reinforce intestinal barrier integrity, reducing systemic endotoxemia and molecular mimicry that triggers thyroid autoimmunity.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Thyroid Balance (Stabilise) p01"
+"Loaded_Programs=Thyroid Balance (Stabilise) p02"
+"Loaded_Programs=Thyroid Balance (Stabilise) p03"
+"Loaded_Programs=Thyroid Balance (Stabilise) p04"
+"Loaded_Programs=Thyroid Balance (Stabilise) p05"
+"Loaded_Programs=Thyroid Balance (Stabilise) p06"
+"Loaded_Programs=Thyroid Balance (Stabilise) p07"
+"Loaded_Programs=Thyroid Balance (Stabilise) p08"
+"Loaded_Programs=Thyroid Balance (Stabilise) p09"
+"Loaded_Programs=Thyroid Balance (Stabilise) p10"
+"Loaded_Frequencies=M111.032=1,M137.059,M96.069,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M57.021,M115.027,M156.101,M156.101,M156.101,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M128.095=1,M57.021,M128.095,M57.021,M128.095,M57.021,M128.095,M57.021,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M131.040=1,M103.009,M131.040,M103.009,M131.040,M103.009,M131.040,M103.009,M131.040,M103.009,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M99.068,M113.084,M113.084,M99.068,M113.084,M113.084,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,0=4,"
+"Loaded_Frequencies=M186.079=1,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,0=4,"
+"Loaded_Frequencies=M128.058=1,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,0=4,"
+"[/Preset]"

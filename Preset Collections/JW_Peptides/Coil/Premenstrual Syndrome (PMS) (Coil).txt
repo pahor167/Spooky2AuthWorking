@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Premenstrual Syndrome (PMS) (Coil)"
+"Preset_Notes=Premenstrual Syndrome (PMS) for Coil
+
+Premenstrual Syndrome (PMS) is a common condition affecting many women in their reproductive years, characterized by a recurring pattern of physical, emotional, and behavioral symptoms that occur during the luteal phase of the menstrual cycle and resolve after menstruation begins; symptoms may include mood swings, irritability, bloating, breast tenderness, fatigue, and anxiety. 
+
+The polypeptides address key therapeutic axes for PMS, including hormonal modulation to stabilize ovarian steroid fluctuations, GABA modulation to enhance inhibitory neurotransmission and reduce anxiety, serotonergic modulation to improve mood regulation, HPA axis regulation to mitigate stress responses, neuroinflammation reduction to alleviate inflammatory contributions to symptoms, immune-inflammatory modulation to balance cytokine activity, mood stabilization to counteract emotional lability, anti-inflammatory effects for physical symptoms like pain and bloating, stress response modulation to normalize cortisol dynamics, and behavioral symptom relief to address irritability and fatigue. Real-world polypeptides are prioritized for hormonal, mood, stress, and pain axes based on verifiable literature; designed polypeptides (flagged) supplement to ensure full coverage, incorporating non-standard residues for enhanced specificity, stability, and penetration, with cyclic structures in some for improved pharmacokinetics; feasibility grounded in peptide therapeutics for endocrine and neurological conditions, with considerations for solubility, charge balance, and topical or systemic administration.
+
+"
+"Loaded_Programs=Premenstrual Syndrome (PMS) p01"
+"Loaded_Programs=Premenstrual Syndrome (PMS) p02"
+"Loaded_Programs=Premenstrual Syndrome (PMS) p03"
+"Loaded_Programs=Premenstrual Syndrome (PMS) p04"
+"Loaded_Programs=Premenstrual Syndrome (PMS) p05"
+"Loaded_Programs=Premenstrual Syndrome (PMS) p06"
+"Loaded_Programs=Premenstrual Syndrome (PMS) p07"
+"Loaded_Programs=Premenstrual Syndrome (PMS) p08"
+"Loaded_Programs=Premenstrual Syndrome (PMS) p09"
+"Loaded_Programs=Premenstrual Syndrome (PMS) p10"
+"Loaded_Programs=Premenstrual Syndrome (PMS) p11"
+"Loaded_Programs=Premenstrual Syndrome (PMS) p12"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,M101.048,M87.032,M129.043,M128.095,M87.032,M128.058,M101.048,M97.053,M113.084,M99.068,M101.048,M113.084,M147.068,M128.095,M114.043,M71.037,M113.084,M113.084,M128.095,M114.043,M71.037,M163.063,M128.095,M128.095,M57.021,M129.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M113.048=1,M114.079,M128.095,M156.101,M85.064,0=4,"
+"Loaded_Frequencies=M237.148=1,M200.095,M163.063,M87.032,M149.970,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M128.095,M114.079,M101.017,0=4,"
+"Loaded_Frequencies=M86.048=1,M100.064,M86.048,M85.053,M112.064,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M128.095,M156.101,M236.164,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M113.084,M85.053,M101.017,0=4,"
+"Loaded_Frequencies=M113.048=1,M150.954,M758.675,M100.064,M85.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M100.064,M99.068,M200.095,M101.017,0=4,"
+"[/Preset]"

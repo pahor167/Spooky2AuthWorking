@@ -1,0 +1,24 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Rescue Plus Mix (P)"
+"Preset_Notes=Rescue Plus Mix / Spooky Plasma
+
+Estimated Time: Run this preset for 24:00 minutes.
+
+Rescue Plus Remedy contains: Cherry Plum - for fear of loosing control - both mentally & physically, Clematis - for the dreamy absent-minded- mental escape from reality, Impatiens - for the impatient person, Rock Rose - For terror & panic and Star Of Bethlehem - for shock of all kinds, White Chestnut - To help ease restless mind, Vitamin B5 & Vitamin B12
+
+Connect Out 1 to Input. Connect Out 2 to Modulation.
+"
+"Loaded_Programs=Rescue Plus Mix (P)"
+"Loaded_Frequencies=463.06,262.01,415.26,277.99,276.57,247.09,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Rescue Plus Mix (P) High"
+"Loaded_Programs=Rescue Plus Mix (P)"
+"Loaded_Frequencies=M476.536,M1355.388,"
+"[/Preset]"

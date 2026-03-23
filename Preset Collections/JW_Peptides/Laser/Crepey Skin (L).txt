@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Crepey Skin (L)"
+"Preset_Notes=Crepey Skin for Laser
+
+Crepey skin is a common aging-related condition characterized by thin, fragile, wrinkled, and lax appearance, primarily due to collagen and elastin loss, reduced skin thickness, elasticity, hydration, and cumulative damage. Targeted searches across PubMed and cosmetic literature identified GHK-Cu with clinical evidence for increasing skin thickness/firmness, Pal-KTTKS (Matrixyl) for collagen stimulation, Argireline and Snap-8 for expression line reduction; selected these specialized topical peptides as primary, with supportive gap-fillers for comprehensive repair/inflammation axes where no additional short specialized options exist.
+
+1. Copper-dependent skin thickening and remodeling: GHK-Cu
+2. Signal peptide-mediated collagen and matrix synthesis: Pal-KTTKS (Matrixyl)
+3. Neurotransmitter inhibition to relax expression lines: Argireline
+4. Enhanced neurotransmitter inhibition for deeper wrinkle control: Snap-8
+5. Anti-inflammatory protection against damage: KPV
+6. Angiogenesis and epithelial barrier restoration: BPC-157
+7. Keratinocyte/fibroblast migration enhancement: TB-500
+8. Tissue protection and repair signaling: ARA-290
+9. Optimized short signal motif for stability and collagen boost: Matrixyl-Eng (designed, Ac-KTTKS-NH2; acetylated/amidated variant of Matrixyl core for improved delivery)
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Crepey Skin p01"
+"Loaded_Programs=Crepey Skin p02"
+"Loaded_Programs=Crepey Skin p03"
+"Loaded_Programs=Crepey Skin p04"
+"Loaded_Programs=Crepey Skin p05"
+"Loaded_Programs=Crepey Skin p06"
+"Loaded_Programs=Crepey Skin p07"
+"Loaded_Programs=Crepey Skin p08"
+"Loaded_Programs=Crepey Skin p09"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M366.325=1,M101.048,M101.048,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M156.101,M71.037,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M170.106=1,M101.048,M101.048,M128.095,M86.048,0=4,"
+"[/Preset]"

@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Branch Retinal Artery Occlusion (L)"
+"Preset_Notes=Branch Retinal Artery Occlusion for Laser
+
+Branch Retinal Artery Occlusion (BRAO) is a vascular emergency causing acute retinal ischemia in a branch retinal artery territory, leading to sudden sectoral visual field loss, potential macular involvement, inflammation, and risk of neovascularization. This design incorporates four documented real peptides with relevance to retinal ischemia protection and vascular control, plus four engineered peptides for comprehensive coverage across eight non-overlapping therapeutic axes.
+
+1. Tissue repair: BPC-157 - Promotes healing and cytoprotection in retinal ischemia
+2. Neuroprotection: PACAP - Protects retinal cells from ischemic damage
+3. Anti-apoptotic: Met12 - Inhibits Fas-mediated apoptosis in retina
+4. Vasodilation: Bradykinin - Vasodilator peptide enhancing retinal blood flow
+5. Anti-inflammatory: InflaMod-15 - Suppresses pro-inflammatory cytokines in retinal inflammation
+6. Antioxidant: OxPep-10 - Modulates oxidative stress in ischemic retina
+7. Immune modulation: ImmunoMod-14 - Balances innate immune response to prevent secondary damage
+8. Vascular stabilization: VascStab-13 - Enhances vascular integrity to reduce occlusion risk
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Branch Retinal Artery Occlusion p01"
+"Loaded_Programs=Branch Retinal Artery Occlusion p02"
+"Loaded_Programs=Branch Retinal Artery Occlusion p03"
+"Loaded_Programs=Branch Retinal Artery Occlusion p04"
+"Loaded_Programs=Branch Retinal Artery Occlusion p05"
+"Loaded_Programs=Branch Retinal Artery Occlusion p06"
+"Loaded_Programs=Branch Retinal Artery Occlusion p07"
+"Loaded_Programs=Branch Retinal Artery Occlusion p08"
+"Loaded_Frequencies=M57.021=1,129.043,97.053,97.053,97.053,57.021,128.095,97.053,71.037,115.027,115.027,71.037,57.021,113.084,99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,87.032,115.027,57.021,113.084,147.068,101.048,115.027,87.032,163.063,87.032,156.101,163.063,156.101,128.095,128.058,131.040,71.037,99.068,128.095,128.095,163.063,113.084,71.037,71.037,99.068,113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,137.059,113.084,163.063,113.084,57.021,71.037,99.068,114.043,163.063,113.084,163.063,0=4,"
+"Loaded_Frequencies=M156.101=1,97.053,97.053,57.021,147.068,87.032,97.053,147.068,156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,115.027,128.058,156.101,147.068,57.021,137.059,87.032,128.095,131.040,114.043,97.053,129.043,113.084,113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,97.053,128.095,57.021,115.027,156.101,57.021,137.059,87.032,101.048,0=4,"
+"Loaded_Frequencies=M103.009=1,114.043,97.053,101.048,129.043,113.084,128.058,115.027,147.068,57.021,156.101,87.032,128.095,131.040,0=4,"
+"Loaded_Frequencies=M87.032=1,129.043,156.101,128.095,97.053,113.084,71.037,99.068,101.048,163.063,137.059,57.021,115.027,0=4,"
+"[/Preset]"

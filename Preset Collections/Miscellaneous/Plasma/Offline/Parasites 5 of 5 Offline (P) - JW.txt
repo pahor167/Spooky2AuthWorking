@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\GX Online or Offline General (P) - JW"
+"PresetName=Parasites 5 of 5 Offline (P) - JW"
+"Preset_Notes=This is an Offline Plasma preset. Once loaded into GeneratorX, a computer is no longer needed.
+
+Part 5 of 5.
+
+Independent lab results have verified the effectiveness of this set of Presets, with a full reduction of parasite burden in 2 patients after cycling through several times.
+
+Each parasite killing preset should be run for two consecutive nights before advancing to the next stage. After the 10th night, repeat the entire cycle if necessary.
+
+Place the plasma tube near to, or touching, your body. 
+Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Spooky Plasma Input. Out 2 to Spooky Plasma Modulation."
+"Dwell_Multiplier=3"
+"Loaded_Programs=Parasites Strongyloides Secondary (CAFL)"
+"Loaded_Programs=Parasites Strongyloides (CAFL)"
+"Loaded_Programs=Parasites Threadworm (XTRA)"
+"Loaded_Programs=Strongyloides (BIO)"
+"Loaded_Programs=Strongyloidiasis (KHZ)"
+"Loaded_Frequencies=380=180,698=180,722=180,738=180,746=180,752=180,776=180,1113=180,"
+"Loaded_Frequencies=332=180,422=180,721=180,732=180,749=180,942=180,3212=180,4412=180,"
+"Loaded_Frequencies=680=180,900=180,2500=180,5500=180,13930=180,93500=180,386400=180,398400=180,402000=180,400000=180,"
+"Loaded_Frequencies=332=180,422=180,721=180,942=180,3212=180,"
+"Loaded_Frequencies=60=180,250=180,950=180,65170=180,92500=180,210500=180,525710=180,650000=180,759830=180,912330=180,"
+"[/Preset]"

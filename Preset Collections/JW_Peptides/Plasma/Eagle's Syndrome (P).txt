@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Eagle’s Syndrome (P)"
+"Preset_Notes=Eagle’s Syndrome for Plasma
+
+Eagle's Syndrome (Elongated Styloid Process or Calcified Stylohyoid Ligament)
+
+Eagle's syndrome is a rare condition causing recurrent throat and facial pain, dysphagia, and foreign body sensation due to an elongated styloid process or calcified stylohyoid ligament irritating cranial nerves (primarily glossopharyngeal) and surrounding tissues, resulting in chronic inflammation, neuropathic pain, and potential further mineralization.
+
+1. Calcification inhibition and analgesia: Salmon-Calcitonin - Potent inhibitor of osteoclast-mediated mineralization with established analgesic effects in bone and ectopic calcification pain
+2. Inflammation resolution: Annexin_A1_Ac2-26 - Acetylated N-terminal peptide promoting resolution-phase anti-inflammatory pathways in irritated peristyloid tissues
+3. Tissue repair and remodeling: Thymosin_beta_4 - Actin-binding peptide enhancing migration, angiogenesis, and anti-fibrotic healing of mucosal and ligament structures
+4. Neuroprotection and pain modulation: Semax - Synthetic ACTH analog improving neural resilience and providing analgesic/nootropic effects in chronic pain states
+5. Anxiety-related pain reduction: Selank - Tuftsin-derived peptide with anxiolytic properties to attenuate stress-amplified pain perception
+6. Somatostatin-like pain/inflammation control: Cortistatin - Neuropeptide inhibiting inflammatory mediators and modulating central pain pathways
+7. Autonomic pain modulation: Catestatin - Chromogranin A fragment regulating catecholamine release and sympathetic contributions to pain
+8. Mitochondrial neural support: MOTS-c - Mitochondrial-derived peptide optimizing energy metabolism and protecting irritated nerves
+9. Neuroregenerative tripeptide: Pinealon - Short peptide targeting brain and neural repair mechanisms relevant to chronic irritation
+10. CNS stabilization: Cortagen - Tetrapeptide supporting central nervous system homeostasis and recovery from neuropathic stress
+11. Direct calcium chelation: PolyAsp12 - Designed poly-aspartate dodecapeptide that binds free calcium to prevent hydroxyapatite deposition in stylohyoid structures
+12. Amphipathic local resolution: HelixEagle-1 - Designed cationic helical peptide binding inflamed surfaces to promote anti-inflammatory effects and nerve desensitization
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Eagle’s Syndrome p01"
+"Loaded_Programs=Eagle’s Syndrome p02"
+"Loaded_Programs=Eagle’s Syndrome p03"
+"Loaded_Programs=Eagle’s Syndrome p04"
+"Loaded_Programs=Eagle’s Syndrome p05"
+"Loaded_Programs=Eagle’s Syndrome p06"
+"Loaded_Programs=Eagle’s Syndrome p07"
+"Loaded_Programs=Eagle’s Syndrome p08"
+"Loaded_Programs=Eagle’s Syndrome p09"
+"Loaded_Programs=Eagle’s Syndrome p10"
+"Loaded_Programs=Eagle’s Syndrome p11"
+"Loaded_Programs=Eagle’s Syndrome p12"
+"Loaded_Frequencies=M102.001=1,M87.032,M114.043,M113.084,M87.032,M101.048,M102.001,M99.068,M113.084,M57.021,M128.095,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M128.095,M113.084,M128.058,M101.048,M163.063,M97.053,M156.101,M101.048,M114.043,M101.048,M57.021,M87.032,M114.043,M101.048,M96.069,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M101.048,M115.027,M97.053,0=4,"
+"Loaded_Frequencies=M115.027=1,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M113.084,M113.084,M113.084,M113.084,M128.095,M113.084,M128.095,0=4,"
+"[/Preset]"

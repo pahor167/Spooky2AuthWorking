@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Diphyllobothriasis (R)"
+"Preset_Notes=Diphyllobothriasis for Remote
+
+Diphyllobothriasis is a zoonotic parasitic infection caused by tapeworms of the genus Diphyllobothrium, primarily Diphyllobothrium latum (the broad or fish tapeworm), but also other species such as D. nihonkaiense, D. pacificum, and D. dendriticum. The infection is acquired through the consumption of raw or undercooked freshwater fish containing viable plerocercoid larvae. Once ingested, the larvae attach to the mucosa of the small intestine, where they mature into adult tapeworms that can grow up to 10-15 meters in length over several weeks. The adult worm has a scolex with two longitudinal grooves (bothria) for attachment, and a segmented body (strobila) consisting of proglottids that produce eggs, which are released in feces to continue the life cycle involving copepods as first intermediate hosts and fish as second. Symptoms are often mild or absent, but can include abdominal pain, diarrhea, nausea, vomiting, fatigue, weight loss, and malabsorption due to mechanical interference with intestinal function. A hallmark complication is vitamin B12 deficiency, as the tapeworm competes for B12 absorption in the ileum, potentially leading to megaloblastic anemia, neurological symptoms like peripheral neuropathy, subacute combined degeneration of the spinal cord, and cognitive impairments if untreated. Pathophysiology involves host-parasite interactions, including the worm's absorption of nutrients, release of toxins or antigens triggering immune responses, and occasional eosinophilia or allergic reactions. Risk factors include consumption of raw fish dishes like sushi, sashimi, or ceviche in endemic areas such as Northern Europe, Japan, North America, and parts of Asia and South America. Diagnosis is typically by identification of characteristic operculated eggs or proglottids in stool, with serological or molecular methods for confirmation. Prevention focuses on cooking fish to 63 C or freezing at -20 C for 7 days.
+The proposed polypeptides address diphyllobothriasis through multiple therapeutic axes, including membrane disruption, cuticle wear, ion channel modulation, metabolic inhibition, neuromuscular disruption, protease inhibition, neuropeptide modulation, immune stimulation, attachment inhibition, reproduction inhibition, barrier enhancement, anti-inflammatory effects, secondary infection prevention, and life cycle interruption. Real-world polypeptides like Temporin A and Iseganan IB-367 target the parasite's tegumentary membrane, causing vesicle formation, extrusion of tissues, loss of motility, and reduced evagination, facilitating expulsion. Cyclotides such as Kalata B1 and Kalata B2 exert anthelmintic effects by stabilizing or disrupting ion channels and membranes, interfering with parasite physiology. Ponericins from ant venoms, including M-PONTX-Na1b, Nc1a, Nc2a, Nc3a, Nc3b, Ponericin-G1, Ponericin-W1, and Ponericin-L1, provide broad antiparasitic activity by targeting membrane integrity, neuromuscular systems, and defensive mechanisms, potentially modulating host-parasite interactions. RcAlb-PepIII induces cuticle wear, reducing surface roughness and increasing adhesion or stiffness, hindering parasite development. Cycloviolacin O1 supports secondary infection prevention through antimicrobial action. These polypeptides are feasible for oral or topical delivery, with physicochemical properties like hydrophobicity and charge facilitating membrane interaction, and low toxicity in mammalian cells at therapeutic doses. Designed polypeptides (flagged as designed) are conceptual constructs to supplement coverage, with D1 focusing on enhanced membrane disruption via cationic residues, D2 on protease inhibition through specific motifs, D3 on neuropeptide mimicry to disrupt parasite signaling, and D4 on immune stimulation by mimicking cytokine domains. Feasibility includes synthesis via solid-phase peptide synthesis, stability in GI tract via cyclization or modifications, and potential for encapsulation to improve bioavailability. Modes of action involve amphipathic alpha-helices for pore formation, enzyme binding for inhibition, and receptor interaction for modulation, with considerations for pH stability, solubility, and half-life in vivo.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Diphyllobothriasis p01"
+"Loaded_Programs=Diphyllobothriasis p02"
+"Loaded_Programs=Diphyllobothriasis p03"
+"Loaded_Programs=Diphyllobothriasis p04"
+"Loaded_Programs=Diphyllobothriasis p05"
+"Loaded_Programs=Diphyllobothriasis p06"
+"Loaded_Programs=Diphyllobothriasis p07"
+"Loaded_Programs=Diphyllobothriasis p08"
+"Loaded_Programs=Diphyllobothriasis p09"
+"Loaded_Programs=Diphyllobothriasis p10"
+"Loaded_Programs=Diphyllobothriasis p11"
+"Loaded_Programs=Diphyllobothriasis p12"
+"Loaded_Programs=Diphyllobothriasis p13"
+"Loaded_Programs=Diphyllobothriasis p14"
+"Loaded_Programs=Diphyllobothriasis p15"
+"Loaded_Programs=Diphyllobothriasis p16"
+"Loaded_Programs=Diphyllobothriasis p17"
+"Loaded_Programs=Diphyllobothriasis p18"
+"Loaded_Frequencies=M147.068=1,M113.084,M97.053,M113.084,M113.084,M57.021,M156.101,M99.068,M113.084,M87.032,M57.021,M113.084,M112.100,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M113.084,M102.001,M163.063,M102.001,M156.101,M57.021,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M155.117,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M113.084,M113.084,M97.053,M101.048,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M97.053,M99.068,M102.001,M57.021,M129.043,M101.048,M102.001,M99.068,M57.021,M57.021,M101.048,M102.001,M114.043,M101.048,M97.053,M57.021,M101.048,M102.001,M101.048,M186.079,M97.053,M99.068,M102.001,M101.048,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M97.053,M99.068,M102.001,M57.021,M129.043,M101.048,M102.001,M147.068,M57.021,M57.021,M101.048,M102.001,M114.043,M101.048,M97.053,M57.021,M101.048,M102.001,M101.048,M186.079,M97.053,M113.084,M102.001,M101.048,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M57.021,M71.037,M113.084,M113.084,M128.095,M113.084,M57.021,M128.095,M113.084,M113.084,M97.053,M99.068,M99.068,M147.068,M128.095,M128.095,M128.095,M128.058,M128.058,0=4,"
+"Loaded_Frequencies=M147.068=1,M186.079,M57.021,M71.037,M71.037,M71.037,M128.095,M131.040,M113.084,M57.021,M128.095,M71.037,M113.084,M97.053,M57.021,M113.084,M113.084,M99.068,M113.084,M87.032,M131.040,M147.068,M128.095,M114.043,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M128.095,M129.043,M113.084,M186.079,M129.043,M128.095,M99.068,M128.095,M128.095,M131.040,M57.021,M87.032,M71.037,M71.037,M186.079,M87.032,M71.037,M71.037,M128.095,M57.021,M147.068,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M128.095,M129.043,M186.079,M113.084,M114.043,M71.037,M128.095,M71.037,M129.043,M147.068,M113.084,M128.095,M129.043,M57.021,M97.053,M129.043,M113.084,M128.058,M128.095,M97.053,M113.084,M71.037,M71.037,M113.084,M114.043,M71.037,M71.037,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M101.048,M128.095,M129.043,M186.079,M113.084,M114.043,M71.037,M128.095,M129.043,M147.068,M113.084,M128.095,M129.043,M57.021,M113.084,M57.021,M131.040,M113.084,M87.032,M71.037,M71.037,M71.037,M114.043,M71.037,M71.037,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M128.095,M129.043,M186.079,M71.037,M128.095,M128.095,M71.037,M57.021,M57.021,M186.079,M113.084,M128.095,M128.095,M128.095,M97.053,M57.021,M131.037,M71.037,M128.095,M71.037,M71.037,M128.095,M71.037,M131.040,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M128.095,M129.043,M113.084,M113.084,M71.037,M128.095,M128.095,M99.068,M57.021,M71.037,M71.037,M113.084,M57.021,M99.068,M71.037,M128.058,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M128.095,M129.043,M113.084,M186.079,M101.048,M128.095,M131.040,M128.095,M57.021,M57.021,M57.021,M186.079,M113.084,M113.084,M113.084,M128.095,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M97.053,M99.068,M102.001,M57.021,M129.043,M87.032,M102.001,M99.068,M186.079,M113.084,M97.053,M102.001,M113.084,M87.032,M71.037,M113.084,M128.095,M102.001,M99.068,M128.058,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M71.037,M113.084,M128.095,M128.095,M113.084,M57.021,M71.037,M113.084,M128.095,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M186.079,M128.095,M101.048,M71.037,M113.084,M128.095,M128.095,M99.068,M113.084,M128.095,M71.037,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M128.095,M129.043,M113.084,M113.084,M128.095,M128.095,M99.068,M57.021,M71.037,M71.037,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M71.037,M102.001,M163.063,M102.001,M156.101,M57.021,M71.037,M102.001,M99.068,M102.001,M99.068,0=4,"
+"[/Preset]"

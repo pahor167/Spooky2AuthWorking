@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Intestinal Fistula (C)"
+"Preset_Notes=Intestinal Fistula for Contact
+
+Intestinal fistula is an abnormal connection between the intestine and skin or another organ, often resulting from surgery, Crohn's disease, or trauma, leading to leakage of contents, malnutrition, infection, and sepsis risk.
+
+1. Fistula closure promotion: BPC-157 - Stable gastric pentadecapeptide promoting angiogenesis, cytoprotection, and direct closure of gastrointestinal fistulas.
+2. Intestinal adaptation: Teduglutide - Degradation-resistant GLP-2 analog enhancing crypt-villus growth, nutrient absorption, and reducing fistula output to support healing.
+3. Secretion inhibition: Somatostatin-14 - Inhibits gastrointestinal hormone release and secretions, lowering high-output fistula drainage.
+4. Tissue repair: Thymosin beta-4 - Actin-sequestering peptide promoting cell migration, angiogenesis, and extracellular matrix organization for wound healing.
+5. Immune modulation: Thymosin alpha-1 - Enhances T-cell and dendritic cell function to resolve chronic inflammation and infection in fistulas.
+6. Antimicrobial protection: IF-AMP - Designed cationic amphipathic peptide disrupting bacterial membranes to prevent infection in the fistula tract.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Intestinal Fistula p01"
+"Loaded_Programs=Intestinal Fistula p02"
+"Loaded_Programs=Intestinal Fistula p03"
+"Loaded_Programs=Intestinal Fistula p04"
+"Loaded_Programs=Intestinal Fistula p05"
+"Loaded_Programs=Intestinal Fistula p06"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M113.084,M128.058,M101.048,M128.095,M113.084,M101.048,M115.027,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M170.106=1,M156.101,M186.079,M186.079,M128.095,M186.079,M186.079,M156.101,M155.117,0=4,"
+"[/Preset]"

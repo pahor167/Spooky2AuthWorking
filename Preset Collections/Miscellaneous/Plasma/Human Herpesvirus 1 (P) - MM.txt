@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW.txt"
+"Gate_On_Off_Duration_Option=True"
+"PresetName=Human Herpesvirus 1 (P) - MM"
+"Preset_Notes=Human Herpesvirus 1 Plasma preset. By Manuel Mallo
+
+Human Herpesvirus 1 is apparently only an annoying virus producing cold sores.
+
+The truth is, as all the neuroinvasive virus, this little bug has an active role helping other micro-organisms to attack us.
+
+They hide inside the nerves, and remains there forever. From time to time, when our immune system is down, it takes advantage of that, and produces the visible cold sore.
+
+Meanwhile, while apparently in sleep mode, it is degradating our nerve system, and now it is linked to a variety of neurological diseases.
+
+Besides that, all herpesvirus types can collaborate, helping each other to produce more harm.
+
+I intend to create presets for all the herpesvirus types, because its active role degrading our health.
+
+This preset comprises all the 23 known strains of this creature.
+
+As the dwell time is not very long, plasma and contact modes are recommended. 
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+Place the plasma tube near to, or touching, your body. Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=MM_Human Herpesvirus 1 (CUST)"
+"Loaded_Frequencies=9505774.385=180,8766722.353=180,8764479.120=180,8760386.507=180,8755494.128=180,8752321.649=180,8750186.265=180,8739819.923=180,8708178.453=180,8706969.815=180,8708785.038=180,8703113.685=180,8695475.260=180,8686480.525=180,8681588.419=180,8678653.156=180,8674048.821=180,8671689.099=180,8654883.277=180,7766413.375=180,"
+"[/Preset]"

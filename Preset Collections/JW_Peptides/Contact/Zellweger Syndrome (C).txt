@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Zellweger Syndrome (C)"
+"Preset_Notes=Zellweger Syndrome for Contact
+
+Zellweger syndrome (ZS), the most severe form of Zellweger spectrum disorders (ZSD), is a rare autosomal recessive peroxisomal biogenesis disorder caused by pathogenic variants in one of at least 13 PEX genes essential for peroxisome assembly and import of peroxisomal matrix enzymes. Defective peroxisome biogenesis results in absent or severely reduced functional peroxisomes, leading to profound metabolic disruptions including toxic accumulation of very long-chain fatty acids (VLCFA), branched-chain fatty acids (phytanic/pristanic acids), and bile acid intermediates; deficiency of ether phospholipids (plasmalogens); elevated pipecolic acid; and secondary oxidative stress, mitochondrial dysfunction, and neuroinflammation. Clinically, ZS presents neonatally with characteristic craniofacial dysmorphism (high forehead, large fontanelles, flat face), profound hypotonia, seizures, feeding difficulties, liver dysfunction with cholestasis, renal cysts, sensorineural hearing loss, retinal degeneration, calcific stippling of patellae/epiphyses, and neuronal migration defects causing polymicrogyria/pachygyria and hypomyelination; most affected infants do not achieve developmental milestones and succumb within the first year of life due to progressive neurological deterioration, respiratory complications, or liver failure.
+
+The proposed polypeptides are entirely conceptually designed short sequences, as comprehensive searches across PubMed, clinicaltrials.gov, patents, and related sources identified no real-world polypeptide, peptide, or protein therapeutics (established, investigational, preclinical, or patented) specifically for Zellweger syndrome or peroxisomal biogenesis disorders; current management is supportive (e.g., gastrostomy feeding, seizure control, bile acid supplementation) with emerging experimental approaches limited to gene therapy (AAV-PEX1), pharmacological chaperones for select misfolded PEX proteins, and antioxidants, none involving short polypeptides. These designed polypeptides target five core mechanistic axes derived from established pathophysiology: (1) defective peroxisome biogenesis and assembly, addressed by the first designed polypeptide to conceptually enhance PEX protein stability or import; (2) VLCFA accumulation and membrane toxicity, targeted by the second designed polypeptide to mitigate lipid perturbation; (3) plasmalogen deficiency impairing myelin and cellular integrity, modulated by the third designed polypeptide to support ether lipid homeostasis; (4) excessive oxidative stress from impaired ROS detoxification, countered by the fourth designed polypeptide with antioxidant properties; (5) secondary neuroinflammation and neuronal damage, ameliorated by the fifth designed polypeptide to dampen inflammatory cascades. Collectively, these provide multi-axis conceptual coverage aiming to alleviate metabolic toxicity, protect neural tissue, and potentially extend survival, with feasibility informed by pathway validation in ZSD models and parallels in related metabolic disorders.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Zellweger Syndrome p01"
+"Loaded_Programs=Zellweger Syndrome p02"
+"Loaded_Programs=Zellweger Syndrome p03"
+"Loaded_Programs=Zellweger Syndrome p04"
+"Loaded_Programs=Zellweger Syndrome p05"
+"Loaded_Frequencies=M128.095=1,M113.084,M156.101,M87.032,M128.095,M57.021,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M163.063,M186.079,M128.095,M156.101,M128.058,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M163.063,M87.032,M103.009,M163.063,M87.032,M103.009,M137.059,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M128.095,M147.068,M113.084,M156.101,M186.079,M57.021,0=4,"
+"Loaded_Frequencies=M101.048=1,M97.053,M57.021,M137.059,M128.095,M186.079,M87.032,M156.101,0=4,"
+"[/Preset]"

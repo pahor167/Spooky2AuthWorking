@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Giant Cell Arteritis (L)"
+"Preset_Notes=Giant Cell Arteritis for Laser
+
+Giant cell arteritis is a granulomatous vasculitis predominantly affecting medium and large arteries, particularly aortic arch branches and cranial arteries, resulting in vessel wall inflammation, luminal narrowing, ischemic complications (e.g., vision loss), headaches, polymyalgia rheumatica, and systemic inflammatory symptoms. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical vascular protection studies, endothelial healing models, anti-inflammatory mechanisms, and investigational applications in autoimmune vasculopathies.
+
+1. Non-hematopoietic erythropoietin receptor agonism: ARA 290 provides tissue-protective, anti-inflammatory, and anti-apoptotic effects in inflamed vasculature without erythropoietic activity.
+2. Gastric pentadecapeptide-mediated vascular stabilization: BPC-157 enhances endothelial integrity, modulates inflammatory cascades, and promotes healing in damaged arterial walls.
+3. Copper-chelated tripeptide regenerative remodeling: GHK-Cu exerts antioxidant, anti-inflammatory, and extracellular matrix normalizing effects relevant to arterial repair.
+4. Acetylated actin-sequestering heptapeptide migration enhancement: TB-500 accelerates cellular repair processes and reduces fibrosis in inflamed tissues.
+5. Acetylated melanocortin-derived tripeptide cytokine suppression: Ac-KPV-NH2 potently inhibits pro-inflammatory mediators via MC1R/MC3R pathways.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Giant Cell Arteritis p01"
+"Loaded_Programs=Giant Cell Arteritis p02"
+"Loaded_Programs=Giant Cell Arteritis p03"
+"Loaded_Programs=Giant Cell Arteritis p04"
+"Loaded_Programs=Giant Cell Arteritis p05"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"[/Preset]"

@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Lemon Balm (Nootropics) (R) - JRG"
+"Loaded_Programs=Lemon Balm (CUST)"
+"Loaded_Frequencies=M470.19407,"
+"Preset_Notes=Lemon Balm (Melissa officinalis) is used for its anti-anxiety effects. This plant from the mint family has a lemony scent, and is native to the Mediterranean region.|Rosmarinic acid, a compound found in lemon balm, inhibits the GABA transaminase enzyme. Which in turn helps maintain adequate levels of GABA in your brain. Resulting in a calming effect.|As a nootropic, lemon balm is most commonly used for stress relief, and reduction of panic attacks. Lemon balm also helps with focus, concentration, reduces irritability and depression, and improves memory and learning retention.|Dosage of lemon balm is 1 - 2 grams of dried lemon balm leaf as a tea, or 300 - 600 mg of lemon balm extract as a nootropic supplement.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

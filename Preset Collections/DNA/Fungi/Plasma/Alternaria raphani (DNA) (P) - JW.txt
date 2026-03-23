@@ -1,0 +1,8 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW"
+"PresetName=Alternaria raphani (DNA) (P) - JW"
+"Remove_Duplicate_Frequencies_Tolerance=0"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||This preset contains the following strains:||Alternaria raphani AR6 internal transcribed spacers 1 and 2 and 5.8S rRNA gene"
+"Loaded_Programs=Alternaria raphani (DNA) (P) - JW (CUST)"
+"Loaded_Frequencies=~3791BL380,"
+"[/Preset]"

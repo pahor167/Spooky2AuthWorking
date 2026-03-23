@@ -1,0 +1,63 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=Human Herpesvirus 2 (C) - MM"
+"BFB_Start_Frequency=20000"
+"BFB_Finish_Frequency=18000000"
+"BFB_Single_Scan=1"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_%=.125"
+"BFB_Start_Delay=100"
+"BFB_Threshold=.4"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"BFB_Max_HRV=20"
+"Out1_Amplitude=12"
+"Out2_Amplitude=12"
+"Out2_Hz_Factor=.03125"
+"Out1_Shadow_Hz_Factor=1"
+"Out1_Fixed_Frequency=0"
+"Preset_Notes=Human Herpesvirus 2 Contact preset. By Manuel Mallo
+
+*Important*: Use the Colloidal Silver port of Spooky Boost to prevent skin burns.
+
+I have prepared a preset for Human Herpesvirus 2, also known as genital herpes.
+
+This preset comprises all the 10 known strains of this creature.
+
+As the dwell time is not very long, plasma and contact modes are recommended. Remote mode must be run nonstop for almost a week to see results.
+
+This virus tend to reside in the sacral ganglia, so, you can expect some discomfort in the area.
+
+It is estimated that about 80% of adult people have the HHV1 or HHV2, proving how efficient in spreading they are.
+
+For contat mode I used tens pads placed on the back of the knees, and also over the hip. I use to stick 2 tens pads per pole, as you can see here: https://www.spooky2.com/forums/viewtopic.php?p=71393#p71393
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the Colloidal_Silver port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0."
+"Settings_Frequency_Wobble_Percentage=.0005"
+"Settings_Frequency_Wobble_Steps=120"
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"User_Defined_1_WCM=3"
+"User_Defined_2_WCM=3"
+"Triangle_Spike_Ratio=2"
+"F1_Factor=11"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=MM_ModSquareDC17"
+"User_Defined_2_Waveform=MM_ModSquareDC17"
+"Out1_Fixed_Frequency=False"
+"Out1_Sine=False"
+"Out1_User_Defined_1=True"
+"Out2_User_Defined_2=True"
+"InverseWave=False"
+"Enable_Reduce_Low_Frequency_Amplitude=0"
+"Enable_Tissue_Factor=1"
+"Enable_Invert_User_Defined_2=1"
+"Enable_Swap_Frequency_And_Amplitude=1"
+"Notify_When_Zero_Hz=0"
+"Loaded_Programs=MM_Human Herpesvirus 2 (CUST)"
+"Loaded_Frequencies=8970092.158=180,8931098.33=180,8906011.325=180,8874394.303=180,8808330.748=180,8796742.523=180,8788123.054=180,8786741.427=180,8785822.03=180,8785821.753=180,"
+"[/Preset]"

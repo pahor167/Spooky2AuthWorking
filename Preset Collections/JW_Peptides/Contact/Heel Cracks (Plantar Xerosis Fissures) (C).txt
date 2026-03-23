@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Heel Cracks (Plantar Xerosis/Fissures) (C)"
+"Preset_Notes=Heel Cracks (Plantar Xerosis/Fissures) for Contact
+
+Heel cracks (plantar xerosis/fissures) involve pathological thickening, dehydration, and fissuring of the stratum corneum due to impaired barrier function, altered keratinocyte differentiation, collagen degradation, chronic inflammation, and secondary microbial colonization. Therapeutic intervention requires multimodal targeting of antimicrobial defense, wound healing, structural protein synthesis, inflammation modulation, glycation protection, barrier restoration, soothing, and cellular proliferation.
+
+1. Antimicrobial Defense: LL-37 (Cathelicidin) - Human antimicrobial peptide with broad-spectrum activity against bacteria and fungi colonizing fissures; promotes keratinocyte migration via EGFR transactivation and MAPK signaling essential for re-epithelialization of cracked skin
+2. Wound Healing/Angiogenesis: GHK-Cu (Copper Tripeptide-1) - Naturally occurring plasma peptide that stimulates collagen synthesis, angiogenesis, and ECM remodeling; attracts immune cells and upregulates antioxidant enzymes to protect fissure margins from oxidative damage
+3. Collagen Synthesis: Palmitoyl Tripeptide-5 (Pal-KVK) - TGF-{beta} booster mimicking thrombospondin-1; stimulates collagen types I and II synthesis while inhibiting MMPs to prevent ECM degradation in damaged heel dermis
+4. Anti-Inflammatory Modulation: Palmitoyl Tetrapeptide-7 (Pal-GQPR) - Matrikine peptide reducing IL-6 production by keratinocytes and fibroblasts; protects extracellular matrix from inflammatory degradation and soothes irritated fissure margins
+5. Anti-Glycation Protection: Carnosine ({beta}-Ala-His) - Naturally occurring dipeptide inhibiting advanced glycation end-product formation; protects collagen and elastin from sugar-induced cross-linking and prevents skin stiffening associated with diabetic heel fissures
+6. ECM Remodeling/Barrier Function: Hexapeptide-11 (FVAPFP) - Yeast-derived peptide upregulating collagen, elastin, and hyaluronic acid synthesis; enhances fibroblast functionality and improves skin elasticity and barrier integrity
+7. Soothing/Anti-Irritation: Tetrapeptide-30 (PKEK) - Skin-brightening and soothing peptide reducing interleukin-6, interleukin-8, and TNF-{alpha}; calms inflamed skin and reduces redness associated with painful heel fissures
+8. Keratinocyte Proliferation: AH90 (Odorrana grahami) - Amphibian-derived wound healing peptide promoting TGF-{beta}1 release via NF-{kappa}B and JNK signaling; accelerates re-epithelialization and granulation tissue formation in deep cracks
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Heel Cracks (Plantar Xerosis/Fissures) p01"
+"Loaded_Programs=Heel Cracks (Plantar Xerosis/Fissures) p02"
+"Loaded_Programs=Heel Cracks (Plantar Xerosis/Fissures) p03"
+"Loaded_Programs=Heel Cracks (Plantar Xerosis/Fissures) p04"
+"Loaded_Programs=Heel Cracks (Plantar Xerosis/Fissures) p05"
+"Loaded_Programs=Heel Cracks (Plantar Xerosis/Fissures) p06"
+"Loaded_Programs=Heel Cracks (Plantar Xerosis/Fissures) p07"
+"Loaded_Programs=Heel Cracks (Plantar Xerosis/Fissures) p08"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M238.230=1,M128.095,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M238.230=1,M57.021,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M71.037,M97.053,M147.068,M97.053,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.095,M129.043,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M101.048,M71.037,M186.079,M115.027,M147.068,M57.021,M97.053,M137.059,M57.021,M113.084,M113.084,M97.053,M113.084,M156.101,M97.053,M113.084,M156.101,M113.084,M156.101,M97.053,M113.084,M103.009,M57.021,0=4,"
+"[/Preset]"

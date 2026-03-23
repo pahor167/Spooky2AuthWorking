@@ -1,0 +1,45 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Coil\Spooky Coil (Generator Direct) - JW.txt"
+"PresetName=Eczema (Coil) - JK"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"BFB_Finish_Frequency=114000"
+"Swap_Waveform_Time=90"
+"Preset_Notes=DO NOT USE WITH SPOOKY PLASMA
+
+Eczema for Spooky PEMF Coil by Jeff Kaczor
+
+This is a PEMF Coil variation of the Eczema (C) - JK preset.
+
+It utilizes Eczema 2 (XTRA) which when researched, is a frequency set designed to target pathogenic factors.
+
+The frequency set had little effect until I stumbled on this configuration.  It is best used in contact mode -- especially with active outbreaks.
+
+The remote version is recommended only as a way to limit potential outbreaks should you find yourself heading into environments/situations that will expose you to your trigger.
+
+This PEMF Coil configuration can be used overnight to add additional support.
+
+Wire the PEMF Coil directly to Out 1 and place the BN side of the coil over the area of concern.
+
+DO NOT wire the PEMF Coil to a boosted port (MN, BN, High Power, or CS port), or wire using a boost cable to prevent possible harmful voltage spikes.
+
+The waveform is inverted every 90 seconds.
+
+The Preset has been disigned to loop continuous"
+"F1_Factor=64"
+"F1_Modulation_Type=Modulate F2 using F1 (AM DSB)"
+"Out1_Frequency_Limit_Harmonic_Type=Octave"
+"Out2_Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Square"
+"User_Defined_2_Waveform=Square"
+"Manual_Start=False"
+"Out1_Sine=False"
+"Out1_Inverted_Sawtooth=True"
+"Enable_F2_Modulation=1"
+"BFB_Single_Scan=0"
+"Enable_Invert_Spike_Waveform=0"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Notify_When_Zero_Hz=1"
+"Loaded_Programs=Eczema 2 (XTRA)"
+"Loaded_Frequencies=9.18=180,9.19=180,9.39=180,9.4=180,20=180,120=180,415=180,660=180,664=180,690=180,707=180,727.5=180,770=180,787=180,802=180,916=180,1550=180,2127.5=180,2180=180,2720=180,5000=180,10000=180,"
+"[/Preset]"

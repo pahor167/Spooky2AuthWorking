@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Adrenal Gland Balance (S)"
+"Preset_Notes=Adrenal Gland Balance for Scalar
+
+Adrenal gland balance involves maintaining proper hormone production by the adrenal cortex and medulla, including cortisol for stress and metabolism, aldosterone for electrolyte balance, and catecholamines for sympathetic response. Imbalances may result in fatigue, hypertension, or hormonal disorders. 
+
+The peptides cover key axes such as cortisol stimulation, aldosterone and catecholamine regulation, HPA axis modulation, steroidogenesis, and neuroendocrine control. Real-world peptides are prioritized based on validated roles in adrenal function; designed peptides (11 and 12) supplement for stress modulation and protective effects, conceptualized with strict design rules for feasibility and uniqueness.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Adrenal Gland Balance p01"
+"Loaded_Programs=Adrenal Gland Balance p02"
+"Loaded_Programs=Adrenal Gland Balance p03"
+"Loaded_Programs=Adrenal Gland Balance p04"
+"Loaded_Programs=Adrenal Gland Balance p05"
+"Loaded_Programs=Adrenal Gland Balance p06"
+"Loaded_Programs=Adrenal Gland Balance p07"
+"Loaded_Programs=Adrenal Gland Balance p08"
+"Loaded_Programs=Adrenal Gland Balance p09"
+"Loaded_Programs=Adrenal Gland Balance p10"
+"Loaded_Programs=Adrenal Gland Balance p11"
+"Loaded_Programs=Adrenal Gland Balance p12"
+"Loaded_Frequencies=M87.032=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,M57.021,M128.095,M128.095,M156.101,M156.101,M97.053,M99.068,M128.095,M99.068,M163.063,M97.053,M114.043,M57.021,M71.037,M129.043,M115.027,M129.043,M87.032,M71.037,M129.043,M71.037,M147.068,M97.053,M113.084,M129.043,M147.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M101.048,M128.095,M163.063,M128.095,M128.095,M128.095,M147.063,M71.037,M99.068,M128.095,M128.095,M163.063,M71.037,M71.037,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M156.101,M113.084,M115.027,M99.068,M71.037,M87.032,M129.043,M147.068,M156.101,M128.095,M128.095,M186.079,M114.043,M128.095,M186.079,M71.037,M113.084,M87.032,M155.117,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M114.043,M97.053,M87.032,M113.084,M87.032,M113.084,M115.027,M113.084,M101.048,M147.068,M137.059,M113.084,M113.084,M156.101,M101.048,M113.084,M113.084,M129.043,M113.084,M71.037,M156.101,M101.048,M128.058,M87.032,M156.101,M156.101,M113.084,M147.068,M115.027,M99.068,M87.032,M98.059,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.043,M97.053,M57.021,M129.043,M115.027,M71.037,M97.053,M71.037,M129.043,M115.027,M131.040,M71.037,M156.101,M163.063,M163.063,M87.032,M71.037,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M113.084,M101.048,M156.101,M128.058,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M87.032=1,M129.043,M129.043,M97.053,M97.053,M113.084,M87.032,M113.084,M115.027,M113.084,M101.048,M147.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M137.059,M156.101,M57.021,M97.053,M102.001,M87.032,0=4,"
+"[/Preset]"

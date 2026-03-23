@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Grade 2 Invasive Ductal Carcinoma, NST, B5B (ER+/PR+/HER2-, Luminal a) (R)"
+"Preset_Notes=Grade 2 Invasive Ductal Carcinoma, NST, B5B (ER+/PR+/HER2-, Luminal a) for Remote
+
+Grade 2 invasive ductal carcinoma of no special type represents the most common breast malignancy, molecularly stratified as Luminal A (ER strongly positive QS 8/8, PR positive QS 6/8, HER2 negative, Ki67 5-8%). This subtype is characterized by estrogen-driven proliferation, favorable prognosis but ongoing risk of late recurrence, and sensitivity to endocrine manipulation. The proposed polypeptide design targets eight complementary therapeutic axes evidenced in breast cancer biology: estrogen receptor pathway modulation, direct membrane disruption/cytotoxicity, deep tumor penetration enhancement, metastasis suppression via KiSS-1 signaling, tumor microenvironment immunomodulation, angiogenesis blockade, and cell cycle checkpoint interference.
+
+1. ER{alpha} pathway modulation and apoptosis induction: ER{alpha}17p (PLMIKRSKKNSLALSLT), a synthetic 17-mer corresponding to the P295-T311 hinge region of ER{alpha}, induces p38/JNK-mediated apoptosis in both ER-positive and ER-negative breast cancer cells via membrane-initiated mechanisms independent of nuclear ER signaling, reduces Bcl-xL/Bax ratio, and causes >50% tumor regression in xenograft models without toxicity.
+
+2. Membrane disruption and cytotoxicity: Melittin (GIGAVLKVLTTGLPALISWIKRKRQQ), the principal component of honey bee venom, disrupts phospholipid bilayers and inhibits EGFR/HER2 phosphorylation, selectively lysing cancer cells while sparing normal cells when properly targeted, with demonstrated efficacy against breast cancer cell lines including endocrine-resistant variants. 
+
+3. Tumor penetration and deep tissue drug delivery: iRGD (cyclic CRGDKGPDC via disulfide) functions as a CendR peptide, binding {alpha}v{beta}3/{alpha}v{beta}5 integrins on tumor vasculature and exposing the C-terminal RXXK motif to engage neuropilin-1, triggering transcytosis and enhanced penetration into extravascular tumor tissue. 
+
+4. Anti-metastatic signaling: Kisspeptin-10 (YNWNSFGLRF-NH2), the active decapeptide of KiSS-1 metastasis suppressor, inhibits breast cancer cell migration and metastasis through GPR54-dependent pathways. 
+
+5. Tumor microenvironment immunomodulation: LL-37 (LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES), the human cathelicidin antimicrobial peptide, modulates immune cell recruitment, reduces tumor-associated inflammation, and exhibits direct cytotoxicity against cancer cells. 
+
+6. Engineered anti-angiogenesis: C-(PPG)10-P, a 31-residue polyproline type II helix mimetic, presents a novel structural scaffold distinct from all natural bioactive peptides in the design set, engineered to interfere with integrin-fibronectin interactions critical for endothelial sprouting. 
+
+7. Engineered cell cycle regulation: (AE)15A, a 31-residue alternating Ala-Glu peptide forming an extended charged helix, rationally designed to sequester CDK-cyclin complexes through electrostatic mimicry of p21 inhibitory domains while maintaining structural orthogonality to known bioactive sequences.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Grade 2 Invasive Ductal Carcinoma, NST, B5B (ER+/PR+/HER2-, Luminal a) p01"
+"Loaded_Programs=Grade 2 Invasive Ductal Carcinoma, NST, B5B (ER+/PR+/HER2-, Luminal a) p02"
+"Loaded_Programs=Grade 2 Invasive Ductal Carcinoma, NST, B5B (ER+/PR+/HER2-, Luminal a) p03"
+"Loaded_Programs=Grade 2 Invasive Ductal Carcinoma, NST, B5B (ER+/PR+/HER2-, Luminal a) p04"
+"Loaded_Programs=Grade 2 Invasive Ductal Carcinoma, NST, B5B (ER+/PR+/HER2-, Luminal a) p05"
+"Loaded_Programs=Grade 2 Invasive Ductal Carcinoma, NST, B5B (ER+/PR+/HER2-, Luminal a) p06"
+"Loaded_Programs=Grade 2 Invasive Ductal Carcinoma, NST, B5B (ER+/PR+/HER2-, Luminal a) p07"
+"Loaded_Frequencies=M97.053=1,M113.084,M131.04,M113.084,M128.095,M156.101,M87.032,M128.095,M128.095,M114.043,M87.032,M113.084,M71.037,M113.084,M87.032,M113.084,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M156.101,M128.095,M156.101,M128.058,M128.058,M156.101,M128.058,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M57.021,M115.027,M128.095,M57.021,M97.053,M115.027,M102.001,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M147.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.059,M156.101,M113.084,M128.095,M97.053,M156.101,M113.084,M99.068,M101.048,M129.043,M87.032,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M71.037,M129.043,M71.037,M129.043,M71.037,M129.043,M71.037,M129.043,M71.037,M129.043,M71.037,M129.043,M71.037,M129.043,M71.037,M129.043,M71.037,M129.043,M71.037,M129.043,M71.037,M129.043,M71.037,M129.043,M71.037,M129.043,M71.037,M129.043,M71.037,0=4,"
+"[/Preset]"

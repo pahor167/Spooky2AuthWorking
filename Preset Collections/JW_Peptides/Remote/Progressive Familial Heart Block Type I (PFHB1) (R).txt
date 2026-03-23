@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Progressive Familial Heart Block Type I (PFHB1) (R)"
+"Preset_Notes=Progressive Familial Heart Block Type I (PFHB1) for Remote
+
+Progressive Familial Heart Block Type I (PFHB1) is an autosomal dominant genetic cardiac conduction disorder, primarily linked to SCN5A (PFHB1A) or TRPM4 (PFHB1B) mutations, causing progressive bundle branch defects, AV block, bradycardia, and increased risk of sudden events, with pacemaker as primary management. Proposed polypeptides target conduction enhancement, neuropeptide support, cardioprotection, mitochondrial resilience, and gap junction stability axes derived from ion channel, natriuretic, and connexin literature:
+1. Natriuretic conduction enhancement: CNP - C-type natriuretic peptide increases heart rate and conduction velocity via GC-B receptor signaling.
+2. Neuropeptide chronotropic support: VIP - Vasoactive intestinal peptide enhances sinoatrial node firing and atrioventricular conduction.
+3. Adrenomedullin axis activation: Adrenomedullin - Exerts vasodilatory and anti-remodeling effects to support conduction system integrity.
+4. Mitochondrial optimization: MOTS-c - Mitochondrial-derived peptide improves metabolic efficiency and stress resistance in cardiomyocytes.
+5. Mitochondrial cardioprotection: Humanin - Potent anti-apoptotic peptide preserving cardiac cell viability under conduction stress.
+6. Gap junction stabilization: Ac-RPRPDDLEI-NH2 - Designed connexin43 C-terminal mimetic that disrupts ZO-1 interaction to prevent pathological gap junction remodeling.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Progressive Familial Heart Block Type I (PFHB1) p01"
+"Loaded_Programs=Progressive Familial Heart Block Type I (PFHB1) p02"
+"Loaded_Programs=Progressive Familial Heart Block Type I (PFHB1) p03"
+"Loaded_Programs=Progressive Familial Heart Block Type I (PFHB1) p04"
+"Loaded_Programs=Progressive Familial Heart Block Type I (PFHB1) p05"
+"Loaded_Programs=Progressive Familial Heart Block Type I (PFHB1) p06"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M198.112=1,M97.053,M156.101,M97.053,M115.027,M115.027,M113.084,M129.043,M112.100,0=4,"
+"[/Preset]"

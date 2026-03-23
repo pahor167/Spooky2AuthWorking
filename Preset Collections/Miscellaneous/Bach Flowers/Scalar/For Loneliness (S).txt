@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=For Loneliness (S)"
+"Preset_Notes=For Loneliness / Spooky Scalar
+
+Estimated Time: Run this preset for 9:00 minutes.
+Water Violet - Quiet self-reliance leading to isolation.  Impatiens - those who act and think quickly, and have no patience for what they see as the slowness of others. Heather - Self centredness and self-concern.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=For Loneliness (S)"
+"Loaded_Frequencies=370.22,463.06,301.78,"
+"[/Preset]"

@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Systemic Lupus Erythematosus (SLE) (P)"
+"Preset_Notes=Systemic Lupus Erythematosus (SLE) for Plasma
+
+The peptides target multiple therapeutic axes for SLE, including immunomodulation through tolerogenic peptides like P140 and Edratide, anti-inflammatory via melanocortin and VIP signaling, tissue repair with BPC-157, and pain modulation with Substance P. Designed peptides are flagged and supplement for additional antioxidant and complement inhibition mechanisms.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Systemic Lupus Erythematosus (SLE) p01"
+"Loaded_Programs=Systemic Lupus Erythematosus (SLE) p02"
+"Loaded_Programs=Systemic Lupus Erythematosus (SLE) p03"
+"Loaded_Programs=Systemic Lupus Erythematosus (SLE) p04"
+"Loaded_Programs=Systemic Lupus Erythematosus (SLE) p05"
+"Loaded_Programs=Systemic Lupus Erythematosus (SLE) p06"
+"Loaded_Programs=Systemic Lupus Erythematosus (SLE) p07"
+"Loaded_Programs=Systemic Lupus Erythematosus (SLE) p08"
+"Loaded_Programs=Systemic Lupus Erythematosus (SLE) p09"
+"Loaded_Programs=Systemic Lupus Erythematosus (SLE) p10"
+"Loaded_Programs=Systemic Lupus Erythematosus (SLE) p11"
+"Loaded_Programs=Systemic Lupus Erythematosus (SLE) p12"
+"Loaded_Frequencies=M156.101=1,M113.084,M137.059,M131.040,M99.068,M163.063,M166.998,M128.095,M156.101,M87.032,M57.021,M128.095,M97.053,M156.101,M57.021,M163.063,M71.037,M147.068,M113.084,M129.043,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M163.063,M163.063,M186.079,M87.032,M186.079,M113.084,M156.101,M128.058,M97.053,M97.053,M57.021,M128.095,M57.021,M129.043,M129.043,M186.079,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M129.043,M186.079,M114.043,M128.095,M113.084,M156.101,M147.068,M156.101,M128.058,M57.021,M113.084,M129.043,M186.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M57.021,M137.059,M163.063,M71.037,M129.043,M156.101,M99.068,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M170.106=1,M156.101,M115.027,M129.043,M128.058,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M115.027,M156.101,M128.095,M129.043,M102.001,0=4,"
+"[/Preset]"

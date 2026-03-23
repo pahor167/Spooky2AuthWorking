@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Epstein Barr Infection (C)"
+"Preset_Notes=Epstein Barr Infection for Contact
+
+Epstein Barr Infection is a common viral infection caused by the Epstein-Barr virus, leading to mononucleosis, chronic fatigue, and associated with autoimmune and oncologic complications, involving immune dysregulation, viral latency, and inflammation. The proposed polypeptides target evidence-based therapeutic axes from antiviral and immunomodulatory studies to enhance immune response, inhibit viral replication, reduce inflammation, and support recovery.
+1. Immunomodulatory antiviral action: Allokin-alpha promotes recognition of virus-infected cells and suppresses replication in chronic EBV.
+2. Immune enhancement and antiviral support: Thymosin {alpha}1 boosts T-cell function and aids in clearing viral infections.
+3. Antimicrobial and immunomodulatory effects: LL-37 exhibits antiviral activity and modulates immunity against EBV.
+4. Innate antiviral defense and immunomodulation: Human beta-defensin 3 (hBD-3) provides defense against viral pathogens and regulates immune response.
+5. Anti-inflammatory symptom relief: KPV suppresses cytokines to alleviate inflammation from EBV.
+6. Tissue-protective anti-inflammatory effects: ARA 290 reduces inflammation and protects tissues in viral infections.
+7. Inhibition of EBV-induced proliferation: EBNA2-TAT blocks EBNA2-CBF1 interaction to stop viral-driven cell growth.
+8. Engineered myristoylated-inspired peptide for direct antiviral: Ac-dDfHmWdFhMwDfHmW-NH2 optimized for stability and activity against EBV.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Epstein Barr Infection p01"
+"Loaded_Programs=Epstein Barr Infection p02"
+"Loaded_Programs=Epstein Barr Infection p03"
+"Loaded_Programs=Epstein Barr Infection p04"
+"Loaded_Programs=Epstein Barr Infection p05"
+"Loaded_Programs=Epstein Barr Infection p06"
+"Loaded_Programs=Epstein Barr Infection p07"
+"Loaded_Programs=Epstein Barr Infection p08"
+"Loaded_Frequencies=M137.059=1,M57.021,M99.068,M87.032,M57.021,M137.059,M57.021,M128.058,M137.059,M57.021,M99.068,M137.059,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M157.038=1,M147.068,M137.059,M131.040,M186.079,M115.027,M147.068,M137.059,M131.040,M186.079,M115.027,M147.068,M137.059,M131.040,M185.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Huperzine-A (Nootropics) (R) - JRG"
+"Loaded_Programs=Huperzine-A (CUST)"
+"Loaded_Frequencies=M242.14191,"
+"Preset_Notes=Huperzine-A is a natural compound extracted from the Chinese club moss huperzia serrata. Huperzine-A is an acetylcholinesterase inhibitor which means it boosts levels of the neurotransmitter acetylcholine in your brain.|Huperzine-A helps promote memory by increasing acetylcholine levels. Users report improved memory, retention, cognition, and lucid dreaming.|Dosage of Huperzine-A is 200 mcg every 2 days or twice per week.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

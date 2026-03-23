@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Irrational Fear (C)"
+"Preset_Notes=Irrational Fear for Contact
+
+Irrational fear, commonly known as specific phobia, is a type of anxiety disorder characterized by an intense, persistent, and irrational fear of a specific object, situation, activity, or creature that poses little or no actual danger. This condition affects approximately 12.5% of the population at some point in their lives, with onset often occurring in childhood or adolescence. Causes include a combination of genetic predisposition, environmental factors such as traumatic experiences or learned behaviors from family members, and neurobiological vulnerabilities. Symptoms manifest as immediate anxiety responses upon exposure to the phobic stimulus, including rapid heartbeat, sweating, trembling, shortness of breath, nausea, dizziness, and an overwhelming desire to escape or avoid the situation. In severe cases, it can lead to panic attacks. Pathophysiology involves hyperactivity of the amygdala, which processes fear and emotional responses, leading to exaggerated fear conditioning and impaired extinction learning. The hypothalamic-pituitary-adrenal (HPA) axis is dysregulated, resulting in elevated cortisol levels that perpetuate stress responses. Neurotransmitter imbalances, particularly in GABA, serotonin, and opioid systems, contribute to reduced inhibitory control over fear. Additional factors include prefrontal cortex dysfunction impairing cognitive regulation, epigenetic changes altering gene expression related to stress, neuroimmune inflammation exacerbating neural hypersensitivity, gut-brain axis disruptions via microbiome influencing mood, and autonomic nervous system hyperactivity causing physiological arousal. These mechanisms create a cycle of avoidance that reinforces the phobia, significantly impacting daily functioning, social interactions, and quality of life if untreated.
+
+The proposed polypeptides address irrational fear through targeted mechanisms across key therapeutic axes. Real-world polypeptides like oxytocin and vasopressin modulate neuropeptide signaling to reduce amygdala hyperactivity and enhance social fear extinction. Neuropeptide Y and VIP target autonomic balance and gut-brain axis, respectively, to alleviate physiological symptoms and improve emotional regulation. Substance P influences neuroimmune pathways to mitigate inflammation-related anxiety amplification. GLP-1, ANP, and CRF-related peptides (e.g., urocortin) regulate HPA axis activity, normalizing cortisol responses and stress reactivity. Opioid peptides such as beta-endorphin, met-enkephalin, leu-enkephalin, and dynorphin A enhance neurotransmitter modulation, particularly GABAergic and serotonergic systems, to dampen fear responses. Neuropeptide S promotes fear extinction learning. These real-world polypeptides are supported by verifiable sources like UniProt and PubMed, demonstrating roles in anxiety reduction via receptor activation, synaptic plasticity, and hormonal balance. Feasibility includes established safety profiles for some (e.g., oxytocin in clinical use), with physicochemical considerations like blood-brain barrier permeability enhanced by nasal delivery. Designed polypeptides supplement coverage: Designed1 targets cognitive restructuring by enhancing prefrontal activity; Designed2 addresses epigenetic modifications to reverse stress-induced gene changes; Designed3 bolsters neuroimmune modulation; Designed4 supports behavioral axis by promoting avoidance reduction. These designed ones are conceptual, with sequences ensuring stability, solubility, and minimal off-target effects, adhering to strict diversity and length rules for novelty.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Irrational Fear p01"
+"Loaded_Programs=Irrational Fear p02"
+"Loaded_Programs=Irrational Fear p03"
+"Loaded_Programs=Irrational Fear p04"
+"Loaded_Programs=Irrational Fear p05"
+"Loaded_Programs=Irrational Fear p06"
+"Loaded_Programs=Irrational Fear p07"
+"Loaded_Programs=Irrational Fear p08"
+"Loaded_Programs=Irrational Fear p09"
+"Loaded_Programs=Irrational Fear p10"
+"Loaded_Programs=Irrational Fear p11"
+"Loaded_Programs=Irrational Fear p12"
+"Loaded_Programs=Irrational Fear p13"
+"Loaded_Programs=Irrational Fear p14"
+"Loaded_Programs=Irrational Fear p15"
+"Loaded_Programs=Irrational Fear p16"
+"Loaded_Programs=Irrational Fear p17"
+"Loaded_Programs=Irrational Fear p18"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.043,M97.053,M57.021,M129.043,M115.027,M71.037,M97.053,M71.037,M129.043,M115.027,M113.084,M71.037,M156.101,M163.063,M163.063,M87.032,M71.037,M113.084,M156.101,M128.095,M163.063,M113.084,M114.043,M113.084,M113.084,M101.048,M156.101,M128.058,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,M101.048,M87.032,M129.043,M128.095,M87.032,M128.058,M101.048,M97.053,M113.084,M99.068,M101.048,M113.084,M147.068,M128.095,M114.043,M71.037,M113.084,M113.084,M128.095,M114.043,M71.037,M163.063,M128.095,M128.095,M57.021,M129.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.04,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M113.084,M156.101,M156.101,M113.084,M156.101,M97.053,M128.095,M113.084,M128.095,M99.068,M115.027,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M71.037,M97.053,M97.053,M71.037,M87.032,M156.101,M156.101,M156.101,M137.059,M147.068,M137.059,M71.037,M113.084,M97.053,M71.037,M156.101,M163.063,M128.095,M87.032,M71.037,M113.084,M156.101,M128.095,M163.063,M113.084,M114.043,M113.084,M113.084,M101.048,M156.101,M128.058,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M115.027=1,M114.043,M97.053,M87.032,M113.084,M87.032,M113.084,M115.027,M113.084,M101.048,M147.068,M137.059,M113.084,M113.084,M156.101,M101.048,M113.084,M113.084,M129.043,M113.084,M71.037,M156.101,M101.048,M128.058,M87.032,M156.101,M156.101,M113.084,M147.068,M115.027,M99.068,M87.032,M98.059,0=4,"
+"Loaded_Frequencies=M87.032=1,M147.068,M156.101,M114.043,M57.021,M99.068,M57.021,M101.048,M57.021,M128.095,M128.095,M163.063,M114.043,M87.032,M114.043,M97.053,M71.037,M131.040,M71.037,M97.053,M156.101,M129.043,M156.101,M128.095,M71.037,M57.021,M103.009,M128.095,M113.084,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M156.101,M97.053,M71.037,M101.048,M129.043,M115.027,M147.068,M128.058,M114.043,M113.084,M128.095,M131.040,M87.032,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M97.053,M97.053,M113.084,M113.084,M128.095,M128.058,M147.068,M128.058,M114.043,M113.084,M115.027,M57.021,M71.037,M97.053,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M163.063,M147.068,M57.021,M137.059,M113.084,M128.095,M113.084,M131.040,M114.043,M97.053,M128.058,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M86.048,M114.079,M100.064,M86.048,M237.148,M113.048,M113.084,M85.053,0=4,"
+"[/Preset]"

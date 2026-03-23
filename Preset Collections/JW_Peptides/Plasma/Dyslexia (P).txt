@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Dyslexia (P)"
+"Preset_Notes=Dyslexia for Plasma
+
+Dyslexia is a common neurodevelopmental disorder that affects reading, writing, and spelling skills despite normal intelligence and adequate education. It involves difficulties in phonological processing, rapid naming, and working memory. Therapeutic axes identified include: 1. Enhancing cognitive function and learning for reading skills. 2. Providing neurotrophic support for brain plasticity. 3. Improving attention and reducing cognitive deficits. Assignments: Semax covers axis 1, the BDNF-mimetic peptide covers axis 2, and the ACTH-derived peptide covers axis 3. Mechanisms: Semax, a synthetic analogue of ACTH(4-10), enhances learning and memory by increasing BDNF expression and modulating dopaminergic and serotonergic systems, aiding in better reading acquisition. The designed BDNF-mimetic peptide promotes neuronal plasticity and connectivity in brain regions involved in language processing, potentially improving phonological awareness. The designed ACTH-derived peptide improves focus and attention by influencing stress responses and neurotransmitter balance, helping to mitigate cognitive deficits associated with dyslexia.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Dyslexia p01"
+"Loaded_Programs=Dyslexia p02"
+"Loaded_Programs=Dyslexia p03"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M198.112=1,M57.021,M129.043,M113.084,M87.032,M99.068,M103.009,M115.027,M87.032,M113.084,M87.032,M129.043,M186.079,M99.068,M100.064,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M56.037,0=4,"
+"[/Preset]"

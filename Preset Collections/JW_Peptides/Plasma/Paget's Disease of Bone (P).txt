@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Paget’s Disease of Bone (P)"
+"Preset_Notes=Paget’s Disease of Bone for Plasma
+
+Paget's Disease of Bone is a chronic skeletal disorder characterized by excessive and disorganized bone remodeling. The condition initiates with an overabundance of osteoclasts that are larger and more active than normal, leading to rapid bone resorption. In response, osteoblasts attempt to compensate by producing new bone at an accelerated rate; however, this new bone is structurally inferior, characterized by a 'mosaic' pattern of woven bone that is weaker and more vascular than healthy lamellar bone. This process results in bone enlargement, deformities, and an increased risk of fractures. Clinically, patients often present with bone pain, secondary osteoarthritis, and neurological complications if the skull or spine is involved.
+
+The proposed polypeptides target the pathological acceleration of bone turnover through several mechanisms. Salmon Calcitonin and its analogs act as direct inhibitors of osteoclast activity by binding to G-protein coupled receptors on the osteoclast surface, rapidly reducing bone resorption. The OPG-derived fragments and Denosumab-inspired sequences serve as decoys or blockers for RANKL, the primary cytokine driving osteoclast differentiation. To manage the structural integrity of the bone, PTHrP and Sclerostin fragments are included to modulate osteoblast behavior and favor the formation of more organized bone tissue. Designed polypeptides like D1-RANK-Bind are engineered to competitively inhibit the RANK-RANKL interaction, while D2-Vasc-Stop addresses the hyper-vascularization typical of Pagetic lesions by mimicking anti-angiogenic signaling motifs.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Paget’s Disease of Bone p01"
+"Loaded_Programs=Paget’s Disease of Bone p02"
+"Loaded_Programs=Paget’s Disease of Bone p03"
+"Loaded_Programs=Paget’s Disease of Bone p04"
+"Loaded_Programs=Paget’s Disease of Bone p05"
+"Loaded_Programs=Paget’s Disease of Bone p06"
+"Loaded_Programs=Paget’s Disease of Bone p07"
+"Loaded_Programs=Paget’s Disease of Bone p08"
+"Loaded_Programs=Paget’s Disease of Bone p09"
+"Loaded_Programs=Paget’s Disease of Bone p10"
+"Loaded_Programs=Paget’s Disease of Bone p11"
+"Loaded_Programs=Paget’s Disease of Bone p12"
+"Loaded_Frequencies=M102.001=1,M87.032,M114.043,M113.084,M87.032,M101.048,M102.001,M99.068,M113.084,M57.021,M128.095,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M128.095,M113.084,M128.058,M101.048,M163.063,M97.053,M156.101,M101.048,M114.043,M101.048,M57.021,M87.032,M71.037,M101.048,M96.069,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M128.095,M128.058,M129.043,M97.053,M128.095,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M115.027,M156.101,M57.021,M163.063,M147.068,M115.027,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M99.068,M87.032,M129.043,M137.059,M128.058,M113.084,M113.084,M137.059,M115.027,M128.095,M57.021,M128.095,M87.032,M113.084,M128.058,M115.027,M113.084,M156.101,M156.101,M156.101,M147.068,M147.068,M113.084,M137.059,M137.059,M113.084,M113.084,M71.037,M129.043,M113.084,M137.059,M101.048,M71.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.084,M101.048,M156.101,M147.068,M137.059,M114.043,M128.058,M87.032,M129.043,M113.084,M128.095,M115.027,M147.068,M57.021,M101.048,M129.043,M71.037,M71.037,M156.101,M97.053,M128.058,M128.095,M57.021,M156.101,M128.095,M97.053,M156.101,M97.053,M156.101,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M57.021,M113.084,M115.027,M147.068,M113.084,M156.101,M113.084,M115.027,M97.053,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M156.101,M186.079,M156.101,M186.079,0=4,"
+"Loaded_Frequencies=M186.079=1,M113.084,M97.053,M186.079,M113.084,M97.053,0=4,"
+"Loaded_Frequencies=M115.027=1,M57.021,M115.027,M57.021,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M128.095,M97.053,M128.095,M97.053,0=4,"
+"[/Preset]"

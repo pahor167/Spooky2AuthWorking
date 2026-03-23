@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Relapsing-Remitting Multiple Sclerosis (RRMS) (Coil)"
+"Preset_Notes=Relapsing-Remitting Multiple Sclerosis (RRMS) for Coil
+
+Relapsing-Remitting Multiple Sclerosis (RRMS) with recurring Foot Drop, tight muscles, sensitive scalp, tight trapezoid muscles, leg/foot shake, hyper sensitivity to jarring, dry eye, depth perception issues
+
+Relapsing-Remitting Multiple Sclerosis (RRMS) is characterized by episodes of new or worsening symptoms (relapses) followed by periods of partial or complete recovery (remissions). Symptoms include foot drop (difficulty lifting the foot), muscle tightness and spasticity (stiffness in muscles like trapezoids), occasional tremors or shakes in legs/feet, hypersensitivity to jarring movements (sensory issues), neuropathic pain (sensitive scalp/head), dry eye (ocular surface inflammation), and depth perception problems (visual processing deficits). Treatment focuses on immunomodulation, neuroprotection, remyelination, and symptom-specific relief.
+1. Immunomodulation: Thymosin alpha 1 - Modulates immune response, reduces relapse frequency in RRMS
+2. Remyelination: Thymosin beta 4 - Promotes oligodendrocyte differentiation, repairs myelin to improve nerve function
+3. Neuroprotection: Humanin - Protects neurons from degeneration, supports overall CNS health
+4. Anti-inflammatory: KPV - Downregulates pro-inflammatory cytokines, reduces systemic inflammation
+5. Neuropathic pain relief: Semax - Reduces oxidative stress, inhibits pain pathways for sensitive scalp and head
+6. Anti-spasticity: BPC-157 - Promotes muscle and nerve repair, alleviates tightness in trapezoids and body muscles
+7. Tremor reduction: Selank - Modulates inflammation and cytokines, may stabilize tremors in legs/feet
+8. Gait improvement: TB-500 - Enhances tissue repair, improves foot drop and slide
+9. Dry eye management: Designed DFC peptide - Suppresses oxidative stress, apoptosis, and inflammation in ocular tissues
+10. Visual improvement: GLP-1 - Provides neuroprotection for visual pathways, addresses depth perception issues
+11. Sensory modulation: Cortistatin - Alleviates neuropathic pain and hypersensitivity to jarring movements
+12. Muscle relaxation: VIP - Improves blood flow and reduces muscle stiffness throughout the body
+
+"
+"Loaded_Programs=Relapsing-Remitting Multiple Sclerosis (RRMS) p01"
+"Loaded_Programs=Relapsing-Remitting Multiple Sclerosis (RRMS) p02"
+"Loaded_Programs=Relapsing-Remitting Multiple Sclerosis (RRMS) p03"
+"Loaded_Programs=Relapsing-Remitting Multiple Sclerosis (RRMS) p04"
+"Loaded_Programs=Relapsing-Remitting Multiple Sclerosis (RRMS) p05"
+"Loaded_Programs=Relapsing-Remitting Multiple Sclerosis (RRMS) p06"
+"Loaded_Programs=Relapsing-Remitting Multiple Sclerosis (RRMS) p07"
+"Loaded_Programs=Relapsing-Remitting Multiple Sclerosis (RRMS) p08"
+"Loaded_Programs=Relapsing-Remitting Multiple Sclerosis (RRMS) p09"
+"Loaded_Programs=Relapsing-Remitting Multiple Sclerosis (RRMS) p10"
+"Loaded_Programs=Relapsing-Remitting Multiple Sclerosis (RRMS) p11"
+"Loaded_Programs=Relapsing-Remitting Multiple Sclerosis (RRMS) p12"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M115.027=1,M147.068,M103.009,M97.053,M97.053,M57.021,M147.068,M114.043,M101.048,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"[/Preset]"

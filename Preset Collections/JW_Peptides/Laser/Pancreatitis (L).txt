@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Pancreatitis (L)"
+"Preset_Notes=Pancreatitis for Laser
+
+Pancreatitis, encompassing acute and chronic forms, involves key mechanisms such as pancreatic autodigestion from premature enzyme activation, inflammation driven by cytokines (e.g., TNF-alpha, IL-6), oxidative stress and ROS, apoptosis of acinar cells, pain from nerve involvement, fibrosis in chronic cases, and impaired regeneration. Biological targets include melanocortin receptors for anti-inflammation, GLP-1 receptors for beta-cell protection, mitochondrial pathways for energy homeostasis, and growth factors for tissue repair. The proposed peptides target these through cytokine suppression, antioxidant effects, anti-apoptotic signaling, and promotion of healing. All 10 peptides are real-world validated (from preclinical, clinical, or literature sources like PMC articles and PubMed), covering the condition comprehensively. Modes of action include attenuating severity in models, protecting against cerulein-induced damage, enhancing mitochondrial biogenesis, and reducing oxidative stress. Physicochemical considerations: linear peptides like BPC-157 offer stability; amidated forms prolong half-life; pharmacodynamics support systemic or local delivery for pancreatic effects.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Pancreatitis p01"
+"Loaded_Programs=Pancreatitis p02"
+"Loaded_Programs=Pancreatitis p03"
+"Loaded_Programs=Pancreatitis p04"
+"Loaded_Programs=Pancreatitis p05"
+"Loaded_Programs=Pancreatitis p06"
+"Loaded_Programs=Pancreatitis p07"
+"Loaded_Programs=Pancreatitis p08"
+"Loaded_Programs=Pancreatitis p09"
+"Loaded_Programs=Pancreatitis p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M103.009=1,M113.084,M156.101,M147.068,M99.068,M87.032,M113.084,M115.027,M114.043,M128.095,M128.095,M156.101,M114.043,M113.084,M129.043,M87.032,M87.032,M129.043,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M114.043,M101.048,M97.053,M113.084,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"[/Preset]"

@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dyspareunia (C)"
+"Preset_Notes=Dyspareunia for Contact
+
+A targeted multi-axis therapeutic array focused on reversing the underlying biological drivers of painful intercourse, including mucosal atrophy, pelvic hypertonicity, and sensory hypersensitivity.
+
+1. Mucosal Repair: BPC-157 - Accelerates healing of micro-trauma in the vaginal epithelium and promotes tissue regeneration.
+2. Muscle Relaxation: Argireline - Inhibits the SNARE complex to reduce involuntary hypertonicity of the pelvic floor muscles.
+3. Neurogenic Inflammation Control: Substance P Antagonist Peptide - Blocks NK1 receptors to suppress neurogenic vasodilation and localized edema.
+4. Collagen Synthesis Support: GHK-Cu - Stimulates the production of collagen and glycosaminoglycans to improve mucosal elasticity.
+5. Vascular Normalization: Angiotensin-(1-7) - Enhances microcirculation to optimize tissue oxygenation and nutrient delivery.
+6. Central Sensitization Modulation: Selank - Regulates GABAergic activity to decrease the emotional and physical intensity of chronic pain.
+7. Mast Cell Stabilization: Gastric Inhibitory Polypeptide (Fragment) - Prevents the release of inflammatory mediators like histamine from vestibular mast cells.
+8. Endorphin System Activation: DADLE - A stable delta-opioid agonist providing potent localized analgesia without systemic effects.
+9. Structural Integrity: Matrixyl - Enhances the synthesis of basement membrane proteins to reinforce the vaginal wall structure.
+10. General Tissue Homeostasis: Epitalon - Promotes balanced protein synthesis and cellular repair in the urogenital tract.
+11. Regenerative Signaling: Thymosin Beta-4 (Fragment) - Upregulates actin-sequestering proteins to facilitate rapid cellular migration and repair.
+12. Targeted Desensitization: Dyspareu-Ease - Engineered to inhibit TRPV1-mediated mechanical pain signaling in mucosal nerve endings.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dyspareunia p01"
+"Loaded_Programs=Dyspareunia p02"
+"Loaded_Programs=Dyspareunia p03"
+"Loaded_Programs=Dyspareunia p04"
+"Loaded_Programs=Dyspareunia p05"
+"Loaded_Programs=Dyspareunia p06"
+"Loaded_Programs=Dyspareunia p07"
+"Loaded_Programs=Dyspareunia p08"
+"Loaded_Programs=Dyspareunia p09"
+"Loaded_Programs=Dyspareunia p10"
+"Loaded_Programs=Dyspareunia p11"
+"Loaded_Programs=Dyspareunia p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M129.043,M57.021,M101.048,M147.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M57.021,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M186.079=1,M97.053,M163.063,M128.095,M156.101,M113.084,0=4,"
+"[/Preset]"

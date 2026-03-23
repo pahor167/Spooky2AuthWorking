@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Erectile Dysfunction (C)"
+"Preset_Notes=Erectile Dysfunction for Contact
+
+Erectile dysfunction (ED), also known as male impotence, is defined as the persistent or recurrent inability to achieve and/or maintain a penile erection sufficient for satisfactory sexual performance. It is a multifactorial condition with organic, psychogenic, and mixed etiologies, affecting quality of life, self-esteem, and relationships. Primary causes include vascular endothelial dysfunction (e.g., from diabetes, hypertension, atherosclerosis), reduced nitric oxide bioavailability, impaired cavernosal smooth muscle relaxation, neuroendocrine dysregulation (low arousal signals from the brain), hormonal deficiencies (e.g., hypogonadism), and oxidative stress or neuropathy.
+
+Pathophysiology centers on failure of the nitric oxide-cGMP pathway in the corpus cavernosum for vasodilation, inadequate central pro-erectile signals (e.g., melanocortin or dopaminergic), and deficient peripheral neuropeptide-mediated relaxation (e.g., VIP). Current treatments like PDE5 inhibitors address peripheral cGMP but not central or neuropeptide components effectively in all patients.
+
+The proposed polypeptides comprehensively target three key therapeutic axes:
+- Central melanocortin pathway activation: Bremelanotide (PT-141), a real-world cyclic heptapeptide derived from alpha-MSH motifs, acts as a melanocortin receptor agonist in the hypothalamus to initiate arousal and erection; designed analogs incorporate disulfide or head-to-tail cyclization based on alpha-MSH core (HFRW) for enhanced CNS penetration and stability.
+- Peripheral VIP-mediated smooth muscle relaxation: Vasoactive Intestinal Polypeptide (VIP), a real-world 28-residue amidated neuropeptide used investigationally for direct cavernosal relaxation; designed analogs are truncated or cyclic variants of VIP motifs for proteolytic resistance while preserving receptor binding.
+- Nitric oxide pathway potentiation: Designed cationic cyclic peptides, rationally derived from principles of toxin peptides (e.g., PnPP-19-like NO enhancement without toxicity), feature high positive charge and cyclization for endothelial targeting, improved NO signaling, and vascular dilation in vasculogenic ED.
+
+All designed polypeptides use limited PTMs (N-ac, C-am, disulfide/head-to-tail cyclization) for drug-likeness, stability, and solubility; physicochemical profiles favor hydrophilic nature and low instability for potential subcutaneous/nasal delivery.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Erectile Dysfunction p01"
+"Loaded_Programs=Erectile Dysfunction p02"
+"Loaded_Programs=Erectile Dysfunction p03"
+"Loaded_Programs=Erectile Dysfunction p04"
+"Loaded_Programs=Erectile Dysfunction p05"
+"Loaded_Programs=Erectile Dysfunction p06"
+"Loaded_Programs=Erectile Dysfunction p07"
+"Loaded_Programs=Erectile Dysfunction p08"
+"Loaded_Frequencies=M155.095=1,M115.027,M137.059,M147.068,M156.101,M186.079,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M113.059,0=4,"
+"Loaded_Frequencies=M144.012=1,M87.032,M163.063,M87.032,M113.084,M129.043,M137.059,M147.068,M156.101,M186.079,M101.017,0=4,"
+"Loaded_Frequencies=M137.059=1,M147.068,M156.101,M186.079,M128.095,M97.053,M57.021,M87.032,M163.063,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M144.012=1,M128.095,M128.095,M156.101,M156.101,M156.101,M128.095,M128.095,M186.079,M128.095,M128.095,M156.101,M156.101,M156.101,M101.017,0=4,"
+"[/Preset]"

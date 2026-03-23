@@ -1,0 +1,18 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Dog Leishmaniasis (L)"
+"Preset_Notes=Dog Leishmaniasis for Laser
+
+Dog Leishmaniasis, caused by protozoan parasites of the Leishmania genus (e.g., L. infantum), is a zoonotic disease transmitted by sandflies, affecting dogs as primary reservoirs. Visceral form predominates in canines, with symptoms including skin lesions, weight loss, epistaxis, lymphadenopathy, splenomegaly, renal failure, and anemia. Pathophysiology involves parasite invasion of macrophages, evasion of immune killing, chronic inflammation, hypergammaglobulinemia, and progressive organ damage, particularly to kidney, liver, and spleen.
+The proposed polypeptides address Dog Leishmaniasis through antiprotozoal killing, immune activation, and organ protection. For antiprotozoal action, a designed polypeptide disrupts Leishmania membrane integrity via amphipathic helices, promoting parasite apoptosis within host cells; this design's feasibility is grounded in leishmanicidal peptides from natural sources, adapted for canine tolerance and systemic delivery. For immunostimulation, a designed polypeptide activates dendritic cells to prime Th1 responses, increasing IFN-gamma and nitric oxide production for intracellular parasite elimination; conceptual from cytokine-mimicking peptides in protozoal research. For anti-inflammatory and renal safeguarding, a designed polypeptide modulates TGF-beta signaling to prevent fibrosis and glomerulopathy, supporting recovery during allopurinol or miltefosine treatment; these designed polypeptides provide a holistic approach, potentially reducing relapse rates in endemic areas.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Dog Leishmaniasis p01"
+"Loaded_Programs=Dog Leishmaniasis p02"
+"Loaded_Programs=Dog Leishmaniasis p03"
+"Loaded_Frequencies=M113.084=1,M128.095,M113.084,M113.084,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.095,M99.068,M99.068,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.095,M97.053,M97.053,M128.095,M97.053,0=4,"
+"[/Preset]"

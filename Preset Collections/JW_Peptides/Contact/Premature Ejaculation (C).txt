@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Premature Ejaculation (C)"
+"Preset_Notes=Premature Ejaculation for Contact
+
+Premature Ejaculation is a prevalent male sexual dysfunction defined by persistent or recurrent ejaculation with minimal sexual stimulation before, on, or shortly after penetration and before the person wishes it, causing marked distress or interpersonal difficulty. Its causes are multifactorial, encompassing psychological elements such as performance anxiety, stress, and depression; biological factors including genetic predisposition, penile hypersensitivity, abnormal levels of neurotransmitters like serotonin, dopamine, and oxytocin, hormonal imbalances in thyroid, pituitary, and gonadal axes, and altered neural pathways in the central and peripheral nervous systems; and acquired conditions like prostatitis or thyroid disorders. The pathophysiology centers on a dysregulated ejaculatory reflex, involving shortened latency in the spinal generator for ejaculation (LSt cells in L3-L4), reduced serotonergic inhibition in the brain leading to rapid climax, heightened dopaminergic facilitation of sexual motivation, excessive oxytocin release promoting contractile responses in reproductive organs, and peripheral sensory over-stimulation contributing to quick arousal escalation and uncontrolled emission and expulsion phases. The proposed polypeptides address these through targeted mechanisms: real-world polypeptides like Oxytocin directly influence the oxytocinergic pathway to modulate smooth muscle contractions and neural signals for better ejaculatory control; Bremelanotide activates melanocortin receptors in the central nervous system to enhance arousal regulation and extend latency; Kisspeptin-10 and GnRH stimulate the hypothalamic-pituitary-gonadal axis to optimize hormone levels, potentially stabilizing ejaculatory thresholds. Designed polypeptides complement this by mimicking serotonin to bolster serotonergic inhibition and prolong intravaginal latency; balancing dopamine to curb excessive facilitatory effects; promoting nitric oxide for improved vascular and smooth muscle relaxation; emulating opioids for analgesic desensitization of sensory inputs; modulating alpha-adrenergic receptors to prevent premature emission; desensitizing peripheral nerves to reduce glans hypersensitivity; relaxing ejaculatory muscles to inhibit rhythmic contractions; fine-tuning central neural circuits for integrated control; supporting peripheral modulation to refine reflex arcs; alleviating psychological distress via neuropeptide analogs; and countering oxidative stress in neural tissues to preserve function, ensuring holistic coverage of all pathophysiological axes with scientific rationale based on neurotransmitter, hormonal, and neural feasibility, considering physicochemical properties like solubility, stability, and bioavailability for therapeutic potential.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Premature Ejaculation p01"
+"Loaded_Programs=Premature Ejaculation p02"
+"Loaded_Programs=Premature Ejaculation p03"
+"Loaded_Programs=Premature Ejaculation p04"
+"Loaded_Programs=Premature Ejaculation p05"
+"Loaded_Programs=Premature Ejaculation p06"
+"Loaded_Programs=Premature Ejaculation p07"
+"Loaded_Programs=Premature Ejaculation p08"
+"Loaded_Programs=Premature Ejaculation p09"
+"Loaded_Programs=Premature Ejaculation p10"
+"Loaded_Programs=Premature Ejaculation p11"
+"Loaded_Programs=Premature Ejaculation p12"
+"Loaded_Programs=Premature Ejaculation p13"
+"Loaded_Programs=Premature Ejaculation p14"
+"Loaded_Programs=Premature Ejaculation p15"
+"Loaded_Programs=Premature Ejaculation p16"
+"Loaded_Programs=Premature Ejaculation p17"
+"Loaded_Programs=Premature Ejaculation p18"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M155.095=1,M106.019,M137.059,M147.068,M156.101,M186.079,M119.088,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M111.032=1,M137.059,M186.079,M87.032,M163.063,M57.021,M113.084,M156.101,M97.053,M56.037,0=4,"
+"Loaded_Frequencies=M186.079=1,M156.101,M128.095,M186.079,M156.101,M128.095,M186.079,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M87.032,M101.048,M87.032,M163.063,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M147.068=1,M115.027,M129.043,M147.068,M115.027,M129.043,M147.068,M115.027,0=4,"
+"Loaded_Frequencies=M163.063=1,M137.059,M113.084,M163.063,M137.059,M113.084,M163.063,M137.059,0=4,"
+"Loaded_Frequencies=M103.009=1,M114.043,M128.058,M103.009,M114.043,M128.058,M103.009,M114.043,0=4,"
+"Loaded_Frequencies=M99.068=1,M71.037,M97.053,M99.068,M71.037,M97.053,M99.068,M71.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,M163.063,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M156.101,M147.068,M113.084,M156.101,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M137.059,M128.095,M156.101,M137.059,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M97.053=1,M87.032,M101.048,M97.053,M87.032,M101.048,M97.053,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M99.068,M113.084,M113.084,M99.068,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M103.009,M87.032,M131.040,M103.009,M87.032,M131.040,M103.009,0=4,"
+"Loaded_Frequencies=M114.043=1,M128.058,M129.043,M114.043,M128.058,M129.043,M114.043,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M85.053,M57.021,M71.037,M85.053,M57.021,M71.037,0=4,"
+"[/Preset]"

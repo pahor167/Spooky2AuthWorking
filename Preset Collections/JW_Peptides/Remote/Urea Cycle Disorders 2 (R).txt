@@ -1,0 +1,54 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Urea Cycle Disorders 2 (R)"
+"Preset_Notes=Urea Cycle Disorders 2 for Remote
+
+Urea Cycle Disorders, specifically for CPS1, ARG1, ASS1 mutations
+
+Urea cycle disorders caused by mutations in CPS1, ARG1, or ASS1 impair ammonia detoxification, resulting in hyperammonemia, oxidative stress, mitochondrial dysfunction in the brain, neuroinflammation, cognitive impairment, and metabolic dysregulation. Proposed peptides target protective and supportive axes derived from hyperammonemia pathophysiology and enzyme-specific needs.
+
+1. Brain mitochondrial protection: Carnosine - Protects brain mitochondria from ammonia-induced dysfunction and damage
+2. Antioxidant restoration: Glutathione - Replenishes depleted glutathione to counteract oxidative stress from hyperammonemia
+3. Mitochondrial protection: Humanin - Mitochondrial-derived peptide that prevents apoptosis and supports cell survival under ammonia toxicity
+4. Metabolic regulation: MOTS-c - Enhances energy homeostasis and AMPK signaling disrupted in chronic metabolic stress
+5. Neuroprotection: ARA-290 - Provides selective tissue protection and reduces neurological damage, relevant for ARG1-related spasticity
+6. Cognitive enhancement: Semax - Promotes neurotrophic factors and brain repair in hyperammonemic encephalopathy
+7. Anxiolytic support: Selank - Mitigates anxiety and emotional instability associated with chronic UCD symptoms
+8. Anti-inflammatory: KPV - Suppresses neuroinflammation triggered by elevated ammonia
+9. Sleep induction: DSIP - Normalizes delta sleep disrupted by encephalopathic episodes
+10. Brain peptide regulation: Pinealon - Supports brain cell function and normalization in chronic disorders
+11. CPS1 activation: CPSActiv-1 - Designed poly-glutamate peptide mimicking N-acetylglutamate for allosteric activation of mutant CPS1
+12. ARG1 support: ARGSupport-1 - Designed poly-histidine peptide to facilitate manganese coordination and enhance residual ARG1 activity
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Urea Cycle Disorders 2 p01"
+"Loaded_Programs=Urea Cycle Disorders 2 p02"
+"Loaded_Programs=Urea Cycle Disorders 2 p03"
+"Loaded_Programs=Urea Cycle Disorders 2 p04"
+"Loaded_Programs=Urea Cycle Disorders 2 p05"
+"Loaded_Programs=Urea Cycle Disorders 2 p06"
+"Loaded_Programs=Urea Cycle Disorders 2 p07"
+"Loaded_Programs=Urea Cycle Disorders 2 p08"
+"Loaded_Programs=Urea Cycle Disorders 2 p09"
+"Loaded_Programs=Urea Cycle Disorders 2 p10"
+"Loaded_Programs=Urea Cycle Disorders 2 p11"
+"Loaded_Programs=Urea Cycle Disorders 2 p12"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M129.043,M128.059,0=4,"
+"Loaded_Frequencies=M179.070=1,M137.059,M137.059,M137.059,M137.059,M137.059,M136.075,0=4,"
+"[/Preset]"

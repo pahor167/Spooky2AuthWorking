@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Lobular Capillary Hemangioma (Pyogenic Granuloma) (S)"
+"Preset_Notes=Lobular Capillary Hemangioma (Pyogenic Granuloma) for Scalar
+
+Lobular Capillary Hemangioma (Pyogenic Granuloma) is a benign vascular tumor characterized by rapid growth, friability, and frequent bleeding, often arising from minor trauma or inflammation on skin or mucosa. The proposed polypeptides target evidence-based therapeutic axes from literature on anti-angiogenesis, anti-inflammatory effects, wound healing promotion, antioxidant protection, immunomodulation, vascular modulation, pain alleviation, anti-fibrotic effects, and novel optimization to reduce vascular proliferation, control inflammation, promote lesion regression, prevent recurrence, and support post-treatment healing.
+
+1. Anti-angiogenesis: Somatostatin-14 inhibits growth factors like VEGF to reduce excessive vascular proliferation in the lesion.
+2. Anti-inflammatory effects: Cortistatin modulates inflammatory responses to decrease lesion-associated inflammation and promote resolution.
+3. Wound healing promotion: Thymosin beta 4 enhances tissue repair and regeneration post-lesion removal or regression.
+4. Antioxidant protection: Carnosine provides antioxidant effects to combat oxidative stress contributing to lesion persistence.
+5. Immunomodulation: Thymosin alpha 1 stimulates immune responses to aid in lesion clearance and prevent secondary infections.
+6. Vascular modulation: Angiotensin-II regulates vascular tone and remodeling to stabilize abnormal vessels.
+7. Pain alleviation: Neurotensin modulates pain pathways to reduce discomfort from bleeding or ulceration.
+8. Anti-fibrotic effects: E4_Antifibrotic inhibits fibrosis formation that may contribute to lesion recurrence.
+9. Novel optimization for lesion regression: LCH-Eng, an engineered peptide derived from anti-angiogenic motifs with enhanced stability, targets multiple pathways for comprehensive vascular normalization.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Lobular Capillary Hemangioma (Pyogenic Granuloma) p01"
+"Loaded_Programs=Lobular Capillary Hemangioma (Pyogenic Granuloma) p02"
+"Loaded_Programs=Lobular Capillary Hemangioma (Pyogenic Granuloma) p03"
+"Loaded_Programs=Lobular Capillary Hemangioma (Pyogenic Granuloma) p04"
+"Loaded_Programs=Lobular Capillary Hemangioma (Pyogenic Granuloma) p05"
+"Loaded_Programs=Lobular Capillary Hemangioma (Pyogenic Granuloma) p06"
+"Loaded_Programs=Lobular Capillary Hemangioma (Pyogenic Granuloma) p07"
+"Loaded_Programs=Lobular Capillary Hemangioma (Pyogenic Granuloma) p08"
+"Loaded_Programs=Lobular Capillary Hemangioma (Pyogenic Granuloma) p09"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M113.084,M128.058,M163.063,M129.043,M114.043,M128.095,M97.053,M156.101,M156.101,M97.053,M163.063,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M102.001,M129.043,M101.048,M186.079,M156.101,M101.048,M129.043,M71.037,M97.053,M87.032,M71.037,M101.048,M57.021,M128.058,M71.037,M87.032,M87.032,M113.084,M113.084,M57.021,M57.021,M156.101,M113.084,M113.084,M57.021,M128.058,M87.032,M71.037,M71.037,M87.032,M102.001,M137.059,M137.059,M71.037,M163.063,M113.084,M99.068,M113.084,M102.001,M113.084,M129.043,M114.043,M87.032,M147.068,M131.040,M101.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M87.032,M97.053,M71.037,M87.032,M87.032,M128.095,M97.053,0=4,"
+"[/Preset]"

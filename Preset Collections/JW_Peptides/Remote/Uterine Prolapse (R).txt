@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Uterine Prolapse (R)"
+"Preset_Notes=Uterine Prolapse for Remote
+
+Uterine prolapse is a form of pelvic organ prolapse where weakened pelvic floor muscles, ligaments, and connective tissues cause the uterus to descend into or outside the vaginal canal, often related to childbirth trauma, menopause-associated estrogen decline, chronic strain, and extracellular matrix degradation. The proposed polypeptides target mechanistically relevant axes from regenerative medicine and tissue repair literature to enhance collagen synthesis, promote healing, stabilize structures, reduce inflammation, and support overall pelvic integrity.
+
+1. Collagen synthesis and extracellular matrix remodeling: GHK-Cu stimulates collagen production, glycosaminoglycan synthesis, and tissue remodeling.
+2. Cell migration, wound healing, and anti-inflammation: Thymosin_beta_4 accelerates epithelial migration and regeneration while modulating inflammation.
+3. Angiogenesis, ligament stabilization, and multi-tissue repair: BPC-157 promotes vascularization and protects connective tissues.
+4. Innate repair receptor activation and neuroprotection: ARA-290 reduces inflammation and supports tissue protection.
+5. Vasoactive modulation and anti-inflammatory effects: VIP supports smooth muscle function and reduces inflammatory responses.
+6. Antioxidant defense in supportive tissues: Carnosine neutralizes oxidative stress and supports cellular health.
+7. Actin regulation and muscle regeneration: TB-500 enhances flexibility, migration, and repair in muscle and connective tissues.
+8. Anti-apoptotic cellular protection: Humanin mitigates stress-induced cell death in weakened tissues.
+9. Synergistic pelvic tissue reinforcement: PelviRegen-Eng, an engineered hybrid peptide (Ac-GHKGPADDAGLV-NH2) combining GHK and BPC-157 motifs for optimized collagen promotion and structural stability.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Uterine Prolapse p01"
+"Loaded_Programs=Uterine Prolapse p02"
+"Loaded_Programs=Uterine Prolapse p03"
+"Loaded_Programs=Uterine Prolapse p04"
+"Loaded_Programs=Uterine Prolapse p05"
+"Loaded_Programs=Uterine Prolapse p06"
+"Loaded_Programs=Uterine Prolapse p07"
+"Loaded_Programs=Uterine Prolapse p08"
+"Loaded_Programs=Uterine Prolapse p09"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,M57.021,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"[/Preset]"

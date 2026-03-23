@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Hodgkin Disease (Coil)"
+"Preset_Notes=Hodgkin Disease for Coil
+
+Polypeptides designed for Hodgkin disease address key mechanisms in classical Hodgkin lymphoma, particularly immune evasion by Reed-Sternberg cells, EBV association in subsets, and direct tumor targeting. The five therapeutic axes are:
+
+1. PD-1/PD-L1 neutralization: Blocks inhibitory signaling to reactivate T-cell antitumor immunity.
+2. EBV LMP2 epitope targeting: Promotes cytotoxic T-cell responses in EBV-positive cases.
+3. CD30 direct targeting: Binds overexpressed CD30 for potential inhibition or payload delivery.
+4. Mitochondrial disruption: Induces apoptosis via targeted membrane permeabilization.
+5. Membrane lytic activity: Disrupts lymphoma cell membranes through cationic amphipathic action.
+
+Peptide assignments and mechanisms:
+- Peptide 1 (real) targets axis 1 via direct interference with PD-1/PD-L1 binding interface.
+- Peptide 2 (real) targets axis 2 via MHC class I presentation to stimulate LMP2-specific CTLs.
+- Peptide 3 (designed) targets axis 3 via motif enriched for CD30 interaction, stabilized by disulfide cyclization.
+- Peptide 4 (designed) targets axis 4 via amphipathic cationic helical structure for mitochondrial targeting, with C-amidation for stability.
+- Peptide 5 (designed) targets axis 5 via broad-spectrum lytic action derived from natural antimicrobial motifs.
+
+"
+"Loaded_Programs=Hodgkin Disease p01"
+"Loaded_Programs=Hodgkin Disease p02"
+"Loaded_Programs=Hodgkin Disease p03"
+"Loaded_Programs=Hodgkin Disease p04"
+"Loaded_Programs=Hodgkin Disease p05"
+"Loaded_Frequencies=M101.048=1,M129.043,M57.021,M131.040,M113.084,M113.084,M114.043,M99.068,M101.048,M87.032,M114.043,M113.084,M156.101,M99.068,M114.043,M71.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M186.079,M101.048,M113.084,M99.068,M99.068,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M186.079,M87.032,M163.063,M113.084,M128.095,M97.053,M57.021,M87.032,M113.084,M163.063,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"[/Preset]"

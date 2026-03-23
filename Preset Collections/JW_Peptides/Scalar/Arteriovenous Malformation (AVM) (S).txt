@@ -1,0 +1,45 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Arteriovenous Malformation (AVM) (S)"
+"Preset_Notes=Arteriovenous Malformation (AVM) for Scalar
+
+Arteriovenous Malformation (AVM) involves abnormal high-flow connections between arteries and veins, often cerebral, increasing risks of hemorrhage, seizures, and neurological deficits due to vessel dysplasia, inflammation, and hemodynamic stress. While primary treatments remain interventional, the proposed polypeptides target supportive therapeutic axes from preclinical vascular and brain injury models to promote stabilization, repair, reduce inflammation, and provide neuroprotection.
+
+1. Vascular integrity and leakage prevention: BPC-157 (real) counteracts cerebral vascular failure and occlusion sequelae in models.
+2. Actin-mediated cell migration and tissue repair: TB-500 (real) enhances healing and anti-inflammatory responses.
+3. Extracellular matrix remodeling and anti-oxidation: GHK-Cu (real) supports collagen synthesis and vessel wall strengthening.
+4. Selective neuroprotection via innate repair: ARA-290 (real) activates tissue-protective pathways without erythropoietic effects.
+5. Melanocortin anti-inflammatory modulation: KPV (real) reduces inflammation relevant to perivascular changes.
+6. Comprehensive regeneration and vessel maturation: Thymosin_beta_4 (real) promotes stable angiogenesis and anti-apoptotic effects.
+7. Protease-resistant vascular stabilization: RI-BPC-Eng (designed) retro-inverso variant of BPC-157 motif for enhanced durability and sustained protection.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Arteriovenous Malformation (AVM) p01"
+"Loaded_Programs=Arteriovenous Malformation (AVM) p02"
+"Loaded_Programs=Arteriovenous Malformation (AVM) p03"
+"Loaded_Programs=Arteriovenous Malformation (AVM) p04"
+"Loaded_Programs=Arteriovenous Malformation (AVM) p05"
+"Loaded_Programs=Arteriovenous Malformation (AVM) p06"
+"Loaded_Programs=Arteriovenous Malformation (AVM) p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M57.021,M71.037,M115.027,M115.027,M71.037,M97.053,M128.095,M57.021,M97.053,M97.053,M97.053,M129.043,M57.021,0=4,"
+"[/Preset]"

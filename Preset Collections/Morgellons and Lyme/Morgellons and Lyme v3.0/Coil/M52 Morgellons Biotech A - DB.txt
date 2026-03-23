@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"Repeat_Chain=0"
+"PresetName=M52 Morgellons Biotech A - DB"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Spooky Coil.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Morgellons Disease 1 XTRA
+Morgellons Chronic Lesions and Fibres XTRA
+Morgellons Internal XTRA
+Morgellons Expeller XTRA
+
+Connect Spooky PEMF Coil to the generator, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+"
+"Loaded_Programs=Morgellons Disease 1 (XTRA)"
+"Loaded_Programs=Morgellons Chronic Lesions and Fibres (XTRA)"
+"Loaded_Programs=Morgellons Internal (XTRA)"
+"Loaded_Programs=Morgellons Expeller (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=5858.25=180,5856.38=180,4271.25=180,4264=180,330=180,10000=180,7344=180,5000=180,1550=180,1234=180,740=180,880=180,835=180,787=180,727=180,160=180,500=180,1600=180,5611=180,4014=180,3448=180,3347=180,3176=180,2929=180,2867=180,2855=180,2791=180,2720=180,2489=180,2180=180,1862=180,1488=180,880=180,787=180,728=180,665=180,464=180,432=180,304=180,120=180,30=180,20=180,8=180,920=180,2016=180,625=180,"
+"Loaded_Frequencies=5100=180,10880=180,10800=180,27860=180,31167=180,27320=180,39392=180,36900=180,39776=180,37500=180,"
+"Loaded_Frequencies=2560=180,5100=180,10880=180,10800=180,35000=180,27500=180,27860=180,36827=180,29095=180,39776=180,"
+"Loaded_Frequencies=2014=600,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

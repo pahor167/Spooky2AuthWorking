@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Thoracic Tumors (P)"
+"Preset_Notes=Thoracic Tumors for Plasma
+
+Thoracic tumors primarily include lung cancers (non-small cell and small cell lung cancer) and other chest malignancies, often driven by uncontrolled proliferation, angiogenesis, and immune evasion. The following polypeptides span targeting, delivery, signaling inhibition, and direct cytotoxic mechanisms supported by preclinical lung tumor models:
+
+1. Broad-spectrum tumor homing: HSP1 - Binds cell surface markers across lung cancer subtypes to enable targeted drug delivery and imaging
+2. Endocytosis-promoting targeting: HSP2 - Facilitates intracellular therapeutic accumulation via endocytic uptake in diverse lung tumors
+3. High-affinity endocytic targeting: HSP4 - Strong binding with endocytosis for enhanced drug release and efficacy in orthotopic lung cancer
+4. Cancer-selective penetration: Azurin_p28 - Preferentially enters tumor cells to stabilize p53 and induce apoptosis
+5. Anti-proliferative signaling: Angiotensin-(1-7) - Activates Mas/AT2 receptors suppressing growth, migration, and angiogenesis in lung tumors
+6. Anti-angiogenic mimicry: ABT-510 - Thrombospondin-1 analog inhibiting endothelial cell proliferation via CD36
+7. Translocating intracellular interference: Buforin II - Cell-penetrating peptide binding nucleic acids to disrupt cancer cell replication
+8. Pore-forming cytolysis: Protegrin-1 - Forms membrane pores leading to osmotic lysis of lung cancer cells
+9. Cyclic beta-sheet cytolysis: Gomesin - Disulfide-stabilized hairpin structure for potent membrane disruption in tumors
+10. Mitochondrial apoptotic induction: KLAK_LAK - Amphipathic peptide permeabilizing mitochondria to trigger programmed cell death
+11. HER2 signaling blockade: HER2-pep-GS - In silico-designed peptide competitively inhibiting HER2 dimerization and oncogenic signaling
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Thoracic Tumors p01"
+"Loaded_Programs=Thoracic Tumors p02"
+"Loaded_Programs=Thoracic Tumors p03"
+"Loaded_Programs=Thoracic Tumors p04"
+"Loaded_Programs=Thoracic Tumors p05"
+"Loaded_Programs=Thoracic Tumors p06"
+"Loaded_Programs=Thoracic Tumors p07"
+"Loaded_Programs=Thoracic Tumors p08"
+"Loaded_Programs=Thoracic Tumors p09"
+"Loaded_Programs=Thoracic Tumors p10"
+"Loaded_Programs=Thoracic Tumors p11"
+"Loaded_Frequencies=M57.021=1,M71.037,M131.040,M137.059,M113.084,M97.053,M186.079,M137.059,M131.040,M57.021,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M114.043=1,M97.053,M186.079,M129.043,M129.043,M128.058,M57.021,M163.063,M156.101,M163.063,M87.032,M131.040,0=4,"
+"Loaded_Frequencies=M114.043=1,M114.043,M97.053,M186.079,M156.101,M129.043,M131.040,M131.040,M163.063,M113.084,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M101.048,M71.037,M71.037,M115.027,M131.040,M128.058,M57.021,M99.068,M99.068,M101.048,M115.027,M57.021,M131.040,M71.037,M87.032,M57.021,M113.084,M115.027,M128.095,M115.027,M163.063,M113.084,M128.095,M97.053,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M99.068,M113.084,M101.048,M156.101,M114.043,M128.058,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M111.032=1,M102.001,M156.101,M156.101,M113.084,M102.001,M163.063,M128.095,M128.058,M156.101,M102.001,M99.068,M101.048,M163.063,M102.001,M156.101,M57.021,M155.093,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M115.027,M97.053,M128.095,M137.059,M57.021,M57.021,M101.048,M57.021,M87.032,M114.043,M114.043,M129.043,M115.027,M113.084,M156.101,0=4,"
+"[/Preset]"

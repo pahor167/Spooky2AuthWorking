@@ -1,0 +1,61 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Infectious Mononucleosis (S)"
+"Preset_Notes=Infectious Mononucleosis for Scalar
+
+Infectious mononucleosis, commonly known as mono or glandular fever, is an acute viral illness primarily caused by the Epstein-Barr virus (EBV), a double-stranded DNA gammaherpesvirus that infects over 90% of the global population. Primary EBV infection typically occurs via salivary transmission, initially replicating in oral epithelial cells and then spreading to B lymphocytes, where it establishes lifelong latency. In adolescents and young adults, it frequently presents with classic symptoms including profound fatigue, pharyngitis (sore throat), fever, cervical lymphadenopathy, splenomegaly, and hepatomegaly, often with atypical lymphocytosis dominated by activated CD8+ T cells responding to EBV-infected B cells. The pathophysiology involves robust polyclonal B cell proliferation driven by latent viral proteins (e.g., EBNA2, LMP1), countered by a massive cytotoxic T cell response that contributes to both viral control and symptom severity, such as inflammation and fatigue. Complications can include airway obstruction, splenic rupture, autoimmune sequelae, or rare progression to chronic active EBV or lymphoproliferative disorders. While usually self-limiting with supportive care, the excessive immune activation and direct viral effects create opportunities for targeted polypeptide interventions.
+
+The proposed panel addresses infectious mononucleosis through complementary mechanisms grounded in EBV biology. Real-world polypeptides predominate, including one direct inhibitor of EBNA2-mediated transcription and multiple well-established HLA-restricted epitope peptides extensively studied and used in clinical protocols to generate EBV-specific cytotoxic T cells, enhancing clearance of infected cells during lytic and latent phases relevant to acute infection control. These epitopes target key viral proteins (lytic: BMLF1, BRLF1, BZLF1; latent: LMP2, EBNA1, EBNA3; envelope: gB), promoting specific CD8+ T cell expansion to reduce viral load and B cell hyperproliferation. The designed polypeptides (clearly flagged below as Designed) supplement by addressing gaps, providing conceptual direct antiviral action via cationic amphipathic structures for envelope disruption/entry inhibition, cyclic scaffolds for signaling interference (e.g., LMP1/NF-{kappa}B pathways), and non-standard residue-containing sequences for enhanced immune balance, anti-inflammatory effects, and fatigue alleviation, with improved stability and bioavailability. Together, the set covers viral replication inhibition, immune enhancement/modulation, proliferation control, entry blockade, and symptomatic relief for comprehensive management.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Infectious Mononucleosis p01"
+"Loaded_Programs=Infectious Mononucleosis p02"
+"Loaded_Programs=Infectious Mononucleosis p03"
+"Loaded_Programs=Infectious Mononucleosis p04"
+"Loaded_Programs=Infectious Mononucleosis p05"
+"Loaded_Programs=Infectious Mononucleosis p06"
+"Loaded_Programs=Infectious Mononucleosis p07"
+"Loaded_Programs=Infectious Mononucleosis p08"
+"Loaded_Programs=Infectious Mononucleosis p09"
+"Loaded_Programs=Infectious Mononucleosis p10"
+"Loaded_Programs=Infectious Mononucleosis p11"
+"Loaded_Programs=Infectious Mononucleosis p12"
+"Loaded_Programs=Infectious Mononucleosis p13"
+"Loaded_Programs=Infectious Mononucleosis p14"
+"Loaded_Programs=Infectious Mononucleosis p15"
+"Loaded_Programs=Infectious Mononucleosis p16"
+"Loaded_Programs=Infectious Mononucleosis p17"
+"Loaded_Programs=Infectious Mononucleosis p18"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M103.009,M101.048,M113.084,M99.068,M71.037,M131.040,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M99.068,M113.084,M115.027,M137.059,M113.084,M113.084,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M128.095,M147.068,M128.095,M128.058,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M103.009=1,M113.084,M57.021,M57.021,M113.084,M113.084,M101.048,M131.040,M99.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M163.063,M71.037,M113.084,M71.037,M113.084,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M186.079,M101.048,M113.084,M99.068,M99.068,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M101.048=1,M163.063,M57.021,M97.053,M99.068,M147.068,M131.040,M103.009,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M103.009,M87.032,M87.032,M103.009,M97.053,M113.084,M87.032,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M115.027,M128.095,M57.021,M101.048,M163.063,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M97.053,M99.068,M57.021,M129.043,M71.037,M115.027,M163.063,M147.068,M129.043,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M156.101,M115.027,M156.101,M113.084,M71.037,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M156.101,M57.021,M156.101,M71.037,M163.063,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M113.084,M129.043,M131.040,M113.084,M186.079,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M102.001,M128.095,M114.079,M156.101,M86.048,M128.095,M113.048,M113.084,M156.101,M102.001,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M114.079,M86.048,M128.095,M156.101,M57.021,M85.053,M150.954,M237.148,M128.058,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M186.079,M114.079,M86.048,M113.048,M102.001,M128.095,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M113.048,M113.084,M85.053,M114.079,M128.095,M86.048,M156.101,M237.148,0=4,"
+"[/Preset]"

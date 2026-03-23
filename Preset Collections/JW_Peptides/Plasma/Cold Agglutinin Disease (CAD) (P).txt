@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Cold Agglutinin Disease (CAD) (P)"
+"Preset_Notes=Cold Agglutinin Disease (CAD) for Plasma
+
+Cold Agglutinin Disease (CAD) is a rare autoimmune disorder in which cold-reactive autoantibodies, usually IgM, bind to red blood cells at low temperatures, activating the complement system and causing hemolysis, leading to anemia, fatigue, and other symptoms. 
+
+The polypeptides are selected to target multiple therapeutic axes including complement inhibition, B-cell and plasma cell targeting, and prevention of hemolysis and thrombosis. Real-world polypeptides are based on verified sources, while designed ones are conceptual to ensure full coverage, flagged as designed.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p01"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p02"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p03"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p04"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p05"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p06"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p07"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p08"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p09"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p10"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p11"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p12"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p13"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p14"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p15"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p16"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p17"
+"Loaded_Programs=Cold Agglutinin Disease (CAD) p18"
+"Loaded_Frequencies=M113.084=1,M71.037,M113.084,M113.084,M113.084,M129.043,M97.053,M113.084,M103.009,M103.009,M128.058,M129.043,M156.101,M71.037,M71.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M102.001,M99.068,M200.095,M128.058,M115.027,M186.079,M57.021,M71.037,M137.059,M156.101,M102.001,M100.064,0=4,"
+"Loaded_Frequencies=M155.095=1,M102.001,M99.068,M200.095,M128.058,M115.027,M186.079,M57.021,M71.037,M137.059,M156.101,M102.001,M100.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M128.095,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M85.053,M113.084,M113.048,M237.148,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M100.064,M200.095,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M237.148,M86.048,M113.048,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M156.101,M114.079,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M200.095,M150.954,M237.148,M100.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M99.068,M86.048,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M113.084=1,M85.053,M113.048,M86.048,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M147.068,M163.063,M114.079,M100.064,M102.001,0=4,"
+"Loaded_Frequencies=M237.148=1,M150.954,M200.095,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M114.079=1,M100.064,M113.084,M85.053,M237.148,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M113.084,M86.048,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M86.048,M114.079,M200.095,M113.084,0=4,"
+"Loaded_Frequencies=M113.048=1,M237.148,M100.064,M150.954,M85.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M99.068,M71.037,M114.079,M86.048,M102.001,0=4,"
+"[/Preset]"

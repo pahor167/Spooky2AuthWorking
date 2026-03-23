@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Lack of Focus and Engagement with Daily Life (P)"
+"Preset_Notes=Lack of Focus and Engagement with Daily Life for Plasma
+
+Lack of Focus and Engagement with Daily Life is characterized by impaired concentration, reduced motivation, brain fog, and diminished interest in routine activities, often stemming from stress, subtle neuroinflammation, neurotransmitter imbalances, or reduced neuroplasticity. The proposed polypeptides target evidence-based nootropic and neurotrophic axes from clinical/preclinical studies on cognitive enhancers, anxiolytics, and synaptic stabilizers to restore attention, boost motivation, and enhance daily cognitive vitality.
+
+1. Stabilized ACTH(4-10) analog nootropic enhancement: N-Acetyl Semax boosts BDNF, attention, and mental clarity for sustained focus.
+2. Tuftsin analog anxiolytic modulation: Selank reduces anxiety-induced distractions and supports emotional engagement.
+3. Bioregulatory tripeptide neural and epigenetic optimization: Pinealon promotes brain cell health and concentration.
+4. FGF mimetic synaptic plasticity promotion: FGL peptide enhances neurite outgrowth and cognitive flexibility.
+5. ADNP-derived microtubule stabilization: NAP (Davunetide) strengthens neuronal resilience and processing efficiency.
+6. Humanin-ADNF hybrid potent neurotrophic protection: Colivelin counters apoptosis and supports motivation pathways.
+7. Engineered beta-lactolin-inspired tetrameric repeat for attention optimization: Ac-(GTWY)4-NH2 amplifies associative learning and focus control based on whey-derived peptide research.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Lack of Focus and Engagement with Daily Life p01"
+"Loaded_Programs=Lack of Focus and Engagement with Daily Life p02"
+"Loaded_Programs=Lack of Focus and Engagement with Daily Life p03"
+"Loaded_Programs=Lack of Focus and Engagement with Daily Life p04"
+"Loaded_Programs=Lack of Focus and Engagement with Daily Life p05"
+"Loaded_Programs=Lack of Focus and Engagement with Daily Life p06"
+"Loaded_Programs=Lack of Focus and Engagement with Daily Life p07"
+"Loaded_Frequencies=M173.051=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M99.068,M163.063,M99.068,M99.068,M71.037,M129.043,M114.043,M128.058,M128.058,M57.021,M128.095,M87.032,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M87.032=1,M71.037,M113.084,M113.084,M156.101,M87.032,M113.084,M97.053,M71.037,M97.053,M71.037,M57.021,M71.037,M87.032,M156.101,M113.084,M113.084,M113.084,M113.084,M101.048,M57.021,M129.043,M113.084,M115.027,M113.084,M97.053,0=4,"
+"Loaded_Frequencies=M99.032=1,M101.048,M186.079,M163.063,M57.021,M101.048,M186.079,M163.063,M57.021,M101.048,M186.079,M163.063,M57.021,M101.048,M186.079,M162.079,0=4,"
+"[/Preset]"

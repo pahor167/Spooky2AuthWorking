@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Tinea Versicolor (Yeast Spots on Skin) (P)"
+"Preset_Notes=Tinea Versicolor (Yeast Spots on Skin) for Plasma
+
+Tinea Versicolor is a fungal infection caused by *Malassezia* overgrowth, transitioning from yeast to pathogenic mycelial forms. This disrupts melanin production, creating discolored spots. Research (2024-2026) focuses on antimicrobial peptides (AMPs) that target fungal cell walls and modulate skin immunity to prevent the frequent recurrences seen in chronic cases.
+
+1. Membrane Disruption: Dermaseptin-S1 - A 34-residue peptide (ALWKTMLKKLGTMALHAGKAALGAAADTISQGTQ) that permeabilizes fungal membranes.
+2. Chitin Synthesis Inhibition: Nikkomycin Z-derived peptide - Prevents mycelial spreading by targeting cell wall assembly.
+3. Epidermal Protection: DERMA-G1 - Synthetic peptide designed to reinforce the stratum corneum barrier.
+4. Antifungal Synergist: Lactoferricin B (LfcinB) - Bovine-derived fragment (FKCRRWQWRMKKLGAPSITCVRRAF) with a Cys3-Cys20 disulfide bond.
+5. Anti-Inflammatory Modulation: VERSA-S1 - Engineered to inhibit yeast-induced TLR2 signaling pathways.
+6. Recurrence Prevention: LL-37 (Human Cathelicidin) - Endogenous 37-residue peptide that maintains fungal equilibrium on the skin.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Tinea Versicolor (Yeast Spots on Skin) p01"
+"Loaded_Programs=Tinea Versicolor (Yeast Spots on Skin) p02"
+"Loaded_Programs=Tinea Versicolor (Yeast Spots on Skin) p03"
+"Loaded_Programs=Tinea Versicolor (Yeast Spots on Skin) p04"
+"Loaded_Programs=Tinea Versicolor (Yeast Spots on Skin) p05"
+"Loaded_Programs=Tinea Versicolor (Yeast Spots on Skin) p06"
+"Loaded_Frequencies=M71.037=1,M113.084,M186.079,M128.095,M101.048,M131.040,M113.084,M128.095,M128.095,M113.084,M57.021,M101.048,M131.040,M71.037,M113.084,M137.059,M71.037,M57.021,M128.095,M71.037,M71.037,M113.084,M57.021,M71.037,M71.037,M71.037,M115.027,M101.048,M113.084,M87.032,M128.058,M57.021,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.058,M128.095,M131.040,M128.058,M113.084,M114.043,M156.101,M163.063,M156.101,M147.068,M137.059,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M156.101,M156.101,M71.037,M156.101,M156.101,M156.101,M71.037,M156.101,M156.101,M156.101,M113.084,M101.048,M129.043,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M147.068,M147.068,M156.101,M71.037,M156.101,M156.101,M156.101,M71.037,M156.101,M156.101,M156.101,M113.084,M101.048,M129.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"[/Preset]"

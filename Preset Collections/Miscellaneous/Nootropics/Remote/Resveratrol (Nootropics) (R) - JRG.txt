@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Resveratrol (Nootropics) (R) - JRG"
+"Loaded_Programs=Resveratrol (CUST)"
+"Loaded_Frequencies=M228.07864,"
+"Preset_Notes=A polyphenol antioxidant found in the skin of grapes, Resveratrol's purpose is to protect the grape from microbial attacks, cold weather and UV radiation.|Studies have shown Resveratrol can also boost learning, memory and cognitive power in the hippocampus section of your brain. Resveratrol can also improve blood flow and boost brain health.|Researchers also discovered Resveratrol improves cell survival and neurogenesis in the hippocampus, boosting memory and learning.|Recommended nootropic dosage of trans-resveratrol is 20 - 250 mg per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

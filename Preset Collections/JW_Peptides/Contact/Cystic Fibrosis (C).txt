@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Cystic Fibrosis (C)"
+"Preset_Notes=Cystic Fibrosis for Contact
+
+Cystic fibrosis (CF) is an autosomal recessive genetic disorder caused by mutations in the CFTR gene encoding the cystic fibrosis transmembrane conductance regulator, a cAMP-dependent chloride and bicarbonate channel critical for epithelial ion and fluid transport. Over 2,000 mutations are identified, with F508del the most common, causing protein misfolding, endoplasmic reticulum retention, and premature degradation. Dysfunctional CFTR leads to dehydrated airway surface liquid, reduced mucociliary clearance, viscous mucus accumulation obstructing airways, chronic endobronchial infections predominantly by Pseudomonas aeruginosa (often mucoid and biofilm-forming strains), persistent neutrophil-dominated inflammation with elastase release, progressive bronchiectasis, respiratory failure, pancreatic exocrine insufficiency causing maldigestion and malnutrition, sinusitis, and reduced fertility. Symptoms include chronic cough, recurrent exacerbations, failure to thrive, salty skin, and meconium ileus in neonates, with life expectancy improved but still limited by lung disease.
+
+The proposed polypeptides address pivotal therapeutic axes: bolstering innate antimicrobial defenses compromised in CF airways, disrupting persistent biofilms, promoting mutant CFTR trafficking and stability, and enhancing penetration through viscous mucus. LL-37, the endogenous human cathelicidin antimicrobial peptide with extensive preclinical evidence in CF models, exhibits broad bactericidal activity against key pathogens like Pseudomonas, modulates inflammation to mitigate damaging hyperresponses, and shows impaired function in high-salt CF airway liquid, supporting its therapeutic potential. The designed cyclic cathelicidin-mimic, rationally derived from the core helical antimicrobial region of LL-37 with introduced cysteines for disulfide cyclization and C-terminal amidation for superior proteolytic stability in protease-rich CF sputum, augments pathogen killing. The designed tryptophan-rich cationic polypeptide, based on optimized amphipathic helical motifs from high-throughput screens against CF isolates with C-amide for drug-likeness, specializes in biofilm penetration and eradication critical for chronic infection control. The designed head-to-tail cyclic PDZ-decoy, inspired by CFTR C-terminal PDZ-binding sequences engineered for constrained conformation to competitively inhibit CAL-mediated lysosomal degradation, facilitates rescue of trafficking-defective mutants like F508del to the apical membrane. The designed glycine-serine rich polypeptide, derived from flexible hydrophilic repeat motifs demonstrated in nanoparticle coatings to navigate CF mucus barriers with C-amide for stability, improves trans-mucosal delivery of peptides or conjugated agents.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Cystic Fibrosis p01"
+"Loaded_Programs=Cystic Fibrosis p02"
+"Loaded_Programs=Cystic Fibrosis p03"
+"Loaded_Programs=Cystic Fibrosis p04"
+"Loaded_Programs=Cystic Fibrosis p05"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M99.068,M156.101,M156.101,M99.068,M99.068,M156.101,M156.101,M186.079,M99.068,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M128.058=1,M115.027,M101.048,M156.101,M113.084,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M57.021,M87.032,M57.021,M87.032,M57.021,M87.032,M57.021,M87.032,M57.021,M87.032,M57.021,M86.048,0=4,"
+"[/Preset]"

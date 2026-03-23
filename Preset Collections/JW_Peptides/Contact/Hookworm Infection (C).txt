@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Hookworm Infection (C)"
+"Preset_Notes=Hookworm Infection for Contact
+
+Hookworm infection, also known as hookworm disease, is a widespread parasitic infestation primarily caused by the soil-transmitted helminths Necator americanus and Ancylostoma duodenale, with occasional involvement of Ancylostoma ceylanicum. Transmission occurs when infective larvae in contaminated soil penetrate the skin, often through bare feet, leading to a condition called 'ground itch' characterized by localized pruritus and erythema. The larvae then migrate via the bloodstream to the lungs, where they cause respiratory symptoms such as cough, wheezing, and hemoptysis as they ascend the bronchial tree and are swallowed into the gastrointestinal tract. In the small intestine, they mature into adult worms that attach to the mucosal wall using hook-like teeth or cutting plates, feeding on host blood and causing chronic blood loss. This results in iron-deficiency anemia, hypoproteinemia, and malnutrition, particularly in endemic areas with poor sanitation and hygiene. Symptoms vary by infection intensity: light infections may be asymptomatic, while heavy burdens lead to fatigue, weakness, pallor, abdominal pain, diarrhea, weight loss, and in children, stunted growth, cognitive impairments, and developmental delays. Pathophysiology involves mechanical trauma to the intestinal mucosa, anticoagulant secretion by worms to facilitate blood feeding, immune evasion through modulation of host responses (e.g., induction of Th2-biased immunity with eosinophilia and elevated IgE), and secondary complications like bacterial superinfections or heart failure in severe anemia. Chronic infections exacerbate poverty cycles in tropical and subtropical regions, affecting over 400 million people globally as of recent estimates.
+
+The proposed polypeptides address hookworm infection via diverse therapeutic axes, including vaccine-induced immunity, immune modulation, enzyme inhibition, and symptomatic relief. Real-world polypeptides such as p3, A291Y, and P25 focus on the APR-1 axis by eliciting neutralizing antibodies that block the worm's hemoglobin-digesting protease, reducing nutrient acquisition and worm viability. Acan1 and Nak1 leverage ES-derived immunomodulation to dampen excessive Th2 responses and cytokine storms, mitigating tissue damage and allergic manifestations. The designed polypeptides extend coverage: one targets GST-1 to impair heme detoxification, starving the parasite; another inhibits cysteine proteases critical for tissue migration and feeding; one disrupts complement pathways to prevent amplified host inflammation; another promotes microbiota balance to bolster intestinal barrier integrity against larval penetration; one mimics hematopoietic factors to alleviate anemia; one fine-tunes Th2 cytokines for optimal antiparasitic immunity without pathology; and one hinders worm receptor binding to intestinal epithelium, preventing establishment and chronicity. These mechanisms collectively aim to prevent infection, reduce worm burden, alleviate symptoms, and enhance host resilience, with designed ones conceptualized based on known parasite biology for feasibility in therapeutic development.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Hookworm Infection p01"
+"Loaded_Programs=Hookworm Infection p02"
+"Loaded_Programs=Hookworm Infection p03"
+"Loaded_Programs=Hookworm Infection p04"
+"Loaded_Programs=Hookworm Infection p05"
+"Loaded_Programs=Hookworm Infection p06"
+"Loaded_Programs=Hookworm Infection p07"
+"Loaded_Programs=Hookworm Infection p08"
+"Loaded_Programs=Hookworm Infection p09"
+"Loaded_Programs=Hookworm Infection p10"
+"Loaded_Programs=Hookworm Infection p11"
+"Loaded_Programs=Hookworm Infection p12"
+"Loaded_Frequencies=M101.048=1,M87.032,M113.084,M113.084,M71.037,M57.021,M97.053,M128.095,M71.037,M128.058,M99.068,M129.043,M71.037,M113.084,M128.058,M128.095,M163.063,M113.084,M57.021,M71.037,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M97.053,M128.095,M71.037,M128.058,M99.068,M129.043,M71.037,M113.084,M128.058,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M113.084,M97.053,M114.043,M71.037,M87.032,M113.084,M113.084,M129.043,M114.043,M103.009,M101.048,M128.095,M71.037,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M128.058,M101.048,M115.027,M128.095,M163.063,M101.048,M113.084,M114.043,M128.095,M163.063,M113.084,M163.063,M115.027,M128.095,M113.084,M128.095,M129.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M128.058,M101.048,M115.027,M128.095,M147.068,M101.048,M113.084,M114.043,M128.095,M114.043,M113.084,M114.043,M128.095,M113.084,M113.084,M128.095,M114.043,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M97.053,M128.058,M115.027,M113.084,M128.095,M99.068,M147.068,M57.021,M137.059,M87.032,0=4,"
+"Loaded_Frequencies=M103.009=1,M131.040,M129.043,M115.027,M156.101,M147.068,M137.059,M57.021,M97.053,M128.058,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M114.043,M87.032,M156.101,M101.048,M163.063,M97.053,M113.084,M128.095,M131.040,M128.058,M137.059,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.058,M186.079,M129.043,M115.027,M147.068,M57.021,M137.059,M128.095,M113.084,M97.053,M101.048,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M147.068,M57.021,M137.059,M97.053,M128.058,M156.101,M101.048,M99.068,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M156.101,M101.048,M97.053,M128.058,M147.068,M57.021,M137.059,M115.027,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M114.043,M128.095,M113.084,M97.053,M137.059,M57.021,M128.058,M101.048,M87.032,M115.027,M147.068,0=4,"
+"[/Preset]"

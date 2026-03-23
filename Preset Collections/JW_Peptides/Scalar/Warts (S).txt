@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Warts (S)"
+"Preset_Notes=Warts for Scalar
+
+Mechanistic Rationale 
+Warts are benign epithelial hyperproliferative lesions caused by human papillomavirus (HPV), primarily HPV types 2, 4 (common warts), 1, 2, 4, 27, 57 (plantar warts), and 6/11 (genital). Key pathophysiological axes include: (1) viral entry and intracellular persistence via E6/E7 oncoprotein-mediated p53/Rb degradation; (2) immune evasion through downregulation of MHC-I and IFN signaling; (3) dysregulated keratinocyte proliferation and impaired differentiation; (4) local immunosuppression via T-reg recruitment and IL-10 overexpression; (5) angiogenic support via VEGF upregulation; and (6) resistance to apoptosis via Bcl-2 stabilization and caspase inhibition. Our peptide design framework targets six mechanistic axes: (i) E6-p53 PPI disruption, (ii) TLR7/8 agonism to restore innate sensing, (iii) IFN-{gamma} mimetic signaling via JAK-STAT potentiation, (iv) pro-apoptotic BH3-mimicry to counteract E6-mediated survival, (v) angiostatic VEGFR2 antagonism, and (vi) epidermal barrier reinforcement via filaggrin mimicry and tight-junction stabilization. Scaffold selection draws from: (a) {alpha}-helical stapled motifs for intracellular PPI inhibition; (b) constrained cyclic {beta}-hairpins for receptor agonism/antagonism; (c) D-enantiomeric sequences for protease resistance in extracellular niches; (d) lipidated antimicrobial-like peptides for membrane perturbation of virion envelopes; and (e) N-terminally modified cell-penetrating sequences for keratinocyte delivery. All designs incorporate strategic PTMs (e.g., N-methylation for stability, farnesylation for membrane anchoring, phosphorylation for signaling mimicry) and terminal modifications (acetylation/amidation/PEGylation) tuned to subcellular localization and half-life requirements.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Warts p01"
+"Loaded_Programs=Warts p02"
+"Loaded_Programs=Warts p03"
+"Loaded_Programs=Warts p04"
+"Loaded_Programs=Warts p05"
+"Loaded_Programs=Warts p06"
+"Loaded_Programs=Warts p07"
+"Loaded_Programs=Warts p08"
+"Loaded_Frequencies=M162.079=1,M147.068,M113.084,M156.101,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M226.076=1,M114.043,M87.032,M163.063,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M131.040,M115.027,M129.043,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M97.053=1,M85.053,M147.068,M85.053,M97.053,0=4,"
+"Loaded_Frequencies=M162.079=1,M101.048,M163.063,M131.040,M114.043,M128.059,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M155.116=1,M131.040,M129.043,M114.043,M137.059,M101.048,0=4,"
+"Loaded_Frequencies=M71.037=1,M197.105,M113.084,M113.084,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M114.043,M128.095,M156.101,M113.084,M113.084,M128.095,M156.101,0=4,"
+"[/Preset]"

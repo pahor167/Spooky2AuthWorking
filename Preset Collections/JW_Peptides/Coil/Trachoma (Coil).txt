@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Trachoma (Coil)"
+"Preset_Notes=Trachoma for Coil
+
+Trachoma is a contagious bacterial infection caused by Chlamydia trachomatis serovars A-C, representing the world's leading cause of infectious blindness, primarily affecting populations in resource-limited regions with poor sanitation and hygiene. The disease spreads through direct contact with infected eye or nasal secretions, often via flies, hands, or shared items, and is exacerbated by overcrowding and limited access to clean water. Initial infection presents as active trachoma with follicular conjunctivitis, characterized by lymphoid follicles on the upper tarsal conjunctiva, intense inflammation, and symptoms like ocular discharge, redness, irritation, and photophobia. Repeated or persistent infections lead to chronic inflammation, promoting conjunctival scarring, entropion (inward turning of the eyelid), and trichiasis (eyelashes abrading the cornea), ultimately causing corneal opacity, vascularization, and irreversible vision loss. Pathophysiologically, C. trachomatis invades epithelial cells, forming inclusions where it replicates in a biphasic cycle involving infectious elementary bodies and replicative reticulate bodies; this triggers a dysregulated immune response with Th1/Th17 cytokines, matrix metalloproteinases, and fibrogenic factors like TGF-{beta}, CTGF, and PDGF, driving fibrosis and tissue remodeling. Without intervention, progression can span years, with high morbidity in children and women.
+
+The proposed polypeptides address trachoma's multifaceted pathophysiology through antimicrobial, anti-replicative, immunomodulatory, wound-healing, and anti-fibrotic mechanisms. Real-world polypeptides like Cecropin A, LL-37, Novispirin G-10, Pep-1, Esc(1-21), D2A21, D4E1, and CIT 1a primarily exert antimicrobial effects by disrupting bacterial membranes, inhibiting intracellular growth, and targeting C. trachomatis serovars, reducing infection load and preventing reinfection; LL-37 and Esc(1-21) additionally modulate innate immunity and promote epithelial repair to mitigate inflammation and corneal damage. The designed polypeptides (D1-D4) supplement coverage: D1 inhibits TGF-{beta} signaling to prevent scarring; D2 dampens cytokine storms for reduced inflammation; D3 stabilizes host cell cycle against bacterial manipulation; D4 interferes with type III secretion effectors, enhancing feasibility with cationic, amphipathic structures for ocular delivery, stability in saline environments, and low toxicity.
+
+"
+"Loaded_Programs=Trachoma p01"
+"Loaded_Programs=Trachoma p02"
+"Loaded_Programs=Trachoma p03"
+"Loaded_Programs=Trachoma p04"
+"Loaded_Programs=Trachoma p05"
+"Loaded_Programs=Trachoma p06"
+"Loaded_Programs=Trachoma p07"
+"Loaded_Programs=Trachoma p08"
+"Loaded_Programs=Trachoma p09"
+"Loaded_Programs=Trachoma p10"
+"Loaded_Programs=Trachoma p11"
+"Loaded_Programs=Trachoma p12"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M71.037,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M114.043,M113.084,M156.101,M156.101,M113.084,M113.084,M156.101,M128.095,M57.021,M113.084,M137.059,M113.084,M113.084,M128.095,M128.095,M163.063,M57.021,0=4,"
+"Loaded_Frequencies=M170.106=1,M129.043,M101.048,M186.079,M186.079,M129.043,M101.048,M186.079,M186.079,M101.048,M129.043,M186.079,M87.032,M128.058,M97.053,M128.095,M128.095,M128.095,M156.101,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M147.068,M87.032,M128.095,M113.084,M71.037,M57.021,M128.095,M128.095,M113.084,M128.095,M114.043,M113.084,M113.084,M113.084,M87.032,M57.021,M113.084,M128.095,M56.037,0=4,"
+"Loaded_Frequencies=M147.068=1,M71.037,M128.095,M128.095,M147.068,M71.037,M128.095,M128.095,M147.068,M128.095,M128.095,M147.068,M71.037,M128.095,M128.095,M147.068,M71.037,M128.095,M147.068,M71.037,M147.068,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M113.084,M156.101,M71.037,M128.095,M113.084,M128.095,M99.068,M156.101,M113.084,M156.101,M71.037,M128.095,M113.084,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M147.068,M57.021,M114.043,M101.048,M186.079,M128.095,M128.095,M113.084,M128.095,M57.021,M128.095,M71.037,M115.027,M128.095,M113.084,M131.040,M113.084,M128.095,M128.095,M71.037,M99.068,M128.095,M113.084,M131.040,M99.068,M128.095,M128.095,M129.043,M57.021,M113.084,M87.032,M128.095,M129.043,M129.043,M71.037,M128.058,M71.037,M128.095,M99.068,M115.027,M71.037,M131.040,M87.032,M128.095,M128.095,M128.058,M113.084,M156.101,M113.084,M163.063,M113.084,M113.084,M128.095,M163.063,M163.063,M57.021,M128.095,M128.095,M71.037,M113.084,M128.058,M128.095,M71.037,M87.032,M129.043,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M57.021,M99.068,M113.084,M57.021,M113.084,M147.068,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M156.101,M128.058,M71.037,M156.101,M156.101,M71.037,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M186.079=1,M128.095,M113.084,M147.068,M71.037,M128.095,M113.084,M57.021,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Dandy-Walker Syndrome (Coil)"
+"Preset_Notes=Dandy-Walker Syndrome for Coil
+
+Dandy-Walker Syndrome (DWS), also known as Dandy-Walker malformation, is a rare congenital brain malformation involving the cerebellum and surrounding cerebrospinal fluid (CSF) spaces. It is characterized by partial or complete agenesis/hypoplasia of the cerebellar vermis, cystic dilation of the fourth ventricle communicating with an enlarged posterior fossa, and often upward displacement of the tentorium, torcula, and transverse sinuses. Associated features frequently include hydrocephalus (in ~70-90% of cases), leading to macrocephaly, bulging fontanelles, and increased intracranial pressure; motor delays with hypotonia, ataxia, or poor coordination; intellectual disability (variable, more common in severe cases); and potential seizures or cranial nerve deficits. Extracranial anomalies may coexist, such as congenital heart defects, facial dysmorphisms, or neural tube defects. Prognosis varies by subtype and complications-milder isolated cases allow near-normal outcomes with intervention, while severe forms with comorbidities carry higher risks of neurodevelopmental impairment or early mortality from untreated hydrocephalus.
+
+The embryopathogenesis occurs early in hindbrain development (around 4-8 weeks gestation), disrupting rhombomere segmentation, cerebellar primordium formation, and roof plate/foramina development. Genetic factors predominate, with heterozygous deletions or mutations in ZIC1/ZIC4 (key regulators of granule neuron proliferation and midline cerebellar patterning), FOXC1 (mesenchymal signaling for meningeal integrity and cerebellar growth), DVL genes (canonical Wnt pathway hubs critical for neural progenitor maintenance), and FGF8/FGF17 (mid-hindbrain organizer signaling for isthmic patterning). These alterations impair granule cell precursor expansion, vermian fusion, and fourth ventricle outflow, yielding the classic triad. Environmental influences or chromosomal anomalies contribute in some cases, but most are sporadic.
+
+Current management is symptomatic: ventriculoperitoneal shunting or endoscopic third ventriculostomy for hydrocephalus, cyst fenestration if needed, and multidisciplinary supportive care (physical/occupational therapy, seizure control). No approved disease-modifying therapies exist.
+
+No real-world short polypeptides (3-50 residues) with documented therapeutic investigation or use in DWS were identified across PubMed, patents, clinical trials, or genetic databases; research focuses on genetic characterization without peptide-based interventions. The proposed set comprises four conceptual designed short polypeptides, each addressing a primary mechanistic axis to hypothetically support cerebellar morphogenesis or mitigate maldevelopment.
+
+The first designed polypeptide conceptually modulates ZIC1/ZIC4-related pathways to promote granule neuron proliferation and vermian development.
+
+The second designed polypeptide targets canonical Wnt signaling (DVL-dependent) to stabilize neural progenitor pools during hindbrain patterning.
+
+The third designed polypeptide interferes with aberrant FGF signaling to restore mid-hindbrain organizer balance.
+
+The fourth designed polypeptide supports FOXC1-dependent mesenchymal-cerebellar interactions to enhance posterior fossa and meningeal integrity.
+
+These designed polypeptides are short (10 residues), amenable to synthesis, potential stabilization (e.g., cyclization, non-natural residues), and selective targeting with lower immunogenicity risk than larger proteins.
+
+"
+"Loaded_Programs=Dandy-Walker Syndrome p01"
+"Loaded_Programs=Dandy-Walker Syndrome p02"
+"Loaded_Programs=Dandy-Walker Syndrome p03"
+"Loaded_Programs=Dandy-Walker Syndrome p04"
+"Loaded_Frequencies=M57.021=1,M137.059,M103.009,M156.101,M99.068,M128.058,M115.027,M186.079,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M163.063,M97.053,M128.058,M87.032,M101.048,M113.084,M114.043,M128.095,M103.009,0=4,"
+"Loaded_Frequencies=M113.084=1,M156.101,M129.043,M137.059,M99.068,M115.027,M131.040,M97.053,M163.063,M186.079,0=4,"
+"Loaded_Frequencies=M71.037=1,M147.068,M87.032,M128.095,M114.043,M101.048,M128.058,M57.021,M156.101,M113.084,0=4,"
+"[/Preset]"

@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Plant Growth Enhancement (C)"
+"Preset_Notes=Plant Growth Enhancement for Contact
+
+Plant Growth Enhancement (Root Architecture & Stress Resilience)
+
+The set of peptides addresses key therapeutic axes for plant growth enhancement focusing on root architecture and stress resilience, including root meristem maintenance, lateral root formation, root hair development, drought tolerance, salinity tolerance, nutrient stress response, and overall plant immunity. All proposed peptides are real-world examples from literature.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Plant Growth Enhancement p01"
+"Loaded_Programs=Plant Growth Enhancement p02"
+"Loaded_Programs=Plant Growth Enhancement p03"
+"Loaded_Programs=Plant Growth Enhancement p04"
+"Loaded_Programs=Plant Growth Enhancement p05"
+"Loaded_Programs=Plant Growth Enhancement p06"
+"Loaded_Programs=Plant Growth Enhancement p07"
+"Loaded_Programs=Plant Growth Enhancement p08"
+"Loaded_Programs=Plant Growth Enhancement p09"
+"Loaded_Programs=Plant Growth Enhancement p10"
+"Loaded_Frequencies=M243.020=1,M113.084,M243.020,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M99.068,M97.053,M114.043,M57.021,M97.053,M115.027,M97.053,M113.084,M137.059,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M101.048,M97.053,M87.032,M87.032,M57.021,M128.095,M57.021,M57.021,M128.095,M137.059,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M99.068,M128.058,M87.032,M128.095,M97.053,M97.053,M87.032,M128.095,M156.101,M115.027,M97.053,M97.053,M128.095,M131.040,M128.058,M101.048,M115.027,0=4,"
+"Loaded_Frequencies=M115.027=1,M243.020,M87.032,M71.037,M129.043,M97.053,M115.027,M101.048,M137.059,M97.053,M97.053,M129.043,M87.032,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M114.043,M87.032,M87.032,M128.058,M57.021,M57.021,M147.068,M129.043,M57.021,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M99.068,M97.053,M87.032,M57.021,M113.048,M114.043,M97.053,M113.084,M137.059,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M99.068,M97.053,M57.021,M97.053,M114.043,M97.053,M113.084,M137.059,M137.059,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M101.048,M103.009,M57.021,M87.032,M113.084,M113.084,M114.043,M115.027,M71.037,M113.084,M113.084,M114.043,M115.027,0=4,"
+"Loaded_Frequencies=M115.027=1,M147.068,M156.101,M113.048,M101.048,M114.043,M113.048,M57.021,M114.043,M87.032,M113.048,M57.021,M99.068,M57.021,M137.059,0=4,"
+"[/Preset]"

@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Brachial Plexitis (Parsonage-Turner Syndrome) (L)"
+"Preset_Notes=Brachial Plexitis (Parsonage-Turner Syndrome) for Laser
+
+Brachial plexitis, also known as Parsonage-Turner syndrome (PTS) or neuralgic amyotrophy, is a rare peripheral neuropathy characterized by acute, severe pain in the shoulder, arm, or scapular region, often unilateral, followed by rapid onset of muscle weakness, atrophy, sensory disturbances, and occasional paresthesia in the brachial plexus distribution. The condition typically affects adults aged 20-60, with higher incidence in males, and has an estimated prevalence of 1-3 cases per 100,000 annually, though likely underdiagnosed. Onset is abrupt, frequently triggered by preceding events such as infection, vaccination, surgery, trauma, or strenuous activity, though many cases are idiopathic. Pathophysiology involves immune-mediated inflammation targeting the brachial plexus nerves, potentially through molecular mimicry, complement activation, or cytokine release leading to nerve edema, demyelination, axonal damage, and characteristic hourglass-like nerve constrictions or torsions. This results in patchy denervation, most commonly affecting the suprascapular, long thoracic, or axillary nerves, manifesting as winging scapula, deltoid atrophy, or wrist extension weakness. Pain resolves over weeks but motor deficits may persist for months to years, with recovery variable (70-90% substantial improvement, but residual symptoms common).
+
+The proposed polypeptides target all key therapeutic axes identified from pathophysiological mechanisms: (1) Immune-mediated inflammation, involving aberrant immune attack and proinflammatory pathways in the plexus; (2) Neuropathic pain from nociceptor sensitization and central/peripheral hyperexcitability; (3) Neuroprotection to counter inflammatory and ischemic neuronal stress; (4) Nerve regeneration to facilitate axonal outgrowth, remyelination, and microvascular support for recovery. Each axis is addressed by one rationally designed polypeptide derived from established literature motifs, with limited PTMs and cyclization for enhanced protease resistance, solubility, and tissue penetration while adhering to drug-like properties.
+
+- Immune-mediated inflammation axis: Autoimmune or post-trigger inflammation drives initial damage; the Designed complement-inhibitor-cyclic is derived from the compstatin motif that inhibits C3 convertase, with disulfide cyclization and termini modifications to dampen complement amplification implicated in immune neuropathies.
+- Neuropathic pain axis: Intense pain and hypersensitivity persist post-acute phase; the Designed IRR-agonist draws from the erythropoietin helix B motif (ARA290/cibinetide), selectively engaging the innate repair receptor to inhibit glial activation and pain signaling without erythropoietic activity.
+- Neuroprotection axis: Oxidative and inflammatory stress threaten axon survival; the Designed melanocortin-mimetic is based on the core {alpha}-MSH sequence, activating melanocortin receptors (particularly MC3/MC4) for potent anti-apoptotic, anti-oxidative, and resolution-promoting effects in nerve injury models.
+- Nerve regeneration axis: Denervation atrophy and impaired outgrowth delay recovery; the Designed NCAM-mimetic replicates the FG-loop peptide from neural cell adhesion molecule, stimulating fibroblast growth factor receptor to promote neurite extension, synaptogenesis, and functional restoration in preclinical neural repair studies.
+
+These conceptual designs incorporate short lengths (11-15 residues), stability enhancements, hydrophilic profiles, and moderate charges for feasibility in potential local or systemic administration, collectively addressing the immune-inflammatory trigger, symptom burden, and reparative deficits for improved outcomes.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Brachial Plexitis (Parsonage-Turner Syndrome) p01"
+"Loaded_Programs=Brachial Plexitis (Parsonage-Turner Syndrome) p02"
+"Loaded_Programs=Brachial Plexitis (Parsonage-Turner Syndrome) p03"
+"Loaded_Programs=Brachial Plexitis (Parsonage-Turner Syndrome) p04"
+"Loaded_Frequencies=M155.095=1,M102.001,M99.068,M99.068,M128.058,M115.027,M186.079,M57.021,M137.059,M137.059,M156.101,M102.001,M100.064,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M171.054=1,M99.068,M163.063,M99.068,M99.068,M71.037,M129.043,M114.043,M128.058,M128.058,M57.021,M128.095,M87.032,M128.095,M70.053,0=4,"
+"[/Preset]"

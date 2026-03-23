@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Autoimmune Hepatitis (R)"
+"Preset_Notes=Autoimmune Hepatitis for Remote
+
+Autoimmune hepatitis is a chronic autoimmune liver disease where the immune system attacks hepatocytes, causing inflammation, fibrosis, and potential cirrhosis. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical studies, clinical applications in immune-related liver conditions, and mechanistic research on hepatoprotective and immunomodulatory peptides.
+1. Thymic peptide immune modulation: Thymosin alpha 1 restores immune homeostasis by enhancing Treg function, modulating dendritic cells, and balancing Th1/Th2 responses in chronic inflammatory liver states.
+2. Vasoactive intestinal peptide anti-inflammatory signaling: VIP inhibits proinflammatory cytokines, shifts immune responses toward tolerance, and attenuates autoimmune-driven liver inflammation.
+3. Pentadecapeptide BPC-157 hepatoprotection: BPC-157 prevents hepatocellular necrosis, promotes tissue repair, and reduces inflammation in various liver injury models.
+4. Alpha-MSH-derived tripeptide anti-inflammation: KPV suppresses NF-{kappa}B activation and inflammatory mediators, providing potent systemic anti-inflammatory effects suitable for autoimmunity.
+5. Glycyl-histidyl-lysine tissue remodeling: GHK supports antioxidant defenses, extracellular matrix regeneration, and growth factor expression to protect and repair liver tissue.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Autoimmune Hepatitis p01"
+"Loaded_Programs=Autoimmune Hepatitis p02"
+"Loaded_Programs=Autoimmune Hepatitis p03"
+"Loaded_Programs=Autoimmune Hepatitis p04"
+"Loaded_Programs=Autoimmune Hepatitis p05"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"[/Preset]"

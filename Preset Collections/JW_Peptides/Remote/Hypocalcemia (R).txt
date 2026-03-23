@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Hypocalcemia (R)"
+"Preset_Notes=Hypocalcemia for Remote
+
+Hypocalcemia is a medical condition characterized by abnormally low levels of calcium in the blood, typically defined as total serum calcium below 8.5 mg/dL (2.1 mmol/L) or ionized calcium below 4.6 mg/dL (1.15 mmol/L), after correction for albumin if necessary. It can present acutely with life-threatening symptoms or chronically with subtle manifestations. Acute symptoms include neuromuscular irritability (perioral paresthesias, muscle cramps, carpopedal spasm, tetany, Chvostek's and Trousseau's signs), laryngospasm, seizures, bronchospasm, cardiac arrhythmias (prolonged QT interval, torsades de pointes), and congestive heart failure. Chronic hypocalcemia may lead to basal ganglia calcification, extrapyramidal disorders, cataracts, dental abnormalities, dry skin, and brittle nails. Pathophysiologically, low extracellular calcium reduces the stabilization of voltage-gated sodium channels, lowering the action potential threshold and increasing neuronal and muscular excitability. Calcium also plays critical roles in enzyme activation, hormone secretion, coagulation, and bone integrity.
+
+Major causes include hypoparathyroidism (postsurgical, autoimmune, genetic like DiGeorge syndrome or activating CaSR mutations), pseudohypoparathyroidism (PTH resistance), vitamin D deficiency or resistance, chronic kidney disease (impaired vitamin D activation, hyperphosphatemia), magnesium deficiency (impairs PTH secretion and action), acute pancreatitis (saponification), massive blood transfusion (citrate binding), and medications (e.g., bisphosphonates, denosumab). The core regulatory axis involves parathyroid hormone (PTH), which raises serum calcium by stimulating bone resorption (osteoclast activation via RANKL), enhancing renal distal tubular calcium reabsorption, and promoting renal 1-alpha-hydroxylase for active vitamin D (calcitriol) production, which in turn boosts intestinal calcium absorption. Feedback occurs via the calcium-sensing receptor (CaSR) on parathyroid cells.
+
+The proposed polypeptides primarily address the PTH signaling deficiency axis in hypoparathyroidism, the most direct polypeptide-targetable mechanism for chronic hypocalcemia. Teriparatide (real-world) provides intermittent PTHR1 activation, mimicking pulsatile endogenous PTH to favor bone formation while correcting calcium levels. Abaloparatide (real-world) is a PTHrP-derived analog offering biased PTHR1 agonism with enhanced anabolic effects and potentially reduced hypercalciuria risk. The designed polypeptides (D1 and D2) are conceptual amidated short sequences: D1, a polybasic alternating peptide, conceptually supports sustained receptor engagement or electrostatic interactions for prolonged mild calcium elevation; D2, a hydrophobic aromatic-aliphatic peptide, conceptually integrates into membranes to modulate localized signaling or enzyme accessibility in calcium homeostasis pathways. All are feasible for synthesis, with short designed ones offering low immunogenicity, ease of modification, and potential for novel delivery.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Hypocalcemia p01"
+"Loaded_Programs=Hypocalcemia p02"
+"Loaded_Programs=Hypocalcemia p03"
+"Loaded_Programs=Hypocalcemia p04"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M99.068,M87.032,M129.043,M137.059,M128.058,M113.084,M113.084,M137.059,M115.027,M128.095,M57.021,M128.095,M87.032,M113.084,M128.058,M115.027,M113.084,M156.101,M156.101,M156.101,M129.043,M113.084,M113.084,M129.043,M128.095,M113.084,M113.084,M85.053,M128.095,M113.084,M137.059,M101.048,M70.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M71.037,M128.095,M71.037,M128.095,M71.037,M128.095,M71.037,M128.095,M71.037,M128.095,M70.053,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M147.068,M113.084,M147.068,M113.084,M147.068,M113.084,M147.068,M113.084,M147.068,M112.100,0=4,"
+"[/Preset]"

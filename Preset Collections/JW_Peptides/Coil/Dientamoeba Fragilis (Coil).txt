@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Dientamoeba Fragilis (Coil)"
+"Preset_Notes=Dientamoeba Fragilis for Coil
+
+Dientamoeba fragilis is a protozoan parasite causing intestinal infections with symptoms ranging from asymptomatic carriage to disabling diarrhea, abdominal pain, and bowel dysfunction. Current standard treatments include paromomycin (aminoglycoside protein synthesis inhibitor), metronidazole, and iodoquinol. The proposed therapeutic approach targets eleven distinct axes including direct membrane disruption of trophozoites, protein synthesis interference mimicking paromomycin, cysteine protease inhibition, innate immune enhancement, gut barrier protection, and oxidative stress induction. This multi-modal peptide strategy addresses the parasite's unique biology including its dependence on bacterial flora, susceptibility to cationic antimicrobial peptides, and vulnerability to membrane permeabilization.
+
+1. Direct Antiprotozoal: Magainin-2 - Amphibian antimicrobial peptide causing parasite membrane disruption via alpha-helical insertion
+2. Immune Modulation: LL-37 - Human cathelicidin peptide with broad antimicrobial activity against protozoan parasites
+3. Innate Immunity: Human Beta-Defensin 2 - Inducible epithelial antimicrobial peptide enhancing mucosal defense against parasitic invasion
+4. Antimicrobial Synergy: Human Beta-Defensin 3 - Constitutive defensin providing broad-spectrum antimicrobial coverage and barrier support
+5. Protease Inhibition: Protegrin-1 - Porcine antimicrobial peptide with cysteine-rich structure inhibiting parasitic proteases
+6. Membrane Disruption: Cecropin_A - Insect-derived antimicrobial peptide disrupting protozoan membranes via pore formation
+7. Inflammatory Regulation: Cecropin B - Cecropin family member modulating host inflammatory response to parasitic infection
+8. Gut Defense: Indolicidin - Tryptophan-rich antimicrobial peptide active against intestinal pathogens and parasites
+9. Parasite Lysis: Magainin-1 - Amphibian antimicrobial peptide causing osmotic lysis of parasitic trophozoites
+10. Protein Synthesis Inhibition: Riboso-Lock - Designed cationic tetrapeptide mimicking paromomycin rRNA binding to inhibit protein synthesis
+11. Cysteine Protease Inhibition: Cysteino-Stat - Engineered cysteine-containing peptide blocking Clan CA cysteine proteases essential for parasite survival
+
+"
+"Loaded_Programs=Dientamoeba Fragilis p01"
+"Loaded_Programs=Dientamoeba Fragilis p02"
+"Loaded_Programs=Dientamoeba Fragilis p03"
+"Loaded_Programs=Dientamoeba Fragilis p04"
+"Loaded_Programs=Dientamoeba Fragilis p05"
+"Loaded_Programs=Dientamoeba Fragilis p06"
+"Loaded_Programs=Dientamoeba Fragilis p07"
+"Loaded_Programs=Dientamoeba Fragilis p08"
+"Loaded_Programs=Dientamoeba Fragilis p09"
+"Loaded_Programs=Dientamoeba Fragilis p10"
+"Loaded_Programs=Dientamoeba Fragilis p11"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M102.001,M137.059,M97.053,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M102.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M102.001,M102.001,M128.095,M128.095,M96.069,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M101.048,M99.068,M128.095,M114.043,M128.058,M156.101,M115.027,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M99.068,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M131.040,M57.021,M156.101,M114.043,M113.084,M156.101,M114.043,M57.021,M113.084,M99.068,M128.095,M71.037,M57.021,M97.053,M71.037,M113.084,M71.037,M99.068,M113.084,M57.021,M129.043,M71.037,M128.095,M71.037,M112.100,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M57.021,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M103.009=1,M57.021,M71.037,M103.009,0=4,"
+"[/Preset]"

@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Friedreich’s Ataxia (S)"
+"Preset_Notes=Friedreich’s Ataxia for Scalar
+
+Friedreich's ataxia (FRDA) is a progressive neurodegenerative disorder caused by mutations leading to frataxin deficiency, resulting in mitochondrial iron accumulation, oxidative stress, energy failure, and ataxia with frequent cardiomyopathy. The proposed polypeptides target evidence-based therapeutic axes from preclinical cellular models, animal studies, and early clinical data to rescue frataxin levels, protect mitochondria, and improve function.
+
+1. TID1S competitive inhibition to restore frataxin: TID1S-derived peptide (KRSTGNYGRKKRRQRRR) blocks TID1S-mediated frataxin degradation, rescuing levels and mitochondrial defects in FRDA patient-derived cells.
+2. Mitochondria-targeted antioxidant stabilization: Elamipretide (SS-31, dArg-Dmt-Lys-Phe-NH2) binds cardiolipin, upregulates frataxin, reduces oxidative stress, and improves mitochondrial quality in FRDA models.
+3. GLP-1 receptor agonism for frataxin induction: Exenatide increases frataxin expression in patient cells and platelets, with mitochondrial benefits observed in small studies.
+4. Engineered TAT-SS31 fusion for enhanced cell penetration and mitochondrial targeting: TAT-SS31 hybrid (GRKKRRQRRRPQ-dArg-Dmt-K-F-NH2) combines proven CPP delivery with SS-31 motif for superior mitochondrial access and protection.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Friedreich’s Ataxia p01"
+"Loaded_Programs=Friedreich’s Ataxia p02"
+"Loaded_Programs=Friedreich’s Ataxia p03"
+"Loaded_Programs=Friedreich’s Ataxia p04"
+"Loaded_Frequencies=M128.095=1,M156.101,M87.032,M101.048,M57.021,M114.043,M163.063,M57.021,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"[/Preset]"

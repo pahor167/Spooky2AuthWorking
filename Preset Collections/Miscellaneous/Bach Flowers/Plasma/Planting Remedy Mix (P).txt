@@ -1,0 +1,16 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Planting Remedy Mix (P)"
+"Preset_Notes=Planting Remedy Mix / Spooky Plasma
+
+Estimated Time: Run this preset for 9:00 minutes.
+
+Planting Remedy: Hornbeam, Olive & Vine - Useful for newly planted seeds or seedlings
+
+Connect Out 1 to Input. Connect Out 2 to Modulation.
+"
+"Loaded_Programs=Planting Remedy Mix (P)"
+"Loaded_Frequencies=257.45,431.65,383.91,"
+"[/Preset]"

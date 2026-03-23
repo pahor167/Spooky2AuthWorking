@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Subacute Sclerosing Panencephalitis (P)"
+"Preset_Notes=Subacute Sclerosing Panencephalitis for Plasma
+
+Subacute Sclerosing Panencephalitis (SSPE) is a rare, progressive, and invariably fatal neurodegenerative disorder caused by persistent infection with defective, mutated measles virus in the central nervous system, typically manifesting 6-10 years after acute measles infection, especially in unvaccinated or early-infected individuals. The pathophysiology involves viral mutations in envelope genes enabling immune evasion, hyperfusogenic cell-to-cell spread without budding, chronic neuroinflammation, inclusion body formation, demyelination, and neuronal loss, leading to symptoms of behavioral changes, cognitive decline, myoclonic jerks, seizures, spasticity, and eventual vegetative state or death.
+
+The proposed polypeptides address core mechanisms of viral persistence, neuronal spread, and secondary neuroinflammation/neurodegeneration, where no established curative treatments exist and current options (e.g., interferon-alpha, ribavirin) offer limited stabilization. All are designed due to absence of verified short real-world polypeptides for SSPE in searched sources. The disulfide-cyclized HRC-derived analog inhibits measles F protein-mediated fusion, blocking neuron-to-neuron transmission, derived from preclinical brain-penetrant fusion inhibitors that prevented fatal encephalitis in models with cyclization for protease resistance. The head-to-tail cyclic Aib-stabilized analog activates innate repair pathways for neuroprotection, derived from ARA290 motif with Aib insertions for helical reinforcement and stability per rational design. The oxidation-resistant melanocortin analog suppresses proinflammatory cytokines via MC1R, derived from alpha-MSH core with Nle substitution for stability.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Subacute Sclerosing Panencephalitis p01"
+"Loaded_Programs=Subacute Sclerosing Panencephalitis p02"
+"Loaded_Programs=Subacute Sclerosing Panencephalitis p03"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M113.084,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M128.095,M128.058,M99.068,M113.084,M87.032,M87.032,M113.084,M113.084,M129.043,M128.095,M113.084,M87.032,M71.037,M113.084,M129.043,M87.032,M128.095,M113.084,M128.058,M87.032,M113.084,M113.084,M129.043,M128.095,M113.084,M87.032,M114.043,M113.084,M129.043,M102.001,0=4,"
+"[/Preset]"

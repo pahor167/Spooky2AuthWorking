@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Willow (S)"
+"Preset_Notes=Willow / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Willow - Self-pity and resentment.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Willow (S)"
+"Loaded_Frequencies=264.74,"
+"[/Preset]"

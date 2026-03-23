@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Horse Equine Protozoal Myeloencephalitis (EPM) (S)"
+"Preset_Notes=Horse Equine Protozoal Myeloencephalitis (EPM) for Scalar
+
+Equine protozoal myeloencephalitis (EPM) is a debilitating neurological disease in horses caused predominantly by the apicomplexan protozoan Sarcocystis neurona, with infrequent involvement of Neospora hughesi; sporocysts shed in opossum feces contaminate feed/water, leading to ingestion and aberrant migration in the equine intermediate host where the parasite invades the central nervous system without completing its life cycle. Symptoms manifest variably as asymmetric ataxia, weakness, muscle atrophy (especially shoulder/hip), cranial nerve deficits (facial paralysis, head tilt, swallowing difficulty), lameness, seizures, or sudden collapse, often progressing insidiously with stress exacerbating clinical signs; severity ranges from mild incoordination to recumbency and death. Pathophysiology involves merozoites crossing the blood-brain barrier via infected monocytes or free migration, establishing intracellular infection in neurons, astrocytes, and microglia, triggering robust CD8+ T cell and antibody responses with vasculitis, perivascular cuffing, malacia, hemorrhage, and neuronal necrosis; chronic cases feature persistent inflammation, axonal degeneration, and glial scarring despite low parasite burden, compounded by oxidative stress and excitotoxicity in the immunocompromised CNS microenvironment.
+
+Standard treatments (ponazuril, sulfadiazine-pyrimethamine, diclazuril) target parasite folate metabolism with moderate efficacy but delayed onset, frequent relapses due to encysted stages, and no reversal of established neural damage; supportive therapies include anti-inflammatories (NSAIDs, corticosteroids, DMSO) and antioxidants (vitamin E). The proposed polypeptides address primary axes: direct anti-protozoal action, CNS anti-inflammation, and neuroprotection/tissue repair. Real polypeptide BPC-157 (stable gastric pentadecapeptide with extensive preclinical neuroprotection and emerging off-label equine veterinary use for neurological recovery including EPM cases) promotes angiogenesis, neuronal survival, dopamine/serotonin modulation, and counteracts inflammation. Designed indolicidin analog (derived from bovine neutrophil tryptophan-rich cathelicidin motif with documented broad-spectrum membrane disruption extended conceptually to apicomplexans, C-amidated for protease resistance) targets parasite lysis via carpet/pore formation exploiting membrane charge differences. Designed alpha-MSH analog (literature-derived from POMC melanocortin peptide with established CNS anti-inflammatory effects via MC4R suppressing microglia/NF-{kappa}B, N-acetylated and C-amidated for stability/BBB potential) dampens excessive neuroinflammation. Collectively, these offer multi-modal complementarity with favorable short lengths, cationic/hydrophilic profiles for solubility, low predicted immunogenicity, and in silico stability; feasibility via systemic/intrathecal routes to augment conventional therapy in resistant/chronic cases.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Horse Equine Protozoal Myeloencephalitis (EPM) p01"
+"Loaded_Programs=Horse Equine Protozoal Myeloencephalitis (EPM) p02"
+"Loaded_Programs=Horse Equine Protozoal Myeloencephalitis (EPM) p03"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,0=4,"
+"[/Preset]"

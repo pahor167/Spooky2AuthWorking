@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Pelvic Girdle Pain (R)"
+"Preset_Notes=Pelvic Girdle Pain for Remote
+
+Pelvic girdle pain involves pain and instability in the sacroiliac joints and/or pubic symphysis, often related to ligament laxity (especially pregnancy-related relaxin effects), inflammation, biomechanical overload, or associated arthritis. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical studies, investigational peptide applications, and mechanistic studies on musculoskeletal repair and pain.
+1. Gastric pentadecapeptide-mediated repair: BPC-157 promotes ligament/tendon healing, angiogenesis, and anti-inflammatory effects to stabilize pelvic structures.
+2. Non-hematopoietic erythropoietin agonism: ARA 290 activates tissue-protective pathways to reduce neuropathic and inflammatory pain.
+3. Actin-sequestering fragment regeneration: TB-500 enhances cell migration, reduces fibrosis, and supports soft tissue recovery.
+4. Copper-chelated tripeptide remodeling: GHK-Cu stimulates extracellular matrix synthesis and antioxidant protection for connective tissue integrity.
+5. Melanocortin-derived tripeptide modulation: Ac-KPV-NH2 potently inhibits pro-inflammatory cytokines for joint inflammation control.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Pelvic Girdle Pain p01"
+"Loaded_Programs=Pelvic Girdle Pain p02"
+"Loaded_Programs=Pelvic Girdle Pain p03"
+"Loaded_Programs=Pelvic Girdle Pain p04"
+"Loaded_Programs=Pelvic Girdle Pain p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"[/Preset]"

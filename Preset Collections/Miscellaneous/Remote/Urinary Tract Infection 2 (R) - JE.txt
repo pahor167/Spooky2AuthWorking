@@ -1,0 +1,63 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Urinary Tract Infection 2 (R) - JE"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=100000"
+"BFB_Decimal_Places=2"
+"BFB_Max_Hits_To_Find=4"
+"BFB_Start_Delay=20"
+"BFB_Samples_Per_Step=6"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=Urinary Tract Infection Generator 2 by Jason Elliott
+
+This remote program can be used in conjunction with \Miscellaneous\Contact\Urinary Tract Infection (C) - JE. In addtion, 3 other generators run concurrently with this preset found in \Miscellaneous\Remote\ -- Urinary Tract Infection 1 (R) - JE, Urinary Tract Infection 3 (R) - JE, Urinary Tract Infection 4 (R) - JE.
+
+This preset contains the following:
+Escherichia Coli (E Coli) (HC)
+Escherichia Coli 1 (XTRA)
+Escherichia Coli 2 (XTRA)
+Escherichia Coli 3 (XTRA)
+Escherichia Coli 5 (XTRA)
+Escherichia Coli 6 (XTRA)
+Escherichia Coli Comp (XTRA)
+Escherichia Coli Infections (KHZ)
+Escherichia Coli Infections (XTRA)
+Escherichia Coli Mutant Strain (XTRA)
+Escherichia Coli (CAFL)
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator. DNA Entanglement transfers the frequencies directly to"
+"Settings_Frequency_Wobble_Percentage=.02"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Manual_Start=False"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"Out1_Inverted_Sawtooth=True"
+"Out1_User_Defined_1=False"
+"BFB_Grade_Program=0"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=Escherichia Coli (E Coli) (HC)"
+"Loaded_Programs=Escherichia Coli 1 (XTRA)"
+"Loaded_Programs=Escherichia Coli 2 (XTRA)"
+"Loaded_Programs=Escherichia Coli 3 (XTRA)"
+"Loaded_Programs=Escherichia Coli 5 (XTRA)"
+"Loaded_Programs=Escherichia Coli 6 (XTRA)"
+"Loaded_Programs=Escherichia Coli Comp (XTRA)"
+"Loaded_Programs=Escherichia Coli Infections (KHZ)"
+"Loaded_Programs=Escherichia Coli Infections (XTRA)"
+"Loaded_Programs=Escherichia Coli Mutant Strain (XTRA)"
+"Loaded_Programs=Escherichia Coli (CAFL)"
+"Loaded_Frequencies=356000=180,"
+"Loaded_Frequencies=971.66=180,974.14=180,12250=180,12281.25=180,"
+"Loaded_Frequencies=882.44=180,11125=180,"
+"Loaded_Frequencies=282=180,289=180,327=180,330=180,333=180,413=180,548=180,556=180,634=180,642=180,776=180,799=180,800=180,802=180,804=180,832=180,840=180,856=180,934=180,957=180,1000=180,1244=180,1320=180,1550=180,1552=180,1722=180,1730=180,7847=180,7849=180,"
+"Loaded_Frequencies=330=180,358=180,539=180,556=180,634=180,642=180,776=180,800=180,840=180,856=180,934=180,1000=180,1244=180,1712=180,1730=180,7847=180,"
+"Loaded_Frequencies=882.44=180,974.14=180,17724.2=180,19566.31=180,"
+"Loaded_Frequencies=282=180,289=180,327=180,330=180,333=180,358=180,413=180,539=180,548=180,556=180,632=180,634=180,642=180,776=180,799=180,800=180,802=180,804=180,832=180,840=180,856=180,934=180,957=180,1000=180,1242=180,1244=180,1320=180,1550=180,1552=180,1703=180,1712=180,1722=180,1730=180,7847=180,7849=180,"
+"Loaded_Frequencies=160=180,410=180,730=180,830=180,7500=180,27500=180,157500=180,425000=180,610500=180,826070=180,"
+"Loaded_Frequencies=160=180,410=180,730=180,830=180,7500=180,356000=180,393000=180,425000=180,610500=180,826070=180,"
+"Loaded_Frequencies=556=180,632=180,634=180,776=180,934=180,1242=180,1244=180,1703=180,"
+"Loaded_Frequencies=282=180,289=180,327=180,333=180,413=180,548=180,642=180,799=180,802=180,804=180,832=180,957=180,1320=180,1550=180,1722=180,7849=180,"
+"[/Preset]"

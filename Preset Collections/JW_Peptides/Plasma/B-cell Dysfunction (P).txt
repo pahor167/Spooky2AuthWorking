@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=B-cell Dysfunction (P)"
+"Preset_Notes=B-cell Dysfunction for Plasma
+
+B-cell dysfunction involves impaired antibody production in immunodeficiencies or hyperactive autoreactive responses in autoimmunity, leading to infection susceptibility or tissue damage. Proposed polypeptides target literature-supported axes including immune reconstitution, regulatory modulation, anti-inflammatory resolution, innate repair, and tolerance induction to restore balanced B-cell function.
+
+1. Thymosin {alpha}1-mediated immune enhancement: Thymosin alpha 1 stimulates dendritic cells, antibody responses, and B-cell activity for reconstitution in deficient states.
+2. VIP-mediated regulatory B-cell promotion: Vasoactive intestinal peptide enhances regulatory B cells, stabilizes homeostasis, and modulates immunoglobulin production.
+3. {alpha}-MSH-derived anti-inflammatory resolution: KPV inhibits cytokines to mitigate excessive B-cell activation and inflammation.
+4. Innate repair receptor modulation: ARA-290 (pyroglutamate-modified) shifts immune profiles toward resolution and protection in dysregulation.
+5. Spliceosomal phosphopeptide autophagy inhibition: P140 (phosphorylated at Ser140) depletes autoreactive B cells, represses aberrant differentiation, and induces tolerance in autoimmune contexts.
+6. Engineered cathelicidin-derived innate defense regulation: IDR-1018 (amidated synthetic dodecapeptide) optimizes protective immune recruitment and controls inflammation for novel B-cell balance support.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=B-cell Dysfunction p01"
+"Loaded_Programs=B-cell Dysfunction p02"
+"Loaded_Programs=B-cell Dysfunction p03"
+"Loaded_Programs=B-cell Dysfunction p04"
+"Loaded_Programs=B-cell Dysfunction p05"
+"Loaded_Programs=B-cell Dysfunction p06"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M137.059,M131.040,M99.068,M163.063,M166.998,M128.095,M156.101,M87.032,M57.021,M128.095,M97.053,M156.101,M57.021,M163.063,M71.037,M147.068,M113.084,M129.043,M163.063,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M156.101,0=4,"
+"[/Preset]"

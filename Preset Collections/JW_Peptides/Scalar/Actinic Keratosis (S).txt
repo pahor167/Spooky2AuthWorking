@@ -1,0 +1,60 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Actinic Keratosis (S)"
+"Preset_Notes=Actinic Keratosis for Scalar
+
+Actinic keratosis (AK) is a precancerous skin condition resulting from cumulative ultraviolet radiation exposure, manifesting as rough, scaly patches due to keratinocyte dysplasia and carrying a risk of progression to cutaneous squamous cell carcinoma. 
+Therapeutic strategies address key pathophysiological axes including immune modulation, keratinocyte hyperproliferation inhibition, apoptosis induction in dysplastic cells, chronic inflammation reduction, oxidative stress mitigation, DNA repair enhancement, and skin regeneration to counteract field cancerization. No verifiable real-world therapeutic polypeptides specific to AK were identified despite comprehensive searches (e.g., PubMed-restricted queries for 'peptide' AND 'actinic keratosis', clinical trials/patents for polypeptides in AK therapy, and reviews of treatment mechanisms); emerging mentions (e.g., zebrafish-derived factors in one 2024 study) lack specific sequences or broad validation. Thus, all polypeptides are conceptually designed with non-standard residues for potential enhanced stability/bioactivity and strict rule compliance (designed).
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Actinic Keratosis p01"
+"Loaded_Programs=Actinic Keratosis p02"
+"Loaded_Programs=Actinic Keratosis p03"
+"Loaded_Programs=Actinic Keratosis p04"
+"Loaded_Programs=Actinic Keratosis p05"
+"Loaded_Programs=Actinic Keratosis p06"
+"Loaded_Programs=Actinic Keratosis p07"
+"Loaded_Programs=Actinic Keratosis p08"
+"Loaded_Programs=Actinic Keratosis p09"
+"Loaded_Programs=Actinic Keratosis p10"
+"Loaded_Programs=Actinic Keratosis p11"
+"Loaded_Programs=Actinic Keratosis p12"
+"Loaded_Programs=Actinic Keratosis p13"
+"Loaded_Programs=Actinic Keratosis p14"
+"Loaded_Programs=Actinic Keratosis p15"
+"Loaded_Programs=Actinic Keratosis p16"
+"Loaded_Programs=Actinic Keratosis p17"
+"Loaded_Programs=Actinic Keratosis p18"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.079,M128.095,M114.079,M113.048,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M156.101,M128.095,M86.048,M57.021,M87.032,M113.048,M114.079,M85.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M128.095,M114.079,M156.101,M113.048,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M115.027,M129.043,M115.027,M113.048,M114.079,M129.043,M115.027,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M129.043,M115.027,M114.079,M86.048,M113.048,M115.027,M129.043,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M100.064,M85.053,M128.095,M156.101,M114.079,M86.048,M113.048,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M128.095,M86.048,M128.095,M57.021,M156.101,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M156.101,M86.048,M156.101,M57.021,M86.048,M156.101,M113.048,M114.079,0=4,"
+"Loaded_Frequencies=M114.079=1,M128.095,M114.079,M128.095,M57.021,M114.079,M128.095,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M85.053=1,M99.068,M114.079,M156.101,M86.048,M113.048,M114.079,M128.095,M113.084,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M101.048,M113.048,M114.079,M86.048,M100.064,M102.001,0=4,"
+"Loaded_Frequencies=M57.021=1,M86.048,M87.032,M101.048,M85.053,M100.064,M156.101,M128.095,M113.048,M114.079,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M57.021,M113.048,M114.079,M86.048,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M150.954,M87.032,M150.954,M101.048,M113.048,M114.079,M86.048,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M128.095,M113.048,M114.079,M86.048,M150.954,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M113.048,M128.095,M114.079,M86.048,M100.064,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M113.048,M85.053,M86.048,M100.064,M150.954,M128.095,M156.101,M57.021,0=4,"
+"[/Preset]"

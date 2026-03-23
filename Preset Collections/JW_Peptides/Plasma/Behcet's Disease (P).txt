@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Behcet’s Disease (P)"
+"Preset_Notes=Behcet’s Disease for Plasma
+
+Behcet's disease is a chronic multisystem vasculitis of unknown etiology featuring recurrent oral/genital aphthous ulcers, uveitis, cutaneous lesions, vascular inflammation/thrombosis, and occasional neurological involvement, driven by neutrophil hyperactivation, endothelial dysfunction, cytokine dysregulation (TNF-{alpha}, IL-1{beta}, IL-6), and innate/adaptive immune imbalance. The proposed polypeptides target evidence-based mechanistic axes from models of mucosal ulceration, ocular inflammation, vasculitis, and chronic auto-inflammatory conditions.
+
+1. Gastric stable pentadecapeptide for accelerated mucosal healing and anti-inflammation: BPC-157 promotes rapid resolution of oral/genital ulcers and reduces systemic inflammation.
+
+2. Pyroglutamate-modified erythropoietin fragment for innate repair activation: ARA-290 mitigates chronic inflammation, protects endothelium, and supports neurovascular integrity.
+
+3. {alpha}-MSH-derived tripeptide for potent neutrophil and cytokine suppression: KPV inhibits inflammatory cascades central to flares and tissue damage.
+
+4. Vasoactive intestinal peptide for immunomodulation and uveitis/vasculitis protection: VIP suppresses pro-inflammatory cytokines and protects in ocular/vascular inflammatory models.
+
+5. Glycyl-histidyl-lysine copper complex for regenerative remodeling: GHK-Cu enhances wound healing and antioxidant activity in skin/mucosal lesions.
+
+6. Human cathelicidin for mucosal innate defense and inflammation resolution: LL-37 provides antimicrobial protection and immunomodulation at ulcer-prone sites.
+
+7. Engineered {alpha}-MSH central pharmacophore analog for enhanced melanocortin anti-inflammatory effects: Ac-HFRWGKPV-NH2 optimizes the core HFRWG motif with KPV extension and terminal modifications for stability and superior potency in vasculitis.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Behcet’s Disease p01"
+"Loaded_Programs=Behcet’s Disease p02"
+"Loaded_Programs=Behcet’s Disease p03"
+"Loaded_Programs=Behcet’s Disease p04"
+"Loaded_Programs=Behcet’s Disease p05"
+"Loaded_Programs=Behcet’s Disease p06"
+"Loaded_Programs=Behcet’s Disease p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M179.070=1,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"[/Preset]"

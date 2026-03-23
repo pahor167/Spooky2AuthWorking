@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Iron Deficiency Anemia (Coil)"
+"Preset_Notes=Iron Deficiency Anemia for Coil
+
+Polypeptides designed for iron deficiency anemia focus on improving iron mobilization, absorption, and bioavailability through targeted mechanisms. The five therapeutic axes are:
+
+1. Hepcidin neutralization: Inhibits hepcidin to prevent ferroportin degradation and enhance iron release from stores.
+2. Plant-derived iron chelation: Natural peptides that bind iron, protecting it from inhibitors and promoting uptake.
+3. Marine-derived iron chelation: Peptides from aquatic sources with high ferrous iron affinity for improved solubility and absorption.
+4. Collagen-inspired iron chelation: Engineered motifs rich in Asp, Glu, His for strong non-heme iron coordination.
+5. Heme iron polypeptide mimicry: Synthetic peptides designed to bind and deliver heme iron with high bioavailability.
+
+Peptide assignments and mechanisms:
+- Peptide 1 (real) targets axis 1 via direct hepcidin binding.
+- Peptide 2 (real) targets axis 2 via natural chelation motifs.
+- Peptide 3 (real) targets axis 3 via marine-sourced binding.
+- Peptide 4 (designed) targets axis 4 via enriched chelating residues derived from collagen hydrolysate literature.
+- Peptide 5 (designed) targets axis 5 via histidine-rich motifs for heme coordination.
+
+"
+"Loaded_Programs=Iron Deficiency Anemia p01"
+"Loaded_Programs=Iron Deficiency Anemia p02"
+"Loaded_Programs=Iron Deficiency Anemia p03"
+"Loaded_Programs=Iron Deficiency Anemia p04"
+"Loaded_Programs=Iron Deficiency Anemia p05"
+"Loaded_Frequencies=M99.032=1,M137.059,M186.079,M137.059,M97.053,M156.101,M137.059,M87.032,M113.084,M97.053,M163.063,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M137.059,M113.084,M129.043,M129.043,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M128.058=1,M128.095,M57.021,M101.048,M163.063,M115.027,M115.027,M163.063,M99.068,M129.043,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M57.021,M115.027,M137.059,M57.021,M97.053,M137.059,M57.021,M129.043,M128.095,M57.021,M115.027,M137.059,M87.032,M129.043,M97.053,M57.021,M115.027,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M147.068,M137.059,M186.079,M137.059,M113.084,M57.021,M113.084,M137.059,M186.079,M97.053,M147.068,M113.084,M57.021,M137.059,M186.079,M128.095,M97.053,M137.059,0=4,"
+"[/Preset]"

@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Cephalic Paresthesia (P)"
+"Preset_Notes=Cephalic Paresthesia for Plasma
+
+Cephalic paresthesia involves abnormal head sensations such as tingling, numbness, or prickling, frequently associated with peripheral neuropathy, neuroinflammation, anxiety, oxidative stress, or neural dysregulation. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical studies, investigational peptide research, and mechanistic overlap with related sensory disorders.
+
+1. Tissue-protective erythropoietin receptor agonism: ARA 290 selectively activates anti-apoptotic and anti-inflammatory pathways to reduce small-fiber neuropathic paresthesia.
+2. Stable gastric peptide-mediated nerve repair: BPC-157 promotes angiogenesis, collagen organization, and direct neuroprotection in peripheral sensory nerves.
+3. Copper-chelated tripeptide regeneration: GHK-Cu stimulates growth factors, extracellular matrix remodeling, and antioxidant effects for nerve outgrowth.
+4. Anxiolytic neurotransmitter modulation: Selank enhances GABAergic and serotonergic balance to alleviate stress-related psychosomatic sensory disturbances.
+5. Bioregulatory neural protection: Pinealon normalizes peptide expression and epigenetic control in brain cells to counter degenerative sensory changes.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Cephalic Paresthesia p01"
+"Loaded_Programs=Cephalic Paresthesia p02"
+"Loaded_Programs=Cephalic Paresthesia p03"
+"Loaded_Programs=Cephalic Paresthesia p04"
+"Loaded_Programs=Cephalic Paresthesia p05"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"[/Preset]"

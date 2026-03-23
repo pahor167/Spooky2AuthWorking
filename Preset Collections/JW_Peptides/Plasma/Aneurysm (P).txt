@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Aneurysm (P)"
+"Preset_Notes=Aneurysm for Plasma
+
+Aneurysm
+
+Aneurysm involves pathological dilation of arterial walls, most critically in intracranial and aortic locations, driven by inflammation, oxidative stress, matrix degradation, and hemodynamic factors. The proposed polypeptides address key therapeutic axes derived from preclinical models, Mendelian randomization studies, and clinical investigations: 
+- PSD-95 inhibition to interrupt excitotoxic signaling in subarachnoid hemorrhage following rupture (Peptide 1: real-world nerinetide investigated in trials for aneurysm-related SAH). 
+- Mitochondrial cardiolipin targeting to alleviate oxidative damage and stabilize vascular cells (Peptide 2: real-world elamipretide with patent coverage for aneurysm treatment). 
+- Renin-angiotensin system modulation via Ang II motif to reduce wall stress and progression (Peptide 3: rationally engineered amidated peptide for enhanced stability). 
+- NF-{kappa}B pathway suppression to curb chronic inflammation in the aneurysm wall (Peptide 4: rationally engineered acetylated peptide based on NBD motifs). 
+- Integrin inhibition via cyclic RGD to limit maladaptive remodeling and inflammatory cell adhesion (Peptide 5: rationally engineered disulfide-cyclized peptide for selectivity and durability).
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Aneurysm p01"
+"Loaded_Programs=Aneurysm p02"
+"Loaded_Programs=Aneurysm p03"
+"Loaded_Programs=Aneurysm p04"
+"Loaded_Programs=Aneurysm p05"
+"Loaded_Frequencies=M163.063=1,M57.021,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M128.095,M113.084,M87.032,M87.032,M113.084,M129.043,M87.032,M115.027,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,M147.068,M113.084,M112.10,0=4,"
+"Loaded_Frequencies=M143.059=1,M71.037,M113.084,M115.027,M186.079,M87.032,M186.079,M113.084,M128.058,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"[/Preset]"

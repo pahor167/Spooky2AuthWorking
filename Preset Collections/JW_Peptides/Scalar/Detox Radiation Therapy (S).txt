@@ -1,0 +1,56 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Detox Radiation Therapy (S)"
+"Preset_Notes=Detox Radiation Therapy for Scalar
+
+Detox (Radiation Therapy)
+
+Radiation therapy detoxification addresses the systemic cellular damage induced by ionizing radiation, characterized by mitochondrial dysfunction, DNA strand breaks, oxidative stress cascades, inflammatory cytokine storms, hematopoietic suppression, and potential fibrotic remodeling in affected tissues. The therapeutic strategy targets multi-organ protection through mitochondrial stabilization, genomic integrity maintenance, immunomodulation, and tissue regeneration support.
+
+1. Mitochondrial Protection & Metabolic Stabilization: MOTS-c - Protects mitochondrial function via Nrf2 activation, reduces ROS production, maintains mitochondrial membrane potential, prevents radiation-induced apoptosis
+2. DNA Repair & Genomic Stability: GHK-Cu - Copper-dependent DNA repair stimulation, antioxidant activity, genomic stability maintenance under oxidative stress
+3. Mitochondrial Antioxidant Defense: Elamipretide - Targets cardiolipin in inner mitochondrial membrane, prevents ROS generation, preserves mitochondrial integrity
+4. Inflammatory Resolution & Macrophage Modulation: Annexin_A1_Ac2-26 - Pro-resolving mediator that inhibits macrophage activation, reduces pro-inflammatory cytokine release, promotes tissue resolution
+5. Cytoprotection & Anti-apoptotic Signaling: Humanin - Mitochondrial-derived peptide that inhibits apoptosis, reduces oxidative stress, preserves cellular viability under radiation stress
+6. Hematopoietic Stem Cell Preservation: Neuropeptide Y - Protects hematopoietic stem cell microenvironment, regulates bone marrow cell survival, mitigates radiation-induced myelosuppression
+7. Innate Repair Receptor Activation: ARA-290 - Selective erythropoietin receptor modulator, promotes tissue repair, reduces inflammation and apoptosis
+8. Tissue Regeneration & Wound Healing: BPC-157 - Modulates growth factor pathways, accelerates wound healing, protects gastrointestinal mucosa and soft tissues
+9. Reactive Oxygen Species Scavenging: RadGuard-1 - Engineered Cys-Trp rich sequence for efficient radical scavenging and redox cycling
+10. Fibrosis Prevention & ECM Modulation: FibroBlock-1 - RGD-containing peptide that modulates extracellular matrix deposition, prevents fibrotic remodeling
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Detox Radiation Therapy p01"
+"Loaded_Programs=Detox Radiation Therapy p02"
+"Loaded_Programs=Detox Radiation Therapy p03"
+"Loaded_Programs=Detox Radiation Therapy p04"
+"Loaded_Programs=Detox Radiation Therapy p05"
+"Loaded_Programs=Detox Radiation Therapy p06"
+"Loaded_Programs=Detox Radiation Therapy p07"
+"Loaded_Programs=Detox Radiation Therapy p08"
+"Loaded_Programs=Detox Radiation Therapy p09"
+"Loaded_Programs=Detox Radiation Therapy p10"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.043,M97.053,M57.021,M129.043,M115.027,M71.037,M97.053,M71.037,M129.043,M115.027,M131.040,M71.037,M156.101,M163.063,M163.063,M87.032,M71.037,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M113.084,M101.048,M156.101,M128.058,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M103.009,M156.101,M186.079,M103.009,M156.101,M186.079,M103.009,M156.101,M186.079,M103.009,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M87.032,M97.053,M71.037,M87.032,M87.032,0=4,"
+"[/Preset]"

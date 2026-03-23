@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Emotional Eating Remedy Mix (S)"
+"Preset_Notes=Emotional Eating Remedy Mix / Spooky Scalar
+
+Estimated Time: Run this preset for 15:00 minutes.
+
+Emotional Eating Remedy: 
+Crab Apple: Helps you when you feel that there is something not quite clean about yourself. You may need to wash hands often, find things dirty without any reason. You may find yourself ugly although others find you very attractive.
+Chestnut Bud: Helps you when you keep repeating the same mistake.
+Cherry Plum: Helps you when you loose of self-control.
+Gentian: Easily get discouraged by small set back.
+Olive: When you eat as a way to get more energy.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Emotional Eating Remedy Mix (S)"
+"Loaded_Frequencies=359.21,425.77,262.01,265.67,431.65,"
+"[/Preset]"

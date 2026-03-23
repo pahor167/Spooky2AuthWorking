@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Anisometropia (L)"
+"Preset_Notes=Anisometropia for Laser
+
+Anisometropia is a refractive disorder characterized by a significant difference in the refractive power between the two eyes, typically greater than 1-2 diopters, resulting in unequal image clarity and focus. It can manifest as myopic, hyperopic, or astigmatic asymmetry, with myopic anisometropia more commonly associated with amblyopia risk in the higher myope eye. Causes include genetic predispositions affecting ocular development, failures in the emmetropization process during childhood, environmental factors like near work in asymmetric cases, or secondary to conditions altering corneal or lenticular power. Symptoms often include blurred vision in one eye, headaches, eye strain, reduced depth perception, and potential strabismus; in children, untreated cases frequently lead to permanent amblyopia due to developmental suppression. Pathophysiology involves chronic defocus blur in the more ametropic eye mimicking form deprivation, causing suppressed signal processing in the retina, lateral geniculate nucleus, and primary visual cortex, with reduced neuronal responsiveness, contrast sensitivity, and binocularity; in progressive myopic forms, asymmetric axial elongation arises from disrupted retinal-to-scleral signaling cascades involving neurotransmitters and growth factors.
+
+The proposed polypeptides target critical biological axes of anisometropia, focusing on underlying mechanisms of asymmetric ocular growth, cortical suppression, and scleral remodeling, complementing standard optical corrections with potential disease-modifying effects derived from literature motifs and optimized for drug-likeness through shortening, cyclization, and capping.
+
+- Axis 1: Modulation of retinal neuropeptide signaling to restore emmetropization and prevent asymmetric axial elongation - Addressed by the real vasoactive intestinal peptide (VIP), an endogenous neuropeptide with documented inhibitory effects on form-deprivation myopia in animal models via amacrine cell-mediated dopamine-independent pathways, and a designed disulfide-cyclic capped analog derived from VIP's active core motif with N-acetylation, C-amidation, and cyclization for proteolytic resistance, improved bioavailability, and sustained receptor activation at VPAC receptors.
+- Axis 2: Enhancement of visual cortical neural plasticity to counteract amblyopic suppression - Addressed by a designed head-to-tail cyclic peptide rationally derived from BDNF TrkB-binding loop motifs in literature, promoting synaptic remodeling, dendritic spine formation, and recovery of visual acuity/stereopsis without additional PTMs for simplicity and solubility.
+- Axis 3: Inhibition of scleral extracellular matrix remodeling to limit excessive axial growth in myopic cases - Addressed by a designed linear capped peptide based on established TGF-{beta} type III receptor-derived antagonist motifs (e.g., analogous to P144), with N-acetylation and C-amidation for stability, to block profibrotic signaling and maintain scleral biomechanical balance.
+
+These provide multifaceted coverage of pathophysiology, with physicochemical properties (hydrophilicity, charge balance, stability indices) supporting feasibility as injectables or topical candidates.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Anisometropia p01"
+"Loaded_Programs=Anisometropia p02"
+"Loaded_Programs=Anisometropia p03"
+"Loaded_Programs=Anisometropia p04"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M113.059,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M137.059,M113.084,M57.021,M128.095,M137.059,M113.084,M128.095,M101.048,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M143.059=1,M87.032,M113.084,M115.027,M71.037,M87.032,M113.084,M113.084,M186.079,M71.037,M131.040,M131.040,M128.058,M113.059,0=4,"
+"[/Preset]"

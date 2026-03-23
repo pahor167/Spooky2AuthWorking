@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Solid Breast Lesion (C)"
+"Preset_Notes=Solid Breast Lesion for Contact
+
+Solid breast lesions refer to non-cystic solid masses identified on breast imaging (ultrasound/mammography/MRI), which may be benign (e.g., fibroadenoma) or malignant (e.g., invasive ductal carcinoma, TNBC); polypeptide therapies address key oncogenic drivers, immune evasion, and delivery barriers in malignant solid breast lesions to improve targeted treatment outcomes while minimizing systemic toxicity.
+
+1. Tumor penetration and integrin/NRP-1 targeting: iRGD - Binds {alpha}v integrins on tumor vasculature and cells, proteolytic cleavage exposes CendR motif for neuropilin-1-mediated deep penetration into solid breast lesion parenchyma.
+2. HER2-specific immunotherapy: E75 - HLA-A2/A3-restricted epitope from HER2 extracellular domain eliciting CD8+ CTL responses against HER2-overexpressing cells in solid breast lesions.
+3. HER2 transmembrane epitope immunotherapy: GP2 - HER2-derived transmembrane peptide stimulating T-cell immunity to prevent recurrence in HER2-positive breast cancer solid lesions.
+4. EGFR receptor targeting: GE11 - Binds EGFR overexpressed in triple-negative and other solid breast lesions for targeted drug delivery and signaling inhibition.
+5. PD-L1 immune checkpoint antagonism: DPPA1 - D-peptide antagonist blocking PD-1/PD-L1 interaction to restore T-cell cytotoxicity in immunosuppressive solid breast tumor microenvironment.
+6. STAT3 signaling disruption: STAT3i - Prevents STAT3 homodimerization leading to downregulation of VEGF, survivin and induction of apoptosis in solid breast lesions especially TNBC.
+7. PAR1 receptor antagonism: PZ128 - Inhibits protease-activated receptor 1 signaling to suppress proliferation and invasion in triple-negative solid breast lesions.
+8. SORT1 receptor targeting: TH19P01 - Binds sortilin-1 (SORT1) for selective delivery of therapeutics into SORT1-overexpressing TNBC solid lesions.
+9. PCNA inhibition for DNA repair blockade: CAPCNA - Competes with PCNA auxiliary proteins to inhibit DNA replication and induce cell death in proliferating solid breast lesion cells.
+10. PD-L1 expression downregulation: PDL1pep - Cyclic peptide inhibiting PD-L1 to activate autophagy and enhance T-cell mediated killing in solid breast tumors.
+11. Engineered membrane-disrupting apoptosis: DesMemDisrupt - De novo designed amphipathic helical peptide optimized for selective mitochondrial targeting and pore formation in solid breast lesion cancer cells to induce intrinsic apoptosis pathway.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Solid Breast Lesion p01"
+"Loaded_Programs=Solid Breast Lesion p02"
+"Loaded_Programs=Solid Breast Lesion p03"
+"Loaded_Programs=Solid Breast Lesion p04"
+"Loaded_Programs=Solid Breast Lesion p05"
+"Loaded_Programs=Solid Breast Lesion p06"
+"Loaded_Programs=Solid Breast Lesion p07"
+"Loaded_Programs=Solid Breast Lesion p08"
+"Loaded_Programs=Solid Breast Lesion p09"
+"Loaded_Programs=Solid Breast Lesion p10"
+"Loaded_Programs=Solid Breast Lesion p11"
+"Loaded_Frequencies=M102.001=1,M156.101,M57.021,M115.027,M128.095,M57.021,M97.053,M115.027,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M147.068,M57.021,M87.032,M113.084,M71.037,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M87.032,M71.037,M99.068,M99.068,M57.021,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M137.059,M186.079,M163.063,M57.021,M163.063,M101.048,M97.053,M128.058,M114.043,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M114.043=1,M163.063,M87.032,M128.095,M97.053,M101.048,M115.027,M156.101,M128.058,M163.063,M137.059,M147.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M163.063,M99.068,M87.032,M186.079,M97.053,M97.053,M115.027,M131.040,M131.040,M137.059,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M129.043,M128.058,M114.043,M97.053,M186.079,M71.037,M156.101,M163.063,M113.084,M129.043,M186.079,M113.084,M147.068,M97.053,M101.048,M129.043,M113.084,M113.084,M113.084,M129.043,M113.084,M103.009,0=4,"
+"Loaded_Frequencies=M99.032=1,M99.068,M156.101,M71.037,M128.095,M71.037,M57.021,M99.068,M156.101,M114.043,M113.084,M147.068,M128.095,M87.032,M129.043,M87.032,M163.063,0=4,"
+"Loaded_Frequencies=M113.084=1,M57.021,M113.084,M97.053,M129.043,M128.058,M129.043,M163.063,M87.032,M103.009,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M128.058,M128.095,M101.048,M97.053,M128.095,M128.058,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"[/Preset]"

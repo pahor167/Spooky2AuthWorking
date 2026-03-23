@@ -1,0 +1,14 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Sadness Remedy Mix (S)"
+"Preset_Notes=Sadness Remedy Mix / Spooky Scalar
+
+Estimated Time: Run this preset for 21:00 minutes.
+
+Sadness Remedy: Mustard, Elm, Sweet Chestnut, Willow, Gorse, Gentian, Larch
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Sadness Remedy Mix (S)"
+"Loaded_Frequencies=254.78,463.13,421.51,264.74,424.21,265.67,336.52,"
+"[/Preset]"

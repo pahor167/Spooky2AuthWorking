@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Gastric Carcinoma (C)"
+"Preset_Notes=Gastric Carcinoma for Contact
+
+Gastric carcinoma (GC), or stomach cancer, is a highly lethal malignancy characterized by complex, multistep pathogenesis involving genetic, epigenetic, and environmental factors (e.g., *H. pylori* infection, diet). Its pathophysiology involves dysregulation of multiple signaling pathways, including uncontrolled proliferation (HER2, EGFR, FGFR2, c-MET), evasion of immune surveillance (PD-1/PD-L1, CD47/SIRP{alpha}, TAMs), promotion of angiogenesis and metastasis (VEGF, CXCR4/CXCL12, MMPs), and disruption of cell death mechanisms (TGF-{beta}, STAT3, Wnt/{beta}-catenin, ferroptosis). The therapeutic rationale for this polypeptide set is to provide a comprehensive, multi-axis attack. It combines established biologics (represented by their functional fragments like CDR3s) with well-studied endogenous and synthetic therapeutic peptides. This approach addresses tumor cell-intrinsic drivers (e.g., GE11 for EGFR/FGFR, C7 for c-MET), modulates the immunosuppressive tumor microenvironment (e.g., Thymosin {alpha}1 for immune activation, CV1 for phagocytosis), inhibits metastatic processes (e.g., T22 for CXCR4, L9M for MMPs), and promotes mucosal integrity (e.g., BPC-157, TFF1-22) to counteract the foundational gastric pathology. All polypeptides listed are real-world entities, with no designed peptides required.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Gastric Carcinoma p01"
+"Loaded_Programs=Gastric Carcinoma p02"
+"Loaded_Programs=Gastric Carcinoma p03"
+"Loaded_Programs=Gastric Carcinoma p04"
+"Loaded_Programs=Gastric Carcinoma p05"
+"Loaded_Programs=Gastric Carcinoma p06"
+"Loaded_Programs=Gastric Carcinoma p07"
+"Loaded_Programs=Gastric Carcinoma p08"
+"Loaded_Programs=Gastric Carcinoma p09"
+"Loaded_Programs=Gastric Carcinoma p10"
+"Loaded_Programs=Gastric Carcinoma p11"
+"Loaded_Programs=Gastric Carcinoma p12"
+"Loaded_Programs=Gastric Carcinoma p13"
+"Loaded_Programs=Gastric Carcinoma p14"
+"Loaded_Programs=Gastric Carcinoma p15"
+"Loaded_Programs=Gastric Carcinoma p16"
+"Loaded_Programs=Gastric Carcinoma p17"
+"Loaded_Programs=Gastric Carcinoma p18"
+"Loaded_Frequencies=M128.058=1,M128.058,M87.032,M163.063,M114.043,M97.053,M97.053,M163.063,M101.048,0=4,"
+"Loaded_Frequencies=M128.058=1,M128.058,M71.037,M128.095,M71.037,M147.068,M97.053,M97.053,M101.048,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M128.058,M71.037,M113.084,M128.058,M101.048,M97.053,M163.063,M101.048,0=4,"
+"Loaded_Frequencies=M163.063=1,M137.059,M186.079,M163.063,M57.021,M163.063,M101.048,M97.053,M128.058,M114.043,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M57.021,M115.027,M128.095,M57.021,M97.053,M115.027,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M101.048,M101.048,M137.059,M186.079,M57.021,M147.068,M101.048,M113.084,M102.001,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M163.063,M163.063,M97.053,M115.027,M102.001,M163.063,M156.101,M102.001,M147.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M129.043,M113.084,M101.048,M57.021,M128.095,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M71.037,M156.101,M71.037,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M103.009=1,M128.095,M115.027,M163.063,M113.084,M57.021,M128.095,M163.063,M163.063,M186.079,M128.095,M114.043,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M147.068,M113.084,M156.101,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M99.068,M163.063,M103.009,M156.101,M128.058,M156.101,M113.084,M156.101,M99.068,M156.101,M99.068,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.058,M129.043,M57.021,M102.001,M57.021,M129.043,M186.079,M128.058,M101.048,M147.068,M71.037,M115.027,M186.079,M102.001,0=4,"
+"Loaded_Frequencies=M87.032=1,M156.101,M156.101,M71.037,M114.043,M71.037,M71.037,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M87.032,M147.068,M87.032,M137.059,M114.043,M102.001,M114.043,M163.063,M102.001,M114.043,M97.053,M99.068,M101.048,M97.053,M128.058,M99.068,M102.001,M114.043,M113.084,M57.021,0=4,"
+"[/Preset]"

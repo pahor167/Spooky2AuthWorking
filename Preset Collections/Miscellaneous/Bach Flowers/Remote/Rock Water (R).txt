@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Rock Water (R)"
+"Preset_Notes=Rock Water / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Rock Water - Self-denial, rigidity and self-repression.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Rock Water (R)"
+"Loaded_Frequencies=451.74,"
+"[/Preset]"

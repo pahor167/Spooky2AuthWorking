@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Bone Loss (Age Related) (P)"
+"Preset_Notes=Bone Loss (Age Related) for Plasma
+
+The peptides target multiple therapeutic axes for age-related bone loss, including promotion of osteoblast activity to enhance bone formation, inhibition of osteoclast activity to reduce bone resorption, antioxidant effects to mitigate oxidative stress, anti-inflammatory actions to decrease inflammation, hormonal modulation for calcium homeostasis, and promotion of bone regeneration. The first 10 peptides are real-world with validated evidence from osteoporosis and bone health studies, while peptides 11 and 12 are designed to supplement coverage in antioxidant and regenerative axes, flagged as designed.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Bone Loss (Age Related) p01"
+"Loaded_Programs=Bone Loss (Age Related) p02"
+"Loaded_Programs=Bone Loss (Age Related) p03"
+"Loaded_Programs=Bone Loss (Age Related) p04"
+"Loaded_Programs=Bone Loss (Age Related) p05"
+"Loaded_Programs=Bone Loss (Age Related) p06"
+"Loaded_Programs=Bone Loss (Age Related) p07"
+"Loaded_Programs=Bone Loss (Age Related) p08"
+"Loaded_Programs=Bone Loss (Age Related) p09"
+"Loaded_Programs=Bone Loss (Age Related) p10"
+"Loaded_Programs=Bone Loss (Age Related) p11"
+"Loaded_Programs=Bone Loss (Age Related) p12"
+"Loaded_Frequencies=M71.037=1,M113.084,M128.095,M156.101,M128.058,M57.021,M156.101,M101.048,M113.084,M163.063,M57.021,M147.068,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M101.048,M129.043,M128.058,M57.021,M71.037,M129.043,M113.084,M87.032,M114.043,M129.043,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M128.095,M113.084,M101.048,M115.027,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M102.001,M186.079,M87.032,M128.058,M163.063,M113.084,M102.001,M163.063,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M103.009,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M103.009,M103.009,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M113.084,M87.032,M99.068,M163.063,M186.079,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M87.032,M99.068,M99.068,M97.053,M87.032,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M163.063,M137.059,M128.095,M97.053,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M156.101,M57.021,M115.027,M87.032,0=4,"
+"[/Preset]"

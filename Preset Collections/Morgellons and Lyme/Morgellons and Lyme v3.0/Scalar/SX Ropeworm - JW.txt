@@ -1,0 +1,18 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"Repeat_Chain=0"
+"PresetName=SX Ropeworm - JW"
+"Preset_Notes=M&L Protocol, Extras. Spooky Scalar.
+
+Update: September 2019.
+
+This program is already present in the 47th preset, Complex Parasites G - DB. However, these large parasites usually require additional treatments.
+
+PROGRAMS:
+Parasites Ropeworm XTRA
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Loaded_Programs=Parasites Ropeworm (XTRA)"
+"Loaded_Frequencies=1359=360,"
+"[/Preset]"

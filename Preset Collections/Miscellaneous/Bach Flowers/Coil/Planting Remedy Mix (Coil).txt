@@ -1,0 +1,14 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Coil\Spooky Coil (Generator Direct) - JW"
+"PresetName=Planting Remedy Mix (Coil)"
+"Preset_Notes=Planting Remedy Mix / Spooky Coil
+
+Estimated Time: Run this preset for 9:00 minutes.
+
+Planting Remedy: Hornbeam, Olive & Vine - Useful for newly planted seeds or seedlings
+
+Connect the Spooky PEMF Coil to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Planting Remedy Mix (Coil)"
+"Loaded_Frequencies=257.45,431.65,383.91,"
+"[/Preset]"

@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=McCune-Albright Syndrome (Coil)"
+"Preset_Notes=McCune-Albright Syndrome for Coil
+
+McCune-Albright Syndrome (MAS) is a rare, mosaic genetic disorder caused by postzygotic somatic activating mutations in the GNAS gene, leading to constitutive activation of the Gs{alpha} protein and dysregulated cAMP signaling in affected tissues. This results in a variable clinical spectrum including polyostotic fibrous dysplasia (FD) of bone with deformities, fractures, and chronic pain; café-au-lait skin hyperpigmentation; and multiple endocrine hyperfunctions such as gonadotropin-independent precocious puberty (predominantly in girls due to autonomous ovarian cysts), growth hormone excess, hyperthyroidism, FGF23-mediated hypophosphatemia with renal phosphate wasting, and occasionally Cushing syndrome or prolactin excess. The mosaic nature explains the asymmetric and variable severity, with skeletal involvement often the most debilitating, causing significant morbidity through bone pain and structural issues, while endocrine features drive early growth acceleration followed by compromised adult height and metabolic disturbances.
+
+No curative therapies exist, and management remains symptomatic: bisphosphonates (limited efficacy), denosumab trials for bone lesions, aromatase inhibitors or anti-estrogens for precocious puberty, burosumab for hypophosphatemia, and occasional somatostatin analogs or GH antagonists for pituitary hypersecretion. No short polypeptide therapeutics are established or in advanced trials for MAS within length constraints. The proposed interventions are entirely conceptually designed short polypeptides addressing four core therapeutic axes derived from pathophysiology:
+
+1. Fibrous dysplasia and bone remodeling axis: Excessive cAMP-driven osteoclastogenesis and RANKL upregulation.
+2. Precocious puberty axis: Autonomous gonadal steroidogenesis.
+3. Hypophosphatemia axis: FGF23 overproduction leading to renal phosphate loss.
+4. Growth hormone excess axis: Pituitary somatotroph hyperactivation.
+
+All polypeptides are designed (flagged as such). Peptide 1 (RGGFKK) features a basic C-terminal cluster for potential bone matrix targeting and interference with osteoclast signaling. Peptide 2 (YPVLIA) incorporates hydrophobic and aromatic residues to hypothetically disrupt steroidogenic enzyme interactions or membrane-associated gonadal pathways. Peptide 3 (DDSTKP) includes acidic residues to possibly buffer or modulate FGF23-related renal effects. Peptide 4 (WQHLPK) combines aromatic and basic motifs for potential downstream cAMP/PKA modulation in pituitary cells. These short (6-residue) linear sequences use only standard amino acids for ease of synthesis, high stability, and low immunogenicity; diversity exceeds 50% pairwise difference with no excessive repeats. Feasibility is high given precedents for short bioactive peptides in endocrine and bone disorders, with potential for pegylation, cyclization, or D-amino acid incorporation to enhance half-life and bioavailability, though preclinical testing would be required to validate efficacy against cAMP dysregulation.
+
+"
+"Loaded_Programs=McCune-Albright Syndrome p01"
+"Loaded_Programs=McCune-Albright Syndrome p02"
+"Loaded_Programs=McCune-Albright Syndrome p03"
+"Loaded_Programs=McCune-Albright Syndrome p04"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M147.068,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M99.068,M113.084,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M115.027=1,M115.027,M87.032,M101.048,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M186.079=1,M128.058,M137.059,M113.084,M97.053,M128.095,0=4,"
+"[/Preset]"

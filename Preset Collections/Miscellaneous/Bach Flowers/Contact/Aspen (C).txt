@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Aspen (C)"
+"Preset_Notes=Aspen / Spooky Contact
+
+Estimated Time: Run this preset for 3:00 minutes.
+Aspen - Fear of unknown things.
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Aspen (C)"
+"Loaded_Frequencies=391.54F4096C0,"
+"[/Preset]"

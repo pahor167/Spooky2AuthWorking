@@ -1,0 +1,15 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Diplopia (Double Vision) (Coil)"
+"Preset_Notes=Diplopia (Double Vision) for Coil
+
+Diplopia, commonly known as double vision, is a visual symptom characterized by perceiving two images of a single object, typically resulting from ocular misalignment due to neuromuscular dysfunction, inflammation, or trauma. Therapeutic axes include the tissue repair and regeneration pathway, which promotes healing of damaged ocular muscles and nerves; the actin-binding anti-inflammatory pathway, which mitigates inflammation and supports cytoskeletal integrity in eye tissues; and the annexin A1 anti-inflammatory pathway, which regulates immune responses to reduce orbital swelling and protect neural pathways. BPC-157 is assigned to the tissue repair axis, enhancing wound healing and functional recovery in affected structures. TB-500 is assigned to the actin-binding axis, exerting anti-inflammatory effects and aiding in tissue remodeling. Ac2-26 is assigned to the annexin A1 axis, providing anti-inflammatory protection to alleviate symptoms associated with autoimmune or inflammatory causes.
+
+"
+"Loaded_Programs=Diplopia (Double Vision) p01"
+"Loaded_Programs=Diplopia (Double Vision) p02"
+"Loaded_Programs=Diplopia (Double Vision) p03"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"[/Preset]"

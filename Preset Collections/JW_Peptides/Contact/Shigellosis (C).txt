@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Shigellosis (C)"
+"Preset_Notes=Shigellosis for Contact
+
+Shigellosis is an acute bacterial infection caused by Shigella species, resulting in inflammatory dysentery, mucosal ulceration, abdominal pain, fever, and potential systemic complications from toxin production and immune activation. Shigella downregulates endogenous antimicrobial peptides like LL-37 while inducing intense inflammation and epithelial damage. The proposed polypeptides target evidence-based axes from infection models, focusing on antimicrobial restoration, direct bactericidal activity, cytoprotection, inflammation modulation, and regenerative repair.
+
+1. Full-length human cathelicidin antimicrobial and immunomodulatory defense: LL-37 provides direct envelope disruption and counters infection-induced downregulation.
+2. Stable gastric pentadecapeptide broad cytoprotection: BPC-157 protects and heals intestinal epithelium against inflammatory damage.
+3. Acetylated Thymosin {beta}4 fragment cellular repair: TB-500 promotes migration, anti-inflammation, and tissue recovery.
+4. Vasoactive intestinal peptide anti-inflammatory modulation: VIP mitigates gut inflammation and supports mucosal integrity.
+5. {alpha}-MSH-derived tripeptide cytokine suppression: KPV potently reduces inflammatory mediators.
+6. Copper-binding tripeptide regenerative support: GHK-Cu enhances remodeling and antioxidant protection in damaged mucosa.
+7. Engineered minimal cathelicidin motif optimization: KR-12 (Ac-KRIVQRIKDFLR-NH2) concentrates antibacterial potency of LL-37 core for improved efficacy and stability.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Shigellosis p01"
+"Loaded_Programs=Shigellosis p02"
+"Loaded_Programs=Shigellosis p03"
+"Loaded_Programs=Shigellosis p04"
+"Loaded_Programs=Shigellosis p05"
+"Loaded_Programs=Shigellosis p06"
+"Loaded_Programs=Shigellosis p07"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M170.106=1,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M155.117,0=4,"
+"[/Preset]"

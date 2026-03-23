@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=COVID-19 - Spike Proteins (Top 30) (R) - BR"
+"BFB_Finish_Frequency=1800000"
+"BFB_Grade_Program=0"
+"BFB_Initial_Step_Size_%=.025"
+"BFB_Reverse_Lookup_Tolerance=.25"
+"BFB_Include_x_Hz_In_Search=0"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=IMPORTANT:
+
+'''' This preset is calibrated to use a 'MW to Hz factor' of '2.2523430883E+23'. 
+'''' Please update this on your System Tab.
+
+This preset generates frequencies using SARS-CoV-2 spike protein data from 7/2/2021. Due to natural mutations, as well as synthetically created mutations (from vaccines), there are many variations of the SARS-CoV-2 Spike Protein.
+
+These 'Top 30' Spike Protein MW frequencies have a 75% probability of addressing all spike proteins including those created by vaccines. The most prevalent spike proteins are first in the list of frequencies, decreasing with regularity as the program continues.
+
+More data for spike proteins in your area:
+https://www.dropbox.com/s/drn2bu98h0ps7c7/SpikeProteinMutations.xlsx?dl=1
+
+Copyright 2021, All rights reserved
+
+Brad Rothman
+brad@cornerstonecodes.com
+https://www.cornerstonecodes.com"
+"Settings_Frequency_Wobble_Percentage=.5"
+"Settings_Frequency_Wobble_Steps=1000"
+"Out2_Frequency_Limit_Harmonic_Type=Scalar*"
+"User_Defined_1_Waveform=Sine"
+"User_Defined_2_Waveform=UDB_Square"
+"Out2_Follow_Out1_Frequency=False"
+"Out2_Follows_Program_Frequency=True"
+"Out2_Run_Every_Second_Frequency=False"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Out2_Follow_Out1_Wave=False"
+"Enable_MW_Tissue_Factor=0"
+"Enable_DNA_Tissue_Factor=0"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Packing_Frequency_Out1=0"
+"Packing_Frequency_Out2=0"
+"Enable_Invert_Follow_Out1_Wave=0"
+"Loaded_Programs=SARS-CoV-2 - Spike Protein (Top 30) (CUST)"
+"Loaded_Frequencies=M197174.5923534=180,M197525.4599208=180,M197154.7197741=180,M197563.6591005=180,M197498.7518985=180,M197468.8163105=180,M197699.3975189=180,M197577.8464470=180,M197607.4920564=180,M197538.1883156=180,M197238.2884016=180,M197538.3071160=180,M197259.4966240=180,M197194.4134759=180,M197582.0371579=180,M197548.0801460=180,M197290.6545331=180,M197545.2810433=180,M197197.2125786=180,M197538.2912295=180,M197191.6143730=180,M197154.7712310=180,M197565.1021656=180,M197481.6110786=180,M197214.2345982=180,M197211.4354955=180,M197542.4819406=180,M197593.3936287=180,M197613.2306374=180,M197248.2271806=180,"
+"[/Preset]"

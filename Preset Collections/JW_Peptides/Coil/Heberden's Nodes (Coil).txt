@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Heberden’s Nodes (Coil)"
+"Preset_Notes=Heberden’s Nodes for Coil
+
+Heberden's nodes are bony enlargements at the distal interphalangeal joints characteristic of nodal osteoarthritis, involving progressive cartilage degradation, osteophyte formation, subchondral bone remodeling, synovial inflammation, pain, and extracellular matrix disruption, frequently in postmenopausal women with genetic predisposition. Proposed polypeptides target inflammation reduction, cartilage protection, matrix regeneration, tissue repair, bone homeostasis, and chondrogenic stimulation axes supported by osteoarthritis and joint degeneration literature:
+1. Anti-inflammatory and pain relief: ARA-290 - Activates the innate repair receptor to reduce inflammation and neuropathic symptoms in arthritic conditions.
+2. Cartilage protection: VIP - Exerts potent anti-inflammatory effects and prevents cartilage degradation and joint remodeling in OA models.
+3. Matrix regeneration: GHK-Cu - Stimulates collagen, glycosaminoglycan, and elastin synthesis to support connective tissue remodeling.
+4. Tissue repair: Thymosin_beta_4 - Promotes healing, angiogenesis, and inflammation modulation in damaged joint tissues.
+5. Bone remodeling modulation: Salmon Calcitonin - Inhibits osteoclast activity to regulate subchondral bone changes and osteophyte growth.
+6. Chondrogenic stimulation: DHLSDNYTLDHDRAIH - Link protein N-terminal-derived peptide that induces SOX9, aggrecan, and type II collagen expression via BMP signaling.
+
+"
+"Loaded_Programs=Heberden’s Nodes p01"
+"Loaded_Programs=Heberden’s Nodes p02"
+"Loaded_Programs=Heberden’s Nodes p03"
+"Loaded_Programs=Heberden’s Nodes p04"
+"Loaded_Programs=Heberden’s Nodes p05"
+"Loaded_Programs=Heberden’s Nodes p06"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M114.043,M113.084,M87.032,M101.048,M102.001,M99.068,M113.084,M57.021,M128.095,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M128.095,M113.084,M128.058,M101.048,M163.063,M97.053,M156.101,M101.048,M114.043,M101.048,M57.021,M87.032,M71.037,M101.048,M96.069,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M113.084,M87.032,M115.027,M114.043,M163.063,M101.048,M113.084,M115.027,M137.059,M115.027,M156.101,M71.037,M113.084,M137.059,0=4,"
+"[/Preset]"

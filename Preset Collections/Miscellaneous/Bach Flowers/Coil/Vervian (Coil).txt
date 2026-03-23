@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Coil\Spooky Coil (Generator Direct) - JW"
+"PresetName=Vervian (Coil)"
+"Preset_Notes=Vervian / Spooky Coil
+
+Estimated Time: Run this preset for 3:00 minutes.
+Vervain - Over-enthusiasm.
+
+Connect the Spooky PEMF Coil to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Vervian (Coil)"
+"Loaded_Frequencies=409.14,"
+"[/Preset]"

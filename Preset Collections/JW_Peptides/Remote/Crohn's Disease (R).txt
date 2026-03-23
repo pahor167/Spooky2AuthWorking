@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Crohn’s Disease (R)"
+"Preset_Notes=Crohn’s Disease for Remote
+
+Crohn’s Disease is a chronic inflammatory bowel disease that can affect any part of the gastrointestinal tract, typically the terminal ileum and colon, featuring transmural inflammation, ulcers, fistulas, strictures, and dysregulated immune responses to the gut microbiota leading to abdominal pain, diarrhea, weight loss, and malnutrition.
+
+1. Intestinal barrier repair: GLP-2 - Stimulates epithelial proliferation, enhances tight junctions, and promotes mucosal healing in inflamed segments
+2. Th1 cytokine suppression: Cortistatin - Downregulates TNF-{alpha}, IFN-{gamma}, and IL-12 while promoting regulatory immune cells to dampen chronic inflammation
+3. Inflammation resolution: Annexin A1 Ac2-26 - Activates FPR2 receptors to accelerate resolution of inflammation, reduce neutrophil influx, and support tissue repair
+4. Antimicrobial restoration: hBD-3 - Compensates for deficient endogenous {beta}-defensins to strengthen mucosal antimicrobial defense and limit bacterial translocation
+5. T-cell immunomodulation: Thymosin alpha 1 - Enhances regulatory T-cell function and balances Th1/Th17 responses for immune homeostasis
+6. Neuroendocrine control: Somatostatin-14 - Inhibits excessive gastrointestinal secretions and pro-inflammatory mediator release in the enteric nervous system
+7. Engineered epithelial restitution: ERP-12 (designed) - Optimized amphipathic helical peptide that upregulates claudins/occludin and promotes rapid epithelial migration for ulcer healing
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Crohn’s Disease p01"
+"Loaded_Programs=Crohn’s Disease p02"
+"Loaded_Programs=Crohn’s Disease p03"
+"Loaded_Programs=Crohn’s Disease p04"
+"Loaded_Programs=Crohn’s Disease p05"
+"Loaded_Programs=Crohn’s Disease p06"
+"Loaded_Programs=Crohn’s Disease p07"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M113.084,M128.058,M101.048,M128.095,M113.084,M101.048,M115.027,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M128.059=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M103.009,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M103.009,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,0=4,"
+"[/Preset]"

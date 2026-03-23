@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Detox Advanced Glycation End Products (R)"
+"Preset_Notes=Detox Advanced Glycation End Products for Remote
+
+Advanced Glycation End Products Detoxification
+
+Advanced glycation end products (AGEs) are a diverse group of irreversible compounds formed through non-enzymatic glycation and oxidation of proteins, lipids, and nucleic acids by reducing sugars or dicarbonyls, with formation accelerated by hyperglycemia, oxidative stress, aging, and dietary intake from heat-processed foods rich in Maillard reaction products. Primary sources include endogenous production via glycolytic intermediates like methylglyoxal and exogenous absorption from cooked meats, fats, and baked goods. Symptoms and contributions span chronic conditions: vascular stiffness and atherosclerosis, diabetic nephropathy and retinopathy, neurodegenerative disorders like Alzheimer's, skin aging with wrinkles and elasticity loss, chronic inflammation, and fibrosis. Pathophysiology involves direct protein crosslinking impairing tissue function plus RAGE receptor activation triggering NF-{kappa}B signaling, excessive ROS generation, pro-inflammatory cytokines, endothelial dysfunction, and apoptotic pathways, creating a vicious cycle of damage amplification.
+
+The proposed polypeptides target core mechanisms to reduce AGE burden and mitigate effects. Real Carnosine, a natural dipeptide abundant in muscle and brain, scavenges reactive dicarbonyls like methylglyoxal, directly inhibiting AGE precursor accumulation and formation, with evidence from systematic reviews showing reduced glycation in models and potential clinical benefits. Real RAGE Antagonist Peptide, derived from S100P protein motif, competitively blocks ligand binding to RAGE, preventing downstream inflammatory signaling from AGEs and related DAMPs like HMGB1 and S100 proteins, as demonstrated in preclinical tumor and inflammation studies. Designed polypeptides incorporate stability enhancements per drug-likeness principles: the capped His-rich trapper builds on carnosine's histidine-based trapping mechanism with multiple imidazole groups for amplified dicarbonyl quenching plus terminal N-acetylation and C-amidation for protease resistance; the disulfide-cyclized RAGE antagonist extends the RAP motif with flanking cysteines for cyclization, improving pharmacokinetic stability while retaining receptor antagonism based on literature-derived binding principles. This combination covers prevention of AGE formation and blockade of pathogenic signaling for broad detoxification.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Detox Advanced Glycation End Products p01"
+"Loaded_Programs=Detox Advanced Glycation End Products p02"
+"Loaded_Programs=Detox Advanced Glycation End Products p03"
+"Loaded_Programs=Detox Advanced Glycation End Products p04"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M128.095,M99.068,M113.084,M131.040,M129.043,M128.095,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M129.043,M113.084,M128.095,M99.068,M113.084,M131.040,M129.043,M128.095,M129.043,M113.084,M102.001,0=4,"
+"[/Preset]"

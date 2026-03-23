@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Spinal Hemangiomas (C)"
+"Preset_Notes=Spinal Hemangiomas for Contact
+
+Spinal hemangiomas, commonly referred to as vertebral hemangiomas, are the most prevalent benign vascular lesions of the spine with an incidence of 10-12% in the general population based on autopsy and imaging studies, predominantly affecting the thoracic vertebrae though lumbar and cervical involvement occurs. These lesions arise from proliferations of thin-walled capillary-like or cavernous blood vessels lined by endothelium, infiltrating the bone marrow and surrounding remodeled trabeculae, often with abundant fatty stroma in typical cases; macroscopically they appear as honeycomb-like vascular spaces with sclerotic bone, while histologically they feature endothelial-lined channels amid edematous or fatty matrix and reactive bony changes. Most are asymptomatic incidental findings on imaging performed for unrelated reasons, presenting classic 'polka-dot' (axial) and 'corduroy' (sagittal) patterns due to thickened vertical trabeculae. Symptomatic or aggressive variants, though rare, manifest with localized back pain, radiculopathy, myelopathy, or neurological deficits from mechanisms including vertebral expansion, cortical breach, epidural/soft tissue extension, pathological compression fractures, or hemorrhage; pregnancy may exacerbate due to hormonal/hemodynamic factors increasing vascularity. Pathophysiology centers on vascular malformations (hamartomatous rather than true neoplastic) driving secondary reactive trabecular thickening and bone remodeling, with aggressive forms showing higher vascular-to-fat ratio, potential inflammatory infiltrates, and mechanical instability contributing to progression.
+
+The proposed polypeptides are entirely conceptually designed short sequences, as comprehensive searches across PubMed, clinicaltrials.gov, patents, and related sources yielded no real-world polypeptide, peptide, antibody, or protein-based therapies (established, investigational, preclinical, or off-label) specifically for spinal hemangiomas; management relies on observation for asymptomatic cases and interventions like percutaneous vertebroplasty, transarterial embolization, ethanol sclerotherapy, radiotherapy, or surgical decompression/stabilization for painful or compressive lesions. These designed polypeptides target five core mechanistic axes informed by documented vascular and osseous pathophysiology: (1) pathological angiogenesis fueling vessel proliferation, addressed by the first designed polypeptide to inhibit neovascularization; (2) excessive endothelial hyperactivity and vascular component dominance, targeted by the second to restrict lesion vascularity; (3) dysregulated trabecular bone remodeling leading to structural changes, modulated by the third to promote normalization; (4) inflammatory cascades contributing to pain and symptomatic progression, dampened by the fourth to alleviate reactivity; (5) aggressive expansion with epidural extension and fracture risk, countered by the fifth to enhance stability and prevent compression. Together, they offer conceptual multi-axis coverage for symptom relief, lesion stabilization, and progression hindrance, with feasibility based on parallels in vascular tumor biology and interventional outcomes.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Spinal Hemangiomas p01"
+"Loaded_Programs=Spinal Hemangiomas p02"
+"Loaded_Programs=Spinal Hemangiomas p03"
+"Loaded_Programs=Spinal Hemangiomas p04"
+"Loaded_Programs=Spinal Hemangiomas p05"
+"Loaded_Frequencies=M156.101=1,M128.095,M71.037,M87.032,M97.053,M57.021,M101.048,M163.063,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M128.095,M186.079,M97.053,M128.058,M156.101,0=4,"
+"Loaded_Frequencies=M97.053=1,M115.027,M128.095,M99.068,M113.084,M113.084,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M163.063,M137.059,M186.079,M101.048,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M156.101,M147.068,M57.021,M87.032,M97.053,M113.084,0=4,"
+"[/Preset]"

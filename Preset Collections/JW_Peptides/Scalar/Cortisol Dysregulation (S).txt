@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Cortisol Dysregulation (S)"
+"Preset_Notes=Cortisol Dysregulation for Scalar
+
+Cortisol dysregulation refers to aberrant levels, rhythms, or responsiveness to cortisol, the main glucocorticoid regulated by the hypothalamic-pituitary-adrenal (HPA) axis. It includes hypercortisolism (e.g., Cushing's syndrome from pituitary/adrenal tumors, ectopic ACTH, or chronic stress) and hypocortisolism (e.g., primary/secondary adrenal insufficiency). Hypercortisolism causes central obesity, muscle atrophy, hypertension, insulin resistance, osteoporosis, mood disorders, and immunosuppression via prolonged glucocorticoid exposure and feedback disruption. Hypocortisolism leads to fatigue, weight loss, hypotension, electrolyte imbalances, and adrenal crisis. Core pathophysiology involves impaired CRH-ACTH-cortisol negative feedback, receptor desensitization, and downstream inflammatory/metabolic effects.
+
+The proposed polypeptides target key mechanistic axes conceptually with short synthetic sequences for feasibility and penetration. All are designed due to sparse real-world polypeptides with verifiable standard residue chemistry for direct cortisol regulation. Peptide 1 (designed) is a tryptophan-rich cationic sequence conceptually acting via somatostatin-like inhibition of pituitary ACTH release. Peptide 2 (designed) is glutamine/proline-rich to conceptually restore GR sensitivity and feedback. Peptide 3 (designed) features aromatic residues for potential glucocorticoid pathway modulation. Peptide 4 (designed) incorporates thiol and aromatic motifs for anti-inflammatory effects countering chronic dysregulation. Peptide 5 (designed) is hydrophobic to conceptually interfere with adrenal steroidogenesis enzymes. These diverse designs offer multimodal potential with low proteolytic risk.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Cortisol Dysregulation p01"
+"Loaded_Programs=Cortisol Dysregulation p02"
+"Loaded_Programs=Cortisol Dysregulation p03"
+"Loaded_Programs=Cortisol Dysregulation p04"
+"Loaded_Programs=Cortisol Dysregulation p05"
+"Loaded_Frequencies=M128.095=1,M147.068,M115.027,M186.079,M128.095,M101.048,M156.101,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.058,M128.058,M87.032,M97.053,M97.053,M71.037,M71.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M137.059,M57.021,M99.068,M131.040,M113.084,M147.068,0=4,"
+"Loaded_Frequencies=M114.043=1,M87.032,M156.101,M101.048,M103.009,M137.059,M115.027,M186.079,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M128.095,M113.084,M113.084,M147.068,M156.101,M57.021,0=4,"
+"[/Preset]"

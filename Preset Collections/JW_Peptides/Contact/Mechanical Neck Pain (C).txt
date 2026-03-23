@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Mechanical Neck Pain (C)"
+"Preset_Notes=Mechanical Neck Pain for Contact
+
+Mechanical neck pain is a prevalent musculoskeletal disorder characterized by discomfort in the cervical region due to strain on muscles, ligaments, facet joints, or discs, commonly from poor posture, overuse, or minor trauma.
+
+1. Soft tissue regeneration: Thymosin beta-4 - Promotes cell migration, angiogenesis, and anti-inflammatory effects to facilitate healing of strained neck tissues.
+2. Muscle repair: MGF - Activates satellite cells to promote proliferation and repair of damaged cervical muscles.
+3. Analgesic: Salmon Calcitonin - Exerts central and peripheral analgesic effects for relief of chronic mechanical pain.
+4. Anti-inflammatory analgesia: Cortistatin - Suppresses pro-inflammatory mediators while providing direct pain relief in inflammatory pain states.
+5. Stress and pain modulation: DSIP - Delivers non-opioid analgesia and mitigates stress-related tension contributing to neck pain.
+6. Neurotissue regeneration: VD11 - Stimulates growth factor secretion and regenerative signaling pathways to support tissue and axonal recovery.
+7. Targeted analgesia: Stable Kyotorphin Analog - Engineered N-acetylated, C-amidated analog of kyotorphin for enhanced stability and potent induction of endogenous opioid release.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Mechanical Neck Pain p01"
+"Loaded_Programs=Mechanical Neck Pain p02"
+"Loaded_Programs=Mechanical Neck Pain p03"
+"Loaded_Programs=Mechanical Neck Pain p04"
+"Loaded_Programs=Mechanical Neck Pain p05"
+"Loaded_Programs=Mechanical Neck Pain p06"
+"Loaded_Programs=Mechanical Neck Pain p07"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M163.063=1,M129.043,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M101.048,M57.021,M163.063,M57.021,M147.068,M128.058,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M114.043,M113.084,M87.032,M101.048,M102.001,M99.068,M113.084,M57.021,M128.095,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M128.095,M113.084,M128.058,M101.048,M163.063,M97.053,M156.101,M101.048,M114.043,M101.048,M57.021,M87.032,M71.037,M101.048,M96.069,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M99.068=1,M115.027,M129.043,M113.084,M186.079,M97.053,M97.053,M186.079,M113.084,M97.053,M103.009,0=4,"
+"Loaded_Frequencies=M205.074=1,M155.117,0=4,"
+"[/Preset]"

@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=White Chestnut (L)"
+"Preset_Notes=White Chestnut / Spooky Laser
+
+Estimated Time: Run this preset for 3:00 minutes.
+White Chestnut - Unwanted thoughts and mental arguments, mind going around and around.
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=White Chestnut (L)"
+"Loaded_Frequencies=247.09,"
+"[/Preset]"

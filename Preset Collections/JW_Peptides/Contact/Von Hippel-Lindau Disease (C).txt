@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Von Hippel-Lindau Disease (C)"
+"Preset_Notes=Von Hippel-Lindau Disease for Contact
+
+Von Hippel-Lindau Disease (VHL) is a rare, autosomal dominant genetic disorder caused by mutations in the VHL tumor suppressor gene on chromosome 3p25.3, leading to a predisposition for developing multiple benign and malignant tumors across various organs. The VHL protein plays a critical role in regulating the hypoxia-inducible factor (HIF) pathway; its dysfunction results in constitutive activation of HIF-1{alpha} and HIF-2{alpha}, promoting aberrant angiogenesis, cell proliferation, and tumor formation via upregulation of genes like VEGF, PDGF, and TGF-{alpha}. Common manifestations include central nervous system hemangioblastomas (often in the cerebellum, spinal cord, or brainstem), retinal hemangioblastomas causing vision loss, clear cell renal cell carcinomas (ccRCC), pheochromocytomas, pancreatic cysts or neuroendocrine tumors, endolymphatic sac tumors, and epididymal or broad ligament cystadenomas. Symptoms vary by tumor location and include headaches, ataxia, visual disturbances, hypertension, abdominal pain, and potential organ failure; untreated, it can lead to severe morbidity or mortality from tumor progression or complications like hemorrhage. The pathophysiology centers on loss of VHL-mediated ubiquitination and degradation of HIF-{alpha} subunits under normoxia, mimicking hypoxic conditions and driving pseudo-hypoxic signaling that fosters vascularized tumor growth. Diagnosis typically involves genetic testing for VHL mutations and surveillance imaging (MRI, CT, ultrasound) starting in childhood for at-risk individuals.
+
+The proposed polypeptides address VHL disease through key therapeutic axes: modulating the HIF-2{alpha} pathway to counteract pseudo-hypoxic signaling and reduce tumor proliferation, inhibiting VEGF-driven angiogenesis to limit tumor vascularization and growth, targeting somatostatin receptors to suppress neuroendocrine tumor activity and hormone secretion, enhancing immune recognition of mutant VHL epitopes to elicit anti-tumor responses, and disrupting aberrant signaling pathways like tyrosine kinase or {beta}2-adrenergic to curb cell survival and metastasis. Designed polypeptides D1, D2, and D5 are conceptualized to bind and inhibit HIF-2{alpha}, sequester VEGF, and antagonize signaling cascades, respectively, potentially stabilizing VHL-HIF interactions, reducing vascular permeability, and balancing downstream effectors like AKT/AMPK, thereby alleviating tumor burden and systemic effects without broad toxicity.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Von Hippel-Lindau Disease p01"
+"Loaded_Programs=Von Hippel-Lindau Disease p02"
+"Loaded_Programs=Von Hippel-Lindau Disease p03"
+"Loaded_Programs=Von Hippel-Lindau Disease p04"
+"Loaded_Programs=Von Hippel-Lindau Disease p05"
+"Loaded_Frequencies=M129.043=1,M113.084,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.058,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M102.001,M147.068,M186.079,M128.095,M101.048,M102.001,M101.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M113.084,M87.032,M101.048,M71.037,M147.068,M71.037,M156.101,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.058,M129.043,M97.053,0=4,"
+"[/Preset]"

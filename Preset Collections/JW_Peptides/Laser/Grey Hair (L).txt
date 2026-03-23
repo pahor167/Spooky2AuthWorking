@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Grey Hair (L)"
+"Preset_Notes=Grey Hair for Laser
+
+Grey hair results from diminished melanin production in hair follicles due to melanocyte senescence, hydrogen peroxide accumulation, melanocyte stem cell dysfunction, oxidative damage, and age-related hormonal/metabolic changes. Proposed polypeptides target key pathophysiological axes from current literature on hair repigmentation and anti-greying mechanisms:
+
+1. Melanocortin activation: Palmitoyl Tetrapeptide-20 - Biomimetic {alpha}-MSH agonist that stimulates melanogenesis via MC1R and enhances catalase activity to protect melanocytes.
+2. Mitochondrial regulation: MOTS-c - Mitochondrial-derived peptide that optimizes energy metabolism and mitigates oxidative stress in aging follicles.
+3. Antioxidant defense: Carnosine - Potent dipeptide scavenger of reactive oxygen species, particularly effective against H2O2 buildup linked to greying.
+4. Neuroprotective anti-stress: Semax - Boosts BDNF expression and adaptive responses, countering stress-induced greying pathways.
+5. Growth hormone axis: Ipamorelin - Selective GH secretagogue that elevates IGF-1 to support melanocyte proliferation and function.
+6. Enhanced melanogenesis: Ac-HFRWG-NH2 - Designed stabilized core analog of {alpha}-MSH for potent, targeted stimulation of hair follicle pigmentation.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Grey Hair p01"
+"Loaded_Programs=Grey Hair p02"
+"Loaded_Programs=Grey Hair p03"
+"Loaded_Programs=Grey Hair p04"
+"Loaded_Programs=Grey Hair p05"
+"Loaded_Programs=Grey Hair p06"
+"Loaded_Frequencies=M375.289=1,M147.068,M156.101,M185.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M85.053=1,M137.059,M205.074,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M179.070=1,M147.068,M156.101,M186.079,M56.037,0=4,"
+"[/Preset]"

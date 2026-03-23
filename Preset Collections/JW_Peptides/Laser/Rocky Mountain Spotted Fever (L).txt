@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Rocky Mountain Spotted Fever (L)"
+"Preset_Notes=Rocky Mountain Spotted Fever for Laser
+
+Rocky Mountain Spotted Fever is a severe, potentially fatal tick-borne illness caused by the obligate intracellular bacterium Rickettsia rickettsii, leading to vasculitis, endothelial damage, rash, fever, and multi-organ failure if untreated. Key therapeutic axes identified: Direct rickettsicidal activity, Protective Th1 immunity induction, Endothelial protection, Inflammation reduction, Oxidative stress suppression. Assignments: Peptide 1 targets Direct rickettsicidal activity with documented antimicrobial peptide. Peptide 2 targets Protective Th1 immunity induction with engineered epitope mimic. Peptide 3 targets Endothelial protection with disulfide stabilization. Peptide 4 targets Inflammation reduction with N-acetylation for stability. Peptide 5 targets Oxidative stress suppression with tyrosine-rich motif. Mechanisms involve rational engineering based on literature motifs for stability and efficacy.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Rocky Mountain Spotted Fever p01"
+"Loaded_Programs=Rocky Mountain Spotted Fever p02"
+"Loaded_Programs=Rocky Mountain Spotted Fever p03"
+"Loaded_Programs=Rocky Mountain Spotted Fever p04"
+"Loaded_Programs=Rocky Mountain Spotted Fever p05"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M71.037,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M113.084,M57.021,M128.058,M128.095,M113.084,M99.068,M115.027,M147.068,M147.068,M71.037,M128.095,M156.101,M113.084,M99.068,M57.021,M57.021,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M99.068,M128.095,M57.021,M156.101,M156.101,M113.084,M57.021,M128.058,M128.095,M113.084,M99.068,M115.027,M147.068,M147.068,M71.037,M128.095,M113.084,M102.001,0=4,"
+"Loaded_Frequencies=M198.112=1,M113.084,M113.084,M128.095,M113.084,M99.068,M57.021,M57.021,M128.095,M113.084,M156.101,M156.101,M113.084,M57.021,M128.058,M128.095,M113.084,M99.068,M115.027,0=4,"
+"Loaded_Frequencies=M186.079=1,M128.095,M163.063,M57.021,M186.079,M128.095,M163.063,M57.021,M186.079,M128.095,M163.063,M57.021,M186.079,M127.111,0=4,"
+"[/Preset]"

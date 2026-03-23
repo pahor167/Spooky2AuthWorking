@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Small Intestinal Bacterial Overgrowth (SIBO) (R)"
+"Preset_Notes=Small Intestinal Bacterial Overgrowth (SIBO) for Remote
+
+Small Intestinal Bacterial Overgrowth (SIBO) is a disorder characterized by an excessive number of bacteria in the small intestine, leading to symptoms such as bloating, abdominal pain, diarrhea, constipation, and malabsorption of nutrients due to bacterial fermentation and interference with digestion. Mechanistic rationale: The proposed polypeptides target key therapeutic axes including antimicrobial activity to eradicate pathogenic bacteria, gut barrier repair to prevent leakage and inflammation, motility enhancement to improve intestinal transit and bacterial clearance, and trophic effects to support intestinal health and nutrient absorption. Designed polypeptides are flagged where used to cover underrepresented axes like microbiome modulation and methanogen inhibition for comprehensive coverage.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Small Intestinal Bacterial Overgrowth (SIBO) p01"
+"Loaded_Programs=Small Intestinal Bacterial Overgrowth (SIBO) p02"
+"Loaded_Programs=Small Intestinal Bacterial Overgrowth (SIBO) p03"
+"Loaded_Programs=Small Intestinal Bacterial Overgrowth (SIBO) p04"
+"Loaded_Programs=Small Intestinal Bacterial Overgrowth (SIBO) p05"
+"Loaded_Programs=Small Intestinal Bacterial Overgrowth (SIBO) p06"
+"Loaded_Programs=Small Intestinal Bacterial Overgrowth (SIBO) p07"
+"Loaded_Programs=Small Intestinal Bacterial Overgrowth (SIBO) p08"
+"Loaded_Programs=Small Intestinal Bacterial Overgrowth (SIBO) p09"
+"Loaded_Programs=Small Intestinal Bacterial Overgrowth (SIBO) p10"
+"Loaded_Programs=Small Intestinal Bacterial Overgrowth (SIBO) p11"
+"Loaded_Programs=Small Intestinal Bacterial Overgrowth (SIBO) p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M163.063,M114.043,M101.001,M99.068,M87.032,M87.032,M57.021,M57.021,M128.058,M101.001,M113.084,M163.063,M87.032,M71.037,M101.001,M97.053,M113.084,M147.068,M101.048,M128.095,M113.084,M128.058,M57.021,M101.048,M101.001,M163.063,M156.101,M57.021,M128.095,M71.037,M128.095,M101.001,M101.001,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M101.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M101.001,M137.059,M97.053,M99.068,M147.068,M101.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M101.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M101.001,M101.001,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M101.001=1,M101.001,M129.043,M163.063,M101.001,M101.001,M114.043,M97.053,M71.037,M101.001,M101.048,M57.021,M101.001,M163.063,0=4,"
+"Loaded_Frequencies=M114.043=1,M115.027,M129.043,M101.001,M129.043,M113.084,M101.001,M99.068,M114.043,M99.068,M71.037,M101.001,M101.048,M57.021,M101.001,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M128.095,M113.084,M101.048,M115.027,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M100.064,M128.095,M156.101,M200.095,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M150.954,M237.148,M85.053,0=4,"
+"[/Preset]"

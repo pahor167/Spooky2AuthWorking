@@ -1,0 +1,22 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Typhoid Fever (Coil)"
+"Preset_Notes=Typhoid Fever for Coil
+
+Typhoid fever is a life-threatening systemic infection caused by Salmonella enterica serovar Typhi, featuring sustained fever, gastrointestinal symptoms, and risks of intestinal perforation, encephalopathy, and carrier state, driven by bacterial invasion of the gut epithelium, intracellular persistence, endotoxemia, and dysregulated inflammation. The proposed polypeptides target evidence-based axes from antimicrobial peptide activity against Salmonella, intestinal barrier maintenance, cytokine modulation, and enhanced pathogen clearance.
+
+1. Human cathelicidin-mediated direct bactericidal and immunomodulatory effects: LL-37 exhibits potent activity against Salmonella Typhi/Typhimurium, disrupts membranes/biofilms, and balances immune responses in infection models.
+2. Stable gastric pentadecapeptide-promoted epithelial integrity and healing: BPC-157 protects the gastrointestinal mucosa and accelerates repair to mitigate invasion and perforation complications.
+3. {alpha}-MSH-derived tripeptide suppression of inflammatory cascades: KPV attenuates cytokine release and inflammation relevant to typhoid endotoxemia.
+4. Engineered stabilized LL-37 core helical fragment for enhanced antimicrobial potency: Ac-KRIVQRIKDFLR-NH2 (derived from the central antimicrobial region of LL-37) incorporates N-acetylation and C-amidation for improved stability, solubility, and targeted disruption of gram-negative pathogens.
+
+"
+"Loaded_Programs=Typhoid Fever p01"
+"Loaded_Programs=Typhoid Fever p02"
+"Loaded_Programs=Typhoid Fever p03"
+"Loaded_Programs=Typhoid Fever p04"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"[/Preset]"

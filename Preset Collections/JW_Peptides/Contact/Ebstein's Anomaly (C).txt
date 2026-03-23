@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Ebstein’s Anomaly (C)"
+"Preset_Notes=Ebstein’s Anomaly for Contact
+
+Ebstein's Anomaly is a rare congenital heart defect characterized by the abnormal development of the tricuspid valve, where the septal and posterior leaflets are displaced apically towards the right ventricular apex, resulting in atrialization of a portion of the right ventricle. This malformation leads to tricuspid regurgitation, right ventricular dysfunction, and often associated anomalies such as atrial septal defects. Causes include genetic factors, with mutations in genes like MYH7 or NKX2.5 implicated in some cases, and potential environmental influences during fetal development. Symptoms vary by severity but commonly include cyanosis due to right-to-left shunting, heart palpitations from arrhythmias like Wolff-Parkinson-White syndrome, fatigue, shortness of breath, and signs of right-sided heart failure such as edema and hepatomegaly. In severe cases, it can present neonatally with cardiomegaly and failure to thrive, while milder forms may be diagnosed in adulthood. Pathophysiology involves ineffective tricuspid valve closure causing regurgitation, reduced right ventricular output, increased right atrial pressure, and potential for arrhythmias due to accessory pathways or stretched atrial tissue. Over time, this leads to right ventricular dilation, fibrosis, and impaired cardiac output, potentially progressing to biventricular failure if left untreated.
+
+The proposed polypeptides address Ebstein's Anomaly through multiple mechanisms targeting valve dysfunction, ventricular remodeling, heart failure symptoms, and associated complications. Natriuretic peptides like BNP, ANP, and CNP activate guanylate cyclase receptors to promote diuresis, natriuresis, and vasodilation, reducing preload and afterload to alleviate right-sided congestion and improve cardiac output. Angiotensin fragments such as Ang1-7 and Ang1-9 counterbalance the renin-angiotensin system by activating Mas and AT2 receptors, providing cardioprotection through anti-hypertrophic, anti-fibrotic, and vasodilatory effects, which help mitigate right ventricular strain. Thymosin beta-4 enhances cardiac repair by promoting cell migration, survival, and angiogenesis, aiding in right ventricular tissue regeneration and reducing fibrosis. VIP reduces pulmonary vascular resistance via VPAC receptors, improving right ventricular afterload and oxygenation in cyanotic patients. Apelin boosts contractility and vasodilation through APJ receptors, supporting failing myocardium. Relaxin (B-chain focus) exerts anti-fibrotic and vasodilatory actions via RXFP1, facilitating ventricular remodeling and reducing stiffness in dysplastic tissue. Adrenomedullin induces vasodilation and inhibits hypertrophy via CLR/RAMP receptors, protecting against progressive failure. Neuregulin-1 (EGF domain) stimulates cardiomyocyte proliferation and survival through ErbB receptors, promoting repair in malformed ventricles. IGF-1 enhances myocyte growth and anti-apoptotic signaling via IGF1R, aiding functional recovery. PDGF-BB fosters vascularization and fibroblast modulation for scar optimization post-repair. The designed polypeptides (flagged as D1 to D4) conceptually extend coverage: D1 targets anti-inflammatory axes to reduce tissue inflammation in the atrialized ventricle; D2 modulates ion channels for anti-arrhythmic effects; D3 promotes valve leaflet integrity through matrix remodeling; D4 enhances regenerative signaling in right ventricular myopathy. Feasibility includes established safety profiles for real-world peptides in heart failure trials, with physicochemical properties like solubility and stability supporting intravenous or subcutaneous delivery; designed ones prioritize short lengths for synthesis ease and bioavailability.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Ebstein’s Anomaly p01"
+"Loaded_Programs=Ebstein’s Anomaly p02"
+"Loaded_Programs=Ebstein’s Anomaly p03"
+"Loaded_Programs=Ebstein’s Anomaly p04"
+"Loaded_Programs=Ebstein’s Anomaly p05"
+"Loaded_Programs=Ebstein’s Anomaly p06"
+"Loaded_Programs=Ebstein’s Anomaly p07"
+"Loaded_Programs=Ebstein’s Anomaly p08"
+"Loaded_Programs=Ebstein’s Anomaly p09"
+"Loaded_Programs=Ebstein’s Anomaly p10"
+"Loaded_Programs=Ebstein’s Anomaly p11"
+"Loaded_Programs=Ebstein’s Anomaly p12"
+"Loaded_Programs=Ebstein’s Anomaly p13"
+"Loaded_Programs=Ebstein’s Anomaly p14"
+"Loaded_Programs=Ebstein’s Anomaly p15"
+"Loaded_Programs=Ebstein’s Anomaly p16"
+"Loaded_Programs=Ebstein’s Anomaly p17"
+"Loaded_Programs=Ebstein’s Anomaly p18"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,M147.068,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M99.068,M147.068,M147.068,M128.058,M115.027,M114.043,M163.063,M128.058,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M99.068,M99.068,M128.095,M128.095,M163.063,M114.043,M87.032,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M137.059,M128.095,M57.021,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M114.043=1,M87.032,M115.027,M87.032,M129.043,M102.001,M97.053,M113.084,M87.032,M137.059,M115.027,M57.021,M163.063,M102.001,M113.084,M137.059,M115.027,M57.021,M99.068,M113.084,M102.001,M163.063,M113.084,M129.043,M71.037,M128.095,M163.063,M71.037,M102.001,M102.001,M99.068,M99.068,M57.021,M163.063,M113.084,M57.021,M129.043,M156.101,M102.001,M128.058,M163.063,M156.101,M115.027,M113.084,M128.095,M186.079,M186.079,M129.043,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M137.059,M113.084,M99.068,M101.001,M99.068,M99.068,M99.068,M147.068,M131.040,M99.068,M131.040,M128.095,M115.027,M113.084,M156.101,M156.101,M113.084,M99.068,M57.021,M57.021,M114.043,M156.101,M114.043,M99.068,M128.058,M128.095,M113.084,M99.068,M128.058,M114.043,M163.063,M99.068,M128.095,M128.095,M113.084,M113.084,M113.084,M113.084,M113.084,M87.032,M128.058,M99.068,M128.058,M99.068,M113.084,M128.095,M128.058,M128.058,M57.021,M99.068,M99.068,M99.068,M113.084,M128.095,M113.084,M99.068,M57.021,M99.068,M57.021,M57.021,M87.032,M113.084,M99.068,M113.084,M99.068,M128.058,M99.068,M128.058,M128.095,M99.068,M128.058,M128.058,M128.058,M99.068,M163.063,M99.068,M99.068,M163.063,M99.068,M113.084,M128.095,M156.101,M128.058,M163.063,M128.095,M113.084,M128.095,M156.101,M128.058,M163.063,M128.095,M113.084,M113.084,M147.068,M113.084,M97.053,M131.040,M87.032,M99.068,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M57.021,M57.021,M57.021,M57.021,M113.084,M128.058,M128.095,M128.058,M113.084,M147.068,M128.058,M57.021,M147.068,M57.021,M147.068,M97.053,M97.053,M57.021,M137.059,M147.068,M128.095,M115.027,M97.053,M128.095,M156.101,M163.063,M113.084,M101.001,M101.001,M147.068,M156.101,M87.032,M101.001,M115.027,M128.058,M113.084,M156.101,M156.101,M113.084,M115.027,M156.101,M113.084,M99.068,M113.084,M128.095,M97.053,M99.068,M128.058,M97.053,M99.068,M113.084,M99.068,M128.058,M113.084,M99.068,M99.068,M99.068,M87.032,M113.084,M113.084,M147.068,M113.084,M99.068,M128.058,M113.084,M99.068,M99.068,M99.068,M87.032,M113.084,M128.095,M57.021,M114.043,M156.101,M163.063,M99.068,M99.068,M163.063,M128.095,M113.084,M128.095,M97.053,M113.084,M147.068,M113.084,M113.084,M147.068,M113.084,M97.053,M131.040,M87.032,M99.068,M87.032,0=4,"
+"Loaded_Frequencies=M114.043=1,M87.032,M115.027,M87.032,M129.043,M102.001,M97.053,M113.084,M87.032,M137.059,M115.027,M57.021,M163.063,M102.001,M113.084,M137.059,M115.027,M57.021,M99.068,M113.084,M102.001,M163.063,M113.084,M129.043,M71.037,M128.095,M163.063,M71.037,M102.001,M102.001,M99.068,M99.068,M57.021,M163.063,M113.084,M57.021,M129.043,M156.101,M102.001,M128.058,M163.063,M156.101,M115.027,M113.084,M128.095,M186.079,M186.079,M129.043,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M128.058,M156.101,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M97.053,M128.058,M156.101,M87.032,M128.058,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M131.040,M114.043,M97.053,M128.058,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M101.001,M115.027,M113.084,M147.068,M57.021,M137.059,M113.084,0=4,"
+"[/Preset]"

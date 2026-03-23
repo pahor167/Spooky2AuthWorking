@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"Repeat_Chain=0"
+"PresetName=S39 Simple Parasites D - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Scalar.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Leishmania Mexicana HC
+Leishmania Tropica HC
+Leishmania Amastigote XTRA
+Dientamoeba Fragilis HC
+Rotifer HC
+Rotifer CAFL
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Loaded_Programs=Leishmania Mexicana (HC)"
+"Loaded_Programs=Leishmania Tropica (HC)"
+"Loaded_Programs=Leishmania Amastigote (XTRA)"
+"Loaded_Programs=Dientamoeba Fragilis (HC)"
+"Loaded_Programs=Rotifer (HC)"
+"Loaded_Programs=Rotifer (CAFL)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=400200-403800=3600,"
+"Loaded_Frequencies=402100-407400=3600,"
+"Loaded_Frequencies=565555.5544=1200,"
+"Loaded_Frequencies=401350-406050=3600,"
+"Loaded_Frequencies=1151000=180,"
+"Loaded_Frequencies=4500=300,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

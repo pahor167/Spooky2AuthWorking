@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Relapsing Fever (P)"
+"Preset_Notes=Relapsing Fever for Plasma
+
+Relapsing fever is an infectious disease caused by Borrelia species bacteria, transmitted by ticks or lice, featuring recurring episodes of high fever, chills, headaches, and muscle aches due to antigenic variation and immune evasion by the pathogen. Therapeutic axes identified: 1. Bacterial protein synthesis inhibition via 30S ribosomal subunit. 2. Bacterial protein synthesis inhibition via 50S ribosomal subunit. 3. Bacterial cell wall synthesis inhibition via penicillin-binding proteins. 4. Antigenic variation mechanism targeting variable surface proteins (Vsp/Vlp). 5. Complement system evasion pathways. Assignments: Peptide 1 covers axis 1, Peptide 2 covers axis 2, Peptide 3 covers axis 3, Peptide 4 covers axis 4, Peptide 5 covers axis 5. Mechanisms: Peptide 1 binds to the 30S ribosomal subunit, disrupting protein synthesis and leading to bacterial death. Peptide 2 targets the 50S ribosomal subunit to inhibit translation elongation. Peptide 3 interferes with penicillin-binding proteins to prevent proper cell wall formation, causing lysis. Peptide 4 binds to Vsp/Vlp proteins to block antigenic switching, enhancing immune recognition. Peptide 5 targets factor H-binding proteins to prevent complement evasion, allowing complement-mediated killing.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Relapsing Fever p01"
+"Loaded_Programs=Relapsing Fever p02"
+"Loaded_Programs=Relapsing Fever p03"
+"Loaded_Programs=Relapsing Fever p04"
+"Loaded_Programs=Relapsing Fever p05"
+"Loaded_Frequencies=M57.021=1,M114.043,M114.043,M156.101,M97.053,M99.068,M163.063,M113.084,M97.053,M128.058,M97.053,M156.101,M97.053,M97.053,M137.059,M97.053,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M114.043,M114.043,M156.101,M97.053,M99.068,M113.084,M163.063,M71.037,M97.053,M97.053,M156.101,M97.053,M156.101,M97.053,M97.053,M137.059,M97.053,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M113.084,M71.037,M128.095,M128.095,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M128.095,M156.101,M147.068,M186.079,M156.101,M128.095,M156.101,M147.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M156.101,M128.095,M156.101,M147.068,M156.101,M128.095,M156.101,M128.095,0=4,"
+"[/Preset]"

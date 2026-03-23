@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\GX Online or Offline General (P) - JW"
+"PresetName=GX Online or Offline Overnight Killer (P) - JW"
+"Preset_Notes=GX Online / Offline overnight Killer preset. The following pathogens are targeted:
+
+Carcinoma (breast) 
+Carcinoma (general)
+Carcinoma (intestines)
+Common cold
+Malignancy
+Miscellaneous diseases
+Pneumonia
+Sarcoma (breast)
+Sarcoma (generalized)
+Sarcoma (intestines)
+Staph
+Strep
+Tuberculosis (breast)
+Tuberculosis (general)
+Tuberculosis (intestines)
+
+A 4 Hz 20% duty cycle gate of this preset provides strong signal spikes whilst keeping the tube cooler than most other presets.
+
+Note that the Amplitude is set to 10v. This is because the offset is contained within the waveform.
+
+Connect OUT 1 to Input. Out 2 to Modulation."
+"Dwell_Multiplier=13"
+"Loaded_Programs=Cancer And More Overnight Killer (CUST)"
+"Loaded_Frequencies=43245000=180,43296000=180,43322480=180,43322485=180,43322492=180,43346000=180,43346050=180,43346090=180,43351830=180,43352000=180,43353800=180,43353850=180,"
+"[/Preset]"

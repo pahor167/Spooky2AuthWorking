@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=NADH (Nootropics) (R) - JRG"
+"Loaded_Programs=NADH (CUST)"
+"Loaded_Frequencies=M663.10912,"
+"Preset_Notes=NADH (Nicotinamide Adenine Dinucleotide + Hydrogen) boosts alertness, improves mental energy and elevates mood. NADH is an antioxidant coenzyme related to the B-Vitamin family.|This coenzyme is used in the formation of ATP, the energy source produced within the mitochondria of your cells. It's most highly concentrated in the body's heart and brain. Both power-hungry organs.|NADH seems to decline with age, and is related to cell damage and accelerated cellular aging.|NADH also helps boost the production of dopamine and norepinephrine. This allows for greater mental performance including better memory, alertness and energy.|Dosing of NADH is 5 - 20 mg per day. NADH for nootropic benefit seems to be 10 mg.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

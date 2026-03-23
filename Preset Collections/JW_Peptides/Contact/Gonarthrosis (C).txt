@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Gonarthrosis (C)"
+"Preset_Notes=Gonarthrosis for Contact
+
+Gonarthrosis, commonly known as knee osteoarthritis, is a chronic degenerative joint disease primarily affecting the articular cartilage of the knee, leading to its progressive breakdown. It involves multiple joint tissues, including subchondral bone sclerosis, osteophyte formation, synovial inflammation, meniscal damage, and ligament changes. Major causes include aging, mechanical overload from obesity or misalignment, prior joint injuries, genetic predisposition, and metabolic factors. Symptoms typically encompass knee pain worsened by activity, morning stiffness, joint swelling, reduced range of motion, crepitus, and progressive disability, significantly impairing quality of life.
+
+The proposed polypeptides target key therapeutic axes derived from pathophysiological mechanisms of gonarthrosis, including regenerative deficits, chronic low-grade inflammation, cartilage matrix loss, and complement-driven immune amplification. Each axis is explicitly addressed as follows:
+
+1. Joint tissue regeneration and healing: BPC-157 (real-world pentadecapeptide derived from gastric juices, with established preclinical evidence for accelerating tendon, ligament, and cartilage repair through endothelial protection and growth factor modulation) promotes multi-tissue healing; the QK-inspired designed peptide (rational modification of VEGF-mimetic motif for controlled angiogenesis, with N-acetylation and C-amidation for stability) supports vascular repair in damaged joint tissues.
+
+2. Synovial and systemic anti-inflammatory effects: Vasoactive Intestinal Peptide (VIP, real-world endogenous neuropeptide with documented anti-inflammatory actions in arthritis models via receptor-mediated inhibition of pro-inflammatory cytokines) reduces synovitis and immune cell activation; the NBD-inspired designed peptide (based on established NEMO-binding domain motif to block NF-{kappa}B activation, with termini protection for enhanced stability) targets central inflammatory signaling to attenuate cytokine storms in the synovium.
+
+3. Chondrocyte protection and cartilage maintenance: PACAP-38 (real-world neuropeptide shown in studies to mitigate oxidative stress, apoptosis, and age-related cartilage degeneration through PAC1 receptor signaling) preserves chondrocyte viability; the CTTHWGFTLC-cyclic designed peptide (literature-derived selective inhibitor of matrix metalloproteinases, cyclized via disulfide with termini protection for protease resistance and joint retention) prevents enzymatic degradation of cartilage extracellular matrix.
+
+4. Complement-mediated immune dysregulation: The Compstatin analog-cyclic designed peptide (derived from validated C3-inhibitory motif, cyclized via disulfide with N-acetylation and C-amidation for stability and bioavailability) blocks complement activation to reduce immune amplification and synovial damage implicated in osteoarthritis progression.
+
+These polypeptides collectively provide multi-axis coverage, leveraging real-world evidence where available and rational design principles for drug-likeness (short length, cyclization/termini modifications for stability, literature motifs for specificity), offering feasible intra-articular or systemic administration potential with minimal off-target risks.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Gonarthrosis p01"
+"Loaded_Programs=Gonarthrosis p02"
+"Loaded_Programs=Gonarthrosis p03"
+"Loaded_Programs=Gonarthrosis p04"
+"Loaded_Programs=Gonarthrosis p05"
+"Loaded_Programs=Gonarthrosis p06"
+"Loaded_Programs=Gonarthrosis p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M170.106=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M112.100,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M113.059,0=4,"
+"Loaded_Frequencies=M143.059=1,M71.037,M113.084,M115.027,M186.079,M87.032,M186.079,M113.084,M128.058,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,M57.021,M128.095,M156.101,M163.063,M128.095,M128.058,M156.101,M99.068,M128.095,M114.043,M127.111,0=4,"
+"Loaded_Frequencies=M144.012=1,M101.048,M101.048,M137.059,M186.079,M57.021,M147.068,M101.048,M113.084,M101.017,0=4,"
+"Loaded_Frequencies=M155.095=1,M102.001,M99.068,M99.068,M128.058,M115.027,M186.079,M57.021,M137.059,M137.059,M156.101,M102.001,M100.064,0=4,"
+"[/Preset]"

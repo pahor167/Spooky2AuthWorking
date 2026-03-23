@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Kundalini (R) - JK"
+"Repeat_Each_Program=2"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Preset_Notes=Kundalini for Remote by Jeff Kaczor
+
+This preset combines Chakra 2 Chain and a customized ordering of the Songs of the Spine (Original Frequencies) which flows up the spine, then back down. This tones both the energetic and physical centers of the body. The Fibonacci 14 Stage Wobble stimulates petals of each Chakra.
+
+Chakra 2 Chain is a set of frequencies that are associated with the Tibetan Singing Bowls. There is also much research that ties the frequencies into the very fabric of our space time, and they are based on the 432 Hz scale.
+
+I used DrPankaj Kumar Mishra ordering of the Chakra 2 frequency set and his method of application as the basis for the entire preset, with some minor additions given the totality of what this preset is aiming to achieve.
+
+This part of the preset is used to tone the energetic centers of ones being.
+
+Songs of the Spine is based on the 440 Hz scale when you break it down, and in fact the source of these frequencies came from Dr. June Leslie Wieder who use"
+"Hz_Gate=7.83"
+"Reduce_Amplitude_Frequency=1"
+"Sine_Damped_WCM=11"
+"Square_Damped_WCM=11"
+"Harmonic_Wobble=Fibonacci 14 Stage Wobble"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"User_Defined_2_Waveform=Colloidal_Silver"
+"Manual_Start=False"
+"Out1_Sine=True"
+"Out1_User_Defined_1=False"
+"Enable_Gate_Out1=1"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=Chakra 2 Chain (ALT)"
+"Loaded_Programs=Songs of the Spine (CUST)"
+"Loaded_Programs=Kundalini Expand (XTRA)"
+"Loaded_Frequencies=456=180,606=180,364=180,256=180,384=180,288=180,432=360,288=180,384=180,256=180,364=180,606=180,"
+"Loaded_Frequencies=233.08=180,207.65=180,185.00=180,155.56=180,138.57=180,233.08=180,207.65=180,185.00=180,155.56=180,138.57=180,246.94=180,220.20=180,196.00=180,174.61=180,164.81=180,146.83=180,130.81=180,246.94=180,220.20=180,196.00=180,174.61=180,164.81=180,146.83=180,130.81=360,146.83=180,164.81=180,174.61=180,196.00=180,220.20=180,246.94=180,130.81=180,146.83=180,164.81=180,174.61=180,196.00=180,220.20=180,246.94=180,138.57=180,155.56=180,185.00=180,207.65=180,233.08=180,138.57=180,155.56=180,185.00=180,207.65=180,"
+"Loaded_Frequencies=55=180,"
+"[/Preset]"

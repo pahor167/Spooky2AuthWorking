@@ -1,0 +1,62 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Retinitis Pigmentosa (RP) (S)"
+"Preset_Notes=Retinitis Pigmentosa (RP) for Scalar
+
+The set of peptides addresses key therapeutic axes for Retinitis Pigmentosa, including neuroprotection of photoreceptors, reduction of oxidative stress, anti-inflammatory effects, anti-apoptotic actions, and promotion of retinal cell survival and regeneration. All proposed peptides are real-world examples froRetinitis Pigmentosa
+
+Retinitis Pigmentosa is a group of inherited retinal dystrophies characterized by progressive photoreceptor degeneration (primarily rods initially, then cones), leading to night blindness, peripheral vision loss, tunnel vision, and often legal blindness. The polypeptides below target key therapeutic axes from current literature, focusing on mitochondrial dysfunction, oxidative stress, apoptosis, metabolic imbalance, and secondary inflammation common in RP pathogenesis.
+
+1. Mitochondrial protection: Elamipretide - Targets cardiolipin to reduce ROS and prevent mitochondrial-dependent apoptosis in photoreceptors
+2. Metabolic regulation: MOTS-c - Mitochondrial-derived peptide regulating energy homeostasis and stress adaptation in retinal cells
+3. Oxidative stress mitigation: SHLP2 - Protects against oxidative damage and supports viability in degenerative retinal models
+4. Apoptosis inhibition: SHLP3 - Inhibits mitochondrial pathways of cell death relevant to RP progression
+5. Cell viability enhancement: SHLP6 - Promotes survival signaling under oxidative and metabolic stress in retina
+6. Neuroprotective signaling: PACAP-27 - Activates cAMP-dependent pathways to inhibit apoptosis and support photoreceptor survival
+7. Cell-penetrating delivery: TAT - Enables efficient intracellular and trans-retinal delivery of therapeutics
+8. Anti-inflammatory resolution: Annexin_A1_Ac2-26 - Promotes resolution of pro-inflammatory processes exacerbating degeneration
+9. Trophic neuropeptide support: CGRP - Provides neuroprotection and modulates vascular/retinal stress responses
+10. Innate immune modulation: IDR-1018 - Modulates host defense to reduce excessive inflammation while preserving retinal integrity
+11. Alpha-helical membrane-active: FAKLLAKALKKLL (amidated) - Designed for selective membrane stabilization and protection against oxidative damage
+12. Magainin-based broad spectrum: Pexiganan - Engineered analog for enhanced stability and protective membrane interaction in stressed retinal environments
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Retinitis Pigmentosa (RP) p01"
+"Loaded_Programs=Retinitis Pigmentosa (RP) p02"
+"Loaded_Programs=Retinitis Pigmentosa (RP) p03"
+"Loaded_Programs=Retinitis Pigmentosa (RP) p04"
+"Loaded_Programs=Retinitis Pigmentosa (RP) p05"
+"Loaded_Programs=Retinitis Pigmentosa (RP) p06"
+"Loaded_Programs=Retinitis Pigmentosa (RP) p07"
+"Loaded_Programs=Retinitis Pigmentosa (RP) p08"
+"Loaded_Programs=Retinitis Pigmentosa (RP) p09"
+"Loaded_Programs=Retinitis Pigmentosa (RP) p10"
+"Loaded_Programs=Retinitis Pigmentosa (RP) p11"
+"Loaded_Programs=Retinitis Pigmentosa (RP) p12"
+"Loaded_Frequencies=M156.101=1,M191.063,M128.095,M146.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M57.021,M99.068,M128.095,M147.068,M147.068,M101.048,M113.084,M87.032,M101.048,M156.101,M147.068,M147.068,M97.053,M87.032,M99.068,M128.058,M156.101,M71.037,M99.068,M97.053,M113.084,M186.079,M101.048,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M113.084,M57.021,M163.063,M114.043,M147.068,M87.032,M87.032,M147.068,M97.053,M103.009,M57.021,M101.048,M113.084,M87.032,M113.084,M71.037,M97.053,M57.021,M147.068,M114.043,M147.068,M163.063,M156.101,M113.084,M163.063,M147.068,M113.084,M186.079,M99.068,M114.043,M57.021,M113.084,M71.037,M128.095,M99.068,M99.068,M186.079,0=4,"
+"Loaded_Frequencies=M131.040=1,M113.084,M115.027,M128.058,M115.027,M113.084,M97.053,M131.040,M99.068,M128.058,M97.053,M113.084,M113.084,M128.095,M99.068,M156.101,M113.084,M147.068,M114.043,M115.027,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M156.101,M128.095,M128.095,M156.101,M128.058,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M114.043,M99.068,M57.021,M128.095,M87.032,M128.095,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M147.068=1,M71.037,M128.095,M113.084,M113.084,M71.037,M128.095,M71.037,M113.084,M128.095,M128.095,M113.084,M112.10,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"[/Preset]"

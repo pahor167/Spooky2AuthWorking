@@ -1,0 +1,16 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Sleep Remedy Mix (P)"
+"Preset_Notes=Sleep Remedy Mix / Spooky Plasma
+
+Estimated Time: Run this preset for 18:00 minutes.
+
+Sleep Remedy contains: Cherry Plum - for fear of loosing control - both mentally & physically, Clematis - for the dreamy absent-minded- mental escape from reality, Impatiens - for the impatient person, Rock Rose - For terror & panic and Star Of Bethlehem - for shock of all kinds, White Chestnut - To help ease restless mind
+
+Connect Out 1 to Input. Connect Out 2 to Modulation.
+"
+"Loaded_Programs=Sleep Remedy Mix (P)"
+"Loaded_Frequencies=463.06,262.01,415.26,277.99,276.57,247.09,"
+"[/Preset]"

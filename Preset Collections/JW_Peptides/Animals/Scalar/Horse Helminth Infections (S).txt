@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Horse Helminth Infections (S)"
+"Preset_Notes=Horse Helminth Infections for Scalar
+
+Equine helminth infections, commonly requiring deworming, are caused by ingestion of infective larval stages from contaminated pasture, water, or feed, leading to establishment of gastrointestinal parasites. Primary pathogens include cyathostomins (small strongyles, now the most prevalent and problematic due to widespread resistance), Parascaris species (ascarids, especially in foals), Anoplocephala perfoliata (tapeworms), and occasionally Oxyuris equi (pinworms) or large strongyles (largely controlled historically). Symptoms range from subclinical weight loss, poor coat condition, and reduced performance to severe colic, diarrhea, anemia, and life-threatening larval cyathostominosis (massive synchronous emergence of encysted larvae causing intense intestinal inflammation and protein-losing enteropathy). Pathophysiology involves mucosal damage from migrating or feeding larvae/adults, inflammation, impaired nutrient absorption, and in heavy burdens, thromboembolism or intestinal wall thickening.
+
+Current treatments rely on small-molecule anthelmintics (macrocyclic lactones, benzimidazoles, pyrantels, praziquantel combinations) but face extensive resistance, particularly in cyathostomins, limiting efficacy and necessitating targeted selective therapy based on fecal egg counts. No polypeptide-based anthelmintics are currently approved or routinely used in equine practice, as evidenced by comprehensive literature and database searches showing dominance of chemical classes with no peptide therapeutics or investigational polypeptide candidates specific to equine helminths.
+
+The proposed designed polypeptides introduce novel peptide scaffolds with primary membrane-disrupting mechanisms to address resistance, targeting parasite-specific lipid compositions while sparing mammalian cells due to charge and composition differences. All are designed: the cyclotide analog derives from plant kalata B1 motif (preclinical anthelmintic activity against nematodes via pore formation/lysis, exceptional stability from knot structure suits gastrointestinal delivery); the magainin analog builds on amphibian skin peptide scaffold (forms toroidal pores in anionic membranes, broad antiparasitic potential with added C-terminal amidation for protease resistance); the RW-repeat draws from rational AMP optimization (high cationic charge drives electrostatic attraction and carpet-like disruption, short length enhances penetration/bioavailability). Physicochemical advantages include high stability (cyclic knot or amidation), favorable solubility/charge for absorption, low predicted host toxicity; feasibility supported by preclinical AMP/cyclotide data in related nematodes, potential for oral/injectable use to complement or replace resistant drugs.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Horse Helminth Infections p01"
+"Loaded_Programs=Horse Helminth Infections p02"
+"Loaded_Programs=Horse Helminth Infections p03"
+"Loaded_Frequencies=M57.021=1,M113.084,M97.053,M99.068,M102.001,M57.021,M129.043,M101.048,M102.001,M99.068,M57.021,M57.021,M101.048,M102.001,M114.043,M101.048,M97.053,M57.021,M102.001,M101.048,M102.001,M87.032,M186.079,M97.053,M99.068,M102.001,M101.048,M156.101,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M129.043,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M185.095,0=4,"
+"[/Preset]"

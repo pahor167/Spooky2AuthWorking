@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Beech (R)"
+"Preset_Notes=Beech / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Beech - Intolerance.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Beech (R)"
+"Loaded_Frequencies=490.87,"
+"[/Preset]"

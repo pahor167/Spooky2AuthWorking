@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Scleroderma (R)"
+"Preset_Notes=Scleroderma for Remote
+
+Scleroderma, or systemic sclerosis (SSc), is a rare, chronic autoimmune disease characterized by progressive fibrosis of the skin and internal organs, microvascular damage, and immune system dysregulation. It predominantly affects women (4-9:1 ratio) aged 30-50, with incidence of 1-2 per 100,000. Limited cutaneous SSc primarily involves skin distal to elbows/knees with possible lung or GI involvement, while diffuse cutaneous SSc features widespread skin thickening and higher risk of severe organ fibrosis (lungs, heart, kidneys). Symptoms include Raynaud's phenomenon, skin tightening (leading to contractures and ulcers), puffy fingers, telangiectasias, joint pain, dyspnea from interstitial lung disease (ILD) or pulmonary arterial hypertension (PAH), gastroesophageal reflux, renal crisis, and fatigue. Pathophysiology involves early endothelial injury triggering inflammation, autoantibody production (anti-centromere, anti-topoisomerase I/Scl-70, anti-RNA polymerase III), aberrant immune activation (T/B cells, IL-6, etc.), and persistent myofibroblast activation driving excessive extracellular matrix (ECM) deposition, primarily collagen, via TGF-{beta}-dominated profibrotic signaling, with contributions from Wnt, YAP/TAZ, LPA, and other pathways leading to tissue stiffness and organ failure.
+
+The polypeptide panel addresses core axes: TGF-{beta}-driven fibrosis, immune dysregulation/inflammation, vascular dysfunction, myofibroblast proliferation/deactivation, and ECM imbalance. One real-world polypeptide (P144, from phase II clinical trials for skin fibrosis) directly inhibits TGF-{beta}1 binding/activity. Designed polypeptides (clearly flagged as Designed) supplement comprehensively, using short, stable sequences with non-standard residues for enhanced pharmacokinetics and targeted conceptual interference (e.g., signaling disruption, immune modulation, vasodilatory mimics, matrix remodeling promotion), ensuring full multi-axis coverage with diversity in scaffolds (including cyclic for protease resistance) to potentially halt progression, soften tissue, and improve vascular/immune function.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Scleroderma p01"
+"Loaded_Programs=Scleroderma p02"
+"Loaded_Programs=Scleroderma p03"
+"Loaded_Programs=Scleroderma p04"
+"Loaded_Programs=Scleroderma p05"
+"Loaded_Programs=Scleroderma p06"
+"Loaded_Programs=Scleroderma p07"
+"Loaded_Programs=Scleroderma p08"
+"Loaded_Programs=Scleroderma p09"
+"Loaded_Programs=Scleroderma p10"
+"Loaded_Programs=Scleroderma p11"
+"Loaded_Programs=Scleroderma p12"
+"Loaded_Programs=Scleroderma p13"
+"Loaded_Programs=Scleroderma p14"
+"Loaded_Programs=Scleroderma p15"
+"Loaded_Programs=Scleroderma p16"
+"Loaded_Programs=Scleroderma p17"
+"Loaded_Programs=Scleroderma p18"
+"Loaded_Frequencies=M101.048=1,M87.032,M113.084,M115.027,M71.037,M87.032,M113.084,M113.084,M186.079,M71.037,M131.040,M131.040,M128.058,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M114.079,M86.048,M113.048,M128.095,M156.101,M114.079,M86.048,M113.048,0=4,"
+"Loaded_Frequencies=M85.053=1,M87.032,M57.021,M101.048,M85.053,M87.032,M57.021,M101.048,M85.053,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M86.048,M114.079,M156.101,M128.095,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M113.048=1,M97.053,M57.021,M113.048,M97.053,M57.021,M113.048,M97.053,M57.021,M113.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M86.048,M114.079,M150.954,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.048,M156.101,M128.095,M113.048,M156.101,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M57.021=1,M85.053,M97.053,M57.021,M85.053,M97.053,M57.021,M85.053,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M114.079=1,M150.954,M128.095,M114.079,M150.954,M128.095,0=4,"
+"Loaded_Frequencies=M86.048=1,M113.048,M128.095,M86.048,M113.048,M128.095,M156.101,M114.079,0=4,"
+"Loaded_Frequencies=M156.101=1,M86.048,M128.095,M156.101,M86.048,M128.095,M113.048,M114.079,M113.048,M114.079,0=4,"
+"Loaded_Frequencies=M237.148=1,M57.021,M86.048,M237.148,M57.021,M86.048,0=4,"
+"Loaded_Frequencies=M101.048=1,M87.032,M85.053,M101.048,M87.032,M85.053,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M113.048=1,M114.079,M150.954,M113.048,M114.079,M150.954,M86.048,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M113.048,M57.021,M97.053,M113.048,M114.079,M86.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.048,M128.095,M156.101,M113.048,M86.048,M114.079,M150.954,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M114.079,M113.048,M86.048,M114.079,M128.095,M156.101,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M114.079=1,M128.095,M86.048,M114.079,M128.095,M86.048,M156.101,0=4,"
+"[/Preset]"

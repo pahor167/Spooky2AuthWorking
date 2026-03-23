@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Coffin-Lowry Syndrome (Coil)"
+"Preset_Notes=Coffin-Lowry Syndrome for Coil
+
+Coffin-Lowry syndrome (CLS) is a rare X-linked genetic disorder caused by loss-of-function mutations in the RPS6KA3 gene (Xp22.2), which encodes the ribosomal S6 kinase 2 (RSK2), a serine/threonine kinase acting downstream in the Ras/MAPK/ERK signaling pathway activated by growth factors. These mutations result in absent or severely reduced RSK2 activity, impairing phosphorylation of key substrates such as CREB (cAMP response element-binding protein), histone H3, ATF4, and others, thereby disrupting transcriptional regulation essential for cellular processes including neuronal plasticity, learning and memory consolidation, osteoblast differentiation, and skeletal morphogenesis. Clinically, males typically exhibit moderate to severe intellectual disability, significant psychomotor and growth retardation, short stature, progressive skeletal deformities (kyphoscoliosis, pectus anomalies, vertebral malformations), characteristic craniofacial features (coarse facies with hypertelorism, downslanting palpebral fissures, broad nasal bridge, thick everted lower lip), soft puffy hands with short tapered fingers, and stimulus-induced drop attacks (sudden postural tone loss without consciousness impairment, often triggered by unexpected stimuli). Additional features may include sensorineural hearing loss, cardiac valve dysfunction, and increased risk of respiratory complications. Heterozygous females show variable expressivity, ranging from normal to mild intellectual disability with subtle physical signs. The condition is often de novo, with prevalence estimated at 1:50,000-100,000, and diagnosis confirmed by genetic testing showing RPS6KA3 variants.
+
+Pathophysiology revolves around disrupted mitogen-activated signaling cascades leading to deficits in long-term synaptic potentiation, impaired gene expression in neurons and bone cells, and altered cellular responses to extracellular stimuli. No curative treatments exist; management is symptomatic and multidisciplinary, including educational support, physical therapy, orthopedic interventions, and monitoring for complications.
+
+As comprehensive searches across PubMed, patents, clinical trials registries, and databases yielded no documented real-world polypeptide therapies or investigational peptides targeting CLS or its pathways, the proposed set consists entirely of designed conceptual polypeptides. These short synthetic peptides are rationally conceived to address key axes:
+
+- The first designed peptide (D1) incorporates cationic arginine/lysine-rich motifs to potentially facilitate cell penetration and mimic activating signals in the MAPK/RSK2 cascade, compensating for kinase deficiency.
+
+- The second designed peptide (D2) features residues aimed at supporting transcriptional activation, conceptually targeting downstream CREB impairment.
+
+- The third designed peptide (D3) is proline-glycine repetitive to mimic collagen-structural elements, intending to support osteoblast function and bone matrix integrity.
+
+- The fourth designed peptide (D4) includes motifs for potential neuronal adhesion and stability, addressing synaptic deficits.
+
+Feasibility notes include short lengths (9-10 residues) for straightforward chemical synthesis, aqueous solubility from mixed charged/hydrophobic profiles, minimal immunogenicity risk, and potential for modification (e.g., conjugation for enhanced delivery). Physicochemical properties suggest stability in vitro; however, these are hypothetical constructs requiring empirical validation in cellular or animal models of RSK2 loss for specificity, bioavailability (e.g., CNS penetration challenges), and therapeutic efficacy without off-target effects.
+
+"
+"Loaded_Programs=Coffin-Lowry Syndrome p01"
+"Loaded_Programs=Coffin-Lowry Syndrome p02"
+"Loaded_Programs=Coffin-Lowry Syndrome p03"
+"Loaded_Programs=Coffin-Lowry Syndrome p04"
+"Loaded_Frequencies=M128.095=1,M156.101,M57.021,M156.101,M128.095,M156.101,M156.101,M128.058,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M87.032,M101.048,M87.032,M113.084,M97.053,M128.058,M156.101,M99.068,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,M128.095,M115.027,M129.043,M113.084,0=4,"
+"[/Preset]"

@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Circulatory Hypoxia (L)"
+"Preset_Notes=Circulatory Hypoxia for Laser
+
+Circulatory hypoxia, also termed stagnant or ischemic hypoxia, arises when systemic or regional blood flow is insufficient to deliver adequate oxygen to tissues despite normal arterial oxygenation and hemoglobin levels. It commonly occurs in shock states (cardiogenic, hypovolemic, distributive/septic, obstructive), congestive heart failure, vascular occlusion, microcirculatory dysfunction, or severe anemia with compensatory limits. Symptoms include fatigue, confusion, oliguria, cool peripheries, lactic acidosis, and progressive multi-organ dysfunction; severe cases lead to cell death via ATP depletion, ionic imbalance, and reperfusion injury upon restoration. Pathophysiology involves reduced perfusion pressure, endothelial activation with glycocalyx shedding, microvascular thrombosis, leukocyte adhesion, nitric oxide dysregulation, oxidative stress, mitochondrial dysfunction, and inflammatory cytokine release amplifying tissue damage.
+
+The proposed polypeptides address key therapeutic axes in circulatory hypoxia through multimodal conceptual mechanisms suited to short synthetic sequences. All except one are designed due to limited verifiable short real-world polypeptides specifically evidenced for broad circulatory hypoxia management. Peptide 1 (designed) is arginine-lysine rich cationic to conceptually enhance vascular tone and perfusion pressure. Peptide 2 (designed) is glycine-proline rich to conceptually protect endothelial barrier and microcirculation. Peptide 3 (designed) is serine-glutamine rich polar for conceptual suppression of hypoperfusion-triggered inflammation. Peptide 4 (designed) is phenylalanine-tyrosine rich aromatic to conceptually mitigate oxidative damage in low-flow states. Peptide 5 is the real-world human Angiotensin II (Giapreza), FDA-approved synthetic octapeptide with established clinical use in vasodilatory shock for potent vasoconstriction, blood pressure restoration, and improved tissue perfusion. These diverse short designs prioritize feasibility, potential rapid onset, and compatibility with standard resuscitation.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Circulatory Hypoxia p01"
+"Loaded_Programs=Circulatory Hypoxia p02"
+"Loaded_Programs=Circulatory Hypoxia p03"
+"Loaded_Programs=Circulatory Hypoxia p04"
+"Loaded_Programs=Circulatory Hypoxia p05"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.058,M87.032,M128.058,M87.032,M128.058,M87.032,M128.058,M87.032,M128.058,M87.032,M128.058,0=4,"
+"Loaded_Frequencies=M147.068=1,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,M147.068,0=4,"
+"[/Preset]"

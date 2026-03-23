@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Li-Fraumeni Syndrome (C)"
+"Preset_Notes=Li-Fraumeni Syndrome for Contact
+
+Li-Fraumeni syndrome (LFS) is a rare autosomal dominant hereditary cancer predisposition disorder caused by germline heterozygous pathogenic variants in the TP53 tumor suppressor gene on chromosome 17p13.1, with over 70% of classic cases attributable to TP53 mutations (often missense in the DNA-binding domain leading to dominant-negative or gain-of-function effects). It confers extraordinarily high lifetime cancer risks-approaching 90-100% in females and 70-90% in males-with early onset (many cancers before age 30) and multiple primary tumors in up to 50% of patients. Core cancers include soft tissue and bone sarcomas (osteosarcoma, rhabdomyosarcoma), premenopausal breast carcinoma, central nervous system tumors (gliomas, choroid plexus carcinoma), adrenocortical carcinoma, and leukemias; additional associated malignancies encompass lung, colorectal, pancreatic, prostate, ovarian, and skin cancers (melanoma). Diagnostic criteria (classic Chompret or revised) emphasize proband sarcoma diagnosis before age 45 plus family history of characteristic tumors. Pathophysiology involves haploinsufficiency or dominant-negative interference with wild-type p53 function, impairing DNA damage sensing, cell cycle arrest (G1/S checkpoint), apoptosis, senescence, DNA repair, metabolic regulation, and antioxidant responses, thereby promoting genomic instability, mutation accumulation, and oncogenesis in diverse tissues.
+
+Current management is intensive multimodal surveillance (whole-body MRI, breast MRI, abdominal ultrasound, brain MRI, dermatology, endoscopy) for early detection, with no approved preventive pharmacotherapy. The proposed polypeptides are all designed conceptual short C-terminally amidated amphipathic cationic peptides, crafted using established principles of cell-penetrating and protein-protein interaction-modulating peptides to address key deficits in the p53 pathway without relying on non-standard modifications. These designs incorporate alternating hydrophobic/aromatic and cationic residues for helical amphipathicity, facilitating cellular entry, plasma stability, and low immunogenicity, with feasibility supported by straightforward solid-phase synthesis and precedent in investigational anticancer peptides. The first designed polypeptide employs phenylalanine-arginine alternation to mimic the hydrophobic face of p53's MDM2-binding motif, potentially disrupting negative regulation and stabilizing residual wild-type p53; the second uses lysine-tryptophan alternation for superior membrane partitioning and intracellular delivery to enhance p53 transcriptional competence; the third incorporates histidine-tyrosine for pH-dependent interactions and auxiliary reactive oxygen species scavenging to counter oxidative stress exacerbating genomic instability; the fourth features lysine-leucine alternation for structural support of p53 tetramerization and promotion of pro-apoptotic signaling. Collectively, these complementary designs target restoration of p53 tumor surveillance functions in a multifaceted manner.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Li-Fraumeni Syndrome p01"
+"Loaded_Programs=Li-Fraumeni Syndrome p02"
+"Loaded_Programs=Li-Fraumeni Syndrome p03"
+"Loaded_Programs=Li-Fraumeni Syndrome p04"
+"Loaded_Frequencies=M147.068=1,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M155.117,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M186.079,M128.095,M186.079,M128.095,M186.079,M128.095,M185.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M162.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M112.100,0=4,"
+"[/Preset]"

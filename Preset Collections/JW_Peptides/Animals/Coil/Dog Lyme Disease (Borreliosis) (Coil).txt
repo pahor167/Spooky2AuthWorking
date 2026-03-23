@@ -1,0 +1,16 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Dog Lyme Disease (Borreliosis) (Coil)"
+"Preset_Notes=Dog Lyme Disease (Borreliosis) for Coil
+
+Dog Lyme Disease, or Canine Borreliosis, is a tick-borne illness caused by the spirochete Borrelia burgdorferi, transmitted primarily by Ixodes ticks. Symptoms in dogs include lameness, swollen joints, fever, lethargy, anorexia, and in advanced cases, kidney damage (Lyme nephritis) or neurological issues. Pathophysiology entails bacterial dissemination via bloodstream to joints, kidneys, and other tissues, evading immunity through antigenic variation, triggering persistent inflammation, immune complex deposition, and potential glomerulonephritis.
+The proposed polypeptides tackle Dog Lyme Disease via antibacterial eradication, immune regulation, and joint protection. For direct antibacterial action, a designed polypeptide targets Borrelia outer surface proteins (OspA/OspC) to facilitate complement-mediated killing and prevent dissemination; this conceptual peptide's design is inspired by borreliacidal peptides in research, with high specificity for reduced off-target effects in canine hosts. For immunomodulation, a designed polypeptide balances Th1/Th2 responses to clear persistent spirochetes without exacerbating autoimmunity, enhancing macrophage phagocytosis; feasibility aligns with regulatory peptides in tick-borne disease models. For anti-inflammatory and tissue preservation, a designed polypeptide inhibits matrix metalloproteinases to protect synovial tissues and reduce arthritis severity, complementing antibiotic therapy; these designed polypeptides offer adjunctive support, potentially shortening treatment duration and preventing chronicity.
+
+"
+"Loaded_Programs=Dog Lyme Disease (Borreliosis) p01"
+"Loaded_Programs=Dog Lyme Disease (Borreliosis) p02"
+"Loaded_Programs=Dog Lyme Disease (Borreliosis) p03"
+"Loaded_Frequencies=M128.095=1,M113.084,M99.068,M128.095,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M137.059,M128.095,M156.101,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M97.053,M99.068,M113.084,M97.053,0=4,"
+"[/Preset]"

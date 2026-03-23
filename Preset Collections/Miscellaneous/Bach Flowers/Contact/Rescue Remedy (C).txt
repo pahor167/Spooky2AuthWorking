@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Rescue Remedy (C)"
+"Preset_Notes=Rescue Remedy / Spooky Contact
+
+Estimated Time: Run this preset for 15:00 minutes.
+Bach Remedy: Impatiens (CUST)
+Bach Remedy: Cherry Plum (CUST)
+Bach Remedy: Clematis (CUST)
+Bach Remedy: Rock Rose (CUST)
+Bach Remedy: Star of Bethlehem (CUST)
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Rescue Remedy (C)"
+"Loaded_Frequencies=463.06F4096C0,262.01F4096C0,415.26F4096C0,277.99F4096C0,276.57F4096C0,"
+"[/Preset]"

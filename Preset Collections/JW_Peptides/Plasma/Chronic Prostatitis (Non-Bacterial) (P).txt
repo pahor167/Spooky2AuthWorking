@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Chronic Prostatitis (Non-Bacterial) (P)"
+"Preset_Notes=Chronic Prostatitis (Non-Bacterial) for Plasma
+
+CP/CPPS involves persistent pelvic pain, urinary symptoms, and dysfunction without bacterial infection, driven by multifactorial mechanisms including inflammation, neuropathic pain, immune/autoimmune factors, neurogenic processes, and oxidative stress. The proposed polypeptides target key therapeutic axes with real-world options supported by mechanistic relevance and engineered designs for optimized coverage.
+
+1. Prostatic inflammation and microcirculation improvement: CNP reduces inflammatory signaling (e.g., inflammasome pathways) in prostate cells and enhances vascular function.
+2. Neuropathic pain relief: ARA-290 selectively activates tissue-protective pathways to alleviate neuropathic components central to CP/CPPS pain.
+3. Immune dysregulation correction: Thymosin_alpha_1 promotes balanced T-cell function and immunomodulation to address immune contributions.
+4. Neurogenic inflammation and pelvic floor muscle relaxation: VIP inhibits neurogenic inflammation and relaxes pelvic smooth muscle.
+5. Promotion of immune tolerance to prostatic antigens: Auto-Tol-Eng (designed), an acetylated/amidated peptide derived from self-antigen motifs to foster tolerance.
+6. Mitigation of oxidative stress: Ox-Red-Eng (designed), derived from mitochondrial-derived peptide motifs for cellular protection against oxidative damage.
+7. Reduction of central sensitization: Central-Eng (designed), based on neurotrophic motifs to modulate central pain processing.
+8. Novel prostate tissue optimization: Prostate-Opt-Eng (designed), inspired by telomerase peptide motifs with regulatory effects on prostatic cells.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Chronic Prostatitis (Non-Bacterial) p01"
+"Loaded_Programs=Chronic Prostatitis (Non-Bacterial) p02"
+"Loaded_Programs=Chronic Prostatitis (Non-Bacterial) p03"
+"Loaded_Programs=Chronic Prostatitis (Non-Bacterial) p04"
+"Loaded_Programs=Chronic Prostatitis (Non-Bacterial) p05"
+"Loaded_Programs=Chronic Prostatitis (Non-Bacterial) p06"
+"Loaded_Programs=Chronic Prostatitis (Non-Bacterial) p07"
+"Loaded_Programs=Chronic Prostatitis (Non-Bacterial) p08"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M198.112=1,M113.084,M71.037,M114.043,M147.068,M113.084,M99.068,M137.059,M87.032,M87.032,M114.043,M114.043,M146.084,0=4,"
+"Loaded_Frequencies=M198.112=1,M186.079,M128.058,M129.043,M131.04,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M171.054=1,M137.059,M147.068,M97.053,M57.021,M97.053,M97.053,M155.117,0=4,"
+"Loaded_Frequencies=M113.048=1,M156.101,M97.053,M71.037,M113.084,M113.084,M101.048,M87.032,M156.101,M113.084,M156.101,M147.068,M113.084,M96.069,0=4,"
+"[/Preset]"

@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Acute Kidney Injury Due to Dehydration (Coil)"
+"Preset_Notes=Acute Kidney Injury Due to Dehydration for Coil
+
+Acute kidney injury due to dehydration is prerenal AKI triggered by hypovolemia leading to reduced renal perfusion, glomerular filtration rate decline, potential progression to ischemic tubular necrosis, oxidative stress, inflammation, leukocyte infiltration, mitochondrial dysfunction, apoptosis, and secondary fibrosis if uncorrected. Peptide therapeutics target hemodynamic support, leukocyte blockade, natriuresis, cytoprotection, regeneration, ROS scavenging, mitochondrial stabilization, tubular survival, ECM remodeling, and vascular perfusion enhancement.
+
+1. Melanocortin receptor activation: AP214 - Enhanced {alpha}-MSH analogue with superior receptor affinity that suppresses NF-{kappa}B, reduces cytokine storm, improves hemodynamics, and attenuates tubular damage in AKI models relevant to hypovolemic states.
+2. DPEP-1 mediated leukocyte recruitment blockade: LSALT - Selective DPEP-1 binder that inhibits neutrophil and monocyte adhesion to renal endothelium, limiting inflammatory infiltration and tissue injury during hypoperfusion-induced AKI.
+3. Natriuretic peptide signaling and GFR enhancement: ANP - Activates NPR-A receptors to increase glomerular filtration, promote natriuresis/diuresis, and exert direct anti-inflammatory effects on renal vasculature and tubules in AKI.
+4. Multi-organ cytoprotection and repair: BPC-157 - Stable gastric pentadecapeptide that accelerates kidney tissue healing, counters oxidative and ischemic damage, and preserves tubular integrity in hypovolemic/ischemic injury models.
+5. Actin sequestration and tubular regeneration: Thymosin {beta}4 - G-actin binding protein that promotes epithelial cell migration, survival, and repair while reducing apoptosis in ischemic tubular segments following dehydration.
+6. Oxidative stress scavenging: Ox-Des6 - Amphipathic {alpha}-helical peptide rich in Met/Trp/Tyr/Cys motifs optimized for direct ROS neutralization and membrane insertion to protect dehydrated proximal tubular cells.
+7. Mitochondrial membrane stabilization: Mito-Des7 - Histidine-leucine rich amphipathic peptide engineered to buffer mitochondrial pH, stabilize membrane potential, and interrupt ROS-induced permeability transition in energy-depleted kidney cells.
+8. Tubular cell anti-apoptotic signaling: Apop-Des8 - Bcl-2 mimetic patterned peptide with charged and aromatic residues to inhibit caspase activation and enhance survival pathways under hypoperfusion stress.
+9. Tubular regeneration and migration promotion: Regen-Des9 - RGD-integrin engaging peptide with balanced hydrophobicity designed to stimulate epithelial restitution and monolayer reformation in injured tubules.
+10. Renal vascular perfusion and barrier protection: Vasc-Des10 - Cationic arginine-rich peptide optimized to enhance local NO signaling, stabilize endothelial junctions, and improve microcirculatory flow in dehydrated kidneys.
+
+"
+"Loaded_Programs=Acute Kidney Injury Due to Dehydration p01"
+"Loaded_Programs=Acute Kidney Injury Due to Dehydration p02"
+"Loaded_Programs=Acute Kidney Injury Due to Dehydration p03"
+"Loaded_Programs=Acute Kidney Injury Due to Dehydration p04"
+"Loaded_Programs=Acute Kidney Injury Due to Dehydration p05"
+"Loaded_Programs=Acute Kidney Injury Due to Dehydration p06"
+"Loaded_Programs=Acute Kidney Injury Due to Dehydration p07"
+"Loaded_Programs=Acute Kidney Injury Due to Dehydration p08"
+"Loaded_Programs=Acute Kidney Injury Due to Dehydration p09"
+"Loaded_Programs=Acute Kidney Injury Due to Dehydration p10"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M128.095,M128.095,M128.095,M87.032,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M71.037,M113.084,M101.048,M97.053,M87.032,M97.053,M87.032,M186.079,M113.084,M128.095,M163.063,M128.095,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,M131.040,M186.079,M163.063,M103.009,M156.101,M137.059,M147.068,M115.027,M128.095,M87.032,M101.048,M57.021,M114.043,M128.058,0=4,"
+"Loaded_Frequencies=M137.059=1,M113.084,M113.084,M128.095,M129.043,M128.058,M114.043,M115.027,M131.040,M101.048,M99.068,M87.032,M147.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M71.037,M129.043,M128.095,M57.021,M156.101,M147.068,M115.027,M186.079,M163.063,M87.032,M101.048,M97.053,M114.043,M128.058,M137.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M128.095,M97.053,M113.084,M87.032,M99.068,M113.084,M101.048,M129.043,M128.058,M114.043,M147.068,M71.037,M131.04,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M128.095,M186.079,M147.068,M163.063,M137.059,M129.043,M115.027,M87.032,M101.048,M57.021,M114.043,M128.058,M113.084,0=4,"
+"[/Preset]"

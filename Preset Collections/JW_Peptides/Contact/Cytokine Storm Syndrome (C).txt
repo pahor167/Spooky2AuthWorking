@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Cytokine Storm Syndrome (C)"
+"Preset_Notes=Cytokine Storm Syndrome for Contact
+
+Cytokine Storm Syndrome is a severe hyperinflammatory condition characterized by the excessive and uncontrolled release of pro-inflammatory cytokines, leading to systemic inflammation, tissue damage, and multi-organ failure. It is often triggered by viral infections (e.g., SARS-CoV-2 in COVID-19, influenza), bacterial sepsis, autoimmune diseases, or immunotherapies like CAR-T cell therapy. Causes include dysregulated immune responses where pathogen-associated molecular patterns or damage-associated molecular patterns activate pattern recognition receptors on immune cells, initiating a cascade of cytokine production involving IL-1, IL-6, TNF-{alpha}, IFN-{gamma}, and others. This creates a positive feedback loop amplifying inflammation through pathways like NF-{kappa}B, JAK-STAT, and inflammasome activation, resulting in inflammatory cell death (PANoptosis, pyroptosis, apoptosis, necroptosis). Symptoms include high fever, fatigue, hypotension, tachypnea, hypoxemia, coagulopathy, and organ dysfunction affecting lungs (ARDS), heart, kidneys, and liver. Pathophysiology involves endothelial damage, oxidative stress, coagulopathy, and immune cell hyperactivation (macrophages, T cells, NK cells), potentially leading to death if untreated. The proposed polypeptides address these mechanisms by targeting key axes. Real-world polypeptides like LL-37, CGRP, FX06, Ac2-26, Bradykinin, and Chensinin-1b modulate cytokine production, reduce inflammation, protect endothelium, and inhibit cell death pathways to attenuate the storm. Designed polypeptides supplement by specifically blocking IL-6, TNF-{alpha}, IL-1, and IFN-{gamma} signaling; inhibiting JAK-STAT and NF-{kappa}B; preventing PANoptosis, pyroptosis, apoptosis, and necroptosis; suppressing macrophage and T cell activation; modulating NK cell function; providing endothelial protection; reducing oxidative stress; and preventing coagulopathy. Feasibility includes biocompatibility, targeted delivery, and low immunogenicity, with physicochemical optimization for stability and bioavailability.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Cytokine Storm Syndrome p01"
+"Loaded_Programs=Cytokine Storm Syndrome p02"
+"Loaded_Programs=Cytokine Storm Syndrome p03"
+"Loaded_Programs=Cytokine Storm Syndrome p04"
+"Loaded_Programs=Cytokine Storm Syndrome p05"
+"Loaded_Programs=Cytokine Storm Syndrome p06"
+"Loaded_Programs=Cytokine Storm Syndrome p07"
+"Loaded_Programs=Cytokine Storm Syndrome p08"
+"Loaded_Programs=Cytokine Storm Syndrome p09"
+"Loaded_Programs=Cytokine Storm Syndrome p10"
+"Loaded_Programs=Cytokine Storm Syndrome p11"
+"Loaded_Programs=Cytokine Storm Syndrome p12"
+"Loaded_Programs=Cytokine Storm Syndrome p13"
+"Loaded_Programs=Cytokine Storm Syndrome p14"
+"Loaded_Programs=Cytokine Storm Syndrome p15"
+"Loaded_Programs=Cytokine Storm Syndrome p16"
+"Loaded_Programs=Cytokine Storm Syndrome p17"
+"Loaded_Programs=Cytokine Storm Syndrome p18"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M156.101,M97.053,M113.084,M115.027,M128.095,M128.095,M156.101,M129.043,M129.043,M71.037,M97.053,M87.032,M113.084,M156.101,M97.053,M71.037,M97.053,M97.053,M97.053,M113.084,M87.032,M57.021,M57.021,M57.021,M163.063,M156.101,0=4,"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M97.053,M57.021,M147.068,M87.032,M97.053,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M71.037,M99.068,M186.079,M156.101,M137.059,M186.079,M156.101,M156.101,M147.068,M186.079,0=4,"
+"Loaded_Frequencies=M128.058=1,M129.043,M129.043,M128.095,M128.095,M156.101,M156.101,M128.095,M128.095,M129.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M113.084,M87.032,M115.027,M147.068,M113.084,M128.095,M128.058,M156.101,M129.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M114.043,M71.037,M128.095,M129.043,M99.068,M156.101,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.095,M128.095,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M71.037,M128.058,M128.095,M71.037,M128.058,M71.037,M128.095,M128.058,M71.037,0=4,"
+"Loaded_Frequencies=M186.079=1,M113.084,M186.079,M156.101,M129.043,M57.021,M137.059,M147.068,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,M71.037,M128.095,M137.059,M128.095,M57.021,M113.084,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M147.068,M163.063,M101.048,M97.053,M128.095,M71.037,M99.068,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M71.037,M128.058,M128.095,M71.037,M128.058,M71.037,M128.095,M128.058,M71.037,M128.095,M71.037,M128.058,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M115.027=1,M186.079,M129.043,M128.058,M113.084,M114.043,M114.043,M101.048,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M129.043,M113.084,M97.053,M115.027,M57.021,M128.058,M71.037,M137.059,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M101.048,M131.040,M137.059,M99.068,M114.043,M57.021,M147.068,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Acne Vulgaris (P)"
+"Preset_Notes=Acne Vulgaris for Plasma
+
+Acne vulgaris is a prevalent chronic inflammatory dermatosis primarily affecting adolescents and young adults, though it can persist or emerge in adulthood. It manifests as non-inflammatory lesions (open and closed comedones), inflammatory lesions (papules, pustules, nodules), and in severe forms, cysts and scarring, predominantly on the face, upper trunk, and back. Symptoms include pain, tenderness, and significant psychosocial impact due to visible disfigurement. The pathophysiology centers on four interconnected axes: androgen-driven hypersecretion of sebum by sebaceous glands, abnormal hyperproliferation and retention hyperkeratosis of follicular keratinocytes leading to comedo formation, follicular colonization and proliferation of Cutibacterium acnes with biofilm formation, and subsequent innate and adaptive immune responses triggering release of pro-inflammatory cytokines, chemokines, and matrix metalloproteinases that amplify tissue damage.
+
+The proposed polypeptides comprehensively address these core pathogenic axes through targeted mechanisms, offering potential for multimodal therapy with improved tolerability over conventional agents. Peptide 1 (designed) is a short cationic lipophilic sequence conceptually engineered to penetrate sebaceous glands and modulate androgen receptor signaling or downstream lipid synthesis pathways, thereby reducing sebum overproduction. Peptide 2 (designed) incorporates polar and proline-rich motifs to conceptually promote orderly keratinocyte differentiation and desquamation, countering follicular plugging. Peptides 3 and 4 target the bacterial axis: Peptide 3 is the real-world investigational synthetic antimicrobial peptide Omiganan, a cathelicidin analog with documented potent bactericidal activity against Cutibacterium acnes via membrane permeabilization; Peptide 4 (designed) is an amphipathic cationic sequence conceptually optimized for similar membrane-disrupting action to complement coverage. Peptide 5 (designed) features residues associated with immunomodulatory motifs to conceptually suppress pro-inflammatory cytokine cascades and neutrophil recruitment. All designed polypeptides are clearly flagged as conceptual hypotheses; the real polypeptide Omiganan has established preclinical and phase II clinical evidence for topical use in acne. These short sequences favor skin penetration, proteolytic resistance relative to longer proteins, and synthetic feasibility, supporting potential topical formulation.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Acne Vulgaris p01"
+"Loaded_Programs=Acne Vulgaris p02"
+"Loaded_Programs=Acne Vulgaris p03"
+"Loaded_Programs=Acne Vulgaris p04"
+"Loaded_Programs=Acne Vulgaris p05"
+"Loaded_Frequencies=M128.095=1,M128.095,M113.084,M147.068,M186.079,M186.079,M97.053,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.058,M128.058,M87.032,M101.048,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M128.095,M113.084,M156.101,M186.079,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M137.059,M87.032,M131.040,M129.043,M128.095,M115.027,0=4,"
+"[/Preset]"

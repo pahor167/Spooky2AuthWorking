@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"PresetName=1. System Detox 1"
+"Loaded_Frequencies=9887=220,0.5=294,146=294,522=294,800=294,1552=294,0.5=220,2.5=220,6.29=220,9.18=220,9.19=220,20=220,146=220,148=220,333=220,428=220,444=220,522=220,523=220,555=220,660=220,690=220,727.5=220,768=220,786=220,787=220,802=220,880=220,1550=220,1865=220,10000=220,0=220,"
+"Loaded_Programs=1. System Detox 1"
+"Preset_Notes=Cancer Protocol, Coil Plus method, Generator 1, for Coil. 
+
+This preset contains Coil frequency sets for Spooky Coil. Run this preset concurrently with the presets 'Coil2/Gen2 (R) - BY'. See '\Cancer\BY\Cancer Presets.pdf' for a schedule to run these presets.
+
+The entire schedule for this protocol is in the notes of 'Coil2/Gen2 (Coil) - BY'. Here is the schedule for this preset:
+  Generator 1, Coil2/Gen1/System Detox 1 (Coil) - BY
+    Day 3
+    Day 4
+
+This preset has the following programs:
+
+System Detox 1: Detox Toxic Proteins - XTRA, Detox Toxins Elimination 1 - XTRA, Detox Toxins Elimination 2 - XTRA
+
+Here is a table to find the beginning of each day in this preset:
+1: System Detox 1
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost on Generator 1, or to Out 1 of Generator 1 if you don't have Spooky Boost.
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"

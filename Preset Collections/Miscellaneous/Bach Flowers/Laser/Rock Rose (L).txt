@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=Rock Rose (L)"
+"Preset_Notes=Rock Rose / Spooky Laser
+
+Estimated Time: Run this preset for 3:00 minutes.
+Rock Rose - Terror and fright.
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Rock Rose (L)"
+"Loaded_Frequencies=277.99,"
+"[/Preset]"

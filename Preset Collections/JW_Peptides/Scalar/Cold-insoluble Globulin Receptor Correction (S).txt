@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Cold-insoluble Globulin Receptor Correction (S)"
+"Preset_Notes=Cold-insoluble Globulin Receptor Correction for Scalar
+
+Cold-insoluble globulin, now universally known as Fibronectin (Fn), interacts with various cell-surface receptors, primarily the integrin family (notably alpha-5-beta-1). Correction of fibronectin receptor signaling is critical in conditions involving impaired wound healing, tissue fibrosis, and vascular stability. In chronic non-healing wounds, the degradation of fibronectin or the downregulation of its receptors prevents the assembly of the extracellular matrix (ECM) and the migration of fibroblasts. Therapeutic correction focuses on restoring the 'biological glue' function by presenting high-affinity ligands that trigger integrin clustering and intracellular signaling through focal adhesion kinase (FAK), promoting cellular adhesion, survival, and matrix reorganization.
+
+1. Integrin Alpha-5-Beta-1 Activation: RGD Peptide - The canonical tripeptide sequence that restores cell adhesion by binding to the primary fibronectin-binding site on integrins.
+2. Synergistic Binding Enhancement: PHSRN - A synergy motif from the 9th type III repeat of fibronectin that significantly increases the binding affinity of RGD for alpha-5-beta-1.
+3. FAK Signaling Induction: GRGDS - A pentapeptide variant that promotes rapid phosphorylation of Focal Adhesion Kinase to initiate cellular migration.
+4. Matrix Assembly Restoration: pUR4 - A functional upstream domain peptide that prevents aberrant fibronectin polymerization and promotes organized fibrillogenesis.
+5. Vascular Stability: Angiopoietin-1 Mimetic - Indirectly corrects fibronectin receptor dynamics by stabilizing endothelial cell-cell junctions and ECM attachments.
+6. Bacterial Adhesion Competition: FnBPA-Derived Peptide - Competes with bacterial fibronectin-binding proteins to prevent pathogen colonization of the host ECM.
+7. Tenascin-C Antagonism: TN-II - Blocks the inhibitory effects of Tenascin-C on fibronectin receptors to restore normal cell spreading in fibrotic environments.
+8. Optimization Axis (Designed): Globul-Fix-5 - A synthetic multivalent peptide designed to cluster integrin receptors and bypass fragmented native fibronectin in diabetic ulcers.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Cold-insoluble Globulin Receptor Correction p01"
+"Loaded_Programs=Cold-insoluble Globulin Receptor Correction p02"
+"Loaded_Programs=Cold-insoluble Globulin Receptor Correction p03"
+"Loaded_Programs=Cold-insoluble Globulin Receptor Correction p04"
+"Loaded_Programs=Cold-insoluble Globulin Receptor Correction p05"
+"Loaded_Programs=Cold-insoluble Globulin Receptor Correction p06"
+"Loaded_Programs=Cold-insoluble Globulin Receptor Correction p07"
+"Loaded_Programs=Cold-insoluble Globulin Receptor Correction p08"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M97.053=1,M137.059,M87.032,M156.101,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M57.021,M115.027,M87.032,0=4,"
+"Loaded_Frequencies=M128.058=1,M101.048,M129.043,M115.027,M128.058,M101.048,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M137.059,M113.084,M113.084,M113.084,M137.059,M137.059,M137.059,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M129.043,M129.043,M156.101,M156.101,M156.101,M156.101,M129.043,M129.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,M115.027,M163.063,M113.084,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M156.101,M57.021,M115.027,M156.101,M57.021,M115.027,M156.101,0=4,"
+"[/Preset]"

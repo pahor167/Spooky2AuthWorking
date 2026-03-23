@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=L64 Morgellons Infrastructure K - DB"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Contact Mode.
+
+Update: September 2019.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the Colloidal_Silver port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+PROGRAMS: 
+Your Scan Results CUST
+Disrupt Activities 9 CUST
+20-Hydroxyecdysone AM_Deb CUST
+20-Hydroxyecdysone AM_Res CUST
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Disrupt Activities 9 (CUST)"
+"Loaded_Programs=20-Hydroxyecdysone AM_Deb (CUST)"
+"Loaded_Programs=20-Hydroxyecdysone AM_Res (CUST)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=2885828.79=90,2885828.8=90,1442914.39=90,1442914.4=90,4667312.22=90,4667312.23=90,2333656.11=90,2333656.12=90,4435063.19=90,4435063.2=90,2217531.59=90,2217531.6=90,3234222.63=90,3234222.64=90,1617111.31=90,1617111.32=90,2588100.54=90,2588100.55=90,1294050.27=90,1294050.28=90,4473591.74=90,4473591.75=90,2236795.87=90,2236795.88=90,3955315.59=90,3955315.6=90,1977657.79=90,1977657.8=90,3735354.45=90,3735354.46=90,1867677.22=90,1867677.23=90,3700312.2=90,3700312.21=90,1850156.1=90,1850156.11=90,3262395.8=90,3262395.81=90,1631197.9=90,1631197.91=90,2502505.96=90,2502505.97=90,1251252.98=90,1251252.99=90,3001224.57=90,3001224.58=90,1500612.28=90,1500612.29=90,4976461.75=90,4976461.76=90,2488230.87=90,2488230.88=90,4564041.03=90,4564041.04=90,2282020.51=90,2282020.52=90,"
+"Loaded_Frequencies=7684.93=600,7684.94=600,4146868.03=600,4146868.04=600,7684.4-7685.4=600,4146867.5-4146868.5=600,"
+"Loaded_Frequencies=7684.93=600,7684.94=600,2932278.51=600,2932278.52=600,7684.4-7685.4=600,2932278-2932279=600,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Dysbiosis (L)"
+"Preset_Notes=Dysbiosis for Laser
+
+Dysbiosis is characterized by microbial imbalance in the gut, leading to reduced diversity, pathogenic overgrowth, inflammation, barrier dysfunction, and links to metabolic, immune, and systemic disorders. Proposed polypeptides address key axes from literature on antimicrobial, immunomodulatory, barrier-protective, and microbiota-shaping mechanisms.
+
+1. Selective pathogen membrane disruption: Lactoferricin B - Bovine lactoferrin-derived peptide that disrupts membranes of Gram-positive and negative bacteria to reduce pathogenic burden
+2. Broad-spectrum defensin defense: Human Beta-Defensin 3 - Human AMP with activity against bacteria, fungi, and viruses, helping restore microbial equilibrium
+3. Pore-forming antimicrobial action: Protegrin-1 - Porcine-derived cationic peptide forming membrane pores in resistant pathogens
+4. Tryptophan-rich pathogen penetration: Indolicidin - Bovine peptide rich in Trp that penetrates and kills intracellular targets in dysbiotic species
+5. Protease-resistant cyclic activity: {theta}-Defensin (RTD-1) - Macrocyclic primate defensin with broad, stable antimicrobial effects in gut environment
+6. Fungal commensalism regulation: PYY_3-36 - Gut hormone form acting as AMP to control Candida overgrowth while preserving balance
+7. Endogenous microbial community shaping: Catestatin - Chromogranin A-derived human peptide that modulates microbiota composition and resists dysbiotic shifts
+8. Pro-resolving inflammation control: Annexin_A1_Ac2-26 - N-terminal mimetic promoting resolution of gut inflammation and homeostasis
+9. Epithelial growth and barrier support: GLP-2 - Endogenous peptide stimulating intestinal adaptation and reducing translocation
+10. Paracellular tight junction closure: Larazotide - Zonulin-inhibiting octapeptide restoring barrier integrity in leaky gut
+11. Gut immune homeostasis: Thymosin_alpha_1 - Thymic peptide balancing innate and adaptive responses to curb dysbiosis-driven inflammation
+12. Optimized barrier-antimicrobial hybrid: LaraVar-1 - Designed larazotide variant with enhanced cationic charge for dual tight junction protection and pathogen repulsion
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Dysbiosis p01"
+"Loaded_Programs=Dysbiosis p02"
+"Loaded_Programs=Dysbiosis p03"
+"Loaded_Programs=Dysbiosis p04"
+"Loaded_Programs=Dysbiosis p05"
+"Loaded_Programs=Dysbiosis p06"
+"Loaded_Programs=Dysbiosis p07"
+"Loaded_Programs=Dysbiosis p08"
+"Loaded_Programs=Dysbiosis p09"
+"Loaded_Programs=Dysbiosis p10"
+"Loaded_Programs=Dysbiosis p11"
+"Loaded_Programs=Dysbiosis p12"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M102.001,M156.101,M102.001,M113.084,M102.001,M156.101,M156.101,M57.021,M99.068,M102.001,M156.101,M102.001,M113.084,M102.001,M101.048,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M97.053,M129.043,M71.037,M97.053,M57.021,M129.043,M115.027,M71.037,M87.032,M97.053,M129.043,M129.043,M113.084,M114.043,M156.101,M163.063,M163.063,M71.037,M87.032,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M99.068,M101.048,M156.101,M128.058,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M128.095,M113.084,M101.048,M115.027,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M128.095,0=4,"
+"[/Preset]"

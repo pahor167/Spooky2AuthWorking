@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Amebiasis (L)"
+"Preset_Notes=Amebiasis for Laser
+
+Amebiasis is a parasitic disease caused by the protozoan Entamoeba histolytica, primarily infecting the large intestine but potentially spreading to extraintestinal sites such as the liver, lungs, or brain. Transmission occurs via the fecal-oral route through ingestion of mature cysts in contaminated food, water, or hands, with higher prevalence in areas of poor sanitation and overcrowding. Most infections are asymptomatic, but symptomatic cases present as intestinal amebiasis (amebic colitis or dysentery) with abdominal pain, diarrhea (often bloody), tenesmus, and weight loss, or as extraintestinal amebiasis, most commonly amebic liver abscess with fever, right upper quadrant pain, and hepatomegaly. Severe complications include fulminant colitis, perforation, and dissemination.
+
+Pathophysiology involves excystation in the small intestine, releasing trophozoites that colonize the colon, adhere to mucus and epithelial cells via the Gal/GalNAc-inhibitable lectin, degrade the extracellular matrix and tight junctions using cysteine proteases, induce contact-dependent cytolysis through amebapores, evade host immunity (including resistance to complement and some antimicrobial peptides), and in invasive disease, hematogenous spread to form abscesses with neutrophil-dominated inflammation but limited parasite killing.
+
+The proposed polypeptides target multiple mechanistic axes derived from current literature: direct trophozoite killing via membrane disruption or necrosis (prioritized with real-world antimicrobial peptides LL-37, its active fragments KR-20, FK-13, and KR-12, and bovine Lfampin, supplemented by designed cationic, amphipathic, cyclic, lipidated, and redox-active polypeptides flagged as designed), blockade of parasite adhesion to host epithelium (designed glycosylated mimetics flagged as designed), inhibition of virulence-associated cysteine proteases (designed with non-standard residues flagged as designed), disruption of parasite redox systems (designed selenocysteine-containing flagged as designed), modulation of host inflammatory response to mitigate tissue damage (designed phospho-mimetics flagged as designed), and promotion of immunogenic responses (designed non-standard-rich polypeptides flagged as designed). Real-world polypeptides were limited to five verifiably active examples from PubMed sources, necessitating designed supplementation for quantitative requirements and full axis coverage.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Amebiasis p01"
+"Loaded_Programs=Amebiasis p02"
+"Loaded_Programs=Amebiasis p03"
+"Loaded_Programs=Amebiasis p04"
+"Loaded_Programs=Amebiasis p05"
+"Loaded_Programs=Amebiasis p06"
+"Loaded_Programs=Amebiasis p07"
+"Loaded_Programs=Amebiasis p08"
+"Loaded_Programs=Amebiasis p09"
+"Loaded_Programs=Amebiasis p10"
+"Loaded_Programs=Amebiasis p11"
+"Loaded_Programs=Amebiasis p12"
+"Loaded_Programs=Amebiasis p13"
+"Loaded_Programs=Amebiasis p14"
+"Loaded_Programs=Amebiasis p15"
+"Loaded_Programs=Amebiasis p16"
+"Loaded_Programs=Amebiasis p17"
+"Loaded_Programs=Amebiasis p18"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M113.084,M113.084,M186.079,M128.095,M113.084,M113.084,M87.032,M128.095,M71.037,M128.058,M129.043,M128.095,M147.068,M57.021,M128.095,M114.043,M128.095,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M114.079,M156.101,M86.048,M113.048,M128.095,M114.079,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M128.095,M156.101,M113.048,M114.079,M86.048,M128.095,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M102.001=1,M147.068,M114.079,M128.095,M113.048,M113.084,M86.048,M156.101,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M304.127,M114.079,M128.095,M290.111,M86.048,M156.101,M114.079,0=4,"
+"Loaded_Frequencies=M86.048=1,M128.095,M85.053,M114.079,M113.048,M128.095,M85.053,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M150.954,M128.095,M114.079,M86.048,M150.954,M128.095,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M307.197=1,M128.095,M114.079,M113.048,M128.095,M86.048,M156.101,M114.079,M128.095,0=4,"
+"Loaded_Frequencies=M113.048=1,M114.079,M128.095,M156.101,M86.048,M128.095,M114.079,M113.048,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M128.095,M114.079,M156.101,M86.048,M113.048,M147.068,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M86.048,M166.998,M114.079,M181.014,M86.048,M128.095,M114.079,0=4,"
+"Loaded_Frequencies=M156.101=1,M114.079,M128.095,M86.048,M156.101,M113.048,M114.079,M128.095,M86.048,M156.101,M128.095,M113.048,M114.079,M86.048,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M102.001,M114.079,M128.095,M156.101,M86.048,M113.048,M113.084,M114.079,M128.095,M156.101,M86.048,M102.001,M57.021,0=4,"
+"Loaded_Frequencies=M317.122=1,M114.079,M128.095,M304.127,M156.101,M86.048,M290.111,M128.095,0=4,"
+"[/Preset]"

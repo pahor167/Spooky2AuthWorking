@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dog Heart Murmur (C)"
+"Preset_Notes=Dog Heart Murmur for Contact
+
+A dog heart murmur is an abnormal sound detected during cardiac auscultation, resulting from turbulent blood flow within the heart or great vessels. It is a common finding in veterinary medicine, affecting dogs of all ages, breeds, and sizes, though prevalence increases with age. The primary causes include acquired conditions such as myxomatous mitral valve disease (MMVD), which is the most frequent in small to medium-sized breeds like Cavalier King Charles Spaniels, where the mitral valve thickens and prolapses, leading to regurgitation and left atrial enlargement. Congenital defects, such as patent ductus arteriosus (PDA), ventricular septal defect (VSD), pulmonic stenosis, or subaortic stenosis, are more common in puppies and certain breeds like Boxers or Golden Retrievers. Dilated cardiomyopathy (DCM) predominates in large breeds like Doberman Pinschers, causing ventricular dilation and systolic dysfunction. Other etiologies encompass infective endocarditis from bacterial infections (e.g., Bartonella, Staphylococcus), heartworm disease (Dirofilaria immitis) causing pulmonary hypertension, extracardiac factors like anemia (reducing blood viscosity) or hyperthyroidism (increasing cardiac output), and physiologic innocent murmurs in puppies due to high flow states or anemia. Symptoms vary by severity and underlying cause; mild cases may be asymptomatic, while advanced disease presents with exercise intolerance, coughing from pulmonary edema, lethargy, syncope, cyanosis, abdominal distension from ascites, tachypnea, and weight loss. Pathophysiology involves disrupted laminar blood flow, leading to pressure overload, volume overload, or both, triggering compensatory mechanisms like renin-angiotensin-aldosterone system (RAAS) activation, sympathetic stimulation, and natriuretic peptide release. Chronic overload results in eccentric or concentric hypertrophy, fibrosis, remodeling, arrhythmias, and eventual congestive heart failure (CHF), characterized by fluid retention, reduced cardiac output, and multi-organ dysfunction. Diagnosis includes physical exam (murmur grading I-VI based on intensity, timing, location), echocardiography for structural assessment, radiographs for cardiomegaly or pulmonary changes, ECG for arrhythmias, and blood tests (e.g., NT-proBNP as biomarker). Management focuses on the underlying cause, with medical therapy for CHF using pimobendan, ACE inhibitors, diuretics, and beta-blockers, surgical interventions for congenital defects, and supportive care like diet and exercise restriction.
+
+The proposed polypeptides address dog heart murmur by targeting key pathophysiological mechanisms to alleviate turbulence, reduce workload, prevent progression, and improve quality of life. Real polypeptides like Canine ANP, BNP, and CNP activate the natriuretic peptide receptor-A/B, increasing cGMP levels to induce natriuresis, diuresis, and vasodilation, thereby reducing preload and afterload, mitigating fluid overload in CHF, and inhibiting RAAS; feasibility is supported by experimental infusions in canine models showing hemodynamic benefits, with physicochemical properties favoring solubility and short half-life for controlled effects. Elamipretide binds cardiolipin in mitochondrial inner membrane, stabilizing electron transport chain, reducing ROS, and enhancing ATP production in failing myocardium, as demonstrated in dog HF studies improving LV function; its tetrapeptide structure ensures cell permeability and mitochondrial targeting. Designed polypeptides (flagged as conceptual) supplement coverage: preload reducers mimic vasoactive peptides for venous dilation; inotrope enhancers boost contractility via calcium sensitization; lusitropy improvers facilitate relaxation by phosphodiesterase inhibition analogs; anti-remodeling agents block TGF-beta signaling to prevent fibrosis; valve protectors inhibit MMPs to stabilize extracellular matrix; anti-inflammatory ones modulate NF-kB for cytokine reduction; antimicrobials target bacterial membranes for endocarditis; antiparasitics disrupt parasite metabolism for heartworm; supplemental natriuretics enhance fluid balance; mitochondrial optimizers improve energy; blood pressure regulators vasodilate; anti-arrhythmics stabilize ions; antioxidants scavenge ROS; cardioprotectives provide broad support. Designed peptides are short for stability, use natural residues for biocompatibility, with rationale based on established pathways, feasibility via synthesis and delivery (e.g., subcutaneous), and considerations for pH solubility, protease resistance, and pharmacokinetics to ensure efficacy without toxicity.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dog Heart Murmur p01"
+"Loaded_Programs=Dog Heart Murmur p02"
+"Loaded_Programs=Dog Heart Murmur p03"
+"Loaded_Programs=Dog Heart Murmur p04"
+"Loaded_Programs=Dog Heart Murmur p05"
+"Loaded_Programs=Dog Heart Murmur p06"
+"Loaded_Programs=Dog Heart Murmur p07"
+"Loaded_Programs=Dog Heart Murmur p08"
+"Loaded_Programs=Dog Heart Murmur p09"
+"Loaded_Programs=Dog Heart Murmur p10"
+"Loaded_Programs=Dog Heart Murmur p11"
+"Loaded_Programs=Dog Heart Murmur p12"
+"Loaded_Programs=Dog Heart Murmur p13"
+"Loaded_Programs=Dog Heart Murmur p14"
+"Loaded_Programs=Dog Heart Murmur p15"
+"Loaded_Programs=Dog Heart Murmur p16"
+"Loaded_Programs=Dog Heart Murmur p17"
+"Loaded_Programs=Dog Heart Murmur p18"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M147.068,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M102.001,M128.095,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M191.094,M128.095,M146.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M147.068,M97.053,M57.021,M87.032,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M137.059,M113.084,M128.095,M113.084,M131.040,M114.043,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.058,M156.101,M87.032,M101.048,M99.068,M186.079,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M103.009,M115.027,M129.043,M147.068,M57.021,M137.059,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M131.040,M114.043,M97.053,M128.058,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M101.048=1,M99.068,M186.079,M163.063,M150.954,M237.148,M113.048,M113.084,0=4,"
+"Loaded_Frequencies=M200.095=1,M758.675,M86.048,M114.079,M100.064,M86.048,M85.053,M71.037,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M128.095,M113.084,M131.040,M114.043,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M101.048,M71.037,M99.068,M97.053,M113.084,M113.084,M128.095,M131.040,M114.043,M128.058,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M137.059=1,M186.079,M103.009,M87.032,M115.027,M129.043,M147.068,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M97.053,M128.095,M113.084,M131.040,M114.043,M237.148,M97.053,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M87.032,M101.048,M99.068,M186.079,M163.063,M71.037,0=4,"
+"Loaded_Frequencies=M103.009=1,M147.068,M57.021,M137.059,M113.084,M128.095,M113.084,M131.040,0=4,"
+"Loaded_Frequencies=M114.043=1,M97.053,M128.058,M156.101,M87.032,M101.048,M99.068,M186.079,0=4,"
+"[/Preset]"

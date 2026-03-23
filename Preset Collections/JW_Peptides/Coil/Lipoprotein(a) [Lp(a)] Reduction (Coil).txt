@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Lipoprotein(a) [Lp(a)] Reduction (Coil)"
+"Preset_Notes=Lipoprotein(a) [Lp(a)] Reduction for Coil
+
+Elevated Lipoprotein(a) is a genetic cardiovascular risk factor promoting atherosclerosis, thrombosis, and inflammation. Limited therapies exist, with PCSK9 inhibitors offering modest reductions; these polypeptides target assembly disruption and clearance enhancement axes with real-world and engineered options for improved efficacy and stability.
+
+1. Lp(a) assembly disruption: apoB(4372-4392) (real) binds apo(a) to block non-covalent interaction with apoB (in vitro evidence).
+2. PCSK9 inhibition for clearance: Pep2-8 (real) blocks PCSK9-LDLR binding, increasing receptor availability for Lp(a) uptake (preclinical cellular evidence).
+3. Protease-resistant PCSK9 inhibition: RI-Pep2-8 (designed retro-inverso D-peptide) provides enhanced stability while maintaining inhibitory motif.
+4. Stabilized Lp(a) assembly disruption: Cyclic-apoB-Eng (designed disulfide-cyclized variant) improves pharmacokinetic properties over linear parent.
+5. Affinity-optimized PCSK9 inhibition: LysPatch-Pep2-8-Eng (designed with C-terminal lysine extension) enhances binding inspired by charge-based improvements.
+
+"
+"Loaded_Programs=Lipoprotein(a) [Lp(a)] Reduction p01"
+"Loaded_Programs=Lipoprotein(a) [Lp(a)] Reduction p02"
+"Loaded_Programs=Lipoprotein(a) [Lp(a)] Reduction p03"
+"Loaded_Programs=Lipoprotein(a) [Lp(a)] Reduction p04"
+"Loaded_Programs=Lipoprotein(a) [Lp(a)] Reduction p05"
+"Loaded_Frequencies=M128.095=1,M163.063,M163.063,M129.043,M113.084,M129.043,M129.043,M128.095,M113.084,M99.068,M87.032,M113.084,M113.084,M128.095,M114.043,M113.084,M113.084,M99.068,M71.037,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M143.059=1,M99.068,M147.068,M101.048,M87.032,M186.079,M129.043,M129.043,M163.063,M113.084,M115.027,M186.079,M98.084,0=4,"
+"Loaded_Frequencies=M141.079=1,M186.079,M115.027,M113.084,M163.063,M129.043,M129.043,M186.079,M87.032,M101.048,M147.068,M99.068,M100.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M163.063,M163.063,M129.043,M113.084,M129.043,M129.043,M128.095,M113.084,M99.068,M87.032,M113.084,M113.084,M128.095,M114.043,M113.084,M113.084,M99.068,M71.037,M113.084,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M143.059=1,M99.068,M147.068,M101.048,M87.032,M186.079,M129.043,M129.043,M163.063,M113.084,M115.027,M186.079,M99.068,M128.095,M128.095,M127.111,0=4,"
+"[/Preset]"

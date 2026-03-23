@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=Honeysuckle (L)"
+"Preset_Notes=Honeysuckle / Spooky Laser
+
+Estimated Time: Run this preset for 3:00 minutes.
+Honeysuckle - Living in the past, homesickness.
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Honeysuckle (L)"
+"Loaded_Frequencies=275.98,"
+"[/Preset]"

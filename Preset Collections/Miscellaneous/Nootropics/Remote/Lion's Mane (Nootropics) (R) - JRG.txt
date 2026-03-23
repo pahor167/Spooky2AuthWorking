@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Lion's Mane (Nootropics) (R) - JRG"
+"Loaded_Programs=Lion's Mane (CUST)"
+"Loaded_Frequencies=M570.39204,"
+"Preset_Notes=Lion's Mane Mushroom is an ancient Chinese remedy for improving cognitive performance, and overall health.|Unlike other nootropics which often modulate neurotransmitters, Lion's Mane goes to the root of the problem. It prevents and treats nerve damage by boosting Brain Nerve Growth Factor, or neurogenesis.|Lion's Mane can help improve focus and attention, boost thinking, repair brain cells, help depression and anxiety, and manage other neurological problems like Alzheimer's, dementia, Parkinson's and muscular dystrophy.|Lion's Mane Mushroom dosage depends largely on the strength of the extract. And amount of polysaccharide content. Try 500 mg to 3 gm per day depending on extract concentration.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

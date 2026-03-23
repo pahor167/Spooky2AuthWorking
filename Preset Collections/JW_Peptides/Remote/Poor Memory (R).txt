@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Poor Memory (R)"
+"Preset_Notes=Poor Memory for Remote
+
+Poor memory involves challenges in encoding, storing, or retrieving information, leading to forgetfulness, slower learning, and impaired recall. It often stems from aging, chronic stress, sleep issues, nutritional deficits, or early stages of mild cognitive impairment and neurodegenerative diseases. Key pathophysiological mechanisms include reduced hippocampal synaptic plasticity, lowered neurotrophic support (e.g., BDNF deficiency), neuroinflammation, oxidative stress, disrupted neurotransmitter systems, and age-related neuronal vulnerability.
+
+The proposed polypeptides target core mechanisms underlying poor memory. Semax (real): A synthetic analog of ACTH(4-10) with C-terminal Pro-Gly-Pro extension, extensively studied preclinically and used clinically in certain regions to elevate BDNF and TrkB expression, enhance enkephalin stability, and promote synaptic plasticity for improved learning and memory. Designed cationic Semax derivative (designed): N-acetylated and C-amidated extended variant incorporating arginine-rich flanks inspired by Semax motifs and cell-penetrating peptide principles; provides enhanced protease resistance, brain penetration, and amplified neurotrophic effects. Selank (real): Synthetic tuftsin analog with Pro-Gly-Pro extension, demonstrated in studies to exert anxiolytic effects while improving attention, learning, and memory through modulation of GABAergic transmission, serotonin, and inflammatory cytokines. Designed extended Selank (designed): N-acetylated and C-amidated variant with additional cationic residues derived from tuftsin/Selank scaffolds; rational design for superior stability and prolonged cognitive support under stress. Pinealon (real): Synthetic tripeptide shown in preclinical models to protect neurons, regulate pineal function, and ameliorate age-related cognitive deficits. Designed cyclic EDR repeat (designed): Head-to-tail cyclized decapeptide repeating the Pinealon motif; cyclization confers resistance to degradation while extending bioregulatory neuroprotective action.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Poor Memory p01"
+"Loaded_Programs=Poor Memory p02"
+"Loaded_Programs=Poor Memory p03"
+"Loaded_Programs=Poor Memory p04"
+"Loaded_Programs=Poor Memory p05"
+"Loaded_Programs=Poor Memory p06"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"[/Preset]"

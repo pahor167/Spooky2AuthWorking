@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=DHEA (Nootropics) (R) - JRG"
+"Loaded_Programs=DHEA (CUST)"
+"Loaded_Frequencies=M288.20893,"
+"Preset_Notes=DHEA (Dehydroepiandrosterone) is a hormone produce by your adrenal glands, brain, and testes in men. DHEA levels decline with age right along with testosterone. The result is deceased motivation, cognition, depression, fatigue, and loss of libido.|DHEA as a nootropic has a noticeable effect on increasing motivation, and a general sense of well-being.|Remember that DHEA is a steroid hormone, and does increase estrogen. In men prolonged elevated estrogen levels has negative effects like abdominal fat, and male breasts.|Dosing DHEA is 25 mg. per day and you may want to cycle one month on and one month off. And get your estradiol & DHEA levels checked.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

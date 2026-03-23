@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Adenomyosis (R)"
+"Preset_Notes=Adenomyosis for Remote
+
+Adenomyosis is a benign estrogen-dependent gynecological disorder characterized by the ectopic growth of endometrial glands and stroma into the myometrium, resulting in uterine enlargement, heavy menstrual bleeding, chronic pelvic pain/dysmenorrhea, and often infertility/subfertility. Key pathophysiological mechanisms include hormonal dysregulation (hyperestrogenism and progesterone resistance), chronic inflammation, aberrant angiogenesis, tissue remodeling/fibrosis, cellular invasion/proliferation, uterine hyperperistalsis, hypoxia-induced changes, and altered prolactin signaling.
+
+Real-world polypeptide therapeutics for adenomyosis primarily consist of heavily modified GnRH analogs (e.g., leuprolide, goserelin, triptorelin, buserelin, nafarelin) targeting hormonal suppression and atosiban for pain-related hyperperistalsis; however, their non-standard modifications (e.g., tert-butyl ethers, azaglycine, ethylamides, mercaptopropionyl) prevent compliant residue-by-residue mass calculation under the strict reference protocol, necessitating fallback to designed polypeptides. This set comprises 18 novel designed polypeptides providing comprehensive axis coverage, incorporating >=2 non-standard residues per sequence for potential novelty in binding/selectivity, with ~44% cyclic (disulfide-bridged) for protease resistance and linear ones N-acetylated/C-amidated for stability; all are conceptual with short lengths (5-8 residues) for synthetic feasibility and physicochemical optimization (charged residues for solubility, limited hydrophobics for bioavailability).
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Adenomyosis p01"
+"Loaded_Programs=Adenomyosis p02"
+"Loaded_Programs=Adenomyosis p03"
+"Loaded_Programs=Adenomyosis p04"
+"Loaded_Programs=Adenomyosis p05"
+"Loaded_Programs=Adenomyosis p06"
+"Loaded_Programs=Adenomyosis p07"
+"Loaded_Programs=Adenomyosis p08"
+"Loaded_Programs=Adenomyosis p09"
+"Loaded_Programs=Adenomyosis p10"
+"Loaded_Programs=Adenomyosis p11"
+"Loaded_Programs=Adenomyosis p12"
+"Loaded_Programs=Adenomyosis p13"
+"Loaded_Programs=Adenomyosis p14"
+"Loaded_Programs=Adenomyosis p15"
+"Loaded_Programs=Adenomyosis p16"
+"Loaded_Programs=Adenomyosis p17"
+"Loaded_Programs=Adenomyosis p18"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M113.048,M57.021,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M192.965=1,M85.053,M114.079,M86.048,M113.048,M56.037,0=4,"
+"Loaded_Frequencies=M156.090=1,M114.079,M86.048,M114.079,M112.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M114.079,M86.048,M102.001,M57.021,0=4,"
+"Loaded_Frequencies=M155.059=1,M113.084,M114.079,M86.048,M85.053,M87.032,M56.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M114.079,M113.084,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M142.075=1,M86.048,M114.079,M113.048,M56.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M100.064,M114.079,M113.048,M86.048,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M279.159=1,M114.079,M86.048,M113.048,M84.069,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M155.059=1,M150.954,M114.079,M86.048,M112.10,0=4,"
+"Loaded_Frequencies=M102.001=1,M237.148,M114.079,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M156.090=1,M86.048,M85.053,M113.048,M150.954,M56.037,0=4,"
+"Loaded_Frequencies=M156.090=1,M200.095,M114.079,M86.048,M112.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M85.053,M113.048,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M155.095=1,M150.954,M86.048,M114.079,M112.064,0=4,"
+"Loaded_Frequencies=M142.075=1,M85.053,M114.079,M86.048,M149.97,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"[/Preset]"

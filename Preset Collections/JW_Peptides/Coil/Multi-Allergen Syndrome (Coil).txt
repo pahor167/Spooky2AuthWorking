@@ -1,0 +1,54 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Multi-Allergen Syndrome (Coil)"
+"Preset_Notes=Multi-Allergen Syndrome for Coil
+
+Multi-Allergen Syndrome (Dogs, Cats, Horses, Hazelnuts, Guinea Pigs, Shrimps, Dust Mites, Dairy) - Comprehensive Peptide Immunotherapy
+
+Comprehensive peptide immunotherapy addressing complex multi-allergy syndrome involving IgE-mediated hypersensitivity to mammalian allergens (dogs: Can f 1; cats: Fel d 1; horses: Equ c 1; guinea pigs: Cav p), food allergens (hazelnut: Cor a 8 LTP; shrimp: Pen a 1 tropomyosin; dairy: casein), and inhalant allergens (dust mites: Der p 1). This protocol employs T-cell epitope peptide therapy inducing linked epitope suppression, panallergen-blocking strategies for cross-reactive allergens (tropomyosins, profilins, LTPs), mast cell stabilization, and Treg enhancement to achieve broad immune tolerance across all allergen classes without IgE cross-linking risk.
+
+1. Cat allergy (Fel d 1) tolerance: Cat-PAD-Fel d 1 - T-cell epitope peptide from Fel d 1 Chain 1 (aa 25-38); induces linked epitope suppression; cannot cross-link IgE due to small size; promotes IL-10+ Treg cells; reduces allergic response to cat dander
+2. Dust mite (Der p 1) tolerance: Der p 1-Epi - Immunodominant T-cell epitope from Der p 1; induces T-cell anergy and tolerance; suppresses Th2 cytokine production (IL-4, IL-5); maintains IFN-{gamma} and IL-10; linked suppression to whole allergen
+3. Shrimp tropomyosin tolerance: Pen a 1-Tropomyosin - Major T-cell epitope from shrimp tropomyosin (Pen a 1); reduces shellfish-specific IgE; suppresses Th2 responses (IL-4, IL-5); induces blocking IgG2a antibodies; cross-reactive with other shellfish
+4. Hazelnut LTP (Cor a 8) tolerance: Cor a 8-LTP - T-cell epitope from hazelnut nsLTP1 (Cor a 8); stabilizes structure with disulfide bonds; induces tolerance to lipid transfer proteins; reduces cross-reactivity with peach (Pru p 3) and other LTPs
+5. Horse (Equ c 1) allergy tolerance: Equ c 1-Epi - Immunodominant T-cell epitope from horse lipocalin Equ c 1 (aa 143-160); presented by multiple HLA-DR and HLA-DQ molecules; induces T-cell hyporesponsiveness; reduces horse allergen sensitivity
+6. Guinea pig allergy tolerance: Cav p-Epi - T-cell epitope from guinea pig major allergen (Cav p 2/Cav p 3 lipocalin); species-specific epitope (no cross-reactivity with cat/dog); induces immune tolerance for laboratory animal allergy
+7. Dog (Can f 1) allergy tolerance: Can f 1-Epi - T-cell epitope from dog lipocalin Can f 1 (major dog allergen); cannot cross-link IgE; induces linked epitope suppression; reduces allergic response to dog dander and saliva
+8. Dairy (casein) tolerance: Casein-Epi - T-cell epitope from alpha-casein; reduces milk-specific IgE and casein IgE; promotes regulatory T-cell responses; induces tolerance to dairy proteins through oral immunotherapy mechanism
+9. Pan-tropomyosin cross-reactivity blockade: Pan-TropoBlock - Designed peptide targeting conserved tropomyosin epitopes across shrimp, crab, and mollusks; blocks IgE binding to Pen a 1, Cra g 1, Met e 1; reduces cross-reactive shellfish allergy; induces blocking antibodies
+10. Profilin pan-allergen tolerance: Pan-Profilin - Designed peptide targeting profilin (Bet v 2, Phl p 12) cross-reactivity; reduces oral allergy syndrome from cross-reactive foods; induces tolerance to plant-derived profilins in pollen-food syndrome
+11. Mast cell stabilization and anti-inflammatory: Ac-KPV-NH2 - Alpha-MSH-derived anti-inflammatory tripeptide; inhibits mast cell degranulation; suppresses histamine and leukotriene release; reduces allergic inflammation across all allergen types; blocks NF-kB activation
+12. Regulatory T-cell induction for multi-allergy: TregBoost-Allergy - Designed undecapeptide enhancing FOXP3+ Treg differentiation; promotes immune tolerance across multiple allergens; induces IL-10 and TGF-{beta} production; suppresses Th2 polarization
+13. IgE-Fc{epsilon}RI interaction blockade: IgE-Blocker - Designed undecapeptide mimicking IgE binding sites; blocks Fc{epsilon}RI cross-linking by competing with allergen-IgE complexes; prevents mast cell and basofil activation across all IgE-mediated allergies
+14. Mast cell membrane stabilization: MastStab-Allergy - Designed heptapeptide stabilizing mast cell membranes; contains RGD motif; prevents calcium influx and degranulation; blocks histamine and tryptase release across all allergen exposures.
+
+"
+"Loaded_Programs=Multi-Allergen Syndrome p01"
+"Loaded_Programs=Multi-Allergen Syndrome p02"
+"Loaded_Programs=Multi-Allergen Syndrome p03"
+"Loaded_Programs=Multi-Allergen Syndrome p04"
+"Loaded_Programs=Multi-Allergen Syndrome p05"
+"Loaded_Programs=Multi-Allergen Syndrome p06"
+"Loaded_Programs=Multi-Allergen Syndrome p07"
+"Loaded_Programs=Multi-Allergen Syndrome p08"
+"Loaded_Programs=Multi-Allergen Syndrome p09"
+"Loaded_Programs=Multi-Allergen Syndrome p10"
+"Loaded_Programs=Multi-Allergen Syndrome p11"
+"Loaded_Programs=Multi-Allergen Syndrome p12"
+"Loaded_Programs=Multi-Allergen Syndrome p13"
+"Loaded_Programs=Multi-Allergen Syndrome p14"
+"Loaded_Frequencies=M99.068=1,M71.037,M128.058,M163.063,M128.095,M71.037,M113.084,M97.053,M99.068,M99.068,M113.084,M129.043,M114.043,M71.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M128.095,M115.027,M129.043,M129.043,M147.068,M71.037,M156.101,M113.084,M71.037,M57.021,M114.043,M129.043,M129.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M129.043,M129.043,M129.043,M113.084,M128.095,M128.095,M113.084,M129.043,M129.043,M129.043,M114.043,M156.101,M87.032,M113.084,M128.058,M129.043,M128.095,M128.058,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M103.009,M57.021,M129.043,M99.068,M114.043,M57.021,M114.043,M128.095,M113.084,M103.009,M103.009,M128.058,M128.058,M128.058,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M114.043,M99.068,M101.048,M129.043,M71.037,M115.027,M128.058,M99.068,M129.043,M115.027,M113.084,M113.084,M113.084,M128.058,M129.043,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M87.032,M147.068,M129.043,M129.043,M131.040,M128.058,M114.043,M128.058,M128.058,M156.101,M99.068,M129.043,M71.037,M99.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M71.037,M163.063,M128.095,M71.037,M113.084,M97.053,M99.068,M99.068,M113.084,M129.043,M114.043,M71.037,M128.058,M128.058,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M114.043,M129.043,M114.043,M113.084,M113.084,M156.101,M147.068,M71.037,M99.068,M129.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M113.084,M128.058,M128.095,M113.084,M129.043,M129.043,M129.043,M114.043,M156.101,M156.101,M113.084,M128.058,M71.037,M129.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M113.084,M113.084,M163.063,M156.101,M147.068,M71.037,M99.068,M129.043,M129.043,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M71.037,M128.095,M113.084,M128.058,M131.040,M114.043,M71.037,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M163.063,M163.063,M156.101,M87.032,M128.058,M99.068,M156.101,M129.043,M114.043,M97.053,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M87.032,M97.053,M156.101,M87.032,0=4,"
+"[/Preset]"

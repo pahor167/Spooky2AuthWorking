@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Crimean-Congo Hemorrhagic Fever (C)"
+"Preset_Notes=Crimean-Congo Hemorrhagic Fever for Contact
+
+Crimean-Congo Hemorrhagic Fever (CCHF) is a severe tick-borne viral illness caused by CCHFV (an enveloped bunyavirus), featuring fever, cytokine storm, endothelial dysfunction, vascular leakage, coagulopathy, hemorrhage, and case fatality up to 40%. No approved specific antivirals or therapeutics exist; care is supportive. The proposed polypeptides target evidence-based axes from studies on CCHF pathogenesis, bunyavirus entry inhibition, hemorrhagic fever models, and host defense peptides with antiviral/immunomodulatory roles.
+
+1. Gastric pentadecapeptide-mediated endothelial/vascular protection: BPC-157 stabilizes vessels, reduces leakage, and promotes healing relevant to CCHF endothelial damage.
+2. Human cathelicidin-mediated broad antiviral host defense: LL-37 disrupts enveloped virus membranes and modulates immunity, with demonstrated activity against related bunyaviruses (e.g., RVFV).
+3. Vasoactive intestinal peptide-mediated cytokine suppression: VIP attenuates pro-inflammatory cytokines and mitigates storm in severe viral infections.
+4. Erythropoietin-derived cyclic peptide anti-inflammatory/tissue protection: ARA-290 (pyroglutamate-modified) activates innate repair receptor to reduce inflammation and support recovery.
+5. Copper-tripeptide regenerative/antioxidant support: GHK-Cu promotes ECM remodeling, angiogenesis, and combats oxidative stress in tissue injury.
+6. Optimized cathelicidin fragment for enhanced direct antiviral: Ac-KEFKRIVQRIKDFLRNLV-NH2 (engineered stable fragment) provides potent membrane-disrupting antiviral activity with improved pharmacokinetics.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Crimean-Congo Hemorrhagic Fever p01"
+"Loaded_Programs=Crimean-Congo Hemorrhagic Fever p02"
+"Loaded_Programs=Crimean-Congo Hemorrhagic Fever p03"
+"Loaded_Programs=Crimean-Congo Hemorrhagic Fever p04"
+"Loaded_Programs=Crimean-Congo Hemorrhagic Fever p05"
+"Loaded_Programs=Crimean-Congo Hemorrhagic Fever p06"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M170.106=1,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M98.084,0=4,"
+"[/Preset]"

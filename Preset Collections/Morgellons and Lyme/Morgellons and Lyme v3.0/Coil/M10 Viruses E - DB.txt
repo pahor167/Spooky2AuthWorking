@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"Repeat_Chain=0"
+"PresetName=M10 Viruses E - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Coil.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Herpes Type 2 Comp CAFL
+Herpes Type 2A CAFL
+Herpes Zoster KHZ
+Herpes Simplex KHZ
+Herpesviridae Infections XTRA
+Rift Valley Fever KHZ
+Smallpox KHZ
+
+Connect Spooky PEMF Coil to the generator, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+"
+"Loaded_Programs=Herpes Type 2 Comp (CAFL)"
+"Loaded_Programs=Herpes Type 2A (CAFL)"
+"Loaded_Programs=Herpes Zoster (KHZ)"
+"Loaded_Programs=Herpes Simplex (KHZ)"
+"Loaded_Programs=Herpesviridae Infections (XTRA)"
+"Loaded_Programs=Rift Valley Fever (KHZ)"
+"Loaded_Programs=Smallpox (KHZ)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=362=180,366=180,370=180,373=180,528=180,532=180,540=180,556=180,665=180,685=180,717=180,732=180,776=180,808=180,880=180,888=180,1402=180,8778=180,"
+"Loaded_Frequencies=532=180,848=180,"
+"Loaded_Frequencies=120=180,450=180,900=180,5910=180,137500=180,372500=180,495220=180,734250=180,824370=180,"
+"Loaded_Frequencies=120=180,550=180,950=180,5580=180,22500=180,137500=180,372500=180,495220=180,734250=180,824370=180,"
+"Loaded_Frequencies=550=180,950=180,291250=180,293050=180,292000=180,345500=180,434000=180,495220=180,734250=180,824370=180,"
+"Loaded_Frequencies=40=180,120=180,950=180,14030=180,118520=180,251290=180,365280=180,590000=180,722700=180,977500=180,"
+"Loaded_Frequencies=80=180,350=180,5500=180,35170=180,62500=180,93500=180,225000=180,496010=180,682450=180,753070=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

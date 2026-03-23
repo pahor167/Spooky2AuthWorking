@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Glycogen Storage Disease (P)"
+"Preset_Notes=Glycogen Storage Disease for Plasma
+
+Glycogen Storage Disease (GSD) is a group of inherited metabolic disorders caused by defects in enzymes or transport proteins involved in glycogen synthesis, degradation, or regulation. The primary causes are autosomal recessive mutations in genes such as G6PC1 for GSD Ia, SLC37A4 for GSD Ib, GAA for GSD II (Pompe disease), and others for different types. Symptoms vary by type but commonly include severe fasting hypoglycemia, hepatomegaly, nephromegaly, lactic acidosis, hyperuricemia, hypertriglyceridemia, short stature, muscle weakness, cardiomyopathy, recurrent infections in GSD Ib due to neutropenia, and bleeding tendencies. Long-term complications include hepatic adenomas with malignancy risk, renal failure, osteoporosis, delayed puberty, gout, pulmonary hypertension, pancreatitis, and inflammatory bowel disease-like symptoms in GSD Ib. Pathophysiology involves impaired glycogenolysis and gluconeogenesis leading to excessive glycogen accumulation in liver, kidneys, and muscles, resulting in metabolic imbalances and organ damage from secondary effects like oxidative stress, inflammation, and fibrosis.
+
+The proposed polypeptides address key therapeutic axes through scientific rationale based on current understanding. Real polypeptides Tregitope 289, Tregitope 167, and Tregitope 134 are IgG-derived epitopes that induce regulatory T cells to suppress immune responses, enhancing the efficacy of enzyme replacement therapy in GSD II by preventing anti-GAA antibodies, with feasibility demonstrated in preclinical studies; physicochemical considerations include their small size for good bioavailability and stability. The designed polypeptides are conceptual, supplementing to cover all axes: D1 is a designed peptide targeting G6Pase deficiency by mimicking catalytic motifs to facilitate glucose release, feasible via peptide mimicry with basic residues for binding; D2 designed to enhance G6PT transport through membrane-penetrating sequences; D3 designed to stimulate neutrophil maturation via cytokine-like motifs for neutropenia; D4 designed to modulate GH-IGF axis with growth-promoting sequences; D5 designed to improve platelet aggregation for bleeding; D6 designed to regulate lipid enzymes with hydrophobic residues; D7 designed to inhibit uric acid production; D8 designed to protect renal cells with anti-inflammatory motifs; D9 designed to suppress adenoma growth via apoptosis-inducing sequences; D10 designed to reduce bowel inflammation with cytokine-modulating residues; D11 designed to strengthen cardiac function with myotropic peptides. All designed polypeptides are short for ease of synthesis and delivery, with considerations for solubility, half-life, and targeting to affected tissues.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Glycogen Storage Disease p01"
+"Loaded_Programs=Glycogen Storage Disease p02"
+"Loaded_Programs=Glycogen Storage Disease p03"
+"Loaded_Programs=Glycogen Storage Disease p04"
+"Loaded_Programs=Glycogen Storage Disease p05"
+"Loaded_Programs=Glycogen Storage Disease p06"
+"Loaded_Programs=Glycogen Storage Disease p07"
+"Loaded_Programs=Glycogen Storage Disease p08"
+"Loaded_Programs=Glycogen Storage Disease p09"
+"Loaded_Programs=Glycogen Storage Disease p10"
+"Loaded_Programs=Glycogen Storage Disease p11"
+"Loaded_Programs=Glycogen Storage Disease p12"
+"Loaded_Frequencies=M97.053=1,M71.037,M99.068,M113.084,M128.058,M87.032,M87.032,M57.021,M113.084,M163.063,M87.032,M113.084,M87.032,M87.032,M99.068,M99.068,M101.048,M99.068,M97.053,M87.032,M87.032,M87.032,M113.084,M57.021,M101.048,M128.058,M101.048,M163.063,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M128.058,M163.063,M114.043,M87.032,M101.048,M163.063,M156.101,M99.068,M99.068,M87.032,M99.068,M113.084,M101.048,M99.068,M113.084,M128.095,M129.043,M163.063,M128.095,M129.043,M163.063,0=4,"
+"Loaded_Frequencies=M114.043=1,M128.058,M99.068,M87.032,M113.084,M101.048,M103.009,M113.084,M99.068,M128.095,M57.021,M147.068,M163.063,M97.053,M87.032,M129.043,M113.084,M71.037,M99.068,M129.043,M128.058,M114.043,M114.043,M163.063,0=4,"
+"Loaded_Frequencies=M156.101=1,M137.059,M128.095,M97.053,M147.068,M186.079,M163.063,M113.084,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M87.032,M101.048,M57.021,M114.043,M115.027,M129.043,M128.058,M103.009,M131.040,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M147.068,M137.059,M156.101,M128.095,M97.053,M113.084,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M137.059,M97.053,M156.101,M147.068,M128.058,M99.068,M71.037,M87.032,0=4,"
+"Loaded_Frequencies=M103.009=1,M129.043,M114.043,M87.032,M131.040,M137.059,M99.068,M113.084,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M87.032,M97.053,M156.101,M128.058,M71.037,M99.068,M163.063,M186.079,0=4,"
+"Loaded_Frequencies=M87.032=1,M114.043,M156.101,M71.037,M103.009,M128.058,M113.084,M147.068,M137.059,M99.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M128.095,M186.079,M163.063,M97.053,M113.084,M71.037,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M114.043,M115.027,M128.095,M99.068,M87.032,M113.084,M97.053,M147.068,0=4,"
+"[/Preset]"

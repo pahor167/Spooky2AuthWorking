@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Barometric Pressure Headaches (P)"
+"Preset_Notes=Barometric Pressure Headaches for Plasma
+
+A condition characterized by migraines or sinus pain triggered by changes in atmospheric pressure. Proposed therapeutic axes target CGRP antagonism, mitochondrial resilience, neuroinflammation, mast cell stabilization, stress thresholds, RAAS modulation, PACAP antagonism, and oxytocinergic signaling.
+
+1. CGRP Receptor Blockade: CGRP(8-37) - Antagonizes CGRP receptors to prevent vasodilation and pain sensitization.
+2. Mitochondrial Resilience: Elamipretide - Stabilizes mitochondrial cardiolipin to maintain energy during pressure stress.
+3. Neuroinflammation Control: Thymosin beta-4 - Reduces actin-mediated inflammatory signaling.
+4. Mast Cell Stabilization: KPV - Prevents mast cell degranulation in response to pressure changes.
+5. Stress/Threshold Modulation: DSIP - Modulates delta sleep and stress tolerance.
+6. RAAS Modulation: Angiotensin-(1-7) - Counteracts AngII via Mas receptor to improve vascular compliance.
+7. PACAP Antagonist: PACAP(6-38) - Blocks PAC1 receptors to inhibit migraine pathway activation.
+8. Oxytocinergic Modulation: Oxytocin - Modulates trigeminal pain transmission.
+9. Mechanosensitive Modulation: Baro-Shield-1 - Designed amphipathic peptide to modulate mechanosensitive ion channels.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Barometric Pressure Headaches p01"
+"Loaded_Programs=Barometric Pressure Headaches p02"
+"Loaded_Programs=Barometric Pressure Headaches p03"
+"Loaded_Programs=Barometric Pressure Headaches p04"
+"Loaded_Programs=Barometric Pressure Headaches p05"
+"Loaded_Programs=Barometric Pressure Headaches p06"
+"Loaded_Programs=Barometric Pressure Headaches p07"
+"Loaded_Programs=Barometric Pressure Headaches p08"
+"Loaded_Programs=Barometric Pressure Headaches p09"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,M57.021,M128.095,M156.101,M163.063,M128.095,M128.058,M156.101,M99.068,M128.095,M114.043,M127.111,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M147.068,M115.027,M113.084,M113.084,M128.095,M128.095,M113.084,M71.037,M129.043,M87.032,M146.084,0=4,"
+"[/Preset]"

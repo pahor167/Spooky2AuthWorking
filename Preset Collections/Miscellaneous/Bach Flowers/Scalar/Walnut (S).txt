@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Walnut (S)"
+"Preset_Notes=Walnut / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Walnut - Protection from change and unwanted influences. Any changes in your life.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Walnut (S)"
+"Loaded_Frequencies=261.26,"
+"[/Preset]"

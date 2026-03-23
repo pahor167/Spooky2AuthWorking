@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Chronic Ulcerated Wounds (C)"
+"Preset_Notes=Chronic Ulcerated Wounds for Contact
+
+Chronic ulcerated wounds, often referred to as chronic ulcers, are persistent open sores on the skin that fail to heal through the normal ordered phases of wound repair within an expected timeframe (typically 4-12 weeks). Common types include diabetic foot ulcers, venous leg ulcers, and pressure ulcers, driven by underlying conditions such as diabetes, venous insufficiency, arterial disease, neuropathy, or prolonged pressure. Pathophysiology involves a dysregulated healing process characterized by prolonged inflammation with excessive pro-inflammatory cytokines and macrophages, persistent bacterial infection or biofilm formation, elevated protease activity (e.g., MMPs) degrading extracellular matrix, impaired angiogenesis due to reduced VEGF signaling, hypoxia from poor perfusion, oxidative stress, and diminished growth factor responses (e.g., PDGF, TGF-{beta}). Symptoms include chronic pain, excessive exudate, foul odor, surrounding tissue induration, and risk of deeper infection or amputation in severe cases.
+
+The proposed polypeptides comprehensively address key mechanistic axes in chronic ulcerated wound healing: multi-modal tissue protection and stabilization, promotion of angiogenesis, enhancement of cell migration and re-epithelialization, stimulation of ECM remodeling with antioxidant effects, and antimicrobial/anti-biofilm activity with immunomodulation. Real-world polypeptides include BPC-157 (gastric-derived pentadecapeptide with extensive preclinical evidence for accelerating healing, reducing inflammation, and protecting tissues in various wound models), Thymosin beta-4 (extensively studied in clinical trials for venous, pressure, and diabetic ulcers, promoting migration and anti-inflammatory effects via actin regulation), GHK (copper-binding tripeptide with literature support for collagen induction, antioxidant activity, and remodeling in skin repair), and Pexiganan (synthetic magainin analog in advanced clinical trials for infected diabetic foot ulcers, providing broad-spectrum antimicrobial action). Designed polypeptides include a VEGF-mimetic (derived from established QK helical motif in literature for VEGF receptor binding and angiogenesis promotion), a TB4-core extended (based on the active LKKTET motif of Thymosin beta-4 with N-acetylation and C-amidation for enhanced stability and proteolytic resistance), a GHK-extended (multi-motif repeat of GHK with N-acetylation and C-amidation to amplify copper chelation and remodeling signals), and an IDR-1018-like (derived from innate defense regulator peptides in wound infection literature for biofilm disruption, inflammation modulation, and healing promotion with C-amidation). These designs incorporate rational modifications for drug-likeness, including limited PTMs for stability and solubility, hydrophilic profiles, and positive charges for tissue penetration, ensuring feasibility for topical application while targeting persistent pathophysiological barriers in ulcerated wounds.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Chronic Ulcerated Wounds p01"
+"Loaded_Programs=Chronic Ulcerated Wounds p02"
+"Loaded_Programs=Chronic Ulcerated Wounds p03"
+"Loaded_Programs=Chronic Ulcerated Wounds p04"
+"Loaded_Programs=Chronic Ulcerated Wounds p05"
+"Loaded_Programs=Chronic Ulcerated Wounds p06"
+"Loaded_Programs=Chronic Ulcerated Wounds p07"
+"Loaded_Programs=Chronic Ulcerated Wounds p08"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M127.074,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M99.032=1,M137.059,M128.095,M57.021,M57.021,M57.021,M137.059,M128.095,M57.021,M57.021,M57.021,M137.059,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"[/Preset]"

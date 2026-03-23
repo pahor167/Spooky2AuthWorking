@@ -1,0 +1,18 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=LX Ropeworm - JW"
+"Preset_Notes=M&L Protocol, Extras. Spooky Laser.
+
+Update: September 2019.
+
+This program is already present in the 47th preset, Complex Parasites G - DB. However, these large parasites usually require additional treatments.
+
+PROGRAMS:
+Parasites Ropeworm XTRA
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Parasites Ropeworm (XTRA)"
+"Loaded_Frequencies=1359=360,"
+"[/Preset]"

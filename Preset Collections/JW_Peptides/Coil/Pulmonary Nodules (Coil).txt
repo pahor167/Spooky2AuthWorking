@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Pulmonary Nodules (Coil)"
+"Preset_Notes=Pulmonary Nodules for Coil
+
+Pulmonary nodules are small, rounded lung lesions often resulting from inflammation, infection, fibrosis, or early neoplastic changes, with risk of persistence or malignant transformation. Therapeutic axes include oxidative stress mitigation, TGF-{beta} signaling inhibition to limit fibrotic encapsulation, pro-inflammatory cytokine suppression, NLRP3 inflammasome inhibition to control sterile inflammation, and alveolar epithelial repair promotion. Assignments: Glutathione (real) for oxidative stress mitigation, Ac-SDKP (real) for TGF-{beta} signaling inhibition, {alpha}-MSH (real) for pro-inflammatory cytokine suppression, Engineered N-acetyl-KLALKLALKALKAALKLA-amide (designed) for NLRP3 inflammasome inhibition, BPC-157 (real) for alveolar epithelial repair promotion. Mechanisms: Glutathione scavenges ROS that drive chronic inflammation and DNA damage in nodule microenvironments; Ac-SDKP antagonizes TGF-{beta}-induced fibroblast activation and extracellular matrix deposition around nodules; {alpha}-MSH binds melanocortin receptors to inhibit NF-{kappa}B pathways and reduce pro-inflammatory cytokines; the engineered cationic amphipathic helical peptide penetrates and disrupts inflammasome complexes or activated cell membranes, blocking IL-1{beta} maturation; BPC-157 accelerates endothelial stabilization, modulates VEGF appropriately, organizes collagen deposition, and enhances epithelial regeneration to resolve lesions.
+
+"
+"Loaded_Programs=Pulmonary Nodules p01"
+"Loaded_Programs=Pulmonary Nodules p02"
+"Loaded_Programs=Pulmonary Nodules p03"
+"Loaded_Programs=Pulmonary Nodules p04"
+"Loaded_Programs=Pulmonary Nodules p05"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M170.106=1,M113.084,M71.037,M113.084,M128.095,M113.084,M71.037,M113.084,M128.095,M71.037,M113.084,M128.095,M71.037,M71.037,M113.084,M128.095,M113.084,M70.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"[/Preset]"

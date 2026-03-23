@@ -1,0 +1,58 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Fuchs’ Endothelial Corneal Dystrophy (FECD) (C)"
+"Preset_Notes=Fuchs’ Endothelial Corneal Dystrophy (FECD) for Contact
+
+Comprehensive peptide therapy targeting Fuchs' endothelial corneal dystrophy, a progressive degenerative disorder characterized by loss of corneal endothelial cells, formation of guttae (collagenous excrescences on Descemet membrane), corneal edema due to pump failure, and vision impairment. This protocol addresses: inhibition of endothelial-mesenchymal transition (EndMT) via TGF-{beta} pathway blockade, activation of Nrf2 antioxidant response to combat oxidative stress, enhancement of Na+/K+-ATPase pump function to reduce edema, stabilization of Descemet membrane ECM, promotion of endothelial cell survival and regeneration, and modulation of neuro-immune responses. Targets both early-stage (endothelial cell loss) and late-stage (stromal edema) disease progression.
+
+1. Anti-fibrotic and endothelial protection: Thymosin-Beta-4 - 43-amino acid actin-sequestering peptide; prevents endothelial-mesenchymal transition (EndMT) in FECD; inhibits TGF-{beta}1-induced fibrosis; promotes corneal endothelial cell survival and migration; reduces guttae formation
+2. Corneal tissue repair and angiogenesis: BPC-157 - Cytoprotective pentadecapeptide; accelerates corneal endothelial wound healing; modulates NO pathway; promotes angiogenesis for nutrient supply to compromised endothelium; reduces oxidative stress in endothelial cells
+3. Neuro-immune modulation and anti-inflammatory: VIP - Vasoactive intestinal peptide; protects corneal nerves and endothelial cells from inflammatory damage; reduces IL-6 and TNF-{alpha} in anterior chamber; maintains endothelial barrier function; anti-apoptotic via cAMP/PKA pathway
+4. Endothelial regeneration and antioxidant: GHK-Cu - Copper-binding tripeptide; upregulates tissue repair genes in corneal endothelium; stimulates collagen synthesis in Descemet membrane; promotes endothelial cell proliferation; antioxidant via ROS scavenging
+5. Inflammation suppression in anterior chamber: Ac-KPV-NH2 - Alpha-MSH-derived anti-inflammatory tripeptide; inhibits NF-kB activation in corneal endothelium; reduces cytokine-induced endothelial cell loss; prevents progression of FECD via anti-inflammatory action
+6. Neurogenic inflammation and wound healing: Substance-P - Eleven-amino-acid neuropeptide; promotes corneal epithelial and endothelial wound healing via NK1R; enhances cell migration; supports endothelial pump function recovery; modulates neuro-immune responses in FECD
+7. TGF-{beta} pathway inhibition and EndMT prevention: TGFbetaBlock-1 - Designed cationic undecapeptide with CPP motif; blocks TGF-{beta} receptor signaling; prevents endothelial-mesenchymal transition (EndMT) characteristic of FECD; maintains endothelial phenotype; reduces guttae and fibrosis
+8. Nrf2 antioxidant pathway activation: Nrf2Activ-1 - Designed nonapeptide with disulfide-bonded cysteines; activates Nrf2/ARE pathway in corneal endothelium; upregulates antioxidant enzymes (SOD, catalase, GPx); protects against oxidative stress-induced endothelial cell loss in FECD
+9. Endothelial pump function enhancement: PumpSupport-1 - Designed nonapeptide stabilizing Na+/K+-ATPase in corneal endothelium; enhances fluid pump function to reduce corneal edema; maintains endothelial cell ion homeostasis; compensates for pump failure in advanced FECD
+10. Descemet membrane ECM stabilization: DescemetStab-1 - Designed octapeptide mimicking elastin-like repeats in Descemet membrane; stabilizes collagen VIII and XVIII networks; reduces abnormal ECM deposition (guttae formation); maintains membrane elasticity and transparency
+11. Direct ROS scavenging in endothelium: EndoAntiOx-1 - Designed heptapeptide with redox-active cysteines; mimics glutathione peroxidase activity; directly scavenges ROS in corneal endothelium; protects against oxidative DNA damage and apoptosis in FECD progression
+12. Multi-pathway endothelial protection: FuchsProtect-1 - Designed heptapeptide targeting multiple FECD pathways; inhibits apoptosis via caspase-3 blockade; reduces oxidative stress; maintains endothelial tight junctions; comprehensive protection for compromised endothelium
+13. Descemet membrane collagen support: CollagenXVIII-1 - Designed octapeptide from collagen XVIII/endostatin sequence; supports Descemet membrane integrity; inhibits abnormal angiogenesis; stabilizes endothelial basement membrane in FECD; reduces guttae formation
+14. ECM remodeling and MMP modulation: MMPmod-1 - Designed octapeptide modulating MMP activity in Descemet membrane; prevents excessive ECM degradation; balances matrix turnover in FECD; reduces abnormal collagen deposition; maintains optical clarity
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p01"
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p02"
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p03"
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p04"
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p05"
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p06"
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p07"
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p08"
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p09"
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p10"
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p11"
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p12"
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p13"
+"Loaded_Programs=Fuchs’ Endothelial Corneal Dystrophy (FECD) p14"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M87.032,M101.048,M113.084,M87.032,M102.001,M115.027,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M137.059,M113.084,M156.101,M99.068,M71.037,M87.032,M129.043,M57.021,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M57.021,M99.068,M57.021,M163.063,M99.068,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M103.009,M57.021,M99.068,M103.009,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M101.048,M186.079,M128.058,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M71.037=1,M101.048,M115.027,M113.084,M113.084,M113.084,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,0=4,"
+"[/Preset]"

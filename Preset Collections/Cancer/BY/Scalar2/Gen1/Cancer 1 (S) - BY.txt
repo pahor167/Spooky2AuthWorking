@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"PresetName=1. Spooky Scalar Cancer"
+"Loaded_Frequencies=1604000=300,1607450=300,11430000=300,11780000=300,1529520=300,1566760=300,1604000=300,1607450=300,11430000=300,11780000=300,1529520=300,1566760=300,0=180,"
+"Loaded_Programs=1. Spooky Scalar Cancer"
+"Preset_Notes=Cancer Protocol, Scalar Plus method, Generator 1, for Scalar. 
+
+This preset contains Scalar frequency sets for Spooky Scalar. Run this preset concurrently with the presets 'Scalar2/Gen2 (R) - BY'. See '\Cancer\BY\Cancer Presets.pdf' for a schedule to run these presets.
+
+The entire schedule for this protocol is in the notes of 'Scalar2/Gen2 (S) - BY'. Here is the schedule for this preset:
+  Generator 1, Scalar2/Gen1/Cancer 1 (S) - BY
+    Day 19
+    Day 23
+
+This preset has the following programs:
+
+Spooky Scalar Cancer: Bacillus X Filter Cancer Carcinoma - Rife, Cancer BX - CUST, Cancer BY Virus - CUST
+
+Support 1: Endorphin Release - XTRA, Cancer Pain - CAFL, Endorphin Release - XTRA, Cancer Pain - CAFL, Endorphin Release - XTRA, Streptococcus Pneumoniae - HC, Endorphin Release - XTRA
+
+Here is a table to find the beginning of each day in this preset:
+1: Spooky Scalar Cancer
+2: Support 1
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"PresetName=2. Support 1"
+"Loaded_Frequencies=38=95,3000=95,95=95,2127=95,2008=95,727=95,690=95,666=95,38=95,3000=95,95=95,2127=95,2008=95,727=95,690=95,666=95,38=95,366850-370200=1895,38=95,0=95,"
+"Loaded_Programs=2. Support 1"
+"Repeat_Sequence=1"
+"[/Preset]"

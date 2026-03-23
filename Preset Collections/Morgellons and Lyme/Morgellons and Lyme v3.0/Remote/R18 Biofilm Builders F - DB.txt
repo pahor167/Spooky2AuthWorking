@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R18 Biofilm Builders F - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Bacteroides Fragilis XTRA
+Fusobacterium Infections XTRA
+Fusobacterium-Periodontitis XTRA
+Mycoplasma Salivarium XTRA
+Mycoplasma Salivarium 1 XTRA
+Colloidal_Silver Octal XTRA
+Nisin XTRA
+Calcifications XTRA
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square_Hbomb=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Bacteroides Fragilis (XTRA)"
+"Loaded_Programs=Fusobacterium Infections (XTRA)"
+"Loaded_Programs=Fusobacterium-Periodontitis (XTRA)"
+"Loaded_Programs=Mycoplasma Salivarium (XTRA)"
+"Loaded_Programs=Mycoplasma Salivarium 1 (XTRA)"
+"Loaded_Programs=Colloidal_Silver Octal (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=556776.6677=1800,"
+"Loaded_Frequencies=190=180,180=180,750=180,9000=180,11090=180,22500=180,47500=180,115700=180,377910=180,470120=180,"
+"Loaded_Frequencies=655557.5776=600,"
+"Loaded_Frequencies=832.6=180,"
+"Loaded_Frequencies=32384=1080,35712=1080,53760=1080,57984=1080,48704=1080,53248=1080,"
+"Loaded_Frequencies=4653391.397248=300,2326695.698624=300,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

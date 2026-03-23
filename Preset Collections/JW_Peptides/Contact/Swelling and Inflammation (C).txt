@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Swelling and Inflammation (C)"
+"Preset_Notes=Swelling and Inflammation for Contact
+
+Swelling and inflammation involve vascular leakage, cytokine release, immune activation, and edema formation in response to injury or pathology. The requested peptides target key mechanisms for resolution, including endothelial protection, immune modulation, tissue repair, and direct anti-edema effects, providing targeted relief with minimal side effects.
+
+1. Tissue stabilization: BPC-157 - Gastric pentadecapeptide protects endothelium, modulates serotonin/NO pathways, and rapidly reduces inflammatory swelling across tissues.
+2. Actin regulation: TB-500 - Thymosin {beta}4 fragment (active motif) promotes cell migration, angiogenesis, and anti-fibrotic effects while suppressing inflammation.
+3. Melanocortin signaling: KPV - Alpha-MSH-derived tripeptide potently inhibits NF-{kappa}B, TNF-{alpha}, and IL-1 to resolve swelling and pain.
+4. Copper-mediated regeneration: GHK-Cu - Glycyl-histidyl-lysine copper complex downregulates acute inflammatory genes and supports extracellular matrix remodeling.
+5. Plasma leakage control: Mystixin-7 - Synthetic anisoylated peptide inhibits hyaluronan deposition, interstitial pressure rise, and vascular extravasation in edema.
+6. Resolution promotion: Annexin A1 Ac2-26 - N-terminal peptide activates FPR2 for macrophage efferocytosis and pro-resolving lipid mediator shift.
+7. Innate repair activation: ARA-290 - EPO-derived peptide targets IRR to reduce neurogenic inflammation and tissue swelling.
+8. Catecholamine inhibition: Catestatin - Chromogranin A fragment dampens sympathetic-driven inflammatory amplification.
+9. Vasoprotective signaling: Adrenomedullin - Multifunctional peptide suppresses cytokines and maintains vascular integrity during inflammation.
+10. Synergistic hybrid: GHK-KPV fusion (designed) - Chimeric hexapeptide merges GHK and KPV motifs for combined regenerative and melanocortin anti-inflammatory action against swelling.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Swelling and Inflammation p01"
+"Loaded_Programs=Swelling and Inflammation p02"
+"Loaded_Programs=Swelling and Inflammation p03"
+"Loaded_Programs=Swelling and Inflammation p04"
+"Loaded_Programs=Swelling and Inflammation p05"
+"Loaded_Programs=Swelling and Inflammation p06"
+"Loaded_Programs=Swelling and Inflammation p07"
+"Loaded_Programs=Swelling and Inflammation p08"
+"Loaded_Programs=Swelling and Inflammation p09"
+"Loaded_Programs=Swelling and Inflammation p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M290.138=1,M128.095,M113.084,M113.084,M153.025,M113.084,M112.100,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,M128.095,M97.053,M99.068,0=4,"
+"[/Preset]"

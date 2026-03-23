@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Gotu Kola (Nootropics) (R) - JRG"
+"Loaded_Programs=Gotu Kola (CUST)"
+"Loaded_Frequencies=M974.50864,"
+"Preset_Notes=Gotu Kola (Centella asiatica) is one of the most important herbs in ancient Ayurveda medicine. Ayurveda uses it to reduce anxiety, reduce fever and treat skin conditions. It improves circulation and promotes longevity.|Unfortunately, our brains also shrink as we age. Brain growth factor seems to diminish. But clinical trials show gotu kola extract can help spur growth in brain cells.|Users report gotu kola is at least as effective - perhaps even more so - in reducing anxiety and relieving stress than Ashwagandha and Phenibut.|As an extract dosage is 10 drops or 10-20 ml per day. As a dried herb make a tea of the dried leaf and use 3-times daily. As a powdered herb take 400-600 mg, three times per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

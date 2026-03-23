@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Urea Cycle Disorders 1 (C)"
+"Preset_Notes=Urea Cycle Disorders 1 for Contact
+
+Urea Cycle Disorder, specifically for CPS1, ARG2, ASS1 mutations
+
+Urea Cycle Disorders (UCDs) are inherited metabolic disorders caused by mutations in genes encoding enzymes of the urea cycle, leading to accumulation of ammonia and neurological damage. This proposal targets mutations in CPS1, ASS1, and ARG2 with the following therapeutic axes:
+1. Autophagy induction: TAT-Beclin-1 - Induces autophagy to enhance urea cycle efficiency and reduce ammonia in UCDs
+2. Pharmacological chaperone for CPS1: CPS1-Chap1 - Binds to mutant CPS1 to stabilize and enhance its activity
+3. Pharmacological chaperone for ASS1: ASS1-Chap1 - Binds to mutant ASS1 to stabilize and enhance its activity
+4. Pharmacological chaperone for ARG2: ARG2-Chap1 - Binds to mutant ARG2 to stabilize and enhance its activity
+5. Neuroprotection: UCD-Neuro1 - Provides neuroprotection against hyperammonemia toxicity
+6. Ammonia scavenging: UCD-Scav1 - Enhances alternative ammonia detoxification pathways
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Urea Cycle Disorders 1 p01"
+"Loaded_Programs=Urea Cycle Disorders 1 p02"
+"Loaded_Programs=Urea Cycle Disorders 1 p03"
+"Loaded_Programs=Urea Cycle Disorders 1 p04"
+"Loaded_Programs=Urea Cycle Disorders 1 p05"
+"Loaded_Programs=Urea Cycle Disorders 1 p06"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M57.021,M128.095,M97.053,M147.068,M156.101,M128.058,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,M97.053,M156.101,M57.021,M115.027,M147.068,M113.084,M137.059,M101.048,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M113.084,M128.058,M114.043,M128.095,M128.058,M137.059,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,M128.095,M97.053,M99.068,M87.032,M147.068,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,M71.037,M156.101,M57.021,M97.053,M115.027,M128.095,M101.048,0=4,"
+"[/Preset]"

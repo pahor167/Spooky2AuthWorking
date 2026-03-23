@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Autism Spectrum Disorder (ASD) (Coil)"
+"Preset_Notes=Autism Spectrum Disorder (ASD) for Coil
+
+Autism Spectrum Disorder (ASD) is a neurodevelopmental condition marked by persistent deficits in social communication and interaction, restricted/repetitive behaviors, and often sensory sensitivities, with contributing factors including dysregulated neuropeptide signaling (oxytocin/vasopressin pathways), neuroinflammation, oxidative stress, mitochondrial dysfunction, and gut-brain axis disturbances. The proposed polypeptides prioritize real-world neuropeptides with direct evidence from ASD clinical trials and models for core social symptoms, complemented by supportive axes addressing neuroprotection, repair, cytoprotection, and inflammation.
+
+1. Oxytocin neuropeptide pathway activation: Oxytocin (intranasal) improves social reciprocity, emotion recognition, and reciprocal behaviors in multiple ASD trials.
+2. Arginine-vasopressin pathway modulation: Vasopressin enhances social cognition, memory, and reduces repetitive/anxiety behaviors in preclinical and emerging clinical ASD studies.
+3. Stable gastric pentadecapeptide cytoprotection: BPC-157 supports gut-brain axis integrity and counters multi-system disturbances relevant to ASD comorbidities.
+4. Thymosin {beta}4 fragment neural repair: TB-500 promotes actin dynamics, cell migration, and anti-inflammatory effects applicable to neurodevelopmental repair.
+5. Copper-binding tripeptide brain regeneration: GHK-Cu provides antioxidant protection and remodeling support for neural resilience.
+6. Mitochondrial-derived anti-apoptotic protection: Humanin mitigates oxidative and apoptotic stress in neurodegenerative contexts relevant to ASD.
+7. Engineered multimeric {alpha}-MSH-derived anti-inflammation: TriKPV-9 (Ac-KPVKPVKPV-NH2) amplifies cytokine suppression for enhanced neuroinflammation control.
+
+"
+"Loaded_Programs=Autism Spectrum Disorder (ASD) p01"
+"Loaded_Programs=Autism Spectrum Disorder (ASD) p02"
+"Loaded_Programs=Autism Spectrum Disorder (ASD) p03"
+"Loaded_Programs=Autism Spectrum Disorder (ASD) p04"
+"Loaded_Programs=Autism Spectrum Disorder (ASD) p05"
+"Loaded_Programs=Autism Spectrum Disorder (ASD) p06"
+"Loaded_Programs=Autism Spectrum Disorder (ASD) p07"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M170.106=1,M97.053,M99.068,M128.095,M97.053,M99.068,M128.095,M97.053,M98.084,0=4,"
+"[/Preset]"

@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=White Chestnut (R)"
+"Preset_Notes=White Chestnut / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+White Chestnut - Unwanted thoughts and mental arguments, mind going around and around.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=White Chestnut (R)"
+"Loaded_Frequencies=247.09,"
+"[/Preset]"

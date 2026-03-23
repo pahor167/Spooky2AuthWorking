@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Ocular Migraine (Retinal Migraine) (L)"
+"Preset_Notes=Ocular Migraine (Retinal Migraine) for Laser
+
+The proposed peptides target key therapeutic axes for ocular migraine, including neuroprotection against retinal ischemia and neuronal damage, anti-inflammatory effects to reduce retinal inflammation, anti-apoptotic mechanisms to prevent cell death in retinal tissues, modulation of vascular tone to address vasospasm, and antioxidant properties to mitigate oxidative stress. These axes address the visual disturbances, potential retinal vasospasm, and associated migraine pathophysiology. The first 10 peptides are real-world examples studied for retinal protection and related conditions; the last 2 are designed peptides to supplement coverage of additional axes like ion channel modulation and enhanced cyclic stability for sustained neuroprotection.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Ocular Migraine (Retinal Migraine) p01"
+"Loaded_Programs=Ocular Migraine (Retinal Migraine) p02"
+"Loaded_Programs=Ocular Migraine (Retinal Migraine) p03"
+"Loaded_Programs=Ocular Migraine (Retinal Migraine) p04"
+"Loaded_Programs=Ocular Migraine (Retinal Migraine) p05"
+"Loaded_Programs=Ocular Migraine (Retinal Migraine) p06"
+"Loaded_Programs=Ocular Migraine (Retinal Migraine) p07"
+"Loaded_Programs=Ocular Migraine (Retinal Migraine) p08"
+"Loaded_Programs=Ocular Migraine (Retinal Migraine) p09"
+"Loaded_Programs=Ocular Migraine (Retinal Migraine) p10"
+"Loaded_Programs=Ocular Migraine (Retinal Migraine) p11"
+"Loaded_Programs=Ocular Migraine (Retinal Migraine) p12"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.04,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.04,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,M57.021,M128.095,M156.101,M163.063,M128.095,M128.058,M156.101,M99.068,M128.095,M114.043,M127.111,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.04,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M156.101,M97.053,M128.058,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M128.095,M156.101,M128.058,M97.053,M87.032,0=4,"
+"[/Preset]"

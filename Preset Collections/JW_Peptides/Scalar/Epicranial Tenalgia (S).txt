@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Epicranial Tenalgia (S)"
+"Preset_Notes=Epicranial Tenalgia for Scalar
+
+Epicranial tenalgia refers to pain or tenderness involving the epicranial aponeurosis and associated musculature, a myofascial feature commonly linked to tension-type headache pathophysiology. The selected real-world polypeptides address five evidence-based therapeutic axes derived from preclinical research, investigational peptide applications, and related literature.
+
+1. Myofascial and aponeurosis tissue repair: BPC-157 accelerates healing of tendon-like structures and reduces local inflammation contributing to mechanical pain.
+2. Cellular migration and actin-mediated regeneration: TB-500 enhances motility and repair processes to alleviate tissue tension and promote recovery.
+3. Copper-dependent antioxidant and remodeling activity: GHK-Cu supports extracellular matrix regeneration and anti-inflammatory signaling.
+4. Potent melanocortin receptor-mediated anti-inflammation: KPV diminishes inflammatory cascades and nociceptive signaling.
+5. Pineal bioregulation and circadian normalization: Epitalon restores epigenetic and melatonin-related pathways to mitigate stress-exacerbated pain.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Epicranial Tenalgia p01"
+"Loaded_Programs=Epicranial Tenalgia p02"
+"Loaded_Programs=Epicranial Tenalgia p03"
+"Loaded_Programs=Epicranial Tenalgia p04"
+"Loaded_Programs=Epicranial Tenalgia p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M57.021,0=4,"
+"[/Preset]"

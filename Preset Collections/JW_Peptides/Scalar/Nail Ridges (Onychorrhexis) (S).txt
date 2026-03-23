@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Nail Ridges (Onychorrhexis) (S)"
+"Preset_Notes=Nail Ridges (Onychorrhexis) for Scalar
+
+Nail ridges, medically known as onychorrhexis, refer to the development of longitudinal grooves, fissures, or splits along the length of the nail plate, often accompanied by increased fragility and brittleness. This condition primarily affects the fingernails but can also involve toenails. Causes are multifactorial, including aging, which leads to reduced nail matrix activity and decreased moisture retention; nutritional deficiencies such as low levels of biotin, iron, zinc, or essential amino acids that impair keratin production; systemic diseases like hypothyroidism, anemia, psoriasis, lichen planus, or eczema that disrupt nail formation through inflammation or metabolic alterations; repetitive mechanical trauma from occupational activities or manicures; exposure to harsh chemicals, detergents, or excessive water that dehydrates the nail plate; and drug-induced effects from chemotherapy or targeted therapies like ibrutinib. Symptoms manifest as visible vertical ridges starting from the cuticle and extending to the free edge, nail splitting (onychoschizia), peeling, chipping, or breaking easily, and sometimes pain or sensitivity if fissures deepen. Pathophysiology involves abnormalities in the nail matrix, where keratinocyte proliferation and differentiation occur, leading to irregular keratin filament arrangement, weakened intercellular adhesions, and reduced lipid content for moisture barrier, resulting in a thinner, more susceptible nail plate prone to environmental damage.
+
+The proposed polypeptides target key therapeutic axes to mitigate onychorrhexis. Real-world growth factors such as EGF, IGF-1, PDGF-B, TGF-beta1, and VEGF-A promote regeneration by stimulating nail matrix keratinocyte proliferation, enhancing extracellular matrix remodeling, and improving vascularization for nutrient delivery, as evidenced in PRP therapies for brittle nails. Antimicrobial peptides LL-37 and hBD-2 defend against fungal or bacterial infections that may worsen ridges by bolstering innate immune responses and disrupting pathogen membranes. Designed polypeptides include cysteine-rich sequences to facilitate disulfide bonding for keratin strengthening, hydrophilic residues for improved hydration and barrier function, proline-rich motifs for structural rigidity, cationic segments for anti-inflammatory effects by modulating cytokine release, and methionine-cysteine alternates to supply essential amino acids for keratin synthesis.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Nail Ridges (Onychorrhexis) p01"
+"Loaded_Programs=Nail Ridges (Onychorrhexis) p02"
+"Loaded_Programs=Nail Ridges (Onychorrhexis) p03"
+"Loaded_Programs=Nail Ridges (Onychorrhexis) p04"
+"Loaded_Programs=Nail Ridges (Onychorrhexis) p05"
+"Loaded_Programs=Nail Ridges (Onychorrhexis) p06"
+"Loaded_Programs=Nail Ridges (Onychorrhexis) p07"
+"Loaded_Programs=Nail Ridges (Onychorrhexis) p08"
+"Loaded_Programs=Nail Ridges (Onychorrhexis) p09"
+"Loaded_Programs=Nail Ridges (Onychorrhexis) p10"
+"Loaded_Programs=Nail Ridges (Onychorrhexis) p11"
+"Loaded_Programs=Nail Ridges (Onychorrhexis) p12"
+"Loaded_Frequencies=M114.043=1,M87.032,M115.027,M87.032,M102.001,M129.043,M102.001,M97.053,M113.084,M87.032,M137.059,M115.027,M57.021,M163.063,M102.001,M113.084,M137.059,M115.027,M57.021,M99.068,M102.001,M114.043,M163.063,M71.037,M129.043,M71.037,M113.084,M115.027,M128.095,M163.063,M71.037,M102.001,M114.043,M99.068,M99.068,M163.063,M71.037,M57.021,M129.043,M156.101,M102.001,M128.058,M163.063,M156.101,M115.027,M113.084,M128.095,M186.079,M186.079,M129.043,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M129.043,M101.048,M113.084,M102.001,M57.021,M71.037,M129.043,M113.084,M99.068,M115.027,M71.037,M113.084,M128.058,M147.068,M99.068,M102.001,M57.021,M115.027,M156.101,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M97.053,M101.048,M57.021,M163.063,M57.021,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,M57.021,M71.037,M99.068,M115.027,M129.043,M102.001,M102.001,M147.068,M156.101,M87.032,M102.001,M115.027,M113.084,M156.101,M156.101,M113.084,M129.043,M114.043,M163.063,M102.001,M71.037,M97.053,M113.084,M128.095,M97.053,M71.037,M128.095,M87.032,M71.037,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M57.021,M87.032,M113.084,M101.048,M71.037,M129.043,M97.053,M71.037,M114.043,M71.037,M102.001,M128.095,M101.048,M156.101,M101.048,M129.043,M99.068,M147.068,M129.043,M71.037,M87.032,M156.101,M156.101,M113.084,M115.027,M156.101,M101.048,M114.043,M71.037,M114.043,M147.068,M113.084,M99.068,M186.079,M97.053,M97.053,M102.001,M99.068,M129.043,M99.068,M128.058,M156.101,M102.001,M87.021,M57.021,M102.001,M102.001,M114.043,M114.043,M156.101,M114.043,M99.068,M128.058,M102.001,M156.101,M97.053,M101.048,M128.058,M99.068,M128.058,M113.084,M156.101,M97.053,M99.068,M128.058,M71.037,M113.084,M129.043,M137.059,M113.084,M71.037,M102.001,M128.095,M102.001,M129.043,M101.048,M99.068,M71.037,M71.037,M71.037,M156.101,M97.053,M99.068,M101.048,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M115.027,M101.048,M114.043,M163.063,M102.001,M147.068,M87.032,M87.032,M101.048,M129.043,M128.095,M114.043,M102.001,M102.001,M99.068,M156.101,M128.058,M113.084,M163.063,M71.037,M115.027,M147.068,M156.101,M128.095,M115.027,M113.084,M57.021,M186.079,M128.095,M186.079,M71.037,M137.059,M129.043,M97.053,M128.095,M57.021,M163.063,M137.059,M71.037,M114.043,M147.068,M102.001,M113.084,M57.021,M97.053,M102.001,M97.053,M163.063,M71.037,M186.079,M87.032,M113.084,M115.027,M101.048,M128.058,M163.063,M87.032,M128.095,M99.068,M113.084,M71.037,M163.063,M114.043,M128.058,M137.043,M114.043,M97.053,M57.021,M87.032,M71.037,M71.037,M97.053,M102.001,M102.001,M99.068,M97.053,M128.058,M71.037,M113.084,M129.043,M97.053,M113.084,M97.053,M71.037,0=4,"
+"Loaded_Frequencies=M71.037=1,M97.053,M114.043,M71.037,M129.043,M57.021,M57.021,M57.021,M128.058,M114.043,M137.059,M137.059,M129.043,M99.068,M99.068,M128.095,M147.068,M114.043,M115.027,M99.068,M163.063,M128.058,M156.101,M87.032,M163.063,M102.001,M137.059,M97.053,M71.037,M129.043,M101.048,M113.084,M99.068,M115.027,M71.037,M147.068,M128.058,M129.043,M163.063,M71.037,M147.068,M128.095,M97.053,M87.032,M102.001,M99.068,M97.053,M113.084,M114.043,M156.101,M102.001,M57.021,M57.021,M102.001,M102.001,M114.043,M115.027,M129.043,M57.021,M113.084,M129.043,M102.001,M99.068,M97.053,M101.048,M129.043,M129.043,M87.032,M114.043,M71.037,M101.048,M114.043,M128.058,M71.037,M128.058,M137.059,M71.037,M156.101,M128.058,M129.043,M128.095,M102.001,M115.027,M128.095,M97.053,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M71.037,M102.001,M137.059,M97.053,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M71.037,M57.021,M101.048,M102.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M102.001,M102.001,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M102.001,M163.063,M87.032,M57.021,M102.001,M163.063,M87.021,M57.021,M102.001,M163.063,M87.032,M57.021,M102.001,M163.063,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.095,M87.032,M101.048,M87.032,M128.095,M87.032,M101.048,M87.032,M128.095,M87.032,M101.048,M87.032,M128.095,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M57.021,M97.053,M97.053,M97.053,M57.021,M97.053,M97.053,M97.053,M57.021,M97.053,M97.053,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M115.027,M113.084,M156.101,M128.095,M129.043,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M102.001,M131.040,M102.001,M131.040,M102.001,M131.040,M102.001,0=4,"
+"[/Preset]"

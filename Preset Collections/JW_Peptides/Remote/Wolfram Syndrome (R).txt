@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Wolfram Syndrome (R)"
+"Preset_Notes=Wolfram Syndrome for Remote
+
+Wolfram Syndrome (WS) is a rare, progressive, autosomal recessive genetic disorder most commonly caused by pathogenic variants in the WFS1 gene encoding wolframin, an endoplasmic reticulum (ER) transmembrane protein critical for maintaining ER homeostasis, calcium regulation, and cellular stress responses; less frequently, variants in CISD2 cause a similar phenotype. The classic tetrad (DIDMOAD) comprises diabetes insipidus, non-autoimmune insulin-dependent diabetes mellitus, optic atrophy, and sensorineural deafness, with additional features including neurological degeneration (ataxia, neuropathy, seizures, psychiatric manifestations), urological dysfunction, and endocrine abnormalities. Pathophysiology involves chronic ER stress leading to unfolded protein response activation, calpain hyperactivation, mitochondrial dysfunction, and selective apoptosis in high-demand tissues such as pancreatic beta-cells, retinal ganglion cells, and neurons, resulting in irreversible organ damage.
+
+No curative or disease-modifying therapies are approved; management is symptomatic and multidisciplinary. Investigational approaches target ER stress pathways, with promising preclinical evidence for glucagon-like peptide-1 receptor agonists in mitigating beta-cell loss and diabetes progression. The proposed polypeptides comprehensively address four primary therapeutic axes: (1) pancreatic beta-cell dysfunction and diabetes mellitus, (2) ER stress and calcium dysregulation, (3) optic atrophy, (4) sensorineural deafness and broader neurodegeneration. Exenatide (real-world; supported by preclinical studies in WS mouse models showing preserved beta-cell function, reduced ER stress, and improved glycemia) is included for axis 1. The four designed polypeptides are short (6 residues), composed of standard amino acids for straightforward synthesis, high stability, and minimal immunogenicity, with diverse sequences ensuring low similarity; their conceptual mechanisms involve charge- or motif-based modulation of relevant pathways. Feasibility is strong given exenatide's established clinical safety profile (though investigational here) and the ease of optimizing designed peptides via cyclization or modifications for enhanced bioavailability; all require preclinical/clinical validation.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Wolfram Syndrome p01"
+"Loaded_Programs=Wolfram Syndrome p02"
+"Loaded_Programs=Wolfram Syndrome p03"
+"Loaded_Programs=Wolfram Syndrome p04"
+"Loaded_Programs=Wolfram Syndrome p05"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M57.021,M57.021,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M115.027,M115.027,M129.043,M129.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M101.048,M156.101,M97.053,M128.058,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M128.095,M114.043,M57.021,M57.021,0=4,"
+"[/Preset]"

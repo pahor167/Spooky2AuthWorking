@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Grey Hair (S)"
+"Preset_Notes=Grey Hair for Scalar
+
+Grey hair results from diminished melanin production in hair follicles due to melanocyte senescence, hydrogen peroxide accumulation, melanocyte stem cell dysfunction, oxidative damage, and age-related hormonal/metabolic changes. Proposed polypeptides target key pathophysiological axes from current literature on hair repigmentation and anti-greying mechanisms:
+
+1. Melanocortin activation: Palmitoyl Tetrapeptide-20 - Biomimetic {alpha}-MSH agonist that stimulates melanogenesis via MC1R and enhances catalase activity to protect melanocytes.
+2. Mitochondrial regulation: MOTS-c - Mitochondrial-derived peptide that optimizes energy metabolism and mitigates oxidative stress in aging follicles.
+3. Antioxidant defense: Carnosine - Potent dipeptide scavenger of reactive oxygen species, particularly effective against H2O2 buildup linked to greying.
+4. Neuroprotective anti-stress: Semax - Boosts BDNF expression and adaptive responses, countering stress-induced greying pathways.
+5. Growth hormone axis: Ipamorelin - Selective GH secretagogue that elevates IGF-1 to support melanocyte proliferation and function.
+6. Enhanced melanogenesis: Ac-HFRWG-NH2 - Designed stabilized core analog of {alpha}-MSH for potent, targeted stimulation of hair follicle pigmentation.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Grey Hair p01"
+"Loaded_Programs=Grey Hair p02"
+"Loaded_Programs=Grey Hair p03"
+"Loaded_Programs=Grey Hair p04"
+"Loaded_Programs=Grey Hair p05"
+"Loaded_Programs=Grey Hair p06"
+"Loaded_Frequencies=M375.289=1,M147.068,M156.101,M185.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M85.053=1,M137.059,M205.074,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M179.070=1,M147.068,M156.101,M186.079,M56.037,0=4,"
+"[/Preset]"

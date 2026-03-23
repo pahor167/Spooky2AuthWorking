@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Epilepsy (Coil)"
+"Preset_Notes=Epilepsy for Coil
+
+Epilepsy is a chronic neurological disorder characterized by recurrent unprovoked seizures due to abnormal hypersynchronous neuronal activity, often involving excitotoxicity, neuroinflammation, oxidative stress, and progressive neurodegeneration.
+
+1. Galanin receptor agonism: Galanin - Activates GAL1-3 receptors to potently suppress neuronal hyperexcitability and seizure initiation/propagation.
+2. NPY receptor agonism: Neuropeptide Y - Acts primarily on presynaptic Y2 receptors to inhibit glutamate release and reduce seizure susceptibility.
+3. Somatostatin receptor agonism: Somatostatin-14 - Engages sst receptors to depress cortical and hippocampal excitability, limiting seizure spread.
+4. Cortistatin receptor modulation: Cortistatin - Binds somatostatin/cortistatin receptors to exert inhibitory effects on neuronal firing in epileptic circuits.
+5. Neurotrophic enhancement: Semax - Elevates BDNF and neurotrophic factors to protect neurons from seizure-induced damage and support resilience.
+6. Immunomodulatory stabilization: Selank - Balances cytokine profiles and reduces neuroinflammation contributing to chronic epileptogenesis.
+7. Stress and sleep regulation: DSIP - Promotes delta-wave sleep and exerts direct anticonvulsant effects in seizure models.
+8. Optimized inhibitory signaling: GalMod-9 - Engineered truncated galanin analog with enhanced stability for targeted suppression of hyperexcitable networks.
+
+"
+"Loaded_Programs=Epilepsy p01"
+"Loaded_Programs=Epilepsy p02"
+"Loaded_Programs=Epilepsy p03"
+"Loaded_Programs=Epilepsy p04"
+"Loaded_Programs=Epilepsy p05"
+"Loaded_Programs=Epilepsy p06"
+"Loaded_Programs=Epilepsy p07"
+"Loaded_Programs=Epilepsy p08"
+"Loaded_Frequencies=M57.021=1,M186.079,M101.048,M113.084,M114.043,M87.032,M71.037,M57.021,M163.063,M113.084,M113.084,M57.021,M97.053,M137.059,M71.037,M113.084,M115.027,M114.043,M137.059,M156.101,M87.032,M147.068,M137.059,M115.027,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.043,M97.053,M57.021,M129.043,M115.027,M71.037,M97.053,M71.037,M129.043,M115.027,M131.040,M71.037,M156.101,M163.063,M163.063,M87.032,M71.037,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M113.084,M101.048,M156.101,M128.058,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M101.048,M113.084,M114.043,M87.032,M71.037,M57.021,M162.079,0=4,"
+"[/Preset]"

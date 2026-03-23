@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Nemaline Myopathy (C)"
+"Preset_Notes=Nemaline Myopathy for Contact
+
+Nemaline Myopathy (NM) is a genetically heterogeneous congenital myopathy characterized by muscle weakness, hypotonia, and the presence of nemaline rods-thread-like structures composed of Z-disk proteins-in muscle fibers, leading to impaired sarcomere function and contractility. It arises primarily from mutations in genes encoding thin filament proteins, such as NEB (nebulin), ACTA1 (alpha-actin), TPM3 (tropomyosin 3), and others like TNNT1, CFL2, and LMOD3, disrupting actin filament assembly, stability, and regulation. Environmental factors may exacerbate symptoms, but the core pathophysiology involves defective thin filament length control, altered cross-bridge cycling kinetics, increased protein degradation, and mitochondrial dysfunction, resulting in early-onset weakness (often neonatal or infantile), respiratory insufficiency, bulbar dysfunction, delayed motor milestones, and in severe cases, early mortality. Relapsing or adult-onset forms, like sporadic late-onset nemaline myopathy (SLONM), may involve immune-mediated mechanisms with monoclonal gammopathy. Progression varies by subtype, with cumulative disability from recurrent respiratory infections, scoliosis, and joint contractures, distinguishing it from other congenital myopathies by its rod pathology and genetic diversity.
+
+The proposed designed polypeptides target key pathophysiological axes in NM. For the thin filament stabilization axis, the first designed polypeptide enhances nebulin-actin interactions, promoting filament assembly and length regulation to improve sarcomere integrity and force generation. For the myosin cross-bridge cycling axis, the second designed polypeptide activates myosin ATPase, augmenting contractile kinetics and muscle strength. For the protein degradation inhibition axis, the third designed polypeptide blocks ubiquitin ligase activity, reducing myofibrillar breakdown and preserving muscle mass. For the mitochondrial function support axis, the fourth designed polypeptide boosts oxidative capacity, mitigating energy deficits and oxidative stress. These approaches are feasible with short peptide designs for enhanced bioavailability and CNS penetration, considering low immunogenicity and stability for potential oral or injectable delivery.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Nemaline Myopathy p01"
+"Loaded_Programs=Nemaline Myopathy p02"
+"Loaded_Programs=Nemaline Myopathy p03"
+"Loaded_Programs=Nemaline Myopathy p04"
+"Loaded_Frequencies=M57.021=1,M128.095,M113.084,M128.058,M156.101,M97.053,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,M128.095,M97.053,M113.084,M128.058,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M147.068,M99.068,M131.040,M114.043,M101.048,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M156.101,M87.032,M128.058,M97.053,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Protein C Deficiency (P)"
+"Preset_Notes=Protein C Deficiency for Plasma
+
+Protein C deficiency is a rare thrombophilic disorder characterized by impaired anticoagulation due to reduced protein C levels or function, leading to increased risk of venous thromboembolism, purpura fulminans, and other thrombotic events. The proposed polypeptides target key therapeutic axes based on literature, including APC-mimetic signaling for cytoprotection and anti-inflammatory effects, as well as anticoagulation to manage thrombosis.
+1. Biased agonism of PAR1: PAR1-TR47 mimics APC's noncanonical PAR1 cleavage, promoting anti-inflammatory, anti-apoptotic, and barrier-protective signaling.
+2. Biased agonism of PAR3: PAR3-P3R mimics APC's PAR3 cleavage, enhancing cytoprotective and anti-inflammatory effects.
+3. Bivalent PAR1/PAR3 agonism: G10-bivalent links PAR1 and PAR3 motifs to synergistically amplify APC-like protective signaling.
+4. Thrombin inhibition: ETIP-18, engineered hirudin-inspired peptide, directly inhibits thrombin to provide anticoagulant effects and prevent clots.
+5. Anti-platelet aggregation: ERGD-14, engineered RGD-motif peptide, inhibits platelet activation to reduce thrombotic risk.
+6. NLRP3 inflammasome suppression: Covered by PAR-derived peptides, reducing inflammation associated with thrombotic complications.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Protein C Deficiency p01"
+"Loaded_Programs=Protein C Deficiency p02"
+"Loaded_Programs=Protein C Deficiency p03"
+"Loaded_Programs=Protein C Deficiency p04"
+"Loaded_Programs=Protein C Deficiency p05"
+"Loaded_Frequencies=M114.043=1,M97.053,M114.043,M115.027,M128.095,M163.063,M129.043,M97.053,M147.068,M186.079,M129.043,M115.027,M129.043,M129.043,M128.095,M114.043,M129.043,M87.032,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M97.053,M97.053,M114.043,M87.032,M147.068,M129.043,M129.043,M147.068,M97.053,M147.068,M87.032,M71.037,M113.084,M129.043,M57.021,M186.079,M101.048,M57.021,M71.037,M101.048,M113.084,M101.048,0=4,"
+"Loaded_Frequencies=M114.043=1,M97.053,M114.043,M115.027,M128.095,M163.063,M129.043,M97.053,M147.068,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M147.068,M97.053,M147.068,M87.032,M71.037,M113.084,M129.043,M57.021,M186.079,M101.048,M57.021,M71.037,M101.048,M113.084,M101.048,0=4,"
+"Loaded_Frequencies=M157.038=1,M147.068,M97.053,M156.101,M97.053,M57.021,M57.021,M57.021,M115.027,M147.068,M129.043,M129.043,M113.084,M97.053,M129.043,M129.043,M163.063,M112.100,0=4,"
+"Loaded_Frequencies=M113.048=1,M156.101,M57.021,M115.027,M186.079,M114.043,M163.063,M163.063,M156.101,M57.021,M115.027,M186.079,M97.053,M128.059,0=4,"
+"[/Preset]"

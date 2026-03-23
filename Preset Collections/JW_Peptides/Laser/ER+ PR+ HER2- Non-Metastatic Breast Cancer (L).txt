@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=ER+ PR+ HER2- Non-Metastatic Breast Cancer (L)"
+"Preset_Notes=ER+ PR+ HER2- Non-Metastatic Breast Cancer for Laser
+
+ER+ PR+ HER2- non-metastatic breast cancer is a hormone-dependent malignancy driven by estrogen and progesterone signaling, treated primarily with endocrine therapy, but peptides offer targeted approaches to inhibit hormone receptors, induce apoptosis, resolve inflammation, and prevent angiogenesis.
+
+1. GnRH receptor downregulation: Buserelin - GnRH superagonist inducing pituitary desensitization and hypoestrogenism to regress lesions.
+2. Direct ER{alpha} inhibition: ERpep-1 - Binds ER{alpha} receptor to inhibit estrogen signaling.
+3. Antiestrotrophic activity: AFPep - Prevents estrogen-stimulated growth of breast cancer cells.
+4. GRPR targeting: Bombesin - Targets GRPR overexpressed in ER+ BC for potential therapeutic delivery.
+5. Thrombospondin-1 mimicry: ABT-510 - Inhibits angiogenesis.
+6. Inflammation resolution promotion: Annexin_A1_Ac2-26 - Activates formyl peptide receptors to resolve inflammation.
+7. TGF-{beta} signaling inhibition: P144 - Prevents fibrosis and epithelial-mesenchymal transition.
+8. Cardiolipin stabilization: Elamipretide - Reduces reactive oxygen species and restores cellular bioenergetics.
+9. Integrin {alpha}v{beta}3 antagonism: RGD - Blocks cell-matrix adhesion and neovascularization.
+10. Selective immune modulation: IDR-1018 - Suppresses pro-inflammatory cytokines while enhancing protective innate responses.
+11. Neoantigen vaccine: ESR1-Y535S - Elicits immune response against mutant ESR1.
+12. Engineered pro-apoptotic activity: EndoApop-1 - Synthetic amphipathic peptide optimized for mitochondrial membrane permeabilization and apoptosis induction.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=ER+ PR+ HER2- Non-Metastatic Breast Cancer p01"
+"Loaded_Programs=ER+ PR+ HER2- Non-Metastatic Breast Cancer p02"
+"Loaded_Programs=ER+ PR+ HER2- Non-Metastatic Breast Cancer p03"
+"Loaded_Programs=ER+ PR+ HER2- Non-Metastatic Breast Cancer p04"
+"Loaded_Programs=ER+ PR+ HER2- Non-Metastatic Breast Cancer p05"
+"Loaded_Programs=ER+ PR+ HER2- Non-Metastatic Breast Cancer p06"
+"Loaded_Programs=ER+ PR+ HER2- Non-Metastatic Breast Cancer p07"
+"Loaded_Programs=ER+ PR+ HER2- Non-Metastatic Breast Cancer p08"
+"Loaded_Programs=ER+ PR+ HER2- Non-Metastatic Breast Cancer p09"
+"Loaded_Programs=ER+ PR+ HER2- Non-Metastatic Breast Cancer p10"
+"Loaded_Programs=ER+ PR+ HER2- Non-Metastatic Breast Cancer p11"
+"Loaded_Programs=ER+ PR+ HER2- Non-Metastatic Breast Cancer p12"
+"Loaded_Frequencies=M111.032=1,M137.059,M186.079,M87.032,M163.063,M115.027,M113.084,M156.101,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M113.084,M128.095,M137.059,M156.101,M113.084,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.095,M101.048,M113.048,M99.068,M114.043,M113.048,M57.021,M114.043,0=4,"
+"Loaded_Frequencies=M111.032=1,M128.095,M156.101,M113.084,M57.021,M114.043,M128.095,M186.079,M71.037,M99.068,M57.021,M156.101,M113.084,M149.051,0=4,"
+"Loaded_Frequencies=M129.043=1,M99.068,M113.084,M101.048,M156.101,M114.043,M128.058,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M87.032,M113.084,M115.027,M71.037,M87.032,M113.084,M113.084,M186.079,M71.037,M131.040,M131.040,M128.058,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M87.032,M115.027,M113.084,M113.084,M113.084,M129.043,M131.040,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"[/Preset]"

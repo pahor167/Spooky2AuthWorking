@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Silicosis (S)"
+"Preset_Notes=Silicosis for Scalar
+
+Silicosis is an incurable, progressive interstitial lung disease primarily caused by long-term occupational exposure to respirable crystalline silica dust, such as quartz, through inhalation in industries including mining, quarrying, construction, sandblasting, and artificial stone fabrication. The disease manifests in acute, accelerated, or chronic forms, with chronic simple silicosis being the most common, developing after 10-15 years of low-level exposure, while acute silicosis can occur within months of high exposure. Symptoms typically include persistent dry cough, dyspnea (shortness of breath), chest pain, fatigue, fever, weight loss, and in severe cases, cyanosis, cor pulmonale, and respiratory failure. Complications encompass increased susceptibility to tuberculosis (silicotuberculosis), lung cancer, autoimmune disorders like rheumatoid arthritis or systemic sclerosis, chronic obstructive pulmonary disease (COPD), and kidney disease. Pathophysiologically, inhaled silica particles (0.5-5 {mu}m) deposit in the alveoli, where they are phagocytosed by alveolar macrophages, leading to lysosomal rupture, generation of reactive oxygen species (ROS), activation of the NLRP3 inflammasome, and release of pro-inflammatory cytokines such as IL-1{beta}, IL-18, TNF-{alpha}, IL-6, and TGF-{beta}. This initiates a cascade of persistent inflammation, oxidative stress, endoplasmic reticulum (ER) stress, apoptosis of alveolar epithelial cells, epithelial-mesenchymal transition (EMT), fibroblast-to-myofibroblast transition (FMT), excessive extracellular matrix (ECM) deposition including collagen and fibronectin, and ultimately irreversible pulmonary fibrosis with nodule formation and honeycombing. Additional mechanisms involve disrupted ATP metabolism in macrophages, signaling pathways like EGFR/JNK, IL33/ERK/AP-1, HMGB1/RAGE/{beta}-catenin, and PPAR{gamma}/LXR{alpha}, as well as the emergence of osteoclast-like cells contributing to tissue remodeling. Genetic factors, particle characteristics (e.g., freshness of fractured silica), and co-exposures (e.g., smoking) modulate disease severity. There is no curative treatment; management focuses on prevention, symptom relief, and lung transplantation in end-stage cases.
+
+The proposed polypeptides comprehensively target the multifaceted pathophysiology of silicosis to mitigate inflammation, fibrosis, and associated cellular dysfunctions. Real-world polypeptides prioritize established mechanisms from literature: GHK attenuates oxidative stress by targeting peroxiredoxin 6, reduces cytokine release, and inhibits fibrosis progression; M10 suppresses TGF-{beta}1 signaling, preventing fibroblast activation and ECM deposition; CD36(93-110) interferes with scavenger receptor pathways, reducing fibrotic nodule formation and collagen accumulation; Ac-SDKP inhibits apoptosis in type II alveolar epithelial cells via Caspase-12 and PERK/eIF2{alpha}/CHOP pathways, while also blocking myofibroblast differentiation; Ac2-26, an Annexin A1 mimetic, promotes resolution of inflammation by modulating leukocyte infiltration and cytokine production, alongside anti-fibrotic effects; Caveolin-1 scaffolding domain peptide abrogates dysregulated autophagy in lung epithelial cells, mitigating epithelial injury and subsequent fibrosis. Designed polypeptides (D1-D6) supplement coverage for underrepresented axes with conceptual designs based on known therapeutic targets: D1 targets NLRP3 inflammasome assembly to curb IL-1{beta}/IL-18 release and macrophage-driven inflammation; D2 disrupts {beta}-catenin signaling to inhibit EMT and preserve epithelial integrity; D3 modulates PERK/CHOP pathways to alleviate ER stress-induced apoptosis; D4 restores ATP metabolism in macrophages by targeting P2X7 receptors, reducing chronic activation; D5 enhances antioxidant capacity through ROS-scavenging motifs, complementing oxidative stress mitigation; D6 inhibits pro-inflammatory cytokine signaling via interference with IL33/ERK/AP-1 axes. Scientific rationale stems from silicosis's inflammatory-fibrotic continuum, where polypeptides offer targeted intervention with low immunogenicity and potential for localized delivery (e.g., inhalation). Feasibility is supported by peptide stability, biodegradability, and precedent in pulmonary therapies; however, clinical translation requires optimization for bioavailability and specificity. Physicochemical considerations include hydrophilicity for solubility, short lengths (3-25 residues) for rapid diffusion, and absence of aggregation-prone motifs to ensure efficacy in fibrotic lung environments.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Silicosis p01"
+"Loaded_Programs=Silicosis p02"
+"Loaded_Programs=Silicosis p03"
+"Loaded_Programs=Silicosis p04"
+"Loaded_Programs=Silicosis p05"
+"Loaded_Programs=Silicosis p06"
+"Loaded_Programs=Silicosis p07"
+"Loaded_Programs=Silicosis p08"
+"Loaded_Programs=Silicosis p09"
+"Loaded_Programs=Silicosis p10"
+"Loaded_Programs=Silicosis p11"
+"Loaded_Programs=Silicosis p12"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M97.053,M71.037,M87.032,M147.068,M186.079,M129.043,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M99.068,M156.101,M147.068,M113.084,M71.037,M128.095,M129.043,M114.043,M99.068,M101.048,M128.058,M115.027,M71.037,M129.043,M115.027,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M115.027=1,M57.021,M113.084,M186.079,M128.095,M71.037,M87.032,M147.068,M101.048,M101.048,M147.068,M101.048,M99.068,M101.048,M128.095,M163.063,M186.079,M147.068,M163.063,M155.117,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.058,M97.053,M113.084,M115.027,M99.068,M147.068,M87.032,M186.079,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M113.084,M114.043,M101.048,M115.027,M57.021,M137.059,M163.063,M129.043,M131.040,M97.053,0=4,"
+"Loaded_Frequencies=M147.068=1,M87.032,M156.101,M114.043,M115.027,M128.058,M113.084,M128.095,M113.084,M131.040,M129.043,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M101.048,M137.059,M97.053,M128.058,M131.040,M156.101,M113.084,M71.037,M128.095,M99.068,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M137.059,M113.084,M99.068,M129.043,M71.037,M113.084,M163.063,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M186.079=1,M129.043,M128.095,M113.084,M156.101,M71.037,M147.068,M137.059,M87.032,M99.068,M131.040,0=4,"
+"[/Preset]"

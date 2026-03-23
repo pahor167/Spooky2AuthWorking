@@ -1,0 +1,75 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Urinary Tract Infection 3 (R) - JE"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=100000"
+"BFB_Decimal_Places=2"
+"BFB_Max_Hits_To_Find=4"
+"BFB_Start_Delay=20"
+"BFB_Samples_Per_Step=6"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=Urinary Tract Infection Generator 3 by Jason Elliott
+
+This remote program can be used in conjunction with \Miscellaneous\Contact\Urinary Tract Infection (C) - JE. In addtion, 3 other generators run concurrently with this preset found in \Miscellaneous\Remote\ -- Urinary Tract Infection 1 (R) - JE, Urinary Tract Infection 2 (R) - JE, Urinary Tract Infection 4 (R) - JE.
+
+This preset contains the following:
+Bacterium Coli 1 (XTRA)
+Bacterium Coli (BIO)
+Bacterium Coli (CAFL)
+B Coli Filterable Virus (Rife)
+B Coli Rod Form (Rife)
+B Coli Rod (CUST)
+B Coli Rod (XTRA)
+B Coli Virus (CUST)
+B Coli Virus (XTRA)
+Bacillus Infections (CAFL)
+Bacillus Infections (XTRA)
+Coli Rod (XTRA)
+Coli Virus (XTRA)
+Kidney Infection 1 (XTRA)
+Kidney Infection 2 (XTRA)
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator. DNA Entanglement transfers the fre"
+"Settings_Frequency_Wobble_Percentage=.02"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Manual_Start=False"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"Out1_Inverted_Sawtooth=True"
+"Out1_User_Defined_1=False"
+"BFB_Grade_Program=0"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=Bacterium Coli 1 (XTRA)"
+"Loaded_Programs=Bacterium Coli (BIO)"
+"Loaded_Programs=Bacterium Coli (CAFL)"
+"Loaded_Programs=B Coli Filterable Virus (Rife)"
+"Loaded_Programs=B Coli Rod Form (Rife)"
+"Loaded_Programs=B Coli Rod (CUST)"
+"Loaded_Programs=B Coli Rod (XTRA)"
+"Loaded_Programs=B Coli Virus (CUST)"
+"Loaded_Programs=B Coli Virus (XTRA)"
+"Loaded_Programs=Bacillus Infections (CAFL)"
+"Loaded_Programs=Bacillus Infections (XTRA)"
+"Loaded_Programs=Coli Rod (XTRA)"
+"Loaded_Programs=Coli Virus (XTRA)"
+"Loaded_Programs=Kidney Infection 1 (XTRA)"
+"Loaded_Programs=Kidney Infection 2 (XTRA)"
+"Loaded_Frequencies=358=360,539=360,642=360,"
+"Loaded_Frequencies=642=180,"
+"Loaded_Frequencies=642=360,358=360,539=360,"
+"Loaded_Frequencies=770000=180,"
+"Loaded_Frequencies=417000=180,"
+"Loaded_Frequencies=3332080=180,"
+"Loaded_Frequencies=727=180,787=180,800=180,803=180,21875=180,800=180,8020=180,13031.25=180,21343.75=180,943=180,19869.63=180,12453.12=180,"
+"Loaded_Frequencies=3076140=180,"
+"Loaded_Frequencies=27=180,1552=180,11939.05=180,12031.25=180,16759.77=180,17220=180,21686.38=180,"
+"Loaded_Frequencies=787=300,880=300,802=300,727=300,1552=300,800=300,"
+"Loaded_Frequencies=50=180,370=180,830=180,2500=180,3000=180,73300=180,355080=180,359000=180,363000=180,393000=180,"
+"Loaded_Frequencies=8020=180,"
+"Loaded_Frequencies=17220=180,"
+"Loaded_Frequencies=1.1=180,1.19=180,6.29=180,9.18=180,9.2=180,10=180,20=180,40=180,73=180,148=180,250=180,440=180,444=180,465=180,594=180,660=180,690=180,727.5=180,776=180,787=180,802=180,880=180,1500=180,1550=180,1600=180,1865=180,2008=180,10000=180,"
+"Loaded_Frequencies=72=180,95=180,125=180,146=180,333=180,424=180,434=180,522=180,523=180,555=180,600=180,625=180,650=180,768=180,786=180,834=180,2045=180,"
+"[/Preset]"

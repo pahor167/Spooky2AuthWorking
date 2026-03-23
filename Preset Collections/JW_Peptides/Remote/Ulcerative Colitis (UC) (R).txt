@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Ulcerative Colitis (UC) (R)"
+"Preset_Notes=Ulcerative Colitis (UC) for Remote
+
+The peptides target multiple therapeutic axes for ulcerative colitis, including anti-inflammatory, immunomodulation, mucosal healing, antimicrobial activity, barrier enhancement, and symptom control. Real-world peptides are prioritized, with designed peptides (Peptides 11-12) as supplements for comprehensive coverage. Scientific rationales include validated modes of action from literature, feasibility confirmed by clinical use or conceptual design adhering to physicochemical properties like stability and bioavailability.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Ulcerative Colitis (UC) p01"
+"Loaded_Programs=Ulcerative Colitis (UC) p02"
+"Loaded_Programs=Ulcerative Colitis (UC) p03"
+"Loaded_Programs=Ulcerative Colitis (UC) p04"
+"Loaded_Programs=Ulcerative Colitis (UC) p05"
+"Loaded_Programs=Ulcerative Colitis (UC) p06"
+"Loaded_Programs=Ulcerative Colitis (UC) p07"
+"Loaded_Programs=Ulcerative Colitis (UC) p08"
+"Loaded_Programs=Ulcerative Colitis (UC) p09"
+"Loaded_Programs=Ulcerative Colitis (UC) p10"
+"Loaded_Programs=Ulcerative Colitis (UC) p11"
+"Loaded_Programs=Ulcerative Colitis (UC) p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M128.095,M113.084,M101.048,M115.027,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M71.037,0=4,"
+"Loaded_Frequencies=M97.053=1,M99.068,M113.084,M57.021,M97.053,M99.068,M156.101,M57.021,M97.053,M147.068,M97.053,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M102.001,M129.043,M163.063,M102.001,M102.001,M114.043,M97.053,M71.037,M102.001,M101.048,M57.021,M102.001,M163.063,0=4,"
+"Loaded_Frequencies=M128.095=1,M115.027,M128.058,M87.032,M129.043,M101.048,M137.059,M114.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M115.027,M128.058,M87.032,M102.001,0=4,"
+"[/Preset]"

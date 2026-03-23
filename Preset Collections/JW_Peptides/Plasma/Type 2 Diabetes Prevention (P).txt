@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Type 2 Diabetes Prevention (P)"
+"Preset_Notes=Type 2 Diabetes Prevention for Plasma
+
+Type 2 diabetes prevention targets delaying or preventing progression from prediabetes/obesity through enhanced insulin sensitivity, beta-cell preservation, weight loss, and metabolic homeostasis. The proposed polypeptides address evidence-based axes from clinical trials (e.g., 94% risk reduction with tirzepatide, 73% with semaglutide) and preclinical models showing mitochondrial peptides prevent insulin resistance.
+
+1. Dual GLP-1/GIP receptor agonism: Tirzepatide achieves superior risk reduction (94% in prediabetic obese adults) via amplified incretin effects, weight loss, improved insulin secretion/sensitivity, and glucagon suppression.
+2. GLP-1 receptor agonism: Semaglutide reduces progression to T2D (73% in high-risk patients) through delayed gastric emptying, appetite suppression, beta-cell support, and enhanced glucose-dependent insulin release.
+3. Mitochondrial-derived MOTS-c signaling: MOTS-c prevents diet-induced obesity and insulin resistance in models by regulating AMPK, glucose uptake, and fat oxidation.
+4. Humanin-mediated mitochondrial peptide action: Humanin enhances peripheral/central insulin sensitivity, protects pancreatic beta cells, and delays diabetes onset in rodent models.
+5. Engineered adiponectin-mimetic optimization: ADP355-derived short peptide activates AdipoR1/2 to boost AMPK signaling, improve muscle/adipose insulin sensitivity, and complement incretin/mitochondrial pathways.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Type 2 Diabetes Prevention p01"
+"Loaded_Programs=Type 2 Diabetes Prevention p02"
+"Loaded_Programs=Type 2 Diabetes Prevention p03"
+"Loaded_Programs=Type 2 Diabetes Prevention p04"
+"Loaded_Programs=Type 2 Diabetes Prevention p05"
+"Loaded_Frequencies=M163.063=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M113.084,M85.053,M113.084,M115.027,M128.095,M113.084,M128.058,M85.053,M71.037,M147.068,M99.068,M128.058,M186.079,M113.084,M113.084,M57.021,M97.053,M97.053,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M156.054=1,M113.084,M97.053,M99.068,M113.084,M163.063,M87.032,M147.068,M71.037,M87.032,M113.084,M96.069,0=4,"
+"[/Preset]"

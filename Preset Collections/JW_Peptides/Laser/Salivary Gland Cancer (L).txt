@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Salivary Gland Cancer (L)"
+"Preset_Notes=Salivary Gland Cancer for Laser
+
+Salivary gland cancer comprises rare, heterogeneous malignancies of the salivary glands, with subtypes like adenoid cystic carcinoma, mucoepidermoid carcinoma, and salivary duct carcinoma often driven by specific molecular alterations including WT1 overexpression, HER2 amplification, TROP-2 expression, PD-L1-mediated immune evasion, androgen receptor signaling, and altered membrane properties amenable to disruption.
+1. WT1-targeted immunotherapy: WT1-126-134 - HLA-A*02-restricted epitope that stimulates cytotoxic T-lymphocyte responses against WT1-overexpressing salivary gland tumor cells
+2. HER2 signaling inhibition: AHNP - Trastuzumab-mimetic cyclic peptide that binds HER2 extracellular domain, inhibiting dimerization and downstream oncogenic signaling in HER2-amplified subtypes
+3. TROP-2 targeting: Trop2-CST - Selective high-affinity binder to TROP-2 for potential use in targeted delivery or direct modulation in TROP-2-high tumors
+4. PD-1/PD-L1 blockade: MP-PD-L1 - PD-L1-binding peptide that disrupts checkpoint interaction, reactivating T-cell-mediated antitumor immunity
+5. Androgen receptor targeting: AR-SNT - Cell-surface binding peptide targeting AR-expressing cells in androgen-driven subtypes such as salivary duct carcinoma
+6. Membrane-disrupting cytotoxicity: MP1 - Anticancer antimicrobial peptide that selectively forms pores in negatively charged cancer cell membranes
+7. Mitochondrial apoptosis induction: Designed-mitoKLA - Engineered amphipathic cationic peptide (amidated) optimized for preferential disruption of cancer cell mitochondrial membranes, triggering apoptosis
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Salivary Gland Cancer p01"
+"Loaded_Programs=Salivary Gland Cancer p02"
+"Loaded_Programs=Salivary Gland Cancer p03"
+"Loaded_Programs=Salivary Gland Cancer p04"
+"Loaded_Programs=Salivary Gland Cancer p05"
+"Loaded_Programs=Salivary Gland Cancer p06"
+"Loaded_Programs=Salivary Gland Cancer p07"
+"Loaded_Frequencies=M156.101=1,M131.040,M147.068,M97.053,M114.043,M71.037,M97.053,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M102.001,M115.027,M57.021,M147.068,M163.063,M71.037,M102.001,M163.063,M131.040,M115.027,M99.068,0=4,"
+"Loaded_Frequencies=M103.009=1,M87.032,M101.048,M113.084,M114.043,M99.068,M129.043,M87.032,M103.009,0=4,"
+"Loaded_Frequencies=M131.040=1,M97.053,M113.084,M147.068,M113.084,M115.027,M137.059,M113.084,M113.084,M114.043,M128.095,M147.068,M186.079,M113.084,M113.084,M137.059,M163.063,M71.037,0=4,"
+"Loaded_Frequencies=M87.032=1,M114.043,M101.048,M156.101,M99.068,M71.037,M97.053,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M101.048,M113.084,M113.084,M57.021,M113.084,M113.084,M128.095,M87.032,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M113.084,M128.095,M113.084,M71.037,M113.084,M128.095,M71.037,M113.084,M128.095,M71.037,M71.037,M113.084,M128.095,M113.084,M70.053,0=4,"
+"[/Preset]"

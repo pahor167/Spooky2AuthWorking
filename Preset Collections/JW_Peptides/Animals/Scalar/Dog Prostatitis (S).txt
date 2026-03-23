@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Dog Prostatitis (S)"
+"Preset_Notes=Dog Prostatitis for Scalar
+
+Prostatitis in dogs is an inflammatory condition of the prostate gland, predominantly affecting intact male dogs, often secondary to benign prostatic hyperplasia (BPH), bacterial ascension from the urethra, or hematogenous spread. Primary causes include bacterial infections (e.g., E. coli, Proteus, Staphylococcus), hormonal influences with elevated DHT promoting glandular enlargement and stasis, and immune dysregulation leading to chronic inflammation. Symptoms include dysuria, hematuria, stranguria, tenesmus, purulent urethral discharge, fever, lethargy, and abdominal pain in acute cases; chronic forms may present with recurrent urinary tract infections, infertility, or asymptomatic. Pathophysiology involves bacterial invasion breaching the blood-prostate barrier in acute prostatitis, causing suppurative inflammation, edema, and potential abscesses; chronic prostatitis features persistent low-grade infection, fibrosis, and epithelial metaplasia, exacerbated by androgen-driven hyperplasia obstructing ducts and fostering bacterial persistence. Estrogens and prolactin contribute to stromal remodeling and immune modulation, heightening susceptibility.
+
+The proposed polypeptides address prostatitis through multiple therapeutic axes. In the GnRH-mediated hormonal suppression axis, Deslorelin functions as a GnRH agonist, causing initial stimulation followed by downregulation of pituitary gonadotropins, reducing testosterone and DHT levels to shrink the prostate, improve fluid drainage, and enhance antimicrobial access for resolving infection. The designed polypeptide mimics GnRH for similar suppression of androgen drive, aiding in reducing inflammation and preventing recurrence. In the androgen signaling inhibition axis, GV1001 binds the androgen receptor, inhibiting proliferation and epithelial-mesenchymal transition, thereby alleviating hyperplasia-associated prostatitis. The designed polypeptide targets androgen pathways to block inflammatory and proliferative signals. For the prolactin signaling inhibition axis, the designed polypeptide antagonizes the prolactin receptor, interrupting JAK/STAT signaling to mitigate stromal growth and inflammatory cytokine release in prostatitis. In the estrogen signaling modulation axis, the designed polypeptide modulates estrogen receptors to counteract ER-{alpha} proliferative effects while promoting ER-{beta} anti-inflammatory actions, addressing hormonal imbalances that worsen prostatic inflammation.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Dog Prostatitis p01"
+"Loaded_Programs=Dog Prostatitis p02"
+"Loaded_Programs=Dog Prostatitis p03"
+"Loaded_Programs=Dog Prostatitis p04"
+"Loaded_Programs=Dog Prostatitis p05"
+"Loaded_Programs=Dog Prostatitis p06"
+"Loaded_Frequencies=M111.032=1,M137.059,M186.079,M87.032,M163.063,M186.079,M113.084,M156.101,M124.100,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M156.101,M97.053,M71.037,M113.084,M113.084,M101.048,M87.032,M156.101,M113.084,M156.101,M147.068,M113.084,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M186.079,M87.032,M163.063,M113.084,M156.101,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M156.101,M97.053,M71.037,M113.084,M113.084,M101.048,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M156.101,M147.068,M87.032,M101.048,M113.084,M113.084,M113.084,M147.068,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M115.027,M113.084,M156.101,M97.053,0=4,"
+"[/Preset]"

@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Mustard (C)"
+"Preset_Notes=Mustard / Spooky Contact
+
+Estimated Time: Run this preset for 3:00 minutes.
+Mustard - Deep gloom for not reason.
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Mustard (C)"
+"Loaded_Frequencies=254.78F4096C0,"
+"[/Preset]"

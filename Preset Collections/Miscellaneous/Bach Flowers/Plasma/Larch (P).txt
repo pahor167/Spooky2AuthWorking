@@ -1,0 +1,15 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Larch (P)"
+"Preset_Notes=Larch / Spooky Plasma
+
+Estimated Time: Run this preset for 3:00 minutes.
+Larch - Lack of confidence.
+
+Connect Out 1 to Input. Connect Out 2 to Modulation.
+"
+"Loaded_Programs=Larch (P)"
+"Loaded_Frequencies=336.52,"
+"[/Preset]"

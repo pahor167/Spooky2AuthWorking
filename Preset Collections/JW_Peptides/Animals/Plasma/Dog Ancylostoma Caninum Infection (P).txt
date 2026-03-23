@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Dog Ancylostoma Caninum Infection (P)"
+"Preset_Notes=Dog Ancylostoma Caninum Infection for Plasma
+
+Ancylostoma caninum is a parasitic hookworm primarily infecting dogs, causing intestinal blood loss, anemia, protein malnutrition, inflammation, and mucosal damage; it has zoonotic potential leading to cutaneous larva migrans in humans. The proposed polypeptides target key axes from antimicrobial peptide research on helminths, gut injury repair models, and inflammation modulation to disrupt parasite survival, heal damage, and resolve inflammation.
+
+1. Human cathelicidin LL-37 multifunctional antiparasitic defense: LL-37 exhibits membrane-disrupting activity against nematodes and modulates immune responses in parasitic infections.
+2. Stable gastric pentadecapeptide BPC-157 intestinal mucosal restoration: BPC-157 accelerates healing of hookworm-induced lesions and maintains gut integrity.
+3. {alpha}-MSH-derived tripeptide KPV inflammatory cytokine suppression: KPV mitigates excessive inflammation associated with parasite invasion.
+4. Engineered LL-37 C-terminal fragment for optimized helminth membrane disruption: Ac-KRIVQRIKDFLRNLV-NH2 enhances cationic charge and stability on the active core motif for superior parasite targeting.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Dog Ancylostoma Caninum Infection p01"
+"Loaded_Programs=Dog Ancylostoma Caninum Infection p02"
+"Loaded_Programs=Dog Ancylostoma Caninum Infection p03"
+"Loaded_Programs=Dog Ancylostoma Caninum Infection p04"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.059,M156.101,M113.084,M128.095,M97.053,M156.101,M113.084,M99.068,M101.048,M129.043,M87.032,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M170.106=1,M156.101,M113.084,M99.068,M128.059,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M98.084,0=4,"
+"[/Preset]"

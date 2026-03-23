@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Vitamin B6 (Pyridoxine) (Nootropics) (R) - JRG"
+"Loaded_Programs=Vitamin B6 (Pyridoxine) (CUST)"
+"Loaded_Frequencies=M169.07389,"
+"Preset_Notes=Vitamin B6 (Pyridoxine) as a nootropic helps your body make serotonin, norepinephrine and melatonin.|Vitamin B6 helps control homocysteine in your blood. Homocysteine is the amino acid associated with heart disease. Your body also requires Vitamin B6 to absorb Vitamin B12 and to make red blood cells and cells for your immune system.|Symptoms of low Vitamin B6 are associated with irritability, depression, nervousness, difficulty concentrating and memory loss.|Dietary sources of Vitamin B6 include poultry, tuna, salmon, shrimp, dairy products, lentils, beans, spinach, carrots, bananas, brown rice, and sunflower seeds.|Recommended nootropic dosage of Vitamin B6 is up to 100 mg per day. Doses exceeding 200 mg can cause neurological disorders and loss of feeling in your legs.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

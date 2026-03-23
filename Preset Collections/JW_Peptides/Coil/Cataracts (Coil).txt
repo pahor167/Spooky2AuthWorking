@@ -1,0 +1,45 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Cataracts (Coil)"
+"Preset_Notes=Cataracts for Coil
+
+Cataracts (lens protein aggregation, oxidative damage, crystallin misfolding)
+
+Cataracts involve the progressive opacification of the eye lens due to protein aggregation, oxidative damage, and post-translational modifications of crystallin proteins. {alpha}-, {beta}-, and {gamma}-crystallins constitute 90% of lens proteins; their misfolding, aggregation, and insolubilization scatter light and impair vision. Key mechanisms include: (1) loss of {alpha}-crystallin chaperone function with aging, (2) oxidative damage leading to disulfide crosslinks and methionine oxidation, (3) glycation forming advanced glycation end-products, (4) transition metal catalysis generating ROS, (5) proteolytic generation of pro-aggregatory peptides like {alpha}A66-80, (6) UV-induced lens epithelial cell apoptosis, and (7) hereditary mutations destabilizing {gamma}-crystallins. Therapeutic intervention requires stabilization of native crystallin structure, prevention of protein-protein aggregation, maintenance of redox balance, and protection of lens epithelial cell viability.
+
+1. Chaperone function: Mini-{alpha}A (MAC) - Mimics {alpha}A-crystallin chaperone site (residues 70-88), binds exposed hydrophobic regions on denatured {gamma}-crystallins preventing aggregation
+2. Anti-apoptotic protection: Mini-{alpha}B - Mimics {alpha}B-crystallin chaperone site (residues 73-92), inhibits procaspase-3 maturation and cytochrome c release from mitochondria
+3. Metal ion chelation: CopperChel-1 - Cysteine-containing metal-binding motif chelates Cu^2+ preventing redox cycling and ROS generation in lens
+4. Anti-glycation protection: GlycaShield-1 - Highly cationic peptide competes for glycation sites on crystallins, protecting lysine residues from advanced glycation end-product formation
+5. Thiol protection: ThioRedox-1 - Mimics glutaredoxin active site to catalyze reduction of protein-glutathione mixed disulfides maintaining crystallin thiols in reduced state
+6. Apoptosis inhibition: ApoptoBlock-1 - {alpha}B-crystallin-derived sequence binds procaspase-3 preventing its maturation to active caspase-3 in lens epithelial cells
+7. Amyloid inhibition: AmyloBlock-2 - Hydrophilic peptide shields pro-aggregatory {alpha}A66-80 peptide preventing seed formation and fibril growth in lens nucleus
+8. {gamma}-Crystallin stabilization: GammaStab-1 - Binds NC pocket and NC tail regions of {gamma}D-crystallin stabilizing native structure against thermal and oxidative denaturation
+9. Lens epithelial protection: EpiProtect-1 - Small heat shock protein mimetic protecting lens epithelial cells from UV-induced oxidative stress and metabolic damage
+10. Hydrophobic shielding: HydroShield-1 - Alternating hydrophobic/aromatic and basic residues trap exposed hydrophobic patches on unfolded crystallins preventing aggregation
+11. Antioxidant: AntiOx-2 - Cysteine and tryptophan residues scavenge ROS, lipid peroxides and reactive aldehydes protecting lens lipids and proteins
+
+"
+"Loaded_Programs=Cataracts p01"
+"Loaded_Programs=Cataracts p02"
+"Loaded_Programs=Cataracts p03"
+"Loaded_Programs=Cataracts p04"
+"Loaded_Programs=Cataracts p05"
+"Loaded_Programs=Cataracts p06"
+"Loaded_Programs=Cataracts p07"
+"Loaded_Programs=Cataracts p08"
+"Loaded_Programs=Cataracts p09"
+"Loaded_Programs=Cataracts p10"
+"Loaded_Programs=Cataracts p11"
+"Loaded_Frequencies=M128.095=1,M147.068,M99.068,M113.084,M147.068,M113.084,M115.027,M99.068,M128.095,M137.059,M147.068,M87.032,M97.053,M129.043,M115.027,M113.084,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M147.068,M87.032,M99.068,M114.043,M113.084,M115.027,M99.068,M128.095,M137.059,M147.068,M87.032,M97.053,M129.043,M129.043,M113.084,M128.095,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M137.059,M147.068,M87.032,M115.027,M114.043,M131.040,M128.059,M103.009,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M57.021,M156.101,M128.095,M57.021,M156.101,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M103.009=1,M57.021,M147.068,M87.032,M128.095,M128.059,M113.084,M128.059,M87.032,M87.032,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M101.048,M113.084,M97.053,M113.084,M101.048,M156.101,M129.043,M114.043,M97.053,0=4,"
+"Loaded_Frequencies=M128.059=1,M163.063,M128.059,M128.059,M163.063,M128.059,M128.059,M163.063,M128.059,M128.059,M163.063,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M115.027,M99.068,M128.095,M137.059,M147.068,M87.032,M97.053,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M147.068,M87.032,M99.068,M114.043,M113.084,M115.027,M99.068,M128.095,M137.059,M147.068,0=4,"
+"Loaded_Frequencies=M186.079=1,M147.068,M186.079,M147.068,M99.068,M128.095,M99.068,M128.095,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M103.009=1,M186.079,M103.009,M128.095,M186.079,0=4,"
+"[/Preset]"

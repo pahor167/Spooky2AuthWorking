@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Toxocariasis (Coil)"
+"Preset_Notes=Toxocariasis for Coil
+
+Toxocariasis is a zoonotic parasitic infection primarily caused by the roundworm species Toxocara canis (from dogs) and Toxocara cati (from cats). Infection occurs when humans accidentally ingest infective eggs from contaminated soil, water, or food, often due to poor hygiene or contact with infected animals. The eggs hatch in the intestine, releasing larvae that migrate through the bloodstream to various organs, including the liver, lungs, eyes, and central nervous system, without maturing into adult worms. This larval migration leads to visceral larva migrans (VLM) in systemic cases, ocular larva migrans (OLM) in eye involvement, or neurotoxocariasis in brain cases. Common symptoms include fever, fatigue, abdominal pain, cough, wheezing, hepatomegaly, and eosinophilia due to the host's immune response. In severe cases, it can cause vision loss, seizures, or cognitive impairments. Pathophysiology involves tissue damage from larval movement, granuloma formation, and a Th2-dominated immune response with elevated IgE, cytokines like IL-5, and eosinophil activation, leading to chronic inflammation and potential long-term organ dysfunction if untreated. Risk factors include young age, pica behavior, rural living, and pet ownership without deworming.
+
+The proposed designed polypeptides (flagged as such) address the condition through multiple therapeutic axes. For antiparasitic action, D1 and D9 are cationic peptides that disrupt larval membranes via electrostatic interactions, leading to lysis and reduced parasite burden; feasibility includes high specificity and low host toxicity, with physicochemical properties like positive charge and amphipathicity enhancing penetration. For anti-eosinophilic effects, D2 mimics IL-5 antagonists to inhibit eosinophil proliferation and degranulation, mitigating tissue damage. Anti-inflammatory polypeptides D3 and D10 modulate cytokine release (e.g., reducing TNF-alpha and IL-6) through receptor binding, suppressing allergic hypersensitivity; rationale based on observed Th2 skewing in toxocariasis. Hepatoprotective D4 and D11 promote antioxidant activity and hepatocyte regeneration, addressing lipidomic disruptions and fibrosis via Nrf2 pathway activation. Pulmonary protection by D5 prevents lung inflammation and fibrosis by inhibiting pro-fibrotic factors. Neuroprotective D6 and D12 enhance neuronal survival and reduce neuroinflammation, potentially via BDNF-like signaling to counter CNS larval effects. Ocular protection D7 inhibits VEGF-like pathways to prevent retinal damage and granuloma. Microbiota modulation D8 restores gut-liver axis balance by selective antimicrobial action against dysbiotic bacteria, improving immune regulation. Overall, these short peptides offer targeted, multi-mechanistic intervention with good bioavailability, minimal side effects, and potential for combination therapy, though clinical validation needed.
+
+"
+"Loaded_Programs=Toxocariasis p01"
+"Loaded_Programs=Toxocariasis p02"
+"Loaded_Programs=Toxocariasis p03"
+"Loaded_Programs=Toxocariasis p04"
+"Loaded_Programs=Toxocariasis p05"
+"Loaded_Programs=Toxocariasis p06"
+"Loaded_Programs=Toxocariasis p07"
+"Loaded_Programs=Toxocariasis p08"
+"Loaded_Programs=Toxocariasis p09"
+"Loaded_Programs=Toxocariasis p10"
+"Loaded_Programs=Toxocariasis p11"
+"Loaded_Programs=Toxocariasis p12"
+"Loaded_Frequencies=M156.101=1,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M97.053,M128.095,M87.032,M103.009,M115.027,M128.095,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M113.084,M147.068,M113.084,M57.021,M147.068,M113.084,M57.021,M71.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M97.053,M128.095,M99.068,M186.079,M128.095,M113.084,M147.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M97.053,M71.037,M156.101,M156.101,M57.021,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M103.009,M163.063,M156.101,M128.095,M87.032,M156.101,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M113.084,M128.095,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M156.101,M137.059,M128.058,M115.027,M131.040,M97.053,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,M57.021,M115.027,M87.032,0=4,"
+"Loaded_Frequencies=M103.009=1,M163.063,M113.084,M128.058,M114.043,M103.009,M97.053,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M137.059,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M131.040,0=4,"
+"[/Preset]"

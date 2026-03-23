@@ -1,0 +1,14 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Planting Remedy Mix (S)"
+"Preset_Notes=Planting Remedy Mix / Spooky Scalar
+
+Estimated Time: Run this preset for 9:00 minutes.
+
+Planting Remedy: Hornbeam, Olive & Vine - Useful for newly planted seeds or seedlings
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Planting Remedy Mix (S)"
+"Loaded_Frequencies=257.45,431.65,383.91,"
+"[/Preset]"

@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Ageusia (C)"
+"Preset_Notes=Ageusia for Contact
+
+Ageusia is the loss of taste sensation, commonly caused by viral infections, zinc deficiency, chemotherapy, neurological damage, or inflammation affecting taste buds and nerves. 
+
+The peptides target key axes including taste receptor modulation to enhance signal transduction, neuroprotection to safeguard gustatory nerves, anti-inflammatory actions to alleviate swelling in taste tissues, zinc modulation to correct deficiencies impacting taste, and regenerative mechanisms to restore taste bud integrity; the first 3 peptides are real-world with documented roles in taste perception and neuroprotection, while peptides 4-12 are designed to comprehensively address all axes.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Ageusia p01"
+"Loaded_Programs=Ageusia p02"
+"Loaded_Programs=Ageusia p03"
+"Loaded_Programs=Ageusia p04"
+"Loaded_Programs=Ageusia p05"
+"Loaded_Programs=Ageusia p06"
+"Loaded_Programs=Ageusia p07"
+"Loaded_Programs=Ageusia p08"
+"Loaded_Programs=Ageusia p09"
+"Loaded_Programs=Ageusia p10"
+"Loaded_Programs=Ageusia p11"
+"Loaded_Programs=Ageusia p12"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M113.048,M113.084,M200.095,M150.954,M237.148,M85.053,M758.675,M100.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M100.064,M86.048,M200.095,M113.048,M150.954,M237.148,M85.053,0=4,"
+"Loaded_Frequencies=M101.001=1,M150.954,M113.084,M758.675,M200.095,M113.048,M102.001,M150.954,0=4,"
+"Loaded_Frequencies=M86.048=1,M237.148,M114.079,M85.053,M100.064,M150.954,M113.048,M200.095,M758.675,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M100.064=1,M113.084,M86.048,M237.148,M150.954,M114.079,M200.095,M113.048,M85.053,M758.675,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M150.954,M86.048,M237.148,M114.079,M100.064,M200.095,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M758.675,M113.084,M200.095,M86.048,M237.148,M114.079,M100.064,M113.048,M150.954,0=4,"
+"Loaded_Frequencies=M85.053=1,M102.001,M200.095,M150.954,M113.048,M86.048,M114.079,M237.148,M100.064,M758.675,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M100.064,M114.079,M237.148,M150.954,M200.095,M85.053,M758.675,M113.084,0=4,"
+"[/Preset]"

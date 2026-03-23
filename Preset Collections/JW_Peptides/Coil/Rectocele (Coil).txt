@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Rectocele (Coil)"
+"Preset_Notes=Rectocele for Coil
+
+Rectocele, also known as posterior vaginal wall prolapse, is a condition where the rectum bulges into the vagina due to weakening of the rectovaginal fascia, often resulting from childbirth trauma, chronic straining from constipation, aging, menopause-related estrogen decline, obesity, or connective tissue disorders. This leads to fascial tears, levator ani muscle atrophy, perineal body damage, and potential nerve impairment, causing symptoms such as vaginal bulging, pelvic pressure, difficulty with bowel movements requiring manual splinting, incomplete evacuation, fecal incontinence, dyspareunia, and low back pain. Pathophysiologically, it involves imbalance in extracellular matrix remodeling with increased matrix metalloproteinases degrading collagen and elastin, reduced tissue inhibitors of metalloproteinases, inflammatory cytokine upregulation, and altered biomechanical forces on the pelvic floor. The proposed polypeptides target these mechanisms: enhancing pelvic floor muscle regeneration to restore support, promoting fascial integrity through MMP inhibition and collagen stabilization, reducing inflammation to aid healing and symptom relief, and improving bowel motility to alleviate obstructed defecation. The designed muscle regenerator is derived from an IGF-1 motif with disulfide cyclization for stability. The designed fascial reinforcer is based on a TIMP-1 sequence, cyclized via disulfide for resistance to degradation. The designed anti-inflammatory is a truncated cathelicidin motif with head-to-tail cyclization for enhanced activity. The designed bowel modulator uses a rational cationic design from motilin motifs without cyclization.
+
+"
+"Loaded_Programs=Rectocele p01"
+"Loaded_Programs=Rectocele p02"
+"Loaded_Programs=Rectocele p03"
+"Loaded_Programs=Rectocele p04"
+"Loaded_Programs=Rectocele p05"
+"Loaded_Programs=Rectocele p06"
+"Loaded_Programs=Rectocele p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M102.001,M129.043,M163.063,M102.001,M102.001,M114.043,M97.053,M71.037,M102.001,M101.048,M57.021,M102.001,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M97.053,M129.043,M101.048,M113.084,M102.001,M57.021,M71.037,M129.043,M113.084,M99.068,M115.027,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.084,M99.068,M128.095,M156.101,M113.084,M129.043,M147.068,M113.084,M156.101,M99.068,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,0=4,"
+"[/Preset]"

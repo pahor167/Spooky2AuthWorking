@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW"
+"PresetName=Cancer Sweep Overnight (P) - JW"
+"Preset_Notes=This overnight Preset uses a slow frequency sweep to target the cancer frequency range.
+
+The original Rife frequencies and a modern DNA frequency are transmitted over an extended duration.
+
+A slow 10% duty cycle gate on the Modulation input provides strong signal spikes.
+
+Best used with a phanotron tube. 
+
+Do not alter the Frequency Multiplier, Frequency Limit, waveforms or other settings of this preset. Doing so may render it inoperative.
+
+Connect OUT 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Cancer Sweep (Rife) (CUST)"
+"Loaded_Frequencies=12233100.96-12835208=28800,"
+"[/Preset]"

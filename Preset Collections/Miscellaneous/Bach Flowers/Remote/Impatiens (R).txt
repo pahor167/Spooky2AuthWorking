@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Impatiens (R)"
+"Preset_Notes=Impatiens / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Impatiens - Impatience.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Impatiens (R)"
+"Loaded_Frequencies=463.06,"
+"[/Preset]"

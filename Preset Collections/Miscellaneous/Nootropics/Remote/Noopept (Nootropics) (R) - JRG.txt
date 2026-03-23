@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Noopept (Nootropics) (R) - JRG"
+"Loaded_Programs=Noopept (CUST)"
+"Loaded_Frequencies=M318.15796,"
+"Preset_Notes=Noopept is a peptide-derived nootropic related to the racetam family. Much more potent than Piracetam (up to 1000X), its mechanism of action in your brain is similar to other racetams.|Noopept seems to stimulate dopamine, nicotinic and serotonin receptors. It boosts cognition, memory, retention, logical thinking, improves reflexes, and improves mood. Noopept has also been shown to increase Brain Nerve Growth Factor.|Dosage recommendations for Noopept are 10 - 30 mg per day. And should be stacked with a good choline source like Alpha GPC or CDP Choline.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

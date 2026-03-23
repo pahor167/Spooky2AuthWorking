@@ -1,0 +1,58 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Nocturia (Nighttime Urinary Frequency) (C)"
+"Preset_Notes=Nocturia (Nighttime Urinary Frequency) for Contact
+
+Comprehensive peptide therapy targeting nocturia, characterized by waking one or more times per night to void urine, disrupting sleep architecture and reducing quality of life. This protocol addresses: nocturnal polyuria via antidiuretic hormone signaling (V2 receptor agonism), bladder overactivity and reduced capacity via smooth muscle relaxation (potassium channel activation, bradykinin antagonism), circadian rhythm disruption via sleep-restoring peptides, prostate-related bladder outlet obstruction (in men), bladder wall inflammation, and urothelial barrier dysfunction. Targets multiple etiologies including reduced bladder capacity, overactive bladder (OAB), benign prostatic hyperplasia (BPH), nocturnal polyuria, and neurogenic bladder dysfunction.
+
+1. Antidiuretic hormone and nocturnal polyuria reduction: Desmopressin - Synthetic vasopressin V2 receptor agonist; reduces nocturnal urine production by increasing aquaporin-2 water channel insertion in renal collecting duct; approved in 80+ countries for nocturia; reduces nighttime voiding frequency by concentrating urine
+2. Bladder smooth muscle relaxation and OAB: Senegalin-2 - Novel amphibian-derived hexadecapeptide; relaxes bladder smooth muscle via potassium channel opening (EC50 17.94 nM); increases bladder capacity; reduces urgency and frequency; inhibits bradykinin-induced contractions; antimicrobial properties prevent UTIs
+3. Neuro-immune bladder modulation and relaxation: VIP - Vasoactive intestinal peptide; relaxes bladder smooth muscle; reduces neurogenic bladder overactivity; anti-inflammatory in bladder wall; improves bladder compliance; reduces nocturnal bladder contractions and urgency sensations
+4. Bladder tissue protection and repair: BPC-157 - Cytoprotective pentadecapeptide; accelerates healing of bladder mucosa; protects against chemical/irritative damage to bladder; modulates NO pathway for smooth muscle relaxation; supports bladder wall integrity in chronic inflammation
+5. Bladder wall anti-inflammatory: Ac-KPV-NH2 - Alpha-MSH-derived anti-inflammatory tripeptide; reduces bladder wall inflammation; inhibits NF-kB activation in bladder urothelium; reduces inflammatory mediator release that triggers nocturnal urgency; neuroprotective for bladder nerves
+6. Bradykinin antagonism and bladder relaxation: BK-Antag-1 - Bradykinin B2 receptor antagonist peptide; blocks bradykinin-induced bladder smooth muscle contraction; reduces nociceptive signaling from bladder; decreases urgency and pain sensations; complements Senegalin-2 mechanism
+7. Circadian rhythm and sleep restoration: SleepReg-1 - Designed heptapeptide supporting melatonin receptor signaling; improves sleep architecture disrupted by nocturia; reduces wakefulness after sleep onset; addresses circadian component of nocturnal voiding; enhances sleep continuity
+8. Bladder tissue regeneration: GHK-Cu - Copper-binding tripeptide; upregulates tissue repair genes in bladder urothelium; stimulates collagen synthesis in bladder wall; promotes angiogenesis for improved blood flow; supports bladder wall remodeling in chronic conditions
+9. Aquaporin-2 channel enhancement: AquaporinUp-1 - Designed octapeptide enhancing aquaporin-2 water channel trafficking; increases water reabsorption from collecting duct independent of vasopressin; reduces nocturnal urine volume; complementary to desmopressin mechanism
+10. Bladder detrusor relaxation: BladderCalm-1 - Designed heptapeptide inducing bladder smooth muscle relaxation; reduces detrusor overactivity; increases functional bladder capacity; decreases nocturnal contractions; complements Senegalin-2 and VIP mechanisms
+11. Urothelial barrier protection: UroProtect-1 - Designed heptapeptide protecting bladder urothelium; strengthens tight junctions; reduces urothelial permeability; decreases sensory nerve activation; reduces urgency signaling from bladder wall to brain
+12. Prostate smooth muscle relaxation: ProstateRelax-1 - Designed octapeptide relaxing prostatic smooth muscle; reduces bladder outlet obstruction from BPH; improves urinary flow; decreases post-void residual; reduces nocturnal voiding frequency in men with BPH
+13. Bladder inflammation resolution: InflamResolv-Bladder - Designed octapeptide promoting resolution of bladder inflammation; enhances macrophage clearance of inflammatory cells; reduces chronic bladder wall inflammation; decreases nocturnal urgency from inflammatory triggers
+14. Multi-target nocturia symptom block: NocturiaBlock-1 - Designed heptapeptide with RGD motif; modulates integrin signaling in bladder wall; reduces nocturnal sensory nerve activation; decreases central micturition reflex sensitivity; comprehensive reduction of nocturnal voiding frequency
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p01"
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p02"
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p03"
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p04"
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p05"
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p06"
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p07"
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p08"
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p09"
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p10"
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p11"
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p12"
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p13"
+"Loaded_Programs=Nocturia (Nighttime Urinary Frequency) p14"
+"Loaded_Frequencies=M97.053=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M97.053,M147.068,M113.084,M113.084,M97.053,M99.068,M113.084,M87.032,M87.032,M113.084,M113.084,M87.032,M87.032,M112.10,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M97.053,M57.021,M147.068,M87.032,M97.053,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M113.084,M101.048,M87.032,M97.053,M128.058,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M57.021,M128.058,M101.048,M87.032,M99.068,M128.058,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M87.032,M147.068,M156.101,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M101.048,M186.079,M128.058,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M115.027,M128.095,M147.068,M128.095,M128.058,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M99.068,M57.021,M99.068,M113.084,M147.068,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M87.032,M97.053,M156.101,M87.032,0=4,"
+"[/Preset]"

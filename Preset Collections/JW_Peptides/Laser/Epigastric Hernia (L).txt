@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Epigastric Hernia (L)"
+"Preset_Notes=Epigastric Hernia for Laser
+
+Epigastric Hernia represents a defect in the linea alba of the abdominal wall where preperitoneal fat or omentum protrudes through a fascial opening, often associated with increased intra-abdominal pressure, obesity, and collagen metabolism dysfunction. Successful repair requires comprehensive tissue regeneration addressing collagen synthesis, extracellular matrix remodeling, metabolic optimization for obesity management, antimicrobial protection, and mechanical strength restoration of the linea alba. The following bioactive peptides target the multifaceted pathophysiology of epigastric hernia through metabolic conditioning, enhanced collagen deposition, and tissue integration:
+
+1. Metabolic Optimization: Liraglutide - GLP-1 receptor agonist promoting substantial weight reduction (10-15%), improved glycemic control, and reduced systemic inflammation prior to surgical repair, decreasing mechanical burden on the abdominal wall and reducing postoperative complications including surgical site infection and wound dehiscence
+2. Tissue Regeneration: BPC-157 - Pentadecapeptide from gastric juice stimulating angiogenesis, fibroblast proliferation, and collagen synthesis to accelerate fascial healing and improve tensile strength of the linea alba repair
+3. Collagen Synthesis: P-15 - Synthetic 15-aa collagen I-derived peptide (GTPGPQGIAGQRGVV) binding {alpha}2{beta}1 integrin to activate fibroblasts and stimulate type I/III collagen deposition essential for fascial strength and remodeling
+4. ECM Organization: GFOGER - Triple-helical collagen mimetic peptide binding {alpha}2{beta}1/{alpha}1{beta}1 integrins to enhance extracellular matrix synthesis and proper collagen fiber cross-linking in the linea alba
+5. Collagen Cross-Linking: GHK-Cu - Copper-binding tripeptide serving as cofactor for lysyl oxidase and lysyl hydroxylase enzymes critical for collagen cross-linking, enhancing fascial tensile strength and tissue repair
+6. Antimicrobial/Angiogenesis: LL-37 - Human cathelicidin peptide providing antimicrobial protection against surgical site pathogens while promoting angiogenesis and endothelial cell growth for vascularization of the repair site
+7. Antimicrobial Defense: hBD-3 - Human beta-defensin 3 providing broad-spectrum antimicrobial protection at the surgical site while maintaining barrier integrity
+8. Mesh Integration: RGD - Integrin-binding motif from fibronectin facilitating cell adhesion to synthetic or biologic mesh materials and promoting tissue incorporation into the linea alba repair
+9. Tissue Remodeling: Thymosin_beta_4 - 43-aa peptide promoting actin sequestration, cell migration, and tissue remodeling while reducing inflammation and supporting comprehensive soft tissue healing of the abdominal wall
+10. Fascial Repair: Hernia-Heal (designed) - Synthetic heptapeptide (Lys-Gly-Glu-Pro-Gly-Pro-Lys) engineered to mimic collagen structure with strategically positioned lysine residues for enhanced cross-linking and proline for structural rigidity, specifically targeting linea alba regeneration and mechanical strength restoration
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Epigastric Hernia p01"
+"Loaded_Programs=Epigastric Hernia p02"
+"Loaded_Programs=Epigastric Hernia p03"
+"Loaded_Programs=Epigastric Hernia p04"
+"Loaded_Programs=Epigastric Hernia p05"
+"Loaded_Programs=Epigastric Hernia p06"
+"Loaded_Programs=Epigastric Hernia p07"
+"Loaded_Programs=Epigastric Hernia p08"
+"Loaded_Programs=Epigastric Hernia p09"
+"Loaded_Programs=Epigastric Hernia p10"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M113.048,M57.021,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M57.021,M129.043,M97.053,M57.021,M97.053,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Paranoid Personality Disorder (S)"
+"Preset_Notes=Paranoid Personality Disorder for Scalar
+
+Paranoid Personality Disorder (PPD) is characterized by a pervasive and unwarranted distrust and suspicion of others. Individuals with PPD often interpret the motives of others as malevolent, leading to social isolation, hostility, and impaired functioning. Pathophysiologically, PPD is linked to dysregulation in the dopaminergic system (associated with abnormal salience and paranoid ideation), deficits in the oxytocinergic system (impaired trust and social bonding), and hyperactivity of the hypothalamic-pituitary-adrenal (HPA) axis (chronic hypervigilance). The proposed set utilizes real-world polypeptides like Oxytocin to enhance social affiliation and Neurotensin to modulate dopamine. BPC-157 and Met-Enkephalin address neuroprotection and emotional regulation. Designed polypeptides D-PPD-1 through D-PPD-4 specifically target the Vasopressin V1a receptor, mGluR2, TNF-alpha, and D2 receptors to further stabilize the cognitive and emotional disturbances inherent in PPD.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Paranoid Personality Disorder p01"
+"Loaded_Programs=Paranoid Personality Disorder p02"
+"Loaded_Programs=Paranoid Personality Disorder p03"
+"Loaded_Programs=Paranoid Personality Disorder p04"
+"Loaded_Programs=Paranoid Personality Disorder p05"
+"Loaded_Programs=Paranoid Personality Disorder p06"
+"Loaded_Programs=Paranoid Personality Disorder p07"
+"Loaded_Programs=Paranoid Personality Disorder p08"
+"Loaded_Programs=Paranoid Personality Disorder p09"
+"Loaded_Programs=Paranoid Personality Disorder p10"
+"Loaded_Programs=Paranoid Personality Disorder p11"
+"Loaded_Programs=Paranoid Personality Disorder p12"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M111.032=1,M113.084,M128.058,M163.063,M129.043,M114.043,M128.095,M97.053,M156.101,M156.101,M97.053,M163.063,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.04,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M163.063,M87.032,M101.048,M99.068,M128.058,M131.04,0=4,"
+"Loaded_Frequencies=M186.079=1,M156.101,M97.053,M128.058,M137.059,M113.084,M113.084,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M99.068,M131.040,M114.043,M163.063,M101.048,M128.058,0=4,"
+"[/Preset]"

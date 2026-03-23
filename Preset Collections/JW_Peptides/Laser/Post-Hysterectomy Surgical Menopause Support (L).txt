@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Post-Hysterectomy Surgical Menopause Support (L)"
+"Preset_Notes=Post-Hysterectomy Surgical Menopause Support for Laser
+
+Post-hysterectomy with bilateral oophorectomy induces surgical menopause via abrupt estrogen/androgen deficiency, exacerbating sleep disturbances, memory loss, increased cancer and cardiovascular risks, osteoporosis, adrenal stress from compensatory mechanisms, and challenges with traditional hormone replacement. Peptide therapies target specific pathways for symptom relief and risk mitigation with favorable safety profiles.
+
+1. Sleep restoration: DSIP - Promotes delta-wave sleep to counteract menopausal insomnia.
+2. Memory enhancement: Semax - Boosts BDNF and neuroplasticity to combat hormone-related cognitive decline.
+3. Neuroprotection: Pinealon - Normalizes brain cell function and protects against memory impairment.
+4. Osteoporosis prevention: Salmon-Calcitonin - Strongly inhibits osteoclast activity to maintain bone density.
+5. Cardiovascular protection: Semaglutide - GLP-1 receptor agonist improves metabolic parameters and reduces cardiovascular events.
+6. Hormone balance: Kisspeptin-10 - Stimulates GnRH release to naturally support gonadotropin levels.
+7. Adrenal stress reduction: Catestatin - Inhibits catecholamine release to ease adrenal compensatory burden.
+8. Cancer risk mitigation: Azurin_p28 - Enters cancer cells to activate p53-dependent growth inhibition.
+9. Metabolic optimization: MOTS-c - Mitochondrial peptide enhances energy regulation and reduces oxidative stress.
+10. Neuro-hormonal integration: Kisspeptin-Pinealon fusion - Designed chimeric peptide fuses kisspeptin core (hormone signaling) with Pinealon (neuroprotection) via GGG linker for dual cognitive and hormonal support.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Post-Hysterectomy Surgical Menopause Support p01"
+"Loaded_Programs=Post-Hysterectomy Surgical Menopause Support p02"
+"Loaded_Programs=Post-Hysterectomy Surgical Menopause Support p03"
+"Loaded_Programs=Post-Hysterectomy Surgical Menopause Support p04"
+"Loaded_Programs=Post-Hysterectomy Surgical Menopause Support p05"
+"Loaded_Programs=Post-Hysterectomy Surgical Menopause Support p06"
+"Loaded_Programs=Post-Hysterectomy Surgical Menopause Support p07"
+"Loaded_Programs=Post-Hysterectomy Surgical Menopause Support p08"
+"Loaded_Programs=Post-Hysterectomy Surgical Menopause Support p09"
+"Loaded_Programs=Post-Hysterectomy Surgical Menopause Support p10"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M114.043,M113.084,M87.032,M101.048,M102.001,M99.068,M113.084,M57.021,M128.095,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M128.095,M113.084,M128.058,M101.048,M163.063,M97.053,M156.101,M101.048,M114.043,M101.048,M57.021,M87.032,M114.043,M101.048,M96.069,0=4,"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M101.048,M71.037,M71.037,M115.027,M131.040,M128.058,M57.021,M99.068,M99.068,M101.048,M115.027,M57.021,M131.040,M71.037,M87.032,M57.021,M113.084,M115.027,M128.095,M115.027,M163.063,M113.084,M128.095,M97.053,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M147.068,M57.021,M57.021,M57.021,M129.043,M115.027,M156.101,0=4,"
+"[/Preset]"

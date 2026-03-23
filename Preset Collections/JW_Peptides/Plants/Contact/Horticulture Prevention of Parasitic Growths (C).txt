@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Horticulture Prevention of Parasitic Growths (C)"
+"Preset_Notes=Horticulture Prevention of Parasitic Growths for Contact
+
+Horticulture Prevention of Algae, Mosses, Fungi, Biofilm, Verdigris and Mould Growth
+
+1. Antifungal membrane disruption: RsAFP2 - Plant defensin that binds glucosylceramides in fungal membranes, inducing permeabilization, ion leakage, and apoptosis to inhibit mould and fungi colonization on plants and surfaces.
+2. Cyclic pore formation: Kalata B1 - Stable cyclotide that assembles multimeric pores in microbial membranes, providing broad disruption against fungi, biofilm matrices, and surface-associated algae/moss.
+3. Lytic fungal control: AGM182 - Tachyplesin-derived synthetic peptide that rapidly lyses fungal hyphae and spores, suppressing mould growth and aflatoxin production in horticultural crops and storage.
+4. Defensin hyphal inhibition: alfAFP - Alfalfa-derived defensin that interferes with fungal cell wall assembly and ion homeostasis, conferring resistance to mould and pathogenic fungi in greenhouse and field settings.
+5. Quorum-sensing blockade: Biofilm-P1 - Designed peptide that disrupts microbial communication and extracellular matrix formation to prevent biofilm establishment on pots, benches, and irrigation systems.
+6. Algal cell wall targeting: Alga-P2 - Designed peptide that compromises algal polysaccharide walls and photosynthetic membranes to halt algae proliferation and associated verdigris-like deposits.
+7. Moss spore adhesion block: Moss-P3 - Designed peptide that inhibits spore germination and rhizoid attachment, preventing moss establishment on soil surfaces and containers.
+8. Verdigris-associated microbe suppression: Verd-P4 - Designed peptide that targets copper-tolerant microbes driving patina formation, maintaining clean horticultural metal and plastic surfaces.
+9. Mould spore germination arrest: Mould-P5 - Designed peptide optimized for high-affinity binding to mould conidia, blocking germination and hyphal extension under humid greenhouse conditions.
+10. Multi-target optimization: Multi-P6 - Engineered peptide combining membrane, matrix, and signaling disruption for synergistic prevention across algae, moss, fungi, biofilm, verdigris, and mould.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Horticulture Prevention of Parasitic Growths p01"
+"Loaded_Programs=Horticulture Prevention of Parasitic Growths p02"
+"Loaded_Programs=Horticulture Prevention of Parasitic Growths p03"
+"Loaded_Programs=Horticulture Prevention of Parasitic Growths p04"
+"Loaded_Programs=Horticulture Prevention of Parasitic Growths p05"
+"Loaded_Programs=Horticulture Prevention of Parasitic Growths p06"
+"Loaded_Programs=Horticulture Prevention of Parasitic Growths p07"
+"Loaded_Programs=Horticulture Prevention of Parasitic Growths p08"
+"Loaded_Programs=Horticulture Prevention of Parasitic Growths p09"
+"Loaded_Programs=Horticulture Prevention of Parasitic Growths p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M113.084,M115.027,M128.095,M156.101,M137.059,M186.079,M114.043,M87.032,M128.058,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M99.068,M71.037,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M97.053=1,M156.101,M57.021,M115.027,M87.032,M97.053,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M156.101,M128.095,M97.053,M97.053,M128.095,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M101.048,M71.037,M87.032,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M128.058=1,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,0=4,"
+"[/Preset]"

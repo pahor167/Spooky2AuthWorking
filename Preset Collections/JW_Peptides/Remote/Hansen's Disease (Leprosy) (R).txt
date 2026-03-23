@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Hansen’s Disease (Leprosy) (R)"
+"Preset_Notes=Hansen’s Disease (Leprosy) for Remote
+
+Hansen’s Disease, caused by *Mycobacterium leprae* and *M. leprae* variant *M. lepromatosis*, is a chronic granulomatous infection primarily targeting skin macrophages and peripheral Schwann cells. Its spectrum ranges from tuberculoid (TT, strong Th1, paucibacillary) to lepromatous (LL, Th2-dominant, multibacillary), with borderline forms. Key pathophysiologies include: (1) intracellular bacterial survival via phagosome maturation blockade and TLR2/1 suppression; (2) Th2 skewing (high IL-4, IL-10, low IFN-{gamma}) in LL; (3) oxidative stress from mitochondrial dysfunction; (4) *M. leprae* binding to laminin-2 on Schwann cells, triggering demyelination and nerve damage; (5) immune reconstitution inflammatory syndromes (Type 1 reversal reactions and Type 2 ENL) driven by cytokine storms. Current multidrug therapy (dapsone, rifampicin, clofazimine) kills bacilli but does not fully resolve inflammation or nerve damage. The proposed polypeptide set addresses all major axes: real-world peptides (e.g., LL-37, IFN-{gamma}, Thymosin {alpha}1) provide antimicrobial, immunomodulatory, and regenerative effects with clinical precedence; designed peptides (e.g., AIP-1 for autophagy, LBI-1 for demyelination blockade) fill mechanistic gaps. Designed candidates were optimized for sequence diversity, length, and absence of toxic repeats, ensuring feasibility for topical or subcutaneous delivery. Physicochemical properties (e.g., Dermcidin’s C-amidation for stability, Thymosin {alpha}1’s N-acetylation) align with known formulations.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Hansen’s Disease (Leprosy) p01"
+"Loaded_Programs=Hansen’s Disease (Leprosy) p02"
+"Loaded_Programs=Hansen’s Disease (Leprosy) p03"
+"Loaded_Programs=Hansen’s Disease (Leprosy) p04"
+"Loaded_Programs=Hansen’s Disease (Leprosy) p05"
+"Loaded_Programs=Hansen’s Disease (Leprosy) p06"
+"Loaded_Programs=Hansen’s Disease (Leprosy) p07"
+"Loaded_Programs=Hansen’s Disease (Leprosy) p08"
+"Loaded_Programs=Hansen’s Disease (Leprosy) p09"
+"Loaded_Programs=Hansen’s Disease (Leprosy) p10"
+"Loaded_Programs=Hansen’s Disease (Leprosy) p11"
+"Loaded_Programs=Hansen’s Disease (Leprosy) p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M113.084,M113.084,M129.043,M128.095,M57.021,M113.084,M115.027,M57.021,M71.037,M128.095,M128.095,M71.037,M99.068,M57.021,M57.021,M113.084,M57.021,M128.095,M113.084,M57.021,M128.095,M115.027,M71.037,M99.068,M129.043,M115.027,M113.084,M129.043,M87.032,M99.068,M57.021,M128.095,M57.021,M71.037,M99.068,M137.059,M115.027,M99.068,M128.095,M115.027,M99.068,M113.084,M115.027,M87.032,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M113.048=1,M103.009,M87.032,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M113.084,M147.068,M128.095,M71.037,M147.068,M163.063,M115.027,M128.095,M113.084,M115.027,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.032=1,M163.063,M113.032,M128.095,M129.043,M137.059,M147.068,M156.101,M156.101,M71.037,M156.101,M87.032,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M71.037,M87.032,M113.084,M129.043,M113.084,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M129.043,M71.037,M156.101,M128.095,M87.032,M128.095,M128.058,M114.043,M128.058,M71.037,M113.084,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M156.101,M113.084,M156.101,M113.084,M113.084,M128.095,M147.068,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M71.037,M147.068,M129.043,M128.095,M156.101,M156.101,M113.084,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M128.095,M128.095,M147.068,M147.068,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M156.101,M156.101,M147.068,M129.043,M113.084,M128.095,M156.101,M163.063,0=4,"
+"[/Preset]"

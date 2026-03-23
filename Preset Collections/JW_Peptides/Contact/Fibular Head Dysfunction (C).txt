@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Fibular Head Dysfunction (C)"
+"Preset_Notes=Fibular Head Dysfunction for Contact
+
+Fibular head dysfunction refers to somatic dysfunction or misalignment at the proximal tibiofibular joint, frequently causing lateral knee pain, common peroneal nerve irritation with numbness/tingling, restricted mobility, and instability, often treated conservatively with manipulation and rehabilitation.
+
+1. Musculoskeletal healing: BPC-157 - Stable gastric pentadecapeptide accelerating tendon, ligament, and joint repair through angiogenesis, collagen reorganization, and cytoprotection relevant to fibular head stability.
+2. Tissue regeneration: Thymosin_beta_4 - Actin-sequestering peptide promoting cell migration, anti-inflammation, and extracellular matrix remodeling for soft tissue healing around the proximal fibula.
+3. Neuropathic pain relief: Cortistatin - Neuropeptide reducing hypersensitivity and pain in peripheral nerve injury models, targeting peroneal nerve irritation.
+4. Immune modulation: Thymosin_alpha_1 - Thymic peptide enhancing T-cell function and resolving chronic low-grade inflammation associated with joint dysfunction.
+5. Oxidative stress protection: Carnosine - Dipeptide scavenging reactive oxygen species to mitigate tissue damage from chronic mechanical stress.
+6. Nerve membrane stabilization: Poly-Arg6-NH2 - Designed cationic homoarginine peptide providing charge-based protection and enhanced penetration for neuroprotection in entrapment.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Fibular Head Dysfunction p01"
+"Loaded_Programs=Fibular Head Dysfunction p02"
+"Loaded_Programs=Fibular Head Dysfunction p03"
+"Loaded_Programs=Fibular Head Dysfunction p04"
+"Loaded_Programs=Fibular Head Dysfunction p05"
+"Loaded_Programs=Fibular Head Dysfunction p06"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"[/Preset]"

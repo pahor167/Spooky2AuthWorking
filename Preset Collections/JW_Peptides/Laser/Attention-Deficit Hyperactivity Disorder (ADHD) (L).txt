@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Attention-Deficit/Hyperactivity Disorder (ADHD) (L)"
+"Preset_Notes=Attention-Deficit/Hyperactivity Disorder (ADHD) for Laser
+
+ADHD is a neurodevelopmental disorder characterized by inattention, hyperactivity, and impulsivity, often involving dysregulation of dopamine, norepinephrine, and other neurotransmitter systems. The proposed polypeptides target evidence-based therapeutic axes from literature on neurotransmitter modulation, neuroprotection, metabolic regulation, and behavioral control to improve attention, reduce impulsivity, enhance cognitive function, and support overall brain health.
+
+1. Dopamine system modulation: Semax stimulates dopamine release and has been investigated for ADHD treatment in preclinical and clinical studies.
+2. BDNF and neuroplasticity enhancement: Selank boosts BDNF levels and improves cognitive health, with potential benefits for ADHD symptoms.
+3. Neuroprotection and anti-apoptosis: Humanin protects neurons from stress and apoptosis, potentially addressing ADHD-related brain changes.
+4. Metabolic and reward system regulation: Semaglutide, a GLP-1 agonist, shows emerging evidence for reducing ADHD symptoms through effects on metabolism and reward pathways.
+5. Glutamatergic balance: GluMod-Eng, an engineered peptide derived from neuropeptide motifs, targets mGluR5 to modulate glutamatergic signaling and control impulsivity.
+6. Orexin-mediated arousal regulation: Orex-Eng, an engineered peptide based on orexin fragments, enhances orexin signaling to improve attention and arousal in ADHD.
+7. NPY-mediated stress response: NPY-Eng, an engineered peptide from NPY motifs, regulates NPY levels to better manage stress and emotional responses in ADHD.
+8. NPS-mediated behavioral modulation: NPS-Eng, an engineered peptide derived from NPS sequences, modulates the NPS system for behavioral improvements observed in ADHD animal models.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Attention-Deficit/Hyperactivity Disorder (ADHD) p01"
+"Loaded_Programs=Attention-Deficit/Hyperactivity Disorder (ADHD) p02"
+"Loaded_Programs=Attention-Deficit/Hyperactivity Disorder (ADHD) p03"
+"Loaded_Programs=Attention-Deficit/Hyperactivity Disorder (ADHD) p04"
+"Loaded_Programs=Attention-Deficit/Hyperactivity Disorder (ADHD) p05"
+"Loaded_Programs=Attention-Deficit/Hyperactivity Disorder (ADHD) p06"
+"Loaded_Programs=Attention-Deficit/Hyperactivity Disorder (ADHD) p07"
+"Loaded_Programs=Attention-Deficit/Hyperactivity Disorder (ADHD) p08"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M137.059=1,M85.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M186.079,M113.084,M99.068,M156.101,M57.021,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M147.068,M156.101,M114.043,M57.021,M99.068,M57.021,M101.048,M57.021,M131.040,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M97.053,M115.027,M87.032,M71.037,M156.101,M128.059,M128.095,M101.048,M101.048,M71.037,M87.032,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.043,M97.053,0=4,"
+"Loaded_Frequencies=M87.032=1,M147.068,M156.101,M114.043,M57.021,M99.068,M57.021,M87.032,0=4,"
+"[/Preset]"

@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Subconjunctival Hemorrhage (R)"
+"Preset_Notes=Subconjunctival Hemorrhage for Remote
+
+Subconjunctival hemorrhage is a typically benign condition characterized by the rupture of small conjunctival blood vessels, leading to painless blood accumulation under the transparent conjunctival membrane, appearing as a bright red patch on the sclera. It resolves spontaneously in 1-2 weeks but may recur with risk factors like hypertension, trauma, or anticoagulation. Proposed polypeptides target vascular repair, inflammation reduction, oxidative protection, and tissue reinforcement axes to accelerate blood clearance and enhance vessel resilience:
+1. Ocular surface regeneration: Thymosin_beta_4 - Promotes re-epithelialization, modulates inflammation, and accelerates healing of ocular surface tissues to facilitate hemorrhage resolution.
+2. Antioxidant defense: Carnosine - Scavenges reactive oxygen species and protects endothelial cells from oxidative damage contributing to vessel fragility.
+3. Mitochondrial optimization: MOTS-c - Enhances metabolic efficiency and stress resistance in ocular cells, supporting vascular stability.
+4. Vascular integrity support: Adrenomedullin - Maintains endothelial function, exerts anti-remodeling effects, and promotes ocular vascular health.
+5. Extracellular matrix reinforcement: P-15 - Collagen-mimetic peptide stimulates matrix remodeling and strengthens vessel walls in conjunctival tissues.
+6. Basement membrane stabilization: Ac-YIGSR-NH2 - Laminin-derived mimetic enhances cell-matrix adhesion and reinforces vascular basement membrane integrity.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Subconjunctival Hemorrhage p01"
+"Loaded_Programs=Subconjunctival Hemorrhage p02"
+"Loaded_Programs=Subconjunctival Hemorrhage p03"
+"Loaded_Programs=Subconjunctival Hemorrhage p04"
+"Loaded_Programs=Subconjunctival Hemorrhage p05"
+"Loaded_Programs=Subconjunctival Hemorrhage p06"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M205.074=1,M113.084,M57.021,M87.032,M155.117,0=4,"
+"[/Preset]"

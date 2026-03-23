@@ -1,0 +1,55 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Bacterial Endocarditis (R)"
+"Preset_Notes=Bacterial Endocarditis for Remote
+
+Bacterial endocarditis (BE) is a life-threatening infection of the endocardial surface, typically involving heart valves, caused predominantly by Gram-positive bacteria such as *Staphylococcus aureus*, *Streptococcus* spp., and *Enterococcus* spp. Pathogenesis begins with endothelial damage (e.g., from turbulent flow or instrumentation), exposing subendothelial matrix proteins like collagen and fibronectin, which bacterial adhesins (e.g., ClfA, FnBPA) bind to. This initiates vegetation formation-a pathological amalgam of platelets, fibrin, and bacteria-shielded by biofilm matrices that confer antibiotic tolerance. Key complications include valve destruction, embolization, heart failure, and immune-mediated sequelae like glomerulonephritis. Current therapy relies on prolonged high-dose IV antibiotics (e.g., {beta}-lactams, vancomycin) and often surgery, but resistance, biofilm persistence, and collateral tissue damage from inflammation remain major challenges. The proposed polypeptide set addresses BE through ten complementary therapeutic axes: (1) direct bactericidal activity against causal pathogens; (2) enzymatic and electrostatic biofilm disruption; (3) inhibition of bacterial adhesion to damaged valves; (4) pro-resolution immunomodulation to limit tissue injury; (5) regulation of neutrophil extracellular traps (NETs) to reduce thrombogenicity; (6) endothelial protection and regeneration; (7) antiplatelet effects to diminish vegetation growth; (8) eradication of metabolically dormant persister cells; (9) neutralization of key virulence factors like {alpha}-hemolysin; and (10) targeted complement inhibition to curb excessive inflammation. Real-world polypeptides (e.g., LL-37, Pexiganan, Ac2-26, Compstatin) provide clinically validated mechanisms, while designed peptides (e.g., D2-Biofilm, D3-Persister) fill critical gaps in biofilm penetration, persister targeting, and NET modulation where natural peptides are insufficient or non-compliant with formatting constraints. All designed sequences adhere to strict length, diversity, and PTM rules, ensuring >=50% sequence difference and <=50% pairwise similarity. Physicochemical optimization includes C-terminal amidation for stability, disulfide cyclization for protease resistance, and cationic/hydrophobic balance for membrane interaction without excessive cytotoxicity.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Bacterial Endocarditis p01"
+"Loaded_Programs=Bacterial Endocarditis p02"
+"Loaded_Programs=Bacterial Endocarditis p03"
+"Loaded_Programs=Bacterial Endocarditis p04"
+"Loaded_Programs=Bacterial Endocarditis p05"
+"Loaded_Programs=Bacterial Endocarditis p06"
+"Loaded_Programs=Bacterial Endocarditis p07"
+"Loaded_Programs=Bacterial Endocarditis p08"
+"Loaded_Programs=Bacterial Endocarditis p09"
+"Loaded_Programs=Bacterial Endocarditis p10"
+"Loaded_Programs=Bacterial Endocarditis p11"
+"Loaded_Programs=Bacterial Endocarditis p12"
+"Loaded_Programs=Bacterial Endocarditis p13"
+"Loaded_Programs=Bacterial Endocarditis p14"
+"Loaded_Programs=Bacterial Endocarditis p15"
+"Loaded_Programs=Bacterial Endocarditis p16"
+"Loaded_Programs=Bacterial Endocarditis p17"
+"Loaded_Programs=Bacterial Endocarditis p18"
+"Loaded_Programs=Bacterial Endocarditis p19"
+"Loaded_Programs=Bacterial Endocarditis p20"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M87.032,M57.021,M113.084,M99.068,M113.084,M128.095,M113.084,M98.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M102.009,M87.032,M97.053,M97.053,M128.095,M57.021,M128.095,M147.068,M128.058,M97.053,M113.084,M99.068,M57.021,M86.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M147.068,M156.101,M113.084,M113.084,M156.101,M113.084,M128.095,M99.068,M147.068,M113.084,M99.068,M87.032,M57.021,M112.10,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M147.068,M101.048,M101.048,M101.048,M113.084,M101.048,M113.084,M101.048,M113.084,M156.101,M101.048,M156.101,M100.064,0=4,"
+"Loaded_Frequencies=M113.048=1,M129.043,M99.068,M87.032,M147.068,M113.084,M128.095,M128.058,M97.053,M147.068,M113.084,M113.084,M129.043,M113.084,M113.084,M128.095,M129.043,M129.043,M128.095,M100.064,M99.068,M128.058,M101.048,M99.068,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M99.068,M128.095,M102.009,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M87.032,M97.053,M113.084,M115.027,M147.068,M101.048,M97.053,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M127.111,0=4,"
+"Loaded_Frequencies=M102.001=1,M147.068,M129.043,M71.037,M129.043,M102.001,M136.075,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M128.095,M128.058,M113.084,M129.043,M129.043,M128.095,M113.084,M128.058,M128.095,M128.058,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.048=1,M97.053,M99.068,M87.032,M128.058,M147.068,M97.053,M147.068,M156.101,M147.068,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M186.079=1,M113.084,M156.101,M128.095,M147.068,M113.084,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M137.059,M128.095,M137.059,M128.095,M137.059,M127.111,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M101.048,M156.101,M97.053,M147.068,M129.043,M113.084,M113.084,M156.101,M162.079,0=4,"
+"[/Preset]"

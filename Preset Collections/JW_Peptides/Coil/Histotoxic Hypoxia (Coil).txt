@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Histotoxic Hypoxia (Coil)"
+"Preset_Notes=Histotoxic Hypoxia for Coil
+
+Histotoxic hypoxia is a form of tissue hypoxia in which cells are unable to utilize delivered oxygen due to toxic inhibition of cellular respiration, primarily at the mitochondrial level. The prototypical cause is cyanide poisoning (acute from inhalation, ingestion, or smoke; chronic rare), but similar effects occur with hydrogen sulfide, azide, formate, or certain drugs/metabolites. Acute symptoms include headache, dizziness, nausea, tachypnea, seizures, cardiovascular collapse, and profound lactic acidosis; untreated severe cases rapidly progress to coma and death. Pathophysiology involves toxin binding to cytochrome c oxidase (complex IV) in the electron transport chain, preventing oxygen acceptance, abolishing oxidative phosphorylation and ATP production, forcing anaerobic metabolism with lactate accumulation, calcium dysregulation, reactive oxygen species generation despite blocked chain, membrane damage, and apoptotic/necrotic cell death-especially devastating in CNS and cardiac tissues due to high energy demands.
+
+The proposed polypeptides target core mechanistic axes in histotoxic hypoxia with short synthetic sequences for rapid action and feasibility. Peptides 1-4 are designed conceptual sequences flagged accordingly; Peptide 5 is the real investigational octapeptide NAP (davunetide), derived from activity-dependent neuroprotective protein, with established preclinical evidence directly protecting neurons against cyanide-induced cytotoxicity through microtubule stabilization, prevention of tubulin pool disruption, and broader anti-apoptotic effects. Peptide 1 (designed) is arginine-lysine rich cationic for conceptual enhanced cell penetration and potential competitive interference at toxin binding sites. Peptide 2 (designed) glycine-proline rich to conceptually maintain cytoskeletal and membrane stability during ATP crisis. Peptide 3 (designed) serine-glutamine rich polar for conceptual support of intracellular osmotic and enzymatic integrity. Peptide 4 (designed) phenylalanine-tyrosine rich aromatic to conceptually scavenge secondary ROS from dysfunctional mitochondria. These diverse designs complement the real polypeptide for multimodal potential in acute toxin-mediated cellular poisoning.
+
+"
+"Loaded_Programs=Histotoxic Hypoxia p01"
+"Loaded_Programs=Histotoxic Hypoxia p02"
+"Loaded_Programs=Histotoxic Hypoxia p03"
+"Loaded_Programs=Histotoxic Hypoxia p04"
+"Loaded_Programs=Histotoxic Hypoxia p05"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.058,M87.032,M128.058,M87.032,M128.058,M87.032,M128.058,M87.032,M128.058,M87.032,M128.058,0=4,"
+"Loaded_Frequencies=M147.068=1,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M127.074,0=4,"
+"[/Preset]"

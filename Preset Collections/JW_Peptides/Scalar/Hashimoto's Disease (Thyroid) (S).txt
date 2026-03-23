@@ -1,0 +1,68 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Hashimoto’s Disease (Thyroid) (S)"
+"Preset_Notes=Hashimoto’s Disease (Thyroid) for Scalar
+
+Hashimoto's Disease (Chronic Lymphocytic Thyroiditis) - Deep Multi-Axis Intervention
+
+Comprehensive peptide therapy targeting Hashimoto's thyroiditis, the most common autoimmune endocrine disorder characterized by lymphocytic infiltration of the thyroid gland, production of thyroid peroxidase (TPO) and thyroglobulin (Tg) autoantibodies, progressive destruction of thyroid follicular cells, and hypothyroidism. This protocol addresses: HLA-DR-mediated antigen presentation blockade (particularly HLA-DR{beta}1-Arg74), enhancement of Treg cell function and immune tolerance, repair of intestinal permeability (leaky gut) that triggers autoimmunity, reduction of thyroid gland inflammation and oxidative stress, protection of thyroid follicular cells from apoptosis, modulation of neuro-endocrine-immune axis, and antigen-specific tolerance induction using immunodominant thyroglobulin epitopes.
+
+1. Immune tolerance and Treg enhancement: Thymosin-Alpha-1 - 28-amino acid thymic peptide; restores Th1/Th2 balance in Hashimoto's; enhances Treg cell function and immune tolerance; increases CD4+/CD8+ ratio; reduces thyroid autoantibody production through central immune modulation
+2. Thyroid inflammation suppression: Ac-KPV-NH2 - Alpha-MSH-derived anti-inflammatory tripeptide; inhibits NF-kB activation in thyroid tissue; suppresses IL-6 and TNF-{alpha} production; reduces thyroid gland inflammation and lymphocytic infiltration
+3. Gut barrier integrity and systemic repair: BPC-157 - Cytoprotective pentadecapeptide; repairs intestinal permeability (leaky gut) linked to Hashimoto's pathogenesis; accelerates tissue healing; modulates NO pathway; supports thyroid tissue regeneration via angiogenesis
+4. Intestinal tight junction sealing: Larazotide - Zonulin antagonist octapeptide; reverses leaky gut by blocking zonulin receptor; prevents tight junction disassembly; reduces antigen penetration that triggers autoimmune thyroid response; Phase 3 clinical safety profile
+5. Thyroid tissue regeneration: GHK-Cu - Copper-binding tripeptide; upregulates tissue repair genes; stimulates collagen synthesis in thyroid capsule; promotes angiogenesis; supports restoration of thyroid architecture damaged by autoimmune infiltration
+6. Antigen-specific immune tolerance: Tg.2098-Tolerogen - Immunodominant thyroglobulin peptide (aa 2098-2112); binds HLA-DR3 for antigen presentation without co-stimulation; induces anergy in autoreactive T cells; promotes peripheral tolerance to thyroid autoantigens; reduces TPO/Tg antibody synthesis
+7. Neuro-endocrine-immune thyroid axis: VIP - Vasoactive intestinal peptide; protects hypothalamic-pituitary-thyroid axis from inflammatory damage; modulates immune response in thyroid microenvironment; supports TSH regulation; anti-inflammatory in autoimmune conditions
+8. Melanocortin-mediated immune suppression: alpha-MSH - Tridecapeptide melanocortin; inhibits dendritic cell activation; suppresses antigen presentation to autoreactive T cells; reduces inflammation in thyroid gland via MC1R/MC5R; promotes immune tolerance
+9. HLA-DR{beta}1-Arg74 antigen presentation blockade: HashiBlock-1 - Designed pentadecapeptide mimicking RT-15 mechanism; blocks thyroglobulin peptide binding to HLA-DR{beta}1-Arg74 binding cleft; prevents activation of autoreactive T cells in genetically susceptible individuals (HLA-DR{beta}1-Arg74 carriers)
+10. Thyroid redox balance and selenoprotein support: SelenoMim-1 - Designed cysteine-rich heptapeptide; mimics selenocysteine-containing antioxidant enzymes (GPx, DIO); protects thyroid follicular cells from oxidative stress; supports thyroid hormone synthesis via redox regulation
+11. Thyroid follicular cell cytoprotection: ThyroidProtect-1 - Designed octapeptide; protects thyroid follicular cells from apoptosis induced by autoimmune attack; inhibits Fas-mediated cell death; preserves thyroid hormone-producing capacity; reduces gland atrophy
+12. Treg stability and function enhancement: TregBoost-1 - Designed octapeptide stabilizing FOXP3 transcription factor dimerization; enhances Treg suppressive function; promotes immune tolerance to thyroid antigens; counteracts effector T cell-mediated thyroid destruction
+13. TPO autoantibody modulation: AntiTPO-Mim-1 - Designed nonapeptide mimicking immunodominant TPO epitope; competes with TPO for autoantibody binding; reduces immune complex formation in thyroid; dampens complement activation and tissue destruction
+14. Resolution of thyroid inflammation: InflamResolv-1 - Designed octapeptide promoting inflammatory resolution; enhances macrophage phagocytosis of apoptotic cells in thyroid; reduces chronic lymphocytic infiltration; supports tissue remodeling and healing of thyroid gland
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p01"
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p02"
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p03"
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p04"
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p05"
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p06"
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p07"
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p08"
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p09"
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p10"
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p11"
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p12"
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p13"
+"Loaded_Programs=Hashimoto’s Disease (Thyroid) p14"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M87.032,M99.068,M99.068,M99.068,M115.027,M97.053,M87.032,M113.084,M156.101,M137.059,M147.068,M115.027,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M114.043,M156.101,M113.084,M147.068,M99.068,M113.084,M115.027,M113.084,M147.068,M113.084,M128.058,M103.009,M97.053,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M100.993,M57.021,M100.993,M57.021,M100.993,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M115.027,M128.095,M147.068,M128.095,M128.058,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,M101.048,M129.043,M128.095,M128.095,M99.068,M129.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M131.040,M128.058,M163.063,M147.068,M87.032,M137.059,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M99.068,M57.021,M99.068,M113.084,M147.068,M57.021,M128.095,0=4,"
+"[/Preset]"

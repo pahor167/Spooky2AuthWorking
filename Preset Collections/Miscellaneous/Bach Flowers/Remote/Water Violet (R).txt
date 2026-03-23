@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Water Violet (R)"
+"Preset_Notes=Water Violet / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Water Violet - Quiet self-reliance leading to isolation.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Water Violet (R)"
+"Loaded_Frequencies=370.22,"
+"[/Preset]"

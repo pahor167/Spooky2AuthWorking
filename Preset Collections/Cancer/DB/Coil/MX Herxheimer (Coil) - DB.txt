@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=MX Herxheimer (Coil) - DB"
+"Preset_Notes=Cancer Protocol, Extras. For Spooky Coil only - DO NOT USE WITH SPOOKY PLASMA.
+
+Update: March 2020.
+
+Spooky Coil converts the signals from the XM generator to a magnetic field. Any frequency or waveform can be used.
+
+Connect Spooky PEMF Coil to the generator, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+
+
+This preset runs continuously, and beeps at the end of each loop. Run this preset for at least 2 loops.
+
+Addresses Herxheimer reactions. Use as required.
+
+PROGRAMS:
+Lyme Herxheimer Helper 1 XTRA
+Lyme Herxheimer Helper 2 XTRA
+"
+"Loaded_Programs=Lyme Herxheimer Helper 1 (XTRA)"
+"Loaded_Programs=Lyme Herxheimer Helper 2 (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=10000=180,880=180,787=180,727=180,522=180,3=180,300=180,330=180,146=180,555=180,33=180,12595=180,72=180,444=180,1865=180,20=180,"
+"Loaded_Frequencies=444=180,148=180,555=180,333=180,10000=180,880=180,787=180,727=180,125=180,95=180,72=180,522=180,146=180,20=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

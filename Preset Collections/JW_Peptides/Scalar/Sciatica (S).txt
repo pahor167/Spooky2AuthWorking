@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Sciatica (S)"
+"Preset_Notes=Sciatica for Scalar
+
+Sciatica is a debilitating condition involving radiating pain, numbness, or weakness along the sciatic nerve pathway, typically caused by lumbar disc herniation, spinal stenosis, piriformis syndrome, or direct nerve trauma, with key pathologies including mechanical compression, neuroinflammation, neuropathic pain, and impaired axonal regeneration. The proposed polypeptides target evidence-based therapeutic axes from preclinical sciatic nerve injury models (e.g., crush, transection, ligation) and neuropathic pain studies to promote nerve healing, alleviate pain, and support functional recovery.
+
+1. Stable gastric pentadecapeptide-mediated nerve and tissue repair: BPC-157 accelerates morphological and functional recovery in rat sciatic nerve transection and crush models.
+2. Acylated thymosin {beta}4 fragment for actin remodeling and regeneration: TB-500 enhances neurological function and sciatic nerve recovery in peripheral neuropathy models.
+3. EPO-derived helical peptide for innate repair receptor agonism: ARA-290 provides long-term relief of neuropathic pain and promotes tissue protection in neuropathy models.
+4. {alpha}-MSH-derived tripeptide anti-inflammatory effects: KPV modulates melanocortin pathways to reduce inflammation and pain.
+5. Vasoactive intestinal neuropeptide neuroprotection: VIP supports regeneration and blood flow regulation in peripheral nerve injury.
+6. Engineered self-assembling amphiphilic peptide for scaffold-guided repair: Ac-(RADA)4-NH2 forms nanofiber hydrogels to bridge gaps and direct axonal regeneration in sciatic nerve injury.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Sciatica p01"
+"Loaded_Programs=Sciatica p02"
+"Loaded_Programs=Sciatica p03"
+"Loaded_Programs=Sciatica p04"
+"Loaded_Programs=Sciatica p05"
+"Loaded_Programs=Sciatica p06"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,0=4,"
+"[/Preset]"

@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Drooling (Sialorrhea) (R)"
+"Preset_Notes=Drooling (Sialorrhea) for Remote
+
+Excessive drooling arises from salivary overproduction, impaired oral motor control, or swallowing difficulties, frequently in neurological conditions such as Parkinson's disease, ALS, cerebral palsy, or stroke. Standard interventions include anticholinergic medications and botulinum toxin injections into salivary glands. The proposed polypeptides provide complementary support through tissue repair, inflammation reduction, neuroprotection, and complication prevention, with an engineered peptide targeting secretion inhibition based on emerging SNAP-25 research.
+
+1. Salivary secretion inhibition via SNARE/SNAP-25 modulation: SialoInhib-Eng reduces acetylcholine release at glandular synapses.
+2. Orofacial tissue healing and stabilization: BPC-157 accelerates epithelial repair and reduces scarring.
+3. Mucosal regeneration and matrix remodeling: GHK-Cu promotes collagen organization and tissue elasticity.
+4. Swallowing muscle dynamics and actin regulation: TB-500 enhances cell migration and motor control.
+5. Anti-inflammatory signaling in glands/mucosa: KPV suppresses cytokine-driven hyperactivity.
+6. Tissue protection and innate repair: ARA-290 mitigates neuropathic and inflammatory damage.
+7. Antimicrobial defense against complications: LL-37 prevents infections from chronic moisture exposure.
+8. Neuroprotection for underlying causes: Humanin supports mitochondrial function and neuronal survival.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Drooling (Sialorrhea) p01"
+"Loaded_Programs=Drooling (Sialorrhea) p02"
+"Loaded_Programs=Drooling (Sialorrhea) p03"
+"Loaded_Programs=Drooling (Sialorrhea) p04"
+"Loaded_Programs=Drooling (Sialorrhea) p05"
+"Loaded_Programs=Drooling (Sialorrhea) p06"
+"Loaded_Programs=Drooling (Sialorrhea) p07"
+"Loaded_Programs=Drooling (Sialorrhea) p08"
+"Loaded_Frequencies=M145.020=1,M131.040,M97.053,M101.048,M147.068,M128.058,M147.068,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"[/Preset]"

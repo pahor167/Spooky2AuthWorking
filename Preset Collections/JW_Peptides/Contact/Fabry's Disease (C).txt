@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Fabry’s Disease (C)"
+"Preset_Notes=Fabry’s Disease for Contact
+
+Fabry's Disease, also known as Fabry disease, is a rare X-linked lysosomal storage disorder caused by mutations in the GLA gene, which encodes the enzyme alpha-galactosidase A ({alpha}-Gal A). This genetic defect leads to deficient or absent enzyme activity, resulting in the progressive accumulation of glycosphingolipids, particularly globotriaosylceramide (Gb3) and its deacylated derivative lyso-Gb3, in the lysosomes of various cell types throughout the body. The accumulation begins in utero and continues throughout life, affecting multiple organs and systems. Early symptoms often appear in childhood or adolescence and include acroparesthesia (intense burning pain in the hands and feet triggered by stress, temperature changes, or exercise), angiokeratomas (small, dark red spots on the skin due to vascular dilation), hypohidrosis or anhidrosis (reduced or absent sweating leading to heat intolerance), gastrointestinal disturbances such as abdominal pain, diarrhea, and nausea, and corneal opacities known as cornea verticillata. As the disease progresses into adulthood, it causes severe complications including chronic kidney disease leading to end-stage renal failure, cardiac manifestations such as left ventricular hypertrophy, arrhythmias, valvular dysfunction, and ischemic heart disease, cerebrovascular events like transient ischemic attacks and strokes, and neurological issues including hearing loss, tinnitus, and peripheral neuropathy. The pathophysiology involves not only direct lysosomal dysfunction and substrate accumulation but also secondary processes such as chronic inflammation mediated by innate immune responses, oxidative stress from reactive oxygen species, mitochondrial dysfunction, endothelial cell injury leading to vascular pathology, autophagy impairment, ferroptosis in renal podocytes, and fibrosis in organs like the heart and kidneys. These cascading effects amplify organ damage and contribute to reduced life expectancy, with males typically experiencing more severe symptoms due to the X-linked inheritance, while females can have variable expression due to X-chromosome inactivation.
+
+The proposed polypeptides address Fabry disease through multiple mechanistic pathways, prioritizing real-world polypeptides and supplementing with designed ones to cover all therapeutic axes. The real-world 5A peptide mimics apolipoprotein A1 to facilitate cholesterol and Gb3 efflux from fibroblasts via ABCA1 pathways, reducing lipid trapping in lysosomes and alleviating storage burden. The real-world His16 peptide serves as a carrier for lysosome-targeted delivery, enabling organelle replacement therapy to restore lysosomal function and enzyme activity. The designed polypeptides are flagged as conceptual and include homopeptides tailored to specific axes: poly-A (designed) provides structural flexibility for potential chaperone-like stabilization of mutant GLA; poly-C (designed) supports disulfide bond formation to enhance protein stability in oxidative environments; poly-D (designed) offers acidic properties to modulate lysosomal pH and improve enzyme activity; poly-E (designed) similarly aids in pH regulation and mitochondrial protection; poly-F (designed) promotes hydrophobic interactions for Gb3 binding and clearance; poly-G (designed) acts as a flexible linker in potential fusion constructs for substrate reduction; poly-H (designed) enables pH-sensitive release for targeted lysosomal delivery; poly-I (designed) enhances membrane penetration for endothelial function improvement; poly-K (designed) provides basic residues for anti-inflammatory effects via cytokine modulation; poly-L (designed) supports hydrophobic cores for autophagy induction; poly-M (designed) incorporates sulfur for redox balance and oxidative stress reduction; poly-N (designed) offers polar groups for fibrosis inhibition through matrix remodeling; poly-P (designed) introduces rigidity for structural support in cardiac tissue; poly-Q (designed) aids in polar interactions for ferroptosis prevention; poly-R (designed) facilitates cell penetration and innate immune modulation; poly-S (designed) promotes phosphorylation sites for signaling in renal protection. These designed polypeptides are feasible based on known peptide physicochemical properties, such as pH sensitivity of histidine, basic cell-penetrating ability of arginine, and hydrophobic membrane interactions of phenylalanine, though clinical translation would require further validation.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Fabry’s Disease p01"
+"Loaded_Programs=Fabry’s Disease p02"
+"Loaded_Programs=Fabry’s Disease p03"
+"Loaded_Programs=Fabry’s Disease p04"
+"Loaded_Programs=Fabry’s Disease p05"
+"Loaded_Programs=Fabry’s Disease p06"
+"Loaded_Programs=Fabry’s Disease p07"
+"Loaded_Programs=Fabry’s Disease p08"
+"Loaded_Programs=Fabry’s Disease p09"
+"Loaded_Programs=Fabry’s Disease p10"
+"Loaded_Programs=Fabry’s Disease p11"
+"Loaded_Programs=Fabry’s Disease p12"
+"Loaded_Programs=Fabry’s Disease p13"
+"Loaded_Programs=Fabry’s Disease p14"
+"Loaded_Programs=Fabry’s Disease p15"
+"Loaded_Programs=Fabry’s Disease p16"
+"Loaded_Programs=Fabry’s Disease p17"
+"Loaded_Programs=Fabry’s Disease p18"
+"Loaded_Frequencies=M115.027=1,M186.079,M113.084,M128.095,M71.037,M147.068,M163.063,M115.027,M128.095,M99.068,M71.037,M129.043,M128.095,M113.084,M128.095,M129.043,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,0=4,"
+"Loaded_Frequencies=M71.037=1,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,0=4,"
+"Loaded_Frequencies=M103.009=1,M103.009,M103.009,M103.009,M103.009,M103.009,M103.009,M103.009,0=4,"
+"Loaded_Frequencies=M115.027=1,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M129.043,M129.043,M129.043,M129.043,M129.043,M129.043,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M131.040,M131.040,M131.040,M131.040,M131.040,M131.040,M131.040,0=4,"
+"Loaded_Frequencies=M114.043=1,M114.043,M114.043,M114.043,M114.043,M114.043,M114.043,M114.043,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,0=4,"
+"Loaded_Frequencies=M128.058=1,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M87.032,M87.032,M87.032,M87.032,M87.032,M87.032,0=4,"
+"[/Preset]"

@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Patent Ductus Arteriosus (P)"
+"Preset_Notes=Patent Ductus Arteriosus for Plasma
+
+Patent Ductus Arteriosus (PDA) is a congenital heart defect in which the ductus arteriosus fails to close after birth, resulting in persistent left-to-right shunting of oxygenated blood, increased pulmonary flow, left heart volume overload, and potential progression to congestive heart failure or pulmonary hypertension.
+1. Urotensinergic vasoconstriction: Urotensin-II - Potent urotensin receptor agonist inducing strong contraction of ductal smooth muscle to promote anatomical closure.
+2. Angiotensinergic vasoconstriction: Angiotensin-II - Activates AT1 receptors to enhance vascular tone and constrict the patent ductal vessel.
+3. Vasopressinergic vasoconstriction: Vasopressin - Stimulates V1a receptors on vascular smooth muscle for targeted constriction of the ductus arteriosus.
+4. Anti-inflammatory tissue protection: ARA-290 - Activates innate repair receptor (IRR) to reduce inflammation and support protective remodeling in ductal and cardiac tissues.
+5. Apelinergic cardioprotection: Apelin-13 - Engages APJ receptors to improve cardiac contractility, hemodynamics, and resilience in shunting-related stress.
+6. Mitochondrial metabolic regulation: MOTS-c - Mitochondrial-derived peptide enhancing energy homeostasis and oxidative stress resistance in cardiovascular cells.
+7. Endothelin receptor agonism: ET-Hexa - Designed C-terminal endothelin-1 mimetic hexapeptide selectively activating endothelin receptors for potent ductal smooth muscle constriction.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Patent Ductus Arteriosus p01"
+"Loaded_Programs=Patent Ductus Arteriosus p02"
+"Loaded_Programs=Patent Ductus Arteriosus p03"
+"Loaded_Programs=Patent Ductus Arteriosus p04"
+"Loaded_Programs=Patent Ductus Arteriosus p05"
+"Loaded_Programs=Patent Ductus Arteriosus p06"
+"Loaded_Programs=Patent Ductus Arteriosus p07"
+"Loaded_Frequencies=M129.043=1,M101.048,M97.053,M115.027,M102.001,M147.068,M186.079,M128.095,M163.063,M102.001,M99.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M113.084,M115.027,M113.084,M113.084,M186.079,0=4,"
+"[/Preset]"

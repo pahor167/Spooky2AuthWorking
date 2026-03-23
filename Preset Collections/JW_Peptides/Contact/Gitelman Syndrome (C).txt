@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Gitelman Syndrome (C)"
+"Preset_Notes=Gitelman Syndrome for Contact
+
+Gitelman Syndrome is an autosomal recessive renal tubulopathy caused by loss-of-function mutations in the SLC12A3 gene, which encodes the thiazide-sensitive sodium-chloride cotransporter (NCC) in the distal convoluted tubule of the kidney. This defect impairs sodium and chloride reabsorption, leading to volume contraction, secondary hyperaldosteronism, and consequent urinary wasting of potassium and magnesium. Patients typically present with hypokalemia, metabolic alkalosis, hypomagnesemia, and hypocalciuria, manifesting as fatigue, muscle cramps, tetany, and potentially life-threatening cardiac arrhythmias. Current management is limited to lifelong oral supplementation of potassium and magnesium, with no therapies targeting the underlying molecular defect. Emerging research highlights three key therapeutic axes: (1) restoration of NCC transporter function through correction of misfolding or enhanced membrane trafficking, (2) activation of the TRPM6 magnesium channel to counteract renal magnesium loss, and (3) inhibition of the ROMK potassium channel to reduce potassium excretion. The proposed set includes one real-world investigational peptide-the NCC-stabilizing peptide (RQVPSDLEKL)-derived from patent literature and designed to enhance NCC stability. Complementing this, two designed peptides are introduced: D1-TRPM6activator, a short motif hypothesized to mimic growth factor-mediated TRPM6 activation, and D2-ROMKinhibitor, engineered to block ROMK-mediated potassium secretion. Together, these candidates offer a multi-target theoretical approach to correct the core electrolyte imbalances in Gitelman Syndrome at their physiological source.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Gitelman Syndrome p01"
+"Loaded_Programs=Gitelman Syndrome p02"
+"Loaded_Programs=Gitelman Syndrome p03"
+"Loaded_Frequencies=M156.101=1,M128.058,M99.068,M97.053,M87.032,M115.027,M113.084,M129.043,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M137.059,M114.043,M129.043,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M186.079,M128.095,M156.101,M115.027,0=4,"
+"[/Preset]"

@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Fibrodysplasia Ossificans Progressiva (L)"
+"Preset_Notes=Fibrodysplasia Ossificans Progressiva for Laser
+
+Fibrodysplasia Ossificans Progressiva (FOP) is an ultra-rare genetic disorder characterized by progressive heterotopic ossification (HO), where soft tissues such as muscles, tendons, and ligaments abnormally convert into bone, leading to severe disability and restricted mobility. The primary cause is a gain-of-function mutation in the ACVR1 gene (typically R206H), which encodes the ALK2 receptor, rendering it hypersensitive to ligands like Activin A and BMPs, triggering aberrant Smad1/5/8 signaling and ectopic bone formation. Triggers include trauma, inflammation, or spontaneous flare-ups with swelling and pain; symptoms manifest early with congenital great toe malformations, followed by episodic HO that locks joints, impairs respiration, and reduces lifespan. Pathophysiology involves dysregulated BMP signaling, enhanced by inflammation (mast cells, macrophages), oxidative stress, mTOR amplification, NF-{kappa}B activation, and TGF-{beta} pathways, culminating in endochondral ossification. Untreated, FOP leads to immobility by adulthood, with complications like restrictive lung disease.
+
+The proposed polypeptides conceptually address FOP axes: designed D1 binds mutant ACVR1 to inhibit aberrant BMP signaling; designed D2 neutralizes Activin A to prevent ligand-induced activation; designed D3 suppresses mTOR to reduce HO amplification; designed D4 blocks NF-{kappa}B for anti-inflammatory effects; designed D5 targets ROS/NLRP3 to mitigate oxidative stress-driven fibrosis. Feasibility: Short sequences ensure stability, low immunogenicity, potential intramuscular delivery for flare-up prevention, but require preclinical testing for specificity and biodistribution; physicochemical properties include neutral charge for tissue penetration.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Fibrodysplasia Ossificans Progressiva p01"
+"Loaded_Programs=Fibrodysplasia Ossificans Progressiva p02"
+"Loaded_Programs=Fibrodysplasia Ossificans Progressiva p03"
+"Loaded_Programs=Fibrodysplasia Ossificans Progressiva p04"
+"Loaded_Programs=Fibrodysplasia Ossificans Progressiva p05"
+"Loaded_Frequencies=M156.101=1,M128.095,M137.059,M147.068,M97.053,M57.021,M128.058,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M101.048,M114.043,M99.068,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M129.043,M115.027,M163.063,M114.043,M97.053,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.058,M156.101,M113.084,M137.059,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M129.043,M115.027,M87.032,M114.043,M113.084,M128.095,M128.095,M99.068,M99.068,M113.084,M99.068,M163.063,0=4,"
+"[/Preset]"

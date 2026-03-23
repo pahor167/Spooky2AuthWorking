@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Disc Degeneration (R)"
+"Preset_Notes=Disc Degeneration for Remote
+
+Intervertebral disc degeneration (IVDD) is a progressive condition characterized by dehydration of the nucleus pulposus, extracellular matrix degradation, inflammation, cell apoptosis, and structural failure, often resulting in chronic low back pain.
+1. Nucleus pulposus ECM restoration: Link-N - Naturally occurring N-terminal link protein peptide that stimulates aggrecan and collagen II synthesis while stabilizing proteoglycan aggregates in disc cells.
+2. Inflammation resolution: Annexin_A1_Ac2-26 - N-terminal annexin A1 mimetic that activates formyl peptide receptors to resolve inflammation and shift to regenerative macrophage phenotypes.
+3. Cellular repair and migration: Thymosin_beta_4 - Promotes actin-mediated cell migration, angiogenesis modulation, and anti-fibrotic effects to support disc tissue remodeling.
+4. Neuroprotection: ARA-290 - Non-erythropoietic EPO derivative that activates innate repair receptors to reduce neuropathic pain and protect neural elements in degenerative discs.
+5. Anti-apoptosis: Humanin - Mitochondrial-derived peptide that inhibits Bax activation and protects nucleus pulposus cells from oxidative and inflammatory apoptosis.
+6. Therapeutic angiogenesis: Stabilized QK - Designed VEGF-mimetic peptide that promotes controlled vascularization to enhance nutrient delivery to the avascular disc without excessive invasion.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Disc Degeneration p01"
+"Loaded_Programs=Disc Degeneration p02"
+"Loaded_Programs=Disc Degeneration p03"
+"Loaded_Programs=Disc Degeneration p04"
+"Loaded_Programs=Disc Degeneration p05"
+"Loaded_Programs=Disc Degeneration p06"
+"Loaded_Frequencies=M115.027=1,M137.059,M113.084,M87.032,M115.027,M114.043,M163.063,M101.048,M113.084,M115.027,M137.059,M115.027,M156.101,M71.037,M113.084,M137.059,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M170.106=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M112.100,0=4,"
+"[/Preset]"

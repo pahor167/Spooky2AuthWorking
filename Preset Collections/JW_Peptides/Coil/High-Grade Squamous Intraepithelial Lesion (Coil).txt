@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=High-Grade Squamous Intraepithelial Lesion (Coil)"
+"Preset_Notes=High-Grade Squamous Intraepithelial Lesion for Coil
+
+High-grade squamous intraepithelial lesion (HSIL) VIN 3
+
+High-grade squamous intraepithelial lesion (HSIL) VIN 3 is a precancerous vulvar condition driven primarily by high-risk HPV (especially HPV16), featuring severe squamous dysplasia with potential for progression to invasive carcinoma. Therapeutic peptide vaccines targeting HPV16 E6 and E7 oncoproteins have demonstrated clinical efficacy in regressing lesions by eliciting strong T-cell responses, as evidenced by trials like the synthetic long-peptide vaccine for VIN3 and PepCan for HSIL.
+
+1. HPV16 E6 N-terminal targeting: PepCan-E6(1-45) - Real-world vaccine peptide inducing T-cell immunity against E6 N-terminal region
+2. HPV16 E6 central targeting 1: PepCan-E6(46-80) - Real-world vaccine peptide targeting central E6 segment for enhanced immune attack
+3. HPV16 E6 central targeting 2: PepCan-E6(81-115) - Real-world vaccine peptide covering additional central E6 epitopes
+4. HPV16 E6 C-terminal targeting: PepCan-E6(116-158) - Real-world vaccine peptide targeting E6 C-terminal including PDZ domain
+5. HPV16 E7 N-terminal targeting: Designed-E7-LP1 - Designed long peptide for broad T-cell activation against E7 N-terminal epitopes
+6. HPV16 E7 mid overlapping targeting: Designed-E7-LP2 - Designed overlapping long peptide covering mid E7 region
+7. HPV16 E7 pRb-binding targeting: Designed-E7-LP3 - Designed long peptide focused on E7 pRb-binding domain to disrupt cell cycle dysregulation
+8. HPV16 E7 C-terminal targeting: Designed-E7-LP4 - Designed long peptide targeting E7 zinc finger domain
+9. CK2 kinase inhibition: CIGB-300 - Real-world cell-penetrating peptide inhibiting CK2, inducing apoptosis in HPV-related neoplastic cells
+10. Tumor growth inhibition: Azurin_p28 - Real-world peptide with preferential cancer cell penetration and anti-proliferative effects
+11. Inflammation resolution: Annexin_A1_Ac2-26 - Real-world anti-inflammatory peptide promoting resolution of chronic lesion inflammation
+12. Antiviral immune enhancement: Alloferon-1 - Real-world peptide stimulating NK activity and interferon for adjunctive HPV clearance
+
+"
+"Loaded_Programs=High-Grade Squamous Intraepithelial Lesion p01"
+"Loaded_Programs=High-Grade Squamous Intraepithelial Lesion p02"
+"Loaded_Programs=High-Grade Squamous Intraepithelial Lesion p03"
+"Loaded_Programs=High-Grade Squamous Intraepithelial Lesion p04"
+"Loaded_Programs=High-Grade Squamous Intraepithelial Lesion p05"
+"Loaded_Programs=High-Grade Squamous Intraepithelial Lesion p06"
+"Loaded_Programs=High-Grade Squamous Intraepithelial Lesion p07"
+"Loaded_Programs=High-Grade Squamous Intraepithelial Lesion p08"
+"Loaded_Programs=High-Grade Squamous Intraepithelial Lesion p09"
+"Loaded_Programs=High-Grade Squamous Intraepithelial Lesion p10"
+"Loaded_Programs=High-Grade Squamous Intraepithelial Lesion p11"
+"Loaded_Programs=High-Grade Squamous Intraepithelial Lesion p12"
+"Loaded_Frequencies=M131.040=1,M137.059,M128.058,M128.095,M156.101,M101.048,M71.037,M131.040,M147.068,M128.058,M115.027,M97.053,M128.058,M129.043,M156.101,M97.053,M156.101,M128.095,M113.084,M97.053,M128.058,M113.084,M103.009,M101.048,M129.043,M113.084,M128.058,M101.048,M101.048,M113.084,M137.059,M115.027,M113.084,M113.084,M113.084,M129.043,M103.009,M99.068,M163.063,M103.009,M128.095,M128.058,M128.058,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M129.043,M99.068,M163.063,M115.027,M147.068,M71.037,M147.068,M156.101,M115.027,M113.084,M103.009,M113.084,M99.068,M163.063,M156.101,M115.027,M57.021,M114.043,M97.053,M163.063,M71.037,M99.068,M103.009,M115.027,M128.095,M103.009,M113.084,M128.095,M147.068,M163.063,M87.032,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M137.059,M163.063,M103.009,M163.063,M87.032,M113.084,M163.063,M57.021,M101.048,M101.048,M113.084,M129.043,M128.058,M128.058,M163.063,M114.043,M128.095,M97.053,M113.084,M103.009,M115.027,M113.084,M113.084,M113.084,M156.101,M103.009,M113.084,M114.043,M103.009,M128.095,M128.095,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M103.009=1,M97.053,M129.043,M129.043,M128.095,M128.058,M137.059,M113.084,M115.027,M115.027,M128.058,M128.095,M128.058,M147.068,M137.059,M114.043,M113.084,M156.101,M57.021,M87.032,M156.101,M186.079,M186.079,M101.048,M156.101,M128.095,M103.009,M103.009,M87.032,M87.032,M156.101,M87.032,M87.032,M156.101,M156.101,M128.095,M113.084,M87.032,M87.032,M101.048,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M137.059,M57.021,M115.027,M101.048,M97.053,M101.048,M113.084,M137.059,M129.043,M163.063,M131.040,M113.084,M115.027,M115.027,M128.058,M97.053,M129.043,M101.048,M101.048,M115.027,M113.084,M163.063,M103.009,M163.063,M129.043,M128.058,M113.084,M114.043,M115.027,M87.032,M87.032,M129.043,M129.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M103.009,M163.063,M129.043,M128.058,M113.084,M114.043,M115.027,M87.032,M87.032,M129.043,M129.043,M129.043,M115.027,M129.043,M113.084,M115.027,M57.021,M97.053,M71.037,M57.021,M128.058,M71.037,M129.043,M97.053,M115.027,M156.101,M71.037,M137.059,M163.063,M114.043,M99.068,M101.048,0=4,"
+"Loaded_Frequencies=M97.053=1,M115.027,M156.101,M71.037,M137.059,M163.063,M114.043,M99.068,M101.048,M101.048,M147.068,M103.009,M103.009,M128.095,M103.009,M115.027,M87.032,M101.048,M113.084,M156.101,M113.084,M103.009,M99.068,M128.058,M87.032,M101.048,M137.059,M99.068,M115.027,M113.084,M156.101,M101.048,M113.084,M129.043,0=4,"
+"Loaded_Frequencies=M103.009=1,M99.068,M128.058,M87.032,M101.048,M137.059,M99.068,M115.027,M113.084,M156.101,M101.048,M113.084,M129.043,M115.027,M113.084,M113.084,M131.040,M57.021,M101.048,M113.084,M57.021,M113.084,M99.068,M103.009,M97.053,M113.084,M103.009,M87.032,M128.058,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M114.043,M156.101,M97.053,M129.043,M113.084,M101.048,M128.058,M186.079,M87.032,M156.101,M114.043,M113.084,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M101.048,M71.037,M71.037,M115.027,M131.040,M128.058,M57.021,M99.068,M99.068,M101.048,M115.027,M57.021,M131.040,M71.037,M87.032,M57.021,M113.084,M115.027,M128.095,M115.027,M163.063,M113.084,M128.095,M97.053,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M99.068,M87.032,M57.021,M137.059,M57.021,M128.058,M137.059,M57.021,M99.068,M137.059,M57.021,0=4,"
+"[/Preset]"

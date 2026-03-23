@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Bladder Cancer (Coil)"
+"Preset_Notes=Bladder Cancer for Coil
+
+Bladder cancer, predominantly urothelial carcinoma, features chronic mucosal irritation, inflammation, immune evasion, angiogenesis, and treatment-related complications including cystitis, fibrosis, and impaired healing. The proposed polypeptides, supported by preclinical studies on antitumor activity, urothelial regeneration, inflammation resolution, and protective mechanisms, target these pathways for direct cytotoxicity, supportive care, and potential adjunctive therapy.
+
+1. Frog skin-derived antimicrobial peptide selective antitumor action: Magainin 2 induces membrane disruption and apoptosis in bladder cancer cells with low normal cell toxicity.
+2. Stable gastric pentadecapeptide urothelial protection and healing: BPC-157 accelerates bladder mucosa repair and resolves inflammatory damage in cystitis models.
+3. {alpha}-MSH-derived tripeptide potent anti-inflammatory effects: KPV suppresses cytokine-mediated inflammation relevant to bladder cancer-associated irritation.
+4. Copper-binding tripeptide gene modulation and regeneration: GHK-Cu resets cancer-associated gene expression and promotes antioxidant tissue remodeling.
+5. Acetylated thymosin {beta}4 fragment-enhanced migration and re-epithelialization: TB-500 supports actin-mediated healing in damaged urothelium.
+6. Pyroglutamate-modified EPO fragment innate repair activation: ARA-290 reduces chronic inflammation and enhances tissue protection.
+7. Engineered amphipathic cationic pro-apoptotic disruption: Ac-KLAKLAKKLAKLAK-NH2 targets mitochondrial membranes to induce cancer cell death, derived from literature motifs in targeted bladder therapies.
+
+"
+"Loaded_Programs=Bladder Cancer p01"
+"Loaded_Programs=Bladder Cancer p02"
+"Loaded_Programs=Bladder Cancer p03"
+"Loaded_Programs=Bladder Cancer p04"
+"Loaded_Programs=Bladder Cancer p05"
+"Loaded_Programs=Bladder Cancer p06"
+"Loaded_Programs=Bladder Cancer p07"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M170.106=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M127.111,0=4,"
+"[/Preset]"

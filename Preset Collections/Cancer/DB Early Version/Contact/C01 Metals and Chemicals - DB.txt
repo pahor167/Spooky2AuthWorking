@@ -1,0 +1,68 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=C01 Metals and Chemicals - DB"
+"Repeat_Sequence=2"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=152000"
+"BFB_Initial_Step_Size_Hz=20"
+"BFB_Start_Delay=30"
+"Swap_Waveform_Time=60"
+"Preset_Notes=Cancer Protocol, Phase I-Terrain. Contact Mode.
+
+Update: February 2017.
+
+This Preset runs twice. 10sec pause with alert between programs as shown in Programs column left, 30sec pause/alert at loop point/end.
+
+PROGRAM:
+Arsenic as XTRA
+Mercury Toxicity V CAFL
+Heavy Metal Toxicity XTRA
+Pesticide Detox CAFL
+Detox Fluoride 2 XTRA
+Detox Fluoride XTRA
+Calcifications XTRA
+Detox Matrix XTRA"
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"Text41=5"
+"Triangle_Spike_Ratio=2"
+"User_Defined_1_Waveform=Colloidal Silver"
+"Manual_Start=False"
+"BFB_HRV=True"
+"BFB_Detect_mA=False"
+"Out1_Sine=False"
+"Out1_Square=True"
+"BFB_2DP_Max=1"
+"Enable_Tissue_Factor=0"
+"Notify_When_Zero_Hz=0"
+"Loaded_Programs=Pause 60 Seconds (XTRA)"
+"Loaded_Programs=Arsenic as (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Mercury Toxicity V (CAFL)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Heavy Metal Toxicity (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Pesticide Detox (CAFL)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Detox Fluoride 2 (XTRA)"
+"Loaded_Programs=Detox Fluoride (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Detox Matrix (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=60,"
+"Loaded_Frequencies=364.56=180,393=180,16724.61=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=47=300,48=300,49=300,75=300,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=317=180,1902=180,4202.3=180,5333.69=180,9887=180,14164.1=180,15952.79=180,19007.15=180,19007.2=180,19169.38=180,19516.29=180,21822.15=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=73=180,26=180,6=180,1=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=158.87=420,56656.4=420,"
+"Loaded_Frequencies=19169.38=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=10000=180,3176=180,3040=180,880=180,787=180,751=180,727=180,625=180,522=180,465=180,444=180,440=180,1505=180,1035.9=180,3176=180,676=180,635=180,146=180,250=180,304=180,306=180,148=180,152=180,63=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

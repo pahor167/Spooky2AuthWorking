@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Hemorrhoids (Symptomatic Internal & External Piles) (R)"
+"Preset_Notes=Hemorrhoids (Symptomatic Internal & External Piles) for Remote
+
+Hemorrhoids, also known as piles, are swollen and inflamed veins in the anus and lower rectum, causing symptoms such as pain, itching, bleeding, and discomfort in both internal and external forms. The proposed polypeptides target evidence-based therapeutic axes from literature, preclinical studies, and patents on inflammation reduction, tissue repair, vascular integrity, pain relief, and infection prevention to alleviate symptoms and promote healing.
+
+1. Promotion of tissue healing and regeneration: BPC-157 accelerates wound closure and fistula healing in ano-rectal models.
+2. Anti-inflammatory effects: KPV suppresses inflammation and reduces swelling via melanocortin pathways.
+3. Vasoprotective and microcirculation improvement: VIP regulates vascular tone and enhances blood flow in hemorrhoidal tissue.
+4. Muscle relaxation and symptom relief: Argireline provides botox-like effects to reduce spasms and pain, as per patent evidence.
+5. Additional analgesic and anti-spasm effects: Pentapeptide-18 complements botox-like action for hemorrhoidal symptom improvement, supported by patents.
+6. Antimicrobial and auxiliary wound healing: LL-37 offers defense against infections and supports epithelial repair.
+7. Neuroprotection and anti-inflammation: ARA-290 mitigates tissue damage and inflammation in vascular conditions.
+8. Actin sequestration and regenerative support: Thymosin beta 4 promotes cell migration and reduces inflammation for tissue stability.
+9. Novel optimization for multi-target anti-edema and healing: HemMulti-Eng integrates motifs for enhanced edema reduction and regeneration.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Hemorrhoids (Symptomatic Internal & External Piles) p01"
+"Loaded_Programs=Hemorrhoids (Symptomatic Internal & External Piles) p02"
+"Loaded_Programs=Hemorrhoids (Symptomatic Internal & External Piles) p03"
+"Loaded_Programs=Hemorrhoids (Symptomatic Internal & External Piles) p04"
+"Loaded_Programs=Hemorrhoids (Symptomatic Internal & External Piles) p05"
+"Loaded_Programs=Hemorrhoids (Symptomatic Internal & External Piles) p06"
+"Loaded_Programs=Hemorrhoids (Symptomatic Internal & External Piles) p07"
+"Loaded_Programs=Hemorrhoids (Symptomatic Internal & External Piles) p08"
+"Loaded_Programs=Hemorrhoids (Symptomatic Internal & External Piles) p09"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M57.021,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M113.084,M57.021,M128.095,M99.068,M57.021,M156.101,M128.095,M128.095,0=4,"
+"[/Preset]"

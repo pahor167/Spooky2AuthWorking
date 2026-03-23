@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Insulin Receptor (IR) Correction (L)"
+"Preset_Notes=Insulin Receptor (IR) Correction for Laser
+
+Insulin receptor (IR) dysfunction, characterized by impaired ligand binding, reduced receptor tyrosine kinase activity, or accelerated receptor degradation, is the primary driver of severe insulin resistance syndromes and type 2 diabetes. Correcting IR function involves enhancing the structural stability of the receptor dimer, mimicking insulin-induced conformational changes without triggering mitogenic pathways, and preventing the inhibitory phosphorylation of the insulin receptor substrate (IRS) proteins. Therapeutic intervention targets the extracellular alpha-subunits to facilitate allosteric activation or the intracellular beta-subunits to sustain autophosphorylation. Modern polypeptide design focuses on biased signaling to favor metabolic glucose uptake over cellular proliferation, ensuring homeostatic glucose control while minimizing oncogenic risk.
+
+1. Insulin Mimicry: S597 - An insulin receptor agonist that binds to a site distinct from insulin, promoting glucose uptake with reduced mitogenic activity.
+2. Tyrosine Kinase Sensitization: IR-A-Agonist - Enhances the catalytic efficiency of the IR beta-subunit to sustain downstream PI3K/Akt signaling.
+3. Degradation Inhibition: Grb10-Inhibitor - Disrupts the binding of Grb10 to the activated receptor, preventing premature ubiquitination and degradation.
+4. Allosteric Modulation: Site-2 Peptide - Binds to the secondary interaction surface of the IR to stabilize the high-affinity 'active' conformation.
+5. IRS-1 Stabilization: Phospho-YMXM-Peptide - Acts as a competitive decoy for protein tyrosine phosphatases (PTPs) to maintain IRS-1 in its active phosphorylated state.
+6. Internalization Delay: Clathrin-Blocker-P4 - Specifically inhibits the clathrin-mediated endocytosis of the IR complex to increase cell-surface density.
+7. Receptor Chaperoning: BIP-Mimetic - Assists in the proper folding and membrane trafficking of mutated IR variants in Congenital Insulin Resistance.
+8. Optimization Axis (Designed): IR-Sync-1 - A synthetic bivalent peptide designed to cross-link IR monomers and force the closure of the kinase domains in the absence of insulin.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Insulin Receptor (IR) Correction p01"
+"Loaded_Programs=Insulin Receptor (IR) Correction p02"
+"Loaded_Programs=Insulin Receptor (IR) Correction p03"
+"Loaded_Programs=Insulin Receptor (IR) Correction p04"
+"Loaded_Programs=Insulin Receptor (IR) Correction p05"
+"Loaded_Programs=Insulin Receptor (IR) Correction p06"
+"Loaded_Programs=Insulin Receptor (IR) Correction p07"
+"Loaded_Programs=Insulin Receptor (IR) Correction p08"
+"Loaded_Frequencies=M147.068=1,M163.063,M115.027,M129.043,M113.084,M113.084,M128.058,M113.084,M163.063,M113.084,M113.084,M57.021,M147.068,M128.058,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M113.084,M156.101,M129.043,M113.084,M113.084,M156.101,M129.043,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M128.058=1,M113.084,M101.048,M129.043,M115.027,M128.058,M113.084,M101.048,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M163.063=1,M131.040,M57.021,M131.040,M163.063,M131.040,M57.021,M131.040,M243.029,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M113.084,M113.084,M113.084,M97.053,M97.053,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M115.027,M129.043,M113.084,M113.084,M115.027,M129.043,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,0=4,"
+"[/Preset]"

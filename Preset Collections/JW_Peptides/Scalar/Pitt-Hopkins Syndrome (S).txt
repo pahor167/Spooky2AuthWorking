@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Pitt-Hopkins Syndrome (S)"
+"Preset_Notes=Pitt-Hopkins Syndrome for Scalar
+
+Pitt-Hopkins Syndrome (PTHS) is a rare autosomal dominant neurodevelopmental disorder caused by heterozygous de novo mutations (typically loss-of-function deletions, truncations, or missense variants) in the TCF4 gene on chromosome 18q21.2, encoding transcription factor 4, a basic helix-loop-helix protein essential for neuronal proliferation, differentiation, and Wnt/{beta}-catenin pathway regulation in the developing brain, particularly in the cortex, hippocampus, and pontine nuclei. Core clinical features include severe intellectual disability with absent or severely limited speech, motor delays with ataxia or hypotonia, distinctive facial dysmorphism (deep-set eyes, broad nasal bridge, tented upper lip, coarse features), stereotypic hand movements, episodes of abnormal breathing (intermittent hyperventilation followed by apnea), seizures or EEG abnormalities in approximately half of cases, constipation, myopia, and a characteristically happy demeanor with frequent inappropriate laughter. Pathophysiology centers on TCF4 haploinsufficiency disrupting downstream gene expression critical for neurogenesis, synaptic maturation, and autonomic respiratory control, with secondary effects on excitatory-inhibitory balance contributing to epilepsy risk.
+
+The proposed polypeptides are all conceptual designed sequences (flagged as designed) owing to the absence of any documented real-world polypeptide therapeutics across literature, patents, clinical trials, or databases for this ultra-rare condition, where management remains supportive. A designed polybasic polypeptide (flagged as designed) conceptually enhances transcriptional activation to partially compensate for TCF4 loss via charged interactions with DNA or cofactors. A designed acidic polypeptide (flagged as designed) conceptually modulates Wnt signaling or neuronal excitability through negative charge clustering. A designed aromatic-rich polypeptide (flagged as designed) conceptually provides neurotrophic stabilization and synaptic support for developmental deficits. A designed proline-rich polypeptide (flagged as designed) conceptually aids structural maturation of neuronal networks and respiratory control centers. These short polypeptides exhibit excellent synthetic feasibility, high aqueous solubility from charged or rigid motifs, metabolic stability without PTMs, and low immunogenicity potential.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Pitt-Hopkins Syndrome p01"
+"Loaded_Programs=Pitt-Hopkins Syndrome p02"
+"Loaded_Programs=Pitt-Hopkins Syndrome p03"
+"Loaded_Programs=Pitt-Hopkins Syndrome p04"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M147.068,M186.079,M163.063,M147.068,M186.079,M163.063,M147.068,M186.079,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M128.095,M97.053,M97.053,M97.053,M128.095,M97.053,M97.053,M97.053,0=4,"
+"[/Preset]"

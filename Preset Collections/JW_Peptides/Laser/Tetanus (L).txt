@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Tetanus (L)"
+"Preset_Notes=Tetanus for Laser
+
+Tetanus is an acute, often fatal neurological disorder caused by tetanospasmin toxin produced by Clostridium tetani, leading to severe muscle spasms, rigidity, autonomic instability, and neuronal excitotoxicity, typically entering through wounds. The proposed polypeptides target supportive therapeutic axes from preclinical studies on bacterial infections, neurotoxin mitigation, inflammation control, muscle modulation, tissue protection, and neuronal uptake inhibition to aid immune clearance, symptom alleviation, and recovery.
+
+1. Immunostimulation via T-cell and dendritic cell activation to enhance antibacterial response: Thymosin_alpha_1
+2. Cationic host defense peptide with membrane-disrupting activity against Gram-positive bacteria at wound sites: LL-37
+3. {alpha}-MSH-derived anti-inflammatory effects to mitigate cytokine-mediated exacerbation and spasms: KPV
+4. Vasoactive intestinal peptide receptor agonism for muscle relaxation and autonomic stabilization: VIP
+5. Stable gastric pentadecapeptide-mediated cytoprotection and tissue integrity maintenance: BPC-157
+6. ACTH fragment-derived nootropic effects with neuroprotection and BDNF upregulation: Semax
+7. Engineered acetylation/amidation-stabilized ganglioside-binding mimic (Tet1 motif) for competitive inhibition of toxin neuronal entry: Ac-HLNILSTLWKYR-NH2
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Tetanus p01"
+"Loaded_Programs=Tetanus p02"
+"Loaded_Programs=Tetanus p03"
+"Loaded_Programs=Tetanus p04"
+"Loaded_Programs=Tetanus p05"
+"Loaded_Programs=Tetanus p06"
+"Loaded_Programs=Tetanus p07"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M113.084,M114.043,M113.084,M113.084,M87.032,M101.048,M113.084,M186.079,M128.095,M163.063,M156.101,0=4,"
+"[/Preset]"

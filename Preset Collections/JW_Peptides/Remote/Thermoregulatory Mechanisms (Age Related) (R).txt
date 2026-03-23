@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Thermoregulatory Mechanisms (Age Related) (R)"
+"Preset_Notes=Thermoregulatory Mechanisms (Age Related) for Remote
+
+The age-related decline in thermoregulatory mechanisms refers to the gradual impairment of the body's ability to maintain core body temperature within a narrow range despite environmental fluctuations. This condition is prevalent in older adults and stems from multifactorial causes, including degeneration of the hypothalamic preoptic area, which serves as the central thermostat, reduced sensitivity of peripheral thermoreceptors in the skin, diminished sweat gland function and density, impaired vascular responses (reduced vasodilation for heat loss and vasoconstriction for heat conservation), decreased basal metabolic rate due to sarcopenia and hormonal changes, and altered sympathetic nervous system activity. Symptoms often manifest as increased susceptibility to heat-related illnesses such as heat exhaustion or stroke during hot weather, hypothermia in cold environments, delayed or blunted fever responses to infections, and overall reduced tolerance to temperature extremes, which can exacerbate comorbidities like cardiovascular disease or cognitive impairment. Pathophysiology involves age-associated atrophy in brain regions like the hypothalamus, reduced production of neurotransmitters and neuropeptides, chronic low-grade inflammation (inflamm-aging) affecting cytokine signaling, hormonal imbalances (e.g., reduced thyroid hormone sensitivity, menopause-related changes in estrogen), and cellular level changes such as mitochondrial dysfunction leading to lower heat production. These alterations collectively disrupt the balance between heat production (via metabolism and shivering) and heat loss (via sweating, vasodilation, and radiation), making older individuals more vulnerable to environmental stressors and increasing mortality risk during extreme weather events.
+
+The proposed polypeptides address this condition through various mechanisms targeting the impaired axes of thermoregulation. Alpha-MSH acts centrally in the hypothalamus to elevate the temperature set point and stimulate metabolic heat production, countering reduced thermogenesis in aging. Beta-endorphin modulates opioid receptors to influence temperature perception and autonomic responses, providing biphasic effects on body temperature to aid adaptation. Bombesin binds to its receptors in the brain to induce hypothermic effects, helping to prevent overheating by enhancing heat loss pathways. Neurotensin promotes hypothermia via central nervous system action, improving the body's ability to cool down during heat stress. TRH stimulates thyroid hormone release, boosting metabolic rate and heat production to combat hypothermia risk. DSIP stabilizes temperature during sleep cycles, addressing circadian disruptions in aging thermoregulation. Ghrelin regulates energy balance and reduces unnecessary thermogenesis, aiding in efficient metabolic adjustment. Orexin A enhances wakefulness and increases core temperature through sympathetic activation, countering age-related declines in arousal and thermogenic response. PYY influences gastrointestinal and energy homeostasis, indirectly supporting metabolic rate for temperature maintenance. CGRP promotes peripheral vasodilation and sweat gland activation, facilitating heat dissipation to mitigate heat intolerance. Substance P enhances thermal sensation and vascular responses, improving perception of temperature changes. VIP stimulates vasodilation and sweating, enhancing evaporative heat loss to address impaired sweat response. The designed polypeptides are clearly flagged and conceptually crafted to fill gaps in coverage: Designed1 targets sudomotor function to enhance sweating via cholinergic mimicry; Designed2 improves vasoconstriction for cold response by mimicking alpha-adrenergic signals; Designed3 boosts non-shivering thermogenesis in brown adipose tissue; Designed4 enhances thermal perception through neuropeptide-like action on sensory receptors; Designed5 modulates hypothalamic set point for better central control; Designed6 supports adaptive homeostasis by reducing inflamm-aging effects on cytokine signaling. These polypeptides are feasible based on known peptide pharmacokinetics, with considerations for stability, bioavailability (e.g., amidation for resistance to degradation), solubility in aqueous environments, and potential delivery via nasal or subcutaneous routes to bypass age-related gastrointestinal absorption issues.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p01"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p02"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p03"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p04"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p05"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p06"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p07"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p08"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p09"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p10"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p11"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p12"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p13"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p14"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p15"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p16"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p17"
+"Loaded_Programs=Thermoregulatory Mechanisms (Age Related) p18"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,M101.048,M87.032,M129.043,M128.095,M87.032,M114.043,M101.048,M97.053,M113.084,M99.068,M101.048,M113.084,M147.068,M128.095,M114.043,M71.037,M113.084,M113.084,M128.095,M114.043,M71.037,M163.063,M128.095,M128.095,M57.021,M129.043,0=4,"
+"Loaded_Frequencies=M111.032=1,M128.095,M156.101,M113.084,M57.021,M114.043,M128.095,M186.079,M71.037,M99.068,M57.021,M156.101,M113.084,M149.051,0=4,"
+"Loaded_Frequencies=M111.032=1,M113.084,M128.058,M163.063,M129.043,M114.043,M128.095,M97.053,M156.101,M156.101,M97.053,M163.063,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M111.032=1,M137.059,M96.069,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M213.136,M147.068,M113.084,M87.032,M97.053,M129.043,M137.059,M128.058,M156.101,M99.068,M128.058,M128.058,M128.095,M97.053,M71.037,M128.095,M113.084,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M111.032=1,M97.053,M113.084,M97.053,M115.027,M103.009,M103.009,M156.101,M128.058,M128.095,M101.048,M103.009,M87.032,M103.009,M156.101,M113.084,M163.063,M129.043,M113.084,M113.084,M137.059,M57.021,M71.037,M57.021,M114.043,M137.059,M71.037,M71.037,M57.021,M57.021,M57.021,M113.084,M113.084,M101.048,M113.084,M97.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M113.084,M128.095,M97.053,M129.043,M71.037,M97.053,M57.021,M129.043,M115.027,M71.037,M87.032,M97.053,M129.043,M129.043,M114.043,M156.101,M163.063,M163.063,M71.037,M87.032,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M99.068,M101.048,M156.101,M128.058,M156.101,M163.063,M97.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M97.053=1,M99.068,M57.021,M113.084,M147.068,M97.053,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M113.084,M57.021,M57.021,M156.101,M99.068,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M99.068,M113.084,M97.053,M71.037,M114.043,M147.068,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M99.068,M147.068,M71.037,M99.068,M128.095,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M71.037,M99.068,M57.021,M97.053,M113.084,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M99.068,M128.095,M128.095,M128.095,M128.095,M97.053,0=4,"
+"[/Preset]"

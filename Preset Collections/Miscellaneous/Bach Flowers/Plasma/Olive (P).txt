@@ -1,0 +1,15 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Olive (P)"
+"Preset_Notes=Olive / Spooky Plasma
+
+Estimated Time: Run this preset for 3:00 minutes.
+Olive - Exhaustion following mental or physical effert.
+
+Connect Out 1 to Input. Connect Out 2 to Modulation.
+"
+"Loaded_Programs=Olive (P)"
+"Loaded_Frequencies=431.65,"
+"[/Preset]"

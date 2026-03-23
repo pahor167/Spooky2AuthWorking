@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Aldehyde Toxicity (R)"
+"Preset_Notes=Aldehyde Toxicity for Remote
+
+Aldehyde toxicity arises from reactive aldehydes (e.g., acetaldehyde from alcohol metabolism, formaldehyde from environmental exposure, 4-hydroxynonenal from lipid peroxidation) that form harmful adducts with proteins, DNA, and lipids, driving oxidative stress, inflammation, cellular damage, and related pathologies.
+
+1. Reactive aldehyde scavenging: Carnosine - Histidine-containing dipeptide that directly neutralizes toxic aldehydes through imidazole adduct formation.
+2. Enhanced aldehyde quenching: Hexa-Histidine Peptide - Synthetic poly-histidine providing multiple imidazole groups for high-efficiency trapping of reactive aldehydes.
+3. Thiol-mediated detoxification: CGCGC Peptide - Cysteine-rich synthetic peptide forming reversible adducts with aldehydes and reducing oxidative species.
+4. Mitochondrial-derived stress mitigation: MOTS-c - Regulates AMPK and protects cells from metabolic and oxidative damage caused by aldehydes.
+5. Mitochondrial peptide protection: SHLP2 - Improves mitochondrial function and resists oxidative stress from lipid-derived aldehydes.
+6. ACTH-analog neuroprotection: Semax - Promotes BDNF expression and neuronal survival against aldehyde-induced toxicity.
+7. Tuftsin-analog stabilization: Selank - Modulates GABA and reduces psychological stress associated with aldehyde exposure.
+8. Tripeptide brain regulation: Pinealon - Normalizes gene expression and protects brain cells from degenerative carbonyl stress.
+9. Dipeptide thymic support: Thymogen - Enhances immune response to counteract inflammation triggered by aldehyde adducts.
+10. Dipeptide bioregulation: Vilon - Stimulates repair processes and antioxidant defenses in tissues affected by toxicity.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Aldehyde Toxicity p01"
+"Loaded_Programs=Aldehyde Toxicity p02"
+"Loaded_Programs=Aldehyde Toxicity p03"
+"Loaded_Programs=Aldehyde Toxicity p04"
+"Loaded_Programs=Aldehyde Toxicity p05"
+"Loaded_Programs=Aldehyde Toxicity p06"
+"Loaded_Programs=Aldehyde Toxicity p07"
+"Loaded_Programs=Aldehyde Toxicity p08"
+"Loaded_Programs=Aldehyde Toxicity p09"
+"Loaded_Programs=Aldehyde Toxicity p10"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M137.059,M137.059,M137.059,M137.059,0=4,"
+"Loaded_Frequencies=M103.009=1,M57.021,M103.009,M57.021,M103.009,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M57.021,M99.068,M128.095,M147.068,M147.068,M101.048,M113.084,M87.032,M101.048,M156.101,M147.068,M147.068,M97.053,M87.032,M99.068,M128.058,M156.101,M71.037,M99.068,M97.053,M113.084,M186.079,M101.048,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M186.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,0=4,"
+"[/Preset]"

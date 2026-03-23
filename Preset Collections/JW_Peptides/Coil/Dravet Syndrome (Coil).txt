@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Dravet Syndrome (Coil)"
+"Preset_Notes=Dravet Syndrome for Coil
+
+Dravet syndrome, also known as severe myoclonic epilepsy of infancy, is a rare and devastating developmental and epileptic encephalopathy with onset typically in the first year of life in an otherwise healthy infant. It is characterized by initial prolonged, often unilateral, febrile seizures triggered by hyperthermia (e.g., fever, warm baths), progressing to multiple afebrile seizure types including myoclonic jerks, atypical absences, focal impaired awareness seizures, tonic-clonic, and tonic seizures, frequently with episodes of status epilepticus or obtundation. Seizures are highly drug-resistant, leading to frequent emergencies. Beyond epilepsy, patients exhibit developmental regression or plateau after seizure onset, resulting in moderate to severe intellectual disability, autism spectrum features, attention deficits, hyperactivity, motor impairments (crouch gait, ataxia, pyramidal signs), sleep disturbances, dysautonomia, and growth issues. There is a markedly elevated risk of sudden unexpected death in epilepsy (SUDEP), estimated at 10-20% by adulthood, often linked to seizure-related cardiorespiratory failure. Incidence is approximately 1 in 15,000-40,000 births, with over 80% of cases due to de novo pathogenic variants in SCN1A causing haploinsufficiency of the Nav1.1 voltage-gated sodium channel, predominantly impairing fast-spiking GABAergic inhibitory interneurons while sparing excitatory neurons, thus disrupting excitatory-inhibitory balance and promoting network hyperexcitability. Remaining cases involve mutations in related genes (e.g., GABRA1, PCDH19) or are genetically undefined.
+
+Pathophysiology involves reduced sodium currents in interneurons, leading to diminished inhibitory synaptic transmission, hippocampal and cortical hyperexcitability, thalamo-cortical dysrhythmia, and secondary neuroinflammation/astrogliosis contributing to comorbidities. Standard management prioritizes seizure reduction with valproate, clobazam, stiripentol, cannabidiol, and fenfluramine, alongside avoidance of exacerbating sodium channel blockers, emergency protocols, ketogenic diet in some, and supportive therapies; emerging genetic approaches (ASOs, gene regulation) are in trials but not polypeptide-based.
+
+Comprehensive searches across literature, patents, trials, and databases identified no approved or clinical-stage polypeptide therapies for Dravet syndrome, with only preclinical venom-derived peptides (e.g., Hm1a analogs) noted but unverifiable here for sequence/mass validation; thus, the set comprises entirely designed conceptual polypeptides. These short synthetic sequences are hypothetically tailored to key axes with cell-penetrating or modulatory properties:
+
+- The first designed peptide (D1) is cationic-rich to potentially facilitate neuronal uptake and support restoration of inhibitory tone, addressing core Nav1.1-related interneuron dysfunction.
+
+- The second designed peptide (D2) is amphipathic, conceptually aimed at modulating membrane-associated signaling to reduce seizure propagation.
+
+- The third designed peptide (D3) features repetitive motifs for potential structural stabilization of neuronal networks.
+
+- The fourth designed peptide (D4) incorporates aromatic and charged residues for hypothetical neuroprotective effects against comorbidities.
+
+Feasibility includes lengths of 10 residues for ease of synthesis, favorable predicted aqueous solubility and stability, low immunogenicity potential, and scope for modifications (e.g., cyclization, lipidation for CNS delivery); however, these are theoretical designs necessitating rigorous preclinical evaluation in SCN1A models for target engagement, efficacy in seizure reduction/SUDEP prevention, cognitive benefits, and safety without proconvulsant risks.
+
+"
+"Loaded_Programs=Dravet Syndrome p01"
+"Loaded_Programs=Dravet Syndrome p02"
+"Loaded_Programs=Dravet Syndrome p03"
+"Loaded_Programs=Dravet Syndrome p04"
+"Loaded_Frequencies=M128.095=1,M156.101,M57.021,M156.101,M128.095,M156.101,M156.101,M128.058,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M87.032,M101.048,M87.032,M113.084,M97.053,M128.058,M156.101,M99.068,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,M128.095,M115.027,M129.043,M113.084,M113.084,0=4,"
+"[/Preset]"

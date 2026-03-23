@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Elephantiasis (Coil)"
+"Preset_Notes=Elephantiasis for Coil
+
+Elephantiasis, or lymphatic filariasis, is a parasitic disease caused by filarial worms leading to chronic lymphatic obstruction, inflammation, and tissue remodeling. Therapeutic axes include anti-Wolbachia activity to indirectly kill adult worms, direct macrofilaricidal action against parasites, anti-inflammatory modulation to control immune pathology, lymphatic barrier restoration to improve vessel function, and anti-fibrotic effects to reduce scarring. Assignments: YIGSR peptide (real) for lymphatic barrier restoration, Engineered buforin-inspired peptide (designed) for anti-Wolbachia activity, Engineered pexiganan-inspired peptide (designed) for direct macrofilaricidal effects, Engineered alpha-MSH-derived peptide (designed) for anti-inflammatory modulation, Engineered P144-inspired peptide (designed) for anti-fibrotic effects. Mechanisms: YIGSR binds 67LR to enhance cell-cell adhesion and suppress TGF-{beta} in lymphedema models; buforin-inspired penetrates cells to target intracellular Wolbachia; pexiganan-inspired disrupts parasitic membranes; alpha-MSH-derived suppresses pro-inflammatory cytokines; P144-inspired inhibits TGF-{beta} signaling to limit fibrosis.
+
+"
+"Loaded_Programs=Elephantiasis p01"
+"Loaded_Programs=Elephantiasis p02"
+"Loaded_Programs=Elephantiasis p03"
+"Loaded_Programs=Elephantiasis p04"
+"Loaded_Programs=Elephantiasis p05"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M155.117,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M101.048=1,M87.032,M113.084,M115.027,M71.037,M87.032,M113.084,M113.084,M186.079,M71.037,M131.040,M131.040,M128.058,M113.059,0=4,"
+"[/Preset]"

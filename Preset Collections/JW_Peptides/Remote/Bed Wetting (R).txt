@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Bed Wetting (R)"
+"Preset_Notes=Bed Wetting for Remote
+
+Bed wetting, or nocturnal enuresis, is the involuntary urination during sleep in children over the age of 5. It can be caused by factors such as nocturnal polyuria, bladder overactivity, and difficulty arousing from sleep. Therapeutic axes include: 1. Vasopressin pathway to reduce nighttime urine production. 2. Bladder overactivity to enhance bladder storage and reduce spasms. 3. Arousal dysfunction to improve wakefulness in response to bladder fullness. Assignments: Desmopressin addresses the vasopressin pathway by acting as a V2 receptor agonist, decreasing urine output. TAT-PirtN14 addresses bladder overactivity by inhibiting P2X3 receptors, reducing sensory signaling and overactivity. Engineered Orexin Fragment addresses arousal dysfunction by mimicking orexin peptides to promote arousal from sleep.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Bed Wetting p01"
+"Loaded_Programs=Bed Wetting p02"
+"Loaded_Programs=Bed Wetting p03"
+"Loaded_Frequencies=M97.053=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M163.063,M129.043,M113.084,M113.084,M137.059,M57.021,M71.037,M57.021,M114.043,M137.059,M71.037,M71.037,M57.021,M113.084,M113.084,M101.048,M112.10,0=4,"
+"[/Preset]"

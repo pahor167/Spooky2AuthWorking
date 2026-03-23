@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Pilonidal Cyst (L)"
+"Preset_Notes=Pilonidal Cyst for Laser
+
+Pilonidal Cyst involves chronic infection and inflammation in sacrococcygeal sinus tracts, requiring antimicrobial control, inflammation reduction, and wound healing promotion.
+
+1. Biofilm disruption: IDR-1018 - Targets and disperses bacterial biofilms while modulating host inflammation.
+2. Tissue remodeling: GHK-Cu - Stimulates collagen production and extracellular matrix reorganization for wound closure.
+3. Antimicrobial defense: Human Beta-Defensin 3 - Broad-spectrum activity against skin pathogens with low resistance potential.
+4. Anti-oxidant protection: Carnosine - Buffers oxidative stress and supports healing in inflamed tissue.
+5. Redox balance: Glutathione - Maintains cellular detoxification and reduces oxidative damage in cyst environment.
+6. Enhanced cationic disruption: RRWIVAVRLIRR - Optimized amphipathic design for potent lysis of Gram-positive pathogens common in pilonidal infections.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Pilonidal Cyst p01"
+"Loaded_Programs=Pilonidal Cyst p02"
+"Loaded_Programs=Pilonidal Cyst p03"
+"Loaded_Programs=Pilonidal Cyst p04"
+"Loaded_Programs=Pilonidal Cyst p05"
+"Loaded_Programs=Pilonidal Cyst p06"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M113.084,M99.068,M128.058,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M113.084,M156.101,M156.101,0=4,"
+"[/Preset]"

@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Sacral Torsion (R)"
+"Preset_Notes=Sacral Torsion for Remote
+
+Sacral torsion is a somatic dysfunction involving rotation of the sacrum around an oblique axis relative to the ilium or innominate bones, resulting in torque, misalignment, and strain on sacroiliac joint ligaments and surrounding structures. It arises from trauma (falls, accidents), repetitive shear forces, pregnancy-related laxity, leg length discrepancy, muscle imbalances, or biomechanical stress. Symptoms include unilateral low back or buttock pain (often sharp or stabbing), limited pelvic/spinal mobility, referred leg pain, and functional limitations in walking or sitting. Pathophysiology involves ligamentous hypermobility or instability, altered load transfer across the SI joint, activation of nociceptors in the joint capsule and subchondral bone, local inflammation (capsulitis/synovitis), muscle spasm, and potential nerve irritation. Conservative management focuses on manual therapies, exercise, and symptom control, as no specific disease-modifying molecular therapies exist.
+
+The polypeptides address all identified therapeutic axes. Axis 1: Ligamentous instability and tissue repair/healing - Real BPC-157 (gastric-derived peptide with documented regenerative effects on ligaments, tendons, collagen deposition, and functional recovery in injury models). Axis 2: Inflammation in SI joint capsule and ligaments - Covered by BPC-157 (anti-inflammatory properties) and Designed D1 (rational amphipathic motif for cytokine modulation and membrane stabilization, literature-inspired from anti-inflammatory scaffolds). Axis 3: Nociceptive and mechanical pain signaling - Designed D2 (motif designed for receptor interaction to dampen pain transmission, based on established biochemical principles for nociceptor modulation). Feasibility checks confirm stability, solubility (GRAVY <0.5), appropriate charge, and low instability index; physicochemical properties support potential local delivery or stability with cyclization where noted.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Sacral Torsion p01"
+"Loaded_Programs=Sacral Torsion p02"
+"Loaded_Programs=Sacral Torsion p03"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M57.021,M99.068,M129.043,M97.053,M128.095,M186.079,M71.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M147.068,M128.095,M71.037,M113.084,M57.021,M129.043,M97.053,M99.068,M128.095,0=4,"
+"[/Preset]"

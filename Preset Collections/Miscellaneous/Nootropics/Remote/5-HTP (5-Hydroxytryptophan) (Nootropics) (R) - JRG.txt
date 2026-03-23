@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=5-HTP (5-Hydroxytryptophan) (Nootropics) (R) - JRG"
+"Loaded_Programs=5-HTP (5-Hydroxytryptophan) (CUST)"
+"Loaded_Frequencies=M220.08479,"
+"Preset_Notes=5-HTP (5-Hydroxytryptophan) is a serotonin precursor in the brain. It is a naturally occurring byproduct of the amino acid tryptophan. Serotonin is a neurotransmitter that helps communication between neurons.|5-HTP as a nootropic easily crosses the blood-brain barrier. And once it converts to serotonin can help improve mood, control behavior and appetite, and help you sleep.|Research shows 5-HTP can help in impulse control, and balance out moods resulting in less anxiety. And even reduce panic attacks.|Dosing of 5-HTP is 50 mg 3-times per day for up to 2 weeks.|See the extended article for 'Nootropics Expert' recommendations and warnings on supplementing with 5-HTP.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

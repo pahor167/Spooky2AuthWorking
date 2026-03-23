@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Stem Cell Generation (R)"
+"Preset_Notes=Stem Cell Generation for Remote
+
+Stem cell generation and regeneration involve inducing pluripotency in somatic cells to produce iPSCs for unlimited cell sourcing, supporting the stem cell niche to maintain stemness and facilitate mobilization, reducing cellular senescence to eliminate dysfunctional cells that impair tissue homeostasis and contribute to aging, and enhancing regenerative processes for effective tissue repair and functional restoration. This multi-faceted target holds transformative potential for regenerative medicine, treating degenerative diseases, injury recovery, and age-related decline by rejuvenating endogenous repair mechanisms and enabling cell-based therapies.
+
+The proposed polypeptides comprehensively address these axes through evidence-based mechanisms. WWASKS, a real-world ECM-derived hexapeptide, directs iPSCs toward functional progenitors (e.g., endocrine) via Wnt activation and pluripotency gene suppression, supporting controlled stem cell generation. GHK, a real-world tripeptide, bolsters the stem cell niche through ECM remodeling, stem cell recruitment, and pro-regenerative signaling. BPC-157, a real-world pentadecapeptide derived from gastric juices, accelerates tissue regeneration via angiogenic, neuroprotective, and anti-inflammatory pathways. TB-500, a real-world synthetic Thymosin beta-4 fragment with N-acetylation, promotes cell migration, actin dynamics, and wound healing for enhanced regeneration. The designed vitronectin motif peptide (flagged as designed), a capped linear sequence derived from vitronectin's integrin-binding region with N-acetylation and C-amidation for stability, facilitates feeder-free iPSC adhesion, expansion, and pluripotency maintenance based on established vitronectin use in stem cell culture. The designed cyclic FOXO4 motif peptide (flagged as designed), a disulfide-cyclized and capped analog of the FOXO4 p53-interfering domain for improved bioavailability, selectively targets senescent cells to reduce senescence burden, derived from the validated FOXO4-DRI motif with cyclization for drug-likeness.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Stem Cell Generation p01"
+"Loaded_Programs=Stem Cell Generation p02"
+"Loaded_Programs=Stem Cell Generation p03"
+"Loaded_Programs=Stem Cell Generation p04"
+"Loaded_Programs=Stem Cell Generation p05"
+"Loaded_Programs=Stem Cell Generation p06"
+"Loaded_Frequencies=M186.079=1,M186.079,M71.037,M87.032,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M139.064=1,M128.058,M99.068,M101.048,M156.101,M57.021,M115.027,M99.068,M147.068,M101.048,M131.040,M96.069,0=4,"
+"Loaded_Frequencies=M144.012=1,M113.084,M101.048,M113.084,M156.101,M128.095,M129.043,M97.053,M71.037,M87.032,M129.043,M113.084,M71.037,M128.058,M101.017,0=4,"
+"[/Preset]"

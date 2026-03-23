@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=Gentian (L)"
+"Preset_Notes=Gentian / Spooky Laser
+
+Estimated Time: Run this preset for 3:00 minutes.
+Gentian - Discouragement after a setback.
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Gentian (L)"
+"Loaded_Frequencies=265.67,"
+"[/Preset]"

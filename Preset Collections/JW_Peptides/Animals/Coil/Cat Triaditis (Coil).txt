@@ -1,0 +1,22 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Cat Triaditis (Coil)"
+"Preset_Notes=Cat Triaditis for Coil
+
+Feline triaditis is a prevalent syndrome in cats characterized by concurrent chronic inflammation of the pancreas (pancreatitis), biliary tract/liver (cholangitis/cholangiohepatitis), and small intestine (inflammatory bowel disease), likely linked by shared lymphatic drainage and bacterial translocation. The proposed polypeptides target evidence-based axes from preclinical rat models of pancreatitis and anecdotal veterinary applications in feline chronic enteropathies/IBD, focusing on cytoprotection, anti-inflammation, and tissue repair to alleviate symptoms and support organ recovery.
+
+1. Stable gastric pentadecapeptide multi-organ cytoprotection: BPC-157 promotes healing and protection in gastrointestinal, pancreatic, and liver injury models, with reported benefits in feline IBD and related conditions.
+2. Thymosin {beta}4 active fragment regenerative and anti-fibrotic effects: TB-500 (Ac-LKKTETQ-NH2) enhances cell migration, reduces inflammation, and supports tissue repair applicable to chronic inflammatory states.
+3. {alpha}-MSH-derived tripeptide cytokine suppression: KPV mitigates pro-inflammatory responses in gut and systemic inflammation relevant to triaditis components.
+4. Engineered stabilized {alpha}-MSH motif for enhanced bioavailability: Ac-KPV-NH2 incorporates acetylation and amidation for protease resistance and improved therapeutic action in inflammatory GI environments.
+
+"
+"Loaded_Programs=Cat Triaditis p01"
+"Loaded_Programs=Cat Triaditis p02"
+"Loaded_Programs=Cat Triaditis p03"
+"Loaded_Programs=Cat Triaditis p04"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M170.106=1,M97.053,M98.084,0=4,"
+"[/Preset]"

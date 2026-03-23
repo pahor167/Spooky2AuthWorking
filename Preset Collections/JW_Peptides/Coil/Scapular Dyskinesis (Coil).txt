@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Scapular Dyskinesis (Coil)"
+"Preset_Notes=Scapular Dyskinesis for Coil
+
+Scapular dyskinesis is an alteration in the normal position or motion of the scapula during coupled scapulohumeral movements, often associated with shoulder pain and dysfunction. Key therapeutic axes identified: Scapular stabilization, Muscle activation targeting serratus anterior and trapezius, Proprioceptive neuromuscular facilitation, Manual therapy and mobilization, Kinetic chain integration. Assignments: Peptide 1 targets Scapular stabilization mimicking stabilization motifs. Peptide 2 activates muscles through targeted motifs. Peptide 3 facilitates proprioceptive response. Peptide 4 aids mobilization mimicking therapy effects. Peptide 5 integrates kinetic chain via motif engineering. Mechanisms involve rational engineering based on literature motifs for stability and efficacy.
+
+"
+"Loaded_Programs=Scapular Dyskinesis p01"
+"Loaded_Programs=Scapular Dyskinesis p02"
+"Loaded_Programs=Scapular Dyskinesis p03"
+"Loaded_Programs=Scapular Dyskinesis p04"
+"Loaded_Programs=Scapular Dyskinesis p05"
+"Loaded_Frequencies=M57.021=1,M97.053,M128.095,M99.068,M156.101,M128.058,M101.048,M147.068,M113.084,M113.084,M128.095,M131.040,M71.037,M87.032,M115.027,M114.043,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M137.059,M99.068,M163.063,M57.021,M147.068,M131.040,M101.048,M128.095,M128.058,M113.084,M113.084,M115.027,M71.037,M99.068,M96.069,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M97.053,M156.101,M147.068,M71.037,M99.068,M128.095,M115.027,M131.040,M113.084,M128.058,M137.059,M57.021,M163.063,M113.084,M102.001,0=4,"
+"Loaded_Frequencies=M141.079=1,M115.027,M57.021,M128.095,M101.048,M87.032,M97.053,M113.084,M147.068,M156.101,M128.058,M71.037,M131.040,M163.063,M137.059,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M131.040,M113.084,M128.058,M99.068,M115.027,M101.048,M147.068,M156.101,M57.021,M87.032,M97.053,M71.037,M137.059,M163.063,M113.084,0=4,"
+"[/Preset]"

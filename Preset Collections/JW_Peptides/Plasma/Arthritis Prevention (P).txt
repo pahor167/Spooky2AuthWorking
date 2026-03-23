@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Arthritis Prevention (P)"
+"Preset_Notes=Arthritis Prevention for Plasma
+
+Arthritis encompasses a range of inflammatory joint disorders, primarily rheumatoid arthritis (RA) and osteoarthritis (OA), affecting millions globally and leading to progressive joint damage, pain, and disability. RA is an autoimmune condition driven by genetic predisposition (e.g., HLA-DR4 alleles), environmental triggers like smoking or infections, and dysregulated immune responses involving autoantibodies such as anti-citrullinated protein antibodies (ACPAs) and rheumatoid factor. This results in chronic synovial inflammation, pannus formation, cartilage erosion, and bone destruction through cytokine-mediated pathways like TNF-{alpha}, IL-6, and IL-1{beta}, activating osteoclasts via RANKL and promoting T-cell and B-cell infiltration. Symptoms include symmetric joint swelling, morning stiffness lasting over an hour, fatigue, and systemic manifestations like nodules or vasculitis. OA, the degenerative form, stems from mechanical stress, aging, obesity, joint injury, and metabolic factors, causing cartilage breakdown, subchondral bone remodeling, osteophyte growth, and low-grade inflammation from innate immune activation and senescent cells releasing SASP factors. Symptoms feature asymmetric joint pain worsening with activity, crepitus, reduced range of motion, and eventual deformity. Pathophysiologically, both involve oxidative stress, matrix metalloproteinase (MMP) upregulation degrading extracellular matrix, altered autophagy, and epigenetic changes like DNA methylation shifts, with gut microbiota dysbiosis influencing via the gut-joint axis. Prevention focuses on modifiable risks: maintaining healthy weight, avoiding smoking, and early intervention in at-risk individuals with elevated ACPAs.
+
+The proposed polypeptides address key therapeutic axes for arthritis prevention: anti-inflammatory (reducing cytokine storms and oxidative damage), immunomodulatory (balancing T/B-cell responses and Treg function), cartilage protective (promoting regeneration and inhibiting degradation), and bone protective (modulating osteoclast/osteoblast activity). Real-world polypeptides include LL-37, which disrupts microbial biofilms and dampens inflammation; VIP, which inhibits pro-inflammatory cytokines and enhances Treg activity; Thymosin beta-4, which aids tissue repair and angiogenesis; and PTH1-34, which stimulates osteoblasts and reduces bone resorption. Designed polypeptides are derived from motifs: the anti-inflammatory design uses a truncated LL-37 amphipathic helix with N-acetylation for stability; the immunomodulatory design mimics VIP with disulfide cyclization to improve half-life; the cartilage protective design shortens Thymosin beta-4 with C-amidation for enhanced bioavailability; the bone protective design adapts PTH motifs with head-to-tail cyclization for targeted efficacy. Feasibility considers low immunogenicity, solubility (GRAVY <0.8), stability (<40 index), and delivery via oral/injectable forms, with modes integrating to prevent progression by restoring homeostasis, reducing flares, and preserving joint integrity without detailed synthesis.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Arthritis Prevention p01"
+"Loaded_Programs=Arthritis Prevention p02"
+"Loaded_Programs=Arthritis Prevention p03"
+"Loaded_Programs=Arthritis Prevention p04"
+"Loaded_Programs=Arthritis Prevention p05"
+"Loaded_Programs=Arthritis Prevention p06"
+"Loaded_Programs=Arthritis Prevention p07"
+"Loaded_Programs=Arthritis Prevention p08"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M186.079,M186.079,M128.095,M186.079,M128.095,M128.095,M186.079,M186.079,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M186.079,M186.079,M128.095,M186.079,M128.095,M128.095,M186.079,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.095,M113.084,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M128.095,M128.095,M113.084,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M101.048,M101.048,M129.043,M128.095,M114.043,M97.053,M113.084,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.095,M128.095,M71.037,M57.021,M129.043,0=4,"
+"[/Preset]"

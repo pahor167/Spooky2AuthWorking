@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Alzheimer’s Disease (Using Khavinson's Peptides) (R)"
+"Preset_Notes=Alzheimer’s Disease (Using Khavinson's Peptides) for Remote
+
+Alzheimer's Disease (AD) is characterized by multifactorial pathogenesis including protein misfolding/aggregation, mitochondrial dysfunction, oxidative stress, neuroinflammation, synaptic dysfunction, impaired neurogenesis, metabolic dysregulation, blood-brain barrier breakdown, and circadian rhythm disruption. The following polypeptides described in Ilina et al. (2022) target these specific axes through epigenetic and direct mechanisms: AEDG modulates protein aggregation, inflammation, oxidative stress, mitochondrial function, neurogenesis, metabolism, and circadian genes; KE addresses neuroinflammation and oxidative/mitochondrial dysfunction; EDR targets oxidative stress, mitochondrial function, synaptic plasticity, PPAR-regulated metabolism, and serotonin synthesis; KED supports synaptic restoration, neurogenesis, and BBB integrity; KEDW regulates glucose metabolism and gene expression; MEHFPGP (Semax) enhances synaptic function and BBB protection; EW, AEDL, KEDG, AEDR, and DS function as DNA-binding epigenetic regulators interacting with promoter regions; PGP contributes to neuroglial proliferation; SS-31 (Elamipretide) protects mitochondrial function and reduces oxidative stress; NAP and iAb5p inhibit amyloid aggregation; and R5/R14 amylin receptor antagonists reduce neuroinflammation and restore neuroplasticity.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p01"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p02"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p03"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p04"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p05"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p06"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p07"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p08"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p09"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p10"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p11"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p12"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p13"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p14"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p15"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p16"
+"Loaded_Programs=Alzheimer’s Disease (Using Khavinson's Peptides) p17"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,M115.027,M186.079,0=4,"
+"Loaded_Frequencies=M129.043=1,M186.079,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,0=4,"
+"Loaded_Frequencies=M97.053=1,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M156.101=1,M191.094,M128.095,M146.084,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M155.095=1,M97.053,M147.068,M147.068,M114.043,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.058,M129.043,M113.084,M137.059,M156.101,M113.084,M128.058,M101.048,M163.063,0=4,"
+"Loaded_Frequencies=M113.084=1,M57.021,M156.101,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M156.101,M113.084,M128.058,M101.048,M163.063,0=4,"
+"[/Preset]"

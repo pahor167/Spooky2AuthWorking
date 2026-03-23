@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Schindler Disease (P)"
+"Preset_Notes=Schindler Disease for Plasma
+
+Schindler Disease, also known as alpha-N-acetylgalactosaminidase deficiency or Kanzaki disease in its adult form, is an ultra-rare autosomal recessive lysosomal storage disorder caused by mutations in the NAGA gene, leading to deficient activity of the lysosomal enzyme alpha-N-acetylgalactosaminidase (alpha-NAGAL). This enzyme is essential for the degradation of O-linked glycoproteins and glycolipids containing terminal alpha-N-acetylgalactosamine residues. The deficiency results in the accumulation of undegraded glycopeptides and glycolipids in lysosomes, particularly in neurons, Schwann cells, and skin cells, triggering cellular dysfunction, oxidative stress, inflammation, and progressive tissue damage. The disease manifests in three phenotypic variants: Type I (infantile-onset neuroaxonal dystrophy) with severe neurodegeneration, psychomotor retardation, hypotonia, seizures, and early death; Type II (adult-onset Kanzaki disease) characterized by angiokeratoma corporis diffusum, mild intellectual impairment, and peripheral neuropathy; and Type III (intermediate form) with milder neurocognitive deficits and seizures. Pathophysiology involves impaired lysosomal catabolism, leading to lysosomal swelling, impaired autophagy, secondary mitochondrial dysfunction, neuroinflammation via microglial activation, axonal dystrophy, and demyelination in the central and peripheral nervous systems. Systemic effects include skin lesions due to vascular endothelial accumulation and potential renal or cardiac involvement in advanced cases. Genetic mutations, often missense leading to protein misfolding and ER retention, exacerbate the enzyme deficiency, with no curative treatments currently available-management is supportive, focusing on symptom alleviation.
+
+The proposed polypeptides address the key therapeutic axes identified from comprehensive sources, including lysosomal enzyme restoration, substrate reduction, and neuroprotection, as no real-world polypeptides within constraints were found across databases like PubMed, patents, and clinical trials. Designed polypeptide 1 targets lysosomal function enhancement by conceptually stabilizing mutant alpha-NAGAL or mimicking chaperone activity to improve enzyme folding and trafficking, reducing glycan accumulation. Designed polypeptide 2 aims at substrate reduction by modulating glycosphingolipid synthesis pathways, decreasing the burden on deficient lysosomes. Designed polypeptide 3 focuses on neuroprotection by attenuating oxidative stress and inflammation, preserving neuronal integrity. These designs consider physicochemical properties like short length for better penetration, balanced charge for stability, and potential for oral or intranasal delivery, offering feasible novel interventions for this orphan disease.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Schindler Disease p01"
+"Loaded_Programs=Schindler Disease p02"
+"Loaded_Programs=Schindler Disease p03"
+"Loaded_Frequencies=M128.095=1,M128.095,M99.068,M113.084,M147.068,M128.058,M97.053,M57.021,M137.059,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M163.063,M101.048,M156.101,M128.058,M186.079,M114.043,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M115.027,M137.059,M147.068,M128.095,M97.053,M113.084,M131.040,M114.043,M99.068,0=4,"
+"[/Preset]"

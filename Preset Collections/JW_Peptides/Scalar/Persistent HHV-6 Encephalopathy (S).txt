@@ -1,0 +1,44 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Persistent HHV-6 Encephalopathy (S)"
+"Preset_Notes=Persistent HHV-6 Encephalopathy for Scalar
+
+Persistent HHV-6 Encephalopathy with CARD11 Mutation in Autism Spectrum Disorder
+
+Persistent human herpesvirus-6 (HHV-6) infection in CSF and DNA, combined with CARD11 gain-of-function mutation causing immune dysregulation and hyperactive NF-{kappa}B signaling, drives chronic neuroinflammation, severe neuropathic pain, behavioral crises (aggression, hallucinations), tics, memory loss, and regression in autism spectrum disorder, with flares potentially triggered by prior viral reactivations or immune challenges.
+
+1. Antiviral defense: LL-37 - Human cathelicidin with direct membrane-disrupting activity against enveloped herpesviruses and promotion of infection resolution
+2. Neuropathic pain relief: ARA-290 - Selective innate repair receptor agonist reducing chronic neurogenic pain and small-fiber neuropathy symptoms
+3. Behavioral stabilization: Selank - Synthetic anxiolytic peptide mitigating aggression, anxiety, and crisis flares without sedation
+4. Cognitive neuroprotection: Semax - Heptapeptide enhancing BDNF and neuronal resilience against encephalitis-related damage
+5. Neuroinflammatory resolution: VIP - Vasoactive intestinal peptide suppressing CNS cytokine storms and microglial overactivation
+6. Dysregulated signaling modulation: NBD peptide - Engineered NEMO-binding domain peptide disrupting excessive NF-{kappa}B activation downstream of mutant CARD11
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Persistent HHV-6 Encephalopathy p01"
+"Loaded_Programs=Persistent HHV-6 Encephalopathy p02"
+"Loaded_Programs=Persistent HHV-6 Encephalopathy p03"
+"Loaded_Programs=Persistent HHV-6 Encephalopathy p04"
+"Loaded_Programs=Persistent HHV-6 Encephalopathy p05"
+"Loaded_Programs=Persistent HHV-6 Encephalopathy p06"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M97.053,M156.101,M113.084,M99.068,M101.048,M129.043,M87.032,M101.048,M129.043,M87.032,M87.032,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M101.048=1,M71.037,M113.084,M115.027,M186.079,M87.032,M186.079,M113.084,M128.058,M101.048,M129.043,0=4,"
+"[/Preset]"

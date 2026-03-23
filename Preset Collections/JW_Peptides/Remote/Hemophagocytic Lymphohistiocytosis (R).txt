@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Hemophagocytic Lymphohistiocytosis (R)"
+"Preset_Notes=Hemophagocytic Lymphohistiocytosis for Remote
+
+Hemophagocytic Lymphohistiocytosis (HLH) is a life-threatening hyperinflammatory syndrome caused by uncontrolled activation of cytotoxic T cells and macrophages, leading to excessive cytokine production (notably IFN-{gamma}, TNF-{alpha}, IL-6, and IL-18) and tissue damage. Primary HLH arises from genetic defects in cytotoxic granule exocytosis (e.g., PRF1, UNC13D, STX11, STXBP2), while secondary forms are triggered by infections (especially EBV), malignancies, or autoimmune disorders. Key pathophysiological features include fever, cytopenias, hepatosplenomegaly, hemophagocytosis in bone marrow, and coagulopathy. The proposed polypeptides address four core therapeutic axes: (1) IFN-{gamma} neutralization using a designed receptor-mimetic peptide (D1-IFNgBlock) to interrupt the central inflammatory driver; (2) enhancement of cytotoxic function via a real-world perforin-derived peptide (Perforin-C2) that supports membrane binding of cytotoxic granules; (3) suppression of inflammasome-mediated IL-18 signaling using a designed antagonist peptide (D2-IL18Antag) based on the IL-18 binding protein interface; and (4) modulation of JAK/STAT hyperactivation through a real-world SOCS1-derived inhibitory peptide (SOCS1-KIR) that targets kinase activity downstream of multiple cytokines. Designed polypeptides are explicitly flagged and engineered for specificity, stability, and minimal homology to endogenous sequences.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Hemophagocytic Lymphohistiocytosis p01"
+"Loaded_Programs=Hemophagocytic Lymphohistiocytosis p02"
+"Loaded_Programs=Hemophagocytic Lymphohistiocytosis p03"
+"Loaded_Programs=Hemophagocytic Lymphohistiocytosis p04"
+"Loaded_Frequencies=M57.021=1,M137.059,M156.101,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M103.009=1,M57.021,M113.084,M87.032,M113.084,M128.058,M128.095,M156.101,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M129.043,M129.043,M147.068,M57.021,M87.032,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M99.068,M115.027,M128.058,M113.084,M113.084,M128.058,M128.095,0=4,"
+"[/Preset]"

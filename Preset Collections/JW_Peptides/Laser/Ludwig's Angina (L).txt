@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Ludwig’s Angina (L)"
+"Preset_Notes=Ludwig’s Angina for Laser
+
+Ludwig's Angina is a potentially life-threatening, rapidly progressive bacterial cellulitis affecting the submandibular, sublingual, and submental spaces in the floor of the mouth, often originating from odontogenic sources such as dental abscesses or infections in the lower molars. It can also stem from trauma, sialadenitis, or peritonsillar abscesses, with polymicrobial involvement including Streptococcus species, Staphylococcus aureus, and anaerobes like Bacteroides and Fusobacterium. Symptoms typically begin with bilateral swelling under the jaw, progressing to severe neck pain, trismus (difficulty opening the mouth), dysphagia (difficulty swallowing), drooling, fever, chills, malaise, and a characteristic 'woody' induration of the tissues without fluctuance. In advanced stages, patients may exhibit stridor, tachypnea, cyanosis, and airway obstruction due to posterior displacement of the tongue and laryngeal edema. Pathophysiologically, the infection spreads contiguously through fascial planes, leading to venous congestion, tissue edema, ischemia, and necrosis; without prompt intervention, it can result in mediastinitis, sepsis, or asphyxiation, with mortality rates historically up to 50% but reduced to 5-10% with modern care. Risk factors include poor oral hygiene, diabetes, immunosuppression, and recent dental procedures, emphasizing the need for early recognition via clinical exam, CT imaging showing gas or fluid collections, and immediate management.
+
+The proposed polypeptides address Ludwig's Angina through multifaceted therapeutic axes including antimicrobial action against causative oral bacteria, anti-inflammatory effects to mitigate cellulitis and tissue damage, edema reduction to safeguard airway patency, immune modulation to balance host responses, pain relief for symptom control, biofilm disruption to eliminate persistent reservoirs, and tissue repair to accelerate recovery post-drainage. Real-world polypeptides like BPC-157 promote healing by upregulating growth factors and angiogenesis while reducing oxidative stress, feasible for systemic or local administration with high stability; LL-37 and similar AMPs exert broad-spectrum membrane-disrupting antimicrobial effects on Gram-positive/negative pathogens and fungi, with immunomodulatory properties to curb excessive cytokine release, considering cationic charge for bacterial selectivity and minimal host toxicity. Designed polypeptides, clearly flagged, conceptually extend coverage by targeting specific pathways such as bradykinin inhibition for edema or opioid receptor agonism for pain, grounded in peptide engineering for protease resistance and GI stability if oral, though intravenous delivery preferred in acute settings; overall, modes of action involve electrostatic membrane interactions for antimicrobials, NF-{kappa}B pathway suppression for anti-inflammatories, and vascular endothelial stabilization for edema control, with physicochemical optimizations like hydrophobicity balancing to enhance penetration into infected fascial spaces and reduce immunogenicity for safe adjunctive use alongside antibiotics and surgery.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Ludwig’s Angina p01"
+"Loaded_Programs=Ludwig’s Angina p02"
+"Loaded_Programs=Ludwig’s Angina p03"
+"Loaded_Programs=Ludwig’s Angina p04"
+"Loaded_Programs=Ludwig’s Angina p05"
+"Loaded_Programs=Ludwig’s Angina p06"
+"Loaded_Programs=Ludwig’s Angina p07"
+"Loaded_Programs=Ludwig’s Angina p08"
+"Loaded_Programs=Ludwig’s Angina p09"
+"Loaded_Programs=Ludwig’s Angina p10"
+"Loaded_Programs=Ludwig’s Angina p11"
+"Loaded_Programs=Ludwig’s Angina p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M114.043,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M156.101,M147.068,M163.063,M87.032,M113.084,M137.059,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M131.040,M115.027,M99.068,M129.043,M101.048,M128.095,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M163.063,M128.095,M147.068,M113.084,M156.101,M131.040,M99.068,M128.058,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.058,M156.101,M113.084,M87.032,M101.048,M99.068,M115.027,M128.095,M113.084,0=4,"
+"[/Preset]"

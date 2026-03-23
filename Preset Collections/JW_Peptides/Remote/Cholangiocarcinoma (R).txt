@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Cholangiocarcinoma (R)"
+"Preset_Notes=Cholangiocarcinoma for Remote
+
+Cholangiocarcinoma is an aggressive adenocarcinoma arising from biliary epithelial cells, often associated with chronic inflammation, fibrosis, cholestasis, immune dysregulation, and CXCR4-mediated invasion/metastasis. The proposed polypeptides target established mechanistic axes from preclinical and translational studies in biliary malignancies, including immune activation, direct oncolysis, receptor-driven growth suppression, biliary protection, inflammation control, and chemokine blockade.
+
+1. Thymosin {alpha}1-mediated immunostimulation: Enhances dendritic and T-cell responses with supportive evidence in hepatobiliary cancers.
+2. Cathelicidin LL-37 direct membrane-disrupting oncolysis: Selectively targets and lyses malignant biliary cells via cationic amphipathic action.
+3. VIP receptor agonism for antiproliferative signaling: VIP inhibits cholangiocarcinoma cell growth through VPAC1/2 receptors.
+4. Stable gastric peptide BPC-157 for cholestatic protection and tissue integrity: Ameliorates biliary obstruction damage and supports repair in relevant models.
+5. {alpha}-MSH-derived KPV for tumor microenvironment anti-inflammatory modulation: Suppresses pro-tumorigenic cytokines in biliary inflammation.
+6. Endogenous albumin-derived CXCR4 antagonist: EPI-X4 (sequence: LVRYTKKVPQVSTPTL) blocks CXCR4/CXCL12 axis critical for cholangiocarcinoma invasion.
+7. Engineered stability-optimized CXCR4 antagonist for novel pharmacokinetic enhancement: Ac-LVRYTKKVPQVSTPTL-NH2 provides acetylation/amidation for prolonged activity and potency.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Cholangiocarcinoma p01"
+"Loaded_Programs=Cholangiocarcinoma p02"
+"Loaded_Programs=Cholangiocarcinoma p03"
+"Loaded_Programs=Cholangiocarcinoma p04"
+"Loaded_Programs=Cholangiocarcinoma p05"
+"Loaded_Programs=Cholangiocarcinoma p06"
+"Loaded_Programs=Cholangiocarcinoma p07"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M99.068,M156.101,M163.063,M101.048,M128.095,M128.095,M99.068,M97.053,M128.058,M99.068,M87.032,M101.048,M97.053,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M155.095=1,M99.068,M156.101,M163.063,M101.048,M128.095,M128.095,M99.068,M97.053,M128.058,M99.068,M87.032,M101.048,M97.053,M101.048,M112.10,0=4,"
+"[/Preset]"

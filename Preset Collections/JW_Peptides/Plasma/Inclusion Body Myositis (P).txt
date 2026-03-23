@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Inclusion Body Myositis (P)"
+"Preset_Notes=Inclusion Body Myositis for Plasma
+
+Inclusion Body Myositis (IBM) is a progressive inflammatory myopathy primarily affecting adults over 50, characterized by insidious onset of asymmetric muscle weakness, particularly in finger flexors and quadriceps, leading to frequent falls and impaired hand function. It combines autoimmune inflammation with degenerative features, including rimmed vacuoles, protein aggregates (e.g., TDP-43, p62), mitochondrial abnormalities, and impaired autophagy. Causes involve genetic predisposition (e.g., HLA-DR3) and environmental triggers, resulting in cytotoxic T-cell invasion of muscle fibers, cytokine dysregulation (IL-6, IFN{gamma}), oxidative stress, and failed muscle regeneration. Symptoms progress slowly, often leading to dysphagia, respiratory compromise, and dependency; median survival post-diagnosis is 14 years, with no curative treatments available.
+
+The proposed designed polypeptides target key axes: For immune inflammation, the designed modulator conceptually reduces T-cell cytotoxicity and cytokine release to mitigate autoimmune attack. In myodegenerative pathways, the autophagy enhancer aims to clear aggregates and improve proteostasis. Myostatin/activin inhibition via the designed binder promotes muscle hypertrophy and counters atrophy. These flagged designs consider stability for intramuscular delivery, with feasibility in modulating validated pathways, pending clinical testing.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Inclusion Body Myositis p01"
+"Loaded_Programs=Inclusion Body Myositis p02"
+"Loaded_Programs=Inclusion Body Myositis p03"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M156.101,M99.068,M128.095,M131.040,M128.058,0=4,"
+"Loaded_Frequencies=M129.043=1,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.058,M115.027,M99.068,M137.059,M114.043,M156.101,M99.068,M128.095,M131.040,M128.058,M113.084,0=4,"
+"[/Preset]"

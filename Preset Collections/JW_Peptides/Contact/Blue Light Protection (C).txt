@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Blue Light Protection (C)"
+"Preset_Notes=Blue Light Protection for Contact
+
+Blue light protection refers to strategies aimed at mitigating the adverse effects of blue light exposure from screens and artificial lighting, which can cause oxidative damage to the eyes, disrupt sleep patterns, and accelerate skin aging. Key therapeutic axes identified include: 1. Retinal protection against blue light-induced oxidative stress and photoreceptor apoptosis. 2. Circadian rhythm modulation to counteract blue light's suppression of melatonin and maintain sleep-wake cycles. 3. Skin protection from blue light-triggered reactive oxygen species (ROS) and photoaging. 4. Corneal protection to enhance wound healing and epithelial integrity following blue light injury. The proposed polypeptides cover all axes: Peptide 1 targets retinal protection by incorporating antioxidant motifs to scavenge ROS and prevent cell death. Peptide 2 modulates circadian rhythms through vasoactive intestinal peptide-like sequences to stabilize clock gene expression. Peptide 3 protects skin by promoting collagen synthesis and anti-inflammatory effects derived from body protection compound motifs. Peptide 4 aids corneal healing via thymosin beta-4-inspired sequences that facilitate cell migration and tissue repair.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Blue Light Protection p01"
+"Loaded_Programs=Blue Light Protection p02"
+"Loaded_Programs=Blue Light Protection p03"
+"Loaded_Programs=Blue Light Protection p04"
+"Loaded_Frequencies=M189.079=1,M186.079,M57.021,M102.001,M163.063,M137.059,M97.053,M128.058,M113.084,M101.048,M129.043,M99.068,M156.101,M128.095,M101.017,0=4,"
+"Loaded_Frequencies=M179.070=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M99.032=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M70.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M86.048,0=4,"
+"[/Preset]"

@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Epstein-Barr Virus (EBV) (R)"
+"Preset_Notes=Epstein-Barr Virus (EBV) for Remote
+
+Epstein-Barr Virus (EBV) is a common herpesvirus responsible for infectious mononucleosis and linked to lymphomas, carcinomas, and autoimmune disorders through latent infection and oncogenic proteins. The selected real-world polypeptides target five evidence-based therapeutic axes from preclinical, clinical, and investigational research.
+1. EBNA1 inhibition: Disrupting EBNA1 dimerization and DNA binding to inhibit latent viral genome maintenance and persistence.
+2. LMP1 disruption: Blocking LMP1 oncogenic signaling to prevent B-cell transformation and proliferation.
+3. BZLF1 targeting: Interfering with BZLF1 to modulate lytic reactivation or elicit immune responses against switching from latency.
+4. Glycoprotein targeting: Neutralizing EBV glycoproteins like gB to block viral entry and cell-to-cell spread.
+5. T-cell epitope stimulation: Presenting EBV epitopes to activate cytotoxic T-cells for eliminating infected cells in adoptive immunotherapy.
+Peptide 1 (P85) inhibits EBNA1 dimerization, reducing viral replication. Peptide 2 (FO5) binds LMP1 C-terminus, disrupting signaling pathways. Peptide 3 (BZLF1 epitope) stimulates immunity against lytic protein, preventing reactivation. Peptide 4 (gB epitope) targets envelope glycoprotein, inhibiting infection. Peptide 5 (BMLF1 epitope) enhances T-cell recognition of early lytic antigens for tumor clearance.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Epstein-Barr Virus (EBV) p01"
+"Loaded_Programs=Epstein-Barr Virus (EBV) p02"
+"Loaded_Programs=Epstein-Barr Virus (EBV) p03"
+"Loaded_Programs=Epstein-Barr Virus (EBV) p04"
+"Loaded_Programs=Epstein-Barr Virus (EBV) p05"
+"Loaded_Frequencies=M128.095=1,M57.021,M57.021,M186.079,M147.068,M57.021,M128.095,M137.059,M156.101,M57.021,M128.058,M57.021,M114.043,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M128.058=1,M97.053,M101.048,M128.095,M115.027,M87.032,M87.032,M97.053,M97.053,M113.084,M156.101,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M128.095,M147.068,M128.095,M128.058,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M115.027,M128.095,M57.021,M101.048,M163.063,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M103.009,M101.048,M113.084,M99.068,M71.037,M131.040,M113.084,0=4,"
+"[/Preset]"

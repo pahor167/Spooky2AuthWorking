@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Toothache (C)"
+"Preset_Notes=Toothache for Contact
+
+Toothache is pain originating from teeth or surrounding tissues, commonly caused by dental caries, pulpitis, infection, inflammation, or trauma, leading to nerve irritation and tissue damage. The selected real-world polypeptides target five evidence-based therapeutic axes from preclinical studies, clinical products, and dental research.
+
+1. Enkephalinase inhibition: Opiorphin potentiates endogenous enkephalins for natural orofacial analgesia.
+2. Cytoprotective tissue repair: BPC-157 accelerates healing, reduces inflammation, and alleviates nociception in oral models.
+3. Self-assembling regeneration: P11-4 forms 3D scaffolds to guide hydroxyapatite formation in early caries.
+4. Calcium phosphate stabilization: CPP delivers and localizes ions for enamel remineralization.
+5. Broad-spectrum antimicrobial action: Histatin-5 targets cariogenic bacteria and fungi to prevent infection progression.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Toothache p01"
+"Loaded_Programs=Toothache p02"
+"Loaded_Programs=Toothache p03"
+"Loaded_Programs=Toothache p04"
+"Loaded_Programs=Toothache p05"
+"Loaded_Frequencies=M128.058=1,M156.101,M147.068,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M170.069=1,M128.058,M156.101,M147.068,M129.043,M186.079,M129.043,M147.068,M129.043,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M166.998=1,M166.998,M166.998,M129.043,M129.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"[/Preset]"

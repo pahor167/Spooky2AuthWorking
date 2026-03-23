@@ -1,0 +1,68 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R31 Other Bacteria D - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: 1 September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Bacterial Capsules (Capsular) HC
+Bacterial Capsules HC
+Nisin XTRA
+Calcifications XTRA
+Bacterial Capsules 1 XTRA
+Nisin XTRA
+Calcifications XTRA
+Bacterial Capsules 2 XTRA
+Nisin XTRA
+Calcifications XTRA
+Colloidal_Silver Octave XTRA
+Nisin XTRA
+Calcifications XTRA
+Liver Support CAFL
+Your Scan Results CUST"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square_Hbomb=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Bacterial Capsules (Capsular) (HC)"
+"Loaded_Programs=Bacterial Capsules (HC)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Bacterial Capsules 1 (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Bacterial Capsules 2 (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Colloidal_Silver Octal (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Liver Support (CAFL)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=416050-418750=3600,"
+"Loaded_Frequencies=362400-357600=3600,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=886.39=180,886.39=180,892.35=180,898.29=180,11175=180,11250=180,11325=180,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=892.35=180,1034.88=180,17923.34=180,20786.09=180,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=4653391.397248=300,2326695.698624=300,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=33.13=300,1552=300,802=300,751=300,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Hantavirus Pulmonary Syndrome (P)"
+"Preset_Notes=Hantavirus Pulmonary Syndrome for Plasma
+
+Hantavirus Pulmonary Syndrome (HPS) is a severe respiratory illness caused by New World hantaviruses, characterized by fever, myalgia, rapid pulmonary edema, and high mortality from capillary leak syndrome and cytokine dysregulation. Proposed polypeptides prioritize real-world motifs from preclinical inhibitory and epitope studies, with engineered designs targeting attachment blockade, inflammation resolution, and vascular protection for potential therapeutic or immunotherapeutic benefit.
+
+Therapeutic axes and assignments:
+1. Viral membrane fusion inhibition: Targets Gc protein stem region to prevent low-pH triggered fusion (real disulfide-cyclized peptide from optimization studies).
+- Assigned: Peptide 1 (real).
+2. {beta}3 integrin-mediated viral attachment blockade: Competes for receptor binding on endothelial cells (engineered disulfide-cyclized motif).
+- Assigned: Peptide 2 (designed).
+3. Induction of humoral immunity against nucleocapsid: Presents conserved linear epitope for antibody responses (real peptide from epitope mapping).
+- Assigned: Peptide 3 (real).
+4. Cytokine storm suppression: Agonizes anti-inflammatory pathways to reduce pro-inflammatory mediators (engineered motif with N-acetylation and C-amidation).
+- Assigned: Peptide 4 (designed).
+5. Endothelial barrier reinforcement: Promotes vascular stability and reduces permeability in leak models (engineered motif with N-acetylation and C-amidation).
+- Assigned: Peptide 5 (designed).
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Hantavirus Pulmonary Syndrome p01"
+"Loaded_Programs=Hantavirus Pulmonary Syndrome p02"
+"Loaded_Programs=Hantavirus Pulmonary Syndrome p03"
+"Loaded_Programs=Hantavirus Pulmonary Syndrome p04"
+"Loaded_Programs=Hantavirus Pulmonary Syndrome p05"
+"Loaded_Frequencies=M102.001=1,M97.053,M147.068,M99.068,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M156.101,M57.021,M115.027,M87.032,M97.053,M102.001,0=4,"
+"Loaded_Frequencies=M163.063=1,M129.043,M115.027,M99.068,M114.043,M57.021,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M99.032=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M98.084,0=4,"
+"[/Preset]"

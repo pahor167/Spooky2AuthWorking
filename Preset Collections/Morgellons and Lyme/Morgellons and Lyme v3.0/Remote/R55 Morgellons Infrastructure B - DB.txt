@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R55 Morgellons Infrastructure B - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Enablers 3 CUST
+Enablers 4 CUST
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Enablers 3 (CUST)"
+"Loaded_Programs=Enablers 4 (CUST)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=3499071.79=300,3499071.8=300,1749535.89=300,1749535.9=300,3473200.56=300,3473200.57=300,1736600.28=300,1736600.29=300,3463132.48=300,3463132.49=300,1731566.24=300,1731566.25=300,3453238.81=300,3453238.82=300,1726619.4=300,1726619.41=300,"
+"Loaded_Frequencies=3407591.84=300,3407591.85=300,1703795.92=300,1703795.93=300,3380834.35=300,3380834.36=300,1690417.17=300,1690417.18=300,3376510.16=300,3376510.17=300,1688255.08=300,1688255.09=300,3371432.22=300,3371432.23=300,1685716.11=300,1685716.12=300,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

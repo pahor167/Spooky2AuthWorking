@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Acute Myeloid Leukemia (P)"
+"Preset_Notes=Acute Myeloid Leukemia for Plasma
+
+Acute Myeloid Leukemia (AML) is a aggressive hematologic malignancy characterized by uncontrolled proliferation of abnormal myeloid blasts in the bone marrow and blood, often with poor prognosis in adults. Polypeptide-based therapies focus on immunotherapy via tumor-associated antigen peptides to stimulate cytotoxic T-cell responses, as well as direct induction of differentiation or apoptosis in leukemic cells using engineered or selected peptides.
+
+Therapeutic axes and assigned polypeptides:
+
+1. Targeting overexpressed WT1 antigen: Heteroclitic WT1 peptide elicits enhanced CD8+ T-cell immunity against WT1-expressing blasts.
+
+2. Targeting proteinase 3-derived PR1 antigen: PR1 peptide vaccine induces CTL-specific lysis of PR1-overexpressing myeloid leukemia cells.
+
+3. Targeting cathepsin G-derived CG1 antigen: CG1 peptide stimulates HLA-A*0201-restricted CTLs for selective killing of AML blasts.
+
+4. TLR2-mediated differentiation induction: Protease-resistant all-D-amino acid peptide activates TLR2 signaling, promoting macrophage-like maturation and inhibiting proliferation.
+
+5. Disruption of Lck-IP3R protein-protein interaction: Cell-penetrating TAT-fused peptide triggers calcium-dependent apoptosis selectively in hematologic cancer cells.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Acute Myeloid Leukemia p01"
+"Loaded_Programs=Acute Myeloid Leukemia p02"
+"Loaded_Programs=Acute Myeloid Leukemia p03"
+"Loaded_Programs=Acute Myeloid Leukemia p04"
+"Loaded_Programs=Acute Myeloid Leukemia p05"
+"Loaded_Frequencies=M163.063=1,M131.040,M147.068,M97.053,M114.043,M71.037,M97.053,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M128.058,M129.043,M113.084,M114.043,M99.068,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M113.084,M97.053,M101.048,M57.021,M71.037,M129.043,M71.037,0=4,"
+"Loaded_Frequencies=M128.058=1,M147.068,M97.053,M57.021,M147.068,M57.021,M101.048,M129.043,M113.084,M97.053,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"[/Preset]"

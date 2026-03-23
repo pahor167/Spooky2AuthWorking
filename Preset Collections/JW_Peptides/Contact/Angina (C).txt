@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Angina (C)"
+"Preset_Notes=Angina for Contact
+
+Angina is chest pain or discomfort due to myocardial ischemia from reduced coronary blood flow, often caused by atherosclerosis, spasm, or increased demand. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical, investigational, and clinical studies on vasodilatory, cardioprotective, and anti-ischemic peptide mechanisms.
+
+1. Natriuretic peptide receptor agonism: hANP (Carperitide) induces vasodilation, natriuresis, and reduces preload/afterload to alleviate ischemic symptoms.
+2. CGRP receptor activation: alpha-CGRP provides potent, selective coronary vasodilation to improve perfusion in refractory or vasospastic angina.
+3. Ghrelin receptor agonism: Hexarelin exerts cardioprotective effects, reducing ischemia-reperfusion injury and improving cardiac performance.
+4. Apelin receptor agonism: [pGlu1]-Apelin-13 enhances inotropy, vasodilation, and endothelial function in ischemic models.
+5. Endothelial stabilization and repair: BPC-157 promotes vascular integrity, angiogenesis, and protection against ischemic damage.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Angina p01"
+"Loaded_Programs=Angina p02"
+"Loaded_Programs=Angina p03"
+"Loaded_Programs=Angina p04"
+"Loaded_Programs=Angina p05"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M147.068,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M200.095,M71.037,M186.079,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"[/Preset]"

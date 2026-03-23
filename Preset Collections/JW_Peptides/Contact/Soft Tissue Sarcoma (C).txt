@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Soft Tissue Sarcoma (C)"
+"Preset_Notes=Soft Tissue Sarcoma for Contact
+
+Soft tissue sarcoma (STS) comprises a heterogeneous group of rare mesenchymal-origin malignancies with over 50 subtypes, often driven by specific genetic alterations (e.g., translocations producing fusion neoantigens in synovial sarcoma, MDM2 amplification in liposarcoma). Advanced/metastatic disease has poor prognosis due to resistance to conventional therapies. Key pathophysiological axes include: aberrant cell cycle regulation (e.g., CDK4/6 hyperactivity); pathological angiogenesis; immune evasion/suppression despite occasional CTA/fusion antigen expression; apoptosis resistance; tumor vasculature abnormalities; epigenetic dysregulation; and proliferative signaling. The polypeptide set prioritizes real-world examples from clinical trials (anti-angiogenic, telomerase/CTA-targeting vaccine epitopes, vasculature-homing), using all verifiable ones (shortfall from min_real_polypeptides documented: only 4 identified with direct STS relevance and standard-residue sequences across PubMed/ClinicalTrials.gov sources). Designed polypeptides supplement to ensure coverage of underrepresented axes (e.g., oncolytic induction, apoptosis promotion, cell cycle modulation); these are flagged as designed.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Soft Tissue Sarcoma p01"
+"Loaded_Programs=Soft Tissue Sarcoma p02"
+"Loaded_Programs=Soft Tissue Sarcoma p03"
+"Loaded_Programs=Soft Tissue Sarcoma p04"
+"Loaded_Programs=Soft Tissue Sarcoma p05"
+"Loaded_Programs=Soft Tissue Sarcoma p06"
+"Loaded_Programs=Soft Tissue Sarcoma p07"
+"Loaded_Programs=Soft Tissue Sarcoma p08"
+"Loaded_Programs=Soft Tissue Sarcoma p09"
+"Loaded_Programs=Soft Tissue Sarcoma p10"
+"Loaded_Programs=Soft Tissue Sarcoma p11"
+"Loaded_Programs=Soft Tissue Sarcoma p12"
+"Loaded_Programs=Soft Tissue Sarcoma p13"
+"Loaded_Programs=Soft Tissue Sarcoma p14"
+"Loaded_Programs=Soft Tissue Sarcoma p15"
+"Loaded_Programs=Soft Tissue Sarcoma p16"
+"Loaded_Programs=Soft Tissue Sarcoma p17"
+"Loaded_Programs=Soft Tissue Sarcoma p18"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M71.037,M128.095,M147.068,M113.084,M137.059,M186.079,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M113.084,M131.040,M186.079,M113.084,M101.048,M128.058,M103.009,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.043,M57.021,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M57.021,M150.954,M57.021,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M57.021,M86.048,M57.021,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M113.048,M57.021,M113.048,M113.084,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M87.032,M86.048,M87.032,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M114.079,M150.954,M114.079,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M57.021,M113.048,M57.021,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M114.079,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M85.053,M57.021,M114.079,M57.021,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M113.084=1,M57.021,M113.084,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M114.079,M57.021,M150.954,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M100.064=1,M114.079,M100.064,M114.079,M100.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M113.048,M57.021,M113.084,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M113.048,M85.053,M113.048,M85.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M57.021,M86.048,M57.021,M86.048,M102.001,0=4,"
+"[/Preset]"

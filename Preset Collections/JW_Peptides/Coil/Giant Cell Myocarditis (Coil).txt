@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Giant Cell Myocarditis (Coil)"
+"Preset_Notes=Giant Cell Myocarditis for Coil
+
+Giant Cell Myocarditis (GCM) is a rare, aggressive, and frequently fatal autoimmune inflammatory cardiomyopathy characterized by diffuse myocardial infiltration with multinucleated giant cells, lymphocytes (predominantly CD8+ T-cells), and eosinophils, leading to widespread myocyte necrosis. The disease often presents fulminantly in young to middle-aged adults with acute heart failure, cardiogenic shock, high-grade atrioventricular block, or sustained ventricular arrhythmias; progression is rapid, with historical transplant-free survival under 20% at one year without intervention. Pathophysiology centers on T-cell-mediated autoimmune destruction of cardiomyocytes, potentially triggered by molecular mimicry or dysregulated immune responses, sometimes associated with thymoma, other autoimmune disorders, or immune checkpoint inhibitor therapy. Secondary features include extensive fibrosis, conduction system disruption, and inflammatory cytokine release amplifying damage.
+
+Standard management relies on early diagnosis via endomyocardial biopsy, hemodynamic support (including mechanical circulatory devices as bridge), and aggressive combination immunosuppression-typically high-dose corticosteroids plus calcineurin inhibitors (cyclosporine or tacrolimus), often with adjunctive agents like anti-thymocyte globulin or muromonab-CD3 for T-cell depletion-yielding improved transplant-free survival in registry data. Heart transplantation remains definitive for refractory cases, though recurrence in the graft is possible. No short polypeptide therapeutics are established or in advanced clinical use; full-length biologics (e.g., polyclonal antibodies) dominate experimental immunomodulation. The four proposed conceptual designed polypeptides are all short synthetic peptides (8 residues, no PTMs) to address core axes while offering synthetic feasibility, potential cell/tissue penetration, and minimized immunogenicity.
+
+The first designed peptide, enriched in aromatic and basic residues, conceptually inhibits aberrant T-cell activation and myocardial infiltration to halt primary autoimmune attack. The second designed peptide targets cytokine-driven amplification, potentially interfering with proinflammatory signaling to dampen secondary inflammation. The third designed peptide aims to disrupt giant cell formation and necrotic processes through hydrophobic interactions with damaged myocardium. The fourth designed peptide supports myocyte viability and anti-remodeling effects to preserve cardiac function. Physicochemically, these peptides feature balanced hydrophobicity/cationic profiles for axis-specific targeting, no excessive residue repeats to limit aggregation, high sequence diversity (>50% pairwise differences) for multifaceted action, and short length enabling scalable production and potential cardiac delivery.
+
+"
+"Loaded_Programs=Giant Cell Myocarditis p01"
+"Loaded_Programs=Giant Cell Myocarditis p02"
+"Loaded_Programs=Giant Cell Myocarditis p03"
+"Loaded_Programs=Giant Cell Myocarditis p04"
+"Loaded_Frequencies=M156.101=1,M186.079,M137.059,M128.095,M147.068,M113.084,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M163.063,M87.032,M115.027,M114.043,M156.101,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M147.068=1,M71.037,M113.084,M99.068,M131.040,M128.095,M128.058,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M99.068,M97.053,M113.084,M163.063,M137.059,M87.032,0=4,"
+"[/Preset]"

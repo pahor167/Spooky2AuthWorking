@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=DLBCL Lymphoma (Coil)"
+"Preset_Notes=DLBCL Lymphoma for Coil
+
+Relevant therapeutic mechanisms for DLBCL lymphoma (aggressive B-cell malignancy driven by proliferation, immune evasion, stromal support, mitochondrial/ROS dysregulation, epigenetic alterations): 
+- Immune modulation: Peptides 1-2 (real-world). 
+- Anti-inflammatory action: Peptide 3 (real-world). 
+- ECM remodeling/fibrosis restriction: Peptide 4 (real-world). 
+- Angiogenesis modulation (inhibit): Peptide 5 (real-world). 
+- Senescence modulation/anti-proliferative: Peptide 6 (real-world). 
+- Pro-apoptotic/anti-proliferative: Peptide 7 (designed). 
+- Epigenetic modifier interference: Peptide 8 (designed). 
+- Mitochondrial stability (disrupt): Peptide 9 (designed). 
+- Oxidative-stress induction/DNA-damage response: Peptide 10 (designed). 
+Real-world peptides (1-6) drawn from validated literature/clinical examples addressing overlapping cancer/lymphoma axes; designed (7-10) conceptual scaffolds with strict feasibility (amphipathic motifs, validated PTMs/residues, diverse sequences >50% difference). Full coverage ensures multi-axis attack on DLBCL hallmarks.
+
+"
+"Loaded_Programs=DLBCL Lymphoma p01"
+"Loaded_Programs=DLBCL Lymphoma p02"
+"Loaded_Programs=DLBCL Lymphoma p03"
+"Loaded_Programs=DLBCL Lymphoma p04"
+"Loaded_Programs=DLBCL Lymphoma p05"
+"Loaded_Programs=DLBCL Lymphoma p06"
+"Loaded_Programs=DLBCL Lymphoma p07"
+"Loaded_Programs=DLBCL Lymphoma p08"
+"Loaded_Programs=DLBCL Lymphoma p09"
+"Loaded_Programs=DLBCL Lymphoma p10"
+"Loaded_Frequencies=M129.043=1,M128.095,M115.027,M99.068,M163.063,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M71.037,M156.101,M128.095,M113.084,M71.037,M128.059,M156.101,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M142.111,M156.101,M128.095,M71.037,M137.059,M163.063,M87.032,M97.053,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M186.079,M128.095,M99.068,M71.037,M156.101,M128.095,M115.027,M129.043,0=4,"
+"Loaded_Frequencies=M147.035=1,M186.079,M163.063,M166.998,M101.048,M128.095,M156.101,M97.053,M99.068,M57.021,0=4,"
+"[/Preset]"

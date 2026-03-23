@@ -1,0 +1,60 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Sinus and Nasal Clearing (S)"
+"Preset_Notes=Sinus and Nasal Clearing for Scalar
+
+Sinus and nasal clearing targets congestion, mucus stasis, chronic inflammation, pathogen persistence (including biofilms), mucosal edema, and impaired mucociliary function in conditions such as chronic rhinosinusitis, allergic/non-allergic rhinitis, and post-infectious sinus obstruction.
+
+1. Beta-defensin defense: Human Beta-Defensin 3 (hBD-3) - Broad-spectrum antimicrobial and immunomodulatory activity against sinonasal bacteria, fungi, and viruses.
+2. Cathelicidin action: LL-37 - Disrupts biofilms, kills pathogens, and balances immune responses in chronic rhinosinusitis.
+3. Innate immunomodulation: IDR-1018 - Enhances chemokine production and monocyte function while suppressing excessive pro-inflammatory cytokines.
+4. Resolution promotion: Annexin_A1_Ac2-26 - Activates FPR2/ALX receptors to resolve inflammation and reduce mucosal swelling.
+5. VIPergic regulation: VIP - Relaxes vascular and glandular tone, reducing hypersecretion and nasal blockage.
+6. Neurogenic control: Catestatin - Inhibits catecholamine-driven neuroinflammation contributing to nasal hyperreactivity.
+7. Lactoferrin fragment bactericidal: Lactoferricin B - Potent killing of Gram-positive/negative bacteria via membrane disruption and iron sequestration.
+8. ENaC-mediated decongestion: Solnatide - Activates epithelial sodium channels for fluid reabsorption and edema reduction.
+9. Anti-fibrotic blockade: P144 - Inhibits TGF-{beta} to prevent polyp formation and submucosal remodeling.
+10. Mitochondrial protection: Elamipretide - Stabilizes cardiolipin and reduces ROS damage to preserve epithelial and ciliary integrity.
+11. Vasodilatory support: Adrenomedullin - Potent relaxation of sinonasal vasculature with anti-inflammatory effects for drainage.
+12. Optimized pathogen selectivity: NasAMP-1 (designed) - Tryptophan-rich cationic helical peptide engineered for enhanced bacterial membrane disruption at nasal pH with minimal epithelial toxicity.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Sinus and Nasal Clearing p01"
+"Loaded_Programs=Sinus and Nasal Clearing p02"
+"Loaded_Programs=Sinus and Nasal Clearing p03"
+"Loaded_Programs=Sinus and Nasal Clearing p04"
+"Loaded_Programs=Sinus and Nasal Clearing p05"
+"Loaded_Programs=Sinus and Nasal Clearing p06"
+"Loaded_Programs=Sinus and Nasal Clearing p07"
+"Loaded_Programs=Sinus and Nasal Clearing p08"
+"Loaded_Programs=Sinus and Nasal Clearing p09"
+"Loaded_Programs=Sinus and Nasal Clearing p10"
+"Loaded_Programs=Sinus and Nasal Clearing p11"
+"Loaded_Programs=Sinus and Nasal Clearing p12"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M128.095,M156.101,M129.043,M101.048,M97.053,M129.043,M57.021,M71.037,M129.043,M71.037,M128.095,M97.053,M113.084,M129.043,M71.037,M113.084,M113.084,M101.048,M129.043,M113.084,M57.021,M113.084,M71.037,M128.095,M71.037,M128.095,M101.048,0=4,"
+"Loaded_Frequencies=M101.048=1,M87.032,M113.084,M115.027,M71.037,M87.032,M113.084,M113.084,M186.079,M71.037,M131.040,M131.040,M128.058,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M186.079,M186.079,M128.095,M186.079,M186.079,M156.101,M156.101,0=4,"
+"[/Preset]"

@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Machado-Joseph Disease (Coil)"
+"Preset_Notes=Machado-Joseph Disease for Coil
+
+Machado-Joseph Disease (MJD), also known as Spinocerebellar Ataxia Type 3 (SCA3), is an autosomal dominant neurodegenerative disorder and the most common spinocerebellar ataxia worldwide, with prevalence rates up to 1 in 4,000 in certain populations like the Azores. It is caused by a CAG trinucleotide repeat expansion in the ATXN3 gene on chromosome 14q32.1, leading to an expanded polyglutamine tract in the ataxin-3 protein, typically exceeding 52 repeats in affected individuals. This mutation results in protein misfolding, aggregation, and nuclear inclusions, triggering a cascade of cellular dysfunctions including proteasomal overload, autophagy impairment, mitochondrial damage, oxidative stress, transcriptional dysregulation, and neuronal loss primarily in the cerebellum, brainstem, substantia nigra, and spinal cord. Symptoms usually onset in adulthood (average age 40), progressing over 15-20 years, and include progressive ataxia, dysarthria, dysphagia, oculomotor abnormalities, pyramidal signs, peripheral neuropathy, dystonia, parkinsonism, and non-motor features like sleep disturbances, cognitive decline, and psychiatric issues. Pathophysiology centers on toxic gain-of-function of mutant ataxin-3, disrupting deubiquitinating activity, protein homeostasis, DNA repair, and calcium signaling, exacerbated by RNA toxicity and splicing aberrations.
+
+The proposed polypeptides address MJD through therapeutic axes such as enhancing autophagy to clear aggregates, silencing mutant ATXN3 expression, reducing oxidative stress via mitochondrial protection, modulating aberrant signaling pathways like GSK3{beta}/PKC, and inhibiting protein aggregation directly. Designed polypeptides D1-D5 are conceptualized to activate autophagic flux, bind and degrade mutant RNA/protein, scavenge ROS while stabilizing mitochondria, inhibit kinases for pathway balance, and disrupt polyQ aggregates, respectively, potentially alleviating neuronal loss, improving motor function, and slowing disease progression.
+
+"
+"Loaded_Programs=Machado-Joseph Disease p01"
+"Loaded_Programs=Machado-Joseph Disease p02"
+"Loaded_Programs=Machado-Joseph Disease p03"
+"Loaded_Programs=Machado-Joseph Disease p04"
+"Loaded_Programs=Machado-Joseph Disease p05"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M57.021,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M97.053,M97.053,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M113.084,M113.084,M113.084,0=4,"
+"[/Preset]"

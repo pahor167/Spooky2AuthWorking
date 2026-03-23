@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Celiac Disease (C)"
+"Preset_Notes=Celiac Disease for Contact
+
+The peptides target multiple therapeutic axes for celiac disease, including restoration of intestinal barrier function, induction of immune tolerance via epitope-specific modulation, reduction of inflammation, and promotion of mucosal tissue repair. Designed peptides are flagged and provide conceptual supplements for gluten peptide neutralization and antioxidant protection.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Celiac Disease p01"
+"Loaded_Programs=Celiac Disease p02"
+"Loaded_Programs=Celiac Disease p03"
+"Loaded_Programs=Celiac Disease p04"
+"Loaded_Programs=Celiac Disease p05"
+"Loaded_Programs=Celiac Disease p06"
+"Loaded_Programs=Celiac Disease p07"
+"Loaded_Programs=Celiac Disease p08"
+"Loaded_Programs=Celiac Disease p09"
+"Loaded_Programs=Celiac Disease p10"
+"Loaded_Programs=Celiac Disease p11"
+"Loaded_Programs=Celiac Disease p12"
+"Loaded_Frequencies=M57.021=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M128.058,M97.053,M147.068,M97.053,M128.058,M97.053,M129.043,M113.084,M97.053,M163.063,M97.053,M128.058,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.058,M97.053,M147.068,M97.053,M128.058,M97.053,M129.043,M128.058,M97.053,M147.068,M97.053,M186.079,M128.058,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M97.053,M129.043,M128.058,M97.053,M113.084,M97.053,M129.043,M128.058,M97.053,M128.058,M97.053,M163.063,M97.053,M128.058,M128.058,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M128.058=1,M128.058,M97.053,M128.058,M115.027,M71.037,M99.068,M128.058,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M170.106=1,M156.101,M99.068,M129.043,M87.032,M128.058,M97.053,0=4,"
+"Loaded_Frequencies=M101.001=1,M115.027,M128.095,M97.053,M128.058,M113.084,M101.001,0=4,"
+"[/Preset]"

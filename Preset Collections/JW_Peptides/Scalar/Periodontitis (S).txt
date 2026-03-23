@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Periodontitis (S)"
+"Preset_Notes=Periodontitis for Scalar
+
+Periodontitis is a chronic inflammatory disease driven by dysbiotic bacterial biofilms, resulting in gingival inflammation, periodontal pocket formation, alveolar bone loss, and potential tooth loss.
+
+1. Antimicrobial defense: Human Beta-Defensin 3 - Broad-spectrum antimicrobial activity against key periodontal pathogens with immune-modulating properties to limit excessive inflammation.
+2. Bone regeneration: P-15 - Mimics type I collagen cell-binding domain to enhance osteoblast attachment, migration, and differentiation for alveolar bone repair.
+3. Immunomodulatory response: IDR-1018 - Selectively modulates innate immunity to suppress pro-inflammatory cytokines while promoting infection resolution.
+4. Anti-biofilm activity: DJK-5 - Targets bacterial (pp)pGpp signaling to prevent biofilm formation and disperse established multispecies oral biofilms.
+5. Membrane-disrupting bactericidal: GL13K - Amphipathic cationic structure lyses membranes of Gram-negative periodontal pathogens such as P. gingivalis.
+6. Optimized amphipathic antimicrobial: PerioAMP-1 - Engineered cationic peptide with tryptophan-enhanced hydrophobicity for potent disruption of anaerobic pathogen membranes in periodontal pockets.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Periodontitis p01"
+"Loaded_Programs=Periodontitis p02"
+"Loaded_Programs=Periodontitis p03"
+"Loaded_Programs=Periodontitis p04"
+"Loaded_Programs=Periodontitis p05"
+"Loaded_Programs=Periodontitis p06"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M113.084,M99.068,M128.058,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.058,M186.079,M156.101,M71.037,M113.084,M156.101,M99.068,M156.101,M99.068,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M113.084,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M113.084,M113.084,M128.095,M128.095,M186.079,M186.079,M128.095,M128.095,M113.084,M113.084,M128.095,0=4,"
+"[/Preset]"

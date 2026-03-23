@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Osteoporosis (C)"
+"Preset_Notes=Osteoporosis for Contact
+
+Osteoporosis is a systemic skeletal disease marked by reduced bone mineral density, deteriorated microarchitecture, and elevated fracture risk due to imbalanced remodeling favoring osteoclast resorption over osteoblast formation, compounded by aging, hormonal changes, oxidative stress, inflammation, and impaired regenerative capacity. The proposed polypeptides target evidence-based therapeutic axes from approved treatments, preclinical bone healing studies, and matrix stabilization research to inhibit resorption, stimulate formation, enhance healing, and reinforce extracellular matrix.
+
+1. Calcitonin-mediated osteoclast inhibition: Salmon calcitonin reduces bone resorption and turnover, clinically used for postmenopausal osteoporosis.
+2. Parathyroid hormone anabolic stimulation: Teriparatide (hPTH 1-34) promotes osteoblast activity, increases bone formation, and improves density in severe cases.
+3. Gastric pentadecapeptide-promoted healing: BPC-157 accelerates angiogenesis and repair in segmental bone defects.
+4. Thymosin {beta}4 fragment regenerative migration: TB-500 enhances cell migration and tissue regeneration in bone injury models.
+5. Copper-tripeptide matrix remodeling: GHK-Cu supports collagen synthesis, antioxidant defense, and bone matrix integrity.
+6. EPO-derived helix-B repair activation: ARA-290 mitigates stressors and supports protective pathways in bone tissue.
+7. {alpha}-MSH tripeptide anti-inflammation: KPV attenuates inflammatory mediators contributing to resorption.
+8. Engineered collagen-mimetic stabilization (novel optimization): Ac-(GPP)10-NH2 forms stable triple helices to reinforce and mineralize bone extracellular matrix.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Osteoporosis p01"
+"Loaded_Programs=Osteoporosis p02"
+"Loaded_Programs=Osteoporosis p03"
+"Loaded_Programs=Osteoporosis p04"
+"Loaded_Programs=Osteoporosis p05"
+"Loaded_Programs=Osteoporosis p06"
+"Loaded_Programs=Osteoporosis p07"
+"Loaded_Programs=Osteoporosis p08"
+"Loaded_Frequencies=M102.001=1,M87.032,M114.043,M113.084,M87.032,M101.048,M102.001,M99.068,M113.084,M57.021,M128.095,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M128.095,M113.084,M128.058,M101.048,M163.063,M97.053,M156.101,M101.048,M114.043,M101.048,M57.021,M87.032,M71.037,M101.048,M96.069,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,0=4,"
+"[/Preset]"

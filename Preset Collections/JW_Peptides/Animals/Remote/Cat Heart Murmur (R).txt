@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Cat Heart Murmur (R)"
+"Preset_Notes=Cat Heart Murmur for Remote
+
+A heart murmur in a cat is an extra or unusual sound heard during a heartbeat, typically caused by turbulent blood flow within the heart or great vessels. In felines, heart murmurs are most commonly associated with Hypertrophic Cardiomyopathy (HCM), a condition characterized by the thickening of the left ventricular walls, which leads to diastolic dysfunction and impaired filling. A primary mechanism for murmur generation in HCM is Systolic Anterior Motion (SAM) of the mitral valve, where the valve leaflet is drawn into the left ventricular outflow tract (LVOT), causing both obstruction and mitral regurgitation. The pathophysiological axes for treatment focus on improving myocardial relaxation, reducing LVOT obstruction, inhibiting the neurohormonal activation of the renin-angiotensin-aldosterone system (RAAS), and preventing secondary complications such as myocardial fibrosis and feline aortic thromboembolism (FATE). The proposed polypeptides target these specific axes to restore cardiac efficiency and protect the myocardium. Designed polypeptides, such as D-LVOT-1 and D-STIFF-1, are specifically engineered to stabilize the thick filament and enhance titin-mediated compliance, respectively. D-MET-1 provides mitochondrial metabolic support, while D-FIB-1 is designed to inhibit TGF-beta-mediated fibrosis.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Cat Heart Murmur p01"
+"Loaded_Programs=Cat Heart Murmur p02"
+"Loaded_Programs=Cat Heart Murmur p03"
+"Loaded_Programs=Cat Heart Murmur p04"
+"Loaded_Programs=Cat Heart Murmur p05"
+"Loaded_Programs=Cat Heart Murmur p06"
+"Loaded_Programs=Cat Heart Murmur p07"
+"Loaded_Programs=Cat Heart Murmur p08"
+"Loaded_Programs=Cat Heart Murmur p09"
+"Loaded_Programs=Cat Heart Murmur p10"
+"Loaded_Programs=Cat Heart Murmur p11"
+"Loaded_Programs=Cat Heart Murmur p12"
+"Loaded_Programs=Cat Heart Murmur p13"
+"Loaded_Programs=Cat Heart Murmur p14"
+"Loaded_Programs=Cat Heart Murmur p15"
+"Loaded_Programs=Cat Heart Murmur p16"
+"Loaded_Programs=Cat Heart Murmur p17"
+"Loaded_Programs=Cat Heart Murmur p18"
+"Loaded_Frequencies=M137.059=1,M97.053,M113.084,M57.021,M87.032,M97.053,M57.021,M87.032,M71.037,M87.032,M115.027,M113.084,M129.043,M101.048,M87.032,M57.021,M113.084,M128.058,M129.043,M128.058,M156.101,M114.043,M137.059,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M103.009,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M103.009,M128.095,M99.068,M113.084,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M103.009,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M103.009,M114.043,M87.032,M147.068,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M137.059,M128.095,M57.021,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M113.084,M87.032,M113.084,M115.027,M99.068,M97.053,M113.084,M57.021,M113.084,M113.084,M156.101,M113.084,M113.084,M113.084,M129.043,M128.058,M71.037,M156.101,M71.037,M156.101,M71.037,M71.037,M156.101,M129.043,M128.058,M71.037,M101.048,M101.048,M114.043,M71.037,M156.101,M113.084,M113.084,M71.037,M156.101,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M103.009,M156.101,M147.068,M57.021,M101.048,M103.009,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M97.053,M57.021,M147.068,M87.032,M97.053,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M57.021,M129.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M103.009,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M103.009,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M113.084,M99.068,M156.101,M113.084,M87.032,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M129.043,M99.068,M99.068,M99.068,M97.053,M97.053,M129.043,M129.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M163.063,M128.095,M147.068,M128.095,M113.084,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M186.079=1,M128.058,M113.084,M71.037,M87.032,M99.068,M99.068,M97.053,0=4,"
+"[/Preset]"

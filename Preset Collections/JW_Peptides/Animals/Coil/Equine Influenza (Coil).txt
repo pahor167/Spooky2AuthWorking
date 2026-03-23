@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Equine Influenza (Coil)"
+"Preset_Notes=Equine Influenza for Coil
+
+Equine Influenza is a highly contagious respiratory disease caused by specific strains of the Influenza A virus (H3N8). It is characterized by rapid spread through aerosolized droplets, high fever, a dry hacking cough, and nasal discharge. The virus infects the epithelial cells of the upper and lower respiratory tract, leading to the destruction of the mucociliary clearance mechanism, which predisposes affected horses to secondary bacterial pneumonia.
+
+1. Viral Fusion Inhibition: eHA-Block - Targeting the hemagglutinin (HA) protein to prevent viral entry into host respiratory cells.
+2. Mucosal Immunity: eIgA-Boost - Enhancing secretory IgA production in the nasal mucosa to neutralize inhaled virions.
+3. Cytokine Modulation: eAnti-Storm - Regulates pro-inflammatory cytokines to prevent lung tissue damage during acute infection.
+4. Ciliary Repair: eCilia-Regen - Promotes the regeneration of the mucociliary apparatus following viral desquamation.
+5. Interferon Induction: eIFN-Lambda-Eq - Type III interferon mimetic for localized antiviral defense without systemic toxicity.
+6. Multi-Valence Shield: Flu-Guard-Eq - Designed chimeric peptide combining HA-binding and anti-inflammatory domains for comprehensive recovery.
+
+"
+"Loaded_Programs=Equine Influenza p01"
+"Loaded_Programs=Equine Influenza p02"
+"Loaded_Programs=Equine Influenza p03"
+"Loaded_Programs=Equine Influenza p04"
+"Loaded_Programs=Equine Influenza p05"
+"Loaded_Programs=Equine Influenza p06"
+"Loaded_Frequencies=M163.063=1,M147.068,M128.058,M113.084,M113.084,M163.063,M156.101,M137.059,M113.084,M147.068,M156.101,M137.059,M113.084,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M114.043,M114.043,M128.058,M128.058,M128.058,M114.043,M114.043,M114.043,M156.101,M114.043,M114.043,M128.058,M128.058,M128.058,M114.043,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M128.058,M114.043,M99.068,M71.037,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M114.043,M101.048,M113.084,M156.101,M147.068,M113.084,M114.043,M156.101,M147.068,M113.084,M114.043,M156.101,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M147.068,M128.058,M113.084,M113.084,M163.063,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,0=4,"
+"[/Preset]"

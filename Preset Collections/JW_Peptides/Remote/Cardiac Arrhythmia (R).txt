@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Cardiac Arrhythmia (R)"
+"Preset_Notes=Cardiac Arrhythmia for Remote
+
+Cardiac arrhythmia involves disrupted heart rhythm from impaired conduction, fibrosis, inflammation, oxidative stress, and ischemic damage. The proposed polypeptides target evidence-based axes from antiarrhythmic research, cytoprotection studies, and cardiac regeneration models to enhance coupling, counteract triggers, promote repair, reduce inflammation, and stabilize matrix.
+
+1. Gap junction conductance enhancement and anti-uncoupling: Rotigaptide (ZP123) preserves intercellular communication under metabolic stress to prevent reentry arrhythmias.
+2. Broad cytoprotective counteraction of arrhythmia triggers: BPC-157 maintains sinus rhythm against diverse induced disturbances (e.g., digitalis, beta-blockers).
+3. Actin sequestration-mediated cardiac repair and protection: TB-500 promotes myocyte migration, survival, and functional recovery post-damage.
+4. Non-hematopoietic tissue-protective and anti-inflammatory effects: ARA 290 mitigates cardiovascular inflammation and structural changes.
+5. Melanocortin receptor-mediated potent anti-inflammation: KPV suppresses cytokines contributing to arrhythmic substrates.
+6. Copper-binding regenerative and antioxidant support: GHK-Cu enhances ECM remodeling and healing in cardiac tissue.
+7. Engineered hydroxyproline-rich collagen mimetic stabilization: Ac-(GPO)10-NH2 forms triple helices to reinforce matrix and reduce fibrosis-driven arrhythmias.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Cardiac Arrhythmia p01"
+"Loaded_Programs=Cardiac Arrhythmia p02"
+"Loaded_Programs=Cardiac Arrhythmia p03"
+"Loaded_Programs=Cardiac Arrhythmia p04"
+"Loaded_Programs=Cardiac Arrhythmia p05"
+"Loaded_Programs=Cardiac Arrhythmia p06"
+"Loaded_Programs=Cardiac Arrhythmia p07"
+"Loaded_Frequencies=M205.074=1,M97.053,M113.048,M57.021,M71.037,M56.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M112.064,0=4,"
+"[/Preset]"

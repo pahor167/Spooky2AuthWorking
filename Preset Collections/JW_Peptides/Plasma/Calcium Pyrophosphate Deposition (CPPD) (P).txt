@@ -1,0 +1,44 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Calcium Pyrophosphate Deposition (CPPD) (P)"
+"Preset_Notes=Calcium Pyrophosphate Deposition (CPPD) for Plasma
+
+Calcium pyrophosphate deposition (CPPD), also known as pseudogout, is a common arthropathy in older adults caused by calcium pyrophosphate crystal deposition in joints, triggering NLRP3 inflammasome activation, IL-1{beta}-mediated inflammation, acute flares, and potential chronic joint damage. No disease-modifying treatments exist; management focuses on symptom relief and inflammation control, with IL-1 inhibitors showing promise in refractory cases.
+
+1. Inflammation resolution: Annexin A1 Ac2-26 - N-terminal annexin A1 mimic activates FPR2 receptors to reduce neutrophil recruitment, enhance efferocytosis, and lower pro-inflammatory cytokines in acute CPPD flares.
+2. Immunomodulation: Thymopentin - Thymic pentapeptide restores immune balance and suppresses chronic inflammation, with established use in rheumatoid arthritis.
+3. Immune modulation: Catestatin - Chromogranin A-derived peptide exerts anti-inflammatory effects through catecholamine inhibition and immune cell modulation.
+4. Anti-inflammatory: Adrenomedullin - Potent vasodilatory peptide inhibits pro-inflammatory cytokines and protects joint tissues from inflammatory damage.
+5. Cartilage protection: CNP - C-type natriuretic peptide promotes chondrocyte viability, matrix synthesis, and anti-inflammatory effects in joint environments.
+6. Anti-inflammatory: ANP - Atrial natriuretic peptide suppresses inflammatory mediators and reduces joint inflammation in arthritis models.
+7. Anti-inflammatory signaling: Apelin-13 - Apelin receptor agonist reduces cytokine production and protects against inflammatory joint damage.
+8. IL-1 receptor inhibition: rytvela - All-D amino acid peptide allosterically modulates IL-1 receptor to block IL-1{beta} signaling and downstream inflammation.
+9. Cytokine reduction: P140 - Phosphorylated spliceosomal peptide enhances autophagy, depletes autoreactive cells, and reduces inflammatory cytokines in crystal-induced models.
+10. Targeted IL-1 inhibition: rytvela-WYRGRL - Designed fusion of rytvela (IL-1 inhibitor) with WYRGRL (collagen II-binding motif) for joint-specific delivery and enhanced efficacy against CPPD inflammation.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Calcium Pyrophosphate Deposition (CPPD) p01"
+"Loaded_Programs=Calcium Pyrophosphate Deposition (CPPD) p02"
+"Loaded_Programs=Calcium Pyrophosphate Deposition (CPPD) p03"
+"Loaded_Programs=Calcium Pyrophosphate Deposition (CPPD) p04"
+"Loaded_Programs=Calcium Pyrophosphate Deposition (CPPD) p05"
+"Loaded_Programs=Calcium Pyrophosphate Deposition (CPPD) p06"
+"Loaded_Programs=Calcium Pyrophosphate Deposition (CPPD) p07"
+"Loaded_Programs=Calcium Pyrophosphate Deposition (CPPD) p08"
+"Loaded_Programs=Calcium Pyrophosphate Deposition (CPPD) p09"
+"Loaded_Programs=Calcium Pyrophosphate Deposition (CPPD) p10"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.095,M115.027,M99.068,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M163.063,M101.048,M99.068,M129.043,M113.084,M70.029,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M137.059,M131.040,M99.068,M163.063,M87.032,M128.095,M156.101,M166.998,M57.021,M128.095,M97.053,M156.101,M57.021,M163.063,M71.037,M147.068,M113.084,M129.043,M163.063,0=4,"
+"Loaded_Frequencies=M156.101=1,M163.063,M101.048,M99.068,M129.043,M113.084,M71.037,M57.021,M186.079,M163.063,M156.101,M57.021,M156.101,M113.084,0=4,"
+"[/Preset]"

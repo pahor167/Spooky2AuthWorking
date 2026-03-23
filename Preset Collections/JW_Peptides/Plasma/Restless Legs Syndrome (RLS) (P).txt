@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Restless Legs Syndrome (RLS) (P)"
+"Preset_Notes=Restless Legs Syndrome (RLS) for Plasma
+
+Restless legs syndrome (RLS), also known as Willis-Ekbom disease, is a neurological sensorimotor disorder characterized by an irresistible urge to move the legs due to uncomfortable sensations, typically worsening at rest or in the evening, often disrupting sleep and linked to dopaminergic dysfunction, iron deficiency, glutamatergic hyperactivity, and sensory processing abnormalities.
+
+1. CGRP receptor antagonism: CGRP(8-37) - Truncated fragment acting as competitive antagonist at CGRP receptors to reduce sensory hypersensitivity and central sensitization contributing to RLS symptoms.
+2. Vasodilatory signaling: VIP - Potent vasodilator activating VPAC receptors to improve peripheral blood flow and alleviate potential vascular contributions to leg discomfort.
+3. Immunomodulation: Thymosin alpha-1 - Stimulates T-cell maturation and cytokine balance to address low-grade inflammation and immune dysregulation in RLS.
+4. Sleep promotion: DSIP - Delta sleep-inducing peptide normalizing sleep architecture and reducing arousal to counteract RLS-associated insomnia.
+5. Anxiolytic modulation: Selank - Tuftsin analog with anxiolytic effects reducing hyperarousal and improving overall symptom control in RLS.
+6. Adenosine enhancement: Poly-Arg6-NH2 - Cationic homoarginine peptide inhibiting adenosine uptake to elevate extracellular levels, mimicking effective RLS treatments like dipyridamole.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Restless Legs Syndrome (RLS) p01"
+"Loaded_Programs=Restless Legs Syndrome (RLS) p02"
+"Loaded_Programs=Restless Legs Syndrome (RLS) p03"
+"Loaded_Programs=Restless Legs Syndrome (RLS) p04"
+"Loaded_Programs=Restless Legs Syndrome (RLS) p05"
+"Loaded_Programs=Restless Legs Syndrome (RLS) p06"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M155.117,0=4,"
+"[/Preset]"

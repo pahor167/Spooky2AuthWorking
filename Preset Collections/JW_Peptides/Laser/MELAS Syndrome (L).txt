@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=MELAS Syndrome (L)"
+"Preset_Notes=MELAS Syndrome for Laser
+
+MELAS Syndrome (Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes) is a rare, progressive multisystem mitochondrial disorder typically caused by pathogenic variants in mitochondrial DNA, most commonly the m.3243A>G mutation in the MT-TL1 gene encoding tRNA^Leu(UUR). This leads to impaired mitochondrial protein synthesis, defective oxidative phosphorylation, reduced ATP production, elevated lactate levels, increased reactive oxygen species (ROS), nitric oxide deficiency, vascular dysfunction, and impaired autophagy. Onset usually occurs in childhood or early adulthood, with hallmark features including recurrent stroke-like episodes (often parietal or occipital, not conforming to vascular territories), seizures, encephalopathy, dementia, migraine-like headaches, lactic acidosis, muscle weakness, exercise intolerance, sensorineural hearing loss, diabetes mellitus, short stature, cardiomyopathy, and gastrointestinal issues. Heteroplasmy levels correlate with severity, and episodes can be triggered by infection or fever, leading to significant neurological disability over time.
+
+No curative treatments exist, and no established real-world polypeptide therapies were identified across literature, clinical trials, patents, or databases for MELAS specifically. The proposed polypeptides are all conceptual designed short peptides addressing core pathophysiological axes. Designed polypeptide 1 employs an alternating aromatic-cationic motif to conceptually target mitochondria, stabilize inner membrane function, enhance bioenergetics, and reduce ROS, mitigating energy failure and oxidative damage. Designed polypeptide 2 is a cationic arginine-lysine rich sequence to conceptually support nitric oxide production and vascular relaxation, potentially reducing the frequency and severity of stroke-like episodes. Designed polypeptide 3 incorporates antioxidant-prone residues (histidine, tyrosine, tryptophan) to conceptually scavenge ROS and protect against oxidative stress. These designed peptides are short (7 residues) for ease of synthesis and potential bioavailability, use only standard amino acids for straightforward production and low immunogenicity risk, and have balanced physicochemical properties (moderate hydrophobicity, positive charge for cell penetration); modes of action are hypothetical based on motif-specific interactions with mitochondrial components, NO pathways, or radicals.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=MELAS Syndrome p01"
+"Loaded_Programs=MELAS Syndrome p02"
+"Loaded_Programs=MELAS Syndrome p03"
+"Loaded_Frequencies=M147.068=1,M156.101,M128.095,M163.063,M156.101,M147.068,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M163.063,M186.079,M128.095,M57.021,M87.032,M113.084,0=4,"
+"[/Preset]"

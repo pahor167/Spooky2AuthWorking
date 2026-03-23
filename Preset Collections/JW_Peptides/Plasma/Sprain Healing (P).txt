@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Sprain Healing (P)"
+"Preset_Notes=Sprain Healing for Plasma
+
+Sprain healing addresses acute ligament injuries with tearing or overstretching, causing pain, swelling, instability, and multi-phase recovery involving inflammation, proliferation, and remodeling. Proposed polypeptides target evidence-based axes from preclinical ligament/tendon models and soft tissue regeneration studies to accelerate recovery, reduce inflammation, enhance migration, and improve matrix integrity.
+
+1. Gastric pentadecapeptide promotion of healing and angiogenesis: BPC-157 enhances fibroblast outgrowth, collagen organization, and functional recovery in ligament transection models.
+2. Thymosin {beta}4 N-terminal fragment cell migration support: TB-500 promotes actin sequestration, migration, and repair in soft tissue injuries.
+3. Copper tripeptide regenerative stimulation: GHK-Cu boosts collagen synthesis, antioxidant activity, and ECM remodeling for ligament repair.
+4. Acylated {alpha}-MSH tripeptide anti-inflammatory action: Ac-KPV-NH2 mitigates acute inflammation and edema.
+5. EPO-derived undecapeptide tissue protection: ARA 290 activates innate repair pathways and protects against secondary damage.
+6. Prosaposin-derived dodecapeptide neurotrophic effects: Prosaptide supports nerve repair and survival in peripheral injury.
+7. Proline-rich collagen-mimetic matrix reinforcement: Ac-(GPP)8-NH2 (engineered) stabilizes damaged collagen fibrils and facilitates remodeling.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Sprain Healing p01"
+"Loaded_Programs=Sprain Healing p02"
+"Loaded_Programs=Sprain Healing p03"
+"Loaded_Programs=Sprain Healing p04"
+"Loaded_Programs=Sprain Healing p05"
+"Loaded_Programs=Sprain Healing p06"
+"Loaded_Programs=Sprain Healing p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M101.048=1,M115.027,M113.084,M115.027,M128.095,M71.037,M186.079,M57.021,M128.095,M97.053,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

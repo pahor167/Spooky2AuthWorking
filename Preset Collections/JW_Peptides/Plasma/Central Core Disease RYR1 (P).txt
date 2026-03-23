@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Central Core Disease/RYR1 (P)"
+"Preset_Notes=Central Core Disease/RYR1 for Plasma
+
+Central Core Disease is a rare congenital myopathy primarily caused by dominant mutations in the RYR1 gene, leading to dysfunctional ryanodine receptor calcium release channels, chronic calcium leak, oxidative stress, mitochondrial depletion in core regions, muscle weakness, and impaired excitation-contraction coupling.
+
+1. RyR1 domain stabilization: Central Domain Zipper Peptide - Designed mimetic of central domain interactions to promote domain 'zipping,' stabilize the closed channel state, and reduce pathological intracellular calcium leak.
+2. Excitation-contraction coupling restoration: CGRP - Restores disrupted excitation-contraction coupling and calcium release efficiency in myotubes expressing CCD-associated RyR1 mutations.
+3. Muscle repair promotion: Thymosin beta-4 - Enhances actin dynamics, myoblast migration, differentiation, and anti-inflammatory effects to facilitate regeneration in weakened skeletal muscle.
+4. Mitochondrial regulation: MOTS-c - Mitochondrial-derived peptide that optimizes energy metabolism, mitochondrial biogenesis, and muscle endurance under stress conditions.
+5. Oxidative stress mitigation: Carnosine - Buffers reactive oxygen species, stabilizes pH, and protects muscle fibers from oxidative damage associated with chronic calcium dysregulation.
+6. Anti-fibrotic modulation: Ac-SDKP - Suppresses TGF-{beta} signaling, reduces fibroblast proliferation, and limits secondary fibrosis in progressive myopathic changes.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Central Core Disease/RYR1 p01"
+"Loaded_Programs=Central Core Disease/RYR1 p02"
+"Loaded_Programs=Central Core Disease/RYR1 p03"
+"Loaded_Programs=Central Core Disease/RYR1 p04"
+"Loaded_Programs=Central Core Disease/RYR1 p05"
+"Loaded_Programs=Central Core Disease/RYR1 p06"
+"Loaded_Frequencies=M141.079=1,M97.053,M156.101,M97.053,M156.101,M99.068,M97.053,M156.101,M57.021,M96.069,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M96.069,0=4,"
+"[/Preset]"

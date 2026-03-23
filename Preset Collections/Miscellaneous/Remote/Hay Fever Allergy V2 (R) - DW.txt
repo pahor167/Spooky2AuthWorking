@@ -1,0 +1,77 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Hay Fever Allergy V2 (R) - DW"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=100000"
+"BFB_Initial_Step_Size_Hz_Selected=False"
+"BFB_Initial_Step_Size_%=.25"
+"BFB_Initial_Step_Size_%_Selected=True"
+"BFB_Decimal_Places=2"
+"BFB_Max_Hits_To_Find=4"
+"BFB_Start_Delay=20"
+"BFB_Samples_Per_Step=6"
+"BFB_Threshold=.4"
+"BFB_Reverse_Lookup_Tolerance=.25"
+"BFB_Include_x_Hz_In_Search=0"
+"BFB_HRV=True"
+"BFB_Detect_mA=False"
+"BFB_Max_HRV=20"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Amplitude=9.5"
+"Out2_Amplitude=9.5"
+"Out2_Hz_Factor=0"
+"Out2_Hz_Constant=7.83"
+"Out1_Fixed_Frequency=0"
+"Preset_Notes=Hay Fever Allergy V2 (R) - DW by Desmond Wee
+
+Delivery Method: Remote
+Requires 2 x Spooky Remotes
+
+OUT1:
+Allergy Pollen (XTRA)
+Ragweed (CAFL)
+Allergy (XTRA)
+Sinus Bacteria (PROV)
+Lung Sinus Bacteria (CAFL)
+Decongest (XTRA)
+Sinus Congestion (XTRA)
+
+OUT2:
+Schumann Resonance 7.83Hz
+
+Duty Cycle: 50 %
+Amplitude: 9.5 V
+Offset : 0 %
+Waveform: Square Wave
+
+Suggested Running Time:
+Varying from 24 hours onwards depending on the severity of the symptoms"
+"Triangle_Spike_Ratio=2"
+"F1_Factor=11"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"Out1_Frequency_Limit_Harmonic_Type=Octave"
+"Out2_Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Square"
+"User_Defined_2_Waveform=Square"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Out2_Square=True"
+"InverseWave=False"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=Allergy Pollen (XTRA)"
+"Loaded_Programs=Ragweed (CAFL)"
+"Loaded_Programs=Allergy (XTRA)"
+"Loaded_Programs=Sinus Bacteria (PROV)"
+"Loaded_Programs=Lung Sinus Bacteria (CAFL)"
+"Loaded_Programs=Decongest (XTRA)"
+"Loaded_Programs=Sinus Congestion (XTRA)"
+"Loaded_Frequencies=14514.12=180,14882.62=180,14930.22=180,"
+"Loaded_Frequencies=473=180,"
+"Loaded_Frequencies=40=180,370=180,650=180,800=180,2500=180,25580=180,52500=180,192500=180,375790=180,926060=180,"
+"Loaded_Frequencies=548=300,"
+"Loaded_Frequencies=244=240,1466=240,597=240,1311=240,"
+"Loaded_Frequencies=400=180,"
+"Loaded_Frequencies=1.8=180,"
+"[/Preset]"

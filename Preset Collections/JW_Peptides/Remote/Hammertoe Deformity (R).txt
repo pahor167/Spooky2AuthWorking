@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Hammertoe Deformity (R)"
+"Preset_Notes=Hammertoe Deformity for Remote
+
+Hammertoe Deformity is a progressive foot condition involving abnormal flexion at the proximal interphalangeal joint, primarily due to extensor-flexor tendon imbalance, leading to pain, inflammation, corn/callous formation, joint contracture, and impaired mobility.
+
+1. Tendon stem cell regeneration: PEDF-29mer - Stimulates mitogenic activity on tendon stem/progenitor cells through ERK2 and STAT3 phosphorylation, enhancing collagen organization and tensile strength.
+2. Actin regulation and wound healing: Thymosin beta-4 - Sequesters actin, promotes cell migration, angiogenesis, and reduces scar formation in repairing tissues.
+3. Anti-inflammatory: Selank - Modulates immune response and cytokine production, reducing local inflammation in affected joints.
+4. Neuroprotection: Semax - Increases BDNF expression, supports nerve health and may alleviate neuropathic pain associated with deformity.
+5. Pain modulation: DSIP - Induces delta sleep, reduces chronic pain and stress contributing to symptom exacerbation.
+6. Muscle contracture reduction: Argireline - Inhibits SNARE complex formation, reducing excessive muscle contraction that maintains the hammertoe deformity.
+7. Growth hormone-mediated repair: Sermorelin - Stimulates endogenous GH release, promoting collagen production and tissue remodeling in tendons and joints.
+8. Collagen matrix optimization: CollMim-12 (designed) - Designed to mimic collagen triple helix, facilitating proper extracellular matrix assembly and reducing abnormal fibrosis in deformed toe structures.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Hammertoe Deformity p01"
+"Loaded_Programs=Hammertoe Deformity p02"
+"Loaded_Programs=Hammertoe Deformity p03"
+"Loaded_Programs=Hammertoe Deformity p04"
+"Loaded_Programs=Hammertoe Deformity p05"
+"Loaded_Programs=Hammertoe Deformity p06"
+"Loaded_Programs=Hammertoe Deformity p07"
+"Loaded_Programs=Hammertoe Deformity p08"
+"Loaded_Frequencies=M129.043=1,M113.084,M57.021,M71.037,M129.043,M128.058,M156.101,M101.048,M129.043,M87.032,M113.084,M113.084,M137.059,M156.101,M71.037,M113.084,M163.063,M163.063,M115.027,M113.084,M113.084,M87.032,M87.032,M97.053,M115.027,M113.084,M137.059,M57.021,M100.040,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M115.027,M71.037,M113.084,M147.068,M101.048,M114.043,M87.032,M163.063,M156.101,M128.095,M99.068,M113.084,M57.021,M128.058,M113.084,M87.032,M71.037,M156.101,M128.095,M113.084,M113.084,M128.058,M115.027,M113.084,M131.040,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.045,0=4,"
+"[/Preset]"

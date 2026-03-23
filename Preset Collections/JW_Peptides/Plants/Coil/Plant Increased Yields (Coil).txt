@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Plant Increased Yields (Coil)"
+"Preset_Notes=Plant Increased Yields for Coil
+
+Plant Increased Yields refers to enhancement of biomass, fruit/seed set, harvest index, and overall productivity across crops via improved cell proliferation, nutrient efficiency, root/shoot architecture, photosynthetic maintenance, sink strength, stress resilience, and practical application traits. The proposed polypeptides target 11 evidence-based therapeutic axes derived from exogenous PSK-{alpha} and CEP1 application studies in yield trials (common bean, Medicago, tomato, soybean) plus rationally engineered motifs for broad agronomic use.
+
+1. Phytosulfokine-mediated cell proliferation and biomass accumulation: PSK-{alpha} promotes mitotic activity, root/shoot expansion, and tissue growth leading to higher biomass and yields.
+2. C-terminally encoded peptide-mediated nutrient uptake enhancement: AtCEP1 upregulates N/P/S transporters, boosting resource acquisition and productivity in field conditions.
+3. Root system architecture optimization for resource acquisition: enhances lateral root density and depth for superior water and nutrient capture.
+4. Photosynthetic efficiency enhancement: stabilizes chlorophyll and improves electron transport for higher carbon fixation rates.
+5. Senescence delay to extend productive phase: maintains leaf function longer, increasing total assimilate production.
+6. Carbon partitioning and sink strength enhancement: directs photoassimilates preferentially to fruits, seeds, and storage organs.
+7. Seed germination and early seedling vigor: accelerates establishment and uniform stand development for yield potential.
+8. Balanced hormonal signaling for optimal growth: fine-tunes auxin/cytokinin/gibberellin ratios to avoid excessive vegetative growth or lodging.
+9. Oxidative stress mitigation to protect yield: neutralizes ROS during critical growth stages to prevent cellular damage.
+10. Abiotic stress tolerance for yield stability: confers resilience to drought, salinity, and temperature extremes under field stress.
+11. Optimized foliar delivery and protease resistance: engineered motif improves leaf penetration, stability, and field persistence.
+
+"
+"Loaded_Programs=Plant Increased Yields p01"
+"Loaded_Programs=Plant Increased Yields p02"
+"Loaded_Programs=Plant Increased Yields p03"
+"Loaded_Programs=Plant Increased Yields p04"
+"Loaded_Programs=Plant Increased Yields p05"
+"Loaded_Programs=Plant Increased Yields p06"
+"Loaded_Programs=Plant Increased Yields p07"
+"Loaded_Programs=Plant Increased Yields p08"
+"Loaded_Programs=Plant Increased Yields p09"
+"Loaded_Programs=Plant Increased Yields p10"
+"Loaded_Programs=Plant Increased Yields p11"
+"Loaded_Frequencies=M243.020=1,M113.084,M243.020,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M115.027=1,M147.068,M156.101,M113.048,M101.048,M114.043,M97.053,M57.021,M114.043,M87.032,M113.048,M57.021,M99.068,M57.021,M137.059,0=4,"
+"Loaded_Frequencies=M97.053=1,M57.021,M128.095,M97.053,M57.021,M156.101,M97.053,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M113.084,M186.079,M57.021,M156.101,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M113.084,M71.037,M163.063,M57.021,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M128.058=1,M99.068,M57.021,M128.095,M156.101,M97.053,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M57.021,M128.095,M101.048,M113.084,M99.068,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M128.095,M99.068,M113.084,M57.021,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M103.009=1,M156.101,M128.095,M87.032,M57.021,M163.063,M186.079,M97.053,0=4,"
+"Loaded_Frequencies=M113.084=1,M156.101,M128.095,M97.053,M57.021,M163.063,M186.079,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M97.053,M57.021,M128.095,M156.101,M97.053,0=4,"
+"[/Preset]"

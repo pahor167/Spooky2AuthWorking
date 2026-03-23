@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"PresetName=1. Immune System"
+"Loaded_Frequencies=3448=105,2929=105,4014=105,5611=105,2867=105,2855=105,2791=105,2791=105,2855=105,2867=105,2929=105,3347=105,3448=105,4014=105,5611=105,30=175,727=175,432=105,1862=105,2008=105,2128=105,2180=105,2791=105,2855=105,2867=105,2929=105,3347=105,3448=105,4014=105,5611=105,8=140,20=140,120=140,304=140,432=140,464=140,665=140,728=140,800=140,880=140,1488=140,1862=140,2008=140,2128=140,2180=140,2489=140,2720=140,2791=140,2855=140,2867=140,2929=140,3176=140,3347=140,3448=140,4014=140,5000=140,5611=140,10000=140,0=105,"
+"Loaded_Programs=1. Immune System"
+"Preset_Notes=Cancer Protocol, Scalar Plus method, Generator 1, for Scalar. 
+
+This preset contains Scalar frequency sets for Spooky Scalar. Run this preset concurrently with the presets 'Scalar2/Gen2 (R) - BY'. See '\Cancer\BY\Cancer Presets.pdf' for a schedule to run these presets.
+
+The entire schedule for this protocol is in the notes of 'Scalar2/Gen2 (S) - BY'. Here is the schedule for this preset:
+  Generator 1, Scalar2/Gen1/Immune System (S) - BY
+    Day 20
+    Day 22
+    Day 24
+
+This preset has the following programs:
+
+Immune System: Interleukin - PROV, Lymphocytes Stimulate - XTRA, Leukocytogenesis Stimulate - XTRA, White Blood Cell Stimulation - CAFL, Immune System Stimulation 3 - PROV
+
+Here is a table to find the beginning of each day in this preset:
+1: Immune System
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"

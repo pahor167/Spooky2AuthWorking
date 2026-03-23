@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Dog Histamine Intolerance (R)"
+"Preset_Notes=Dog Histamine Intolerance for Remote
+
+Dog Histamine Intolerance arises from impaired histamine degradation due to DAO enzyme deficiency, mast cell disorders, or dietary excess, manifesting as pruritus, GI upset, respiratory issues, or anaphylactoid reactions. Symptoms include itching, hives, vomiting, diarrhea, and behavioral changes, with pathophysiology involving excessive histamine activating H1/H2 receptors, leading to vasodilation, smooth muscle contraction, and inflammation.
+
+The proposed polypeptides manage Dog Histamine Intolerance via receptor antagonism, enzyme enhancement, and mast cell stabilization. For histamine blockade, a designed polypeptide competitively inhibits H1 receptors to alleviate allergic symptoms; inspired by peptide antihistamines, it offers targeted relief with fewer side effects. For DAO augmentation, a designed polypeptide mimics enzyme active sites to boost histamine breakdown; feasibility from catalytic peptides in metabolic disorders. For mast cell control, a designed polypeptide prevents degranulation by stabilizing membranes; these designed polypeptides support dietary management, reducing flare-ups in sensitive dogs.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Dog Histamine Intolerance p01"
+"Loaded_Programs=Dog Histamine Intolerance p02"
+"Loaded_Programs=Dog Histamine Intolerance p03"
+"Loaded_Frequencies=M128.095=1,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M115.027,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M103.009=1,M87.032,M103.009,M87.032,M103.009,0=4,"
+"[/Preset]"

@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Cat UTI (C)"
+"Preset_Notes=Cat UTI for Contact
+
+Cat Urinary Tract Infection (Cat UTI)
+
+Feline urinary tract infection (UTI), commonly referred to as cat UTI, is a component of feline lower urinary tract disease (FLUTD), a syndrome encompassing signs of dysuria, stranguria, pollakiuria, hematuria, and inappropriate urination. Bacterial UTIs account for only a minority of cases (typically <10-20%, more prevalent in older cats >10 years or those with comorbidities such as diabetes mellitus, chronic kidney disease, or hyperthyroidism), with Escherichia coli being the predominant pathogen. The majority of FLUTD cases are feline idiopathic cystitis (FIC), a sterile inflammatory condition linked to stress, involving complex interactions between the central nervous system, adrenal glands, bladder urothelium, and immune response. Pathophysiology of FIC includes heightened sympathetic activity, mast cell activation, reduced glycosaminoglycan (GAG) layer protection leading to increased bladder permeability, sensory afferent nerve sensitization, and neurogenic inflammation. Bacterial cases involve ascending infection with bacterial adhesion via fimbriae, proliferation, and host inflammatory response.
+
+The proposed polypeptides target three key therapeutic axes derived from pathophysiological mechanisms: (1) antimicrobial activity against uropathogens for bacterial UTI cases; (2) anti-inflammatory and cytoprotective effects for neurogenic inflammation in FIC; (3) enhancement of bladder barrier function and adjunct antimicrobial action to prevent adhesion and support urothelial integrity. All are designed polypeptides, as no established real-world polypeptide therapies exist for feline UTI/FLUTD based on comprehensive searches across PubMed, veterinary guidelines, and patents.
+
+The first designed polypeptide is a cathelicidin-derived minimal AMP based on the KR-12 motif from human LL-37, with C-terminal amidation for enhanced stability; it provides broad-spectrum bactericidal activity via membrane disruption, targeting the bacterial infection axis. The second is a gastric peptide analog derived from the BPC-157 sequence motif, with C-terminal amidation; it offers anti-inflammatory, tissue-protective, and healing-promoting properties demonstrated in preclinical visceral inflammation models, addressing the neurogenic inflammatory axis in FIC. The third is a disulfide-cyclized lactoferricin-derived peptide based on bovine lactoferricin, with C-terminal amidation and intramolecular disulfide bond for structural stability; it exhibits potent antimicrobial effects and potential to support epithelial barrier function through multifunctional interactions, covering the barrier protection and anti-adhesion axis.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Cat UTI p01"
+"Loaded_Programs=Cat UTI p02"
+"Loaded_Programs=Cat UTI p03"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M155.117,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M98.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M146.084,0=4,"
+"[/Preset]"

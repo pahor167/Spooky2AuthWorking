@@ -1,0 +1,56 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=P78 Morgellons Infrastructure Y - DB"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Spooky Plasma.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Luciferin AM_Deb CUST
+Luciferin AM_Res CUST
+
+Connect OUT 1 to Input, Out 2 to Modulation.
+"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Programs=Luciferin AM_Deb (CUST)"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"Loaded_Frequencies=6335.62=600,6335.63=600,6425.93=600,6425.94=600,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Luciferin AM_Deb (CUST) High"
+"Loaded_Programs=Luciferin AM_Deb (CUST)"
+"Loaded_Frequencies=4834862.37=600,4834862.38=600,4834861.9-4834862.9=600,4903787.23=600,4903787.24=600,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Luciferin AM_Res (CUST) Low"
+"Loaded_Programs=Luciferin AM_Res (CUST)"
+"Loaded_Frequencies=4479.96=600,4479.97=600,4543.82=600,4543.83=600,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Luciferin AM_Res (CUST) High"
+"Loaded_Programs=Luciferin AM_Res (CUST)"
+"Loaded_Frequencies=3418763.97=600,3418763.98=600,3418763.5-3418764.5=600,3467501.2=600,3467501.21=600,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Pause 30 Seconds (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

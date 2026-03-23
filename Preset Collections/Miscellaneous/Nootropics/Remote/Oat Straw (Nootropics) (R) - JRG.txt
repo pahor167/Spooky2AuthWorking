@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Oat Straw (Nootropics) (R) - JRG"
+"Loaded_Programs=Oat Straw (CUST)"
+"Loaded_Frequencies=M500.18443,"
+"Preset_Notes=Oat Straw (avena sativa) comes from green oat grass. You may have heard the term sowing your wild oats. Oat Straw increases luteinizing hormone in your body and is the basis for that saying. Luteinizing hormone stimulates testosterone production.|Oat Straw is an MAO-B inhibitor and increases dopamine levels in the brain. As a nootropic, Oat Straw can improve attention, cognition, concentration and focus. All benefits experienced when your dopamine and testosterone levels are optimized.|Oat Straw extract dosage is 800 - 1600 mg per day., C25H31F3O5S||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

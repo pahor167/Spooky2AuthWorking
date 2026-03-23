@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Anemic Hypoxia (R)"
+"Preset_Notes=Anemic Hypoxia for Remote
+
+Anemic hypoxia is a subtype of hypoxia defined by diminished oxygen-carrying capacity of the blood, resulting from low hemoglobin concentration or dysfunctional hemoglobin unable to bind/release oxygen effectively, despite normal alveolar ventilation and arterial PO2. Primary causes encompass iron-deficiency anemia, megaloblastic anemias (vitamin B12/folate deficiency), anemia of chronic disease or inflammation, renal insufficiency with deficient erythropoietin production, hemolytic disorders, hemoglobinopathies (e.g., sickle cell disease, thalassemias), and toxic/metabolic impairments (carbon monoxide forming carboxyhemoglobin, drug-induced methemoglobinemia). Clinical manifestations include progressive fatigue, pallor, exertional dyspnea, tachycardia, dizziness, cognitive fog, and in severe untreated cases, angina, heart failure, or multi-organ ischemia. Pathophysiology revolves around reduced arterial oxygen content triggering compensatory hyperdynamic circulation, elevated 2,3-bisphosphoglycerate shifting the oxyhemoglobin dissociation curve rightward for tissue unloading, chronic HIF pathway activation promoting erythropoietin transcription and iron reprogramming, yet often ineffective due to inflammation-suppressed hepcidin dysregulation, oxidative RBC damage, or intrinsic defects leading to shortened red cell lifespan.
+
+The proposed polypeptides provide targeted multimodal coverage of key therapeutic axes in anemic hypoxia. Peptide 5 is a real-world preclinical synthetic EPO mimetic peptide (EMP1) with documented evidence in peer-reviewed literature and patents demonstrating direct erythropoietin receptor agonism, stimulation of erythroid progenitor proliferation, and elevation of hematocrit/reticulocytes in preclinical models, addressing the core erythropoiesis deficiency axis. Peptides 1-4 (flagged as designed) are conceptual short sequences engineered for complementary mechanisms: Peptide 1 (designed) cationic rich to conceptually penetrate and suppress pro-inflammatory cytokines in anemia of chronic disease; Peptide 2 (designed) proline-rich for conceptual RBC membrane stabilization against hemolysis; Peptide 3 (designed) polar rich to conceptually enhance iron regulatory pathways; Peptide 4 (designed) aromatic rich for conceptual scavenging of reactive oxygen species protecting hemoglobin function. These short designs favor bioavailability, resistance to proteolysis, and synthetic scalability for potential therapeutic augmentation of oxygen carrying capacity.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Anemic Hypoxia p01"
+"Loaded_Programs=Anemic Hypoxia p02"
+"Loaded_Programs=Anemic Hypoxia p03"
+"Loaded_Programs=Anemic Hypoxia p04"
+"Loaded_Programs=Anemic Hypoxia p05"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.058,M87.032,M128.058,M87.032,M128.058,M87.032,M128.058,M87.032,M128.058,M87.032,M128.058,0=4,"
+"Loaded_Frequencies=M147.068=1,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M101.048,M163.063,M87.032,M103.009,M137.059,M147.068,M57.021,M97.053,M113.084,M101.048,M186.079,M99.068,M103.009,M128.095,M97.053,M128.058,M57.021,M57.021,0=4,"
+"[/Preset]"

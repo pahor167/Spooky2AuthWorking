@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Diarrhea (General Acute) (L)"
+"Preset_Notes=Diarrhea (General Acute) for Laser
+
+Acute diarrhea is a common condition characterized by loose, watery stools occurring more than three times per day, often due to infection, food poisoning, or other causes, leading to dehydration. 
+
+The polypeptides target various mechanisms such as antimicrobial action to eliminate pathogens, antisecretory to reduce fluid secretion, anti-inflammatory to reduce inflammation, and others to cover all aspects. Designed polypeptides are flagged as such and are conceptual to address gaps in real-world options.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Diarrhea (General Acute) p01"
+"Loaded_Programs=Diarrhea (General Acute) p02"
+"Loaded_Programs=Diarrhea (General Acute) p03"
+"Loaded_Programs=Diarrhea (General Acute) p04"
+"Loaded_Programs=Diarrhea (General Acute) p05"
+"Loaded_Programs=Diarrhea (General Acute) p06"
+"Loaded_Programs=Diarrhea (General Acute) p07"
+"Loaded_Programs=Diarrhea (General Acute) p08"
+"Loaded_Programs=Diarrhea (General Acute) p09"
+"Loaded_Programs=Diarrhea (General Acute) p10"
+"Loaded_Programs=Diarrhea (General Acute) p11"
+"Loaded_Programs=Diarrhea (General Acute) p12"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M128.095,M113.084,M101.048,M115.027,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M101.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M101.001,0=4,"
+"Loaded_Frequencies=M131.040=1,M137.059,M128.058,M97.053,M137.059,M128.058,M97.053,M113.084,M97.053,M97.053,M101.048,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M129.043,M128.095,M128.095,M156.101,M156.101,M129.043,M101.048,M99.068,M129.043,M156.101,M129.043,M128.095,M129.043,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M100.064,M85.053,M113.048,M87.032,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M87.032,M200.095,M113.084,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M101.001=1,M128.095,M114.079,M100.064,M147.068,M113.084,M101.001,0=4,"
+"Loaded_Frequencies=M101.001=1,M129.043,M115.027,M128.095,M156.101,M86.048,M114.079,M101.001,0=4,"
+"Loaded_Frequencies=M147.068=1,M87.032,M101.048,M113.048,M113.084,M100.064,M86.048,0=4,"
+"[/Preset]"

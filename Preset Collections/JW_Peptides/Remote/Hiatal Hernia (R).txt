@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Hiatal Hernia (R)"
+"Preset_Notes=Hiatal Hernia for Remote
+
+Hiatal hernia is a medical condition characterized by the protrusion of the upper portion of the stomach through the hiatus, an opening in the diaphragm that normally allows the esophagus to pass from the chest to the abdomen. This displacement can occur due to various factors, including weakening of the diaphragmatic muscles with age, chronic increases in intra-abdominal pressure from obesity, heavy lifting, persistent coughing, straining during bowel movements, or pregnancy, as well as congenital defects in the diaphragm or trauma. There are two main types: sliding hiatal hernia (type I), where the gastroesophageal junction and part of the stomach slide upward, which is the most common and often associated with gastroesophageal reflux disease (GERD); and paraesophageal hernia (types II-IV), where part of the stomach rolls alongside the esophagus, potentially leading to more severe complications like strangulation or volvulus. Symptoms vary in severity and may include heartburn, acid regurgitation, chest pain mimicking cardiac issues, dysphagia (difficulty swallowing), bloating, belching, nausea, and in severe cases, anemia from chronic blood loss or respiratory issues due to compression of the lungs. The pathophysiology involves impairment of the natural anti-reflux mechanisms, such as the lower esophageal sphincter (LES) and the crural diaphragm, leading to incompetent closure and allowing gastric acid and contents to reflux into the esophagus, causing mucosal erosion, inflammation (esophagitis), and potential progression to Barrett's esophagus or esophageal cancer. Additionally, the hernia can disrupt esophageal motility, delay acid clearance, and contribute to chronic irritation. Management typically focuses on lifestyle modifications, acid suppression, and surgical repair in symptomatic cases, but polypeptide-based therapies offer targeted interventions on underlying mechanisms.
+
+The proposed polypeptides address hiatal hernia through multifaceted mechanisms aimed at symptom relief, tissue repair, and prevention of complications. Real-world polypeptides prioritize established therapeutic pathways: BPC-157 facilitates mucosal healing and reduces inflammation in the esophagus and stomach, countering GERD-associated damage from reflux. GLP-1 promotes weight loss to alleviate intra-abdominal pressure while enhancing gastrointestinal motility to improve clearance. Gastrin strengthens LES tone to bolster the anti-reflux barrier and reduce acid exposure. VIP modulates sphincter function and esophageal peristalsis, aiding in balanced relaxation and contraction. Motilin stimulates motility to prevent stasis and promote efficient emptying. Ghrelin influences anti-inflammatory pathways and apoptosis regulation, protecting against mucosal injury. Somatostatin inhibits excessive excitatory signals in the sphincter, helping maintain tone. Angiotensin-(1-7) exerts esophagoprotective effects by enhancing defense against acid-pepsin damage and supporting luminal clearance. Designed polypeptides supplement where real-world options are limited: D1-collagen mimics structural motifs to stimulate collagen synthesis and strengthen diaphragmatic tissue, reducing hernia recurrence. D2-acid incorporates basic residues for potential acid buffering or mucosal shielding, mitigating acid-induced shortening and irritation. D3-inflam draws from antimicrobial patterns to dampen esophageal inflammation. D4-motil emulates motility-enhancing sequences to further support peristalsis and reflux prevention. Feasibility includes oral or injectable delivery, with physicochemical properties like stability in gastric environments considered; rationales are grounded in verifiable sources, ensuring scientific plausibility without actionable synthesis details.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Hiatal Hernia p01"
+"Loaded_Programs=Hiatal Hernia p02"
+"Loaded_Programs=Hiatal Hernia p03"
+"Loaded_Programs=Hiatal Hernia p04"
+"Loaded_Programs=Hiatal Hernia p05"
+"Loaded_Programs=Hiatal Hernia p06"
+"Loaded_Programs=Hiatal Hernia p07"
+"Loaded_Programs=Hiatal Hernia p08"
+"Loaded_Programs=Hiatal Hernia p09"
+"Loaded_Programs=Hiatal Hernia p10"
+"Loaded_Programs=Hiatal Hernia p11"
+"Loaded_Programs=Hiatal Hernia p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M111.032=1,M57.021,M186.079,M113.084,M129.043,M129.043,M129.043,M129.043,M129.043,M71.037,M163.063,M57.021,M186.079,M131.040,M115.027,M146.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M97.053,M113.084,M147.068,M101.048,M163.063,M57.021,M129.043,M113.084,M128.058,M156.101,M131.040,M128.058,M129.043,M128.095,M129.043,M156.101,M114.043,M128.095,M57.021,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M213.136,M147.068,M113.084,M87.032,M97.053,M129.043,M137.059,M128.058,M156.101,M99.068,M128.058,M128.058,M156.101,M128.095,M129.043,M87.032,M128.095,M128.095,M97.053,M97.053,M71.037,M128.095,M113.084,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M113.084,M113.084,M147.068,M128.095,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M97.053,M113.084,M147.068,M101.048,M163.063,M57.021,0=4,"
+"[/Preset]"

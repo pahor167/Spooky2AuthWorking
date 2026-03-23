@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Chicory (R)"
+"Preset_Notes=Chicory / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Chicory - Selfish, possessive love.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Chicory (R)"
+"Loaded_Frequencies=489.22,"
+"[/Preset]"

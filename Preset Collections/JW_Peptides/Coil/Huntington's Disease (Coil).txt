@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Huntington’s Disease (Coil)"
+"Preset_Notes=Huntington’s Disease for Coil
+
+Huntington’s Disease is an autosomal dominant neurodegenerative disorder caused by CAG repeat expansion in the huntingtin gene, resulting in mutant huntingtin aggregation, striatal/cortical neuronal loss, mitochondrial dysfunction, oxidative stress, inflammation, excitotoxicity, and progressive motor, cognitive, and psychiatric decline. Proposed polypeptides target evidence-based axes from preclinical HD models, including GLP-1 signaling for pathology amelioration, mitochondrial protection, innate repair, broad cytoprotection, actin-mediated repair, and enhanced aggregation inhibition.
+
+1. GLP-1 receptor agonism for brain pathology amelioration and survival extension: Exenatide reduces mutant huntingtin accumulation, improves motor function, and extends lifespan in HD mouse models.
+2. Mitochondrial-derived anti-apoptotic neuroprotection: Humanin mitigates apoptosis and oxidative stress in neurodegenerative conditions including HD.
+3. Mitochondrial peptide metabolic regulation: MOTS-c activates AMPK to enhance cellular resilience against metabolic deficits.
+4. EPO-mimetic innate repair signaling: ARA-290 provides targeted neuroprotection and anti-inflammation.
+5. Gastric pentadecapeptide cytoprotection: BPC-157 supports neuronal/vascular integrity applicable to CNS damage.
+6. Thymosin {beta}4 fragment actin regulation and repair: TB-500 promotes cell migration, survival, and anti-inflammatory processes.
+7. Bivalent polyQ-binding motif optimization for aggregation inhibition: QBP1-BV (Ac-WKWWPGIFWKWWPGIF-NH2) amplifies binding to expanded polyQ tracts to prevent misfolding and fibrillization.
+
+"
+"Loaded_Programs=Huntington’s Disease p01"
+"Loaded_Programs=Huntington’s Disease p02"
+"Loaded_Programs=Huntington’s Disease p03"
+"Loaded_Programs=Huntington’s Disease p04"
+"Loaded_Programs=Huntington’s Disease p05"
+"Loaded_Programs=Huntington’s Disease p06"
+"Loaded_Programs=Huntington’s Disease p07"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M228.090=1,M128.095,M186.079,M186.079,M97.053,M57.021,M113.084,M147.068,M186.079,M128.095,M186.079,M186.079,M97.053,M57.021,M113.084,M146.084,0=4,"
+"[/Preset]"

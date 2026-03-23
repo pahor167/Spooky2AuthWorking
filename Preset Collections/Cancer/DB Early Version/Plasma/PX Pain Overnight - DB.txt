@@ -1,0 +1,81 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Plasma Killing (P) - JW.txt"
+"PresetName=PX Pain Overnight - DB"
+"Padlock=1"
+"Frequency_Slider_Scale=0"
+"Frequency_Multiplier=.001953125"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=152000"
+"BFB_Initial_Step_Size_Hz=20"
+"BFB_Start_Delay=30"
+"BFB_Samples_Per_Step=1"
+"Out1_Amplitude=5"
+"Out1_Offset=100"
+"Out2_Amplitude=5"
+"Out1_Shadow_Hz_Factor=1"
+"Out1_Fixed_Frequency=0"
+"Out2_Offset=100"
+"Preset_Notes=Cancer Protocol, Extras. Spooky Central.
+
+Update: July 2017.
+
+Dr. Hulda Clark found that most pain in cancer cases is caused by Streptococcus pneumoniae, also called Diplococcus pneumoniae. Dr. Richard Loyd has reported that many sufferers are able to forego pain medication after dealing with this.
+
+IMPORTANT: this preset kills pathogens, and runs twice. Use ALL Detox (R) - DB on another generator while running this.
+
+PROGRAMS:
+Diplococcus Pneumoniae_1 HC:
+Streptococcus Pneumoniae HC:
+Pneumococcus CAFL:
+Diplococcus Pneumoniae 1 XTRA
+Diplococcus Pneumoniae 2 XTRA:
+Streptococcus Pneumoniae CAFL:
+
+Connect OUT 1 to Input, Out 2 to Modulation."
+"Out1_Max_Freq=5859"
+"Out1_Min_Freq=195"
+"Out2_Max_Freq=0"
+"Text41=5"
+"Reduce_Amplitude_Frequency=10"
+"Triangle_Spike_Ratio=2"
+"F1_Factor=1"
+"User_Defined_1_Waveform=Square WCM 512 Gated"
+"User_Defined_2_Waveform=Square 90 Percent Duty"
+"Manual_Start=False"
+"Out1_Fixed_Frequency=False"
+"BFB_Calculate_Using_RA=True"
+"BFB_Calculate_Using_Peak=False"
+"BFB_HRV=True"
+"BFB_Detect_mA=False"
+"Out2_Square=False"
+"Out2_User_Defined_2=True"
+"Follow_Out1_Wave=False"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"Enable_Tissue_Factor=0"
+"Enable_Invert_Spike_Waveform=1"
+"Loaded_Programs=Pause 60 Seconds (XTRA)"
+"Loaded_Programs=Diplococcus Pneumoniae_1 (HC)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Streptococcus Pneumoniae (HC)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Pneumococcus (CAFL)"
+"Loaded_Programs=Diplococcus Pneumoniae 1 (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Diplococcus Pneumoniae 2 (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Streptococcus Pneumoniae (CAFL)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=60,"
+"Loaded_Frequencies=351650-386450=3600,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=366850-370200=3600,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=231=240,232=240,683=240,846=240,8865=240,"
+"Loaded_Frequencies=892.35=180,904.74=180,17923.34=180,18172.27=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=871.64=180,892.35=180,904.74=180,957.9=180,11250=180,12076.55=180,21978.13=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=231=180,232=180,776=180,766=180,728=180,846=180,8865=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

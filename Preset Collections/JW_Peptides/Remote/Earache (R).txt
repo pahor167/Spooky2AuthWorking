@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Earache (R)"
+"Preset_Notes=Earache for Remote
+
+Earache (otalgia) is a common symptom of pain in the ear, most frequently caused by acute otitis media (middle ear inflammation/infection often bacterial or viral), otitis externa (external ear canal inflammation, often bacterial or fungal), or Eustachian tube dysfunction leading to pressure/effusion; it involves bacterial/fungal infection, biofilm formation, proinflammatory cytokines, innate immune response, nociceptive pain signaling, mucosal edema, and potential tympanic membrane damage.
+
+Key axes include bacterial/fungal infection and biofilm formation, proinflammatory inflammation and cytokine/LPS response, nociceptive pain amplification, innate antimicrobial defense (e.g., AMP expression), tissue repair/healing of middle ear structures, and effusion/edema from Eustachian dysfunction. Prioritized real-world polypeptides: OP-145 (clinical phase II efficacy in chronic suppurative otitis media), Thymosin beta-4 (studied for middle ear/tympanic healing), LL-37 (cathelicidin role in middle ear pathogen defense), human beta-defensin-2 (implicated in OM pathogen clearance). Only 4 real-world polypeptides identified with verifiable sequences and relevance (limited clinical polypeptide therapies for earache/otitis; most are antibiotics/steroids; shortfall from min_real_polypeptides documented). Supplemented with 14 designed polypeptides (all conceptual, flagged as designed) to meet min_total_polypeptides=18 and min_designed_polypeptides=4, ensuring full axis coverage with >=1 per axis.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Earache p01"
+"Loaded_Programs=Earache p02"
+"Loaded_Programs=Earache p03"
+"Loaded_Programs=Earache p04"
+"Loaded_Programs=Earache p05"
+"Loaded_Programs=Earache p06"
+"Loaded_Programs=Earache p07"
+"Loaded_Programs=Earache p08"
+"Loaded_Programs=Earache p09"
+"Loaded_Programs=Earache p10"
+"Loaded_Programs=Earache p11"
+"Loaded_Programs=Earache p12"
+"Loaded_Programs=Earache p13"
+"Loaded_Programs=Earache p14"
+"Loaded_Programs=Earache p15"
+"Loaded_Programs=Earache p16"
+"Loaded_Programs=Earache p17"
+"Loaded_Programs=Earache p18"
+"Loaded_Frequencies=M113.084=1,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M129.043,M156.101,M113.084,M128.095,M156.101,M147.068,M113.084,M156.101,M129.043,M113.084,M99.068,M156.101,M97.053,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M103.009,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M103.009,M137.059,M97.053,M99.068,M147.068,M103.009,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M103.009,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M103.009,M103.009,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M113.048,M57.021,M86.048,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M86.048,M114.079,M87.032,M113.048,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M57.021,M113.048,M114.079,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M85.053,M114.079,M86.048,M87.032,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M85.053,M113.048,M150.954,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M113.048,M85.053,M114.079,M128.095,M87.032,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M150.954,M114.079,M113.048,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M113.048,M85.053,M57.021,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M86.048,M150.954,M114.079,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M114.079,M113.048,M86.048,M128.095,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M114.079,M85.053,M113.048,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M85.053,M57.021,M128.095,M114.079,M86.048,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M57.021,M128.095,M85.053,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M150.954,M113.048,M86.048,M85.053,M128.095,M87.032,0=4,"
+"[/Preset]"

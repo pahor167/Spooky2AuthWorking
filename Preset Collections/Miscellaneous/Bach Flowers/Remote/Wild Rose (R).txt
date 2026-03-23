@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Wild Rose (R)"
+"Preset_Notes=Wild Rose / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Wild rose - Drifting, resignation, apathy.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Wild Rose (R)"
+"Loaded_Frequencies=349.54,"
+"[/Preset]"

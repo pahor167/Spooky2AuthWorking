@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=N-Acetyl L-Cysteine (Nootropics) (R) - JRG"
+"Loaded_Programs=N-Acetyl L-Cysteine (CUST)"
+"Loaded_Frequencies=M163.03031,"
+"Preset_Notes=N-Acetyl L-Cysteine (NAC) is an amino acid that regulates the amount of glutamate and dopamine in your brain. NAC is the precursor to glutathione which reduces free radicals in your brain.|N-Acetyl L-Cysteine is used as an anti-dote to Tylenol (acetaminophen) overdose and carbon monoxide poisoning.|NAC is also used to treat ADHD, Bipolar Disorder, prevent alcoholic liver damage, Alzheimer's Disease, eliminate heavy metals, and depression.|Dosing N-Acetyl L-Cysteine as a nootropic at 600 mg up to three times per day helps with focus, motivation and concentration.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

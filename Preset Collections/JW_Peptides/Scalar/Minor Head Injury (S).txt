@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Minor Head Injury (S)"
+"Preset_Notes=Minor Head Injury for Scalar
+
+Minor head injury (mild traumatic brain injury or concussion) involves acute biomechanical forces leading to transient brain dysfunction, with risks of secondary injury including neuroinflammation, oxidative stress, apoptosis, and cognitive deficits. Proposed polypeptides target key therapeutic axes derived from preclinical models:
+
+1. Targeted binding to upregulated extracellular matrix in injured brain
+2. Anti-apoptotic neuroprotection via erythropoietin mimicry
+3. Neuroinflammation suppression via apolipoprotein E mimicry
+4. Oxidative stress reduction via thioredoxin mimicry
+5. Neurotrophic support and cognitive recovery via GLP-1 receptor agonism
+
+Assignments and mechanisms:
+- CAQK (real, tetrapeptide identified by phage display): Binds specifically to tenascin C in injured brain tissue, reduces lesion volume, apoptosis, neuroinflammation, and improves functional outcomes in TBI models.
+- pHBSP (real, erythropoietin-derived): Mimics non-hematopoietic EPO effects, reduces inflammatory activation, and enhances cognitive recovery in mild TBI rat models.
+- CN-105 (real, ApoE-mimetic pentapeptide): Suppresses sterile immune activation, reduces histological damage, and improves functional outcomes in closed head injury models.
+- TXM-CB3 (real, thioredoxin-mimetic): Redox-active peptide that protects cognitive function and reduces neuronal damage post-mTBI via antioxidant effects.
+- Exendin-4 (real, natural GLP-1 receptor agonist peptide): Activates CREB pathway, reduces oxidative stress/excitotoxicity, mitigates cognitive and sensory deficits in mild TBI/concussion models.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Minor Head Injury p01"
+"Loaded_Programs=Minor Head Injury p02"
+"Loaded_Programs=Minor Head Injury p03"
+"Loaded_Programs=Minor Head Injury p04"
+"Loaded_Programs=Minor Head Injury p05"
+"Loaded_Frequencies=M103.009=1,M71.037,M128.058,M127.111,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M128.095,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M141.079=1,M87.032,M156.101,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M144.012=1,M97.053,M101.017,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"[/Preset]"

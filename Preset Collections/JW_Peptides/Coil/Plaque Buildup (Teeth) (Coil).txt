@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Plaque Buildup (Teeth) (Coil)"
+"Preset_Notes=Plaque Buildup (Teeth) for Coil
+
+Mechanistic Rationale (all real-world peptides): Dental plaque buildup involves bacterial biofilms (e.g., Streptococcus mutans, Actinomyces) on enamel, leading to caries/gingivitis. These 10 real-world salivary/oral antimicrobial peptides provide coverage: 
+- Pathogen-targeted lysis: Membrane disruption of plaque bacteria (Peptides 1,2,3,5,6,8,9). 
+- Microbiome interaction: Antibiofilm, quorum-sensing inhibition, selective killing (all). 
+- Barrier function: Inhibits bacterial adhesion to enamel, promotes remineralization (Peptide 4). 
+- Immune modulation: Enhances oral innate immunity (Peptides 7,10). 
+- Anti-inflammatory action: Reduces biofilm-induced inflammation (Peptides 3,6). 
+Validated for antiplaque/anticaries activity in oral cavity literature; full real-world coverage.
+
+"
+"Loaded_Programs=Plaque Buildup (Teeth) p01"
+"Loaded_Programs=Plaque Buildup (Teeth) p02"
+"Loaded_Programs=Plaque Buildup (Teeth) p03"
+"Loaded_Programs=Plaque Buildup (Teeth) p04"
+"Loaded_Programs=Plaque Buildup (Teeth) p05"
+"Loaded_Programs=Plaque Buildup (Teeth) p06"
+"Loaded_Programs=Plaque Buildup (Teeth) p07"
+"Loaded_Programs=Plaque Buildup (Teeth) p08"
+"Loaded_Programs=Plaque Buildup (Teeth) p09"
+"Loaded_Programs=Plaque Buildup (Teeth) p10"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M113.084=1,M115.027,M137.059,M147.068,M57.021,M128.095,M156.101,M147.068,M57.021,M137.059,M129.043,M128.095,M156.101,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M87.032,M129.043,M129.043,M128.095,M147.068,M113.084,M156.101,M156.101,M113.084,M57.021,M156.101,M147.068,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M103.009,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M103.009,M137.059,M97.053,M99.068,M147.068,M103.009,M97.053,M156.101,M156.101,M163.063,M128.095,M128.059,M113.084,M57.021,M101.048,M103.009,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M103.009,M103.009,M128.095,M128.095,M97.053,0=4,"
+"[/Preset]"

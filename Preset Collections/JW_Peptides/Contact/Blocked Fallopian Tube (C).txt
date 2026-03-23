@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Blocked Fallopian Tube (C)"
+"Preset_Notes=Blocked Fallopian Tube for Contact
+
+Blocked fallopian tubes (tubal occlusion) are a major cause of female infertility, often resulting from pelvic inflammatory disease, endometriosis, surgical adhesions, or fibrosis leading to scarring and obstructed egg transport. The proposed polypeptides address evidence-based therapeutic axes derived from literature on inflammation, infection, fibrosis, adhesions, and impaired tissue repair in the reproductive tract.
+
+1. Pelvic anti-adhesion: RADA16 forms a hydrogel scaffold to reduce postoperative and post-inflammatory adhesion formation.
+2. Reproductive tract antimicrobial defense: LL-37 provides broad-spectrum antimicrobial activity to combat pathogens associated with PID and tubal damage.
+3. Anti-inflammatory tissue protection: ARA-290 (erythropoietin-derived) mitigates inflammatory damage and supports tissue integrity.
+4. Anti-fibrotic remodeling: GHK-Cu (copper-complexed) promotes collagen balance and wound healing to counteract scarring.
+5. Multi-system regenerative healing: BPC-157 accelerates gastric and systemic tissue repair, filling gaps in tubal regeneration.
+6. Cell migration and actin dynamics: TB-500 (thymosin {beta}4 fragment) enhances cell mobility and repair processes.
+7. Targeted mucosal anti-inflammatory: KPV reduces inflammation in mucosal environments like the tubal lining.
+8. Vasoactive immunomodulation: VIP relaxes smooth muscle and modulates inflammation in the pelvic region.
+9. Integrated scaffold-healing optimization: TubalScaff-Eng (engineered hybrid) combines self-assembling, remodeling, and anti-adhesion motifs for novel tubal support.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Blocked Fallopian Tube p01"
+"Loaded_Programs=Blocked Fallopian Tube p02"
+"Loaded_Programs=Blocked Fallopian Tube p03"
+"Loaded_Programs=Blocked Fallopian Tube p04"
+"Loaded_Programs=Blocked Fallopian Tube p05"
+"Loaded_Programs=Blocked Fallopian Tube p06"
+"Loaded_Programs=Blocked Fallopian Tube p07"
+"Loaded_Programs=Blocked Fallopian Tube p08"
+"Loaded_Programs=Blocked Fallopian Tube p09"
+"Loaded_Frequencies=M198.112=1,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M70.053,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M198.112=1,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M57.021,M137.059,M128.095,M156.101,M57.021,M115.027,M87.032,M96.069,0=4,"
+"[/Preset]"

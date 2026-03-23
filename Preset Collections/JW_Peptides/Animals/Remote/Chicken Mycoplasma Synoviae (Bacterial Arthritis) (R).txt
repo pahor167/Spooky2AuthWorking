@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Chicken Mycoplasma Synoviae (Bacterial Arthritis) (R)"
+"Preset_Notes=Chicken Mycoplasma Synoviae (Bacterial Arthritis) for Remote
+
+Mycoplasma synoviae infection in chickens is a contagious disease causing infectious synovitis and arthritis, with symptoms including joint swelling, lameness, exudative tendonitis, and reduced productivity; as a wall-less bacterium, it is susceptible to membrane-targeting agents.
+1. Lytic membrane disruption: Melittin - Potent pore-forming and lytic activity against mycoplasma membranes, demonstrated to inhibit related M. gallisepticum in vivo in chickens.
+2. Alpha-helical pore formation: Cecropin A - Insect-derived cationic peptide that disrupts bacterial membranes through barrel-stave pore mechanism, widely explored for avian pathogen control.
+3. Amphipathic toroidal pore formation: Magainin 2 - Frog skin peptide that inserts into lipid bilayers to form toroidal pores, suitable for wall-less pathogens like mycoplasmas.
+4. Tryptophan-rich intracellular penetration: Indolicidin - Short, potent bovine peptide that crosses membranes and inhibits intracellular targets for broad bactericidal effects.
+5. Beta-sheet oligomeric pores: Protegrin-1 - Porcine defensin analog forming rigid beta-barrel pores with exceptional potency against diverse bacteria.
+6. Native avian cathelicidin defense: Fowlicidin-1 - Endogenous chicken host defense peptide with strong cationic helical structure optimized for broad-spectrum activity in poultry.
+7. Hybrid optimization: Cecropin-Melittin hybrid - Engineered fusion combining N-terminal cecropin charge with melittin hydrophobicity for enhanced potency and selectivity against bacterial membranes.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Chicken Mycoplasma Synoviae (Bacterial Arthritis) p01"
+"Loaded_Programs=Chicken Mycoplasma Synoviae (Bacterial Arthritis) p02"
+"Loaded_Programs=Chicken Mycoplasma Synoviae (Bacterial Arthritis) p03"
+"Loaded_Programs=Chicken Mycoplasma Synoviae (Bacterial Arthritis) p04"
+"Loaded_Programs=Chicken Mycoplasma Synoviae (Bacterial Arthritis) p05"
+"Loaded_Programs=Chicken Mycoplasma Synoviae (Bacterial Arthritis) p06"
+"Loaded_Programs=Chicken Mycoplasma Synoviae (Bacterial Arthritis) p07"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M57.021,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M99.068,M128.095,M156.101,M99.068,M186.079,M97.053,M113.084,M99.068,M113.084,M156.101,M101.048,M99.068,M113.084,M71.037,M57.021,M163.063,M114.043,M113.084,M163.063,M156.101,M71.037,M113.084,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,0=4,"
+"[/Preset]"

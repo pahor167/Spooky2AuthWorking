@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Sleep and Insomnia (R) - DB"
+"Repeat_Each_Program=24"
+"Repeat_Sequence=0"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=Run this preset for 12 to 21 days or more.  
+
+For people who have been medicating with pharmaceuticals for sleep problems, try running the following for 3-4 days before running this preset. Starting with Healing (Remote) - JW, use the following frequency sets:
+
+Akathisia (XTRA)
+Detox Anesthesia 2 (XTRA)
+
+This preset contains the following frequency sets:
+
+Brain: Brain - XTRA, Brain Normalize - XTRA, Brain State - XTRA
+
+Colloidal_Silver & Gold: Colloidal Silver and Gold Scalar - XTRA
+
+Pineal: Detox Fluoride - XTRA, Pineal Gland Balance - XTRA, Pineal Function Normalize Stimulate - XTRA
+
+Here is a table to find the beginning of each frequency set in this preset:
+1. Pineal(1/1008)
+2. Brain(481/1008)
+3. Colloidal Silver & Gold(721/1008)
+
+Connect Spooky Remote to generator, with or without Spooky Boost.
+"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=1. Pineal-1 (CUST)"
+"Loaded_Programs=2. Brain-481 (CUST)"
+"Loaded_Programs=3. Colloidal_Silver & Gold-721 (CUST)"
+"Loaded_Frequencies=19169.38 W3=180,20=180,537=180,662=180,480=180,19169.38=180,20=180,537=180,662=180,480=180,19169.38=180,20=180,537=180,662=180,480=180,19169.38=180,20=180,537=180,662=180,480=180,"
+"Loaded_Frequencies=315.8=1200 W3,17578.13=180,4=180,815=180,812=180,315.8=960,17578.13=180,4=180,815=180,812=180,"
+"Loaded_Frequencies=7364246.875738=300 W3,473582.172629=300,366644.262680=300,23578.268006=300,7364246.875738=300,473582.172629=300,366644.262680=300,23578.268006=300,7364246.875738=300,473582.172629=300,366644.262680=300,23578.268006=300,"
+"[/Preset]"

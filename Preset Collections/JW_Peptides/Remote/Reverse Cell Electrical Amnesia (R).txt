@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Reverse Cell Electrical Amnesia (R)"
+"Preset_Notes=Reverse Cell Electrical Amnesia for Remote
+
+Regeneration of Ion Channels and Gap Junctions to Reverse Cell Electrical Amnesia
+
+Michael Levin's bioelectric theory posits that cancer involves cells losing their 'electrical memory' and decoupling from the tissue's bioelectric network, reverting to selfish proliferation. These polypeptides target key axes to restore gap junctions, modulate hemichannels, regulate ion fluxes, and reinforce collective electrical signaling for non-cytotoxic cancer reprogramming and regenerative support, drawing from connexin therapeutics literature.
+
+1. Cx43 gap junction stabilization and GJIC restoration: {alpha}CT1 (real) mimics the Cx43 carboxyl-terminus to promote junction assembly, with preclinical evidence in tumor suppression and wound regeneration.
+2. Enhancement of gap junction electrical conduction: Rotigaptide (real) improves coupling efficiency, mechanistically supporting bioelectric network integrity.
+3. Selective connexin hemichannel inhibition: Peptide5 (real) blocks aberrant opening to reduce inflammatory leakage while preserving functional gaps.
+4. Stabilized Cx43 carboxyl-terminal motif optimization: CxCT-Eng (designed), acetylated/amidated shortened variant for enhanced stability and targeting.
+5. Modified extracellular loop mimicry: GapMod-Eng (designed), stabilized Gap27 variant tuned for bioelectric modulation.
+6. Enhanced hemichannel-selective blockade: HemiMod-Eng (designed), protected Peptide5 derivative for improved durability.
+7. Amphipathic perturbation of abnormal membrane potentials: KLAK-Eng (designed), cationic sequence selectively disrupting depolarized cancer cell membranes.
+8. Pore-forming motif for controlled ion flux: MagVar-Eng (designed), magainin-inspired variant to facilitate regenerative bioelectric gradients.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Reverse Cell Electrical Amnesia p01"
+"Loaded_Programs=Reverse Cell Electrical Amnesia p02"
+"Loaded_Programs=Reverse Cell Electrical Amnesia p03"
+"Loaded_Programs=Reverse Cell Electrical Amnesia p04"
+"Loaded_Programs=Reverse Cell Electrical Amnesia p05"
+"Loaded_Programs=Reverse Cell Electrical Amnesia p06"
+"Loaded_Programs=Reverse Cell Electrical Amnesia p07"
+"Loaded_Programs=Reverse Cell Electrical Amnesia p08"
+"Loaded_Frequencies=M156.101=1,M128.058,M97.053,M128.095,M113.084,M186.079,M147.068,M97.053,M114.043,M156.101,M156.101,M128.095,M97.053,M186.079,M128.095,M128.095,M156.101,M97.053,M156.101,M97.053,M115.027,M115.027,M113.084,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M205.074=1,M97.053,M113.048,M57.021,M71.037,M56.037,0=4,"
+"Loaded_Frequencies=M99.068=1,M115.027,M103.009,M147.068,M113.084,M87.032,M156.101,M97.053,M101.048,M129.043,M128.095,M101.048,0=4,"
+"Loaded_Frequencies=M198.112=1,M97.053,M156.101,M97.053,M115.027,M115.027,M113.084,M129.043,M112.1,0=4,"
+"Loaded_Frequencies=M129.043=1,M156.101,M97.053,M101.048,M129.043,M128.095,M101.048,M113.084,M147.068,M113.084,M112.1,0=4,"
+"Loaded_Frequencies=M141.079=1,M115.027,M103.009,M147.068,M113.084,M87.032,M156.101,M97.053,M101.048,M129.043,M128.095,M100.064,0=4,"
+"Loaded_Frequencies=M170.106=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M99.032=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"[/Preset]"

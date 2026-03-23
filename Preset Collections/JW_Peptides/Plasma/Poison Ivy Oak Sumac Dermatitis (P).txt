@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Poison Ivy/Oak/Sumac Dermatitis (P)"
+"Preset_Notes=Poison Ivy/Oak/Sumac Dermatitis for Plasma
+
+Poison Ivy/Oak/Sumac Dermatitis is an allergic contact dermatitis caused by exposure to urushiol oil in these plants, leading to itchy rash, blisters, inflammation, and potential secondary infections. Mechanistic rationale involves peptides that exert anti-inflammatory and immunomodulatory effects to suppress allergic responses, provide antimicrobial protection against infections, promote skin repair and wound healing, relieve itching, and offer antioxidant activity to mitigate oxidative damage; designed peptides are flagged where used to supplement coverage of therapeutic axes like anti-itch and barrier enhancement.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Poison Ivy/Oak/Sumac Dermatitis p01"
+"Loaded_Programs=Poison Ivy/Oak/Sumac Dermatitis p02"
+"Loaded_Programs=Poison Ivy/Oak/Sumac Dermatitis p03"
+"Loaded_Programs=Poison Ivy/Oak/Sumac Dermatitis p04"
+"Loaded_Programs=Poison Ivy/Oak/Sumac Dermatitis p05"
+"Loaded_Programs=Poison Ivy/Oak/Sumac Dermatitis p06"
+"Loaded_Programs=Poison Ivy/Oak/Sumac Dermatitis p07"
+"Loaded_Programs=Poison Ivy/Oak/Sumac Dermatitis p08"
+"Loaded_Programs=Poison Ivy/Oak/Sumac Dermatitis p09"
+"Loaded_Programs=Poison Ivy/Oak/Sumac Dermatitis p10"
+"Loaded_Programs=Poison Ivy/Oak/Sumac Dermatitis p11"
+"Loaded_Programs=Poison Ivy/Oak/Sumac Dermatitis p12"
+"Loaded_Frequencies=M156.101=1,M113.084,M113.084,M113.084,M156.101,M113.084,M113.084,M113.084,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M102.001,M137.059,M97.053,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M102.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M102.001,M102.001,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M128.058,M128.095,M137.059,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M87.032,M97.053,M129.043,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M137.059,M101.048,M137.059,M163.063,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M137.059,M113.084,M87.032,M128.058,0=4,"
+"Loaded_Frequencies=M147.068=1,M71.037,M99.068,M114.043,M129.043,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M137.059,M128.095,M97.053,M156.101,M99.068,0=4,"
+"[/Preset]"

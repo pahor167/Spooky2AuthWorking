@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Corneal Folds (Descemet Membrane Folds) (R)"
+"Preset_Notes=Corneal Folds (Descemet Membrane Folds) for Remote
+
+Corneal folds represent Descemet membrane striae secondary to corneal endothelial dysfunction, characterized by loss of endothelial cell adhesion, impaired barrier function via tight junction disruption, accumulation of fluid in the stroma causing visual distortion, and potential endothelial cell apoptosis. This multi-axis therapeutic approach targets endothelial survival through VIP-mediated N-cadherin maintenance and anti-apoptotic signaling, wound healing and neurogenic modulation via Substance P pathways, minimal peptide FGLM-amide for synergistic epithelial repair with IGF-1, enhanced intracellular delivery using PENE cell-penetrating peptide, N-cadherin mimetic SHAVSS for cell-cell adhesion stabilization, metabolic support and oxidative stress protection via EndoProtect-1, ECM stabilization and Descemet membrane anchoring with FoldRescue-1, and tight junction integrity restoration through TightBoost-1.
+
+1. Endothelial survival and N-cadherin maintenance: VIP - Vasoactive intestinal peptide maintaining differentiated endothelial state and N-cadherin expression via autocrine signaling
+2. Wound healing and neurogenic modulation: Substance P - Eleven-amino-acid neuropeptide promoting corneal epithelial migration and barrier function through NK1R activation
+3. Synergistic epithelial repair: FGLM-amide - Minimal C-terminal tetrapeptide of Substance P (Phe-Gly-Leu-Met-NH2) that synergizes with IGF-1 to stimulate cell migration
+4. Cell delivery and penetration: PENE - Arginine-rich cell-penetrating peptide (RQIKIWFQNRRMKWKK) enabling transmembrane transport of therapeutic cargo across corneal barriers
+5. Cell-cell adhesion: SHAVSS - N-cadherin mimetic peptide (Ac-Ser-His-Ala-Val-Ser-Ser-NH2) containing the HAV adhesion motif for endothelial cell-cell contact stabilization
+6. Endothelial metabolic support: EndoProtect-1 - Designed octapeptide (KRTGQYKL) providing metabolic support and oxidative stress protection for corneal endothelium
+7. Descemet membrane ECM stabilization: FoldRescue-1 - Designed hexapeptide (VPGVGY) mimicking elastin-like repeats to stabilize extracellular matrix and Descemet membrane folding
+8. Tight junction integrity: TightBoost-1 - Designed heptapeptide (DPKVSVQ) supporting tight junction protein assembly and barrier function in endothelial monolayers
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Corneal Folds (Descemet Membrane Folds) p01"
+"Loaded_Programs=Corneal Folds (Descemet Membrane Folds) p02"
+"Loaded_Programs=Corneal Folds (Descemet Membrane Folds) p03"
+"Loaded_Programs=Corneal Folds (Descemet Membrane Folds) p04"
+"Loaded_Programs=Corneal Folds (Descemet Membrane Folds) p05"
+"Loaded_Programs=Corneal Folds (Descemet Membrane Folds) p06"
+"Loaded_Programs=Corneal Folds (Descemet Membrane Folds) p07"
+"Loaded_Programs=Corneal Folds (Descemet Membrane Folds) p08"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M113.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M147.068=1,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.058,M113.084,M128.095,M113.084,M186.079,M147.068,M128.058,M114.043,M156.101,M156.101,M131.040,M128.095,M186.079,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M137.059,M71.037,M99.068,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M101.048,M57.021,M128.058,M163.063,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M57.021,M99.068,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M115.027=1,M97.053,M128.095,M99.068,M87.032,M99.068,M128.058,0=4,"
+"[/Preset]"

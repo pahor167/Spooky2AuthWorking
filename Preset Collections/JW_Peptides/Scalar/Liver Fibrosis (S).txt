@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Liver Fibrosis (S)"
+"Preset_Notes=Liver Fibrosis for Scalar
+
+Proposed high-quality polypeptide designs for liver cirrhosis address key therapeutic axes derived from literature on fibrosis reversal, inflammation, steatosis, metabolic dysfunction, and decompensation. All are real-world polypeptides with documented evidence in preclinical models or clinical studies for liver disease.
+
+1. Reduction of hepatic steatosis and oxidative stress: PGPIPN hexapeptide (real) - derived from {beta}-casein, prevents alcoholic fatty liver by downregulating lipid accumulation, oxidative stress, and related gene expression (e.g., ACC, PPAR-{gamma}).
+2. Inhibition of hepatic stellate cell activation and vascular remodeling: WKYMVm peptide (real) - FPR2 agonist, reduces collagen deposition, {alpha}-SMA expression, and portal pressure while promoting regeneration in cirrhosis models.
+3. Prevention of NASH progression and fibrosis: Kisspeptin-10 (real) - activates KISS1R on hepatocytes, inhibits fat deposition, inflammation, and fibrogenesis in high-fat diet models of NAFLD/NASH.
+4. Anti-inflammatory effects and fibrosis suppression: HMGB1-derived octapeptide HP2-9 (GKGDPKKP) (real) - competitive antagonist of pro-inflammatory HMGB1, attenuates liver inflammation and promotes fibrosis regression in chronic injury models.
+5. Management of portal hypertension and ascites: Human atrial natriuretic peptide (hANP) (real) - enhances natriuresis and renal response, counteracts vasoconstriction in decompensated cirrhosis with refractory ascites.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Liver Fibrosis p01"
+"Loaded_Programs=Liver Fibrosis p02"
+"Loaded_Programs=Liver Fibrosis p03"
+"Loaded_Programs=Liver Fibrosis p04"
+"Loaded_Programs=Liver Fibrosis p05"
+"Loaded_Frequencies=M97.053=1,M57.021,M97.053,M113.084,M97.053,M114.043,0=4,"
+"Loaded_Frequencies=M186.079=1,M128.095,M163.063,M131.040,M99.068,M130.056,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M57.021,M115.027,M97.053,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M147.068,M156.101,M163.063,0=4,"
+"[/Preset]"

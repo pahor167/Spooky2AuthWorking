@@ -1,0 +1,55 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Cell Danger Response (Chronic CDR) (C)"
+"Preset_Notes=Cell Danger Response (Chronic CDR) for Contact
+
+Chronic Cell Danger Response (CDR) is a state of persistent cellular defense due to unresolved threats, leading to metabolic dysfunction and chronic illnesses such as ME/CFS, autism, and autoimmune disorders.
+
+1. Mitochondrial energetics: Elamipretide - Improves mitochondrial function and energy production.
+2. Metabolic regulation: MOTS-c - Enhances insulin sensitivity and fat oxidation.
+3. Cytoprotection: Humanin - Protects against oxidative stress and apoptosis.
+4. Oxidative stress mitigation: Carnosine - Neutralizes reactive oxygen species.
+5. Inflammatory resolution: Annexin_A1_Ac2-26 - Promotes inflammation resolution.
+6. Stress regulation: DSIP - Improves stress resilience.
+7. Autonomic modulation: Catestatin - Modulates sympathetic activity.
+8. Biogenesis promotion: SHLP2 - Promotes mitochondrial biogenesis and reduces ROS.
+9. Neuroprotection: SHLP3 - Protects against ischemic stress.
+10. Vagus nerve enhancement: Neurotensin - Enhances motility and secretion.
+11. Endothelial stabilization: Apelin-13 - Supports vascular integrity.
+12. Purinergic modulation: Pep19-2.5 - Modulates P2X7 receptor-mediated inflammation.
+13. Salugenesis promotion: EDRKPVGHKF - Promotes healing cycle progression.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Cell Danger Response (Chronic CDR) p01"
+"Loaded_Programs=Cell Danger Response (Chronic CDR) p02"
+"Loaded_Programs=Cell Danger Response (Chronic CDR) p03"
+"Loaded_Programs=Cell Danger Response (Chronic CDR) p04"
+"Loaded_Programs=Cell Danger Response (Chronic CDR) p05"
+"Loaded_Programs=Cell Danger Response (Chronic CDR) p06"
+"Loaded_Programs=Cell Danger Response (Chronic CDR) p07"
+"Loaded_Programs=Cell Danger Response (Chronic CDR) p08"
+"Loaded_Programs=Cell Danger Response (Chronic CDR) p09"
+"Loaded_Programs=Cell Danger Response (Chronic CDR) p10"
+"Loaded_Programs=Cell Danger Response (Chronic CDR) p11"
+"Loaded_Programs=Cell Danger Response (Chronic CDR) p12"
+"Loaded_Programs=Cell Danger Response (Chronic CDR) p13"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M57.021,M99.068,M128.095,M147.068,M147.068,M101.048,M113.084,M87.032,M101.048,M156.101,M147.068,M147.068,M97.053,M87.032,M99.068,M128.058,M156.101,M71.037,M99.068,M97.053,M113.084,M186.079,M101.048,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M113.084,M57.021,M163.063,M114.043,M147.068,M87.032,M87.032,M147.068,M97.053,M103.009,M57.021,M101.048,M113.084,M87.032,M113.084,M71.037,M97.053,M57.021,M147.068,M114.043,M147.068,M163.063,M156.101,M113.084,M163.063,M147.068,M113.084,M186.079,M99.068,M114.043,M57.021,M113.084,M71.037,M128.095,M99.068,M99.068,M186.079,0=4,"
+"Loaded_Frequencies=M111.032=1,M113.084,M128.058,M163.063,M129.043,M114.043,M128.095,M97.053,M156.101,M156.101,M97.053,M163.063,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M103.009,M128.095,M128.095,M163.063,M156.101,M156.101,M147.068,M156.101,M186.079,M128.095,M147.068,M128.095,M57.021,M128.095,M147.068,M186.079,M147.068,M186.079,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,M128.095,M97.053,M99.068,M57.021,M137.059,M128.095,M147.068,0=4,"
+"[/Preset]"

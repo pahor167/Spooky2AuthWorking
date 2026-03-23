@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Detox Silicone (P)"
+"Preset_Notes=Detox Silicone for Plasma
+
+Silicone Detox
+
+Silicone detox refers to the process of eliminating or reducing the adverse effects of silicone accumulation in the body, often resulting from medical devices such as breast implants, joint prosthetics, or industrial exposure to silicone-based materials. Causes include silicone leakage or migration from implants (known as gel bleed), environmental exposure to silicones in cosmetics, sealants, or electronics manufacturing, and rarely, ingestion or inhalation of silicone compounds. Symptoms commonly reported include chronic fatigue, joint and muscle pain, cognitive dysfunction (brain fog), skin rashes, hair loss, autoimmune-like reactions, hormonal imbalances, and neurological issues such as headaches or neuropathy. Pathophysiology involves silicone particles triggering a foreign body response, leading to chronic inflammation via macrophage activation and cytokine release, oxidative stress from reactive oxygen species (ROS) generation, immune dysregulation with potential autoantibody production resembling adjuvant-induced autoimmune/inflammatory syndrome (ASIA), and impaired detoxification pathways in the liver and kidneys due to overload of xenobiotic metabolism. Silicone, being a bioinert polymer, is not easily metabolized, leading to bioaccumulation in tissues like lymph nodes, spleen, and brain, exacerbating systemic toxicity over time.
+
+Mechanistic rationale: The proposed polypeptides address all identified therapeutic axes for silicone detox, derived from comprehensive retrieval of mechanisms including inflammatory pathways, oxidative stress responses, immune signaling cascades, and xenobiotic detoxification routes. Each axis is explicitly described below, along with the assigned polypeptide(s), their modes of action, physicochemical considerations (e.g., solubility, stability, bioavailability), feasibility (e.g., short length for synthesis and delivery, potential oral or topical administration), and design basis.
+
+Axis 1: Anti-inflammatory - Chronic inflammation from silicone particles activates NF-kB and pro-inflammatory cytokines (e.g., TNF-{alpha}, IL-6). Polypeptides target this by inhibiting cytokine production and macrophage activation. Real-world: KPV acts via melanocortin receptors to suppress NF-kB, reducing inflammation; physicochemical: highly soluble, stable in aqueous environments. Designed: Cyclic Anti-inflammatory Peptide uses modified KPV scaffold with disulfide cyclization for protease resistance and extended half-life, binding to similar receptors; basis: rational extension of MSH motif from literature with cyclization for enhanced feasibility in chronic use.
+
+Axis 2: Antioxidant - Oxidative stress arises from ROS induced by silicone degradation, damaging cells and promoting lipid peroxidation. Polypeptides enhance antioxidant defenses like SOD and catalase. Real-world: GHK binds copper to facilitate SOD activity, scavenging ROS; physicochemical: hydrophilic, low molecular weight aids tissue penetration. Designed: GHK Repeat Peptide repeats GHK units for amplified copper chelation and ROS neutralization; basis: multimerization of literature GHK motif for dose efficiency, with neutral charge for better absorption.
+
+Axis 3: Immune modulation - Dysregulated immune response involves Th1/Th2 imbalance and autoimmunity from silicone adjuvancy. Polypeptides promote regulatory T-cells and cytokine balance. Real-world: Selank modulates IL-6 and interferon, restoring immune homeostasis; physicochemical: stable, moderate hydrophilicity. Designed: Immune Modulator Peptide incorporates thymosin-inspired residues for Treg induction; basis: truncation and modification of thymosin beta-4 motifs from studies, ensuring low instability index.
+
+Axis 4: Detoxification enzyme induction - Impaired phase I/II detox pathways (e.g., CYP450, GST) hinder silicone metabolite clearance. Polypeptides activate NRF2 to upregulate detox enzymes. Real-world: BPC-157 supports liver regeneration and enzyme expression via growth factor mimicry; physicochemical: amphipathic for membrane interaction. Designed: NRF2 Activator Peptide disrupts KEAP1-NRF2 interaction to translocate NRF2; basis: derived from NRF2 binding domain in literature with sequence optimization for specificity and solubility.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Detox Silicone p01"
+"Loaded_Programs=Detox Silicone p02"
+"Loaded_Programs=Detox Silicone p03"
+"Loaded_Programs=Detox Silicone p04"
+"Loaded_Programs=Detox Silicone p05"
+"Loaded_Programs=Detox Silicone p06"
+"Loaded_Programs=Detox Silicone p07"
+"Loaded_Programs=Detox Silicone p08"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M97.053,M99.068,M156.101,M128.058,M113.084,M87.032,M101.048,M102.001,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,M57.021,M137.059,M128.095,M57.021,M137.059,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,M71.037,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M115.027,M129.043,M129.043,M101.048,M57.021,M129.043,M147.068,M113.084,M97.053,0=4,"
+"[/Preset]"

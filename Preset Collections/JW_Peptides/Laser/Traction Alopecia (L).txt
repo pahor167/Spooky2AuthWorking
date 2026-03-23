@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Traction Alopecia (L)"
+"Preset_Notes=Traction Alopecia for Laser
+
+Traction alopecia is a form of hair loss resulting from prolonged mechanical stress on hair follicles, commonly caused by tight hairstyles such as braids, ponytails, extensions, or weaves, which exert continuous pulling force leading to follicular damage, inflammation, and eventual scarring if untreated. It predominantly affects individuals with curly or coily hair textures, often women of African descent, but can occur in anyone engaging in tension-inducing hair practices, with additional risk factors including chemical relaxers, heat styling, or underlying scalp conditions exacerbating vulnerability. Symptoms manifest as perifollicular erythema, pruritus, pustules, broken hairs, and patchy alopecia along the hairline or areas of traction, progressing to irreversible scarring alopecia with follicular dropout and reduced hair density in chronic cases. Pathophysiologically, it involves initial reversible damage to the outer root sheath and dermal papilla from tensile forces disrupting the hair cycle, shifting follicles prematurely into catagen and telogen phases, followed by chronic inflammation with cytokine upregulation (e.g., IL-1, TNF-{alpha}), perifollicular fibrosis via increased matrix metalloproteinases and decreased inhibitors, impaired vascularization reducing nutrient delivery, and stem cell exhaustion in the bulge region, culminating in miniaturized or absent follicles. The proposed polypeptides address these through multiple axes: reducing mechanical stress effects by promoting tissue repair and muscle relaxation around follicles, mitigating inflammation to prevent scarring and cytokine storms, stimulating hair growth by prolonging anagen and activating stem cells, and enhancing vascularization for improved blood flow and nutrient supply. The designed polypeptide for stress reduction is derived from a relaxin motif with disulfide cyclization for stability, aiding in connective tissue remodeling. The designed anti-inflammatory is based on a truncated alpha-MSH sequence without cyclization, targeting cytokine suppression. The designed growth promoter utilizes an IGF-1-like motif, head-to-tail cyclized for enhanced receptor binding and follicle regeneration. The designed vascularizer draws from a VEGF-inspired sequence with N-acetylation for bioavailability, promoting angiogenesis without systemic effects.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Traction Alopecia p01"
+"Loaded_Programs=Traction Alopecia p02"
+"Loaded_Programs=Traction Alopecia p03"
+"Loaded_Programs=Traction Alopecia p04"
+"Loaded_Programs=Traction Alopecia p05"
+"Loaded_Programs=Traction Alopecia p06"
+"Loaded_Programs=Traction Alopecia p07"
+"Loaded_Programs=Traction Alopecia p08"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M97.053,M129.043,M101.048,M113.084,M102.001,M57.021,M71.037,M129.043,M113.084,M99.068,M115.027,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M128.095,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M99.068,M99.068,M113.084,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M115.027,M101.048,M113.084,M128.095,M57.021,M57.021,M57.021,M128.095,M99.068,M99.068,M57.021,M87.032,M113.084,M156.101,M128.095,M57.021,M57.021,M128.095,M137.059,M99.068,M57.021,0=4,"
+"[/Preset]"

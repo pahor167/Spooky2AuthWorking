@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Eye Floaters (Vitreous Opacities) (R)"
+"Preset_Notes=Eye Floaters (Vitreous Opacities) for Remote
+
+Eye floaters (vitreous opacities) are visual disturbances caused by collagen aggregates, debris, or liquefaction in the vitreous humor, often age-related or secondary to inflammation/oxidative stress. The proposed polypeptides target evidence-based axes from ocular healing literature, including regeneration, anti-inflammation, antioxidant protection, and collagen stabilization to potentially reduce opacities and support vitreous integrity.
+
+1. Stable gastric pentadecapeptide-mediated ocular regeneration: BPC-157 promotes healing in corneal, retinal, and dry eye models, with potential for vitreous repair. 
+2. Thymosin {beta}4-derived actin-sequestering repair: TB-500 enhances cell migration, wound healing, and anti-inflammatory effects in ocular surface disorders. 
+3. Copper-binding tripeptide antioxidant and remodeling: GHK-Cu supports ECM regeneration, antioxidant activity, and tissue repair relevant to degenerative processes. 
+4. {alpha}-MSH-derived anti-inflammatory effects: KPV (Ac- and amidated) potently reduces inflammation that may exacerbate vitreous changes. 
+5. EPO-derived tissue-protective anti-inflammatory: ARA 290 (Cibinetide) provides neuroprotection and inflammation reduction without erythropoietic risks. 
+seven6. Vasoactive intestinal peptide immunomodulatory action: VIP inhibits ocular inflammation and supports physiological balance in the eye. 
+7. Engineered proline-rich collagen-mimetic stabilization: Ac-(GPP)10-NH2 designed to mimic type II collagen fibrils and stabilize vitreous structure against degeneration.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Eye Floaters (Vitreous Opacities) p01"
+"Loaded_Programs=Eye Floaters (Vitreous Opacities) p02"
+"Loaded_Programs=Eye Floaters (Vitreous Opacities) p03"
+"Loaded_Programs=Eye Floaters (Vitreous Opacities) p04"
+"Loaded_Programs=Eye Floaters (Vitreous Opacities) p05"
+"Loaded_Programs=Eye Floaters (Vitreous Opacities) p06"
+"Loaded_Programs=Eye Floaters (Vitreous Opacities) p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

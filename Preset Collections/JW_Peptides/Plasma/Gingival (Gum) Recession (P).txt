@@ -1,0 +1,44 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Gingival (Gum) Recession (P)"
+"Preset_Notes=Gingival (Gum) Recession for Plasma
+
+Gingival (Gum) Recession involves the progressive loss of gingival tissue leading to root exposure, compromising both aesthetics and periodontal health. Regeneration requires coordinated soft tissue augmentation, collagen matrix restoration, cementum formation, and antimicrobial protection to recreate the functional periodontal attachment apparatus. The following bioactive peptides target specific cellular and molecular mechanisms essential for comprehensive gingival reconstruction:
+
+1. Collagen Synthesis: CTGF-derived peptide - Connective tissue growth factor domain 3 peptide (residues 199-215) binding {alpha}6{beta}1 integrin to stimulate collagen deposition and ECM production by gingival fibroblasts
+2. Cementum Regeneration: ADP-5 - Amelogenin-derived 22-aa peptide facilitating cementum-like mineralized layer formation on root surfaces and supporting periodontal ligament cell attachment for true periodontal regeneration
+3. Fibroblast Activation: P-15 - Synthetic 15-aa collagen I-derived sequence (GTPGPQGIAGQRGVV) binding {alpha}2{beta}1 integrin to activate gingival fibroblasts and stimulate collagen type I synthesis
+4. Fibroblast Migration: SVVYGLR - Osteopontin-derived heptapeptide promoting human gingival fibroblast migration, proliferation, and collagen synthesis via TGF-{beta}/Smad signaling pathway and integrin {alpha}4{beta}1/{alpha}9{beta}1 binding
+5. ECM Synthesis: GFOGER - Triple-helical collagen mimetic peptide (Gly-Phe-Hyp-Gly-Glu-Arg) binding {alpha}2{beta}1/{alpha}1{beta}1 integrins to enhance fibroblast adhesion and extracellular matrix synthesis in gingival connective tissue
+6. Wound Healing: GHK-Cu - Endogenous copper-binding tripeptide found in human saliva promoting collagen and elastin synthesis, angiogenesis, and regenerative gene expression in gingival tissues
+7. Cell Adhesion: RGD - Universal integrin-binding motif from fibronectin facilitating cell attachment to biomaterial scaffolds and gingival graft integration
+8. Antimicrobial Protection: LL-37 - Broad-spectrum antimicrobial peptide controlling periodontal pathogens (Porphyromonas gingivalis, Aggregatibacter actinomycetemcomitans) while promoting wound healing in gingival pockets
+9. Antimicrobial Defense: hBD-3 - Human beta-defensin 3 providing antimicrobial protection against periodontal bacteria and creating favorable environment for tissue regeneration
+10. Epithelial Migration: Epi-Gin (designed) - Synthetic heptapeptide (Lys-Arg-Thr-Pro-Glu-Gly-Asp) engineered to promote keratinocyte migration and epithelial coverage of exposed root surfaces while supporting underlying connective tissue integration
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Gingival (Gum) Recession p01"
+"Loaded_Programs=Gingival (Gum) Recession p02"
+"Loaded_Programs=Gingival (Gum) Recession p03"
+"Loaded_Programs=Gingival (Gum) Recession p04"
+"Loaded_Programs=Gingival (Gum) Recession p05"
+"Loaded_Programs=Gingival (Gum) Recession p06"
+"Loaded_Programs=Gingival (Gum) Recession p07"
+"Loaded_Programs=Gingival (Gum) Recession p08"
+"Loaded_Programs=Gingival (Gum) Recession p09"
+"Loaded_Programs=Gingival (Gum) Recession p10"
+"Loaded_Frequencies=M156.101=1,M71.037,M114.043,M103.009,M113.084,M99.068,M128.058,M101.048,M101.048,M129.043,M186.079,M87.032,M71.037,M103.009,M87.032,M128.095,M101.048,0=4,"
+"Loaded_Frequencies=M97.053=1,M57.021,M163.063,M113.084,M114.043,M113.084,M87.032,M163.063,M129.043,M128.095,M87.032,M137.059,M87.032,M128.058,M71.037,M113.084,M114.043,M101.048,M115.027,M156.101,M101.048,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M99.068,M163.063,M57.021,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M113.048,M57.021,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M101.048,M97.053,M129.043,M57.021,M115.027,0=4,"
+"[/Preset]"

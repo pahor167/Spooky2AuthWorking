@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Stroke and Heart Attack Prevention (P)"
+"Preset_Notes=Stroke and Heart Attack Prevention for Plasma
+
+Stroke and heart attack prevention focuses on reducing atherosclerotic plaque progression, thrombosis, inflammation, metabolic risk factors, and abnormal coagulation. Therapeutic axes include HDL-mediated cholesterol efflux and anti-atherogenic effects, metabolic regulation for improved insulin sensitivity and energy homeostasis, promotion of inflammation resolution in vasculature, inhibition of platelet aggregation, and selective inhibition of the contact coagulation pathway to prevent thrombosis with minimal bleeding risk. Assignments: L-4F (real) for HDL-mediated cholesterol efflux, MOTS-c (real) for metabolic regulation, Ac2-26 (real) for inflammation resolution, Engineered cyclic RGD-inspired peptide (designed) for platelet aggregation inhibition, Engineered cyclic FXIIa-inhibitory peptide (designed) for contact coagulation pathway inhibition. Mechanisms: L-4F mimics ApoA-I amphipathic helix to enhance reverse cholesterol transport, reduce oxidative stress, and stabilize plaques. MOTS-c activates AMPK pathway to improve glucose/lipid metabolism and mitochondrial function, lowering cardio-metabolic risk. Ac2-26 mimics annexin A1 N-terminal to activate FPR2/ALX receptors, promoting anti-inflammatory macrophage polarization and efferocytosis. The cyclic RGD-inspired peptide targets GPIIb/IIIa integrin to block fibrinogen binding and platelet crosslinking. The cyclic FXIIa-inhibitory peptide selectively blocks factor XII activation, attenuating intrinsic pathway-driven thrombosis while preserving extrinsic hemostasis.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Stroke and Heart Attack Prevention p01"
+"Loaded_Programs=Stroke and Heart Attack Prevention p02"
+"Loaded_Programs=Stroke and Heart Attack Prevention p03"
+"Loaded_Programs=Stroke and Heart Attack Prevention p04"
+"Loaded_Programs=Stroke and Heart Attack Prevention p05"
+"Loaded_Frequencies=M157.038=1,M186.079,M147.068,M128.095,M71.037,M147.068,M163.063,M115.027,M128.095,M99.068,M71.037,M129.043,M128.095,M147.068,M128.095,M129.043,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M127.111,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M144.012=1,M128.095,M156.101,M156.101,M128.095,M147.068,M97.053,M186.079,M186.079,M97.053,M147.068,M156.101,M128.095,M128.095,M101.017,0=4,"
+"[/Preset]"

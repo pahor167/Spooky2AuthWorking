@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Lymphangitis (P)"
+"Preset_Notes=Lymphangitis for Plasma
+
+Lymphangitis is an inflammatory condition of the lymphatic vessels, typically resulting from bacterial infections spreading from a distal site such as a skin wound, abscess, or cellulitis, leading to acute symptoms and potential complications if untreated. Predominantly caused by gram-positive bacteria like Streptococcus pyogenes or Staphylococcus aureus, it can also arise from fungal, parasitic, or non-infectious sources including malignancy, autoimmune disorders, or iatrogenic factors. Symptoms manifest as red, tender streaks along the affected limb or area, accompanied by fever, chills, swelling (lymphedema in chronic cases), pain, malaise, and regional lymphadenopathy; severe cases may progress to sepsis, abscess formation, or chronic lymphatic dysfunction with fibrosis and impaired drainage. Pathophysiologically, lymphangitis involves bacterial invasion triggering innate immune responses with cytokine release (TNF-{alpha}, IL-1, IL-6), neutrophil infiltration, vascular permeability increase, and fibrin deposition obstructing lymphatic flow; persistent inflammation can lead to endothelial damage, lymphangiogenesis dysregulation via VEGF-C/D pathways, extracellular matrix remodeling with collagen accumulation, and epigenetic alterations promoting fibrosis; oxidative stress and microbial toxins exacerbate tissue injury, while immune dysregulation may perpetuate recurrent episodes.
+
+The proposed polypeptides target lymphangitis across antimicrobial, anti-inflammatory, immunomodulatory, lymphatic modulation, and antifibrotic axes, prioritizing real-world polypeptides with verified roles in infection control and lymphatic health, supplemented by designed ones for comprehensive coverage. The real-world LL-37 exerts broad antimicrobial activity against streptococci and staphylococci while modulating inflammation through chemokine induction and phagocytosis enhancement, feasible for topical or systemic use with established safety. HNP-1 provides potent bactericidal effects via membrane disruption and immune cell recruitment, addressing bacterial clearance in lymphatic infections. hBD-3 offers antimicrobial defense and epithelial barrier protection, reducing pathogen spread in skin-associated lymphangitis. IDR-1018 enhances innate immunity without direct killing, suppressing biofilms and inflammation for recurrent cases. VIP inhibits lymphatic vessel contraction to improve drainage and reduce swelling, with anti-inflammatory properties via cAMP elevation. YIGSR promotes cell adhesion and tissue remodeling to ameliorate lymphedema complications, binding 67LR to inhibit fibrosis. LyP-1 targets lymphatic endothelium for selective delivery, potentially aiding in imaging or drug homing to inflamed vessels. Thymosin alpha-1 restores T-cell function and modulates cytokines to bolster adaptive immunity against persistent infections. The designed polypeptides, flagged as such, address gaps: one neutralizes proinflammatory cytokines to mitigate vessel damage; another stimulates VEGF-C for lymphangiogenesis repair; a third enhances collagen degradation to prevent scarring; and a fourth reduces oxidative stress for tissue protection. These designed polypeptides are engineered for optimal physicochemical properties, including solubility and stability, with rationales based on pathway-specific interventions and analogous therapeutics.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Lymphangitis p01"
+"Loaded_Programs=Lymphangitis p02"
+"Loaded_Programs=Lymphangitis p03"
+"Loaded_Programs=Lymphangitis p04"
+"Loaded_Programs=Lymphangitis p05"
+"Loaded_Programs=Lymphangitis p06"
+"Loaded_Programs=Lymphangitis p07"
+"Loaded_Programs=Lymphangitis p08"
+"Loaded_Programs=Lymphangitis p09"
+"Loaded_Programs=Lymphangitis p10"
+"Loaded_Programs=Lymphangitis p11"
+"Loaded_Programs=Lymphangitis p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M114.043,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M156.101,M113.084,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M128.095,M156.101,M101.048,M156.101,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M128.095,M147.068,M113.084,M71.037,M128.095,M137.059,M128.058,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M99.068,M156.101,M99.068,M99.068,M156.101,M99.068,M156.101,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.058,M186.079,M128.058,M156.101,M114.043,M131.040,M156.101,M128.095,M99.068,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M128.095,M113.084,M128.095,M99.068,M97.053,M97.053,M128.095,M97.053,M113.084,M114.043,0=4,"
+"[/Preset]"

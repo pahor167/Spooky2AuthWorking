@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"Repeat_Chain=0"
+"PresetName=S22 Co-infections C - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Scalar.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Borrelia Burgdorferi Lyme Disease HC
+Mycoplasma HC
+Mycoplasma 2nd HC
+Calcifications XTRA
+Nisin XTRA
+Detox Toxins Elimination 1 XTRA
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Loaded_Programs=Borrelia Burgdorferi Lyme Disease (HC)"
+"Loaded_Programs=Mycoplasma (HC)"
+"Loaded_Programs=Mycoplasma 2nd (HC)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Programs=Detox Toxins Elimination 1 (XTRA)"
+"Loaded_Frequencies=378950-382000=3600,"
+"Loaded_Frequencies=322850-323900=3600,"
+"Loaded_Frequencies=342750-349300=3600,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"Loaded_Frequencies=0.5=240,146=240,522=240,800=240,1552=240,"
+"[/Preset]"

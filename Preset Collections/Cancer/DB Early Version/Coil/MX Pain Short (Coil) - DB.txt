@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Coil\Spooky Coil (Generator Direct) - JW.txt"
+"PresetName=MX Pain Short (Coil) - DB"
+"Repeat_Chain=1"
+"BFB_Finish_Frequency=152000"
+"Preset_Notes=Cancer Protocol, Extras. For Spooky Coil only - DO NOT USE WITH SPOOKY CENTRAL.
+
+Update: December 2016.
+
+Spooky Coil converts the signals from the generator to a magnetic field. Any frequency or waveform can be used.
+
+Connect Spooky Coil can be directly to the generator. For more power, use the High Power port of Spooky Boost. The side marked 'BN' should be placed against your skin."
+"Text41=5"
+"Triangle_Spike_Ratio=2"
+"Out1_Frequency_Limit_Harmonic_Type=Octave"
+"Out2_Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal Silver"
+"Manual_Start=False"
+"BFB_BPM=False"
+"BFB_HRV=True"
+"Out1_Sine=False"
+"Out1_Square=True"
+"Enable_Tissue_Factor=0"
+"Enable_Invert_Spike_Waveform=0"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Cancer Pain (CAFL)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Cancer Pain (XTRA)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=3000=180,95=180,2127=180,2008=180,727=180,690=180,666=180,"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=95=180,660=180,690=180,727.5=180,2008=180,2127.5=180,2720=180,3000=180,10000=180,"
+"Loaded_Frequencies=38=180,"
+"[/Preset]"

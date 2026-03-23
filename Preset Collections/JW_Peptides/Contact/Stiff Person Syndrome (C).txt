@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Stiff Person Syndrome (C)"
+"Preset_Notes=Stiff Person Syndrome for Contact
+
+Stiff Person Syndrome (SPS) is a rare autoimmune neurological disorder characterized by progressive muscle rigidity, stiffness primarily in the trunk and limbs, and episodic painful spasms often triggered by stimuli, due to anti-GAD antibodies impairing GABA synthesis and inhibitory neurotransmission.
+
+1. Galanin receptor agonism: Galanin - Suppresses neuronal hyperexcitability and limits propagation of spasm-inducing signals in motor pathways.
+2. Cortistatin receptor modulation: Cortistatin - Enhances inhibitory tone and sleep-like states to reduce stiffness and spasm frequency.
+3. Somatostatin receptor agonism: Somatostatin-14 - Depresses excessive neuronal firing in spinal and cortical circuits affected by GABA deficit.
+4. GABAergic enhancement and anxiolysis: Selank - Potentiates GABA receptor activity and alleviates anxiety triggers that exacerbate spasms.
+5. Neurotrophic support: Semax - Elevates BDNF expression to protect and regenerate stressed inhibitory interneurons.
+6. Immunomodulation: Thymosin_alpha_1 - Restores T-cell balance to potentially reduce autoantibody production against GAD.
+7. Stress and spasm modulation: DSIP - Promotes calming delta-wave activity and direct anticonvulsant-like effects on hyperexcitable networks.
+8. Optimized inhibitory signaling: SomMod-12 (designed) - Linear truncated somatostatin analog designed for improved CNS penetration and sustained suppression of motor hyperactivity.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Stiff Person Syndrome p01"
+"Loaded_Programs=Stiff Person Syndrome p02"
+"Loaded_Programs=Stiff Person Syndrome p03"
+"Loaded_Programs=Stiff Person Syndrome p04"
+"Loaded_Programs=Stiff Person Syndrome p05"
+"Loaded_Programs=Stiff Person Syndrome p06"
+"Loaded_Programs=Stiff Person Syndrome p07"
+"Loaded_Programs=Stiff Person Syndrome p08"
+"Loaded_Frequencies=M57.021=1,M186.079,M101.048,M113.084,M114.043,M87.032,M71.037,M57.021,M163.063,M113.084,M113.084,M57.021,M97.053,M137.059,M71.037,M113.084,M115.027,M114.043,M137.059,M156.101,M87.032,M147.068,M137.059,M115.027,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M103.009,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,0=4,"
+"[/Preset]"

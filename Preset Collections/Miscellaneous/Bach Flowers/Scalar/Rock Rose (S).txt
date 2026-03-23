@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Rock Rose (S)"
+"Preset_Notes=Rock Rose / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Rock Rose - Terror and fright.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Rock Rose (S)"
+"Loaded_Frequencies=277.99,"
+"[/Preset]"

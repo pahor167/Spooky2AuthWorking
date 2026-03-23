@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Gallbladder Cancer (L)"
+"Preset_Notes=Gallbladder Cancer for Laser
+
+Gallbladder Cancer is a rare but aggressive malignancy originating from the gallbladder epithelium, often diagnosed at advanced stages with poor prognosis due to limited effective treatments, characterized by rapid progression and metastasis.
+
+1. Ectonucleotidase inhibition: NT5E-CTL1 - CTL epitope stimulating immune response against CD73-expressing GBC cells to reduce immunosuppression
+2. Aminopeptidase inhibition: ANPEP-CTL1 - CTL epitope eliciting cytotoxic T cell attack on CD13-positive tumor cells to inhibit invasion
+3. Endopeptidase inhibition: MME-CTL1 - CTL epitope targeting CD10 for enhanced antitumor immunity in GBC
+4. MIF signaling disruption: C36L1 - Inhibits MIF-CD74 interaction to restore macrophage and dendritic cell functions against tumor progression
+5. Tumor antigen targeting: WT1-pep - Induces specific CTL response against WT1-overexpressing biliary cancer cells
+6. Somatostatin receptor modulation: Somatostatin-14 - Binds SSTR to inhibit hormone secretion and cell proliferation in neuroendocrine-like GBC subsets
+7. FGFR pathway interference: KL-11 - Designed amphipathic peptide disrupting FGFR2 signaling and membrane integrity in fusion-positive tumors
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Gallbladder Cancer p01"
+"Loaded_Programs=Gallbladder Cancer p02"
+"Loaded_Programs=Gallbladder Cancer p03"
+"Loaded_Programs=Gallbladder Cancer p04"
+"Loaded_Programs=Gallbladder Cancer p05"
+"Loaded_Programs=Gallbladder Cancer p06"
+"Loaded_Programs=Gallbladder Cancer p07"
+"Loaded_Frequencies=M163.063=1,M113.084,M87.032,M57.021,M71.037,M114.043,M113.084,M114.043,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M71.037,M147.068,M71.037,M129.043,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M131.040,M115.027,M115.027,M147.068,M71.037,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M87.032,M87.032,M128.058,M87.032,M99.068,M147.068,M163.063,M87.032,M87.032,M114.043,M114.043,M128.095,M114.043,M163.063,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M103.009=1,M163.063,M101.048,M186.079,M114.043,M128.058,M131.040,M114.043,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M113.084,M128.095,M113.084,M71.037,M113.084,M128.095,M128.095,M71.037,0=4,"
+"[/Preset]"

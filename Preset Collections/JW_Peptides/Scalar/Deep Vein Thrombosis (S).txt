@@ -1,0 +1,61 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Deep Vein Thrombosis (S)"
+"Preset_Notes=Deep Vein Thrombosis for Scalar
+
+Deep Vein Thrombosis (DVT) is a serious medical condition characterized by the formation of blood clots in the deep veins, primarily in the lower extremities such as the legs, though it can also occur in the arms or pelvis. The causes of DVT are multifaceted, often explained by Virchow's triad, which includes venous stasis (reduced blood flow due to immobility, surgery, or long-distance travel), endothelial injury (damage to the inner lining of veins from trauma, surgery, or inflammation), and hypercoagulability (increased tendency of blood to clot due to genetic factors like Factor V Leiden mutation, cancer, hormone therapy, or pregnancy). Symptoms typically include unilateral leg swelling, pain or tenderness (especially in the calf), redness or discoloration of the skin, and warmth in the affected area; however, up to 50% of cases may be asymptomatic, making it a silent threat. Pathophysiologically, DVT begins with platelet activation and adhesion to injured endothelium, followed by the activation of the coagulation cascade involving factors like thrombin, factor Xa, and fibrin formation, leading to clot stabilization. Concurrently, inflammatory responses involving cytokines and neutrophil extracellular traps (NETs) exacerbate the process, while oxidative stress from reactive oxygen species damages endothelial cells, impairing fibrinolysis and promoting further thrombosis. If untreated, DVT can lead to post-thrombotic syndrome (chronic pain, swelling, and ulceration) or life-threatening pulmonary embolism when clots dislodge and travel to the lungs.
+
+The proposed polypeptides address DVT through multiple mechanisms, prioritizing real-world ones for key pathways and supplementing with designed polypeptides (flagged below) for comprehensive coverage. Real-world polypeptides like hirudin, bivalirudin, lepirudin, and desirudin directly inhibit thrombin, preventing fibrin formation and clot propagation, with high feasibility based on their clinical use in anticoagulation without heparin-induced thrombocytopenia risk. ACH-11 inhibits factor Xa and platelet aggregation, reducing both coagulation and thrombus initiation. nNIF suppresses NET formation, mitigating inflammatory amplification of thrombosis. LL-37 modulates inflammation and thromboinflammation, protecting against excessive immune responses. Apelin-13 regulates thrombotic inflammation and promotes endothelial progenitor cell homing for clot resolution. Catestatin prevents endothelial inflammation and aids thrombus resolution. Designed polypeptides cover remaining axes: designed D1 (flagged as designed) provides antioxidant effects by scavenging reactive oxygen species, reducing endothelial damage; designed D2 enhances fibrinolysis by mimicking plasminogen activator motifs; designed D3 modulates apoptosis to prevent excessive cell death in vascular cells; designed D4 targets purinergic receptors like P2Y14R to alleviate platelet-NET interactions; designed D5 regulates macrophage function via Tim-4-like inhibition; designed D6 modulates metabolic pathways to reduce thrombogenic metabolites; designed D7 further suppresses inflammation through NLRP3 inhibition; designed D8 addresses oxidative stress via enhanced residue reactivity; designed D9 promotes angiogenesis for vein recanalization. Physicochemically, these polypeptides have optimized lengths for stability, with real-world ones showing established bioavailability (e.g., intravenous administration, half-lives of 1-2 hours), and designed ones incorporating non-standard residues for enhanced specificity and reduced degradation, ensuring feasibility for therapeutic delivery via injection or nanoparticles.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Deep Vein Thrombosis p01"
+"Loaded_Programs=Deep Vein Thrombosis p02"
+"Loaded_Programs=Deep Vein Thrombosis p03"
+"Loaded_Programs=Deep Vein Thrombosis p04"
+"Loaded_Programs=Deep Vein Thrombosis p05"
+"Loaded_Programs=Deep Vein Thrombosis p06"
+"Loaded_Programs=Deep Vein Thrombosis p07"
+"Loaded_Programs=Deep Vein Thrombosis p08"
+"Loaded_Programs=Deep Vein Thrombosis p09"
+"Loaded_Programs=Deep Vein Thrombosis p10"
+"Loaded_Programs=Deep Vein Thrombosis p11"
+"Loaded_Programs=Deep Vein Thrombosis p12"
+"Loaded_Programs=Deep Vein Thrombosis p13"
+"Loaded_Programs=Deep Vein Thrombosis p14"
+"Loaded_Programs=Deep Vein Thrombosis p15"
+"Loaded_Programs=Deep Vein Thrombosis p16"
+"Loaded_Programs=Deep Vein Thrombosis p17"
+"Loaded_Programs=Deep Vein Thrombosis p18"
+"Loaded_Frequencies=M99.068=1,M99.068,M163.063,M101.048,M115.027,M101.001,M101.048,M129.043,M87.032,M57.021,M128.058,M114.043,M128.095,M101.001,M113.084,M101.001,M128.095,M113.084,M57.021,M129.043,M87.032,M114.043,M115.027,M99.068,M101.001,M57.021,M128.058,M57.021,M114.043,M128.095,M101.001,M71.037,M113.084,M57.021,M87.032,M115.027,M57.021,M129.043,M128.095,M114.043,M128.058,M101.001,M99.068,M101.048,M57.021,M129.043,M57.021,M101.048,M97.053,M128.095,M97.053,M128.058,M87.032,M137.059,M114.043,M115.027,M57.021,M115.027,M131.040,M147.068,M129.043,M129.043,M71.037,M97.053,M129.043,M129.043,M163.063,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M97.053,M156.101,M97.053,M57.021,M57.021,M57.021,M57.021,M114.043,M57.021,M115.027,M147.068,M129.043,M129.043,M71.037,M97.053,M129.043,M129.043,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M101.048,M163.063,M101.048,M115.027,M101.001,M101.048,M129.043,M87.032,M57.021,M128.058,M114.043,M113.084,M101.001,M113.084,M101.001,M129.043,M57.021,M129.043,M87.032,M114.043,M99.068,M101.001,M57.021,M128.095,M57.021,M114.043,M128.058,M101.001,M99.068,M101.048,M57.021,M129.043,M57.021,M101.048,M97.053,M114.043,M97.053,M129.043,M87.032,M137.059,M114.043,M114.043,M57.021,M115.027,M147.068,M129.043,M129.043,M71.037,M97.053,M129.043,M129.043,M163.063,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M99.068,M163.063,M101.048,M115.027,M101.001,M101.048,M129.043,M87.032,M57.021,M128.058,M114.043,M113.084,M101.001,M113.084,M101.001,M129.043,M57.021,M129.043,M87.032,M114.043,M99.068,M101.001,M57.021,M128.058,M57.021,M114.043,M128.058,M57.021,M115.027,M147.068,M129.043,M97.053,M71.037,M97.053,M129.043,M115.027,M71.037,M163.063,M115.027,M129.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M101.048,M147.068,M97.053,M156.101,M71.037,M99.068,M147.068,M99.068,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M101.048,M71.037,M113.084,M129.043,M71.037,M71.037,M57.021,M131.040,M113.084,M129.043,M71.037,M71.037,M71.037,M147.068,M113.084,M129.043,M71.037,M71.037,M97.053,M131.040,M87.032,M71.037,M97.053,M97.053,M129.043,M99.068,M128.095,M147.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M101.001,M128.095,M114.079,M101.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.048,M97.053,M156.101,M86.048,0=4,"
+"Loaded_Frequencies=M129.043=1,M100.064,M87.032,M114.079,M128.095,0=4,"
+"Loaded_Frequencies=M101.001=1,M237.148,M156.101,M150.954,M101.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M200.095,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M86.048=1,M85.053,M128.095,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M101.001=1,M100.064,M758.675,M86.048,M101.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M113.048,M129.043,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M101.001=1,M128.095,M114.079,M86.048,M101.001,0=4,"
+"[/Preset]"

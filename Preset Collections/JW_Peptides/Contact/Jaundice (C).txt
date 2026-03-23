@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Jaundice (C)"
+"Preset_Notes=Jaundice for Contact
+
+Jaundice results from hyperbilirubinemia due to impaired hepatic uptake, conjugation, or excretion of bilirubin, commonly from hepatocellular injury, cholestasis, viral hepatitis, or oxidative stress. The proposed polypeptides target evidence-based axes from preclinical models of liver necrosis, fibrosis, cholestasis, oxidative damage, and hepatitis to provide hepatoprotection, antioxidant support, repair, and immune modulation.
+
+1. Stable gastric pentadecapeptide hepatoprotection: BPC-157 prevents necrosis and fatty liver changes in toxin models.
+2. Thymosin {beta}4 fragment actin-mediated repair: TB-500 reduces inflammation, fibrosis, and oxidative stress in liver injury.
+3. Copper-binding tripeptide regenerative/antioxidant: GHK-Cu supports tissue remodeling and oxidative balance in liver.
+4. Thymic peptide immune enhancement: Thymosin_alpha_1 improves outcomes in chronic viral hepatitis.
+5. EPO-derived cyclic peptide tissue protection: ARA-290 mitigates inflammation and damage in liver injury.
+6. Neurotensin C-terminal hexapeptide cholestasis support: NT(8-13) reduces oxidative stress in obstructive jaundice models.
+7. Gamma-glutamyl tripeptide detoxification: Glutathione replenishes antioxidant defense critical for bilirubin handling.
+8. Engineered mitochondrial-targeted optimization: SS-31 stabilizes cardiolipin for enhanced protection against hepatic oxidative injury.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Jaundice p01"
+"Loaded_Programs=Jaundice p02"
+"Loaded_Programs=Jaundice p03"
+"Loaded_Programs=Jaundice p04"
+"Loaded_Programs=Jaundice p05"
+"Loaded_Programs=Jaundice p06"
+"Loaded_Programs=Jaundice p07"
+"Loaded_Programs=Jaundice p08"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M111.032=1,M113.084,M128.058,M163.063,M129.043,M114.043,M128.095,M97.053,M156.101,M156.101,M97.053,M163.063,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M156.101=1,M191.095,M128.095,M147.068,0=4,"
+"[/Preset]"

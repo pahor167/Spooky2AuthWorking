@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Horse Kissing Spine (Coil)"
+"Preset_Notes=Horse Kissing Spine for Coil
+
+Horse Kissing Spine, or Overriding Dorsal Spinous Processes (ORDSP), occurs when the bony projections (spinous processes) on the vertebrae of a horse's back touch, rub, or overlap. This contact causes chronic pain, localized inflammation, and secondary muscular atrophy. Most common in the thoracic and lumbar regions (T13-T18), the condition leads to behavioral issues, poor performance, and restricted mobility.
+
+1. Osteoclast Inhibition: eSalmon-Calcitonin - Inhibits bone resorption and reduces subchondral bone pain.
+2. Anti-Inflammatory: eBPC-157 - Promotes ligamentous healing and reduces inflammation in interspinous spaces.
+3. Muscle Regeneration: eIGF-1(24-41) - Counteracts focal atrophy of the multifidus and longissimus dorsi muscles.
+4. Analgesic Signaling: Eq-Enkephalin - Targets local opioid receptors to manage chronic spinal nociception.
+5. Cartilage Repair: ePentosan-Mimetic - Stimulates glycosaminoglycan synthesis in the false joints between processes.
+6. Neuro-Muscular Axis: Spinous-Sync-1 - Optimized hybrid peptide for vertebral bone stabilization and nerve sheath protection.
+
+"
+"Loaded_Programs=Horse Kissing Spine p01"
+"Loaded_Programs=Horse Kissing Spine p02"
+"Loaded_Programs=Horse Kissing Spine p03"
+"Loaded_Programs=Horse Kissing Spine p04"
+"Loaded_Programs=Horse Kissing Spine p05"
+"Loaded_Programs=Horse Kissing Spine p06"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M128.058,M114.043,M99.068,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M147.068,M114.043,M128.095,M97.053,M101.048,M57.021,M163.063,M57.021,M87.032,M87.032,M137.059,M156.101,M71.037,M97.053,M128.058,M101.048,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M114.043,M114.043,M128.058,M128.058,M128.058,M114.043,M114.043,M114.043,0=4,"
+"Loaded_Frequencies=M103.009=1,M87.032,M114.043,M113.084,M87.032,M101.048,M103.009,M99.068,M113.084,M57.021,M128.095,M113.084,M57.021,M129.043,M97.053,M97.053,0=4,"
+"[/Preset]"

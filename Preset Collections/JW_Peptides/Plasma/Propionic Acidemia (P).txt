@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Propionic Acidemia (P)"
+"Preset_Notes=Propionic Acidemia for Plasma
+
+Propionic Acidemia (PA) is a rare autosomal recessive inborn error of metabolism caused by deficient activity of the mitochondrial enzyme propionyl-CoA carboxylase (PCC), encoded by the PCCA or PCCB genes, leading to impaired catabolism of propiogenic amino acids (isoleucine, valine, methionine, threonine), odd-chain fatty acids, and cholesterol. This results in the toxic accumulation of propionyl-CoA and its derivatives, including propionic acid, 3-hydroxypropionic acid, methylcitrate, and propionylglycine, which disrupt multiple metabolic pathways. The pathophysiology involves mitochondrial dysfunction from propionyl-CoA inhibiting enzymes like pyruvate dehydrogenase, succinyl-CoA synthetase, and N-acetylglutamate synthase, causing energy deficits, lactic acidosis, hyperammonemia, and oxidative stress. Acute metabolic decompensations, triggered by infections, fasting, or high-protein intake, manifest as vomiting, lethargy, seizures, encephalopathy, cardiomyopathy, and can lead to coma or death. Chronic complications include intellectual disability, autism spectrum disorder, cardiomyopathy, pancreatitis, optic neuropathy, renal tubular acidosis, and bone marrow suppression. Gut microbiota-derived propionate exacerbates the propionate load, while secondary effects like aberrant protein propionylation and histone modifications alter gene expression and cellular signaling, contributing to neurotoxicity and cardiac issues. Diagnosis involves elevated C3 acylcarnitine on newborn screening, urine organic acids showing characteristic metabolites, and genetic confirmation. Without intervention, prognosis is poor, with high mortality in neonatal-onset forms.
+
+The proposed polypeptides address key mechanisms of PA through multiple therapeutic axes. For enzyme replacement, the designed polypeptide mimics PCC activity to metabolize propionyl-CoA, reducing toxic buildup; feasibility stems from peptide-based enzyme mimetics, with action via substrate binding and considerations for mitochondrial targeting to enhance stability. For redox homeostasis, the designed polypeptide acts as an antioxidant mimetic, scavenging ROS and supporting NRF2 activation to mitigate oxidative damage, feasible through thiol-containing peptides, functioning by redox buffering with emphasis on cellular penetration. For ammonia scavenging enhancement, the designed polypeptide potentiates carbamoyl phosphate synthetase via N-acetylglutamate mimicry, aiding urea cycle flux; this is supported by peptide analogs of NAG, acting as allosteric activators with solubility optimizations. For serine metabolism correction, the designed polypeptide modulates serine biosynthetic enzymes to restore levels disrupted in PA, feasible in regulatory peptides, via enzyme activation with bioavailability focus.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Propionic Acidemia p01"
+"Loaded_Programs=Propionic Acidemia p02"
+"Loaded_Programs=Propionic Acidemia p03"
+"Loaded_Programs=Propionic Acidemia p04"
+"Loaded_Frequencies=M57.021=1,M137.059,M156.101,M97.053,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M115.027,M128.058,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M103.009=1,M163.063,M97.053,M131.040,M137.059,M114.043,0=4,"
+"Loaded_Frequencies=M103.009=1,M87.021,M57.021,M128.095,M131.040,M97.053,0=4,"
+"[/Preset]"

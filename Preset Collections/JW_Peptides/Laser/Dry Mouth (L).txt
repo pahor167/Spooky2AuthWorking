@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Dry Mouth (L)"
+"Preset_Notes=Dry Mouth for Laser
+
+Dry mouth (xerostomia) is a common condition characterized by reduced saliva production and the sensation of oral dryness, leading to difficulties with speaking, chewing, swallowing, altered or loss of taste, burning sensations, increased risk of dental caries, periodontal disease, oral mucositis, and secondary infections such as candidiasis. It significantly impacts quality of life and nutrition. Primary causes include medication side effects (over 1,800 drugs, especially anticholinergics, antidepressants, antihypertensives, and antihistamines that block muscarinic receptors), autoimmune conditions like Sjögren's syndrome (with anti-SSA/SSB autoantibodies and lymphocytic infiltration of exocrine glands), head and neck radiotherapy (causing irreversible acinar cell damage and fibrosis), systemic diseases (diabetes, HIV, Parkinson's), dehydration, mouth breathing, and aging-related gland atrophy. Pathophysiology centers on impaired parasympathetic stimulation of fluid secretion via M3 muscarinic receptors, reduced aquaporin-5 translocation to apical membranes, inflammatory cytokine disruption (e.g., IFN-{gamma}, IL-17 in Sjögren's), oxidative stress, apoptosis of acinar cells, and loss of salivary antimicrobial proteins.
+
+The proposed polypeptides target three primary therapeutic axes: (1) direct stimulation of salivary gland secretion to restore flow; (2) cytoprotective and anti-inflammatory effects to protect and regenerate glandular tissue; (3) broad-spectrum antimicrobial action to compensate for reduced natural salivary defenses and prevent opportunistic infections. No established real-world polypeptide therapies exist for dry mouth based on comprehensive searches; all are designed conceptual analogs derived from validated literature motifs, incorporating C-terminal amidation for improved stability and mucosal retention.
+
+The first designed polypeptide is a VIP-derived analog based on the vasoactive intestinal peptide motif, a known potent sialogogue acting via VPAC receptors to enhance fluid secretion from acinar cells. The second is a BPC-157 analog derived from the gastric pentadecapeptide with C-terminal amidation, leveraging its established cytoprotective, anti-inflammatory, and regenerative properties in mucosal and glandular models. The third is a minimal cathelicidin-derived AMP based on the KR-12 motif with C-terminal amidation, providing targeted antimicrobial activity against common oral pathogens while maintaining low cytotoxicity.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Dry Mouth p01"
+"Loaded_Programs=Dry Mouth p02"
+"Loaded_Programs=Dry Mouth p03"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,0=4,"
+"[/Preset]"

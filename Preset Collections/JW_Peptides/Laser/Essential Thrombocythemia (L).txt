@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Essential Thrombocythemia (L)"
+"Preset_Notes=Essential Thrombocythemia for Laser
+
+Polypeptide designs for essential thrombocythemia, addressing five key therapeutic axes derived from pathophysiology and research: JAK-STAT pathway inhibition, Type I interferon pathway activation, mutant CALR targeting, c-MPL pathway modulation, NF-{kappa}B-mediated inflammation suppression. One real-world investigational polypeptide from emerging patent and research on neoantigen vaccines; others rationally engineered from literature motifs (STAT3 inhibitors, IFN helices, TPO mimetics, NBD peptides), enhanced with cyclization, amidation, and phosphorylation for stability, solubility, and low toxicity.
+
+Assignments and mechanisms:
+1. Cell-penetrating STAT3 inhibitory peptide (phosphorylated Tyr, C-amidated) (designed) for JAK-STAT pathway inhibition - Disrupts STAT3 dimerization via pTyr-SH2 binding, attenuating constitutive activation in driver mutation-positive clones.
+2. Cyclic IFN-alpha helical mimetic peptide (disulfide cyclic, C-amidated) (designed) for Type I interferon pathway activation - Mimics IFN-{alpha} structural elements to activate IFNAR signaling, exerting selective anti-clonal effects on mutated megakaryocytes.
+3. Mutant CALR neoantigen peptide (real) for mutant CALR targeting - Frameshift-derived neoepitope for immune recognition, supporting specific immunotherapy against CALR-mutated cells.
+4. Cyclic c-MPL antagonist peptide (disulfide cyclic, C-amidated) (designed) for c-MPL pathway modulation - Variant of TPO mimetic motif engineered for antagonism, blocking hypersensitive signaling in MPL-mutated cases.
+5. Antennapedia-NBD fusion peptide (C-amidated) (designed) for NF-{kappa}B-mediated inflammation suppression - Fusion disrupts NEMO-IKK interaction to inhibit NF-{kappa}B, reducing proinflammatory drive in the MPN microenvironment.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Essential Thrombocythemia p01"
+"Loaded_Programs=Essential Thrombocythemia p02"
+"Loaded_Programs=Essential Thrombocythemia p03"
+"Loaded_Programs=Essential Thrombocythemia p04"
+"Loaded_Programs=Essential Thrombocythemia p05"
+"Loaded_Frequencies=M156.101=1,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M57.021,M97.053,M243.029,M113.084,M128.095,M101.048,M128.095,M71.037,M71.037,M99.068,M113.084,M112.1,0=4,"
+"Loaded_Frequencies=M102.001=1,M115.027,M113.084,M97.053,M128.058,M101.048,M137.059,M87.032,M113.084,M57.021,M114.043,M156.101,M156.101,M71.037,M113.084,M131.04,M113.084,M113.084,M113.084,M71.037,M128.058,M131.04,M156.101,M128.095,M113.084,M101.017,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M131.04,M156.101,M156.101,M131.04,M156.101,M156.101,M101.048,M156.101,M156.101,M128.095,M131.04,M156.101,M156.101,M128.095,M131.04,M87.032,M97.053,M71.037,M156.101,M97.053,M156.101,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M129.043,M57.021,M97.053,M101.048,M113.084,M156.101,M128.058,M186.079,M113.084,M71.037,M71.037,M156.101,M71.037,M101.017,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.058,M113.084,M128.095,M113.084,M186.079,M147.068,M128.058,M114.043,M156.101,M156.101,M131.04,M128.095,M186.079,M128.095,M128.095,M101.048,M71.037,M113.084,M115.027,M186.079,M87.032,M186.079,M113.084,M128.058,M101.048,M128.059,0=4,"
+"[/Preset]"

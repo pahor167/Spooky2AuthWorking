@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Pulmonary Embolism (Coil)"
+"Preset_Notes=Pulmonary Embolism for Coil
+
+Pulmonary embolism is an acute vascular obstruction of pulmonary arteries typically by thrombi from deep vein thrombosis, causing right ventricular strain, impaired gas exchange, inflammation, and potential hemodynamic collapse. The proposed polypeptides address key therapeutic axes with documented real-world examples prioritized and rationally engineered designs where needed:
+
+1. Direct thrombin inhibition: Bivalirudin (real) - Synthetic hirudin analog peptide clinically used for anticoagulation in PE/VTE, particularly in heparin-compromised patients.
+2. Resolution of acute inflammation: Ac2-26 (real) - N-acetylated annexin A1 mimetic that promotes pro-resolving pathways to mitigate pulmonary vascular inflammation.
+3. Pulmonary vasodilation and protection: Pyr-Apelin-13 (real) - Bioactive apelin peptide with demonstrated hemodynamic benefits in acute pulmonary embolism models.
+4. Right ventricular support: Nesiritide (rhBNP) (real) - Recombinant brain natriuretic peptide that reduces pulmonary pressures and supports RV function.
+5. Enhancement of fibrinolysis: Dual knob-mimicking peptide (designed) - Engineered peptide incorporating GPRP and GHRP motifs to competitively inhibit fibrin polymerization and facilitate endogenous clot breakdown.
+
+"
+"Loaded_Programs=Pulmonary Embolism p01"
+"Loaded_Programs=Pulmonary Embolism p02"
+"Loaded_Programs=Pulmonary Embolism p03"
+"Loaded_Programs=Pulmonary Embolism p04"
+"Loaded_Programs=Pulmonary Embolism p05"
+"Loaded_Frequencies=M147.068=1,M97.053,M156.101,M97.053,M57.021,M57.021,M57.021,M57.021,M114.043,M57.021,M115.027,M147.068,M129.043,M129.043,M113.084,M97.053,M129.043,M129.043,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M147.063,M99.068,M128.095,M57.021,M87.032,M57.021,M103.009,M147.068,M57.021,M129.043,M128.095,M147.063,M115.027,M128.095,M99.068,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M103.009,M128.095,M113.084,M113.084,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M156.101,M97.053,M97.053,M156.101,M57.021,M137.059,M156.101,M97.053,M113.084,M57.021,M128.095,M128.095,M57.021,M97.053,M156.101,M97.053,M97.053,M155.117,0=4,"
+"[/Preset]"

@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Addictions (L)"
+"Preset_Notes=Addictions for Laser
+
+Addictions are chronic brain disorders involving compulsive substance seeking and use despite negative consequences, driven by dysregulation in reward, motivation, stress, and executive function circuits, often with intense cravings, tolerance, withdrawal symptoms, and neurotoxic damage.
+
+1. GLP-1 receptor agonism: Semaglutide - Potently reduces cravings and substance reinforcement across alcohol, stimulants, and opioids via central reward pathway modulation.
+2. Dopamine system modulation: BPC-157 - Counteracts chronic disturbances in dopaminergic signaling caused by addictive substances like amphetamines.
+3. Withdrawal anxiolysis: Selank - Provides rapid relief from anxiety and aversive withdrawal states through enkephalin preservation and serotonin modulation without dependence risk.
+4. Neurotrophic induction: Semax - Boosts BDNF and NGF expression to restore synaptic plasticity and cognitive deficits associated with prolonged addiction.
+5. Innate repair activation: ARA-290 - Selectively stimulates tissue-protective pathways to mitigate neuroinflammation and promote recovery in addicted neural tissues.
+6. Galanin-related urge suppression: Spexin - Downregulates motivational drive for alcohol consumption through hypothalamic and reward circuit interactions.
+7. Reward pathway inhibition: CART-core - Engineered CART-derived fragment targeting cocaine- and amphetamine-regulated transcript pathways to suppress drug-seeking behavior.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Addictions p01"
+"Loaded_Programs=Addictions p02"
+"Loaded_Programs=Addictions p03"
+"Loaded_Programs=Addictions p04"
+"Loaded_Programs=Addictions p05"
+"Loaded_Programs=Addictions p06"
+"Loaded_Programs=Addictions p07"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M101.048,M113.084,M114.043,M87.032,M71.037,M57.021,M163.063,M113.084,M113.084,M57.021,M97.053,M137.059,M71.037,M113.084,M115.027,M114.043,M137.059,M156.101,M87.032,M147.068,M137.059,M115.027,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M128.058,M99.068,M97.053,M131.040,M103.009,M115.027,M71.037,M56.037,0=4,"
+"[/Preset]"

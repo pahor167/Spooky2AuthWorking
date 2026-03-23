@@ -1,0 +1,50 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Chronic Pain (P)"
+"Preset_Notes=Chronic Pain for Plasma
+
+Chronic pain is a debilitating condition persisting beyond normal healing time, classified as nociceptive, neuropathic, or nociplastic, involving complex interactions of sensory, emotional, and cognitive pathways with significant societal impact.
+The condition features peripheral/central sensitization, neuroinflammation (microglia activation, cytokines), ion channel dysregulation (e.g., CaV2.2, NaV), altered opioid/glutamate signaling, oxidative stress, nerve damage, and potential brain-gut microbiome influences. Comprehensive tool-assisted searches (PubMed reviews, clinical trials databases) confirmed ziconotide as the primary approved peptide (intrathecal, N-type channel) but limited broad/short polypeptide therapeutics; preclinical venom-derived or synthetic peptides exist but lack sufficient verifiable sequences/sources for min_real_polypeptides without conflicts or exceeding length preferences. Shortfall documented: fewer than 14 qualify fully; all are conceptually designed with non-standard residues for improved penetration, stability, and targeted bioactivity under strict rules (designed).
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Chronic Pain p01"
+"Loaded_Programs=Chronic Pain p02"
+"Loaded_Programs=Chronic Pain p03"
+"Loaded_Programs=Chronic Pain p04"
+"Loaded_Programs=Chronic Pain p05"
+"Loaded_Programs=Chronic Pain p06"
+"Loaded_Programs=Chronic Pain p07"
+"Loaded_Programs=Chronic Pain p08"
+"Loaded_Programs=Chronic Pain p09"
+"Loaded_Programs=Chronic Pain p10"
+"Loaded_Programs=Chronic Pain p11"
+"Loaded_Programs=Chronic Pain p12"
+"Loaded_Programs=Chronic Pain p13"
+"Loaded_Programs=Chronic Pain p14"
+"Loaded_Programs=Chronic Pain p15"
+"Loaded_Programs=Chronic Pain p16"
+"Loaded_Programs=Chronic Pain p17"
+"Loaded_Programs=Chronic Pain p18"
+"Loaded_Frequencies=M102.001=1,M114.079,M156.101,M114.079,M86.048,M128.095,M114.079,M86.048,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M128.095,M156.101,M86.048,M114.079,M128.095,M86.048,M114.079,M85.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M128.095,M156.101,M86.048,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M115.027,M129.043,M115.027,M113.048,M86.048,M129.043,M115.027,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M129.043,M115.027,M86.048,M114.079,M113.048,M115.027,M129.043,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M100.064,M85.053,M114.079,M156.101,M86.048,M100.064,M113.048,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M128.095,M86.048,M128.095,M57.021,M156.101,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M156.101,M114.079,M156.101,M57.021,M86.048,M114.079,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M114.079=1,M128.095,M114.079,M128.095,M57.021,M114.079,M128.095,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M85.053=1,M99.068,M114.079,M156.101,M86.048,M113.048,M114.079,M128.095,M113.084,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M101.048,M113.048,M86.048,M100.064,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M57.021=1,M86.048,M87.032,M101.048,M85.053,M100.064,M156.101,M128.095,M113.048,M114.079,0=4,"
+"Loaded_Frequencies=M150.954=1,M57.021,M150.954,M113.048,M57.021,M128.095,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M57.021,M113.048,M86.048,M114.079,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M150.954,M87.032,M150.954,M101.048,M113.048,M86.048,M114.079,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M128.095,M113.048,M86.048,M114.079,M150.954,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M113.048,M128.095,M86.048,M114.079,M100.064,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M113.048,M85.053,M86.048,M100.064,M150.954,M128.095,M156.101,M57.021,0=4,"
+"[/Preset]"

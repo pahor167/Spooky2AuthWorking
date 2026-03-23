@@ -1,0 +1,14 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Rescue Remedy Mix (S)"
+"Preset_Notes=Rescue Remedy Mix / Spooky Scalar
+
+Estimated Time: Run this preset for 15:00 minutes.
+
+Rescue Remedy is a combination of 5 Bach flowers -  this is the most well known and used of all the combinations, it contains: Cherry Plum - for fear of loosing control - both mentally & physically, Clematis - for the dreamy absent-minded- mental escape from reality, Impatiens - for the impatient person, Rock Rose - For terror & panic and Star Of Bethlehem - for shock of all kinds
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Rescue Remedy Mix (S)"
+"Loaded_Frequencies=463.06,262.01,415.26,277.99,276.57,"
+"[/Preset]"

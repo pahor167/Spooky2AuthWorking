@@ -1,0 +1,8 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW"
+"PresetName=Candida zemplinina (DNA) (P) - JW"
+"Remove_Duplicate_Frequencies_Tolerance=0"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||This preset contains the following strains:||Candida zemplinina 10-372 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene; and internal transcribed spacer 2, partial sequence"
+"Loaded_Programs=Candida zemplinina (DNA) (P) - JW (CUST)"
+"Loaded_Frequencies=~9837BL695,"
+"[/Preset]"

@@ -1,0 +1,61 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Kyphosis (S)"
+"Preset_Notes=Kyphosis for Scalar
+
+Kyphosis is a spinal disorder characterized by an excessive outward curvature of the thoracic spine, typically exceeding 45-50 degrees, resulting in a rounded or hunched back appearance. It can be classified into types such as postural kyphosis (from poor habits), Scheuermann's kyphosis (adolescent onset with vertebral wedging), osteoporotic/hyperkyphosis (from vertebral compression fractures), post-traumatic (following injury), and congenital. Causes include degenerative disc disease, osteoporosis leading to fractures, growth disturbances, trauma, muscular imbalances, or hormonal factors like growth hormone influences in juvenile cases. Symptoms range from mild back pain, stiffness, and fatigue to severe deformity causing cosmetic concerns, reduced mobility, respiratory compromise in extreme cases, or neurological issues. Pathophysiology involves vertebral body wedging or collapse, endplate irregularities, reduced bone density, altered collagen matrix, inflammation, and mechanical stress leading to progressive deformity.
+
+The proposed polypeptides primarily target osteoporotic and post-traumatic kyphosis axes with real-world peptides supported by clinical studies, including bone anabolism to stimulate new bone formation and reduce fracture risk, inhibition of resorption to maintain vertebral integrity, enhancement of fracture union and remodeling, and promotion of tissue repair/angiogenesis. Real-world examples include teriparatide and abaloparatide (PTH analogs preventing progression and post-surgical complications), salmon calcitonin (anti-resorptive and analgesic effects), and BPC-157 (bone defect healing). Designed polypeptides (flagged as designed) are conceptual short sequences with non-standard residues and cyclic variants for stability, addressing supplementary axes such as anti-inflammatory effects, paraspinal muscle support, collagen reinforcement, pain modulation, and growth plate regulation in adolescent forms; feasibility emphasizes local or systemic delivery with physicochemical optimization for bone targeting.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Kyphosis p01"
+"Loaded_Programs=Kyphosis p02"
+"Loaded_Programs=Kyphosis p03"
+"Loaded_Programs=Kyphosis p04"
+"Loaded_Programs=Kyphosis p05"
+"Loaded_Programs=Kyphosis p06"
+"Loaded_Programs=Kyphosis p07"
+"Loaded_Programs=Kyphosis p08"
+"Loaded_Programs=Kyphosis p09"
+"Loaded_Programs=Kyphosis p10"
+"Loaded_Programs=Kyphosis p11"
+"Loaded_Programs=Kyphosis p12"
+"Loaded_Programs=Kyphosis p13"
+"Loaded_Programs=Kyphosis p14"
+"Loaded_Programs=Kyphosis p15"
+"Loaded_Programs=Kyphosis p16"
+"Loaded_Programs=Kyphosis p17"
+"Loaded_Programs=Kyphosis p18"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M99.068,M87.032,M129.043,M137.059,M128.058,M113.084,M113.084,M137.059,M115.027,M128.095,M57.021,M128.095,M87.032,M113.084,M128.058,M115.027,M113.084,M156.101,M156.101,M156.101,M129.043,M113.084,M113.084,M129.043,M128.095,M113.084,M113.084,M85.053,M128.095,M113.084,M137.059,M101.048,M71.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M114.043,M113.084,M87.032,M101.048,M102.001,M99.068,M113.084,M57.021,M128.095,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M128.095,M113.084,M128.058,M101.048,M163.063,M97.053,M156.101,M101.048,M114.043,M101.048,M57.021,M87.032,M71.037,M101.048,M96.069,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M113.048,M156.101,M128.095,M57.021,M87.032,M129.043,M100.064,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M85.053,M113.084,M100.064,M129.043,M115.027,M97.053,M57.021,M113.048,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M114.079,M86.048,M128.058,M114.043,M87.032,M101.048,M128.095,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M85.053,M114.079,M97.053,M57.021,M156.101,M129.043,M128.095,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M113.048,M100.064,M57.021,M97.053,M156.101,M128.095,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M113.048,M156.101,M128.095,M57.021,M87.032,M129.043,M101.048,M114.079,M86.048,M113.048,0=4,"
+"Loaded_Frequencies=M85.053=1,M113.084,M100.064,M129.043,M115.027,M97.053,M57.021,M113.048,M156.101,M128.095,M114.079,M86.048,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M114.079,M128.058,M114.043,M87.032,M101.048,M128.095,M57.021,M100.064,M85.053,M97.053,0=4,"
+"Loaded_Frequencies=M86.048=1,M85.053,M114.079,M97.053,M57.021,M156.101,M129.043,M128.095,M87.032,M113.084,M100.064,M128.058,0=4,"
+"Loaded_Frequencies=M113.084=1,M100.064,M57.021,M97.053,M156.101,M128.095,M101.048,M87.032,M114.079,M86.048,M113.048,M129.043,0=4,"
+"Loaded_Frequencies=M114.079=1,M113.048,M86.048,M128.095,M129.043,M57.021,M87.032,M101.048,M100.064,M114.079,M85.053,M97.053,0=4,"
+"Loaded_Frequencies=M86.048=1,M113.084,M114.079,M87.032,M128.095,M97.053,M57.021,M129.043,M86.048,M100.064,M113.048,M101.048,0=4,"
+"Loaded_Frequencies=M100.064=1,M114.079,M85.053,M101.048,M128.095,M57.021,M156.101,M87.032,M113.048,M86.048,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M100.064,M129.043,M128.095,M87.032,M57.021,M101.048,M114.079,M113.084,M86.048,M97.053,0=4,"
+"[/Preset]"

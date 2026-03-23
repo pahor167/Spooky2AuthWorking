@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Ornithine Transcarbamylase Deficiency (S)"
+"Preset_Notes=Ornithine Transcarbamylase Deficiency for Scalar
+
+Ornithine transcarbamylase deficiency (OTCD) is an X-linked urea cycle disorder causing impaired ammonia detoxification, resulting in hyperammonemia, neurological damage, oxidative stress, mitochondrial dysfunction, inflammation, and potential secondary liver stress. Although no polypeptide therapies are established clinically for OTCD, the proposed designs draw from preclinical evidence in liver injury, regeneration, hyperammonemia-related toxicity, and neuroprotective models to support hepatic resilience, detoxification, and neuroprotection as adjunctive strategies.
+
+1. Gastric pentadecapeptide-mediated hepatoprotection: BPC-157 prevents liver necrosis, fatty changes, and lesions in various metabolic and toxin-induced injury models, stabilizing hepatic function.
+
+2. Copper-tripeptide regenerative and antioxidant actions: GHK-Cu promotes tissue remodeling, reduces oxidative stress, and attenuates fibrosis in liver regeneration studies.
+
+3. Thymosin {beta}4 fragment-enhanced cellular repair: TB-500 facilitates actin dynamics, cell migration, and anti-inflammatory processes applicable to tissue healing.
+
+4. Mitochondrial-derived peptide neuroprotection: Humanin counters mitochondrial dysfunction, apoptosis, and metabolic stress relevant to ammonia toxicity.
+
+5. EPO-mimetic cyclic peptide innate repair activation: ARA-290 provides neuroprotective and anti-inflammatory effects via tissue-protective receptor signaling.
+
+6. Gamma-glutamyl tripeptide detoxification support: Glutathione bolsters redox balance and aids in mitigating oxidative damage from hyperammonemia.
+
+7. Engineered proline-rich repeat optimization for hepatoprotection: ProliGuard-18 (Ac-PGPIPNPGPIPNPGPIPN-NH2) amplifies anti-steatosis and liver protective effects derived from {beta}-casein hexapeptide (PGPIPN) motifs effective in fatty liver models.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Ornithine Transcarbamylase Deficiency p01"
+"Loaded_Programs=Ornithine Transcarbamylase Deficiency p02"
+"Loaded_Programs=Ornithine Transcarbamylase Deficiency p03"
+"Loaded_Programs=Ornithine Transcarbamylase Deficiency p04"
+"Loaded_Programs=Ornithine Transcarbamylase Deficiency p05"
+"Loaded_Programs=Ornithine Transcarbamylase Deficiency p06"
+"Loaded_Programs=Ornithine Transcarbamylase Deficiency p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M97.053=1,M57.021,M97.053,M113.084,M97.053,M114.043,M97.053,M57.021,M97.053,M113.084,M97.053,M114.043,M97.053,M57.021,M97.053,M113.084,M97.053,M114.043,0=4,"
+"[/Preset]"

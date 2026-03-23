@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Nightmares (Bad Dreams) (R)"
+"Preset_Notes=Nightmares (Bad Dreams) for Remote
+
+Nightmares (Bad Dreams)
+
+Nightmares (bad dreams) are distressing, vivid dreams causing awakening with fear or anxiety, often linked to PTSD, stress, or sleep disorders, disrupting sleep quality and daytime function. Proposed polypeptides target key therapeutic axes from neuropeptide research on fear, stress, and sleep:
+
+1. Fear memory disruption: TAT-GRpep - Disrupts GR-FKBP51 complex to prevent consolidation and recall of traumatic fear memories.
+2. Stress resilience enhancement: Neuropeptide Y - Boosts NPY levels to promote resilience against stress and reduce PTSD symptoms.
+3. Stress signaling modulation: PACAP - Regulates PACAP pathways involved in stress responses and PTSD pathophysiology.
+4. Anxiolytic effects: Selank - Reduces anxiety through GABAergic and neurotrophic mechanisms.
+5. Neurotrophic support: Semax - Provides neuroprotective effects to mitigate stress-induced brain changes.
+6. Sleep induction: DSIP - Promotes delta sleep to improve overall sleep architecture and reduce disturbances.
+7. Anti-inflammatory action: Cortistatin - Inhibits neuroinflammation associated with chronic stress.
+8. Antioxidant defense: Carnosine - Scavenges free radicals to protect neural tissues from oxidative stress.
+9. Immune modulation: Thymosin alpha-1 - Enhances immune function to support recovery from trauma-related disorders.
+10. Relaxation promotion: Oxytocin - Facilitates social bonding and reduces anxiety for better sleep.
+11. Optimized fear extinction: NightmareBlock-1 - Designed cationic peptide with enhanced BBB penetration for rapid anxiety relief and fear memory modulation.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Nightmares (Bad Dreams) p01"
+"Loaded_Programs=Nightmares (Bad Dreams) p02"
+"Loaded_Programs=Nightmares (Bad Dreams) p03"
+"Loaded_Programs=Nightmares (Bad Dreams) p04"
+"Loaded_Programs=Nightmares (Bad Dreams) p05"
+"Loaded_Programs=Nightmares (Bad Dreams) p06"
+"Loaded_Programs=Nightmares (Bad Dreams) p07"
+"Loaded_Programs=Nightmares (Bad Dreams) p08"
+"Loaded_Programs=Nightmares (Bad Dreams) p09"
+"Loaded_Programs=Nightmares (Bad Dreams) p10"
+"Loaded_Programs=Nightmares (Bad Dreams) p11"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,M87.032,M97.053,M186.079,M156.101,M87.032,M115.027,M113.084,M113.084,M113.084,M115.027,M129.043,M114.043,M103.009,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.043,M97.053,M57.021,M129.043,M115.027,M71.037,M97.053,M71.037,M129.043,M115.027,M131.040,M71.037,M156.101,M163.063,M163.063,M87.032,M71.037,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M113.084,M101.048,M156.101,M128.058,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,M57.021,M128.095,M156.101,M163.063,M128.095,M128.058,M156.101,M99.068,M128.095,M114.043,M127.111,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M156.101,M186.079,M128.095,M186.079,M156.101,M156.101,M128.095,0=4,"
+"[/Preset]"

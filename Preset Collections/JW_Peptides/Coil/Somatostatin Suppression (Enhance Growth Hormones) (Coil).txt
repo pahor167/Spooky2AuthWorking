@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Somatostatin Suppression (Enhance Growth Hormones) (Coil)"
+"Preset_Notes=Somatostatin Suppression (Enhance Growth Hormones) for Coil
+
+Somatostatin suppression reduces the inhibitory action of somatostatin on pituitary and pancreatic hormone release, primarily enhancing growth hormone (GH) secretion while potentially benefiting insulin dynamics, metabolism, tissue repair, and anabolic processes. Proposed polypeptides are growth hormone secretagogues (GHS) and GHRH analogs known to inhibit hypothalamic somatostatin tone or overcome its effects.
+
+1. Selective GH release: Ipamorelin - GHSR agonist that suppresses somatostatin influence for clean, prolactin-sparing GH elevation 
+2. Appetite-linked GH amplification: GHRP-6 - Directly inhibits somatostatin release to restore pulsatile GH secretion 
+3. Potent hypothalamic GH drive: GHRP-2 - Strong somatostatin antagonism for rapid and robust GH spikes 
+4. Maximal GH mobilization: Hexarelin - Highly potent GHS with superior somatostatin tone suppression 
+5. Direct GHRH activation: Sermorelin - Stimulates pituitary somatotrophs, synergistic with somatostatin inhibitors 
+6. Long-acting GHRH extension: CJC-1295 - DAC-conjugated for sustained GH release despite somatostatin 
+7. Visceral fat-targeted GH: Tesamorelin - Modified GHRH optimized for metabolic GH enhancement 
+8. Classic amidated GHRH: Modified_GRF_1-29 - Stable GHRH analog for consistent GH stimulation 
+9. Intermediate GHRH duration: CJC-1295_no_DAC - Drug-affinity extended GHRH for frequent dosing synergy 
+10. Stability-optimized hybrid: HexIpa-1 - Designed Aib-substituted GHRP variant for enhanced protease resistance and somatostatin suppression
+
+"
+"Loaded_Programs=Somatostatin Suppression (Enhance Growth Hormones) p01"
+"Loaded_Programs=Somatostatin Suppression (Enhance Growth Hormones) p02"
+"Loaded_Programs=Somatostatin Suppression (Enhance Growth Hormones) p03"
+"Loaded_Programs=Somatostatin Suppression (Enhance Growth Hormones) p04"
+"Loaded_Programs=Somatostatin Suppression (Enhance Growth Hormones) p05"
+"Loaded_Programs=Somatostatin Suppression (Enhance Growth Hormones) p06"
+"Loaded_Programs=Somatostatin Suppression (Enhance Growth Hormones) p07"
+"Loaded_Programs=Somatostatin Suppression (Enhance Growth Hormones) p08"
+"Loaded_Programs=Somatostatin Suppression (Enhance Growth Hormones) p09"
+"Loaded_Programs=Somatostatin Suppression (Enhance Growth Hormones) p10"
+"Loaded_Frequencies=M85.053=1,M137.059,M205.074,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M137.059=1,M186.079,M71.037,M186.079,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M71.037=1,M205.074,M71.037,M186.079,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M137.059=1,M200.095,M71.037,M186.079,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M115.027,M71.037,M113.084,M147.068,M101.048,M114.043,M87.032,M163.063,M156.101,M128.095,M99.068,M113.084,M57.021,M128.058,M113.084,M87.032,M71.037,M156.101,M128.095,M113.084,M113.084,M128.058,M115.027,M113.084,M131.040,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M115.027,M71.037,M113.084,M147.068,M101.048,M114.043,M87.032,M163.063,M156.101,M128.095,M99.068,M113.084,M57.021,M128.058,M113.084,M87.032,M71.037,M156.101,M128.095,M113.084,M113.084,M115.027,M87.032,M113.084,M87.032,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M115.027,M71.037,M113.084,M147.068,M101.048,M114.043,M87.032,M163.063,M156.101,M128.095,M99.068,M113.084,M57.021,M128.058,M113.084,M87.032,M71.037,M156.101,M128.095,M113.084,M113.084,M128.058,M115.027,M87.032,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M115.027,M71.037,M113.084,M147.068,M101.048,M114.043,M87.032,M163.063,M156.101,M128.095,M99.068,M113.084,M57.021,M128.058,M113.084,M87.032,M71.037,M156.101,M128.095,M113.084,M113.084,M128.058,M115.027,M113.084,M131.040,M87.032,M155.093,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M115.027,M71.037,M113.084,M147.068,M101.048,M114.043,M87.032,M163.063,M156.101,M128.095,M99.068,M113.084,M57.021,M128.058,M113.084,M87.032,M71.037,M156.101,M128.095,M113.084,M113.084,M115.027,M87.032,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M85.053=1,M137.059,M186.079,M71.037,M186.079,M147.068,M127.111,0=4,"
+"[/Preset]"

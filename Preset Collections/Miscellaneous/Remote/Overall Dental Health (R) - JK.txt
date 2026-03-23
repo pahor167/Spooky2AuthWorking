@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Overall Dental Health (R) - JK"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Amplitude=20"
+"Out2_Amplitude=20"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=Overall Dental Health for Remote by Jeff Kaczor
+
+We all know that dental health can be a source of many issues.
+
+The following sets were incorporated into the following setup that I had used previously for dental issues.
+
+Dental Foci (CAFL), Dental and Jawbone Infections 1, 2 (XTRA), and Dental Infection (CAFL)
+
+'A good all-round dental program is Dental Foci (CAFL).  This targets everything to do with dental health.  Others to look at are the two Dental and Jawbone Infections (XTRA) sets.  Finally, Dental Infection (CAFL) targets roots and gums.'
+
+Don't forget to detox using a second generator or after this program has completed.
+
+This preset uses a custom waveform created by Manuel Mallo.
+
+The harmonic waveforms (square, sine, sawtooth, invsawtooth) all take and produce the following: F1, F2, F4, F8, F16, F32, F64, and F128
+
+That is the fundamental frequency (F) and the next 7 octave harmonics.
+
+Using this waveform, we generate an 8 note chord instead of a single frequency -- "
+"Enable_Remove_Duplicate_Frequencies=0"
+"User_Defined_1_Waveform=MM_InvSawtooth_Harmonic"
+"User_Defined_2_Waveform=Square"
+"Manual_Start=False"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=Dental Foci (CAFL)"
+"Loaded_Programs=Dental and Jawbone Infections 1 (XTRA)"
+"Loaded_Programs=Dental and Jawbone Infections 2 (XTRA)"
+"Loaded_Programs=Dental Infection (CAFL)"
+"Loaded_Frequencies=5170=180,3000=180,2720=180,2489=180,1800=180,1600=180,1550=180,1500=180,880=180,832=180,802=180,787=180,776=180,727=180,666=180,650=180,646=180,600=180,465=180,190=180,95=180,47.5=180,"
+"Loaded_Frequencies=190=180,500=180,727=180,728=180,787=180,880=180,2170=180,2720=180,7270=180,"
+"Loaded_Frequencies=15=180,326=180,465=180,727=180,787=180,880=180,"
+"Loaded_Frequencies=960=180,660=180,666=180,690=180,727=180,784=180,787=180,800=180,880=180,1560=180,1840=180,1998=180,2489=180,"
+"[/Preset]"

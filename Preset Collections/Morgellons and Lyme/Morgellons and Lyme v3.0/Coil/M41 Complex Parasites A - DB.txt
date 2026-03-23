@@ -1,0 +1,64 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"Repeat_Chain=0"
+"PresetName=M41 Complex Parasites A - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Coil.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Parasites Scabies CAFL
+Sarcoptes Scabiei Itch HC
+Sarcoptes Scabiei Itch XTRA
+Psorinum CAFL
+Meal Mite HC
+Meal Mite XTRA
+Ornithonyssus Bird Mite 1 XTRA
+Ornithonyssus Bird Mite 2 XTRA
+Ornithonyssus Bird Mite_1 HC
+Ornithonyssus Bird Mite_2 HC
+Mange XTRA
+Follicular Mange VEGA
+Mite Follicle XTRA
+Demodex Folliculorum Follicle Mite HC
+Dermatophagoides Dust Mite HC
+Dermatophagoides XTRA
+
+Connect Spooky PEMF Coil to the generator, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+"
+"Loaded_Programs=Parasites Scabies (CAFL)"
+"Loaded_Programs=Sarcoptes Scabiei Itch (HC)"
+"Loaded_Programs=Sarcoptes Scabiei Itch (XTRA)"
+"Loaded_Programs=Psorinum (CAFL)"
+"Loaded_Programs=Meal Mite (HC)"
+"Loaded_Programs=Meal Mite (XTRA)"
+"Loaded_Programs=Ornithonyssus Bird Mite 1 (XTRA)"
+"Loaded_Programs=Ornithonyssus Bird Mite 2 (XTRA)"
+"Loaded_Programs=Ornithonyssus Bird Mite_1 (HC)"
+"Loaded_Programs=Ornithonyssus Bird Mite_2 (HC)"
+"Loaded_Programs=Mange (XTRA)"
+"Loaded_Programs=Follicular Mange (VEGA)"
+"Loaded_Programs=Mite Follicle (XTRA)"
+"Loaded_Programs=Demodex Folliculorum Follicle Mite (HC)"
+"Loaded_Programs=Dermatophagoides Dust Mite (HC)"
+"Loaded_Programs=Dermatophagoides (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=90=180,94=180,98=180,102=180,106=180,110=180,253=180,693=600,920=180,1436=180,2871=180,5742=180,90-110=1800,"
+"Loaded_Frequencies=735000=180,"
+"Loaded_Frequencies=11484.37=180,1821.88=180,"
+"Loaded_Frequencies=786=300,767=300,"
+"Loaded_Frequencies=718000=180,"
+"Loaded_Frequencies=1779.74=180,11218.75=180,"
+"Loaded_Frequencies=13703.12=180,2173.86=180,"
+"Loaded_Frequencies=13718.75=180,2176.34=180,"
+"Loaded_Frequencies=877000=180,"
+"Loaded_Frequencies=878000=180,"
+"Loaded_Frequencies=90=1200,253=180,693=600,701=180,774=180,920=180,1436=180,1821.88=180,2871=180,5742=180,11484=180,"
+"Loaded_Frequencies=693=180,253=180,"
+"Loaded_Frequencies=21312.5=180,1690.5=180,"
+"Loaded_Frequencies=682000=180,"
+"Loaded_Frequencies=707000=180,"
+"Loaded_Frequencies=11046.87=180,1752.48=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

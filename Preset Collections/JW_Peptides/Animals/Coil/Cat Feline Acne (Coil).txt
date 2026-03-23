@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Cat Feline Acne (Coil)"
+"Preset_Notes=Cat Feline Acne for Coil
+
+Feline acne, commonly known as chin acne, is a prevalent keratinization disorder in cats manifesting as comedones, papules, crusts, and secondary bacterial folliculitis primarily on the chin and lips, driven by follicular hyperkeratosis, sebum accumulation, bacterial colonization, and inflammation. The proposed polypeptides target evidence-based therapeutic axes extrapolated from dermatological healing, antimicrobial defense, and anti-inflammatory studies to promote clearance, reduce recurrence, and restore skin integrity.
+
+1. Cathelicidin-mediated broad-spectrum antimicrobial activity: LL-37 inhibits cutaneous pathogens and biofilm while modulating inflammation in skin infection models.
+2. {alpha}-MSH-derived tripeptide suppression of inflammation: KPV attenuates inflammatory pathways relevant to acneiform dermatoses.
+3. Copper-tripeptide antioxidant and remodeling support: GHK-Cu scavenges oxidants, stimulates collagen, and aids tissue repair in damaged skin.
+4. Gastric pentadecapeptide cytoprotective healing: BPC-157 accelerates resolution of inflammatory lesions and epithelial recovery.
+5. Acetylated Thymosin {beta}4 fragment migration enhancement: TB-500 promotes keratinocyte migration and wound closure.
+6. EPO-derived helix-B peptide innate repair: ARA-290 reduces chronic inflammation and supports tissue protection.
+7. Vasoactive intestinal peptide anti-inflammatory modulation: VIP dampens cutaneous inflammatory responses.
+8. Engineered proline-rich collagen stabilization (novel optimization): Ac-(GPP)10-NH2 reinforces extracellular matrix to normalize keratinization and barrier function.
+
+"
+"Loaded_Programs=Cat Feline Acne p01"
+"Loaded_Programs=Cat Feline Acne p02"
+"Loaded_Programs=Cat Feline Acne p03"
+"Loaded_Programs=Cat Feline Acne p04"
+"Loaded_Programs=Cat Feline Acne p05"
+"Loaded_Programs=Cat Feline Acne p06"
+"Loaded_Programs=Cat Feline Acne p07"
+"Loaded_Programs=Cat Feline Acne p08"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.059,M156.101,M113.084,M128.095,M97.053,M156.101,M113.084,M99.068,M101.048,M129.043,M87.032,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M111.032=1,M128.059,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.059,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,0=4,"
+"[/Preset]"

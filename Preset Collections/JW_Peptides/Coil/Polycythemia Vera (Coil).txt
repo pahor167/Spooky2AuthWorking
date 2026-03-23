@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Polycythemia Vera (Coil)"
+"Preset_Notes=Polycythemia Vera for Coil
+
+Polycythemia Vera (PV) is a clonal myeloproliferative neoplasm driven primarily by JAK2 mutations, resulting in erythropoietin-independent erythrocytosis, increased blood viscosity, elevated thrombosis risk, aquagenic pruritus, systemic inflammation, oxidative stress, and potential progression to post-PV myelofibrosis. Current therapies focus on phlebotomy, cytoreduction, and JAK inhibition, but emerging peptide approaches target complementary mechanisms evidenced in preclinical models and translational studies.
+
+1. Stable gastric pentadecapeptide multi-target protection: BPC-157 supports endothelial integrity and counters hyperviscosity-related vascular complications in relevant models.
+2. Thymosin {beta}4-derived actin modulation and repair: TB-500 (Ac-LKKTETQ-NH2) promotes tissue healing and may mitigate fibrotic progression risks.
+3. {alpha}-MSH terminal tripeptide anti-inflammatory action: KPV potently reduces cytokine-driven inflammation and pruritus applicable to PV symptom burden.
+4. Copper-binding tripeptide antioxidant and regenerative effects: GHK-Cu addresses oxidative stress and supports homeostasis in proliferative disorders.
+5. Mitochondrial-derived anti-apoptotic signaling: Humanin protects against cell death pathways dysregulated in myeloproliferative neoplasms.
+6. Optimized mini-hepcidin motif for iron restriction: Ac-DTHFPICIF-NH2 rationally engineered from published hepcidin mimetic sequences effective in PV mouse models, with terminal modifications for enhanced stability and bioavailability to limit iron availability for erythrocytosis.
+
+"
+"Loaded_Programs=Polycythemia Vera p01"
+"Loaded_Programs=Polycythemia Vera p02"
+"Loaded_Programs=Polycythemia Vera p03"
+"Loaded_Programs=Polycythemia Vera p04"
+"Loaded_Programs=Polycythemia Vera p05"
+"Loaded_Programs=Polycythemia Vera p06"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M115.027=1,M101.048,M137.059,M147.068,M97.053,M113.084,M103.009,M113.084,M147.068,0=4,"
+"[/Preset]"

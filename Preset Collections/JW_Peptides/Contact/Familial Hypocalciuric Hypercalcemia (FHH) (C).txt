@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Familial Hypocalciuric Hypercalcemia (FHH) (C)"
+"Preset_Notes=Familial Hypocalciuric Hypercalcemia (FHH) for Contact
+
+Familial Hypocalciuric Hypercalcemia (FHH) is a predominantly autosomal dominant genetic disorder characterized by lifelong, non-progressive elevation of serum calcium (hypercalcemia), low urinary calcium excretion (hypocalciuria), and normal to slightly elevated levels of parathyroid hormone (PTH). The condition typically results from inactivating mutations in the CASR gene (FHH Type 1), which encodes the calcium-sensing receptor (CaSR) responsible for monitoring extracellular calcium levels. In FHH, the receptor's 'set point' is shifted, meaning the body requires higher-than-normal calcium levels to signal the parathyroid glands to suppress PTH and the kidneys to excrete calcium. While usually benign and asymptomatic, FHH must be carefully distinguished from primary hyperparathyroidism to avoid unnecessary surgical interventions like parathyroidectomy, which are ineffective for FHH.
+
+1. Positive Allosteric Modulation (PAM): The primary pharmacological strategy involves increasing the sensitivity of the mutated CaSR. Calcimimetic compounds bind to the transmembrane domain, inducing a conformational change that lowers the threshold for receptor activation.
+2. G-Protein Signal Potentiation (G{alpha}11 Enhancement): FHH Type 2 involves mutations in GNA11. Peptides or small molecules that stabilize the G{alpha}11 hydrophobic cleft can rectify signaling defects downstream of the receptor, specifically restoring Phospholipase C (PLC) activation.
+3. Endocytic Trafficking Regulation (AP2{sigma} Support): FHH Type 3 is caused by mutations in AP2S1, affecting receptor internalization. Targeting the adaptor protein complex 2 (AP2) facilitates proper CaSR trafficking and recycling to the cell surface, ensuring a sufficient receptor population is available for sensing.
+4. PTH-Receptor Antagonism: In cases where mild PTH elevation contributes to symptomatic bone resorption, modulating the PTH1 receptor can mitigate systemic calcium release from the skeletal reservoir.
+5. Renal TRPV6 Channel Modulation: The CaSR regulates the TRPV6 channel, essential for renal calcium reabsorption. Peptides that inhibit excessive TRPV6-mediated calcium uptake in the distal tubule can help correct the hypocalciuric profile.
+6. Sirtuin-1 (SIRT1) Mediated Receptor Expression: Enhancing SIRT1 activity has been shown to potentially upregulate CaSR expression and improve stress resistance in mineral-sensing cells, counteracting the effects of haploinsufficiency.
+7. Biased Signaling Induction: Developing ligands that selectively trigger the pathway over the or MAPK pathways can refine the homeostatic response, focusing on calcium suppression without affecting other cellular growth signals.
+8. Calcilytic Rescue (Genotype-Specific): While calcilytics typically raise calcium, they are being explored as tools to 'reset' and study receptor conformations in specific rare variants to better understand the molecular 'switch' residues.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Familial Hypocalciuric Hypercalcemia (FHH) p01"
+"Loaded_Programs=Familial Hypocalciuric Hypercalcemia (FHH) p02"
+"Loaded_Programs=Familial Hypocalciuric Hypercalcemia (FHH) p03"
+"Loaded_Programs=Familial Hypocalciuric Hypercalcemia (FHH) p04"
+"Loaded_Programs=Familial Hypocalciuric Hypercalcemia (FHH) p05"
+"Loaded_Programs=Familial Hypocalciuric Hypercalcemia (FHH) p06"
+"Loaded_Programs=Familial Hypocalciuric Hypercalcemia (FHH) p07"
+"Loaded_Programs=Familial Hypocalciuric Hypercalcemia (FHH) p08"
+"Loaded_Frequencies=M128.058=1,M156.101,M113.084,M103.009,M71.037,M113.084,M103.009,M129.043,M113.084,M101.048,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M129.043,M147.068,M156.101,M156.101,M129.043,M156.101,M156.101,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M115.027,M113.084,M163.063,M147.068,M156.101,M113.084,M114.043,M57.021,0=4,"
+"Loaded_Frequencies=M71.037=1,M156.101,M57.021,M113.084,M156.101,M115.027,M113.084,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M163.063,M113.084,M114.043,M156.101,M113.084,M113.084,M114.043,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M128.058=1,M128.058,M113.084,M156.101,M128.095,M113.084,M113.084,M128.095,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M103.009,M115.027,M115.027,M156.101,M113.084,M114.043,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M129.043,M147.068,M115.027,M156.101,M156.101,M57.021,M129.043,M115.027,0=4,"
+"[/Preset]"

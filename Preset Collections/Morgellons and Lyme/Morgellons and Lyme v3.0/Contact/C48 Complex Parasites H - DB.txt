@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (C)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=C48 Complex Parasites H - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Contact Mode.
+
+Update: September 2019.
+
+PROGRAMS: 
+Fasciolopsis Buski Eggs HC
+Parasites Fluke General KHZ
+Parasites Flatworms KHZ
+Parasites General Comprehensive CAFL
+Your Scan Results CUST
+
+For a high power treatment, connect TENS cable to 'HIGH PWR CONTACT' port of Spooky Boost. For a lower power treatment, connect TENS cable to 'COLLOIDAL SILVER' port of Spooky Boost. If you don't have Spooky Boost, connect TENS cable to Out 1. Connect your Hand Cylinders/Tens Contact Kit item/TENS pads to TENS cable."
+"Loaded_Programs=Fasciolopsis Buski Eggs (HC)"
+"Loaded_Programs=Parasites Flukes General (KHZ)"
+"Loaded_Programs=Parasites Flatworms (KHZ)"
+"Loaded_Programs=Parasites General Comprehensive (CAFL)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=427350-435450=3600,"
+"Loaded_Frequencies=110=180,320=180,900=180,2530=180,17500=180,47430=180,78100=180,90000=180,157000=180,425410=180,"
+"Loaded_Frequencies=30=180,240=180,700=180,1290=180,12330=180,27500=180,35410=180,142000=180,357770=180,475910=180,"
+"Loaded_Frequencies=20=180,64=180,72=180,96=180,112=180,120=180,125=180,128=180,152=180,240=180,334=180,422=180,442=180,465=180,524=180,644=180,651=180,688=180,712=180,728=180,732=180,800=180,854=180,880=180,1550=180,1864=180,2112=180,2400=180,2720=180,4412=180,5000=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

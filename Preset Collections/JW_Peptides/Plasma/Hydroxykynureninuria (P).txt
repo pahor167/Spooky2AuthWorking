@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Hydroxykynureninuria (P)"
+"Preset_Notes=Hydroxykynureninuria for Plasma
+
+Hydroxykynureninuria, also known as kynureninase deficiency, is an extremely rare autosomal recessive inborn error of metabolism caused by biallelic pathogenic variants in the KYNU gene encoding kynureninase, a pyridoxal phosphate-dependent enzyme that hydrolyzes 3-hydroxykynurenine to 3-hydroxyanthranilic acid and alanine in the kynurenine pathway of tryptophan degradation. This enzymatic block leads to massive urinary excretion of kynurenine, 3-hydroxykynurenine, and xanthurenic acid, with elevated plasma levels of these intermediates; downstream metabolites including NAD/NADP precursors are reduced. Reported cases (fewer than 20 worldwide) present with variable neurological features including intellectual disability, developmental delay, cerebellar ataxia, seizures, behavioral issues, and in some instances cutaneous photosensitivity or pellagra-like dermatitis from functional niacin deficiency; many cases are asymptomatic or mildly affected, suggesting underdiagnosis or variable penetrance modulated by dietary tryptophan/vitamin B6 status. Pathophysiology involves direct toxicity from accumulated 3-hydroxykynurenine (pro-oxidant, protein cross-linking, apoptosis induction), imbalance in neuroactive kynurenine metabolites (reduced kynurenic acid neuroprotection, potential quinolinic acid shifts), oxidative stress, ER stress, and secondary B6 depletion impairing multiple PLP enzymes, collectively contributing to CNS damage and systemic effects.
+
+The proposed polypeptides are entirely conceptually designed short sequences, as comprehensive searches across PubMed, clinicaltrials.gov, patents, and databases confirmed no real-world polypeptide, peptide, or protein therapeutics (established, investigational, or preclinical) for hydroxykynureninuria/kynureninase deficiency; management remains supportive (high-dose vitamin B6 as cofactor, nicotinamide supplementation, low-tryptophan diet in severe cases). These designed polypeptides target five core mechanistic axes derived from established pathway disruptions: (1) enzymatic block and substrate accumulation, addressed by the first designed polypeptide to conceptually facilitate metabolite clearance or pathway bypass; (2) pro-oxidant toxicity of 3-hydroxykynurenine, targeted by the second designed polypeptide with antioxidant properties; (3) downstream NAD+ precursor deficiency, supported by the third designed polypeptide to enhance alternative salvage or utilization; (4) neuroactive metabolite imbalance and excitotoxicity risk, modulated by the fourth designed polypeptide for neuroprotective effects; (5) secondary inflammatory/oxidative CNS stress, ameliorated by the fifth designed polypeptide to dampen damage cascades. Together, these provide multi-axis conceptual coverage to reduce toxic intermediates, restore metabolic balance, and mitigate neurological sequelae, with feasibility informed by kynurenine pathway modulation studies and parallels in related aminoacidopathies.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Hydroxykynureninuria p01"
+"Loaded_Programs=Hydroxykynureninuria p02"
+"Loaded_Programs=Hydroxykynureninuria p03"
+"Loaded_Programs=Hydroxykynureninuria p04"
+"Loaded_Programs=Hydroxykynureninuria p05"
+"Loaded_Frequencies=M156.101=1,M57.021,M128.095,M101.048,M97.053,M71.037,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M128.095,M186.079,M97.053,M128.058,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M163.063,M103.009,M101.048,M163.063,M103.009,M137.059,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.095,M128.095,M156.101,M97.053,M147.068,M186.079,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M97.053,M137.059,M147.068,M57.021,M71.037,M186.079,M101.048,0=4,"
+"[/Preset]"

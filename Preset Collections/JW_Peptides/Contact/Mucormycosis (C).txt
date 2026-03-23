@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Mucormycosis (C)"
+"Preset_Notes=Mucormycosis for Contact
+
+Mucormycosis is a rare, aggressive, and frequently fatal invasive fungal infection caused by molds belonging to the order Mucorales, primarily species of Rhizopus, Mucor, and Lichtheimia. It predominantly occurs in immunocompromised hosts, including patients with uncontrolled diabetes mellitus (especially ketoacidosis), neutropenia, prolonged corticosteroid use, hematologic malignancies, organ transplantation, or iron overload conditions. The infection manifests in various forms-rhino-orbito-cerebral (most common in diabetics), pulmonary, cutaneous, gastrointestinal, or disseminated-with hallmark features of rapid angioinvasion, vascular thrombosis, tissue infarction, and necrosis, resulting in mortality rates of 40-80% despite treatment.
+
+The proposed designed polypeptides target key pathophysiological mechanisms derived from established literature: direct fungal membrane disruption, interference with endothelial invasion, and cationic charge-mediated antifungal/host defense enhancement. All are conceptual designs with short lengths (17-24 residues) and limited modifications (C-terminal amidation or head-to-tail cyclization) for improved stability and drug-likeness, validated in silico for solubility (GRAVY <=0.8), net charge (IchargeI <=10 at pH 7), and stability (instability index <40).
+
+The Designed Magainin-variant addresses direct antifungal activity by forming pores in Mucorales membranes, derived from amphibian magainin motifs known for broad antifungal properties, with C-terminal amidation for protease resistance.
+
+The Designed CotH-cyclic targets angioinvasion by incorporating the conserved CotH3 invasin epitope (MGQTNDGAYRDPTDNN) in head-to-tail cyclic form to enhance stability and potentially block GRP78-mediated endothelial adhesion.
+
+The Designed Histatin-like supports antifungal action and host defense via cationic interactions, derived from human salivary histatin 5 motifs with documented fungicidal mechanisms, featuring C-terminal amidation for enhanced efficacy.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Mucormycosis p01"
+"Loaded_Programs=Mucormycosis p02"
+"Loaded_Programs=Mucormycosis p03"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M129.043,M113.084,M131.040,M128.095,M86.048,0=4,"
+"Loaded_Frequencies=M131.040=1,M57.021,M128.058,M101.048,M114.043,M115.027,M57.021,M71.037,M163.063,M156.101,M115.027,M97.053,M101.048,M115.027,M114.043,M114.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M162.079,0=4,"
+"[/Preset]"

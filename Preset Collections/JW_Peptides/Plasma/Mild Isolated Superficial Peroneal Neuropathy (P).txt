@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Mild Isolated Superficial Peroneal Neuropathy (P)"
+"Preset_Notes=Mild Isolated Superficial Peroneal Neuropathy for Plasma
+
+Mild, isolated (or predominant) weakness of foot eversion due to involvement of the superficial peroneal (also called superficial fibular) nerve, leading to excessive inversion (varus or supination) of the foot during the swing phase of gait.
+1. Axonal regeneration: BPC-157 - Promotes rapid axonal outgrowth, myelination, and functional recovery in peripheral nerve transection models, facilitating reinnervation of peroneus longus and brevis muscles to correct excessive inversion during gait.
+2. Neuroprotection: ARA290 - Activates the innate repair receptor to reprogram inflammatory response into healing mode, protecting the superficial peroneal nerve fibers from degeneration.
+3. Neurotrophic support: RGI - BDNF-mimicking peptide that enhances neurite outgrowth and Schwann cell maturation for accelerated axonal extension in the peroneal pathway.
+4. Cell adhesion and guidance: IKVAV - Laminin-derived motif that promotes Schwann cell adhesion, migration, and aligned axonal growth for accurate reinnervation.
+5. Angiogenesis: KLT - VEGF-mimicking peptide that stimulates neovessel formation, ensuring adequate blood supply for sustained nerve repair and functional recovery.
+6. Anti-fibrotic remodeling: AntiFib-D1 - Designed peptide that suppresses excessive extracellular matrix deposition to prevent perineural fibrosis and entrapment recurrence.
+7. Myelin sheath repair: Myelin-D2 - Basic residue peptide designed to facilitate compact myelin assembly by Schwann cells for restored nerve conduction velocity.
+8. Neuromuscular junction stabilization: NMJS-D3 - Designed to enhance NMJ integrity and prevent denervation atrophy in foot evertor muscles.
+9. Nerve conduction enhancement: Conduc-D4 - Engineered sequence to support sodium channel clustering and signal propagation in regenerating peroneal nerve fibers.
+10. Reinnervation optimization: Reinnerv-D5 - Designed peptide to promote specific targeting and synaptic matching for optimal foot eversion strength restoration.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Mild Isolated Superficial Peroneal Neuropathy p01"
+"Loaded_Programs=Mild Isolated Superficial Peroneal Neuropathy p02"
+"Loaded_Programs=Mild Isolated Superficial Peroneal Neuropathy p03"
+"Loaded_Programs=Mild Isolated Superficial Peroneal Neuropathy p04"
+"Loaded_Programs=Mild Isolated Superficial Peroneal Neuropathy p05"
+"Loaded_Programs=Mild Isolated Superficial Peroneal Neuropathy p06"
+"Loaded_Programs=Mild Isolated Superficial Peroneal Neuropathy p07"
+"Loaded_Programs=Mild Isolated Superficial Peroneal Neuropathy p08"
+"Loaded_Programs=Mild Isolated Superficial Peroneal Neuropathy p09"
+"Loaded_Programs=Mild Isolated Superficial Peroneal Neuropathy p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M113.084,M115.027,M128.095,M156.101,M137.059,M186.079,M114.043,M87.032,M128.058,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M99.068,M71.037,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M97.053=1,M156.101,M57.021,M115.027,M87.032,M97.053,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M156.101,M128.095,M97.053,M97.053,M128.095,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M101.048,M71.037,M87.032,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M128.058=1,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,0=4,"
+"[/Preset]"

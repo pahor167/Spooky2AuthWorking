@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"PresetName=1. Spooky Scalar Cancer"
+"Loaded_Frequencies=1604000=300,1607450=300,11430000=300,11780000=300,1529520=300,1566760=300,1604000=300,1607450=300,11430000=300,11780000=300,1529520=300,1566760=300,0=180,"
+"Loaded_Programs=1. Spooky Scalar Cancer"
+"Preset_Notes=Cancer Protocol, Scalar Plus method, Generator 1, for Scalar. 
+
+This preset contains Scalar frequency sets for Spooky Scalar. Run this preset concurrently with the presets 'Scalar2/Gen2 (R) - BY'. See '\Cancer\BY\Cancer Presets.pdf' for a schedule to run these presets.
+
+The entire schedule for this protocol is in the notes of 'Scalar2/Gen2 (S) - BY'. Here is the schedule for this preset:
+  Generator 1, Scalar2/Gen1/Cancer 2 (S) - BY
+    Day 21
+
+This preset has the following programs:
+
+Spooky Scalar Cancer: Bacillus X Filter Cancer Carcinoma - Rife, Cancer BX - CUST, Cancer BY Virus - CUST
+
+Support 2: Essential Oil - Release - CUST, Essential Oil - Trauma Life - CUST, Essential Oil - Hope - CUST, Essential Oil - Basil - CUST, Essential Oil - Frankincense - CUST, Essential Oil - Gathering - CUST, Essential Oil - Grounding - CUST, Essential Oil - Immupower - CUST, Essential Oil - Joy - CUST, Essential Oil - Lavender - CUST, Essential Oil - Live With Passion - CUST, Essential Oil - M-Grain - CUST, Essential Oil - Melissa - CUST, Essential Oil - Motivation - CUST, Essential Oil - Peace &amp; Calming - CUST, Essential Oil - Peppermint - CUST, Essential Oil - Ravensara - CUST, Essential Oil - Sacred Mountain - CUST, Essential Oil - Surrender - CUST, Essential Oil - Thieves - CUST
+
+Here is a table to find the beginning of each day in this preset:
+1: Spooky Scalar Cancer
+2: Support 2
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost."
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"PresetName=2. Support 2"
+"Loaded_Frequencies=12750000=180,23000000=180,24500000=180,13000000=180,18375000=180,24750000=180,17500000=180,22250000=180,23500000=180,14750000=180,22250000=180,18000000=180,12750000=180,12875000=180,13125000=180,19500000=180,16750000=180,22000000=180,24500000=180,18750000=180,0=180,"
+"Loaded_Programs=2. Support 2"
+"Repeat_Sequence=1"
+"[/Preset]"

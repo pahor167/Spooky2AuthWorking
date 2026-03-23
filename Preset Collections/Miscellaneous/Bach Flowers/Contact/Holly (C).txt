@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Holly (C)"
+"Preset_Notes=Holly / Spooky Contact
+
+Estimated Time: Run this preset for 3:00 minutes.
+Holly - Hatred, envy and jealousy.
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Holly (C)"
+"Loaded_Frequencies=479.48F4096C0,"
+"[/Preset]"

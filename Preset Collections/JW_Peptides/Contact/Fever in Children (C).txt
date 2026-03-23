@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Fever in Children (C)"
+"Preset_Notes=Fever in Children for Contact
+
+Fever in children is a common protective response primarily to infections or inflammation, often viral or bacterial in origin, involving cytokine release, oxidative stress, and immune activation. The proposed polypeptides target evidence-based axes from studies on antipyretic mechanisms, anti-inflammatory modulation, antimicrobial defense, immune restoration, and novel cytokine-targeted optimization to support safe fever management and resolution in pediatric contexts.
+
+1. {alpha}-MSH-derived tripeptide antipyretic and anti-inflammatory activity: KPV exerts direct fever-reducing effects and suppresses inflammatory pathways via melanocortin receptors, with patented antipyretic efficacy.
+2. Copper-bound tripeptide anti-inflammatory and antioxidant modulation: GHK-Cu reduces cytokine production and oxidative stress contributing to febrile responses.
+3. Cathelicidin antimicrobial defense against infection: LL-37 combats bacterial and viral pathogens frequently causing fever in children, with elevated levels in pediatric infections.
+4. Thymosin {alpha}1 immune enhancement and antiviral support: Promotes T-cell maturation and recovery in infectious fever, with applications in pediatric viral diseases and sepsis.
+5. Engineered IL-1{beta}-derived tetrapeptide cytokine inhibition: Ac-KDPT-NH2 optimizes anti-inflammatory potency for enhanced modulation of fever-associated cytokines.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Fever in Children p01"
+"Loaded_Programs=Fever in Children p02"
+"Loaded_Programs=Fever in Children p03"
+"Loaded_Programs=Fever in Children p04"
+"Loaded_Programs=Fever in Children p05"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M170.106=1,M115.027,M97.053,M100.064,0=4,"
+"[/Preset]"

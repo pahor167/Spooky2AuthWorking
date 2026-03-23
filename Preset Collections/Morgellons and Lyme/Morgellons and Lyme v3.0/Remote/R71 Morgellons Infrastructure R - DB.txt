@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R71 Morgellons Infrastructure R - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+EcR Protein AM_Deb 2 CUST
+EcR Protein AM_Res 2 CUST
+EcR Protein AM_Deb 3 CUST
+EcR Protein AM_Res 3 CUST
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=EcR Protein AM_Deb 2 (CUST)"
+"Loaded_Programs=EcR Protein AM_Res 2 (CUST)"
+"Loaded_Programs=EcR Protein AM_Deb 3 (CUST)"
+"Loaded_Programs=EcR Protein AM_Res 3 (CUST)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=2063213.14=600,3075168.42=600,3075168.43=600,3075167.9-3075168.9=600,"
+"Loaded_Frequencies=1458912=600,4348944.89=600,4348944.9=600,4348944.4-4348945.4=600,"
+"Loaded_Frequencies=1659675.78=600,4947411.85=600,4947411.86=600,4947411.4-4947412.4=600,"
+"Loaded_Frequencies=1173568=600,3498348.47=600,3498348.48=600,3498348-3498349=600,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

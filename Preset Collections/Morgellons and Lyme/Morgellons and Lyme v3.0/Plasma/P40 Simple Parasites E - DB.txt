@@ -1,0 +1,87 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=P40 Simple Parasites E - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Plasma.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Entamoeba Gingivalis Trophozoite HC
+Entamoeba Histolytica Trophozoite HC
+Iodamoeba Butschlii  Trophozoites and Cysts XTRA
+Iodamoeba Butschlii XTRA
+Protozoan Infections KHZ
+Protozoa CAFL
+Amoeba General CAFL
+Slime Molds 1 XTRA
+
+Connect OUT 1 to Input, Out 2 to Modulation.
+"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Entamoeba Gingivalis Trophozoite (HC) High"
+"Loaded_Programs=Entamoeba Gingivalis Trophozoite (HC)"
+"Loaded_Programs=Entamoeba Histolytica Trophozoite (HC)"
+"Loaded_Frequencies=433800-441000=3600,"
+"Loaded_Frequencies=381100-367800=3600,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Iodamoeba Butschlii Trophozoites and Cysts (XTRA) Low"
+"Loaded_Programs=Iodamoeba Butschlii Trophozoites and Cysts (XTRA)"
+"Loaded_Programs=Iodamoeba Butschlii (XTRA)"
+"Loaded_Programs=Protozoan Infections (KHZ)"
+"Loaded_Frequencies=1085.31=180,1103.03=180,1111.72=180,13682.8=180,13906.25=180,14015.62=180,"
+"Loaded_Frequencies=1103.03=180,11077.62=180,"
+"Loaded_Frequencies=20=180,230=180,850=180,5710=180,55830=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Protozoan Infections (KHZ) High"
+"Loaded_Programs=Protozoan Infections (KHZ)"
+"Loaded_Frequencies=172500=180,317500=180,663500=180,725310=180,853020=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Protozoa (CAFL) Low"
+"Loaded_Programs=Protozoa (CAFL)"
+"Loaded_Programs=Amoeba General (CAFL)"
+"Loaded_Programs=Slime Molds 1 (XTRA)"
+"Loaded_Frequencies=432=360,753=360,5776=360,"
+"Loaded_Frequencies=310=180,333=180,532=180,732=180,769=180,827=180,1522=180,"
+"Loaded_Frequencies=81000=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Slime Molds 1 (XTRA) High"
+"Loaded_Programs=Slime Molds 1 (XTRA)"
+"Loaded_Frequencies=126000=180,211000=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Pause 30 Seconds (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

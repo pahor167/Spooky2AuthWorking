@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Cephalic Paresthesia (R)"
+"Preset_Notes=Cephalic Paresthesia for Remote
+
+Cephalic paresthesia involves abnormal head sensations such as tingling, numbness, or prickling, frequently associated with peripheral neuropathy, neuroinflammation, anxiety, oxidative stress, or neural dysregulation. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical studies, investigational peptide research, and mechanistic overlap with related sensory disorders.
+
+1. Tissue-protective erythropoietin receptor agonism: ARA 290 selectively activates anti-apoptotic and anti-inflammatory pathways to reduce small-fiber neuropathic paresthesia.
+2. Stable gastric peptide-mediated nerve repair: BPC-157 promotes angiogenesis, collagen organization, and direct neuroprotection in peripheral sensory nerves.
+3. Copper-chelated tripeptide regeneration: GHK-Cu stimulates growth factors, extracellular matrix remodeling, and antioxidant effects for nerve outgrowth.
+4. Anxiolytic neurotransmitter modulation: Selank enhances GABAergic and serotonergic balance to alleviate stress-related psychosomatic sensory disturbances.
+5. Bioregulatory neural protection: Pinealon normalizes peptide expression and epigenetic control in brain cells to counter degenerative sensory changes.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Cephalic Paresthesia p01"
+"Loaded_Programs=Cephalic Paresthesia p02"
+"Loaded_Programs=Cephalic Paresthesia p03"
+"Loaded_Programs=Cephalic Paresthesia p04"
+"Loaded_Programs=Cephalic Paresthesia p05"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"[/Preset]"

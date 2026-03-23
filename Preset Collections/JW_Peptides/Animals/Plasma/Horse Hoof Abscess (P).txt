@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Horse Hoof Abscess (P)"
+"Preset_Notes=Horse Hoof Abscess for Plasma
+
+An equine hoof abscess is a localized accumulation of purulent exudate (pus) trapped between the sensitive laminae and the protective hoof capsule. This buildup creates significant pressure within the rigid hoof wall, resulting in sudden, severe lameness, heat, and an increased digital pulse. The condition typically arises from bacterial entry via white line fissures, puncture wounds, or environmental moisture cycles that weaken the hoof horn.
+
+1. Antibacterial Action: eCATH-2 - Equine cathelicidin that disrupts bacterial membranes and neutralizes LPS.
+2. Tissue Repair: eThymosin Beta-4 - Promotes keratinocyte migration and angiogenesis for rapid coronary band healing.
+3. Biofilm Disruption: eNAP-2 - Equine neutrophil antimicrobial peptide that inhibits microbial serine proteases and biofilms.
+4. Innate Immunity: eDEFB1 - Equine beta-defensin-1 providing a first-line barrier against Gram-positive pathogens.
+5. Iron Sequestration: eLactoferricin-Eq - Equine-specific lactoferrin fragment that starves bacteria of essential iron.
+6. Enhanced Drainage: Abscess-Flux-1 - Designed hybrid of eCATH and eNAP-2 for synergistic bacterial clearance and reduced viscosity.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Horse Hoof Abscess p01"
+"Loaded_Programs=Horse Hoof Abscess p02"
+"Loaded_Programs=Horse Hoof Abscess p03"
+"Loaded_Programs=Horse Hoof Abscess p04"
+"Loaded_Programs=Horse Hoof Abscess p05"
+"Loaded_Programs=Horse Hoof Abscess p06"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M156.101,M163.063,M147.068,M156.101,M156.101,M156.101,M147.068,M156.101,M156.101,M156.101,M147.068,M156.101,M156.101,M156.101,M147.068,M156.101,M156.101,M156.101,M147.068,M156.101,M156.101,M156.101,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M101.048,M101.048,M57.021,M114.043,M115.027,M156.101,M128.095,M103.009,M115.027,M97.053,M113.084,M113.084,M113.084,M156.101,M163.063,M103.009,M97.053,M113.084,M97.053,M97.053,M113.084,M128.095,M103.009,M156.101,M156.101,M113.084,M113.084,M114.043,M103.009,M115.027,M103.009,M113.084,M103.009,M114.043,M156.101,M147.068,M156.101,M103.009,M163.063,M113.084,M103.009,M115.027,M103.009,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M113.084,M103.009,M156.101,M156.101,M147.068,M57.021,M163.063,M103.009,M113.084,M128.095,M128.095,M128.095,M128.095,M156.101,M156.101,M113.084,M103.009,M156.101,M156.101,M147.068,M57.021,M163.063,M103.009,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M113.084,M103.009,M156.101,M156.101,M147.068,M57.021,M163.063,M103.009,M113.084,M128.095,M128.095,M128.095,M128.095,M156.101,M156.101,M113.084,M103.009,M156.101,M156.101,M147.068,M57.021,M163.063,M103.009,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M156.101,M163.063,M147.068,M156.101,M156.101,M156.101,M147.068,M115.027,M97.053,M113.084,M113.084,M113.084,M156.101,M163.063,M103.009,M97.053,0=4,"
+"[/Preset]"

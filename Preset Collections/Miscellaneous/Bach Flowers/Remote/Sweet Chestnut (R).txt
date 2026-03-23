@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Sweet Chestnut (R)"
+"Preset_Notes=Sweet Chestnut / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Sweet Chestnut - Extreme mental anguish,when everything has been tried and there is no light left.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Sweet Chestnut (R)"
+"Loaded_Frequencies=421.51,"
+"[/Preset]"

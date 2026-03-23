@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Cervical Radiculopathy (Neck Nerve Root Compression) (Coil)"
+"Preset_Notes=Cervical Radiculopathy (Neck Nerve Root Compression) for Coil
+
+Cervical radiculopathy is a pathophysiological condition characterized by compression, irritation, or inflammation of one or more cervical nerve roots, typically at levels C5-C8, resulting in pain, sensory abnormalities, motor deficits, and/or reflex changes radiating along the affected dermatome into the shoulder, arm, hand, or scapular region. Primary causes include herniated intervertebral discs (often posterolateral), degenerative spondylotic changes with osteophyte formation, foraminal stenosis from facet hypertrophy or uncovertebral joint arthrosis, and less commonly instability, trauma, or tumors. Symptoms vary by root level (e.g., C7 most common, causing triceps weakness and pain in middle finger) and include sharp or burning radicular pain exacerbated by neck positions (extension, rotation, Spurling maneuver), paresthesia, numbness, muscle weakness, and reduced deep tendon reflexes. Pathophysiology encompasses direct mechanical compression inducing local nerve ischemia via blocked venous return and axoplasmic transport, combined with chemical radiculitis from leaked nucleus pulposus material triggering proinflammatory cytokine release (TNF-{alpha}, IL-1{beta}, IL-6), leading to nerve edema, nociceptor sensitization, neuroimmune activation, and potential chronic axonal damage or demyelination.
+
+The proposed polypeptides comprehensively target all key therapeutic axes derived from established pathophysiological mechanisms: (1) Cytokine-mediated inflammation, where disc-derived factors amplify nerve root edema and irritation; (2) Neuropathic pain from peripheral and central sensitization; (3) Neuroprotection against ischemia- and compression-induced neuronal stress; (4) Regeneration to facilitate axonal repair and microvascular support in the compromised nerve environment. Each axis is addressed by a rationally designed polypeptide based on validated literature motifs, incorporating cyclization, amidation, or limited PTMs for enhanced stability, solubility, and bioavailability while maintaining lengths conducive to tissue penetration.
+
+- Inflammation reduction axis: Proinflammatory cytokines drive much of the secondary damage; the assigned Designed TNF-inhibitor-cyclic is derived from the WP9QY motif known to block TNF-{alpha} binding and downstream signaling in inflammatory models, with disulfide cyclization and termini modifications for protease resistance and reduced local cytokine storm at the nerve root.
+- Neuropathic pain axis: Sensitization sustains chronic radicular pain; the Designed IRR-agonist draws from the ARA290 (cibinetide) helix B motif of erythropoietin, selectively activating the innate repair receptor (IRR) to inhibit pain hypersensitivity and glial activation without hematopoietic effects, supported by clinical data in neuropathy.
+- Neuroprotection axis: Ischemic and inflammatory stress threaten neuronal viability; the Designed melanocortin-mimetic is based on the core His-Phe-Arg-Trp sequence of {alpha}-MSH, activating melanocortin receptors (e.g., MC4R) for potent anti-apoptotic and anti-oxidative effects in nerve injury paradigms.
+- Regeneration axis: Impaired microcirculation and axonal outgrowth hinder recovery; the Designed VEGF-mimetic replicates the QK peptide that mimics VEGF {alpha}-helix to stimulate receptor binding, promoting endothelial proliferation and angiogenesis critical for nutrient supply and Schwann cell-guided nerve repair.
+
+These designs prioritize drug-likeness through short lengths (10-15 residues), hydrophilic profiles, moderate net charges, and stability enhancements, ensuring feasibility for potential systemic or local delivery while collectively mitigating mechanical-inflammatory interplay for symptom relief and functional restoration.
+
+"
+"Loaded_Programs=Cervical Radiculopathy (Neck Nerve Root Compression) p01"
+"Loaded_Programs=Cervical Radiculopathy (Neck Nerve Root Compression) p02"
+"Loaded_Programs=Cervical Radiculopathy (Neck Nerve Root Compression) p03"
+"Loaded_Programs=Cervical Radiculopathy (Neck Nerve Root Compression) p04"
+"Loaded_Frequencies=M205.074=1,M102.001,M186.079,M87.032,M128.058,M163.063,M113.084,M102.001,M163.063,M56.037,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M173.051=1,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M170.106=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M112.100,0=4,"
+"[/Preset]"

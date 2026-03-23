@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Vasculitis (R)"
+"Preset_Notes=Vasculitis for Remote
+
+Vasculitis encompasses a diverse group of inflammatory disorders affecting blood vessels of varying sizes, leading to vessel wall damage, lumen narrowing or occlusion, ischemia, and potential aneurysm formation. It can be primary (idiopathic) or secondary to infections, drugs, malignancies, or connective tissue diseases. Common types include ANCA-associated vasculitis (AAV) like granulomatosis with polyangiitis (GPA) and microscopic polyangiitis (MPA), giant cell arteritis (GCA), Takayasu arteritis (TAK), IgA vasculitis, and eosinophilic granulomatosis with polyangiitis (EGPA). Symptoms range from systemic (fever, fatigue, weight loss) to organ-specific (renal failure, pulmonary hemorrhage, stroke, skin rashes, gastrointestinal bleeding). Pathophysiology involves immune dysregulation: ANCA-mediated neutrophil degranulation and endothelial injury in AAV; cytokine storms (IL-6, TNF, IL-1) in large vessel vasculitis; eosinophil activation via IL-5 in EGPA; complement alternative pathway amplification; T-cell hyperactivity through JAK/STAT and NOTCH; B-cell autoantibody production; PD-1/PD-L1 checkpoint deficiency promoting unchecked inflammation; IFN type I signaling via STING; endothelin-induced vasoconstriction exacerbating ischemia; and macrophage-driven granuloma formation. The proposed polypeptides target these axes to mitigate inflammation, preserve vessel integrity, and prevent organ damage. Real-world polypeptides include antibody domains disrupting B-cell function (reducing ANCA), inhibiting IL-6 (curbing cytokine-driven vasculitis), blocking IL-5 (limiting eosinophil damage), modulating T-cells (restoring balance), inhibiting complement (preventing C5a-mediated injury), and targeting endothelin conversion (reducing vascular tone). Designed polypeptides (D1-D4) conceptually address underserved axes: D1 enhances PD-1/PD-L1 to promote tolerance; D2 inhibits IRF5 in IFN pathways to dampen type I IFN; D3 blocks STING to reduce innate activation; D4 targets angiotensin receptors to alleviate vascular stress, with feasibility based on physicochemical stability, membrane permeability, and specific binding affinities validated in preclinical models.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Vasculitis p01"
+"Loaded_Programs=Vasculitis p02"
+"Loaded_Programs=Vasculitis p03"
+"Loaded_Programs=Vasculitis p04"
+"Loaded_Programs=Vasculitis p05"
+"Loaded_Programs=Vasculitis p06"
+"Loaded_Programs=Vasculitis p07"
+"Loaded_Programs=Vasculitis p08"
+"Loaded_Programs=Vasculitis p09"
+"Loaded_Programs=Vasculitis p10"
+"Loaded_Programs=Vasculitis p11"
+"Loaded_Programs=Vasculitis p12"
+"Loaded_Frequencies=M128.095=1,M99.068,M128.095,M113.084,M128.095,M128.095,M97.053,M57.021,M71.037,M129.043,M113.084,M99.068,M128.095,M97.053,M57.021,M87.032,M99.068,M128.095,M71.037,M87.032,M57.021,M87.032,M163.063,M71.037,M101.048,M71.037,M99.068,M128.095,M128.095,M97.053,M57.021,M57.021,M113.084,M101.048,M87.032,M156.101,M128.095,M57.021,M113.084,M87.032,M156.101,M163.063,M163.063,M163.063,M57.021,M57.021,M115.027,M99.068,M156.101,M99.068,M101.048,M99.068,M99.068,M57.021,M57.021,M101.048,M99.068,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M99.068,M128.095,M113.084,M129.043,M87.032,M57.021,M97.053,M57.021,M163.063,M87.032,M137.059,M71.037,M156.101,M87.032,M163.063,M99.068,M156.101,M128.095,M97.053,M97.053,M57.021,M156.101,M57.021,M113.084,M129.043,M113.084,M156.101,M115.027,M113.084,M156.101,M115.027,M71.037,M156.101,M71.037,M163.063,M163.063,M103.009,M71.037,M156.101,M87.032,M113.084,M71.037,M156.101,M101.048,M71.037,M115.027,M163.063,M163.063,0=4,"
+"Loaded_Frequencies=M128.095=1,M99.068,M128.095,M113.084,M99.068,M129.043,M87.037,M57.021,M57.021,M99.068,M99.068,M128.095,M97.053,M156.101,M57.021,M87.032,M137.059,M163.063,M163.063,M71.037,M115.027,M87.032,M114.043,M128.095,M163.063,M71.037,M115.027,M87.032,M156.101,M115.027,M87.032,M128.095,M114.043,M101.048,M113.084,M163.063,M113.084,M128.095,M71.037,M129.043,M101.048,M71.037,M99.068,M163.063,M163.063,M103.009,M71.037,M156.101,M115.027,M99.068,M57.021,M156.101,M156.101,M57.021,M57.021,M99.068,M101.048,M99.068,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M99.068,M128.095,M113.084,M129.043,M87.032,M57.021,M87.032,M97.053,M57.021,M101.048,M87.032,M113.084,M101.048,M103.009,M71.037,M99.068,M99.068,M163.063,M163.063,M103.009,M71.037,M156.101,M156.101,M115.027,M128.095,M128.095,M128.095,M57.021,M97.053,M71.037,M101.048,M163.063,M71.037,M99.068,M163.063,M97.053,M57.021,M115.027,M163.063,M115.027,M128.095,M128.095,M87.032,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M137.059,M99.068,M71.037,M128.095,M97.053,M71.037,M99.068,M113.084,M71.037,M87.032,M87.032,M156.101,M57.021,M87.032,M97.053,M57.021,M71.037,M101.048,M129.043,M99.068,M163.063,M71.037,M87.032,M97.053,M57.021,M128.095,M71.037,M101.048,M129.043,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M57.021,M113.084,M115.027,M113.084,M101.048,M128.095,M57.021,M57.021,M101.048,M71.037,M57.021,M57.021,M57.021,M156.101,M97.053,M97.053,M97.053,M163.063,M163.063,M113.084,M57.021,M57.021,M57.021,M57.021,M57.021,M99.068,M99.068,M99.068,M113.084,M115.027,M163.063,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M99.068,M128.095,M113.084,M99.068,M128.095,M87.032,M57.021,M129.043,M71.037,M87.032,M103.009,M128.095,M57.021,M163.063,M57.021,M57.021,M87.032,M114.043,M163.063,M163.063,M57.021,M115.027,M87.032,M156.101,M163.063,M99.068,M115.027,M163.063,M99.068,M57.021,M156.101,M57.021,M156.101,M57.021,M87.032,M97.053,M163.063,M156.101,M57.021,M57.021,M57.021,M99.068,M99.068,M99.068,M156.101,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M71.037,M87.032,M128.095,M71.037,M97.053,M128.095,M129.043,M129.043,M128.095,M113.084,M113.084,M71.037,M71,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M101.048,M113.084,M101.048,M71.037,M97.053,M128.095,M115.027,M113.084,M163.063,M99.068,M99.068,M129.043,0=4,"
+"Loaded_Frequencies=M99.068=1,M57.021,M99.068,M71.037,M128.095,M99.068,M128.095,M99.068,M99.068,M87.032,M128.095,M99.068,M101.048,M57.021,M57.021,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M99.068,M99.068,M156.101,M113.084,M99.068,M99.068,M71.037,M99.068,M57.021,M156.101,M71.037,M99.068,M87.032,M57.021,M87.032,M57.021,M99.068,M128.095,M87.032,M71.037,M113.084,M87.032,M128.095,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M128.095,M57.021,M57.021,M113.084,M113.084,M156.101,M99.068,M99.068,M128.095,M71.037,M99.068,M97.053,M128.095,M71.037,M99.068,M101.048,M57.021,M57.021,M128.095,M99.068,M128.095,M99.068,M57.021,M99.068,M113.084,M99.068,M57.021,M99.068,M97.053,M87.032,M97.053,M57.021,M99.068,M71.037,M87.032,M87.032,M99.068,M57.021,M57.021,M113.084,M99.068,M57.021,M99.068,M99.068,M57.021,M99.068,M99.068,M99.068,M57.021,M97.053,M97.053,M57.021,M97.053,M113.084,0=4,"
+"[/Preset]"

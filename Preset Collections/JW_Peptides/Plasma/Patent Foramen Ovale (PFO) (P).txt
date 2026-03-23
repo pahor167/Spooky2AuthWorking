@@ -1,0 +1,50 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Patent Foramen Ovale (PFO) (P)"
+"Preset_Notes=Patent Foramen Ovale (PFO) for Plasma
+
+Patent Foramen Ovale (PFO) is a persistent opening between the right and left atria of the heart that fails to close after birth, potentially allowing blood clots or other substances to pass from the venous to the arterial circulation, leading to complications such as cryptogenic stroke, migraine, and systemic emboli.
+Prioritizing real-world polypeptides involved in related pathways (ANP and BNP for atrial function and biomarkers, CGRP for migraine modulation, ET-1 for vasoactive effects). Only 4 such polypeptides identified with verifiable sequences and relevance from literature; shortfall from minimum 14 documented due to limited peptide-based therapies for PFO, with most treatments focusing on device closure or antithrombotics. Supplemented with 14 designed polypeptides (flagged below) using non-standard residues, cyclic structures for stability, and targeted motifs for axis coverage, including antithrombotic mimics, closure promoters, and metabolic modulators.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Patent Foramen Ovale (PFO) p01"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p02"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p03"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p04"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p05"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p06"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p07"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p08"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p09"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p10"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p11"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p12"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p13"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p14"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p15"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p16"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p17"
+"Loaded_Programs=Patent Foramen Ovale (PFO) p18"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M102.001,M87.032,M87.032,M113.084,M131.040,M115.027,M128.095,M129.043,M102.001,M99.068,M163.063,M147.068,M102.001,M137.059,M113.084,M115.027,M113.084,M113.084,M186.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M156.101,M128.095,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M156.101,M86.048,M87.032,M114.079,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M100.064,M128.058,M113.048,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M128.095,M114.079,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M86.048,M156.101,M237.148,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M114.079,M128.058,M100.064,M57.021,M85.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M113.048,M86.048,M156.101,M200.095,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M87.032,M113.084,M137.059,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M114.079,M100.064,M128.058,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M57.021,M86.048,M128.095,M237.148,0=4,"
+"Loaded_Frequencies=M150.954=1,M87.032,M114.079,M129.043,M100.064,0=4,"
+"Loaded_Frequencies=M113.048=1,M156.101,M113.084,M128.058,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M85.053,M114.079,M200.095,M102.001,0=4,"
+"Loaded_Frequencies=M100.064=1,M113.048,M87.032,M150.954,M156.101,M113.084,0=4,"
+"[/Preset]"

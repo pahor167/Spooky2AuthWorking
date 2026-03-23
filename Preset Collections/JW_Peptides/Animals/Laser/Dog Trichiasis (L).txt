@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Dog Trichiasis (L)"
+"Preset_Notes=Dog Trichiasis for Laser
+
+The therapeutic strategy for canine trichiasis involves anti-inflammatory peptides to alleviate corneal irritation, wound-healing promoters to repair abrasions from ingrown eyelashes, antimicrobial agents to prevent secondary ocular infections, and regenerative peptides to support eyelid tissue remodeling and prevent recurrence. Real-world peptides such as Thymosin Beta-4 and Substance P analogs address inflammation and healing, while veterinary-approved options like Ciclosporin mitigate immune-mediated damage. Designed peptides [designed] enhance targeted delivery to ocular tissues and provide sustained lubrication to protect the cornea.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Dog Trichiasis p01"
+"Loaded_Programs=Dog Trichiasis p02"
+"Loaded_Programs=Dog Trichiasis p03"
+"Loaded_Programs=Dog Trichiasis p04"
+"Loaded_Programs=Dog Trichiasis p05"
+"Loaded_Programs=Dog Trichiasis p06"
+"Loaded_Programs=Dog Trichiasis p07"
+"Loaded_Programs=Dog Trichiasis p08"
+"Loaded_Programs=Dog Trichiasis p09"
+"Loaded_Programs=Dog Trichiasis p10"
+"Loaded_Programs=Dog Trichiasis p11"
+"Loaded_Programs=Dog Trichiasis p12"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.058,M128.095,M128.058,M128.095,M99.068,M97.053,M97.053,M128.095,M97.053,M128.095,M128.058,M113.084,M71.037,M128.095,M101.048,M99.068,M113.084,M128.095,M71.037,M128.095,M99.068,M101.048,M101.048,M128.095,M99.068,M87.032,M87.032,M128.095,M99.068,M113.084,M128.095,M115.027,M113.084,M128.095,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.095,M97.053,M71.037,M128.095,M97.053,M128.095,M87.032,M97.053,M101.048,M97.053,M128.095,M99.068,M71.037,M128.095,M101.048,M128.095,M87.032,M97.053,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M97.053,M113.084,M113.084,M97.053,M97.053,M57.021,M57.021,M97.053,M57.021,M57.021,M57.021,M113.084,M57.021,M97.053,M113.084,M113.084,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M57.021,M57.021,M57.021,M113.084,M57.021,M57.021,M57.021,M113.084,M57.021,M57.021,M57.021,M113.084,M57.021,M57.021,M57.021,M113.084,M57.021,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M57.021,M128.095,M97.053,M113.084,M128.058,M99.068,M115.027,M101.048,M87.032,M71.037,M129.043,M147.068,M57.021,M128.095,M97.053,M113.084,M128.058,M99.068,M115.027,0=4,"
+"Loaded_Frequencies=M71.037=1,M115.027,M114.043,M128.095,M87.032,M128.058,M99.068,M113.084,M128.095,M71.037,M115.027,M114.043,M128.095,M87.032,M128.058,M99.068,M113.084,M128.095,M71.037,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M99.068,M113.084,M128.095,M71.037,M115.027,M114.043,M128.095,M87.032,M128.058,M99.068,M113.084,M128.095,M71.037,M115.027,M114.043,M128.095,M87.032,M128.058,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M128.095,M71.037,M115.027,M114.043,M128.095,M87.032,M128.058,M99.068,M113.084,M128.095,M71.037,M115.027,M114.043,M128.095,M87.032,M128.058,M99.068,M113.084,0=4,"
+"[/Preset]"

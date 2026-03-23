@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Animal Detox (Microchip Radiation & Plastics) (P)"
+"Preset_Notes=Animal Detox (Microchip Radiation & Plastics) for Plasma
+
+The detoxification of animals from modern environmental stressors focuses on two primary vectors: radiofrequency (RF) emissions from implanted microchips and the systemic accumulation of microplastics (and associated phthalates). Microchip radiation, while low-frequency, can create localized tissue stress and potentially disrupt the animal’s bio-energetic field at the implantation site (typically the dorsal midline between the scapulae). Meanwhile, microplastics act as endocrine disruptors, leaching bisphenols that mimic estrogen and interfere with metabolic health. Peptide therapy in this domain focuses on radioprotection, endocrine stabilization, and the enhancement of phagocytic pathways to clear particulate matter.
+
+1. Radioprotective Axis: CBLB502 (Entolimod) - A derivative of bacterial flagellin that activates TLR5 signaling to protect hematopoietic and gastrointestinal cells from radiation-induced apoptosis.
+2. Endocrine Restoration: Kisspeptin-10 - A hypothalamic peptide used to counteract the estrogenic effects of plasticizers (BPA/Phthalates) on the reproductive axis.
+3. Particulate Clearance: Tuftsin - A natural tetrapeptide that stimulates macrophages and polymorphonuclear leukocytes to enhance the phagocytosis of microplastic debris.
+4. DNA Repair Support: P53-derived Peptide - A synthetic sequence designed to stabilize the p53 pathway, assisting in the repair of cellular damage caused by chronic low-level RF exposure.
+5. Xenobiotic Conjugation: Glutathione-mimetic (GSH-P2) - An engineered tripeptide that boosts intracellular glutathione levels to facilitate the liver’s Phase II detoxification of plastic-associated toxins.
+6. Lymphatic Drainage: VEP-1 - A vascular endothelial growth factor-derived peptide that promotes lymphatic vessel integrity to assist in the systemic flushing of environmental toxins.
+7. Neural Shielding: Semax - A melanocortin-derived peptide that provides neuroprotection and reduces oxidative stress in the central nervous system potentially impacted by RF fields.
+8. Optimization Axis: NanoClear-V3 - An engineered polypeptide containing repeating histidine and cysteine motifs designed to bind and facilitate the excretion of plastic-derived chemical additives.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Animal Detox (Microchip Radiation & Plastics) p01"
+"Loaded_Programs=Animal Detox (Microchip Radiation & Plastics) p02"
+"Loaded_Programs=Animal Detox (Microchip Radiation & Plastics) p03"
+"Loaded_Programs=Animal Detox (Microchip Radiation & Plastics) p04"
+"Loaded_Programs=Animal Detox (Microchip Radiation & Plastics) p05"
+"Loaded_Programs=Animal Detox (Microchip Radiation & Plastics) p06"
+"Loaded_Programs=Animal Detox (Microchip Radiation & Plastics) p07"
+"Loaded_Programs=Animal Detox (Microchip Radiation & Plastics) p08"
+"Loaded_Frequencies=M129.043=1,M156.101,M113.084,M156.101,M156.101,M113.084,M113.084,M115.027,M129.043,M114.043,M113.084,M129.043,M128.095,M131.040,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M128.058,M113.084,M129.043,M156.101,M131.040,M156.101,M156.101,M163.063,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,M103.009,M103.009,M114.043,M113.084,M113.084,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M129.043,M97.053,M156.101,M129.043,M129.043,M128.058,M113.084,M129.043,M156.101,M131.040,M156.101,M156.101,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M103.009,M137.059,M103.009,M137.059,M103.009,M137.059,M103.009,M137.059,M103.009,0=4,"
+"[/Preset]"

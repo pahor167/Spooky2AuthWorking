@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Keratin Production (P)"
+"Preset_Notes=Keratin Production for Plasma
+
+Keratin production refers to the biosynthesis of keratin proteins, essential structural components of the epidermis, hair shafts, and nails, providing barrier function, mechanical strength, and protection. Keratinocytes in the skin progressively differentiate, expressing specific keratins (e.g., K1/K10 in suprabasal layers, K6/K16/K17 in activated states), while hair follicles cycle through anagen (growth with high keratin synthesis in matrix cells), catagen, and telogen phases. Impaired or suboptimal keratin production manifests in aging skin (thinned barrier, reduced KRT expression), hair thinning/alopecia (shortened anagen, weak shafts), brittle nails, or wound healing delays due to insufficient proliferation/differentiation of keratinocytes and follicle stem cells. Pathophysiology involves dysregulation of pathways like EGF/FGF for proliferation, actin dynamics for migration, and ECM remodeling for support, leading to oxidative damage, inflammation, or stem cell quiescence reducing keratin output.
+
+The proposed polypeptides target key mechanisms to enhance keratin production across cutaneous and follicular compartments. Real GHK, a natural copper-binding tripeptide, promotes regenerative gene expression, growth factor release, and fibroblast/keratinocyte activity to bolster skin barrier and hair follicle keratin. Real Thymosin {beta}4 accelerates follicle stem cell activation, migration, and anagen entry for robust hair shaft keratin synthesis in models. Real Bioactive Keratin Peptide, derived from conserved keratin regions, directly stimulates keratinocyte and fibroblast proliferation to amplify epidermal keratin output. Designed polypeptides incorporate terminal capping (N-acetylation and C-amidation) on literature-derived cores for proteolytic resistance and improved pharmacokinetics while preserving bioactivity: the capped keratin core truncates the bioactive motif retaining proliferative stimuli; the capped TB4 core focuses on the central actin-binding and signaling region for follicle support; the capped remodeling peptide adapts a collagen-modulating sequence for ECM optimization aiding keratinocyte function. This multi-axis approach provides comprehensive enhancement of keratin production for skin barrier integrity and hair growth.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Keratin Production p01"
+"Loaded_Programs=Keratin Production p02"
+"Loaded_Programs=Keratin Production p03"
+"Loaded_Programs=Keratin Production p04"
+"Loaded_Programs=Keratin Production p05"
+"Loaded_Programs=Keratin Production p06"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M99.068,M114.043,M101.048,M113.084,M156.101,M87.032,M128.058,M113.084,M57.021,M115.027,M156.101,M113.084,M114.043,M99.068,M129.043,M99.068,M115.027,M71.037,M71.037,M97.053,M101.048,M99.068,M115.027,M113.084,M114.043,M128.058,M99.068,M113.084,M114.043,M129.043,M101.048,M156.101,M87.032,M128.058,M163.063,M129.043,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M170.069=1,M113.084,M57.021,M115.027,M156.101,M113.084,M114.043,M99.068,M129.043,M99.068,M115.027,M71.037,M71.037,M97.053,M101.048,M99.068,M115.027,M113.084,M114.043,M128.058,M99.068,M113.084,M114.043,M128.059,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M127.074,0=4,"
+"Loaded_Frequencies=M173.051=1,M57.021,M128.095,M99.068,M99.068,M114.043,M97.053,M101.048,M128.058,M127.111,0=4,"
+"[/Preset]"

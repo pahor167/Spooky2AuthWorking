@@ -1,0 +1,61 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Chorea (S)"
+"Preset_Notes=Chorea for Scalar
+
+Chorea is a neurological disorder characterized by involuntary, irregular, and unpredictable movements that appear to flow randomly from one body part to another, often resembling dancing or fidgety behavior. The causes of chorea are diverse, including genetic factors such as Huntington's disease (HD) due to CAG repeat expansions in the HTT gene leading to mutant huntingtin protein, autoimmune conditions like Sydenham's chorea following group A streptococcal infection, drug-induced chorea from medications like levodopa or antipsychotics, metabolic disorders (e.g., hyperthyroidism, hypoglycemia), vascular events (strokes affecting basal ganglia), infections (e.g., HIV, syphilis), and paraneoplastic syndromes. Symptoms manifest as jerky movements affecting limbs, face, or trunk, impaired coordination, gait instability, dysarthria, dysphagia, and in chronic cases like HD, progressive cognitive impairment, psychiatric disturbances (depression, irritability), and eventual bradykinesia or dystonia. Pathophysiology typically involves dysfunction in the basal ganglia, particularly the striatum, with imbalance between direct (facilitatory) and indirect (inhibitory) pathways, resulting in reduced inhibition of thalamocortical motor circuits; in HD, mutant huntingtin aggregates cause neuronal apoptosis via excitotoxicity, oxidative stress, mitochondrial dysfunction, caspase activation, and inflammation; autoimmune chorea involves molecular mimicry with antibodies targeting basal ganglia neurons; overall, disrupted dopaminergic, glutamatergic, and GABAergic neurotransmission underlies the hyperkinetic movements.
+
+The proposed polypeptides address chorea by targeting key pathophysiological mechanisms, primarily in genetic and autoimmune forms like HD and Sydenham's. P42 interacts with huntingtin to prevent aggregation and enhance BDNF signaling, mitigating neuronal loss. QBP1 specifically binds expanded polyglutamine repeats to inhibit misfolding and toxicity. Exendin-4 activates GLP-1 receptors to improve metabolic function, reduce brain pathology, and provide neuroprotection. PACAP modulates glutamatergic signaling and promotes dendritic growth to counteract synaptic dysfunction. Ceruletide influences dopamine systems to acutely and chronically reduce involuntary movements. C16 inhibits integrin-mediated inflammation, reducing leukocyte infiltration and protecting the blood-brain barrier. The remaining polypeptides are designed: designed polypeptides for caspase inhibition compete with cleavage sites to prevent protein fragmentation and apoptosis; designed for mitochondrial protection stabilize complexes and reduce ROS production; designed for dopamine modulation act as stabilizers to balance neurotransmission and lessen hyperkinesia; designed for purinergic signaling target adenosine receptors to attenuate excitotoxicity; designed for gut-brain axis modulate microbiota-inflammation pathways to curb neuroinflammation; designed for opioid system mimic endogenous peptides to regulate motor control; designed for BDNF enhancement upregulate expression for neuronal maintenance; designed for gene modulation alter mutant gene effects via epigenetic mimicry; designed for neuronal survival activate growth factor pathways; designed for excitotoxicity block NMDA receptors selectively; designed for oxidative stress incorporate antioxidant motifs; designed for stem cell promotion stimulate progenitor differentiation. These are feasible with optimized sequences for stability, half-life, and BBB penetration via nasal or injectable routes, supported by existing peptide drugs; designed ones are conceptual, requiring preclinical testing but grounded in known biology.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Chorea p01"
+"Loaded_Programs=Chorea p02"
+"Loaded_Programs=Chorea p03"
+"Loaded_Programs=Chorea p04"
+"Loaded_Programs=Chorea p05"
+"Loaded_Programs=Chorea p06"
+"Loaded_Programs=Chorea p07"
+"Loaded_Programs=Chorea p08"
+"Loaded_Programs=Chorea p09"
+"Loaded_Programs=Chorea p10"
+"Loaded_Programs=Chorea p11"
+"Loaded_Programs=Chorea p12"
+"Loaded_Programs=Chorea p13"
+"Loaded_Programs=Chorea p14"
+"Loaded_Programs=Chorea p15"
+"Loaded_Programs=Chorea p16"
+"Loaded_Programs=Chorea p17"
+"Loaded_Programs=Chorea p18"
+"Loaded_Frequencies=M71.037=1,M71.037,M87.032,M87.032,M57.021,M99.068,M87.032,M101.048,M97.053,M57.021,M87.032,M71.037,M57.021,M137.059,M115.027,M113.084,M113.084,M101.048,M129.043,M128.058,M97.053,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M114.043,M186.079,M128.095,M186.079,M186.079,M97.053,M57.021,M113.084,M147.068,M115.027,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,M57.021,M128.095,M156.101,M163.063,M128.095,M128.058,M156.101,M99.068,M128.095,M114.043,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M128.058,M115.027,M243.020,M101.048,M57.021,M186.079,M131.040,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M71.037,M147.068,M115.027,M113.084,M101.048,M163.063,M99.068,M156.101,M113.084,M128.095,M147.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M99.068,M99.068,M113.084,M115.027,M101.048,M71.037,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M99.068,M128.095,M113.084,M97.053,M128.058,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M87.032,M97.053,M99.068,M113.084,M147.068,M57.021,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.058,M156.101,M101.048,M163.063,M87.032,M114.043,M131.040,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M113.084,M128.095,M113.084,M131.040,M114.043,M97.053,0=4,"
+"Loaded_Frequencies=M147.068=1,M163.063,M186.079,M71.037,M87.032,M115.027,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M128.058=1,M97.053,M87.032,M156.101,M99.068,M101.048,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M128.095,M131.040,M97.053,M128.058,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M99.068,M163.063,M147.068,M57.021,M137.059,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M114.043=1,M97.053,M128.058,M156.101,M87.032,M101.048,M99.068,M186.079,0=4,"
+"Loaded_Frequencies=M103.009=1,M131.040,M87.032,M101.048,M163.063,M99.068,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.095,M113.084,M128.058,M131.040,M114.043,M113.084,M99.068,0=4,"
+"[/Preset]"

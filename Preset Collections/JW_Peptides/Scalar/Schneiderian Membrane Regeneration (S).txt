@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Schneiderian Membrane Regeneration (S)"
+"Preset_Notes=Schneiderian Membrane Regeneration for Scalar
+
+Schneiderian membrane regeneration involves the repair and regrowth of the mucous membrane lining the maxillary sinus, often necessary after perforations during sinus floor augmentation procedures in dentistry. This condition can lead to complications such as graft migration, infection, and failed bone integration if not properly addressed. Therapeutic approaches focus on sealing the perforation, promoting bone and tissue healing, and leveraging the membrane's innate regenerative potential. The identified therapeutic axes are: 1. Guided tissue regeneration via barrier function to seal perforations and promote healing without graft migration. Assigned real-world polypeptide: P-15 (sequence GTPGPQGIAGQRGVV), a collagen-derived peptide that mimics ECM and supports cell attachment and tissue integration, documented in dental regeneration studies. Assigned engineered polypeptide: Designed Self-Assembling Barrier Peptide (sequence RADARADARADARADA with N-ac and C-am), derived from self-assembling motifs to form a hydrogel barrier, enhancing membrane repair by providing a stable scaffold. 2. Osteogenic promotion to stimulate bone formation under the membrane. Assigned real-world polypeptide: BMP-2 Knuckle Epitope (sequence KIPKASSVPTELSAISTLYL), a peptide from BMP-2 that induces osteoblast differentiation, used in bone regeneration literature. Assigned engineered polypeptide: Designed Osteogenic Peptide (sequence ALVKIPKASSVPTELSAISTLYL), an extended and modified version for improved stability and activity in sinus bone augmentation. 3. Wound healing enhancement to accelerate tissue repair. Assigned real-world polypeptide: PDGF2 (sequence RLIDRTNANFL), derived from PDGF-BB, promotes cell proliferation and migration in wound healing studies. Assigned engineered polypeptide: Designed Wound Healing Peptide (sequence RLIDRTNANFLVRKIEIVRKK), combining PDGF motifs with mimicking sequences to enhance vascularization and healing in the membrane. 4. Epithelial regeneration to restore the mucosal lining. Assigned real-world polypeptide: Osteopontin-derived Peptide (sequence SVVYGLR), promotes cell migration and angiogenesis in oral tissue studies. Assigned engineered polypeptide: Designed Epithelial Regeneration Peptide (sequence SVVYGLRKGD), modified with positive charge and adhesion motif to improve epithelial cell attachment and regeneration. 5. Stem cell activation to leverage progenitor cells in the membrane for regeneration. Assigned real-world polypeptide: Dentonin (sequence TDLQERGDNDISPFSGDGQPFKD), stimulates stem cell differentiation in dental pulp regeneration. Assigned engineered polypeptide: Designed Stem Cell Activation Peptide (sequence KLDLKLDLKLDLRGD), self-assembling hydrogel with adhesion motif to recruit and activate progenitor cells for membrane repair.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Schneiderian Membrane Regeneration p01"
+"Loaded_Programs=Schneiderian Membrane Regeneration p02"
+"Loaded_Programs=Schneiderian Membrane Regeneration p03"
+"Loaded_Programs=Schneiderian Membrane Regeneration p04"
+"Loaded_Programs=Schneiderian Membrane Regeneration p05"
+"Loaded_Programs=Schneiderian Membrane Regeneration p06"
+"Loaded_Programs=Schneiderian Membrane Regeneration p07"
+"Loaded_Programs=Schneiderian Membrane Regeneration p08"
+"Loaded_Programs=Schneiderian Membrane Regeneration p09"
+"Loaded_Programs=Schneiderian Membrane Regeneration p10"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M97.053,M128.095,M71.037,M87.032,M87.032,M99.068,M97.053,M101.048,M129.043,M113.084,M87.032,M71.037,M113.084,M87.032,M101.048,M113.084,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M113.084,M115.027,M156.101,M101.048,M114.043,M71.037,M114.043,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M99.068,M163.063,M57.021,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M115.027,M113.084,M128.058,M129.043,M156.101,M57.021,M115.027,M114.043,M115.027,M113.084,M87.032,M97.053,M147.068,M87.032,M57.021,M115.027,M57.021,M128.058,M97.053,M147.068,M128.095,M115.027,0=4,"
+"Loaded_Frequencies=M198.112=1,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M70.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M99.068,M128.095,M113.084,M97.053,M128.095,M71.037,M87.032,M87.032,M99.068,M97.053,M101.048,M129.043,M113.084,M87.032,M71.037,M113.084,M87.032,M101.048,M113.084,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M113.084,M115.027,M156.101,M101.048,M114.043,M71.037,M114.043,M147.068,M113.084,M99.068,M156.101,M128.095,M113.084,M129.043,M113.084,M99.068,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M99.068,M163.063,M57.021,M113.084,M156.101,M128.095,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M115.027,M113.084,M128.095,M113.084,M115.027,M113.084,M128.095,M113.084,M115.027,M113.084,M156.101,M57.021,M115.027,0=4,"
+"[/Preset]"

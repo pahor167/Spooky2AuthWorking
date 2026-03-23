@@ -1,0 +1,22 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"Repeat_Chain=0"
+"PresetName=S78 Morgellons Infrastructure Y - DB"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Spooky Scalar.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Luciferin AM_Deb CUST
+Luciferin AM_Res CUST
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Loaded_Programs=Luciferin AM_Deb (CUST)"
+"Loaded_Programs=Luciferin AM_Res (CUST)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=6335.62=600,6335.63=600,4834862.37=600,4834862.38=600,4834861.9-4834862.9=600,6425.93=600,6425.94=600,4903787.23=600,4903787.24=600,"
+"Loaded_Frequencies=4479.96=600,4479.97=600,3418763.97=600,3418763.98=600,3418763.5-3418764.5=600,4543.82=600,4543.83=600,3467501.2=600,3467501.21=600,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

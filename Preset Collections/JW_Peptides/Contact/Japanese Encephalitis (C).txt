@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Japanese Encephalitis (C)"
+"Preset_Notes=Japanese Encephalitis for Contact
+
+Japanese Encephalitis (JE) is a potentially severe mosquito-borne viral disease caused by the Japanese Encephalitis Virus (JEV), a single-stranded RNA flavivirus primarily transmitted by Culex mosquitoes in Asia and parts of the Western Pacific. The majority of infections are asymptomatic, but approximately 1 in 250 develops severe clinical disease, characterized by rapid onset of high fever, headache, neck stiffness, disorientation, tremors, seizures, altered consciousness, and paralysis. In severe cases, it progresses to encephalitis with significant neuronal damage, leading to a case fatality rate of 20-30% and permanent neurologic or psychiatric sequelae in 30-50% of survivors. Pathophysiology involves viral replication in extraneural tissues, viremia, crossing of the blood-brain barrier (BBB), direct neuronal infection, massive neuroinflammation driven by proinflammatory cytokines (e.g., TNF-{alpha}, IL-6), oxidative stress, excitotoxicity, BBB disruption, and neuronal apoptosis.
+
+There is no approved specific antiviral treatment for JE; management is supportive. The proposed set of polypeptides targets multiple therapeutic axes identified from scientific literature: viral attachment/entry inhibition (E protein domain III binding), viral fusion inhibition (stem region), viral replication inhibition (NS3 helicase), reduction of neuroinflammation, protection of BBB integrity, and neuronal protection. Real-world polypeptides (5 identified from published studies with verifiable activity against JEV) primarily address viral entry, attachment, and replication. Designed polypeptides supplement to cover all axes, including fusion inhibition, neuroinflammation reduction, BBB protection, and neuronal protection (all designed polypeptides are flagged as conceptual, incorporating non-standard residues for enhanced stability/diversity, with strict adherence to physicochemical constraints).
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Japanese Encephalitis p01"
+"Loaded_Programs=Japanese Encephalitis p02"
+"Loaded_Programs=Japanese Encephalitis p03"
+"Loaded_Programs=Japanese Encephalitis p04"
+"Loaded_Programs=Japanese Encephalitis p05"
+"Loaded_Programs=Japanese Encephalitis p06"
+"Loaded_Programs=Japanese Encephalitis p07"
+"Loaded_Programs=Japanese Encephalitis p08"
+"Loaded_Programs=Japanese Encephalitis p09"
+"Loaded_Programs=Japanese Encephalitis p10"
+"Loaded_Programs=Japanese Encephalitis p11"
+"Loaded_Programs=Japanese Encephalitis p12"
+"Loaded_Programs=Japanese Encephalitis p13"
+"Loaded_Programs=Japanese Encephalitis p14"
+"Loaded_Programs=Japanese Encephalitis p15"
+"Loaded_Programs=Japanese Encephalitis p16"
+"Loaded_Programs=Japanese Encephalitis p17"
+"Loaded_Programs=Japanese Encephalitis p18"
+"Loaded_Frequencies=M101.048=1,M97.053,M115.027,M102.001,M101.048,M156.101,M186.079,M186.079,M102.001,M97.053,M113.084,M101.048,0=4,"
+"Loaded_Frequencies=M87.032=1,M129.043,M114.043,M156.101,M128.095,M99.068,M97.053,M147.068,M163.063,M87.032,M137.059,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M101.048,M87.032,M87.032,M71.037,M114.043,M87.032,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M57.021,M156.101,M99.068,M57.021,M156.101,M114.043,M97.053,M114.043,M128.058,M99.068,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M102.001,M156.101,M102.001,M113.084,M102.001,M57.021,M156.101,M57.021,M113.084,M102.001,M156.101,M102.001,M113.084,M102.001,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M128.095,M114.079,M102.001,M57.021,M113.048,M86.048,M102.001,M128.095,M114.079,M113.048,M102.001,M57.021,M128.095,M86.048,M102.001,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M114.079,M86.048,M128.095,M57.021,M114.079,M86.048,M128.095,M57.021,M114.079,M86.048,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M128.095,M57.021,M102.001,M113.048,M128.095,M57.021,M102.001,M113.048,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M114.079,M128.095,M86.048,M57.021,M114.079,M86.048,M128.095,M57.021,M114.079,M86.048,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M115.027,M129.043,M86.048,M102.001,M114.079,M113.048,M102.001,M115.027,M129.043,M86.048,M102.001,M114.079,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M114.043=1,M113.084,M87.032,M114.043,M57.021,M113.048,M114.079,M87.032,M114.043,M57.021,M113.048,M114.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M156.101,M102.001,M114.079,M57.021,M102.001,M128.095,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.079,M71.037,M87.032,M163.063,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M128.095,M114.079,M128.095,M102.001,M86.048,M57.021,M86.048,M57.021,M102.001,M114.079,M128.095,M114.079,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M57.021,M156.101,M128.095,M57.021,M114.079,M86.048,M57.021,M114.079,M86.048,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M97.053,M113.048,M102.001,M57.021,M97.053,M113.048,M102.001,M57.021,M97.053,M113.048,0=4,"
+"Loaded_Frequencies=M114.043=1,M131.040,M129.043,M71.037,M137.059,M147.068,M101.048,M115.027,M97.053,M71.037,M87.032,M163.063,M114.079,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M150.954,M128.095,M102.001,M99.068,M71.037,M102.001,M113.084,M150.954,M128.095,M102.001,0=4,"
+"[/Preset]"

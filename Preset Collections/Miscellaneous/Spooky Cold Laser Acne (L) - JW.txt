@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW.txt"
+"PresetName=Spooky Cold Laser Acne (L) - JW"
+"BFB_Start_Frequency=11000000"
+"BFB_Finish_Frequency=13000000"
+"BFB_Include_Octave=0"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_Hz=3200"
+"BFB_Initial_Step_Size_Hz_Selected=True"
+"BFB_Initial_Step_Size_%=.25"
+"BFB_Initial_Step_Size_%_Selected=False"
+"BFB_Max_Hits_To_Find=10"
+"BFB_Start_Delay=30"
+"BFB_Threshold=.4"
+"BFB_Refine_Percentage=1"
+"BFB_Reverse_Lookup_Tolerance=.25"
+"BFB_Include_x_Hz_In_Search=0"
+"BFB_Angle=False"
+"BFB_After_Scan_Run_Hits=0"
+"BFB_Repeat_BFB=1"
+"BFB_After_Scan_Run_On_Gen=0"
+"BFB_Continue_Refining_Hits=0"
+"BFB_Detect_mA=True"
+"BFB_Max_HRV=20"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Duty_Cycle=71.42857"
+"Out1_Offset=-100"
+"Out2_Offset=-100"
+"Preset_Notes=Acne treatment using Spooky Cold Laser.
+
+This Preset is designed to treat acne and help reduce acne causing bacteria.
+Scientific trials showed that treatments using 250 millisecond laser pulses spaced 100 milliseconds apart for 35 seconds reduced acne in subjects. This Preset replicates the methods used in the studies.
+
+The Preset loops indefinitely until stopped. Treat small areas of your skin at a time, moving between areas after each loop has completed. Spooky will make a sound at the end of each loop.
+
+Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided.
+"
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"F1_Factor=8"
+"Schedule_Run_From=Midnight"
+"Schedule_Run_To=Midnight"
+"InverseWave=False"
+"Enable_Invert_Square=1"
+"Enable_Invert_Spike_Waveform=0"
+"Loaded_Programs=Acne Vulgaris Cold Laser (CUST)"
+"Loaded_Frequencies=2.857142=35,0=5,"
+"[/Preset]"

@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Dog Balanoposthitis (Excessive Smegma) (L)"
+"Preset_Notes=Dog Balanoposthitis (Excessive Smegma) for Laser
+
+Canine balanoposthitis involves inflammation of the prepuce and penis, often with bacterial overgrowth leading to excessive smegma discharge, odor, and discomfort. The proposed polypeptides target key axes from veterinary infection, inflammation, and mucosal repair literature, including antimicrobial clearance, cytokine resolution, and tissue regeneration, with mechanistic relevance and documented safety/use in dogs where applicable.
+
+1. Human cathelicidin broad-spectrum antimicrobial: LL-37 directly disrupts bacterial membranes and biofilms, with efficacy against pathogens in canine infection models.
+2. Stable gastric pentadecapeptide mucosal healing: BPC-157 enhances tissue integrity, angiogenesis, and recovery, with established veterinary applications in dogs.
+3. Thymosin {beta}4-derived fragment repair promotion: TB-500 (Ac-LKKTETQ-NH2) accelerates cell migration and regeneration, widely used in canine tissue healing.
+4. {alpha}-MSH-derived tripeptide inflammation resolution: KPV suppresses pro-inflammatory cytokines to mitigate swelling and discomfort.
+5. Copper-binding tripeptide epithelial remodeling: GHK-Cu promotes antioxidant activity, collagen synthesis, and wound healing support.
+6. Bovine cathelicidin-derived selective modulator: IDR-1018 (VRLIVAVRIWRR-NH2, engineered) optimizes macrophage responses and antimicrobial effects without excess inflammation for refined infection control.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Dog Balanoposthitis (Excessive Smegma) p01"
+"Loaded_Programs=Dog Balanoposthitis (Excessive Smegma) p02"
+"Loaded_Programs=Dog Balanoposthitis (Excessive Smegma) p03"
+"Loaded_Programs=Dog Balanoposthitis (Excessive Smegma) p04"
+"Loaded_Programs=Dog Balanoposthitis (Excessive Smegma) p05"
+"Loaded_Programs=Dog Balanoposthitis (Excessive Smegma) p06"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.059,M156.101,M113.084,M128.095,M97.053,M156.101,M113.084,M99.068,M101.048,M129.043,M87.032,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.093,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M156.101,0=4,"
+"[/Preset]"

@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Hormonal Balance (Men) (C)"
+"Preset_Notes=Hormonal Balance (Men) for Contact
+
+Hormonal balance in men refers to the optimal regulation of key hormones such as testosterone, cortisol, growth hormone, thyroid hormones, and others, which can be disrupted by aging, stress, or metabolic issues leading to symptoms like fatigue, reduced libido, mood changes, and muscle loss. 
+
+Peptides are selected to stimulate the HPG axis for testosterone production, modulate stress and appetite pathways, regulate vascular and fluid homeostasis, enhance neuromodulation for arousal and pain relief, and support metabolic functions; real-world peptides from validated endocrine studies are prioritized, with designed peptides flagged to cover antioxidant and immunomodulatory axes for comprehensive balance.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Hormonal Balance (Men) p01"
+"Loaded_Programs=Hormonal Balance (Men) p02"
+"Loaded_Programs=Hormonal Balance (Men) p03"
+"Loaded_Programs=Hormonal Balance (Men) p04"
+"Loaded_Programs=Hormonal Balance (Men) p05"
+"Loaded_Programs=Hormonal Balance (Men) p06"
+"Loaded_Programs=Hormonal Balance (Men) p07"
+"Loaded_Programs=Hormonal Balance (Men) p08"
+"Loaded_Programs=Hormonal Balance (Men) p09"
+"Loaded_Programs=Hormonal Balance (Men) p10"
+"Loaded_Programs=Hormonal Balance (Men) p11"
+"Loaded_Programs=Hormonal Balance (Men) p12"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.043,M97.053,M57.021,M129.043,M115.027,M71.037,M97.053,M71.037,M129.043,M115.027,M113.084,M71.037,M156.101,M163.063,M163.063,M87.032,M71.037,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M101.048,M156.101,M128.058,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,M101.048,M87.032,M129.043,M128.095,M87.032,M128.058,M101.048,M97.053,M113.084,M99.068,M101.048,M113.084,M147.068,M128.095,M114.043,M71.037,M113.084,M113.084,M128.095,M114.043,M71.037,M163.063,M128.095,M128.095,M57.021,M129.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M87.032,M101.048,M163.063,M87.032,M113.084,M128.095,M113.084,M128.095,M115.027,M87.032,M87.032,M71.037,M128.095,M113.084,M113.084,M128.095,M113.084,M113.084,M128.095,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M113.084,M97.053,M71.037,M57.021,M57.021,M57.021,M101.048,M99.068,M113.084,M101.048,M128.095,M131.040,M163.063,M97.053,M156.101,M57.021,M114.043,M137.059,M186.079,M71.037,M99.068,M57.021,M137.059,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M115.027=1,M57.021,M128.095,M156.101,M87.032,M101.048,M128.058,M129.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M137.059,M114.043,M128.095,M97.053,M87.032,M115.027,M128.058,M156.101,M102.001,0=4,"
+"[/Preset]"

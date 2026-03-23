@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dracunculiasis (C)"
+"Preset_Notes=Dracunculiasis for Contact
+
+Dracunculiasis, or Guinea worm disease, is a neglected tropical disease caused by the parasitic nematode Dracunculus medinensis, characterized by painful adult worm emergence through skin blisters, often complicated by secondary bacterial infections. Targeted for eradication via prevention and surveillance, with no specific anthelmintic therapy, polypeptide approaches leverage immunoreactive secreted antigens for early serological detection in reservoirs (facilitating intervention) and potential vaccine immunity, complemented by antimicrobial peptides for symptom management.
+
+Therapeutic axes and assigned polypeptides:
+
+1. Targeting secreted DUF148 N-terminal epitope: DUF148 N-Terminal Peptide (real) - synthetic peptide eliciting IgG response for prepatent detection and possible protective immunity.
+
+2. Targeting secreted DUF148 central overlapping epitope: DUF148 Central Peptide (real) - enhances overall antigen coverage for serological reactivity.
+
+3. Targeting secreted DUF148 C-terminal epitope: DUF148 C-Terminal Peptide (real) - most sensitive motif for early prepatent antibody detection.
+
+4. Direct electrostatic disruption of parasite cuticle: Cuticle-Disrupting Cationic Peptide (designed) - engineered amphipathic sequence for binding negatively charged helminth surface and membrane perturbation.
+
+5. Prevention and treatment of secondary bacterial infections: Pexiganan (real) - broad-spectrum cationic AMP with documented preclinical/clinical activity against wound pathogens.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dracunculiasis p01"
+"Loaded_Programs=Dracunculiasis p02"
+"Loaded_Programs=Dracunculiasis p03"
+"Loaded_Programs=Dracunculiasis p04"
+"Loaded_Programs=Dracunculiasis p05"
+"Loaded_Frequencies=M128.058=1,M147.068,M115.027,M115.027,M115.027,M113.084,M97.053,M97.053,M147.068,M113.084,M128.095,M57.021,M71.037,M97.053,M128.058,M87.032,M101.048,M113.084,M128.095,M129.043,M147.068,M129.043,M101.048,M113.084,M113.084,M128.058,M114.043,M57.021,M128.058,M87.032,M128.058,M101.048,M115.027,M128.058,M128.058,M113.084,M115.027,M71.037,M114.043,M113.084,M114.043,M71.037,M186.079,M113.084,M71.037,M128.095,M128.058,M101.048,M87.032,M71.037,0=4,"
+"Loaded_Frequencies=M114.043=1,M113.084,M114.043,M71.037,M186.079,M113.084,M71.037,M128.095,M128.058,M101.048,M87.032,M71.037,M113.084,M128.058,M114.043,M71.037,M163.063,M156.101,M101.048,M147.068,M131.040,M71.037,M128.058,M113.084,M156.101,M101.048,M71.037,M128.058,M128.058,M128.058,M71.037,M129.043,M128.058,M71.037,M156.101,M156.101,M101.048,M131.040,M113.084,M71.037,M128.095,M147.068,M87.032,M71.037,M115.027,M71.037,M156.101,M71.037,M71.037,M115.027,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M147.068,M87.032,M71.037,M115.027,M71.037,M156.101,M71.037,M71.037,M115.027,M71.037,M128.058,M113.084,M101.048,M128.095,M113.084,M71.037,M129.043,M115.027,M97.053,M156.101,M113.084,M101.048,M57.021,M129.043,M128.058,M128.095,M128.058,M71.037,M128.095,M113.084,M129.043,M71.037,M101.048,M147.068,M128.095,M57.021,M87.032,M128.095,M113.084,M87.032,M114.043,M163.063,M114.043,M87.032,M156.101,M128.095,M103.009,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M156.101,M128.095,M128.095,M113.084,M156.101,M128.095,M147.068,M113.084,M156.101,M128.095,M113.084,M113.084,M128.095,M156.101,M147.068,M113.084,M128.095,M128.095,M112.10,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,24 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW.txt"
+"Gate_On_Off_Duration_Option=True"
+"PresetName=Human Herpesvirus 2 (P) - MM"
+"Preset_Notes=Human Herpesvirus 2 Plasma preset. By Manuel Mallo
+
+I have prepared a preset for Human Herpesvirus 2, also known as genital herpes.
+
+This preset comprises all the 10 known strains of this creature.
+
+As the dwell time is not very long, plasma and contact modes are recommended. Remote mode must be run nonstop for almost a week to see results.
+
+This virus tend to reside in the sacral ganglia, so, you can expect some discomfort in the area.
+
+It is estimated that about 80% of adult people have the HHV1 or HHV2, proving how efficient in spreading they are.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+Place the plasma tube near to, or touching, your body. Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=MM_Human Herpesvirus 2 (CUST)"
+"Loaded_Frequencies=8970092.158=180,8931098.33=180,8906011.325=180,8874394.303=180,8808330.748=180,8796742.523=180,8788123.054=180,8786741.427=180,8785822.03=180,8785821.753=180,"
+"[/Preset]"

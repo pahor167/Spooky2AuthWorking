@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"PresetName=1. Liver"
+"Loaded_Frequencies=13427.72=2455,317.82=409,33.13=409,1552=409,802=409,751=409,143=245,238=245,275=245,676=245,763=245,33.13=245,537=245,751=245,802=245,1550=245,1552=245,0=245,"
+"Loaded_Programs=1. Liver"
+"Preset_Notes=Cancer Protocol, Coil Plus method, Generator 1, for Coil. 
+
+This preset contains Coil frequency sets for Spooky Coil. Run this preset concurrently with the presets 'Coil2/Gen2 (R) - BY'. See '\Cancer\BY\Cancer Presets.pdf' for a schedule to run these presets.
+
+The entire schedule for this protocol is in the notes of 'Coil2/Gen2 (Coil) - BY'. Here is the schedule for this preset:
+  Generator 1, Coil2/Gen1/Liver (Coil) - BY
+    Day 7
+    Day 8
+
+This preset has the following programs:
+
+Liver: Liver 1 - PROV, Liver 2 - PROV, Liver Flukes - CAFL, Liver Function Balance - XTRA
+
+Here is a table to find the beginning of each day in this preset:
+1: Liver
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost on Generator 1, or to Out 1 of Generator 1 if you don't have Spooky Boost.
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"

@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Plant Temperature Tolerance (Hot and Cold) (S)"
+"Preset_Notes=Plant Temperature Tolerance (Hot and Cold) for Scalar
+
+Plant temperature tolerance involves complex signaling networks that allow sessile organisms to perceive and adapt to thermal extremes. In both heat and cold stress, the cell membrane acts as a primary sensor, initiating cascades that stabilize proteins, maintain membrane fluidity, and regulate water balance. Recent research (2024-2026) has identified specific peptide hormones that act as 'biostimulants,' triggering systemic resistance. These include the CLE family for vascular and stomatal control under heat, and receptor-like kinase modules (CRPK1/KOIN) that stabilize cold-responsive transcription factors.
+
+1. Heat Morphogenesis: CLE45 - Regulates pollen tube growth and vascular architecture to maintain fertility during heat waves
+2. Autophagy Regulation: CESAR-derived peptide - Mimics the selective autophagy receptor to clear heat-damaged proteins
+3. Cold Signal Transduction: CRPK1-p - Phosphorylated cytoplasmic receptor peptide that stabilizes CBF proteins for cold acclimation
+4. Stomatal Control: CLE25 - Root-to-shoot signal that triggers ABA-dependent stomatal closure to prevent heat-induced desiccation
+5. Systemic Defense: Systemin (Tomato) - DAMP-like signaling peptide that boosts general abiotic stress tolerance and tissue integrity
+6. Designed Resilience: [Designed] THERMO-G1 - Synthetic peptide engineered to stabilize Rubisco and photosynthetic machinery under thermal flux
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Plant Temperature Tolerance (Hot and Cold) p01"
+"Loaded_Programs=Plant Temperature Tolerance (Hot and Cold) p02"
+"Loaded_Programs=Plant Temperature Tolerance (Hot and Cold) p03"
+"Loaded_Programs=Plant Temperature Tolerance (Hot and Cold) p04"
+"Loaded_Programs=Plant Temperature Tolerance (Hot and Cold) p05"
+"Loaded_Programs=Plant Temperature Tolerance (Hot and Cold) p06"
+"Loaded_Frequencies=M115.027=1,M114.043,M101.048,M103.009,M129.043,M113.084,M103.009,M71.037,M163.063,M71.037,M71.037,M103.009,M101.048,M57.021,M103.009,0=4,"
+"Loaded_Frequencies=M137.059=1,M129.043,M87.032,M71.037,M156.101,M131.040,M129.043,M101.048,M113.084,M115.027,M114.043,M115.027,0=4,"
+"Loaded_Frequencies=M156.101=1,M147.068,M147.068,M156.101,M71.037,M156.101,M156.101,M156.101,M71.037,M156.101,M156.101,M156.101,M113.084,M101.048,M129.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M99.068,M156.101,M113.084,M156.101,M114.043,M156.101,M156.101,M113.084,M156.101,M113.084,M99.068,M128.095,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M99.068,M128.058,M137.059,M87.032,M115.027,M97.053,M114.043,M128.095,M128.095,M129.043,M101.048,M97.053,M97.053,M114.043,M87.032,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M156.101,M156.101,M71.037,M156.101,M156.101,M156.101,M71.037,M156.101,M156.101,M156.101,M113.084,M101.048,M129.043,0=4,"
+"[/Preset]"

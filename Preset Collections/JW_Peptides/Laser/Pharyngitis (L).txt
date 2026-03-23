@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Pharyngitis (L)"
+"Preset_Notes=Pharyngitis for Laser
+
+Pharyngitis, commonly known as sore throat, is an inflammatory condition affecting the pharynx, often presenting with pain on swallowing, throat discomfort, erythema, and sometimes fever, cervical lymphadenopathy, or exudate. It is predominantly viral in etiology (accounting for 70-95% of cases in adults and 50-80% in children), with common pathogens including rhinoviruses, coronaviruses, adenoviruses, influenza, parainfluenza, and Epstein-Barr virus. Bacterial causes are less frequent, with Group A beta-hemolytic Streptococcus (GAS, S. pyogenes) responsible for 5-15% of adult cases and 20-30% in children, rarely other bacteria like Fusobacterium or Neisseria. Non-infectious causes include allergies, irritants, reflux, or trauma. Pathophysiology involves direct mucosal invasion or immune-mediated inflammation, leading to cytokine release (e.g., IL-6, TNF-{alpha}), NF-{kappa}B activation, prostaglandin production, and bradykinin-mediated pain sensitization, resulting in edema, hyperemia, and neural hypersensitivity.
+
+The proposed polypeptides target three key therapeutic axes: (1) antimicrobial activity against bacterial pathogens, particularly GAS, to eradicate infection and prevent complications like rheumatic fever; (2) anti-inflammatory and cytoprotective effects to mitigate cytokine-driven inflammation and pain in both viral and bacterial forms; (3) broad-spectrum antimicrobial action with mucosal compatibility to support pathogen clearance while preserving epithelial integrity. No established real-world polypeptide therapies were identified for pharyngitis across comprehensive searches of PubMed, patents, and clinical databases; all candidates are designed polypeptides incorporating C-terminal amidation for enhanced stability and drug-likeness, derived from established literature motifs.
+
+The first designed polypeptide is a minimal cathelicidin-derived AMP based on the KR-12 motif from human LL-37 with C-terminal amidation; it exerts bactericidal effects via membrane permeabilization, addressing the bacterial infection axis. The second is a BPC-157 analog derived from the human gastric juice peptide motif with C-terminal amidation; it modulates inflammation, promotes healing, and protects mucosa, targeting the inflammatory axis. The third is a magainin-derived peptide based on the Xenopus magainin-2 sequence with C-terminal amidation; it provides potent antimicrobial activity with low host toxicity and helical disruption mechanism, covering the mucosal-compatible antimicrobial axis.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Pharyngitis p01"
+"Loaded_Programs=Pharyngitis p02"
+"Loaded_Programs=Pharyngitis p03"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M129.043,M113.084,M131.040,M114.043,M87.032,0=4,"
+"[/Preset]"

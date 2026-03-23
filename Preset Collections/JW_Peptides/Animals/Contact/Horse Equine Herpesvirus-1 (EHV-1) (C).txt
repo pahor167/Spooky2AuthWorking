@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Horse Equine Herpesvirus-1 (EHV-1) (C)"
+"Preset_Notes=Horse Equine Herpesvirus-1 (EHV-1) for Contact
+
+Equine Herpesvirus-1 (EHV-1) is an alphaherpesvirus causing respiratory infection, abortion, neonatal death, and neurological disease (equine herpesvirus myeloencephalopathy, EHM) in horses, primarily through cell-associated viremia, endothelial cell infection, vasculitis, and immune evasion. Despite extensive searches across PubMed, reviews, and veterinary sources, no condition-specific therapeutic peptides were identified for EHV-1; selected real-world antimicrobial peptides have documented antiviral activity against herpesviruses or enveloped viruses, while supportive peptides address inflammation and repair axes where no specialized alternatives exist. The proposal includes one engineered peptide for novel optimization.
+
+1. Membrane-disrupting antiviral activity targeting viral envelope: LL-37
+2. Antiviral activity with immunomodulatory effects: Lactoferricin B
+3. Potent direct antiviral action: Indolicidin
+4. Anti-inflammatory effects to reduce vasculitis and cytokine response: KPV
+5. Promotion of vascular integrity and systemic healing: BPC-157
+6. Enhancement of tissue repair and regeneration: TB-500
+7. Neuroprotection and reduction of neuropathic damage in EHM: ARA-290
+8. Broad immune enhancement to support viral clearance: Thymosin_alpha_1
+9. Optimized cationic core for enhanced virucidal activity against EHV-1: Lacto-EHV-Eng (engineered, RRWQWRRKK-NH2; derived from lactoferricin active motif RRWQWR with added Arg/Lys for increased positive charge and envelope binding)
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Horse Equine Herpesvirus-1 (EHV-1) p01"
+"Loaded_Programs=Horse Equine Herpesvirus-1 (EHV-1) p02"
+"Loaded_Programs=Horse Equine Herpesvirus-1 (EHV-1) p03"
+"Loaded_Programs=Horse Equine Herpesvirus-1 (EHV-1) p04"
+"Loaded_Programs=Horse Equine Herpesvirus-1 (EHV-1) p05"
+"Loaded_Programs=Horse Equine Herpesvirus-1 (EHV-1) p06"
+"Loaded_Programs=Horse Equine Herpesvirus-1 (EHV-1) p07"
+"Loaded_Programs=Horse Equine Herpesvirus-1 (EHV-1) p08"
+"Loaded_Programs=Horse Equine Herpesvirus-1 (EHV-1) p09"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M128.058,M186.079,M156.101,M156.101,M128.095,M127.111,0=4,"
+"[/Preset]"

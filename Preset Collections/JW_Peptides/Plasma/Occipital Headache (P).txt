@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Occipital Headache (P)"
+"Preset_Notes=Occipital Headache for Plasma
+
+Occipital headache is a type of head pain localized to the back of the head, often described as throbbing, sharp, or pressure-like, and may radiate to the forehead, temples, or neck. Causes include muscle tension from poor posture or stress, occipital neuralgia due to nerve compression or irritation, cervical spine issues like osteoarthritis or disc herniation, vascular factors such as migraine variants, and less commonly, serious conditions like tumors or infections. Symptoms encompass tenderness over the occipital region, sensitivity to light or sound, nausea, visual disturbances, and exacerbation by head movement or touch, potentially leading to chronic disability if untreated. Pathophysiologically, it involves neurogenic inflammation with release of neuropeptides like CGRP and substance P triggering mast cell activation and cytokine storms (IL-1{beta}, TNF-{alpha}); peripheral and central sensitization amplifying nociceptive signals via trigeminocervical convergence; autonomic dysregulation causing vaso-sudomotor changes; and musculoskeletal strain contributing to referred pain from myofascial trigger points.
+
+The proposed polypeptides target these axes. BPC-157 addresses neurogenic inflammation by modulating cytokines and stabilizing mast cells, reducing inflammatory cascades in occipital nerves. The designed polypeptide for neurogenic inflammation incorporates motifs to inhibit CGRP release and cytokine upregulation. ARA-290 modulates neural sensitization by activating repair receptors, alleviating hypersensitivity in sensitized nerves. The designed polypeptide for neural sensitization targets ion channels to desensitize nociceptors and curb central amplification. VIP regulates autonomic dysregulation by normalizing vagal and sympathetic responses, mitigating abnormal autonomic symptoms. The designed polypeptide for autonomic enhances receptor balance to prevent dysregulation. For musculoskeletal relaxation, the designed polypeptide promotes muscle relaxation via GABAergic enhancement to ease tension-related pain.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Occipital Headache p01"
+"Loaded_Programs=Occipital Headache p02"
+"Loaded_Programs=Occipital Headache p03"
+"Loaded_Programs=Occipital Headache p04"
+"Loaded_Programs=Occipital Headache p05"
+"Loaded_Programs=Occipital Headache p06"
+"Loaded_Programs=Occipital Headache p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M99.068,M113.084,M128.095,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M99.068,M128.095,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M156.101,M97.053,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M99.068,M156.101,M156.101,M71.037,0=4,"
+"[/Preset]"

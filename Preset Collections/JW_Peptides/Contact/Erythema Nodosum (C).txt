@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Erythema Nodosum (C)"
+"Preset_Notes=Erythema Nodosum for Contact
+
+Erythema nodosum is a type of panniculitis characterized by tender, red or purple nodules typically appearing on the anterior shins, but occasionally on the arms, thighs, or trunk. It represents a hypersensitivity reaction to various antigenic stimuli, including infections (e.g., streptococcal, tuberculosis, fungal), medications (e.g., oral contraceptives, sulfonamides), systemic diseases (e.g., inflammatory bowel disease, sarcoidosis, Behcet's disease), malignancies, or idiopathic causes. The pathophysiology involves immune complex deposition, delayed-type hypersensitivity, and neutrophilic infiltration leading to septal inflammation in subcutaneous fat, with cytokine release (TNF-alpha, IL-6) exacerbating tissue damage, edema, and pain. Symptoms include painful nodules that evolve from red to bruise-like over weeks, accompanied by fever, arthralgia, malaise, and ankle swelling; lesions resolve without scarring but may recur in chronic cases. Diagnosis is clinical, supported by biopsy showing septal panniculitis without vasculitis, and workup for underlying triggers via chest X-ray, throat culture, ASO titer, PPD test, or stool studies.
+The proposed polypeptides address erythema nodosum through axes such as anti-inflammatory cytokine inhibition, immunomodulation, antimicrobial activity against triggers, pain management, gut-skin axis modulation, skin barrier enhancement, hypersensitivity modulation, antioxidant effects, panniculitis resolution, and vascular support. Real-world polypeptides like LL-37, hBD-1, hBD-2, and hBD-3 enhance innate immunity and barrier function by inducing antimicrobial peptide expression and reducing bacterial colonization that may trigger EN. Alpha-MSH and VIP exert anti-inflammatory effects via melanocortin receptors and cAMP elevation, suppressing pro-inflammatory cytokines. Melittin inhibits NF-kappaB to reduce inflammation. GHK promotes tissue repair and antioxidant activity. CNP and BNP improve vascular tone and reduce edema. Met-enkephalin and Leu-enkephalin provide opioid-mediated pain relief. Temporin A and Magainin 2 offer broad antimicrobial action. These are feasible with low toxicity, suitable for topical or systemic delivery, considering amphipathicity for membrane interaction and stability. Designed polypeptides (flagged as designed) supplement: D1 targets cytokine inhibition via mimicry, D2 modulates gut microbiota, D3 enhances barrier integrity, D4 resolves panniculitis through protease modulation.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Erythema Nodosum p01"
+"Loaded_Programs=Erythema Nodosum p02"
+"Loaded_Programs=Erythema Nodosum p03"
+"Loaded_Programs=Erythema Nodosum p04"
+"Loaded_Programs=Erythema Nodosum p05"
+"Loaded_Programs=Erythema Nodosum p06"
+"Loaded_Programs=Erythema Nodosum p07"
+"Loaded_Programs=Erythema Nodosum p08"
+"Loaded_Programs=Erythema Nodosum p09"
+"Loaded_Programs=Erythema Nodosum p10"
+"Loaded_Programs=Erythema Nodosum p11"
+"Loaded_Programs=Erythema Nodosum p12"
+"Loaded_Programs=Erythema Nodosum p13"
+"Loaded_Programs=Erythema Nodosum p14"
+"Loaded_Programs=Erythema Nodosum p15"
+"Loaded_Programs=Erythema Nodosum p16"
+"Loaded_Programs=Erythema Nodosum p17"
+"Loaded_Programs=Erythema Nodosum p18"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M163.063,M114.043,M103.009,M99.068,M87.032,M57.021,M57.021,M128.058,M103.009,M113.084,M163.063,M87.032,M71.037,M103.009,M97.053,M113.084,M147.068,M101.048,M128.095,M113.084,M128.058,M57.021,M103.009,M103.009,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M103.009,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M103.009,M137.059,M97.053,M147.068,M103.009,M97.053,M156.101,M156.101,M163.063,M128.058,M128.058,M113.084,M57.021,M101.048,M103.009,M57.021,M113.084,M97.053,M97.053,M101.048,M128.095,M103.009,M103.009,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M114.043,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M99.068=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M71.037,M99.068,M113.084,M113.084,M57.021,M99.068,M99.068,M99.068,M113.084,M113.084,M57.021,M113.084,M57.021,M113.084,M99.068,M128.095,M113.084,M128.095,M99.068,M103.009,M57.021,M103.009,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M147.068,M57.021,M163.063,M97.053,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M87.032,M103.009,M113.084,M115.027,M101.048,M113.084,M97.053,M128.095,M87.032,M156.101,M103.009,M101.048,M71.037,M147.068,M128.058,M103.009,M128.095,M137.059,M87.032,M131.040,M128.095,M163.063,M156.101,M113.084,M87.032,M147.068,M103.009,M101.048,M103.009,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M128.095,M113.084,M147.068,M128.095,M128.095,M128.095,M99.068,M57.021,M147.068,M113.084,M128.095,M113.084,M99.068,M128.095,M57.021,M128.095,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.095,M99.068,M113.084,M71.037,M99.068,M128.095,M113.084,M128.095,M113.084,M128.095,M147.068,M57.021,M147.068,M113.084,M128.095,M113.084,M128.095,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M57.021,M128.095,M113.084,M128.095,M113.084,M128.095,M99.068,M57.021,M128.095,M113.084,M128.095,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M57.021,M128.095,M113.084,M128.095,M113.084,M128.095,M99.068,M57.021,M128.095,M113.084,M128.095,M113.084,M128.095,0=4,"
+"[/Preset]"

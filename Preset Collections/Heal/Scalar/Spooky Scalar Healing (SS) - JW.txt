@@ -1,0 +1,24 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW.txt"
+"PresetName=Spooky Scalar Healing (SS) - JW"
+"Preset_Notes=Healing Preset for Spooky Scalar (SS).
+
+Dr. Puharich performed a study at the Max Planck Institute in Germany where they showed that E. cold microorganisms exposed to 8.00Hz scalar fields had increased activity of the RAD-6 gene which codes for proteins involved in DNA repair. This preset applies the findings of this study
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+Spooky Scalar is capable of transmitting the original frequencies discovered by Royal Rife, without the use of sub-harmonics. This is a world-first for a scalar device.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generat"
+"Out1_Frequency_Limit_Harmonic_Type=Octave"
+"Out2_Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Square"
+"User_Defined_2_Waveform=Square"
+"Enable_Tissue_Factor=1"
+"Loaded_Programs=Accelerate Scar Healing (XTRA)"
+"Loaded_Programs=Healing 3 (XTRA)"
+"Loaded_Frequencies=5.9=180,"
+"Loaded_Frequencies=8=180,"
+"[/Preset]"

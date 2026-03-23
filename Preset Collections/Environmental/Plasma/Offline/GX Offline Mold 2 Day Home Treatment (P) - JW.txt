@@ -1,0 +1,18 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\GX Online or Offline General (P) - JW"
+"PresetName=GX Offline Mold 2 Day Home Treatment (P) - JW"
+"Preset_Notes=GX Offline Mold Environmental Preset for Spooky Plasma. Total run time 2 days.
+
+Place plasma tube as close as possible to affected area. Larger areas may require multiple treatments, treating one section at a time.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Dwell_Multiplier=18"
+"Loaded_Programs=Fungus and Mold 2 (XTRA)"
+"Loaded_Programs=Mold and Fungus General (CAFL)"
+"Loaded_Programs=Molds General (ETDF)"
+"Loaded_Programs=Slime Molds 1 (XTRA)"
+"Loaded_Frequencies=132=180,254=180,321=180,337=180,344=180,374=180,414=180,464=180,524=180,555=180,728=180,743=180,766=180,784=180,866=180,880=180,886=180,942=180,1823=180,2411=180,"
+"Loaded_Frequencies=132=180,245=180,321=180,337=180,344=180,374=180,414=180,464=180,524=180,555=180,728=180,743=180,766=180,784=180,866=180,880=180,886=180,942=180,1823=180,2411=180,"
+"Loaded_Frequencies=77000=180,126000=180,133000=180,177000=180,181000=180,188000=180,232000=180,242000=180,277000=180,288000=180,"
+"Loaded_Frequencies=81000=180,126000=180,211000=180,"
+"[/Preset]"

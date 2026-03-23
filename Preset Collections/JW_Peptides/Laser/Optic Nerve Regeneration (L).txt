@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Optic Nerve Regeneration (L)"
+"Preset_Notes=Optic Nerve Regeneration for Laser
+
+Optic Nerve Regeneration encompasses therapeutic approaches to enhance retinal ganglion cell (RGC) survival and axon regrowth following traumatic injury, ischemia, or degenerative conditions such as glaucoma, countering inhibitory factors like myelin debris and glial scarring while boosting intrinsic growth mechanisms.
+1. Neurotrophic enhancement: Semax - Elevates BDNF levels and provides direct neuroprotection to RGCs and optic nerve fibers in glaucoma and injury models.
+2. PAC1 receptor agonism: PACAP-38 - Potent agonist activating PACAP receptors to promote RGC survival, reduce apoptosis, and stimulate axon regeneration after optic nerve damage.
+3. Tissue repair promotion: Thymosin_beta_4 - Facilitates actin remodeling, cell migration, and anti-fibrotic effects supporting neural and ocular tissue regeneration.
+4. Neural bioregulation: Pinealon - Normalizes gene expression and protein synthesis in retinal ganglion and optic nerve cells for regenerative support.
+5. Mitochondrial support: MOTS-c - Enhances mitochondrial function and oxidative stress resistance in energy-demanding RGCs.
+6. Innate repair activation: ARA-290 - Activates the innate repair receptor to reduce neuroinflammation and promote protective remodeling in optic nerve tissues.
+7. Glial scar modulation: ScarInhib RGD - Designed RGD motif antagonizing inhibitory integrins to mitigate glial scarring and facilitate axon extension.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Optic Nerve Regeneration p01"
+"Loaded_Programs=Optic Nerve Regeneration p02"
+"Loaded_Programs=Optic Nerve Regeneration p03"
+"Loaded_Programs=Optic Nerve Regeneration p04"
+"Loaded_Programs=Optic Nerve Regeneration p05"
+"Loaded_Programs=Optic Nerve Regeneration p06"
+"Loaded_Programs=Optic Nerve Regeneration p07"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,M57.021,M128.095,M156.101,M163.063,M128.095,M128.058,M156.101,M99.068,M128.095,M114.043,M128.095,0=4,"
+"Loaded_Frequencies=M128.059=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M111.028=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"[/Preset]"

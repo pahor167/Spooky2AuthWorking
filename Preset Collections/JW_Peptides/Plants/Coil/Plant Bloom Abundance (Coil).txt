@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Plant Bloom Abundance (Coil)"
+"Preset_Notes=Plant Bloom Abundance for Coil
+
+Plant bloom abundance refers to the enhanced production, size, density, and retention of flowers in plants, essential for ornamental horticulture, pollination efficiency, and crop yield. The proposed polypeptides target 11 evidence-based therapeutic axes from plant peptide hormone literature (PSK, CLE/CLV3, IDA, RALF, EPFL, CEP families) and engineered optimizations for floral meristem regulation, cell proliferation in floral organs, pollen guidance, abscission control, nutrient signaling, and stability for foliar application to promote flowering induction and bloom abundance in sustainable agriculture.
+
+1. PSK-{alpha}-mediated cell proliferation and petal expansion: PSK-{alpha} promotes floral cell growth, pollen tube development, and reproductive success in rose/Arabidopsis studies.
+2. CLV3-mediated meristem homeostasis for increased floral primordia: CLV3 regulates SAM size allowing optimized flower initiation in meristem peptide literature.
+3. Engineered IDA-mimic for floral abscission control to enhance bloom retention.
+4. Engineered RALF-mimic for cell expansion in floral organs.
+5. Engineered EPFL-mimic for stomatal optimization supporting bloom development via photosynthesis.
+6. Engineered CEP-mimic for nutrient signaling to promote flowering induction.
+7. Engineered florigen-mimic for accelerated bloom induction.
+8. Engineered head-to-tail cyclic helical peptide for spray-stable bloom promotion.
+9. Engineered amphipathic helical peptide for broad floral signaling enhancement.
+10. Engineered high-cationic peptide for improved cellular uptake targeting meristems.
+11. Engineered D-amino stabilized peptide for prolonged activity in bloom abundance (novel optimization axis).
+
+"
+"Loaded_Programs=Plant Bloom Abundance p01"
+"Loaded_Programs=Plant Bloom Abundance p02"
+"Loaded_Programs=Plant Bloom Abundance p03"
+"Loaded_Programs=Plant Bloom Abundance p04"
+"Loaded_Programs=Plant Bloom Abundance p05"
+"Loaded_Programs=Plant Bloom Abundance p06"
+"Loaded_Programs=Plant Bloom Abundance p07"
+"Loaded_Programs=Plant Bloom Abundance p08"
+"Loaded_Programs=Plant Bloom Abundance p09"
+"Loaded_Programs=Plant Bloom Abundance p10"
+"Loaded_Programs=Plant Bloom Abundance p11"
+"Loaded_Frequencies=M243.020=1,M113.084,M243.020,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M101.048,M99.068,M97.053,M87.032,M57.021,M97.053,M115.027,M97.053,M113.084,M137.059,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M57.021,M114.043,M87.032,M57.021,M114.043,M87.032,M57.021,M114.043,M87.032,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M87.032,M163.063,M156.101,M128.095,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M114.043,M71.037,M103.009,M87.032,M128.095,M97.053,M97.053,M99.068,M101.048,M57.021,0=4,"
+"Loaded_Frequencies=M115.027=1,M147.068,M156.101,M97.053,M101.048,M114.043,M97.053,M57.021,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M97.053,M97.053,M128.059,M99.068,M97.053,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M113.084,M128.095,M113.084,M71.037,M113.084,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M113.084,M128.095,M113.084,M71.037,M128.095,0=4,"
+"[/Preset]"

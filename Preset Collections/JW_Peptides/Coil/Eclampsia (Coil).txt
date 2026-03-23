@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Eclampsia (Coil)"
+"Preset_Notes=Eclampsia for Coil
+
+Polypeptide designs for eclampsia, addressing five key therapeutic axes derived from preeclampsia/eclampsia pathophysiology and research: angiogenic imbalance (excess sFlt-1), impaired vasodilation/endothelial function, NF-{kappa}B-driven inflammation, trophoblast dysfunction, and direct endothelial injury from factors like TNF{alpha}/LPS. Two real-world investigational polypeptides with preclinical evidence in models; others rationally engineered from established motifs, enhanced with cyclization, amidation, or acetylation for stability, solubility, and low toxicity.
+
+Assignments and mechanisms:
+1. Polybasic cyclic peptide (disulfide cyclic, C-amidated) (designed) for angiogenic imbalance correction - Poly-arginine motif electrostatically sequesters excess sFlt-1, restoring VEGF/PlGF signaling and placental angiogenesis.
+2. C-type natriuretic peptide (CNP-22) (disulfide cyclic) (real) for vasodilation and endothelial function improvement - Activates natriuretic peptide receptors to promote vasodilation, reduce hypertension, and support endothelial integrity.
+3. NEMO-binding inhibitory peptide (N-acetylated, C-amidated) (designed) for NF-{kappa}B-mediated inflammation suppression - Disrupts IKK-NEMO interaction, blocking NF-{kappa}B activation and reducing proinflammatory cytokines.
+4. AEDPPE (HSPB1-derived) (real) for trophoblast dysfunction amelioration - Enhances trophoblast migration/invasion while suppressing inflammatory cytokines via NF-{kappa}B pathway modulation.
+5. VEGF helical mimetic peptide (disulfide cyclic, C-amidated) (designed) for endothelial injury protection - Mimics VEGF {alpha}-helix to support endothelial cell survival, tube formation, and resistance to cytotoxic stressors.
+
+"
+"Loaded_Programs=Eclampsia p01"
+"Loaded_Programs=Eclampsia p02"
+"Loaded_Programs=Eclampsia p03"
+"Loaded_Programs=Eclampsia p04"
+"Loaded_Programs=Eclampsia p05"
+"Loaded_Frequencies=M102.001=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M101.017,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M143.059=1,M71.037,M113.084,M115.027,M186.079,M87.032,M186.079,M113.084,M128.058,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M115.027=1,M99.068,M114.043,M137.059,M147.068,M71.037,M97.053,M115.027,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M113.084,M101.017,0=4,"
+"[/Preset]"

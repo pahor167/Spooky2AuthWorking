@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Nocturnal Seizures and Hypnic Jerks (S)"
+"Preset_Notes=Nocturnal Seizures and Hypnic Jerks for Scalar
+
+Nocturnal seizures, particularly those associated with sleep-related hypermotor epilepsy (SHE) or juvenile myoclonic epilepsy (JME), and hypnic jerks (sleep starts) represent a spectrum of sleep-related motor phenomena. While hypnic jerks are physiological and occur during the transition from wakefulness to NREM stage 1 sleep, nocturnal seizures are pathological events characterized by hypersynchronous neuronal discharges. Both involve a disruption of the delicate balance between the ascending reticular activating system (ARAS) and sleep-promoting nuclei in the ventrolateral preoptic area (VLPO). Therapeutic design focuses on enhancing GABAergic inhibition, modulating neuropeptide-mediated arousal thresholds, and protecting the brain from oxidative stress and excitotoxicity that occur during recurrent ictal events.
+
+1. Seizure Threshold Modulation: Galanin-1-30 - A powerful anticonvulsant neuropeptide that inhibits glutamate release and hyperpolarizes neurons via GalR1 receptors.
+2. GABAergic Tone Enhancement: Neuropeptide Y (NPY) - Acts on Y2 receptors to suppress excitatory neurotransmission and increase the seizure threshold during sleep.
+3. Oxidative Stress Mitigation: TXM-CB3 (Thioredoxin-mimetic) - A tri-peptide that reduces chemical strain and inflammation linked to epilepsy progression and neurocognitive deficits.
+4. Sleep-Wake Transition Stabilization: Orexin-A (Hypocretin-1) - Regulates the stability of the sleep-wake switch to prevent abnormal motor intrusions during transitions.
+5. REM Sleep Modulation: Melanin-Concentrating Hormone (MCH) - Promotes REM sleep stability and counteracts orexin-driven arousal to prevent nocturnal motor fragmentation.
+6. Excitotoxicity Protection: TAT-GluR2-3Y - A cell-permeable peptide that prevents the endocytosis of GluR2 subunits, preserving synaptic AMPA receptor stability and preventing excitotoxic damage.
+7. Neocortical Rhythm Regulation: Cortistatin-14 - A somatostatin-like peptide that selectively reduces neuronal activity during NREM sleep to prevent seizure generalization.
+8. Optimization Axis (Designed): Nocturn-S1 - A synthetic hybrid peptide designed to co-activate GalR1 and Y2 receptors, specifically targeting the thalamocortical loop to suppress nocturnal myoclonus.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Nocturnal Seizures and Hypnic Jerks p01"
+"Loaded_Programs=Nocturnal Seizures and Hypnic Jerks p02"
+"Loaded_Programs=Nocturnal Seizures and Hypnic Jerks p03"
+"Loaded_Programs=Nocturnal Seizures and Hypnic Jerks p04"
+"Loaded_Programs=Nocturnal Seizures and Hypnic Jerks p05"
+"Loaded_Programs=Nocturnal Seizures and Hypnic Jerks p06"
+"Loaded_Programs=Nocturnal Seizures and Hypnic Jerks p07"
+"Loaded_Programs=Nocturnal Seizures and Hypnic Jerks p08"
+"Loaded_Frequencies=M57.021=1,M186.079,M101.048,M113.084,M114.043,M87.032,M71.037,M57.021,M163.063,M113.084,M113.084,M57.021,M97.053,M137.059,M71.037,M113.084,M115.027,M114.043,M137.059,M156.101,M87.032,M147.068,M137.059,M115.027,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.043,M97.053,M57.021,M129.043,M115.027,M71.037,M97.053,M71.037,M129.043,M115.027,M131.040,M71.037,M156.101,M163.063,M163.063,M87.032,M71.037,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M113.084,M101.048,M156.101,M128.058,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M103.009=1,M113.084,M115.027,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M128.095,M101.048,M113.084,M113.084,M57.021,M113.084,M113.084,M113.084,M57.021,M113.084,M57.021,M156.101,M113.084,M103.009,M103.009,M156.101,M128.058,M103.009,M163.063,M156.101,M113.084,M113.084,M137.059,M156.101,M114.043,M71.037,M87.032,M103.009,M129.043,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M115.027=1,M147.068,M115.027,M131.040,M113.084,M156.101,M137.059,M156.101,M128.058,M137.059,M128.095,M156.101,M128.058,M103.009,M113.084,M113.084,M156.101,M103.009,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M156.101,M57.021,M115.027,M156.101,M57.021,M115.027,M156.101,0=4,"
+"[/Preset]"

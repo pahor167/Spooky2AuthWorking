@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"Repeat_Chain=0"
+"PresetName=M45 Complex Parasites E - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Coil.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Schistosoma Mansoni 1 XTRA
+Schistosoma Mansoni XTRA
+Schistosoma Mansoni HC
+Schistosoma Haematobium HC
+Parasites Schistosoma Haematobium XTRA
+Parasites Blood Flukes CAFL
+Parasites Lymph Flukes CAFL
+Parasites Flukes Lymph KHZ
+Eurytrema Pancreaticum XTRA
+Opisthorchis Felineus XTRA
+
+Connect Spooky PEMF Coil to the generator, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+"
+"Loaded_Programs=Schistosoma Mansoni 1 (XTRA)"
+"Loaded_Programs=Schistosoma Mansoni (XTRA)"
+"Loaded_Programs=Schistosoma Mansoni (HC)"
+"Loaded_Programs=Schistosoma Haematobium (HC)"
+"Loaded_Programs=Parasites Schistosoma Haematobium (XTRA)"
+"Loaded_Programs=Parasites Blood Flukes (CAFL)"
+"Loaded_Programs=Parasites Lymph Flukes (CAFL)"
+"Loaded_Programs=Parasites Flukes Lymph (KHZ)"
+"Loaded_Programs=Eurytrema Pancreaticum (XTRA)"
+"Loaded_Programs=Opisthorchis Felineus (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=329=180,9889=180,1035.49=180,1087.17=180,1089.25=180,1238.74=180,1257.39=180,1261.5=180,1272.83=180,1350.21=180,1431.24=180,1564.68=180,1734.89=180,1799.56=180,1910.33=180,11031.25=180,"
+"Loaded_Frequencies=3346951.35558=180,"
+"Loaded_Frequencies=353000=180,"
+"Loaded_Frequencies=473000=180,"
+"Loaded_Frequencies=180=180,240=180,600=180,870=180,2250=180,27500=180,55440=180,181210=180,325830=180,625430=180,"
+"Loaded_Frequencies=329=180,419=180,635=180,847=180,5516=180,7391=180,9889=180,"
+"Loaded_Frequencies=157=180,10050=180,"
+"Loaded_Frequencies=180=180,370=180,800=180,5250=180,13980=180,45430=180,72500=180,92500=180,351000=180,519340=180,"
+"Loaded_Frequencies=1850=180,2000=180,2003=180,2008=180,2013=180,2050=180,2080=180,6578=180,13135.94=1200,13156.25=180,20960.36=180,"
+"Loaded_Frequencies=1298491.57243=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

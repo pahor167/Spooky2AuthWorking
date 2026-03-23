@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Cytomegalovirus (P)"
+"Preset_Notes=Cytomegalovirus for Plasma
+
+Cytomegalovirus (CMV) is a widespread herpesvirus that typically causes asymptomatic or mild infection in healthy individuals but can lead to severe disease in immunocompromised patients, organ transplant recipients, pregnant women, and newborns, manifesting as retinitis, pneumonitis, gastrointestinal issues, neurological damage, or congenital anomalies like hearing loss. The virus establishes lifelong latency and can reactivate, evading immune surveillance through modulation of host pathways.
+
+The proposed polypeptides comprehensively address key aspects of CMV infection, including viral entry, DNA packaging, immune response, replication, and latency. Real-world peptides derived from glycoprotein B (gB) inhibit viral attachment and fusion to host cell receptors like heparan sulfate. The real-world PT-PD17 disrupts the terminase complex (pUL56-pUL89), preventing viral genome cleavage and packaging. Real-world epitope peptides from pp65 and IE-1 proteins stimulate antigen-specific CD8+ T cell responses, enhancing adaptive immunity for clearance of infected cells and prophylaxis in transplant settings. The designed polypeptides supplement coverage: PolyInhib-DRI (designed) is a cyclic peptide conceptualized to bind and inhibit the UL54 DNA polymerase active site, blocking viral DNA synthesis; LatControl-3 (designed) is a linear peptide targeting BMPR2/YY1 signaling to disrupt latency maintenance and promote reactivation for immune targeting. Scientific rationale is grounded in CMV virology, with peptides selected for high-affinity binding, low toxicity, and immunomodulatory potential based on structural homology and in vitro studies. Feasibility checks include synthetic producibility, stability in physiological conditions, and biocompatibility; modes of action involve direct enzyme inhibition, receptor blockade, and T cell priming; physicochemical considerations encompass hydrophobicity balance for solubility, charge for cellular uptake, and length for immunogenicity without excessive clearance.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Cytomegalovirus p01"
+"Loaded_Programs=Cytomegalovirus p02"
+"Loaded_Programs=Cytomegalovirus p03"
+"Loaded_Programs=Cytomegalovirus p04"
+"Loaded_Programs=Cytomegalovirus p05"
+"Loaded_Programs=Cytomegalovirus p06"
+"Loaded_Programs=Cytomegalovirus p07"
+"Loaded_Programs=Cytomegalovirus p08"
+"Loaded_Programs=Cytomegalovirus p09"
+"Loaded_Programs=Cytomegalovirus p10"
+"Loaded_Programs=Cytomegalovirus p11"
+"Loaded_Programs=Cytomegalovirus p12"
+"Loaded_Frequencies=M186.079=1,M129.043,M113.084,M137.059,M137.059,M113.084,M114.043,M128.095,M147.068,M71.037,M128.058,M71.037,M163.063,M87.032,M87.032,M163.063,M87.032,M156.101,M99.068,M113.084,M57.021,M57.021,M101.048,M99.068,M147.068,M99.068,M71.037,0=4,"
+"Loaded_Frequencies=M186.079=1,M137.059,M87.032,M156.101,M57.021,M87.032,M101.048,M186.079,M113.084,M163.063,M156.101,M129.043,M101.048,M71.037,M114.043,M113.084,M114.043,M71.037,M131.040,M113.084,M101.048,M113.084,M101.048,M101.048,M71.037,M156.101,M87.032,M128.095,M163.063,M97.053,M163.063,0=4,"
+"Loaded_Frequencies=M137.059=1,M147.068,M147.068,M71.037,M101.048,M87.032,M101.048,M57.021,M115.027,M99.068,M99.068,M163.063,M113.084,M87.032,M97.053,M147.068,M163.063,M114.043,M57.021,M101.048,M114.043,M156.101,M114.043,M71.037,M87.032,M163.063,M147.068,M57.021,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M113.084,M147.068,M97.053,M114.043,M163.063,M101.048,M113.084,M99.068,M87.032,M115.027,M147.068,M57.021,M156.101,M97.053,M114.043,M71.037,M71.037,0=4,"
+"Loaded_Frequencies=M97.053=1,M87.032,M129.043,M186.079,M131.040,M99.068,M99.068,M128.095,M163.063,M131.040,M57.021,M147.068,M147.068,M114.043,M147.068,M87.032,M115.027,0=4,"
+"Loaded_Frequencies=M114.043=1,M113.084,M99.068,M97.053,M131.040,M99.068,M71.037,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M129.043,M129.043,M101.048,M87.032,M99.068,M131.040,M113.084,0=4,"
+"Loaded_Frequencies=M101.048=1,M97.053,M156.101,M99.068,M101.048,M57.021,M57.021,M57.021,M71.037,M131.040,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M137.059,M129.043,M156.101,M114.043,M57.021,M147.068,M101.048,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M87.032,M129.043,M137.059,M97.053,M101.048,M147.068,M101.048,M87.032,M128.058,M163.063,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M113.084,M128.095,M156.101,M137.059,M97.053,M87.032,M101.048,M99.068,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M86.048,M113.048,M128.058,M156.101,M101.048,M87.032,M128.095,M129.043,M114.043,0=4,"
+"[/Preset]"

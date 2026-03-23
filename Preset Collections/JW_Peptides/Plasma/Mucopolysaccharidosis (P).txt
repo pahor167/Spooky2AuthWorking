@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Mucopolysaccharidosis (P)"
+"Preset_Notes=Mucopolysaccharidosis for Plasma
+
+Mucopolysaccharidosis (MPS) refers to a group of rare inherited lysosomal storage disorders caused by deficiencies in specific enzymes responsible for breaking down glycosaminoglycans (GAGs), such as heparan sulfate, dermatan sulfate, keratan sulfate, and chondroitin sulfate. Genetic mutations in genes encoding these lysosomal enzymes lead to progressive GAG accumulation in various tissues and organs, resulting in multisystemic damage. Symptoms typically manifest in early childhood and include coarse facial features, skeletal deformities (dysostosis multiplex), joint stiffness, hepatosplenomegaly, cardiac valve abnormalities, respiratory complications, corneal clouding, hearing loss, and in many types, progressive neurological decline with cognitive impairment, behavioral issues, and hydrocephalus. The pathophysiology involves lysosomal enlargement due to undegraded GAGs, triggering secondary cellular dysfunction, including inflammation, oxidative stress, mitochondrial impairment, autophagy disruption, and apoptosis. Different MPS subtypes (e.g., MPS I, II, III, IV, VI, VII, IX) vary in severity and organ involvement based on the specific enzyme deficiency, with neuronopathic forms showing central nervous system (CNS) degeneration due to poor blood-brain barrier (BBB) penetration of therapies. Untreated, MPS leads to reduced life expectancy, often from cardiorespiratory failure or infections.
+
+The proposed polypeptides address MPS through multiple therapeutic axes: designed D1 mimics alpha-L-iduronidase activity to degrade accumulated GAGs in MPS I-like deficiencies; designed D2 targets iduronate-2-sulfatase for MPS II; designed D3 emulates C-type natriuretic peptide to promote bone growth and counteract skeletal hypoplasia; designed D4 inhibits inflammatory pathways like TNF-alpha to reduce secondary inflammation; designed D5 incorporates BBB-penetrating motifs for neurological targeting. These designed polypeptides provide conceptual high-level approaches without actionable details, focusing on enzyme mimicry, growth promotion, anti-inflammation, and CNS delivery. Feasibility includes short sequences for stability and potential fusion with delivery tags, but requires preclinical validation for efficacy, immunogenicity, and biodistribution; physicochemical considerations favor neutral pH stability and low aggregation propensity.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Mucopolysaccharidosis p01"
+"Loaded_Programs=Mucopolysaccharidosis p02"
+"Loaded_Programs=Mucopolysaccharidosis p03"
+"Loaded_Programs=Mucopolysaccharidosis p04"
+"Loaded_Programs=Mucopolysaccharidosis p05"
+"Loaded_Frequencies=M57.021=1,M137.059,M156.101,M99.068,M128.095,M113.084,M101.048,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M186.079,M115.027,M115.027,M128.058,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M103.009,M147.068,M57.021,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.058,M114.043,M101.048,M99.068,M113.084,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.095,M128.095,M57.021,M129.043,0=4,"
+"[/Preset]"

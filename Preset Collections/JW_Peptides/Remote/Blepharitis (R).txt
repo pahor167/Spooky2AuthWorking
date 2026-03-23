@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Blepharitis (R)"
+"Preset_Notes=Blepharitis for Remote
+
+Blepharitis is a common chronic inflammatory condition of the eyelid margins, often persistent and relapsing, leading to patient discomfort and potential complications like dry eye disease, chalazia, or corneal damage. It is broadly classified as anterior (affecting the lash follicles and base) or posterior (involving meibomian gland dysfunction, MGD), with mixed forms predominant. Pathophysiology involves multiple overlapping mechanisms: bacterial overgrowth and biofilm formation (primarily Staphylococcus species), Demodex mite infestation triggering innate immune responses and inflammation, dysfunctional meibomian glands causing altered lipid secretion and tear film instability, heightened inflammatory cytokines at the eyelid margin, and secondary evaporative dry eye with ocular surface stress. Symptoms include eyelid redness, swelling, itching, burning, crusting/flaking, lash misdirection or loss, foamy tears, and blurred vision.
+
+The proposed polypeptides address all key therapeutic axes identified from comprehensive literature review (StatPearls NCBI, EyeWiki, PubMed reviews on pathophysiology and Demodex, dry eye overlaps): antibacterial to reduce bacterial load, anti-Demodex to target mite-related inflammation, anti-inflammatory to suppress cytokine pathways, MGD restoration to improve gland function and lipid layer, and ocular surface repair to stabilize tear film and promote homeostasis. Real-world polypeptides are limited (8 verifiable from literature on ocular inflammation, antimicrobial defense, and dry eye models overlapping with blepharitis); shortfall from min_real_polypeptides documented, all used. Designed polypeptides supplement to meet quotas and ensure full axis coverage, flagged clearly; they incorporate non-standard residues for enhanced stability/solubility and strict design rules for diversity, low hydrophobicity, and feasibility as topical agents.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Blepharitis p01"
+"Loaded_Programs=Blepharitis p02"
+"Loaded_Programs=Blepharitis p03"
+"Loaded_Programs=Blepharitis p04"
+"Loaded_Programs=Blepharitis p05"
+"Loaded_Programs=Blepharitis p06"
+"Loaded_Programs=Blepharitis p07"
+"Loaded_Programs=Blepharitis p08"
+"Loaded_Programs=Blepharitis p09"
+"Loaded_Programs=Blepharitis p10"
+"Loaded_Programs=Blepharitis p11"
+"Loaded_Programs=Blepharitis p12"
+"Loaded_Programs=Blepharitis p13"
+"Loaded_Programs=Blepharitis p14"
+"Loaded_Programs=Blepharitis p15"
+"Loaded_Programs=Blepharitis p16"
+"Loaded_Programs=Blepharitis p17"
+"Loaded_Programs=Blepharitis p18"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M115.027,M131.040,M114.043,M128.095,M99.068,M113.084,M115.027,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M128.058,M131.040,M128.095,M128.095,M99.068,M113.084,M115.027,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M102.001,M137.059,M97.053,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M113.084,M57.021,M101.048,M102.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M102.001,M102.001,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M128.095,M114.079,M86.048,M57.021,M113.048,M102.001,M128.095,M156.101,M86.048,0=4,"
+"Loaded_Frequencies=M87.032=1,M129.043,M128.058,M86.048,M114.079,M57.021,M113.048,M101.048,M128.095,M85.053,M128.058,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M87.032,M129.043,M86.048,M114.079,M113.048,M128.095,M102.001,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M114.079,M86.048,M156.101,M57.021,M85.053,M113.048,M113.084,M128.095,M114.079,M86.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M128.095,M57.021,M114.079,M86.048,M87.032,M113.048,M156.101,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M100.064,M128.095,M57.021,M156.101,M113.048,M102.001,M100.064,M114.079,0=4,"
+"Loaded_Frequencies=M57.021=1,M86.048,M114.079,M128.095,M57.021,M113.048,M86.048,M87.032,M57.021,M85.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M114.079,M86.048,M57.021,M100.064,M128.095,M113.048,M156.101,M114.079,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M129.043,M86.048,M101.048,M114.079,M57.021,M85.053,M128.095,M86.048,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M114.079,M57.021,M86.048,M113.048,M156.101,M128.095,M102.001,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M100.064,M86.048,M156.101,M57.021,M85.053,M113.048,M87.032,M114.079,M100.064,0=4,"
+"Loaded_Frequencies=M128.095=1,M86.048,M57.021,M114.079,M100.064,M87.032,M113.048,M128.095,M86.048,M57.021,0=4,"
+"[/Preset]"

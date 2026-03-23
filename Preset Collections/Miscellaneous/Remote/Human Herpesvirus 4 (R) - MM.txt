@@ -1,0 +1,63 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Human Herpesvirus 4 (R) - MM"
+"BFB_Start_Frequency=20000"
+"BFB_Finish_Frequency=18000000"
+"BFB_Single_Scan=1"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_Hz_Selected=False"
+"BFB_Initial_Step_Size_%=.125"
+"BFB_Initial_Step_Size_%_Selected=True"
+"BFB_Start_Delay=100"
+"BFB_Samples_Per_Step=1"
+"BFB_Threshold=.4"
+"BFB_Reverse_Lookup_Tolerance=.25"
+"BFB_Include_x_Hz_In_Search=0"
+"BFB_Calculate_Using_RA=True"
+"BFB_Calculate_Using_Peak=False"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"BFB_Max_HRV=20"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Amplitude=10"
+"Out2_Amplitude=10"
+"Out2_Hz_Factor=.03125"
+"Out1_Fixed_Frequency=0"
+"Preset_Notes=Human Herpesvirus 4 Remote preset. By Manuel Mallo
+
+I have been patiently calculating the freqs for the 34 known strains of the Human Herpesvirus 4, aka Epstein Barr virus. All those strains have their basepairs sequentiated, so exact calculations could be done.
+
+This small creature is responsible for many diseases, as mononucleosis, Guillain-Barre, meningoencephalitis, breast cancer, and also thyroid diseases. It is present on virtually every person suffering from thyroid issues.
+
+I prefer to use high harmonics, so a simple waveform is used (with WCM).
+
+As the freq is vey high, I used an amplitude of 10V even for contact mode, because the signal is more precise with a lower amplitude, and the permeability of the skin is higher at high frequencies, so no need to 20V for penetrating the outer layers of the skin.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+Connect your Spooky Remote-BN or Spooky Remote v2.0 to the 'BN' port of Spooky Boost."
+"Settings_Frequency_Wobble_Percentage=.0005"
+"Settings_Frequency_Wobble_Steps=120"
+"Dwell_Multiplier=.5"
+"User_Defined_1_WCM=3"
+"User_Defined_2_WCM=3"
+"Triangle_Spike_Ratio=2"
+"F1_Factor=11"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"Out1_Frequency_Limit_Harmonic_Type=Octave"
+"Out2_Frequency_Limit_Harmonic_Type=Octave"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=MM_ModSquareDC83"
+"User_Defined_2_Waveform=MM_ModSquareDC83"
+"Gate_Hz_Option=False"
+"Gate_On_Off_Duration_Option=True"
+"Out2_User_Defined_2=True"
+"InverseWave=False"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Enable_Invert_User_Defined_2=1"
+"Loaded_Programs=MM_Human Herpesvirus 4 (CUST)"
+"Loaded_Frequencies=9474910.934=180,9515403.735=180,9566923.853=180,9566923.853=180,9697035.824=180,9700839.586=180,9753587.749=180,9758936.007=180,9770490.993=180,9776905.631=180,9790049.291=180,9809142.137=180,9847299.833=180,9862874.206=180,9863927.471=180,9866959.179=180,9869536.720=180,9872958.859=180,9873965.296=180,9875796.745=180,9879314.492=180,9880339.898=180,9882096.521=180,9882439.673=180,9883822.404=180,9886407.400=180,9887519.228=180,9891594.262=180,9891652.696=180,9945832.269=180,9945832.269=180,10134549.479=180,10208184.459=180,10599257.156=180,"
+"[/Preset]"

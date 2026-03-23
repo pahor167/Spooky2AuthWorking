@@ -1,0 +1,95 @@
+﻿"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\MW Emulate (R) - JW.txt"
+"PresetName=Anti-Aging (R) - JW"
+"Force_MW_to_Hz_Factor=2.2523430883E+23"
+"Force_BP_to_Hz_Factor=4.35589935811E+17"
+"Force_Tissue_Factor=1.4142135623730950488016887242"
+"BFB_Finish_Frequency=500000"
+"BFB_Single_Scan=1"
+"BFB_Grade_Program=0"
+"BFB_Initial_Step_Size_Hz=1000"
+"BFB_Initial_Step_Size_%=.025"
+"BFB_Start_Delay=100"
+"BFB_Samples_Per_Step=1"
+"BFB_Threshold=.01"
+"BFB_Reverse_Lookup_Tolerance=.25"
+"BFB_Include_x_Hz_In_Search=0"
+"BFB_Detect_Max=False"
+"BFB_Detect_Min=True"
+"BFB_After_Scan_Run_Hits=0"
+"BFB_Repeat_BFB=0"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=This preset contains the monoisotopic mass frequencies of compounds known to extend lifespans and improve overall health. Many of these compounds are very expensive to buy. Fortunately Spooky can emulate them for free.
+
+Here are the compounds within this preset:
+
+Spermidine
+Spermidine has been shown to reduce the risks of some forms of cancer, preserve telomere length and, if taken regularly enough over a long period of time, can expand lifespan. It also maintains autophagy in T cells and may improve vaccine protection in older adults.
+
+Nicotinamide Mononucleotide
+Nicotinamide adenine dinucleotide (NAD+) is an essential cofactor in all living cells that is involved in fundamental biological processes. ... Emerging evidence implicates that elevation of NAD+ levels may slow or even reverse the aspects of aging and also delay the progression of age-related diseases.
+
+Resveratrol
+After some debate, Harvard Medical School researchers are saying they have confirmed that compound resveratrol that's found in red wine does provide anti-aging benefits.
+
+Glutathione
+Glutathione is the best Anti-Aging Super Antioxidant. Glutathione health benefits include reduction of inflammation and oxidative stress, and many more.
+
+Lipoic acid
+It is thought that Alpha Lipoic Acid (ALA) can have anti-aging benefits due to its strong antioxidant benefits that protect from sun damage and stress caused by pollution and other environmental factors. A 2011 review of studies concluded that ALA has the potential to be a powerful anti-aging agent when used appropriately.
+
+Acetylcysteine
+Acetylcysteine can have a remarkable and visible anti-aging effect and improve longevity.
+
+Acetyl Glutathione
+Glutathione is commonly described as the ìmother of all antioxidants, and is one of the most important supplements that you could ever take. The reason for this is that glutathione is used by each and every cell in the body and increasing glutathione levels provides a significant number of research-proven health benefits, including anti-aging. Glutathione is classified as an endogenous antioxidant, which means it is produced by the body naturally, however healthy glutathione levels can easily be exhausted from disease and/or temporary illness, stress, and toxin exposure. Acetyl Glutathione is a version of glutathione which is readily absorbed by the human body.
+
+Policosanol
+Studies have shown that daily consumption of policosanol may reduce the occurrence of diseases associated with aging. It would cause functional and structural changes in lipoproteins, which would lower blood pressure, increase the level of good cholesterol HDL (High Density Lipoprotein), and decrease the level of 'bad cholesterol', LDL, in the blood
+
+NAD+
+Aging is also accompanied by decreased levels of nicotinamide adenine dinucleotide (NAD+), which can result in cell damage and even shorter life spans. ... Many studies have suggested that the upregulation of NAD+ precursors can increase levels of NAD+ in tissues or cells to delay aging.
+
+Nicotinamide riboside
+Nicotinamide riboside activates sirtuins, the cellular repair promoting proteins.These sirtuins then work overtime to help cells stay strong as we age.
+
+The preset is scheduled to run each day between 9:00 am and mid-day. This is often regarded as the optimum time to consume supplements.
+
+Sandwich your DNA in some paper tape or sticker, and place inside Spooky Remote. 
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Schedule_Run_From=09:00 am"
+"Schedule_Run_To=Midday"
+"Out2_Frequency_Limit_Harmonic_Type=Scalar*"
+"User_Defined_2_Waveform=GoldDblSqExt0offset"
+"Out2_Follow_Out1_Frequency=False"
+"Out2_Follows_Program_Frequency=True"
+"Out2_Run_Every_Second_Frequency=False"
+"Out2_Follow_Out1_Wave=False"
+"Enable_MW_Tissue_Factor=0"
+"Enable_DNA_Tissue_Factor=0"
+"Packing_Frequency_Out1=0"
+"Packing_Frequency_Out2=0"
+"Enable_Invert_Follow_Out1_Wave=0"
+"Notify_When_Program_Advances=0"
+"Loaded_Programs=Spermidine (MW)"
+"Loaded_Programs=Nicotinamide Mononucleotide (MW)"
+"Loaded_Programs=Resveratrol (MW)"
+"Loaded_Programs=Glutathione (MW)"
+"Loaded_Programs=Lipoic acid (MW)"
+"Loaded_Programs=Acetylcysteine (MW)"
+"Loaded_Programs=Policosanol (MW)"
+"Loaded_Programs=NAD+ (Nicotinamide Adenine Dinucleotide) (MW)"
+"Loaded_Programs=Nicotinamide riboside (MW)"
+"Loaded_Programs=Pause 60 Seconds (XTRA)"
+"Loaded_Frequencies=~1709M073.630765885=180,"
+"Loaded_Frequencies=~4749M503.65312352=180,"
+"Loaded_Frequencies=~0403M255.49939621=180,"
+"Loaded_Frequencies=~9758M114.741101917=180,"
+"Loaded_Frequencies=~0163M536.077816735=180,"
+"Loaded_Frequencies=~7884M265.033461126=180,"
+"Loaded_Frequencies=M296.141245=300,"
+"Loaded_Frequencies=M664.11694759=180,"
+"Loaded_Frequencies=~7317M778.1533210=180,"
+"Loaded_Frequencies=0=60,"
+[/Preset]

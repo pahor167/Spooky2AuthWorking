@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Scleranthus (S)"
+"Preset_Notes=Scleranthus / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Scleranthus - Inability to choose between alternatives.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Scleranthus (S)"
+"Loaded_Frequencies=307.07,"
+"[/Preset]"

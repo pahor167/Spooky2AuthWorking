@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=L08 Viruses C - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Laser.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+CMV 1 XTRA
+Epstein Barr Virus Infections KHZ
+Epstein Barr Virus_1 HC
+Coxsackie Virus Infections XTRA
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=CMV 1 (XTRA)"
+"Loaded_Programs=Epstein Barr Virus Infections (KHZ)"
+"Loaded_Programs=Epstein Barr Virus_1 (HC)"
+"Loaded_Programs=Coxsackie Virus Infections (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=126=240,597=240,629=240,682=240,1045=240,2145=240,8848=240,8856=240,"
+"Loaded_Frequencies=70=180,520=180,700=180,930=180,2500=180,15830=180,126010=180,325350=180,519340=180,791280=180,"
+"Loaded_Frequencies=372500-382350=3600,"
+"Loaded_Frequencies=70=180,220=180,620=180,2500=180,360500=180,366100=180,364000=180,475290=180,527000=180,667000=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

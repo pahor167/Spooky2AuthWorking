@@ -1,0 +1,205 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"Repeat_Chain=0"
+"PresetName=S21 Co-infections B - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Scalar.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Borrelia Spp. Cysts XTRA
+Borrelia 297 XTRA
+Borrelia 1352 XTRA
+Borrelia 19535 XTRA
+Borrelia 19857 XTRA
+Borrelia 19865 XTRA
+Borrelia 19952 XTRA
+Borrelia 21123 XTRA
+Borrelia 21133 XTRA
+Borrelia 21305 XTRA
+Borrelia 21343 XTRA
+Cancer Fibrosarcoma PROV
+Borrelia Spp. Cysts XTRA
+Borrelia 25015 XTRA
+Borrelia 26816 XTRA
+Borrelia 27985 XTRA
+Borrelia B31 XTRA
+Borrelia CA2-87 XTRA
+Borrelia CA5 XTRA
+Borrelia CA6 XTRA
+Borrelia CA55 XTRA
+Borrelia CA118 XTRA
+Borrelia CA127 XTRA
+Cancer Fibrosarcoma PROV
+Borrelia Spp. Cysts XTRA
+Borrelia CA128 XTRA
+Borrelia CA139 XTRA
+Borrelia CA920953 XTRA
+Borrelia Charlie Tick XTRA
+Borrelia DN127 XTRA
+Borrelia HUM115 XTRA
+Borrelia HUM3336 XTRA
+Borrelia HUM7814 XTRA
+Borrelia LAKE339 XTRA
+Borrelia MEN115 XTRA
+Cancer Fibrosarcoma PROV
+Borrelia Spp. Cysts XTRA
+Borrelia N40 XTRA
+Borrelia NY1-86 XTRA
+Borrelia NY13-87 XTRA
+Borrelia SH-2-82 XTRA
+Borrelia SON188 XTRA
+Borrelia SON328 XTRA
+Borrelia SON335 XTRA
+Borrelia SON2110 XTRA
+Borrelia Veery XTRA
+Borrelia VS2 XTRA
+Cancer Fibrosarcoma PROV
+Borrelia Spp. Cysts XTRA
+Borrelia Burgdorferi Spirochete XTRA
+Cancer Fibrosarcoma PROV
+Borrelia Spp. Cysts XTRA
+Borrelia Garinii Cysts XTRA
+Borrelia Garinii 2 XTRA
+Borrelia Garinii Lyme XTRA
+Borrelia Afzelii Cysts XTRA
+Borrelia Afzelii 2 XTRA
+Borrelia Afzelii Lyme 6 XTRA
+Borrelia Spp. Cysts XTRA
+Borrelia Garinii Cysts XTRA
+Borrelia Afzelii Cysts XTRA
+Cancer Fibrosarcoma PROV
+Detox Liver Kidneys Lymph Intestine XTRA
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Loaded_Programs=Borrelia Spp. Cysts (XTRA)"
+"Loaded_Programs=Borrelia 297 (XTRA)"
+"Loaded_Programs=Borrelia 1352 (XTRA)"
+"Loaded_Programs=Borrelia 19535 (XTRA)"
+"Loaded_Programs=Borrelia 19857 (XTRA)"
+"Loaded_Programs=Borrelia 19865 (XTRA)"
+"Loaded_Programs=Borrelia 19952 (XTRA)"
+"Loaded_Programs=Borrelia 21123 (XTRA)"
+"Loaded_Programs=Borrelia 21133 (XTRA)"
+"Loaded_Programs=Borrelia 21305 (XTRA)"
+"Loaded_Programs=Borrelia 21343 (XTRA)"
+"Loaded_Programs=Cancer Fibrosarcoma (PROV)"
+"Loaded_Programs=Borrelia Spp. Cysts (XTRA)"
+"Loaded_Programs=Borrelia 25015 (XTRA)"
+"Loaded_Programs=Borrelia 26816 (XTRA)"
+"Loaded_Programs=Borrelia 27985 (XTRA)"
+"Loaded_Programs=Borrelia B31 (XTRA)"
+"Loaded_Programs=Borrelia CA2-87 (XTRA)"
+"Loaded_Programs=Borrelia CA5 (XTRA)"
+"Loaded_Programs=Borrelia CA6 (XTRA)"
+"Loaded_Programs=Borrelia CA55 (XTRA)"
+"Loaded_Programs=Borrelia CA118 (XTRA)"
+"Loaded_Programs=Borrelia CA127 (XTRA)"
+"Loaded_Programs=Cancer Fibrosarcoma (PROV)"
+"Loaded_Programs=Borrelia Spp. Cysts (XTRA)"
+"Loaded_Programs=Borrelia CA128 (XTRA)"
+"Loaded_Programs=Borrelia CA139 (XTRA)"
+"Loaded_Programs=Borrelia CA920953 (XTRA)"
+"Loaded_Programs=Borrelia Charlie Tick (XTRA)"
+"Loaded_Programs=Borrelia DN127 (XTRA)"
+"Loaded_Programs=Borrelia HUM115 (XTRA)"
+"Loaded_Programs=Borrelia HUM3336 (XTRA)"
+"Loaded_Programs=Borrelia HUM7814 (XTRA)"
+"Loaded_Programs=Borrelia LAKE339 (XTRA)"
+"Loaded_Programs=Borrelia MEN115 (XTRA)"
+"Loaded_Programs=Cancer Fibrosarcoma (PROV)"
+"Loaded_Programs=Borrelia Spp. Cysts (XTRA)"
+"Loaded_Programs=Borrelia N40 (XTRA)"
+"Loaded_Programs=Borrelia NY1-86 (XTRA)"
+"Loaded_Programs=Borrelia NY13-87 (XTRA)"
+"Loaded_Programs=Borrelia SH-2-82 (XTRA)"
+"Loaded_Programs=Borrelia SON188 (XTRA)"
+"Loaded_Programs=Borrelia SON328 (XTRA)"
+"Loaded_Programs=Borrelia SON335 (XTRA)"
+"Loaded_Programs=Borrelia SON2110 (XTRA)"
+"Loaded_Programs=Borrelia Veery (XTRA)"
+"Loaded_Programs=Borrelia VS2 (XTRA)"
+"Loaded_Programs=Cancer Fibrosarcoma (PROV)"
+"Loaded_Programs=Borrelia Spp. Cysts (XTRA)"
+"Loaded_Programs=Borrelia Burgdorferi Spirochete (XTRA)"
+"Loaded_Programs=Borrelia Spp. Cysts (XTRA)"
+"Loaded_Programs=Cancer Fibrosarcoma (PROV)"
+"Loaded_Programs=Borrelia Garinii Cysts (XTRA)"
+"Loaded_Programs=Borrelia Garinii 2 (XTRA)"
+"Loaded_Programs=Borrelia Garinii Lyme (XTRA)"
+"Loaded_Programs=Borrelia Afzelii Cysts (XTRA)"
+"Loaded_Programs=Borrelia Afzelii 2 (XTRA)"
+"Loaded_Programs=Borrelia Afzelii Lyme 6 (XTRA)"
+"Loaded_Programs=Borrelia Spp. Cysts (XTRA)"
+"Loaded_Programs=Borrelia Garinii Cysts (XTRA)"
+"Loaded_Programs=Borrelia Afzelii Cysts (XTRA)"
+"Loaded_Programs=Cancer Fibrosarcoma (PROV)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Programs=Detox Liver Kidneys Lymph Intestine (XTRA)"
+"Loaded_Frequencies=840.6=180,"
+"Loaded_Frequencies=6890.5=180,"
+"Loaded_Frequencies=5524.3=180,"
+"Loaded_Frequencies=5658.27=180,"
+"Loaded_Frequencies=3354.6=180,"
+"Loaded_Frequencies=7674.3=180,"
+"Loaded_Frequencies=5490.47=180,"
+"Loaded_Frequencies=2897.3=180,"
+"Loaded_Frequencies=8672.49=180,"
+"Loaded_Frequencies=4651.37=180,"
+"Loaded_Frequencies=7384.34=180,"
+"Loaded_Frequencies=1744=180,"
+"Loaded_Frequencies=840.6=180,"
+"Loaded_Frequencies=7873.46=180,"
+"Loaded_Frequencies=8370.5=180,"
+"Loaded_Frequencies=2384.76=180,"
+"Loaded_Frequencies=2067.05=180,"
+"Loaded_Frequencies=2720.34=180,"
+"Loaded_Frequencies=3345.64=180,"
+"Loaded_Frequencies=4432.05=180,"
+"Loaded_Frequencies=5717.86=180,"
+"Loaded_Frequencies=5264.58=180,"
+"Loaded_Frequencies=4424.6=180,"
+"Loaded_Frequencies=1744=180,"
+"Loaded_Frequencies=840.6=180,"
+"Loaded_Frequencies=5675.32=180,"
+"Loaded_Frequencies=7095.13=180,"
+"Loaded_Frequencies=5481.86=180,"
+"Loaded_Frequencies=6262.47=180,"
+"Loaded_Frequencies=6567.35=180,"
+"Loaded_Frequencies=2265.3=180,"
+"Loaded_Frequencies=5643.4=180,"
+"Loaded_Frequencies=6898.7=180,"
+"Loaded_Frequencies=1458.35=180,"
+"Loaded_Frequencies=4335.8=180,"
+"Loaded_Frequencies=1744=180,"
+"Loaded_Frequencies=840.6=180,"
+"Loaded_Frequencies=2577.67=180,"
+"Loaded_Frequencies=6723.64=180,"
+"Loaded_Frequencies=5264.52=180,"
+"Loaded_Frequencies=9582.67=180,"
+"Loaded_Frequencies=3554.6=180,"
+"Loaded_Frequencies=7288.3=180,"
+"Loaded_Frequencies=3672.5=180,"
+"Loaded_Frequencies=4655.74=180,"
+"Loaded_Frequencies=5630.4=180,"
+"Loaded_Frequencies=1799.64=180,"
+"Loaded_Frequencies=1744=180,"
+"Loaded_Frequencies=840.6=180,"
+"Loaded_Frequencies=2605546.3669=180,"
+"Loaded_Frequencies=840.6=180,"
+"Loaded_Frequencies=1744=180,"
+"Loaded_Frequencies=1072.7=180,"
+"Loaded_Frequencies=4583.5=180,"
+"Loaded_Frequencies=11937.5=180,"
+"Loaded_Frequencies=6564.8=180,"
+"Loaded_Frequencies=7357.4=180,"
+"Loaded_Frequencies=12109.37=180,"
+"Loaded_Frequencies=840.6=180,"
+"Loaded_Frequencies=1072.7=180,"
+"Loaded_Frequencies=6564.8=180,"
+"Loaded_Frequencies=1744=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"Loaded_Frequencies=30=180,540=180,750=180,20=180,240=180,150=180,520=180,440=180,640=180,180=180,"
+"[/Preset]"

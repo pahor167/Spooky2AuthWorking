@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Achalasia (C)"
+"Preset_Notes=Achalasia for Contact
+
+Achalasia is a rare primary esophageal motility disorder characterized by the failure of the lower esophageal sphincter (LES) to relax properly and the absence of normal esophageal peristalsis, leading to impaired food passage from the esophagus to the stomach. The exact cause is unknown, but it is believed to involve a combination of genetic predisposition, autoimmune processes, viral infections (such as herpes simplex virus 1), and environmental factors that lead to the degeneration of inhibitory neurons in the myenteric plexus of the esophagus. This neuronal loss primarily affects the nitrergic (nitric oxide-releasing) and VIPergic (vasoactive intestinal peptide-releasing) inhibitory neurons, resulting in unopposed cholinergic stimulation, LES hypertonicity, and aperistalsis. Symptoms typically include progressive dysphagia to both solids and liquids, chest pain, regurgitation of undigested food, weight loss, heartburn, and increased risk of aspiration pneumonia or esophageal cancer if untreated. Pathophysiology centers on the autoimmune-mediated destruction of the myenteric plexus, with inflammatory infiltrates including CD8+ T cells, eosinophils, and cytokines like TNF-alpha and IL-1beta, leading to neuronal apoptosis and fibrosis. Subtypes of achalasia (type I, II, III) differ in the degree of esophageal pressurization and spasticity, with type II being the most responsive to treatment. Without intervention, the esophagus may dilate into a sigmoid shape, exacerbating symptoms and complicating therapy. 
+
+The proposed polypeptides address achalasia through multiple therapeutic axes to restore esophageal function, reduce LES pressure, modulate immunity, and protect neurons. Vasoactive Intestinal Peptide targets LES relaxation by acting as an inhibitory neurotransmitter, improving sphincter opening and reducing pressure in patients with achalasia. BPC-157 promotes anti-inflammatory effects and tissue healing, countering sphincter failure and esophagitis by stabilizing gastric integrity and reducing inflammation. Exenatide, a GLP-1 receptor agonist, modulates the GLP-1 pathway to improve gastrointestinal motility and is associated with reduced need for repeat endoscopic interventions in achalasia patients. GLP-1 similarly targets the GLP-1 pathway to enhance insulin secretion and slow gastric emptying, potentially aiding esophageal clearance. The remaining polypeptides are designed (flagged as such) to cover additional axes: designed polypeptides for acetylcholine inhibition mimic botulinum toxin-like effects to reduce cholinergic drive and LES hypertonicity; designed polypeptides for autoimmune modulation suppress T-cell responses and autoantibody production to halt neuronal destruction; designed polypeptides for anti-inflammatory action inhibit cytokine release like TNF-alpha to reduce myenteric plexus inflammation; designed polypeptides for antiviral activity target potential HSV-1 triggers to prevent immune activation; designed polypeptides for neuroprotection shield remaining neurons from apoptosis and promote regeneration; designed polypeptides for smooth muscle relaxation act on calcium channels to directly lower LES tone; designed polypeptides for peristalsis improvement stimulate wave-like contractions to aid food passage; designed polypeptides for cytokine inhibition specifically block pro-inflammatory pathways like IL-1 and TNF; and additional designed polypeptides reinforce these mechanisms with physicochemical properties optimized for stability, bioavailability, and targeted delivery, such as appropriate hydrophobicity for membrane interaction and resistance to degradation for prolonged action. Feasibility includes oral or injectable delivery, with rationale based on known peptide therapeutics; all designed polypeptides are conceptual with high potential but require clinical validation.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Achalasia p01"
+"Loaded_Programs=Achalasia p02"
+"Loaded_Programs=Achalasia p03"
+"Loaded_Programs=Achalasia p04"
+"Loaded_Programs=Achalasia p05"
+"Loaded_Programs=Achalasia p06"
+"Loaded_Programs=Achalasia p07"
+"Loaded_Programs=Achalasia p08"
+"Loaded_Programs=Achalasia p09"
+"Loaded_Programs=Achalasia p10"
+"Loaded_Programs=Achalasia p11"
+"Loaded_Programs=Achalasia p12"
+"Loaded_Programs=Achalasia p13"
+"Loaded_Programs=Achalasia p14"
+"Loaded_Programs=Achalasia p15"
+"Loaded_Programs=Achalasia p16"
+"Loaded_Programs=Achalasia p17"
+"Loaded_Programs=Achalasia p18"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M113.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M131.04,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M101.048,M113.084,M114.043,M87.032,M71.037,M57.021,M163.063,M113.084,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M128.095,M99.068,M113.084,M97.053,M87.032,M128.095,M57.021,M128.095,M113.084,M128.058,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M99.068,M97.053,M99.068,M128.095,M131.040,M99.068,M97.053,M113.084,M131.040,M57.021,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M71.037,M113.084,M57.021,M114.043,M57.021,M99.068,M87.032,M156.101,M57.021,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M156.101,M113.084,M147.068,M71.037,M113.084,M71.037,M99.068,M156.101,M128.095,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M99.068,M113.084,M99.068,M71.037,M57.021,M57.021,M99.068,M57.021,M97.053,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M99.068,M113.084,M97.053,M128.095,M99.068,M113.084,M128.095,M71.037,M97.053,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M71.037,M99.068,M156.101,M57.021,M57.021,M57.021,M128.095,M71.037,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M97.053=1,M99.068,M99.068,M57.021,M97.053,M128.095,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M113.084,M97.053,M71.037,M57.021,M57.021,M128.095,M99.068,M128.095,M128.095,0=4,"
+"[/Preset]"

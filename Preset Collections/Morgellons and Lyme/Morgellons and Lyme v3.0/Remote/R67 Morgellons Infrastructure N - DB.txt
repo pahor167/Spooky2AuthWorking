@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R67 Morgellons Infrastructure N - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Ecdysone Oxidase CUST
+Luciferase AM_Deb CUST
+Luciferase AM_Res CUST
+Luciferase 1 CUST
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Ecdysone Oxidase (CUST)"
+"Loaded_Programs=Luciferase AM_Deb (CUST)"
+"Loaded_Programs=Luciferase AM_Res (CUST)"
+"Loaded_Programs=Luciferase 1 (CUST)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=4702832.1=120,4702832.11=120,2351416.05=120,2351416.06=120,4700447.3=120,4700447.31=120,2350223.65=120,2350223.66=120,4698064.91=120,4698064.92=120,2349032.45=120,2349032.46=120,4695684.94=120,4695684.95=120,2347842.47=120,2347842.48=120,4625390.26=120,4625390.27=120,2312695.13=120,2312695.14=120,4623083.33=120,4623083.34=120,2311541.66=120,2311541.67=120,4620778.7=120,4620778.71=120,2310389.35=120,2310389.36=120,4618476.37=120,4618476.38=120,2309238.18=120,2309238.19=120,2579099.07=120,2579099.08=120,1289549.53=120,1289549.54=120,2577664.65=120,2577664.66=120,1288832.32=120,1288832.33=120,2576231.81=120,2576231.82=120,1288115.9=120,1288115.91=120,2574800.57=120,2574800.58=120,1287400.28=120,1287400.29=120,"
+"Loaded_Frequencies=1374502.44=300,1374502.45=300,4097324.16=300,4097324.17=300,"
+"Loaded_Frequencies=971920=300,971920.01=300,2897245.7=300,2897245.71=300,"
+"Loaded_Frequencies=2845083.51=120,2845083.52=120,1422541.75=120,1422541.76=120,2843338.06=120,2843338.07=120,1421669.03=120,1421669.04=120,2841594.75=120,2841594.76=120,1420797.37=120,1420797.38=120,2839853.58=120,2839853.59=120,1419926.79=120,1419926.8=120,2838114.53=120,2838114.54=120,1419057.26=120,1419057.27=120,2836377.62=120,2836377.63=120,1418188.81=120,1418188.82=120,2834642.83=120,2834642.84=120,1417321.41=120,1417321.42=120,2832910.17=120,2832910.18=120,1416455.08=120,1416455.09=120,2831179.62=120,2831179.63=120,1415589.81=120,1415589.82=120,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

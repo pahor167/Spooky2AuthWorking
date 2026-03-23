@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Chicken Fly Strike (Myiasis) (C)"
+"Preset_Notes=Chicken Fly Strike (Myiasis) for Contact
+
+The therapeutic strategy for chicken fly strike (myiasis) involves a multi-modal approach: direct larvicidal activity to eliminate maggots, broad-spectrum antimicrobial defense to prevent secondary sepsis from necrotic wounds, and accelerated tissue regeneration to repair extensive skin loss. Real-world peptides such as Cecropin A and CATH-2 provide immediate defense against the bacterial load typical of infested wounds, while BPC-157 and GHK-Cu facilitate rapid dermal remodeling. Designed peptides [designed] are incorporated to specifically inhibit larval protease activity and enhance avian-specific epidermal growth, ensuring comprehensive recovery and prevention of recurrence in the flock.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Chicken Fly Strike (Myiasis) p01"
+"Loaded_Programs=Chicken Fly Strike (Myiasis) p02"
+"Loaded_Programs=Chicken Fly Strike (Myiasis) p03"
+"Loaded_Programs=Chicken Fly Strike (Myiasis) p04"
+"Loaded_Programs=Chicken Fly Strike (Myiasis) p05"
+"Loaded_Programs=Chicken Fly Strike (Myiasis) p06"
+"Loaded_Programs=Chicken Fly Strike (Myiasis) p07"
+"Loaded_Programs=Chicken Fly Strike (Myiasis) p08"
+"Loaded_Programs=Chicken Fly Strike (Myiasis) p09"
+"Loaded_Programs=Chicken Fly Strike (Myiasis) p10"
+"Loaded_Programs=Chicken Fly Strike (Myiasis) p11"
+"Loaded_Programs=Chicken Fly Strike (Myiasis) p12"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M57.021,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M147.068,M57.021,M156.101,M147.068,M113.084,M156.101,M128.095,M113.084,M156.101,M156.101,M147.068,M156.101,M97.053,M128.095,M99.068,M101.048,M113.084,M101.048,M113.084,M128.058,M57.021,M87.032,M71.037,M156.101,M147.068,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M129.043,M113.084,M131.040,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M131.040,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M115.027,M156.101,M87.032,M71.037,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,M87.032,M99.068,0=4,"
+"[/Preset]"

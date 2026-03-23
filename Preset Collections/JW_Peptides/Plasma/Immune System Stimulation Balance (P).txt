@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Immune System Stimulation/Balance (P)"
+"Preset_Notes=Immune System Stimulation/Balance for Plasma
+
+The immune system maintains homeostasis through coordinated innate and adaptive responses, but dysregulation can lead to immunodeficiency (increased infections, poor vaccine response, cancer susceptibility) or hyperactivation (autoimmunity, allergies, chronic inflammation). Stimulation is needed in cases of weakened immunity from aging, stress, infections (e.g., viral), chemotherapy, or primary immunodeficiencies, while balance prevents excessive responses causing tissue damage via cytokine storms or autoantibody production. Symptoms include recurrent infections, prolonged recovery, fatigue, allergic reactions, joint pain, or organ-specific autoimmune manifestations. Pathophysiology involves impaired thymic function reducing T-cell output, skewed Th1/Th2/Th17/Treg ratios, deficient NK cell cytotoxicity, dysregulated cytokine networks (low IL-2/IFN-{gamma} or excess TNF-{alpha}/IL-6), compromised mucosal barriers, and altered dendritic cell maturation, often exacerbated by microbiome disturbances or chronic stress suppressing immunity via HPA axis.
+
+The proposed polypeptides target essential therapeutic axes: T-cell and dendritic cell stimulation, innate antimicrobial enhancement, cytokine profile balancing, NK cell activation, and regulatory T-cell support for homeostasis. The real-world polypeptide Thymosin alpha 1 restores thymic function, promotes T-cell maturation/differentiation, enhances dendritic cell antigen presentation, boosts NK activity, and normalizes cytokine balance in immunodeficient states. The designed polypeptides complement this: one charged alternating designed polypeptide stimulates innate responses via antimicrobial-like action; another aromatic-rich designed polypeptide activates NK cytotoxicity; a third polar designed polypeptide modulates cytokines toward balance; and a fourth hydroxy-rich designed polypeptide supports Treg induction to prevent overactivation. This set provides safe stimulation with built-in balancing, using short designed sequences for high stability, low toxicity, efficient cellular penetration, and feasibility for subcutaneous administration.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Immune System Stimulation/Balance p01"
+"Loaded_Programs=Immune System Stimulation/Balance p02"
+"Loaded_Programs=Immune System Stimulation/Balance p03"
+"Loaded_Programs=Immune System Stimulation/Balance p04"
+"Loaded_Programs=Immune System Stimulation/Balance p05"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M156.101,M113.084,M156.101,M113.084,M156.101,M113.084,M156.101,M113.084,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M186.079,M147.068,M186.079,M147.068,M186.079,M147.068,M186.079,M147.068,M186.079,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M186.079,M163.063,M186.079,M163.063,M186.079,M163.063,0=4,"
+"[/Preset]"

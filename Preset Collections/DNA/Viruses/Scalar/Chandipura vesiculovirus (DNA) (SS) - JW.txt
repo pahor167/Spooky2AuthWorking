@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Chandipura vesiculovirus (DNA) (SS) - JW"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||Please refer to the Spooky2 Scalar User's Guide for more information.||This preset contains the following strains:||Chandipura vesiculovirus 653514"
+"Loaded_Programs=Chandipura vesiculovirus (DNA) (SS) - JW (CUST)"
+"Loaded_Frequencies=~1921BLR60031,"
+"[/Preset]"

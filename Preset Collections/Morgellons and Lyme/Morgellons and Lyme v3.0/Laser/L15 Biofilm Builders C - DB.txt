@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=L15 Biofilm Builders C - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Laser.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Klebsiella Pneumoniae HC
+Klebsiella Pneumoniae 2nd HC
+Klebsiella Pneumoniae XTRA
+Klebsiella Infections KHZ
+Legionella CAFL
+Legionella Pneumonophila A XTRA
+Legionella Pneumonophila Toxin XTRA
+Legionellosis KHZ
+Chagas Disease Biofilm XTRA
+Nisin XTRA
+Calcifications XTRA
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Klebsiella Pneumoniae (HC)"
+"Loaded_Programs=Klebsiella Pneumoniae 2nd (HC)"
+"Loaded_Programs=Klebsiella Pneumoniae (XTRA)"
+"Loaded_Programs=Klebsiella Infections (KHZ)"
+"Loaded_Programs=Legionella (CAFL)"
+"Loaded_Programs=Legionella Pneumophila A (XTRA)"
+"Loaded_Programs=Legionella Pneumophila Toxin (XTRA)"
+"Loaded_Programs=Legionellosis (KHZ)"
+"Loaded_Programs=Chagas Disease Biofilm (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=393450-404660=3600,"
+"Loaded_Frequencies=419000=180,"
+"Loaded_Frequencies=688876.5767=1200,"
+"Loaded_Frequencies=130=180,410=180,650=180,970=180,7500=180,10470=180,152500=180,493500=180,375690=180,475540=180,"
+"Loaded_Frequencies=723=180,724=180,897=180,975=180,8120=180,8856=180,690=180,693=180,"
+"Loaded_Frequencies=566555.5554=480,"
+"Loaded_Frequencies=6877677.6657=360,"
+"Loaded_Frequencies=190=180,230=180,850=180,2500=180,32500=180,192280=180,391280=180,562500=180,725690=180,975230=180,"
+"Loaded_Frequencies=657755.5578=600,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Plant Flower Bud Initiation in Fruiting Plants (P)"
+"Preset_Notes=Plant Flower Bud Initiation in Fruiting Plants for Plasma
+
+Flower Bud Initiation in Fruiting Plants involves the transition of vegetative apical and axillary buds to reproductive floral buds in fruit trees and plants, regulated by environmental cues, hormonal balances, meristem identity genes, and metabolic signals to ensure timely flowering and fruit set. The proposed polypeptides target 11 evidence-based mechanistic axes derived from plant developmental studies in apple, blueberry, cherry, and other fruiting species, focusing on meristem regulation, signaling pathways, and optimizations for practical application.
+1. CLV3-mediated stem cell homeostasis and floral meristem size regulation: Maintains proper SAM organization for accurate floral transition and bud differentiation.
+2. BudProPep-mediated cell proliferation in floral bud primordia: Enhances mitotic activity to support primordia growth and bud formation.
+3. FlorMimPep-mediated florigen signaling enhancement: Mimics key interaction motifs to promote FT-like long-distance floral induction signals.
+4. GACounter-mediated counteraction of gibberellin inhibition: Interferes with GA repressive pathways to relieve inhibition on floral genes.
+5. AuxPep-mediated auxin polar transport and bud outgrowth: Facilitates auxin gradients essential for bud initiation and outgrowth.
+6. SugarPep-mediated sugar signaling and carbohydrate status sensing: Integrates energy status cues for committing to floral differentiation.
+7. ABAPep-mediated abscisic acid pathway modulation for differentiation: Modulates ABA signals to promote stress-adaptive bud maturation.
+8. EthPep-mediated ethylene signaling modulation for bud initiation: Balances ethylene for coordinated bud set in perennial fruit plants.
+9. OxidPep-mediated oxidative stress protection during floral transition: Provides antioxidant defense to protect meristems during the sensitive transition phase.
+10. NutTrans-mediated nutrient allocation and transport to developing buds: Supports vascular delivery of nutrients to sustain bud development.
+11. FoliOpt-mediated novel optimization for foliar delivery and protease resistance: Engineered for improved stability, uptake, and efficacy when applied to fruit plant foliage.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Plant Flower Bud Initiation in Fruiting Plants p01"
+"Loaded_Programs=Plant Flower Bud Initiation in Fruiting Plants p02"
+"Loaded_Programs=Plant Flower Bud Initiation in Fruiting Plants p03"
+"Loaded_Programs=Plant Flower Bud Initiation in Fruiting Plants p04"
+"Loaded_Programs=Plant Flower Bud Initiation in Fruiting Plants p05"
+"Loaded_Programs=Plant Flower Bud Initiation in Fruiting Plants p06"
+"Loaded_Programs=Plant Flower Bud Initiation in Fruiting Plants p07"
+"Loaded_Programs=Plant Flower Bud Initiation in Fruiting Plants p08"
+"Loaded_Programs=Plant Flower Bud Initiation in Fruiting Plants p09"
+"Loaded_Programs=Plant Flower Bud Initiation in Fruiting Plants p10"
+"Loaded_Programs=Plant Flower Bud Initiation in Fruiting Plants p11"
+"Loaded_Frequencies=M156.101=1,M101.048,M99.068,M97.053,M87.032,M57.021,M97.053,M115.027,M97.053,M113.084,M137.059,M137.059,0=4,"
+"Loaded_Frequencies=M99.032=1,M87.032,M57.021,M128.095,M99.068,M128.058,M57.021,M87.032,M57.021,M128.095,M98.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M113.084,M113.084,M71.037,M57.021,M156.101,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M113.084=1,M71.037,M71.037,M71.037,M57.021,M156.101,M57.021,M87.032,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M97.053,M87.032,M57.021,M87.032,M57.021,M101.048,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M115.027,M71.037,M57.021,M156.101,M71.037,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M101.048,M137.059,M163.063,M113.084,M97.053,M129.043,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M103.009=1,M57.021,M97.053,M103.009,M57.021,M97.053,M103.009,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M114.043=1,M128.058,M101.048,M156.101,M97.053,M129.043,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M147.068,M147.068,M128.095,M113.084,M113.084,M128.095,M131.040,M128.095,0=4,"
+"[/Preset]"

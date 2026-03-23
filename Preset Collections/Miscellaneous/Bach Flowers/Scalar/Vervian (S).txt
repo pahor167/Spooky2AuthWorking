@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Vervian (S)"
+"Preset_Notes=Vervian / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Vervain - Over-enthusiasm.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Vervian (S)"
+"Loaded_Frequencies=409.14,"
+"[/Preset]"

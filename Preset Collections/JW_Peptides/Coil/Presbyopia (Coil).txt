@@ -1,0 +1,44 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Presbyopia (Coil)"
+"Preset_Notes=Presbyopia for Coil
+
+Presbyopia (age-related loss of accommodation due to lens and ciliary apparatus stiffening)
+
+Presbyopia is the age-related progressive loss of the eye's ability to focus on near objects, caused primarily by lens hardening (increased Young's modulus) and loss of elasticity, combined with changes in ciliary muscle function and zonular fiber integrity. The crystalline lens grows throughout life, with older lens fibers compacting in the nucleus, increasing stiffness. Key mechanisms include: (1) progressive insolubilization and aggregation of lens crystallins creating protein crosslinks, (2) advanced glycation end-product (AGE) formation creating irreversible covalent bonds between proteins, (3) disulfide bond accumulation in crystallins, (4) decreased {alpha}-crystallin chaperone activity, (5) altered ciliary muscle contractility and tone, (6) changes in lens capsule elasticity and extracellular matrix composition, (7) reduced lens epithelial cell proliferation, (8) altered aquaporin-mediated water transport affecting lens hydration, (9) zonular fiber laxity or rupture affecting lens positioning, and (10) lysine acetylation deficits leading to protein insolubility. Therapeutic intervention requires restoration of lens elasticity, prevention of protein crosslinking, enhancement of ciliary muscle function, and maintenance of lens homeostasis.
+1. Ciliary muscle modulation: Urocortin-2 - Selective CRF-R2 agonist that modulates ciliary muscle tone and contractility, influencing accommodation amplitude
+2. Ciliary muscle relaxation: Bradykinin - Nonapeptide hormone that induces concentration-dependent relaxation of ciliary muscle via B2-kinin receptors
+3. Lens capsule elasticity: CapsuleFlex-1 - Proline-rich peptide mimics collagen/elastin repeats to promote extracellular matrix remodeling in lens capsule
+4. Crystallin chaperone: Chaperone-1 - Alternating lysine-valine motif mimics small heat shock proteins to prevent crystallin aggregation causing lens stiffness
+5. Anti-glycation: GlycaBlock-1 - Highly basic peptide competes for glycation sites on crystallins preventing advanced glycation end-product crosslinks
+6. Zonular fiber integrity: Zonular-1 - Mimics fibrillin microfibril sequences to strengthen suspensory ligament attachment and lens positioning
+7. Disulfide reduction: ThioRed-1 - Thioredoxin-like CXXC motif reduces disulfide bonds in aged lens proteins restoring elasticity
+8. Lens hydration: AquaMod-1 - Aquaporin-regulating peptide maintains lens fiber cell water homeostasis preventing osmotic stress
+9. Accommodation tone: CiliTone-1 - Smooth muscle modulating peptide enhances ciliary body response to neural signals
+10. Epithelial renewal: EpiRenew-1 - Nuclear localization sequence promotes lens epithelial cell proliferation and differentiation into fiber cells
+11. Lysine acetylation: AcetylDon-1 - Acetyl-acceptor peptide that promotes lysine acetylation in crystallins increasing protein solubility and reducing stiffness
+
+"
+"Loaded_Programs=Presbyopia p01"
+"Loaded_Programs=Presbyopia p02"
+"Loaded_Programs=Presbyopia p03"
+"Loaded_Programs=Presbyopia p04"
+"Loaded_Programs=Presbyopia p05"
+"Loaded_Programs=Presbyopia p06"
+"Loaded_Programs=Presbyopia p07"
+"Loaded_Programs=Presbyopia p08"
+"Loaded_Programs=Presbyopia p09"
+"Loaded_Programs=Presbyopia p10"
+"Loaded_Programs=Presbyopia p11"
+"Loaded_Frequencies=M103.009=1,M87.032,M97.053,M101.048,M156.101,M137.059,M97.053,M57.021,M87.032,M156.101,M113.084,M99.068,M113.084,M87.032,M113.084,M115.027,M99.068,M97.053,M113.084,M57.021,M113.084,M113.084,M128.058,M113.084,M113.084,M113.084,M129.043,M128.058,M71.037,M156.101,M71.037,M156.101,M71.037,M71.037,M156.101,M129.043,M128.058,M71.037,M101.048,M101.048,M114.043,M71.037,M156.101,M113.084,M113.084,M71.037,M156.101,M99.068,M57.021,M137.059,M103.009,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M97.053,M57.021,M147.068,M87.032,M97.053,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M97.053,M57.021,M101.048,M97.053,M57.021,M87.032,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M99.068,M128.095,M99.068,M128.095,M99.068,M128.095,M99.068,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M57.021,M156.101,M57.021,M156.101,M57.021,M156.101,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M57.021,M115.027,M128.059,M57.021,M128.059,M71.037,M57.021,M99.068,M131.04,0=4,"
+"Loaded_Frequencies=M103.009=1,M57.021,M97.053,M103.009,0=4,"
+"Loaded_Frequencies=M137.059=1,M97.053,M113.084,M114.043,M113.084,M128.059,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M163.063,M97.053,M129.043,M97.053,M101.048,M137.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M128.095,M156.101,M156.101,M128.059,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M128.095,M57.021,M71.037,M128.095,M57.021,0=4,"
+"[/Preset]"

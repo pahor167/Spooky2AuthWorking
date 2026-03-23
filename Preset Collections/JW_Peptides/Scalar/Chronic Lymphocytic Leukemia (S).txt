@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Chronic Lymphocytic Leukemia (S)"
+"Preset_Notes=Chronic Lymphocytic Leukemia for Scalar
+
+Chronic lymphocytic leukemia (CLL) is the most common leukemia in adults in Western countries, characterized by the progressive accumulation of mature, functionally incompetent monoclonal CD5+ B lymphocytes in blood, bone marrow, lymph nodes, and spleen. It predominantly affects older adults (median age at diagnosis ~70 years), with higher incidence in men and familial predisposition. Genetic factors include deletions (e.g., del(13q), del(11q), del(17p)), trisomy 12, TP53 mutations, and unmutated vs. mutated IGHV status influencing prognosis. Pathophysiology involves defective apoptosis due to BCL2 overexpression, chronic antigenic stimulation via BCR, supportive microenvironment interactions (stromal cells, T cells, nurse-like cells providing CXCL12/CXCR4, BAFF, cytokines), immune evasion (T-cell exhaustion, regulatory cell expansion), and proliferative compartments in lymph nodes/bone marrow. Symptoms range from asymptomatic (incidental lymphocytosis) to fatigue, lymphadenopathy, splenomegaly, recurrent infections, autoimmune complications (e.g., hemolytic anemia, ITP), and B symptoms in advanced disease. Progression can lead to Richter transformation or treatment-related complications.
+
+The proposed designed polypeptides target key pathophysiological axes: (1) resistance to apoptosis and dysregulated survival signaling; (2) chronic inflammation and supportive microenvironment interactions; (3) immune dysregulation with T-cell dysfunction and systemic effects. The first is a disulfide-cyclized peptide derived from established receptor-binding motifs in literature (adapted for enhanced stability and bioavailability), designed to modulate aberrant signaling pathways and promote programmed cell death in malignant clones. The second is a C-amidated analog based on the BPC-157 motif (preclinical evidence for potent anti-inflammatory, protective, and regenerative effects via multiple pathways including growth factor modulation), tailored to disrupt microenvironment support and reduce inflammatory drive in proliferation centers. The third is a pyroglutamate-modified analog derived from the EPO helix B motif (as in cibinetide/ARA290, known for selective innate repair receptor activation with tissue-protective and immunomodulatory effects), to restore immune competence, alleviate systemic inflammation, and protect against organ damage. These compact, stabilized designs possess drug-like properties (hydrophilicity, balanced charge, low instability) suitable for potential therapeutic development in CLL, complementing existing targeted agents where resistance or toxicity limits options.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Chronic Lymphocytic Leukemia p01"
+"Loaded_Programs=Chronic Lymphocytic Leukemia p02"
+"Loaded_Programs=Chronic Lymphocytic Leukemia p03"
+"Loaded_Frequencies=M102.001=1,M128.095,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M113.084,M102.001,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M86.048,0=4,"
+"[/Preset]"

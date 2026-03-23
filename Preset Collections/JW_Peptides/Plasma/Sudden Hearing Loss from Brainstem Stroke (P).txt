@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Sudden Hearing Loss from Brainstem Stroke (P)"
+"Preset_Notes=Sudden Hearing Loss from Brainstem Stroke for Plasma
+
+Sudden hearing loss from a small brainstem stroke typically arises from ischemia affecting the auditory pathway, cochlear nerve, or inner ear vasculature (e.g., AICA territory infarction). The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical studies, investigational use in Russia/Europe, and mechanistic research on ischemic neuroprotection, neural repair, and sensory recovery.
+
+1. Nootropic ACTH analog neuroprotection: Semax enhances BDNF expression, improves neuronal survival, and supports functional recovery in ischemic stroke models.
+2. Tissue-protective erythropoietin receptor agonism: ARA290 selectively activates IRR/EPOR heterodimers for anti-apoptotic and anti-inflammatory effects in neural ischemia.
+3. Stable gastric peptide-mediated regeneration: BPC-157 promotes angiogenesis, stabilizes endothelial function, and accelerates healing in brain ischemic injuries.
+4. Bioregulatory neural protection: Pinealon normalizes epigenetic regulation and peptide expression in brain cells to mitigate ischemic degeneration.
+5. Copper-chelated tripeptide regeneration: GHK-Cu stimulates nerve outgrowth, antioxidant defenses, and tissue remodeling for neural repair.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Sudden Hearing Loss from Brainstem Stroke p01"
+"Loaded_Programs=Sudden Hearing Loss from Brainstem Stroke p02"
+"Loaded_Programs=Sudden Hearing Loss from Brainstem Stroke p03"
+"Loaded_Programs=Sudden Hearing Loss from Brainstem Stroke p04"
+"Loaded_Programs=Sudden Hearing Loss from Brainstem Stroke p05"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"[/Preset]"

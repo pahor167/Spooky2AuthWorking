@@ -1,0 +1,58 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Slow Healing Wounds (S)"
+"Preset_Notes=Slow Healing Wounds for Scalar
+
+Slow Healing Wounds (Chronic Non-Healing Ulcers, Diabetic Wounds, Pressure Injuries)
+
+Slow healing wounds result from disrupted progression through normal healing phases (hemostasis, inflammation, proliferation, remodeling), leading to chronic non-healing ulcers common in diabetes, venous insufficiency, and pressure injuries. Pathophysiological mechanisms include: (1) persistent inflammation with elevated pro-inflammatory cytokines (TNF-{alpha}, IL-6) and impaired macrophage transition from M1 to M2 phenotype, (2) bacterial biofilm formation creating persistent infection and inflammatory burden, (3) inadequate angiogenesis and poor vascularization limiting oxygen/nutrient delivery, (4) cellular senescence reducing keratinocyte and fibroblast proliferation, (5) excessive matrix metalloproteinase activity degrading extracellular matrix, (6) oxidative stress from reactive oxygen species damaging cells and proteins, (7) impaired growth factor signaling and reduced bioavailability, (8) gap junction dysfunction leading to poor cell-cell communication and excessive scarring, (9) deficient antimicrobial peptide production increasing infection risk, and (10) abnormal collagen synthesis and crosslinking resulting in poor tensile strength. Effective therapy requires antimicrobial action, inflammation resolution, angiogenesis stimulation, cell proliferation promotion, and proper extracellular matrix remodeling.
+1. Antimicrobial/Immunomodulation: LL-37 - Human cathelicidin with dual antimicrobial and immunomodulatory activity; promotes keratinocyte migration, angiogenesis via VEGF-A upregulation, and macrophage polarization toward pro-repair phenotypes
+2. Gap junction modulation: {alpha}CT1 - Connexin43 mimetic peptide that modulates Cx43/ZO-1 interaction, reduces inflammation, promotes regenerative healing over scarring, and accelerates wound closure in chronic wounds
+3. Angiogenesis: Laminin-C16 - Laminin-111 derived peptide that stimulates endothelial cell adhesion, tube formation, and neovascularization in wound beds through integrin {alpha}v{beta}3 and {alpha}5{beta}1 binding
+4. Fibroblast migration: Laminin-A13 - Laminin-111 {alpha}1 chain peptide promoting fibroblast migration, collagen synthesis, and wound reepithelialization via integrin-mediated signaling
+5. Keratinocyte activation: AMP-IBP5 - IGFBP-5 derived antimicrobial peptide activating mast cells, keratinocyte and fibroblast proliferation/migration via EGFR/STAT/MAPK pathways in diabetic wounds
+6. Antimicrobial/Angiogenesis: hBD-3 - Human beta-defensin 3 with broad antimicrobial spectrum and pro-angiogenic activity via FGFR/JAK2/STAT3 signaling, promoting wound closure and vascularization
+7. Biofilm disruption: BiofilmDisrupt-1 - Cationic tryptophan-rich peptide that disrupts bacterial biofilms in chronic wounds, enhancing antibiotic penetration and reducing persistent infection
+8. ECM remodeling: MMPmod-1 - TIMP-inspired peptide regulating matrix metalloproteinase activity to balance extracellular matrix degradation and deposition during wound remodeling
+9. Growth factor potentiation: GFPotentiate-1 - Heparin-binding peptide that sequesters and potentiates endogenous growth factors (FGF, VEGF, PDGF) in wound bed enhancing their bioavailability
+10. Oxidative stress reduction: ROScav-1 - Short antioxidant peptide with tryptophan and cysteine residues scavenging reactive oxygen species that impair wound healing in chronic wounds
+11. Collagen synthesis: CollagenBoost-1 - Proline-rich collagen-mimetic peptide promoting fibroblast collagen synthesis and proper matrix organization in dermal wound healing
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Slow Healing Wounds p01"
+"Loaded_Programs=Slow Healing Wounds p02"
+"Loaded_Programs=Slow Healing Wounds p03"
+"Loaded_Programs=Slow Healing Wounds p04"
+"Loaded_Programs=Slow Healing Wounds p05"
+"Loaded_Programs=Slow Healing Wounds p06"
+"Loaded_Programs=Slow Healing Wounds p07"
+"Loaded_Programs=Slow Healing Wounds p08"
+"Loaded_Programs=Slow Healing Wounds p09"
+"Loaded_Programs=Slow Healing Wounds p10"
+"Loaded_Programs=Slow Healing Wounds p11"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.059,M97.053,M128.095,M113.084,M186.079,M147.068,M97.053,M114.043,M156.101,M156.101,M128.095,M97.053,M186.079,M128.095,M128.095,M156.101,M97.053,M156.101,M97.053,M115.027,M115.027,M113.084,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M71.037,M147.068,M115.027,M113.084,M101.048,M163.063,M99.068,M156.101,M113.084,M128.095,M147.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.059,M99.068,M128.059,M113.084,M87.032,M113.084,M156.101,M101.048,M103.009,M113.084,M113.084,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M163.063,M57.021,M97.053,M57.021,M156.101,M156.101,M57.021,M128.095,M57.021,M97.053,M97.053,M99.068,M137.059,M113.084,M128.095,M97.053,M113.084,M97.053,M128.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M156.101,M186.079,M156.101,M186.079,0=4,"
+"Loaded_Frequencies=M103.009=1,M57.021,M103.009,M128.059,M57.021,M114.043,M147.068,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M137.059,M128.095,M57.021,M156.101,M97.053,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M186.079=1,M103.009,M186.079,M103.009,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,0=4,"
+"[/Preset]"

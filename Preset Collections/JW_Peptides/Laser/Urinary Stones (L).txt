@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Urinary Stones (L)"
+"Preset_Notes=Urinary Stones for Laser
+
+The peptides target multiple therapeutic axes for urinary stones, including inhibition of crystal growth to prevent formation, reduction of oxalate levels for prevention, anti-inflammatory actions to reduce pain, antimicrobial protection against infections, tissue repair for kidney damage, metabolic regulation to lower risk, and antioxidant effects. The first 10 peptides are real-world with validated evidence from urolithiasis studies, while peptides 11 and 12 are designed to supplement coverage in antioxidant and regenerative axes, flagged as designed.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Urinary Stones p01"
+"Loaded_Programs=Urinary Stones p02"
+"Loaded_Programs=Urinary Stones p03"
+"Loaded_Programs=Urinary Stones p04"
+"Loaded_Programs=Urinary Stones p05"
+"Loaded_Programs=Urinary Stones p06"
+"Loaded_Programs=Urinary Stones p07"
+"Loaded_Programs=Urinary Stones p08"
+"Loaded_Programs=Urinary Stones p09"
+"Loaded_Programs=Urinary Stones p10"
+"Loaded_Programs=Urinary Stones p11"
+"Loaded_Programs=Urinary Stones p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M166.998=1,M137.059,M129.043,M166.998,M101.048,M129.043,M128.058,M87.032,M115.027,M71.037,M113.084,M115.027,M166.998,M71.037,M129.043,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M137.059,M129.043,M87.032,M101.048,M129.043,M128.058,M87.032,M115.027,M71.037,M113.084,M115.027,M87.032,M71.037,M129.043,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M128.095,M128.058,M99.068,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M115.027,M129.043,M147.068,M87.032,M101.048,0=4,"
+"[/Preset]"

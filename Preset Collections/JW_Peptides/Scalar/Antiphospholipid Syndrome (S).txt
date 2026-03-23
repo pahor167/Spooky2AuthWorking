@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Antiphospholipid Syndrome (S)"
+"Preset_Notes=Antiphospholipid Syndrome for Scalar
+
+Antiphospholipid syndrome (APS) is an autoimmune disorder characterized by recurrent arterial/venous thrombosis, pregnancy morbidity, and persistent antiphospholipid antibodies, driven by complement activation, endothelial dysfunction, autoantibody pathogenicity, and inflammation. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical APS models, complement research, autoimmune studies, and investigational peptide therapies.
+
+1. Stable gastric peptide-mediated vascular protection: BPC-157 enhances endothelial integrity, angiogenesis, and antithrombotic effects in thrombotic and inflammatory models.
+2. Tissue-protective erythropoietin receptor agonism: ARA 290 selectively activates anti-inflammatory and tissue-protective pathways to mitigate antibody/complement-mediated injury.
+3. Complement C3 inhibition: Compstatin potently blocks C3 activation, preventing complement-driven thrombosis and fetal loss in APS models.
+4. Tolerogenic immunomodulation: hCDR1 down-regulates pathogenic interferon-alpha and autoantibody-related responses in overlapping autoimmune conditions.
+5. Copper-chelated tripeptide regeneration: GHK-Cu promotes antioxidant activity, tissue remodeling, and anti-inflammatory effects to counter oxidative stress in APS.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Antiphospholipid Syndrome p01"
+"Loaded_Programs=Antiphospholipid Syndrome p02"
+"Loaded_Programs=Antiphospholipid Syndrome p03"
+"Loaded_Programs=Antiphospholipid Syndrome p04"
+"Loaded_Programs=Antiphospholipid Syndrome p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M102.001,M99.068,M99.068,M128.058,M115.027,M186.079,M57.021,M137.059,M137.059,M156.101,M102.001,M100.064,0=4,"
+"Loaded_Frequencies=M57.021=1,M163.063,M163.063,M186.079,M87.032,M186.079,M113.084,M156.101,M128.058,M97.053,M97.053,M57.021,M128.095,M57.021,M129.043,M129.043,M186.079,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"[/Preset]"

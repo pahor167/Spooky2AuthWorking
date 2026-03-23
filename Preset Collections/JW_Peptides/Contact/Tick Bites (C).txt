@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Tick Bites (C)"
+"Preset_Notes=Tick Bites for Contact
+
+Tick bites often trigger local inflammation, allergic reactions, and pathogen transmission (primarily Borrelia burgdorferi causing Lyme disease, plus co-pathogens like Anaplasma, Babesia, Rickettsia). Pathophysiology includes salivary protein-induced edema/itching, bacterial immune evasion/persistence (spirochetes, round bodies, biofilms), systemic inflammation, immune dysregulation, neurological involvement, and tissue damage. Therapeutic axes: antimicrobial (including persisters/biofilms), anti-inflammatory, immune modulation, tissue repair/healing, neuroprotection, redox balance. Prioritized 10 verifiable real-world polypeptides (from PubMed papers on melittin/LL-37 activity, practitioner guide on others for Lyme/tick-borne support); shortfall from min_real_polypeptides documented due to emerging field. Supplemented with 8 designed (flagged) incorporating non-standard residues for stability/activity, ensuring full axis coverage, diversity, and >=30% cyclic.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Tick Bites p01"
+"Loaded_Programs=Tick Bites p02"
+"Loaded_Programs=Tick Bites p03"
+"Loaded_Programs=Tick Bites p04"
+"Loaded_Programs=Tick Bites p05"
+"Loaded_Programs=Tick Bites p06"
+"Loaded_Programs=Tick Bites p07"
+"Loaded_Programs=Tick Bites p08"
+"Loaded_Programs=Tick Bites p09"
+"Loaded_Programs=Tick Bites p10"
+"Loaded_Programs=Tick Bites p11"
+"Loaded_Programs=Tick Bites p12"
+"Loaded_Programs=Tick Bites p13"
+"Loaded_Programs=Tick Bites p14"
+"Loaded_Programs=Tick Bites p15"
+"Loaded_Programs=Tick Bites p16"
+"Loaded_Programs=Tick Bites p17"
+"Loaded_Programs=Tick Bites p18"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M186.079,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M128.095,M113.048,M114.079,M86.048,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M128.095,M114.079,M113.048,M86.048,M150.954,M114.079,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M114.079,M150.954,M86.048,M113.048,M128.095,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M114.079,M57.021,M86.048,M128.095,M114.079,M113.048,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M128.095,M150.954,M57.021,M113.048,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M113.048,M86.048,M128.095,M150.954,M114.079,M86.048,M113.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M86.048,M114.079,M113.048,M128.095,M150.954,M114.079,M57.021,M86.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M114.079,M150.954,M86.048,M113.048,M114.079,M128.095,M86.048,M57.021,0=4,"
+"[/Preset]"

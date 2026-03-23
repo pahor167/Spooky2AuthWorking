@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Sheep Foot Scald (P)"
+"Preset_Notes=Sheep Foot Scald for Plasma
+
+Sheep foot scald (interdigital dermatitis) is a common bacterial infection in sheep caused primarily by *Fusobacterium necrophorum*, often triggered by wet, muddy conditions that macerate the skin between the hoof claws, leading to inflammation, pain, and lameness.
+
+1. Ruminant-derived antimicrobial: Lactoferricin B - Hydrolyzes bacterial cell walls and disrupts membranes of Gram-negative pathogens prevalent in livestock.
+2. Tryptophan-rich bactericidal: Indolicidin - Rapid membrane penetration and intracellular targeting of Gram-negative and Gram-positive bacteria.
+3. Disulfide-stabilized broad-spectrum: Protegrin-1 - Forms oligomeric pores in bacterial membranes with high potency and environmental resilience.
+4. Amphipathic pore-forming: Magainin_2 - Selectively disrupts anionic bacterial membranes via toroidal pore mechanism.
+5. Alpha-helical lytic: Cecropin B - Targets prokaryotic membranes causing leakage and cell death with low eukaryotic toxicity.
+6. Tissue repair modulation: Thymosin_beta_4 - Accelerates epithelial migration, angiogenesis, and anti-inflammatory resolution in damaged interdigital skin.
+7. Synthetic amphipathic: VetAMP-1 - Engineered repeating Arg-Trp motif with N-acetylation and C-amidation for protease resistance and enhanced topical bactericidal activity.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Sheep Foot Scald p01"
+"Loaded_Programs=Sheep Foot Scald p02"
+"Loaded_Programs=Sheep Foot Scald p03"
+"Loaded_Programs=Sheep Foot Scald p04"
+"Loaded_Programs=Sheep Foot Scald p05"
+"Loaded_Programs=Sheep Foot Scald p06"
+"Loaded_Programs=Sheep Foot Scald p07"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M99.068,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M131.040,M57.021,M156.101,M114.043,M113.084,M156.101,M114.043,M57.021,M113.084,M99.068,M128.095,M71.037,M57.021,M97.053,M71.037,M113.084,M71.037,M99.068,M113.084,M57.021,M129.043,M71.037,M128.095,M71.037,M112.100,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M198.112=1,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M185.095,0=4,"
+"[/Preset]"

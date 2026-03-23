@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Detox Pesticides and Herbicides (P)"
+"Preset_Notes=Detox Pesticides and Herbicides for Plasma
+
+Detoxification of Pesticides and Herbicides
+
+Pesticides and herbicides (e.g., organophosphates, glyphosate) cause toxicity via oxidative stress, inhibition of detoxification enzymes, gut dysbiosis, inflammation, liver burden, and neurotoxicity. This set prioritizes real-world polypeptides for key axes (antioxidant defense, phase II conjugation, gut/liver repair); limited specific evidence led to only 5 verifiable real-world examples despite extensive searches. Designed polypeptides (flagged below) supplement to ensure full axis coverage, with enhanced features like selenocysteine for superior redox activity or charged residues for potential toxin interaction.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Detox Pesticides and Herbicides p01"
+"Loaded_Programs=Detox Pesticides and Herbicides p02"
+"Loaded_Programs=Detox Pesticides and Herbicides p03"
+"Loaded_Programs=Detox Pesticides and Herbicides p04"
+"Loaded_Programs=Detox Pesticides and Herbicides p05"
+"Loaded_Programs=Detox Pesticides and Herbicides p06"
+"Loaded_Programs=Detox Pesticides and Herbicides p07"
+"Loaded_Programs=Detox Pesticides and Herbicides p08"
+"Loaded_Programs=Detox Pesticides and Herbicides p09"
+"Loaded_Programs=Detox Pesticides and Herbicides p10"
+"Loaded_Programs=Detox Pesticides and Herbicides p11"
+"Loaded_Programs=Detox Pesticides and Herbicides p12"
+"Loaded_Programs=Detox Pesticides and Herbicides p13"
+"Loaded_Programs=Detox Pesticides and Herbicides p14"
+"Loaded_Programs=Detox Pesticides and Herbicides p15"
+"Loaded_Programs=Detox Pesticides and Herbicides p16"
+"Loaded_Programs=Detox Pesticides and Herbicides p17"
+"Loaded_Programs=Detox Pesticides and Herbicides p18"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M97.053=1,M57.021,M97.053,M113.084,M97.053,M114.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M114.079,M150.954,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M128.095,M114.079,M86.048,M113.048,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M113.048,M150.954,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M113.048,M114.079,M150.954,M86.048,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M114.079,M150.954,M113.048,M86.048,M97.053,M97.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.079,M86.048,M150.954,M113.048,M128.095,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M170.106=1,M113.048,M114.079,M150.954,M86.048,M127.111,0=4,"
+"Loaded_Frequencies=M100.064=1,M114.079,M113.048,M150.954,M86.048,M128.095,M85.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M85.053,M86.048,M114.079,M150.954,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M114.079,M86.048,M128.095,M150.954,M113.048,M114.079,M86.048,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M86.048=1,M113.048,M150.954,M114.079,M86.048,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M150.954,M86.048,M114.079,M113.048,M128.095,M102.001,0=4,"
+"[/Preset]"

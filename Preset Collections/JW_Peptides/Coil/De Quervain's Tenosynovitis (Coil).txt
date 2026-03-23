@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=De Quervain’s Tenosynovitis (Coil)"
+"Preset_Notes=De Quervain’s Tenosynovitis for Coil
+
+De Quervain's tenosynovitis involves inflammation and thickening of the tendon sheath (first dorsal compartment) containing the abductor pollicis longus (APL) and extensor pollicis brevis (EPB) tendons, leading to radial wrist pain, swelling, and limited thumb movement. Targeting tenocyte regeneration, synovial inflammation reduction, and prevention of adhesions is critical for functional recovery.
+
+1. Tendon regeneration/GH receptor upregulation: BPC-157 - Upregulates GH receptor in tenocytes, activates FAK-paxillin pathway for cell migration, enhances collagen organization and biomechanical recovery
+2. Tenocyte migration/ECM remodeling: Thymosin Beta-4 (TB-500) - G-actin sequestration promoting cell motility, recruits repair cells, reduces fibrosis/scar tissue formation in tendon sheath
+3. Collagen remodeling/Angiogenesis: GHK-Cu - Copper-dependent lysyl oxidase activation for collagen cross-linking, upregulates repair genes, promotes VEGF expression for tendon vascularization
+4. Immune modulation/Pain reduction: ARA-290 - Erythropoietin-derived peptide modulating inflammatory cytokines (IL-6, TNF-{alpha}), neuropathic pain modulation
+5. Anti-inflammatory (synovial): KPV - Short tripeptide downregulating pro-inflammatory mediators in synovial tissue, prevents chronic tenosynovitis progression
+6. Synovial adhesion prevention/Tenocyte protection: TendroGuard-1 (designed) - RGD integrin-binding motif for tenocyte-ECM adhesion, copper-chelating C-terminal for collagen stabilization, disulfide-constrained structure for enhanced stability
+
+"
+"Loaded_Programs=De Quervain’s Tenosynovitis p01"
+"Loaded_Programs=De Quervain’s Tenosynovitis p02"
+"Loaded_Programs=De Quervain’s Tenosynovitis p03"
+"Loaded_Programs=De Quervain’s Tenosynovitis p04"
+"Loaded_Programs=De Quervain’s Tenosynovitis p05"
+"Loaded_Programs=De Quervain’s Tenosynovitis p06"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M170.106=1,M128.058,M113.084,M156.101,M57.021,M115.027,M103.009,M102.001,M57.021,M56.037,0=4,"
+"[/Preset]"

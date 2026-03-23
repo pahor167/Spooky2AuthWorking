@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Gallbladder Polyps (L)"
+"Preset_Notes=Gallbladder Polyps for Laser
+
+Gallbladder polyps are abnormal growths on the inner lining of the gallbladder, often benign such as cholesterol or inflammatory types, but some adenomatous polyps carry a risk of malignant transformation. Management typically involves surveillance or surgical removal, but polypeptide-based approaches could target underlying mechanisms. Therapeutic axes include: 1. Regulation of gallbladder motility. 2. Anti-inflammatory modulation. 3. Modulation of cholesterol metabolism. 4. Inhibition of cell proliferation. 5. Induction of apoptosis. Assignments and mechanisms: Teduglutide (real) targets regulation of gallbladder motility by mimicking GLP-2, inducing gallbladder relaxation to improve bile flow and reduce stasis that may contribute to polyp formation. AntiInflamPep (designed) addresses anti-inflammatory modulation by suppressing pro-inflammatory cytokines, mitigating inflammation in the gallbladder wall. CholModPep (designed) focuses on modulation of cholesterol metabolism through amphipathic helical structure that enhances cholesterol solubilization, promoting regression of cholesterol polyps. ProlifInhibPep (designed) inhibits cell proliferation by blocking cyclin-dependent kinases, halting growth of polypoid lesions. ApopInducPep (designed) induces apoptosis via BH3-mimetic action, selectively eliminating precancerous cells in polyps.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Gallbladder Polyps p01"
+"Loaded_Programs=Gallbladder Polyps p02"
+"Loaded_Programs=Gallbladder Polyps p03"
+"Loaded_Programs=Gallbladder Polyps p04"
+"Loaded_Programs=Gallbladder Polyps p05"
+"Loaded_Frequencies=M137.059=1,M57.021,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M113.084,M128.058,M101.048,M128.095,M113.084,M101.048,M115.027,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M186.079,M113.084,M128.095,M71.037,M147.068,M163.063,M115.027,M128.095,M147.068,M147.068,M129.043,M128.095,M147.068,M128.095,M129.043,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M156.101,M128.058,M101.048,M87.032,M131.040,M101.048,M115.027,M147.068,M163.063,M137.059,M87.032,M128.095,M156.101,M156.101,M113.084,M113.084,M147.068,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M113.084,M113.084,M156.101,M114.043,M113.084,M71.037,M156.101,M137.059,M113.084,M71.037,M128.058,M99.068,M57.021,M115.027,M87.032,M131.040,M115.027,M156.101,0=4,"
+"[/Preset]"

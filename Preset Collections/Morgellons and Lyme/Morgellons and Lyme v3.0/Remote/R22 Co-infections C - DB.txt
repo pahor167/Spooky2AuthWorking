@@ -1,0 +1,45 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R22 Co-infections C - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Borrelia Burgdorferi Lyme Disease HC
+Mycoplasma HC
+Mycoplasma 2nd HC
+Calcifications XTRA
+Nisin XTRA
+Your Scan Results CUST
+Detox Toxins Elimination 1 XTRA
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square_Hbomb=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Borrelia Burgdorferi Lyme Disease (HC)"
+"Loaded_Programs=Mycoplasma (HC)"
+"Loaded_Programs=Mycoplasma 2nd (HC)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Programs=Detox Toxins Elimination 1 (XTRA)"
+"Loaded_Frequencies=378950-382000=3600,"
+"Loaded_Frequencies=322850-323900=3600,"
+"Loaded_Frequencies=342750-349300=3600,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"Loaded_Frequencies=0.5=240,146=240,522=240,800=240,1552=240,"
+"[/Preset]"

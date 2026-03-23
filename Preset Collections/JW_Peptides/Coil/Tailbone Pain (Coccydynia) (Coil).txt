@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Tailbone Pain (Coccydynia) (Coil)"
+"Preset_Notes=Tailbone Pain (Coccydynia) for Coil
+
+Coccydynia is characterized by pain in the coccyx region, often resulting from trauma, inflammation, pelvic floor muscle tension, neuropathic irritation, tissue damage, and potential fibrotic changes. The proposed polypeptides target evidence-based therapeutic axes drawn from regenerative medicine, pain management, and anti-inflammatory research to promote healing, reduce pain and inflammation, relax muscles, prevent fibrosis, and optimize recovery.
+
+1. Comprehensive musculoskeletal healing and stabilization: BPC-157 accelerates repair of damaged ligaments, tendons, and soft tissues with strong preclinical and emerging clinical support for injury recovery.
+2. Promotion of cell migration, angiogenesis, and anti-scarring: TB-500 enhances actin-mediated tissue repair and flexibility, widely used for musculoskeletal injuries.
+3. Collagen synthesis, wound remodeling, and antioxidant effects: GHK-Cu supports extracellular matrix regeneration and reduces oxidative stress in damaged tissues.
+4. Targeted melanocortin receptor anti-inflammation: KPV provides potent local inflammation reduction with a favorable safety profile.
+5. Neuropathic pain relief and small nerve fiber regeneration: ARA-290 activates the innate repair receptor to resolve nerve-related pain components.
+6. Vasodilation and pelvic smooth muscle relaxation: VIP modulates pelvic floor tension and inflammation, with relevance to chronic pelvic pain conditions.
+7. Anti-fibrotic pathway inhibition: Ac-SDKP prevents TGF-{beta}-driven scarring and fibrosis in chronic tissue changes.
+8. Novel optimization of {alpha}-MSH core motif for enhanced anti-inflammatory efficacy: Ac-HFRW-NH2 (engineered) leverages the melanocortin message sequence for superior inflammatory control.
+
+"
+"Loaded_Programs=Tailbone Pain (Coccydynia) p01"
+"Loaded_Programs=Tailbone Pain (Coccydynia) p02"
+"Loaded_Programs=Tailbone Pain (Coccydynia) p03"
+"Loaded_Programs=Tailbone Pain (Coccydynia) p04"
+"Loaded_Programs=Tailbone Pain (Coccydynia) p05"
+"Loaded_Programs=Tailbone Pain (Coccydynia) p06"
+"Loaded_Programs=Tailbone Pain (Coccydynia) p07"
+"Loaded_Programs=Tailbone Pain (Coccydynia) p08"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M96.069,0=4,"
+"Loaded_Frequencies=M179.070=1,M147.068,M156.101,M185.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=ALL Maintenance (R) - DB"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+This Preset runs non-stop from start of Phase II.
+
+PROGRAMS:
+Detox Matrix XTRA
+Detox Toxins Elimination 2 XTRA
+Calcifications XTRA
+Lymphangitis CAFL
+Streptococcus Pyogenes CAFL
+Endorphin Release XTRA
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost."
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Manual_Start=False"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Detox Matrix (XTRA)"
+"Loaded_Programs=Detox Toxins Elimination 2 (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Lymphangitis (CAFL)"
+"Loaded_Programs=Streptococcus Pyogenes (CAFL)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Frequencies=10000=180,3176=180,3040=180,880=180,787=180,751=180,727=180,625=180,522=180,465=180,444=180,440=180,1505=180,1035.9=180,3176=180,676=180,635=180,146=180,250=180,304=180,306=180,148=180,152=180,63=180,"
+"Loaded_Frequencies=0.5=180,2.5=180,6.29=180,9.18=180,9.19=180,20=180,146=180,148=180,333=180,428=180,444=180,522=180,523=180,555=180,660=180,690=180,727.5=180,768=180,786=180,787=180,802=180,880=180,1550=180,1865=180,10000=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=880=300,574=300,778=300,1120=300,1078=300,3176=300,"
+"Loaded_Frequencies=625.48=180,2501.9=180,616=180,776=180,735=180,845=180,660=180,10000=180,880=180,787=180,727=180,465=180,20=180,"
+"Loaded_Frequencies=38=180,"
+"[/Preset]"

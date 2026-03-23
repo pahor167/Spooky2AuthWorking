@@ -1,0 +1,45 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Edema (Non Cancer) (S)"
+"Preset_Notes=Edema (Non Cancer) for Scalar
+
+Non-cancer edema encompasses peripheral, cardiac, pulmonary, cerebral, lymphatic, and inflammatory forms, driven by vascular leakage, impaired lymphatic drainage, sodium retention, and inflammation. The proposed polypeptides, selected from preclinical and clinical evidence, target key mechanisms to reduce fluid accumulation, enhance resolution, and support tissue integrity.
+
+1. Stable gastric peptide endothelial protection and anti-swelling: BPC-157 rapidly resolves swelling and stabilizes vessels across diverse injury models.
+2. Selective erythropoietin-derived innate repair activation: ARA-290 mitigates chronic inflammation and promotes tissue protection in edema-associated conditions.
+3. Apelin receptor agonism for permeability reduction: Apelin-13 attenuates inflammatory edema and strengthens vascular barriers.
+4. Adrenomedullin-mediated lymphangiogenesis: Adrenomedullin stimulates lymphatic vessel growth to resolve cardiac and lymphedema.
+5. B-type natriuretic peptide natriuresis and vasodilation: BNP facilitates fluid excretion and decongests in heart failure-related edema.
+6. Atrial natriuretic peptide acute edema inhibition: ANP suppresses brain, pulmonary, and hemorrhagic edema formation.
+7. Engineered laminin-mimetic adhesion enhancement: Ac-YIGSR-NH2 optimizes the YIGSR motif with acetylation and amidation for stability, promoting lymphatic regeneration and function in lymphedema models.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Edema (Non Cancer) p01"
+"Loaded_Programs=Edema (Non Cancer) p02"
+"Loaded_Programs=Edema (Non Cancer) p03"
+"Loaded_Programs=Edema (Non Cancer) p04"
+"Loaded_Programs=Edema (Non Cancer) p05"
+"Loaded_Programs=Edema (Non Cancer) p06"
+"Loaded_Programs=Edema (Non Cancer) p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,0=4,"
+"[/Preset]"

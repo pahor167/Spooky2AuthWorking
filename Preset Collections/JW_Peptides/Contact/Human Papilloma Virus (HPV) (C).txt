@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Human Papilloma Virus (HPV) (C)"
+"Preset_Notes=Human Papilloma Virus (HPV) for Contact
+
+Human Papillomavirus (HPV)
+
+Human Papillomavirus (HPV) encompasses persistent infections by high-risk types leading to genital warts, precancerous lesions, and cancers (especially cervical) via E6/E7 oncoproteins that degrade p53 and Rb, necessitating targeted antiviral, immunotherapeutic, and cytolytic approaches.
+
+1. Viral entry inhibition: Lactoferricin B - Demonstrates potent neutralization of HPV pseudovirus by interfering with capsid-host interactions.
+2. Cytolytic pore formation: Protegrin-1 - Forms membrane pores leading to selective lysis of virus-infected cells in persistent infections.
+3. E7 oncoprotein targeting: HPV16 E7 49-57 - Immunodominant HLA-A2-restricted epitope inducing robust CTL responses against E7-expressing cells in therapeutic vaccines.
+4. Alternative E7 immunotherapy: HPV16 E7 11-19 - Key peptide component in dep sipeptide-based vaccines eliciting T-cell immunity without oncogenic potential.
+5. Intracellular antiviral interference: Indolicidin - Tryptophan-rich cationic peptide disrupting viral processes and exhibiting broad-spectrum antiviral effects.
+6. Optimized selective lysis: AmpKLA-14 - Engineered amphipathic helical peptide preferentially disrupting negatively charged membranes of HPV-transformed or infected cells.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Human Papilloma Virus (HPV) p01"
+"Loaded_Programs=Human Papilloma Virus (HPV) p02"
+"Loaded_Programs=Human Papilloma Virus (HPV) p03"
+"Loaded_Programs=Human Papilloma Virus (HPV) p04"
+"Loaded_Programs=Human Papilloma Virus (HPV) p05"
+"Loaded_Programs=Human Papilloma Virus (HPV) p06"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M137.059,M163.063,M114.043,M113.084,M99.068,M101.048,M147.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M131.040,M113.084,M115.027,M113.084,M128.058,M97.053,M129.043,M101.048,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"[/Preset]"

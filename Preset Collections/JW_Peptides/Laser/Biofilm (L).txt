@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Biofilm (L)"
+"Preset_Notes=Biofilm for Laser
+
+The peptides target multiple therapeutic axes for biofilm, including antimicrobial action to kill embedded bacteria, quorum sensing inhibition to prevent formation, biofilm dispersal to break down structures, matrix degradation to disrupt extracellular components, anti-adhesion to inhibit attachment, synergy with antibiotics for enhanced efficacy, and immune modulation to boost host response. The first 10 peptides are real-world with validated evidence from anti-biofilm studies, while peptides 11 and 12 are designed to supplement coverage in dispersal and matrix degradation axes, flagged as designed.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Biofilm p01"
+"Loaded_Programs=Biofilm p02"
+"Loaded_Programs=Biofilm p03"
+"Loaded_Programs=Biofilm p04"
+"Loaded_Programs=Biofilm p05"
+"Loaded_Programs=Biofilm p06"
+"Loaded_Programs=Biofilm p07"
+"Loaded_Programs=Biofilm p08"
+"Loaded_Programs=Biofilm p09"
+"Loaded_Programs=Biofilm p10"
+"Loaded_Programs=Biofilm p11"
+"Loaded_Programs=Biofilm p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.058,M186.079,M156.101,M71.037,M113.084,M156.101,M99.068,M156.101,M99.068,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M147.068,M156.101,M113.084,M156.101,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M156.101,M156.101,M156.101,M87.032,M99.068,M128.058,M186.079,M103.009,M71.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M102.001,M156.101,M113.084,M99.068,M99.068,M113.084,M156.101,M99.068,M102.001,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M147.068,M128.095,M128.095,M147.068,M147.068,M128.095,M128.095,M113.084,M128.095,M114.043,M87.032,M99.068,M128.095,M128.095,M156.101,M71.037,M128.095,M128.095,M147.068,M147.068,M128.095,M128.095,M97.053,M156.101,M99.068,M113.084,M57.021,M99.068,M87.032,M113.084,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M129.043,M113.084,M57.021,M156.101,M131.040,M113.084,M114.043,M113.084,M113.084,M114.043,M156.101,M156.101,M156.101,M156.101,M101.048,M71.037,M57.021,M131.040,M113.084,M113.084,M131.040,M131.040,M113.084,M113.084,M97.053,M101.048,M101.048,M131.040,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M113.084,M113.084,M156.101,M113.084,M113.084,M156.101,M156.101,M113.084,M113.084,M156.101,M113.084,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M156.101,M147.068,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M156.101,M113.084,M128.058,0=4,"
+"[/Preset]"

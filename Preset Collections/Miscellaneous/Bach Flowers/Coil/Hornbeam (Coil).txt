@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Coil\Spooky Coil (Generator Direct) - JW"
+"PresetName=Hornbeam (Coil)"
+"Preset_Notes=Hornbeam / Spooky Coil
+
+Estimated Time: Run this preset for 3:00 minutes.
+Hornbeam - Procrastinationm tiredness at the thought of doing something.
+
+Connect the Spooky PEMF Coil to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Hornbeam (Coil)"
+"Loaded_Frequencies=257.45,"
+"[/Preset]"

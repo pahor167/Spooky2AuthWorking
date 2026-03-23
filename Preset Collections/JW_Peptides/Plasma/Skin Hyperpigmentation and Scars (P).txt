@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Skin Hyperpigmentation and Scars (P)"
+"Preset_Notes=Skin Hyperpigmentation and Scars for Plasma
+
+Skin hyperpigmentation and scars encompass excess melanin production causing dark spots, melasma, and post-inflammatory marks, alongside dysregulated wound healing leading to acne scars or keloids, driven by inflammation, oxidative stress, tyrosinase activity, and aberrant collagen deposition.
+1. Anti-glycation protection: Carnosine - Inhibits advanced glycation end products to prevent melanin crosslinking and skin dullness.
+2. MC1R antagonism: Nonapeptide-1 - Competitively blocks {alpha}-MSH signaling at melanocortin-1 receptor to suppress melanin synthesis.
+3. Inflammatory cytokine modulation: Tetrapeptide-30 - Downregulates pro-inflammatory pathways and tyrosinase expression to fade post-inflammatory dark spots.
+4. Mitochondrial resilience: MOTS-c - Enhances mitochondrial function and reduces oxidative damage triggering melanogenesis and impaired repair.
+5. Integrin modulation: RGD Tripeptide - Antagonizes integrins to regulate fibroblast migration and promote balanced extracellular matrix remodeling in scars.
+6. Tyrosinase substrate competition: TriTyr Peptide - Poly-tyrosine motif competitively inhibits tyrosinase active site for direct melanin synthesis reduction.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Skin Hyperpigmentation and Scars p01"
+"Loaded_Programs=Skin Hyperpigmentation and Scars p02"
+"Loaded_Programs=Skin Hyperpigmentation and Scars p03"
+"Loaded_Programs=Skin Hyperpigmentation and Scars p04"
+"Loaded_Programs=Skin Hyperpigmentation and Scars p05"
+"Loaded_Programs=Skin Hyperpigmentation and Scars p06"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M131.040=1,M97.053,M147.068,M156.101,M186.079,M147.068,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.095,M129.043,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M163.063=1,M163.063,M163.063,0=4,"
+"[/Preset]"

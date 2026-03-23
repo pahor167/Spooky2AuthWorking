@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Oligodendroglioma (P)"
+"Preset_Notes=Oligodendroglioma for Plasma
+
+Oligodendroglioma is a diffuse glioma molecularly defined by the presence of both an isocitrate dehydrogenase (IDH) mutation and the whole-arm co-deletion of chromosomes 1p and 19q. These tumors typically arise in the frontal and temporal lobes, exhibiting a characteristic 'fried-egg' histomorphology and a 'chicken-wire' capillary pattern. Pathophysiologically, the IDH mutation leads to the accumulation of the oncometabolite D-2-hydroxyglutarate (D-2-HG), causing global DNA hypermethylation and impaired cellular differentiation. Despite a relatively better prognosis compared to other high-grade gliomas, recurrence and malignant transformation remain significant clinical challenges, necessitating targeted molecular interventions.
+
+1. Neoantigen Axis: PEPIDH1M - A tumor-specific peptide vaccine targeting the IDH1-R132H mutation, designed to elicit a cytotoxic T-lymphocyte response specifically against the mutated enzyme's neo-epitope.
+2. Metabolic Vulnerability Axis: POMHEX - A brain-penetrant peptide-mimetic inhibitor that targets enolase 2 (ENO2) to exploit the synthetic lethality created by the 1p/19q co-deletion-mediated loss of ENO1.
+3. Immunotherapy Axis: IMA-950 - A multi-peptide vaccine composed of 11 tumor-associated peptides (including Brevican and Tenascin-C) identified through HLA-peptidomics to stimulate polyfunctional CD8+ and CD4+ T cell responses.
+4. Homing Axis: Navigator (RVA) - A 9-amino acid homing peptide identified via phage display that selectively binds to the invasive front of glial tumor cells to facilitate targeted delivery of cytotoxic cargoes.
+5. Signaling Modulation Axis: OligoStop-1 - A designed interference peptide targeting the interaction between the CIC transcriptional repressor and its binding partners, preventing the MAPK-driven inactivation of CIC commonly seen in 1p/19q co-deleted cells.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Oligodendroglioma p01"
+"Loaded_Programs=Oligodendroglioma p02"
+"Loaded_Programs=Oligodendroglioma p03"
+"Loaded_Programs=Oligodendroglioma p04"
+"Loaded_Programs=Oligodendroglioma p05"
+"Loaded_Frequencies=M156.101=1,M131.040,M113.084,M115.027,M137.059,M128.095,M131.040,M129.043,M156.101,M156.101,M163.063,M147.068,M57.021,M113.084,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.058,M113.084,M113.084,M129.043,M156.101,M131.040,M129.043,M156.101,M115.027,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M186.079,M71.037,M186.079,M97.053,M87.032,M129.043,M113.084,M156.101,M115.027,M163.063,M113.084,M156.101,M57.021,M113.084,M113.084,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M99.068,M71.037,M156.101,M99.068,M71.037,M156.101,M99.068,M71.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M156.101,M128.058,M113.084,M156.101,M128.058,M113.084,M156.101,M128.058,M97.053,M101.048,M129.043,M156.101,M115.027,M163.063,0=4,"
+"[/Preset]"

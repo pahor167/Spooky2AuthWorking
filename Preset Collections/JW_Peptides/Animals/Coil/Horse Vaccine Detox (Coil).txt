@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Horse Vaccine Detox (Coil)"
+"Preset_Notes=Horse Vaccine Detox for Coil
+
+Horse Vaccine Detox refers to the mitigation of adverse effects following equine immunization, such as localized swelling, lethargy, or systemic inflammatory responses like purpura hemorrhagica. While the term 'detox' is common in holistic veterinary contexts, clinical management focuses on modulating the innate immune response, chelating potential vaccine components (such as aluminum adjuvants), and reducing pro-inflammatory cytokine cascades. Therapeutic peptides in this axis are designed to suppress excessive Th2-driven eosinophilia, inhibit TSH-like cross-reactivity, and provide antioxidant support to neutralize oxidative stress at the injection site.
+
+1. Cytokine Modulation: Equine IL-5 Fragment - Truncated sequence of equine interleukin-5 designed to competitively inhibit eosinophil activation and allergic sensitivity.
+2. Innate Immune Regulation: SOCS1-mimetic (ss-SOCS1) - Peptide mimetic of the Suppressor of Cytokine Signaling 1 used to dampen JAK/STAT-mediated inflammatory storms post-vaccination.
+3. Adjuvant Sequestration: Poly-L-Histidine - Synthetic polypeptide capable of chelating metal-based adjuvants like aluminum hydroxide through imidazole-metal coordination.
+4. Inflammation Suppression: Thymosin alpha-1 - Highly conserved peptide that modulates T-cell function and reduces systemic inflammation while maintaining appropriate vaccine efficacy.
+5. Oxidative Stress Support: Glutathione-mimetic (GSH-P) - Designed tripeptide derivative that enhances the horse's endogenous antioxidant capacity to combat vaccine-induced ROS.
+6. Vascular Protection: Annexin A1-derived peptide (Ac2-26) - Peptide that mimics the anti-inflammatory effects of Annexin A1 to protect against necrotizing vasculitis and purpura.
+7. Endocrine Support: Protirelin (TRH) - Synthetic tripeptide used to stabilize the hypothalamic-pituitary-thyroid axis, which can be disrupted by systemic immune challenges.
+8. Optimization Axis: EquiDetox-M1 - Engineered peptide optimized for high-affinity binding to equine-specific inflammatory markers (CCL11/Eotaxin) to prevent localized granuloma formation.
+
+"
+"Loaded_Programs=Horse Vaccine Detox p01"
+"Loaded_Programs=Horse Vaccine Detox p02"
+"Loaded_Programs=Horse Vaccine Detox p03"
+"Loaded_Programs=Horse Vaccine Detox p04"
+"Loaded_Programs=Horse Vaccine Detox p05"
+"Loaded_Programs=Horse Vaccine Detox p06"
+"Loaded_Programs=Horse Vaccine Detox p07"
+"Loaded_Programs=Horse Vaccine Detox p08"
+"Loaded_Frequencies=M129.043=1,M128.058,M128.058,M113.084,M129.043,M156.101,M131.040,M156.101,M156.101,M163.063,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M156.101,M113.084,M156.101,M163.063,M113.084,M115.027,M156.101,M163.063,M113.084,M128.095,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,M163.063,M156.101,M114.043,M113.084,M113.084,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M129.043,M129.043,M114.043,M113.084,M113.084,M113.084,M147.068,M113.084,M115.027,M128.095,M128.095,M113.084,M113.084,M128.095,M71.037,M113.084,M115.027,M128.095,M114.043,M128.058,M156.101,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M111.032=1,M137.059,M96.069,0=4,"
+"Loaded_Frequencies=M113.084=1,M156.101,M129.043,M156.101,M156.101,M113.084,M113.084,M115.027,M129.043,M114.043,M113.084,M129.043,M128.095,M131.040,M128.095,0=4,"
+"[/Preset]"

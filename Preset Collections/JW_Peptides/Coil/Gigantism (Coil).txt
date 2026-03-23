@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Gigantism (Coil)"
+"Preset_Notes=Gigantism for Coil
+
+Gigantism is a rare endocrine disorder characterized by excessive linear growth and tall stature resulting from chronic overproduction of growth hormone (GH) during childhood or adolescence, before the closure of epiphyseal growth plates. It is typically caused by a GH-secreting pituitary adenoma, which may be sporadic or associated with genetic syndromes such as McCune-Albright syndrome (due to GNAS mutations leading to constitutive cAMP activation), X-linked acrogigantism (X-LAG, involving GPR101 duplications causing Gs and Gq/11 activation), multiple endocrine neoplasia type 1 (MEN1), Carney complex, or aryl hydrocarbon receptor-interacting protein (AIP) mutations. Other rare causes include ectopic GH-releasing hormone (GHRH) secretion from tumors or hypothalamic dysfunction. Symptoms include rapid growth, disproportionate tall stature (often exceeding 2 SD above mean for age), enlarged hands and feet, coarse facial features (prognathism, prominent supraorbital ridges), headaches, visual field defects from tumor compression of the optic chiasm, delayed puberty, joint pain, fatigue, hyperhidrosis, and organomegaly (heart, liver, kidneys). Pathophysiology involves hyperactivation of the GH/IGF-1 axis: excessive GH stimulates hepatic IGF-1 production, which promotes chondrocyte proliferation at growth plates, leading to accelerated bone elongation; IGF-1 also induces soft tissue hypertrophy and metabolic alterations like insulin resistance, hyperglycemia, dyslipidemia, and increased cardiovascular risk. Untreated, it progresses to acromegaly-like complications in adulthood, including hypertension, cardiomyopathy, sleep apnea, arthropathy, diabetes, and increased cancer risk (e.g., colon polyps), with reduced life expectancy due to cardiovascular and respiratory issues.
+
+The proposed polypeptides address gigantism by targeting key mechanisms in the GH/IGF-1 axis to inhibit GH secretion, block GH action, antagonize upstream stimulators like GHRH and ghrelin, and modulate downstream signaling pathways such as those activated by GPR101. Real-world polypeptides include octreotide, lanreotide, and pasireotide, which activate somatostatin receptors (SSTR2/5) to suppress GH release from pituitary somatotrophs, reducing IGF-1 levels and potentially shrinking adenomas through decreased cAMP and cell proliferation. MZ-4-71, MZ-5-156, and JV-1-36 act as GHRH antagonists, blocking GHRH receptor activation on somatotrophs to prevent GH synthesis and secretion via reduced cAMP/PKA/CREB signaling. LEAP2 serves as a ghrelin receptor antagonist, inhibiting ghrelin-induced GH release by countering GHSR1a activation and associated pathways. Designed polypeptides supplement coverage: D1-GHR antagonizes the GH receptor to prevent JAK2/STAT5 activation and IGF-1 induction; D2-DA mimics dopamine agonist effects on D2 receptors to inhibit GH secretion; D3-PKA targets PKA inhibition to block Gs-mediated signaling in GPR101-overexpressing cells; D4-PKC inhibits PKC to disrupt Gq/11 pathways; D5-IGF blocks IGF-1 receptor signaling to mitigate growth-promoting effects. Feasibility considers stability, delivery (subcutaneous or oral), and specificity to minimize off-target effects; rationales are based on established endocrine pathways and verifiable studies, with designed ones conceptually addressing gaps in current therapies.
+
+"
+"Loaded_Programs=Gigantism p01"
+"Loaded_Programs=Gigantism p02"
+"Loaded_Programs=Gigantism p03"
+"Loaded_Programs=Gigantism p04"
+"Loaded_Programs=Gigantism p05"
+"Loaded_Programs=Gigantism p06"
+"Loaded_Programs=Gigantism p07"
+"Loaded_Programs=Gigantism p08"
+"Loaded_Programs=Gigantism p09"
+"Loaded_Programs=Gigantism p10"
+"Loaded_Programs=Gigantism p11"
+"Loaded_Programs=Gigantism p12"
+"Loaded_Frequencies=M147.068=1,M103.009,M147.068,M186.079,M128.095,M101.048,M103.009,M101.048,0=4,"
+"Loaded_Frequencies=M163.063=1,M103.009,M163.063,M186.079,M128.095,M99.068,M103.009,M101.048,0=4,"
+"Loaded_Frequencies=M147.068=1,M87.032,M163.063,M128.095,M163.063,M147.068,M103.009,M71.037,0=4,"
+"Loaded_Frequencies=M137.059=1,M115.027,M115.027,M71.037,M113.084,M147.068,M101.048,M114.043,M87.032,M163.063,M156.101,M128.095,M99.068,M113.084,M71.037,M128.058,M113.084,M87.032,M71.037,M156.101,M128.095,M113.084,M113.084,M128.058,M115.027,M115.027,M113.084,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M115.027,M115.027,M71.037,M113.084,M147.068,M101.048,M114.043,M87.032,M163.063,M156.101,M128.095,M99.068,M113.084,M71.037,M128.058,M113.084,M87.032,M71.037,M156.101,M128.095,M113.084,M113.084,M128.058,M115.027,M113.084,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M103.009,M147.068,M186.079,M128.095,M99.068,M103.009,M101.048,0=4,"
+"Loaded_Frequencies=M101.048=1,M97.053,M71.037,M57.021,M113.084,M87.032,M156.101,M87.032,M113.084,M97.053,M113.084,M113.084,M128.058,M57.021,M99.068,M71.037,M57.021,M57.021,M137.059,M57.021,M57.021,M156.101,M99.068,M101.048,M97.053,M99.068,M71.037,M57.021,M99.068,M57.021,M57.021,M57.021,M128.095,M129.043,M113.084,M128.095,M129.043,M113.084,M128.095,M101.048,M128.058,M113.084,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M97.053,M129.043,M128.058,M163.063,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M137.059,M113.084,M113.084,M163.063,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M115.027,M71.037,M147.068,M113.084,M71.037,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M97.053,M113.084,M147.068,M101.048,M163.063,M57.021,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"[/Preset]"

@@ -1,0 +1,61 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Otitis Externa (S)"
+"Preset_Notes=Otitis Externa for Scalar
+
+Otitis externa, commonly known as swimmer's ear, is a diffuse inflammation of the external auditory canal, often triggered by moisture exposure, trauma, or skin conditions that disrupt the protective barrier. Primary causes include bacterial infections (predominantly Pseudomonas aeruginosa and Staphylococcus aureus), fungal infections (such as Malassezia pachydermatis or Candida species), or non-infectious factors like eczema. Symptoms encompass severe ear pain, itching, swelling, discharge, and hearing impairment due to canal edema. Pathophysiology involves maceration of the canal skin, loss of acidic pH and cerumen's protective lipids, and pathogen overgrowth, often with biofilm formation in persistent cases.
+
+The proposed polypeptides target key therapeutic axes: direct antibacterial action against Gram-negative (Pseudomonas) and Gram-positive (Staphylococcus) pathogens, antifungal activity, anti-biofilm disruption, anti-inflammatory effects to reduce swelling, immunomodulation to boost innate defenses, and promotion of epithelial healing to restore the canal barrier. Real-world polypeptides include clinically used or studied peptides like gramicidin S (topical otic antibiotic), killer peptide KP (studied in vivo for Malassezia otitis), bovine lactoferricin (tested in topical formulations for otitis), LL-37 (broad-spectrum host defense peptide with anti-biofilm properties, patented for otitis), and human defensins (natural AMPs patented for otitis treatment). Designed polypeptides are conceptual short sequences incorporating non-standard amino acids for enhanced stability, specificity, and diversity, flagged as designed; they supplement coverage for specialized axes like targeted anti-inflammatory or healing effects.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Otitis Externa p01"
+"Loaded_Programs=Otitis Externa p02"
+"Loaded_Programs=Otitis Externa p03"
+"Loaded_Programs=Otitis Externa p04"
+"Loaded_Programs=Otitis Externa p05"
+"Loaded_Programs=Otitis Externa p06"
+"Loaded_Programs=Otitis Externa p07"
+"Loaded_Programs=Otitis Externa p08"
+"Loaded_Programs=Otitis Externa p09"
+"Loaded_Programs=Otitis Externa p10"
+"Loaded_Programs=Otitis Externa p11"
+"Loaded_Programs=Otitis Externa p12"
+"Loaded_Programs=Otitis Externa p13"
+"Loaded_Programs=Otitis Externa p14"
+"Loaded_Programs=Otitis Externa p15"
+"Loaded_Programs=Otitis Externa p16"
+"Loaded_Programs=Otitis Externa p17"
+"Loaded_Programs=Otitis Externa p18"
+"Loaded_Frequencies=M113.084=1,M147.068,M97.053,M99.068,M114.043,M113.084,M147.068,M97.053,M99.068,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M99.068,M101.048,M131.040,M101.048,M103.009,M87.032,M71.037,M71.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M103.009,M147.068,M128.095,M147.068,M129.043,M87.032,M163.063,M113.084,M128.095,M129.043,M99.068,M128.095,M147.068,M57.021,M97.053,M57.021,M87.032,M113.084,M87.032,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M163.063,M114.043,M102.001,M99.068,M87.032,M87.032,M57.021,M57.021,M128.058,M102.001,M113.084,M163.063,M87.032,M71.037,M102.001,M97.053,M113.084,M147.068,M101.048,M128.095,M113.084,M128.058,M57.021,M102.001,M163.063,M156.101,M57.021,M128.095,M71.037,M128.095,M102.001,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M102.001,M147.068,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M102.001,M57.021,M97.053,M128.095,M102.001,M102.001,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M86.048,M128.095,M114.079,M113.048,M156.101,M100.064,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M100.064,M114.079,M156.101,M113.048,M85.053,M87.032,M101.048,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M156.101,M100.064,M114.079,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M128.095,M86.048,M113.084,M114.079,M99.068,M100.064,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.048,M87.032,M101.048,M114.079,M100.064,M57.021,M128.058,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.048,M113.048,M114.079,M128.095,M100.064,M97.053,M156.101,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M128.095,M114.079,M100.064,M113.048,M113.084,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M100.064,M128.095,M114.079,M156.101,M113.048,M86.048,M99.068,M101.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M114.079,M128.095,M100.064,M113.048,M86.048,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.048,M57.021,M114.079,M100.064,M128.095,M156.101,M87.032,M101.048,M128.058,M113.084,M87.032,0=4,"
+"[/Preset]"

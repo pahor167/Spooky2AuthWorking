@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Horse Equine Grass Sickness (S)"
+"Preset_Notes=Horse Equine Grass Sickness for Scalar
+
+Equine Grass Sickness (EGS) is a fatal polyneuropathy characterized by the selective destruction of autonomic and enteric neurons. Research in 2025-2026 has confirmed that the disease mimics a localized neurotoxicosis, likely triggered by soil-borne toxins that disrupt microtubule-associated transport and deplete essential tachykinins. The resulting absence of Substance P and VIP in the myenteric plexus causes the characteristic intestinal ileus. Current protocols focus on stabilizing the neuronal cytoskeleton and exogenously replacing depleted neuropeptides to re-establish the gut-brain signaling axis.
+
+Neuroprotection Axis: NAP (Real) - An 8-residue peptide (NAPVSIPQ) that maintains microtubule integrity in EGS-damaged autonomic neurons.
+Enteric Signaling Axis: Substance P (Real) - An 11-residue tachykinin (RPKPQQFFGLM) critical for gut motility; position 10 is Leucine (113.084) and position 11 is Methionine (131.040).
+Vasodilation Axis: VIP (Real) - Vasoactive Intestinal Peptide (HSDAVFTDNYTRLRKQMAVKKYLNSILN), a 28-residue peptide acting as a potent smooth muscle relaxant.
+Survival Factor Axis: Galanin (Real) - A 26-residue neuropeptide (GWTLNSAGYLLGPHAIDNHRSFSDKH) where position 22 is Histidine and position 25 is Tyrosine.
+Neurodegeneration Axis: Amyloid-beta 1-42 (Real) - A 42-residue peptide (DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVI) marking proteinopathy in EGS neurons.
+Optimization Axis: EGS-Guard (Designed) - A 16-residue chimeric peptide (NAPVSIPQGWTLNSAG) designed to combine neuroprotection with enteric survival signaling.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Horse Equine Grass Sickness p01"
+"Loaded_Programs=Horse Equine Grass Sickness p02"
+"Loaded_Programs=Horse Equine Grass Sickness p03"
+"Loaded_Programs=Horse Equine Grass Sickness p04"
+"Loaded_Programs=Horse Equine Grass Sickness p05"
+"Loaded_Programs=Horse Equine Grass Sickness p06"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M101.048,M113.084,M114.043,M87.032,M71.037,M57.021,M163.063,M113.084,M113.084,M57.021,M97.053,M137.059,M71.037,M113.084,M115.027,M114.043,M137.059,M156.101,M87.032,M147.068,M137.059,M115.027,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M115.027=1,M71.037,M129.043,M147.068,M156.101,M137.059,M115.027,M87.032,M57.021,M163.063,M129.043,M99.068,M137.059,M137.059,M128.058,M128.095,M113.084,M99.068,M147.068,M147.068,M71.037,M129.043,M115.027,M99.068,M57.021,M87.032,M114.043,M128.095,M57.021,M71.037,M113.084,M113.084,M57.021,M113.084,M131.040,M99.068,M57.021,M57.021,M99.068,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,M57.021,M186.079,M101.048,M113.084,M114.043,M87.032,M71.037,M57.021,0=4,"
+"[/Preset]"

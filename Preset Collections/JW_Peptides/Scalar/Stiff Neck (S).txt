@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Stiff Neck (S)"
+"Preset_Notes=Stiff Neck for Scalar
+
+Stiff neck involves muscle strain or tension in the cervical region, often from poor posture, injury, or stress, resulting in pain, restricted mobility, inflammation, and potential spasms; recovery emphasizes rest and therapy, with peptides aiding faster relief. Mechanistic rationale: Peptides target inflammation via cytokine suppression, pain through neuromodulation, muscle relaxation by signaling pathways, regeneration by growth factor activation, circulation enhancement for healing, ECM remodeling for flexibility, neural protection, and anti-fibrosis to avoid stiffness; real-world peptides from validated sources are prioritized, with designed peptides (flagged) added for full neural and anti-fibrotic coverage.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Stiff Neck p01"
+"Loaded_Programs=Stiff Neck p02"
+"Loaded_Programs=Stiff Neck p03"
+"Loaded_Programs=Stiff Neck p04"
+"Loaded_Programs=Stiff Neck p05"
+"Loaded_Programs=Stiff Neck p06"
+"Loaded_Programs=Stiff Neck p07"
+"Loaded_Programs=Stiff Neck p08"
+"Loaded_Programs=Stiff Neck p09"
+"Loaded_Programs=Stiff Neck p10"
+"Loaded_Programs=Stiff Neck p11"
+"Loaded_Programs=Stiff Neck p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M129.043,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M101.048,M57.021,M163.063,M57.021,M147.068,M128.058,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M115.027,M113.084,M128.095,M113.084,M115.027,M113.084,M128.095,M113.084,M115.027,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M156.101,M114.043,M87.032,M97.053,M129.043,M128.095,M113.084,M128.058,M99.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.095,M129.043,M131.040,M87.032,M101.048,M114.043,M113.084,M156.101,M163.063,0=4,"
+"[/Preset]"

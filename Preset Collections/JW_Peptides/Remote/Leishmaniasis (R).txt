@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Leishmaniasis (R)"
+"Preset_Notes=Leishmaniasis for Remote
+
+Leishmaniasis is a vector-borne parasitic disease caused by over 20 species of obligate intracellular protozoan parasites from the genus Leishmania, primarily transmitted through the bite of infected female phlebotomine sandflies. It affects millions worldwide, predominantly in tropical and subtropical regions, with risk factors including poverty, malnutrition, population mobility, and climate change facilitating vector spread. The disease presents in three major clinical forms: cutaneous leishmaniasis (CL), the most common, characterized by skin lesions, ulcers, and scars; mucocutaneous leishmaniasis (MCL), involving destructive lesions in mucous membranes of the nose, mouth, and throat; and visceral leishmaniasis (VL, also known as kala-azar), the deadliest, targeting internal organs like the spleen, liver, and bone marrow, leading to irregular fever, weight loss, hepatosplenomegaly, anemia, pancytopenia, and immunosuppression, with fatality rates up to 95% if untreated. Pathophysiology begins with promastigote injection into the skin, followed by uptake into macrophages and neutrophils where they transform into amastigotes, evading host defenses through mechanisms like inhibition of phagolysosome fusion, resistance to oxidative stress via trypanothione redox system, modulation of host cytokines favoring Th2 over protective Th1 responses, activation of NLRP3 inflammasomes contributing to inflammation, exploitation of annexin 1/FPR axis for entry, disruption of mitochondrial function, interference with purine salvage pathways essential for parasite nucleotide synthesis, and manipulation of host mTOR signaling to promote survival.
+
+The proposed polypeptides address Leishmaniasis by targeting key pathophysiological axes, enhancing parasite clearance while modulating host immunity. Real-world polypeptides prioritize antimicrobial actions: LL-37, BMAP-28, Melittin, Tachyplesin, Halictine-2, Oct-CA(1-7)M(2-9), and RI-1018 disrupt parasite membranes, induce oxidative stress and apoptosis, and exhibit direct leishmanicidal effects against promastigotes and intracellular amastigotes, countering evasion in host cells. IFN-gamma stimulates Th1 responses, macrophage activation, and nitric oxide production to kill internalized parasites, addressing immune suppression. Designed polypeptides cover additional axes: the TR inhibitor impairs the trypanothione reductase enzyme, sensitizing parasites to oxidative damage; the FPR inhibitor blocks the annexin 1/FPR pathway to prevent parasitic internalization; the mitochondrial modulator targets parasite energy metabolism for disruption; the inflammasome inhibitor regulates NLRP3 to mitigate excessive inflammation while maintaining anti-parasitic immunity. Scientific rationale stems from established peptide mechanisms, with feasibility supported by biocompatibility, potential for topical/oral delivery in CL/VL, and physicochemical optimizations like amphipathicity for membrane interaction, solubility via charged residues, and stability against proteases. These approaches aim to overcome drug resistance, reduce toxicity, and achieve comprehensive therapeutic coverage.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Leishmaniasis p01"
+"Loaded_Programs=Leishmaniasis p02"
+"Loaded_Programs=Leishmaniasis p03"
+"Loaded_Programs=Leishmaniasis p04"
+"Loaded_Programs=Leishmaniasis p05"
+"Loaded_Programs=Leishmaniasis p06"
+"Loaded_Programs=Leishmaniasis p07"
+"Loaded_Programs=Leishmaniasis p08"
+"Loaded_Programs=Leishmaniasis p09"
+"Loaded_Programs=Leishmaniasis p10"
+"Loaded_Programs=Leishmaniasis p11"
+"Loaded_Programs=Leishmaniasis p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M113.084,M156.101,M87.032,M113.084,M57.021,M156.101,M128.095,M113.084,M113.084,M156.101,M71.037,M186.079,M128.095,M128.095,M163.063,M57.021,M97.053,M113.084,M113.084,M99.068,M97.053,M113.084,M156.101,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M101.001,M147.068,M156.101,M99.068,M101.001,M163.063,M156.101,M57.021,M113.084,M101.001,M163.063,M156.101,M156.101,M101.001,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M186.079,M131.040,M87.032,M113.084,M113.084,M128.095,M137.059,M113.084,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M57.021,M99.068,M113.084,M128.095,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M128.058=1,M115.027,M97.053,M163.063,M99.068,M128.095,M129.043,M71.037,M129.043,M114.043,M113.084,M128.095,M128.095,M163.063,M147.068,M114.043,M71.037,M57.021,M137.059,M87.032,M99.068,M71.037,M115.027,M114.043,M57.021,M101.048,M147.068,M113.084,M57.021,M113.084,M128.095,M114.043,M186.079,M128.095,M129.043,M129.043,M87.032,M115.027,M156.101,M128.095,M113.084,M131.040,M128.058,M87.032,M128.058,M113.084,M99.068,M87.037,M147.068,M163.063,M147.068,M147.068,M128.095,M113.084,M147.068,M128.095,M114.043,M147.068,M128.095,M115.027,M115.027,M128.058,M87.032,M113.084,M128.058,M128.095,M87.068,M99.068,M101.048,M113.084,M128.095,M129.043,M131.040,M114.043,M99.068,M128.095,M147.068,M147.068,M114.043,M87.032,M114.043,M128.095,M128.095,M128.095,M156.101,M115.027,M115.027,M147.068,M129.043,M128.095,M113.084,M101.048,M114.043,M163.063,M99.068,M101.048,M115.027,M113.084,M114.043,M99.068,M128.058,M156.101,M128.095,M71.037,M113.084,M137.059,M129.043,M113.084,M113.084,M128.058,M99.068,M131.040,M71.037,M129.043,M113.084,M87.032,M97.053,M71.037,M71.037,M128.095,M101.048,M57.021,M128.095,M156.101,M128.095,M156.101,M128.095,M87.032,M128.058,M131.040,M113.084,M147.068,M156.101,M57.021,M156.101,M156.101,M71.037,M128.058,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.058,M113.084,M128.095,M113.084,M186.079,M147.068,M128.058,M114.043,M156.101,M156.101,M131.040,M128.095,M186.079,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M128.058,M156.101,M156.101,M128.095,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M113.084,M128.095,M113.084,M71.037,M113.084,M128.095,M71.037,M113.084,M128.095,M71.037,M71.037,M113.084,M128.095,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M186.079,M156.101,M71.037,M113.084,M186.079,M156.101,M113.084,M113.084,M156.101,M87.032,M113.084,M186.079,M156.101,M113.084,M113.084,M186.079,M156.101,M71.037,0=4,"
+"[/Preset]"

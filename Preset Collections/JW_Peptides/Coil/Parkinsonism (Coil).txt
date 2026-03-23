@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Parkinsonism (Coil)"
+"Preset_Notes=Parkinsonism for Coil
+
+Parkinsonism involves motor symptoms like tremor, rigidity, bradykinesia, and instability, primarily from dopaminergic neuron loss, alpha-synuclein aggregation, neuroinflammation, oxidative stress, and mitochondrial dysfunction in Parkinson's disease and related conditions. The proposed polypeptides target evidence-based axes from preclinical models, clinical trials, and mechanistic studies to provide neuroprotection, reduce aggregation, and support neuronal survival.
+
+1. GLP-1 receptor agonism for neuroprotection and motor symptom modulation: Lixisenatide, a long-acting analog, modestly slowed progression in a phase 2 trial via anti-inflammatory and insulin-sensitizing effects.
+2. VIP neuropeptide signaling for anti-inflammatory and neurotrophic support: VIP ameliorates dopaminergic loss and inflammation in PD models.
+3. ACTH-derived neurotrophic enhancement: Semax promotes BDNF and dopaminergic function, affecting behavior in parkinsonism models.
+4. Mitochondrial anti-apoptotic protection: Humanin inhibits toxin-induced cell death and supports neuronal survival in PD models.
+5. Copper-mediated antioxidant and remodeling support: GHK-Cu aids metal homeostasis and tissue repair relevant to neurodegeneration.
+6. Engineered N-terminal alpha-synuclein targeting for aggregation inhibition: Ac-GVLYVGSKTKE-NH2, derived from the P1 region motif, stabilizes non-toxic conformations and prevents misfolding.
+
+"
+"Loaded_Programs=Parkinsonism p01"
+"Loaded_Programs=Parkinsonism p02"
+"Loaded_Programs=Parkinsonism p03"
+"Loaded_Programs=Parkinsonism p04"
+"Loaded_Programs=Parkinsonism p05"
+"Loaded_Programs=Parkinsonism p06"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M87.032,M128.095,M128.095,M128.095,M128.095,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M113.084,M163.063,M99.068,M57.021,M87.032,M128.095,M101.048,M128.095,M129.043,0=4,"
+"[/Preset]"

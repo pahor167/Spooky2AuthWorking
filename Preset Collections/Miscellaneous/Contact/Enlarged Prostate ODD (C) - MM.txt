@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=Enlarged Prostate ODD (C) - MM"
+"Duty_Cycle=83"
+"Out2_Hz_Constant=.1"
+"Out1_Shadow_Hz_Factor=1"
+"Preset_Notes=These are Manuel Mallo's recommended settings and frequencies for Prostate enlargement.
+
+Run this Preset during odd days (1st, 3rd, 5th, etc) for almost a month. This Preset works in conjunction with the Enlarged Prostate EVEN - MM Preset, which treats the days between.
+
+This Preset has been designed for use in Contact Mode using Spooky Boost.
+
+Connect your TENS pads or Spooky Hand Cylinders to the High Power port of Spooky Boost."
+"Settings_Frequency_Wobble_Percentage=.025"
+"Out1_Max_Freq=0"
+"Hz_Gate=1"
+"F1_Modulation_Type=Modulate F2 using F1 (AM DSB)"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=MM_ModSquareDC83"
+"User_Defined_2_Waveform=Square"
+"Out1_Sine=False"
+"Out1_Square=True"
+"Follow_Out1_Wave=True"
+"InverseWave=False"
+"Enable_Tissue_Factor=1"
+"Enable_Invert_User_Defined_2=1"
+"Loaded_Programs=Prostate Enlarged (PROV)"
+"Loaded_Programs=Prostate (CAFL)"
+"Loaded_Programs=Prostate Hyperplasia (PROV)"
+"Loaded_Frequencies=2250=180,2128=180,2050=180,920=180,690=180,666=180,"
+"Loaded_Frequencies=727=240,787=240,880=240,5000=240,"
+"Loaded_Frequencies=920=300,"
+"[/Preset]"

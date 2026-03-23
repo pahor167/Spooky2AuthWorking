@@ -1,0 +1,24 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Cholestasis (Coil)"
+"Preset_Notes=Cholestasis for Coil
+
+Cholestasis involves impaired bile flow leading to liver damage, often associated with accumulation of bile acids, inflammation, and fibrosis. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical studies, investigational use, and mechanistic research on liver disorders.
+1. Inhibition of hepatic bile acid uptake: Myrcludex B blocks NTCP to reduce bile acid load in hepatocytes, protecting against cholestatic injury.
+2. Enhancement of intestinal adaptation: Teduglutide activates GLP-2 receptors to improve bile acid metabolism and reduce cholestasis.
+3. Targeted delivery to biliary epithelial cells: A20FMDV2 binds integrin {alpha}v{beta}6 for specific targeting in intrahepatic cholestasis.
+4. Disruption of bile acid micelles: VAWWMY disrupts secondary bile acid micelles to promote their excretion and reduce absorption.
+5. Regulation of cholesterol and bile acid homeostasis: VLPVPQK decreases cholesterol micellar solubility and regulates bile acid synthesis.
+
+"
+"Loaded_Programs=Cholestasis p01"
+"Loaded_Programs=Cholestasis p02"
+"Loaded_Programs=Cholestasis p03"
+"Loaded_Programs=Cholestasis p04"
+"Loaded_Programs=Cholestasis p05"
+"Loaded_Frequencies=M267.219=1,M101.048,M114.043,M113.084,M87.032,M99.068,M97.053,M114.043,M97.053,M113.084,M57.021,M147.068,M147.068,M97.053,M115.027,M137.059,M128.058,M113.084,M115.027,M97.053,M71.037,M147.068,M57.021,M71.037,M114.043,M87.032,M114.043,M114.043,M97.053,M115.027,M186.079,M115.027,M147.068,M114.043,M97.053,M114.043,M128.095,M115.027,M137.059,M186.079,M97.053,M129.043,M71.037,M114.043,M128.095,M99.068,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M113.084,M128.058,M101.048,M128.095,M113.084,M101.048,M114.043,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M99.068,M97.053,M114.043,M113.084,M156.101,M57.021,M115.027,M113.084,M128.058,M99.068,M113.084,M71.037,M128.058,M128.095,M99.068,M71.037,M156.101,M101.048,0=4,"
+"Loaded_Frequencies=M99.068=1,M71.037,M186.079,M186.079,M131.040,M163.063,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M97.053,M99.068,M97.053,M128.058,M128.095,0=4,"
+"[/Preset]"

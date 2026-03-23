@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Blood Clots (R)"
+"Preset_Notes=Blood Clots for Remote
+
+Proposed high-quality polypeptides for blood clots (thrombosis) address five key therapeutic axes supported by literature, preclinical studies, and approved therapies. These target coagulation, platelet involvement, fibrin assembly, and emerging safer pathways.
+
+1. Direct thrombin inhibition: Bivalirudin directly binds thrombin's catalytic site and exosite I, blocking fibrinogen cleavage and thrombus growth.
+2. Fibrin polymerization inhibition: GPRP-amide mimics the GPR knob A motif, competitively blocking hole a sites to prevent fibrin protofibril lateral aggregation.
+3. Fibrin-fibronectin clot targeting: CREKA specifically homes to fibrin-fibronectin complexes overexpressed in thrombi, enabling targeted delivery or imaging.
+4. Factor XI inhibition: Rationally engineered cyclic peptide (disulfide-bonded, N-acetylated, C-amidated for stability/solubility) targets FXIa to attenuate intrinsic pathway amplification with minimal bleeding risk.
+5. Factor XII inhibition: Distinct rationally engineered cyclic peptide (disulfide-bonded, N-acetylated, C-amidated) targets FXIIa to block contact activation-initiated thrombosis while preserving hemostasis.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Blood Clots p01"
+"Loaded_Programs=Blood Clots p02"
+"Loaded_Programs=Blood Clots p03"
+"Loaded_Programs=Blood Clots p04"
+"Loaded_Programs=Blood Clots p05"
+"Loaded_Frequencies=M147.068=1,M97.053,M156.101,M97.053,M57.021,M57.021,M57.021,M57.021,M114.043,M57.021,M115.027,M147.068,M129.043,M129.043,M113.084,M97.053,M129.043,M129.043,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M156.101,M96.069,0=4,"
+"Loaded_Frequencies=M103.009=1,M156.101,M129.043,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M144.012=1,M156.101,M99.068,M97.053,M128.095,M113.084,M57.021,M147.068,M115.027,M156.101,M101.048,M101.017,0=4,"
+"Loaded_Frequencies=M144.012=1,M57.021,M128.095,M101.048,M97.053,M156.101,M186.079,M147.068,M113.084,M114.043,M99.068,M101.017,0=4,"
+"[/Preset]"

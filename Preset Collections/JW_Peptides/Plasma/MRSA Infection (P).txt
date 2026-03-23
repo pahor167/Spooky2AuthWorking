@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=MRSA Infection (P)"
+"Preset_Notes=MRSA Infection for Plasma
+
+Methicillin-resistant Staphylococcus aureus (MRSA) infection is a bacterial condition caused by strains of Staphylococcus aureus that have developed resistance to beta-lactam antibiotics, including methicillin, through acquisition of the mecA gene encoding penicillin-binding protein 2a (PBP2a), which reduces affinity for these drugs. MRSA can cause a spectrum of illnesses ranging from mild skin and soft tissue infections, such as boils, abscesses, and cellulitis, to severe invasive diseases like pneumonia, bacteremia, endocarditis, osteomyelitis, and septic arthritis. Risk factors include recent hospitalization, surgery, residence in long-term care facilities, dialysis, indwelling catheters, antibiotic use, immunosuppression, crowded living conditions, and contact sports. The pathophysiology involves bacterial adhesion to host tissues via surface proteins like fibronectin-binding proteins and clumping factors, biofilm formation on medical devices or damaged tissues, production of virulence factors including toxins (e.g., Panton-Valentine leukocidin causing tissue necrosis), hemolysins, and superantigens leading to immune evasion and hyperinflammation, as well as dissemination via bloodstream causing metastatic infections. MRSA's resistance extends variably to other antibiotics through mechanisms like efflux pumps, enzymatic inactivation, and target modifications, complicating treatment and increasing mortality rates up to 20-30% in invasive cases.
+
+The proposed polypeptides target essential therapeutic axes for MRSA: direct antimicrobial action via membrane disruption to kill bacteria, iron chelation to limit nutrient availability and growth, and immune modulation to enhance host clearance and counteract evasion. LL-37 exerts broad-spectrum antimicrobial effects by disrupting bacterial membranes through cationic amphipathic structure, inducing pore formation and leakage, effective against MRSA biofilms. Hepcidin sequesters iron by degrading ferroportin, reducing serum iron levels that MRSA requires for proliferation via siderophores, thus starving the pathogen in iron-limited host environments. AUNP-12 blocks PD-1/PD-L1 interaction, reversing T-cell exhaustion and boosting antifungal-like immune responses, improving phagocytosis and survival in MRSA models. The designed antimicrobial variant, flagged as designed and derived from LL-37 motifs with rational substitutions for enhanced amphipathicity and disulfide cyclization for stability, targets MRSA membranes with improved penetration and reduced hemolysis. The designed mini-hepcidin, flagged as designed and based on hepcidin core with C-amidation for prolonged activity, enhances iron regulation with better pharmacokinetics in systemic infections. The designed immune modulator, flagged as designed and derived from PD-L1 binding peptides with N-acetylation for resistance to degradation, strengthens Th1 responses and neutrophil function against MRSA, informed by checkpoint inhibitor literature.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=MRSA Infection p01"
+"Loaded_Programs=MRSA Infection p02"
+"Loaded_Programs=MRSA Infection p03"
+"Loaded_Programs=MRSA Infection p04"
+"Loaded_Programs=MRSA Infection p05"
+"Loaded_Programs=MRSA Infection p06"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M101.048,M137.059,M147.068,M97.053,M113.084,M102.001,M113.084,M147.068,M102.001,M102.001,M57.021,M102.001,M102.001,M137.059,M156.101,M87.032,M128.095,M102.001,M57.021,M131.040,M102.001,M102.001,M128.095,M101.048,0=4,"
+"Loaded_Frequencies=M114.043=1,M163.063,M87.032,M128.095,M97.053,M101.048,M115.027,M156.101,M128.058,M163.063,M137.059,M147.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M101.048,M137.059,M147.068,M97.053,M113.084,M102.001,M113.084,M147.068,M102.001,0=4,"
+"Loaded_Frequencies=M114.043=1,M163.063,M87.032,M128.095,M97.053,M101.048,M115.027,M156.101,M128.058,M163.063,M137.059,M147.068,0=4,"
+"[/Preset]"

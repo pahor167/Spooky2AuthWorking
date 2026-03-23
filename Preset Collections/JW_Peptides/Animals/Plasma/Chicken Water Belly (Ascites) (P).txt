@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Chicken Water Belly (Ascites) (P)"
+"Preset_Notes=Chicken Water Belly (Ascites) for Plasma
+
+Ascites syndrome in broiler chickens is a metabolic condition driven by rapid growth rates outpacing cardiopulmonary capacity, resulting in hypoxia, pulmonary hypertension, right ventricular failure, and abdominal fluid accumulation.
+
+1. Endothelin-1 receptor antagonism: BQ-123 - Selective ETA receptor antagonist preventing endothelin-induced pulmonary vasoconstriction and hypertension in broiler models.
+2. Pulmonary vasodilation: VIP - Activates VPAC receptors to induce potent relaxation of pulmonary vascular smooth muscle.
+3. Natriuretic signaling: ANP - Activates natriuretic peptide receptors to promote diuresis, natriuresis, and reduce fluid overload.
+4. Adrenomedullin signaling: Adrenomedullin - Binds CALCRL/RAMP receptors for pulmonary vasodilation and inhibition of vascular remodeling.
+5. Antioxidant protection: Carnosine - Scavenges reactive oxygen species and inhibits advanced glycation to mitigate hypoxia-related oxidative damage.
+6. Nitric oxide precursor delivery: Poly-Arg6-NH2 - Arginine-rich peptide supplying substrate for nitric oxide synthesis to attenuate pulmonary hypertension.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Chicken Water Belly (Ascites) p01"
+"Loaded_Programs=Chicken Water Belly (Ascites) p02"
+"Loaded_Programs=Chicken Water Belly (Ascites) p03"
+"Loaded_Programs=Chicken Water Belly (Ascites) p04"
+"Loaded_Programs=Chicken Water Belly (Ascites) p05"
+"Loaded_Programs=Chicken Water Belly (Ascites) p06"
+"Loaded_Frequencies=M186.079=1,M115.027,M97.053,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"[/Preset]"

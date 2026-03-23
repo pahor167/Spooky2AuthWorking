@@ -1,0 +1,59 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Schizencephaly (Closed-Lip) (S)"
+"Preset_Notes=Schizencephaly (Closed-Lip) for Scalar
+
+Schizencephaly is a rare congenital neuronal migration disorder featuring abnormal gray matter-lined clefts in the cerebral hemispheres; the closed-lip variant has apposed cleft walls without CSF separation, often presenting with milder symptoms such as seizures, motor deficits, developmental delays, or asymptomatic cases. Pathophysiology stems from disrupted cortical organization during embryogenesis, linked to genetic factors (e.g., EMX2, SHH mutations) or insults (vascular, infectious). No curative treatments exist; management is symptomatic (anti-epileptics, rehabilitation, occasional surgery for refractory epilepsy). No established polypeptide therapies were identified in comprehensive searches of PubMed, reviews, and related literature. All proposed polypeptides are conceptually designed to address key therapeutic axes: anti-epileptic mechanisms, neuroplasticity promotion, neurotrophic support, neuronal migration enhancement, SHH pathway modulation, and anti-inflammatory effects. Designs incorporate non-standard residues for uniqueness and potential pharmacokinetic benefits; cyclic variants use disulfide bonds for enhanced stability and resistance to degradation.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Schizencephaly (Closed-Lip) p01"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p02"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p03"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p04"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p05"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p06"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p07"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p08"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p09"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p10"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p11"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p12"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p13"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p14"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p15"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p16"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p17"
+"Loaded_Programs=Schizencephaly (Closed-Lip) p18"
+"Loaded_Frequencies=M156.101=1,M114.079,M128.095,M86.048,M156.101,M114.079,M128.095,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M114.079,M128.095,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.048,M114.079,M57.021,M87.032,M101.048,M86.048,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.048,M97.053,M113.048,M57.021,M85.053,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M97.053,M113.048,M97.053,M113.048,M57.021,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M85.053,M113.084,M57.021,M97.053,M113.048,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M57.021,M87.032,M150.954,M101.048,M113.048,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M113.048,M57.021,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M113.048,M129.043,M85.053,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M129.043,M115.027,M113.048,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M113.048,M85.053,M113.084,M129.043,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M103.009,M137.059,M103.009,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M137.059,M113.048,M103.009,M85.053,M86.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M137.059,M113.084,M137.059,M150.954,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M87.032,M57.021,M101.048,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M101.048,M86.048,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M101.048=1,M57.021,M87.032,M101.048,M57.021,M113.084,M85.053,0=4,"
+"[/Preset]"

@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Bone Marrow Edema (L)"
+"Preset_Notes=Bone Marrow Edema for Laser
+
+Therapeutic intervention strategy for 2026 addressing bone marrow edema syndrome (BMES) by modulating subchondral bone pressure, accelerating trabecular microfracture healing, and inhibiting pain-signaling neuropeptides. 1. Angiogenic Stimulator: SVVYGLR - A specialized osteopontin-derived peptide that promotes localized capillary formation to reduce intraosseous pressure and marrow congestion. 2. Osteoblast Activator: BMP-2-derived P15 - A high-affinity peptide mimetic of the cell-binding domain of Type I collagen that recruits osteoprogenitor cells to sites of marrow stress. 3. Resorption Inhibitor: Calcitonin-Core - A bioactive fragment of human calcitonin designed to inhibit osteoclast activity and stabilize bone turnover in the edematous zone. 4. Pain-Signaling Antagonist: Substance P Inhibitor (SPI-7) - A neurokinin-1 receptor antagonist peptide that blocks the transmission of bone pain signals from the intraosseous nerves. 5. Vasodilator: CGRP-Mimetic - An alpha-calcitonin gene-related peptide analog that improves microvascular flow to flush inflammatory cytokines from the marrow space. 6. Designed Structuralist: Ossi-Fix 26 - A bio-engineered peptide incorporating an RGD adhesion sequence with a hydroxyapatite-binding domain to reinforce the trabecular micro-scaffolding.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Bone Marrow Edema p01"
+"Loaded_Programs=Bone Marrow Edema p02"
+"Loaded_Programs=Bone Marrow Edema p03"
+"Loaded_Programs=Bone Marrow Edema p04"
+"Loaded_Programs=Bone Marrow Edema p05"
+"Loaded_Programs=Bone Marrow Edema p06"
+"Loaded_Frequencies=M87.032=1,M99.068,M99.068,M163.063,M57.021,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M101.048,M101.048,M128.095,M87.032,M113.084,M113.084,M156.101,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M57.021,M115.027,M128.095,M87.032,M115.027,M103.009,M128.095,M155.093,0=4,"
+"[/Preset]"

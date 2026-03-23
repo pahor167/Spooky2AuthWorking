@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Creutzfeldt-Jakob Disease (L)"
+"Preset_Notes=Creutzfeldt-Jakob Disease for Laser
+
+Creutzfeldt-Jakob disease (CJD) is a rare, invariably fatal transmissible spongiform encephalopathy caused by misfolded prion protein (PrPSc) propagation, leading to neuronal aggregation, rapid neurodegeneration, apoptosis, oxidative stress, neuroinflammation, and spongiform changes. No disease-modifying treatments exist; proposed polypeptides target preclinical-evidence anti-prion inhibition mechanisms alongside supportive neuroprotection, cytoprotection, regeneration, and repair axes from prion and neurodegeneration studies.
+
+1. Prion conversion and aggregation inhibition: iPrP13 (13-mer beta-sheet breaker analog) potently inhibits PrPSc formation in cell-free systems and extends incubation periods in animal models.
+2. Mitochondrial-derived anti-apoptotic neuroprotection: Humanin mitigates apoptosis and metabolic dysfunction relevant to prion-induced neuronal stress.
+3. Stable gastric pentadecapeptide cytoprotection: BPC-157 maintains endothelial/neuronal integrity and counters lesions in CNS injury models.
+4. Copper-binding tripeptide regeneration and antioxidation: GHK-Cu promotes remodeling and reduces oxidative damage applicable to neurodegeneration.
+5. Acetylated Thymosin {beta}4 fragment repair promotion: TB-500 enhances cell migration, survival, and anti-inflammatory effects in neural repair.
+6. Pyroglutamate-modified EPO-derived innate repair: ARA-290 activates tissue-protective signaling for neuroprotection and anti-inflammation.
+7. Retro-inverso stabilized prion inhibitor optimization: ri-iPrP13 (all D-amino acids, reversed sequence) enhances protease resistance while retaining anti-prion binding potency.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Creutzfeldt-Jakob Disease p01"
+"Loaded_Programs=Creutzfeldt-Jakob Disease p02"
+"Loaded_Programs=Creutzfeldt-Jakob Disease p03"
+"Loaded_Programs=Creutzfeldt-Jakob Disease p04"
+"Loaded_Programs=Creutzfeldt-Jakob Disease p05"
+"Loaded_Programs=Creutzfeldt-Jakob Disease p06"
+"Loaded_Programs=Creutzfeldt-Jakob Disease p07"
+"Loaded_Frequencies=M115.027=1,M71.037,M97.053,M71.037,M71.037,M97.053,M71.037,M57.021,M97.053,M71.037,M99.068,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M99.068,M71.037,M97.053,M57.021,M71.037,M71.037,M97.053,M71.037,M97.053,M71.037,M115.027,0=4,"
+"[/Preset]"

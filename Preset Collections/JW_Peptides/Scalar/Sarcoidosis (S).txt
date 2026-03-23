@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Sarcoidosis (S)"
+"Preset_Notes=Sarcoidosis for Scalar
+
+Sarcoidosis is a multisystem granulomatous disease of unknown etiology, primarily affecting the lungs, lymph nodes, skin, and eyes, with potential involvement of other organs. It is characterized by non-caseating granuloma formation driven by persistent antigen stimulation, genetic susceptibility, and dysregulated immune responses involving activated macrophages, CD4+ T cells (Th1/Th17 polarized), and elevated pro-inflammatory cytokines such as TNF-{alpha}, IFN-{gamma}, and IL-17. Symptoms include fatigue, shortness of breath, dry cough, erythema nodosum, uveitis, and in some cases small fiber neuropathy leading to pain and autonomic dysfunction; chronic cases may progress to pulmonary fibrosis and organ impairment.
+
+The proposed polypeptides target complementary immunoregulatory mechanisms to modulate granulomatous inflammation and symptoms. Vasoactive Intestinal Peptide (VIP, real-world) and its disulfide-cyclized N-terminal analog (designed, derived from VIP activation domain with cyclization for protease resistance) act as VPAC receptor agonists, enhancing regulatory T cells, suppressing alveolar macrophage activation, and reducing TNF-{alpha}, based on phase II clinical evidence with inhaled VIP showing immunoregulatory benefits in active sarcoidosis. ARA 290 (real-world, cibinetide) and its head-to-tail cyclic Aib-stabilized analog (designed, with alpha-aminoisobutyric acid insertions to reinforce helical structure and stability per rational peptide engineering principles) activate the innate repair receptor, inhibiting proinflammatory pathways and promoting tissue repair, supported by clinical trials demonstrating symptom relief in sarcoidosis-associated neuropathy. Alpha-MSH (real-world) and its NDP analog (designed, with Nle and D-Phe substitutions from literature for oxidation resistance and potency) engage melanocortin-1 receptors, exerting anti-inflammatory effects via CREB phosphorylation and cytokine downregulation, evidenced by preclinical studies in sarcoid granuloma models. This set provides broad coverage of pulmonary inflammation, systemic immunomodulation, and neuropathic complications with feasible, drug-like polypeptides.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Sarcoidosis p01"
+"Loaded_Programs=Sarcoidosis p02"
+"Loaded_Programs=Sarcoidosis p03"
+"Loaded_Programs=Sarcoidosis p04"
+"Loaded_Programs=Sarcoidosis p05"
+"Loaded_Programs=Sarcoidosis p06"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M113.059,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M113.084,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"[/Preset]"

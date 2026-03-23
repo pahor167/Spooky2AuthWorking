@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\DNA (Dual) (R) - JW"
+"PresetName=Rhizopus rhizopodiformis (DNA) (R) - JW"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||Please note that you will have no indication lights on your remote. The speeds of these frequencies are too high for the LEDs to keep up!||Connect your Spooky Remote to the 'BN' port of Spooky Boost.||This preset contains the following strains:||Rhizopus rhizopodiformis 31994 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2|Rhizopus rhizopodiformis 31995 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2"
+"Loaded_Programs=Rhizopus rhizopodiformis (DNA) (R) - JW (CUST)"
+"Loaded_Frequencies=~9302BL652,~0691BL724,"
+"[/Preset]"

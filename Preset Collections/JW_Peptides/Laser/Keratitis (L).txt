@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Keratitis (L)"
+"Preset_Notes=Keratitis for Laser
+
+Keratitis is an inflammatory disease of the cornea primarily caused by microbial pathogens (bacteria, viruses, fungi, Acanthamoeba) or trauma, leading to pain, ulceration, scarring, and vision impairment. The proposed polypeptides target evidence-based therapeutic axes from literature on AMPs for microbial keratitis, anti-inflammatory peptides for ocular surface, wound healing peptides for corneal epithelial repair, and regenerative peptides for tissue integrity.
+
+1. Broad-spectrum antimicrobial activity: LL-37 disrupts bacterial, viral, and fungal membranes while modulating immune response at the ocular surface.
+2. Tissue regeneration and corneal wound healing: BPC-157 accelerates angiogenesis, reduces inflammation, and promotes stromal and epithelial repair in corneal injury models.
+3. Potent anti-inflammatory effects: KPV inhibits pro-inflammatory pathways to reduce edema and tissue damage in keratitis.
+4. Actin sequestration and epithelial cell migration: TB-500 facilitates rapid re-epithelialization and wound closure.
+5. Immunomodulatory and anti-inflammatory in bacterial keratitis: VIP suppresses excessive inflammation and supports epithelial integrity against Pseudomonas and other pathogens.
+6. Antioxidant and ECM remodeling support: GHK-Cu (with copper) enhances antioxidant defense, collagen synthesis, and tissue remodeling.
+7. Engineered dual antimicrobial and wound healing optimization: Opti-AMP-Ker combines cationic membrane-targeting with stabilized structure for superior penetration and reduced toxicity.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Keratitis p01"
+"Loaded_Programs=Keratitis p02"
+"Loaded_Programs=Keratitis p03"
+"Loaded_Programs=Keratitis p04"
+"Loaded_Programs=Keratitis p05"
+"Loaded_Programs=Keratitis p06"
+"Loaded_Programs=Keratitis p07"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M99.032=1,M128.095,M156.101,M186.079,M186.079,M156.101,M147.068,M147.068,M186.079,M156.101,M128.095,M155.117,0=4,"
+"[/Preset]"

@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Fahr’s Disease (P)"
+"Preset_Notes=Fahr’s Disease for Plasma
+
+Fahr’s Disease, also known as Primary Familial Brain Calcification (PFBC) or Idiopathic Basal Ganglia Calcification, is a rare neurodegenerative disorder characterized by bilateral and symmetrical calcifications in the basal ganglia, thalamus, cerebellum, and other brain regions, often without abnormalities in calcium-phosphate metabolism. The etiology involves genetic mutations in genes such as SLC20A2, PDGFB, PDGFRB, and XPR1, leading to disrupted phosphate homeostasis, impaired blood-brain barrier integrity due to pericyte dysfunction, neuroinflammation, and ectopic mineralization processes. Environmental factors or secondary causes like hypoparathyroidism can exacerbate the condition, but primary forms are inherited autosomal dominantly or recessively. Symptoms typically emerge in adulthood, including movement disorders such as parkinsonism, dystonia, chorea, and ataxia; psychiatric manifestations like depression, anxiety, psychosis, and cognitive decline; headaches, seizures, and speech impairments, progressing to severe neurological disability. The pathophysiology encompasses elevated cerebrospinal fluid phosphate levels from SLC20A2/XPR1 defects causing microvascular calcifications, PDGF signaling failures resulting in pericyte loss and vascular leakage, inflammatory responses with T-cell infiltration and interferon-gamma mediated degeneration, and mitochondrial impairments contributing to oxidative stress and neuronal loss, culminating in nigrostriatal degeneration and basal ganglia dysfunction.
+
+The proposed designed polypeptides address essential therapeutic axes in Fahr’s Disease. For the phosphate homeostasis axis, the first designed polypeptide modulates SLC20A2 activity to enhance phosphate export, reducing ectopic calcification and stabilizing neuronal function. For the PDGF signaling and pericyte maintenance axis, the second designed polypeptide activates PDGFRB pathways, promoting pericyte recruitment and blood-brain barrier integrity to prevent vascular calcification. For the neuroinflammation axis, the third designed polypeptide inhibits T-cell infiltration and interferon-gamma effects, alleviating inflammatory damage and nigrostriatal degeneration. For the calcification inhibition axis, the fourth designed polypeptide targets ossification processes in astrocytes, suppressing mineral deposition and astrocyte toxicity. These mechanisms are feasible with short peptide designs ensuring brain penetration, stability in physiological conditions, and minimal immunogenicity, potentially via intranasal or intravenous delivery for targeted CNS effects.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Fahr’s Disease p01"
+"Loaded_Programs=Fahr’s Disease p02"
+"Loaded_Programs=Fahr’s Disease p03"
+"Loaded_Programs=Fahr’s Disease p04"
+"Loaded_Frequencies=M57.021=1,M137.059,M113.084,M128.058,M156.101,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M97.053,M128.058,M163.063,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M101.048,M113.084,M163.063,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M137.059,M128.095,M57.021,M147.068,M115.027,M113.084,0=4,"
+"[/Preset]"

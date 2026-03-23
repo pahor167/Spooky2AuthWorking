@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Tingling and Numbness (C)"
+"Preset_Notes=Tingling and Numbness for Contact
+
+Tingling and numbness, collectively known as paresthesia, are common sensory symptoms often indicative of peripheral neuropathy, a disorder involving damage to the peripheral nerves outside the brain and spinal cord. These sensations can manifest as prickling, pins-and-needles, burning, or a loss of feeling in the affected areas, typically starting in the extremities like the hands and feet and potentially progressing proximally. Causes are multifaceted, including metabolic disturbances such as diabetes mellitus leading to hyperglycemia-induced nerve damage, traumatic injuries causing axonal disruption, infectious agents like herpes zoster triggering inflammatory responses, toxic exposures from chemotherapy or heavy metals inducing oxidative stress, autoimmune conditions where the immune system attacks nerve tissues, vascular insufficiencies impairing blood supply to nerves, and nutritional deficiencies affecting myelin integrity. Pathophysiologically, these lead to axonal degeneration, demyelination, ion channel dysfunction, neuroinflammation, mitochondrial impairment, and central sensitization, resulting in abnormal nerve signaling and sensory deficits that can severely impact quality of life, mobility, and daily functioning. The proposed polypeptides address these through diverse mechanisms: real-world ones like BPC-157 promote nerve regeneration by enhancing growth factors and reducing inflammation; C-peptide improves glycemic control and reduces oxidative stress in diabetic contexts; Melittin modulates immune responses to alleviate chemotherapy-induced neuropathy; Cortistatin exerts potent anti-inflammatory effects to mitigate neuropathic pain; TX14(A) prevents inflammatory damage and supports nerve repair; TAT-CBD3 targets calcium channels to reduce pain hypersensitivity; COG112 stimulates axonal regrowth and remyelination post-injury; Neutrophil peptide-1 enhances proteins involved in nerve regeneration. Designed polypeptides (flagged as such) conceptually target remaining gaps: for pain pathways, ion channel stabilization with non-standard residues to prevent hyperexcitability; for autoimmune suppression, immune-modulating motifs to dampen aberrant responses; for vascular improvement, angiogenic promotion via unique scaffolds; for neuroprotection against toxins, antioxidant facilitation through specialized structures. Feasibility includes biocompatibility, targeted delivery potential, and established safety profiles for real analogs, with designed ones emphasizing stability, low immunogenicity, and physicochemical properties like hydrophilicity for bioavailability.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Tingling and Numbness p01"
+"Loaded_Programs=Tingling and Numbness p02"
+"Loaded_Programs=Tingling and Numbness p03"
+"Loaded_Programs=Tingling and Numbness p04"
+"Loaded_Programs=Tingling and Numbness p05"
+"Loaded_Programs=Tingling and Numbness p06"
+"Loaded_Programs=Tingling and Numbness p07"
+"Loaded_Programs=Tingling and Numbness p08"
+"Loaded_Programs=Tingling and Numbness p09"
+"Loaded_Programs=Tingling and Numbness p10"
+"Loaded_Programs=Tingling and Numbness p11"
+"Loaded_Programs=Tingling and Numbness p12"
+"Loaded_Programs=Tingling and Numbness p13"
+"Loaded_Programs=Tingling and Numbness p14"
+"Loaded_Programs=Tingling and Numbness p15"
+"Loaded_Programs=Tingling and Numbness p16"
+"Loaded_Programs=Tingling and Numbness p17"
+"Loaded_Programs=Tingling and Numbness p18"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M129.043,M115.027,M113.084,M128.058,M99.068,M57.021,M128.058,M99.068,M129.043,M113.084,M57.021,M57.021,M57.021,M97.053,M57.021,M71.037,M57.021,M87.032,M113.084,M128.058,M97.053,M113.084,M71.037,M113.084,M129.043,M57.021,M87.032,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M113.084,M113.084,M115.027,M114.043,M114.043,M128.095,M101.048,M129.043,M128.095,M129.043,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M198.112=1,M128.058,M113.084,M128.095,M113.084,M186.079,M147.068,M128.058,M114.043,M156.101,M156.101,M131.040,M128.095,M186.079,M128.095,M128.095,M103.009,M113.084,M156.101,M99.068,M156.101,M113.084,M71.037,M87.032,M137.059,M113.084,M156.101,M128.095,M113.084,M156.101,M128.095,M156.101,M112.10,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M113.048,M128.095,M114.079,M150.954,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.095,M237.148,M113.084,M128.058,M156.101,M87.032,M101.048,M99.068,M57.021,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M113.048,M128.095,M150.954,M97.053,M128.058,M156.101,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M85.053=1,M100.064,M86.048,M200.095,M758.675,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M128.095,M156.101,M128.058,M87.032,M101.048,M115.027,M129.043,M57.021,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M150.954,M237.148,M113.048,0=4,"
+"Loaded_Frequencies=M100.064=1,M86.048,M85.053,M128.095,M129.043,M128.058,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M200.095,M113.084,M147.068,0=4,"
+"Loaded_Frequencies=M150.954=1,M237.148,M758.675,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M113.084=1,M200.095,M114.079,M100.064,M86.048,M85.053,0=4,"
+"[/Preset]"

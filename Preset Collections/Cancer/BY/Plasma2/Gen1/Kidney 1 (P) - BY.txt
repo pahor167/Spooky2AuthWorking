@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"PresetName=1. SC Kidney 1"
+"Loaded_Frequencies=9.2=180,10=180,40=180,440=180,1600=180,1550=180,1500=180,880=180,802=180,650=180,625=180,600=180,444=180,1865=180,146=180,250=180,125=180,95=180,72=180,20=180,9.2=180,10=180,40=180,440=180,1600=180,1550=180,1500=180,880=180,802=180,650=180,625=180,600=180,444=180,1865=180,146=180,250=180,125=180,95=180,72=180,20=180,0=180,"
+"Loaded_Programs=1. SC Kidney 1"
+"Preset_Notes=Cancer Protocol, Plasma Plus method, Generator 1, for Plasma. 
+
+This preset contains Plasma frequency sets for Spooky Central/Plasma. Run this preset concurrently with the presets 'Plasma2/Gen2 (R) - BY'. See '\Cancer\BY\GUIDE Cancer BY - Click Me.pdf' for a schedule to run these presets.
+
+The entire schedule for this protocol is in the notes of 'Plasma2/Gen2 (P) - BY'. Here is the schedule for this preset:
+  Generator 1, Plasma2/Gen1/Kidney 1 (P) - BY
+    Day 9
+    Day 10
+
+This preset has the following programs:
+
+SC Kidney 1: Kidney Insufficiency - CAFL
+
+Here is a table to find the beginning of each day in this preset:
+1: SC Kidney 1
+
+Connect Generator 1 Out 1 to the Spooky Central/Plasma Input port. Out 2 to the Spooky Central/Plasma Modulation port.
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"

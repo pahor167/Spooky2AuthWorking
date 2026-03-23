@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Influenza A (L)"
+"Preset_Notes=Influenza A for Laser
+
+Influenza A is a highly contagious respiratory infection caused by Influenza A viruses, leading to symptoms like fever, cough, sore throat, fatigue, and potential severe complications such as pneumonia, especially in vulnerable groups. 
+
+The polypeptides address key axes including viral entry inhibition (e.g., HA binding disruption), membrane fusion prevention (e.g., blocking conformational changes), envelope disruption (e.g., direct virucidal action), polymerase inhibition (e.g., interfering with replication complex), immune modulation (e.g., enhancing innate responses), and anti-inflammatory effects (e.g., cytokine regulation); real-world polypeptides are prioritized from validated studies, supplemented by designed ones (flagged) for comprehensive coverage, with rationales based on receptor antagonism or enzymatic interference, feasibility through standard peptide synthesis, modes of action via specific binding or membrane interaction, and physicochemical considerations like hydrophilicity for bioavailability and stability.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Influenza A p01"
+"Loaded_Programs=Influenza A p02"
+"Loaded_Programs=Influenza A p03"
+"Loaded_Programs=Influenza A p04"
+"Loaded_Programs=Influenza A p05"
+"Loaded_Programs=Influenza A p06"
+"Loaded_Programs=Influenza A p07"
+"Loaded_Programs=Influenza A p08"
+"Loaded_Programs=Influenza A p09"
+"Loaded_Programs=Influenza A p10"
+"Loaded_Programs=Influenza A p11"
+"Loaded_Programs=Influenza A p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M128.095,M128.095,M71.037,M71.037,M99.068,M71.037,M113.084,M113.084,M97.053,M71.037,M99.068,M113.084,M113.084,M71.037,M113.084,M113.084,M71.037,M97.053,0=4,"
+"Loaded_Frequencies=M186.079=1,M113.084,M99.068,M147.068,M147.068,M99.068,M113.084,M147.068,M163.063,M147.068,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M97.053,M113.084,M156.101,M57.021,M71.037,M113.084,M114.043,M57.021,M156.101,M186.079,M115.027,M87.032,M128.058,M103.009,M137.059,M156.101,M147.068,M87.032,M114.043,M57.021,M113.084,M71.037,M103.009,M71.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M147.068,M156.101,M113.084,M113.084,M128.095,M87.032,M113.084,M113.084,M128.095,M156.101,M113.084,M99.068,M87.032,M71.037,M147.068,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M103.009,M128.095,M128.095,M163.063,M156.101,M156.101,M147.068,M156.101,M186.079,M128.095,M147.068,M128.095,M57.021,M128.095,M147.068,M186.079,M147.068,M186.079,M57.021,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M99.068,M101.048,M131.040,M101.048,M103.009,M87.032,M71.037,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M115.027,M99.068,M114.043,M97.053,M101.048,M113.084,M113.084,M147.068,M113.084,M128.095,M99.068,M97.053,M71.037,M128.058,M114.043,M71.037,M113.084,M87.032,M101.048,M101.048,M147.068,M97.053,M163.063,M101.048,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.095,M137.059,M87.032,M87.032,M113.084,M115.027,M103.009,M99.068,M113.084,M156.101,M97.053,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M150.954,M237.148,M200.095,0=4,"
+"Loaded_Frequencies=M100.064=1,M86.048,M85.053,M113.048,M113.084,0=4,"
+"[/Preset]"

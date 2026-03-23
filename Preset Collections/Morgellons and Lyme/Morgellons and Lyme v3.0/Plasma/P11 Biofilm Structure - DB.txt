@@ -1,0 +1,62 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=P11 Biofilm Structure - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Plasma.
+
+Update: September 2019.
+
+IMPORTANT: If you're currently supplementing with fish oils, use CAUTION with the Serrapeptase programs in this preset. If you're currently using blood thinning drugs like warfarin, DO NOT USE these Serrapeptase programs at all - skip to the next preset.
+
+PROGRAMS: 
+Your Scan Results CUST
+Serrapeptase 1 AM_Res XTRA
+Serrapeptase 2 AM_Res XTRA
+Serrapeptase 3 XTRA
+Serrapeptase 1 AM_Res XTRA
+Serrapeptase 2 AM_Res XTRA
+Serrapeptase 3 XTRA
+Serrapeptase 1 AM_Res XTRA
+Serrapeptase 2 AM_Res XTRA
+Serrapeptase 3 XTRA
+
+Connect OUT 1 to Input, Out 2 to Modulation.
+"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Serrapeptase 1 AM_Res (XTRA) High"
+"Loaded_Programs=Serrapeptase 1 AM_Res (XTRA)"
+"Loaded_Programs=Serrapeptase 2 AM_Res (XTRA)"
+"Loaded_Programs=Serrapeptase 3 (XTRA)"
+"Loaded_Programs=Serrapeptase 1 AM_Res (XTRA)"
+"Loaded_Programs=Serrapeptase 2 AM_Res (XTRA)"
+"Loaded_Programs=Serrapeptase 3 (XTRA)"
+"Loaded_Programs=Serrapeptase 1 AM_Res (XTRA)"
+"Loaded_Programs=Serrapeptase 2 AM_Res (XTRA)"
+"Loaded_Programs=Serrapeptase 3 (XTRA)"
+"Loaded_Frequencies=4491492.72=300,4491492.73=300,2245746.36=300,2245746.37=300,4482288.85=300,4482288.86=300,2241144.42=300,2241144.43=300,"
+"Loaded_Frequencies=4488420.57=180,4488420.58=180,2244210.28=180,2244210.29=180,4485352.61=180,4485352.62=180,2242676.3=180,2242676.31=180,"
+"Loaded_Frequencies=77405649416000000000000000=300,"
+"Loaded_Frequencies=4491492.72=300,4491492.73=300,2245746.36=300,2245746.37=300,4482288.85=300,4482288.86=300,2241144.42=300,2241144.43=300,"
+"Loaded_Frequencies=4488420.57=180,4488420.58=180,2244210.28=180,2244210.29=180,4485352.61=180,4485352.62=180,2242676.3=180,2242676.31=180,"
+"Loaded_Frequencies=77405649416000000000000000=300,"
+"Loaded_Frequencies=4491492.72=300,4491492.73=300,2245746.36=300,2245746.37=300,4482288.85=300,4482288.86=300,2241144.42=300,2241144.43=300,"
+"Loaded_Frequencies=4488420.57=180,4488420.58=180,2244210.28=180,2244210.29=180,4485352.61=180,4485352.62=180,2242676.3=180,2242676.31=180,"
+"Loaded_Frequencies=77405649416000000000000000=300,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Pause 30 Seconds (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Kala-azar (Leishmaniasis) (Coil)"
+"Preset_Notes=Kala-azar (Leishmaniasis) for Coil
+
+Kala-azar, also known as visceral leishmaniasis, is a severe form of leishmaniasis caused primarily by the protozoan parasites Leishmania donovani and Leishmania infantum, transmitted through the bite of infected female phlebotomine sandflies. It is a neglected tropical disease prevalent in endemic regions such as East Africa, India, Brazil, and the Mediterranean basin, with an estimated 50,000 to 90,000 new cases annually worldwide. Causes include poverty-related factors like malnutrition, population displacement, and poor housing that increase exposure to sandfly vectors; co-infections with HIV exacerbate severity. Symptoms develop 2-6 months post-infection and include prolonged irregular fever, weight loss, fatigue, anemia, hepatosplenomegaly (enlarged liver and spleen), lymphadenopathy, dark skin pigmentation (hence 'kala-azar' meaning black fever in Hindi), pancytopenia leading to bleeding tendencies, and secondary bacterial infections; untreated cases have a mortality rate exceeding 95%. Pathophysiology involves the parasite's promastigote form entering human skin via sandfly bite, transforming into amastigotes within macrophages, evading immune detection by inhibiting phagolysosome fusion, downregulating MHC class II, and modulating cytokines (e.g., suppressing IFN-{gamma} while promoting IL-10 and TGF-{beta} for Th2 skewing); this leads to systemic dissemination to bone marrow, spleen, and liver, causing hyperplasia, immunosuppression, hyperglobulinemia, and progressive organ failure; arachidonic acid metabolism imbalance favors parasite survival via elevated HETEs and reduced PGs; IL-33/ST2 axis contributes to splenic pathology; glutamine dependency and mitochondrial reliance in amastigotes sustain replication; virulence factors like gp63 protease cleave host proteins; chemokine/cytokine storms amplify inflammation while impairing Th1 responses.
+
+The proposed polypeptides address key therapeutic axes with scientific rationale based on verifiable sources, feasibility via peptide stability and delivery (e.g., topical/systemic with carriers), modes of action like membrane disruption or immune stimulation, and physicochemical properties such as cationic charge for parasite targeting and amphipathicity for selectivity. Real-world polypeptides prioritize emerging research from single sources like PubMed papers. For direct leishmanicidal activity, LL-37 (real) disrupts parasite membranes inducing apoptosis, feasible as topical/systemic with low toxicity; RI-1018 (real) targets amastigotes with high potency; Temporin SHa (real) causes membrane blistering; BMAP-18 (real) inhibits growth in macrophages; Indolicidin (real) binds DNA/RNA inhibiting replication; Peptide 19-2.5 (real) downregulates resistance/virulence genes; Peptide 19-4LF (real) enhances Th1 cytokines; for immune modulation, HNP-1 (real) boosts Th1 signals reducing parasite load. Designed polypeptides supplement for coverage: Designed 9 (D9-metab) mimics glutamine analogs to disrupt parasite metabolism, feasible with enzyme-binding motifs reducing amastigote viability; Designed 10 (D10-inflam) sequesters IL-10/TGF-{beta} promoting Th1 shift, feasible with cytokine-mimetic structure alleviating immunosuppression; Designed 11 (D11-virul) inhibits gp63 protease activity, feasible with substrate-like sequence blocking virulence; Designed 12 (D12-il33) blocks IL-33/ST2 signaling to mitigate splenic pathology, feasible with receptor-antagonist design improving organ function.
+
+"
+"Loaded_Programs=Kala-azar (Leishmaniasis) p01"
+"Loaded_Programs=Kala-azar (Leishmaniasis) p02"
+"Loaded_Programs=Kala-azar (Leishmaniasis) p03"
+"Loaded_Programs=Kala-azar (Leishmaniasis) p04"
+"Loaded_Programs=Kala-azar (Leishmaniasis) p05"
+"Loaded_Programs=Kala-azar (Leishmaniasis) p06"
+"Loaded_Programs=Kala-azar (Leishmaniasis) p07"
+"Loaded_Programs=Kala-azar (Leishmaniasis) p08"
+"Loaded_Programs=Kala-azar (Leishmaniasis) p09"
+"Loaded_Programs=Kala-azar (Leishmaniasis) p10"
+"Loaded_Programs=Kala-azar (Leishmaniasis) p11"
+"Loaded_Programs=Kala-azar (Leishmaniasis) p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M87.032,M57.021,M113.084,M99.068,M57.021,M131.040,M113.084,M57.021,M128.095,M113.084,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M147.068,M128.095,M156.101,M147.068,M156.101,M128.095,M128.095,M147.068,M128.095,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M103.009,M128.095,M128.095,M163.063,M156.101,M156.101,M147.068,M156.101,M186.079,M128.095,M147.068,M128.095,M57.021,M128.095,M147.068,M186.079,M147.068,M186.079,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M128.095,M163.063,M156.101,M156.101,M147.068,M156.101,M186.079,M128.095,M147.068,M128.095,M57.021,M128.095,M113.084,M147.068,M113.084,M147.068,M57.021,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M113.084,M113.084,M128.058,M129.043,M131.040,M147.068,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M87.032,M57.021,M113.084,M99.068,M57.021,M131.040,M113.084,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M147.068,M128.095,M156.101,M147.068,M156.101,M128.095,M128.095,M147.068,M128.095,0=4,"
+"[/Preset]"

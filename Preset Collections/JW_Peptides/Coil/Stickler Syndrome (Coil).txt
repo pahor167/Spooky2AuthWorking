@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Stickler Syndrome (Coil)"
+"Preset_Notes=Stickler Syndrome for Coil
+
+Stickler syndrome is a rare hereditary connective tissue disorder primarily caused by pathogenic variants in genes encoding fibrillar collagens, most commonly COL2A1 (type II collagen), followed by COL11A1, COL11A2, COL9A1, COL9A2, and COL9A3 in rarer forms. These mutations disrupt normal collagen assembly and extracellular matrix integrity in tissues such as the vitreous humor, cartilage, and craniofacial structures, leading to haploinsufficiency or dominant-negative effects. Symptoms typically include severe myopia, abnormal vitreous gel architecture predisposing to rhegmatogenous retinal detachment (the leading cause of inherited childhood blindness from this complication), sensorineural or mixed hearing loss, early-onset osteoarthritis with joint pain and hypermobility, and orofacial features such as cleft palate or Pierre Robin sequence with midfacial hypoplasia. The pathophysiology centers on defective collagen fibrils impairing mechanical strength and developmental signaling in affected tissues, resulting in progressive multisystem degeneration.
+
+No established real-world polypeptide therapies exist for Stickler syndrome, as current management focuses on symptomatic interventions like prophylactic retinal laser or surgery, hearing aids, and joint support, with emerging gene therapies or antisense oligonucleotides in early research. The proposed polypeptides are all conceptually designed to target core mechanistic axes derived from the collagen defects and key clinical manifestations.
+
+The vitreous-stabilizing collagen mimetic peptide (designed) employs hydroxyproline-rich repeats to facilitate triple-helix formation, conceptually integrating into the malformed type II collagen network of the vitreous to restore gel stability and reduce the high risk of giant retinal tears and detachment. The cartilage-stabilizing cationic peptide (designed) incorporates alternating positively charged residues to electrostatically bind anionic glycosaminoglycans in articular cartilage, potentially reinforcing the extracellular matrix against erosive degeneration and delaying osteoarthritis onset. The auditory-supporting anionic peptide (designed) uses negatively charged alternating residues to modulate ionic interactions or matrix associations in inner ear connective tissues, aiming to preserve structural integrity and slow sensorineural hearing progression. These short peptides are feasible for synthesis, exhibit favorable physicochemical properties such as charge-dependent solubility and repeat-induced stability, and offer potential for targeted delivery or systemic administration in preclinical models, though efficacy remains conceptual pending experimental validation.
+
+"
+"Loaded_Programs=Stickler Syndrome p01"
+"Loaded_Programs=Stickler Syndrome p02"
+"Loaded_Programs=Stickler Syndrome p03"
+"Loaded_Frequencies=M57.021=1,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,0=4,"
+"[/Preset]"

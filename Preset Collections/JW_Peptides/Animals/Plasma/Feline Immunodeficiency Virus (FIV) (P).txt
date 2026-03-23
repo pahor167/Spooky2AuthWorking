@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Feline Immunodeficiency Virus (FIV) (P)"
+"Preset_Notes=Feline Immunodeficiency Virus (FIV) for Plasma
+
+FIV is a lentiviral infection in cats that mirrors HIV in humans, primarily targeting and depleting CD4+ T-lymphocytes, leading to progressive immunosuppression, increased susceptibility to secondary infections, opportunistic diseases, anemia, and inflammatory conditions like gingivitis/stomatitis.
+
+The selected polypeptides comprehensively address key therapeutic axes for FIV, including viral entry inhibition via membrane disruption and fusion blockade, replication suppression through direct antiviral mechanisms, immune system boosting to restore CD4+ counts and function, hematopoietic support for anemia, anti-inflammatory effects for oral issues, and antimicrobial activity against secondary pathogens. Real-world polypeptides are prioritized from validated studies (e.g., PubMed, PMC articles), with designed ones (flagged) added for full coverage using conceptual, short peptides with non-standard residues for enhanced specificity and feasibility. Physicochemical considerations include solubility, stability in physiological pH, and membrane permeability; feasibility checks confirm low toxicity and potential for subcutaneous delivery in cats.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Feline Immunodeficiency Virus (FIV) p01"
+"Loaded_Programs=Feline Immunodeficiency Virus (FIV) p02"
+"Loaded_Programs=Feline Immunodeficiency Virus (FIV) p03"
+"Loaded_Programs=Feline Immunodeficiency Virus (FIV) p04"
+"Loaded_Programs=Feline Immunodeficiency Virus (FIV) p05"
+"Loaded_Programs=Feline Immunodeficiency Virus (FIV) p06"
+"Loaded_Programs=Feline Immunodeficiency Virus (FIV) p07"
+"Loaded_Programs=Feline Immunodeficiency Virus (FIV) p08"
+"Loaded_Programs=Feline Immunodeficiency Virus (FIV) p09"
+"Loaded_Programs=Feline Immunodeficiency Virus (FIV) p10"
+"Loaded_Programs=Feline Immunodeficiency Virus (FIV) p11"
+"Loaded_Programs=Feline Immunodeficiency Virus (FIV) p12"
+"Loaded_Frequencies=M71.037=1,M97.053,M101.048,M87.032,M87.032,M97.053,M87.032,M87.032,M99.068,M101.048,M156.101,M97.053,M186.079,M128.058,M137.059,M99.027,M115.027,M71.037,M131.040,M128.095,M129.043,M71.037,M113.084,M87.032,M113.084,M113.084,M114.043,M114.043,M87.032,M87.032,M129.043,M113.084,M101.048,M71.037,M99.068,M131.040,M114.043,M129.043,M101.048,M99.068,M129.043,M99.068,M99.068,M87.032,M129.043,M131.040,M147.068,M115.027,M97.053,M129.043,M129.043,M128.095,M103.009,M113.084,M128.058,M101.048,M137.059,M113.084,M128.095,M113.084,M163.063,M128.058,M57.021,M113.084,M156.101,M57.021,M113.048,M101.048,M128.095,M113.084,M128.095,M71.037,M97.053,M113.048,M101.048,M131.040,M131.040,M71.037,M87.032,M137.059,M163.063,M128.095,M128.058,M137.059,M103.009,M97.053,M97.053,M101.048,M97.053,M129.043,M101.048,M87.032,M103.009,M71.037,M128.058,M113.084,M113.048,M147.068,M87.032,M147.068,M128.095,M115.027,M113.084,M101.048,M115.027,M128.095,M99.068,M147.068,M57.021,M114.043,M87.032,M115.027,M99.068,M113.084,M99.068,M97.053,M103.009,M114.043,M114.043,M87.032,M128.095,M129.043,M57.021,M113.084,M163.063,M128.095,M71.037,M113.084,M57.021,M129.043,M113.084,M113.084,M99.068,M147.068,M113.084,M115.027,M103.009,M99.068,M97.053,M147.068,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M129.043,M113.084,M131.040,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M113.084,M156.101,M71.037,M128.095,M113.084,M128.095,M99.068,M156.101,M113.084,M156.101,M71.037,M128.095,M113.084,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M71.037,M99.068,M71.037,M99.068,M128.095,M71.037,M99.068,M71.037,M99.068,M128.095,M71.037,M99.068,M71.037,M99.068,M128.095,M71.037,M99.068,M128.095,M128.095,M71.037,M99.068,M128.095,M128.095,M99.068,M128.095,M128.095,M71.037,M99.068,M128.095,M128.095,M71.037,M99.068,M128.095,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M71.037,M71.037,M71.037,M156.101,M113.084,M71.037,M128.095,M156.101,M99.068,M71.037,M128.095,M128.095,M71.037,M156.101,M128.095,M113.084,M71.037,M128.095,M156.101,M71.037,M71.037,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M186.079=1,M129.043,M115.027,M186.079,M99.068,M57.021,M186.079,M113.084,0=4,"
+"Loaded_Frequencies=M115.027=1,M186.079,M99.068,M57.021,M186.079,M113.084,0=4,"
+"Loaded_Frequencies=M186.079=1,M129.043,M115.027,M186.079,M99.068,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M87.032,M57.021,M128.095,M186.079,M156.101,M113.084,M113.084,M115.027,M147.068,M156.101,M99.068,M113.084,M114.043,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M142.111=1,M170.117,M113.084,M200.095,M86.048,0=4,"
+"[/Preset]"

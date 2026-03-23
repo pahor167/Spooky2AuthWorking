@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Cerebral Atrophy (S)"
+"Preset_Notes=Cerebral Atrophy for Scalar
+
+Cerebral atrophy is the progressive loss of brain tissue volume and neurons, commonly linked to Alzheimer's disease, aging, stroke, trauma, and tauopathies, resulting in cognitive decline, motor deficits, and functional impairment. Peptide therapies target regenerative, protective, anti-inflammatory, and structural axes to halt progression, promote repair, and restore brain volume and function.
+1. Microtubule stabilization and tau protection: NAP - Promotes microtubule assembly, reduces tau hyperphosphorylation, and protects neurons against atrophy in tau-related disorders.
+2. FGFR activation for synaptic plasticity: FGL - Mimics NCAM-FGFR binding to enhance synaptic function and counteract A{beta}-induced neuropathological damage.
+3. Actin dynamics and neurite outgrowth: TB-500 - Facilitates actin polymerization, cell migration, and cytoskeletal reorganization for neurite repair in atrophied tissue.
+4. Cytoprotective tissue repair: BPC-157 - Accelerates angiogenesis, reduces inflammation, and supports healing of damaged brain regions.
+5. Collagen matrix remodeling: GHK - Stimulates collagen and extracellular matrix production to restore structural integrity and elasticity.
+6. Anti-inflammatory and antifibrotic: Ac-SDKP - Suppresses inflammation and prevents fibrotic changes that exacerbate chronic brain volume loss.
+7. Microglia modulation: MG1MimicPep - Selectively modulates pro-inflammatory microglia to reduce neuroinflammation driving atrophy.
+8. BDNF signaling enhancement: BDNFmimicPep - Mimics BDNF pathways to promote neuronal survival, differentiation, and neurogenesis.
+9. Oxidative stress defense: ROSShieldPep - Neutralizes reactive oxygen species to shield neurons from oxidative damage in atrophied areas.
+10. Synaptic stabilization: SynapStabPep - Reinforces synaptic architecture and transmission to preserve cognitive circuits.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Cerebral Atrophy p01"
+"Loaded_Programs=Cerebral Atrophy p02"
+"Loaded_Programs=Cerebral Atrophy p03"
+"Loaded_Programs=Cerebral Atrophy p04"
+"Loaded_Programs=Cerebral Atrophy p05"
+"Loaded_Programs=Cerebral Atrophy p06"
+"Loaded_Programs=Cerebral Atrophy p07"
+"Loaded_Programs=Cerebral Atrophy p08"
+"Loaded_Programs=Cerebral Atrophy p09"
+"Loaded_Programs=Cerebral Atrophy p10"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M129.043=1,M99.068,M163.063,M99.068,M99.068,M71.037,M129.043,M114.043,M128.058,M128.058,M57.021,M128.095,M87.032,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M87.032,M87.032,M87.032,M71.037,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M87.032,M115.027,M57.021,M163.063,M87.032,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M103.009,M57.021,M186.079,M163.063,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,0=4,"
+"[/Preset]"

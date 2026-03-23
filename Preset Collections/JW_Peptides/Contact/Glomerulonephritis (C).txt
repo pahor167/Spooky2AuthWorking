@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Glomerulonephritis (C)"
+"Preset_Notes=Glomerulonephritis for Contact
+
+Glomerulonephritis (GN) is a heterogeneous group of kidney disorders primarily characterized by inflammation of the glomeruli, the functional units responsible for blood filtration in the kidneys. It can be acute or chronic, primary or secondary to systemic diseases, and is often triggered by immune-mediated processes such as post-infectious reactions (e.g., post-streptococcal GN), autoimmune conditions (e.g., anti-GBM disease, IgA nephropathy, lupus nephritis), complement dysregulation (e.g., C3 glomerulopathy), or genetic factors. Causes include deposition of immune complexes in the glomerular basement membrane (GBM), autoantibody attack on GBM components like alpha3(IV) collagen, aberrant complement activation leading to membrane attack complex formation, cytokine-driven inflammation involving Th17 cells, chemokine recruitment of monocytes/macrophages, podocyte injury, mesangial cell proliferation, and heparanase-mediated degradation of heparan sulfate in the GBM. Symptoms typically include hematuria (microscopic or gross), proteinuria, edema due to hypoalbuminemia and sodium retention, hypertension from reduced renal function, oliguria, and fatigue; severe cases may present with rapidly progressive GN featuring crescent formation, leading to acute kidney injury. Pathophysiology centers on disruption of the glomerular filtration barrier, resulting in protein leakage, reduced glomerular filtration rate (GFR), activation of renin-angiotensin system, fibrosis from chronic inflammation, and progression to chronic kidney disease or end-stage renal disease, with complications like anemia, cardiovascular disease, and increased infection risk.
+
+The proposed polypeptides address GN through targeted mechanisms across key pathophysiological axes to mitigate inflammation, preserve GBM integrity, and prevent progression. Real-world polypeptides prioritize verified therapeutics: BNP enhances natriuresis and reduces immune complex deposition in B cell/IgA-mediated GN; Compstatin, Cp40, and Pegcetacoplan inhibit C3 activation in the complement pathway to block membrane attack and inflammation; G3-C12 enables kidney-specific targeting for podocyte protection via NEP modulation; P14 and modified P14 modulate autoantibody responses in alpha3(IV)NC1 autoimmunity; HPSE2 peptide inhibits heparanase to maintain GBM structure. Designed polypeptides fill gaps: D1-Th17 suppresses IL-23 signaling to limit Th17-driven inflammation; D2-CXCR targets CXCR3 chemokines to reduce T cell infiltration; D3-CX3CR1 blocks fractalkine axis for monocyte/macrophage inhibition; D4-EGFR inhibits EGFR to prevent mesangial proliferation. Feasibility accounts for peptide stability, potential oral/injectable administration, and low immunogenicity; rationales draw from peer-reviewed sources, with designed ones conceptually feasible without synthesis details.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Glomerulonephritis p01"
+"Loaded_Programs=Glomerulonephritis p02"
+"Loaded_Programs=Glomerulonephritis p03"
+"Loaded_Programs=Glomerulonephritis p04"
+"Loaded_Programs=Glomerulonephritis p05"
+"Loaded_Programs=Glomerulonephritis p06"
+"Loaded_Programs=Glomerulonephritis p07"
+"Loaded_Programs=Glomerulonephritis p08"
+"Loaded_Programs=Glomerulonephritis p09"
+"Loaded_Programs=Glomerulonephritis p10"
+"Loaded_Programs=Glomerulonephritis p11"
+"Loaded_Programs=Glomerulonephritis p12"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M113.084=1,M103.009,M99.068,M99.068,M128.058,M115.027,M186.079,M57.021,M137.059,M137.059,M156.101,M103.009,M101.048,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M103.009,M99.068,M200.095,M128.058,M115.027,M186.079,M57.021,M71.037,M137.059,M156.101,M103.009,M101.048,0=4,"
+"Loaded_Frequencies=M113.084=1,M103.009,M99.068,M200.095,M128.058,M115.027,M186.079,M57.021,M71.037,M137.059,M156.101,M103.009,M101.048,0=4,"
+"Loaded_Frequencies=M71.037=1,M114.043,M101.048,M97.053,M103.009,M57.021,M97.053,M163.063,M101.048,M137.059,M115.027,M103.009,M97.053,M99.068,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M115.027,M113.084,M97.053,M97.053,M103.009,M97.053,M137.059,M57.021,M186.079,M113.084,M87.032,M113.084,M186.079,M128.095,M57.021,M147.068,M87.032,M147.068,M113.084,M131.040,M147.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M115.027,M113.084,M97.053,M97.053,M103.009,M97.053,M137.059,M57.021,M186.079,M87.032,M87.032,M113.084,M186.079,M128.095,M57.021,M147.068,M87.032,M147.068,M113.084,M131.040,M147.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M57.021,M147.068,M163.063,M113.084,M128.095,M115.027,M71.037,M113.084,M128.058,M113.084,M57.021,M156.101,M71.037,M99.068,M115.027,M99.068,M99.068,M99.068,M137.059,M99.068,M137.059,M87.032,M128.095,M57.021,M113.084,M113.084,M57.021,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M97.053,M113.084,M147.068,M101.048,M163.063,M57.021,M129.043,M113.084,M128.058,M156.101,M131.040,M128.058,M129.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M87.032,M115.027,M147.068,M57.021,M137.059,M113.084,M128.095,M113.084,M97.053,M128.058,M186.079,M129.043,M156.101,M101.048,0=4,"
+"Loaded_Frequencies=M99.068=1,M163.063,M131.040,M114.043,M103.009,M137.059,M71.037,M156.101,M128.095,M113.084,M137.059,M57.021,M115.027,M103.009,M71.037,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M128.095,M131.040,M114.043,M128.058,M156.101,M87.032,M101.048,M99.068,M147.068,M163.063,M137.059,M113.084,M115.027,0=4,"
+"[/Preset]"

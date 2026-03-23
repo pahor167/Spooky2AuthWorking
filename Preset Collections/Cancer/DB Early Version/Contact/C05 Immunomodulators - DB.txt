@@ -1,0 +1,82 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=C05 Immunomodulators - DB"
+"Repeat_Sequence=2"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=152000"
+"BFB_Initial_Step_Size_Hz=20"
+"BFB_Start_Delay=30"
+"Swap_Waveform_Time=60"
+"Preset_Notes=Cancer Protocol, Phase I-Terrain. Contact Mode.
+
+Update: October 2016.
+
+This Preset runs twice. 10sec pause with alert between sets, 30sec pause/alert at loop point/end.
+
+PROGRAM:
+Calcifications XTRA
+Bacillus Licheniformis XTRA
+Calcifications XTRA
+Nanobacter XTRA
+Calcifications XTRA
+Nanobacter 2 XTRA
+Calcifications XTRA
+Bacillus Licheniformis XTRA
+Calcifications XTRA
+Nanobacter 3 XTRA
+Calcifications XTRA
+Nanobacterium Sanguineum TR XTRA
+
+"
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"Text41=5"
+"Triangle_Spike_Ratio=2"
+"User_Defined_1_Waveform=Colloidal Silver"
+"Manual_Start=False"
+"BFB_HRV=True"
+"BFB_Detect_mA=False"
+"Out1_Sine=False"
+"Out1_Square=True"
+"BFB_2DP_Max=1"
+"Enable_Tissue_Factor=0"
+"Notify_When_Zero_Hz=0"
+"Loaded_Programs=Pause 60 Seconds (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Bacillus Licheniformis (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nanobacter (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nanobacter 2 (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Bacillus Licheniformis (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nanobacter 3 (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nanobacterium Sanguineum TR (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=60,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=2655=180,21554=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=634=180,317=180,1268=180,1902=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=6771.59=180,6772.13=180,6749=180,6773.44=180,6772.29=180,6725.50=180,5965.19=180,5198.33=180,5543.65=180,5631.24=180,9916.73=180,8798.81=180,8661.95=180,4628.34=180,4128.50=180,2931.45=180,2208.53=180,2100.67=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=2655=180,21554=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=13543.18=180,13543.89=180,13544.26=180,13544.49=180,13546.48=180,13546.88=180,13544.59=180,13545.21=180,13546.95=180,11930.39=180,10396.66=180,9916.73=180,8798.81=180,8661.95=180,4628.34=180,4128.50=180,2931.45=180,2208.53=180,2100.67=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=7635.45=180,6653.86=180,6346.71=180,5631.24=180,5543.65=180,2962.14=180,2642.24=180,1876.13=180,1413.46=180,1344.43=180,1902=180,317=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

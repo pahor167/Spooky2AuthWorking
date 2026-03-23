@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Spinal Regeneration (Whole Vertebrae Column) (C)"
+"Preset_Notes=Spinal Regeneration (Whole Vertebrae Column) for Contact
+
+Spinal regeneration for the whole vertebrae column involves restoring neural, bony, and soft tissues damaged by injury or disease, addressing aspects like nerve regrowth, bone repair, inflammation reduction, and vascular support. 
+
+Peptides are selected to cover neuroregeneration, osteogenesis, anti-inflammation, angiogenesis, myelin repair, and antioxidant effects. The first 10 are real-world peptides validated in studies for SCI or bone regeneration; the last 2 are designed to supplement coverage.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Spinal Regeneration (Whole Vertebrae Column) p01"
+"Loaded_Programs=Spinal Regeneration (Whole Vertebrae Column) p02"
+"Loaded_Programs=Spinal Regeneration (Whole Vertebrae Column) p03"
+"Loaded_Programs=Spinal Regeneration (Whole Vertebrae Column) p04"
+"Loaded_Programs=Spinal Regeneration (Whole Vertebrae Column) p05"
+"Loaded_Programs=Spinal Regeneration (Whole Vertebrae Column) p06"
+"Loaded_Programs=Spinal Regeneration (Whole Vertebrae Column) p07"
+"Loaded_Programs=Spinal Regeneration (Whole Vertebrae Column) p08"
+"Loaded_Programs=Spinal Regeneration (Whole Vertebrae Column) p09"
+"Loaded_Programs=Spinal Regeneration (Whole Vertebrae Column) p10"
+"Loaded_Programs=Spinal Regeneration (Whole Vertebrae Column) p11"
+"Loaded_Programs=Spinal Regeneration (Whole Vertebrae Column) p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M115.027,M129.043,M113.084,M186.079,M97.053,M97.053,M186.079,M113.084,M97.053,M103.009,0=4,"
+"Loaded_Frequencies=M113.084=1,M99.068,M57.021,M128.095,M113.084,M113.084,M128.095,M57.021,M71.037,M99.068,M57.021,M115.027,M99.068,M102.001,M57.021,M113.084,M113.084,M97.053,M113.084,M102.001,0=4,"
+"Loaded_Frequencies=M99.068=1,M71.037,M128.095,M57.021,M87.032,M128.095,M71.037,M57.021,M163.063,M113.084,M115.027,M97.053,M113.084,M87.032,M71.037,M147.068,M71.037,M57.021,M128.058,M113.084,M129.043,M131.040,M113.084,M113.084,M97.053,M156.101,M137.059,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M101.048=1,M147.068,M147.068,M163.063,M57.021,M57.021,M87.032,M156.101,M57.021,M128.095,M156.101,M114.043,M114.043,M147.068,M128.095,M101.048,M129.043,M129.043,M163.063,0=4,"
+"Loaded_Frequencies=M99.068=1,M115.027,M103.009,M147.068,M113.084,M87.032,M156.101,M97.053,M101.048,M129.043,M128.095,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M137.059,M147.068,M147.068,M71.037,M114.043,M113.084,M99.068,M101.048,M97.053,M156.101,M101.048,M97.053,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M113.084,M87.032,M115.027,M114.043,M163.063,M101.048,M113.084,M115.027,M137.059,M115.027,M156.101,M71.037,M113.084,M137.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M113.084,M128.095,M86.048,M156.101,M163.063,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M85.053,M97.053,M128.058,M100.064,M87.032,M200.095,M99.068,0=4,"
+"[/Preset]"

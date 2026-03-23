@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Tourette’s Syndrome (C)"
+"Preset_Notes=Tourette’s Syndrome for Contact
+
+Tourette's Syndrome (TS) is a neurodevelopmental disorder characterized by motor and vocal tics, often involving dysregulation in dopaminergic, opioidergic, GABAergic, glutamatergic, and other neurotransmitter systems within the basal ganglia and cortical circuits. Therapeutic axes include modulating opioid signaling to reduce motor disturbances, enhancing stress regulation via oxytocinergic and vasopressinergic pathways, influencing striatal neuropeptide interactions for motor control, providing neuroprotection and anti-inflammatory effects, and balancing excitatory neurotransmission. Real-world peptides like oxytocin, arginine vasopressin, enkephalins, beta-endorphin, dynorphin A, substance P, neuropeptide Y, and VIP have been implicated in literature for their roles in these systems, with modes of action including receptor binding to regulate neurotransmitter release and neuronal excitability. Feasibility is supported by their established biological roles and preclinical/clinical data; physicochemical considerations include stability in physiological conditions, with some requiring amidation for activity. The designed peptide supplements coverage for glutamatergic axis, conceptualized with high solubility and low toxicity potential. (Flagged designed: Peptide 10)
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Tourette’s Syndrome p01"
+"Loaded_Programs=Tourette’s Syndrome p02"
+"Loaded_Programs=Tourette’s Syndrome p03"
+"Loaded_Programs=Tourette’s Syndrome p04"
+"Loaded_Programs=Tourette’s Syndrome p05"
+"Loaded_Programs=Tourette’s Syndrome p06"
+"Loaded_Programs=Tourette’s Syndrome p07"
+"Loaded_Programs=Tourette’s Syndrome p08"
+"Loaded_Programs=Tourette’s Syndrome p09"
+"Loaded_Programs=Tourette’s Syndrome p10"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.04,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,M101.047,M87.032,M129.043,M128.095,M87.032,M128.058,M101.047,M97.053,M113.084,M99.068,M101.047,M113.084,M147.068,M128.095,M114.042,M71.037,M113.084,M113.084,M128.095,M114.042,M71.037,M163.063,M128.095,M128.095,M57.021,M129.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M113.084,M156.101,M156.101,M113.084,M156.101,M97.053,M128.095,M113.084,M128.095,M186.079,M115.027,M114.042,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.042,M97.053,M57.021,M129.043,M115.027,M71.037,M97.053,M71.037,M129.043,M115.027,M131.040,M71.037,M156.101,M163.063,M163.063,M87.032,M71.037,M113.084,M156.101,M137.059,M163.063,M113.084,M114.042,M113.084,M113.084,M101.047,M156.101,M128.058,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.047,M115.027,M114.042,M163.063,M101.047,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.042,M87.032,M113.084,M113.084,M113.058,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.095,M156.101,M129.043,M97.053,M128.058,M87.032,M101.047,M137.059,M114.042,0=4,"
+"[/Preset]"

@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Dog Parasites (R)"
+"Preset_Notes=Dog Parasites for Remote
+
+Dog parasites encompass a diverse range of ectoparasites (e.g., fleas, ticks) and endoparasites (e.g., heartworms, intestinal helminths) as well as protozoans (e.g., Giardia duodenalis, Leishmania infantum, coccidia), causing significant morbidity in canines worldwide. While standard treatments rely on conventional antiparasitics, emerging literature highlights antimicrobial peptides with direct antiparasitic activity, particularly against protozoans, including proven efficacy in natural canine leishmaniasis and in vitro cyst inactivation for Giardia isolated from dogs.
+
+1. Cecropin-melittin hybrid targeted anti-leishmanial activity: Oct-CA(1-7)M(2-9) (octanoylated, amidated) demonstrated safety and therapeutic efficacy in naturally infected dogs with visceral leishmaniasis via membrane disruption.
+2. Frog skin magainin pore-forming mechanism: Magainin 2 exerts broad-spectrum lytic effects on parasitic membranes, with established antiparasitic potential in preclinical models.
+3. Human cathelicidin broad-spectrum antiparasitic and immunomodulatory effects: LL-37 exhibits direct activity against Leishmania and other protozoans, supporting potential application in canine protozoal infections.
+4. Engineered temporin-L variant for Giardia cyst inactivation: Charged temporin analog (Ac-FLPLIGRVLSGILK-NH2) optimized from frog temporin motifs shown effective against canine-derived Giardia cysts in recent studies, enhancing charge for improved viability reduction and stability.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Dog Parasites p01"
+"Loaded_Programs=Dog Parasites p02"
+"Loaded_Programs=Dog Parasites p03"
+"Loaded_Programs=Dog Parasites p04"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M129.043,M113.084,M131.040,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.059,M156.101,M113.084,M128.095,M97.053,M156.101,M113.084,M99.068,M101.048,M129.043,M87.032,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M97.053,M113.084,M113.084,M57.021,M156.101,M99.068,M113.084,M87.032,M57.021,M113.084,M113.084,M128.095,0=4,"
+"[/Preset]"

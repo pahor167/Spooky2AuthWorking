@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Parkinson-Plus Syndromes (S)"
+"Preset_Notes=Parkinson-Plus Syndromes for Scalar
+
+Parkinson-plus syndromes, also known as atypical parkinsonian disorders, encompass a group of neurodegenerative conditions including multiple system atrophy (MSA), progressive supranuclear palsy (PSP), and corticobasal degeneration (CBD). These disorders present with parkinsonism (bradykinesia, rigidity, postural instability) plus additional features such as supranuclear gaze palsy and early falls in PSP, autonomic failure and cerebellar signs in MSA, and asymmetric cortical signs in CBD, with generally poor response to levodopa therapy. Pathophysiology involves abnormal protein aggregation ({alpha}-synuclein glial inclusions in MSA, tau neurofibrillary tangles in PSP/CBD), neuroinflammation with microglial activation, mitochondrial dysfunction, oxidative stress, impaired protein clearance, and selective neuronal loss in basal ganglia, brainstem, and cortical regions, leading to rapid progression and high disability.
+
+The proposed polypeptides comprehensively target core mechanisms across these heterogeneous syndromes. Davunetide, a real-world octapeptide investigated in clinical trials for PSP, stabilizes microtubules and exerts neuroprotective effects against tau-related toxicity. The designed cyclic tau-inhibitor, derived from the aggregation-prone PHF6 motif (VQIVYK) with proline substitutions to disrupt {beta}-sheet formation and head-to-tail cyclization for enhanced stability, interferes with tau fibrillization. The designed {alpha}-syn helical stabilizer, based on N-terminal {alpha}-synuclein sequences that promote physiological helical structure with head-to-tail cyclization for improved pharmacokinetics, prevents pathogenic misfolding and aggregation in synucleinopathies. VIP (vasoactive intestinal peptide), a real-world neuropeptide with preclinical evidence in parkinsonian models, suppresses neuroinflammation and supports neuronal survival through receptor-mediated immunomodulation. The designed cationic modulator, derived from innate defense regulator peptide motifs with C-amide for stability, dampens excessive inflammatory signaling in the CNS. Elamipretide, a real-world mitochondria-targeted tetrapeptide with evidence in neurodegenerative models, binds cardiolipin to stabilize electron transport and reduce reactive oxygen species. The designed aromatic-cationic polypeptide, inspired by mitochondria-penetrating motifs with alternating aromatic and cationic residues plus C-amide for drug-likeness, scavenges mitochondrial ROS and supports bioenergetic function.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Parkinson-Plus Syndromes p01"
+"Loaded_Programs=Parkinson-Plus Syndromes p02"
+"Loaded_Programs=Parkinson-Plus Syndromes p03"
+"Loaded_Programs=Parkinson-Plus Syndromes p04"
+"Loaded_Programs=Parkinson-Plus Syndromes p05"
+"Loaded_Programs=Parkinson-Plus Syndromes p06"
+"Loaded_Programs=Parkinson-Plus Syndromes p07"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M127.074,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.058,M113.084,M99.068,M163.063,M128.095,M97.053,M99.068,M128.058,M113.084,M99.068,M163.063,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M115.027,M147.068,M131.040,M128.095,M57.021,M113.084,M87.032,M128.095,M71.037,M128.095,M129.043,M57.021,M99.068,M137.059,M57.021,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M156.101,M147.068,M128.095,M147.068,M156.101,M147.068,M128.095,M147.068,M156.101,M147.068,M127.111,0=4,"
+"[/Preset]"

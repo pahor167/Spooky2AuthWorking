@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Tinea Manuum (S)"
+"Preset_Notes=Tinea Manuum for Scalar
+
+Tinea manuum is a dermatophyte infection of the hand, primarily caused by fungi such as Trichophyton rubrum, Trichophyton mentagrophytes, and Epidermophyton floccosum. It is transmitted through direct contact with infected individuals, animals, soil, or fomites like towels, and is more common in people with occupations involving manual labor or frequent hand exposure to moisture. Symptoms include itching, scaling, erythema, and annular plaques on the palms or dorsum of the hand, often unilateral (one-hand, two-feet syndrome when associated with tinea pedis). In bullous forms, vesicles or blisters may form. Pathophysiology involves fungal hyphae invading the stratum corneum, triggering keratinocyte proliferation, inflammation, and immune responses, including cytokine release and antimicrobial peptide production, which can lead to chronicity if unresolved. The proposed polypeptides address the condition by targeting key fungal survival mechanisms: disrupting cell membranes to cause leakage of cellular contents, modulating host immune responses to enhance clearance, and inhibiting cell wall synthesis to prevent fungal growth. The designed polypeptides are derived from literature motifs of antimicrobial peptides like LL-37 for membrane disruption, with cyclization for stability in some cases, ensuring targeted efficacy against dermatophytes while minimizing host tissue damage.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Tinea Manuum p01"
+"Loaded_Programs=Tinea Manuum p02"
+"Loaded_Programs=Tinea Manuum p03"
+"Loaded_Programs=Tinea Manuum p04"
+"Loaded_Programs=Tinea Manuum p05"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M147.068,M156.101,M113.084,M99.068,M128.095,M156.101,M113.084,M129.043,M115.027,M128.095,M115.027,M113.084,M156.101,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,M156.101,M186.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M128.095,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M99.068,M99.068,M113.084,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M115.027,M101.048,M113.084,M128.095,M57.021,M57.021,M57.021,M128.095,M99.068,M99.068,M57.021,M87.032,M113.084,M156.101,M128.095,M57.021,M57.021,M128.095,M137.059,M99.068,M57.021,0=4,"
+"[/Preset]"

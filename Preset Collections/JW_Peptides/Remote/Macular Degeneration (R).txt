@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Macular Degeneration (R)"
+"Preset_Notes=Macular Degeneration for Remote
+
+Age-Related Macular Degeneration (AMD)
+
+Age-Related Macular Degeneration (AMD) is a progressive retinal disease and leading cause of central vision loss in older adults, with dry AMD featuring geographic atrophy due to RPE and photoreceptor loss, and wet AMD involving choroidal neovascularization. Pathogenesis involves oxidative stress, chronic low-grade inflammation, mitochondrial dysfunction, complement activation, and pathological angiogenesis. Peptide therapies target these pathways for neuroprotection, anti-angiogenesis, and inflammation control.
+
+1. Mitochondrial stabilization: Elamipretide - Binds cardiolipin to optimize electron transport, reduce ROS, and protect RPE/photoreceptors in dry AMD.
+2. Phosphatase activation: QM107 - Syndecan-2-derived peptide activates CD148 to suppress endothelial signaling and neovascularization in wet AMD.
+3. Gap junction modulation: aCT1 - Cx43 mimetic stabilizes gap junctions, reduces hemichannel-mediated inflammation and VEGF release.
+4. Inflammation resolution: Annexin A1 Ac2-26 - Activates FPR2 to promote macrophage efferocytosis and resolve retinal inflammation.
+5. Immune modulation: Catestatin - Inhibits catecholamine release and modulates macrophage activity to dampen retinal inflammation.
+6. Anti-inflammatory: Adrenomedullin - Suppresses pro-inflammatory cytokines and supports retinal barrier integrity.
+7. Protective signaling: Apelin-13 - Agonizes apelin receptor to inhibit inflammatory cytokines and protect retinal cells.
+8. Tissue protection: CNP - C-type natriuretic peptide promotes RPE viability and exerts anti-inflammatory effects.
+9. Integrin antagonism: RGD - Blocks {alpha}v{beta}3/{alpha}5{beta}1 integrins to inhibit endothelial adhesion and angiogenesis in wet AMD.
+10. Targeted anti-angiogenic: QM107-RGD fusion - Designed fusion combines CD148 activation with RGD integrin binding for synergistic neovascular inhibition in wet AMD.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Macular Degeneration p01"
+"Loaded_Programs=Macular Degeneration p02"
+"Loaded_Programs=Macular Degeneration p03"
+"Loaded_Programs=Macular Degeneration p04"
+"Loaded_Programs=Macular Degeneration p05"
+"Loaded_Programs=Macular Degeneration p06"
+"Loaded_Programs=Macular Degeneration p07"
+"Loaded_Programs=Macular Degeneration p08"
+"Loaded_Programs=Macular Degeneration p09"
+"Loaded_Programs=Macular Degeneration p10"
+"Loaded_Frequencies=M156.101=1,M191.063,M128.095,M146.084,0=4,"
+"Loaded_Frequencies=M97.053=1,M71.037,M129.043,M129.043,M115.027,M101.048,M114.043,M99.068,M163.063,M101.048,M129.043,M128.095,M137.059,M87.032,M115.027,M87.032,M113.084,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.058,M97.053,M128.095,M113.084,M186.079,M147.068,M97.053,M114.043,M156.101,M156.101,M128.095,M97.053,M186.079,M128.095,M128.095,M156.101,M97.053,M156.101,M97.053,M115.027,M115.027,M113.084,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M57.021,M97.053,M128.058,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M103.009,M156.101,M147.068,M57.021,M101.048,M103.009,M101.048,M99.068,M128.095,M113.084,M71.037,M137.059,M128.058,M137.059,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M137.059,M137.059,M87.032,M97.053,M128.058,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M137.059,M128.095,M57.021,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M97.053=1,M71.037,M129.043,M129.043,M115.027,M101.048,M114.043,M99.068,M163.063,M101.048,M129.043,M128.095,M137.059,M87.032,M115.027,M87.032,M113.084,M147.068,M57.021,M57.021,M57.021,M156.101,M57.021,M115.027,0=4,"
+"[/Preset]"

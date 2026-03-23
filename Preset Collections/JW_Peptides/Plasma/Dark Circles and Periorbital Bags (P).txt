@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Dark Circles and Periorbital Bags (P)"
+"Preset_Notes=Dark Circles and Periorbital Bags for Plasma
+
+Dark Circles and Periorbital Bags (Periorbital Hyperpigmentation and Edema)
+
+Dark circles and periorbital bags result from melanin hyperpigmentation, dermal thinning, vascular congestion, lymphatic stagnation, and fat herniation. This proposal targets nine distinct therapeutic axes: (1) Melanogenesis inhibition using Oligopeptide-68 to block tyrosinase and melanin transfer; (2) Collagen synthesis and ECM remodeling via Palmitoyl Pentapeptide-4 (Matrixyl) to thicken dermal support; (3) Anti-inflammatory edema reduction with Acetyl Tetrapeptide-5 to decrease vascular permeability and fluid accumulation; (4) Vascular tone enhancement and microcirculation improvement using Palmitoyl Tetrapeptide-7 to strengthen capillary walls; (5) MMP inhibition and ECM protection via Acetyl Tripeptide-30 Citrulline to prevent collagen degradation; (6) Antioxidant defense utilizing GHK-Cu (broad-spectrum regenerative, included as single allowed gap-filler) to neutralize free radicals and reduce oxidative stress; (7) Vascular protection against telangiectasias using Acetyl Tetrapeptide-40 to reduce erythema and visible vascularity; (8) Neurotransmitter inhibition for expression line reduction via Argireline to diminish periorbital wrinkling; (9) Hyaluronic acid synthesis stimulation with Acetyl Tetrapeptide-9 to improve dermal hydration and luminosity. Three rationally engineered peptides provide additional optimization: MelanoShield-Eng (tyrosinase-targeted), LymphoFlow-Eng (lymphatic drainage enhancement), and DermaFill-Eng (HA synthesis support). All selections derived from condition-specific literature including clinical cosmetic studies on periorbital hyperpigmentation and edema.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Dark Circles and Periorbital Bags p01"
+"Loaded_Programs=Dark Circles and Periorbital Bags p02"
+"Loaded_Programs=Dark Circles and Periorbital Bags p03"
+"Loaded_Programs=Dark Circles and Periorbital Bags p04"
+"Loaded_Programs=Dark Circles and Periorbital Bags p05"
+"Loaded_Programs=Dark Circles and Periorbital Bags p06"
+"Loaded_Programs=Dark Circles and Periorbital Bags p07"
+"Loaded_Programs=Dark Circles and Periorbital Bags p08"
+"Loaded_Programs=Dark Circles and Periorbital Bags p09"
+"Loaded_Programs=Dark Circles and Periorbital Bags p10"
+"Loaded_Programs=Dark Circles and Periorbital Bags p11"
+"Loaded_Programs=Dark Circles and Periorbital Bags p12"
+"Loaded_Frequencies=M156.101=1,M115.027,M57.021,M128.058,M113.084,M113.084,M87.032,M101.048,M186.079,M163.063,0=4,"
+"Loaded_Frequencies=M366.335=1,M101.048,M101.048,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M170.106=1,M57.021,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M295.261=1,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M170.106=1,M115.027,M113.084,M157.095,0=4,"
+"Loaded_Frequencies=M170.069=1,M115.027,M99.068,M137.059,0=4,"
+"Loaded_Frequencies=M113.048=1,M101.048,M114.043,M101.048,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M99.068,M156.101,M57.021,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M99.068,M57.021,M113.084,M131.040,0=4,"
+"[/Preset]"

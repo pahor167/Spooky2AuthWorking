@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Dental Abscess (Gum Boil) (Coil)"
+"Preset_Notes=Dental Abscess (Gum Boil) for Coil
+
+A gum boil, also known as a parulis or dental fistula, is a pus-filled bump on the gums that often appears pimple-like. It results from bacterial infection in a dental abscess (periapical or periodontal), commonly involving anaerobes such as Porphyromonas gingivalis, Fusobacterium nucleatum, Streptococcus spp., and other oral pathogens. Antimicrobial peptides provide targeted bacterial membrane disruption, biofilm penetration, anti-inflammatory effects, and promotion of tissue healing as alternatives or adjuncts to conventional drainage and antibiotics.
+
+1. Salivary histatins: Histatin 5 - Natural salivary peptide with antibacterial and wound-healing promotion in oral infections
+2. Oral cathelicidins: LL-37 - Human cathelicidin disrupting membranes and modulating immunity in gingival tissues
+3. Beta-defensin 3: Human Beta-Defensin 3 (hBD-3) - Potent broad-spectrum activity against periodontal Gram-negative pathogens
+4. Beta-defensin 2: Human Beta-Defensin 2 (hBD-2) - Inflammation-induced epithelial defense in periodontal infections
+5. Beta-defensin 1: Human Beta-Defensin 1 (hBD-1) - Constitutive antimicrobial barrier in oral mucosa
+6. Neutrophil alpha-defensins: HNP-1_Alpha_Defensin - Pore-forming killing of anaerobic bacteria in abscess sites
+7. Tryptophan-rich peptides: Indolicidin - Rapid intracellular targeting of oral Gram-negative bacteria
+8. Cyclic beta-sheet peptides: Protegrin-1 - High potency against resistant anaerobic oral pathogens
+9. Proline-rich peptides: Thanatin - Septum and outer membrane targeting in Gram-negative periodontopathogens
+10. Magainin analogs: Pexiganan - Engineered alpha-helical peptide optimized for topical oral bacterial lysis
+11. Indolicidin analogs: Omiganan - Modified tryptophan-rich peptide with enhanced stability against oral biofilms
+12. Innate defense regulators: IDR-1018 - Synthetic immunomodulatory peptide reducing inflammation and enhancing clearance
+
+"
+"Loaded_Programs=Dental Abscess (Gum Boil) p01"
+"Loaded_Programs=Dental Abscess (Gum Boil) p02"
+"Loaded_Programs=Dental Abscess (Gum Boil) p03"
+"Loaded_Programs=Dental Abscess (Gum Boil) p04"
+"Loaded_Programs=Dental Abscess (Gum Boil) p05"
+"Loaded_Programs=Dental Abscess (Gum Boil) p06"
+"Loaded_Programs=Dental Abscess (Gum Boil) p07"
+"Loaded_Programs=Dental Abscess (Gum Boil) p08"
+"Loaded_Programs=Dental Abscess (Gum Boil) p09"
+"Loaded_Programs=Dental Abscess (Gum Boil) p10"
+"Loaded_Programs=Dental Abscess (Gum Boil) p11"
+"Loaded_Programs=Dental Abscess (Gum Boil) p12"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M102.001,M137.059,M97.053,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M102.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M102.001,M102.001,M128.095,M128.095,M96.069,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M163.063,M114.043,M102.001,M99.068,M87.032,M87.032,M57.021,M57.021,M128.058,M102.001,M113.084,M163.063,M87.032,M71.037,M102.001,M97.053,M113.084,M147.068,M101.048,M128.095,M113.084,M128.058,M57.021,M101.048,M102.001,M163.063,M156.101,M57.021,M128.095,M71.037,M128.095,M102.001,M102.001,M127.111,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M128.095,M128.095,M97.053,M99.068,M97.053,M113.084,M113.084,M163.063,M102.001,M114.043,M156.101,M156.101,M101.048,M57.021,M128.095,M102.001,M128.058,M156.101,M131.040,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"[/Preset]"

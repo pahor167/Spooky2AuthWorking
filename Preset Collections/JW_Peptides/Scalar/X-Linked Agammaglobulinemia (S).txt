@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=X-Linked Agammaglobulinemia (S)"
+"Preset_Notes=X-Linked Agammaglobulinemia for Scalar
+
+X-Linked Agammaglobulinemia (XLA) is a primary immunodeficiency disorder caused by mutations in the BTK gene on the X chromosome, leading to impaired B cell development and maturation, resulting in absent or very low levels of circulating B cells and immunoglobulins. This genetic defect disrupts B cell signaling, preventing the production of antibodies essential for humoral immunity. Symptoms typically emerge in infancy or early childhood, including recurrent bacterial infections such as otitis media, sinusitis, pneumonia, and gastrointestinal infections due to encapsulated bacteria like Streptococcus pneumoniae and Haemophilus influenzae. Chronic infections can lead to complications like bronchiectasis, enteroviral meningoencephalitis, and increased risk of malignancies or autoimmune phenomena. Pathophysiology centers on the failure of pre-B cells to progress to mature B cells in the bone marrow, with secondary effects on innate immunity including neutrophil and monocyte dysfunction, contributing to persistent inflammation and tissue damage.
+
+The proposed polypeptides address XLA through targeted mechanisms: designed D1 mimics IgG fragments to support humoral responses; designed D2 emulates BTK motifs for signaling restoration; Thymosin alpha-1 (real) boosts T cell function to aid infection control; designed D3 provides antimicrobial activity; designed D4 reduces cytokine-driven inflammation. Feasibility: Real polypeptides like Thymosin alpha-1 have off-label use in immunodeficiencies with evidence from preclinical studies; designed ones are conceptual, short for stability, potential subcutaneous delivery, but need validation for specificity and safety in XLA models.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=X-Linked Agammaglobulinemia p01"
+"Loaded_Programs=X-Linked Agammaglobulinemia p02"
+"Loaded_Programs=X-Linked Agammaglobulinemia p03"
+"Loaded_Programs=X-Linked Agammaglobulinemia p04"
+"Loaded_Programs=X-Linked Agammaglobulinemia p05"
+"Loaded_Frequencies=M129.043=1,M97.053,M128.095,M87.032,M103.009,M115.027,M128.095,M101.048,M137.059,M101.048,M103.009,M97.053,0=4,"
+"Loaded_Frequencies=M163.063=1,M99.068,M113.084,M115.027,M115.027,M115.027,M129.043,M101.048,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M57.021,M147.068,M163.063,M147.068,M99.068,M97.053,M115.027,M113.084,M71.037,M99.068,0=4,"
+"[/Preset]"

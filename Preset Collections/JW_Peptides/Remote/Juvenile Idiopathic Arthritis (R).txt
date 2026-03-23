@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Juvenile Idiopathic Arthritis (R)"
+"Preset_Notes=Juvenile Idiopathic Arthritis for Remote
+
+Juvenile Idiopathic Arthritis (JIA) is a heterogeneous group of chronic autoimmune inflammatory disorders primarily affecting children under 16 years of age, characterized by persistent arthritis lasting at least six weeks with no identifiable cause, leading to joint damage, disability, and reduced quality of life if untreated. The condition is classified into subtypes including oligoarticular (affecting few joints, often with uveitis), polyarticular (many joints, rheumatoid factor positive or negative), systemic (with fever, rash, organ involvement), psoriatic, enthesitis-related, and undifferentiated, each with distinct clinical features and prognoses. Causes are multifactorial, involving genetic susceptibility (e.g., HLA-DR alleles, PTPN22, IL2RA genes), environmental triggers (infections, gut microbiota dysbiosis, stress), and immune dysregulation where autoreactive T and B cells target synovial tissues, triggering cytokine cascades. Symptoms include joint swelling, pain, morning stiffness, limping, fatigue, growth retardation, and extra-articular manifestations like anterior uveitis causing vision loss, macular edema, or systemic features such as high spiking fevers, evanescent rash, lymphadenopathy, hepatosplenomegaly, and serositis. Pathophysiologically, JIA involves aberrant activation of innate and adaptive immunity, with overproduction of proinflammatory cytokines (TNF-{alpha}, IL-1, IL-6, IL-17) driving synovial hyperplasia, angiogenesis, cartilage erosion, and bone destruction via osteoclast activation; T-cell infiltration and B-cell autoantibody production (e.g., anti-CCP, RF) perpetuate the cycle, while epigenetic changes (histone modifications), HPA axis dysfunction (cortisol resistance), and oxidative stress exacerbate inflammation and tissue damage; gut microbiota alterations may contribute via molecular mimicry or metabolite imbalances affecting immune tolerance.
+
+The proposed polypeptides, all designed due to the scarcity of verifiable real-world short polypeptides (large biologics exceed length limits or lack accessible sequences despite exhaustive searches), offer a comprehensive mechanistic approach to JIA by targeting key axes including cytokine pathways, immune cell modulation, growth support, neuroendocrine regulation, microbiota influence, epigenetics, and oxidative stress. The designed polypeptide for TNF-{alpha} inhibition mimics receptor binding to neutralize TNF-{alpha}, reducing synovial inflammation and joint damage with high affinity and low toxicity. The designed IL-1 blocker interferes with IL-1 receptor signaling to suppress systemic features like fever and rash, feasible through beta-sheet structures for stability. The designed IL-6 antagonist binds IL-6 to prevent JAK-STAT activation and acute phase response, optimizing solubility for subcutaneous delivery. The designed IL-17 inhibitor targets Th17 cells to mitigate enthesitis and psoriatic elements, with rationale from pathway-specific inhibition in preclinical models. The designed T-cell costimulation blocker emulates CTLA-4 to dampen T-cell activation and autoimmunity, enhancing tolerance. The designed B-cell modulator disrupts CD20-like signaling to reduce autoantibody production, addressing RF-positive subtypes. The designed JAK inhibitor peptide blocks intracellular signaling for broad cytokine suppression, with short length aiding penetration. The designed growth promoter stimulates GH/IGF-1 axis to counteract retardation, incorporating hormone motifs. The designed HPA modulator normalizes cortisol response to alleviate stress-induced flares, based on neuroendocrine literature. The designed microbiota regulator promotes beneficial bacteria via antimicrobial peptides, restoring gut-immune balance. The designed epigenetic modifier inhibits HDAC to repress proinflammatory genes, leveraging enzyme-binding domains. The designed oxidative stress reducer enhances antioxidant enzymes like SOD, mitigating mitochondrial damage and fatigue.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Juvenile Idiopathic Arthritis p01"
+"Loaded_Programs=Juvenile Idiopathic Arthritis p02"
+"Loaded_Programs=Juvenile Idiopathic Arthritis p03"
+"Loaded_Programs=Juvenile Idiopathic Arthritis p04"
+"Loaded_Programs=Juvenile Idiopathic Arthritis p05"
+"Loaded_Programs=Juvenile Idiopathic Arthritis p06"
+"Loaded_Programs=Juvenile Idiopathic Arthritis p07"
+"Loaded_Programs=Juvenile Idiopathic Arthritis p08"
+"Loaded_Programs=Juvenile Idiopathic Arthritis p09"
+"Loaded_Programs=Juvenile Idiopathic Arthritis p10"
+"Loaded_Programs=Juvenile Idiopathic Arthritis p11"
+"Loaded_Programs=Juvenile Idiopathic Arthritis p12"
+"Loaded_Frequencies=M163.063=1,M57.021,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M147.068,M57.021,M137.059,M113.084,M128.095,M113.084,M97.053,M114.043,M128.058,0=4,"
+"Loaded_Frequencies=M71.037=1,M87.032,M101.048,M99.068,M186.079,M163.063,M137.059,M128.095,M131.040,M114.043,0=4,"
+"Loaded_Frequencies=M103.009=1,M115.027,M129.043,M147.068,M97.053,M57.021,M128.058,M87.032,M156.101,M101.048,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M128.095,M113.084,M131.040,M87.032,M128.058,M97.053,M114.043,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M163.063,M186.079,M101.048,M147.068,M57.021,M128.095,M115.027,M113.084,M97.053,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.058,M97.053,M114.043,M131.040,M113.084,M128.095,M113.084,M137.059,M57.021,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M128.095,M113.084,M137.059,M131.040,M114.043,M57.021,M128.058,M147.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M87.032,M115.027,M147.068,M57.021,M137.059,M128.095,M113.084,M128.058,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M163.063,M87.032,M156.101,M128.058,M97.053,M131.040,M113.084,M128.095,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M71.037,M137.059,M128.095,M113.084,M97.053,M87.032,M128.058,M115.027,0=4,"
+"Loaded_Frequencies=M129.043=1,M99.068,M156.101,M128.058,M97.053,M114.043,M131.040,M128.095,M113.084,M137.059,0=4,"
+"[/Preset]"

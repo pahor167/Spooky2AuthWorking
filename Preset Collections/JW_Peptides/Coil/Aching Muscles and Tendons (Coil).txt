@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Aching Muscles and Tendons (Coil)"
+"Preset_Notes=Aching Muscles and Tendons for Coil
+
+Aching muscles and tendons is a prevalent symptom complex often associated with tendinopathy, myofascial pain syndrome, overuse injuries, or chronic musculoskeletal strain, characterized by persistent dull pain, stiffness, tenderness to palpation, reduced range of motion, and weakness in affected areas. Causes include repetitive mechanical overload leading to microtrauma, degenerative changes with collagen disorganization, failed tissue remodeling, neovascularization accompanied by nerve ingrowth causing nociceptive sensitization, low-grade inflammation with cytokine involvement (e.g., TNF-alpha, IL-1beta), metabolic disturbances like elevated lactate or glutamate, and central/peripheral sensitization amplifying pain perception. Symptoms worsen with activity, improve marginally with rest, and may involve referred pain, fatigue, or sleep disruption, significantly impacting quality of life.
+
+The proposed polypeptides target core therapeutic axes: regenerative healing, anti-inflammation, angiogenesis, pain modulation, and matrix remodeling. The real-world polypeptide BPC-157 accelerates tendon and muscle repair by promoting fibroblast outgrowth, cell migration, survival under stress, and actin reorganization via FAK-paxillin pathways. The designed polypeptides complement this: one designed amphipathic cationic polypeptide reduces inflammation by interfering with pro-inflammatory signaling; another designed aromatic-rich polypeptide enhances angiogenesis for better nutrient delivery; a third designed alternating hydrophobic-hydrophilic polypeptide modulates nociceptor sensitization to alleviate pain; and a fourth designed tryptophan-rich polypeptide supports collagen synthesis and tissue remodeling. This multi-axis strategy ensures comprehensive relief, with short designed sequences optimized for stability, penetration, low immunogenicity, and protease resistance, feasible for systemic or local administration.
+
+"
+"Loaded_Programs=Aching Muscles and Tendons p01"
+"Loaded_Programs=Aching Muscles and Tendons p02"
+"Loaded_Programs=Aching Muscles and Tendons p03"
+"Loaded_Programs=Aching Muscles and Tendons p04"
+"Loaded_Programs=Aching Muscles and Tendons p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M129.043,M99.068,M129.043,M99.068,M129.043,M99.068,M129.043,M99.068,M129.043,0=4,"
+"Loaded_Frequencies=M186.079=1,M97.053,M186.079,M97.053,M186.079,M97.053,M186.079,M97.053,0=4,"
+"[/Preset]"

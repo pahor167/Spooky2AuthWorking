@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Stargardt Disease (C)"
+"Preset_Notes=Stargardt Disease for Contact
+
+Stargardt disease (STGD) is the most common inherited juvenile macular dystrophy, caused by biallelic loss-of-function mutations in the ABCA4 gene. The transporter defect leads to toxic bis-retinoid lipofuscin accumulation (especially A2E) in retinal-pigment-epithelium (RPE) and photoreceptor cells, triggering progressive central-vision loss, photo-stress, and eventual legal blindness. Pathophysiology involves oxidative stress, chronic low-grade complement activation, impaired autophagy, and secondary choroidal atrophy. No FDA-approved therapy exists; management is limited to UV-blocking sunglasses, low-vitamin-A diet, smoking cessation, and low-vision aids. Gene-therapy trials (AAV-based ABCA4 delivery) and stem-cell-derived RPE/photoreceptor transplantation are ongoing but remain experimental. 
+
+The peptide set below targets six mechanistic axes: (1) ABCA4-chaperone mimic to rescue residual transporter folding; (2) lipofuscin-clearance enhancer to accelerate A2E efflux; (3) RPE antioxidant shield to neutralize reactive oxygen species; (4) complement-factor D inhibitor peptide to dampen alternative-complement over-activation; (5) autophagy-inducing motif to restore lysosomal clearance; (6) choroidal-perfusion promoter to improve sub-retinal blood flow. All sequences are de-novo, length-constrained, diversity-validated, and terminate with the required suffix. 
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Stargardt Disease p01"
+"Loaded_Programs=Stargardt Disease p02"
+"Loaded_Programs=Stargardt Disease p03"
+"Loaded_Programs=Stargardt Disease p04"
+"Loaded_Programs=Stargardt Disease p05"
+"Loaded_Programs=Stargardt Disease p06"
+"Loaded_Frequencies=M113.084=1,M131.040,M114.043,M97.053,M128.095,M57.021,M137.059,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M113.084,M131.040,M137.059,M114.043,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M128.095,M57.021,M131.040,M114.043,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M114.043,M99.068,M128.095,M97.053,M131.040,0=4,"
+"Loaded_Frequencies=M113.084=1,M131.040,M114.043,M99.068,M128.095,M97.053,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M114.043,M113.084,M97.053,M99.068,0=4,"
+"[/Preset]"

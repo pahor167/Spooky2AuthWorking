@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Pellagra (P)"
+"Preset_Notes=Pellagra for Plasma
+
+Pellagra is a systemic disorder caused by deficiency of niacin (vitamin B3) or its precursor tryptophan, impairing NAD+ biosynthesis and resulting in the classic '4 Ds': photosensitive dermatitis, diarrhea, dementia, and (if untreated) death.
+1. Mitochondrial NAD+ support: MOTS-c - Mitochondrial-derived peptide promoting metabolic homeostasis and resistance to oxidative stress in low NAD+ conditions.
+2. Neuroprotection: Pinealon - Tripeptide bioregulator protecting neural cells and normalizing function to alleviate dementia symptoms.
+3. Systemic antioxidant defense: Carnosine - Dipeptide with potent radical scavenging to mitigate oxidative tissue damage.
+4. Neurological stabilization: DSIP - Nonapeptide reducing neuroexcitability and promoting restorative processes for cognitive relief.
+5. Immune enhancement: Thymosin_alpha_1 - Thymopoietin-derived peptide stimulating T-cell maturation and immune competence against malnutrition effects.
+6. Tryptophan augmentation for NAD+ synthesis: TrpBoost - Designed cationic tryptophan-rich hexapeptide supplying substrate for de novo NAD+ biosynthesis via kynurenine pathway.
+7. Gastrointestinal anti-inflammation: KPA Tripeptide - Designed melanocortin-inspired tripeptide reducing mucosal inflammation and supporting barrier function to alleviate diarrhea.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Pellagra p01"
+"Loaded_Programs=Pellagra p02"
+"Loaded_Programs=Pellagra p03"
+"Loaded_Programs=Pellagra p04"
+"Loaded_Programs=Pellagra p05"
+"Loaded_Programs=Pellagra p06"
+"Loaded_Programs=Pellagra p07"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M228.090=1,M156.101,M186.079,M156.101,M186.079,M155.117,0=4,"
+"Loaded_Frequencies=M170.106=1,M97.053,M70.053,0=4,"
+"[/Preset]"

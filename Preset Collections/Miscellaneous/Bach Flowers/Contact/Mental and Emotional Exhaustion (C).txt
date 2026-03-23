@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Mental and Emotional Exhaustion (C)"
+"Preset_Notes=Mental and Emotional Exhaustion / Spooky Contact
+
+Estimated Time: Run this preset for 15:00 minutes.
+olive, walnut, white chestnut, Elm, Wild oak
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Mental and Emotional Exhaustion (C)"
+"Loaded_Frequencies=431.65F4096C0,261.26F4096C0,247.09F4096C0,463.13F4096C0,430.20F4096C0,"
+"[/Preset]"

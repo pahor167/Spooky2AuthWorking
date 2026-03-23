@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Byssinosis (C)"
+"Preset_Notes=Byssinosis for Contact
+
+Byssinosis is an occupational lung disease caused by inhalation of cotton or other textile dusts containing endotoxins, leading to airway inflammation, bronchoconstriction, oxidative stress, and potential chronic respiratory impairment. The proposed polypeptides target evidence-based therapeutic axes from patent-protected inhalatory anti-inflammatory approaches explicitly including byssinosis, endotoxin-induced lung injury models, and related pulmonary inflammation studies.
+
+1. {alpha}-MSH-derived tripeptide cytokine suppression: KPV reduces pro-inflammatory mediators in inflammation models relevant to endotoxin-triggered responses.
+2. Vasoactive intestinal peptide neuroprotection and bronchodilation: VIP (aviptadil) is patented for inhalatory treatment of byssinosis, exerting anti-inflammatory effects and protection in endotoxin lung injury.
+3. Human cathelicidin endotoxin neutralization: LL-37 binds and neutralizes LPS, modulating excessive inflammation while supporting lung defense.
+4. Adrenomedullin-mediated vascular and tissue protection: ADM provides anti-inflammatory and endothelial stabilization in pulmonary diseases.
+5. Engineered stabilized {alpha}-MSH motif optimization: Ac-KPV-NH2 enhances protease resistance, solubility, and potency for targeted inhalatory delivery in dust-induced inflammation.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Byssinosis p01"
+"Loaded_Programs=Byssinosis p02"
+"Loaded_Programs=Byssinosis p03"
+"Loaded_Programs=Byssinosis p04"
+"Loaded_Programs=Byssinosis p05"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"[/Preset]"

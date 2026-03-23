@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Bovine Spongiform Encephalopathy (C)"
+"Preset_Notes=Bovine Spongiform Encephalopathy for Contact
+
+Bovine Spongiform Encephalopathy (BSE), commonly known as mad cow disease, is a transmissible spongiform encephalopathy caused by the accumulation of misfolded prion proteins (PrPSc) in the brain, leading to neurodegeneration, spongiosis, and fatal outcomes in cattle. It poses zoonotic risks to humans as variant Creutzfeldt-Jakob disease. Currently, there are no approved treatments, and management focuses on prevention. Mechanistic rationale: Due to the absence of sufficient real-world therapeutic peptides identified through searches and knowledge (no validated peptides in clinical use or extensively documented for BSE), all proposals are designed conceptual peptides. They target key axes including inhibition of prion misfolding and aggregation, promotion of prion clearance via autophagy or degradation pathways, neuroprotection against neuronal apoptosis, reduction of neuroinflammation, and inhibition of prion replication and cell-to-cell propagation. Designs incorporate non-standard residues and PTMs for enhanced stability, specificity, and bioavailability, with scientific backing from prion biology principles such as beta-sheet disruption and protein-protein interaction modulation. Feasibility assessed via physicochemical properties like solubility, membrane permeability, and low immunogenicity; modes of action include direct binding to PrP isoforms, enzyme modulation, or signaling pathway activation. The set ensures comprehensive coverage across all axes, with some peptides addressing multiple for synergy.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Bovine Spongiform Encephalopathy p01"
+"Loaded_Programs=Bovine Spongiform Encephalopathy p02"
+"Loaded_Programs=Bovine Spongiform Encephalopathy p03"
+"Loaded_Programs=Bovine Spongiform Encephalopathy p04"
+"Loaded_Programs=Bovine Spongiform Encephalopathy p05"
+"Loaded_Programs=Bovine Spongiform Encephalopathy p06"
+"Loaded_Programs=Bovine Spongiform Encephalopathy p07"
+"Loaded_Programs=Bovine Spongiform Encephalopathy p08"
+"Loaded_Programs=Bovine Spongiform Encephalopathy p09"
+"Loaded_Programs=Bovine Spongiform Encephalopathy p10"
+"Loaded_Programs=Bovine Spongiform Encephalopathy p11"
+"Loaded_Programs=Bovine Spongiform Encephalopathy p12"
+"Loaded_Frequencies=M102.001=1,M97.053,M113.048,M97.053,M113.048,M97.053,M86.048,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M113.084=1,M85.053,M113.048,M142.111,M170.117,M86.048,M150.954,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M100.064,M113.048,M113.084,M237.148,0=4,"
+"Loaded_Frequencies=M200.095=1,M87.032,M113.048,M170.106,M114.079,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M102.001,M114.079,M113.048,M150.954,M113.084,0=4,"
+"Loaded_Frequencies=M85.053=1,M86.048,M758.675,M113.048,M100.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M97.053,M237.148,M97.053,M113.048,M97.053,M100.064,M102.001,0=4,"
+"Loaded_Frequencies=M142.111=1,M312.126,M150.954,M113.084,M85.053,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M243.029,M86.048,M114.079,M200.095,M113.048,M113.084,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M166.989=1,M113.048,M186.064,M114.079,M237.148,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M102.001,M200.095,M86.048,M85.053,M758.675,0=4,"
+"Loaded_Frequencies=M170.106=1,M184.132,M86.048,M100.064,M114.079,M113.048,M341.239,0=4,"
+"[/Preset]"

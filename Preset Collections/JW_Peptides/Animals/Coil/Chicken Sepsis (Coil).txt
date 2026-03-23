@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Chicken Sepsis (Coil)"
+"Preset_Notes=Chicken Sepsis for Coil
+
+Chicken sepsis, primarily colibacillosis caused by avian pathogenic Escherichia coli (APEC), is a major systemic bacterial infection in poultry leading to septicemia, inflammation, and high mortality. The proposed polypeptides are antimicrobial peptides with strong evidence against E. coli and relevance in avian models, targeting key axes of bacterial killing, membrane disruption, LPS neutralization, and immunomodulation to control infection and sepsis.
+
+1. Alpha-helical membrane permeabilization against Gram-negative pathogens: Cecropin A
+2. Cell-penetrating and intracellular targeting: Buforin II
+3. Wedge-like rapid membrane disruption: Indolicidin
+4. Native immunomodulation and anti-inflammatory activity: Chicken CATH-2
+5. Hybrid helical enhancement for LPS and bacterial control in poultry: Cecropin AD
+6. Outer membrane lipid asymmetry disruption in Gram-negative bacteria: Thanatin
+7. Cysteine-rich beta-sheet pore formation for broad killing: Protegrin-1
+8. Protease-resistant optimized variant for sustained action: D-CATH-2 (all-D enantiomer)
+
+"
+"Loaded_Programs=Chicken Sepsis p01"
+"Loaded_Programs=Chicken Sepsis p02"
+"Loaded_Programs=Chicken Sepsis p03"
+"Loaded_Programs=Chicken Sepsis p04"
+"Loaded_Programs=Chicken Sepsis p05"
+"Loaded_Programs=Chicken Sepsis p06"
+"Loaded_Programs=Chicken Sepsis p07"
+"Loaded_Programs=Chicken Sepsis p08"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M57.021,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M156.101=1,M147.068,M57.021,M156.101,M147.068,M113.084,M156.101,M128.095,M113.084,M156.101,M156.101,M147.068,M156.101,M97.053,M128.095,M99.068,M101.048,M113.084,M101.048,M113.084,M128.058,M57.021,M87.032,M71.037,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M156.101,M99.068,M156.101,M115.027,M71.037,M99.068,M113.084,M87.032,M71.037,M57.021,M97.053,M71.037,M99.068,M71.037,M101.048,M99.068,M71.037,M128.058,M71.037,M101.048,M71.037,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M128.095,M128.095,M97.053,M99.068,M97.053,M113.084,M113.084,M163.063,M102.001,M114.043,M156.101,M156.101,M101.048,M57.021,M128.095,M102.001,M128.058,M156.101,M131.040,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M147.068,M57.021,M156.101,M147.068,M113.084,M156.101,M128.095,M113.084,M156.101,M156.101,M147.068,M156.101,M97.053,M128.095,M99.068,M101.048,M113.084,M101.048,M113.084,M128.058,M57.021,M87.032,M71.037,M156.101,M146.084,0=4,"
+"[/Preset]"

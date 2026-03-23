@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=L-Glutamine (Nootropics) (R) - JRG"
+"Loaded_Programs=L-Glutamine (CUST)"
+"Loaded_Frequencies=M146.06914,"
+"Preset_Notes=As a nootropic, L-Glutamine increases the effectiveness and activity of neurotransmitters. Helping with improve focus, energy, cognition and retention when learning.|L-Glutamine in your brain works by boosting glutamic acid and gamma-aminobutyric acid (GABA). It also helps detox toxins and free radicals from your brain.|And by increasing GABA levels, L-Glutamine can lead to reduced stress and better sleep.|Dosage of L-Glutamine varies from 500 mg all the way to 10 or 20 grams. For nootropic use its typically on the lower end of the scale. Experiment with smaller amounts, and move up as needed to see what works best for you.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

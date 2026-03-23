@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Metabolism (S)"
+"Preset_Notes=Metabolism for Scalar
+
+Metabolism refers to the complex network of biochemical processes that sustain life by converting nutrients into energy (catabolism) and building cellular components (anabolism), primarily through pathways like glycolysis, the citric acid cycle, oxidative phosphorylation, fatty acid oxidation, and amino acid metabolism. Dysregulated metabolism manifests as slowed basal metabolic rate, insulin resistance, impaired mitochondrial function, excessive fat accumulation, or inefficient energy utilization, leading to symptoms such as persistent fatigue, unintended weight gain or difficulty losing weight, cold intolerance, muscle weakness, brain fog, hormonal imbalances, and increased risk of metabolic syndrome, type 2 diabetes, cardiovascular disease, and non-alcoholic fatty liver disease. Causes include genetic factors, aging-related mitochondrial decline, poor diet high in processed foods, sedentary lifestyle, chronic stress elevating cortisol, environmental toxins, and hormonal disruptions, resulting in reduced ATP production, oxidative stress, inflammation, and altered nutrient sensing via pathways like AMPK, mTOR, and sirtuins.
+
+The proposed polypeptides target key therapeutic axes: mitochondrial energy production, insulin sensitivity and glucose homeostasis, lipid metabolism and fat oxidation, thermogenesis and energy expenditure, and overall metabolic regulation. The real-world polypeptide MOTS-c, a mitochondrial-derived peptide, translocates to the nucleus under metabolic stress to regulate gene expression, activating AMPK, improving insulin sensitivity, enhancing glucose uptake, preventing diet-induced obesity, and promoting energy homeostasis. The designed polypeptides complement this: one cationic amphipathic designed polypeptide penetrates cells to support mitochondrial function; another charged hydrophobic designed polypeptide facilitates fatty acid transport and oxidation; a polar hydroxy-rich designed polypeptide aids glucose transporter recruitment; and an aromatic-rich designed polypeptide stimulates thermogenic pathways. This ensures broad coverage of metabolic dysregulation, with designed sequences optimized for short length, high solubility, proteolytic resistance, and minimal immunogenicity, feasible for subcutaneous or oral delivery.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Metabolism p01"
+"Loaded_Programs=Metabolism p02"
+"Loaded_Programs=Metabolism p03"
+"Loaded_Programs=Metabolism p04"
+"Loaded_Programs=Metabolism p05"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M186.079,M163.063,M186.079,M163.063,M186.079,M163.063,M186.079,M163.063,0=4,"
+"[/Preset]"

@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dog Osteosarcoma (C)"
+"Preset_Notes=Dog Osteosarcoma for Contact
+
+Dog Osteosarcoma is an aggressive bone cancer primarily affecting large-breed dogs, often in limbs (appendicular skeleton), caused by genetic predispositions, rapid growth, or prior trauma/radiation. Symptoms include lameness, swelling, pain at the site, fractures, and in advanced stages, metastasis to lungs causing coughing or respiratory distress. Pathophysiology entails malignant osteoblast proliferation leading to osteoid production, bone destruction, local invasion, and high metastatic potential via bloodstream, with poor prognosis (median survival 4-6 months without treatment).
+
+The proposed polypeptides combat Dog Osteosarcoma via osteoblast inhibition, metastasis prevention, and bone remodeling support. For tumor suppression, a designed polypeptide targets RANKL to inhibit osteoclast activation and tumor-induced bone resorption, reducing pain and progression; design inspired by denosumab-like peptides, feasible for veterinary use with localized injection. For anti-metastatic action, a designed polypeptide blocks integrin-mediated adhesion to prevent lung seeding; based on RGD motifs, it enhances specificity. For bone repair, a designed polypeptide stimulates BMP signaling to promote healthy osteogenesis around the tumor site post-amputation; these designed polypeptides complement standard amputation and chemotherapy, aiming to extend survival and quality of life.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dog Osteosarcoma p01"
+"Loaded_Programs=Dog Osteosarcoma p02"
+"Loaded_Programs=Dog Osteosarcoma p03"
+"Loaded_Frequencies=M97.053=1,M113.084,M97.053,M113.084,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M156.101,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M97.053,M71.037,M128.095,M97.053,0=4,"
+"[/Preset]"

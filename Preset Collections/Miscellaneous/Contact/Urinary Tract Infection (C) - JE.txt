@@ -1,0 +1,54 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=Urinary Tract Infection (C) - JE"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=100000"
+"BFB_Decimal_Places=2"
+"BFB_Max_Hits_To_Find=4"
+"BFB_Start_Delay=20"
+"BFB_Samples_Per_Step=6"
+"Swap_Waveform_Time=60"
+"Preset_Notes=Urinary Tract Infection for Contact by Jason Elliott.
+
+This preset contains the following programs:
+Urinary Tract Infection (CUST)
+Urinary Tract Infections (CAFL)
+Urinary Tract Infections (KHZ)
+Duration: 1hr 26mins
+
+To be used in conjunction with Remote programs found in \Miscellaneous\Remote\
+Urinary Tract Infection 1 (R) - JE
+Urinary Tract Infection 2 (R) - JE
+Urinary Tract Infection 3 (R) - JE
+Urinary Tract Infection 4 (R) - JE
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent the buildup of acids during treatment, the polarity of the signal is regularly reversed.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the Colloidal_Silver port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Settings_Frequency_Wobble_Percentage=.02"
+"Out1_Max_Freq=0"
+"Out1_Min_Freq=76000"
+"Out2_Max_Freq=0"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=Square"
+"User_Defined_2_Waveform=Square"
+"Manual_Start=False"
+"BFB_Calculate_Using_RA=False"
+"BFB_Calculate_Using_Peak=True"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"Out1_Sine=False"
+"Out1_Inverted_Sawtooth=True"
+"BFB_2DP_Max=0"
+"Enable_Tissue_Factor=1"
+"Loaded_Programs=Urinary Tract Infections (CAFL)"
+"Loaded_Programs=Urinary Tract Infections (KHZ)"
+"Loaded_Programs=Urinary Tract Infection (CUST)"
+"Loaded_Frequencies=2050=180,880=180,1550=180,802=180,787=180,727=180,465=180,20=180,9.39=180,642=180,358=180,539=180,"
+"Loaded_Frequencies=490=180,730=180,800=180,7500=180,20000=180,50000=180,124370=180,376290=180,496010=180,689930=180,"
+"Loaded_Frequencies=834=600,802=600,"
+"[/Preset]"

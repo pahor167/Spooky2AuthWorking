@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Heather (S)"
+"Preset_Notes=Heather / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Heather - Self centredness and self-concern.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Heather (S)"
+"Loaded_Frequencies=301.78,"
+"[/Preset]"

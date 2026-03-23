@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Allergy (Hay Fever / Pollen Allergy) (S)"
+"Preset_Notes=Allergy (Hay Fever / Pollen Allergy) for Scalar
+
+Seasonal allergic rhinitis (hay fever) is an IgE-mediated type I hypersensitivity reaction to pollen allergens, characterized by mast cell degranulation, histamine release, Th2 cytokine dominance (IL-4, IL-5, IL-13), eosinophilia, and mucosal inflammation causing sneezing, congestion, itching, and rhinorrhea. Targeted searches identified VIP with direct mechanistic relevance and preclinical/clinical evidence in allergic airway inflammation, alpha-MSH analogs like KPV for cytokine suppression, carnosine for mast cell stabilization; selected these specialized options prioritizing mechanistic fit, with broad-spectrum peptides used only for mucosal repair gaps lacking short specialized alternatives despite searches.
+
+1. Neuropeptide-mediated mast cell stabilization and Th2 cytokine inhibition: VIP
+2. Melanocortin receptor-driven anti-inflammatory effects: KPV
+3. Histamine release inhibition and antioxidant mast cell protection: Carnosine
+4. Redox balance and detoxification of reactive oxygen species: Glutathione
+5. Immune modulation to shift Th1/Th2 balance: Thymosin_alpha_1
+6. Selective innate anti-inflammatory signaling: ARA-290
+7. Mucosal barrier restoration and healing: BPC-157
+8. Enhancement of epithelial repair and migration: TB-500
+9. Stability-optimized N-terminal VIP fragment for targeted anti-allergic modulation: VIP-N10-Eng (designed, Ac-HSDAVFTDNY-NH2; acetylated/amidated for improved pharmacokinetics and activity)
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Allergy (Hay Fever / Pollen Allergy) p01"
+"Loaded_Programs=Allergy (Hay Fever / Pollen Allergy) p02"
+"Loaded_Programs=Allergy (Hay Fever / Pollen Allergy) p03"
+"Loaded_Programs=Allergy (Hay Fever / Pollen Allergy) p04"
+"Loaded_Programs=Allergy (Hay Fever / Pollen Allergy) p05"
+"Loaded_Programs=Allergy (Hay Fever / Pollen Allergy) p06"
+"Loaded_Programs=Allergy (Hay Fever / Pollen Allergy) p07"
+"Loaded_Programs=Allergy (Hay Fever / Pollen Allergy) p08"
+"Loaded_Programs=Allergy (Hay Fever / Pollen Allergy) p09"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"[/Preset]"

@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Dog Epilepsy (R)"
+"Preset_Notes=Dog Epilepsy for Remote
+
+Dog Epilepsy is a chronic neurological disorder characterized by recurrent unprovoked seizures, often idiopathic in breeds like Border Collies or genetic in others, but can be structural (e.g., trauma, tumors) or reactive. Symptoms include tonic-clonic convulsions, focal seizures, behavioral changes, post-ictal confusion, and potential status epilepticus leading to brain damage. Pathophysiology involves neuronal hyperexcitability from imbalanced GABA/glutamate signaling, ion channel mutations, neuroinflammation, and recently, gut-brain axis disruptions via dysbiosis influencing neurotransmitter production.
+
+The proposed polypeptides target Dog Epilepsy through anticonvulsant action, gut-brain modulation, and neuroprotection. For seizure control, a designed polypeptide enhances GABA receptor binding to increase inhibitory signaling, reducing excitability thresholds; conceptual from neuropeptide analogs like galanin fragments, with BBB-penetrating modifications for efficacy. For gut-brain axis, a designed polypeptide promotes beneficial microbiota to boost short-chain fatty acid production, indirectly stabilizing neural circuits via vagal pathways; feasibility aligns with microbiome therapies in epilepsy models. For neuroprotection, a designed polypeptide scavenges reactive oxygen species and modulates cytokines to prevent excitotoxic damage during seizures; these designed polypeptides complement standard AEDs, potentially lowering drug resistance.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Dog Epilepsy p01"
+"Loaded_Programs=Dog Epilepsy p02"
+"Loaded_Programs=Dog Epilepsy p03"
+"Loaded_Frequencies=M57.021=1,M128.095,M99.068,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M99.068,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M137.059,M129.043,M137.059,M129.043,0=4,"
+"[/Preset]"

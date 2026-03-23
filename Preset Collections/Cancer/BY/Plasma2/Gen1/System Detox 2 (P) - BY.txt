@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"PresetName=1. SC System Detox 2"
+"Loaded_Frequencies=2.4=109,2.68=109,5.8=109,6.3=109,10=109,20=109,40=109,60=109,72=109,95=109,125=109,165=109,200=109,333=109,428=109,444=109,465=109,522=109,555=109,600=109,625=109,650=109,666=109,690=109,727=109,787=109,802=109,832=109,880=109,1250=109,1500=109,1865=109,2.4=109,5.8=109,6.3=109,7.8=109,20=109,26=109,35=109,60=109,72=109,125=109,165=109,200=109,444=109,465=109,522=109,588=109,600=109,625=109,650=109,666=109,685=109,690=109,727=109,760=109,776=109,787=109,802=109,832=109,880=109,1250=109,1500=109,1550=109,1850=109,2127=109,0=252,"
+"Loaded_Programs=1. SC System Detox 2"
+"Preset_Notes=Cancer Protocol, Plasma Plus method, Generator 1, for Plasma. 
+
+This preset contains Plasma frequency sets for Spooky Central/Plasma. Run this preset concurrently with the presets 'Plasma2/Gen2 (R) - BY'. See '\Cancer\BY\GUIDE Cancer BY - Click Me.pdf' for a schedule to run these presets.
+
+The entire schedule for this protocol is in the notes of 'Plasma2/Gen2 (P) - BY'. Here is the schedule for this preset:
+  Generator 1, Plasma2/Gen1/System Detox 2 (P) - BY
+    Day 5
+    Day 6
+
+This preset has the following programs:
+
+SC System Detox 2: Detox 1 Toxins in the Intestines - CAFL, Detox 4 Toxins Throughout the Body - CAFL
+
+Here is a table to find the beginning of each day in this preset:
+1: SC System Detox 2
+
+Connect Generator 1 Out 1 to the Spooky Central/Plasma Input port. Out 2 to the Spooky Central/Plasma Modulation port.
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"

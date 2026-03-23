@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Mild Dyslexia (R) - NS"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"BFB_Start_Frequency=100000"
+"BFB_Finish_Frequency=200000"
+"BFB_Max_Hits_To_Find=4"
+"BFB_Start_Delay=20"
+"BFB_Samples_Per_Step=1"
+"Out1_Amplitude=10"
+"Out2_Amplitude=10"
+"Out1_Offset=100"
+"Out2_Offset=-100"
+"Preset_Notes=Mild Dyslexia in Children
+by Ngawang Samten
+
+This preset is for Dyslexia in children. It is to be used for specific cases in which there is a very pronounced difficulty in reading and comprehension (even when a text is read to the child by an adult), but not to the point of jumping/reverse/mirror letters or words. This is intended primarily for a new minority of children with very non-conceptual style of thinking, who are extremely sensitive and emphatic and have a style of perception mainly based on visual images and feelings. These kids are very good at grasping complex topics at a glance, and at learning with their hands, but have difficulty processing linear information. This set will help with that deficiency without re-introducing the faults which come with an overly conceptual mindset. 
+
+It is intended for remote and to be used with a sine wave (damped or normal, depending on the specific case - experiment). The voltage should be set between 10V and 20V (again, it is person specific)."
+"User_Defined_1_Waveform=Square"
+"User_Defined_2_Waveform=Square"
+"Manual_Start=False"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"Out1_Sine=True"
+"Out1_User_Defined_1=False"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=Mild Dyslexia for Children (ATI)"
+"Loaded_Frequencies=435=1200,3026=480,7322=240,10417=360,18436=600,22000=120,44000=300,"
+"[/Preset]"

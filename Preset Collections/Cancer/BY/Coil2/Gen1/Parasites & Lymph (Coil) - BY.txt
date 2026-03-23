@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"PresetName=1. Parasites & Lymph"
+"Loaded_Frequencies=9.6=85,15=85,26=85,35=85,48=85,60=85,95=85,125=85,160=85,200=85,230=85,410=85,440=85,465=85,588=85,760=85,776=85,1000=85,2000=85,2127=85,10000=196,3177=196,3176=196,3175=196,880=196,787=196,751=196,727=196,676=196,635=196,625=196,522=196,465=196,444=196,440=196,304=196,148=196,146=196,15.2=196,15.05=196,10.36=196,10=196,7.83=196,6.3=196,2.5=196,15.05=196,10.36=196,3176=196,0=196,"
+"Loaded_Programs=1. Parasites & Lymph"
+"Preset_Notes=Cancer Protocol, Coil Plus method, Generator 1, for Coil. 
+
+This preset contains Coil frequency sets for Spooky Coil. Run this preset concurrently with the presets 'Coil2/Gen2 (R) - BY'. See '\Cancer\BY\Cancer Presets.pdf' for a schedule to run these presets.
+
+The entire schedule for this protocol is in the notes of 'Coil2/Gen2 (Coil) - BY'. Here is the schedule for this preset:
+  Generator 1, Coil2/Gen1/Parasites & Lymph (Coil) - BY
+    Day 14
+    Day 15
+
+This preset has the following programs:
+
+Parasites & Lymph: Detox 2 Parasites in the Intestines - CAFL, Lymphs and Detox - PROV, Lymph Support - CAFL
+
+Here is a table to find the beginning of each day in this preset:
+1: Parasites & Lymph
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost on Generator 1, or to Out 1 of Generator 1 if you don't have Spooky Boost.
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"

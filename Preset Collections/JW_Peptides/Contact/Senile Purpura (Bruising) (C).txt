@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Senile Purpura (Bruising) (C)"
+"Preset_Notes=Senile Purpura (Bruising) for Contact
+
+Senile purpura, also known as actinic purpura or age-related bruising, is a benign condition primarily affecting older adults due to progressive thinning of the skin, degradation of dermal connective tissue (collagen and elastin), increased vascular fragility, and impaired barrier function from cumulative UV exposure, oxidative stress, and natural aging processes. This leads to easy rupture of superficial blood vessels from minor trauma, resulting in persistent purple ecchymoses on sun-exposed areas like the forearms and hands. Mechanistic rationale for the proposed polypeptides includes targeting key pathophysiological axes: enhancing extracellular matrix (ECM) components like collagen to strengthen dermal support; restoring hyaluronic acid (HA) levels for improved hydration and friction resistance; upregulating CD44 expression to promote keratinocyte proliferation and HA interaction; modulating matrix metalloproteinases (MMPs) to prevent ECM breakdown; promoting epidermal and dermal thickening to reduce atrophy; repairing the skin barrier to minimize permeability and dryness; improving local microcirculation to accelerate bruise resolution; reducing oxidative stress from reactive oxygen species (ROS); mitigating inflammation; addressing hormonal influences on skin atrophy; enhancing vascular integrity to decrease vessel permeability; and providing photoprotection mechanisms. Real-world polypeptides are prioritized based on evidence from scientific literature, with designed ones (flagged) used to ensure comprehensive axis coverage where real-world options are limited. All proposals include scientific rationale for modes of action, feasibility (e.g., topical delivery, stability in formulations), and physicochemical considerations (e.g., solubility, molecular weight for penetration).
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Senile Purpura (Bruising) p01"
+"Loaded_Programs=Senile Purpura (Bruising) p02"
+"Loaded_Programs=Senile Purpura (Bruising) p03"
+"Loaded_Programs=Senile Purpura (Bruising) p04"
+"Loaded_Programs=Senile Purpura (Bruising) p05"
+"Loaded_Programs=Senile Purpura (Bruising) p06"
+"Loaded_Programs=Senile Purpura (Bruising) p07"
+"Loaded_Programs=Senile Purpura (Bruising) p08"
+"Loaded_Programs=Senile Purpura (Bruising) p09"
+"Loaded_Programs=Senile Purpura (Bruising) p10"
+"Loaded_Programs=Senile Purpura (Bruising) p11"
+"Loaded_Programs=Senile Purpura (Bruising) p12"
+"Loaded_Frequencies=M114.043=1,M87.032,M115.027,M87.032,M129.043,M102.001,M97.053,M113.084,M87.032,M137.059,M115.027,M57.021,M163.063,M102.001,M113.084,M137.059,M115.027,M57.021,M99.068,M113.084,M102.001,M163.063,M113.084,M129.043,M71.037,M128.095,M163.063,M71.037,M102.001,M102.001,M99.068,M99.068,M57.021,M163.063,M113.084,M57.021,M129.043,M156.101,M102.001,M128.058,M163.063,M156.101,M115.027,M113.084,M128.095,M186.079,M186.079,M129.043,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M101.048,M101.048,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M131.040,M128.058,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M57.021,M87.032,M163.063,0=4,"
+"Loaded_Frequencies=M137.059=1,M115.027,M113.084,M87.032,M137.059,M186.079,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M99.068=1,M57.021,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M114.043=1,M99.068,M114.043,M115.027,M113.084,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M137.059,M163.063,M113.048,M114.079,M156.101,M114.043,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M71.037,M97.053,M87.032,M129.043,M103.009,M156.101,M137.059,M163.063,M113.084,0=4,"
+"[/Preset]"

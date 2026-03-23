@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Myasthenia Gravis (C)"
+"Preset_Notes=Myasthenia Gravis for Contact
+
+The peptides target multiple therapeutic axes for Myasthenia Gravis, including immunomodulation to suppress autoantibody production against acetylcholine receptors, anti-inflammatory to reduce neuromuscular junction inflammation, neuroprotective to preserve motor neuron function, and tissue repair to improve muscle strength. Designed peptides are flagged and provide conceptual supplements for additional antioxidant and anti-fibrotic mechanisms.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Myasthenia Gravis p01"
+"Loaded_Programs=Myasthenia Gravis p02"
+"Loaded_Programs=Myasthenia Gravis p03"
+"Loaded_Programs=Myasthenia Gravis p04"
+"Loaded_Programs=Myasthenia Gravis p05"
+"Loaded_Programs=Myasthenia Gravis p06"
+"Loaded_Programs=Myasthenia Gravis p07"
+"Loaded_Programs=Myasthenia Gravis p08"
+"Loaded_Programs=Myasthenia Gravis p09"
+"Loaded_Programs=Myasthenia Gravis p10"
+"Loaded_Programs=Myasthenia Gravis p11"
+"Loaded_Programs=Myasthenia Gravis p12"
+"Loaded_Frequencies=M115.027=1,M101.048,M97.053,M163.063,M113.084,M115.027,M113.084,M101.048,M163.063,M137.059,M147.068,M99.068,M131.040,M128.058,M156.101,M113.084,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M99.068,M129.043,M113.084,M113.084,M97.053,M87.032,M101.048,M87.032,M87.032,M71.037,M99.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M101.048,M97.053,M163.063,M113.084,M115.027,M113.084,M101.048,M163.063,M137.059,M147.068,M99.068,M71.037,M128.058,M156.101,M113.084,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M115.027=1,M101.048,M97.053,M163.063,M113.084,M115.027,M113.084,M101.048,M163.063,M57.021,M147.068,M99.068,M131.040,M128.058,M156.101,M113.084,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M99.068,M128.095,M113.084,M113.084,M97.053,M87.032,M101.048,M87.032,M87.032,M71.037,M99.068,M115.027,M101.048,M97.053,M163.063,M113.084,M115.027,M113.084,M101.048,M163.063,M137.059,M147.068,M99.068,M71.037,M128.058,M156.101,M113.084,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M128.095,M128.058,M99.068,M102.001,0=4,"
+"Loaded_Frequencies=M170.106=1,M128.095,M156.101,M128.058,M87.032,M99.068,0=4,"
+"[/Preset]"

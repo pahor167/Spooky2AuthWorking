@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Dementia (R)"
+"Preset_Notes=Dementia for Remote
+
+Dementia (primarily Alzheimer's disease-related)
+
+Dementia encompasses multifaceted pathology centered on amyloid-beta aggregation and toxicity, tau hyperphosphorylation and tangle formation, sustained neuroinflammation via activated microglia and cytokine storms, excessive oxidative stress from ROS accumulation, mitochondrial bioenergetics failure and dynamics impairment, synaptic dysfunction, and progressive neuronal loss. Primary biological targets include amyloid-beta fibril elongation sites and oligomeric pores, tau microtubule-binding repeat domains and phosphorylation hotspots, NLRP3 inflammasome assembly interfaces, redox-sensitive mitochondrial pores, metal-binding motifs in amyloid species, and pro-inflammatory kinase cascades. Scaffold classes span disulfide- or selenosulfide-cyclized loops for constrained amyloid/tau interference, amphipathic helical segments for membrane insertion and ROS quenching, charged irregular coils for kinase or inflammasome competition, glycosylated turn-rich motifs for stability and autophagic enhancement, extended polyproline-like rigid structures for synaptic scaffold support, and redox-active linear chains with oxidation-prone residues for direct antioxidant defense. Modes of action involve steric blockade of aggregation seeding, competitive inhibition of pathologic phosphorylation, polarization of microglia to resolving phenotypes, direct scavenging of peroxides and metal-induced radicals, stabilization of mitochondrial transition pores to block cytochrome release, and promotion of proteostatic clearance pathways. Physicochemical profiles prioritize balanced charge for electrostatic targeting, incorporation of PTMs and non-standard residues for proteolytic resistance and BBB permeability potential, moderate hydrophobicity to avoid aggregation propensity, and pharmacodynamic emphasis on multi-target engagement with minimal peripheral immunogenicity.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Dementia p01"
+"Loaded_Programs=Dementia p02"
+"Loaded_Programs=Dementia p03"
+"Loaded_Programs=Dementia p04"
+"Loaded_Programs=Dementia p05"
+"Loaded_Programs=Dementia p06"
+"Loaded_Programs=Dementia p07"
+"Loaded_Programs=Dementia p08"
+"Loaded_Frequencies=M147.034=1,M103.009,M167.030,M103.009,M147.034,M119.048,M103.009,M167.030,M103.009,M147.034,M119.048,M103.009,M167.030,M103.009,M147.034,M119.048,M103.009,M167.030,M103.009,M147.034,0=4,"
+"Loaded_Frequencies=M290.111=1,M188.080,M290.111,M188.080,M290.111,M188.080,M101.048,M290.111,M188.080,M290.111,M188.080,M290.111,M188.080,M101.048,M290.111,M188.080,M290.111,M188.080,M290.111,M188.080,0=4,"
+"Loaded_Frequencies=M171.106=1,M172.141,M171.106,M172.141,M171.106,M172.141,M171.106,M172.141,M171.106,M172.141,M171.106,M172.141,M171.106,M172.141,M171.106,M172.141,M171.106,M172.141,M171.106,M172.141,0=4,"
+"Loaded_Frequencies=M147.035=1,M202.074,M147.035,M202.074,M147.035,M202.074,M147.035,M202.074,M147.035,M202.074,M147.035,M202.074,M147.035,M202.074,M147.035,M202.074,M147.035,M202.074,M147.035,M202.074,0=4,"
+"Loaded_Frequencies=M113.084=1,M142.111,M113.084,M142.111,M113.084,M142.111,M113.084,M142.111,M113.084,M142.111,M113.084,M142.111,M113.084,M142.111,M113.084,M142.111,M113.084,M142.111,M113.084,M142.111,0=4,"
+"Loaded_Frequencies=M113.048=1,M71.037,M113.048,M71.037,M113.048,M71.037,M113.048,M71.037,M113.048,M71.037,M113.048,M71.037,M113.048,M71.037,M113.048,M71.037,M113.048,M71.037,M113.048,M71.037,0=4,"
+"Loaded_Frequencies=M243.029=1,M87.032,M243.029,M87.032,M243.029,M87.032,M243.029,M87.032,M243.029,M87.032,M243.029,M87.032,M243.029,M87.032,M243.029,M87.032,M243.029,M87.032,M243.029,M87.032,0=4,"
+"Loaded_Frequencies=M119.003=1,M119.003,M184.959,M119.003,M119.003,M184.959,M119.003,M119.003,M184.959,M119.003,M119.003,M184.959,M119.003,M119.003,M184.959,M119.003,M119.003,M184.959,M119.003,M119.003,0=4,"
+"[/Preset]"

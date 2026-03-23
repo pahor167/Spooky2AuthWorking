@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=Overnight Contact Sweep (C) - DB"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=152000"
+"BFB_Initial_Step_Size_Hz=20"
+"BFB_Max_Hits_To_Find=20"
+"BFB_Start_Delay=30"
+"Swap_Waveform_Time=60"
+"Preset_Notes=Cancer Protocol, Phase II-Target. Contact Mode.
+
+Update: October 2016.
+
+This is an overnight linear sweep targeting all cancer viruses that starts at 1.5MHz and proceeds to 1.7MHz over seven hours.
+
+PROGRAM:
+Cancer Contact Overnight Sweep CUST"
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"Text41=0"
+"Triangle_Spike_Ratio=2"
+"User_Defined_1_Waveform=Square"
+"User_Defined_2_Waveform=Square"
+"Manual_Start=False"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"Out1_Sine=False"
+"Out1_Inverted_Sawtooth=True"
+"Enable_Reduce_Low_Frequency_Amplitude=0"
+"BFB_2DP_Max=1"
+"Enable_Tissue_Factor=0"
+"Enable_Amplitude_RampUp=0"
+"Enable_Amplitude_Ramp_Down=0"
+"Loaded_Programs=Cancer Contact Overnight Sweep (CUST)"
+"Loaded_Frequencies=1500000-1700000=25200,"
+"[/Preset]"

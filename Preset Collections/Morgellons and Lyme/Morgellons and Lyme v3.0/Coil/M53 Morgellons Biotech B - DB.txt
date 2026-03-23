@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"Repeat_Chain=0"
+"PresetName=M53 Morgellons Biotech B - DB"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Spooky Coil.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Plastics Detox XTRA
+Detox Plastics 2 XTRA
+Staphylococcus Epidermis XTRA
+Bisphenol A XTRA
+Smart Dust XTRA
+Silicone Detox XTRA
+Detox Aluminum XTRA
+Detox Barium XTRA
+Heavy Metals CAFL
+
+Connect Spooky PEMF Coil to the generator, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+"
+"Loaded_Programs=Plastics Detox (XTRA)"
+"Loaded_Programs=Detox Plastics 2 (XTRA)"
+"Loaded_Programs=Staphylococcus Epidermis (XTRA)"
+"Loaded_Programs=Bisphenol A (XTRA)"
+"Loaded_Programs=Smart Dust (XTRA)"
+"Loaded_Programs=Silicone Detox (XTRA)"
+"Loaded_Programs=Detox Aluminum (XTRA)"
+"Loaded_Programs=Detox Barium (XTRA)"
+"Loaded_Programs=Heavy Metals (CAFL)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=7755766.6555=360,67553.6343=900,54423.7760=240,"
+"Loaded_Frequencies=67553.63=420,67553.64=420,1055.52=420,1055.53=420,54423.77=300,54423.78=300,"
+"Loaded_Frequencies=7755766.6555=1800,"
+"Loaded_Frequencies=1055.525=360,"
+"Loaded_Frequencies=55454.5454=1800,"
+"Loaded_Frequencies=787998.7877=1200,"
+"Loaded_Frequencies=15952.79=180,"
+"Loaded_Frequencies=19516.29=180,21822.15=180,"
+"Loaded_Frequencies=30000=900,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

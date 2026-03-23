@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Bilateral Grade 3 Nuclear Cataracts with Corneal Arcus (S)"
+"Preset_Notes=Bilateral Grade 3 Nuclear Cataracts with Corneal Arcus for Scalar
+
+Bilateral grade 3 nuclear cataracts reflect advanced lens nuclear sclerosis driven by oxidative stress, crystallin protein aggregation, glycation, and age-related changes, while corneal arcus represents peripheral lipid deposition often linked to aging or dyslipidemia. The proposed polypeptides target evidence-based axes from cataract research emphasizing antioxidant defense, chaperone function, anti-glycation, and inflammation modulation to support lens clarity, reduce progression risk, and promote ocular health.
+
+1. Primary lens antioxidant replenishment: Glutathione (real) directly combats oxidative damage critical in cataractogenesis.
+2. Anti-glycation and toxic aldehyde quenching: Carnosine (real) prevents sugar-induced protein damage and cross-linking in the lens.
+3. Copper-mediated regenerative and antioxidant effects: GHK-Cu (real) supports matrix remodeling and oxidative balance relevant to aging eyes.
+4. Crystallin aggregation inhibition via chaperone mimic: Ac-KFVIFLDVKHFSPEDLTVK-NH2 (real) derived from {alpha}B-crystallin prevents protein insolubilization central to nuclear cataracts.
+5. Melanocortin receptor anti-inflammation: KPV (real) reduces inflammatory contributors to ocular pathology.
+6. Innate repair receptor activation: ARA-290 (real) promotes resolution of chronic stress and tissue repair.
+7. Vasodilatory and immunomodulatory support: VIP (real) enhances ocular blood flow and reduces inflammation.
+8. Optimized short {alpha}-MSH motif for potent anti-inflammation: Ac-HFRW-NH2 (designed) leverages core melanocortin sequence for enhanced ocular inflammatory control.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Bilateral Grade 3 Nuclear Cataracts with Corneal Arcus p01"
+"Loaded_Programs=Bilateral Grade 3 Nuclear Cataracts with Corneal Arcus p02"
+"Loaded_Programs=Bilateral Grade 3 Nuclear Cataracts with Corneal Arcus p03"
+"Loaded_Programs=Bilateral Grade 3 Nuclear Cataracts with Corneal Arcus p04"
+"Loaded_Programs=Bilateral Grade 3 Nuclear Cataracts with Corneal Arcus p05"
+"Loaded_Programs=Bilateral Grade 3 Nuclear Cataracts with Corneal Arcus p06"
+"Loaded_Programs=Bilateral Grade 3 Nuclear Cataracts with Corneal Arcus p07"
+"Loaded_Programs=Bilateral Grade 3 Nuclear Cataracts with Corneal Arcus p08"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M170.106=1,M147.068,M99.068,M113.084,M147.068,M113.084,M115.027,M99.068,M128.095,M137.059,M147.068,M87.032,M97.053,M129.043,M115.027,M113.084,M101.048,M99.068,M127.111,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M179.070=1,M147.068,M156.101,M185.095,0=4,"
+"[/Preset]"

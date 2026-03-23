@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Varicose Veins (L)"
+"Preset_Notes=Varicose Veins for Laser
+
+Varicose veins represent a prevalent form of chronic venous disease characterized by dilated, elongated, and tortuous superficial veins, most commonly in the lower extremities, resulting from progressive valve incompetence and vein wall weakness leading to venous hypertension, blood stasis, and reflux. Symptoms include leg heaviness, aching, fatigue, swelling, itching, night cramps, restless legs, and cosmetic concern from visible bulging veins, with advanced cases progressing to edema, skin hyperpigmentation, lipodermatosclerosis, and venous leg ulcers. Pathophysiologically, the condition is multifactorial, involving genetic susceptibility, hormonal factors (e.g., pregnancy), prolonged orthostasis, obesity, and aging, which contribute to structural remodeling of the vein wall (smooth muscle hypertrophy/dysfunction, elastin fragmentation), extracellular matrix degradation via upregulated matrix metalloproteinases, chronic low-grade inflammation with leukocyte infiltration, oxidative stress damaging endothelium, microvascular leakage, and dysregulated hypoxia-induced pathways perpetuating tissue fibrosis and impaired healing.
+
+The proposed polypeptides provide paired real-world and rationally engineered coverage of the principal therapeutic axes identified from pathophysiological mechanisms:
+
+1. Extracellular matrix remodeling and vein wall reinforcement axis: Degradation of collagen and elastin weakens venous structure. GHK, a natural copper-binding tripeptide with established regenerative properties, stimulates orderly collagen synthesis and fibroblast activity; the designed head-to-tail cyclic GHK pentamer multimerizes the motif for enhanced proteolytic stability and prolonged copper-mediated remodeling effects.
+
+2. Anti-inflammatory and endothelial protection axis: Chronic inflammation drives leukocyte adhesion and tissue damage. BPC-157, an investigational gastric-derived pentadecapeptide, modulates inflammatory signaling, protects vascular endothelium, and stabilizes cellular structures in preclinical vascular stress models; the designed Aib-stabilized cyclic analog incorporates alpha-aminoisobutyric acid for conformational rigidity and cyclization for superior bioavailability while preserving core protective motifs.
+
+3. Oxidative stress and hypoxia mitigation axis: ROS accumulation and HIF-1 pathways exacerbate endothelial dysfunction. Glutathione, the endogenous master antioxidant tripeptide, directly scavenges radicals and supports redox balance; the designed head-to-tail cyclic selenopeptide incorporates multiple selenocysteine residues in a glutathione peroxidase-mimetic arrangement for efficient, recyclable catalytic activity against peroxides.
+
+4. Tissue repair, migration, and organized healing axis: Impaired healing perpetuates stasis complications. TB-500 (active thymosin beta-4 fragment), promotes cell migration, actin sequestration, and non-fibrotic repair in wound models; the designed extended cyclic motif duplicates the actin-binding sequence with termini protection and cyclization for sustained therapeutic action in venous tissue regeneration.
+
+This synergistic set leverages literature-derived motifs with rational enhancements to address structural, inflammatory, oxidative, and reparative deficits comprehensively.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Varicose Veins p01"
+"Loaded_Programs=Varicose Veins p02"
+"Loaded_Programs=Varicose Veins p03"
+"Loaded_Programs=Varicose Veins p04"
+"Loaded_Programs=Varicose Veins p05"
+"Loaded_Programs=Varicose Veins p06"
+"Loaded_Programs=Varicose Veins p07"
+"Loaded_Programs=Varicose Veins p08"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,M57.021,M137.059,M128.095,M57.021,M137.059,M128.095,M57.021,M137.059,M128.095,M57.021,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M85.053,M115.027,M115.027,M85.053,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M150.954,M128.095,M57.021,M150.954,M156.101,M57.021,M150.954,M128.095,M57.021,M150.954,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"[/Preset]"

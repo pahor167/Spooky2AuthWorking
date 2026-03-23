@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Pendred Syndrome (L)"
+"Preset_Notes=Pendred Syndrome for Laser
+
+Pendred syndrome is a rare autosomal recessive genetic disorder characterized by bilateral sensorineural hearing loss, often profound and present from birth or early childhood, associated with inner ear malformations such as enlarged vestibular aqueduct (EVA) or Mondini dysplasia, and thyroid goiter that typically develops in late childhood or adolescence, with variable hypothyroidism. Additional features may include vestibular dysfunction leading to balance issues, vertigo, or delayed motor milestones. The condition accounts for up to 10-15% of syndromic hereditary deafness, with prevalence estimated at 1-9 per 100,000, and is caused by biallelic pathogenic variants in the SLC26A4 gene encoding pendrin, a chloride-iodide/bicarbonate anion exchanger critical for ion homeostasis in the inner ear endolymph and thyroid iodide efflux/organification. Pendrin dysfunction disrupts endolymphatic pH and fluid balance, leading to cochlear hair cell degeneration and hearing impairment, while impairing apical iodide transport in thyrocytes causes defective thyroid hormone synthesis and compensatory goiter. Diagnosis involves audiometry, temporal bone imaging (CT/MRI for EVA), perchlorate discharge test, thyroid ultrasound/function tests, and SLC26A4 sequencing.
+
+Current management is supportive: cochlear implants or hearing aids for deafness (with excellent outcomes if implanted early), thyroid hormone replacement (levothyroxine) if hypothyroid, iodine moderation, and vestibular rehabilitation; precautions against head trauma due to EVA fragility. Emerging small-molecule correctors (e.g., chaperones for misfolded pendrin) and gene therapies are investigational but not polypeptide-based.
+
+Searches across PubMed, patents, clinical trials, and databases confirmed no documented real-world polypeptide or peptide therapies for Pendred syndrome. The proposed set thus consists entirely of designed conceptual polypeptides. These short synthetic peptides are rationally designed for potential membrane interaction, stability, and modulatory effects on anion transport or compensatory pathways:
+
+- The first designed peptide (D1) features mixed charged and hydrophobic residues to hypothetically support endolymph ion balance and protect cochlear function.
+
+- The second designed peptide (D2) incorporates aromatic and polar motifs aimed at facilitating iodide-handling mimicry in thyroid cells.
+
+- The third designed peptide (D3) is intended for potential stabilization of vestibular epithelial integrity.
+
+- The fourth designed peptide (D4) includes acidic and basic residues for broad anion exchange compensation.
+
+Feasibility considerations encompass lengths of 10 residues for cost-effective synthesis, predicted good solubility from balanced hydrophilicity, minimal predicted immunogenicity, and opportunities for optimization (e.g., cyclization or tagging for targeted delivery to ear/thyroid). Physicochemical profiles favor stability; however, these are hypothetical designs requiring extensive preclinical testing in SLC26A4 models for specificity, efficacy in restoring pendrin-like function or mitigating symptoms, and safety without disrupting native ion gradients.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Pendred Syndrome p01"
+"Loaded_Programs=Pendred Syndrome p02"
+"Loaded_Programs=Pendred Syndrome p03"
+"Loaded_Programs=Pendred Syndrome p04"
+"Loaded_Frequencies=M57.021=1,M87.032,M97.053,M99.068,M128.095,M156.101,M137.059,M163.063,M101.048,M147.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M113.084,M186.079,M128.058,M97.053,M114.043,M113.084,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M99.068=1,M87.032,M163.063,M101.048,M57.021,M128.095,M113.084,M131.040,M97.053,M129.043,0=4,"
+"Loaded_Frequencies=M147.068=1,M137.059,M156.101,M128.095,M99.068,M115.027,M71.037,M114.043,M128.058,M87.032,0=4,"
+"[/Preset]"

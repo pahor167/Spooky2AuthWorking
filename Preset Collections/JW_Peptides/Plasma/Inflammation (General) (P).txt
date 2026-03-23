@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Inflammation (General) (P)"
+"Preset_Notes=Inflammation (General) for Plasma
+
+Inflammation is the body's innate immune response to harmful stimuli such as pathogens, damaged cells, or irritants, manifesting acutely as redness, heat, swelling, pain, and loss of function, or chronically as persistent low-grade activation contributing to diseases like rheumatoid arthritis, atherosclerosis, neurodegenerative disorders, and metabolic syndrome. Acute inflammation is protective, involving rapid recruitment of neutrophils and macrophages, release of mediators like histamine, prostaglandins, and leukotrienes for vasodilation and permeability, followed by resolution. Chronic inflammation arises from failed resolution, autoimmune triggers, or persistent irritants, featuring sustained cytokine production (TNF-{alpha}, IL-1{beta}, IL-6), activation of NF-{kappa}B and MAPK pathways driving gene expression of inflammatory effectors, excessive reactive oxygen species (ROS) causing tissue damage, chemokine-directed leukocyte infiltration, and fibrotic remodeling. Symptoms range from localized pain and fatigue to systemic effects like fever, weight loss, and organ dysfunction, with pathophysiology centered on dysregulated innate and adaptive immunity, endothelial activation, and disrupted pro-resolving signals.
+
+The proposed polypeptides target major therapeutic axes in general inflammation: cytokine suppression, NF-{kappa}B pathway inhibition, oxidative stress reduction, promotion of inflammatory resolution, and endothelial/vascular protection. The real-world polypeptide BPC-157 exerts broad anti-inflammatory effects by reducing pro-inflammatory cytokine release, inhibiting leukocyte adhesion, and stabilizing endothelial barriers to prevent excessive permeability and edema. The designed polypeptides complement this targeted approach: one cationic amphipathic designed polypeptide interferes with cytokine signaling and immune cell activation; another aromatic-rich designed polypeptide blocks NF-{kappa}B translocation and transcriptional activity; a polar hydroxy-rich designed polypeptide scavenges ROS to mitigate oxidative damage; and a charged aromatic designed polypeptide enhances resolution by promoting anti-inflammatory mediators like IL-10. This set provides balanced, multi-axis coverage for both acute and chronic inflammation, with designed sequences kept short for efficient synthesis, high stability, minimal immunogenicity, and good tissue penetration, feasible for topical, oral, or systemic use.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Inflammation (General) p01"
+"Loaded_Programs=Inflammation (General) p02"
+"Loaded_Programs=Inflammation (General) p03"
+"Loaded_Programs=Inflammation (General) p04"
+"Loaded_Programs=Inflammation (General) p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M186.079,M147.068,M186.079,M147.068,M186.079,M147.068,M186.079,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M163.063,M156.101,M163.063,M156.101,M163.063,M156.101,M163.063,M156.101,M163.063,0=4,"
+"[/Preset]"

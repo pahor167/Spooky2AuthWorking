@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Patau’s Syndrome (C)"
+"Preset_Notes=Patau’s Syndrome for Contact
+
+Patau’s syndrome, also known as trisomy 13, is a severe chromosomal aneuploidy caused by an extra copy of chromosome 13, resulting in profound intellectual disability, multiple congenital malformations (including holoprosencephaly, cardiac defects, craniofacial anomalies, polydactyly, and neural tube defects), and high mortality typically within the first year of life. The pathophysiology primarily stems from gene dosage imbalance leading to overexpressed proteins, triggering oxidative stress, increased cellular apoptosis, inflammation, disrupted proliferation, and developmental aberrations across organs. Mechanistic rationale: No real-world polypeptides were identified for trisomy 13 despite comprehensive searches; all proposed are designed conceptual polypeptides incorporating non-standard residues and structures to target key axes-oxidative stress mitigation via selenocysteine-enhanced antioxidation, apoptosis inhibition through charged residue modulation, inflammation reduction, neuroprotection, cardioprotection, and tissue/developmental integrity support via mimetic scaffolds. All polypeptides are designed.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Patau’s Syndrome p01"
+"Loaded_Programs=Patau’s Syndrome p02"
+"Loaded_Programs=Patau’s Syndrome p03"
+"Loaded_Programs=Patau’s Syndrome p04"
+"Loaded_Programs=Patau’s Syndrome p05"
+"Loaded_Programs=Patau’s Syndrome p06"
+"Loaded_Programs=Patau’s Syndrome p07"
+"Loaded_Programs=Patau’s Syndrome p08"
+"Loaded_Programs=Patau’s Syndrome p09"
+"Loaded_Programs=Patau’s Syndrome p10"
+"Loaded_Programs=Patau’s Syndrome p11"
+"Loaded_Programs=Patau’s Syndrome p12"
+"Loaded_Programs=Patau’s Syndrome p13"
+"Loaded_Programs=Patau’s Syndrome p14"
+"Loaded_Programs=Patau’s Syndrome p15"
+"Loaded_Programs=Patau’s Syndrome p16"
+"Loaded_Programs=Patau’s Syndrome p17"
+"Loaded_Programs=Patau’s Syndrome p18"
+"Loaded_Frequencies=M102.001=1,M150.954,M57.021,M150.954,M87.032,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M156.101,M86.048,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M97.053,M113.048,M57.021,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M87.032,M101.048,M150.954,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M85.053,M99.068,M85.053,M113.084,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M237.148,M128.095,M156.101,M237.148,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M57.021,M150.954,M57.021,M150.954,M57.021,M150.954,0=4,"
+"Loaded_Frequencies=M87.032=1,M150.954,M101.048,M150.954,M87.032,M150.954,M101.048,0=4,"
+"Loaded_Frequencies=M86.048=1,M128.095,M86.048,M156.101,M86.048,M128.095,M86.048,0=4,"
+"Loaded_Frequencies=M113.048=1,M71.037,M113.048,M57.021,M113.048,M71.037,M113.048,0=4,"
+"Loaded_Frequencies=M114.079=1,M114.043,M114.079,M128.058,M114.079,M114.043,M114.079,0=4,"
+"Loaded_Frequencies=M85.053=1,M99.068,M113.084,M85.053,M113.084,M99.068,M85.053,0=4,"
+"Loaded_Frequencies=M150.954=1,M113.048,M150.954,M113.048,M150.954,M113.048,M150.954,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.048,M97.053,M113.048,M97.053,M113.048,M97.053,M113.048,M97.053,M113.048,M97.053,M113.048,M97.053,M113.048,M97.053,M113.048,M97.053,M113.048,M97.053,M113.048,0=4,"
+"Loaded_Frequencies=M237.148=1,M156.101,M237.148,M128.095,M237.148,M156.101,M237.148,0=4,"
+"Loaded_Frequencies=M86.048=1,M129.043,M86.048,M115.027,M86.048,M129.043,M86.048,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,0=4,"
+"Loaded_Frequencies=M200.095=1,M150.954,M237.148,M86.048,M114.079,M200.095,M150.954,0=4,"
+"[/Preset]"

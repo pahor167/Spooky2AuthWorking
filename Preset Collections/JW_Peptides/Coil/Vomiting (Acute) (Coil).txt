@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Vomiting (Acute) (Coil)"
+"Preset_Notes=Vomiting (Acute) for Coil
+
+Acute vomiting is the sudden, forceful expulsion of stomach contents through the mouth, typically caused by factors such as infections, motion sickness, medications, or obstructions. It involves complex central and peripheral mechanisms, including neurotransmitter release in the brainstem, gastrointestinal tract, and vestibular system. 
+
+The polypeptides target multiple therapeutic axes, including serotonergic, dopaminergic, histaminergic, muscarinic, neurokinin, cannabinoid, ghrelin, motilin, somatostatin, endocrine, inflammation, gastric dysrhythmia, vestibular, opioid, eicosanoid, neuropeptide Y, GDF15, TRPV1, and calcium signaling pathways to comprehensively address the condition. Real-world polypeptides are prioritized based on verifiable sources from PubMed and clinical studies; designed polypeptides (flagged) are conceptual fallbacks for axes with limited real-world options to ensure full coverage. Shortfall documented: Only 8 real-world polypeptides found after extensive searches (queries listed in CoT), so supplemented with 4 designed to meet total >=12.
+
+"
+"Loaded_Programs=Vomiting (Acute) p01"
+"Loaded_Programs=Vomiting (Acute) p02"
+"Loaded_Programs=Vomiting (Acute) p03"
+"Loaded_Programs=Vomiting (Acute) p04"
+"Loaded_Programs=Vomiting (Acute) p05"
+"Loaded_Programs=Vomiting (Acute) p06"
+"Loaded_Programs=Vomiting (Acute) p07"
+"Loaded_Programs=Vomiting (Acute) p08"
+"Loaded_Programs=Vomiting (Acute) p09"
+"Loaded_Programs=Vomiting (Acute) p10"
+"Loaded_Programs=Vomiting (Acute) p11"
+"Loaded_Programs=Vomiting (Acute) p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M103.009,M147.068,M186.079,M128.095,M101.048,M103.009,M101.048,0=4,"
+"Loaded_Frequencies=M185.084=1,M103.009,M163.063,M186.079,M128.095,M99.068,M103.009,M101.048,0=4,"
+"Loaded_Frequencies=M147.068=1,M103.009,M163.063,M186.079,M128.095,M99.068,M103.009,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M87.032,M147.068,M113.084,M87.032,M97.053,M129.043,M137.059,M128.095,M156.101,M99.068,M128.095,M128.095,M97.053,M97.053,M71.037,M128.095,M113.084,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M129.043,M57.021,M101.048,M147.068,M113.084,M87.032,M115.027,M163.063,M87.032,M87.032,M113.084,M71.037,M113.084,M71.037,M128.095,M57.021,M128.095,M128.095,M114.043,M115.027,M99.068,M114.043,M186.079,M113.084,M113.084,M71.037,M128.095,M57.021,M128.095,M128.095,M114.043,M115.027,M186.079,M128.095,M137.059,M114.043,M113.084,M101.048,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M97.053,M113.084,M147.068,M101.048,M163.063,M57.021,M129.043,M113.084,M128.095,M128.095,M156.101,M114.043,M128.095,M57.021,M128.095,M57.021,M128.095,M128.095,M57.021,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M114.079,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M85.053=1,M113.084,M200.095,M150.954,M237.148,0=4,"
+"Loaded_Frequencies=M100.064=1,M99.068,M113.048,M114.079,M86.048,0=4,"
+"[/Preset]"

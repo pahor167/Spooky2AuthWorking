@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Piracetam (Nootropics) (R) - JRG"
+"Loaded_Programs=Piracetam (CUST)"
+"Loaded_Frequencies=M142.07423,"
+"Preset_Notes=Piracetam was developed by Romanian chemist, and the godfather of nootropics, Dr. Corneliu E. Giurgea in 1964. This is the first racetam ever developed.|Piracetam is a cyclic derivative of GABA but does not affect the GABA receptors in your brain.|Instead, Piracetam seems to influence the AMPA and NMDA receptors. This affects learning and memory processes in the brain.|Piracetam also affects the neurotransmitter acetylcholine by boosting ACh receptors into accepting or being more sensitive to acetylcholine.|As a nootropic, Piracetam boosts focus, learning, and memory. Piracetam also acts as a neuroprotectant.|Dosing of Piracetam ranges from 1 - 4.8 grams per day. Dosed throughout the day. If it's your first time using Piracetam start at the lower end of the range and work your up. If you're stacking with other racetams you'll likely use smaller quantities of Piracetam.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

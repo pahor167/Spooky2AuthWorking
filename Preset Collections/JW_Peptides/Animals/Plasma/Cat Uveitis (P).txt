@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Cat Uveitis (P)"
+"Preset_Notes=Cat Uveitis for Plasma
+
+Feline uveitis is a frequent and painful intraocular inflammation in cats, commonly secondary to infectious agents (e.g., FIP, toxoplasmosis, bartonella), immune-mediated processes, trauma, or idiopathic causes, with risks of vision-threatening complications including glaucoma, synechiae, retinal detachment, and fibrosis. The proposed polypeptides target evidence-based therapeutic axes derived from preclinical ocular injury/inflammation models, veterinary healing applications, and uveitis studies to mitigate inflammation, enhance repair, combat potential infection, and prevent structural complications.
+
+1. Stable gastric pentadecapeptide cytoprotection and ocular healing: BPC-157 counteracts diverse eye injuries and promotes tissue integrity in preclinical models.
+2. Thymosin {beta}4 fragment actin-mediated repair and anti-inflammation: TB-500 accelerates wound healing and reduces ocular inflammation.
+3. {alpha}-MSH-derived tripeptide immunomodulation: KPV suppresses severity in experimental uveitis models.
+4. Cathelicidin antimicrobial and ocular surface defense: LL-37 supports innate immunity and protection against ocular infections relevant to feline uveitis.
+5. Vasoactive intestinal peptide uveitis prevention: VIP inhibits experimental autoimmune uveoretinitis progression.
+6. EPO-derived innate repair activation: ARA-290 promotes tissue protection and reduces inflammation in injury models.
+7. Copper-binding tripeptide antioxidant remodeling: GHK-Cu aids ECM repair and counters oxidative damage in inflamed tissues.
+8. Engineered collagen-mimetic stabilization (novel optimization): Ac-(GPP)8-NH2 intercalates to reinforce uveal extracellular matrix and prevent fibrotic adhesions in chronic cases.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Cat Uveitis p01"
+"Loaded_Programs=Cat Uveitis p02"
+"Loaded_Programs=Cat Uveitis p03"
+"Loaded_Programs=Cat Uveitis p04"
+"Loaded_Programs=Cat Uveitis p05"
+"Loaded_Programs=Cat Uveitis p06"
+"Loaded_Programs=Cat Uveitis p07"
+"Loaded_Programs=Cat Uveitis p08"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.059,M156.101,M113.084,M128.095,M97.053,M156.101,M113.084,M99.068,M101.048,M129.043,M87.032,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.059,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M111.032=1,M128.059,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,0=4,"
+"[/Preset]"

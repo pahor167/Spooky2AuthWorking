@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Mumps (Coil)"
+"Preset_Notes=Mumps for Coil
+
+Mumps is an acute viral infection caused by the mumps virus (a paramyxovirus), characterized by painful swelling of the parotid glands (parotitis), fever, and headache, with risks of complications including orchitis, meningitis, oophoritis, pancreatitis, and encephalitis.
+
+1. Viral fusion inhibition: Paramyxovirus fusion inhibitory peptide - Derived from conserved heptad repeat region of paramyxovirus F protein, prevents six-helix bundle formation required for viral membrane fusion.
+2. Immune stimulation: Thymosin alpha-1 - Promotes T-cell maturation, dendritic cell function, and cytokine production to enhance antiviral immunity.
+3. Neuroprotection: Semax - ACTH(4-10) analog improving BDNF expression and neuronal survival against potential mumps meningitis/encephalitis.
+4. Anti-inflammatory and immunomodulatory: Selank - Tuftsin derivative reducing anxiety, inflammation, and supporting immune balance during infection.
+5. Antioxidant and anti-inflammatory: Carnosine - Dipeptide buffering reactive species and inhibiting glycation to mitigate tissue inflammation.
+6. Envelope disruption: Poly-Arg6 - Designed poly-arginine hexapeptide (amidated) with high cationic charge for electrostatic disruption of viral envelope.
+
+"
+"Loaded_Programs=Mumps p01"
+"Loaded_Programs=Mumps p02"
+"Loaded_Programs=Mumps p03"
+"Loaded_Programs=Mumps p04"
+"Loaded_Programs=Mumps p05"
+"Loaded_Programs=Mumps p06"
+"Loaded_Frequencies=M71.037=1,M113.084,M115.027,M128.095,M113.084,M129.043,M129.043,M87.032,M114.043,M87.032,M128.095,M113.084,M115.027,M128.095,M99.068,M114.043,M99.068,M128.095,M113.084,M101.048,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M155.117,0=4,"
+"[/Preset]"

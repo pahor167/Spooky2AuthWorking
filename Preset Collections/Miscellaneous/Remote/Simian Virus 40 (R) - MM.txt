@@ -1,0 +1,70 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Simian Virus 40 (R) - MM"
+"BFB_Start_Frequency=20000"
+"BFB_Finish_Frequency=18000000"
+"BFB_Single_Scan=1"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_Hz_Selected=False"
+"BFB_Initial_Step_Size_%=.125"
+"BFB_Initial_Step_Size_%_Selected=True"
+"BFB_Start_Delay=100"
+"BFB_Samples_Per_Step=1"
+"BFB_Threshold=.4"
+"BFB_Reverse_Lookup_Tolerance=.25"
+"BFB_Include_x_Hz_In_Search=0"
+"BFB_Calculate_Using_RA=True"
+"BFB_Calculate_Using_Peak=False"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"BFB_Max_HRV=20"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Amplitude=10"
+"Out2_Amplitude=10"
+"Out2_Hz_Factor=.125"
+"Out2_Hz_Constant=1"
+"Out1_Fixed_Frequency=0"
+"Preset_Notes=Simian Virus 40 Remote preset. By Manuel Mallo
+
+This preset is for a deadly creature, the Simian Virus 40. I have processed the 35 known strains of its DNA to create a one and a half hour program.
+
+This pathogen is involved in several types of cancer, as breast cancer, osteosarcomas, brain tumors, etc.
+
+https://www.ncbi.nlm.nih.gov/pubmed/9776222
+https://www.ncbi.nlm.nih.gov/pubmed/25877010
+https://www.ncbi.nlm.nih.gov/pubmed/25377935
+https://www.ncbi.nlm.nih.gov/pubmed/25244358
+https://www.ncbi.nlm.nih.gov/pubmed/23549184
+https://www.ncbi.nlm.nih.gov/pubmed/19505648
+
+Sadly, the discovery of SV40 revealed that between 1955 and 1963 around 90% of children and 60% of adults in USA were inoculated with SV40-contaminated polio vaccines.
+
+Ideally, the plasma preset could be used once a day. Same thing with the contact mode one. The remote mode one could be run 24/7.
+
+Contact and remote modes uses the boost device to combine the outputs to generate two harmonics that serve to target the high frequency of the MOR when combined.
+
+Carefully write down the frequencies that cause discomfort or herxs, to be prepared to insist on them, if necessary.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+Connect your Spooky Remote-BN or Spooky Remote v2.0 to the 'BN' port of Spooky Boost."
+"Settings_Frequency_Wobble_Steps=120"
+"User_Defined_1_WCM=3"
+"User_Defined_2_WCM=3"
+"Triangle_Spike_Ratio=2"
+"F1_Factor=11"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=MM_ModSquareDC17"
+"User_Defined_2_Waveform=MM_ModSquareDC17"
+"Out1_Fixed_Frequency=False"
+"Out2_User_Defined_2=True"
+"InverseWave=False"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Enable_Invert_User_Defined_2=1"
+"Loaded_Programs=MM_Simian Virus 40 (CUST)"
+"Loaded_Frequencies=9478035.2-9438440.2=5400,"
+"[/Preset]"

@@ -1,0 +1,45 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Amputee Structural Help, Cell & Nerve Regrowth (L)"
+"Preset_Notes=Amputee Structural Help, Cell & Nerve Regrowth for Laser
+
+Amputee Structural Help, Cell & Nerve Regrowth represents a complex regenerative challenge requiring coordinated bone formation, neural regeneration, soft tissue reconstruction, and infection control. The following therapeutic axes have been targeted with specific bioactive peptides to create a comprehensive regenerative environment:
+
+1. Stem Cell Recruitment: CTC peptide - Recruits perivascular stem cells to amputation site via cryptic collagen III motif, inducing bone nodule formation
+2. Neurogenesis: NGF(1-14) - TrkA receptor agonist mimicking NGF N-terminus, promotes neurite outgrowth and neuronal survival without p75-mediated side effects
+3. Osteogenesis: P-15 - Collagen I-derived {alpha}2{beta}1 integrin binding domain that enhances MSC adhesion and osteogenic differentiation
+4. Bone Remodeling: GFOGER - Triple-helical collagen mimetic binding {alpha}2{beta}1/{alpha}1{beta}1 integrins to promote osteoblastic differentiation and osseointegration
+5. Axon Guidance: IKVAV - Laminin-derived neurite outgrowth motif promoting Schwann cell migration and neural regeneration
+6. ECM Synthesis: YIGSR - Laminin-derived peptide enhancing collagen type I synthesis and fibroblast adhesion
+7. Angiogenesis/Osteogenesis: SVVYGLR - Osteopontin-derived motif promoting osteoprogenitor proliferation while suppressing osteoclastogenesis and enhancing angiogenesis
+8. Cell Adhesion: RGD - Universal integrin-binding motif from fibronectin facilitating cell attachment and spreading on biomaterial scaffolds
+9. Antimicrobial Protection: hBD-3 - Human beta-defensin 3 providing broad-spectrum antimicrobial activity against wound infection while promoting bone regeneration
+10. Wound Healing: LL-37 - Multifunctional antimicrobial peptide enhancing wound closure, creating pro-regenerative microenvironment, and supporting bone healing
+11. Structural Integration: ONP-1 - Designed chimeric peptide combining IKVAV nerve guidance, RGD adhesion, and poly-Lys cell penetration for scaffold integration
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Amputee Structural Help, Cell & Nerve Regrowth p01"
+"Loaded_Programs=Amputee Structural Help, Cell & Nerve Regrowth p02"
+"Loaded_Programs=Amputee Structural Help, Cell & Nerve Regrowth p03"
+"Loaded_Programs=Amputee Structural Help, Cell & Nerve Regrowth p04"
+"Loaded_Programs=Amputee Structural Help, Cell & Nerve Regrowth p05"
+"Loaded_Programs=Amputee Structural Help, Cell & Nerve Regrowth p06"
+"Loaded_Programs=Amputee Structural Help, Cell & Nerve Regrowth p07"
+"Loaded_Programs=Amputee Structural Help, Cell & Nerve Regrowth p08"
+"Loaded_Programs=Amputee Structural Help, Cell & Nerve Regrowth p09"
+"Loaded_Programs=Amputee Structural Help, Cell & Nerve Regrowth p10"
+"Loaded_Programs=Amputee Structural Help, Cell & Nerve Regrowth p11"
+"Loaded_Frequencies=M113.084=1,M71.037,M57.021,M99.068,M57.021,M57.021,M129.043,M128.095,M87.032,M57.021,M57.021,M147.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M87.032,M137.059,M97.053,M113.084,M147.068,M137.059,M156.101,M57.021,M129.043,M87.032,M147.068,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M113.048,M57.021,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M99.068,M71.037,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M99.068,M163.063,M57.021,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M113.084,M128.095,M99.068,M71.037,M99.068,M156.101,M57.021,M115.027,M103.009,0=4,"
+"[/Preset]"

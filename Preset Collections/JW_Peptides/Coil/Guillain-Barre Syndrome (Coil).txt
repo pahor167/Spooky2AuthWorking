@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Guillain-Barre Syndrome (Coil)"
+"Preset_Notes=Guillain-Barre Syndrome for Coil
+
+Guillain-Barré syndrome (GBS) is an acute, immune-mediated polyneuropathy characterized by muscle weakness, sensory disturbances, and in severe cases, paralysis, resulting from autoimmune attack on peripheral nerves often triggered by infections. 
+
+The designed polypeptides address various therapeutic axes including autoantibody neutralization, complement inhibition, T-cell and B-cell modulation, macrophage and inflammasome inhibition, cytokine regulation, Treg enhancement, blood-nerve barrier protection, and mTOR modulation to mitigate immune dysregulation and nerve damage. All polypeptides are designed due to lack of suitable real-world polypeptides meeting the criteria.
+
+"
+"Loaded_Programs=Guillain-Barre Syndrome p01"
+"Loaded_Programs=Guillain-Barre Syndrome p02"
+"Loaded_Programs=Guillain-Barre Syndrome p03"
+"Loaded_Programs=Guillain-Barre Syndrome p04"
+"Loaded_Programs=Guillain-Barre Syndrome p05"
+"Loaded_Programs=Guillain-Barre Syndrome p06"
+"Loaded_Programs=Guillain-Barre Syndrome p07"
+"Loaded_Programs=Guillain-Barre Syndrome p08"
+"Loaded_Programs=Guillain-Barre Syndrome p09"
+"Loaded_Programs=Guillain-Barre Syndrome p10"
+"Loaded_Programs=Guillain-Barre Syndrome p11"
+"Loaded_Programs=Guillain-Barre Syndrome p12"
+"Loaded_Frequencies=M113.084=1,M102.001,M113.084,M113.048,M115.027,M200.095,M57.021,M137.059,M156.101,M102.001,M101.048,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M100.064,M87.032,M128.095,M156.101,M97.053,0=4,"
+"Loaded_Frequencies=M150.954=1,M237.148,M85.053,M163.063,M87.032,M101.048,M128.095,0=4,"
+"Loaded_Frequencies=M800.686=1,M86.048,M113.084,M131.040,M128.095,M113.084,M86.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M86.048,M200.095,M114.079,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M101.048,M100.064,M150.954,M237.148,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M115.027,M86.048,M113.084,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M137.059,M170.142,M113.048,M86.048,M114.079,M200.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M163.063,M87.032,M101.048,M100.064,M86.048,M85.053,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M156.101,M128.058,M150.954,M237.148,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M137.059,M156.101,M758.675,M86.048,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.095,M113.084,M131.040,M114.079,M100.064,M86.048,0=4,"
+"[/Preset]"

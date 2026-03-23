@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Hidradenitis Suppurativa (L)"
+"Preset_Notes=Hidradenitis Suppurativa for Laser
+
+Integrated therapeutic landscape for 2026 addressing the follicular occlusion, autoinflammatory cytokine cascade, and bacterial colonization characteristic of moderate-to-severe Hidradenitis Suppurativa (HS). 1. TNF-alpha Inhibition: Adalimumab-Signature - A high-precision fragment of the first FDA-approved biologic for HS to dampen systemic and localized inflammation. 2. Complement Pathway: Vilobelimab-Fragment - Targeted C5a inhibition to prevent neutrophil-driven tissue damage and abscess formation. 3. Th17 Modulation: Bimekizumab-Mimetic - Dual IL-17A and IL-17F binding to reduce draining tunnels and improve HiSCR50 response rates. 4. Metabolic-Immune Bridge: Semaglutide-HS - GLP-1 receptor agonism to reduce BMI-related friction while providing direct anti-inflammatory signaling. 5. Plant Defense: Defensin-P1 - A plant-derived antimicrobial peptide (AMP) designed for topical stabilization to bypass traditional antibiotic resistance. 6. Designed Multi-Target: HS-Eraser 26 - Bio-engineered chimera combining an IL-1beta trap with a follicular-penetrating peptide for rapid nodule resolution.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Hidradenitis Suppurativa p01"
+"Loaded_Programs=Hidradenitis Suppurativa p02"
+"Loaded_Programs=Hidradenitis Suppurativa p03"
+"Loaded_Programs=Hidradenitis Suppurativa p04"
+"Loaded_Programs=Hidradenitis Suppurativa p05"
+"Loaded_Programs=Hidradenitis Suppurativa p06"
+"Loaded_Frequencies=M71.037=1,M97.053,M163.063,M101.048,M147.068,M57.021,M128.058,M57.021,M101.048,M128.095,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M113.084,M156.101,M113.084,M114.043,M163.063,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M163.063,M128.095,M87.032,M115.027,M103.009,M156.101,M113.084,M97.053,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M71.037=1,M156.101,M163.063,M128.095,M87.032,M115.027,M114.043,M103.009,M128.095,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M113.084,M163.063,M128.095,M87.032,M115.027,M103.009,M156.101,M155.093,0=4,"
+"[/Preset]"

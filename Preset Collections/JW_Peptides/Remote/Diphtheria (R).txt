@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Diphtheria (R)"
+"Preset_Notes=Diphtheria for Remote
+
+Diphtheria is an acute bacterial infection caused by toxigenic strains of Corynebacterium diphtheriae, with the primary virulence factor being diphtheria toxin (DT), which inhibits protein synthesis in host cells. Standard treatment involves toxin neutralization with antitoxin and antibiotics to eradicate the bacteria. The proposed polypeptides target multiple therapeutic axes derived from the toxin's mechanism (receptor binding, translocation, and catalytic activity) and bacterial clearance:
+
+1. Direct inhibition of diphtheria toxin cytotoxicity: Diphtheria Toxin Inhibitory Polypeptide (DTIP-50) (real-world, derived from human hemofiltrate peptide with documented DT-inhibitory activity via direct interaction).
+
+2. Prevention of toxin-receptor interaction: HB-EGF Mimetic Neutralizer (designed cationic peptide mimicking receptor elements to competitively block DT binding to HB-EGF precursor).
+
+3. Inhibition of toxin translocation: Clustered Cationic Inhibitor (designed peptide using charge clustering to interfere with pH-dependent membrane insertion and translocation of the T-domain).
+
+4. Inhibition of ADP-ribosyltransferase activity: NAD-Mimetic Peptide (designed to target the catalytic A-domain by substrate mimicry, blocking NAD-dependent EF-2 modification).
+
+5. Antimicrobial activity against Corynebacterium diphtheriae: Pexiganan-Like AMP (designed broad-spectrum cationic peptide inspired by pexiganan for direct membrane disruption of gram-positive bacteria).
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Diphtheria p01"
+"Loaded_Programs=Diphtheria p02"
+"Loaded_Programs=Diphtheria p03"
+"Loaded_Programs=Diphtheria p04"
+"Loaded_Programs=Diphtheria p05"
+"Loaded_Frequencies=M113.084=1,M87.032,M99.068,M99.068,M113.084,M114.043,M128.058,M113.084,M102.001,M99.068,M113.084,M137.059,M129.043,M128.095,M101.048,M97.053,M99.068,M87.032,M115.027,M156.101,M99.068,M101.048,M128.095,M102.001,M102.001,M101.048,M129.043,M87.032,M113.084,M99.068,M114.043,M156.101,M156.101,M97.053,M102.001,M147.068,M87.032,M71.037,M113.084,M129.043,M99.068,M115.027,M129.043,M101.048,M163.063,M99.068,M97.053,M128.095,M129.043,M147.068,0=4,"
+"Loaded_Frequencies=M114.043=1,M87.032,M115.027,M87.032,M129.043,M102.001,M97.053,M113.084,M87.032,M137.059,M115.027,M57.021,M163.063,M102.001,M113.084,M137.059,M115.027,M57.021,M99.068,M113.084,M102.001,M163.063,M113.084,M129.043,M71.037,M128.095,M163.063,M71.037,M102.001,M102.001,M99.068,M99.068,M57.021,M163.063,M113.084,M57.021,M129.043,M156.101,M102.001,M128.058,M163.063,M156.101,M115.027,M113.084,M128.095,M186.079,M186.079,M129.043,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M170.106=1,M128.095,M57.021,M57.021,M87.032,M87.032,M128.095,M128.095,M57.021,M57.021,M87.032,M87.032,M128.095,M128.095,M57.021,M57.021,M87.032,M87.032,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M156.054=1,M71.037,M115.027,M128.095,M156.101,M101.048,M137.059,M57.021,M57.021,M147.068,M57.021,M115.027,M97.053,M156.101,M163.063,M136.075,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"[/Preset]"

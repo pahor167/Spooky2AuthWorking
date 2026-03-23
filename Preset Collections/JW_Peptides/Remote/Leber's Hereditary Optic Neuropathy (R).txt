@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Leber’s Hereditary Optic Neuropathy (R)"
+"Preset_Notes=Leber’s Hereditary Optic Neuropathy for Remote
+
+Leber’s Hereditary Optic Neuropathy (LHON) is a maternally inherited mitochondrial disorder characterized by bilateral, painless, subacute central vision loss due to degeneration of retinal ganglion cells (RGCs) and their axons in the optic nerve. Primarily caused by point mutations in mitochondrial DNA (mtDNA) affecting complex I subunits, such as m.3460G>A (ND1), m.11778G>A (ND4), and m.14484T>C (ND6) in over 90% of cases, these mutations impair oxidative phosphorylation, leading to ATP deficiency, elevated reactive oxygen species (ROS), and apoptotic RGC death. The pathophysiology involves bioenergetic failure, mitochondrial fragmentation, impaired axonal transport, and secondary neuroinflammation, with selective vulnerability of small-caliber papillomacular bundle axons due to high energy demands and anatomical constraints at the lamina cribrosa. Symptoms typically onset in young adulthood (15-35 years), more frequently in males (4:1 ratio), with sequential or simultaneous bilateral involvement, progressing to profound central scotomas, dyschromatopsia, and visual acuity often worse than 20/200. Triggers include smoking, alcohol, or metabolic stress, exacerbating penetrance (50% in males, 10% in females). Chronic progression may include optic atrophy, peripheral neuropathy, or LHON-plus syndromes with dystonia or cardiac issues, leading to lifelong disability if untreated.
+
+The proposed polypeptides target LHON's core mechanisms. The real-world polypeptide elamipretide stabilizes cardiolipin to enhance complex I function and reduce ROS, feasible via mitochondrial penetration, acting through membrane interactions with considerations for bioavailability. For complex I restoration, the designed polypeptide mimics ND4 subunit to support electron transfer, based on allotopic precedents, via direct complex integration with stability enhancements. For oxidative stress mitigation, the designed polypeptide acts as a ROS scavenger, supported by antioxidant peptides, functioning through radical neutralization with lipophilicity. For gene therapy adjunct, the designed polypeptide facilitates mtDNA stability, feasible in nucleic acid-binding peptides, aiding vector delivery with nuclear targeting. For mitobiogenesis, the designed polypeptide activates PGC-1{alpha} pathways, via transcriptional modulation with proteolytic resistance. For neuroinflammation, the designed polypeptide inhibits cytokine release, using anti-inflammatory mimetics, through receptor antagonism with serum stability.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Leber’s Hereditary Optic Neuropathy p01"
+"Loaded_Programs=Leber’s Hereditary Optic Neuropathy p02"
+"Loaded_Programs=Leber’s Hereditary Optic Neuropathy p03"
+"Loaded_Programs=Leber’s Hereditary Optic Neuropathy p04"
+"Loaded_Programs=Leber’s Hereditary Optic Neuropathy p05"
+"Loaded_Programs=Leber’s Hereditary Optic Neuropathy p06"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M137.059,M128.095,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M103.009=1,M163.063,M156.101,M131.040,M137.059,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M57.021,M97.053,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.058,M97.053,M147.068,M101.048,0=4,"
+"Loaded_Frequencies=M163.063=1,M147.068,M87.032,M101.048,M156.101,0=4,"
+"[/Preset]"

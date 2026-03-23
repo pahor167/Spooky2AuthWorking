@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Acute Otitis Media (Coil)"
+"Preset_Notes=Acute Otitis Media for Coil
+
+Acute otitis media (AOM) is a common acute middle ear infection, predominantly bacterial in children, causing pain, effusion, inflammation, and potential complications, with elevated endogenous antimicrobial peptides (e.g., cathelicidins) and proinflammatory cytokines in middle ear fluid. Proposed polypeptides target evidence-based axes from otitis media studies, including direct antimicrobial action against otopathogens, cytokine suppression, immune modulation, mucosal cytoprotection, tissue repair, and regeneration to support resolution and reduce severity.
+
+1. Human cathelicidin antimicrobial and immunomodulatory defense: LL-37 combats key otopathogens and restores innate responses.
+2. Stable gastric pentadecapeptide cytoprotection: BPC-157 maintains endothelial/mucosal integrity and healing.
+3. Thymosin {beta}4 fragment actin regulation and repair: TB-500 promotes cell migration and anti-inflammation.
+4. {alpha}-MSH-derived tripeptide cytokine suppression: KPV potently mitigates inflammation.
+5. Thymosin {alpha}1 immune enhancement: Boosts adaptive immunity relevant to infection clearance.
+6. Copper-binding tripeptide regenerative support: GHK-Cu enhances remodeling and antioxidant activity.
+7. Engineered multimeric {alpha}-MSH analog optimization: TriKPV-9 Ac-KPVKPVKPV-NH2 amplifies anti-inflammatory effects via motif repetition for enhanced efficacy.
+
+"
+"Loaded_Programs=Acute Otitis Media p01"
+"Loaded_Programs=Acute Otitis Media p02"
+"Loaded_Programs=Acute Otitis Media p03"
+"Loaded_Programs=Acute Otitis Media p04"
+"Loaded_Programs=Acute Otitis Media p05"
+"Loaded_Programs=Acute Otitis Media p06"
+"Loaded_Programs=Acute Otitis Media p07"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M170.106=1,M97.053,M99.068,M128.095,M97.053,M99.068,M128.095,M97.053,M98.084,0=4,"
+"[/Preset]"

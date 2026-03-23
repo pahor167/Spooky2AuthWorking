@@ -1,0 +1,50 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Acid Reflux (Gastroesophageal Reflux Disease) (P)"
+"Preset_Notes=Acid Reflux (Gastroesophageal Reflux Disease) for Plasma
+
+Gastroesophageal reflux disease (GERD) involves chronic regurgitation of gastric contents into the esophagus, leading to mucosal damage, inflammation, barrier dysfunction, and symptoms such as heartburn and epigastric pain. The proposed polypeptides target key mechanisms identified in literature, including inflammation, mucosal integrity, motility, and acid exposure.
+
+1. Inflammatory and pain modulation: Bombesin - Attenuates oxidative stress, inflammatory markers, and epigastric pain in GERD models.
+2. Mucosal trophic protection: GLP-2 - Provides trophic support and anti-inflammatory effects to repair damaged esophageal epithelium.
+3. Innate antimicrobial defense: Human Beta-Defensin 2 - Strengthens epithelial barrier function diminished in GERD.
+4. Inflammation resolution: Annexin_A1_Ac2-26 - Promotes pro-resolving pathways to reduce persistent mucosal inflammation.
+5. Neuroinflammatory reduction: ARA-290 - Reduces tissue hypersensitivity and inflammatory pain signals.
+6. Gastric prokinetic activity: GHRP-6 - Enhances gastric emptying via ghrelin receptor agonism to decrease reflux risk.
+7. Acid secretion control: Secretin - Inhibits gastrin release and supports bicarbonate-mediated neutralization.
+8. Cytokine suppression: KPV - Potent short peptide inhibition of inflammatory cytokines in mucosa.
+9. Cathelicidin protection: LL-37 - Broad-spectrum antimicrobial action to prevent barrier-compromising infections.
+10. Postprandial regulation: Pramlintide - Modulates gastric emptying and secretion to limit acid exposure.
+11. Sphincter and healing support: BPC-157 - Increases lower esophageal sphincter pressure and accelerates esophagitis healing.
+12. Barrier reinforcement: EsoBarrier-1 - Designed amphipathic cationic helical peptide for enhanced antimicrobial and structural barrier stabilization.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Acid Reflux (Gastroesophageal Reflux Disease) p01"
+"Loaded_Programs=Acid Reflux (Gastroesophageal Reflux Disease) p02"
+"Loaded_Programs=Acid Reflux (Gastroesophageal Reflux Disease) p03"
+"Loaded_Programs=Acid Reflux (Gastroesophageal Reflux Disease) p04"
+"Loaded_Programs=Acid Reflux (Gastroesophageal Reflux Disease) p05"
+"Loaded_Programs=Acid Reflux (Gastroesophageal Reflux Disease) p06"
+"Loaded_Programs=Acid Reflux (Gastroesophageal Reflux Disease) p07"
+"Loaded_Programs=Acid Reflux (Gastroesophageal Reflux Disease) p08"
+"Loaded_Programs=Acid Reflux (Gastroesophageal Reflux Disease) p09"
+"Loaded_Programs=Acid Reflux (Gastroesophageal Reflux Disease) p10"
+"Loaded_Programs=Acid Reflux (Gastroesophageal Reflux Disease) p11"
+"Loaded_Programs=Acid Reflux (Gastroesophageal Reflux Disease) p12"
+"Loaded_Frequencies=M111.032=1,M128.095,M156.101,M113.084,M57.021,M114.043,M128.095,M186.079,M71.037,M99.068,M57.021,M156.101,M113.084,M149.051,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M128.095,M113.084,M101.048,M115.027,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M102.001,M137.059,M97.053,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M102.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M102.001,M102.001,M128.095,M128.095,M96.069,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M186.079,M71.037,M186.079,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M87.032,M101.048,M163.063,M87.032,M113.084,M128.095,M113.084,M128.095,M115.027,M87.032,M87.032,M71.037,M128.095,M113.084,M113.084,M128.095,M113.084,M113.084,M128.095,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M102.001,M114.043,M101.048,M71.037,M101.048,M102.001,M71.037,M101.048,M128.058,M156.101,M113.084,M71.037,M114.043,M147.068,M113.084,M99.068,M137.059,M87.032,M87.032,M114.043,M97.053,M97.053,M97.053,M101.048,M163.063,M113.084,M97.053,M87.032,M101.048,M163.063,M114.043,M99.068,M57.021,M101.048,M162.079,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,0=4,"
+"[/Preset]"

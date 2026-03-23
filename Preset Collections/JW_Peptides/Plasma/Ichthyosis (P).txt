@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Ichthyosis (P)"
+"Preset_Notes=Ichthyosis for Plasma
+
+Ichthyosis is a heterogeneous group of genetic skin disorders characterized by abnormal scaling and dryness of the skin, often resembling fish scales, hence the name derived from the Greek word 'ichthys' for fish. It encompasses over 20 subtypes, including ichthyosis vulgaris, X-linked ichthyosis, lamellar ichthyosis, epidermolytic ichthyosis, and Netherton syndrome, each with varying severity and associated features. Causes are predominantly genetic, involving mutations in genes critical for epidermal development and maintenance, such as FLG (filaggrin) in ichthyosis vulgaris leading to defective keratin filament aggregation, STS (steroid sulfatase) in X-linked ichthyosis causing cholesterol sulfate accumulation, TGM1 (transglutaminase 1) in autosomal recessive congenital ichthyosis impairing cornified envelope formation, ABCA12 in harlequin ichthyosis disrupting lipid transport, and SPINK5 in Netherton syndrome resulting in LEKTI deficiency and protease hyperactivity. Environmental factors like low humidity can exacerbate symptoms, but the primary etiology is hereditary, with autosomal dominant, recessive, or X-linked inheritance patterns. Symptoms typically manifest at birth or in early childhood and include widespread dry, rough skin with thick scales, pruritus (itching), erythema (redness), fissuring that can lead to pain and infection risk, ectropion (eyelid eversion) in severe cases, restricted joint movement due to taut skin, and secondary complications like overheating from impaired sweat glands or bacterial/fungal infections from barrier defects. Pathophysiology centers on disrupted epidermal homeostasis: defective keratinocyte differentiation and cornification lead to hyperkeratosis and impaired desquamation; compromised skin barrier function causes transepidermal water loss, dehydration, and vulnerability to allergens/pathogens; dysregulated protease activity degrades cell junctions; inflammatory cascades involving TH17 cells, IL-17, IL-36, and IL-1 alpha amplify redness and scaling; altered lipid composition in the stratum corneum hinders waterproofing; microbiome dysbiosis promotes infections; gut-skin axis interactions may contribute via systemic inflammation; and enzyme deficiencies perpetuate the cycle of abnormal skin renewal.
+
+The proposed polypeptides are all designed, as verifiable real-world polypeptides meeting criteria were sparse despite exhaustive searches. These conceptual designs address key therapeutic axes with scientific rationale grounded in ichthyosis pathophysiology, feasibility assessed via peptide properties like size (8-30 residues for topical penetration), stability (no excessive repeats, diverse sequences), and modes of action inspired by natural proteins but optimized. Physicochemical considerations include hydrophilicity/hydrophobicity balance for solubility in emollients, neutral to positive charge for membrane interaction, and low immunogenicity potential. For epidermal barrier restoration, Designed 1 (D1-barrier) mimics filaggrin motifs to aggregate keratin, feasible topically with action via filament binding, enhancing cohesion and reducing water loss; Designed 2 (D2-barrier) promotes corneocyte envelope formation akin to TGM1 substrates, feasible with cross-linking potential, improving mechanical strength. For inflammation modulation, Designed 3 (D3-inflam) blocks IL-17 receptor binding to dampen TH17 skewing, feasible as competitive inhibitor with cytokine-mimetic structure, alleviating erythema; Designed 4 (D4-inflam) sequesters IL-1 alpha, feasible with high-affinity residues, reducing proinflammatory signals. For hyperkeratosis regulation, Designed 5 (D5-hyper) stimulates normal keratin turnover by protease modulation, feasible with enzyme-activating sequence, preventing scale buildup; Designed 6 (D6-hyper) enhances desquamation via cell adhesion disruption, feasible with mild keratolytic properties. For protease inhibition, Designed 7 (D7-protease) emulates LEKTI Kazal motifs to inhibit kallikreins, feasible with consensus inhibitory loops, stabilizing barrier; Designed 8 (D8-protease) targets excessive serine proteases, feasible with substrate-like trapping. For lipid metabolism, Designed 9 (D9-lipid) activates lipid synthesis pathways mimicking growth factors, feasible with signaling residues, restoring ceramide levels. For skin microbiome modulation, Designed 10 (D10-micro) acts as cationic antimicrobial peptide disrupting bacterial membranes, feasible with amphipathic design, preventing infections. For gut-skin axis, Designed 11 (D11-gut) reduces gut permeability via anti-inflammatory action, feasible orally or systemically, indirectly benefiting skin. For genetic enzyme correction, Designed 12 (D12-genetic) supplements deficient enzyme activity with mimicry, feasible with catalytic motifs, addressing root causes like TGM1 loss.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Ichthyosis p01"
+"Loaded_Programs=Ichthyosis p02"
+"Loaded_Programs=Ichthyosis p03"
+"Loaded_Programs=Ichthyosis p04"
+"Loaded_Programs=Ichthyosis p05"
+"Loaded_Programs=Ichthyosis p06"
+"Loaded_Programs=Ichthyosis p07"
+"Loaded_Programs=Ichthyosis p08"
+"Loaded_Programs=Ichthyosis p09"
+"Loaded_Programs=Ichthyosis p10"
+"Loaded_Programs=Ichthyosis p11"
+"Loaded_Programs=Ichthyosis p12"
+"Loaded_Frequencies=M57.021=1,M128.095,M97.053,M113.084,M97.053,M114.043,M97.053,M113.084,M113.084,M57.021,M113.084,M115.027,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.058,M97.053,M128.058,M128.058,M97.053,M147.068,M113.084,M186.079,M156.101,M115.027,M137.059,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M97.053,M87.032,M87.032,M87.032,M57.021,M101.048,M128.058,M137.059,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M147.068,M97.053,M115.027,M156.101,M128.095,M87.032,M97.053,0=4,"
+"Loaded_Frequencies=M99.068=1,M101.048,M99.068,M101.048,M97.053,M115.027,M163.063,M87.032,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M113.084,M128.058,M156.101,M129.043,M97.053,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M103.009=1,M128.095,M129.043,M115.027,M129.043,M163.063,M97.053,M99.068,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M103.009,M101.048,M57.021,M114.043,M156.101,M57.021,M137.059,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M87.032,M97.053,M156.101,M103.009,M163.063,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M137.059,M137.059,M97.053,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M113.084,M97.053,M128.058,M128.058,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M186.079=1,M101.048,M156.101,M114.043,M147.068,M57.021,M71.037,M131.040,0=4,"
+"[/Preset]"

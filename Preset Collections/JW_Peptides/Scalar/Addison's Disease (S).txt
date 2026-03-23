@@ -1,0 +1,45 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Addison’s Disease (S)"
+"Preset_Notes=Addison’s Disease for Scalar
+
+Addison’s disease (primary adrenal insufficiency) is an autoimmune disorder involving destruction of the adrenal cortex, leading to cortisol and aldosterone deficiencies, chronic fatigue, hypotension, hyperpigmentation, electrolyte imbalances, and risk of adrenal crisis. Standard treatment relies on hormone replacement, but supportive polypeptides target complementary mechanisms including immune dysregulation, inflammation, tissue protection, vascular stability, and regeneration, based on evidence from autoimmune endocrinopathies and related models.
+
+1. Thymic peptide immune modulation: Thymosin {alpha}1 enhances T-regulatory function and balances immunity to potentially slow autoimmune adrenal destruction.
+2. {alpha}-MSH-derived tripeptide anti-inflammatory action: KPV suppresses pro-inflammatory cytokines central to autoimmune flares.
+3. EPO-derived fragment innate repair signaling: ARA-290 activates anti-inflammatory and protective pathways without hematopoietic effects.
+4. Stable gastric pentadecapeptide cytoprotection: BPC-157 promotes endothelial stability and organ healing relevant to adrenal stress.
+5. Vasoactive intestinal peptide neuroimmune balance: VIP modulates inflammation and supports vascular tone in hypotension.
+6. Copper-binding tripeptide regenerative effects: GHK-Cu stimulates remodeling and antioxidant defenses against cellular damage.
+7. Poly-lysine enhanced melanocortin motif for optimized anti-inflammation: Ac-KKHFRWKPV-NH2 incorporates the core HFRW pharmacophore with lysine flanks for superior solubility, stability, and potency.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Addison’s Disease p01"
+"Loaded_Programs=Addison’s Disease p02"
+"Loaded_Programs=Addison’s Disease p03"
+"Loaded_Programs=Addison’s Disease p04"
+"Loaded_Programs=Addison’s Disease p05"
+"Loaded_Programs=Addison’s Disease p06"
+"Loaded_Programs=Addison’s Disease p07"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M137.059,M147.068,M156.101,M186.079,M128.095,M97.053,M99.068,0=4,"
+"[/Preset]"

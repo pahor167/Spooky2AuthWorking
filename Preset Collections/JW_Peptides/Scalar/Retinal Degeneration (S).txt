@@ -1,0 +1,60 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Retinal Degeneration (S)"
+"Preset_Notes=Retinal Degeneration for Scalar
+
+Retinal degeneration includes progressive disorders such as age-related macular degeneration (AMD), retinitis pigmentosa (RP), and related retinopathies characterized by photoreceptor loss, retinal pigment epithelium (RPE) dysfunction, oxidative stress, mitochondrial impairment, inflammation, apoptosis, and neovascularization in wet forms. Proposed polypeptides target validated pathways to preserve retinal structure and function.
+
+1. Mitochondrial cardiolipin stabilization: Elamipretide - Penetrates cells to restore mitochondrial function and reduce ROS in RPE/photoreceptors.
+2. Tissue-protective EPO signaling: ARA-290 - Activates innate repair receptor for neuroprotection without erythropoietic effects.
+3. Mitochondrial anti-apoptotic: Humanin - Circulating MDPs that inhibit Bax-mediated apoptosis in retinal models.
+4. Mitochondrial metabolic regulation: MOTS-c - Encoded in mtDNA, regulates AMPK and protects against metabolic stress in retina.
+5. PACAP receptor activation: PACAP-27 - Potent neurotrophic and anti-apoptotic effects in retinal degeneration models.
+6. VIP receptor modulation: VIP - Suppresses inflammation and supports ganglion cell/photoreceptor survival.
+7. Bioregulatory tripeptide: Pinealon - Synthetic peptide promoting retinal cell regeneration and protection.
+8. Integrin antagonism: RGD - Blocks {alpha}v{beta}3/{alpha}5{beta}1 integrins to inhibit pathological angiogenesis.
+9. Somatostatin receptor agonism: Somatostatin-14 - Inhibits growth factors and neovascularization in proliferative retinopathy.
+10. Inflammation resolution: Annexin_A1_Ac2-26 - Mimics N-terminal domain to resolve ocular/retinal inflammation.
+11. Anti-ischemic protection: Adrenomedullin - Enhances survival signaling and blood flow in hypoxic retina.
+12. Aromatic-cationic optimization: Retina-SS1 - Designed variant for enhanced mitochondrial ROS scavenging and retinal protection.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Retinal Degeneration p01"
+"Loaded_Programs=Retinal Degeneration p02"
+"Loaded_Programs=Retinal Degeneration p03"
+"Loaded_Programs=Retinal Degeneration p04"
+"Loaded_Programs=Retinal Degeneration p05"
+"Loaded_Programs=Retinal Degeneration p06"
+"Loaded_Programs=Retinal Degeneration p07"
+"Loaded_Programs=Retinal Degeneration p08"
+"Loaded_Programs=Retinal Degeneration p09"
+"Loaded_Programs=Retinal Degeneration p10"
+"Loaded_Programs=Retinal Degeneration p11"
+"Loaded_Programs=Retinal Degeneration p12"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M101.048,M128.095,M163.063,M128.095,M128.095,M128.095,M147.063,M71.037,M99.068,M128.095,M128.095,M163.063,M71.037,M71.037,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M156.101=1,M163.063,M128.095,M147.068,M99.068,M137.059,M97.053,0=4,"
+"[/Preset]"

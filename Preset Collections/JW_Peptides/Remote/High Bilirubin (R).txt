@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=High Bilirubin (R)"
+"Preset_Notes=High Bilirubin for Remote
+
+High Bilirubin, or hyperbilirubinemia, involves elevated serum bilirubin due to impaired hepatic processing, often from hepatocyte injury, fibrosis, oxidative stress, metabolic dysregulation, apoptosis, inflammation, or immune dysfunction. The proposed polypeptides target evidence-based axes from preclinical liver protection, regeneration, fibrosis, and mitochondrial studies to enhance liver function and bilirubin handling.
+
+1. Copper-binding tripeptide regeneration and toxin protection: GHK-Cu stimulates ECM remodeling and protects liver tissue.
+2. Gamma-linked tripeptide antioxidant support: Glutathione replenishes cellular redox balance critical for detoxification.
+3. Acetylated heptapeptide actin regulation and anti-fibrosis: TB-500 inhibits HSC activation and promotes repair.
+4. Gastric pentadecapeptide broad hepatoprotection: BPC-157 prevents necrosis and enhances regeneration in liver injury models.
+5. Mitochondrial hexadecapeptide metabolic improvement: MOTS-c activates AMPK to mitigate fatty liver and inflammation.
+6. Mitochondrial tetracosapeptide anti-apoptotic protection: Humanin inhibits hepatocyte apoptosis and supports stress resistance.
+7. Acetylated octacosapeptide immune enhancement: Thymosin_alpha_1 boosts antiviral responses and liver recovery in chronic disease.
+8. Engineered decapeptide hybrid optimization: Ac-GEPPPGKGHK-NH2 combines BPC-157 and GHK motifs for synergistic regenerative and protective effects.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=High Bilirubin p01"
+"Loaded_Programs=High Bilirubin p02"
+"Loaded_Programs=High Bilirubin p03"
+"Loaded_Programs=High Bilirubin p04"
+"Loaded_Programs=High Bilirubin p05"
+"Loaded_Programs=High Bilirubin p06"
+"Loaded_Programs=High Bilirubin p07"
+"Loaded_Programs=High Bilirubin p08"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M99.032=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M57.021,M137.059,M127.111,0=4,"
+"[/Preset]"

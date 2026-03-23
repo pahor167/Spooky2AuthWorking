@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Multiple Endocrine Neoplasia Type 2 (P)"
+"Preset_Notes=Multiple Endocrine Neoplasia Type 2 for Plasma
+
+Multiple Endocrine Neoplasia Type 2 (MEN2) is a rare autosomal dominant hereditary cancer syndrome caused by germline activating mutations in the RET proto-oncogene, leading to constitutive activation of the RET receptor tyrosine kinase and downstream pathways including MAPK/ERK, PI3K/AKT/mTOR, promoting uncontrolled cell proliferation, survival, angiogenesis, and tumorigenesis in neural crest-derived tissues. Subtypes include MEN2A (most common, with medullary thyroid carcinoma [MTC], pheochromocytoma, primary hyperparathyroidism), MEN2B (MTC, pheochromocytoma, mucosal neuromas, ganglioneuromatosis, marfanoid habitus), and familial MTC (MTC only). Symptoms include neck mass from MTC, hypertensive crises/paroxysms from pheochromocytoma catecholamine excess, hypercalcemia/stones from hyperparathyroidism, chronic diarrhea/flushing from tumor calcitonin secretion, and in MEN2B distinctive neuromas and skeletal abnormalities. Pathophysiology involves ligand-independent RET dimerization/activation driving oncogenic signaling, VEGF-mediated angiogenesis, altered tumor microenvironment with immune modulation, and hypersecretion of hormones/peptides causing systemic effects, with high penetrance for aggressive MTC and risk of metastasis.
+
+The proposed polypeptides address key therapeutic axes through conceptual designs optimized for potential interference and modulation. No real-world polypeptides with documented therapeutic use in MEN2 were identified across academic, clinical, patent, and database sources; all are designed (flagged as designed) with short lengths for stability, varied residue patterns for specificity, and physicochemical properties (charge, hydrophobicity, flexibility) to target extracellular/membrane processes feasibly via potential binding, disruption, or signaling mimicry.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Multiple Endocrine Neoplasia Type 2 p01"
+"Loaded_Programs=Multiple Endocrine Neoplasia Type 2 p02"
+"Loaded_Programs=Multiple Endocrine Neoplasia Type 2 p03"
+"Loaded_Programs=Multiple Endocrine Neoplasia Type 2 p04"
+"Loaded_Programs=Multiple Endocrine Neoplasia Type 2 p05"
+"Loaded_Programs=Multiple Endocrine Neoplasia Type 2 p06"
+"Loaded_Programs=Multiple Endocrine Neoplasia Type 2 p07"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M71.037,M113.084,M71.037,M113.084,M71.037,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M97.053=1,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M71.037,M128.095,M71.037,M128.095,M71.037,M128.095,0=4,"
+"[/Preset]"

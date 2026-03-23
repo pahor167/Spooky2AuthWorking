@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Honeysuckle (R)"
+"Preset_Notes=Honeysuckle / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Honeysuckle - Living in the past, homesickness.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Honeysuckle (R)"
+"Loaded_Frequencies=275.98,"
+"[/Preset]"

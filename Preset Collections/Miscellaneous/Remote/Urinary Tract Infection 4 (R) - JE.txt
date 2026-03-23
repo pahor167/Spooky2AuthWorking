@@ -1,0 +1,55 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Urinary Tract Infection 4 (R) - JE"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=100000"
+"BFB_Decimal_Places=2"
+"BFB_Max_Hits_To_Find=4"
+"BFB_Start_Delay=20"
+"BFB_Samples_Per_Step=6"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=Urinary Tract Infection Generator 4 by Jason Elliott
+
+This remote program can be used in conjunction with \Miscellaneous\Contact\Urinary Tract Infection (C) - JE. In addtion, 3 other generators run concurrently with this preset found in \Miscellaneous\Remote\ -- Urinary Tract Infection 1 (R) - JE, Urinary Tract Infection 2 (R) - JE, Urinary Tract Infection 3 (R) - JE.
+
+This preset contains the following:
+E Coli 1 (CAFL)
+E Coli 3 (XTRA)
+E Coli 4 (XTRA)
+E Coli Escherichia Coli (XTRA)
+E Coli Mutant Strain (CAFL)
+E Coli (BIO)
+E Coli (CAFL)
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator. DNA Entanglement transfers the frequencies directly to your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote-BN to the 'BN' port of Spooky Boost."
+"Settings_Frequency_Wobble_Percentage=.02"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Manual_Start=False"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"Out1_Inverted_Sawtooth=True"
+"Out1_User_Defined_1=False"
+"BFB_Grade_Program=0"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=E Coli 1 (CAFL)"
+"Loaded_Programs=E Coli 3 (XTRA)"
+"Loaded_Programs=E Coli 4 (XTRA)"
+"Loaded_Programs=E Coli Escherichia Coli (XTRA)"
+"Loaded_Programs=E Coli Mutant Strain (CAFL)"
+"Loaded_Programs=E Coli (BIO)"
+"Loaded_Programs=E Coli (CAFL)"
+"Loaded_Frequencies=332.5=240,798=240,1729=240,7847=240,"
+"Loaded_Frequencies=802=180,882.44=180,974.14=180,17724.2=180,19566.31=180,"
+"Loaded_Frequencies=282=180,298=180,327=180,333=180,413=180,548=180,642=180,660=180,690=180,727.5=180,787=180,799=180,800=180,802=180,804=180,832=180,880=180,957=180,1320=180,1550=180,1552=180,1722=180,2872=180,7849=180,"
+"Loaded_Frequencies=282=180,289=180,327=180,332=180,358=180,413=180,539=180,548=180,642=180,798=180,799=180,800=180,802=180,804=180,832=180,834=180,882.44=180,957=180,971.66=180,974.14=180,1320=180,1550=180,1722=180,1729=180,7847=180,7849=180,11125=180,12250=180,12281.25=180,17724.2=180,19566.31=180,"
+"Loaded_Frequencies=556=240,934=240,1242=240,1244=240,1703=240,632=240,634=240,776=240,"
+"Loaded_Frequencies=282=180,333=180,413=180,957=180,1320=180,1722=180,"
+"Loaded_Frequencies=7849=240,7847=240,1730=240,1722=240,1550=240,1320=240,1244=240,1000=240,957=240,934=240,856=240,840=240,832=240,804=240,802=240,799=240,776=240,642=240,634=240,556=240,548=240,413=240,333=240,330=240,327=240,289=240,282=240,"
+"[/Preset]"

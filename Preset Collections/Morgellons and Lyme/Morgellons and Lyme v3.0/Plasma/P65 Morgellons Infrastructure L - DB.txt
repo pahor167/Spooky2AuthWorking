@@ -1,0 +1,59 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=P65 Morgellons Infrastructure L - DB"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Spooky Plasma.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Ecdysone AM_Deb CUST
+Ecdysone AM_Res CUST
+20-Monooxygenase 1 CUST
+
+Connect OUT 1 to Input, Out 2 to Modulation.
+"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Programs=Ecdysone AM_Deb (CUST)"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"Loaded_Frequencies=7429.02=600,7429.03=600,7428.5-7429.5=600,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Ecdysone AM_Deb (CUST) High"
+"Loaded_Programs=Ecdysone AM_Deb (CUST)"
+"Loaded_Frequencies=4008771.85=600,4008771.86=600,4008771.3-4008772.3=600,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Ecdysone AM_Res (CUST) Low"
+"Loaded_Programs=Ecdysone AM_Res (CUST)"
+"Loaded_Frequencies=7429.02=600,7429.03=600,7428.5-7429.5=600,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Ecdysone AM_Res (CUST) High"
+"Loaded_Programs=Ecdysone AM_Res (CUST)"
+"Loaded_Programs=20-Monooxygenase 1 (CUST)"
+"Loaded_Frequencies=2834629.76=600,2834629.77=600,2834629.3-2834630.3=600,"
+"Loaded_Frequencies=2860889.53=120,2860889.54=120,1430444.76=120,1430444.77=120,2859124.64=120,2859124.65=120,1429562.32=120,1429562.33=120,2857361.92=120,2857361.93=120,1428680.96=120,1428680.97=120,2855601.38=120,2855601.39=120,1427800.69=120,1427800.7=120,3448393.63=120,3448393.64=120,1724196.81=120,1724196.82=120,3443269.71=120,3443269.72=120,1721634.85=120,1721634.86=120,3438161.01=120,3438161.02=120,1719080.5=120,1719080.51=120,3433067.43=120,3433067.44=120,1716533.71=120,1716533.72=120,2600808.66=120,2600808.67=120,1300404.33=120,1300404.34=120,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Pause 30 Seconds (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

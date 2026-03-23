@@ -1,0 +1,67 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=P30 Other Bacteria C - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Plasma.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Leptospira Interrogans Spirochete HC
+Pseudomonas Aeruginosa HC
+Pseudomonas Fluorescens CAFL
+Pseudomonas Pyocyanea CAFL
+Pseudomonas Mallei CAFL
+Blue-green Algae HC
+Proponibacterium Acnes 2 XTRA
+
+Connect OUT 1 to Input, Out 2 to Modulation.
+"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Leptospira Interrogans Spirochete (HC) High"
+"Loaded_Programs=Leptospira Interrogans Spirochete (HC)"
+"Loaded_Programs=Pseudomonas Aeruginosa (HC)"
+"Loaded_Frequencies=397050-401100=3600,"
+"Loaded_Frequencies=331250-334600=3600,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Pseudomonas Fluorescens (CAFL) Low"
+"Loaded_Programs=Pseudomonas Fluorescens (CAFL)"
+"Loaded_Programs=Pseudomonas Pyocyanea (CAFL)"
+"Loaded_Programs=Pseudomonas Mallei (CAFL)"
+"Loaded_Frequencies=175.5=240,248.5=240,351.4=240,468.5=240,2810.9=240,11243.6=240,"
+"Loaded_Frequencies=437=300,"
+"Loaded_Frequencies=687=180,857=180,875=180,1273=180,501=180,743=180,774=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Blue-green Algae (HC) High"
+"Loaded_Programs=Blue-green Algae (HC)"
+"Loaded_Frequencies=256000=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Propionibacterium Acnes 2 (XTRA) Low"
+"Loaded_Programs=Propionibacterium Acnes 2 (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=5996.1=1200,6046.89=360,19267.59=180,959.27=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

@@ -1,0 +1,14 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Sleep Remedy Mix (S)"
+"Preset_Notes=Sleep Remedy Mix / Spooky Scalar
+
+Estimated Time: Run this preset for 18:00 minutes.
+
+Sleep Remedy contains: Cherry Plum - for fear of loosing control - both mentally & physically, Clematis - for the dreamy absent-minded- mental escape from reality, Impatiens - for the impatient person, Rock Rose - For terror & panic and Star Of Bethlehem - for shock of all kinds, White Chestnut - To help ease restless mind
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Sleep Remedy Mix (S)"
+"Loaded_Frequencies=463.06,262.01,415.26,277.99,276.57,247.09,"
+"[/Preset]"

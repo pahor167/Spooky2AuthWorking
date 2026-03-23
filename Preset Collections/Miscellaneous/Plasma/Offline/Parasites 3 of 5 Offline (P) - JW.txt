@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\GX Online or Offline General (P) - JW"
+"PresetName=Parasites 3 of 5 Offline (P) - JW"
+"Preset_Notes=This is an Offline Plasma preset. Once loaded into GeneratorX, a computer is no longer needed.
+
+Part 3 of 5.
+
+Independent lab results have verified the effectiveness of this set of Presets, with a full reduction of parasite burden in 2 patients after cycling through several times.
+
+Each parasite killing preset should be run for two consecutive nights before advancing to the next stage. After the 10th night, repeat the entire cycle if necessary.
+
+Place the plasma tube near to, or touching, your body. 
+Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Spooky Plasma Input. Out 2 to Spooky Plasma Modulation."
+"Dwell_Multiplier=2"
+"Loaded_Programs=Onchocerciasis 2 (XTRA)"
+"Loaded_Programs=Onchocerca Volvulus (Tumor) (HC)"
+"Loaded_Programs=Head Lice"
+"Loaded_Frequencies=2250=720,13600=360,15000=360,40000=360,31477=360,39660=360,10300=360,36469=360,35444=360,"
+"Loaded_Frequencies=435300-442100=3600,"
+"Loaded_Frequencies=57478543=180, 24775454=180, 20475354=180, 19474645=180, 18456345=180, 17454454=180, 16475343=180, 15554455=180, 14378434=180, 13475645=180, 12456345=180, 11455345=180, 10456345=180, 9545534=180, 8546555=180, 7465755=180, 6465745=180, 5445644=180, 4456745=180, 3222222=180, 2455445=180, 1544545=180, 954345=180, 843434=180, 754553=180, 645555=180, 543445=180, 454455=180, 344543=180, 266454=180, 164654=180, 74344=180, 64543=180, 54543=180, 44574=180, 35434=180, 23454=180, 15445=180, 8454=180, 5543=180, 3434=180, 22445=180,"
+"[/Preset]"

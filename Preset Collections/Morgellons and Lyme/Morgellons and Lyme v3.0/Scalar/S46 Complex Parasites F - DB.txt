@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"Repeat_Chain=0"
+"PresetName=S46 Complex Parasites F - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Scalar.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Parasites Clonorchis Sinensis 1 XTRA
+Clonorchis Sinensis XTRA
+Liver Flukes 2 XTRA
+Liver Flukes 1 XTRA
+Parasites Flukes Sheep Liver KHZ
+Parasites Sheep Liver Flukes CAFL
+Fasciola Hepatica 1 XTRA
+Fasciola Hepatica Cercariae XTRA
+Parasites Clonorchis Sinensis 1 XTRA
+Fasciola Hepatica Rediae HC
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Loaded_Programs=Parasites Clonorchis Sinensis 1 (XTRA)"
+"Loaded_Programs=Clonorchis Sinensis (XTRA)"
+"Loaded_Programs=Liver Flukes 2 (XTRA)"
+"Loaded_Programs=Liver Flukes 1 (XTRA)"
+"Loaded_Programs=Parasites Flukes Sheep Liver (KHZ)"
+"Loaded_Programs=Parasites Sheep Liver Flukes (CAFL)"
+"Loaded_Programs=Fasciola Hepatica 1 (XTRA)"
+"Loaded_Programs=Fasciola Hepatica Cercariae (XTRA)"
+"Loaded_Programs=Parasites Clonorchis Sinensis 1 (XTRA)"
+"Loaded_Programs=Fasciola Hepatica Rediae (HC)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=1058.43=180,21259.08=180,"
+"Loaded_Frequencies=1055.2=180,1058.43=180,1062.75=180,13303.12=180,13343.75=180,13398.44=180,"
+"Loaded_Frequencies=1058.43=180,2000=180,21259=180,"
+"Loaded_Frequencies=15=180,55=180,143=180,238=180,275=180,524=180,676=180,763=180,854=180,2000=180,6641=180,6672=180,"
+"Loaded_Frequencies=150=180,380=180,930=180,2520=180,31200=180,43430=180,68500=180,98500=180,149280=180,496010=180,"
+"Loaded_Frequencies=826=180,830=180,834=180,"
+"Loaded_Frequencies=13167.19=180,13353.12=180,13281.25=180,1044.42=180,1059.17=180,1053.47=180,"
+"Loaded_Frequencies=1050.5=180,1058.43=180,1067.34=180,13243.75=180,13343.75=180,13456.25=180,"
+"Loaded_Frequencies=1058.43=180,21259.08=180,"
+"Loaded_Frequencies=420600-427500=3600,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Hydration Improvement (P)"
+"Preset_Notes=Hydration Improvement for Plasma
+
+Improving hydration involves optimizing water retention and distribution in systemic body fluids and skin tissues, countering dehydration, reduced cellular water, or dry skin conditions. 
+
+Key therapeutic axes are (1) vasopressin pathway activation to promote AQP2-mediated renal water reabsorption for systemic fluid balance; (2) direct upregulation of aquaporin-3 (AQP3) in keratinocytes to enhance epidermal water and glycerol transport; (3) stimulation of dermal extracellular matrix components (hyaluronic acid via growth factor mimicry, bioactive collagen fragments) for improved water-binding capacity and barrier function. Sources include physiological reviews on vasopressin/antidiuretic mechanisms, PubMed studies on oral/topical collagen peptides boosting skin moisture/elasticity, and patent WO2009112645A1 for AQP3-activating sequences. The set uses 13 verifiable real-world polypeptides covering all axes (shortfall of 1 from minimum noted; all available included), supplemented with 5 designed polypeptides incorporating non-standard residues for diversity, stability, and conceptual axis reinforcement.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Hydration Improvement p01"
+"Loaded_Programs=Hydration Improvement p02"
+"Loaded_Programs=Hydration Improvement p03"
+"Loaded_Programs=Hydration Improvement p04"
+"Loaded_Programs=Hydration Improvement p05"
+"Loaded_Programs=Hydration Improvement p06"
+"Loaded_Programs=Hydration Improvement p07"
+"Loaded_Programs=Hydration Improvement p08"
+"Loaded_Programs=Hydration Improvement p09"
+"Loaded_Programs=Hydration Improvement p10"
+"Loaded_Programs=Hydration Improvement p11"
+"Loaded_Programs=Hydration Improvement p12"
+"Loaded_Programs=Hydration Improvement p13"
+"Loaded_Programs=Hydration Improvement p14"
+"Loaded_Programs=Hydration Improvement p15"
+"Loaded_Programs=Hydration Improvement p16"
+"Loaded_Programs=Hydration Improvement p17"
+"Loaded_Programs=Hydration Improvement p18"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M113.048,0=4,"
+"Loaded_Frequencies=M87.032=1,M131.040,M114.043,M97.053,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M128.058=1,M97.053,M71.037,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M114.043=1,M97.053,M71.037,M115.027,0=4,"
+"Loaded_Frequencies=M114.043=1,M97.053,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M114.043=1,M97.053,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M114.043=1,M97.053,M71.037,0=4,"
+"Loaded_Frequencies=M114.043=1,M97.053,M71.037,0=4,"
+"Loaded_Frequencies=M97.053=1,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M97.053=1,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M114.043,M97.053,M71.037,0=4,"
+"Loaded_Frequencies=M113.048=1,M114.043,M97.053,M71.037,M114.079,M86.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M128.058,M97.053,M71.037,M128.095,M113.048,M85.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M114.079,M114.043,M97.053,M57.021,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M113.084,M114.043,M97.053,M86.048,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M97.053,M71.037,M128.095,M87.032,M113.048,M150.954,M86.048,0=4,"
+"[/Preset]"

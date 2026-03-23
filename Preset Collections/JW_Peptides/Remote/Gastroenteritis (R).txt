@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Gastroenteritis (R)"
+"Preset_Notes=Gastroenteritis for Remote
+
+Gastroenteritis is an inflammation of the stomach and intestines, typically caused by viral, bacterial, or parasitic infections, leading to symptoms such as diarrhea, vomiting, abdominal pain, and dehydration. 
+
+The proposed polypeptides target various therapeutic axes including antimicrobial action to eliminate pathogens, anti-inflammatory effects to reduce gut inflammation, gut barrier enhancement to prevent leakage, anti-secretory to control fluid loss, motility regulation to normalize GI function, immune modulation to boost defense, and gut-brain axis for symptom relief. Designed polypeptides (flagged as designed) are used to cover microbiota restoration and stress modulation axes where real-world options are limited.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Gastroenteritis p01"
+"Loaded_Programs=Gastroenteritis p02"
+"Loaded_Programs=Gastroenteritis p03"
+"Loaded_Programs=Gastroenteritis p04"
+"Loaded_Programs=Gastroenteritis p05"
+"Loaded_Programs=Gastroenteritis p06"
+"Loaded_Programs=Gastroenteritis p07"
+"Loaded_Programs=Gastroenteritis p08"
+"Loaded_Programs=Gastroenteritis p09"
+"Loaded_Programs=Gastroenteritis p10"
+"Loaded_Programs=Gastroenteritis p11"
+"Loaded_Programs=Gastroenteritis p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M163.063,M99.068,M57.021,M113.084,M87.032,M71.037,M114.043,M128.058,M102.001,M71.037,M99.068,M97.053,M71.037,M128.095,M115.027,M156.101,M99.068,M115.027,M102.001,M57.021,M163.063,M97.053,M137.059,M99.068,M101.048,M97.053,M128.095,M129.043,M102.001,M114.043,M114.043,M156.101,M57.021,M102.001,M102.001,M147.068,M115.027,M87.032,M156.101,M113.084,M97.053,M57.021,M99.068,M97.053,M186.079,M102.001,M147.068,M128.095,M97.053,M113.084,M128.058,M129.043,M71.037,M129.043,M102.001,M101.048,M147.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M128.095,M113.084,M101.048,M115.027,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M128.058,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M128.095,M163.063,M113.084,M115.027,M87.032,M156.101,M156.101,M71.037,M128.058,M115.027,M147.068,M99.068,M128.058,M186.079,M113.084,M114.043,M131.040,M114.043,M101.048,0=4,"
+"Loaded_Frequencies=M71.037=1,M101.048,M102.001,M163.063,M102.001,M156.101,M101.048,M57.021,M156.101,M102.001,M71.037,M101.048,M156.101,M129.043,M87.032,M113.084,M87.032,M57.021,M99.068,M102.001,M129.043,M113.084,M87.032,M57.021,M156.101,M113.084,M163.063,M156.101,M113.084,M102.001,M102.001,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M128.095,M114.079,M113.048,M150.954,M147.068,M113.084,M99.068,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M237.148,M200.095,M100.064,M758.675,0=4,"
+"[/Preset]"

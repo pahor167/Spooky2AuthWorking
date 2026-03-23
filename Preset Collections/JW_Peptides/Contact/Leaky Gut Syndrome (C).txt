@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Leaky Gut Syndrome (C)"
+"Preset_Notes=Leaky Gut Syndrome for Contact
+
+The peptides target multiple therapeutic axes for leaky gut syndrome, including barrier restoration to tighten junctions, anti-inflammatory actions to reduce gut inflammation, antimicrobial effects to control pathogens, microbiome modulation to balance flora, immune modulation to prevent autoimmunity, tissue regeneration to heal lining, and mucosal protection to enhance barrier. The first 10 peptides are real-world with validated evidence from studies on intestinal permeability and gut health, while peptides 11 and 12 are designed to supplement coverage in antioxidant and regenerative axes, flagged as designed.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Leaky Gut Syndrome p01"
+"Loaded_Programs=Leaky Gut Syndrome p02"
+"Loaded_Programs=Leaky Gut Syndrome p03"
+"Loaded_Programs=Leaky Gut Syndrome p04"
+"Loaded_Programs=Leaky Gut Syndrome p05"
+"Loaded_Programs=Leaky Gut Syndrome p06"
+"Loaded_Programs=Leaky Gut Syndrome p07"
+"Loaded_Programs=Leaky Gut Syndrome p08"
+"Loaded_Programs=Leaky Gut Syndrome p09"
+"Loaded_Programs=Leaky Gut Syndrome p10"
+"Loaded_Programs=Leaky Gut Syndrome p11"
+"Loaded_Programs=Leaky Gut Syndrome p12"
+"Loaded_Frequencies=M57.021=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M103.009,M113.084,M71.037,M113.084,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M115.027,M71.037,M113.084,M99.068,M128.095,M129.043,M128.095,M128.095,M113.084,M128.058,M57.021,M128.095,M57.021,M97.053,M57.021,M57.021,M97.053,M97.053,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M71.037,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M71.037=1,M101.048,M103.009,M163.063,M103.009,M156.101,M101.048,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M128.058,M87.032,M101.048,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M115.027,M128.095,M97.053,M129.043,M87.032,0=4,"
+"[/Preset]"

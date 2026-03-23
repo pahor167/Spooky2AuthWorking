@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Lichen Sclerosus (Coil)"
+"Preset_Notes=Lichen Sclerosus for Coil
+
+Chronic inflammatory sclerotic skin disease characterized by T-cell mediated autoimmunity, dermal fibrosis, and neurogenic inflammation. The condition involves upregulation of TGF-{beta} signaling leading to collagen deposition, disruption of skin barrier function with altered antimicrobial peptide expression, and activation of mast cells and sensory nerves contributing to pruritus and tissue damage.
+
+1. TGF-{beta} Inhibition: P144 - Disitertide peptide inhibitor blocking TGF-{beta}1 interaction with receptors to prevent fibroblast activation and collagen deposition
+2. Anti-inflammatory: VIP - Vasoactive Intestinal Peptide modulating immune response and suppressing pro-inflammatory cytokine production
+3. Immunomodulation: KPV - Tripeptide lysine-proline-valine fragment from alpha-MSH with potent anti-inflammatory and immune-regulatory properties
+4. Skin Barrier/AMP: Human Beta-Defensin 2 - Antimicrobial peptide upregulated in LS lesions supporting epithelial defense and barrier restoration
+5. Tissue Regeneration: BPC-157 - Pentadecapeptide promoting angiogenesis, tissue repair, and accelerating wound healing in damaged skin
+6. T-Cell Regulation: Thymosin alpha 1 - Thymic peptide enhancing T-regulatory cell function and restoring immune tolerance
+7. Wound Healing: Thymosin beta 4 - Actin-sequestering peptide promoting cell migration, angiogenesis, and tissue remodeling
+8. Neurogenic Inflammation: Argireline - Acetyl hexapeptide-3 inhibiting SNARE complex to reduce neurotransmitter release and alleviate neurogenic inflammation
+9. Collagen Remodeling: GHK-Cu - Copper tripeptide modulating matrix metalloproteinase expression and promoting collagen synthesis
+10. Antioxidant Protection: Carnosine - Dipeptide with radical scavenging activity protecting against oxidative stress-induced tissue damage
+
+"
+"Loaded_Programs=Lichen Sclerosus p01"
+"Loaded_Programs=Lichen Sclerosus p02"
+"Loaded_Programs=Lichen Sclerosus p03"
+"Loaded_Programs=Lichen Sclerosus p04"
+"Loaded_Programs=Lichen Sclerosus p05"
+"Loaded_Programs=Lichen Sclerosus p06"
+"Loaded_Programs=Lichen Sclerosus p07"
+"Loaded_Programs=Lichen Sclerosus p08"
+"Loaded_Programs=Lichen Sclerosus p09"
+"Loaded_Programs=Lichen Sclerosus p10"
+"Loaded_Frequencies=M101.048=1,M87.032,M113.084,M115.027,M71.037,M87.032,M113.084,M113.084,M186.079,M71.037,M131.040,M131.040,M128.058,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M102.001,M137.059,M97.053,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M102.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M102.001,M102.001,M128.095,M128.095,M96.069,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"[/Preset]"

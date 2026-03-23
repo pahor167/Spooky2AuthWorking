@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Streptococcal Intertrigo (Coil)"
+"Preset_Notes=Streptococcal Intertrigo for Coil
+
+Streptococcal intertrigo is a bacterial skin infection in moist skin folds caused primarily by group A Streptococcus (S. pyogenes), manifesting as intense erythema, maceration, satellite pustules, and foul odor, often underrecognized in children and adults.
+
+1. Innate skin beta-defensin defense: Human Beta-Defensin 3 (hBD-3) - Broad-spectrum antimicrobial with membrane disruption and immune modulation effective against Gram-positive skin pathogens
+2. Tryptophan-rich penetration: Indolicidin - Penetrates and damages bacterial membranes/intracellular components for potent Gram-positive killing
+3. Beta-sheet pore formation: Protegrin-1 - Oligomerizes to form transmembrane pores causing rapid osmotic lysis of bacteria
+4. Topical synthetic optimization: Omiganan - Cationic AMP engineered for stability and broad membrane lysis in skin environments
+5. Wound-targeted helical disruption: Pexiganan - Amphipathic helix selectively disrupts bacterial membranes in infected tissues
+6. Non-membranolytic penetration: Buforin II - Translocates across membranes to bind nucleic acids with reduced host inflammation
+7. Neutrophil alpha-defensin activity: HNP-1_Alpha_Defensin - Targets and permeabilizes streptococcal cell envelopes
+8. Cyclic cationic compact: Bactenecin - High-density charge for strong electrostatic binding and disruption of Gram-positive bacteria
+9. Sweat-derived skin protection: Dermcidin - Provides persistent antimicrobial barrier in moist, acidic intertriginous areas
+10. Disulfide-stabilized binding: Tachyplesin I - Rigid beta-sheet structure binds and permeabilizes bacterial membranes
+11. Immunomodulatory regulation: IDR-1018 - Selectively suppresses excessive inflammation while enhancing protective immune responses and anti-biofilm effects
+12. Optimized helical disruption: Designed Amphipathic Helical Peptide - Engineered sequence for enhanced selectivity, potency, and low toxicity against streptococcal membranes
+
+"
+"Loaded_Programs=Streptococcal Intertrigo p01"
+"Loaded_Programs=Streptococcal Intertrigo p02"
+"Loaded_Programs=Streptococcal Intertrigo p03"
+"Loaded_Programs=Streptococcal Intertrigo p04"
+"Loaded_Programs=Streptococcal Intertrigo p05"
+"Loaded_Programs=Streptococcal Intertrigo p06"
+"Loaded_Programs=Streptococcal Intertrigo p07"
+"Loaded_Programs=Streptococcal Intertrigo p08"
+"Loaded_Programs=Streptococcal Intertrigo p09"
+"Loaded_Programs=Streptococcal Intertrigo p10"
+"Loaded_Programs=Streptococcal Intertrigo p11"
+"Loaded_Programs=Streptococcal Intertrigo p12"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M102.001,M156.101,M113.084,M99.068,M99.068,M113.084,M156.101,M99.068,M102.001,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M113.084,M113.084,M129.043,M128.095,M57.021,M113.084,M115.027,M57.021,M71.037,M128.095,M128.095,M71.037,M99.068,M57.021,M57.021,M113.084,M57.021,M128.095,M113.084,M57.021,M128.095,M115.027,M71.037,M99.068,M129.043,M115.027,M113.084,M129.043,M87.032,M99.068,M57.021,M128.095,M57.021,M71.037,M99.068,M137.059,M115.027,M99.068,M128.095,M115.027,M99.068,M113.084,M115.027,M87.032,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M147.068,M103.009,M147.068,M87.032,M128.095,M103.009,M163.063,M87.032,M147.068,M57.021,M113.084,M103.009,M147.068,M163.063,M147.068,M87.032,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M113.084,M128.095,M99.068,M113.084,M112.1,0=4,"
+"[/Preset]"

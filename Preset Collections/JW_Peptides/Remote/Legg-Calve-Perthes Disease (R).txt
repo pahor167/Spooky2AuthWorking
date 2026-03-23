@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Legg-Calve-Perthes Disease (R)"
+"Preset_Notes=Legg-Calve-Perthes Disease for Remote
+
+Legg-Calvé-Perthes Disease (LCPD) is an idiopathic pediatric osteonecrosis of the femoral head occurring primarily in children aged 4-10 years, with a male-to-female ratio of 4:1 and bilateral involvement in 10-20% of cases, often leading to long-term hip deformities, osteoarthritis, and functional impairment if untreated. Causes remain multifactorial and unclear, but include vascular disruptions such as temporary ischemia or thrombosis in the lateral epiphyseal vessels supplying the capital femoral epiphysis, potentially triggered by trauma, hypercoagulable states (e.g., protein C or S deficiencies, factor V Leiden mutations), environmental factors like passive smoking or low socioeconomic status, and genetic predispositions involving collagen type II mutations (e.g., p.Gly630Ser in COL2A1) or dysregulated growth factors; associations with low birth weight, short stature, delayed bone age, and endocrine abnormalities like low IGF-I levels suggest a systemic component. Symptoms typically present insidiously with limp, groin or thigh pain exacerbated by activity, limited hip internal rotation and abduction, muscle atrophy, leg length discrepancy due to femoral head collapse, and in severe cases, Trendelenburg gait or fixed deformities; progression through Waldenström stages-necrosis (avascularity with subchondral fracture), fragmentation (resorption of necrotic bone), reossification (new bone formation), and remodeling (residual deformity)-can span 2-4 years. Pathophysiology involves initial interruption of blood supply causing osteocyte death and trabecular necrosis, followed by inflammatory infiltration with elevated cytokines (e.g., IL-6 in synovial fluid), macrophage-mediated resorption creating fragmented appearance, impaired angiogenesis hindering revascularization, unbalanced bone remodeling with excessive resorption over formation, growth plate disturbances leading to coxa plana (flattened head) or magna (enlarged), and secondary acetabular changes; proteome alterations show dysregulated S100-A8/A9 (inflammation and cartilage metabolism), apolipoproteins (lipid transport affecting vascular integrity), and complement factors (immune response amplifying tissue damage); biomechanical stress exacerbates collapse, while low IGF-I impairs chondrocyte proliferation and endochondral ossification.
+
+The proposed polypeptides address key therapeutic axes with scientific rationale grounded in LCPD pathophysiology, feasibility via injectable or local delivery for targeted action, modes of action including receptor binding or mimicry, and physicochemical properties like short length for stability and penetration. Real-world polypeptides prioritize verified sources: IGF-I (real) supplements deficient growth signaling to promote chondrocyte proliferation and bone repair, feasible systemically with low immunogenicity; PEPITEM (real) enhances osteoblast activity and mineralization to counter resorption; BMSC affinity peptide (real) recruits stem cells for regenerative scaffolding in necrotic areas; QK (real) mimics VEGF to stimulate angiogenesis and revascularization; BFP-4 (real) induces osteogenic differentiation of BMSCs for robust bone formation; CGRP (real) promotes endothelial progenitor function and vessel formation to restore blood supply; Teriparatide (real) activates PTH receptors for anabolic bone effects reducing collapse risk; Vosoritide (real) stimulates natriuretic peptide receptors to enhance endochondral ossification in growing children. Designed polypeptides supplement for full coverage: Designed 9 (D9-inflam) sequesters proinflammatory cytokines like IL-6 to mitigate synovial inflammation, feasible with anti-inflammatory motifs; Designed 10 (D10-coag) modulates coagulation factors to prevent thrombotic ischemia, with antithrombotic residues; Designed 11 (D11-apop) inhibits osteocyte apoptosis via caspase blockade for tissue preservation; Designed 12 (D12-lipid) regulates apolipoprotein pathways to improve lipid metabolism and vascular health.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Legg-Calve-Perthes Disease p01"
+"Loaded_Programs=Legg-Calve-Perthes Disease p02"
+"Loaded_Programs=Legg-Calve-Perthes Disease p03"
+"Loaded_Programs=Legg-Calve-Perthes Disease p04"
+"Loaded_Programs=Legg-Calve-Perthes Disease p05"
+"Loaded_Programs=Legg-Calve-Perthes Disease p06"
+"Loaded_Programs=Legg-Calve-Perthes Disease p07"
+"Loaded_Programs=Legg-Calve-Perthes Disease p08"
+"Loaded_Programs=Legg-Calve-Perthes Disease p09"
+"Loaded_Programs=Legg-Calve-Perthes Disease p10"
+"Loaded_Programs=Legg-Calve-Perthes Disease p11"
+"Loaded_Programs=Legg-Calve-Perthes Disease p12"
+"Loaded_Frequencies=M57.021=1,M97.053,M129.043,M101.048,M113.084,M103.009,M57.021,M71.037,M129.043,M113.084,M99.068,M115.027,M71.037,M113.084,M128.058,M147.068,M99.068,M103.009,M57.021,M115.027,M156.101,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M97.053,M101.048,M57.021,M163.063,M57.021,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,M57.021,M113.084,M99.068,M115.027,M129.043,M103.009,M103.009,M147.068,M156.101,M87.032,M103.009,M115.027,M113.084,M156.101,M156.101,M113.084,M129.043,M131.040,M163.063,M103.009,M71.037,M97.053,M113.084,M128.095,M97.053,M71.037,M128.095,M87.032,M71.037,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M101.048,M129.043,M128.058,M57.021,M129.043,M113.084,M87.032,M114.043,M129.043,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M97.053,M113.084,M163.063,M71.037,M113.084,M87.032,M186.079,M87.032,M57.021,M131.040,M71.037,0=4,"
+"Loaded_Frequencies=M170.106=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M112.10,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M128.095,M71.037,M101.048,M129.043,M99.068,M137.059,M147.068,M156.101,M87.032,M113.084,M156.101,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M156.101,M99.068,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M97.053=1,M57.021,M128.058,M129.043,M137.059,M97.053,M114.043,M71.037,M156.101,M128.095,M163.063,M128.095,M57.021,M114.043,M128.095,M128.095,M57.021,M114.043,M128.095,M57.021,M113.084,M115.027,M156.101,M113.084,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M103.009,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M97.053,M156.101,M128.058,M113.084,M101.048,M101.048,M115.027,M128.095,M114.043,M156.101,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M156.101,M128.095,M115.027,M57.021,M128.058,M113.084,M147.068,M97.053,M137.059,M87.032,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M87.032=1,M147.068,M163.063,M156.101,M113.084,M128.058,M137.059,M129.043,M97.053,M115.027,M128.095,M101.048,M57.021,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M101.048,M129.043,M163.063,M128.095,M113.084,M57.021,M114.043,M156.101,M128.058,M97.053,M87.032,M113.084,M115.027,0=4,"
+"[/Preset]"

@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Cat Hair Loss (P)"
+"Preset_Notes=Cat Hair Loss for Plasma
+
+Cat Hair Loss (Feline Alopecia)
+
+Feline alopecia commonly arises from allergic/inflammatory dermatitis, stress-induced overgrooming (psychogenic), infections/parasites, or impaired skin/hair follicle regeneration, leading to patchy or diffuse hair loss. Emerging veterinary applications and preclinical evidence support polypeptides for skin barrier restoration, inflammation control, anxiety reduction, and direct hair growth promotion, complementing conventional treatments.
+
+1. Multi-target skin healing and anti-inflammatory effects: BPC-157 accelerates recovery in dermatological and wound models applicable to veterinary skin conditions.
+2. Actin remodeling and cellular migration promotion: TB-500 enhances tissue repair and regeneration in pet healing protocols.
+3. Potent anti-inflammatory modulation: KPV mitigates allergic and inflammatory dermatitis contributing to hair loss.
+4. Anxiolytic activity to address psychogenic overgrooming: Selank reduces stress and behavioral licking/chewing.
+5. Copper peptide-mediated hair follicle stimulation and coat restoration: GHK-Cu directly supports regrowth with feline-specific formulations.
+6. Engineered collagen-mimetic stabilization: Ac-(GPP)4-NH2 provides optimized dermal remodeling and hair regeneration inspired by pet collagen peptide studies.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Cat Hair Loss p01"
+"Loaded_Programs=Cat Hair Loss p02"
+"Loaded_Programs=Cat Hair Loss p03"
+"Loaded_Programs=Cat Hair Loss p04"
+"Loaded_Programs=Cat Hair Loss p05"
+"Loaded_Programs=Cat Hair Loss p06"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Porn-induced Erectile Dysfunction (PIED) (R)"
+"Preset_Notes=Porn-induced Erectile Dysfunction (PIED) for Remote
+
+Porn-induced erectile dysfunction (PIED) involves difficulty achieving or maintaining erections during real-life sexual encounters despite responsiveness to pornography, often linked to reward system desensitization, elevated arousal thresholds, performance anxiety, and psychogenic mechanisms. The selected real-world polypeptides target four evidence-based therapeutic axes derived from clinical trials, preclinical studies, and investigational applications in sexual arousal disorders and related dysfunctions.
+
+1. Melanocortin receptor agonism for central arousal restoration: Bremelanotide (PT-141) activates melanocortin pathways in the brain to directly initiate sexual desire and penile erection, showing efficacy in psychogenic erectile dysfunction.
+
+2. Kisspeptin pathway activation for libido and tumescence enhancement: Kisspeptin-10 stimulates hypothalamic GnRH release and sexual brain processing regions, boosting libido, arousal, and penile rigidity in hypoactive sexual desire states.
+
+3. Oxytocinergic modulation for emotional intimacy and arousal facilitation: Oxytocin enhances orgasm intensity, emotional bonding, and sexual response, addressing relational and psychogenic barriers in dysfunction.
+
+4. Anxiolytic neuropeptide stabilization for performance anxiety reduction: Selank provides rapid anxiety relief and mood stabilization without impairing cognitive or sexual function, targeting stress-induced impediments to erection.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Porn-induced Erectile Dysfunction (PIED) p01"
+"Loaded_Programs=Porn-induced Erectile Dysfunction (PIED) p02"
+"Loaded_Programs=Porn-induced Erectile Dysfunction (PIED) p03"
+"Loaded_Programs=Porn-induced Erectile Dysfunction (PIED) p04"
+"Loaded_Frequencies=M113.084=1,M115.027,M137.059,M147.068,M156.101,M186.079,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"[/Preset]"

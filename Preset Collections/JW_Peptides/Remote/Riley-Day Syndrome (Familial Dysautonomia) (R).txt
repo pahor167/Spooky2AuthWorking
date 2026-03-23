@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Riley-Day Syndrome (Familial Dysautonomia) (R)"
+"Preset_Notes=Riley-Day Syndrome (Familial Dysautonomia) for Remote
+
+Familial Dysautonomia, also known as Riley-Day Syndrome, is a rare autosomal recessive genetic disorder most prevalent in individuals of Ashkenazi Jewish ancestry. It arises from a founder point mutation in intron 20 of the ELP1 gene, causing aberrant mRNA splicing that skips exon 20 in certain tissues, producing a truncated and unstable ELP1 protein with markedly reduced functional levels. ELP1 is essential as a scaffold subunit of the Elongator complex, which facilitates tRNA modifications critical for efficient translation, transcriptional elongation, cytoskeletal dynamics, and exocytosis-processes vital for neuronal differentiation, survival, and function.
+
+The pathophysiology centers on developmental defects and ongoing degeneration of sensory neurons (affecting pain, temperature, vibration, and proprioception) and autonomic neurons (controlling tear production, blood pressure, gastrointestinal motility, and temperature regulation). This leads to profound multisystem dysfunction evident from infancy: absence of overflow tears, feeding difficulties due to poor suck/swallow coordination and gastroesophageal reflux, hypotonia, delayed milestones, insensitivity to pain/hypoxia, unstable blood pressure with orthostatic hypotension and episodic hypertensive vomiting crises triggered by stress, chronic lung disease from recurrent aspirations, scoliosis, and reduced lifespan often due to cardiopulmonary complications.
+
+No curative treatments exist; management is supportive and symptom-directed, including fundoplication/gastrostomy for feeding, clonidine/midodrine/droxidopa for blood pressure lability, diazepam for crises, and respiratory support. Emerging molecular therapies target splicing correction (small molecules enhancing correct ELP1 splicing) and gene replacement (AAV-mediated ELP1 delivery), showing promise in preclinical models for halting neurodegeneration.
+
+No established or investigational polypeptide therapies were identified for this condition across reviewed sources. The proposed polypeptides are therefore all conceptual designed short peptides addressing key pathophysiological axes through complementary mechanisms.
+
+The first designed peptide targets neuroprotection, aiming to promote survival of affected sensory and autonomic neurons by activating anti-apoptotic and antioxidant pathways to counteract progressive degeneration; it features balanced hydrophobicity for potential membrane permeability, with conceptual feasibility based on precedents in neurotrophic peptides for other neuropathies, though requiring optimization for CNS delivery and validation in FD models.
+
+The second designed peptide addresses autonomic instability, designed to modulate vascular tone and dampen excessive catecholamine surges during crises for improved baroreflex function and blood pressure stability; its amphipathic structure supports receptor interaction, with moderate feasibility drawing from vasoactive intestinal peptides in autonomic disorders.
+
+The third designed peptide focuses on gastrointestinal support, conceptually enhancing motility and secretion to alleviate dysphagia, reflux, and constipation common in the condition; it incorporates motifs for gut receptor engagement, with higher feasibility given successes with gut hormone peptide analogs in motility disorders.
+
+These designed polypeptides represent hypothetical adjunctive strategies emphasizing symptom mitigation and neuroprotection, potentially deliverable subcutaneously or intranasally pending formulation advances.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Riley-Day Syndrome (Familial Dysautonomia) p01"
+"Loaded_Programs=Riley-Day Syndrome (Familial Dysautonomia) p02"
+"Loaded_Programs=Riley-Day Syndrome (Familial Dysautonomia) p03"
+"Loaded_Frequencies=M128.095=1,M113.084,M115.027,M156.101,M57.021,M137.059,M97.053,M99.068,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M156.101,M71.037,M97.053,M99.068,M113.084,M113.084,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M114.043,M156.101,M57.021,M128.058,M128.095,M137.059,M129.043,0=4,"
+"[/Preset]"

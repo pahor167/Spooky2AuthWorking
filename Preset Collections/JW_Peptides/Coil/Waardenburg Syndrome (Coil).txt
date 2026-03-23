@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Waardenburg Syndrome (Coil)"
+"Preset_Notes=Waardenburg Syndrome for Coil
+
+Waardenburg Syndrome is a rare autosomal dominant genetic disorder characterized by congenital hearing loss, pigmentary abnormalities of the skin, hair, and eyes, and variable facial features. The condition results from defective neural crest cell development and migration, affecting melanocyte differentiation and survival. Pathogenic mutations occur in key genes including PAX3 (Types 1 & 3), MITF (Type 2), SOX10 (Type 4), and EDNRB/EDN3 (Type 4), disrupting critical transcriptional networks and signaling pathways essential for melanocyte development. The PAX3-SOX10-MITF axis represents the central regulatory network, with endothelin-3/EDNRB signaling operating in parallel to control neural crest cell migration and melanocyte differentiation.
+
+The proposed polypeptide therapeutic strategy targets multiple interconnected axes: (1) Direct activation of the PAX3-SOX10-MITF transcriptional network to restore melanocyte development, (2) Enhancement of MITF transcriptional activity for melanocyte survival and pigmentation, (3) Modulation of SOX10 to support neural crest cell specification, (4) Activation of endothelin-3/EDNRB signaling for proper neural crest migration, (5) Wnt/{beta}-catenin pathway modulation to upregulate MITF expression, (6) Melanogenesis pathway enhancement through tyrosinase activation, (7) Promotion of neural crest cell migration and homing mechanisms, (8) KIT/KITL signaling augmentation for melanocyte stem cell maintenance, (9) Anti-apoptotic protection of developing melanocytes, and (10) Targeted restoration of cochlear melanocytes for hearing function. Designed peptides incorporate transcription factor binding motifs and signaling peptide mimetics to restore normal melanocyte development and function.
+
+"
+"Loaded_Programs=Waardenburg Syndrome p01"
+"Loaded_Programs=Waardenburg Syndrome p02"
+"Loaded_Programs=Waardenburg Syndrome p03"
+"Loaded_Programs=Waardenburg Syndrome p04"
+"Loaded_Programs=Waardenburg Syndrome p05"
+"Loaded_Programs=Waardenburg Syndrome p06"
+"Loaded_Programs=Waardenburg Syndrome p07"
+"Loaded_Programs=Waardenburg Syndrome p08"
+"Loaded_Programs=Waardenburg Syndrome p09"
+"Loaded_Programs=Waardenburg Syndrome p10"
+"Loaded_Frequencies=M87.032=1,M181.191,M87.032,M131.040,M155.155,M147.068,M174.202,M186.079,M57.021,M128.095,M97.053,M147.068,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M181.191,M97.053,M97.053,M97.053,M128.095,M97.053,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M174.202=1,M174.202,M87.032,M174.202,M101.048,M147.068,M129.043,M155.155,M129.043,M113.084,M129.043,M147.068,M113.084,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M181.191,M113.084,M128.095,M174.202,M115.027,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M103.009=1,M128.095,M174.202,M87.032,M113.084,M128.095,M174.202,M103.009,0=4,"
+"Loaded_Frequencies=M103.009=1,M129.043,M103.009,M147.068,M101.048,M181.191,M128.095,M115.027,0=4,"
+"Loaded_Frequencies=M87.032=1,M181.191,M129.043,M103.009,M128.095,M174.202,M113.084,M147.068,0=4,"
+"Loaded_Frequencies=M103.009=1,M128.095,M174.202,M87.032,M155.059,M128.095,M147.068,M103.009,0=4,"
+"Loaded_Frequencies=M174.202=1,M103.009,M155.059,M87.032,M128.095,M181.191,M128.095,M103.009,0=4,"
+"Loaded_Frequencies=M181.191=1,M103.009,M174.202,M87.032,M128.095,M155.059,M128.095,M147.068,0=4,"
+"[/Preset]"

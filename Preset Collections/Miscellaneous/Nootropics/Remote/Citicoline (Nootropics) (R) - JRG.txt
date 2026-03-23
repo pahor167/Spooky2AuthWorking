@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Citicoline (Nootropics) (R) - JRG"
+"Loaded_Programs=Citicoline (CUST)"
+"Loaded_Frequencies=M489.11516,"
+"Preset_Notes=CDP-Choline|CDP-Choline (Cytidine Diphosphate Choline) is also known as Citicoline. CDP-choline is a highly bioavailable source of choline that easily crosses the blood-brain barrier.|CDP-Choline is metabolized in the body to form choline and cytidine. In the body choline aids in the synthesis of acetylcholine in the body. Acetylcholine is a neurotransmitter associated with memory and learning.|The cytidine in CDP-Choline converts to uridine in the body. This nucleotide is important to neural membrane synthesis which helps cognition or thinking.|CDP-Choline is an effective nootropic on its own. And works synergistically to boost the effectiveness of other nootropics. Particularly those in the racetam family.|Dosing of CDP-Choline is 250 - 750 mg. per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

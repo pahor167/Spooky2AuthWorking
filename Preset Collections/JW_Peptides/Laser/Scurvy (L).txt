@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Scurvy (L)"
+"Preset_Notes=Scurvy for Laser
+
+Scurvy is a nutritional deficiency disease caused by prolonged lack of vitamin C (ascorbic acid) in the diet, leading to a range of debilitating symptoms and potentially fatal complications if left untreated. The primary cause is insufficient intake of fresh fruits and vegetables, which are the main dietary sources of vitamin C, though it can also arise from malabsorption issues such as those seen in gastrointestinal disorders, alcoholism, or restrictive diets. Historically prevalent among sailors, explorers, and populations during famines, scurvy manifests initially with nonspecific symptoms like fatigue, malaise, muscle weakness, and irritability. As the deficiency progresses, more characteristic signs emerge, including swollen and bleeding gums (gingivitis), easy bruising (ecchymoses), pinpoint hemorrhages around hair follicles (perifollicular petechiae), poor wound healing, joint pain and swelling due to hemarthrosis, anemia from blood loss or impaired iron absorption, and brittle hair that coils like a corkscrew. In advanced stages, patients may experience internal bleeding, infections, convulsions, heart failure, and death. Pathophysiologically, vitamin C serves as an essential cofactor for enzymes like prolyl and lysyl hydroxylases, which are critical for stabilizing the triple-helix structure of collagen through hydroxylation of proline and lysine residues. Without this, collagen becomes unstable, resulting in weakened blood vessels, skin, bones, and other connective tissues. Additionally, vitamin C plays roles in carnitine biosynthesis for energy metabolism, catecholamine and neurotransmitter synthesis (e.g., dopamine, norepinephrine), antioxidant defense against reactive oxygen species, immune cell function (enhancing neutrophil motility and phagocytosis), and hormone production via peptide amidation. Deficiency disrupts these processes, leading to metabolic imbalances like hypoglycemia, cognitive impairments, and dysregulated stress responses via the hypothalamic-pituitary-adrenal (HPA) axis. Bone health suffers from impaired osteoid formation, causing subperiosteal hemorrhages and fractures, while vascular fragility promotes hemorrhages and edema.
+
+The proposed polypeptides, all designed due to the absence of real-world polypeptide therapies for scurvy in verifiable sources, aim to mitigate the multifaceted consequences of vitamin C deficiency by targeting key therapeutic axes through bioengineered sequences. These designs prioritize feasibility in synthesis via solid-phase peptide chemistry, with lengths optimized for stability, bioavailability (e.g., potential oral or intravenous delivery), and minimal immunogenicity as short chains. Physicochemical considerations include balancing hydrophilic (e.g., charged residues) and hydrophobic (e.g., aromatic) groups for solubility in aqueous environments, pH stability around 7.4, and resistance to proteolytic degradation through strategic residue placement. Modes of action are conceptualized as direct supplementation to bypass or complement deficient pathways, with potential for receptor binding, enzymatic mimicry, or structural reinforcement. For collagen synthesis axis, designed polypeptides D1 and D9 incorporate repeating glycine-proline-hydroxyproline motifs to mimic mature collagen fibrils, providing exogenous scaffolds that enhance tissue tensile strength and facilitate cross-linking without relying on endogenous hydroxylation, feasible as these sequences self-assemble into triple helices in vitro. For antioxidant activity, D2 and D10 use cysteine and tyrosine/tryptophan-rich patterns to form disulfide bonds or donate electrons, scavenging free radicals and reducing oxidative damage to lipids and proteins, with rationale rooted in glutathione-like mechanisms but extended for better plasma half-life. Wound healing is addressed by D3 and D11 via integrin-binding RGD motifs, promoting fibroblast migration and extracellular matrix deposition, scientifically supported by similar motifs in fibronectin aiding repair in deficiency states. Vascular integrity benefits from D4 and D12's serine-threonine-proline repeats, which may stabilize endothelial glycocalyx and reduce permeability, drawing from proteoglycan-inspired designs with high feasibility for anti-hemorrhagic effects. Immune support via D5 employs cationic lysine-phenylalanine alternations for membrane-disrupting antimicrobial activity, enhancing innate defenses compromised in scurvy. Neurological function is targeted by D6's aromatic-rich sequence, potentially modulating dopamine pathways or providing neuroprotective antioxidants, with rationale from neuropeptide analogs. Bone health via D7's acidic aspartate-glutamate repeats facilitates calcium binding and osteoblast activation, mimicking osteocalcin fragments for mineralization support. Endocrine function through D8's histidine-arginine motifs may stimulate HPA axis components, aiding cortisol synthesis indirectly. Overall, these polypeptides offer a novel adjunctive approach, potentially synergistic with vitamin C repletion, with preclinical testing recommended for efficacy in deficiency models.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Scurvy p01"
+"Loaded_Programs=Scurvy p02"
+"Loaded_Programs=Scurvy p03"
+"Loaded_Programs=Scurvy p04"
+"Loaded_Programs=Scurvy p05"
+"Loaded_Programs=Scurvy p06"
+"Loaded_Programs=Scurvy p07"
+"Loaded_Programs=Scurvy p08"
+"Loaded_Programs=Scurvy p09"
+"Loaded_Programs=Scurvy p10"
+"Loaded_Programs=Scurvy p11"
+"Loaded_Programs=Scurvy p12"
+"Loaded_Frequencies=M57.021=1,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,0=4,"
+"Loaded_Frequencies=M103.009=1,M163.063,M87.032,M103.009,M163.063,M87.032,M103.009,M163.063,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M97.053,M101.048,M87.032,M101.048,M97.053,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M113.084,M128.095,M147.068,M113.084,M128.095,M147.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M163.063,M97.053,M147.068,M147.068,M163.063,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M156.101=1,M137.059,M147.068,M186.079,M156.101,M137.059,M147.068,M186.079,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M113.084,M99.068,M71.037,M113.084,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M103.009,M186.079,M163.063,M103.009,M186.079,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M57.021,M115.027,M87.032,M57.021,M156.101,M57.021,M115.027,M87.032,0=4,"
+"Loaded_Frequencies=M101.048=1,M97.053,M87.032,M101.048,M97.053,M87.032,M101.048,M97.053,M87.032,0=4,"
+"[/Preset]"

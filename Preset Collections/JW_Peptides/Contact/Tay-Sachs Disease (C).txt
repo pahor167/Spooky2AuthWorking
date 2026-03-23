@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Tay-Sachs Disease (C)"
+"Preset_Notes=Tay-Sachs Disease for Contact
+
+Tay-Sachs disease is a fatal autosomal recessive lysosomal storage disorder caused by mutations in the HEXA gene, resulting in {beta}-hexosaminidase A deficiency, progressive GM2 ganglioside accumulation in neurons, neuroinflammation, oxidative stress, glial activation, neuronal apoptosis, and severe neurodegeneration leading to death in early childhood (infantile form) or later onset variants. The proposed set addresses key therapeutic axes: GM2 substrate binding/clearance, anti-neuroinflammatory modulation, neuroprotective/anti-apoptotic effects, oxidative stress mitigation, glial cell regulation, and lysosomal function support. No real-world polypeptides with verifiable therapeutic sequences and direct evidence for Tay-Sachs were identified (searches yielded gene therapy, full-enzyme ERT fusions, small-molecule chaperones/substrate reducers dominant; shortfall of 14 documented); supplemented with 18 designed polypeptides for full axis coverage, diversity, and minimum requirements (flagged as designed).
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Tay-Sachs Disease p01"
+"Loaded_Programs=Tay-Sachs Disease p02"
+"Loaded_Programs=Tay-Sachs Disease p03"
+"Loaded_Programs=Tay-Sachs Disease p04"
+"Loaded_Programs=Tay-Sachs Disease p05"
+"Loaded_Programs=Tay-Sachs Disease p06"
+"Loaded_Programs=Tay-Sachs Disease p07"
+"Loaded_Programs=Tay-Sachs Disease p08"
+"Loaded_Programs=Tay-Sachs Disease p09"
+"Loaded_Programs=Tay-Sachs Disease p10"
+"Loaded_Programs=Tay-Sachs Disease p11"
+"Loaded_Programs=Tay-Sachs Disease p12"
+"Loaded_Programs=Tay-Sachs Disease p13"
+"Loaded_Programs=Tay-Sachs Disease p14"
+"Loaded_Programs=Tay-Sachs Disease p15"
+"Loaded_Programs=Tay-Sachs Disease p16"
+"Loaded_Programs=Tay-Sachs Disease p17"
+"Loaded_Programs=Tay-Sachs Disease p18"
+"Loaded_Frequencies=M150.954=1,M114.079,M113.048,M86.048,M85.053,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M86.048=1,M113.048,M114.079,M150.954,M85.053,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M113.048=1,M85.053,M150.954,M114.079,M86.048,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M85.053=1,M86.048,M114.079,M150.954,M113.048,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M114.079=1,M150.954,M86.048,M113.048,M85.053,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M114.079,M86.048,M113.048,M85.053,M150.954,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M85.053,M150.954,M113.048,M114.079,M86.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M114.079,M113.048,M86.048,M85.053,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M86.048=1,M113.048,M114.079,M150.954,M85.053,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M113.048=1,M85.053,M150.954,M114.079,M86.048,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M85.053=1,M86.048,M114.079,M150.954,M113.048,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M114.079=1,M150.954,M86.048,M113.048,M85.053,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M114.079,M86.048,M150.954,M85.053,M113.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M86.048,M85.053,M113.048,M114.079,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M113.048=1,M150.954,M114.079,M85.053,M86.048,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M85.053=1,M114.079,M86.048,M150.954,M113.048,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M86.048=1,M85.053,M113.048,M114.079,M150.954,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M150.954,M113.048,M86.048,M114.079,M85.053,M156.101,0=4,"
+"[/Preset]"

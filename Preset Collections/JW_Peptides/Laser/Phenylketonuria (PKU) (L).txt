@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Phenylketonuria (PKU) (L)"
+"Preset_Notes=Phenylketonuria (PKU) for Laser
+
+Phenylketonuria (PKU) is an autosomal recessive disorder caused by mutations in phenylalanine hydroxylase, leading to toxic accumulation of phenylalanine and secondary complications including neurocognitive deficits, osteoporosis, oxidative stress, and gastrointestinal disturbances. Proposed polypeptides provide phenylalanine-free nutritional support and target associated pathologies to complement dietary restriction and enzyme therapies.
+
+1. Low-phenylalanine protein replacement: Glycomacropeptide - Naturally phenylalanine-free 64-residue peptide serving as primary intact protein source in medical foods for improved metabolic control and patient acceptance.
+2. Bone regeneration promotion: P-15 - Collagen-mimetic peptide that binds {alpha}2{beta}1 integrin to enhance osteoblast attachment, proliferation, and differentiation addressing PKU-associated osteopenia.
+3. Gastrointestinal protection: BPC-157 - Stabilizes mucosal integrity and accelerates healing to mitigate diet-induced gastrointestinal stress.
+4. Connective tissue remodeling: GHK-Cu - Copper-complexed tripeptide stimulating collagen and glycosaminoglycan synthesis with antioxidant effects.
+5. Neuroprotection: ARA-290 - Non-erythropoietic EPO derivative reducing neuroinflammation and neural damage from hyperphenylalaninemia.
+6. Cellular migration enhancement: TB-500 - Promotes actin-regulated migration and tissue regeneration systemically.
+7. Collagen matrix support: Coll-PKU30 - Designed (GPP)10 repeat forming triple-helical structures to reinforce bone and connective tissue without phenylalanine contribution.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Phenylketonuria (PKU) p01"
+"Loaded_Programs=Phenylketonuria (PKU) p02"
+"Loaded_Programs=Phenylketonuria (PKU) p03"
+"Loaded_Programs=Phenylketonuria (PKU) p04"
+"Loaded_Programs=Phenylketonuria (PKU) p05"
+"Loaded_Programs=Phenylketonuria (PKU) p06"
+"Loaded_Programs=Phenylketonuria (PKU) p07"
+"Loaded_Frequencies=M131.040=1,M71.037,M113.084,M97.053,M97.053,M128.095,M128.095,M114.043,M128.058,M115.027,M128.095,M101.048,M129.043,M113.084,M97.053,M101.048,M113.084,M114.043,M101.048,M113.084,M71.037,M87.032,M57.021,M129.043,M97.053,M101.048,M87.032,M101.048,M97.053,M101.048,M101.048,M129.043,M71.037,M99.068,M129.043,M87.032,M101.048,M99.068,M71.037,M101.048,M113.084,M129.043,M115.027,M87.032,M97.053,M129.043,M99.068,M113.084,M129.043,M87.032,M97.053,M97.053,M129.043,M113.084,M114.043,M101.048,M99.068,M128.058,M99.068,M101.048,M87.032,M101.048,M71.037,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,0=4,"
+"[/Preset]"

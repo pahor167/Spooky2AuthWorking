@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Lazy Bowel Syndrome (C)"
+"Preset_Notes=Lazy Bowel Syndrome for Contact
+
+Lazy Bowel Syndrome, also known as slow transit constipation or colonic inertia, is a chronic functional motility disorder characterized by delayed colonic transit (>72 hours on marker studies), markedly reduced high-amplitude propagating contractions, depletion and dysfunction of interstitial cells of Cajal, enteric nervous system imbalances with decreased excitatory neurotransmitters, gut microbiota dysbiosis leading to lowered short-chain fatty acid production and impaired 5-HT signaling, smooth muscle atrophy/fibrosis with disrupted calcium and ion channel function, autonomic/vagal hypoactivity, and secondary inflammatory or autophagic changes in pacemaker cells, resulting in infrequent bowel movements (<3/week), straining, bloating, abdominal discomfort, and significantly impaired quality of life. Polypeptide therapeutics address these core pathophysiologic axes comprehensively. 
+1. Guanylate cyclase-C receptor agonism: Linaclotide - Binds to GC-C on enterocytes to increase cGMP, activating CFTR chloride secretion and enhancing colonic motility and transit. 
+2. Ghrelin receptor agonism: Ghrelino-1 - Mimics ghrelin to activate GHSR1a receptors in the colon, increasing high amplitude propagating contractions for prokinetic effect. 
+3. Interstitial cells of Cajal pacemaker restoration: ICC-Pace-1 - Enhances c-kit signaling to restore ICC density and slow-wave propagation for coordinated peristalsis. 
+4. Enteric nervous system cholinergic enhancement: ENS-Chol-1 - Facilitates acetylcholine release from myenteric neurons to strengthen peristaltic reflexes. 
+5. Microbiota-SCFA-5-HT axis modulation: MicroSCFA-1 - Promotes TPH1 expression in enterochromaffin cells and SCFA-mediated signaling to boost serotonin and motility. 
+6. Smooth muscle calcium signaling modulation: CaSmooth-1 - Modulates voltage-gated calcium channels in colonic smooth muscle for enhanced contractility. 
+7. Colonic anti-fibrotic remodeling: AntiFib-1 - Inhibits collagen deposition and smooth muscle atrophy to maintain colonic compliance. 
+8. Vagal autonomic modulation: VagalMod-1 - Stimulates vagal efferents to restore gastrocolic reflex and colonic motor activity. 
+9. Motilin receptor agonism: MotilPep-1 - Agonizes motilin receptors to initiate migrating motor complexes and accelerate transit. 
+10. ICC autophagy regulation: AutoReg-1 - Inhibits AMPK/mTOR-mediated excessive autophagy in ICC to preserve pacemaker cells. 
+11. NF-kB anti-inflammatory pathway: NFkBInh-1 - Suppresses NF-kB activation to reduce colonic inflammation and improve neuromuscular coordination. 
+12. ENS neuroprotection via BDNF: BDNFNeuro-1 - Upregulates BDNF-TrkB signaling for enteric neuron survival and regeneration in dysmotile colon.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Lazy Bowel Syndrome p01"
+"Loaded_Programs=Lazy Bowel Syndrome p02"
+"Loaded_Programs=Lazy Bowel Syndrome p03"
+"Loaded_Programs=Lazy Bowel Syndrome p04"
+"Loaded_Programs=Lazy Bowel Syndrome p05"
+"Loaded_Programs=Lazy Bowel Syndrome p06"
+"Loaded_Programs=Lazy Bowel Syndrome p07"
+"Loaded_Programs=Lazy Bowel Syndrome p08"
+"Loaded_Programs=Lazy Bowel Syndrome p09"
+"Loaded_Programs=Lazy Bowel Syndrome p10"
+"Loaded_Programs=Lazy Bowel Syndrome p11"
+"Loaded_Programs=Lazy Bowel Syndrome p12"
+"Loaded_Frequencies=M103.009=1,M103.009,M129.043,M163.063,M103.009,M103.009,M114.043,M97.053,M71.037,M103.009,M101.048,M57.021,M103.009,M163.063,0=4,"
+"Loaded_Frequencies=M137.059=1,M186.079,M71.037,M186.079,M147.068,M128.095,M128.058,M156.101,M57.021,M113.084,M131.040,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M101.048,M87.032,M103.009,M147.068,M128.095,M113.084,M101.048,M87.032,M103.009,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.058,M156.101,M137.059,M186.079,M71.037,M186.079,M147.068,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M113.084,M156.101,M131.040,M128.095,M114.043,M115.027,M97.053,M129.043,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M113.084,M101.048,M87.032,M103.009,M71.037,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M113.084,M156.101,M128.095,M113.084,M101.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M113.084,M131.040,M114.043,M97.053,M128.058,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M128.058,M156.101,M57.021,M113.084,M131.040,M114.043,M115.027,0=4,"
+"Loaded_Frequencies=M131.040=1,M97.053,M101.048,M128.095,M128.058,M156.101,M113.084,M87.032,M71.037,M103.009,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M113.084,M103.009,M99.068,M114.043,M99.068,M71.037,M103.009,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M129.043,M103.009,M71.037,M114.043,M97.053,M71.037,M103.009,0=4,"
+"[/Preset]"

@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Shwachman-Diamond Syndrome (C)"
+"Preset_Notes=Shwachman-Diamond Syndrome for Contact
+
+Shwachman-Diamond Syndrome (SDS) is a rare autosomal recessive inherited bone marrow failure syndrome primarily caused by biallelic mutations in the SBDS gene, which encodes a protein essential for the late-stage maturation of the 60S ribosomal subunit. Loss of SBDS function impairs the release of eIF6 from the 60S subunit, disrupting ribosomal subunit joining and triggering nucleolar stress, p53 activation, and consequent apoptosis of hematopoietic progenitors. This leads to the classic triad of exocrine pancreatic insufficiency, chronic neutropenia, and progressive bone marrow dysfunction with a high lifetime risk of myelodysplastic syndrome (MDS) and acute myeloid leukemia (AML). Current management is supportive, including pancreatic enzyme replacement, granulocyte colony-stimulating factor (G-CSF) for neutropenia, and hematopoietic stem cell transplantation for marrow failure. No disease-modifying therapies exist. Preclinical research has elucidated three core therapeutic axes: (1) restoration of SBDS-mediated ribosome assembly, (2) attenuation of pathological p53 activation, and (3) enhancement of ribosomal biogenesis through alternative mechanisms. The proposed set includes one real-world experimental peptide-the p53-inhibitory peptide (ETFSDLWKLLPEN)-validated in peer-reviewed studies to disrupt p53-DNA binding and reduce apoptosis in stress conditions. Complementing this, two designed peptides are introduced: D1-SBDSmimetic, a short motif hypothesized to mimic the SBDS-EFL1 interaction interface to facilitate eIF6 release, and D2-RibosomeEnhancer, engineered to support 60S subunit maturation independently. Together, these candidates represent a multi-target theoretical strategy to address the ribosomopathy at its root in SDS.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Shwachman-Diamond Syndrome p01"
+"Loaded_Programs=Shwachman-Diamond Syndrome p02"
+"Loaded_Programs=Shwachman-Diamond Syndrome p03"
+"Loaded_Frequencies=M57.021=1,M128.095,M99.068,M156.101,M115.027,0=4,"
+"Loaded_Frequencies=M129.043=1,M101.048,M147.068,M87.032,M115.027,M113.084,M186.079,M128.095,M113.084,M113.084,M97.053,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M113.084,M156.101,M128.095,M129.043,0=4,"
+"[/Preset]"

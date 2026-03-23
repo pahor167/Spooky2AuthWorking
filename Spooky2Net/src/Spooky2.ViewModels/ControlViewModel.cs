@@ -213,11 +213,11 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             var frequencies = ParseFrequencies();
             if (frequencies.Count > 0)
             {
-                await _generatorService.WriteFrequencies(SelectedGeneratorId, frequencies);
+                await Task.Run(() => _generatorService.WriteFrequencies(SelectedGeneratorId, frequencies));
             }
 
             // Start generator
-            await _generatorService.Start(SelectedGeneratorId);
+            await Task.Run(() => _generatorService.Start(SelectedGeneratorId));
 
             IsRunning = true;
             IsPaused = false;
@@ -249,8 +249,8 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             _scanCts?.Cancel();
             _statusTimer.Stop();
 
-            await _scanService.StopScan(SelectedGeneratorId);
-            await _generatorService.Stop(SelectedGeneratorId);
+            await Task.Run(() => _scanService.StopScan(SelectedGeneratorId));
+            await Task.Run(() => _generatorService.Stop(SelectedGeneratorId));
 
             IsRunning = false;
             IsPaused = false;
@@ -275,7 +275,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             if (IsPaused)
             {
                 _logger.LogInformation("Resuming generator {Id}", SelectedGeneratorId);
-                await _generatorService.Resume(SelectedGeneratorId);
+                await Task.Run(() => _generatorService.Resume(SelectedGeneratorId));
                 IsPaused = false;
                 GeneratorStatusText = "Running";
                 _runCts = new CancellationTokenSource();
@@ -285,7 +285,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             {
                 _logger.LogInformation("Pausing generator {Id}", SelectedGeneratorId);
                 _runCts?.Cancel();
-                await _generatorService.Pause(SelectedGeneratorId);
+                await Task.Run(() => _generatorService.Pause(SelectedGeneratorId));
                 IsPaused = true;
                 GeneratorStatusText = "Paused";
             }
@@ -306,7 +306,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             if (IsHeld)
             {
                 _logger.LogInformation("Releasing hold on generator {Id}", SelectedGeneratorId);
-                await _generatorService.Resume(SelectedGeneratorId);
+                await Task.Run(() => _generatorService.Resume(SelectedGeneratorId));
                 IsHeld = false;
                 GeneratorStatusText = "Running";
                 _runCts = new CancellationTokenSource();
@@ -317,7 +317,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
                 _logger.LogInformation("Holding generator {Id} at {Freq} Hz",
                     SelectedGeneratorId, Output1Frequency);
                 _runCts?.Cancel();
-                await _generatorService.Hold(SelectedGeneratorId);
+                await Task.Run(() => _generatorService.Hold(SelectedGeneratorId));
                 IsHeld = true;
                 GeneratorStatusText = $"Held at {Output1Frequency:N2} Hz";
             }
@@ -339,7 +339,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             _runCts?.Cancel();
             _statusTimer.Stop();
 
-            await _generatorService.EraseMemory(SelectedGeneratorId);
+            await Task.Run(() => _generatorService.EraseMemory(SelectedGeneratorId));
 
             FrequencyItems.Clear();
             IsRunning = false;
@@ -363,7 +363,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         try
         {
             _logger.LogInformation("Resetting generator {Id}", SelectedGeneratorId);
-            await _generatorService.EraseMemory(SelectedGeneratorId);
+            await Task.Run(() => _generatorService.EraseMemory(SelectedGeneratorId));
             GeneratorStatusText = "Reset";
         }
         catch (Exception ex)
@@ -419,8 +419,8 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             });
 
             _logger.LogInformation("Starting biofeedback scan on generator {Id}", SelectedGeneratorId);
-            var hits = await _scanService.RunBiofeedbackScan(
-                SelectedGeneratorId, parameters, scanProgress, _scanCts.Token);
+            var hits = await Task.Run(() => _scanService.RunBiofeedbackScan(
+                SelectedGeneratorId, parameters, scanProgress, _scanCts.Token));
 
             BiofeedbackHits.Clear();
             foreach (var hit in hits)
@@ -471,8 +471,8 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             });
 
             _logger.LogInformation("Starting Hunt and Kill on generator {Id}", SelectedGeneratorId);
-            var hits = await _scanService.RunHuntAndKill(
-                SelectedGeneratorId, parameters, scanProgress, _scanCts.Token);
+            var hits = await Task.Run(() => _scanService.RunHuntAndKill(
+                SelectedGeneratorId, parameters, scanProgress, _scanCts.Token));
 
             BiofeedbackHits.Clear();
             foreach (var hit in hits)
@@ -536,7 +536,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
                     var freq = frequencies[i] * FrequencyMultiplier;
 
                     // Write frequency to generator
-                    await _generatorService.WriteFrequencies(SelectedGeneratorId, [freq]);
+                    await Task.Run(() => _generatorService.WriteFrequencies(SelectedGeneratorId, [freq]));
 
                     Output1Frequency = freq;
                     Output2Frequency = freq;
@@ -566,13 +566,13 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         }
     }
 
-    private void OnStatusTimerElapsed(object? sender, ElapsedEventArgs e)
+    private async void OnStatusTimerElapsed(object? sender, ElapsedEventArgs e)
     {
         if (SelectedGeneratorId < 0) return;
 
         try
         {
-            var state = _generatorService.ReadStatus(SelectedGeneratorId).Result;
+            var state = await Task.Run(() => _generatorService.ReadStatus(SelectedGeneratorId));
             CurrentPresetDuration = state.ElapsedTime.ToString(@"hh\:mm\:ss");
 
             var totalSeconds = FrequencyItems.Count * DwellValue * DwellMultiplier * RepeatProgram;

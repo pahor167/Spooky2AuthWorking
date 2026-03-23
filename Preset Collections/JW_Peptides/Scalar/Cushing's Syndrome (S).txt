@@ -1,0 +1,45 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Cushing’s Syndrome (S)"
+"Preset_Notes=Cushing’s Syndrome for Scalar
+
+Cushing’s syndrome is characterized by prolonged excessive cortisol exposure from diverse etiologies, resulting in central obesity, insulin resistance, type 2 diabetes, hypertension, osteoporosis, proximal myopathy, skin atrophy, immunosuppression, mood disorders, and increased cardiovascular risk. While etiology-specific treatments (surgery, steroidogenesis inhibitors) are primary, proposed polypeptides offer adjunctive support via evidence-based axes for metabolic correction, broad cytoprotection, regeneration, anti-inflammation, mitochondrial resilience, and extracellular matrix reinforcement observed in hypercortisolism models and complication management.
+
+1. Stable gastric pentadecapeptide-mediated cytoprotection: BPC-157 maintains vascular integrity and counters multi-organ damage from cortisol excess.
+2. Copper-tripeptide antioxidant and regenerative effects: GHK-Cu promotes ECM remodeling, wound healing, and tissue recovery applicable to skin/bone atrophy.
+3. Thymosin {beta}4 fragment actin sequestration and repair: TB-500 enhances cell migration, muscle recovery, and anti-inflammation.
+4. EPO-mimetic helix peptide innate protection: ARA-290 mitigates inflammation and supports tissue resilience without erythropoiesis.
+5. Mitochondrial-derived peptide anti-stress actions: Humanin protects against apoptosis and metabolic dysfunction under glucocorticoid stress.
+6. Palmitoylated GLP-1 receptor agonist metabolic optimization: Liraglutide improves insulin sensitivity, glycemic control, and weight loss in Cushing's-associated diabetes/obesity.
+7. Engineered collagen-mimetic matrix stabilization: CushCol-21 Ac-(GPP)7-NH2 reinforces collagen structures to counter cortisol-induced bone loss and dermal fragility.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Cushing’s Syndrome p01"
+"Loaded_Programs=Cushing’s Syndrome p02"
+"Loaded_Programs=Cushing’s Syndrome p03"
+"Loaded_Programs=Cushing’s Syndrome p04"
+"Loaded_Programs=Cushing’s Syndrome p05"
+"Loaded_Programs=Cushing’s Syndrome p06"
+"Loaded_Programs=Cushing’s Syndrome p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

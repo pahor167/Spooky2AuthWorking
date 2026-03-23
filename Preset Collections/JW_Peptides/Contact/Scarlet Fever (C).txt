@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Scarlet Fever (C)"
+"Preset_Notes=Scarlet Fever for Contact
+
+Scarlet fever is an acute illness caused by toxin-producing Group A Streptococcus (GAS; Streptococcus pyogenes), typically presenting with pharyngitis, fever, strawberry tongue, and a characteristic sandpaper-like rash due to erythrogenic superantigen toxins (primarily SpeA, SpeC). Pathophysiological axes include bacterial proliferation/adhesion, superantigen-mediated cytokine storm (massive T-cell activation and inflammation), oxidative stress, innate immune evasion (e.g., resistance to antimicrobial peptides, protease activity via SpeB), and risk of post-infectious complications (e.g., rheumatic fever).
+
+Standard treatment remains antibiotics (penicillin first-line per 2025 CDC/NHS guidelines); no polypeptide-based therapies are recommended or in clinical use. Comprehensive searches (PubMed, NIH, CDC) identified research on antimicrobial peptides with in vitro activity against GAS but no verifiable clinical or named therapeutic polypeptides with sequences for scarlet fever/GAS treatment (no patents, trials, or specific agents). Real-world=0 (shortfall from min_real_polypeptides=14 documented); supplemented with 18 designed polypeptides (all flagged conceptual) to reach min_total_polypeptides=18, covering axes via cationic designs for antibacterial mimicry, Sec-incorporation for antioxidant/toxin mitigation, cyclic scaffolds for stability, and diversity for potential superantigen interference.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Scarlet Fever p01"
+"Loaded_Programs=Scarlet Fever p02"
+"Loaded_Programs=Scarlet Fever p03"
+"Loaded_Programs=Scarlet Fever p04"
+"Loaded_Programs=Scarlet Fever p05"
+"Loaded_Programs=Scarlet Fever p06"
+"Loaded_Programs=Scarlet Fever p07"
+"Loaded_Programs=Scarlet Fever p08"
+"Loaded_Programs=Scarlet Fever p09"
+"Loaded_Programs=Scarlet Fever p10"
+"Loaded_Programs=Scarlet Fever p11"
+"Loaded_Programs=Scarlet Fever p12"
+"Loaded_Programs=Scarlet Fever p13"
+"Loaded_Programs=Scarlet Fever p14"
+"Loaded_Programs=Scarlet Fever p15"
+"Loaded_Programs=Scarlet Fever p16"
+"Loaded_Programs=Scarlet Fever p17"
+"Loaded_Programs=Scarlet Fever p18"
+"Loaded_Frequencies=M114.079=1,M86.048,M113.048,M150.954,M156.101,M57.021,M128.095,M114.079,0=4,"
+"Loaded_Frequencies=M86.048=1,M150.954,M114.079,M113.048,M85.053,M156.101,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M150.954,M114.079,M100.064,M57.021,M150.954,M113.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M114.079,M86.048,M113.048,M200.095,M156.101,M128.095,M150.954,0=4,"
+"Loaded_Frequencies=M100.064=1,M86.048,M114.079,M113.048,M150.954,M57.021,M100.064,M86.048,0=4,"
+"Loaded_Frequencies=M85.053=1,M114.079,M86.048,M150.954,M113.048,M128.095,M57.021,M85.053,0=4,"
+"Loaded_Frequencies=M114.079=1,M113.048,M150.954,M86.048,M114.079,M156.101,M57.021,M114.079,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M200.095,M150.954,M113.048,M57.021,M128.095,M86.048,0=4,"
+"Loaded_Frequencies=M113.048=1,M100.064,M86.048,M114.079,M150.954,M156.101,M57.021,M113.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M86.048,M114.079,M113.048,M85.053,M57.021,M128.095,M150.954,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M200.095,M114.079,M86.048,M156.101,M57.021,M114.079,0=4,"
+"Loaded_Frequencies=M100.064=1,M113.048,M150.954,M86.048,M114.079,M57.021,M128.095,M100.064,0=4,"
+"Loaded_Frequencies=M85.053=1,M150.954,M113.048,M114.079,M86.048,M156.101,M57.021,M85.053,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M113.048,M200.095,M150.954,M128.095,M57.021,M86.048,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M114.079,M100.064,M150.954,M57.021,M156.101,M113.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M114.079,M86.048,M113.048,M200.095,M156.101,M57.021,M150.954,0=4,"
+"Loaded_Frequencies=M114.079=1,M85.053,M86.048,M113.048,M114.079,M128.095,M156.101,M114.079,0=4,"
+"Loaded_Frequencies=M200.095=1,M86.048,M150.954,M114.079,M113.048,M100.064,M57.021,M200.095,0=4,"
+"[/Preset]"

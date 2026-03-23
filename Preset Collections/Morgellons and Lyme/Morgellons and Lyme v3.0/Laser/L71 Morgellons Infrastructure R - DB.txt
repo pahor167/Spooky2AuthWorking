@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=L71 Morgellons Infrastructure R - DB"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Spooky Laser.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+EcR Protein AM_Deb 2 CUST
+EcR Protein AM_Res 2 CUST
+EcR Protein AM_Deb 3 CUST
+EcR Protein AM_Res 3 CUST
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=EcR Protein AM_Deb 2 (CUST)"
+"Loaded_Programs=EcR Protein AM_Res 2 (CUST)"
+"Loaded_Programs=EcR Protein AM_Deb 3 (CUST)"
+"Loaded_Programs=EcR Protein AM_Res 3 (CUST)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=2063213.14=600,3075168.42=600,3075168.43=600,3075167.9-3075168.9=600,"
+"Loaded_Frequencies=1458912=600,4348944.89=600,4348944.9=600,4348944.4-4348945.4=600,"
+"Loaded_Frequencies=1659675.78=600,4947411.85=600,4947411.86=600,4947411.4-4947412.4=600,"
+"Loaded_Frequencies=1173568=600,3498348.47=600,3498348.48=600,3498348-3498349=600,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

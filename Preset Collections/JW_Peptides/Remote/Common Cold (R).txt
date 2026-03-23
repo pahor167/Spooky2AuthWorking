@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Common Cold (R)"
+"Preset_Notes=Common Cold for Remote
+
+The common cold is an acute viral infection of the upper respiratory tract, primarily caused by rhinoviruses and other viruses, resulting in symptoms such as runny nose, congestion, sore throat, cough, and mild fever, typically self-limiting but can lead to complications in vulnerable populations. 
+
+The proposed polypeptides target key axes including antiviral mechanisms (e.g., viral membrane disruption or protease inhibition), immune modulation (e.g., enhancing T-cell responses and interferon production), anti-inflammatory effects (e.g., cytokine suppression), and symptomatic relief (e.g., promoting mucosal healing); real-world polypeptides are prioritized from literature on antiviral and immunomodulatory peptides, with designed ones (flagged) conceptually extending coverage through mimicry of defensin motifs or regulatory sequences, feasible via peptide synthesis, acting via direct binding or enzymatic modulation, considering stability, solubility, and bioavailability.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Common Cold p01"
+"Loaded_Programs=Common Cold p02"
+"Loaded_Programs=Common Cold p03"
+"Loaded_Programs=Common Cold p04"
+"Loaded_Programs=Common Cold p05"
+"Loaded_Programs=Common Cold p06"
+"Loaded_Programs=Common Cold p07"
+"Loaded_Programs=Common Cold p08"
+"Loaded_Programs=Common Cold p09"
+"Loaded_Programs=Common Cold p10"
+"Loaded_Programs=Common Cold p11"
+"Loaded_Programs=Common Cold p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M113.084,M156.101,M156.101,M113.084,M57.021,M156.101,M128.095,M113.084,M71.037,M137.059,M57.021,M99.068,M128.095,M128.095,M163.063,M57.021,M97.053,M101.048,M99.068,M113.084,M156.101,M113.084,M113.084,M156.101,M113.084,M71.037,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M114.043,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M71.037,M129.043,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M97.053,M71.037,M99.068,M147.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M137.059,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M113.048,M85.053,M113.084,0=4,"
+"Loaded_Frequencies=M100.064=1,M150.954,M200.095,M86.048,M237.148,0=4,"
+"[/Preset]"

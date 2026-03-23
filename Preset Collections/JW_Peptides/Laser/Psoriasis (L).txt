@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Psoriasis (L)"
+"Preset_Notes=Psoriasis for Laser
+
+Psoriasis involves key mechanisms such as keratinocyte hyperproliferation, excessive Th17 immune response, chronic inflammation, microbial dysbiosis with S. aureus overgrowth, oxidative stress, and impaired wound healing. Biological targets include NF-kB and STAT pathways for inflammation, antimicrobial peptide deficiencies, and cytokine receptors like IL-17/IL-23. The proposed peptides target these through anti-inflammatory modulation, direct antimicrobial activity, barrier restoration, and immunomodulation. All 10 peptides are real-world validated (from clinical trials, preclinical models, or literature sources like PubMed and PMC articles), covering the condition comprehensively without conceptual designs. Modes of action include membrane disruption for bactericidal effects, suppression of pro-inflammatory signaling, and promotion of epithelial repair. Physicochemical considerations: cationic peptides like omiganan exhibit high membrane affinity; amidated forms enhance stability; pharmacodynamics support topical application for localized skin effects.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Psoriasis p01"
+"Loaded_Programs=Psoriasis p02"
+"Loaded_Programs=Psoriasis p03"
+"Loaded_Programs=Psoriasis p04"
+"Loaded_Programs=Psoriasis p05"
+"Loaded_Programs=Psoriasis p06"
+"Loaded_Programs=Psoriasis p07"
+"Loaded_Programs=Psoriasis p08"
+"Loaded_Programs=Psoriasis p09"
+"Loaded_Programs=Psoriasis p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M128.095=1,M101.048,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M163.063,M114.043,M103.009,M99.068,M87.032,M87.032,M57.021,M57.021,M128.059,M103.009,M113.084,M163.063,M87.032,M71.037,M103.009,M97.053,M113.084,M147.068,M101.048,M128.095,M113.084,M128.059,M57.021,M101.048,M103.009,M163.063,M156.101,M57.021,M128.095,M71.037,M128.095,M103.009,M103.009,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M103.009,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M103.009,M137.059,M97.053,M99.068,M147.068,M103.009,M97.053,M156.101,M156.101,M163.063,M128.059,M128.095,M113.084,M57.021,M101.048,M103.009,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M103.009,M103.009,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.059,M163.063,M156.101,0=4,"
+"[/Preset]"

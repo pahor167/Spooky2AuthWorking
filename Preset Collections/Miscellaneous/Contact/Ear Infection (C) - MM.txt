@@ -1,0 +1,74 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=Ear Infection (C) - MM"
+"BFB_Start_Frequency=20000"
+"BFB_Finish_Frequency=18000000"
+"BFB_Single_Scan=1"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_%=.125"
+"BFB_Start_Delay=100"
+"BFB_Threshold=.4"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"BFB_Max_HRV=20"
+"Repeat_Sequence=0"
+"Out1_Amplitude=10"
+"Out2_Amplitude=10"
+"Out2_Hz_Factor=1.0001"
+"Out1_Shadow_Hz_Factor=1"
+"Out1_Fixed_Frequency=0"
+"Preset_Notes=Ear Infection Contact preset. By Manuel Mallo
+
+*Important*: Use the Colloidal Silver port of Spooky Boost to prevent skin burns.
+
+I have had great and continuous success with this presets. I've used mainly contact mode, with a handheld electrode in each hand, placing one of the hands against the infected ear, without touching the ear with the electrode.
+
+Adjust the amplitude so it is comfortable.
+
+Ear infections are caused mainly by Strep Pneumoniae, so this preset focuses on that pathogen.
+
+As the fluid pressure buildup could cause the eardrum rupture, better if an MD diagnoses the issue.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the Colloidal_Silver port of Spooky Boost.
+
+Use at your own risk."
+"Settings_Frequency_Wobble_Percentage=.025"
+"Settings_Frequency_Wobble_Steps=160"
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"Triangle_Spike_Ratio=2"
+"F1_Factor=11"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=MM_ModSquareDC83"
+"User_Defined_2_Waveform=MM_ModSquareDC83"
+"Out1_Fixed_Frequency=False"
+"Out1_Sine=False"
+"Out1_User_Defined_1=True"
+"Out2_User_Defined_2=True"
+"InverseWave=False"
+"Enable_Reduce_Low_Frequency_Amplitude=0"
+"Enable_Tissue_Factor=1"
+"Enable_Invert_User_Defined_2=1"
+"Enable_Swap_Frequency_And_Amplitude=1"
+"Notify_When_Zero_Hz=0"
+"Loaded_Programs=Eustachian Tube (XTRA)"
+"Loaded_Programs=Pneumococcal Infections (KHZ)"
+"Loaded_Programs=Pneumococcus (CAFL)"
+"Loaded_Programs=Pneumococcus (VEGA)"
+"Loaded_Programs=Streptococcus Pneumoniae (CAFL)"
+"Loaded_Programs=Streptococcus Pneumoniae (HC)"
+"Loaded_Programs=Streptococcus Sweep TR (XTRA)"
+"Loaded_Programs=Ear Discharge (XTRA)"
+"Loaded_Frequencies=465=180,660=180,690=180,727.5=180,776=180,787=180,802=180,880=180,1550=180,"
+"Loaded_Frequencies=50=180,350=180,2750=180,30930=180,75810=180,187500=180,405320=180,715000=180,803510=180,905320=180,"
+"Loaded_Frequencies=231=240,232=240,683=240,846=240,8865=240,"
+"Loaded_Frequencies=683=180,"
+"Loaded_Frequencies=231=180,232=180,776=180,766=180,728=180,846=180,8865=180,"
+"Loaded_Frequencies=366850-370200=3600,"
+"Loaded_Frequencies=5632.8152-5763=1800,5763-6053.125=1800,"
+"Loaded_Frequencies=9.18=180,9.19=180,20.660=180,690=180,727.5=180,787=180,880=180,"
+"[/Preset]"

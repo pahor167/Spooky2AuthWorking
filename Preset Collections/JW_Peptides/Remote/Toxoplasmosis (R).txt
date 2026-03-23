@@ -1,0 +1,55 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Toxoplasmosis (R)"
+"Preset_Notes=Toxoplasmosis for Remote
+
+Toxoplasmosis is a widespread parasitic disease caused by the obligate intracellular protozoan Toxoplasma gondii, infecting approximately one-third of the global human population. Primary infection occurs via ingestion of oocysts shed in cat feces (contaminating water, soil, or produce), consumption of tissue cysts in undercooked meat, or congenital transmission from mother to fetus during acute maternal infection. In immunocompetent hosts, acute infection is usually asymptomatic or presents mild flu-like symptoms, with the parasite converting to latent bradyzoite cysts in brain, muscle, and eye tissues. However, in immunocompromised individuals (e.g., AIDS, organ transplant recipients), reactivation of cysts causes severe toxoplasmic encephalitis, pneumonia, or disseminated disease. Congenital toxoplasmosis can result in miscarriage, stillbirth, hydrocephalus, intracranial calcifications, chorioretinitis, and neurodevelopmental delays.
+
+Pathophysiology involves rapid tachyzoite replication within a parasitophorous vacuole, parasite-directed host cell manipulation (e.g., inhibition of apoptosis, immune evasion via effector proteins like ROP and GRA), chronic cyst formation for latency, and immune-mediated tissue damage during reactivation.
+
+The proposed polypeptides target key aspects of toxoplasmosis, focusing on the active tachyzoite stage to reduce parasite burden and mitigate acute/chronic complications. Real-world polypeptides (limited to 4 with explicitly verifiable sequences from sources; shortfall from minimum documented due to limited published sequences with exact residue details) act via membrane pore formation, organelle disruption, invasion/proliferation inhibition, and host immune modulation. Designed polypeptides supplement extensively, incorporating non-standard residues (ornithine, diaminopropionic acid, hydroxyproline, selenocysteine, abu) for conceptual improvements in potency, selectivity, serum stability, and host compatibility; some are disulfide-cyclized for structural rigidity and enhanced pharmacokinetics, conceptually aiding intracellular delivery or sustained activity.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Toxoplasmosis p01"
+"Loaded_Programs=Toxoplasmosis p02"
+"Loaded_Programs=Toxoplasmosis p03"
+"Loaded_Programs=Toxoplasmosis p04"
+"Loaded_Programs=Toxoplasmosis p05"
+"Loaded_Programs=Toxoplasmosis p06"
+"Loaded_Programs=Toxoplasmosis p07"
+"Loaded_Programs=Toxoplasmosis p08"
+"Loaded_Programs=Toxoplasmosis p09"
+"Loaded_Programs=Toxoplasmosis p10"
+"Loaded_Programs=Toxoplasmosis p11"
+"Loaded_Programs=Toxoplasmosis p12"
+"Loaded_Programs=Toxoplasmosis p13"
+"Loaded_Programs=Toxoplasmosis p14"
+"Loaded_Programs=Toxoplasmosis p15"
+"Loaded_Programs=Toxoplasmosis p16"
+"Loaded_Programs=Toxoplasmosis p17"
+"Loaded_Programs=Toxoplasmosis p18"
+"Loaded_Frequencies=M71.037=1,M128.095,M99.068,M101.048,M131.040,M101.048,M103.009,M87.032,M71.037,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M186.079,M147.068,M128.095,M71.037,M131.040,M128.095,M87.032,M113.084,M71.037,M128.095,M147.068,M113.084,M71.037,M128.095,M115.027,M128.058,M113.084,M128.095,M128.095,M137.059,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M186.079,M147.068,M128.095,M128.095,M131.040,M128.095,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M186.079,M147.068,M128.095,M128.095,M131.040,M128.095,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M114.079,M128.095,M186.079,M147.068,M128.095,M114.079,M128.095,M86.048,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M113.048,M156.101,M99.068,M156.101,M114.079,M156.101,M113.048,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M150.954,M128.095,M113.084,M128.095,M86.048,M128.095,M150.954,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M114.079,M128.095,M147.068,M128.095,M86.048,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M86.048,M156.101,M113.084,M156.101,M114.079,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M85.053,M128.095,M163.063,M128.095,M85.053,M128.095,M114.079,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M114.079,M57.021,M128.095,M86.048,M57.021,M128.095,M114.079,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M147.068,M128.095,M128.095,M186.079,M128.095,M114.079,M128.095,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M147.068,M113.084,M86.048,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.048,M128.095,M99.068,M128.095,M113.048,M128.095,M114.079,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M86.048,M128.095,M163.063,M128.095,M86.048,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M114.079,M128.095,M147.068,M99.068,M128.095,M114.079,M128.095,M86.048,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M150.954,M156.101,M113.084,M156.101,M85.053,M156.101,M113.048,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M86.048,M57.021,M128.095,M114.079,M57.021,M128.095,M114.079,M57.021,M128.095,0=4,"
+"[/Preset]"

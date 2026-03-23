@@ -1,0 +1,62 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Schumann-Resonator (R) - JK"
+"BFB_Finish_Frequency=1800000"
+"BFB_Single_Scan=1"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_Hz_Selected=False"
+"BFB_Initial_Step_Size_%=.25"
+"BFB_Initial_Step_Size_%_Selected=True"
+"BFB_Samples_Per_Step=1"
+"BFB_Loops=2"
+"BFB_Threshold=.05"
+"BFB_Reverse_Lookup_Tolerance=.25"
+"BFB_Include_x_Hz_In_Search=0"
+"BFB_Calculate_Using_RA=True"
+"BFB_Calculate_Using_Peak=False"
+"BFB_After_Scan_Run_Hits=0"
+"BFB_Max_HRV=20"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Amplitude=10"
+"Out2_Hz_Factor=.063857"
+"Out2_Amplitude=2"
+"Preset_Notes=Schumann Resonator for Remote by Jeff Kaczor
+
+During his research Dr. Wolfgang Ludwig came across the ancient Chinese teachings which state that Man needs two environmental signals: the YANG (masculine) signal from above and the YIN (feminine) signal from below.
+
+The Chinese teachings state that to achieve perfect health, both signals must be in balance. Dr. Ludwig found that this is indeed the case. He writes in his book `Informative Medizin' that research carried out by E.Jacobi at the University of Duesseldorf showed that the one sided use of Schumann (YANG) wave simulation without the geomagnetic (YIN) signal caused serious health problems. On the other hand, the absence of Schumann waves creates a similar situation.
+
+This preset generates a dual signal Schumann Resonator.  Out1 generates the Schumann Resonance and Out 2 generates the Geomagnetic frequencies.
+
+Using the Fibonacci 6 Stage Wobble, 8 frequencies are derived from the mathematically ideal fundamental frequency of the Shumann Resonance (7.83 Hz).
+
+Generates 7.83, 15.66, 23.49, 39.15 Hz on Out 1 while pairing .5, 1, 1.5, 2.5 Hz on Out2.  Using Fibonacci harmonics of 7.83 results in frequencies that are close to the natural Schumann harmonics.  They will not match exactly.  Remember that the Schumann Resonance is never a 100% fixed frequency, and is constantly in flux.
+
+We use an amplitude ratio of 5:1 to derive the Geomagnetic frequency amplitude, and use the following to also derive the freqencies of Out 2.  The Geomagnetic frequencies therefore use a seed of .5 Hz, but each frequency generated is still in a harmonic relationship to each other.
+
+Out2 = (Out1 X .063857) +0) - [] Hz, Out2 = (Out1 X .2) Volts
+
+The gate rate of 3.915 Hz is used to derive a refresh rate of 7.83 Hz which governs the speed we rotate through each frequency.  The result is an output signal that is very much organic.
+
+The Preset has been designed to loop continuously until stopped.
+
+More details can be researched here:
+
+http://www.spooky2.com/forums/viewtopic.php?f=71&t=3648
+
+Connect your Spooky White (BN) Remote to the 'BN' port of the Spooky Boost."
+"Hz_Gate=3.915"
+"Triangle_Spike_Ratio=0"
+"Harmonic_Wobble=Fibonacci 6 Stage Wobble"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"User_Defined_2_Waveform=Colloidal_Silver"
+"Out1_Sine=True"
+"Out1_User_Defined_1=False"
+"Out2_Square=True"
+"InverseWave=False"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=Schumann Resonance (CAFL)"
+"Loaded_Frequencies=7.83=600,"
+"[/Preset]"

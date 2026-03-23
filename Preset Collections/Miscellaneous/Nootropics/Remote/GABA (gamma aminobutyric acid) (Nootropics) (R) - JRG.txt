@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=GABA (gamma aminobutyric acid) (Nootropics) (R) - JRG"
+"Loaded_Programs=GABA (gamma aminobutyric acid) (CUST)"
+"Loaded_Frequencies=M103.06333,"
+"Preset_Notes=GABA (gamma aminobutyric acid) is an amino acid and neurotransmitter produced by glutamate in your brain. GABA in the brain is considered an inhibitory neurotransmitter which means is prevents other neurotransmitters from being released. Resulting in an anti-anxiety and calming effect.|There is considerable debate on whether GABA as a supplement can cross the blood-brain barrier. But many find it effective for relieving anxiety, stress and for sleep.|Adding a phenyl group to GABA (called Phenibut (B-Phenyl-GABA)), this derivative is able to enter your brain and lower levels of anxiety and stress.|Typical recommended dosage of GABA is 250 - 500 mg per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

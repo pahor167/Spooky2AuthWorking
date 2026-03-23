@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Dog Allergy (Beef) (S)"
+"Preset_Notes=Dog Allergy (Beef) for Scalar
+
+Dog allergy to beef is a type of food allergy in canines where the immune system overreacts to proteins in beef, such as bovine serum albumin, leading to symptoms like pruritus, gastrointestinal upset, and ear infections. Mechanistic rationale: The proposed polypeptides target various therapeutic axes including immune tolerance, cytokine inhibition, microbiome modulation, inflammation reduction, mast cell stabilization, barrier enhancement, and IgE suppression to alleviate allergic responses. Designed polypeptides are flagged as such and are conceptual to supplement where real-world options are limited.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Dog Allergy (Beef) p01"
+"Loaded_Programs=Dog Allergy (Beef) p02"
+"Loaded_Programs=Dog Allergy (Beef) p03"
+"Loaded_Programs=Dog Allergy (Beef) p04"
+"Loaded_Programs=Dog Allergy (Beef) p05"
+"Loaded_Programs=Dog Allergy (Beef) p06"
+"Loaded_Programs=Dog Allergy (Beef) p07"
+"Loaded_Programs=Dog Allergy (Beef) p08"
+"Loaded_Programs=Dog Allergy (Beef) p09"
+"Loaded_Programs=Dog Allergy (Beef) p10"
+"Loaded_Programs=Dog Allergy (Beef) p11"
+"Loaded_Programs=Dog Allergy (Beef) p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M128.095,M129.043,M113.084,M128.095,M156.101,M113.084,M128.095,M57.021,M128.095,M113.084,M128.095,M113.084,M57.021,M57.021,M129.043,M113.084,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M128.095,M87.032,M156.101,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M128.095,M86.048,M156.101,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M86.048,M71.037,M99.068,M113.048,M114.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M97.053,M97.053,M86.048,M87.032,M101.048,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M150.954,M97.053,M128.095,M200.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.048,M128.095,M156.101,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M113.084,M86.048,M101.048,M113.084,M128.058,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M237.148=1,M128.095,M87.032,M100.064,M156.101,0=4,"
+"[/Preset]"

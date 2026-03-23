@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Overactive Bladder (OAB) (P)"
+"Preset_Notes=Overactive Bladder (OAB) for Plasma
+
+Overactive Bladder (OAB) is a syndrome characterized by sudden, involuntary contractions of the detrusor muscle leading to urinary urgency, increased frequency, nocturia, and sometimes urge incontinence, without underlying infection or pathology. 
+
+Peptides are selected to modulate detrusor activity, inhibit afferent sensory signaling, promote smooth muscle relaxation, reduce inflammation, regulate fluid balance, and address neuromodulatory pathways. Real-world peptides are prioritized from validated research on OAB pathophysiology and treatment; designed peptides are flagged and supplement for purinergic inhibition and additional anti-inflammatory effects to ensure comprehensive coverage.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Overactive Bladder (OAB) p01"
+"Loaded_Programs=Overactive Bladder (OAB) p02"
+"Loaded_Programs=Overactive Bladder (OAB) p03"
+"Loaded_Programs=Overactive Bladder (OAB) p04"
+"Loaded_Programs=Overactive Bladder (OAB) p05"
+"Loaded_Programs=Overactive Bladder (OAB) p06"
+"Loaded_Programs=Overactive Bladder (OAB) p07"
+"Loaded_Programs=Overactive Bladder (OAB) p08"
+"Loaded_Programs=Overactive Bladder (OAB) p09"
+"Loaded_Programs=Overactive Bladder (OAB) p10"
+"Loaded_Programs=Overactive Bladder (OAB) p11"
+"Loaded_Programs=Overactive Bladder (OAB) p12"
+"Loaded_Frequencies=M147.068=1,M57.021,M57.021,M147.068,M101.048,M57.021,M71.037,M156.101,M128.095,M87.032,M71.037,M156.101,M128.095,M113.084,M71.037,M114.043,M128.058,0=4,"
+"Loaded_Frequencies=M102.001=1,M102.001,M129.043,M163.063,M102.001,M102.001,M114.043,M97.053,M71.037,M102.001,M101.048,M57.021,M102.001,M163.063,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,M57.021,M128.095,M156.101,M163.063,M128.095,M128.058,M156.101,M99.068,M128.095,M114.043,M127.111,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M115.027,M99.068,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M97.053,M129.043,M114.043,M87.032,M128.095,M163.063,0=4,"
+"[/Preset]"

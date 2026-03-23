@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Detox Anesthesia (C)"
+"Preset_Notes=Detox Anesthesia for Contact
+
+Anesthesia Detoxification
+
+Anesthesia detoxification involves the process of recovery and clearance of anesthetic agents from the body, addressing side effects such as prolonged sedation, cognitive impairment, nausea, oxidative stress, and potential liver burden post-anesthesia; mechanistic rationale includes peptides that promote wakefulness, enhance detoxification pathways, provide neuroprotection, modulate pain and opioid effects, reduce inflammation, and offer antioxidant support to facilitate faster recovery and mitigate complications; designed peptides are flagged where used to supplement axes like enhanced clearance and cognitive restoration.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Detox Anesthesia p01"
+"Loaded_Programs=Detox Anesthesia p02"
+"Loaded_Programs=Detox Anesthesia p03"
+"Loaded_Programs=Detox Anesthesia p04"
+"Loaded_Programs=Detox Anesthesia p05"
+"Loaded_Programs=Detox Anesthesia p06"
+"Loaded_Programs=Detox Anesthesia p07"
+"Loaded_Programs=Detox Anesthesia p08"
+"Loaded_Programs=Detox Anesthesia p09"
+"Loaded_Programs=Detox Anesthesia p10"
+"Loaded_Programs=Detox Anesthesia p11"
+"Loaded_Programs=Detox Anesthesia p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M147.068,M156.101,M114.043,M57.021,M99.068,M57.021,M101.048,M57.021,M131.040,M128.095,M128.095,M101.048,M87.032,M147.068,M128.058,M156.101,M71.037,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.043,M97.053,M57.021,M129.043,M115.027,M71.037,M97.053,M71.037,M129.043,M115.027,M113.084,M71.037,M156.101,M163.063,M163.063,M87.032,M71.037,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M113.084,M101.048,M156.101,M128.058,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,M101.048,M87.032,M129.043,M128.095,M87.032,M128.058,M101.048,M97.053,M113.084,M99.068,M101.048,M113.084,M147.068,M128.095,M114.043,M71.037,M113.084,M113.084,M128.095,M114.043,M71.037,M163.063,M128.095,M128.095,M57.021,M129.043,0=4,"
+"Loaded_Frequencies=M147.068=1,M57.021,M57.021,M147.068,M101.048,M57.021,M71.037,M156.101,M128.095,M87.032,M71.037,M156.101,M128.095,M113.084,M71.037,M114.043,M128.058,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.04,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M147.068,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M128.058,M113.084,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M87.032,M97.053,M129.043,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M101.048,M137.059,M163.063,M128.058,0=4,"
+"Loaded_Frequencies=M147.068=1,M87.032,M114.043,M129.043,M115.027,M128.095,0=4,"
+"[/Preset]"

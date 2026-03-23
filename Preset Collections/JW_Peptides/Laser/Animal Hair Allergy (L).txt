@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Animal Hair Allergy (L)"
+"Preset_Notes=Animal Hair Allergy for Laser
+
+Animal Hair Allergy is an IgE-mediated type I hypersensitivity primarily to shed proteins in animal dander, saliva, and urine (e.g., major allergens Fel d 1 from cats and Can f 1 from dogs), triggering symptoms such as rhinoconjunctivitis, itching, and asthma.
+1. Allergen-specific immunotherapy: Fel d 1 Peptide 1 - T-cell epitope from Fel d 1 inducing tolerance with minimal IgE binding
+2. Allergen-specific immunotherapy: Fel d 1 Peptide 2 - Overlapping T-cell epitope from Fel d 1 for broader population coverage
+3. Mast cell stabilization: Catestatin - Chromogranin A-derived peptide inhibiting mast cell degranulation and histamine release
+4. Inflammation resolution: Annexin_A1_Ac2-26 - N-terminal annexin A1 mimetic promoting resolution of allergic inflammation
+5. Lipid-modulating immunomodulation: ApoA-I Mimetic Peptide - Designed apolipoprotein A-I mimetic suppressing Th2 responses and airway inflammation
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Animal Hair Allergy p01"
+"Loaded_Programs=Animal Hair Allergy p02"
+"Loaded_Programs=Animal Hair Allergy p03"
+"Loaded_Programs=Animal Hair Allergy p04"
+"Loaded_Programs=Animal Hair Allergy p05"
+"Loaded_Frequencies=M129.043=1,M128.058,M99.068,M71.037,M128.058,M163.063,M128.095,M71.037,M113.084,M97.053,M99.068,M99.068,M113.084,M129.043,M114.043,M71.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M71.037,M113.084,M97.053,M99.068,M99.068,M113.084,M129.043,M114.043,M71.037,M156.101,M113.084,M113.084,M128.095,M114.043,M103.009,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M115.027=1,M186.079,M147.068,M128.095,M71.037,M147.068,M163.063,M115.027,M128.095,M99.068,M71.037,M129.043,M128.095,M147.068,M128.095,M129.043,M71.037,M147.068,0=4,"
+"[/Preset]"

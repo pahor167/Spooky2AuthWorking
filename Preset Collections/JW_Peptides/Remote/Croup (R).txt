@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Croup (R)"
+"Preset_Notes=Croup for Remote
+
+Croup (acute laryngotracheobronchitis) is a common pediatric viral respiratory illness, primarily caused by parainfluenza virus, leading to upper airway inflammation, subglottic edema, barking cough, stridor, and potential distress. The proposed polypeptides target evidence-based therapeutic axes derived from pathophysiology and peptide research on airway inflammation, viral defense, edema resolution, and mucosal repair to reduce symptoms, enhance innate immunity, and promote recovery.
+
+1. Innate antiviral and immunomodulatory defense: LL-37 (cathelicidin) exhibits direct antiviral effects against enveloped respiratory viruses and boosts host immunity.
+2. Airway smooth muscle relaxation and broad anti-inflammation: VIP potently dilates airways and suppresses inflammatory cytokines in respiratory models.
+3. Defensin-mediated broad-spectrum protection: Human Beta-Defensin 3 (hBD-3) provides potent activity against viruses and secondary bacterial threats.
+4. Targeted mucosal anti-inflammatory resolution: KPV (alpha-MSH derivative) reduces inflammation and edema in airway tissues.
+5. Cytoprotective epithelial healing: BPC-157 accelerates mucosal repair and protects against inflammatory damage in respiratory contexts.
+6. Tissue regeneration and antioxidant effects: GHK-Cu supports remodeling and mitigates oxidative stress in lung/airway inflammation.
+7. Non-erythropoietic tissue protection: ARA-290 delivers anti-inflammatory and reparative benefits via EPO receptor agonism.
+8. Optimized cationic helical activity: CroupHelix-Eng, an engineered Ac-FAKFLAKLAKKLL-NH2 peptide for enhanced antimicrobial stability and anti-edema action.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Croup p01"
+"Loaded_Programs=Croup p02"
+"Loaded_Programs=Croup p03"
+"Loaded_Programs=Croup p04"
+"Loaded_Programs=Croup p05"
+"Loaded_Programs=Croup p06"
+"Loaded_Programs=Croup p07"
+"Loaded_Programs=Croup p08"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M189.079=1,M71.037,M128.095,M147.068,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M112.10,0=4,"
+"[/Preset]"

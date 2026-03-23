@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Killing (R)"
+"PresetName=RX Pain Long - DB"
+"Preset_Notes=Cancer Protocol, Extras. Remote Mode.
+
+Update: November 2016.
+
+Dr. Hulda Clark found that most pain in cancer cases is caused by Streptococcus pneumoniae, also called Diplococcus pneumoniae. Dr. Richard Loyd has reported that many sufferers are able to forego pain medication after dealing with this. Use as required, for as long as necessary.
+
+IMPORTANT: this preset kills pathogens. Use ALL Detox (R) - DB on another generator while running this.
+
+PROGRAMS:
+Diplococcus Pneumoniae_1 HC
+Streptococcus Pneumoniae HC
+Pneumococcus CAFL
+Diplococcus Pneumoniae 1 XTRA
+Diplococcus Pneumoniae 2 XTRA
+Streptococcus Pneumoniae CAFL
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost."
+"Loaded_Programs=Diplococcus Pneumoniae_1 (HC)"
+"Loaded_Programs=Streptococcus Pneumoniae (HC)"
+"Loaded_Programs=Pneumococcus (CAFL)"
+"Loaded_Programs=Diplococcus Pneumoniae 1 (XTRA)"
+"Loaded_Programs=Diplococcus Pneumoniae 2 (XTRA)"
+"Loaded_Programs=Streptococcus Pneumoniae (CAFL)"
+"Loaded_Frequencies=351650-386450=3600,"
+"Loaded_Frequencies=366850-370200=3600,"
+"Loaded_Frequencies=231=240,232=240,683=240,846=240,8865=240,"
+"Loaded_Frequencies=892.35=180,904.74=180,17923.34=180,18172.27=180,"
+"Loaded_Frequencies=871.64=180,892.35=180,904.74=180,957.9=180,11250=180,12076.55=180,21978.13=180,"
+"Loaded_Frequencies=231=180,232=180,776=180,766=180,728=180,846=180,8865=180,"
+"[/Preset]"

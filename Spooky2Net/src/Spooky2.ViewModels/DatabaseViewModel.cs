@@ -82,7 +82,7 @@ public partial class DatabaseViewModel : ObservableObject
             {
                 try
                 {
-                    var entries = await _databaseService.LoadDatabase(db);
+                    var entries = await Task.Run(() => _databaseService.LoadDatabase(db));
                     allEntries.AddRange(entries);
                     StatusText = $"Loading... {allEntries.Count:N0} programs";
                 }

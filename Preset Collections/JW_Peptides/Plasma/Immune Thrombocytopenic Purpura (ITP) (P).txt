@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Immune Thrombocytopenic Purpura (ITP) (P)"
+"Preset_Notes=Immune Thrombocytopenic Purpura (ITP) for Plasma
+
+Immune Thrombocytopenic Purpura (ITP) is an autoimmune bleeding disorder characterized by a low platelet count (thrombocytopenia) typically below 100,000 per microliter, leading to an increased risk of bleeding and bruising. The primary causes involve the immune system mistakenly targeting and destroying platelets, often through the production of autoantibodies against platelet surface glycoproteins such as GPIIb/IIIa and GPIb/IX. This can occur as a primary condition or secondary to infections, malignancies, or other autoimmune diseases like SLE. Symptoms range from mild purpura (purple spots on the skin), petechiae, easy bruising, epistaxis (nosebleeds), gingival bleeding, menorrhagia, to severe complications like gastrointestinal or intracranial hemorrhage in cases of very low platelet counts (<10,000/{mu}L). Pathophysiology includes multiple axes: accelerated platelet destruction by macrophages in the spleen via Fc{gamma} receptors binding antibody-coated platelets, impaired platelet production due to autoantibody effects on megakaryocytes in the bone marrow, T cell dysregulation promoting autoreactive B cells, complement activation enhancing destruction, cytokine imbalances (e.g., elevated IL-21 supporting T follicular helper cells), and potential gut microbiome influences on immune tolerance. Chronic ITP persists beyond 12 months and requires ongoing management to prevent bleeding while minimizing treatment side effects.
+
+The proposed polypeptides address ITP through diverse mechanisms targeting its multifaceted pathophysiology. Real-world polypeptides like the romiplostim mimetic peptide and TN14003 stimulate platelet production by activating TPO receptors or mobilizing hematopoietic stem cells via CXCR4 antagonism, respectively, countering impaired megakaryopoiesis. GPIIIa-derived peptides induce antigen-specific tolerance, suppressing autoantibody production and T cell responses against platelet antigens. Designed polypeptides supplement these by targeting uncovered axes: a B cell targeting peptide binds CD20 to deplete autoreactive B cells, reducing autoantibody levels; an Fc{gamma}R blocking peptide inhibits macrophage-mediated platelet phagocytosis; an FcRn inhibitor peptide accelerates autoantibody clearance by blocking IgG recycling; a BTK inhibitor peptide disrupts B cell signaling to halt antibody production; a complement inhibitor peptide blocks the lectin pathway to prevent complement-enhanced destruction; a cytokine modulator peptide neutralizes IL-21 to correct T cell imbalances; an antimicrobial peptide modulates the gut microbiome to enhance immune tolerance; and a T cell modulatory peptide promotes regulatory T cells to suppress autoreactivity. Feasibility includes established biologic delivery methods, with physicochemical considerations like solubility, stability, and bioavailability optimized for therapeutic use. These collectively aim to raise platelet counts, reduce bleeding risk, and achieve remission with minimal immunosuppression.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Immune Thrombocytopenic Purpura (ITP) p01"
+"Loaded_Programs=Immune Thrombocytopenic Purpura (ITP) p02"
+"Loaded_Programs=Immune Thrombocytopenic Purpura (ITP) p03"
+"Loaded_Programs=Immune Thrombocytopenic Purpura (ITP) p04"
+"Loaded_Programs=Immune Thrombocytopenic Purpura (ITP) p05"
+"Loaded_Programs=Immune Thrombocytopenic Purpura (ITP) p06"
+"Loaded_Programs=Immune Thrombocytopenic Purpura (ITP) p07"
+"Loaded_Programs=Immune Thrombocytopenic Purpura (ITP) p08"
+"Loaded_Programs=Immune Thrombocytopenic Purpura (ITP) p09"
+"Loaded_Programs=Immune Thrombocytopenic Purpura (ITP) p10"
+"Loaded_Programs=Immune Thrombocytopenic Purpura (ITP) p11"
+"Loaded_Programs=Immune Thrombocytopenic Purpura (ITP) p12"
+"Loaded_Frequencies=M113.084=1,M129.043,M57.021,M97.053,M101.048,M113.084,M156.101,M128.058,M186.079,M113.084,M71.037,M71.037,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M197.084,M103.009,M163.063,M156.101,M128.095,M128.095,M97.053,M163.063,M156.101,M156.101,M103.009,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M101.048,M156.101,M57.021,M99.068,M87.032,M87.032,M103.009,M128.058,M128.058,M103.009,M113.084,M71.037,M99.068,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M57.021,M57.021,M101.048,M113.084,M156.101,M101.048,M115.027,M113.084,M115.027,M115.027,M87.032,M147.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M97.053,M87.032,M113.084,M128.095,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.095,M128.095,M147.068,M128.095,M103.009,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M147.068,M57.021,M128.058,M115.027,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M113.084,M115.027,M97.053,M156.101,M128.095,M131.040,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M97.053,M186.079,M156.101,M128.095,M114.043,M57.021,0=4,"
+"Loaded_Frequencies=M128.058=1,M115.027,M156.101,M137.059,M131.040,M113.084,M156.101,M131.040,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M147.068,M147.068,M156.101,M128.095,M113.084,M128.095,M128.095,M87.032,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M97.053,M99.068,M113.084,M87.032,M115.027,M87.032,M87.032,M103.009,M128.095,0=4,"
+"[/Preset]"

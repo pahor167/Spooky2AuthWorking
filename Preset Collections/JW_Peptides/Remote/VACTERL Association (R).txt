@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=VACTERL Association (R)"
+"Preset_Notes=VACTERL Association for Remote
+
+VACTERL Association is a rare, non-random cluster of congenital malformations typically defined by the presence of at least three of the following: vertebral defects (V), anal atresia (A), cardiac anomalies (C), tracheo-esophageal fistula/esophageal atresia (TE), renal anomalies (R), and limb abnormalities (L). It occurs sporadically in most cases with an estimated prevalence of 1 in 10,000 to 40,000 live births, often without a clear inheritance pattern, though genetic and environmental factors contribute. Causes include disruptions in early embryonic development during blastogenesis (weeks 3-7 of gestation), involving mesodermal migration and differentiation, leading to defective organogenesis. Genetic factors encompass mutations in SHH signaling pathway genes (e.g., SHH, GLI, ZIC3, FOXF1, HOXD13, FGF8, LPP), ciliopathy-related genes (e.g., IFT172), mitochondrial factors (e.g., TRAP1), and copy number variants; maternal exposures like diabetes, smoking, or teratogens may epigenetically influence these pathways. Symptoms vary by affected systems: vertebral anomalies cause scoliosis/hemivertebrae and mobility issues; anal atresia leads to imperforate anus requiring colostomy; cardiac defects (e.g., VSD, tetralogy of Fallot) result in cyanosis/heart failure; TE fistula causes choking/aspiration pneumonia; renal anomalies (e.g., agenesis, dysplasia) lead to hydronephrosis/renal failure; limb defects (e.g., radial aplasia) impair function. Pathophysiology involves aberrant SHH signaling disrupting ventral-dorsal patterning, ciliary dysfunction impairing cellular signaling cascades, and genetic dysregulation affecting transcription factors critical for mesoderm formation, culminating in multisystem anomalies with potential for hydrocephalus, neurocognitive issues, or associated syndromes like Fanconi anemia.
+
+The proposed polypeptides address VACTERL Association through conceptual mechanisms targeting key developmental axes: designed D1 mimics SHH pathway components to enhance signaling for proper patterning; designed D2 targets ciliary proteins to improve organelle function and signaling; designed D3 modulates ZIC3-like transcription for genetic regulation; designed D4 emulates BMP/FGF elements for bone/limb development; designed D5 counters environmental stressors via epigenetic stabilization. Feasibility: Short sequences ensure physicochemical stability (e.g., resistance to proteolysis, neutral charge), potential for prenatal delivery via amniotic infusion or maternal administration, but require rigorous preclinical testing for teratogenicity, biodistribution to embryonic tissues, and long-term safety in developmental models.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=VACTERL Association p01"
+"Loaded_Programs=VACTERL Association p02"
+"Loaded_Programs=VACTERL Association p03"
+"Loaded_Programs=VACTERL Association p04"
+"Loaded_Programs=VACTERL Association p05"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,M99.068,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M113.084,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M163.063,M137.059,M128.058,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.095,M128.095,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M114.043,M101.048,M57.021,M163.063,0=4,"
+"[/Preset]"

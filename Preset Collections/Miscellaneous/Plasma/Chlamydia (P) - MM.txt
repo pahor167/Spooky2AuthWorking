@@ -1,0 +1,20 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW.txt"
+"Gate_On_Off_Duration_Option=True"
+"PresetName=Chlamydia (P) - MM"
+"Preset_Notes=Chlamydia Plasma preset. By Manuel Mallo
+
+Chlamydia is another dangerous bacteria. Very difficult to get rid of. I hope the method of attacking the integrity of its DNA will render good results.
+
+It has included all the known strains of this bacteria, including the pneumoniae one. 
+
+The preset for Plasma mode has a number of steps, in order to be stopped when neccessary, allowing it to be resumed from the same point.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+Place the plasma tube near to, or touching, your body. Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=MM_Chlamydia (CUST)"
+"Loaded_Frequencies=7370000-7518865.08=14400,7518865.08-7670737.05=14400,7670737.05-7825676.66=14400,7825676.66-7983745.86=14400,7983745.86-8145007.86=14400,8145007.86-8309527.17=14400,8309527.17-8477369.56=14400,"
+"[/Preset]"

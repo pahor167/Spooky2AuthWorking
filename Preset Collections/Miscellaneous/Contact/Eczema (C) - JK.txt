@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=Eczema (C) - JK"
+"Swap_Waveform_Time=90"
+"Preset_Notes=Eczema for Contact by Jeff Kaczor
+
+This is a Contact Mode setup that took me a while to develop.
+
+It utilizes Eczema 2 (XTRA) which when researched, is a frequency set designed to target pathogenic factors.
+
+The frequency set had little effect until I stumbled on this configuration.  It is best used in contact mode -- especially with active outbreaks.
+
+The remote version is recommended only as a way to limit potential outbreaks should you find yourself heading into environments/situations that will expose you to your trigger.
+
+Place TENS pads on either side of the area afflicted.  Do not place above the neck.  For areas above the neck, place on the back of each shoulder.
+
+One application to two applications a day, and then give the body time to respond.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent the buildup of acids during treatment, the polarity of the signal is regularly reversed.
+"
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"F1_Factor=64"
+"F1_Modulation_Type=Modulate F2 using F1 (AM DSB)"
+"User_Defined_1_Waveform=Square"
+"User_Defined_2_Waveform=Square"
+"Manual_Start=False"
+"Out1_Sine=False"
+"Out1_Inverted_Sawtooth=True"
+"Enable_F2_Modulation=1"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=Eczema 2 (XTRA)"
+"Loaded_Frequencies=9.18=180,9.19=180,9.39=180,9.4=180,20=180,120=180,415=180,660=180,664=180,690=180,707=180,727.5=180,770=180,787=180,802=180,916=180,1550=180,2127.5=180,2180=180,2720=180,5000=180,10000=180,"
+"[/Preset]"

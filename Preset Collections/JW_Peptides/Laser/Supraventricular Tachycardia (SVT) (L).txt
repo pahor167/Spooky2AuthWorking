@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Supraventricular Tachycardia (SVT) (L)"
+"Preset_Notes=Supraventricular Tachycardia (SVT) for Laser
+
+Supraventricular Tachycardia (SVT) is a group of cardiac arrhythmias characterized by rapid heart rates originating above the ventricles, typically exceeding 100 beats per minute, often caused by reentrant circuits involving the AV node or accessory pathways, enhanced automaticity in atrial foci, or triggered activity, leading to symptoms like palpitations, chest discomfort, dizziness, or syncope, and potentially complicating into heart failure if prolonged. 
+
+The selected polypeptides address SVT by modulating gap junctions to reduce action potential dispersion and prevent reentry (e.g., AAP family for AV nodal and accessory pathway axes), stabilizing hemodynamics and reducing atrial pressure to mitigate tachycardia effects (natriuretic peptides for hemodynamic stabilization), influencing autonomic control to regulate heart rate (VIP, NPY, Substance P for autonomic modulation), and through designed polypeptides targeting triggered activity and focal automaticity suppression to ensure comprehensive coverage; designed polypeptides are flagged as such and conceptualized to inhibit calcium leak or hyperpolarization channels for feasibility in SVT management, with physicochemical properties optimized for stability and bioavailability.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Supraventricular Tachycardia (SVT) p01"
+"Loaded_Programs=Supraventricular Tachycardia (SVT) p02"
+"Loaded_Programs=Supraventricular Tachycardia (SVT) p03"
+"Loaded_Programs=Supraventricular Tachycardia (SVT) p04"
+"Loaded_Programs=Supraventricular Tachycardia (SVT) p05"
+"Loaded_Programs=Supraventricular Tachycardia (SVT) p06"
+"Loaded_Programs=Supraventricular Tachycardia (SVT) p07"
+"Loaded_Programs=Supraventricular Tachycardia (SVT) p08"
+"Loaded_Programs=Supraventricular Tachycardia (SVT) p09"
+"Loaded_Programs=Supraventricular Tachycardia (SVT) p10"
+"Loaded_Programs=Supraventricular Tachycardia (SVT) p11"
+"Loaded_Programs=Supraventricular Tachycardia (SVT) p12"
+"Loaded_Frequencies=M57.021=1,M97.053,M113.048,M57.021,M71.037,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M57.021,M113.048,M97.053,M162.079,0=4,"
+"Loaded_Frequencies=M205.074=1,M97.053,M113.048,M57.021,M71.037,M56.037,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M156.101,M163.063,M87.032,M128.095,M114.043,M114.043,M57.021,M113.084,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M170.106=1,M128.095,M85.053,M237.148,M150.954,0=4,"
+"Loaded_Frequencies=M101.001=1,M57.021,M113.048,M170.142,M113.084,M237.148,M101.048,M150.954,M99.068,M101.001,0=4,"
+"[/Preset]"

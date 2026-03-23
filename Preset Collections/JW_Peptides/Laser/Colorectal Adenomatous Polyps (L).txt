@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Colorectal Adenomatous Polyps (L)"
+"Preset_Notes=Colorectal Adenomatous Polyps for Laser
+
+Colorectal adenomatous polyps are precancerous lesions driven by dysregulation in proliferation, apoptosis, inflammation, immunity, and gut homeostasis, with high risk of progression to carcinoma via pathways including Wnt activation, metabolic factors, and chronic inflammation. The proposed polypeptides target evidence-based axes for chemoprevention, direct cytostatic/apoptotic effects, immune surveillance, mucosal protection, and optimized anticancer activity.
+
+1. GLP-1 receptor agonism for metabolic chemoprevention and reduced adenoma risk: Exenatide (real), with clinical evidence linking GLP-1 agonists to lower colorectal cancer/polyp incidence.
+2. Cathelicidin antimicrobial peptide for apoptosis induction in dysplastic cells: LL-37 (real), downregulated in CRC and shown to trigger caspase-independent apoptosis in colon cancer models.
+3. Thymic immune modulation for enhanced antitumor surveillance: Thymosin_alpha_1 (real), improves immune function and cytotoxicity against colorectal cancer cells in studies.
+4. Gastric pentadecapeptide for gut mucosal healing and anti-inflammation: BPC-157 (real), supports intestinal integrity and counters inflammatory/proliferative signals.
+5. Actin-regulating fragment for epithelial regeneration: TB-500 (real), promotes tissue repair relevant to maintaining colonic homeostasis.
+6. Innate repair receptor activation for selective anti-inflammation: ARA-290 (real), provides tissue-protective and anti-inflammatory effects without proliferative risks.
+7. Vasoactive intestinal peptide for proliferation and secretion control: VIP (real), modulates gut epithelial growth and inflammatory responses.
+8. Optimized LL-37 core motif for enhanced stability and apoptotic targeting: Ac-FK16-NH2 (designed), N-acetylated and C-amidated derivative of the active FK-16 fragment for improved drug-likeness and potency against adenomatous cells.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Colorectal Adenomatous Polyps p01"
+"Loaded_Programs=Colorectal Adenomatous Polyps p02"
+"Loaded_Programs=Colorectal Adenomatous Polyps p03"
+"Loaded_Programs=Colorectal Adenomatous Polyps p04"
+"Loaded_Programs=Colorectal Adenomatous Polyps p05"
+"Loaded_Programs=Colorectal Adenomatous Polyps p06"
+"Loaded_Programs=Colorectal Adenomatous Polyps p07"
+"Loaded_Programs=Colorectal Adenomatous Polyps p08"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"[/Preset]"

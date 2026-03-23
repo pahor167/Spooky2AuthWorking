@@ -1,0 +1,22 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dog Parvovirus (C)"
+"Preset_Notes=Dog Parvovirus for Contact
+
+Dog Parvovirus, also known as Canine Parvovirus (CPV), is a highly contagious viral disease primarily affecting dogs, especially puppies and unvaccinated adults. It is caused by the Canine Parvovirus type 2 (CPV-2), a single-stranded DNA virus from the Parvoviridae family, which spreads through direct contact with infected feces or contaminated environments. Symptoms include severe vomiting, bloody diarrhea, lethargy, anorexia, fever, and rapid dehydration, often leading to shock and death if untreated. The pathophysiology involves the virus targeting rapidly dividing cells in the bone marrow, lymphoid tissues, and intestinal crypt epithelium, resulting in leukopenia, immunosuppression, villous atrophy, and secondary bacterial infections that exacerbate gastrointestinal damage.
+The proposed polypeptides address Dog Parvovirus through complementary therapeutic axes to inhibit viral progression, bolster host defenses, and support recovery. For antiviral action, a designed polypeptide is proposed that mimics viral capsid-binding motifs to interfere with CPV attachment and entry into enterocytes, potentially reducing viral replication by disrupting the VP2 protein interactions essential for capsid assembly; this conceptual design draws from peptide inhibitors in other viral models, with feasibility supported by their stability and low toxicity in veterinary applications. For immunomodulation, a designed polypeptide enhances innate immunity by stimulating Toll-like receptor pathways to increase interferon-alpha production and natural killer cell activity, aiding in viral clearance without overstimulating cytokines that could worsen symptoms; its short length ensures rapid bioavailability via subcutaneous administration. For tissue repair and anti-inflammation, the real-world GHK peptide promotes collagen synthesis and modulates cytokine release to facilitate intestinal epithelial regeneration and reduce inflammation, addressing the core pathophysiological damage from villous destruction; although primarily studied in wound healing, its application here leverages similar mechanisms in gastrointestinal recovery.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dog Parvovirus p01"
+"Loaded_Programs=Dog Parvovirus p02"
+"Loaded_Programs=Dog Parvovirus p03"
+"Loaded_Frequencies=M156.101=1,M186.079,M99.068,M128.095,M147.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M156.101,M128.095,M99.068,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"[/Preset]"

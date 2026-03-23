@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Dog Arthritis (R)"
+"Preset_Notes=Dog Arthritis for Remote
+
+Dog arthritis, also known as canine osteoarthritis, is a degenerative joint disease commonly affecting older dogs, caused by wear and tear on joints, genetic predisposition, obesity, injury, or underlying conditions like hip dysplasia. Symptoms include limping, stiffness, reluctance to exercise, pain, swelling, and reduced mobility. Pathophysiology involves cartilage breakdown, synovial inflammation, bone remodeling, and release of pro-inflammatory cytokines like IL-1 and TNF-alpha, leading to a vicious cycle of joint degradation. The proposed polypeptides address this through multiple mechanisms: BPC-157 promotes tissue repair by upregulating growth factors and angiogenesis, aiding cartilage regeneration; the designed polypeptide D1 targets inflammation by modulating cytokine pathways; TB-500 enhances anti-inflammatory effects and cell migration for joint healing; the designed polypeptide D2 focuses on pain relief by interacting with nociceptive receptors. Designed polypeptides are flagged as conceptual and tailored for canine use, with feasibility based on physicochemical properties like solubility and stability in joint environments.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Dog Arthritis p01"
+"Loaded_Programs=Dog Arthritis p02"
+"Loaded_Programs=Dog Arthritis p03"
+"Loaded_Programs=Dog Arthritis p04"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M99.068,M128.095,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M156.101,0=4,"
+"[/Preset]"

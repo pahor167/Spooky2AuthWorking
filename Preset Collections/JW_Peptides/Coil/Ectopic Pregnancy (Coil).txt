@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Ectopic Pregnancy (Coil)"
+"Preset_Notes=Ectopic Pregnancy for Coil
+
+Ectopic pregnancy is a potentially life-threatening condition in which a fertilized ovum implants and develops outside the uterine cavity, most commonly (over 95% of cases) in the fallopian tube, with rarer sites including the ovary, cervix, or abdominal cavity. It affects approximately 1-2% of pregnancies and presents with symptoms such as abdominal/pelvic pain, vaginal spotting or bleeding, shoulder-tip pain (from diaphragmatic irritation by hemoperitoneum), and signs of hypovolemic shock in ruptured cases. Risk factors include prior pelvic inflammatory disease, tubal surgery, smoking, advanced maternal age, infertility treatments, and previous ectopic pregnancy. Pathophysiology involves impaired embryo transport due to tubal ciliary dysfunction or structural damage, often from chronic inflammation or scarring, allowing abnormal implantation where invasive trophoblast cells erode the tubal wall, induce local neovascularization through VEGF signaling, and proliferate rapidly in an unsupported site, risking rupture and massive hemorrhage as the pregnancy advances.
+
+The proposed polypeptides are all conceptually designed to target core pathophysiological mechanisms in a multimodal manner, offering potential adjuncts or alternatives to current methotrexate or surgical management by selectively interfering with ectopic progression while promoting tubal preservation. The designed annexin-mimetic polypeptide, derived from the Ac2-26 motif of annexin A1 with N-acetylation for enhanced proteolytic stability, activates formyl peptide receptors to promote active resolution of inflammation, reducing tubal edema and inflammatory damage that exacerbates implantation. The designed pentadecapeptide, based on the stable BPC-157 motif known from preclinical gastric protection studies, supports endothelial and epithelial integrity, facilitating tissue repair and potentially mitigating rupture risk or aiding post-resolution fertility. The designed integrin antagonist, modeled on the disulfide-cyclized RGD-4C scaffold identified via phage display for high-affinity {alpha}v{beta}3 binding, inhibits trophoblast adhesion, invasion into the tubal wall, and associated pathological angiogenesis. The designed kisspeptin-mimetic, derived from the kisspeptin-10 sequence with C-amidation for bioavailability, leverages endogenous regulatory roles in limiting excessive trophoblast migration and invasion observed in placental models. These polypeptides exhibit drug-like properties including small size (10-25 residues), charge balance for solubility, and modifications for stability, supporting feasibility for systemic or targeted local administration in early diagnosed cases.
+
+"
+"Loaded_Programs=Ectopic Pregnancy p01"
+"Loaded_Programs=Ectopic Pregnancy p02"
+"Loaded_Programs=Ectopic Pregnancy p03"
+"Loaded_Programs=Ectopic Pregnancy p04"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M102.001,M156.101,M57.021,M115.027,M102.001,M147.068,M102.001,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"[/Preset]"

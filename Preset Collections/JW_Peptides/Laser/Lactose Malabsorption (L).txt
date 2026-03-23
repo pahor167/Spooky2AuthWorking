@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Lactose Malabsorption (L)"
+"Preset_Notes=Lactose Malabsorption for Laser
+
+Lactose malabsorption is a prevalent gastrointestinal disorder where the small intestine fails to adequately hydrolyze lactose, the disaccharide sugar found in milk and dairy products, due to diminished activity or absence of the brush border enzyme lactase (lactase-phlorizin hydrolase). This leads to undigested lactose reaching the colon, where it undergoes bacterial fermentation, producing short-chain fatty acids, hydrogen, methane, and carbon dioxide, resulting in osmotic diarrhea and gas accumulation. Primary causes include genetic downregulation of lactase expression post-weaning (non-persistence), common in approximately 70% of the global adult population, with higher incidence in Asian, African, Hispanic, and Native American ethnic groups. Secondary forms arise from intestinal damage due to infections (e.g., rotavirus, giardiasis), inflammatory conditions (e.g., Crohn's disease, celiac disease), radiation therapy, or medications affecting mucosal integrity. Congenital lactase deficiency is rare, inherited autosomal recessively, manifesting in infancy. Symptoms manifest 30 minutes to 2 hours post-lactose ingestion and encompass abdominal cramps, bloating, flatulence, watery diarrhea, nausea, borborygmi, and occasionally vomiting or systemic effects like headache and fatigue if severe. Pathophysiology involves osmotic pull drawing water into the bowel lumen, colonic distension from gas, and potential low-grade inflammation from fermentation byproducts, exacerbating visceral hypersensitivity in overlapping conditions like irritable bowel syndrome. Diagnosis typically involves hydrogen breath testing, lactose tolerance tests, or genetic screening for lactase persistence alleles, with management historically focused on dietary avoidance, though this risks nutritional deficiencies in calcium, vitamin D, and protein.
+
+The proposed polypeptides target lactose malabsorption via comprehensive mechanisms covering enzymatic, microbial, inflammatory, motility, analgesic, and barrier axes. The real-world polypeptide secretin enhances endogenous lactase production by stimulating intestinal epithelial cells, offering a hormone-based approach to restore digestive capacity without exogenous enzyme reliance, as supported by patented applications. Designed polypeptides, flagged as such, include lactase-mimetic sequences for direct substrate hydrolysis in the lumen, microbiome-modulating peptides to enrich lactose-fermenting bifidobacteria and lactobacilli while suppressing gas-producing species, anti-inflammatory agents inhibiting cytokine cascades like TNF-{alpha} and NF-{kappa}B to mitigate mucosal irritation, motility regulators emulating VIP or motilin to normalize peristalsis and reduce diarrheal urgency, opioid-like fragments for visceral pain attenuation via mu-receptor binding, bloating reducers targeting carbonic anhydrase or gas pathways, immune modulators balancing Th1/Th2 responses to prevent hypersensitivity, barrier enhancers strengthening tight junctions against osmotic stress, osmotic balancers promoting water reabsorption, gas suppressors degrading hydrogen-producing enzymes, and symptom integrators combining multi-modal relief. Feasibility incorporates short lengths for oral bioavailability, protease resistance via cyclic or D-amino acid motifs (where applicable within rules), and physicochemical optimization for pH stability in the GI tract, drawing from peptide therapeutics in analogous digestive disorders to ensure therapeutic potential.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Lactose Malabsorption p01"
+"Loaded_Programs=Lactose Malabsorption p02"
+"Loaded_Programs=Lactose Malabsorption p03"
+"Loaded_Programs=Lactose Malabsorption p04"
+"Loaded_Programs=Lactose Malabsorption p05"
+"Loaded_Programs=Lactose Malabsorption p06"
+"Loaded_Programs=Lactose Malabsorption p07"
+"Loaded_Programs=Lactose Malabsorption p08"
+"Loaded_Programs=Lactose Malabsorption p09"
+"Loaded_Programs=Lactose Malabsorption p10"
+"Loaded_Programs=Lactose Malabsorption p11"
+"Loaded_Programs=Lactose Malabsorption p12"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M87.032,M101.048,M163.063,M87.032,M113.084,M128.095,M113.084,M128.095,M115.027,M87.032,M87.032,M71.037,M128.095,M113.084,M113.084,M128.095,M113.084,M113.084,M128.095,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M115.027,M113.084,M186.079,M128.058,M131.040,M97.053,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M147.068,M163.063,M113.084,M128.095,M114.043,M101.048,M71.037,M129.043,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M103.009,M97.053,M131.040,M113.084,M128.095,M128.058,M115.027,0=4,"
+"Loaded_Frequencies=M87.032=1,M57.021,M99.068,M101.048,M156.101,M147.068,M113.084,M163.063,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.058,M71.037,M114.043,M131.040,M113.084,M156.101,M115.027,M87.032,0=4,"
+"Loaded_Frequencies=M186.079=1,M128.095,M97.053,M147.068,M137.059,M113.084,M99.068,M101.048,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M114.043,M115.027,M156.101,M128.058,0=4,"
+"Loaded_Frequencies=M131.040=1,M101.048,M147.068,M128.095,M97.053,M129.043,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M97.053=1,M114.043,M156.101,M113.084,M128.058,M71.037,M87.032,M115.027,0=4,"
+"Loaded_Frequencies=M99.068=1,M101.048,M128.095,M137.059,M147.068,M129.043,M131.040,M113.084,0=4,"
+"Loaded_Frequencies=M128.058=1,M113.084,M156.101,M115.027,M87.032,M57.021,M114.043,M97.053,0=4,"
+"[/Preset]"

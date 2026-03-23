@@ -1,0 +1,20 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=Weight Remedy Mix (L)"
+"Preset_Notes=Weight Remedy Mix / Spooky Laser
+
+Estimated Time: Run this preset for 15:00 minutes.
+
+Weight Remedy: The Bach Flower Remedies can help you change unhealthy eating habits and replace them with healthy options. The following remedies can help you active your goals.
+
+Cherry Plum: Helps you have self-control when you are presented by unhealthy choices.
+Chestnut Bud: Helps you learn from past mistakes.
+Crab Apple: Helps you accept who you are and how you look.
+Gentian: Helps you not to get discouraged with small set backs.
+Impatiens: Helps you have patience with yourself.
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Weight Remedy Mix (L)"
+"Loaded_Frequencies=262.01,425.77,359.21,265.67,463.06,"
+"[/Preset]"

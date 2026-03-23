@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Fracture Healing (P)"
+"Preset_Notes=Fracture Healing for Plasma
+
+Fracture healing is a complex regenerative process involving inflammatory, reparative, and remodeling phases to restore bone integrity; therapeutic peptides can enhance osteogenesis, angiogenesis, cell recruitment, and matrix formation to accelerate recovery and improve outcomes in delayed or non-union fractures.
+1. Osteogenic growth stimulation: OGP(10-14) - Activates intracellular signaling to promote osteoblast proliferation/differentiation and strengthen fracture callus.
+2. Regenerative actin sequestration: Thymosin beta-4 - Facilitates cell migration, anti-inflammation, and progenitor recruitment for enhanced bone repair.
+3. Neurogenic acceleration: CGRP - Sensory nerve-derived mediator that promotes vascularization, osteogenesis, and remodeling in healing bone.
+4. Anabolic bone formation: Teriparatide - Activates PTH receptor to stimulate osteoblast activity, improve callus quality, and speed fracture union.
+5. Cell-binding matrix mimicry: P-15 - Integrin-binding collagen analog that enhances osteogenic cell adhesion and bone ingrowth at repair sites.
+6. Fracture-targeted delivery: Asp8-OGP (designed) - Poly-aspartate targets mineral exposure at fracture, locally delivering OGP motif for selective osteogenic boost.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Fracture Healing p01"
+"Loaded_Programs=Fracture Healing p02"
+"Loaded_Programs=Fracture Healing p03"
+"Loaded_Programs=Fracture Healing p04"
+"Loaded_Programs=Fracture Healing p05"
+"Loaded_Programs=Fracture Healing p06"
+"Loaded_Frequencies=M163.063=1,M57.021,M147.068,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,M163.063,M57.021,M147.068,M57.021,M57.021,0=4,"
+"[/Preset]"

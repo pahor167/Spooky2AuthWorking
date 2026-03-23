@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Edema (Caused by Cancer) (L)"
+"Preset_Notes=Edema (Caused by Cancer) for Laser
+
+The condition involves cancer-related edema or lymphedema, resulting from lymphatic obstruction, inflammation, or tumor effects leading to fluid accumulation. 
+
+Polypeptides target lymphangiogenesis to restore lymphatic flow, reduce inflammation to decrease tissue swelling, inhibit fibrosis to prevent scar tissue buildup, and modulate fluid balance. Designed polypeptides supplement where real-world options are limited, focusing on anti-fibrotic mechanisms.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Edema (Caused by Cancer) p01"
+"Loaded_Programs=Edema (Caused by Cancer) p02"
+"Loaded_Programs=Edema (Caused by Cancer) p03"
+"Loaded_Programs=Edema (Caused by Cancer) p04"
+"Loaded_Programs=Edema (Caused by Cancer) p05"
+"Loaded_Programs=Edema (Caused by Cancer) p06"
+"Loaded_Programs=Edema (Caused by Cancer) p07"
+"Loaded_Programs=Edema (Caused by Cancer) p08"
+"Loaded_Programs=Edema (Caused by Cancer) p09"
+"Loaded_Programs=Edema (Caused by Cancer) p10"
+"Loaded_Programs=Edema (Caused by Cancer) p11"
+"Loaded_Programs=Edema (Caused by Cancer) p12"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M101.048=1,M71.037,M113.084,M115.027,M186.079,M87.032,M186.079,M113.084,M128.058,M101.048,M129.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.095,M186.079,M129.043,M156.101,M128.095,M129.043,M101.048,M87.032,M102.001,M156.101,M128.095,M129.043,M113.084,M156.101,M113.084,M57.021,M128.095,M156.101,M156.101,M87.032,M99.068,M129.043,M113.084,M128.095,M129.043,M147.068,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M172.048=1,M340.157,M113.084,M113.048,M237.148,0=4,"
+"Loaded_Frequencies=M102.001=1,M172.048,M340.157,M113.048,M113.084,M102.001,0=4,"
+"[/Preset]"

@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Post-polio Syndrome (S)"
+"Preset_Notes=Post-polio Syndrome for Scalar
+
+Post-polio syndrome (PPS) is a condition affecting polio survivors 15-40 years after initial infection, characterized by progressive muscle weakness, debilitating fatigue, joint/muscle pain, and atrophy due to motor neuron overload, possible chronic inflammation, and metabolic stress.
+
+1. Neuroprotection: Semax - Elevates BDNF and neurotrophins to enhance survival and plasticity of stressed motor neurons.
+2. Anti-stress and immune balance: Selank - Modulates cytokines and reduces anxiety/stress that exacerbate fatigue and symptoms.
+3. Immune modulation: Thymosin_alpha_1 - Stimulates T-cell maturation and function, addressing potential persistent inflammation responsive to IVIG.
+4. Mitochondrial regulation: MOTS-c - Enhances energy metabolism and insulin sensitivity to combat profound physical fatigue.
+5. Pain and sleep restoration: DSIP - Promotes deep sleep and analgesic effects to alleviate chronic pain and exhaustion.
+6. Muscle tissue repair: Thymosin_beta_4 - Regulates actin for improved cell migration, angiogenesis, and muscle remodeling.
+7. Neural regeneration: Pinealon - Tripeptide protecting and restoring pineal and neural cell function in degenerative states.
+8. Motor neuron trophic support: CNTFmim-11 - Designed CNTF-mimetic promoting neuronal survival and differentiation in overloaded motor units.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Post-polio Syndrome p01"
+"Loaded_Programs=Post-polio Syndrome p02"
+"Loaded_Programs=Post-polio Syndrome p03"
+"Loaded_Programs=Post-polio Syndrome p04"
+"Loaded_Programs=Post-polio Syndrome p05"
+"Loaded_Programs=Post-polio Syndrome p06"
+"Loaded_Programs=Post-polio Syndrome p07"
+"Loaded_Programs=Post-polio Syndrome p08"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M99.068=1,M57.021,M115.027,M57.021,M57.021,M113.084,M147.068,M129.043,M128.095,M128.095,M113.084,0=4,"
+"[/Preset]"

@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Alpha-Gal Syndrome (AGS) (L)"
+"Preset_Notes=Alpha-Gal Syndrome (AGS) for Laser
+
+The therapeutic strategy for Alpha-gal syndrome (AGS) focuses on five primary axes: neutralizing circulating IgE antibodies specific to the $\alpha$-Gal epitope to prevent mast cell degranulation, stabilizing effector cells (basophils and mast cells) to mitigate the allergic cascade, enhancing gut barrier integrity to limit the systemic absorption of mammalian-derived glycans, modulating the tick-bite induced immune environment using salivary protein analogs, and promoting systemic immune tolerance through regulatory T-cell induction. Real-world peptides include gut-repairing sequences like BPC-157 and Larazotide, tick-derived immunomodulators like Sialostatin L2 fragments, and IgE-reactive fragments from bovine thyroglobulin. Designed peptides (flagged) complement these by providing targeted decoy mechanisms for IgE binding and intracellular signaling inhibition.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Alpha-Gal Syndrome (AGS) p01"
+"Loaded_Programs=Alpha-Gal Syndrome (AGS) p02"
+"Loaded_Programs=Alpha-Gal Syndrome (AGS) p03"
+"Loaded_Programs=Alpha-Gal Syndrome (AGS) p04"
+"Loaded_Programs=Alpha-Gal Syndrome (AGS) p05"
+"Loaded_Programs=Alpha-Gal Syndrome (AGS) p06"
+"Loaded_Programs=Alpha-Gal Syndrome (AGS) p07"
+"Loaded_Programs=Alpha-Gal Syndrome (AGS) p08"
+"Loaded_Programs=Alpha-Gal Syndrome (AGS) p09"
+"Loaded_Programs=Alpha-Gal Syndrome (AGS) p10"
+"Loaded_Programs=Alpha-Gal Syndrome (AGS) p11"
+"Loaded_Programs=Alpha-Gal Syndrome (AGS) p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M115.027=1,M71.037,M163.063,M101.048,M71.037,M57.021,M71.037,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M102.001,M101.048,M128.095,M102.001,M128.095,M57.021,M87.032,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M115.027,M137.059,M186.079,M99.068,M129.043,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M128.058,M137.059,M57.021,M71.037,M87.032,M101.048,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.095,M115.027,M113.084,M57.021,M114.043,M156.101,M163.063,M101.048,M97.053,0=4,"
+"[/Preset]"

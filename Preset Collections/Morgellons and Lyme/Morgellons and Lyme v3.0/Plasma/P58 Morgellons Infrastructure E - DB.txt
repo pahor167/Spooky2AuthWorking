@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=P58 Morgellons Infrastructure E - DB"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Spooky Plasma.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Disrupt Initiation 2 CUST
+
+Connect OUT 1 to Input, Out 2 to Modulation.
+"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Disrupt Initiation 2 (CUST) High"
+"Loaded_Programs=Disrupt Initiation 2 (CUST)"
+"Loaded_Frequencies=3338777.87=180,3338777.88=180,1669388.93=180,1669388.94=180,3767522.24=180,3767522.25=180,1883761.12=180,1883761.13=180,3677146.55=180,3677146.56=180,1838573.27=180,1838573.28=180,2823176.38=180,2823176.39=180,1411588.19=180,1411588.2=180,4548120.16=180,4548120.17=180,2274060.08=180,2274060.09=180,4374398.5=180,4374398.51=180,2187199.25=180,2187199.26=180,3359690.85=180,3359690.86=180,1679845.42=180,1679845.43=180,3198061.72=180,3198061.73=180,1599030.86=180,1599030.87=180,3055702.34=180,3055702.35=180,1527851.17=180,1527851.18=180,3053751.87=180,3053751.88=180,1526875.93=180,1526875.94=180,2879818.89=180,2879818.9=180,1439909.44=180,1439909.45=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Pause 30 Seconds (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

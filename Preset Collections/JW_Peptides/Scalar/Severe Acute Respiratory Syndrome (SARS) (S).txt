@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Severe Acute Respiratory Syndrome (SARS) (S)"
+"Preset_Notes=Severe Acute Respiratory Syndrome (SARS) for Scalar
+
+Severe Acute Respiratory Syndrome (SARS) is a highly contagious and potentially life-threatening viral respiratory illness caused by the SARS-CoV coronavirus, which emerged in 2002-2003, leading to a global outbreak affecting over 8,000 individuals with a mortality rate of approximately 10%. The primary cause is infection with SARS-CoV, transmitted through respiratory droplets from coughing or sneezing, close personal contact, or touching contaminated surfaces. Symptoms typically appear 2-7 days post-exposure and include high fever (>38 C), chills, headache, body aches, dry cough, and shortness of breath, progressing in severe cases to pneumonia, acute respiratory distress syndrome (ARDS), and multiorgan failure. Pathophysiology begins with viral entry via the spike protein binding to angiotensin-converting enzyme 2 (ACE2) receptors on host cells, particularly in the lungs, leading to viral replication, cell lysis, and activation of innate immune responses. This triggers a dysregulated hyperinflammatory state known as cytokine storm, characterized by excessive release of pro-inflammatory cytokines like IL-6, TNF-{alpha}, and IL-1{beta}, resulting in tissue damage, oxidative stress, endothelial dysfunction, vascular leakage, thrombosis, and involvement of other organs such as the heart, brain, kidneys, and gastrointestinal tract. The RAAS axis is disrupted due to ACE2 downregulation, exacerbating hypertension and inflammation. Neurological manifestations arise from direct viral invasion or indirect immune-mediated damage via the gut-brain axis, while gastrointestinal symptoms stem from ACE2 expression in enterocytes.
+
+The proposed polypeptides target multiple therapeutic axes to mitigate SARS pathology. Thymosin Alpha 1 boosts T-cell maturation and cytokine balance to enhance antiviral immunity and curb excessive inflammation. HEP-1 and SBP1 disrupt spike-ACE2 binding to prevent viral entry. EK1 and HR2P interfere with the heptad repeat regions to block membrane fusion and viral penetration. P9 binds viral envelope to inhibit entry and reduce infectivity. 4F acts as an antioxidant to alleviate oxidative stress and associated epithelial damage. FX06 stabilizes endothelial barriers to prevent vascular leakage and thrombosis. Ac2-26 mimics annexin A1 to suppress pro-inflammatory signaling and cytokine release. Ang-(1-7) restores RAAS balance by promoting vasodilation and anti-inflammatory effects. The designed polypeptides supplement coverage: D1 modulates the gut-brain axis through antimicrobial and barrier-protective actions to reduce systemic inflammation from gut dysbiosis; D2 penetrates the blood-brain barrier to mitigate neuroinflammation and protect neuronal integrity; D3 enhances vascular protection by stabilizing endothelial function; D4 targets viral protease to inhibit replication and limit viral load.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p01"
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p02"
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p03"
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p04"
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p05"
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p06"
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p07"
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p08"
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p09"
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p10"
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p11"
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p12"
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p13"
+"Loaded_Programs=Severe Acute Respiratory Syndrome (SARS) p14"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M101.048=1,M129.043,M128.095,M128.095,M156.101,M156.101,M129.043,M101.048,M99.068,M129.043,M156.101,M129.043,M128.095,M129.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M129.043,M129.043,M128.058,M71.037,M128.095,M101.048,M147.068,M113.084,M115.027,M128.095,M147.068,M114.043,M137.059,M129.043,M71.037,M129.043,M115.027,M113.084,M147.068,M163.063,M128.058,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M115.027,M128.058,M113.084,M114.043,M99.068,M101.048,M147.068,M113.084,M115.027,M113.084,M129.043,M163.063,M129.043,M131.040,M128.095,M128.095,M113.084,M129.043,M129.043,M71.037,M113.084,M128.095,M128.095,M113.084,M129.043,M129.043,M87.032,M163.063,M113.084,M115.027,M113.084,M128.095,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M101.048,M128.058,M113.084,M114.043,M101.048,M101.048,M113.084,M113.084,M115.027,M113.084,M101.048,M163.063,M129.043,M131.040,M113.084,M87.032,M113.084,M128.058,M128.058,M99.068,M99.068,M128.095,M71.037,M113.084,M114.043,M129.043,M87.032,M163.063,M113.084,M115.027,M113.084,M128.095,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M114.043=1,M57.021,M71.037,M113.084,M103.009,M186.079,M57.021,M97.053,M103.009,M97.053,M101.048,M71.037,M147.068,M156.101,M128.058,M113.084,M57.021,M114.043,M103.009,M57.021,M137.059,M147.068,M128.095,M99.068,M156.101,M103.009,M103.009,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M186.079,M147.068,M128.095,M71.037,M147.068,M163.063,M115.027,M128.095,M99.068,M71.037,M129.043,M128.095,M147.068,M128.095,M129.043,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M156.101,M97.053,M113.084,M115.027,M128.095,M128.095,M156.101,M129.043,M129.043,M71.037,M97.053,M87.032,M113.084,M156.101,M97.053,M71.037,M97.053,M97.053,M97.053,M113.084,M87.032,M57.021,M57.021,M57.021,M163.063,M156.101,0=4,"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M147.068,M128.095,M128.095,M147.068,M147.068,M128.095,M128.095,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M128.058=1,M186.079,M147.068,M57.021,M114.043,M156.101,M156.101,M131.040,M128.095,M186.079,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M186.079,M71.037,M113.084,M97.053,M99.068,M113.084,M128.095,M186.079,0=4,"
+"[/Preset]"

@@ -1,0 +1,50 @@
+﻿"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Valerian Constituents for sleep (R) - BW"
+"Force_MW_to_Hz_Factor=2.2523430883E+23"
+"Force_BP_to_Hz_Factor=4.35589935811E+17"
+"Force_Tissue_Factor=1.4142135623730950488016887242"
+"BFB_Finish_Frequency=1800000"
+"BFB_Include_Octave=1"
+"BFB_Include_Sub_Octave=1"
+"BFB_Initial_Step_Size_Hz_Selected=False"
+"BFB_Initial_Step_Size_%=.025"
+"BFB_Initial_Step_Size_%_Selected=True"
+"BFB_Max_Hits_To_Find=0"
+"BFB_Samples_Per_Step=6"
+"BFB_Threshold=.01"
+"BFB_Reverse_Lookup_Tolerance=.25"
+"BFB_Include_x_Hz_In_Search=0"
+"BFB_After_Scan_Run_Hits=0"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=Valerian root. ...Bornyl acetate:  196.2860  /Valerenic acid: 234.334 /Acetoxyvalerenic acid: 292.37 /
+8-Cineol: 154.24932 /Alpha- Pinene: 136.238/Baldrinal: 218.205 /Borneol’s: 154.253 /Bornyl acetate 196.2860 /
+Caffeic acid: 180.1574/Carvacrol: 150.21756/Carvone: 150.218/Caryophyllene: 204.35106/Chlorogenic acid: 354.30872/
+d-limonene: 136.23404 /Didrovaltrate: 424.4847 /Eugenol’s: 164.20108/Formic-Acid: 46.02538/GABA: 103.1198/ 
+gamma-Aminobutyric acid: 103.1198/Geraniol: 154.24932/Isoborneol: 154.2493/ Isovalerate: 102.13 / Isovalerate: 
+101.124/Isoeugenol: 164.20108 /Isovalerianic-Acid: 102.1317 /Kaempferol: 286.236 /Limonene: 136.23404/
+Luteolin: 286.2363 /Myrcene: 136.23404/P-Cymen: 134.21816 /Phenylalanine:  165.1891/Quercetin: 302.2357/
+Sabinene: 136.2340/Stearic-Acid: 284.4772/Stigmasterol: 412.6908/Thymol: 150.2176/Tyrosine: 181.1885/
+Valdiate: 310.4/Valechlorin: 458.932/Valechlorine: 458.932/Valenol’s: 176.168 /Valerenic-Acid: 234.3345/
+Valerenol’s: 220.3505/Valerenal"
+"Schedule_Run_From=07:30 pm"
+"Schedule_Run_To=06:00 am"
+"After_x_Hrs_Stop=False"
+"After_x_Hrs_Advance=True"
+"Advance_When_Complete=True"
+"Out2_Frequency_Limit_Harmonic_Type=Scalar*"
+"User_Defined_2_Waveform=UDB_Square"
+"Out2_Follow_Out1_Frequency=False"
+"Out2_Follows_Program_Frequency=True"
+"Out2_Run_Every_Second_Frequency=False"
+"Out2_Follow_Out1_Wave=False"
+"Enable_MW_Tissue_Factor=0"
+"Enable_DNA_Tissue_Factor=0"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Packing_Frequency_Out1=0"
+"Packing_Frequency_Out2=0"
+"Enable_Invert_Follow_Out1_Wave=0"
+"Notify_When_Program_Advances=0"
+"Loaded_Programs=Valarian Constituents (CUST)"
+"Loaded_Frequencies=M196.2860=60,M234.334=60,M292.37=60,M154.24932=60,M136.238=60,M218.205=60,M154.253=60,M196.2860=60,M180.1574=60,M150.21756=60,M150.218=60,M204.35106=60,M354.30872=60,M136.23404=60,M424.4847=60,M164.20108=60,46.02538=60,M103.1198=60,M154.24932=60,M154.2493=60,M102.13=60,M101.124=60,M164.20108=60,M102.1317=60,M286.236=60,M136.23404=60,M286.2363=60,M136.23404=60,M134.21816=60,M165.1891=60,M302.2357=60,M136.2340=60,M284.4772=60,M412.6908=60,M150.2176=60,M181.1885=60,M310.4=60,M458.932=60,M458.932=60,M176.168=60,M234.3345=60,M220.3505=60,M218.3395400=60,M218.3346=60,M462.4881=60,M422.4697=60,"
+"[/Preset]"

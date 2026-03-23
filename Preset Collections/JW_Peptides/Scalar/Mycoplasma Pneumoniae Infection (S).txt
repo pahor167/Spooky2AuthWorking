@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Mycoplasma Pneumoniae Infection (S)"
+"Preset_Notes=Mycoplasma Pneumoniae Infection for Scalar
+
+Mycoplasma pneumoniae is a bacterial pathogen causing atypical pneumonia, respiratory tract infections, and sometimes extrapulmonary manifestations such as neurological or dermatological issues. 
+
+Peptides target antimicrobial action against the pathogen, immunomodulation to enhance host defense, anti-inflammatory effects to reduce lung damage, and support for respiratory tissue repair. Real-world peptides from validated studies on bacterial infections and mycoplasma are prioritized; designed peptides are flagged for additional biofilm disruption and antioxidant coverage to ensure comprehensive therapeutic axes.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Mycoplasma Pneumoniae Infection p01"
+"Loaded_Programs=Mycoplasma Pneumoniae Infection p02"
+"Loaded_Programs=Mycoplasma Pneumoniae Infection p03"
+"Loaded_Programs=Mycoplasma Pneumoniae Infection p04"
+"Loaded_Programs=Mycoplasma Pneumoniae Infection p05"
+"Loaded_Programs=Mycoplasma Pneumoniae Infection p06"
+"Loaded_Programs=Mycoplasma Pneumoniae Infection p07"
+"Loaded_Programs=Mycoplasma Pneumoniae Infection p08"
+"Loaded_Programs=Mycoplasma Pneumoniae Infection p09"
+"Loaded_Programs=Mycoplasma Pneumoniae Infection p10"
+"Loaded_Programs=Mycoplasma Pneumoniae Infection p11"
+"Loaded_Programs=Mycoplasma Pneumoniae Infection p12"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M156.101,M128.095,M57.021,M57.021,M129.043,M128.095,M113.084,M57.021,M129.043,M128.095,M113.084,M128.095,M128.095,M113.084,M57.021,M128.058,M128.095,M113.084,M128.095,M114.043,M147.068,M147.068,M128.058,M128.095,M113.084,M99.068,M97.053,M128.058,M97.053,M129.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M87.032,M156.101,M113.084,M99.068,M97.053,M71.037,M113.084,M97.053,M99.068,M87.032,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M113.084,M156.101,M57.021,M99.068,M103.009,M128.095,M128.095,M113.084,M131.040,M156.101,M101.048,M147.068,M113.084,M156.101,M156.101,M113.084,M87.032,M128.095,M115.027,M113.084,M113.084,M101.048,M57.021,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M186.079,M87.032,M128.095,M113.084,M129.043,M128.095,M129.043,M57.021,M71.037,M113.084,M128.095,M128.095,M71.037,M71.037,M128.095,M71.037,M71.037,M113.084,M71.037,M71.037,M71.037,M128.095,M71.037,M113.084,M99.068,M71.037,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M163.063,M114.043,M102.001,M99.068,M87.032,M87.032,M57.021,M57.021,M128.058,M102.001,M113.084,M163.063,M87.032,M71.037,M102.001,M97.053,M113.084,M147.068,M101.048,M128.095,M113.084,M128.058,M57.021,M101.048,M102.001,M163.063,M156.101,M57.021,M128.095,M128.095,M71.037,M102.001,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M147.068,M97.053,M99.068,M114.043,M113.084,M147.068,M97.053,M99.068,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.084,M128.058,M97.053,M71.037,M113.084,M128.058,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M156.101,M128.058,M87.032,M97.053,M99.068,M102.001,0=4,"
+"[/Preset]"

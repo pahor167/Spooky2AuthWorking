@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Acidic Urine (P)"
+"Preset_Notes=Acidic Urine for Plasma
+
+Acidic urine is characterized by a persistently low pH (typically below 5.5), promoting uric acid crystallization and increasing the risk of kidney stones, often linked to hyperuricemia, insulin resistance, metabolic syndrome, or high dietary acid load.
+
+1. GLP-1 receptor agonism: Semaglutide - Long-acting GLP-1 analog that lowers serum uric acid levels, improves insulin sensitivity, and reduces kidney stone risk, indirectly supporting urine pH normalization.
+2. Dual GLP-1/GIP receptor agonism: Tirzepatide - Dual incretin agonist enhancing metabolic control, weight loss, and urate management beyond single GLP-1 agonism for greater mitigation of acidic urine drivers.
+3. Direct pH buffering: Carnosine - Naturally occurring dipeptide ({beta}-alanyl-L-histidine) providing histidine imidazole-mediated buffering capacity against acid loads.
+4. Natriuretic signaling: ANP - Atrial natriuretic peptide increasing urine volume through natriuresis and diuresis, diluting urinary acids and facilitating pH stabilization.
+5. Adrenomedullin signaling: Adrenomedullin - Potent vasodilatory peptide promoting renal perfusion and diuresis to aid acid excretion and reduce urine acidity.
+6. Enhanced imidazole buffering: His6-buffer - Designed acetylated poly-histidine hexapeptide delivering multiple imidazole groups for superior proton capture and buffering in the low pH urine environment.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Acidic Urine p01"
+"Loaded_Programs=Acidic Urine p02"
+"Loaded_Programs=Acidic Urine p03"
+"Loaded_Programs=Acidic Urine p04"
+"Loaded_Programs=Acidic Urine p05"
+"Loaded_Programs=Acidic Urine p06"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M113.084,M85.053,M113.084,M115.027,M128.095,M113.084,M128.058,M85.053,M71.037,M147.068,M99.068,M128.058,M186.079,M113.084,M113.084,M57.021,M97.053,M97.053,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M179.070=1,M137.059,M137.059,M137.059,M137.059,M137.059,M136.075,0=4,"
+"[/Preset]"

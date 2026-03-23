@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Breast Enlargement (S)"
+"Preset_Notes=Breast Enlargement for Scalar
+
+Breast enlargement involves enhancing mammary gland volume through hormonal stimulation, adipose deposition, extracellular matrix remodeling, collagen support, angiogenesis, and tissue regeneration. The proposed polypeptides target evidence-based axes from literature on GH/IGF-1, relaxin, prolactin, and growth factor pathways, using real-world options where mechanistically relevant and engineered designs for optimization and coverage.
+
+1. Growth hormone release and IGF-1 elevation: Ipamorelin stimulates GH secretion, elevating IGF-1 to support mammary cell proliferation and tissue growth.
+2. Collagen and ECM enhancement: GHK-Cu promotes collagen synthesis and glycosaminoglycan production for structural firmness and volume support.
+3. Cell migration and angiogenesis: TB-500 enhances actin dynamics, cell migration, and new vessel formation to facilitate tissue expansion.
+4. Tissue stabilization and regeneration: BPC-157 protects and regenerates tissues, potentially aiding overall mammary health and growth.
+5. ECM remodeling: Relax-Eng, an engineered peptide derived from relaxin B-chain motifs (Ac-GRELVRAQIAIGMSTWS-NH2), facilitates controlled matrix relaxation for tissue accommodation.
+6. IGF-1 signaling mimicry: IGF-Eng, an engineered peptide based on IGF-1 core domain (Ac-TLCGAELVDALQFVCGDR-NH2), provides direct growth signaling.
+7. Adipogenesis promotion: Adipo-Eng, an engineered peptide inspired by growth factor motifs (Ac-YADAIFTNSYRK V-NH2), encourages mammary fat pad adipocyte development.
+8. Multi-target tissue optimization: Volume-Eng, a novel engineered peptide combining regenerative motifs (Ac-KPVGHKGPADDAGLV-NH2), synergizes collagen, protection, and growth effects.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Breast Enlargement p01"
+"Loaded_Programs=Breast Enlargement p02"
+"Loaded_Programs=Breast Enlargement p03"
+"Loaded_Programs=Breast Enlargement p04"
+"Loaded_Programs=Breast Enlargement p05"
+"Loaded_Programs=Breast Enlargement p06"
+"Loaded_Programs=Breast Enlargement p07"
+"Loaded_Programs=Breast Enlargement p08"
+"Loaded_Frequencies=M85.053=1,M137.059,M205.074,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M99.032=1,M156.101,M129.043,M113.084,M99.068,M156.101,M71.037,M128.058,M113.084,M71.037,M113.084,M57.021,M131.040,M87.032,M101.048,M186.079,M86.048,0=4,"
+"Loaded_Frequencies=M143.059=1,M113.084,M103.009,M57.021,M71.037,M129.043,M113.084,M99.068,M115.027,M71.037,M113.084,M128.058,M147.068,M99.068,M103.009,M57.021,M115.027,M155.117,0=4,"
+"Loaded_Frequencies=M205.074=1,M71.037,M115.027,M71.037,M113.084,M147.068,M101.048,M114.043,M87.032,M163.063,M156.101,M128.095,M98.084,0=4,"
+"Loaded_Frequencies=M170.106=1,M97.053,M99.068,M57.021,M137.059,M128.095,M57.021,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M98.084,0=4,"
+"[/Preset]"

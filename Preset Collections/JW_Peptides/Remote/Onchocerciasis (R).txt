@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Onchocerciasis (R)"
+"Preset_Notes=Onchocerciasis for Remote
+
+Onchocerciasis, also known as river blindness, is a parasitic disease caused by the filarial nematode Onchocerca volvulus, transmitted through repeated bites by blackflies of the genus Simulium. The causes include infection with O. volvulus microfilariae that migrate through the skin and eyes, leading to intense itching, skin depigmentation, nodules, and ocular lesions. Symptoms include severe pruritus, dermatitis, subcutaneous nodules, lymphadenitis, and in advanced cases, visual impairment or blindness due to corneal opacity, uveitis, and optic atrophy. Pathophysiology involves the release of Wolbachia bacterial endosymbionts upon microfilarial death, triggering inflammatory responses via TLR4, eosinophil activation, cytokine storms (IL-5 axis), and immune evasion by the parasite, resulting in chronic inflammation, fibrosis, and neurological complications like epilepsy in some regions.
+
+The proposed polypeptides include real-world epitope peptides from O. volvulus vaccine candidates that address immune modulation to enhance protective responses. Due to limited real-world small polypeptides identified from verifiable sources (only 3 from PMC articles on linear epitopes), all available are included, with shortfall documented; the set is supplemented with designed polypeptides to meet total requirements. Designed polypeptides (flagged) conceptually target microfilaricidal action through membrane disruption, macrofilaricidal by Wolbachia inhibition, larvicidal by interfering with development, anti-inflammatory by cytokine modulation, and neuroprotective by reducing neuroinflammation. Feasibility includes stability, low toxicity, and potential delivery via oral or topical routes; modes of action involve direct parasite killing, endosymbiont depletion, immune enhancement, and inflammation suppression; physicochemical considerations include charge for solubility, non-standard residues for specificity, and cyclic structures for stability.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Onchocerciasis p01"
+"Loaded_Programs=Onchocerciasis p02"
+"Loaded_Programs=Onchocerciasis p03"
+"Loaded_Programs=Onchocerciasis p04"
+"Loaded_Programs=Onchocerciasis p05"
+"Loaded_Programs=Onchocerciasis p06"
+"Loaded_Programs=Onchocerciasis p07"
+"Loaded_Programs=Onchocerciasis p08"
+"Loaded_Programs=Onchocerciasis p09"
+"Loaded_Programs=Onchocerciasis p10"
+"Loaded_Programs=Onchocerciasis p11"
+"Loaded_Programs=Onchocerciasis p12"
+"Loaded_Programs=Onchocerciasis p13"
+"Loaded_Programs=Onchocerciasis p14"
+"Loaded_Programs=Onchocerciasis p15"
+"Loaded_Programs=Onchocerciasis p16"
+"Loaded_Programs=Onchocerciasis p17"
+"Loaded_Programs=Onchocerciasis p18"
+"Loaded_Frequencies=M128.058=1,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M156.101,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M101.048,M101.048,M129.043,M114.043,M87.032,M87.032,M87.032,M113.084,M115.027,M87.032,M114.043,M114.043,0=4,"
+"Loaded_Frequencies=M147.068=1,M156.101,M129.043,M101.048,M131.040,M87.032,M114.043,M97.053,M128.095,M131.040,M115.027,M147.068,M101.048,M114.043,M128.095,M129.043,M114.043,M128.095,M186.079,M129.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M113.048,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M114.079,M86.048,M57.021,M113.048,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M100.064,M85.053,M128.095,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M113.048,M150.954,M147.068,M163.063,M128.095,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M113.048,M99.068,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M150.954,M100.064,M57.021,M86.048,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M97.053,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M113.048,M86.048,M115.027,M100.064,M114.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M85.053,M128.095,M113.048,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M100.064,M113.048,M57.021,M114.079,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M97.053,M150.954,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M114.079,M86.048,M128.095,M100.064,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M113.048,M114.079,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M100.064,M150.954,M57.021,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M100.064,M113.048,M150.954,M102.001,0=4,"
+"[/Preset]"

@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Atrial Flutter (C)"
+"Preset_Notes=Atrial Flutter for Contact
+
+Atrial flutter is a supraventricular arrhythmia characterized by rapid, regular atrial activation (typically 240-320 bpm) due to a macro-re-entrant circuit, often in the right atrium, leading to palpitations, fatigue, or hemodynamic compromise. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical studies, investigational trials, and mechanistic research on arrhythmia prevention, conduction, remodeling, repair, and inflammation.
+1. Gastric pentadecapeptide cardioprotection: BPC-157 counteracts diverse induced arrhythmias (e.g., hyperkalemia, digitalis) and preserves cardiac rhythm and function.
+2. Modified antiarrhythmic hexapeptide conduction enhancement: Rotigaptide improves gap junction coupling, increases atrial conduction velocity, and reduces arrhythmia vulnerability.
+3. Acetylated tetrapeptide fibrosis suppression: Ac-SDKP inhibits atrial structural remodeling and collagen deposition that perpetuates re-entrant circuits.
+4. Copper-binding tripeptide tissue regeneration: GHK-Cu promotes extracellular matrix repair, antioxidant activity, and regenerative processes in cardiac tissue.
+5. Melanocortin-derived anti-inflammatory tripeptide: Ac-KPV-NH2 potently suppresses pro-inflammatory cytokines relevant to arrhythmia maintenance.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Atrial Flutter p01"
+"Loaded_Programs=Atrial Flutter p02"
+"Loaded_Programs=Atrial Flutter p03"
+"Loaded_Programs=Atrial Flutter p04"
+"Loaded_Programs=Atrial Flutter p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M205.074=1,M97.053,M113.048,M57.021,M71.037,M56.037,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"[/Preset]"

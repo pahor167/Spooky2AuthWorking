@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Type 1 Diabetes (Coil)"
+"Preset_Notes=Type 1 Diabetes for Coil
+
+Type 1 Diabetes is an autoimmune disorder characterized by progressive destruction of pancreatic beta cells, leading to absolute insulin deficiency. The pathophysiology involves complex interactions between genetic predisposition, environmental triggers, and immune dysregulation. Key mechanisms include autoreactive T-cell activation against beta-cell antigens (particularly GAD65, insulin, IA-2), inflammatory cytokine release (IL-1, TNF-alpha, IFN-gamma), oxidative stress damage, and failure of regulatory immune mechanisms. This results in hyperglycemia, metabolic dysregulation, and long-term complications affecting multiple organ systems.
+
+Therapeutic axes addressed:
+1. Autoimmune pathway modulation: GAD65 peptide induces antigen-specific tolerance by presenting beta-cell antigens to regulatory T-cells, reducing autoimmune attack while preserving general immune function.
+2. Beta cell regeneration/protection: Exendin-4 activates GLP-1 receptors on remaining beta cells and progenitor cells, stimulating insulin secretion, enhancing cell survival, and promoting beta-cell neogenesis through cAMP-dependent pathways.
+3. Islet transplantation support: Thymosin alpha-1 modulates dendritic cell maturation and enhances regulatory T-cell function, creating a tolerogenic environment that improves islet graft survival and reduces rejection.
+4. Mesenchymal stem cell recruitment: CXCR4 antagonist peptide blocks SDF-1/CXCR4 signaling, mobilizing endogenous MSCs to pancreatic sites where they exert immunomodulatory effects and support tissue repair through paracrine signaling.
+5. Ion channel modulation: Kv1.3 channel blocker peptide selectively inhibits effector memory T-cells involved in beta-cell destruction while sparing naive and regulatory T-cells, providing targeted immunomodulation with reduced systemic effects.
+6. Exosome targeting: CD63-binding peptide functionalizes therapeutic exosomes for targeted delivery to pancreatic islet cells, enhancing local concentration of immunomodulatory cargo while minimizing off-target effects.
+7. Cytokine neutralization: IL-1 receptor antagonist peptide competitively binds IL-1 receptors on beta cells and immune cells, blocking pro-inflammatory signaling cascades that drive beta-cell apoptosis and immune activation.
+8. Antigen-specific tolerance: Covered by GAD65 peptide in axis 1, providing dual mechanism for autoimmune regulation.
+9. Oxidative stress reduction: SOD mimetic peptide catalytically scavenges superoxide radicals in pancreatic islets, protecting remaining beta cells from oxidative damage and preserving function during inflammatory episodes.
+10. Gut-immune axis modulation: GLP-2 analog enhances intestinal barrier integrity and modulates gut microbiome composition, reducing systemic endotoxin exposure that can trigger or exacerbate autoimmune responses against beta cells.
+
+"
+"Loaded_Programs=Type 1 Diabetes p01"
+"Loaded_Programs=Type 1 Diabetes p02"
+"Loaded_Programs=Type 1 Diabetes p03"
+"Loaded_Programs=Type 1 Diabetes p04"
+"Loaded_Programs=Type 1 Diabetes p05"
+"Loaded_Programs=Type 1 Diabetes p06"
+"Loaded_Programs=Type 1 Diabetes p07"
+"Loaded_Programs=Type 1 Diabetes p08"
+"Loaded_Programs=Type 1 Diabetes p09"
+"Loaded_Frequencies=M147.068=1,M131.040,M128.095,M113.084,M103.009,M115.027,M71.037,M114.043,M115.027,M115.027,M147.068,M129.043,M163.063,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M128.059=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M71.037,M128.095,M113.084,M129.043,M128.095,M128.095,M156.101,M128.095,M128.095,M129.043,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M128.095,M128.095,M156.101,M128.095,M103.009,M128.095,M156.101,M71.037,M103.009,M128.095,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M103.009=1,M103.009,M97.053,M103.009,M103.009,M71.037,M71.037,M71.037,M128.095,M128.095,M128.095,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M156.095=1,M113.084,M113.084,M128.095,M128.095,M128.095,M113.084,M113.084,M113.084,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M103.009,M113.084,M71.037,M128.095,M103.009,M128.095,M103.009,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M128.095,M113.084,M101.048,M115.027,M101.048,M113.084,0=4,"
+"[/Preset]"

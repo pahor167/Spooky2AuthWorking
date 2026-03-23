@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Scabies (C)"
+"Preset_Notes=Scabies for Contact
+
+Scabies is a highly contagious skin infestation caused by the mite Sarcoptes scabiei, leading to severe itching, papular rash, and burrows in the skin due to the mite's lifecycle and the host's hypersensitive immune response. 
+
+The proposed polypeptides target multiple therapeutic axes to comprehensively manage scabies. Scabicidal polypeptides disrupt mite physiology, such as ion channels or membranes, to eliminate the parasite. Anti-pruritic polypeptides modulate non-histaminergic pathways like PAR2 to alleviate itch. Anti-inflammatory polypeptides reduce Th2 cytokines (e.g., IL-4, IL-13, IL-31) to dampen inflammation. Antimicrobial polypeptides combat secondary bacterial infections from scratching. Immunomodulatory polypeptides balance T-cell responses and eosinophil activity. Wound healing polypeptides promote epithelial repair and barrier function. Designed polypeptides are flagged where used as conceptual supplements for coverage.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Scabies p01"
+"Loaded_Programs=Scabies p02"
+"Loaded_Programs=Scabies p03"
+"Loaded_Programs=Scabies p04"
+"Loaded_Programs=Scabies p05"
+"Loaded_Programs=Scabies p06"
+"Loaded_Programs=Scabies p07"
+"Loaded_Programs=Scabies p08"
+"Loaded_Programs=Scabies p09"
+"Loaded_Programs=Scabies p10"
+"Loaded_Programs=Scabies p11"
+"Loaded_Programs=Scabies p12"
+"Loaded_Frequencies=M87.032=1,M97.053,M101.048,M102.001,M113.084,M97.053,M87.032,M57.021,M128.058,M97.053,M102.001,M97.053,M163.063,M114.043,M129.043,M114.043,M102.001,M102.001,M87.032,M128.058,M87.032,M102.001,M101.048,M147.068,M128.095,M129.043,M114.043,M129.043,M114.043,M57.021,M114.043,M101.048,M99.068,M128.095,M156.101,M102.001,M115.027,0=4,"
+"Loaded_Frequencies=M156.101=1,M163.063,M113.084,M97.053,M101.048,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M137.059,M137.059,M113.084,M147.068,M156.101,M57.021,M113.084,M99.068,M137.059,M71.037,M57.021,M156.101,M87.032,M113.084,M57.021,M156.101,M147.068,M113.084,M101.048,M57.021,0=4,"
+"Loaded_Frequencies=M71.037=1,M71.037,M114.043,M147.068,M57.021,M97.053,M87.032,M99.068,M147.068,M101.048,M97.053,M129.043,M99.068,M137.059,M129.043,M101.048,M186.079,M128.058,M128.095,M147.068,M113.084,M114.043,M99.068,M99.068,M99.068,M71.037,M71.037,M113.084,M57.021,M128.095,M128.058,M163.063,M137.059,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M71.037,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M186.079,M128.095,M101.048,M131.040,M113.084,M128.095,M128.095,M113.084,M57.021,M101.048,M131.040,M71.037,M113.084,M137.059,M71.037,M57.021,M128.095,M71.037,M71.037,M113.084,M57.021,M71.037,M71.037,M71.037,M115.027,M101.048,M113.084,M87.032,M128.058,M57.021,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M97.053,M113.084,M113.084,M57.021,M156.101,M99.068,M113.084,M87.032,M57.021,M113.084,M112.100,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M102.001,M137.059,M97.053,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M102.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M102.001,M102.001,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M86.048,M156.101,M128.095,M114.079,M137.059,M97.053,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M237.148,M128.095,M156.101,M86.048,M147.068,M113.084,M113.084,M128.058,M99.068,0=4,"
+"[/Preset]"

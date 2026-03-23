@@ -1,0 +1,56 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Cholinergic Urticaria From Topical Steroid Withdrawal (L)"
+"Preset_Notes=Cholinergic Urticaria From Topical Steroid Withdrawal for Laser
+
+Cholinergic Urticaria, Topical Steroid Withdrawal (TSW), and Multi-System Complications
+
+Comprehensive peptide therapy addressing complex multi-system presentation: Cholinergic urticaria with mast cell activation, severe topical steroid withdrawal with skin barrier failure, diffuse hair loss (telogen effluvium pattern), severe IBS with suspected post-infectious/IBS-D component, suspected endometriosis with pelvic inflammation, anemia of chronic inflammation with iron dysregulation, recurrent staphylococcal and fungal skin infections secondary to TSW barrier disruption, chronic fatigue syndrome, and cold-induced bone pain suggesting altered bone metabolism.
+
+1. Cholinergic urticaria anti-inflammatory: Ac-KPV-NH2 - Alpha-MSH derivative with potent anti-inflammatory activity; inhibits mast cell activation and NF-kB signaling; TSW-related skin inflammation suppression
+2. Topical steroid withdrawal tissue repair: BPC-157 - Multi-domain cytoprotective peptide; accelerates wound healing; modulates NO synthesis; restores skin barrier integrity during TSW; systemic tissue repair
+3. Hair follicle regeneration: GHK-Cu - Copper-binding tripeptide; upregulates hair growth-related genes; increases hair follicle size; promotes collagen synthesis in scalp; stimulates vascularization
+4. IBS gut motility and inflammation: VIP - Vasoactive intestinal peptide; relaxes smooth muscle; anti-inflammatory in gut; modulates immune response; reduces visceral hypersensitivity in severe IBS
+5. Endometriosis suppression: z13 - Endometriosis-suppressing peptide; modulates ectopic endometrial cell adhesion and proliferation; anti-inflammatory in pelvic cavity; blocks angiogenesis in lesions
+6. Antimicrobial defense (staph/fungal): CIT-8 - Amphipathic antimicrobial peptide; membrane-disrupting activity against Staphylococcus aureus; broad-spectrum antimicrobial for TSW-related skin infections; antifungal properties
+7. Systemic antimicrobial immunity: LL-37 - Human cathelicidin-derived antimicrobial peptide; primary defense against S. aureus; modulates inflammatory response; promotes wound healing; active against biofilms
+8. IBS symptom control: ROSE-010 - GLP-1 analog with extended half-life; suppresses postprandial IBS symptoms; modulates gut motility; reduces visceral pain; targets Rome III criteria symptoms
+9. Iron regulation and anemia: Hepcidin-25 - Master iron regulatory hormone; controls iron absorption and distribution; binds ferroportin to regulate iron export; addresses anemia of chronic inflammation; stabilizes iron status
+10. Fungal infection clearance: Melittin - Bee venom antimicrobial peptide; potent antifungal and antibacterial activity; disrupts microbial membranes; effective against biofilm-forming pathogens; TSW skin protection
+11. Bone pain and skeletal support: BoneSupport-1 - Designed RGD-containing heptapeptide; mimics osteogenic growth peptide activity; promotes osteoblast adhesion and differentiation; addresses cold-induced bone ache through matrix interaction
+12. Fatigue and metabolic support: EnergyMetab-1 - Designed heptapeptide; supports mitochondrial ATP production; enhances cellular energy metabolism; addresses chronic fatigue through metabolic pathway optimization; complements iron regulation
+13. Mast cell stabilization in urticaria: MastStab-1 - Designed cysteine-rich heptapeptide; stabilizes mast cell membranes; prevents histamine release in cholinergic triggers; dual disulfide bridge potential; reduces urticaria flare frequency
+14. Intestinal barrier integrity: GutBarrier-1 - Designed cationic heptapeptide; enhances tight junction protein expression; reduces intestinal permeability in severe IBS; protects against bacterial translocation; complements VIP and ROSE-010
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p01"
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p02"
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p03"
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p04"
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p05"
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p06"
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p07"
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p08"
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p09"
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p10"
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p11"
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p12"
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p13"
+"Loaded_Programs=Cholinergic Urticaria From Topical Steroid Withdrawal p14"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M156.101,M71.037,M115.027,M114.043,M156.101,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M147.068,M128.095,M99.068,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M57.043,M71.037,M71.037,M128.095,M129.043,M147.068,M71.037,M99.068,M186.079,M113.084,M99.068,M128.095,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M101.048,M137.059,M147.068,M97.053,M102.001,M102.001,M102.001,M147.068,M102.001,M102.001,M57.021,M102.001,M102.001,M137.059,M156.101,M87.032,M128.095,M102.001,M57.021,M131.040,M102.001,M102.001,M128.095,M100.040,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M57.021,M115.027,M87.032,M97.053,M101.048,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M115.027,M147.068,M99.068,M71.037,M87.032,0=4,"
+"Loaded_Frequencies=M103.009=1,M156.101,M71.037,M103.009,M128.095,M103.009,M103.009,M99.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M87.032,M147.068,M156.101,M156.101,M57.021,0=4,"
+"[/Preset]"

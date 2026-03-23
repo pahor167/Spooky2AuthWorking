@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Lowe Syndrome (L)"
+"Preset_Notes=Lowe Syndrome for Laser
+
+Lowe Syndrome, also known as oculocerebrorenal syndrome of Lowe, is a rare X-linked multisystem disorder caused by mutations in the OCRL gene, which encodes an inositol polyphosphate 5-phosphatase enzyme critical for phosphoinositide metabolism, leading to accumulation of PI(4,5)P2 and disruptions in endocytic trafficking, actin cytoskeleton dynamics, primary cilia formation, and cellular signaling pathways. Genetic defects result in impaired lysosomal function, mitochondrial abnormalities, and altered protein trafficking, with potential environmental modifiers exacerbating symptoms. Clinical manifestations appear in infancy, including bilateral congenital cataracts causing visual impairment, glaucoma, hypotonia, developmental delays, intellectual disability ranging from mild to severe, behavioral issues such as stereotypies and tantrums, seizures, proximal renal tubulopathy with Fanconi-like syndrome featuring aminoaciduria, phosphaturia, low-molecular-weight proteinuria, and progressive renal failure, growth retardation, and skeletal abnormalities like rickets or scoliosis. The pathophysiology involves defective phosphoinositide hydrolysis, leading to aberrant RhoGTPase and mTOR signaling, impaired ciliogenesis, enhanced Notch signaling, and neuronal hyperexcitability, culminating in multi-organ dysfunction and reduced life expectancy often into adulthood with supportive care.
+
+The proposed designed polypeptides target core therapeutic axes in Lowe Syndrome. For the mTOR signaling axis, the first designed polypeptide inhibits mTOR hyperactivation, restoring autophagic-lysosomal function and ciliogenesis to alleviate neuronal and renal phenotypes. For the RhoGTPase signaling axis, the second designed polypeptide modulates Rho activity, improving cell adhesion, actin remodeling, and endocytic trafficking to mitigate cytoskeletal defects. For the primary cilia assembly axis, the third designed polypeptide enhances ciliary protein trafficking, correcting sensory and signaling deficits in affected tissues. For the PI(4,5)P2 modulation axis, the fourth designed polypeptide mimics OCRL phosphatase activity, reducing lipid accumulation and downstream inflammatory responses. These designs leverage short sequences for enhanced cellular uptake and stability, with feasibility supported by their targeted mechanisms and potential for intrathecal or systemic delivery to address the syndrome's neurological, ocular, and renal aspects.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Lowe Syndrome p01"
+"Loaded_Programs=Lowe Syndrome p02"
+"Loaded_Programs=Lowe Syndrome p03"
+"Loaded_Programs=Lowe Syndrome p04"
+"Loaded_Frequencies=M137.059=1,M101.048,M156.101,M128.095,M163.063,M156.101,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M113.084,M128.058,M156.101,M128.095,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M147.068,M99.068,M114.043,M131.040,M128.095,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M163.063,M137.059,M156.101,M87.032,0=4,"
+"[/Preset]"

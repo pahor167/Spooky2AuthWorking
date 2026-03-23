@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Slipped Disc (Coil)"
+"Preset_Notes=Slipped Disc for Coil
+
+Slipped disc involves extrusion of the nucleus pulposus through the annulus fibrosus, causing local inflammation, nerve root compression with radiculopathy/sciatica, acute/chronic pain, and progressive disc degeneration. The proposed polypeptides target evidence-based therapeutic axes identified from literature searches, prioritizing specialized options for disc repair, cell survival, neuropathic pain, degeneration modulation, healing, and remodeling.
+
+1. Intervertebral disc matrix regeneration: Link-N stimulates proteoglycan synthesis and ECM repair in degenerative discs.
+2. Disc cell anti-apoptosis and repair: Thymosin_beta_4 prevents apoptosis in human annulus cells and supports tissue maintenance.
+3. Neuropathic radicular pain relief: ARA-290 activates innate repair receptor to alleviate neuropathy and inflammation.
+4. Delay of disc degeneration: VIP modulates sympathetic pathways to reduce inflammation and preserve disc integrity.
+5. Accelerated tissue healing and neuroprotection: BPC-157 promotes recovery in spinal and nerve compression models.
+6. Nerve regeneration and ECM remodeling: GHK-Cu enhances collagen balance and nerve growth factor production.
+7. Integrated disc optimization: DiscHybrid-Eng combines Link-N and KPV motifs with stabilization for novel multi-modal support.
+
+"
+"Loaded_Programs=Slipped Disc p01"
+"Loaded_Programs=Slipped Disc p02"
+"Loaded_Programs=Slipped Disc p03"
+"Loaded_Programs=Slipped Disc p04"
+"Loaded_Programs=Slipped Disc p05"
+"Loaded_Programs=Slipped Disc p06"
+"Loaded_Programs=Slipped Disc p07"
+"Loaded_Frequencies=M115.027=1,M137.059,M113.084,M87.032,M115.027,M114.043,M163.063,M101.048,M113.084,M115.027,M137.059,M115.027,M156.101,M71.037,M113.084,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M205.074=1,M101.048,M113.084,M115.027,M137.059,M115.027,M156.101,M71.037,M113.084,M128.095,M97.053,M98.084,0=4,"
+"[/Preset]"

@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Spondylosis (L)"
+"Preset_Notes=Spondylosis for Laser
+
+Spondylosis refers to age-related degenerative changes in the spine, encompassing osteoarthritis of vertebral bodies, facet joints, and intervertebral discs, most commonly affecting cervical and lumbar regions. It arises from cumulative mechanical stress, genetic predispositions, repetitive trauma, obesity, smoking, and impaired nutrient diffusion, leading to progressive disc dehydration, height loss, annular fissures, endplate sclerosis, and osteophyte formation. Symptoms include chronic axial pain worsened by movement, stiffness, radiculopathy with radiating pain/numbness/weakness, myelopathy in advanced cases with gait disturbance or bowel/bladder dysfunction, and reduced mobility impacting quality of life. Pathophysiology features a catabolic shift in disc homeostasis with nucleus pulposus cell loss, reduced proteoglycan/water content causing biomechanical instability, upregulation of matrix-degrading enzymes, chronic low-grade inflammation with cytokine infiltration, oxidative damage, senescence of resident cells, aberrant neoinnervation sensitizing pain pathways, and potential neural/vascular compression from stenosis or herniation.
+
+The proposed polypeptides target key degenerative axes in spondylosis through literature-derived motifs optimized for drug-likeness via short lengths, terminal capping, and cyclization to enhance stability, bioavailability, and resistance to proteolysis while maintaining favorable solubility and charge profiles.
+
+- Axis 1: Inhibition of extracellular matrix degradation via matrix metalloproteinase blockade - Addressed by a designed disulfide-cyclic peptide derived from established selective gelatinase (MMP-2/9) inhibitor motifs, constraining conformation for potent enzymatic inhibition to preserve disc collagen and prevent structural breakdown.
+- Axis 2: Suppression of pro-inflammatory cascades and cytokine-mediated damage - Addressed by a designed N-acetylated, C-amidated alpha-MSH analog exploiting melanocortin receptor agonism for broad anti-inflammatory action, reducing TNF-{alpha}/IL-1{beta} effects and immune infiltration in degenerated tissues.
+- Axis 3: Stimulation of anabolic matrix synthesis and proteoglycan accumulation - Addressed by a designed N-acetylated, C-amidated peptide based on link protein N-terminal motifs documented to upregulate aggrecan and type II collagen production in nucleus pulposus cells, countering catabolic dominance.
+- Axis 4: Mitigation of oxidative stress, cellular senescence, and neuropathic pain sensitization - Addressed by a designed N-acetylated, C-amidated peptide derived from erythropoietin non-erythropoietic motifs with demonstrated neuroprotective and anti-senescence properties, targeting ROS scavenging and neural protection in radiculopathy.
+
+These provide comprehensive multi-axis coverage with optimized physicochemical properties supporting potential as injectable or topical therapeutics.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Spondylosis p01"
+"Loaded_Programs=Spondylosis p02"
+"Loaded_Programs=Spondylosis p03"
+"Loaded_Programs=Spondylosis p04"
+"Loaded_Frequencies=M102.001=1,M101.048,M101.048,M137.059,M186.079,M57.021,M147.068,M101.048,M113.084,M102.001,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M157.038=1,M137.059,M113.084,M87.032,M115.027,M114.043,M163.063,M101.048,M113.084,M115.027,M137.059,M115.027,M156.101,M71.037,M113.084,M136.075,0=4,"
+"Loaded_Frequencies=M170.069=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M86.048,0=4,"
+"[/Preset]"

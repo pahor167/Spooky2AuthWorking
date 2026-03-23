@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW"
+"PresetName=Parasites 2 of 5 (P) - JW"
+"Preset_Notes=Overnight Preset for Spooky Plasma. Part 2 of 5.
+
+Independent lab results have verified the effectiveness of this set of Presets, with a full reduction of parasite burden in 2 patients after cycling through several times.
+
+Each parasite killing preset should be run for two consecutive nights before advancing to the next stage. After the 10th night, repeat the entire cycle if necessary.
+
+Place the plasma tube near to, or touching, your body. 
+Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Spooky Plasma Input. Out 2 to Spooky Plasma Modulation."
+"Dwell_Multiplier=2"
+"Loaded_Programs=Echinococcus Granulosus 1 (XTRA)"
+"Loaded_Programs=Echinococcus Granulosus 2 (XTRA)"
+"Loaded_Programs=Echinococcus Granulosus 3 (XTRA)"
+"Loaded_Programs=Echinococcus Granulosus Larval (XTRA)"
+"Loaded_Programs=Enterobius Vermicularis 1 (XTRA)"
+"Loaded_Programs=Enterobius Vermicularis 2 (XTRA)"
+"Loaded_Programs=Enterobius Vermicularis (XTRA)"
+"Loaded_Programs=Fasciola Hepatica Eggs (XTRA)"
+"Loaded_Programs=Fasciola Hepatica Rediae (XTRA)"
+"Loaded_Frequencies=1093.5=180,1106.75=180,13785.94=180,13953.12=180,"
+"Loaded_Frequencies=142=180,164=180,187=180,333=180,453=180,522=180,523=180,542=180,562=180,624=180,662=180,663=180,768=180,786=180,803=180,843=180,854=180,1223=180,1360=180,3032=180,5122=180,5522=180,"
+"Loaded_Frequencies=1119.4=180,1143.94=180,14112.5=180,14421.87=180,"
+"Loaded_Frequencies=410=180,"
+"Loaded_Frequencies=422=180,423=180,732=180,733=180,827=180,835=180,4412=180,13154.69=1800,13218.75=180,21059.93=180,"
+"Loaded_Frequencies=1043.43=180,1048.5=180,1054.21=180,13154.69=180,13218.75=180,13290.62=180,"
+"Loaded_Frequencies=2646475.9714=180,"
+"Loaded_Frequencies=1046.02=180,1053.47=180,1059.91=180,13187.5=180,13281.25=180,13362.5=180,"
+"Loaded_Frequencies=1042.55=180,1053.47=180,1059.67=180,13153.75=180,13281.25=180,13359.37=180,"
+"[/Preset]"

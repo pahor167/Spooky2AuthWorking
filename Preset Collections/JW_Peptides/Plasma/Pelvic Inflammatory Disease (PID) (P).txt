@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Pelvic Inflammatory Disease (PID) (P)"
+"Preset_Notes=Pelvic Inflammatory Disease (PID) for Plasma
+
+Pelvic inflammatory disease (PID) is an acute or chronic infection and inflammation of the upper female genital tract (uterus, fallopian tubes, ovaries), primarily ascending from sexually transmitted pathogens such as Chlamydia trachomatis and Neisseria gonorrhoeae, often with polymicrobial involvement including anaerobes, leading to pelvic pain, infertility risk from tubal scarring/adhesions, abscesses, and ectopic pregnancy. The proposed polypeptides target evidence-based antimicrobial, anti-inflammatory, and regenerative axes to complement conventional antibiotics, combat key pathogens, mitigate excessive inflammation, promote mucosal integrity, and prevent fibrotic complications.
+
+1. Broad-spectrum cathelicidin with mucosal immunomodulation: LL-37 provides natural defense in the female reproductive tract against diverse pathogens.
+2. Disulfide-constrained pore-forming potent against N. gonorrhoeae: Protegrin-1 exhibits strong bactericidal activity via membrane disruption.
+3. Cell-penetrating intracellular targeting suitable for Chlamydia: Buforin II inhibits nucleic acid processes inside infected cells.
+4. Potent {alpha}-MSH-derived cytokine suppression: KPV reduces inflammatory mediators in genital tissues.
+5. Cytoprotective stabilization and healing in pelvic/reproductive organs: BPC-157 supports tissue recovery in models of gynecological inflammation.
+6. Copper-mediated mucosal regeneration and tight junction enhancement: GHK-Cu promotes epithelial barrier repair and matrix remodeling.
+7. Actin dynamics for anti-fibrotic remodeling and adhesion prevention: TB-500 facilitates flexible healing to minimize scarring.
+8. Optimized ultra-short cationic tryptophan-rich motif for pathogen disruption: GynoAMP-Eng enhances selectivity and potency against resistant genital bacteria.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Pelvic Inflammatory Disease (PID) p01"
+"Loaded_Programs=Pelvic Inflammatory Disease (PID) p02"
+"Loaded_Programs=Pelvic Inflammatory Disease (PID) p03"
+"Loaded_Programs=Pelvic Inflammatory Disease (PID) p04"
+"Loaded_Programs=Pelvic Inflammatory Disease (PID) p05"
+"Loaded_Programs=Pelvic Inflammatory Disease (PID) p06"
+"Loaded_Programs=Pelvic Inflammatory Disease (PID) p07"
+"Loaded_Programs=Pelvic Inflammatory Disease (PID) p08"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M170.106=1,M156.101,M186.079,M186.079,M128.095,M186.079,M186.079,M156.101,M155.117,0=4,"
+"[/Preset]"

@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Coluracetam (Nootropics) (R) - JRG"
+"Loaded_Programs=Coluracetam (CUST)"
+"Loaded_Frequencies=M341.17394,"
+"Preset_Notes=One of the newer racetams on the market, Coluracetam works as a choline uptake enhancer.|As a nootropic, Coluracetam enhances concentration and cognition, boosts memory, mood and focus, and treats anxiety disorders. It also seems to have a stimulant effect which improves motivation. Users also report richer and fuller sound and colors.|General dosage is 20 - 80 mg. per day, but depends on your reason for using Coluracetam. And your past experience in using racetams. You may want start with a lower dose, and increase over time based on your experience with this nootropic.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

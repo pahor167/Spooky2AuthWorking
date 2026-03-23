@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Persistent Postural-Perceptual Dizziness (PPPD) (P)"
+"Preset_Notes=Persistent Postural-Perceptual Dizziness (PPPD) for Plasma
+
+Persistent Postural-Perceptual Dizziness (PPPD) is a chronic vestibular disorder characterized by persistent sensations of dizziness, unsteadiness, or non-spinning vertigo that are exacerbated by upright posture, active or passive motion, and exposure to moving or complex visual stimuli. It often follows an acute vestibular event and involves maladaptive changes in postural control and multisensory integration. The following peptides are proposed to mitigate this condition:
+1. Serotonin modulation: BPC-157 - Interacts with serotonin system to alleviate depressive symptoms
+2. Anxiety reduction: Selank - Modulates anxiety and stress response
+3. Anti-inflammatory: KPV - Reduces inflammation in vestibular system
+4. CGRP antagonism: CGRP(8-37) - Antagonizes CGRP to reduce vestibular migraine symptoms
+5. Neuroplasticity promotion: Humanin - Enhances neuroplasticity to aid vestibular rehabilitation
+6. Vestibular recovery: FGLM-NH2 - Facilitates recovery from vestibular disorders
+7. Balance improvement: Thymosin beta 4 - Promotes healing and balance
+8. Cognitive enhancement: Semax - Improves cognitive function for CBT support
+9. Emotional regulation: DSIP - Modulates emotional responses
+10. Designed multisensory modulator: Designed Multisensory Modulator - Designed to modulate postural control by integrating RGD motif with KPV anti-inflammatory
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Persistent Postural-Perceptual Dizziness (PPPD) p01"
+"Loaded_Programs=Persistent Postural-Perceptual Dizziness (PPPD) p02"
+"Loaded_Programs=Persistent Postural-Perceptual Dizziness (PPPD) p03"
+"Loaded_Programs=Persistent Postural-Perceptual Dizziness (PPPD) p04"
+"Loaded_Programs=Persistent Postural-Perceptual Dizziness (PPPD) p05"
+"Loaded_Programs=Persistent Postural-Perceptual Dizziness (PPPD) p06"
+"Loaded_Programs=Persistent Postural-Perceptual Dizziness (PPPD) p07"
+"Loaded_Programs=Persistent Postural-Perceptual Dizziness (PPPD) p08"
+"Loaded_Programs=Persistent Postural-Perceptual Dizziness (PPPD) p09"
+"Loaded_Programs=Persistent Postural-Perceptual Dizziness (PPPD) p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M114.043,M99.068,M57.021,M87.032,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M147.068=1,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M115.027,M128.095,M97.053,M99.068,0=4,"
+"[/Preset]"

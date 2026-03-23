@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Gentian (R)"
+"Preset_Notes=Gentian / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Gentian - Discouragement after a setback.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Gentian (R)"
+"Loaded_Frequencies=265.67,"
+"[/Preset]"

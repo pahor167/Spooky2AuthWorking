@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Aspen (R)"
+"Preset_Notes=Aspen / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Aspen - Fear of unknown things.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Aspen (R)"
+"Loaded_Frequencies=391.54,"
+"[/Preset]"

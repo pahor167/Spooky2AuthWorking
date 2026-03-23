@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Mitochondrial DNA Heteroplasmy (L)"
+"Preset_Notes=Mitochondrial DNA Heteroplasmy for Laser
+
+Mitochondrial DNA heteroplasmy refers to the presence of both normal and mutant mitochondrial DNA within the same cell or individual, often leading to mitochondrial dysfunction and associated diseases such as Leigh syndrome, MELAS, MERRF, and others. The severity depends on the heteroplasmy level exceeding tissue-specific thresholds. Therapeutic axes include: 1. Cardiolipin stabilization and enhancement of mitochondrial membrane integrity and function. 2. Regulation of apoptosis, insulin sensitivity, and inflammatory responses to mitigate cellular stress from mitochondrial dysfunction. 3. Targeted manipulation of mtDNA to shift heteroplasmy by selective degradation or inhibition of mutant mtDNA. Assignments: Elamipretide covers axis 1; Humanin covers axis 2; MitoTarget-Pep1 covers axis 3. Mechanisms: Elamipretide interacts with cardiolipin to stabilize mitochondrial inner membrane structure, reduce oxidative stress, and improve bioenergetics in affected cells. Humanin, a mitochondrial-derived peptide, activates protective pathways (e.g., ERK1/2, AKT, STAT3) to inhibit apoptosis, enhance insulin action, and reduce inflammation in age-related and mitochondrial pathologies. MitoTarget-Pep1 is rationally engineered based on aromatic-cationic peptide motifs from literature, with positive charges for mitochondrial penetration, potentially facilitating targeted interactions with mtDNA to support heteroplasmy shifting strategies.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Mitochondrial DNA Heteroplasmy p01"
+"Loaded_Programs=Mitochondrial DNA Heteroplasmy p02"
+"Loaded_Programs=Mitochondrial DNA Heteroplasmy p03"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M147.068,M128.095,M156.101,M128.095,M147.068,M128.095,M156.101,M128.095,M147.068,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Skin Elasticity (C)"
+"Preset_Notes=Skin Elasticity for Contact
+
+Skin elasticity is the skin's ability to stretch and return to its original shape, which decreases due to aging, environmental factors, and degradation of collagen and elastin fibers, leading to wrinkles and sagging. 
+
+The peptides address key aspects by stimulating extracellular matrix production, inhibiting enzymes that break down skin structures, reducing oxidative stress and inflammation, modulating cellular signaling for repair, and enhancing hydration and barrier function. Peptides 11 and 12 are designed.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Skin Elasticity p01"
+"Loaded_Programs=Skin Elasticity p02"
+"Loaded_Programs=Skin Elasticity p03"
+"Loaded_Programs=Skin Elasticity p04"
+"Loaded_Programs=Skin Elasticity p05"
+"Loaded_Programs=Skin Elasticity p06"
+"Loaded_Programs=Skin Elasticity p07"
+"Loaded_Programs=Skin Elasticity p08"
+"Loaded_Programs=Skin Elasticity p09"
+"Loaded_Programs=Skin Elasticity p10"
+"Loaded_Programs=Skin Elasticity p11"
+"Loaded_Programs=Skin Elasticity p12"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M101.048,M101.048,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M156.101,M71.037,M114.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M57.021,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M170.106=1,M115.027,M99.068,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M113.048,0=4,"
+"Loaded_Frequencies=M99.068=1,M57.021,M99.068,M71.037,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M114.079,M128.095,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M100.064,M102.001,0=4,"
+"[/Preset]"

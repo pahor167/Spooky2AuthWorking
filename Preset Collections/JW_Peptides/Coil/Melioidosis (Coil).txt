@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Melioidosis (Coil)"
+"Preset_Notes=Melioidosis for Coil
+
+Melioidosis, also known as Whitmore's disease, is a potentially fatal infectious disease caused by the Gram-negative, soil-dwelling bacterium Burkholderia pseudomallei, prevalent in tropical and subtropical regions such as Southeast Asia and Northern Australia, with an estimated 165,000 cases and 89,000 deaths annually worldwide. It is transmitted through direct contact with contaminated soil or water via cuts, inhalation of aerosols, or ingestion, often exacerbated by risk factors like diabetes mellitus, chronic kidney disease, alcoholism, and immunosuppression, which impair neutrophil function and increase susceptibility. Symptoms are highly variable, ranging from localized skin abscesses, pneumonia, and septicemia to chronic suppurative infections mimicking tuberculosis, with acute forms presenting fever, chills, cough, chest pain, joint pain, and rapid progression to septic shock, multi-organ failure, and death in 40-75% of untreated cases. Pathophysiology involves bacterial adhesion and invasion via type III and VI secretion systems (T3SS, T6SS), intracellular survival through evasion of autophagy and formation of multinucleated giant cells, biofilm persistence, lipopolysaccharide (LPS)-mediated inflammation triggering cytokine storms (e.g., elevated IL-6, IFN-{gamma}), disruption of coagulation leading to disseminated intravascular coagulation, metabolic reprogramming like altered glycometabolism, and neurological involvement via axonal transport along olfactory/trigeminal nerves, contributing to encephalitis.
+
+The proposed polypeptides target these axes mechanistically, with rationale supported by in vitro/in vivo studies, feasibility via high solubility/stability for injectable/oral delivery, modes including membrane permeabilization, and physicochemical properties like cationic charge aiding bacterial targeting. Real-world polypeptides focus on antimicrobial and antibiofilm actions: Bactenecin permeabilizes membranes for bactericidal effects, as per time-kill assays; LL-37 disrupts envelopes and inhibits growth with MICs <10 {mu}g/mL; Tachyplesin 1 causes rapid killing within 2h via pore formation; WLBU2 exhibits broad-spectrum bactericidal activity; WR12 inhibits growth with high selectivity; Lactoferricin B shows potent antimicrobial effects; Melittin lyses cells; BMAP-18 reduces biofilms and kills planktonic forms. Designed polypeptides (flagged): D1-anti-inf suppresses cytokine storms via IL-6 pathway modulation, feasible as short cationic peptide (pI~9, MW~1kDa) with beta-sheet for stability; D2-vir inhibits T6SS effectors competitively, amphipathic for interaction; D3-pers enhances autophagy to clear persistent bacteria, low toxicity predicted; D4-coag modulates fibrinolysis to prevent DIC, hydrophilic for systemic use.
+
+"
+"Loaded_Programs=Melioidosis p01"
+"Loaded_Programs=Melioidosis p02"
+"Loaded_Programs=Melioidosis p03"
+"Loaded_Programs=Melioidosis p04"
+"Loaded_Programs=Melioidosis p05"
+"Loaded_Programs=Melioidosis p06"
+"Loaded_Programs=Melioidosis p07"
+"Loaded_Programs=Melioidosis p08"
+"Loaded_Programs=Melioidosis p09"
+"Loaded_Programs=Melioidosis p10"
+"Loaded_Programs=Melioidosis p11"
+"Loaded_Programs=Melioidosis p12"
+"Loaded_Frequencies=M156.101=1,M113.084,M102.001,M156.101,M113.084,M99.068,M99.068,M113.084,M156.101,M99.068,M102.001,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M103.009,M147.068,M156.101,M99.068,M163.063,M156.101,M57.021,M113.084,M103.009,M163.063,M156.101,M156.101,M103.009,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M99.068,M156.101,M156.101,M99.068,M156.101,M156.101,M186.079,M99.068,M156.101,M99.068,M99.068,M99.068,M99.068,M99.068,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M99.068,M156.101,M156.101,M99.068,M156.101,M156.101,M186.079,M99.068,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M147.068,M156.101,M147.068,M156.101,M128.095,M128.095,M147.068,M128.095,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.058,M156.101,M163.063,M87.032,M128.095,M113.084,M137.059,0=4,"
+"Loaded_Frequencies=M99.068=1,M71.037,M128.095,M131.040,M101.048,M87.032,M156.101,M147.068,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M113.084,M114.043,M115.027,M129.043,M129.043,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M147.068,M57.021,M137.059,M163.063,M99.068,M131.04,0=4,"
+"[/Preset]"

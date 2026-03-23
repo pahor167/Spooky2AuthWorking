@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Moles (C)"
+"Preset_Notes=Moles for Contact
+
+Mechanistic Rationale 
+Moles (melanocytic nevi) are benign proliferations of melanocytes, typically driven by somatic activating mutations in BRAF (V600E most common) or NRAS, leading to constitutive MAPK pathway activation without full malignant transformation. Key pathophysiological axes include: (1) oncogene-induced senescence (OIS) maintenance via p16^INK4a^/pRb and p53/p21^CIP1^ upregulation; (2) microenvironmental immune surveillance via CD8^+^ T-cell and NK-cell recognition of senescence-associated antigens; (3) redox adaptation through NRF2-mediated antioxidant responses; (4) metabolic rewiring (e.g., increased glycolysis and OXPHOS coupling); (5) extracellular matrix (ECM) remodeling via MMP/TIMP balance favoring structural stability; and (6) epigenetic silencing of pro-proliferative genes (e.g., via EZH2/H3K27me3). Therapeutic peptide design aims not at eradication (as most moles are benign) but at *stabilization*-preventing progression to melanoma by reinforcing senescence, enhancing immune visibility, and correcting redox/metabolic drift. Six mechanistic axes are addressed: (i) p16 mimetic reinforcement of CDK4/6 inhibition, (ii) SASP (senescence-associated secretory phenotype) modulation toward immunostimulatory cytokines (e.g., CXCL10, IL-15), (iii) NRF2-KEAP1 PPI stabilization to prevent oxidative escape, (iv) mitochondrial complex I support to sustain OXPHOS-linked senescence, (v) EZH2 inhibitor mimetics to derepress tumor suppressors, and (vi) integrin {alpha}v{beta}3 antagonism to limit nevus expansion. Scaffolds include: (a) constrained {beta}-strand mimetics for CDK4/6 interface binding, (b) stapled helices targeting protein-protein interfaces in epigenetic complexes, (c) D-amino acid-rich sequences for protease resistance in dermal interstitium, (d) lipidated mitochondrial-targeting motifs (e.g., SS peptides), (e) cyclic RGD variants for integrin blockade, and (f) phosphorylated motifs mimicking senescence kinase substrates. PTMs include N-methylation (protease resistance), farnesylation (membrane targeting), phosphorylation (signaling mimicry), and acetylation (nuclear import enhancement). Terminal modifications are chosen for subcellular routing: acetylation (nuclear/cytoplasmic), amidation (extracellular stability), and PEG5 (dermal residence extension).
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Moles p01"
+"Loaded_Programs=Moles p02"
+"Loaded_Programs=Moles p03"
+"Loaded_Programs=Moles p04"
+"Loaded_Programs=Moles p05"
+"Loaded_Programs=Moles p06"
+"Loaded_Programs=Moles p07"
+"Loaded_Programs=Moles p08"
+"Loaded_Frequencies=M156.101=1,M113.084,M128.095,M114.043,M163.063,M101.048,0=4,"
+"Loaded_Frequencies=M218.095=1,M137.059,M113.084,M113.084,M147.068,M163.063,M128.059,0=4,"
+"Loaded_Frequencies=M131.040=1,M115.027,M129.043,M114.043,M128.095,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M85.053=1,M97.053,M197.105,M97.053,M85.053,0=4,"
+"Loaded_Frequencies=M162.079=1,M101.048,M163.063,M131.040,M114.043,M128.059,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M155.116=1,M131.040,M129.043,M114.043,M137.059,M101.048,0=4,"
+"Loaded_Frequencies=M71.037=1,M204.188,M113.084,M113.084,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M114.043,M128.095,M156.101,M113.084,M113.084,M128.095,M156.101,0=4,"
+"[/Preset]"

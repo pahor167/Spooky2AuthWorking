@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Supraclavicular Cyst (P)"
+"Preset_Notes=Supraclavicular Cyst for Plasma
+
+Supraclavicular cysts are uncommon benign cystic lesions presenting as soft, fluctuant, often painless or intermittently tender masses in the supraclavicular fossa, predominantly on the left side. They encompass several entities sharing lymphatic or developmental origins, including thoracic duct cysts (dilations of the terminal thoracic duct due to congenital wall weakness or acquired degeneration/inflammation), cystic lymphangiomas (malformations with aberrant lymphatic vessel proliferation), and less commonly branchial cleft cysts extending to the supraclavicular region (persistent embryonic remnants). Symptoms include visible or palpable swelling that may enlarge rapidly (especially postprandial in thoracic duct cases due to chyle accumulation), recur spontaneously, or rarely complicate with infection, rupture, or compression. Pathophysiology involves impaired lymphatic drainage, fluid accumulation from wall incompetence, or failed embryonic involution, leading to isolated or multiloculated cystic spaces filled with lymph or chyle. Differential includes other neck cysts, but imaging (US, CT, MRI) shows characteristic fluid-filled, non-enhancing lesions near venous angles or posterior cervical space. Standard management is observation for asymptomatic cases, aspiration/sclerotherapy (e.g., OK-432), or surgical excision for persistent/symptomatic/recurrent cysts, with excellent prognosis post-complete removal.
+
+No established polypeptide-based therapies exist for supraclavicular cysts, reflecting their structural/congenital nature and surgical preference. The proposed polypeptides are all conceptually designed short (12-residue) C-terminally amidated sequences for enhanced stability and bioavailability. They target key mechanistic axes hypothetically: D1 (polybasic) electrostatically stabilizes lymphatic endothelial barriers to reduce leakage and accumulation in thoracic duct-related cysts; D2 (amphipathic helical) penetrates aberrant membranes to promote regression of malformed lymphatic structures in lymphangiomas; D3 (aliphatic hydrophobic) integrates into lipid environments to modulate cyst wall permeability and fluid dynamics in developmental remnants; D4 (aromatic-rich) interferes with potential inflammatory/degenerative signaling to prevent recurrence or exacerbation. These designs are inspired by established peptide classes with membrane-modulating or anti-proliferative properties in analogous vascular/lymphatic models; short length ensures straightforward synthesis, minimal immunogenicity, and feasibility for local injection or targeted delivery, though preclinical validation would be required.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Supraclavicular Cyst p01"
+"Loaded_Programs=Supraclavicular Cyst p02"
+"Loaded_Programs=Supraclavicular Cyst p03"
+"Loaded_Programs=Supraclavicular Cyst p04"
+"Loaded_Frequencies=M128.095=1,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M155.117,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M112.100,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M147.068,M113.084,M147.068,M113.084,M147.068,M113.084,M147.068,M113.084,M147.068,M112.100,0=4,"
+"Loaded_Frequencies=M147.068=1,M186.079,M147.068,M186.079,M147.068,M186.079,M147.068,M186.079,M147.068,M186.079,M147.068,M185.095,0=4,"
+"[/Preset]"

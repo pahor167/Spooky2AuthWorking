@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Coil\Spooky Coil (Generator Direct) - JW"
+"PresetName=Scleranthus (Coil)"
+"Preset_Notes=Scleranthus / Spooky Coil
+
+Estimated Time: Run this preset for 3:00 minutes.
+Scleranthus - Inability to choose between alternatives.
+
+Connect the Spooky PEMF Coil to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Scleranthus (Coil)"
+"Loaded_Frequencies=307.07,"
+"[/Preset]"

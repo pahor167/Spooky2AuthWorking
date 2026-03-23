@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Thalassemia (C)"
+"Preset_Notes=Thalassemia for Contact
+
+Thalassemia is an inherited hemoglobinopathy with reduced globin chain synthesis leading to chronic anemia, ineffective erythropoiesis, secondary iron overload (even non-transfused), oxidative stress, multi-organ damage (cardiac, hepatic, endocrine), splenomegaly, and skeletal deformities from marrow expansion. Proposed polypeptides target literature-supported axes in thalassemia models for cytoprotection against iron toxicity, antioxidant defense, mitochondrial resilience, tissue repair, and matrix stabilization as adjunctive strategies.
+
+1. Stable gastric pentadecapeptide multi-organ cytoprotection: BPC-157 counters iron-induced lesions and maintains vascular/organ integrity.
+2. Copper-binding tripeptide antioxidant regeneration: GHK-Cu mitigates oxidative stress and promotes remodeling in overloaded tissues.
+3. Acetylated Thymosin {beta}4 fragment repair promotion: TB-500 enhances migration, survival, and anti-inflammation.
+4. Pyroglutamate EPO-derived innate protection: ARA-290 reduces inflammation and supports tissue resilience.
+5. Mitochondrial-derived anti-apoptotic peptide: Humanin protects against oxidative and metabolic stress from iron.
+6. Gamma-glutamyl tripeptide direct antioxidation: Glutathione replenishes redox balance disrupted by iron overload.
+7. Engineered collagen-mimetic skeletal reinforcement: ThalaCol-21 Ac-(GPP)7-NH2 stabilizes bone matrix against deformity.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Thalassemia p01"
+"Loaded_Programs=Thalassemia p02"
+"Loaded_Programs=Thalassemia p03"
+"Loaded_Programs=Thalassemia p04"
+"Loaded_Programs=Thalassemia p05"
+"Loaded_Programs=Thalassemia p06"
+"Loaded_Programs=Thalassemia p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

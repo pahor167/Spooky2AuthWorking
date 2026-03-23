@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Loss of Balance (C)"
+"Preset_Notes=Loss of Balance for Contact
+
+Loss of balance often arises from vestibular system disorders involving hair cell degeneration, oxidative stress, neuronal apoptosis, inflammation, and impaired ionic homeostasis in the inner ear. The proposed polypeptides target evidence-based therapeutic axes from otoprotective, neurotrophic, and vestibular recovery studies to preserve hair cells, support neuronal survival, reduce damage spread, and promote functional restoration.
+
+1. JNK pathway inhibition for anti-apoptotic protection of vestibular hair cells and ganglion neurons: D-JNKI-1 prevents stress-induced cell death in inner ear models.
+2. Substance P-derived tetrapeptide facilitation of recovery from vestibular disorders: FGLM-NH2 accelerates healing in vestibular injury.
+3. IGF-1-derived tetrapeptide protection against ototoxin-induced vestibular hair cell damage: SSSR mitigates aminoglycoside toxicity in vestibular epithelia.
+4. Mitochondrial-derived cytoprotection against oxidative stress and apoptosis: Humanin S14G (HNG) safeguards inner ear cells via anti-apoptotic mechanisms.
+5. Prosaposin-derived neurotrophic support for vestibular neuron survival: Prosaptide promotes neurotrophic effects and alleviates ischemic damage.
+6. Activity-dependent neurotrophic factor-derived microtubule stabilization for neuroprotection: NAP enhances resilience in degenerative inner ear processes.
+7. Engineered connexin hemichannel blockade to limit damage propagation and support K+ recycling: Ac-SRPTEKTIFII-NH2 inhibits aberrant hemichannels in supporting cells, reducing injury spread.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Loss of Balance p01"
+"Loaded_Programs=Loss of Balance p02"
+"Loaded_Programs=Loss of Balance p03"
+"Loaded_Programs=Loss of Balance p04"
+"Loaded_Programs=Loss of Balance p05"
+"Loaded_Programs=Loss of Balance p06"
+"Loaded_Programs=Loss of Balance p07"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M156.101,M97.053,M128.095,M156.101,M97.053,M101.048,M101.048,M113.084,M114.043,M113.084,M147.068,M97.053,M128.058,M99.068,M97.053,M156.101,M87.032,M128.058,M115.027,M101.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M87.032,M156,M101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M101.048=1,M115.027,M113.084,M115.027,M128.095,M71.037,M186.079,M57.021,M128.095,M97.053,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M129.043=1,M156.101,M97.053,M101.048,M129.043,M128.095,M101.048,M113.084,M147.068,M113.084,M112.10,0=4,"
+"[/Preset]"

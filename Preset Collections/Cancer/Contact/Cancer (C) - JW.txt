@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Killing (C) - JW.txt"
+"PresetName=Cancer (C) - JW"
+"Preset_Notes=Included are two select DNA frequencies targeting all known types of cancer.||Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||Connect your TENS pads or Spooky Hand Cylinders to the 'High Power' port of Spooky Boost v3.0 or higher.||Stop treatment if you experience any discomfort."
+"Loaded_Programs=Cancer (C) - JW (CUST)"
+"Loaded_Frequencies=~5676BC8538298=600,~2194BC3760457=600,~9227BC46487=600,"
+"[/Preset]"

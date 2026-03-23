@@ -1,0 +1,15 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=For Insufficient interest in present circumstances (P)"
+"Preset_Notes=For Insufficient interest in present circumstances / Spooky Plasma
+
+Estimated Time: Run this preset for 21:00 minutes.
+Clematis - Dreaming of the future with out working on the present. Honeysuckle - Living in the past, homesickness. Wild rose - Drifting, resignation, apathy. Olive - Exhaustion following mental or physical effert. White Chestnut - Unwanted thoughts and mental arguments, mind going around and around. Mustard - Deep gloom for not reason. Chestnut Bud - Failure to learn from mistakes.
+
+Connect Out 1 to Input. Connect Out 2 to Modulation.
+"
+"Loaded_Programs=For Insufficient interest in present circumstances (P)"
+"Loaded_Frequencies=415.26,275.98,349.54,431.65,247.09,254.78,425.77,"
+"[/Preset]"

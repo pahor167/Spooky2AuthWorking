@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Ligament Repair (C)"
+"Preset_Notes=Ligament Repair for Contact
+
+Ligament repair addresses injuries to dense connective tissues connecting bones, emphasizing regeneration through cell migration, stem cell activation, vascular supply, oxidative protection, adhesion signaling, and overall tissue rejuvenation.
+
+1. Cell migration promotion: Thymosin_beta_4 - Actin-sequestering peptide that promotes fibroblast migration, collagen deposition, and early healing responses in ligament injuries.
+2. Stem cell mitogenesis: Fulipiftide - PEDF-derived 29-mer peptide that exerts mitogenic effects on tendon/ligament stem/progenitor cells via ERK2/STAT3 signaling, enhancing cell accumulation and organized collagen regeneration.
+3. Antioxidant protection: Carnosine - Dipeptide scavenging reactive oxygen species and preventing oxidative damage to support ligament tissue integrity during repair.
+4. Angiogenesis induction: QK peptide - VEGF-mimetic peptide binding VEGFR to stimulate endothelial proliferation and neovascularization for improved nutrient delivery in healing ligaments.
+5. Cell adhesion enhancement: RGD-Int1 - Designed RGD-motif peptide interacting with integrins to promote cell-matrix adhesion, migration, and signaling critical for extracellular matrix remodeling.
+6. Connective tissue regeneration: Vilon - Bioregulatory dipeptide stimulating repair and differentiation processes in connective tissues including ligaments.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Ligament Repair p01"
+"Loaded_Programs=Ligament Repair p02"
+"Loaded_Programs=Ligament Repair p03"
+"Loaded_Programs=Ligament Repair p04"
+"Loaded_Programs=Ligament Repair p05"
+"Loaded_Programs=Ligament Repair p06"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M57.021,M71.037,M129.043,M128.058,M156.101,M101.048,M129.043,M87.032,M113.084,M113.084,M137.059,M156.101,M71.037,M113.084,M163.063,M163.063,M115.027,M113.084,M113.084,M87.032,M87.032,M97.053,M115.027,M113.084,M137.059,M57.021,M100.064,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M170.106=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M112.10,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,0=4,"
+"[/Preset]"

@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Picamilon (Nootropics) (R) - JRG"
+"Loaded_Programs=Picamilon (CUST)"
+"Loaded_Frequencies=M208.08479,"
+"Preset_Notes=Picamilon (nicotinyl-y-aminobutyric acid) is a combination of niacin (Vitamin B3) and GABA. It was developed in the Soviet Union as an enhanced form of GABA that is capable of crossing the blood-brain barrier.|Once in your system, Picamilon separates into niacin and GABA. And produces a calming and blood vessel dilation effect.|Similar to Phenibut, Picamilon improves memory, concentration, motivation, focus, has strong anti-anxiety properties, and can lower blood pressure.|Start with the lowest possible dosage of Picamilon and see how you tolerate it. 50 - 300 mg per day is typical. Most nootropic users find somewhere between 50 - 100 mg 2 or 3 times per day is optimal.|It is water soluble and should be taken on an empty stomach for quicker action.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

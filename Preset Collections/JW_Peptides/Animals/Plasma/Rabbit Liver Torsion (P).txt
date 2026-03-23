@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Rabbit Liver Torsion (P)"
+"Preset_Notes=Rabbit Liver Torsion for Plasma
+
+Rabbit liver torsion, also known as liver lobe torsion, is a veterinary emergency in rabbits where one or more liver lobes twist around their vascular pedicle, resulting in occlusion of blood flow, ischemia, congestion, necrosis, and potential systemic complications like shock or coagulopathy. It most commonly affects the caudate lobe, presenting with acute anorexia, lethargy, hunched posture, reduced fecal output, and abdominal pain, often requiring prompt surgical intervention via lobectomy for optimal survival, though medical supportive care is used in some cases. 
+
+The selected polypeptides address all therapeutic axes including anti-inflammatory (e.g., TLR4 and NF-kB inhibition), anti-apoptotic (e.g., Bcl2 upregulation and Bax downregulation), hepatoprotective against necrosis, ischemia-reperfusion injury protection (e.g., reducing oxidative stress and cytokine release), vascular remodeling and angiogenesis, fibrosis suppression, and macrophage modulation (e.g., polarization to anti-inflammatory phenotypes); real-world polypeptides are prioritized from verifiable sources in hepatic IRI models applicable to torsion pathophysiology, with designed polypeptides (flagged as designed) supplementing to meet minimums and ensure full axis coverage, considering physicochemical properties such as stability, solubility, and potential for systemic or targeted delivery.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Rabbit Liver Torsion p01"
+"Loaded_Programs=Rabbit Liver Torsion p02"
+"Loaded_Programs=Rabbit Liver Torsion p03"
+"Loaded_Programs=Rabbit Liver Torsion p04"
+"Loaded_Programs=Rabbit Liver Torsion p05"
+"Loaded_Programs=Rabbit Liver Torsion p06"
+"Loaded_Programs=Rabbit Liver Torsion p07"
+"Loaded_Programs=Rabbit Liver Torsion p08"
+"Loaded_Programs=Rabbit Liver Torsion p09"
+"Loaded_Programs=Rabbit Liver Torsion p10"
+"Loaded_Programs=Rabbit Liver Torsion p11"
+"Loaded_Programs=Rabbit Liver Torsion p12"
+"Loaded_Programs=Rabbit Liver Torsion p13"
+"Loaded_Programs=Rabbit Liver Torsion p14"
+"Loaded_Programs=Rabbit Liver Torsion p15"
+"Loaded_Programs=Rabbit Liver Torsion p16"
+"Loaded_Programs=Rabbit Liver Torsion p17"
+"Loaded_Programs=Rabbit Liver Torsion p18"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M186.079=1,M128.095,M163.063,M131.040,M99.068,M131.040,0=4,"
+"Loaded_Frequencies=M101.048=1,M71.037,M113.084,M115.027,M186.079,M87.032,M186.079,M113.084,M128.058,M101.048,M129.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M57.021,M115.027,M57.021,M186.079,M102.001,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M103.009,M147.068,M57.021,M57.021,M156.101,M131.040,M129.043,M156.101,M113.084,M57.021,M128.095,M87.032,M57.021,M113.084,M57.021,M103.009,M114.043,M87.032,M147.068,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M163.063=1,M128.095,M114.043,M113.084,M57.021,M57.021,M57.021,M57.021,M128.095,M87.032,M57.021,M87.032,M87.032,M128.095,M57.021,M128.095,M128.095,M147.068,M147.068,M147.068,M128.095,M71.037,M128.095,M114.043,M128.095,M128.095,M128.095,M156.101,M147.068,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M128.095,M128.095,M114.043,M57.021,M128.095,M128.095,M137.059,M128.095,M128.095,M128.095,M99.068,M113.084,M128.095,M99.068,M156.101,M128.095,M87.032,M128.095,M156.101,M87.032,M156.101,M128.095,M128.095,M128.095,M101.048,M101.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M128.095,M128.095,M128.095,M114.043,M57.021,M128.095,M128.095,M137.059,M128.095,M128.095,M128.095,M99.068,M113.084,M128.095,M99.068,M156.101,M128.095,M87.032,M128.095,M156.101,M87.032,M156.101,M128.095,M128.095,M128.095,M101.048,M101.048,0=4,"
+"Loaded_Frequencies=M71.037=1,M71.037,M147.068,M147.068,M99.068,M113.084,M113.084,M87.032,M71.037,M103.009,M113.084,M71.037,M99.068,M147.068,M147.068,M113.084,M137.059,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M129.043,M97.053,M128.058,M114.043,M71.037,M147.068,M147.068,M99.068,M128.095,M101.048,M103.009,M156.101,M128.058,M129.043,M71.037,M128.095,M71.037,M156.101,M129.043,M131.040,M128.095,M101.048,M147.068,M101.048,M87.032,M103.009,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M113.084,M97.053,M71.037,M57.021,M57.021,M57.021,M101.048,M99.068,M113.084,M101.048,M128.095,M131.048,M163.063,M97.053,M156.101,M57.021,M114.043,M137.059,M186.079,M71.037,M99.068,M57.021,M137.059,M113.084,M131.040,0=4,"
+"Loaded_Frequencies=M163.063=1,M129.043,M97.053,M129.043,M71.037,M71.037,M87.032,M71.037,M97.053,M57.021,M87.032,M57.021,M114.043,M103.009,M137.059,M129.043,M71.037,M87.032,M71.037,M71.037,M128.095,M129.043,M114.043,M71.037,M57.021,M129.043,M129.043,M97.053,M57.021,M113.084,M71.037,M156.101,M128.095,M128.095,M156.101,M87.032,M87.032,M113.084,M113.084,M129.043,M128.095,M57.021,M128.095,M128.095,M57.021,M99.068,M113.084,M129.043,M129.043,M97.053,M57.021,M113.084,M71.037,M156.101,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M137.059,M114.043,M113.084,M57.021,M57.021,M57.021,M128.095,M57.021,M97.053,M87.032,M57.021,M114.043,M103.009,M137.059,M129.043,M71.037,M128.095,M137.059,M97.053,M129.043,M131.040,M71.037,M128.095,M71.037,M156.101,M163.063,M163.063,0=4,"
+"Loaded_Frequencies=M163.063=1,M129.043,M97.053,M129.043,M71.037,M71.037,M87.032,M71.037,M97.053,M57.021,M87.032,M57.021,M114.043,M103.009,M137.059,M129.043,M71.037,M87.032,M71.037,M71.037,M128.095,M129.043,M114.043,M71.037,M57.021,M129.043,M129.043,M97.053,M57.021,M113.084,M71.037,M156.101,M128.095,M128.095,M156.101,M87.032,M87.032,M113.084,M113.084,M129.043,M128.095,M57.021,M128.095,M128.095,M57.021,M99.068,M113.084,M129.043,M129.043,M97.053,M57.021,M113.084,M71.037,M156.101,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M113.048,M150.954,M237.148,M131.040,M200.095,0=4,"
+"Loaded_Frequencies=M100.064=1,M86.048,M114.079,M237.148,M113.048,M150.954,M85.053,0=4,"
+"Loaded_Frequencies=M114.079=1,M100.064,M237.148,M150.954,M85.053,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M237.148=1,M113.048,M85.053,M150.954,M86.048,M100.064,M114.079,0=4,"
+"[/Preset]"

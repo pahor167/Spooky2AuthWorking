@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Squamous Cell Carcinoma (Coil)"
+"Preset_Notes=Squamous Cell Carcinoma for Coil
+
+Squamous cell carcinoma (SCC) is a malignant neoplasm originating from squamous epithelial cells, most commonly in sun-exposed skin (cutaneous SCC) but also in head/neck, oral cavity, lungs, and other mucosae; driven by cumulative DNA damage (UV, HPV, smoking), it exhibits local invasion, metastasis risk, and frequent alterations in p53, EGFR, and cell cycle pathways.
+
+1. p53 stabilization and apoptosis induction: Azurin p28 - Preferentially penetrates cancer cells, inhibits HDM2-mediated p53 degradation, elevates p53 levels, and triggers G2/M arrest/apoptosis; demonstrated efficacy in oral SCC models.
+2. Membrane-selective lysis: Lactoferricin B - Cationic bovine-derived peptide that disrupts anionic cancer cell membranes via carpet/toroidal pore mechanisms; potent activity against oral SCC cells and derivatives in preclinical studies.
+3. Mitochondrial membrane disruption: KLAKLAKKLAKLAK - Amphipathic {alpha}-helical peptide that localizes to mitochondria, causes depolarization/swelling, cytochrome c release, and caspase activation in cancer cells.
+4. Intracellular nucleic acid targeting: Buforin II - Cell-penetrating peptide that translocates without membrane damage and binds DNA/RNA to inhibit macromolecular synthesis and induce apoptosis.
+5. Multi-target membrane/intracellular disruption: Indolicidin - Tryptophan-rich cationic peptide inducing membrane permeabilization and intracellular killing in cancer cells.
+6. EGFR-targeted pro-apoptotic delivery: GE11-GG-D(KLAKLAK)2 - Hybrid peptide binding EGFR for selective internalization into overexpressing SCC cells, followed by protease-resistant D-amino acid KLAK domain release for mitochondrial apoptosis.
+
+"
+"Loaded_Programs=Squamous Cell Carcinoma p01"
+"Loaded_Programs=Squamous Cell Carcinoma p02"
+"Loaded_Programs=Squamous Cell Carcinoma p03"
+"Loaded_Programs=Squamous Cell Carcinoma p04"
+"Loaded_Programs=Squamous Cell Carcinoma p05"
+"Loaded_Programs=Squamous Cell Carcinoma p06"
+"Loaded_Frequencies=M113.084=1,M87.032,M101.048,M71.037,M71.037,M115.027,M131.040,M128.058,M57.021,M99.068,M99.068,M101.048,M115.027,M57.021,M131.040,M71.037,M87.032,M57.021,M113.084,M115.027,M128.095,M115.027,M163.063,M113.084,M128.095,M97.053,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M163.063=1,M137.059,M186.079,M163.063,M57.021,M163.063,M101.048,M97.053,M128.058,M114.043,M99.068,M113.084,M57.021,M57.021,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"[/Preset]"

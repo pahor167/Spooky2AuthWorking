@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (C)"
+"PresetName=1. Liver"
+"Loaded_Frequencies=13427.72=2455 W4,317.82=409,33.13=409,1552=409,802=409,751=409,143=245,238=245,275=245,676=245,763=245,33.13=245,537=245,751=245,802=245,1550=245,1552=245,0=245,"
+"Loaded_Programs=1. Liver"
+"Preset_Notes=Cancer Protocol, Contact Plus 2 method, Generator 1, for Contact. Program Liver
+
+This preset contains Contact frequency sets for days 15 & 19 of the protocol. Run this preset concurrently with the presets 'Contact2/Gen2 (C) - BY', 'My Scan' which contains your own frequency sets from the Spooky Pulse biofeedback scan, 'My Target' which contains specifically targeted cancer sets for your cancer. See '\Cancer\BY\Cancer Presets.pdf' for a schedule to run these presets.
+
+The entire schedule for this protocol is in the notes of 'Contact2/Gen1 (C) - BY'. Here is the schedule for this preset:
+  Generator 1, Contact2/Gen1/Liver (C) - BY
+    Day 15:
+      My Scan
+      My Target
+      Contact2/Gen1/Liver (C) - BY
+    Day 19:
+      My Scan
+      My Target
+      Contact2/Gen1/Liver (C) - BY
+
+This preset has the following programs:
+
+Liver: Liver 1 - PROV, Liver 2 - PROV, Liver Flukes - CAFL, Liver Function Balance - XTRA
+
+Here is a table to find the beginning of each day in this preset:
+1: Liver
+
+For a high power treatment, connect TENS cable to 'HIGH PWR CONTACT' port of Spooky Boost on Generator 1. For a lower power treatment, connect TENS cable to 'COLLOIDAL SILVER' port of Spooky Boost on Generator 1. If you don't have Spooky Boost, connect TENS cable to Out 1 on Generator 1. Connect your Hand Cylinders/Tens Contact Kit item/TENS pads to TENS cable.
+
+
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"

@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dog Pancreatitis (C)"
+"Preset_Notes=Dog Pancreatitis for Contact
+
+Dog pancreatitis is an inflammatory disease of the pancreas in dogs, characterized by activation of digestive enzymes within the pancreas leading to autodigestion, pain, vomiting, dehydration, and potential systemic complications such as renal injury or diabetes mellitus. It can be acute or chronic, with causes including dietary indiscretion, trauma, or idiopathic. Mechanistic rationale: The proposed polypeptides target multiple therapeutic axes including anti-inflammatory effects to reduce neutrophil infiltration and cytokine release, inhibition of pancreatic secretion to allow pancreatic rest, pain management through opioid-like mechanisms, anti-emetic action to control nausea, improving perfusion for fluid resuscitation, nutritional support to aid digestion, antioxidant properties to mitigate oxidative stress, regenerative effects to promote tissue healing, management of complications like secondary diabetes or renal support, and antimicrobial activity to prevent secondary infections. Designed polypeptides are flagged as designed and are conceptual constructs based on known mechanisms, with feasibility in veterinary applications through stability, bioavailability, and targeted action; all incorporate non-standard residues for enhanced properties.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dog Pancreatitis p01"
+"Loaded_Programs=Dog Pancreatitis p02"
+"Loaded_Programs=Dog Pancreatitis p03"
+"Loaded_Programs=Dog Pancreatitis p04"
+"Loaded_Programs=Dog Pancreatitis p05"
+"Loaded_Programs=Dog Pancreatitis p06"
+"Loaded_Programs=Dog Pancreatitis p07"
+"Loaded_Programs=Dog Pancreatitis p08"
+"Loaded_Programs=Dog Pancreatitis p09"
+"Loaded_Programs=Dog Pancreatitis p10"
+"Loaded_Programs=Dog Pancreatitis p11"
+"Loaded_Programs=Dog Pancreatitis p12"
+"Loaded_Frequencies=M71.037=1,M113.084,M131.040,M99.068,M113.084,M163.063,M97.053,M57.021,M128.095,M115.027,M71.037,M129.043,M99.068,M128.095,M99.068,M113.084,M71.037,M57.021,M128.095,M71.037,M57.021,M99.068,M113.084,M156.101,M163.063,M113.084,M99.068,M113.084,M114.043,M113.084,M113.084,M99.068,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M115.027,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M57.021,M87.032,M114.079,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M86.048,M102.001,M97.053,M114.079,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M86.048,M113.084,M147.068,M128.095,M114.079,M99.068,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.048,M102.001,M129.043,M150.954,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M86.048,M114.079,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M186.079,M128.095,M101.048,M150.954,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M87.032,M200.095,M129.043,M137.059,M147.068,M156.101,M186.079,M114.079,M97.053,M99.068,0=4,"
+"[/Preset]"

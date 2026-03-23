@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Empty Nose Syndrome (ENS) (L)"
+"Preset_Notes=Empty Nose Syndrome (ENS) for Laser
+
+Empty Nose Syndrome (ENS) is a debilitating iatrogenic condition arising from over-resection of nasal turbinates, resulting in paradoxical obstruction, severe dryness, crusting, pain, altered sensation, and frequent comorbid anxiety despite an open airway, due to loss of mucosal function, disrupted airflow resistance, sensory nerve dysregulation, and chronic low-grade inflammation. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical mucosal healing studies, regenerative models, neuropathy research, and emerging investigational/anecdotal applications in nasal disorders.
+
+1. Gastric pentadecapeptide mucosal regeneration: BPC-157 promotes rapid epithelial repair, angiogenesis, and tissue protection, with reported benefits in nasal mucosa.
+2. Acetylated actin-sequestering heptapeptide tissue remodeling: TB-500 enhances cellular migration, wound healing, and structural recovery in atrophic tissues.
+3. Copper-chelated tripeptide barrier restoration: GHK-Cu stimulates extracellular matrix reorganization, antioxidant activity, and epithelial integrity.
+4. Pyroglutamate erythropoietin-derived sensory neuroprotection: ARA 290 selectively mitigates neuropathic pain and inflammation in damaged sensory nerves.
+5. Acetylated melanocortin tripeptide inflammation control: Ac-KPV-NH2 delivers potent cytokine suppression for resolving chronic nasal inflammation.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Empty Nose Syndrome (ENS) p01"
+"Loaded_Programs=Empty Nose Syndrome (ENS) p02"
+"Loaded_Programs=Empty Nose Syndrome (ENS) p03"
+"Loaded_Programs=Empty Nose Syndrome (ENS) p04"
+"Loaded_Programs=Empty Nose Syndrome (ENS) p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"[/Preset]"

@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Encephalitis (Coil)"
+"Preset_Notes=Encephalitis for Coil
+
+Encephalitis is acute brain inflammation commonly caused by viral infections (e.g., HSV), autoimmune processes, or other triggers, leading to cytokine storm, neuronal apoptosis, edema, BBB disruption, and potential sequelae like cognitive impairment or epilepsy.
+
+The proposed polypeptides target evidence-based therapeutic axes from preclinical studies on neuroinflammation, cerebral ischemia, traumatic/ischemic brain injury, and autoimmune encephalomyelitis models, emphasizing neuroprotection, inflammation resolution, regeneration, and optimized cytokine suppression.
+
+1. EPO-derived helical peptide innate repair activation: ARA-290 suppresses neuroinflammation, apoptosis, and promotes protection in ischemic and inflammatory brain injury.
+2. Melanotropin analog neuroprotective modulation: Semax alters expression of immune and vascular genes, providing protection in focal ischemia and brain stress.
+3. Thymosin {beta}4 fragment actin-mediated repair: TB-500 supports neuronal regeneration, reduces inflammation, and aids recovery in traumatic brain injury models.
+4. Gastric pentadecapeptide cytoprotective recovery: BPC-157 counters encephalopathies, brain edema, and severe inflammatory disturbances via gut-brain axis.
+5. {alpha}-MSH tripeptide central anti-inflammatory action: KPV attenuates inflammatory damage and cytokine effects in brain inflammation models.
+6. Engineered stabilized nonapeptide cytokine suppression: Ac-KGHYAERVG-NH2 optimizes anti-inflammatory effects derived from EAE-active motif for autoimmune neuroinflammation.
+
+"
+"Loaded_Programs=Encephalitis p01"
+"Loaded_Programs=Encephalitis p02"
+"Loaded_Programs=Encephalitis p03"
+"Loaded_Programs=Encephalitis p04"
+"Loaded_Programs=Encephalitis p05"
+"Loaded_Programs=Encephalitis p06"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M170.106=1,M57.021,M137.059,M163.063,M71.037,M129.043,M156.101,M99.068,M56.037,0=4,"
+"[/Preset]"

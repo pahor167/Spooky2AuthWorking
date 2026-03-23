@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Cat Swollen Lymphoid Nodule (P)"
+"Preset_Notes=Cat Swollen Lymphoid Nodule for Plasma
+
+Cat Swollen Lymphoid Nodule refers to lymphadenopathy in felines, often due to infections, inflammation, allergic reactions, or neoplasia like lymphoma, leading to enlarged lymph nodes, fever, lethargy, and potential systemic issues.
+The polypeptides target axes including antimicrobial action against infections, anti-inflammatory effects to reduce swelling, immunomodulation to balance immune responses, and antineoplastic mechanisms to address cancerous causes; for example, disrupting pathogens, suppressing cytokines, enhancing T-cell function, and promoting apoptosis in malignant cells; feasibility supported by veterinary applications and studies, with short sequences for stability and administration; designed polypeptides (flagged below) are conceptual with non-standard residues for feline-specific targeting.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Cat Swollen Lymphoid Nodule p01"
+"Loaded_Programs=Cat Swollen Lymphoid Nodule p02"
+"Loaded_Programs=Cat Swollen Lymphoid Nodule p03"
+"Loaded_Programs=Cat Swollen Lymphoid Nodule p04"
+"Loaded_Programs=Cat Swollen Lymphoid Nodule p05"
+"Loaded_Programs=Cat Swollen Lymphoid Nodule p06"
+"Loaded_Programs=Cat Swollen Lymphoid Nodule p07"
+"Loaded_Programs=Cat Swollen Lymphoid Nodule p08"
+"Loaded_Programs=Cat Swollen Lymphoid Nodule p09"
+"Loaded_Programs=Cat Swollen Lymphoid Nodule p10"
+"Loaded_Programs=Cat Swollen Lymphoid Nodule p11"
+"Loaded_Programs=Cat Swollen Lymphoid Nodule p12"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M150.954=1,M237.148,M114.079,M100.064,M86.048,M85.053,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M200.095,M86.048,M101.048,0=4,"
+"[/Preset]"

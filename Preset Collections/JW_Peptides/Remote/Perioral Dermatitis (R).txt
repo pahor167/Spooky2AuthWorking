@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Perioral Dermatitis (R)"
+"Preset_Notes=Perioral Dermatitis for Remote
+
+Perioral dermatitis is a facial rash characterized by erythematous papules, pustules, and scaling around the mouth, often resembling rosacea or acne, with multifactorial etiology involving skin barrier dysfunction, microbial dysbiosis (bacteria, fungi, Demodex mites), inflammation, and triggers like topical steroids or cosmetics. 
+
+The polypeptides target anti-inflammatory pathways to reduce cytokine-mediated inflammation, antimicrobial axes to combat bacterial and fungal overgrowth, barrier repair to restore epidermal integrity, and microbiome modulation for balanced skin flora; designed polypeptides (Peptides 11 and 12) are conceptual constructs to address anti-parasitic (Demodex) and sebum regulation axes, ensuring comprehensive coverage with scientific feasibility based on peptide stability, topical delivery, and low immunogenicity.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Perioral Dermatitis p01"
+"Loaded_Programs=Perioral Dermatitis p02"
+"Loaded_Programs=Perioral Dermatitis p03"
+"Loaded_Programs=Perioral Dermatitis p04"
+"Loaded_Programs=Perioral Dermatitis p05"
+"Loaded_Programs=Perioral Dermatitis p06"
+"Loaded_Programs=Perioral Dermatitis p07"
+"Loaded_Programs=Perioral Dermatitis p08"
+"Loaded_Programs=Perioral Dermatitis p09"
+"Loaded_Programs=Perioral Dermatitis p10"
+"Loaded_Programs=Perioral Dermatitis p11"
+"Loaded_Programs=Perioral Dermatitis p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M103.009,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M103.009,M137.059,M97.053,M99.068,M147.068,M103.009,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M103.009,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M103.009,M103.009,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M103.009,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M103.009,M71.037,M99.068,M113.084,M87.032,M103.009,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M103.009,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M103.009,M103.009,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M103.009,M113.084,M129.043,M113.084,M128.095,M114.079,M113.084,M147.068,M137.059,M115.027,M114.043,0=4,"
+"Loaded_Frequencies=M100.064=1,M101.048,M100.064,M100.064,M100.064,M147.068,M113.084,M100.064,M100.064,M101.048,0=4,"
+"Loaded_Frequencies=M99.068=1,M57.021,M71.037,M113.084,M71.037,M99.068,M99.068,M99.068,M186.079,M113.084,M186.079,M113.084,M186.079,M113.084,M186.079,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M113.084,M113.084,M156.101,M113.084,M113.084,M113.084,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M100.064,M113.084,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M142.111=1,M86.048,M85.053,M150.954,M198.148,0=4,"
+"[/Preset]"

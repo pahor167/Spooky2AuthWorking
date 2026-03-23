@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Vertebrae Calcification (S)"
+"Preset_Notes=Vertebrae Calcification for Scalar
+
+Vertebrae calcification encompasses abnormal calcium deposition and ossification in spinal structures, including intervertebral discs (IVD calcification), spinal ligaments (such as in ossification of the posterior longitudinal ligament (OPLL), ossification of the ligamentum flavum (OLF), and diffuse idiopathic skeletal hyperostosis (DISH)), and vertebral endplates. It is often age-related but influenced by genetic factors, metabolic disorders (diabetes, obesity), mechanical overload, chronic inflammation, oxidative stress, and disrupted bone remodeling pathways. Symptoms include chronic back pain, stiffness, reduced spinal mobility, radiculopathy, or myelopathy with neurological deficits in severe cases like OPLL-induced cord compression. Pathophysiology involves ectopic osteogenic transdifferentiation of ligament fibroblasts or disc cells, driven by upregulated BMP/Wnt signaling, integrin-mediated adhesion promoting angiogenesis and mineralization, inflammatory macrophage infiltration, and oxidative damage disrupting cellular homeostasis, leading to progressive stiffening, degeneration, and potential fusion.
+
+The proposed polypeptides target primary therapeutic axes: integrin {alpha}V{beta}3 antagonism to block ossification in ligaments, anti-inflammatory modulation to curb degeneration in discs, and Nrf2 pathway activation to mitigate oxidative stress in endplates. c(RGDyk) provides direct inhibition of integrin signaling shown in preclinical models to attenuate OPLL progression by reducing cell adhesion and osteogenic differentiation. The designed cyclic dimeric RGD, flagged as designed and derived from established RGD integrin antagonist motifs with disulfide cyclization plus N-acetylation and C-amidation for protease resistance and higher binding avidity, amplifies blockade of ossification pathways. The designed cationic anti-inflammatory, flagged as designed and based on innate defense regulator (IDR) peptide scaffolds with added lysines for enhanced charge and termini modifications for stability, dampens inflammation and macrophage-driven calcification in IVDs. The designed TAT-Nrf2 fusion, flagged as designed and rationally combining TAT cell-penetrating sequence with Nrf2-Keap1 disrupting motif plus termini protections, activates HO-1 antioxidant responses to protect endplate chondrocytes from oxidative damage implicated in sclerosis. Physicochemical profiles support feasibility: lengths optimized for synthesis, modifications limiting proteolysis, cationic nets (+4 to +10 at pH 7) aiding solubility, GRAVY scores negative for hydrophilicity, and instability indices low for shelf-life.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Vertebrae Calcification p01"
+"Loaded_Programs=Vertebrae Calcification p02"
+"Loaded_Programs=Vertebrae Calcification p03"
+"Loaded_Programs=Vertebrae Calcification p04"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M163.063,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M170.106=1,M128.095,M99.068,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"[/Preset]"

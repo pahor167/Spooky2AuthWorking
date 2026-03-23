@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Posture Correction (Coil)"
+"Preset_Notes=Posture Correction for Coil
+
+Posture correction targets musculoskeletal imbalances, chronic back pain, reduced flexibility, connective tissue weakness, and inflammation that contribute to poor alignment and slouching. The proposed polypeptides address evidence-based axes from preclinical studies, orthopaedic applications, and clinical observations on tissue repair, inflammation reduction, flexibility enhancement, collagen remodeling, and muscle strengthening.
+
+1. Gastric pentadecapeptide-mediated systemic healing and anti-inflammation: BPC-157 accelerates tendon/ligament recovery and reduces back pain in injury models.
+2. Thymosin {beta}4 fragment promotion of actin dynamics and flexibility: TB-500 enhances cell migration, reduces fibrosis, and supports muscle/tendon repair for better postural mobility.
+3. Copper tripeptide stimulation of collagen synthesis: GHK-Cu promotes ECM remodeling and connective tissue strength essential for spinal support.
+4. Selective GH secretagogue for muscle/bone enhancement: Ipamorelin stimulates growth hormone release to build core strength and musculoskeletal resilience.
+5. Engineered GPP-repeat collagen mimetic for fibril stabilization: Ac-(GPP)10-NH2 intercalates into collagen to reinforce structural integrity in postural tissues.
+
+"
+"Loaded_Programs=Posture Correction p01"
+"Loaded_Programs=Posture Correction p02"
+"Loaded_Programs=Posture Correction p03"
+"Loaded_Programs=Posture Correction p04"
+"Loaded_Programs=Posture Correction p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M85.053=1,M137.059,M205.074,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M96.069,0=4,"
+"[/Preset]"

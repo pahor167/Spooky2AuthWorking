@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Intussusception (R)"
+"Preset_Notes=Intussusception for Remote
+
+Intussusception is a serious medical condition primarily affecting infants and young children, though it can occur in adults as well. It involves the telescoping of one segment of the intestine into an adjacent segment, leading to bowel obstruction, reduced blood flow, and potential tissue death if not addressed promptly. Causes in children are often idiopathic, potentially triggered by viral infections leading to lymphoid hyperplasia in the intestinal wall, which acts as a lead point for the invagination. In adults, it is more commonly secondary to underlying pathologies such as tumors, polyps, adhesions from prior surgeries, or inflammatory conditions like Crohn's disease. Symptoms typically include sudden, severe abdominal pain that comes and goes in waves, vomiting (often bilious), bloody stools resembling currant jelly due to mucosal sloughing and bleeding, lethargy, a palpable sausage-shaped mass in the abdomen, and signs of shock in severe cases. Pathophysiologically, the condition arises from disrupted peristalsis where a proximal bowel segment (intussusceptum) invaginates into the distal segment (intussuscipiens), causing venous congestion, edema, arterial compromise, ischemia, and possible perforation or peritonitis if untreated. Risk factors include recent viral illnesses, Meckel's diverticulum, or, in rare cases, medications affecting gut motility like glucagon-like peptide-1 receptor agonists. Early diagnosis via ultrasound or contrast enema is crucial, with treatment focusing on non-surgical reduction in children or surgical intervention in complicated or adult cases.
+
+The proposed polypeptides, all designed as no real-world ones were identified for direct treatment despite exhaustive searches across PubMed, NIH, and other sources, aim to address intussusception through multiple therapeutic axes including smooth muscle relaxation, gastrointestinal motility modulation, anti-inflammatory effects, pain management, edema reduction, antimicrobial activity, immune modulation, and vascular protection. These designed polypeptides offer conceptual adjunctive therapies to standard mechanical reductions, potentially facilitating non-invasive resolution by targeting underlying pathophysiological mechanisms such as altered peristalsis and inflammation. For smooth muscle relaxation, polypeptides mimic vasoactive intestinal peptide-like actions to reduce intestinal spasms and aid in untelescoping the bowel segments, with feasibility supported by known peptide relaxants in GI disorders; their mode involves binding to receptors on smooth muscle cells to promote cyclic AMP-mediated relaxation, considering physicochemical properties like solubility for intravenous or enteral delivery. In GI motility modulation, they regulate peristaltic waves to prevent uncoordinated contractions, drawing from motilin analogs, feasible via short half-life designs for acute use. Anti-inflammatory polypeptides inhibit cytokine release and NF-kB pathways to mitigate mucosal swelling, enhancing reduction success, with lipophilicity aiding tissue penetration. For pain management, opioid-like peptides target mu-receptors without systemic side effects, providing rapid relief during episodes. Edema reduction involves bradykinin antagonists to decrease vascular permeability, feasible in peptide form with high specificity. Antimicrobial designs combat potential infectious triggers, using cationic structures for membrane disruption, suitable for prophylactic use in viral-associated cases. Immune modulation suppresses excessive lymphoid responses via thymosin-inspired sequences, balancing local immunity. Vascular protection strengthens endothelial integrity to prevent ischemia, incorporating fibrinogen motifs for clot stabilization. Overall, these designed polypeptides, while conceptual, are grounded in established peptide pharmacology, with considerations for stability, bioavailability, and minimal immunogenicity to support therapeutic viability in clinical settings.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Intussusception p01"
+"Loaded_Programs=Intussusception p02"
+"Loaded_Programs=Intussusception p03"
+"Loaded_Programs=Intussusception p04"
+"Loaded_Programs=Intussusception p05"
+"Loaded_Programs=Intussusception p06"
+"Loaded_Programs=Intussusception p07"
+"Loaded_Programs=Intussusception p08"
+"Loaded_Programs=Intussusception p09"
+"Loaded_Programs=Intussusception p10"
+"Loaded_Programs=Intussusception p11"
+"Loaded_Programs=Intussusception p12"
+"Loaded_Frequencies=M71.037=1,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M147.068,M101.048,M163.063,M57.021,M129.043,M113.084,M128.058,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,M101.048,M87.032,M129.043,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M97.053,M57.021,M147.068,M87.032,M97.053,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.058,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M113.084,M57.021,M57.021,M71.037,M128.095,M128.058,M71.037,M57.021,M115.027,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M114.043,M87.032,M99.068,M71.037,M128.095,M128.095,M163.063,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M131.040,M128.058,M129.043,M128.095,M129.043,M156.101,M114.043,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,0=4,"
+"Loaded_Frequencies=M101.048=1,M87.032,M129.043,M128.095,M87.032,M128.058,M101.048,M97.053,M113.084,M99.068,0=4,"
+"[/Preset]"

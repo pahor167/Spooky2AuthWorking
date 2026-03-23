@@ -1,0 +1,22 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=L55 Morgellons Infrastructure B - DB"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Spooky Laser.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Enablers 3 CUST
+Enablers 4 CUST
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Enablers 3 (CUST)"
+"Loaded_Programs=Enablers 4 (CUST)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=3499071.79=300,3499071.8=300,1749535.89=300,1749535.9=300,3473200.56=300,3473200.57=300,1736600.28=300,1736600.29=300,3463132.48=300,3463132.49=300,1731566.24=300,1731566.25=300,3453238.81=300,3453238.82=300,1726619.4=300,1726619.41=300,"
+"Loaded_Frequencies=3407591.84=300,3407591.85=300,1703795.92=300,1703795.93=300,3380834.35=300,3380834.36=300,1690417.17=300,1690417.18=300,3376510.16=300,3376510.17=300,1688255.08=300,1688255.09=300,3371432.22=300,3371432.23=300,1685716.11=300,1685716.12=300,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

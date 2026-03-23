@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Alpha-GPC (Nootropics) (R) - JRG"
+"Loaded_Programs=Alpha-GPC (CUST)"
+"Loaded_Frequencies=M257.10282,"
+"Preset_Notes=Alpha GPC (alpha-glycerylphosphorylcholine) is found naturally in your brain. It is a precursor to acetylcholine - an essential neurotransmitter involved in memory, cognition, sleep and muscular control.|As a nootropic, Alpha GPC easily crosses the blood-brain barrier. It boosts acetylcholine levels in your brain contributing to improved memory, cognition, learning and focus. And protects against age-related memory loss.|You get Alpha GPC from raw beef liver, cod fish, spinach, milk, soy and eggs. As a supplement, Alpha GPC derived from soy or sunflower lecithin is a more efficient way of boosting acetylcholine in your brain.|Recommended daily dosage for Alpha GPC is 600 mg.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

@@ -1,0 +1,44 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Difficulty Swallowing (Dysphagia) (L)"
+"Preset_Notes=Difficulty Swallowing (Dysphagia) for Laser
+
+Difficulty swallowing (dysphagia) is a condition that can result from neurological, structural, or inflammatory causes, increasing the risk of aspiration and malnutrition.
+1. Swallowing reflex enhancement: Substance-P - Acts as a neurotransmitter to facilitate the swallowing reflex
+2. Salivary neuropeptide increase: CGRP - Improves swallowing by increasing salivary neuropeptides and enhancing sensory perception
+3. Immunomodulation: Thymosin alpha 1 - Modulates immune response to reduce esophageal eosinophilia in EoE-related dysphagia
+4. Antimicrobial protection: Protegrin-1 - Reduces microbial overgrowth in oral cavity to aid swallowing
+5. Anti-inflammatory: LL-37 - Reduces inflammation in oropharynx to improve swallowing comfort
+6. Neuroplasticity enhancement: Semax - Promotes brain plasticity to improve swallowing coordination in neurological dysphagia
+7. Tissue repair: BPC-157 - Promotes healing of esophageal and oropharyngeal tissues
+8. Mitochondrial protection: Elamipretide - Protects mitochondrial function in swallowing muscles
+9. Antioxidant therapy: Glutathione - Reduces oxidative stress to protect swallowing tissues
+10. Vasoactive regulation: VIP - Modulates vascular tone to improve mucosal health for swallowing
+11. TRP channel activation: TRP-Design - Designed peptide to activate TRP channels for enhanced swallowing reflex
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Difficulty Swallowing (Dysphagia) p01"
+"Loaded_Programs=Difficulty Swallowing (Dysphagia) p02"
+"Loaded_Programs=Difficulty Swallowing (Dysphagia) p03"
+"Loaded_Programs=Difficulty Swallowing (Dysphagia) p04"
+"Loaded_Programs=Difficulty Swallowing (Dysphagia) p05"
+"Loaded_Programs=Difficulty Swallowing (Dysphagia) p06"
+"Loaded_Programs=Difficulty Swallowing (Dysphagia) p07"
+"Loaded_Programs=Difficulty Swallowing (Dysphagia) p08"
+"Loaded_Programs=Difficulty Swallowing (Dysphagia) p09"
+"Loaded_Programs=Difficulty Swallowing (Dysphagia) p10"
+"Loaded_Programs=Difficulty Swallowing (Dysphagia) p11"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M71.037,0=4,"
+"[/Preset]"

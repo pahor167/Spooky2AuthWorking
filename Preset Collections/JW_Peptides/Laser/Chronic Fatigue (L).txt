@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Chronic Fatigue (L)"
+"Preset_Notes=Chronic Fatigue for Laser
+
+Chronic Fatigue (With Difficulty Processing Essential Minerals Such As Calcium and Magnesium)
+
+Chronic Fatigue Syndrome (CFS), also known as Myalgic Encephalomyelitis (ME), is characterized by profound, debilitating fatigue that persists for at least six months, is not alleviated by rest, and significantly impairs daily activities. Symptoms include post-exertional malaise (worsening of symptoms after minimal physical or mental effort), unrefreshing sleep, cognitive impairments (brain fog), orthostatic intolerance, muscle pain, joint pain without swelling, headaches, sore throat, and tender lymph nodes. The condition often follows viral infections, stress, or trauma, with pathophysiology involving immune dysregulation, mitochondrial dysfunction leading to impaired energy production, chronic low-grade inflammation, oxidative stress, hypothalamic-pituitary-adrenal (HPA) axis abnormalities, and gut dysbiosis. In this specific case, difficulty processing essential minerals like calcium and magnesium exacerbates symptoms, potentially due to impaired transport proteins, mitochondrial inefficiencies affecting ATP-dependent pumps, or gut absorption issues, leading to muscle cramps, bone weakness, cardiac irregularities, and worsened fatigue from disrupted enzymatic functions and neuromuscular signaling.
+
+The proposed polypeptides address key therapeutic axes: mineral metabolism and absorption, mitochondrial energy production, immune and inflammatory regulation, and oxidative stress management. Parathyroid hormone (1-34), a real-world polypeptide, enhances calcium mobilization from bones and absorption in intestines/kidneys via PTH receptors, improving mineral processing. The designed Ca-binding mimic polypeptide conceptually facilitates calcium and magnesium transport by mimicking EF-hand motifs, aiding cellular uptake. For mitochondrial support, the designed mitochondria-penetrating polypeptide targets energy production by enhancing ATP synthesis and reducing dysfunction. Thymosin alpha 1, a real-world polypeptide, modulates immune responses by promoting T-cell maturation and cytokine balance, reducing chronic inflammation in CFS. The designed immune modulator polypeptide dampens pro-inflammatory pathways to alleviate systemic fatigue. The designed antioxidant polypeptide scavenges reactive oxygen species to mitigate oxidative damage, supporting overall cellular health. This combination ensures comprehensive coverage, with short designed sequences for bioavailability, low hydrophobicity for solubility, and stability against proteolysis, feasible for oral or injectable delivery.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Chronic Fatigue p01"
+"Loaded_Programs=Chronic Fatigue p02"
+"Loaded_Programs=Chronic Fatigue p03"
+"Loaded_Programs=Chronic Fatigue p04"
+"Loaded_Programs=Chronic Fatigue p05"
+"Loaded_Programs=Chronic Fatigue p06"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M57.021,M115.027,M57.021,M163.063,M113.084,M87.032,M71.037,0=4,"
+"Loaded_Frequencies=M147.068=1,M156.101,M128.095,M128.095,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,M101.048,M186.079,M186.079,M129.043,M101.048,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,0=4,"
+"[/Preset]"

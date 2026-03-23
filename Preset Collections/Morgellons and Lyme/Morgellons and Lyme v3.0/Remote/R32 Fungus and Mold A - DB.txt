@@ -1,0 +1,78 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R32 Fungus and Mold A - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Biotin MW
+Ringworm CAFL
+Microsporum Audouini CAFL
+Dermatophytoses XTRA
+Trichophyton Mentagrophytes CAFL
+Nagel Trichophyton BIO
+Biotin MW
+Epicoccum CAFL
+Aspergillus Flavus CAFL
+Aspergillus Fumigatus XTRA
+Aspergillus Glaucus CAFL
+Aspergillus Niger BIO
+Aspergillus Terreus CAFL
+Biotin MW
+Brain Fungus 2 XTRA
+Brain Fungus 1 XTRA
+Rhizopus Nigricans CAFL
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square_Hbomb=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Biotin (MW)"
+"Loaded_Programs=Ringworm (CAFL)"
+"Loaded_Programs=Microsporum Audouini (CAFL)"
+"Loaded_Programs=Dermatophytoses (XTRA)"
+"Loaded_Programs=Trichophyton Mentagrophytes (CAFL)"
+"Loaded_Programs=Nagel Trichophyton (BIO)"
+"Loaded_Programs=Biotin (MW)"
+"Loaded_Programs=Epicoccum (CAFL)"
+"Loaded_Programs=Aspergillus Flavus (CAFL)"
+"Loaded_Programs=Aspergillus Fumigatus (XTRA)"
+"Loaded_Programs=Aspergillus Glaucus (CAFL)"
+"Loaded_Programs=Aspergillus Niger (BIO)"
+"Loaded_Programs=Aspergillus Terreus (CAFL)"
+"Loaded_Programs=Biotin (MW)"
+"Loaded_Programs=Brain Fungus 1 (XTRA)"
+"Loaded_Programs=Gliocladium 1 (XTRA)"
+"Loaded_Programs=Rhizopus Nigricans (CAFL)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=M244.088163078=180,"
+"Loaded_Frequencies=422=360,442=360,732=360,5000=360,60=360,76=360,92=360,120=360,128=360,440=360,800=360,"
+"Loaded_Frequencies=422=300,831=300,1222=300,285=300,"
+"Loaded_Frequencies=1752.48=180,11046.87=180,"
+"Loaded_Frequencies=311=720,414=720,"
+"Loaded_Frequencies=133=180,381=180,812=180,2422=180,"
+"Loaded_Frequencies=M244.088163078=180,"
+"Loaded_Frequencies=734=240,778=240,"
+"Loaded_Frequencies=1823=300,247=300,1972=300,"
+"Loaded_Frequencies=248=180,"
+"Loaded_Frequencies=524=300,758=300,"
+"Loaded_Frequencies=374=180,"
+"Loaded_Frequencies=743=360,339=360,"
+"Loaded_Frequencies=M244.088163078=180,"
+"Loaded_Frequencies=2608=180,"
+"Loaded_Frequencies=469=180,633=180,855=180,"
+"Loaded_Frequencies=132=180,327=180,775=180,659=180,660=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

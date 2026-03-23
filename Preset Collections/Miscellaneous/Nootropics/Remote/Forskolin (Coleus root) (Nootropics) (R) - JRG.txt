@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Forskolin (Coleus root) (Nootropics) (R) - JRG"
+"Loaded_Programs=Forskolin (Coleus root) (CUST)"
+"Loaded_Frequencies=M410.23045,"
+"Preset_Notes=Forskolin is a plant native to south Asia. And has a limited nootropic track record. It first became popular when included in the open source stack CILTEP.|Forskolin combined with artichoke extract boosts cAMP levels in the brain. Leading to improved memory, and ability to reason.|Common dosage of Forskolin is 150 - 250 mg. per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

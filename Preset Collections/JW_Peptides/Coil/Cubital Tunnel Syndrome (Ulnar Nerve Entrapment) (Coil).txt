@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Cubital Tunnel Syndrome (Ulnar Nerve Entrapment) (Coil)"
+"Preset_Notes=Cubital Tunnel Syndrome (Ulnar Nerve Entrapment) for Coil
+
+Cubital Tunnel Syndrome is a compressive neuropathy of the ulnar nerve at the elbow, characterized by mechanical ischemia, chronic inflammation, and Schwann cell-mediated demyelination. Pathological progression involves epineurial fibrosis, venous stasis, and impaired axonal transport, leading to paresthesia and motor atrophy in the hand. Emerging peptide therapies target the stabilization of the blood-nerve barrier, acceleration of axonal regrowth, and modulation of the neuroinflammatory milieu to prevent irreversible intrinsic muscle wasting.
+
+1. Neurotrophic Axis: L1L4 - A bicyclic peptide mimicking the loop 1 and loop 4 domains of Nerve Growth Factor (NGF) that selectively activates TrkA receptors to promote sensory neuron survival and distal axonal outgrowth.
+2. Cytoprotective Axis: BPC-157 - A stable gastric pentadecapeptide that upregulates VEGFR2 expression and activates the FAK-paxillin pathway to stimulate angiogenesis and accelerate the repair of compressed nerve segments.
+3. Immunomodulatory Axis: Cortistatin-14 - An endogenous cyclic neuropeptide that binds somatostatin receptors and MRGPRX2 to inhibit pro-inflammatory cytokine release (TNF-alpha, IL-1beta) and reduce neurogenic inflammation within the cubital tunnel.
+4. Fibrinolytic Axis: PXL01 - A 25-residue peptide derived from human lactoferrin that reduces post-surgical adhesions and epineurial scarring by inhibiting Plasminogen Activator Inhibitor-1 (PAI-1).
+5. Schwann Cell Activation Axis: Ulnarest - A designed peptide targeting the c-Jun N-terminal kinase pathway to promote the transition of Schwann cells to a repair phenotype, facilitating the formation of the Bands of Bungner for directed regeneration.
+
+"
+"Loaded_Programs=Cubital Tunnel Syndrome (Ulnar Nerve Entrapment) p01"
+"Loaded_Programs=Cubital Tunnel Syndrome (Ulnar Nerve Entrapment) p02"
+"Loaded_Programs=Cubital Tunnel Syndrome (Ulnar Nerve Entrapment) p03"
+"Loaded_Programs=Cubital Tunnel Syndrome (Ulnar Nerve Entrapment) p04"
+"Loaded_Programs=Cubital Tunnel Syndrome (Ulnar Nerve Entrapment) p05"
+"Loaded_Frequencies=M97.053=1,M103.009,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M103.009,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M103.009,M147.068,M128.058,M186.079,M128.058,M156.101,M131.040,M156.101,M128.095,M99.068,M156.101,M57.021,M97.053,M97.053,M99.068,M87.032,M103.009,M113.084,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M113.084,M113.084,M163.063,M156.101,M115.027,M128.095,M147.068,M101.048,M156.101,0=4,"
+"[/Preset]"

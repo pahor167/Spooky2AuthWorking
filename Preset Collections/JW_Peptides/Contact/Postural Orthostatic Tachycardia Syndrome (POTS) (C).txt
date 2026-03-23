@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Postural Orthostatic Tachycardia Syndrome (POTS) (C)"
+"Preset_Notes=Postural Orthostatic Tachycardia Syndrome (POTS) for Contact
+
+These peptides primarily address POTS by modulating vascular tone to improve orthostatic tolerance, regulating fluid balance and blood volume, reducing tachycardia through autonomic modulation, providing immune regulation to counter autoimmune aspects, promoting neuroprotection and tissue repair, and alleviating associated inflammation and fatigue. ANP, BNP, and CNP act as natriuretic factors to manage volume and predict therapeutic responses, VIP and CGRP influence vasodilation and sensitization, NPY and ET-1 support vasoconstriction and compensatory responses, Thymosin alpha-1 and Thymosin beta-4 enhance immune surveillance and vascular health, BPC-157 offers cytoprotective effects on the autonomic nervous system. These mechanisms are supported by preclinical, clinical, and veterinary literature, with high feasibility due to their natural origins, stability, and options for subcutaneous, intranasal, or intravenous administration; considerations include dosage for symptom management and monitoring for volume changes.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Postural Orthostatic Tachycardia Syndrome (POTS) p01"
+"Loaded_Programs=Postural Orthostatic Tachycardia Syndrome (POTS) p02"
+"Loaded_Programs=Postural Orthostatic Tachycardia Syndrome (POTS) p03"
+"Loaded_Programs=Postural Orthostatic Tachycardia Syndrome (POTS) p04"
+"Loaded_Programs=Postural Orthostatic Tachycardia Syndrome (POTS) p05"
+"Loaded_Programs=Postural Orthostatic Tachycardia Syndrome (POTS) p06"
+"Loaded_Programs=Postural Orthostatic Tachycardia Syndrome (POTS) p07"
+"Loaded_Programs=Postural Orthostatic Tachycardia Syndrome (POTS) p08"
+"Loaded_Programs=Postural Orthostatic Tachycardia Syndrome (POTS) p09"
+"Loaded_Programs=Postural Orthostatic Tachycardia Syndrome (POTS) p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M103.009,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.059,M87.032,M57.021,M113.084,M57.021,M103.009,M114.043,M87.032,M147.068,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.059,M57.021,M87.032,M57.021,M103.009,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M103.009,M128.095,M99.068,M113.084,M156.101,M156.101,M137.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M103.009,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M115.027,M128.095,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M103.009,0=4,"
+"Loaded_Frequencies=M137.058=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.059,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M128.095,M156.101,M128.059,M131.040,M114.043,M114.043,M147.068,M128.059,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M103.009,M156.101,M147.068,M57.021,M101.048,M103.009,M101.048,M99.068,M128.059,M128.095,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M103.009=1,M87.032,M103.009,M87.032,M87.032,M113.084,M131.040,M115.027,M128.095,M129.043,M103.009,M99.068,M163.063,M147.068,M103.009,M137.058,M113.084,M115.027,M113.084,M113.084,M186.079,0=4,"
+"[/Preset]"

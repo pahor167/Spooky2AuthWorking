@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Cryptococcosis (C)"
+"Preset_Notes=Cryptococcosis for Contact
+
+Cryptococcosis is an invasive fungal infection caused by Cryptococcus neoformans or gattii, commonly affecting immunocompromised individuals with pulmonary or central nervous system involvement, characterized by capsule-mediated evasion, chronic inflammation, and high mortality if untreated. The proposed polypeptides target evidence-based therapeutic axes from antifungal peptide literature, including direct fungicidal mechanisms, membrane disruption, immune enhancement, and inflammation control to eradicate the pathogen and support host recovery.
+
+1. Histatin-derived fragment potent fungicidal activity: P-113 (12-mer from histatin 5) exhibits strong killing of Cryptococcus neoformans through membrane interaction and intracellular effects.
+2. Human cathelicidin broad antifungal and immunomodulatory effects: LL-37 demonstrates direct activity against Cryptococcus and enhances immune responses.
+3. Human beta-defensin 3 innate antimicrobial defense: hBD-3 provides potent activity against cryptococcal pathogens with immunomodulatory properties.
+4. Bovine indolicidin membrane-permeabilizing action: Short cathelicidin fragment disrupts fungal cell integrity.
+5. Thymosin {alpha}1 dendritic cell activation for antifungal Th1 resistance: Promotes IL-12 production and adaptive immunity to clear fungal infections.
+6. {alpha}-MSH-derived tripeptide anti-inflammatory modulation: KPV (Ac- and amidated) suppresses excessive inflammation in cryptococcal meningitis.
+7. Engineered amphipathic cationic peptide targeted antifungal action: VG16KRKP optimized for specific mode of action against C. neoformans cell wall and viability.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Cryptococcosis p01"
+"Loaded_Programs=Cryptococcosis p02"
+"Loaded_Programs=Cryptococcosis p03"
+"Loaded_Programs=Cryptococcosis p04"
+"Loaded_Programs=Cryptococcosis p05"
+"Loaded_Programs=Cryptococcosis p06"
+"Loaded_Programs=Cryptococcosis p07"
+"Loaded_Frequencies=M71.037=1,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M136.075,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M71.037,M156.101,M57.021,M186.079,M128.095,M156.101,M128.095,M103.009,M97.053,M113.084,M147.068,M57.021,M128.095,M57.021,M57.021,0=4,"
+"[/Preset]"

@@ -1,0 +1,60 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Menopausal (Post-menopausal) Hirsutism (S)"
+"Preset_Notes=Menopausal (Post-menopausal) Hirsutism for Scalar
+
+Mechanistic Rationale 
+Post-menopausal hirsutism stems primarily from relative androgen excess due to declining ovarian estrogen production without proportional decline in adrenal androgens (especially DHEA-S), coupled with increased peripheral 5{alpha}-reductase activity, heightened dermal androgen receptor (AR) sensitivity, and altered sex hormone-binding globulin (SHBG) dynamics. Key pathophysiological axes include: 
+• Endocrine pathway dysregulation (ovarian-adrenal-peripheral axis imbalance) 
+• Androgen receptor signaling potentiation in pilosebaceous units 
+• Local enzymatic amplification (5{alpha}-reductase type 1 upregulation in skin) 
+• Inflammatory microenvironment in hair follicles (IL-6, TNF-{alpha}-driven AR co-activation) 
+• Oxidative stress-mediated follicular hyperstimulation 
+• Impaired estrogenic counter-regulation at dermal level 
+• Altered intrafollicular steroidogenesis (e.g., 17{beta}-HSD overactivity) 
+• Dysregulated Wnt/{beta}-catenin signaling in dermal papilla (androgen-sensitized) 
+
+To address this holistically, the peptide set targets: 
+1. Competitive AR LBD (ligand-binding domain) antagonism via helical mimetics 
+2. Allosteric inhibition of 5{alpha}-reductase type 1 
+3. SHBG-stabilizing motifs to increase free-testosterone sequestration 
+4. IL-6/JAK-STAT axis suppression in perifollicular fibroblasts 
+5. NRF2/KEAP1-mediated antioxidant induction in dermal keratinocytes 
+6. Selective ER{beta} agonism in skin (non-uterotrophic) 
+7. Inhibition of local DHEA->androstenedione conversion via 3{beta}-HSD interference 
+8. Modulation of Wnt co-receptor LRP6 to dampen androgen-potentiated follicular activation 
+
+All designs prioritize skin-penetrant physicochemical properties: logP ~1.5-3.0, MW <=1800 Da, net charge near-neutral at pH 5.5 (follicular infundibulum), and incorporation of constrained or D-residues for protease resistance. Terminal PEG5 or acetyl used for transdermal flux enhancement; C-terminal amidation for stability. 
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Menopausal (Post-menopausal) Hirsutism p01"
+"Loaded_Programs=Menopausal (Post-menopausal) Hirsutism p02"
+"Loaded_Programs=Menopausal (Post-menopausal) Hirsutism p03"
+"Loaded_Programs=Menopausal (Post-menopausal) Hirsutism p04"
+"Loaded_Programs=Menopausal (Post-menopausal) Hirsutism p05"
+"Loaded_Programs=Menopausal (Post-menopausal) Hirsutism p06"
+"Loaded_Programs=Menopausal (Post-menopausal) Hirsutism p07"
+"Loaded_Programs=Menopausal (Post-menopausal) Hirsutism p08"
+"Loaded_Frequencies=M155.116=1,M197.105,M155.116,M197.105,M155.116,0=4,"
+"Loaded_Frequencies=M197.105=1,M155.116,M197.105,M155.116,M197.105,M155.116,0=4,"
+"Loaded_Frequencies=M128.095=1,M101.048,M128.095,M101.048,M128.095,M101.048,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M186.079,M137.059,M186.079,M137.059,M186.079,0=4,"
+"Loaded_Frequencies=M114.043=1,M87.032,M114.043,M87.032,M114.043,M87.032,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M163.063,M113.084,M163.063,M113.084,M163.063,0=4,"
+"Loaded_Frequencies=M100.064=1,M86.048,M100.064,M86.048,M100.064,M86.048,M100.064,M86.048,0=4,"
+"Loaded_Frequencies=M131.040=1,M131.040,M131.040,M131.040,M131.040,M131.040,0=4,"
+"[/Preset]"

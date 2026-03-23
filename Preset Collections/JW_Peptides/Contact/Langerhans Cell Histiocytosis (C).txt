@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Langerhans Cell Histiocytosis (C)"
+"Preset_Notes=Langerhans Cell Histiocytosis for Contact
+
+Langerhans Cell Histiocytosis (LCH) is a rare, heterogeneous disorder characterized by the clonal proliferation of Langerhans-like cells, which are specialized dendritic cells derived from myeloid precursors, leading to granulomatous lesions in various organs. It spans a spectrum from localized, self-limiting lesions to multisystem, life-threatening disease, with an incidence of 1-2 per million in adults and 5-9 per million in children. Genetic mutations, particularly BRAF V600E in the MAPK/ERK pathway (present in ~60% of cases), drive uncontrolled cell proliferation, while environmental triggers like smoking may contribute to pulmonary LCH. Symptoms depend on organ involvement: bone lesions cause pain and fractures; skin presents as rashes or ulcers; pulmonary involvement leads to cough, dyspnea, and pneumothorax; central nervous system (CNS) lesions result in diabetes insipidus, ataxia, or neurodegeneration; multisystem disease includes fever, hepatosplenomegaly, cytopenias, and lymphadenopathy. Pathophysiology involves aberrant activation of the RAS-RAF-MEK-ERK signaling cascade, promoting histiocyte survival and inflammation via cytokine release (e.g., IL-1{beta}, TNF-{alpha}), NLRP3 inflammasome activation, NF-{kappa}B signaling, and immune dysregulation with T-cell exhaustion and impaired autophagy. Without treatment, severe cases progress to organ failure, with 5-year survival ~30% in high-risk multisystem LCH; management historically relies on chemotherapy, but targeted therapies are emerging.
+
+The proposed polypeptides address core therapeutic axes in LCH. For MAPK/ERK pathway inhibition, the designed polypeptide conceptually mimics MEK inhibitors to suppress BRAF-driven proliferation and reduce lesion formation. In immune dysregulation modulation, a designed cytokine antagonist targets IL-1{beta} and NF-{kappa}B to alleviate inflammation and T-cell exhaustion. For clonal proliferation control, the designed antiproliferative agent inhibits histiocyte expansion via apoptosis induction. These flagged designed polypeptides incorporate physicochemical optimizations for stability and tissue penetration, with feasibility supported by pathway homology to existing inhibitors, though requiring validation for specificity and off-target effects.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Langerhans Cell Histiocytosis p01"
+"Loaded_Programs=Langerhans Cell Histiocytosis p02"
+"Loaded_Programs=Langerhans Cell Histiocytosis p03"
+"Loaded_Frequencies=M128.095=1,M128.095,M113.084,M114.043,M156.101,M101.048,M113.084,M87.032,M99.068,M71.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M99.068,M71.037,M115.027,M103.009,M128.058,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M186.079,M57.021,M97.053,M156.101,M71.037,M113.084,M99.068,0=4,"
+"[/Preset]"

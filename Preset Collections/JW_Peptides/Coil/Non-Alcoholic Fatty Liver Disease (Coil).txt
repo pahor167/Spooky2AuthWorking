@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Non-Alcoholic Fatty Liver Disease (Coil)"
+"Preset_Notes=Non-Alcoholic Fatty Liver Disease for Coil
+
+Non-Alcoholic Fatty Liver Disease (NAFLD), ranging from steatosis to metabolic dysfunction-associated steatohepatitis (MASH) with fibrosis risk, involves insulin resistance, lipid accumulation, inflammation, mitochondrial dysfunction, oxidative stress, and fibrogenesis. The proposed polypeptides, backed by clinical trials and preclinical studies, target these pathways to reduce liver fat, resolve inflammation, protect hepatocytes, inhibit apoptosis, and prevent fibrosis.
+
+1. GLP-1 receptor agonism for insulin sensitization, weight loss, and histological MASH resolution: Semaglutide improves liver enzymes, steatosis, and fibrosis in dedicated trials.
+2. Dual GLP-1/GIP receptor agonism for enhanced metabolic regulation and superior fibrosis improvement: Tirzepatide achieves high rates of MASH resolution without worsening fibrosis.
+3. Mitochondrial-encoded peptide for systemic metabolic homeostasis and anti-steatotic effects: MOTS-c reduces liver fat, apoptosis, and inflammation in NASH models.
+4. Stable gastric pentadecapeptide for direct cytoprotection and prevention of hepatic lesions: BPC-157 counters necrosis, fatty changes, and injury-induced liver damage.
+5. Mitochondrial-derived anti-apoptotic peptide for cellular protection: Humanin mitigates metabolic stress-induced cell death relevant to NAFLD progression.
+6. Copper-binding tripeptide for regenerative remodeling and antioxidant support: GHK-Cu promotes ECM repair and counters oxidative damage in liver tissue.
+7. Engineered thymosin {beta}4-derived anti-fibrotic tetrapeptide for stellate cell inhibition: Ac-SDKP-NH2 (N-acetylated and amidated for stability) targets fibrosis progression with high specificity.
+
+"
+"Loaded_Programs=Non-Alcoholic Fatty Liver Disease p01"
+"Loaded_Programs=Non-Alcoholic Fatty Liver Disease p02"
+"Loaded_Programs=Non-Alcoholic Fatty Liver Disease p03"
+"Loaded_Programs=Non-Alcoholic Fatty Liver Disease p04"
+"Loaded_Programs=Non-Alcoholic Fatty Liver Disease p05"
+"Loaded_Programs=Non-Alcoholic Fatty Liver Disease p06"
+"Loaded_Programs=Non-Alcoholic Fatty Liver Disease p07"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M113.084,M85.053,M113.084,M115.027,M128.095,M113.084,M128.058,M85.053,M71.037,M147.068,M99.068,M128.058,M186.079,M113.084,M113.084,M57.021,M97.053,M97.053,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M96.069,0=4,"
+"[/Preset]"

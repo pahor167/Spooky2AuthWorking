@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Dog Mammary Gland Tumors (L)"
+"Preset_Notes=Dog Mammary Gland Tumors for Laser
+
+Dog Mammary Gland Tumors are common neoplasms in female dogs, particularly unspayed ones, with about 50% being malignant (e.g., carcinomas) and 50% benign (e.g., adenomas). Caused by hormonal influences (estrogen/progesterone), genetic factors, and age, symptoms include palpable masses in mammary chains, ulceration, discharge, swelling, and in malignant cases, metastasis to lungs or lymph nodes leading to weight loss, lethargy, and respiratory issues. Pathophysiology involves dysregulated cell proliferation from hormone receptor overexpression, angiogenesis, invasion, and immune evasion, often progressing to aggressive adenocarcinoma with poor prognosis if not surgically removed early.
+
+The proposed polypeptides address Dog Mammary Gland Tumors through antitumor targeting, anti-angiogenesis, and apoptosis induction. For direct antitumor action, a designed polypeptide binds hormone receptors to inhibit proliferation signals, mimicking tamoxifen-like peptides but tailored for canine ER/PR; feasibility from oncology peptide trials, with targeted delivery to reduce systemic effects. For anti-angiogenesis, a designed polypeptide disrupts VEGF signaling to starve tumor vasculature, preventing growth and metastasis; conceptual from endostatin fragments, ensuring stability in vivo. For apoptosis promotion, a designed polypeptide activates TRAIL pathways to induce programmed cell death in malignant cells selectively; these designed polypeptides offer adjunctive therapy to surgery/chemotherapy, potentially improving outcomes in high-risk breeds.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Dog Mammary Gland Tumors p01"
+"Loaded_Programs=Dog Mammary Gland Tumors p02"
+"Loaded_Programs=Dog Mammary Gland Tumors p03"
+"Loaded_Frequencies=M156.101=1,M147.068,M156.101,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M99.068=1,M129.043,M99.068,M129.043,M99.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.095,M115.027,M128.095,M115.027,0=4,"
+"[/Preset]"

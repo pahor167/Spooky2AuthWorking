@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=For Those Who Suffer Uncertainty (S)"
+"Preset_Notes=For Those Who Suffer Uncertainty / Spooky Scalar
+
+Estimated Time: Run this preset for 18:00 minutes.
+Cerato - Lack of trust in one's own decisions. Scleranthus - Inability to choose between alternatives. Gentian - Discouragement after a setback. Gorse - Hopelessness and despair. Hornbeam - Procrastinationm tiredness at the thought of doing something. Wild Oat - Uncertainty over one's direction in life.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=For Those Who Suffer Uncertainty (S)"
+"Loaded_Frequencies=291.8,307.07,265.67,424.21,257.45,430.20,"
+"[/Preset]"

@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Cancer (KRAS G12D-Mutated) (C)"
+"Preset_Notes=Cancer (KRAS G12D-Mutated) for Contact
+
+Precision oncology therapeutic architecture for 2026 targeting the KRAS G12D oncogenic driver, specifically addressing the lack of a reactive cysteine and utilizing allosteric inhibition and neoantigen presentation. 1. Selective Inhibitor: KRpep-2d - Cyclic peptide that binds near Switch II to allosterically block GEF interactions and downstream signaling. 2. Neoantigen Presentation: G12D-A18L - Modified KRAS-G12D nonamer with an alanine-to-leucine anchor substitution to enhance HLA-C*08:02 stabilization for T-cell recognition. 3. PPI Disrupter: KD2 - GTP-state-selective cyclic peptide that disrupts the K-Ras-Raf interaction by binding the Switch II groove. 4. Stapled Helical Mimetic: FY-A-100-1 - Hydrocarbon-stapled peptide designed from the Raf RBD helical domain to inhibit G12D KRAS-Raf binding. 5. Targeted Antisense: PNA-G12D - Peptide nucleic acid conjugate designed to selectively repress KRAS G12D mRNA and protein expression. 6. Designed Pan-Selective: Switch-Block 26 - Bio-engineered macrocycle incorporating a thiol-reactive warhead and an aspartate-seeking motif for enhanced covalent-like affinity to the G12D mutant pocket.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Cancer (KRAS G12D-Mutated) p01"
+"Loaded_Programs=Cancer (KRAS G12D-Mutated) p02"
+"Loaded_Programs=Cancer (KRAS G12D-Mutated) p03"
+"Loaded_Programs=Cancer (KRAS G12D-Mutated) p04"
+"Loaded_Programs=Cancer (KRAS G12D-Mutated) p05"
+"Loaded_Programs=Cancer (KRAS G12D-Mutated) p06"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M103.009,M97.053,M113.084,M163.063,M113.084,M87.032,M163.063,M115.027,M97.053,M99.068,M103.009,M156.101,M156.101,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M71.037,M115.027,M57.021,M99.068,M57.021,M128.095,M87.032,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M113.084,M128.095,M101.048,M113.084,M113.084,M156.101,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M113.084=1,M137.059,M115.027,M103.009,M113.084,M131.040,M128.095,M71.037,M113.084,M128.095,M99.068,M156.101,M57.021,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M114.043=1,M128.058,M115.027,M57.021,M113.084,M113.084,M57.021,M128.095,M57.021,M71.037,M113.084,M113.084,M57.021,M128.058,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M113.084,M163.063,M128.095,M87.032,M115.027,M103.009,M156.101,M155.093,0=4,"
+"[/Preset]"

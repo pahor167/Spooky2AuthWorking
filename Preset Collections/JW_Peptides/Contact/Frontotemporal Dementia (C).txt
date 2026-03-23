@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Frontotemporal Dementia (C)"
+"Preset_Notes=Frontotemporal Dementia for Contact
+
+Frontotemporal dementia (FTD) is a progressive neurodegenerative disorder characterized by neuronal loss in frontal and temporal lobes, often involving tau hyperphosphorylation, progranulin haploinsufficiency, or TDP-43 proteinopathy, resulting in behavioral variants, language impairment, and motor deficits. The proposed polypeptides address key therapeutic axes with documented real-world examples prioritized and rationally engineered designs where needed:
+
+1. Microtubule stabilization and tau protection: Davunetide (real) - ADNP-derived octapeptide that stabilizes microtubules, reduces tau pathology, and provides neuroprotection in tauopathy models and clinical investigations.
+2. Neuroinflammation resolution: Ac2-26 (real) - N-acetylated annexin A1 mimetic peptide that activates formyl peptide receptors to promote anti-inflammatory and pro-resolving pathways in neural tissue.
+3. Progranulin augmentation: C-amidated sortilin-blocking peptide (designed) - Engineered cationic peptide incorporating sortilin-binding motifs to inhibit PGRN clearance and elevate extracellular levels.
+4. TDP-43 pathology mitigation: C-amidated aggregation-inhibiting peptide (designed) - Rationally designed motif to disrupt low-complexity domain interactions and reduce pathological aggregation.
+5. Neuronal survival enhancement: Disulfide-cyclized neuroprotective peptide (designed) - Cationic cyclic peptide with disulfide bond for stability, promoting intracellular protection against neurodegenerative stress.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Frontotemporal Dementia p01"
+"Loaded_Programs=Frontotemporal Dementia p02"
+"Loaded_Programs=Frontotemporal Dementia p03"
+"Loaded_Programs=Frontotemporal Dementia p04"
+"Loaded_Programs=Frontotemporal Dementia p05"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M113.048=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M71.037,M156.101,M128.095,M113.084,M99.068,M156.101,M128.095,M113.084,M99.068,M156.101,M128.095,M113.084,M99.068,M156.101,M128.095,M113.084,M99.068,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M147.068=1,M114.043,M57.021,M147.068,M114.043,M57.021,M128.058,M163.063,M128.058,M163.063,M57.021,M128.058,M114.043,M57.021,M114.043,M57.021,M128.058,M163.063,M128.058,M163.063,M57.021,M155.117,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M156.101,M128.095,M99.068,M129.043,M113.084,M128.095,M156.101,M128.095,M128.095,M129.043,M99.068,M128.095,M113.084,M129.043,M156.101,M128.095,M128.095,M99.068,M129.043,M102.001,0=4,"
+"[/Preset]"

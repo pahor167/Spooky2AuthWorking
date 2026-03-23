@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Sebaceous Hyperplasia (R)"
+"Preset_Notes=Sebaceous Hyperplasia for Remote
+
+Sebaceous hyperplasia refers to the benign enlargement of sebaceous glands manifesting as small yellowish papules primarily on the central face, driven by androgen sensitivity, aging, and UV-induced sebocyte proliferation with excessive sebum production, creating cosmetic concerns and recurrence risks after physical treatments; targeted polypeptide approaches provide non-invasive options addressing core mechanisms for regression, sebum normalization, and prevention.
+1. Androgen signaling inhibition: SH-AR-Ant1 - Competitive inhibitor of androgen receptor binding, reducing hormone-driven sebaceous gland hyperplasia.
+2. Sebum production suppression: SH-Sebum-Inhib - Blocks lipogenic pathways to prevent excessive sebum accumulation in hyperplastic glands.
+3. Sebocyte apoptosis promotion: SH-Apop-Ind - Induces selective apoptosis in enlarged sebocytes via intrinsic pathway activation.
+4. Differentiation normalization: SH-PPAR-Mod - Promotes balanced sebocyte differentiation through PPAR modulation to normalize gland morphology.
+5. Growth factor antagonism: SH-IGF1-Ant - Antagonizes IGF-1 signaling to suppress proliferative responses in sebaceous units.
+6. Inflammatory response reduction: SH-Inflam-Mod - Modulates cytokine production to reduce inflammation associated with sebaceous hyperplasia.
+7. Metabolic energy regulation: SH-AMPK-Act - Activates AMPK to inhibit mTOR-driven lipid synthesis and cell growth.
+8. Wnt pathway inhibition: SH-Wnt-Inhib - Inhibits canonical Wnt signaling to limit sebaceous gland overdevelopment.
+9. Oxidative stress mitigation: SH-Antiox - Neutralizes oxidative damage that exacerbates sebaceous hyperplasia.
+10. Receptor tyrosine kinase modulation: SH-RTK-Inhib - Inhibits proliferative RTK pathways in sebocytes for growth control.
+11. Multi-target regression optimization: SH-OptRegress - Engineered for enhanced penetration and multi-mechanism induction of sebaceous hyperplasia regression.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Sebaceous Hyperplasia p01"
+"Loaded_Programs=Sebaceous Hyperplasia p02"
+"Loaded_Programs=Sebaceous Hyperplasia p03"
+"Loaded_Programs=Sebaceous Hyperplasia p04"
+"Loaded_Programs=Sebaceous Hyperplasia p05"
+"Loaded_Programs=Sebaceous Hyperplasia p06"
+"Loaded_Programs=Sebaceous Hyperplasia p07"
+"Loaded_Programs=Sebaceous Hyperplasia p08"
+"Loaded_Programs=Sebaceous Hyperplasia p09"
+"Loaded_Programs=Sebaceous Hyperplasia p10"
+"Loaded_Programs=Sebaceous Hyperplasia p11"
+"Loaded_Frequencies=M163.063=1,M128.095,M147.068,M156.101,M186.079,M113.084,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M97.053,M57.021,M87.032,M99.068,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M186.079=1,M115.027,M129.043,M137.059,M113.084,M113.084,M128.058,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M99.068,M114.043,M131.040,M57.021,M97.053,M71.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.058,M113.084,M128.095,M147.068,M97.053,M186.079,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M87.032,M163.063,M71.037,M115.027,M103.009,M101.048,0=4,"
+"Loaded_Frequencies=M131.040=1,M114.043,M99.068,M128.058,M156.101,M129.043,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.095,M101.048,M147.068,M87.032,M186.079,M163.063,M115.027,0=4,"
+"Loaded_Frequencies=M113.084=1,M137.059,M156.101,M71.037,M57.021,M99.068,M131.040,M129.043,0=4,"
+"Loaded_Frequencies=M128.058=1,M87.032,M115.027,M113.084,M128.095,M97.053,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M101.048,M99.068,M156.101,M163.063,M137.059,M113.084,0=4,"
+"[/Preset]"

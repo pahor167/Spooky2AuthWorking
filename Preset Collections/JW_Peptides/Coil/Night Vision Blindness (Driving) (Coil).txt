@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Night Vision Blindness (Driving) (Coil)"
+"Preset_Notes=Night Vision Blindness (Driving) for Coil
+
+Therapeutic strategy for 2026 addressing nyctalopia caused by photoreceptor stress, rhodopsin destabilization, and age-related glare sensitivity, specifically optimized for the visual demands of night driving. 1. Photoreceptor Protector: H105A-PEDF - A 17-mer peptide fragment derived from pigment epithelium-derived factor (PEDF) that binds strongly to retinal receptors to prevent rod cell apoptosis. 2. Rhodopsin Stabilizer: A6D-Surfactant - A designer short peptide (Ac-AAAAAAD-OH) that forms a molecular scaffold around bovine-type rhodopsin to maintain its inactive dark-state stability and reduce thermal 'dark noise.' 3. Glare Sensitivity: Lutein-Peptide Chimera - Bio-engineered conjugate targeting the retinal pigmented epithelium (RPE) to accelerate macular pigment deposition and shorten glare recovery time. 4. Visual Cycle Accelerator: RPE65-Mimetic - A synthetic peptide designed to assist in the 11-cis-retinal isomerization process, ensuring rapid rhodopsin regeneration after exposure to oncoming high-beam headlights. 5. Neurotrophic Support: Eyegenex-NAION - Optimized peptide therapy targeting retinal ganglion cell survival to preserve peripheral vision and contrast sensitivity in low-light environments. 6. Designed Optogenetic: Night-Scan 26 - A bio-engineered macrocycle designed to increase the photon-capture efficiency of the rod outer segment by cross-linking opsin molecules in a high-density grid.
+
+"
+"Loaded_Programs=Night Vision Blindness (Driving) p01"
+"Loaded_Programs=Night Vision Blindness (Driving) p02"
+"Loaded_Programs=Night Vision Blindness (Driving) p03"
+"Loaded_Programs=Night Vision Blindness (Driving) p04"
+"Loaded_Programs=Night Vision Blindness (Driving) p05"
+"Loaded_Programs=Night Vision Blindness (Driving) p06"
+"Loaded_Frequencies=M156.101=1,M113.084,M163.063,M128.095,M87.032,M115.027,M103.009,M156.101,M113.084,M97.053,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M171.054=1,M71.037,M71.037,M71.037,M71.037,M71.037,M115.027,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M163.063,M128.095,M87.032,M115.027,M103.009,M156.101,M113.084,M97.053,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.058,M115.027,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M156.101,M163.063,M113.084,M113.084,M155.093,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M57.021,M87.032,M163.063,M114.043,M114.043,M113.084,M99.068,M99.068,M137.059,M99.068,M156.101,M113.084,M163.063,M128.095,M87.032,M155.093,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M113.084,M163.063,M128.095,M87.032,M115.027,M103.009,M156.101,M155.093,0=4,"
+"[/Preset]"

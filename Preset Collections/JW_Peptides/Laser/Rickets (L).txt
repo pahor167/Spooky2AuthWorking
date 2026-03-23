@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Rickets (L)"
+"Preset_Notes=Rickets for Laser
+
+Engineered polypeptide designs tailored to rickets, addressing five key therapeutic axes derived from pathophysiology and research: FGF23-related phosphate wasting (dominant in hypophosphatemic forms), defective bone mineralization (e.g., hypophosphatasia), impaired vitamin D signaling (vitamin D-dependent/resistant types), calcium handling deficits, and general osteogenic impairment. No short (3-60 AA) real-world polypeptides with documented preclinical/clinical use in rickets were identified; all are rationally designed from literature motifs, optimized for drug-likeness, stability (including C-amidation), and solubility.
+
+Assignments and mechanisms:
+1. FGF23 inhibition: Alternating Lys-Arg peptide for FGF23 neutralization (C-amidated) (designed) - Alternating positive charges for electrostatic neutralization of excess FGF23, reducing renal phosphate loss.
+2. Bone mineralization enhancement: P-15 bone-promoting peptide (C-amidated) (designed) - Collagen-derived motif promotes osteoblast adhesion and hydroxyapatite deposition.
+3. Vitamin D receptor activation: LXXLL motif VDR coactivator peptide (N-acetylated, C-amidated) (designed) - Recruits coactivators via nuclear receptor interaction motif to amplify VDR-mediated transcription.
+4. Calcium binding enhancement: EF-hand calcium-binding peptide (C-amidated) (designed) - Classic EF-hand loop mimic to buffer and facilitate calcium utilization in mineralization.
+5. Osteogenic stimulation: Extended osteogenic growth peptide (OGP) (C-amidated) (designed) - Derived from histone-derived OGP with extension for stability; stimulates osteoblast activity and bone regeneration.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Rickets p01"
+"Loaded_Programs=Rickets p02"
+"Loaded_Programs=Rickets p03"
+"Loaded_Programs=Rickets p04"
+"Loaded_Programs=Rickets p05"
+"Loaded_Frequencies=M128.095=1,M71.037,M156.101,M71.037,M128.095,M71.037,M156.101,M71.037,M128.095,M71.037,M156.101,M70.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M98.084,0=4,"
+"Loaded_Frequencies=M170.106=1,M129.043,M114.043,M71.037,M113.084,M113.084,M156.101,M163.063,M113.084,M113.084,M115.027,M128.095,M115.027,M114.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.095,M115.027,M57.021,M115.027,M57.021,M163.063,M113.084,M87.032,M71.037,M71.037,M129.043,M113.084,M155.117,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M128.095,M156.101,M128.058,M57.021,M156.101,M101.048,M113.084,M163.063,M57.021,M147.068,M57.021,M57.021,M70.053,0=4,"
+"[/Preset]"

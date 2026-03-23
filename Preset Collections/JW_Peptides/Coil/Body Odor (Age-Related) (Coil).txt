@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Body Odor (Age-Related) (Coil)"
+"Preset_Notes=Body Odor (Age-Related) for Coil
+
+2-Nonenal Inhibition / Removal
+
+2-Nonenal is an unsaturated aldehyde generated from the peroxidation of skin surface omega-6 lipids, primarily responsible for age-related body odor. Therapeutic axes include direct carbonyl scavenging to neutralize the aldehyde, thiol-mediated conjugation and antioxidant defense, copper chelation for superoxide dismutation, aromatic residue-driven radical quenching to prevent lipid peroxidation, and thiol/disulfide-based reduction of hydroperoxides. Assignments: Carnosine (real) for direct carbonyl scavenging, Glutathione (real) for thiol-mediated conjugation, GHK tripeptide (real) for copper chelation, Engineered N-acetyl-KYHWYRHWYKYHWYRH-amide (designed) for aromatic radical scavenging, Engineered N-acetyl-GCRPCWGCRPCWGCRPCWG-amide with three disulfides (designed) for peroxidase mimicry. Mechanisms: Carnosine's histidine imidazole forms covalent adducts with 2-nonenal; glutathione's cysteine thiol facilitates nucleophilic attack and GST-catalyzed conjugation; GHK binds copper to mimic SOD, quenching superoxides that initiate peroxidation; the aromatic-rich peptide donates hydrogen/electrons from Tyr/Trp/His side chains to terminate radical chains; the disulfide-rich peptide cycles thiols to reduce lipid hydroperoxides, mimicking glutathione peroxidase to block propagation.
+
+"
+"Loaded_Programs=Body Odor (Age-Related) p01"
+"Loaded_Programs=Body Odor (Age-Related) p02"
+"Loaded_Programs=Body Odor (Age-Related) p03"
+"Loaded_Programs=Body Odor (Age-Related) p04"
+"Loaded_Programs=Body Odor (Age-Related) p05"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M170.106=1,M163.063,M137.059,M186.079,M163.063,M156.101,M137.059,M186.079,M163.063,M128.095,M163.063,M137.059,M186.079,M163.063,M156.101,M136.075,0=4,"
+"Loaded_Frequencies=M99.032=1,M102.001,M156.101,M97.053,M102.001,M186.079,M57.021,M102.001,M156.101,M97.053,M102.001,M186.079,M57.021,M102.001,M156.101,M97.053,M102.001,M186.079,M56.037,0=4,"
+"[/Preset]"

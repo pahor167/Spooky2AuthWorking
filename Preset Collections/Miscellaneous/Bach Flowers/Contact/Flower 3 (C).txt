@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Flower 3 (C)"
+"Preset_Notes=Flower 3 / Spooky Contact
+
+Estimated Time: Run this preset for 39:00 minutes.
+Agrimony Mental torture behind a cheerful face.   Gentian - Discouragement after a setback.  Mustard - Deep gloom for not reason. Pine - Guilt. Rock Rose - Terror and fright. Star of Bethlehem - Shock. Vervain - over-enthusiasm. Wild Oat - Uncertainty over one's direction in life. Willow - Self-pity and resentment. White Chestnut - Unwanted thoughts and mental arguments, mind going around and around. Walnut - Protection from change and unwanted infuluences.  Any changes in your life. Elm - Overwhelmed by responsibility. Mimulus - Fear of known things.
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Flower 3 (C)"
+"Loaded_Frequencies=310.31F4096C0,265.67F4096C0,280.93F4096C0,254.78F4096C0,277.99F4096C0,276.57F4096C0,409.14F4096C0,430.20F4096C0,264.74F4096C0,247.09F4096C0,261.26F4096C0,463.13F4096C0,492.23F2048C0,"
+"[/Preset]"

@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=L- Carnosine (Nootropics) (R) - JRG"
+"Loaded_Programs=L- Carnosine (CUST)"
+"Loaded_Frequencies=M226.10659,"
+"Preset_Notes=L- Carnosine is an amino acid or dipeptide found in your kidneys, liver, muscles and brain. The two amino acids are beta-alanine and L-histidine.|L-Carnosine works in the body as an antioxidant scavenging for free radicals. The concentration in muscles correlates with life span so it's considered a powerful anti-aging supplement.|L-Carnosine is involved in neurotransmission, binds to and helps remove AGEs (Advance Glycosylation End-products), helps in the treatment of Alzheimer's, and assists in removing heavy metal toxins.|While you may not see profound and immediate nootropic benefits using L-Carnosine, hundreds of studies prove its benefits for long-term health and anti-aging.|Recommended dosage of L-Carnosine is 1,000 mg per day. Bodybuilders and athletes prefer supplementing with beta-alanine - up to 3.2 grams per day. (Do not confuse L-Carnosine with L-Carnitine).||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Phenylalanine (Nootropics) (R) - JRG"
+"Loaded_Programs=Phenylalanine (CUST)"
+"Loaded_Frequencies=M165.07898,"
+"Preset_Notes=Phenylalanine is an amino acid that easily crosses the blood-brain barrier. It is not produced by the body so must be obtained by food or in supplement form. Examples of natural sources of Phenylalanine are meat and milk products.|Phenylalanine is a precursor, or assists in producing the amino acid tyrosine in your brain. Tyrosine then helps in the formation and utilization of the neurotransmitters dopamine, epinephrine, norepinephrine and melatonin.|Using Phenylalanine as a nootropic helps fight chronic pain, improves mood and boosts energy. It also helps in relief from anxiety, improves focus and boosts motivation. DL-Phenylalanine is used to help combat ADHD and Parkinson's.|Phenylalanine dosage is 500 mg up to 3-times per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

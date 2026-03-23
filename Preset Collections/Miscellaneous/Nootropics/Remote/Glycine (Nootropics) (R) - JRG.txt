@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Glycine (Nootropics) (R) - JRG"
+"Loaded_Programs=Glycine (CUST)"
+"Loaded_Frequencies=M75.03203,"
+"Preset_Notes=Glycine (2-Aminoacetic Acid, Gly, G) is a conditionally essential amino acid that plays a role in the synthesis of nucleic acids, glutathione, RNA and DNA, and creatine.|Glycine activates NMDA receptors in your brain and restores serotonin levels which helps improve sleep. And the ability to fall asleep faster.|And Glycine taken in high doses has proven effective in reducing symptoms of schizophrenia.|Recommended nootropic dosage for Glycine is 3 grams per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

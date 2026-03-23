@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Industrial Deafness (Loud Noise Damage/NIHL) (Coil)"
+"Preset_Notes=Industrial Deafness (Loud Noise Damage/NIHL) for Coil
+
+Industrial deafness, or noise-induced hearing loss (NIHL), results from prolonged or intense noise exposure causing irreversible damage to cochlear hair cells, spiral ganglion neurons, and ribbon synapses via oxidative stress, mitochondrial dysfunction, apoptosis, inflammation, and impaired repair. The proposed polypeptides target evidence-based therapeutic axes from preclinical otoprotection studies, emphasizing antioxidant defense, anti-apoptosis, neuroprotection, anti-inflammation, and tissue repair to mitigate damage and support cochlear recovery.
+
+1. Copper-binding tripeptide antioxidant and regenerative support: GHK-Cu scavenges ROS, modulates growth factors, and promotes tissue remodeling relevant to oxidative damage in NIHL.
+2. {alpha}-MSH-derived tripeptide anti-inflammatory effects: KPV suppresses cochlear inflammation and immune overactivation contributing to secondary damage.
+3. EPO-derived cyclic peptide neuroprotective action: ARA-290 activates activates innate repair receptor for nerve protection, anti-inflammation, and tissue preservation in auditory pathways.
+4. Thymosin {beta}4 fragment actin-mediated repair: TB-500 (acetylated LKKTETQ-NH2) promotes cell migration, survival, and anti-inflammatory effects for inner ear healing.
+5. Stable gastric pentadecapeptide systemic protection: BPC-157 enhances stability, angiogenesis, and multi-tissue healing applicable to cochlear recovery.
+6. Mitochondrial-derived peptide anti-apoptotic protection: Humanin inhibits Bax-mediated cell death and supports mitochondrial function in stressed cochlear cells.
+7. Mitochondrial-derived regulatory peptide metabolic support: MOTS-c improves metabolic homeostasis and stress resistance in noise-exposed cells.
+8. Engineered mitochondrial-targeted tetrapeptide optimization: SS-31 concentrates in mitochondria for superior ROS scavenging and hair cell protection.
+
+"
+"Loaded_Programs=Industrial Deafness (Loud Noise Damage/NIHL) p01"
+"Loaded_Programs=Industrial Deafness (Loud Noise Damage/NIHL) p02"
+"Loaded_Programs=Industrial Deafness (Loud Noise Damage/NIHL) p03"
+"Loaded_Programs=Industrial Deafness (Loud Noise Damage/NIHL) p04"
+"Loaded_Programs=Industrial Deafness (Loud Noise Damage/NIHL) p05"
+"Loaded_Programs=Industrial Deafness (Loud Noise Damage/NIHL) p06"
+"Loaded_Programs=Industrial Deafness (Loud Noise Damage/NIHL) p07"
+"Loaded_Programs=Industrial Deafness (Loud Noise Damage/NIHL) p08"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M191.095,M128.095,M147.068,0=4,"
+"[/Preset]"

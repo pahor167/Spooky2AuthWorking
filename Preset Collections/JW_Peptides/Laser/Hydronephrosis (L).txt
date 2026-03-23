@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Hydronephrosis (L)"
+"Preset_Notes=Hydronephrosis for Laser
+
+Hydronephrosis involves the distension and dilation of the renal pelvis and calyces, typically secondary to urinary outflow obstruction (e.g., kidney stones, congenital malformations, or tumors). Prolonged obstruction triggers a cascade of renal injury characterized by mechanical strain on tubular cells, activation of the renin-angiotensin-aldosterone system (RAAS), mitochondrial dysfunction, and significant tubulointerstitial fibrosis. Chronic hydronephrosis leads to irreversible nephron loss and end-stage renal disease (ESRD). Therapeutic strategies focus on alleviating pressure, mitigating the profibrotic TGF-beta signaling pathway, preserving mitochondrial energetics in the hypoxic medulla, and promoting tubular regeneration.
+
+1. RAAS Modulation: Ac-SDKP - Suppresses TGF-beta induced collagen synthesis and myofibroblast activation.
+2. Mitochondrial Protection: SS-31 - Stabilizes cardiolipin to restore ATP production and reduce oxidative stress in ischemic renal tissue.
+3. BMP-7 Signaling Mimesis: THR-123 - Activates Smad1/5/8 pathways to antagonize profibrotic Smad2/3 signaling.
+4. HGF-C-Met Axis Activation: HGF-mimetic (K1-6) - Promotes tubular epithelial repair and inhibits epithelial-mesenchymal transition (EMT).
+5. ECM Remodeling: YIGSR - Enhances laminin-integrin interactions to stabilize the basement membrane and reduce scarring.
+6. Regenerative Cytoprotection: BPC-157 - Accelerates healing of urinary tract tissues and improves renal perfusion.
+7. Targeted Fibrosis Inhibition: THR-184 - Activates BMP-7 receptors specifically to reverse established renal architectural damage.
+8. Optimization Axis (Designed): Hydro-Guard-1 - Novel synthetic peptide designed to inhibit mechanical-stress-induced apoptosis in tubular cells.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Hydronephrosis p01"
+"Loaded_Programs=Hydronephrosis p02"
+"Loaded_Programs=Hydronephrosis p03"
+"Loaded_Programs=Hydronephrosis p04"
+"Loaded_Programs=Hydronephrosis p05"
+"Loaded_Programs=Hydronephrosis p06"
+"Loaded_Programs=Hydronephrosis p07"
+"Loaded_Programs=Hydronephrosis p08"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,42.011,0=4,"
+"Loaded_Frequencies=M156.101=1,M131.040,M128.095,M147.068,-1.008,-1.008,-0.984,0=4,"
+"Loaded_Frequencies=M101.048=1,M113.084,M71.037,M156.101,M163.063,M115.027,M156.101,M113.084,M129.043,M156.101,M163.063,M115.027,M156.101,M113.084,M129.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M129.043,M129.043,M129.043,M129.043,M129.043,M129.043,M129.043,M129.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M128.058,M101.048,M156.101,M128.058,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M113.084,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"[/Preset]"

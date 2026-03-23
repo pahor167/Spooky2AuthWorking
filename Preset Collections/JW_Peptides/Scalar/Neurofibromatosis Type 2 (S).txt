@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Neurofibromatosis Type 2 (S)"
+"Preset_Notes=Neurofibromatosis Type 2 for Scalar
+
+Neurofibromatosis Type 2 (NF2) is an autosomal-dominant tumor-suppressor disorder caused by loss-of-function mutations in the NF2 gene encoding the 70-kDa protein merlin. This hereditary condition predisposes individuals to multiple intracranial and spinal tumors, particularly bilateral vestibular schwannomas causing hearing loss and balance dysfunction, meningiomas, and ependymomas. The merlin protein normally acts as a tumor suppressor by inhibiting multiple oncogenic pathways including Hippo-YAP/TAZ, PI3K-AKT-mTOR, and VEGF signaling. Loss of merlin function leads to constitutive activation of these pathways, promoting Schwann cell proliferation and tumor formation. Current management relies on surgery and stereotactic radiosurgery, but these treatments often result in hearing loss and cannot prevent tumor recurrence.
+
+The proposed polypeptide therapeutic strategy targets multiple pathways dysregulated by merlin loss. The VGLL4-mimetic peptide directly antagonizes YAP/TAZ transcriptional activity, restoring growth control in merlin-deficient schwannoma cells. The VEGFR2 antagonist peptide blocks tumor angiogenesis essential for schwannoma growth and hearing preservation. The designed merlin-stabilizing peptide mimics merlin's protein-protein interaction domains to restore tumor suppressor function. The anti-proliferative peptide directly inhibits schwannoma cell growth through cell cycle regulation. The PI3K inhibitor peptide blocks the activated PI3K-AKT-mTOR pathway downstream of merlin loss. This multi-modal approach addresses the core molecular defect while targeting tumor growth, angiogenesis, and hearing preservation simultaneously.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Neurofibromatosis Type 2 p01"
+"Loaded_Programs=Neurofibromatosis Type 2 p02"
+"Loaded_Programs=Neurofibromatosis Type 2 p03"
+"Loaded_Programs=Neurofibromatosis Type 2 p04"
+"Loaded_Programs=Neurofibromatosis Type 2 p05"
+"Loaded_Frequencies=M129.043=1,M113.084,M156.101,M71.037,M113.084,M129.043,M115.027,M113.084,M156.101,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M103.009=1,M71.037,M129.043,M57.021,M87.032,M103.009,0=4,"
+"Loaded_Frequencies=M156.101=1,M87.032,M99.068,M156.101,M57.021,M87.032,M156.101,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M129.043,M71.037,M113.084,M129.043,M71.037,M113.084,M129.043,0=4,"
+"Loaded_Frequencies=M103.009=1,M128.095,M57.021,M103.009,M128.095,M57.021,M103.009,M128.095,0=4,"
+"[/Preset]"

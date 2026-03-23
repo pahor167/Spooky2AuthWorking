@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Pramiracetam (Nootropics) (R) - JRG"
+"Loaded_Programs=Pramiracetam (CUST)"
+"Loaded_Frequencies=M269.21033,"
+"Preset_Notes=Pramiracetam is a GABA-like derivative of Piracetam. It is said to be 5 - 30 times more potent than piracetam.|Pramiracetam is a fat-soluble nootropic and highly bioavailable. It is thought to increase acetylcholine receptors in the brain. This racetam improves memory and verbal recall.|Because Pramiracetam stimulates choline uptake in the brain it should be stacked with a good choline source like Alpha GPC or CDP Choline. And it's fat-soluble so needs to be taken with food or a good fat source like unrefined coconut oil or MCT Oil.|Optimal dosage of Pramiracetam as a nootropic is 1,200 mg divided into 2 or 3 doses during the day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

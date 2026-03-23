@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"PresetName=1. Spooky Central Cancer"
+"Loaded_Frequencies=1604000=300,1607450=300,11430000=300,11780000=300,1529520=300,1566760=300,1604000=300,1607450=300,11430000=300,11780000=300,1529520=300,1566760=300,0=180,"
+"Loaded_Programs=1. Spooky Central Cancer"
+"Preset_Notes=Cancer Protocol, Plasma Plus method, Generator 1, for Plasma. 
+
+This preset contains Plasma frequency sets for Spooky Central/Plasma. Run this preset concurrently with the presets 'Plasma2/Gen2 (R) - BY'. See '\Cancer\BY\GUIDE Cancer BY - Click Me.pdf' for a schedule to run these presets.
+
+The entire schedule for this protocol is in the notes of 'Plasma2/Gen2 (P) - BY'. Here is the schedule for this preset:
+  Generator 1, Plasma2/Gen1/Cancer 1 (P) - BY
+    Day 19
+    Day 23
+
+This preset has the following programs:
+
+SC Support 1: Endorphin Release - XTRA, Cancer Pain - CAFL, Endorphin Release - XTRA, Cancer Pain - CAFL, Endorphin Release - XTRA, Streptococcus Pneumoniae - HC, Endorphin Release - XTRA
+
+Spooky Central Cancer: Bacillus X Filter Cancer Carcinoma - Rife, Cancer BX - CUST, Cancer BY Virus - CUST
+
+Here is a table to find the beginning of each day in this preset:
+1: Spooky Central Cancer
+2: SC Support 1
+
+Connect Generator 1 Out 1 to the Spooky Central/Plasma Input port. Out 2 to the Spooky Central/Plasma Modulation port.
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"PresetName=2. SC Support 1"
+"Loaded_Frequencies=38=95,3000=95,95=95,2127=95,2008=95,727=95,690=95,666=95,38=95,3000=95,95=95,2127=95,2008=95,727=95,690=95,666=95,38=95,366850-370200=1895,38=95,0=95,"
+"Loaded_Programs=2. SC Support 1"
+"Repeat_Sequence=1"
+"[/Preset]"

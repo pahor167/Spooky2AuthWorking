@@ -1,0 +1,22 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=PX Ropeworm - JW"
+"Preset_Notes=M&L Protocol, Extras. Spooky Plasma.
+
+Update: September 2019.
+
+This program is already present in the 47th preset, Complex Parasites G - DB. However, these large parasites usually require additional treatments.
+
+PROGRAMS:
+Parasites Ropeworm XTRA
+
+Connect OUT 1 to Input, Out 2 to Modulation.
+"
+"Loaded_Programs=Parasites Ropeworm (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=1359=360,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

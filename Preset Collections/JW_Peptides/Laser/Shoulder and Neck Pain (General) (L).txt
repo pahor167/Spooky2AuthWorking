@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Shoulder and Neck Pain (General) (L)"
+"Preset_Notes=Shoulder and Neck Pain (General) for Laser
+
+Shoulder and neck discomfort is a widespread musculoskeletal issue manifesting as persistent aching, stiffness, tightness, and restricted mobility in the cervical spine, upper trapezius, and surrounding shoulder girdle muscles. Common triggers include prolonged poor posture (e.g., forward head position during screen use), repetitive overhead or desk activities, emotional stress, sleep disturbances, and minor strains, with contributing factors such as age-related degeneration or ergonomic deficits. Pathophysiologically, it involves sustained low-level muscle contraction causing localized ischemia, development of myofascial trigger points with sensitized nociceptors, release of proinflammatory mediators, impaired proprioceptive feedback, heightened sympathetic tone, and in prolonged cases, central sensitization leading to amplified and widespread pain perception.
+
+The proposed polypeptides comprehensively target the major therapeutic axes of the condition:
+
+1. Stress-induced muscle tension: Psychosocial stress elevates catecholamine levels and sympathetic activity, promoting involuntary muscle guarding and hypertonicity in neck and shoulder regions. Selank addresses this axis through its anxiolytic and adaptogenic effects derived from tuftsin stabilization, reducing stress-mediated tension without sedative side effects.
+
+2. Myofascial trigger points and local muscle tenderness: Hyperirritable knots in taut muscle bands perpetuate local ischemia and referred pain via algogenic substance release. BPC-157, a gastric-derived pentadecapeptide motif, targets this by accelerating actin remodeling, modulating nociceptive pathways, and resolving trigger point-associated inflammation based on extensive preclinical musculoskeletal models.
+
+3. Local inflammation in musculoskeletal structures: Proinflammatory cytokines, oxidative stress, and matrix degradation sustain tissue irritability. GHK, a naturally occurring copper-binding tripeptide motif, counters this through downregulation of inflammatory signaling, enhancement of antioxidant defenses, and promotion of orderly collagen synthesis as evidenced in tissue repair studies.
+
+4. Central pain sensitization and neuroinflammation: Chronic peripheral input induces spinal and brain changes, lowering pain thresholds. ARA290, an erythropoietin-derived helix B motif with N-terminal pyroglutamate for stability, selectively engages the innate repair receptor to inhibit neuroinflammatory cascades and restore normal pain processing, supported by investigational neuropathic pain research.
+
+These polypeptides provide multi-axis coverage via regenerative, neuroprotective, and modulatory mechanisms grounded in literature-derived motifs.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Shoulder and Neck Pain (General) p01"
+"Loaded_Programs=Shoulder and Neck Pain (General) p02"
+"Loaded_Programs=Shoulder and Neck Pain (General) p03"
+"Loaded_Programs=Shoulder and Neck Pain (General) p04"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"[/Preset]"

@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Vitamin B1 (Thiamine) (Nootropics) (R) - JRG"
+"Loaded_Programs=Vitamin B1 (Thiamine) (CUST)"
+"Loaded_Frequencies=M300.08116,"
+"Preset_Notes=Vitamin B1 (Thiamine) is a required cofactor to produce cellular energy (ATP) from the foods you eat. It's also needed for the synthesis of DNA and RNA.|Vitamin B1 is found in lentils, whole grains, pork, red meat, yeast, nuts, sunflower seeds, peas, milk, cauliflower and spinach.|Vitamin B1 is water soluble and is stored in your body for only 14 days. If you don't get enough B1 you'll experience irritability, confusion and memory problems. A severe deficiency can manifest itself as beriberi, pain, heart problems, or even paralysis.|Recommended daily dosage of Vitamin B1 is only 1.4 mg per day. You'll experience a nootropic benefit with Vitamin B1 at higher doses of 50 - 100 mg per day.|Sulbutiamine is a derivative of Vitamin B1 (Thiamine). It is more bioavailable than standard Thiamine. And a far better choice for nootropic use.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

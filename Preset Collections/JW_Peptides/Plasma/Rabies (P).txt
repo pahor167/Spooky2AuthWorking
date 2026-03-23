@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Rabies (P)"
+"Preset_Notes=Rabies for Plasma
+
+Rabies is an acute, nearly always fatal viral zoonosis caused by rabies virus (a lyssavirus), leading to progressive encephalitis. Prevention relies on post-exposure prophylaxis (vaccine + immunoglobulin), with no reliable cure once symptomatic. This polypeptide proposal targets key pathogenesis axes with evidence-supported real-world peptides and one engineered for novel optimization, aiming to inhibit entry/replication, enhance immunity, protect neurons, reduce inflammation, and disrupt virions.
+
+1. Viral entry inhibition (receptor competition): RVG (real) - 29-aa rabies glycoprotein-derived peptide binding nAChR, competing with virus attachment and enabling brain targeting.
+2. Viral replication/transcription inhibition: RabP16b6 (real) - optimized 29-aa peptide disrupting phosphoprotein interactions in replication complex, with demonstrated intracellular antiviral efficacy.
+3. Immune enhancement: Thymosin alpha 1 (real) - thymic peptide restoring immune balance and T-cell function, supportive in viral infections.
+4. Neuroprotection/anti-apoptosis: Humanin (real) - mitochondrial-derived peptide protecting neurons from rabies-induced stress and mitochondrial damage.
+5. Systemic/neural repair: BPC-157 (real) - gastric peptide promoting tissue healing, barrier integrity, and neurorecovery.
+6. Anti-inflammatory/neuroprotection: ARA-290 (real) - erythropoietin-derived peptide reducing inflammation and neuropathic damage relevant to encephalitic phase.
+7. Virucidal/antiviral activity: Dermaseptin S1 (real) - frog skin antimicrobial peptide with reported potential to inactivate rabies virus.
+8. Novel optimized replication inhibition: RabInhib-Eng (designed) - shortened 20-aa motif derived from RabP inhibitory sequences, optimized for stability/solubility while retaining core disruptive activity.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Rabies p01"
+"Loaded_Programs=Rabies p02"
+"Loaded_Programs=Rabies p03"
+"Loaded_Programs=Rabies p04"
+"Loaded_Programs=Rabies p05"
+"Loaded_Programs=Rabies p06"
+"Loaded_Programs=Rabies p07"
+"Loaded_Programs=Rabies p08"
+"Loaded_Frequencies=M163.063=1,M101.048,M113.084,M186.079,M131.040,M97.053,M129.043,M114.043,M97.053,M156.101,M97.053,M57.021,M101.048,M97.053,M103.009,M115.027,M113.084,M147.068,M101.048,M114.043,M87.032,M156.101,M57.021,M128.095,M156.101,M71.037,M87.032,M114.043,M57.021,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M115.027,M99.068,M137.059,M101.048,M97.053,M97.053,M137.059,M71.037,M113.084,M186.079,M156.101,M113.084,M137.059,M113.084,M113.084,M113.084,M156.101,M99.068,M129.043,M113.084,M99.068,M156.101,M131.040,M186.079,M186.079,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M186.079,M128.095,M101.048,M131.040,M113.084,M128.095,M128.095,M113.084,M57.021,M101.048,M131.040,M71.037,M113.084,M137.059,M71.037,M57.021,M128.095,M71.037,M71.037,M113.084,M57.021,M71.037,M71.037,M71.037,M115.027,M101.048,M113.084,M87.032,M128.058,M57.021,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M115.027=1,M99.068,M137.059,M101.048,M97.053,M97.053,M137.059,M71.037,M113.084,M186.079,M156.101,M113.084,M137.059,M113.084,M113.084,M113.084,M156.101,M99.068,M129.043,M113.084,0=4,"
+"[/Preset]"

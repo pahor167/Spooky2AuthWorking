@@ -1,0 +1,340 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=1. Remove Metals Minus Mercury"
+"Loaded_Frequencies=364.56=180 W2,393=180,16724.61=180,4202.3=180,5333.69=180,9887=180,15952.79=180,4202.3=180,19169.38=180,19516.29=180,21822.15=180,"
+"Loaded_Programs=1. Remove Metals Minus Mercury"
+"Preset_Notes=4. Terrain-Mercury 2.5V Protocol for Remote.
+
+This preset is a variant of the Terrain protocol, minus the mercury frequencies. This is useful for people who have mercury amalgam fillings and do not want to experience a mercury detox.
+
+The Terrain protocol prepares the terrain in your body to be more available or receptive to further Rife treatments. This protocol was developed by Johann Stegmann, based on his experience of treating people using Spooky with their chronic disease. He found that people responded better to Rife treatment when common toxins and parasites eliminated beforehand. The first Terrain protocol was a document that described programs to run on a daily basis. These programs selected by Johann are incorporated into the Spooky Terrain protocol presets.
+
+When running the Terrain protocol, make sure you keep yourself well hydrated to aid the elimination of toxins from your body.
+
+This protocol can be run on a single Spooky Remote, but is enhanced if you run it concurrently with either Spooky Central/Plasma, Scalar, Contact, Laser or Coil mode. There are 3 flavors of the Terrain protocol - the original protocol (Terrain), a version without the mercury-detox frequencies (Terrain-Mercury), and a version that does not kill bacteria or parasites (Terrain-Nonviolent). Each of the different flavors has a Plasma Plus (2 generator), Contact Plus (2 generator), Plasma or Contact (1 generator), and Remote (1 generator) version.
+
+This preset runs for 11 days, and then repeats itself. This preset can run standalone, or in conjunction with presets in either 'Plasma\', 'Contact\', 'Scalar\', 'Laser\', or 'Coil\'. See '\Detox\GUIDE Terrain Protocol - Click Me.pdf' in the Presets tab of the Spooky software for a schedule to run these presets.
+
+Entire Schedule for Terrain (Contact)
+-------------------------------------
+Each line has day, generator, preset, and frequency set. If the preset is empty, use the same preset as the last preset for the same generator. If the frequency set is empty, there is not need to skip to a particular frequency set. If the day for a generator is missing, this means you continue to run the previous program.
+
+Day, Gen, Preset
+1, 1, Contact\Remove Metals Minus Mercury (C) - BY
+1, 2, Remote\Terrain (C) - BY
+2, 1, Contact\Remove Metals Minus Mercury (C) - BY
+2, 1, Contact\Remove Metals Minus Mercury (C) - BY
+3, 1, Contact\Remove Chemical Materials (C) - BY
+3, 1, Contact\Remove Chemical Materials (C) - BY
+4, 1, Contact\Remove Systemic Toxins 1 (C) - BY
+4, 1, Contact\Remove Systemic Toxins 1 (C) - BY
+5, 1, Contact\Remove Systemic Toxins 2 (C) - BY
+5, 1, Contact\Remove Systemic Toxins 2 (C) - BY
+6, 1, Contact\Remove Intestinal Toxins (C) - BY
+6, 1, Contact\Remove Systemic Toxins 3 (C) - BY
+7, 1, Contact\Parasites and Liver Function (C) - BY
+7, 1, Contact\Parasites and Liver Function (C) - BY
+8, 1, Contact\Kidney Function 1 (C) - BY
+8, 1, Contact\Kidney Function 1 (C) - BY
+9, 1, Contact\Kidney Function 2 (C) - BY
+9, 1, Contact\Cleanse Blood (C) - BY
+10, 1, Contact\Kidney and Liver Toxins (C) - BY
+10, 1, Contact\Intestinal Parasites (C) - BY
+11, 1, Contact\Lymphatic System 1 (C) - BY
+11, 1, Contact\Lymphatic System 1 (C) - BY
+
+Entire Schedule for Terrain (Plasma)
+------------------------------------
+Day, Gen, Preset
+1, 1, Plasma\Remove Metals Minus Mercury (P) - BY
+1, 2, Remote\Terrain (R) - BY
+2, 1, Plasma\Remove Metals Minus Mercury (P) - BY
+2, 1, Plasma\Remove Metals Minus Mercury (P) - BY
+3, 1, Plasma\Remove Chemical Materials (P) - BY
+3, 1, Plasma\Remove Chemical Materials (P) - BY
+4, 1, Plasma\Remove Systemic Toxins 1 (P) - BY
+4, 1, Plasma\Remove Systemic Toxins 1 (P) - BY
+5, 1, Plasma\Remove Systemic Toxins 2 (P) - BY
+5, 1, Plasma\Remove Systemic Toxins 2 (P) - BY
+6, 1, Plasma\Remove Intestinal Toxins (P) - BY
+6, 1, Plasma\Remove Systemic Toxins 3 (P) - BY
+7, 1, Plasma\Parasites and Liver Function (P) - BY
+7, 1, Plasma\Parasites and Liver Function (P) - BY
+8, 1, Plasma\Kidney Function 1 (P) - BY
+8, 1, Plasma\Kidney Function 1 (P) - BY
+9, 1, Plasma\Kidney Function 2 (P) - BY
+9, 1, Plasma\Cleanse Blood (P) - BY
+10, 1, Plasma\Kidney and Liver Toxins (P) - BY
+10, 1, Plasma\Intestinal Parasites (P) - BY
+11, 1, Plasma\Lymphatic System 1 (P) - BY
+11, 1, Plasma\Lymphatic System 1 (P) - BY
+
+Entire Schedule for Terrain (Scalar)
+------------------------------------
+Day, Gen, Preset
+1, 1, Scalar\Remove Metals Minus Mercury (S) - BY
+1, 2, Remote\Terrain (R) - BY
+2, 1, Scalar\Remove Metals Minus Mercury (S) - BY
+2, 1, Scalar\Remove Metals Minus Mercury (S) - BY
+3, 1, Scalar\Remove Chemical Materials (S) - BY
+3, 1, Scalar\Remove Chemical Materials (S) - BY
+4, 1, Scalar\Remove Systemic Toxins 1 (S) - BY
+4, 1, Scalar\Remove Systemic Toxins 1 (S) - BY
+5, 1, Scalar\Remove Systemic Toxins 2 (S) - BY
+5, 1, Scalar\Remove Systemic Toxins 2 (S) - BY
+6, 1, Scalar\Remove Intestinal Toxins (S) - BY
+6, 1, Scalar\Remove Systemic Toxins 3 (S) - BY
+7, 1, Scalar\Parasites and Liver Function (S) - BY
+7, 1, Scalar\Parasites and Liver Function (S) - BY
+8, 1, Scalar\Kidney Function 1 (S) - BY
+8, 1, Scalar\Kidney Function 1 (S) - BY
+9, 1, Scalar\Kidney Function 2 (S) - BY
+9, 1, Scalar\Cleanse Blood (S) - BY
+10, 1, Scalar\Kidney and Liver Toxins (S) - BY
+10, 1, Scalar\Intestinal Parasites (S) - BY
+11, 1, Scalar\Lymphatic System 1 (S) - BY
+11, 1, Scalar\Lymphatic System 1 (S) - BY
+
+Entire Schedule for Terrain (Laser)
+------------------------------------
+Day, Gen, Preset
+1, 1, Laser\Remove Metals Minus Mercury (L) - BY
+1, 2, Remote\Terrain (R) - BY
+2, 1, Laser\Remove Metals Minus Mercury (L) - BY
+2, 1, Laser\Remove Metals Minus Mercury (L) - BY
+3, 1, Laser\Remove Chemical Materials (L) - BY
+3, 1, Laser\Remove Chemical Materials (L) - BY
+4, 1, Laser\Remove Systemic Toxins 1 (L) - BY
+4, 1, Laser\Remove Systemic Toxins 1 (L) - BY
+5, 1, Laser\Remove Systemic Toxins 2 (L) - BY
+5, 1, Laser\Remove Systemic Toxins 2 (L) - BY
+6, 1, Laser\Remove Intestinal Toxins (L) - BY
+6, 1, Laser\Remove Systemic Toxins 3 (L) - BY
+7, 1, Laser\Parasites and Liver Function (L) - BY
+7, 1, Laser\Parasites and Liver Function (L) - BY
+8, 1, Laser\Kidney Function 1 (L) - BY
+8, 1, Laser\Kidney Function 1 (L) - BY
+9, 1, Laser\Kidney Function 2 (L) - BY
+9, 1, Laser\Cleanse Blood (L) - BY
+10, 1, Laser\Kidney and Liver Toxins (L) - BY
+10, 1, Laser\Intestinal Parasites (L) - BY
+11, 1, Laser\Lymphatic System 1 (L) - BY
+11, 1, Laser\Lymphatic System 1 (L) - BY
+
+Entire Schedule for Terrain (Coil)
+------------------------------------
+Day, Gen, Preset
+1, 1, Coil\Remove Metals Minus Mercury (Coil) - BY
+1, 2, Remote\Terrain (R) - BY
+2, 1, Coil\Remove Metals Minus Mercury (Coil) - BY
+2, 1, Coil\Remove Metals Minus Mercury (Coil) - BY
+3, 1, Coil\Remove Chemical Materials (Coil) - BY
+3, 1, Coil\Remove Chemical Materials (Coil) - BY
+4, 1, Coil\Remove Systemic Toxins 1 (Coil) - BY
+4, 1, Coil\Remove Systemic Toxins 1 (Coil) - BY
+5, 1, Coil\Remove Systemic Toxins 2 (Coil) - BY
+5, 1, Coil\Remove Systemic Toxins 2 (Coil) - BY
+6, 1, Coil\Remove Intestinal Toxins (Coil) - BY
+6, 1, Coil\Remove Systemic Toxins 3 (Coil) - BY
+7, 1, Coil\Parasites and Liver Function (Coil) - BY
+7, 1, Coil\Parasites and Liver Function (Coil) - BY
+8, 1, Coil\Kidney Function 1 (Coil) - BY
+8, 1, Coil\Kidney Function 1 (Coil) - BY
+9, 1, Coil\Kidney Function 2 (Coil) - BY
+9, 1, Coil\Cleanse Blood (Coil) - BY
+10, 1, Coil\Kidney and Liver Toxins (Coil) - BY
+10, 1, Coil\Intestinal Parasites (Coil) - BY
+11, 1, Coil\Lymphatic System 1 (Coil) - BY
+11, 1, Coil\Lymphatic System 1 (Coil) - BY
+
+This preset has the following programs:
+
+Cleanse Blood: Lymphangitis - CAFL, Streptococcus Pyogenes - CAFL
+
+Intestinal Parasites: Detox 2 Parasites in the Intestines - CAFL
+
+Kidney and Liver Toxins: Detox 3 Toxins in the Kidneys and Liver - PROV
+
+Kidney Function 1: Kidney Function Balance - XTRA
+
+Kidney Function 2: Kidney Insufficiency - CAFL
+
+Lymphatic System 1: Lymphs and Detox - PROV
+
+Lymphatic System 2: Lymph Support - CAFL
+
+Parasites and Liver Function: Liver 1 - PROV, Liver 2 - PROV, Liver Flukes - CAFL, Liver Function Balance - XTRA
+
+Remove Chemical Materials: Detox Pesticide - XTRA, Detox Fluoride - XTRA
+
+Remove Intestinal Toxins: Detox 1 Toxins in the Intestines - CAFL
+
+Remove Metals Minus Mercury: Arsenic as - XTRA, Detox Lead - XTRA, DNA Heal - XTRA, Detox Toxic Proteins - XTRA, Detox Aluminum - XTRA, Detox Lead - XTRA, Detox Fluoride - XTRA, Detox Barium - XTRA
+
+Remove Systemic Toxins 1: Detox Toxic Proteins - XTRA, Detox Toxins Elimination 1 - XTRA
+
+Remove Systemic Toxins 2: Detox Toxins Elimination 2 - XTRA
+
+Remove Systemic Toxins 3: Detox 4 Toxins Throughout the Body - CAFL
+
+Here is a table to find the beginning of each day in this preset:
+1: Remove Metals Minus Mercury
+2: Remove Metals Minus Mercury
+3: Remove Chemical Materials
+4: Remove Systemic Toxins 1
+5: Remove Systemic Toxins 2
+6: Remove Intestinal Toxins, Remove Systemic Toxins 3
+7: Parasites and Liver Function
+8: Kidney Function 1
+9: Kidney Function 2, Cleanse Blood
+10: Kidney and Liver Toxins, Intestinal Parasites
+11: Lymphatic System 1, Lymphatic System 2
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost.
+"
+"Repeat_Chain=0"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=2. Remove Metals Minus Mercury"
+"Loaded_Frequencies=364.56=180 W2,393=180,16724.61=180,4202.3=180,5333.69=180,9887=180,15952.79=180,4202.3=180,19169.38=180,19516.29=180,21822.15=180,"
+"Loaded_Programs=2. Remove Metals Minus Mercury"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=3. Remove Chemical Materials"
+"Loaded_Frequencies=1=180 W2,6=180,26=180,73=180,19169.38=180,"
+"Loaded_Programs=3. Remove Chemical Materials"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=4. Remove Systemic Toxins 1"
+"Loaded_Frequencies=9887=180 W2,0.5=240,146=240,522=240,800=240,1552=240,"
+"Loaded_Programs=4. Remove Systemic Toxins 1"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=5. Remove Systemic Toxins 2"
+"Loaded_Frequencies=0.5=180 W2,2.5=180,6.29=180,9.18=180,9.19=180,20=180,146=180,148=180,333=180,428=180,444=180,522=180,523=180,555=180,660=180,690=180,727.5=180,768=180,786=180,787=180,802=180,880=180,1550=180,1865=180,10000=180,"
+"Loaded_Programs=5. Remove Systemic Toxins 2"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=6.1 Remove Intestinal Toxins"
+"Loaded_Frequencies=2.4=78 W2,2.68=78,5.8=78,6.3=78,10=78,20=78,40=78,60=78,72=78,95=78,125=78,165=78,200=78,333=78,428=78,444=78,465=78,522=78,555=78,600=78,625=78,650=78,666=78,690=78,727=78,787=78,802=78,832=78,880=78,1250=78,1500=78,1865=78,"
+"Loaded_Programs=6.1 Remove Intestinal Toxins"
+"Repeat_Sequence=0"
+"Schedule_Run_For=12"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=6.2 Remove Systemic Toxins 3"
+"Loaded_Frequencies=2.4=78 W2,5.8=78,6.3=78,7.8=78,20=78,26=78,35=78,60=78,72=78,125=78,165=78,200=78,444=78,465=78,522=78,588=78,600=78,625=78,650=78,666=78,685=78,690=78,727=78,760=78,776=78,787=78,802=78,832=78,880=78,1250=78,1500=78,1550=78,1850=78,2127=78,"
+"Loaded_Programs=6.2 Remove Systemic Toxins 3"
+"Repeat_Sequence=0"
+"Schedule_Run_For=12"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Killing (R)"
+"PresetName=7. Parasites and Liver Function"
+"Loaded_Frequencies=13427.72=1800 W4,317.82=300,33.13=300,1552=300,802=300,751=300,143=180,238=180,275=180,676=180,763=180,33.13=180,537=180,751=180,802=180,1550=180,1552=180,"
+"Loaded_Programs=7. Parasites and Liver Function"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=8. Kidney Function 1"
+"Loaded_Frequencies=1.1=180 W2,1.19=180,6.29=180,8=180,10=180,20=180,40=180,72=180,73=180,95=180,125=180,146=180,148=180,248=180,250=180,333=180,440=180,444=180,465=180,522=180,523=180,555=180,600=180,625=180,650=180,768=180,786=180,800=180,802=180,880=180,1500=180,1550=180,1600=180,1865=180,3000=180,5000=180,10000=180,"
+"Loaded_Programs=8. Kidney Function 1"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=9.1 Kidney Function 2"
+"Loaded_Frequencies=9.2=180 W2,10=180,40=180,440=180,1600=180,1550=180,1500=180,880=180,802=180,650=180,625=180,600=180,444=180,1865=180,146=180,250=180,125=180,95=180,72=180,20=180,"
+"Loaded_Programs=9.1 Kidney Function 2"
+"Repeat_Sequence=0"
+"Schedule_Run_For=12"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Killing (R)"
+"PresetName=9.2 Cleanse Blood"
+"Loaded_Frequencies=880=300 W4,574=300,778=300,1120=300,1078=300,3176=300,625.48=180,2501.9=180,616=180,776=180,735=180,845=180,660=180,10000=180,880=180,787=180,727=180,465=180,20=180,"
+"Loaded_Programs=9.2 Cleanse Blood"
+"Repeat_Sequence=0"
+"Schedule_Run_For=12"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=10.1 Kidney and Liver Toxins"
+"Loaded_Frequencies=2.4=78 W2,6.3=78,7.8=78,9.2=78,14=78,20=78,35=78,60=78,72=78,95=78,126=78,160=78,200=78,240=78,440=78,444=78,465=78,522=78,600=78,625=78,666=78,690=78,727=78,787=78,802=78,832=78,880=78,1500=78,1550=78,1865=78,2000=78,"
+"Loaded_Programs=10.1 Kidney and Liver Toxins"
+"Repeat_Sequence=0"
+"Schedule_Run_For=12"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Killing (R)"
+"PresetName=10.2 Intestinal Parasites"
+"Loaded_Frequencies=9.6=78 W4,15=78,26=78,35=78,48=78,60=78,95=78,125=78,160=78,200=78,230=78,410=78,440=78,465=78,588=78,760=78,776=78,1000=78,2000=78,2127=78,"
+"Loaded_Programs=10.2 Intestinal Parasites"
+"Repeat_Sequence=0"
+"Schedule_Run_For=12"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=11.1 Lymphatic System 1"
+"Loaded_Frequencies=10000=180 W2,3177=180,3176=180,3175=180,880=180,787=180,751=180,727=180,676=180,635=180,625=180,522=180,465=180,444=180,440=180,304=180,148=180,146=180,15.2=180,15.05=180,10.36=180,10=180,7.83=180,6.3=180,2.5=180,"
+"Loaded_Programs=11.1 Lymphatic System 1"
+"Repeat_Sequence=0"
+"Schedule_Run_For=12"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=11.2 Lymphatic System 2"
+"Loaded_Frequencies=15.05=180 W2,10.36=180,3176=180,"
+"Loaded_Programs=11.2 Lymphatic System 2"
+"Repeat_Sequence=0"
+"Schedule_Run_For=12"
+"Out1_Amplitude=2.5"
+"Out2_Amplitude=2.5"
+"[/Preset]"

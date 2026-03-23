@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Facial Asymmetry (General) (Coil)"
+"Preset_Notes=Facial Asymmetry (General) for Coil
+
+Facial asymmetry is a clinical manifestation resulting from diverse etiologies including facial nerve paralysis (Bell's palsy, traumatic, iatrogenic), congenital craniofacial anomalies, muscular dystrophies, stroke-induced hemifacial weakness, and postsurgical or trauma-related structural defects. Pathophysiology involves disruption of the facial nerve (cranial nerve VII) motor innervation to mimetic muscles, resulting in unilateral muscle atrophy, loss of tone, and functional impairment. Regeneration of facial nerve fibers requires axonal regrowth from the facial nucleus through the internal auditory canal, with specific guidance to appropriate terminal branches (temporal, zygomatic, buccal, marginal mandibular, cervical). Critical therapeutic targets include: motoneuron survival and axonal sprouting, neuromuscular junction restoration, prevention of muscle atrophy during denervation, collagen remodeling for structural support, and modulation of neuroinflammation that impairs regeneration.
+
+Therapeutic peptide interventions:
+1. Facial nerve regeneration/Motoneuron signaling: {alpha}-CGRP - Calcitonin gene-related peptide alpha isoform; biphasic expression marker for facial motoneuron regeneration; promotes neuroglial interactions and neuromuscular signaling during axonal regrowth; vasodilatory activity enhances tissue perfusion
+2. Axonal growth/Sprouting enhancement: Galanin - Neuropeptide upregulated in injured facial motoneurons; promotes axonal elongation and branching via GalR2 receptor activation; neurotrophic for early-stage nerve regeneration; marker of axonal injury response
+3. Neurotrophic factor enhancement/Facial nerve recovery: PACAP-38 - Pituitary adenylate cyclase-activating polypeptide; 20-fold upregulation in facial motor nucleus post-injury; accelerates functional recovery and myelination; stimulates GDNF expression and microglial activation for nerve repair
+4. Tissue repair/Cell migration (Actin regulation): Thymosin {beta}4 - 43-amino acid actin-sequestering peptide; promotes cell migration to injury sites; enhances angiogenesis and wound healing; supports soft tissue remodeling and reduces scar formation in facial structures
+5. Collagen synthesis/Soft tissue remodeling: GHK - Endogenous tripeptide glycyl-histidyl-lysine; copper-binding modulator of gene expression; stimulates collagen, elastin, and glycosaminoglycan synthesis; promotes angiogenesis and dermal matrix remodeling for facial structural support
+6. Axonal guidance/Cell penetration for nerve growth: AxonSprout-1 - Designed TAT-derived cell-penetrating peptide with added basic residues for enhanced axonal targeting; promotes intracellular delivery of neurotrophic cargoes; stimulates neurite outgrowth through membrane transduction
+7. Neuromuscular signaling/Synaptic maintenance: NeuroTroph-1 - Bradykinin-based designed peptide optimized for neurotrophic signaling; enhances BDNF expression and neuronal survival; promotes synaptic plasticity and motor endplate maintenance in denervated facial muscles
+8. Neuromuscular junction restoration: SynaptoFix-1 - Synthetic synaptogenic peptide targeting neuromuscular junction components; promotes acetylcholine receptor clustering and motor endplate reinnervation; critical for functional recovery of facial mimetic muscles
+9. Extracellular matrix remodeling/Facial structural support: CollagenBoost-1 - Collagen-derived synthetic peptide activating fibroblast collagen synthesis; enhances type I and III collagen deposition for dermal and subcutaneous tissue support; improves facial contour and symmetry through matrix remodeling
+10. Anti-inflammatory/Neuroimmune modulation: AntiInflam-1 - {alpha}-MSH fragment analog designed to suppress pro-inflammatory cytokines in facial nerve injury; inhibits NF{kappa}B and microglial activation; reduces inflammatory damage to motoneurons while permitting regeneration
+11. Angiogenesis/Vascularization: VasoGrowth-1 - Short synthetic angiogenic motif promoting endothelial cell proliferation and capillary formation; enhances blood supply to regenerating facial nerve and muscles; supports oxygenation and nutrient delivery to injured tissues
+12. Motoneuron protection/Oxidative stress defense: MotoProtect-1 - Glutamate-rich neuroprotective peptide shielding facial motoneurons from excitotoxicity; chelates calcium and reduces oxidative stress in injured neurons; preserves motoneuron viability during axonal regeneration period
+
+"
+"Loaded_Programs=Facial Asymmetry (General) p01"
+"Loaded_Programs=Facial Asymmetry (General) p02"
+"Loaded_Programs=Facial Asymmetry (General) p03"
+"Loaded_Programs=Facial Asymmetry (General) p04"
+"Loaded_Programs=Facial Asymmetry (General) p05"
+"Loaded_Programs=Facial Asymmetry (General) p06"
+"Loaded_Programs=Facial Asymmetry (General) p07"
+"Loaded_Programs=Facial Asymmetry (General) p08"
+"Loaded_Programs=Facial Asymmetry (General) p09"
+"Loaded_Programs=Facial Asymmetry (General) p10"
+"Loaded_Programs=Facial Asymmetry (General) p11"
+"Loaded_Programs=Facial Asymmetry (General) p12"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M101.048,M113.084,M114.043,M87.032,M71.037,M57.021,M163.063,M113.084,M113.084,M57.021,M97.053,M137.059,M71.037,M113.084,M115.027,M114.043,M137.059,M156.101,M87.032,M147.068,M137.059,M115.027,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,M57.021,M128.095,M156.101,M163.063,M128.095,M128.058,M156.101,M99.068,M128.095,M114.043,M127.111,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M97.053,M57.021,M147.068,M87.032,M97.053,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.095,M156.101,M115.027,M87.032,M129.043,M87.032,M87.032,M97.053,M129.043,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M71.037,M57.021,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M131.040,M128.058,M156.101,M156.101,0=4,"
+"[/Preset]"

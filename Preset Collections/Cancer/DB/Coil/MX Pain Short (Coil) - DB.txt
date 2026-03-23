@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=MX Pain Short (Coil) - DB"
+"Preset_Notes=Cancer Protocol, Extras. For Spooky Coil only - DO NOT USE WITH SPOOKY PLASMA.
+
+Update: March 2020.
+
+Spooky Coil converts the signals from the XM generator to a magnetic field. Any frequency or waveform can be used.
+
+Connect Spooky PEMF Coil to the generator, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+
+This preset runs continuously, and beeps at the end of each loop. Run this preset for at least 1 loop.
+
+IMPORTANT: this preset kills pathogens. Use ALL Detox (R) - DB on another generator while running this. Use as required, for as long as necessary.
+
+PROGRAMS:
+Endorphin Release XTRA
+Cancer Pain CAFL
+Endorphin Release XTRA
+Cancer Pain XTRA
+Endorphin Release XTRA
+"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Cancer Pain (CAFL)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Cancer Pain (XTRA)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=3000=180,95=180,2127=180,2008=180,727=180,690=180,666=180,"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=95=180,660=180,690=180,727.5=180,2008=180,2127.5=180,2720=180,3000=180,10000=180,"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

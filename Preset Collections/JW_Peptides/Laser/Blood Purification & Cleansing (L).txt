@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Blood Purification & Cleansing (L)"
+"Preset_Notes=Blood Purification & Cleansing for Laser
+
+The peptides target multiple therapeutic axes for blood purification and cleansing, including antimicrobial protection to eliminate pathogens, endotoxin neutralization to bind LPS, toxin binding for removal, antioxidant effects to neutralize free radicals, anti-inflammatory actions to reduce inflammation, and tissue regeneration for overall health. The first 6 peptides are real-world with validated evidence from studies on sepsis and endotoxin removal, while peptides 7-12 are designed to supplement coverage in antioxidant, anti-inflammatory, and regenerative axes, flagged as designed.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Blood Purification & Cleansing p01"
+"Loaded_Programs=Blood Purification & Cleansing p02"
+"Loaded_Programs=Blood Purification & Cleansing p03"
+"Loaded_Programs=Blood Purification & Cleansing p04"
+"Loaded_Programs=Blood Purification & Cleansing p05"
+"Loaded_Programs=Blood Purification & Cleansing p06"
+"Loaded_Programs=Blood Purification & Cleansing p07"
+"Loaded_Programs=Blood Purification & Cleansing p08"
+"Loaded_Programs=Blood Purification & Cleansing p09"
+"Loaded_Programs=Blood Purification & Cleansing p10"
+"Loaded_Programs=Blood Purification & Cleansing p11"
+"Loaded_Programs=Blood Purification & Cleansing p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M128.095,M128.095,M97.053,M99.068,M97.053,M113.084,M113.084,M163.063,M102.001,M114.043,M156.101,M156.101,M101.048,M57.021,M128.095,M102.001,M128.058,M156.101,M131.040,0=4,"
+"Loaded_Frequencies=M57.021=1,M103.009,M128.095,M128.095,M163.063,M156.101,M156.101,M147.068,M156.101,M186.079,M128.095,M147.068,M128.095,M57.021,M128.095,M147.068,M186.079,M147.068,M186.079,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M186.079,M128.095,M71.037,M99.068,M114.043,M186.079,M113.084,M128.095,M97.053,M186.079,M101.048,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M128.095,M186.079,M147.068,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M115.027,M129.043,M128.058,M87.032,M99.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M137.059,M97.053,M101.048,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.058,M114.043,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M99.068,M128.095,M243.029,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M87.032,M115.027,M129.043,M114.043,0=4,"
+"[/Preset]"

@@ -1,0 +1,20 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Dog Kennel Cough (P)"
+"Preset_Notes=Dog Kennel Cough for Plasma
+
+Dog Kennel Cough, or Canine Infectious Respiratory Disease Complex (CIRDC), is a highly contagious upper respiratory infection in dogs caused by multiple pathogens including Bordetella bronchiseptica, Canine Parainfluenza Virus, and others like Mycoplasma or Adenovirus. It spreads through airborne droplets in crowded environments like kennels, presenting symptoms such as a persistent dry hacking cough, retching with white foam, nasal discharge, sneezing, and mild fever, though severe cases can progress to pneumonia. Pathophysiology involves pathogen adhesion to ciliated epithelium, toxin release impairing mucociliary clearance, local inflammation, and secondary bacterial invasions leading to tracheobronchitis.
+The proposed polypeptides combat Dog Kennel Cough by focusing on antibacterial clearance, antiviral interference, and mucosal protection. For antibacterial action against Bordetella, a designed polypeptide is proposed to emulate defensin-like disruption of bacterial membranes, targeting lipopolysaccharide structures for rapid lysis and reduced biofilm formation; this design's feasibility stems from antimicrobial peptides in respiratory therapies, with veterinary adaptation for intranasal delivery. For antiviral modulation, a designed polypeptide inhibits viral fusion proteins akin to those in parainfluenza, preventing epithelial cell infection and spread; conceptual basis includes short inhibitory peptides from human models, ensuring low immunogenicity. For anti-inflammatory and mucosal repair, the real-world LL-37 fragment (shortened to fit criteria) promotes innate immunity while dampening excessive cytokine release, aiding in ciliary regeneration and symptom relief; as a cathelicidin derivative, it addresses the inflammatory core of the disease complex.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Dog Kennel Cough p01"
+"Loaded_Programs=Dog Kennel Cough p02"
+"Loaded_Programs=Dog Kennel Cough p03"
+"Loaded_Frequencies=M87.032=1,M128.095,M99.068,M113.084,M87.032,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M129.043,M113.084,M99.068,M147.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M71.037,M113.084,M113.084,M128.095,M99.068,M113.084,M113.084,M113.084,M128.095,M99.068,M113.084,M113.084,M71.037,M113.084,M113.084,M128.095,M99.068,M113.084,M113.084,M113.084,M128.095,M99.068,M113.084,M113.084,M71.037,M113.084,M113.084,M128.095,M99.068,M113.084,0=4,"
+"[/Preset]"

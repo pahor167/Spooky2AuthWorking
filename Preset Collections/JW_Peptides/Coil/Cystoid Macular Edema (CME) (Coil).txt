@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Cystoid Macular Edema (CME) (Coil)"
+"Preset_Notes=Cystoid Macular Edema (CME) for Coil
+
+Cystoid Macular Edema (CME) is a condition characterized by fluid accumulation in the macula, leading to retinal swelling, distorted vision, and potential vision loss, often secondary to inflammation, vascular leakage, or retinal diseases. The proposed polypeptides target evidence-based therapeutic axes from literature on VEGF inhibition, anti-inflammatory effects, carbonic anhydrase modulation, neuroprotection, anti-apoptotic effects, antioxidant protection, vascular stabilization, pain and stress modulation, and novel optimization to reduce leakage, alleviate swelling, protect retinal cells, and promote recovery.
+1. VEGF inhibition: Pegaptanib selectively inhibits VEGF-165 to reduce vascular permeability and edema in retinal conditions.
+2. Anti-inflammatory effects: Cortistatin reduces inflammation and modulates immune responses in retinal tissues.
+3. Carbonic anhydrase inhibition: Topical CAIs like those mimicked by specific peptides, but using Thymosin beta 4 for its regenerative anti-inflammatory properties in CME.
+4. Neuroprotection: Humanin protects retinal neurons from stress and degeneration in macular edema models.
+5. Anti-apoptotic effects: ARA-290 inhibits apoptosis and promotes neuronal survival in retinal ischemia and edema.
+6. Antioxidant protection: Glutathione combats oxidative stress contributing to CME pathogenesis.
+7. Vascular stabilization: Adrenomedullin enhances vascular integrity and reduces leakage in retinal vasculopathies.
+8. Stress response modulation: Urocortin modulates inflammatory and nociceptive responses in retinal diseases.
+9. Novel optimization for comprehensive retinal protection: CME-Eng, an engineered peptide derived from elamipretide and neuroprotective motifs, offers enhanced mitochondrial stabilization and anti-inflammatory action with improved stability.
+
+"
+"Loaded_Programs=Cystoid Macular Edema (CME) p01"
+"Loaded_Programs=Cystoid Macular Edema (CME) p02"
+"Loaded_Programs=Cystoid Macular Edema (CME) p03"
+"Loaded_Programs=Cystoid Macular Edema (CME) p04"
+"Loaded_Programs=Cystoid Macular Edema (CME) p05"
+"Loaded_Programs=Cystoid Macular Edema (CME) p06"
+"Loaded_Programs=Cystoid Macular Edema (CME) p07"
+"Loaded_Programs=Cystoid Macular Edema (CME) p08"
+"Loaded_Programs=Cystoid Macular Edema (CME) p09"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M115.027=1,M114.043,M97.053,M87.032,M113.084,M87.032,M113.084,M115.027,M113.084,M101.048,M147.068,M137.059,M113.084,M113.084,M156.101,M101.048,M113.084,M113.084,M129.043,M113.084,M71.037,M156.101,M101.048,M128.058,M87.032,M156.101,M156.101,M113.084,M147.068,M115.027,M99.068,M87.032,M98.059,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"[/Preset]"

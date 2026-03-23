@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Lung Congestion (P)"
+"Preset_Notes=Lung Congestion for Plasma
+
+Lung congestion (pulmonary edema) involves abnormal fluid accumulation in the alveolar spaces and interstitium, impairing gas exchange. Therapeutic strategies target fluid clearance via natriuretic peptides, reduction of pulmonary vascular pressure, resolution of inflammation, modulation of immune responses, enhancement of surfactant function, and protection against oxidative stress. The following polypeptides provide multi-axis intervention:
+
+1. Fluid clearance/Natriuresis: ANP - Promotes alveolar fluid clearance via cGMP-dependent ENaC activation; reduces pulmonary edema through natriuresis and vasodilation
+2. Pulmonary vascular unloading: BNP - Reduces pulmonary capillary wedge pressure; promotes fluid clearance via NPR-A activation; reduces congestion through vasorelaxation
+3. Vasodilation/Inflammation control: CNP - Selective venodilation reducing preload; anti-inflammatory via TGF-{beta}/Smad inhibition; protects alveolar-capillary barrier
+4. Inflammation resolution: Annexin_A1_Ac2-26 - FPR-mediated resolution of inflammation; reduces neutrophil infiltration; inhibits NF-{kappa}B and MAPK signaling in lung injury
+5. Immune modulation: Desacyl_Ghrelin - Suppresses NF-{kappa}B-iNOS pathway; reduces pro-inflammatory cytokines (TNF-{alpha}, IL-6, IL-1{beta}); protects against alveolar damage
+6. Surfactant enhancement/Mucus clearance: PulmoSurf-1 - Synthetic amphipathic peptide mimicking SP-B; reduces surface tension in alveoli; facilitates mucus hydration and clearance in congested airways
+7. Oxidative stress protection: PulmoGuard-1 - Histidine residues scavenge ROS/RNS; protects alveolar epithelium from oxidative damage in congested lung tissue; Gly linkers provide flexibility
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Lung Congestion p01"
+"Loaded_Programs=Lung Congestion p02"
+"Loaded_Programs=Lung Congestion p03"
+"Loaded_Programs=Lung Congestion p04"
+"Loaded_Programs=Lung Congestion p05"
+"Loaded_Programs=Lung Congestion p06"
+"Loaded_Programs=Lung Congestion p07"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M87.032,M147.068,M113.084,M87.032,M97.053,M129.043,M137.059,M128.058,M156.101,M99.068,M128.058,M128.058,M156.101,M128.095,M129.043,M87.032,M128.095,M128.095,M97.053,M97.053,M71.037,M128.095,M113.084,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M113.084,M71.037,M186.079,M128.095,M113.084,M113.084,M71.037,M186.079,M128.095,M113.084,M113.084,M71.037,M186.079,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M137.059,M57.021,M137.059,M128.095,M57.021,M137.059,M57.021,M137.059,M128.095,M57.021,M137.059,M57.021,0=4,"
+"[/Preset]"

@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Klippel-Trenaunay Syndrome (R)"
+"Preset_Notes=Klippel-Trenaunay Syndrome for Remote
+
+Klippel-Trenaunay Syndrome (KTS) is a rare congenital disorder characterized by a classic triad of cutaneous capillary malformations (port-wine stains), venous and/or lymphatic malformations with varicose veins, and soft tissue and/or bony hypertrophy typically affecting one limb, though manifestations can be more extensive. It results primarily from post-zygotic somatic mutations in the PIK3CA gene, leading to overactivation of the PI3K/AKT/mTOR signaling pathway, which promotes excessive cell proliferation, abnormal vascular development, and tissue overgrowth. Symptoms often present at birth or early childhood and include visible port-wine stains, limb discrepancy with progressive overgrowth causing gait abnormalities and scoliosis, chronic pain from venous insufficiency, recurrent infections or cellulitis due to lymphatic involvement, edema, thrombosis risk, bleeding from malformed vessels, and potential complications like pulmonary embolism or high-output heart failure in severe cases.
+
+The condition falls within the PIK3CA-Related Overgrowth Spectrum (PROS), with variable severity and no cure; management is multidisciplinary and symptom-focused, including compression therapy, sclerotherapy or embolization for venous malformations, laser for stains, orthopedic interventions for hypertrophy, and off-label use of mTOR inhibitors like sirolimus or PI3K inhibitors like alpelisib in severe PROS cases to slow progression.
+
+No established, investigational, or emerging polypeptide-based therapies were identified for KTS across comprehensive searches of medical literature, clinical trials, and patents. The proposed polypeptides are therefore all conceptual designed short peptides targeting key pathophysiological axes to complement existing approaches.
+
+The first designed peptide conceptually targets dysregulated PI3K signaling, aiming to interfere with downstream proliferation and overgrowth signals; its sequence incorporates basic and hydrophobic residues for potential pathway modulation, with feasibility considerations including cell permeability challenges typical of peptides, though precedents in inhibitory peptides for kinase pathways suggest potential if optimized.
+
+The second designed peptide addresses excessive angiogenesis underlying capillary and venous malformations, designed with motifs to potentially disrupt endothelial proliferation; amphipathic character supports vascular targeting, with moderate feasibility based on anti-angiogenic peptide analogs in other vascular conditions.
+
+The third designed peptide focuses on lymphatic dysfunction and edema, conceptually enhancing drainage and reducing inflammation in malformed lymphatics; hydrophilic residues promote solubility, with higher feasibility drawing from lymphatic-modulating peptides in related edematous disorders.
+
+These designed polypeptides represent hypothetical strategies for adjunctive therapy emphasizing pathway-specific mitigation and symptom relief, potentially via topical, intralesional, or systemic routes pending preclinical testing in KTS models.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Klippel-Trenaunay Syndrome p01"
+"Loaded_Programs=Klippel-Trenaunay Syndrome p02"
+"Loaded_Programs=Klippel-Trenaunay Syndrome p03"
+"Loaded_Frequencies=M128.095=1,M156.101,M97.053,M57.021,M99.068,M137.059,M113.084,M147.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M87.032,M97.053,M147.068,M156.101,M113.084,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M128.095,M99.068,M129.043,M114.043,M71.037,M128.058,0=4,"
+"[/Preset]"

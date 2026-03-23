@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Benign Paroxysmal Positional Vertigo (BPPV) (C)"
+"Preset_Notes=Benign Paroxysmal Positional Vertigo (BPPV) for Contact
+
+Benign Paroxysmal Positional Vertigo (BPPV) is a prevalent peripheral vestibular disorder causing recurrent, short episodes of vertigo provoked by specific head movements, resulting from dislodged otoconia within the semicircular canals leading to abnormal endolymph flow and cupular stimulation. The mechanistic rationale for the proposed polypeptides addresses key therapeutic axes including mechanical modulation of otoconia attachment and endolymph dynamics, reduction of oxidative stress via antioxidant pathways, anti-inflammatory effects to mitigate inner ear irritation, epigenetic regulation through SIRT1 and miR-34a pathways, calcium metabolism to stabilize otoconial structure, neuroprotection of vestibular neurons, enhancement of mitochondrial function for cellular energy, CGRP pathway modulation for vestibular signaling balance, inner ear targeted delivery for localized efficacy, and symptomatic relief from vertigo; real-world polypeptides are prioritized from validated sources in vestibular or related inner ear disorders, supplemented by designed polypeptides (flagged as such) for comprehensive coverage, with scientific rationale considering modes of action like cytokine inhibition or ROS scavenging, feasibility for intratympanic or systemic administration, and physicochemical properties such as membrane permeability and stability.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Benign Paroxysmal Positional Vertigo (BPPV) p01"
+"Loaded_Programs=Benign Paroxysmal Positional Vertigo (BPPV) p02"
+"Loaded_Programs=Benign Paroxysmal Positional Vertigo (BPPV) p03"
+"Loaded_Programs=Benign Paroxysmal Positional Vertigo (BPPV) p04"
+"Loaded_Programs=Benign Paroxysmal Positional Vertigo (BPPV) p05"
+"Loaded_Programs=Benign Paroxysmal Positional Vertigo (BPPV) p06"
+"Loaded_Programs=Benign Paroxysmal Positional Vertigo (BPPV) p07"
+"Loaded_Programs=Benign Paroxysmal Positional Vertigo (BPPV) p08"
+"Loaded_Programs=Benign Paroxysmal Positional Vertigo (BPPV) p09"
+"Loaded_Programs=Benign Paroxysmal Positional Vertigo (BPPV) p10"
+"Loaded_Programs=Benign Paroxysmal Positional Vertigo (BPPV) p11"
+"Loaded_Programs=Benign Paroxysmal Positional Vertigo (BPPV) p12"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M113.084,M57.021,M163.063,M114.043,M147.068,M87.032,M87.032,M147.068,M97.053,M103.009,M57.021,M101.048,M113.084,M87.032,M113.084,M71.037,M97.053,M57.021,M147.068,M114.043,M147.068,M163.063,M156.101,M113.084,M163.063,M147.068,M113.084,M186.079,M99.068,M114.043,M57.021,M113.084,M71.037,M128.095,M99.068,M99.068,M186.079,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M147.068,M115.027,M113.084,M113.084,M128.095,M128.095,M113.084,M71.037,M129.043,M87.032,M147.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M101.048,M137.059,M101.048,M101.048,M129.043,M87.032,M156.101,M87.032,M131.040,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M101.048,M137.059,M101.048,M101.048,M129.043,M87.032,M156.101,M87.032,M131.040,M99.068,M57.021,M57.021,M87.032,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M57.021,M57.021,M87.032,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M101.048,M137.059,M101.048,M101.048,M129.043,M87.032,M156.101,M87.032,M131.040,M99.068,M57.021,M57.021,M87.032,M128.095,0=4,"
+"Loaded_Frequencies=M86.048=1,M128.095,M113.048,M156.101,M114.079,M87.032,M101.048,M71.037,M57.021,M129.043,0=4,"
+"Loaded_Frequencies=M150.954=1,M129.043,M115.027,M237.148,M200.095,M115.027,M129.043,M87.032,M101.048,M115.027,M71.037,M128.095,0=4,"
+"[/Preset]"

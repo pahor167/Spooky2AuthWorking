@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Progesterone (Coil)"
+"Preset_Notes=Progesterone for Coil
+
+Progesterone is an essential steroid hormone regulating the menstrual cycle, fertility, pregnancy maintenance, and menopausal transition; deficiencies or dysregulation lead to infertility, luteal phase defects, increased miscarriage risk, and hormonal imbalances. The proposed polypeptides, drawn from clinical and preclinical evidence on the kisspeptin-GnRH-gonadotropin axis, target upstream stimulation of natural progesterone production alongside supportive repair, anti-inflammatory, and regenerative mechanisms.
+
+1. Decapeptide kisspeptin receptor agonism: Kisspeptin-10 potently activates KISS1R to drive GnRH and gonadotropin release, elevating progesterone in reproductive disorders.
+2. Tridecapeptide kisspeptin signaling: Kisspeptin-13 provides N-terminal extension for potentially sustained hypothalamic activation and progesterone support.
+3. Pyroglutamyl GnRH analog direct stimulation: Gonadorelin triggers pituitary LH/FSH surges to induce ovarian progesterone synthesis in deficiency states.
+4. Copper-tripeptide complex regenerative modulation: GHK-Cu supports tissue remodeling and antioxidant balance in progesterone-responsive systems.
+5. Carbamylated erythropoietin fragment selective protection: ARA-290 promotes anti-inflammatory repair in reproductive and endocrine tissues.
+6. Lys-Pro-Val tripeptide melanocortin modulation: KPV suppresses inflammation that may contribute to progesterone resistance or imbalance.
+7. Cationic-flanked acetylated kisspeptin variant: Ac-RRYNWNSFGLRF-NH2 enhances the core motif with arginines for improved solubility, stability, and delivery in novel progesterone axis optimization.
+
+"
+"Loaded_Programs=Progesterone p01"
+"Loaded_Programs=Progesterone p02"
+"Loaded_Programs=Progesterone p03"
+"Loaded_Programs=Progesterone p04"
+"Loaded_Programs=Progesterone p05"
+"Loaded_Programs=Progesterone p06"
+"Loaded_Programs=Progesterone p07"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M111.032=1,M137.059,M186.079,M87.032,M163.063,M57.021,M113.084,M156.101,M97.053,M56.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M198.112=1,M156.101,M163.063,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M147.068,0=4,"
+"[/Preset]"

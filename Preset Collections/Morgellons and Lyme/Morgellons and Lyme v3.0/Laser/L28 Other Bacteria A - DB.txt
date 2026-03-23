@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=L28 Other Bacteria A - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Laser.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Nocardia Asteroides HC
+Streptothrix CAFL
+Streptothrix XTRA
+Actinomycosis (Streptothrix) Rife
+Enterobacter Aerogenes 1 XTRA
+Enterobacter Aerogenes 2 XTRA
+Bacillus Thuringiensis CAFL
+Blue Green Algae HC
+Campylobacter Pyloridis HC
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Nocardia Asteroides (HC)"
+"Loaded_Programs=Streptothrix (CAFL)"
+"Loaded_Programs=Streptothrix (XTRA)"
+"Loaded_Programs=Actinomycosis (Streptothrix) (Rife)"
+"Loaded_Programs=Enterobacter Aerogenes 1 (XTRA)"
+"Loaded_Programs=Enterobacter Aerogenes 2 (XTRA)"
+"Loaded_Programs=Bacillus Thuringiensis (CAFL)"
+"Loaded_Programs=Blue-green Algae (HC)"
+"Loaded_Programs=Campylobacter Pyloridis 2 (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=354950-355350=3600,"
+"Loaded_Frequencies=784=180,228=180,231=180,237=180,887=180,2890=180,222=180,262=180,2154=180,465=180,488=180,567=180,7880=180,10000=180,787=180,747=180,727=180,20=180,"
+"Loaded_Frequencies=3260650=180,"
+"Loaded_Frequencies=192000=180,"
+"Loaded_Frequencies=927.04=540,11687.5=540,"
+"Loaded_Frequencies=927.04=180,18620.36=180,"
+"Loaded_Frequencies=520=300,2551=300,902=300,1405=300,"
+"Loaded_Frequencies=256000=180,"
+"Loaded_Frequencies=872.51=180,879.96=180,885=180,4=180,11093.75=180,11162.5=180,22000=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

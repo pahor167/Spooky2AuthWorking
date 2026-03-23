@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Kratom (Nootropics) (R) - JRG"
+"Loaded_Programs=Kratom (CUST)"
+"Loaded_Frequencies=M398.22056,"
+"Preset_Notes=Kratom (Mitragyna speciosa) is the leaf of a tropical deciduous tree within the coffee family (Rubiaceae) native to Southeast Asia.|Mitragynine and 7-hydroxymitragynine (7-HMG), unique to Mitragyna speciosa, are the two alkaloids mainly responsible for the effects of Kratom. And are agonists of the u-subtype opioid receptor (MOR). Which provides its powerful pain-relieving action.|5-HT2a (subtype of serotonin receptor) and postsynaptic a2-adrenergic receptors, as well as neuronal Ca2+ channels are also involved in the unique mechanism of action of mitragynine.|Kratom's effect on serotonin and norepinephrine help improve mood and lower anxiety. At lower doses, Kratom is used for its stimulant effects and to combat fatigue.|At higher dosages, Kratom can have more of a sedative and anxiolytic effect. And has also been used in traditional and natural medicine as an alternative to opiate medications.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

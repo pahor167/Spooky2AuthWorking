@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Leg Cramps (R)"
+"Preset_Notes=Leg Cramps for Remote
+
+Leg cramps involve key mechanisms such as muscle hyperexcitability, calcium dysregulation in muscle contraction, inflammation and oxidative stress, poor circulation leading to ischemia, nerve irritation or compression, electrolyte imbalances affecting neuromuscular function, and impaired tissue repair from repetitive strain. Biological targets include voltage-gated calcium channels, inflammatory cytokines like TNF-alpha, mitochondrial energy pathways, and growth factor receptors for regeneration. The proposed peptides target these through anti-spasmodic effects, pain modulation, anti-inflammatory signaling, antioxidant protection, and promotion of muscle recovery. All 10 peptides are real-world validated (from preclinical models, literature, or user reports in pain management contexts like PMC articles and clinical studies), covering the condition comprehensively without conceptual designs. Modes of action include reducing neuropathic pain, enhancing mitochondrial function to prevent cramps, suppressing inflammation to alleviate spasms, and supporting nerve and muscle integrity. Physicochemical considerations: most are linear with amidation or acetylation for stability; short lengths aid bioavailability; pharmacodynamics suggest subcutaneous or intranasal delivery for rapid relief.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Leg Cramps p01"
+"Loaded_Programs=Leg Cramps p02"
+"Loaded_Programs=Leg Cramps p03"
+"Loaded_Programs=Leg Cramps p04"
+"Loaded_Programs=Leg Cramps p05"
+"Loaded_Programs=Leg Cramps p06"
+"Loaded_Programs=Leg Cramps p07"
+"Loaded_Programs=Leg Cramps p08"
+"Loaded_Programs=Leg Cramps p09"
+"Loaded_Programs=Leg Cramps p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"[/Preset]"

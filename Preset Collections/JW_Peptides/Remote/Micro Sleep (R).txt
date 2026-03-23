@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Micro Sleep (R)"
+"Preset_Notes=Micro Sleep for Remote
+
+Microsleep refers to brief, unintended episodes of sleep lasting from a fraction of a second to 30 seconds, often occurring due to sleep deprivation or underlying sleep disorders such as narcolepsy. Therapeutic axes include the orexin signaling pathway, which regulates wakefulness and prevents sleep intrusions; the neuropeptide S signaling pathway, which enhances arousal through activation of histaminergic and orexinergic neurons; and the CART signaling pathway, which promotes wakefulness via modulation of dopaminergic systems. Orexin-A is assigned to the orexin axis, acting as an agonist to orexin receptors to stabilize wakefulness. Neuropeptide S is assigned to its namesake axis, facilitating wake promotion by stimulating key arousal centers. CART(55-102) is assigned to the CART axis, contributing to alertness through its effects on reward and motivation pathways.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Micro Sleep p01"
+"Loaded_Programs=Micro Sleep p02"
+"Loaded_Programs=Micro Sleep p03"
+"Loaded_Frequencies=M111.032=1,M97.053,M113.084,M97.053,M115.027,M102.001,M102.001,M156.101,M128.058,M128.095,M101.048,M102.001,M87.032,M102.001,M156.101,M113.084,M163.063,M129.043,M113.084,M113.084,M137.059,M57.021,M71.037,M57.021,M114.043,M137.059,M71.037,M71.037,M57.021,M113.084,M113.084,M101.048,M112.100,0=4,"
+"Loaded_Frequencies=M87.032=1,M147.068,M156.101,M114.043,M57.021,M99.068,M57.021,M101.048,M57.021,M131.040,M128.095,M128.095,M101.048,M87.032,M147.068,M128.058,M156.101,M71.037,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M113.084,M163.063,M129.043,M128.095,M128.095,M163.063,M57.021,M128.058,M99.068,M97.053,M131.040,M102.001,M115.027,M71.037,M57.021,M129.043,M128.058,M102.001,M71.037,M99.068,M156.101,M128.095,M57.021,M71.037,M156.101,M113.084,M57.021,M128.095,M113.084,M102.001,M115.027,M102.001,M97.053,M156.101,M57.021,M101.048,M87.032,M102.001,M114.043,M87.032,M147.068,M113.084,M113.084,M128.095,M102.001,M113.084,0=4,"
+"[/Preset]"

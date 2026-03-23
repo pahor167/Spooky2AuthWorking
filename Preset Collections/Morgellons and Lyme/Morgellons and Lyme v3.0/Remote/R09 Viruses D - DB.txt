@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R09 Viruses D - DB"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Coxsackie B1 HC
+Coxsackie B2 CAFL
+Coxsackie B5 CAFL
+Coxsackie B4 HC
+Coxsackie B6 CAFL
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Inverted_Sawtooth=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Coxsackie B1 (HC)"
+"Loaded_Programs=Coxsackie B2 (CAFL)"
+"Loaded_Programs=Coxsackie B5 (CAFL)"
+"Loaded_Programs=Coxsackie B4 (HC)"
+"Loaded_Programs=Coxsackie B6 (CAFL)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=360500-366100=3600,"
+"Loaded_Frequencies=705=300,534=300,867=300,"
+"Loaded_Frequencies=462=300,1043=300,1083=300,569=300,647=300,708=300,774=300,"
+"Loaded_Frequencies=361450-363700=3600,"
+"Loaded_Frequencies=488=300,736=300,814=300,343=300,551=300,657=300,668=300,669=300,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

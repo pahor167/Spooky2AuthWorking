@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Seasonal Affective Disorder (SAD) (P)"
+"Preset_Notes=Seasonal Affective Disorder (SAD) for Plasma
+
+Seasonal Affective Disorder (SAD) is a recurrent depressive disorder tied to reduced daylight exposure, featuring circadian rhythm disruption, serotonin imbalance, sleep disturbances, fatigue, social withdrawal, and altered neuronal excitability. Proposed polypeptides target validated therapeutic axes from neuropeptide and mood disorder research:
+1. Neurotrophic enhancement: Semax - Elevates BDNF and serotonin turnover, producing antidepressant-like effects.
+2. Anxiolytic modulation: Selank - Balances serotonin and immune pathways to alleviate anxiety and emotional instability.
+3. Sleep restoration: DSIP - Promotes delta-wave sleep to address winter-related circadian and sleep dysregulation.
+4. Mood and social support: Oxytocin - Enhances emotional bonding and reduces depressive isolation.
+5. Mitochondrial optimization: MOTS-c - Boosts cellular energy metabolism to counter low motivation and fatigue.
+6. TREK-1 blockade: Spadin - Inhibits TREK-1 potassium channels for rapid and sustained antidepressant activity.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Seasonal Affective Disorder (SAD) p01"
+"Loaded_Programs=Seasonal Affective Disorder (SAD) p02"
+"Loaded_Programs=Seasonal Affective Disorder (SAD) p03"
+"Loaded_Programs=Seasonal Affective Disorder (SAD) p04"
+"Loaded_Programs=Seasonal Affective Disorder (SAD) p05"
+"Loaded_Programs=Seasonal Affective Disorder (SAD) p06"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M113.084,M97.053,M156.101,M186.079,M87.032,M57.021,M97.053,M128.058,M57.021,M97.053,M97.053,M97.053,M57.021,M113.084,0=4,"
+"[/Preset]"

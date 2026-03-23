@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Otitis Interna (Labyrinthitis) (R)"
+"Preset_Notes=Otitis Interna (Labyrinthitis) for Remote
+
+Otitis interna, commonly referred to as labyrinthitis, is a condition characterized by inflammation of the inner ear structures, including the labyrinth, which encompasses the cochlea and vestibular system responsible for hearing and balance. This inflammation can arise from bacterial or viral infections spreading from the middle ear, autoimmune reactions, or other triggers such as trauma or toxins, leading to symptoms like severe vertigo, nausea, tinnitus, and sensorineural hearing loss. Effective management requires addressing the underlying causes and symptoms through multiple therapeutic axes to prevent permanent damage to delicate inner ear tissues. The identified therapeutic axes are exhaustive based on current literature and include: 1. Antimicrobial therapy, which targets infectious agents like bacteria (e.g., Pseudomonas or Streptococcus) or viruses causing the condition, with real-world polypeptide Human beta-defensin 1 (an innate immune peptide expressed in middle ear effusions that exhibits broad-spectrum antibacterial activity, as documented in studies on otitis media complications leading to inner ear involvement) and designed polypeptide Engineered AMP-OI1 (a cationic alpha-helical peptide rationally engineered from common AMP motifs to disrupt bacterial membranes while being suitable for local ear application). 2. Anti-inflammatory therapy, aimed at mitigating cytokine-driven inflammation and edema in the labyrinth, utilizing real-world polypeptide AM-111 (a JNK inhibitor peptide shown in preclinical and clinical studies to reduce inflammatory cascades and hearing loss in acute inner ear injuries including those from infections) and designed polypeptide Disulfide-cyclized alpha-MSH analog (a cyclized version derived from melanocortin motifs to enhance stability and anti-inflammatory potency via cytokine suppression). 3. Immunomodulatory therapy, which modulates aberrant immune responses in cases of autoimmune inner ear disease contributing to labyrinthitis, incorporating real-world polypeptide KPV (a short peptide from alpha-MSH with documented anti-inflammatory and immunomodulatory effects in vestibular disorders) and designed polypeptide N-acetyl TB4 fragment (an acetylated segment from thymosin beta-4 engineered for improved bioavailability and to promote immune balance and tissue regeneration). 4. Neuroprotective therapy, focused on preventing apoptosis and degeneration of hair cells and neurons in the inner ear due to inflammation or excitotoxicity, addressed by designed polypeptide NP-OI4 (a rationally modified neuroprotective motif from NAP peptide literature to shield against glutamate-induced damage common in inner ear pathologies). 5. Vestibular function modulation, targeting pathways involved in balance and vertigo, such as neuropeptide signaling, with real-world polypeptide CGRP(8-37) (a truncated antagonist peptide used in research to block CGRP receptors, relevant for alleviating vestibular symptoms in conditions like vestibular migraine that overlap with labyrinthitis mechanisms) and designed polypeptide VM-OI5 (an extended KPV variant engineered for enhanced binding to vestibular targets to reduce dizziness). 6. Targeted drug delivery, to facilitate penetration across barriers like the tympanic membrane for better access to the inner ear, employing real-world polypeptide TM1 (a phage-display derived peptide demonstrated in studies to actively transport cargos across the intact tympanic membrane for middle and inner ear treatments) and designed polypeptide Cyclic TM-delivery OI6 (a disulfide-cyclized enhancement of TM-penetrating motifs for improved stability and efficiency in delivering therapeutics to inflamed inner ear sites). This set ensures comprehensive coverage of all axes with a blend of established and rationally designed polypeptides.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Otitis Interna (Labyrinthitis) p01"
+"Loaded_Programs=Otitis Interna (Labyrinthitis) p02"
+"Loaded_Programs=Otitis Interna (Labyrinthitis) p03"
+"Loaded_Programs=Otitis Interna (Labyrinthitis) p04"
+"Loaded_Programs=Otitis Interna (Labyrinthitis) p05"
+"Loaded_Programs=Otitis Interna (Labyrinthitis) p06"
+"Loaded_Programs=Otitis Interna (Labyrinthitis) p07"
+"Loaded_Programs=Otitis Interna (Labyrinthitis) p08"
+"Loaded_Programs=Otitis Interna (Labyrinthitis) p09"
+"Loaded_Programs=Otitis Interna (Labyrinthitis) p10"
+"Loaded_Programs=Otitis Interna (Labyrinthitis) p11"
+"Loaded_Frequencies=M115.027=1,M137.059,M163.063,M114.043,M103.009,M99.068,M87.032,M87.032,M57.021,M57.021,M128.058,M103.009,M113.084,M163.063,M87.032,M71.037,M103.009,M97.053,M113.084,M147.068,M101.048,M128.095,M113.084,M128.058,M57.021,M101.048,M103.009,M163.063,M156.101,M57.021,M128.095,M71.037,M128.095,M103.009,M103.009,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M128.095,M156.101,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M156.101,M113.084,M128.095,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M97.053,M156.101,M97.053,M128.095,M156.101,M97.053,M101.048,M101.048,M113.084,M114.043,M113.084,M147.068,M97.053,M128.058,M99.068,M97.053,M156.101,M87.032,M128.058,M115.027,M101.048,0=4,"
+"Loaded_Frequencies=M103.009=1,M87.032,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,M87.032,M71.037,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,M113.084,M156.101,M87.032,M71.037,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M115.027,M186.079,M128.058,M147.068,M57.021,M57.021,M147.068,M114.043,M97.053,M97.053,M137.059,0=4,"
+"Loaded_Frequencies=M103.009=1,M147.068,M115.027,M186.079,M128.058,M147.068,M57.021,M57.021,M147.068,M114.043,M97.053,M97.053,M137.059,M102.001,0=4,"
+"[/Preset]"

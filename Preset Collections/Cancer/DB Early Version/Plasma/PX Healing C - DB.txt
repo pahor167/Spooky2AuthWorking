@@ -1,0 +1,139 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Plasma Killing (P) - JW.txt"
+"PresetName=PX Healing C - DB"
+"Padlock=1"
+"Frequency_Multiplier=1"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=152000"
+"BFB_Initial_Step_Size_Hz=20"
+"BFB_Start_Delay=30"
+"BFB_Samples_Per_Step=1"
+"Out1_Amplitude=5"
+"Out1_Offset=100"
+"Out2_Hz_Factor=1"
+"Out2_Hz_Constant=0"
+"Out2_Amplitude=5"
+"Out1_Shadow_Hz_Factor=1"
+"Out1_Fixed_Frequency=0"
+"Out2_Offset=100"
+"Preset_Notes=Cancer Protocol, Extras. Spooky Central.
+
+Update: July 2017.
+
+This Preset runs twice. 10sec pause with alert between programs, 30sec pause/alert at loop point/end.
+
+This preset addresses skin, mind, and emotional healing. Use once or twice when you need a break from killing cancer, or as desired.
+
+Step numbers are not provided since these are only useful when you feel a 'hit.' This only happens when killing things, not when healing - you will simply start to feel better after running the preset.
+
+PROGRAMS
+Skin Collagen Building XTRA
+Skin + Facial Toning XTRA
+Absentmindedness CAFL
+Clarity of Thought/Mental Function Stimulate XTRA
+Mental Function Improve XTRA
+Memory and Test-taking Improve XTRA
+Concentration Improve XTRA
+Emotional Balance 1 XTRA
+Emotions General Aid XTRA
+Grounding XTRA
+Essential Oil - Clarity XTRA
+Essential Oil - Motivation XTRA
+Essential Oil - Basil XTRA
+Essential Oil - Blue Tansy XTRA
+Essential Oil - En-R-Gee XTRA
+Essential Oil - Galbanum XTRA
+Essential"
+"Out1_Max_Freq=3000000"
+"Out1_Min_Freq=100000"
+"Out2_Max_Freq=0"
+"Text41=5"
+"Reduce_Amplitude_Frequency=10"
+"Triangle_Spike_Ratio=2"
+"F1_Factor=1"
+"User_Defined_1_Waveform=Alpha-Stim"
+"User_Defined_2_Waveform=Alpha-Stim"
+"Manual_Start=False"
+"Out1_Fixed_Frequency=False"
+"BFB_Calculate_Using_RA=True"
+"BFB_Calculate_Using_Peak=False"
+"BFB_HRV=True"
+"BFB_Detect_mA=False"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"Enable_Gate_Out1=1"
+"Enable_Tissue_Factor=0"
+"Enable_Invert_Spike_Waveform=1"
+"Out2_Subtract_DataBase_Frequency=1"
+"Loaded_Programs=Pause 60 Seconds (XTRA)"
+"Loaded_Programs=Skin Collagen Building (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Skin + Facial Toning (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Absentmindedness (CAFL)"
+"Loaded_Programs=Clarity of Thought/Mental Function Stimulate (XTRA)"
+"Loaded_Programs=Mental Function Improve (XTRA)"
+"Loaded_Programs=Memory and Test-taking Improve (XTRA)"
+"Loaded_Programs=Concentration Improve (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Emotional Balance 1 (XTRA)"
+"Loaded_Programs=Emotions General Aid (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Grounding (XTRA)"
+"Loaded_Programs=Essential Oil - Clarity (XTRA)"
+"Loaded_Programs=Essential Oil - Motivation (XTRA)"
+"Loaded_Programs=Essential Oil - Basil (XTRA)"
+"Loaded_Programs=Essential Oil - Blue Tansy (XTRA)"
+"Loaded_Programs=Essential Oil - En-R-Gee (XTRA)"
+"Loaded_Programs=Essential Oil - Galbanum (XTRA)"
+"Loaded_Programs=Essential Oil - Ravensara (XTRA)"
+"Loaded_Programs=Essential Oil - Grounding (XTRA)"
+"Loaded_Programs=Essential Oil - Frankincense (XTRA)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Essential Oil - Thieves (XTRA)"
+"Loaded_Programs=Essential Oil - Rose (XTRA)"
+"Loaded_Programs=Essential Oil - Aroma Life (XTRA)"
+"Loaded_Programs=Essential Oil - Angelica (XTRA)"
+"Loaded_Programs=Essential Oil - Citrus Fresh (XTRA)"
+"Loaded_Programs=Essential Oil - Joy (XTRA)"
+"Loaded_Programs=Essential Oil - Forgiveness (XTRA)"
+"Loaded_Programs=Essential Oil - Gathering (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=60,"
+"Loaded_Frequencies=190=180,370=180,7250=180,45750=180,120500=180,424000=180,467000=180,493100=180,750000=180,922530=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=9.6=900,2.4=900,1.2=900,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=5.8=900,"
+"Loaded_Frequencies=35=180,"
+"Loaded_Frequencies=20.8=180,"
+"Loaded_Frequencies=398=180,"
+"Loaded_Frequencies=5.79=180,7.83=180,20=180,35=180,10000=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=15=180,644=180,764=180,"
+"Loaded_Frequencies=4.9=180,20=180,72=180,95=180,125=180,146=180,428=180,522=180,802=180,1550=180,10000=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=194.71=180,"
+"Loaded_Frequencies=12625000=180,"
+"Loaded_Frequencies=12875000=180,"
+"Loaded_Frequencies=13000000=180,"
+"Loaded_Frequencies=13125000=180,"
+"Loaded_Frequencies=13250000=180,"
+"Loaded_Frequencies=14000000=180,"
+"Loaded_Frequencies=16750000=180,"
+"Loaded_Frequencies=17500000=180,"
+"Loaded_Frequencies=18375000=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=18750000=180,"
+"Loaded_Frequencies=20000000=180,"
+"Loaded_Frequencies=21000000=180,"
+"Loaded_Frequencies=21250000=180,"
+"Loaded_Frequencies=22500000=180,"
+"Loaded_Frequencies=23500000=180,"
+"Loaded_Frequencies=24000000=180,"
+"Loaded_Frequencies=24750000=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

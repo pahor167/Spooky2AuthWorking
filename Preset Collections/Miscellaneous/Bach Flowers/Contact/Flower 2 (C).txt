@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Flower 2 (C)"
+"Preset_Notes=Flower 2 / Spooky Contact
+
+Estimated Time: Run this preset for 39:00 minutes.
+Aspen - Fear of unknown things. Cerato - Lack of trust in one's own decisions. Chicory - Selfish, possessive love. Crab Apple - The cleansing remedy, also for self-hatred. Gorse - Hopelessness and despair. Holly - Hatred, envy and jealousy. Larch - Lack of confidence. Impatiens - Impatience. Scleranthus - Inability to choose between alternatives. Wild rose - Drifting, resignation, apathy. Walnut - for changes in your life. White Chestnut - mind going around and around not letting go. Elm - Feeling Overwhelmed.
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Flower 2 (C)"
+"Loaded_Frequencies=391.54F4096C0,291.80F4096C0,489.22F2048C0,359.21F4096C0,424.21F4096C0,479.48F4096C0,336.52F4096C0,463.06F4096C0,307.07F4096C0,349.54F4096C0,261.26F4096C0,247.09F4096C0,463.13F4096C0,"
+"[/Preset]"

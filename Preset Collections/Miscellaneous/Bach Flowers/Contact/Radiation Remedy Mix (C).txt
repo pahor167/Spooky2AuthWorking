@@ -1,0 +1,18 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Radiation Remedy Mix (C)"
+"Preset_Notes=Radiation Remedy Mix / Spooky Contact
+
+Estimated Time: Run this preset for 21:00 minutes.
+
+Radiation Remedy Discovered by Dr Westlakes contains: Cherry Plum, Gentian, Rock Rose, Star of Bethlehem, Vine, Walnut, & Wild Oat Toped up with Uncontaminated Sea Water. - very useful for people that work with computers and microwave ovens or people that get exposed to any form of radiation - X rays, Nuclear fallout, or people taking deep-ray therapy, cobalt therapy, kimo therapy or even watching too much television.
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Radiation Remedy Mix (C)"
+"Loaded_Frequencies=262.01F4096C0,265.67F4096C0,277.99F4096C0,276.57F4096C0,383.91F4096C0,261.26F4096C0,430.20F4096C0,"
+"[/Preset]"

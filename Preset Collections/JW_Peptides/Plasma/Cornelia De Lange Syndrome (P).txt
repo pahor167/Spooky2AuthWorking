@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Cornelia De Lange Syndrome (P)"
+"Preset_Notes=Cornelia De Lange Syndrome for Plasma
+
+Cornelia de Lange Syndrome (CdLS) is a rare congenital developmental disorder characterized by distinctive facial dysmorphisms (synophrys, arched eyebrows, long philtrum, thin downturned lips, low-set ears), prenatal and postnatal growth retardation leading to short stature, moderate to profound intellectual disability, upper limb reduction defects (ranging from clinodactyly to oligodactyly or absent forearms), hirsutism, cardiac septal defects, gastrointestinal malformations (including severe gastroesophageal reflux), hearing loss, seizures, and behavioral challenges often overlapping with autism spectrum features. The condition arises predominantly from de novo heterozygous mutations in genes encoding components or regulators of the cohesin complex, with NIPBL accounting for ~70% of cases, and lesser frequencies in SMC1A, SMC3, RAD21, HDAC8, ANKRD11, and BRD4. Cohesin dysfunction impairs sister chromatid cohesion and, more critically in non-dividing cells, disrupts long-range chromatin looping and transcriptional regulation of developmental genes, resulting in widespread misexpression during embryogenesis and postnatal development.
+
+No curative treatments exist; management is supportive and multidisciplinary. Given the absence of established polypeptide therapeutics specifically documented for CdLS across literature, patents, clinical trials, or databases (sparse peptide-related evidence confined to symptomatic growth hormone use, which exceeds length constraints for this format), the proposed interventions rely entirely on conceptually designed short polypeptides. These target four primary therapeutic axes derived from core pathophysiology:
+
+1. Growth retardation axis: Impaired somatic growth from disrupted developmental signaling.
+2. Neurodevelopmental axis: Transcriptional misregulation affecting brain development and cognition.
+3. Chromatin/transcriptional dysregulation axis: Direct consequence of cohesin haploinsufficiency.
+4. Systemic/gastrointestinal protection axis: Frequent inflammatory and tissue integrity issues.
+
+The designed polypeptides are short (5-6 residues) for favorable pharmacokinetics, composed exclusively of standard amino acids for straightforward synthesis and biocompatibility, with sequences engineered for diversity (>50% pairwise difference) and no excessive residue repeats. Peptide 1 (YKALG) incorporates aromatic and basic residues to hypothetically enhance growth signaling cascades. Peptide 2 (APRKGS) includes proline and cationic motifs for potential neurotrophic and blood-brain barrier penetration properties. Peptide 3 (KKSTGG) employs poly-basic clusters to possibly modulate chromatin interactions and compensate for altered gene looping. Peptide 4 (VIPFR) features hydrophobic and aromatic residues for anti-inflammatory and tissue-protective effects. Feasibility is supported by the stability of short linear peptides, potential for cyclic or modified analogs to improve half-life, and precedent bioactivities of analogous motifs in preclinical regenerative and neuroprotective models, though clinical translation would require extensive validation.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Cornelia De Lange Syndrome p01"
+"Loaded_Programs=Cornelia De Lange Syndrome p02"
+"Loaded_Programs=Cornelia De Lange Syndrome p03"
+"Loaded_Programs=Cornelia De Lange Syndrome p04"
+"Loaded_Frequencies=M163.063=1,M128.095,M71.037,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M71.037=1,M97.053,M156.101,M128.095,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M87.032,M101.048,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M97.053,M147.068,M156.101,0=4,"
+"[/Preset]"

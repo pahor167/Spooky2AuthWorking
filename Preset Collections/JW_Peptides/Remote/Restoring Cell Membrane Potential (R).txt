@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Restoring Cell Membrane Potential (R)"
+"Preset_Notes=Restoring Cell Membrane Potential for Remote
+
+Cell membrane potential, commonly referred to as the resting membrane potential, represents the electrical voltage difference across the plasma membrane of cells, typically maintained between -40 mV and -90 mV in various cell types, with neurons around -70 mV and cardiac myocytes around -90 mV. This potential is crucial for fundamental cellular processes, including nerve impulse transmission, muscle contraction, nutrient uptake, and overall cellular homeostasis. Disruptions to cell membrane potential can arise from multiple causes, such as physical trauma causing membrane pores or tears, oxidative stress from reactive oxygen species leading to lipid peroxidation and altered membrane permeability, genetic mutations affecting ion channel function (e.g., channelopathies like long QT syndrome), toxin exposure blocking channels or pumps, energy depletion impairing ATP-dependent ion pumps, inflammatory responses altering channel expression, or pathological states like ischemia, hypoxia, neurodegenerative diseases (e.g., Alzheimer's, Parkinson's), cardiac arrhythmias, or cancer where bioelectric signaling is dysregulated. Symptoms vary by cell type: in neurons, depolarization may cause hyperexcitability leading to seizures or pain, while hyperpolarization results in reduced signaling and neuropathy; in cardiac cells, it manifests as irregular heartbeats or fibrillation; in skeletal muscle, weakness, cramps, or paralysis; and systemically, it can lead to cell swelling, apoptosis, or necrosis if prolonged. The pathophysiology involves the breakdown of ion concentration gradients-high intracellular K+ and low Na+-maintained by the Na+/K+ ATPase pump and leak channels. When disrupted, passive ion flux alters the Nernst equilibrium, shifting the potential away from rest, impairing action potential generation, and triggering downstream cascades like calcium overload, mitochondrial dysfunction, and inflammatory signaling, ultimately compromising cell viability.
+
+The proposed polypeptides provide a comprehensive approach to restoring cell membrane potential by addressing key therapeutic axes through modulation of ion transport, membrane repair, and supportive mechanisms. Real-world polypeptides such as vasopressin and oxytocin act via G-protein-coupled receptors to influence calcium channels and secondary messengers, helping to normalize potential in responsive cells like those in the kidney or smooth muscle. Atrial natriuretic peptide (ANP) and brain natriuretic peptide (BNP) bind to their receptors to elevate cGMP, which activates protein kinase G to modulate sodium and potassium channels, promoting repolarization and reducing cellular excitability in cardiac and vascular tissues. Vasoactive intestinal peptide (VIP) stimulates adenylate cyclase, increasing cAMP levels that open potassium channels and stabilize potential in gastrointestinal and neural cells. Toxin-derived peptides like apamin, charybdotoxin, and iberiotoxin selectively block specific potassium channels (e.g., SK or BK channels), fine-tuning efflux to prevent excessive depolarization in excitable cells. Mu-conotoxin targets sodium channels to inhibit influx, aiding in potential restoration during hyperexcitable states, while omega-conotoxin blocks calcium channels to prevent overload and maintain balance. Cell-penetrating peptides TAT and penetratin enable intracellular access for therapeutics, indirectly supporting pump activity or repair enzymes. pHLIP exploits acidic environments in damaged tissues to insert into membranes, stabilizing structure and aiding resealing. BPC-157 enhances wound healing and membrane integrity through angiogenic and anti-inflammatory effects, facilitating potential recovery in injured tissues. The designed polypeptides (D1-D4) are conceptualized to fill gaps: D1 modulates chloride channels to correct anion imbalances; D2 activates Na+/K+ ATPase to rebuild ion gradients; D3 integrates into lipids to seal disruptions; D4 triggers stress responses to boost chaperone activity and resilience. These interventions are feasible due to polypeptides' biocompatibility, targeted delivery, and tunable properties like net charge for membrane interaction (+ for penetration, hydrophobic for insertion), with rationales grounded in ion electrodiffusion models (Goldman-Hodgkin-Katz equation), repair kinetics, and clinical precedents for peptide therapeutics, ensuring physicochemical stability (e.g., disulfide bonds for structure) and minimal off-target effects.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Restoring Cell Membrane Potential p01"
+"Loaded_Programs=Restoring Cell Membrane Potential p02"
+"Loaded_Programs=Restoring Cell Membrane Potential p03"
+"Loaded_Programs=Restoring Cell Membrane Potential p04"
+"Loaded_Programs=Restoring Cell Membrane Potential p05"
+"Loaded_Programs=Restoring Cell Membrane Potential p06"
+"Loaded_Programs=Restoring Cell Membrane Potential p07"
+"Loaded_Programs=Restoring Cell Membrane Potential p08"
+"Loaded_Programs=Restoring Cell Membrane Potential p09"
+"Loaded_Programs=Restoring Cell Membrane Potential p10"
+"Loaded_Programs=Restoring Cell Membrane Potential p11"
+"Loaded_Programs=Restoring Cell Membrane Potential p12"
+"Loaded_Programs=Restoring Cell Membrane Potential p13"
+"Loaded_Programs=Restoring Cell Membrane Potential p14"
+"Loaded_Programs=Restoring Cell Membrane Potential p15"
+"Loaded_Programs=Restoring Cell Membrane Potential p16"
+"Loaded_Programs=Restoring Cell Membrane Potential p17"
+"Loaded_Programs=Restoring Cell Membrane Potential p18"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.043,M102.001,M128.095,M71.037,M97.053,M129.043,M101.048,M71.037,M113.084,M102.001,M71.037,M156.101,M156.101,M102.001,M128.058,M128.058,M163.063,0=4,"
+"Loaded_Frequencies=M128.058=1,M147.068,M101.048,M114.043,M99.068,M87.032,M102.001,M101.048,M101.048,M87.032,M128.095,M129.043,M102.001,M99.068,M87.032,M99.068,M128.058,M156.101,M113.084,M163.063,M101.048,M87.032,M156.101,M57.021,M128.095,M102.001,M131.040,M114.043,M128.095,M128.095,M102.001,M156.101,M102.001,M163.063,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M101.048,M115.027,M99.068,M115.027,M102.001,M87.032,M99.068,M87.032,M128.095,M129.043,M102.001,M99.068,M87.032,M99.068,M102.001,M128.095,M115.027,M147.068,M57.021,M99.068,M115.027,M156.101,M57.021,M128.095,M102.001,M131.040,M57.021,M128.095,M128.095,M102.001,M156.101,M163.063,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M115.027,M102.001,M102.001,M101.048,M113.048,M113.048,M128.095,M128.095,M102.001,M128.095,M115.027,M156.101,M128.058,M102.001,M128.095,M113.048,M128.058,M156.101,M102.001,M102.001,M71.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M57.021,M128.095,M57.021,M71.037,M102.001,M87.032,M156.101,M113.084,M131.040,M163.063,M115.027,M102.001,M102.001,M101.048,M57.021,M87.032,M102.001,M156.101,M87.032,M57.021,M102.001,M156.101,M87.032,M57.021,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.058,M113.084,M128.095,M113.084,M186.079,M147.068,M128.058,M114.043,M156.101,M156.101,M131.040,M128.095,M186.079,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M128.058,M114.043,M97.053,M113.084,M163.063,M186.079,M71.037,M156.101,M163.063,M71.037,M115.027,M186.079,M113.084,M147.068,M101.048,M97.053,M113.084,M113.084,M113.084,M113.084,M115.027,M113.084,M71.037,M113.084,M113.084,M99.068,M115.027,M71.037,M115.027,M129.043,M57.021,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M156.101,M186.079,M186.079,M156.101,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.095,M156.101,M97.053,M156.101,M128.095,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M113.084,M99.068,M113.084,M113.084,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M128.058=1,M129.043,M115.027,M114.043,M128.058,M129.043,M115.027,M114.043,0=4,"
+"[/Preset]"

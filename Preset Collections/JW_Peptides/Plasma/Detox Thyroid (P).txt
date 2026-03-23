@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Detox Thyroid (P)"
+"Preset_Notes=Detox Thyroid for Plasma
+
+Detox (Thyroid)
+
+Thyroid detoxification encompasses strategies to mitigate the accumulation and effects of environmental toxins on the thyroid gland, which is highly susceptible due to its iodine uptake mechanisms and high metabolic activity. Common offending toxins include heavy metals (e.g., mercury, cadmium, lead) that generate reactive oxygen species and disrupt enzyme function, excess halogens (fluoride, bromide, perchlorate) that competitively inhibit iodide transport, volatile organic compounds, and other endocrine disruptors. Exposure leads to symptoms such as persistent fatigue, unexplained weight fluctuations, cold intolerance, dry skin, hair thinning, brain fog, mood disturbances, and impaired cognition, often mimicking or exacerbating hypothyroidism. Pathophysiologically, toxins block the sodium-iodide symporter reducing iodine availability for hormone synthesis, induce oxidative damage to thyrocytes, burden liver detoxification pathways impairing T4-to-T3 conversion, and promote chronic low-grade inflammation potentially triggering autoimmunity.
+
+The proposed polypeptides target key therapeutic axes identified from toxin disruption mechanisms:
+
+1. Heavy metal chelation and neutralization: Carnosine binds divalent metals reducing their thyroid accumulation and toxicity based on its established chelating properties, complemented by the designed Cys-rich cyclic peptide derived from metallothionein motifs with interspersed Lys/His for broader affinity and head-to-tail cyclization plus termini protection for enhanced stability and bioavailability.
+
+2. Oxidative stress reduction: Glutathione, the master cellular antioxidant, directly neutralizes ROS and supports glutathione peroxidase activity protecting thyroid cells, paired with the designed selenopeptide incorporating multiple selenocysteine residues mimicking GPx catalytic site for superior recyclable peroxide scavenging with termini modifications for drug-likeness.
+
+3. Metal homeostasis and tissue repair: GHK naturally sequesters and modulates copper while exerting potent antioxidant and regenerative effects countering toxin-induced imbalances, augmented by the designed extended GHK repeat cyclized with termini amidation/acylation for prolonged systemic action.
+
+4. Liver detoxification support: BPC-157 demonstrates robust hepatoprotection against diverse toxins facilitating phase II clearance and T3 generation in preclinical models, reinforced by the designed analog incorporating Aib for conformational rigidity and cyclization reducing proteolytic degradation while preserving core motif activity.
+
+This multi-faceted polypeptide set provides comprehensive, literature-grounded coverage promoting toxin elimination, oxidative balance, mineral regulation, and organ protection for optimal thyroid function restoration.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Detox Thyroid p01"
+"Loaded_Programs=Detox Thyroid p02"
+"Loaded_Programs=Detox Thyroid p03"
+"Loaded_Programs=Detox Thyroid p04"
+"Loaded_Programs=Detox Thyroid p05"
+"Loaded_Programs=Detox Thyroid p06"
+"Loaded_Programs=Detox Thyroid p07"
+"Loaded_Programs=Detox Thyroid p08"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M145.020=1,M57.021,M103.009,M128.095,M57.021,M103.009,M137.059,M57.021,M103.009,M128.095,M57.021,M102.025,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M99.032=1,M87.032,M150.954,M128.058,M186.079,M57.021,M87.032,M150.954,M128.058,M186.079,M57.021,M86.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M99.032=1,M137.059,M128.095,M57.021,M137.059,M128.095,M57.021,M137.059,M128.095,M57.021,M137.059,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"[/Preset]"

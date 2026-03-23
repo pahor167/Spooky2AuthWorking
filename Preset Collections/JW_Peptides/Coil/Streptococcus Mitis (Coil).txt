@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Streptococcus Mitis (Coil)"
+"Preset_Notes=Streptococcus Mitis for Coil
+
+Streptococcus mitis is a Gram-positive commensal bacterium colonizing the oral cavity and respiratory tract that can cause opportunistic infections including endocarditis, bacteremia, and invasive disease in immunocompromised patients. S. mitis strains demonstrate a propensity to evolve rapid, high-level resistance to daptomycin and exhibit cross-resistance to host defense peptides through adaptive membrane energetics and altered cell membrane polarization. The following bioactive peptides target this pathogen through multiple mechanisms including direct membrane disruption, immune modulation, and overcoming intrinsic resistance mechanisms:
+
+1. Resistance Overcoming: Smitis-Cide - Synthetic decapeptide (Arg-Trp-Arg-Arg-Trp-Pro-Pro-Arg-Arg-Trp) engineered with high cationic charge (+5) and amphipathic structure to overcome S. mitis resistance mechanisms including membrane hyperpolarization and altered energetics
+2. Immunomodulation: LL-37 - Human cathelicidin peptide that modulates immune responses and demonstrates temporal killing against S. mitis-oralis through membrane hyperpolarization mechanisms
+3. Broad Defense: hBD-3 - Human beta-defensin 3 providing broad-spectrum antimicrobial activity against oral streptococci and maintaining epithelial barrier integrity
+4. Neutrophil Killing: HNP-1 - Human neutrophil peptide 1 (alpha-defensin) that induces cell membrane hyperpolarization in S. mitis and is effective against daptomycin-susceptible strains
+5. Membrane Disruption: Melittin - Potent antimicrobial peptide from bee venom that permeabilizes bacterial membranes through formation of toroidal pores, effective against resistant strains
+6. Tissue Repair: GHK-Cu - Copper-binding tripeptide promoting wound healing and tissue regeneration following invasive S. mitis infection (endocarditis, soft tissue)
+7. Anti-Adhesion: RGD - Integrin-binding tripeptide that blocks bacterial adhesion to host tissues and prevents biofilm formation on medical devices
+
+"
+"Loaded_Programs=Streptococcus Mitis p01"
+"Loaded_Programs=Streptococcus Mitis p02"
+"Loaded_Programs=Streptococcus Mitis p03"
+"Loaded_Programs=Streptococcus Mitis p04"
+"Loaded_Programs=Streptococcus Mitis p05"
+"Loaded_Programs=Streptococcus Mitis p06"
+"Loaded_Programs=Streptococcus Mitis p07"
+"Loaded_Frequencies=M156.101=1,M186.079,M156.101,M156.101,M186.079,M97.053,M97.053,M156.101,M156.101,M186.079,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"[/Preset]"

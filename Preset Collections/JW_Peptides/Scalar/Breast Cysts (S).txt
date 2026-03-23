@@ -1,0 +1,57 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Breast Cysts (S)"
+"Preset_Notes=Breast Cysts for Scalar
+
+Breast cysts are benign fluid-filled sacs within the breast, typically arising from hormonal imbalances in fibrocystic changes. Updated focus on borderline candidates including mitogenic peptides (EGF, GRP, CGRP, endothelin, IGF-II) present in cyst fluid that drive proliferation, inflammation, and persistence. Peptide-based approaches target inhibition of these pathways alongside standard mechanisms for effective non-invasive management.
+
+1. EGF Antagonism: EGFInhibPep - Antagonizes the mitogenic EGF borderline candidate in breast cyst fluid to prevent epithelial proliferation and cyst enlargement
+2. GRP Antagonism: GRPBlockPep - Blocks GRP signaling from cyst fluid borderline peptide reducing mitogenic stimulation of apocrine metaplasia
+3. CGRP Modulation: CGRPModPep - Modulates CGRP borderline peptide effects on fluid secretion and mastalgia pain
+4. Endothelin Inhibition: EndoBlockPep - Inhibits endothelin documented in cyst fluid to reduce vascular and proliferative effects
+5. IGF Pathway Blockade: IGFBlockPep - Neutralizes IGF-II proliferative signals as borderline candidate in cyst pathophysiology
+6. Hormonal Equilibrium: EstroBalPep - Restores estrogen-progesterone balance to limit cyst formation under hormonal influence
+7. Mastalgia Inflammation Control: MastaReliefPep - Suppresses inflammatory cytokines in fibrocystic tissue
+8. Cyst Fluid Dynamics Regulation: FluidDynPep - Inhibits apocrine secretion mechanisms
+9. Stromal Fibrosis Reduction: FibroRemPep - Enhances matrix remodeling to resolve pericytic fibrosis around cysts
+10. Oxidative Stress Defense: AntiOxPep - Provides antioxidant protection to breast epithelial cells against oxidative damage
+11. Cytokine Network Suppression: CytoModPep - Downregulates IL-1/IL-6 pathways linked to aromatase induction and cyst maintenance
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Breast Cysts p01"
+"Loaded_Programs=Breast Cysts p02"
+"Loaded_Programs=Breast Cysts p03"
+"Loaded_Programs=Breast Cysts p04"
+"Loaded_Programs=Breast Cysts p05"
+"Loaded_Programs=Breast Cysts p06"
+"Loaded_Programs=Breast Cysts p07"
+"Loaded_Programs=Breast Cysts p08"
+"Loaded_Programs=Breast Cysts p09"
+"Loaded_Programs=Breast Cysts p10"
+"Loaded_Programs=Breast Cysts p11"
+"Loaded_Frequencies=M163.063=1,M103.009,M113.084,M137.059,M115.027,M57.021,M99.068,M103.009,M131.040,M163.063,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M113.084,M97.053,M71.037,M57.021,M57.021,M57.021,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M103.009,M115.027,M101.048,M71.037,M101.048,M103.009,M99.068,M101.048,M137.059,0=4,"
+"Loaded_Frequencies=M103.009=1,M87.032,M103.009,M87.032,M87.032,M113.084,M131.040,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M99.068,M115.027,M129.043,M103.009,M103.009,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M156.101,M128.095,M156.101,M156.101,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M128.058,M113.084,M156.101,M113.084,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M156.101,M57.021,M57.021,M156.101,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M87.032,M87.032,M87.032,M87.032,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,0=4,"
+"[/Preset]"

@@ -1,0 +1,55 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (C)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=C23 Co-infections D - DB"
+"Preset_Notes=M&L Protocol, Phase I-Terrain. Contact Mode.
+
+Update: September 2019.
+
+PROGRAMS: 
+Mycoplasma Fermentans Incognitus PROV
+Mycoplasma Fermentans Incognitus XTRA
+Mycoplasma Fermentans CAFL
+Pneumonia Walking CAFL
+Mycoplasma  Pneumonia BIO
+Mycoplasma Pneumoniae XTRA
+Mycoplasma Pulmonis 1 XTRA
+Mycoplasma Pulmonis 2 XTRA
+Mycoplasma Penetrans XTRA
+Mycoplasma Hominis 2 XTRA
+Mycoplasma Genitalium XTRA
+Mycoplasma Spermatophilum XTRA
+Your Scan Results CUST
+Detox 3 Toxins in the Kidneys and Liver PROV
+
+For a high power treatment, connect TENS cable to 'HIGH PWR CONTACT' port of Spooky Boost. For a lower power treatment, connect TENS cable to 'COLLOIDAL SILVER' port of Spooky Boost. If you don't have Spooky Boost, connect TENS cable to Out 1. Connect your Hand Cylinders/Tens Contact Kit item/TENS pads to TENS cable."
+"Loaded_Programs=Mycoplasma Fermentans Incognitus (PROV)"
+"Loaded_Programs=Mycoplasma Fermentans Incognitus (XTRA)"
+"Loaded_Programs=Mycoplasma Fermentans (CAFL)"
+"Loaded_Programs=Pneumonia Walking (CAFL)"
+"Loaded_Programs=Mycoplasma Pneumonia (BIO)"
+"Loaded_Programs=Mycoplasma Pneumoniae (XTRA)"
+"Loaded_Programs=Mycoplasma Pulmonis 1 (XTRA)"
+"Loaded_Programs=Mycoplasma Pulmonis 2 (XTRA)"
+"Loaded_Programs=Mycoplasma Penetrans (XTRA)"
+"Loaded_Programs=Mycoplasma Hominis 2 (XTRA)"
+"Loaded_Programs=Mycoplasma Genitalium (XTRA)"
+"Loaded_Programs=Mycoplasma Spermatophilum (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Programs=Detox 3 Toxins in the Kidneys and Liver (PROV)"
+"Loaded_Frequencies=254=180,484=180,610=180,644=180,660=180,690=180,706.7=180,727.5=180,790=180,864=180,878.2=180,880.2=180,986.2=180,2900=180,5044=1020,5355=600,"
+"Loaded_Frequencies=779.07=180,2688.3=180,"
+"Loaded_Frequencies=2900=180,864=180,790=180,690=180,610=180,484=180,986=180,644=180,254=180,"
+"Loaded_Frequencies=660=180,688=180,777=180,975=180,2688=180,"
+"Loaded_Frequencies=688=180,"
+"Loaded_Frequencies=2838.5=180,"
+"Loaded_Frequencies=75.09=180,150.3=180,300.5=180,601=180,2404=180,"
+"Loaded_Frequencies=38467=180,38464=180,38476=180,38451=180,"
+"Loaded_Frequencies=2174.3=180,"
+"Loaded_Frequencies=797.8=180,"
+"Loaded_Frequencies=790.8=180,"
+"Loaded_Frequencies=4305.9=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"Loaded_Frequencies=2.4=78,6.3=78,7.8=78,9.2=78,14=78,20=78,35=78,60=78,72=78,95=78,126=78,160=78,200=78,240=78,440=78,444=78,465=78,522=78,600=78,625=78,666=78,690=78,727=78,787=78,802=78,832=78,880=78,1500=78,1550=78,1865=78,2000=78,"
+"[/Preset]"

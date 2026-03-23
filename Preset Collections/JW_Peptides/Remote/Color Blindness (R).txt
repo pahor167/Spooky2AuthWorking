@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Color Blindness (R)"
+"Preset_Notes=Color Blindness for Remote
+
+Color blindness, also known as color vision deficiency (CVD), is a visual impairment characterized by difficulty or inability to distinguish certain colors, most commonly reds and greens, though blue-yellow deficiencies and complete achromatopsia also occur. It primarily arises from genetic mutations, often X-linked, affecting the opsin proteins in cone photoreceptors of the retina-specifically OPN1LW and OPN1MW genes for red-green CVD, leading to absent, reduced, or dysfunctional long- or medium-wavelength-sensitive cones. Symptoms include reduced color discrimination, confusion between specific hues, and in severe cases like achromatopsia, monochromatic vision with photophobia and poor acuity. Pathophysiology centers on altered spectral sensitivity of cones without necessarily causing degeneration in common forms, though cone dysfunction can lead to secondary stress.
+
+The proposed polypeptides are all conceptual designed sequences, flagged as designed throughout; no real-world polypeptides were identified with verifiable evidence for treating color blindness despite extensive searches. They target key therapeutic axes: cone photoreceptor neuroprotection and survival promotion, stabilization of mutant opsins, enhancement of phototransduction signaling, mitochondrial bioenergetic support, reduction of oxidative stress, improvement of cone-to-bipolar synaptic transmission, and amplification of residual color signals. These designed polypeptides incorporate non-standard amino acids for stability and specificity, with cyclic variants for enhanced resistance to degradation, aiming to conceptually support cone function and improve color perception feasibility through topical or intravitreal delivery considerations.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Color Blindness p01"
+"Loaded_Programs=Color Blindness p02"
+"Loaded_Programs=Color Blindness p03"
+"Loaded_Programs=Color Blindness p04"
+"Loaded_Programs=Color Blindness p05"
+"Loaded_Programs=Color Blindness p06"
+"Loaded_Programs=Color Blindness p07"
+"Loaded_Programs=Color Blindness p08"
+"Loaded_Programs=Color Blindness p09"
+"Loaded_Programs=Color Blindness p10"
+"Loaded_Programs=Color Blindness p11"
+"Loaded_Programs=Color Blindness p12"
+"Loaded_Programs=Color Blindness p13"
+"Loaded_Programs=Color Blindness p14"
+"Loaded_Programs=Color Blindness p15"
+"Loaded_Programs=Color Blindness p16"
+"Loaded_Programs=Color Blindness p17"
+"Loaded_Programs=Color Blindness p18"
+"Loaded_Frequencies=M102.001=1,M114.079,M128.095,M86.048,M113.048,M87.032,M101.048,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M113.048,M128.095,M57.021,M87.032,M101.048,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M87.032,M114.079,M101.048,M128.095,M86.048,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M128.095,M87.032,M113.048,M86.048,M57.021,M128.058,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M113.048,M114.079,M101.048,M57.021,M87.032,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M101.048,M128.058,M113.048,M128.095,M114.079,M86.048,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M170.106=1,M114.079,M86.048,M113.048,M87.032,M101.048,M57.021,M128.058,M127.111,0=4,"
+"Loaded_Frequencies=M129.043=1,M86.048,M114.079,M128.095,M113.048,M101.048,M128.058,M57.021,M86.048,0=4,"
+"Loaded_Frequencies=M99.032=1,M113.048,M101.048,M114.079,M87.032,M128.095,M86.048,M128.058,M56.037,0=4,"
+"Loaded_Frequencies=M170.069=1,M128.095,M57.021,M86.048,M101.048,M113.048,M114.079,M87.032,M127.074,0=4,"
+"Loaded_Frequencies=M143.059=1,M87.032,M128.058,M113.048,M128.095,M114.079,M86.048,M57.021,M100.064,0=4,"
+"Loaded_Frequencies=M156.090=1,M86.048,M113.048,M128.095,M87.032,M101.048,M57.021,M128.058,M113.095,0=4,"
+"Loaded_Frequencies=M128.059=1,M113.048,M114.079,M101.048,M57.021,M87.032,M128.095,M128.058,M85.064,0=4,"
+"Loaded_Frequencies=M155.059=1,M128.095,M86.048,M57.021,M128.058,M101.048,M87.032,M114.079,M112.064,0=4,"
+"Loaded_Frequencies=M127.064=1,M114.079,M86.048,M113.048,M128.095,M57.021,M87.032,M101.048,M84.069,0=4,"
+"Loaded_Frequencies=M170.106=1,M85.053,M113.048,M114.079,M86.048,M87.032,M101.048,M57.021,M127.111,0=4,"
+"Loaded_Frequencies=M129.043=1,M101.048,M57.021,M128.058,M85.053,M128.095,M114.079,M86.048,M86.048,0=4,"
+"Loaded_Frequencies=M99.032=1,M128.058,M128.095,M87.032,M101.048,M113.048,M86.048,M114.079,M56.037,0=4,"
+"[/Preset]"

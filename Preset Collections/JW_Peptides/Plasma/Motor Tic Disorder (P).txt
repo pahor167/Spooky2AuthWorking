@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Motor Tic Disorder (P)"
+"Preset_Notes=Motor Tic Disorder for Plasma
+
+Motor Tic Disorder is a neurodevelopmental condition characterized by the presence of sudden, rapid, recurrent, nonrhythmic motor movements known as tics, which can be simple (e.g., eye blinking, shoulder shrugging, head jerking) or complex (e.g., jumping, touching objects, gesturing). It is distinct from vocal tics and is often part of the spectrum including Tourette syndrome when combined with phonic tics, but here focusing on motor aspects. Causes are multifaceted, involving genetic predisposition (e.g., mutations in genes like SLITRK1 or histamine-related genes), environmental factors such as prenatal stressors, infections (e.g., streptococcal leading to immune responses), and neurochemical imbalances in neurotransmitters like dopamine, GABA, serotonin, and histamine within the cortico-striato-thalamo-cortical (CSTC) circuits. Symptoms typically emerge in childhood (ages 4-6), wax and wane, are exacerbated by stress, fatigue, or excitement, and can lead to social stigma, anxiety, impaired concentration, and physical discomfort from repetitive motions or premonitory urges (sensory phenomena preceding tics). Pathophysiology includes disinhibition in basal ganglia pathways, excessive phasic dopamine release reinforcing tic habits, reduced GABAergic interneurons causing cortical hyperexcitability, neuroinflammatory responses with elevated cytokines (e.g., IL-6, TNF-{alpha}), altered gut-brain axis via microbiome influencing neurotransmitter metabolism, heightened HPA axis reactivity to stress increasing dopamine, and disruptions in sensorimotor gating leading to involuntary movements. Comorbidities like ADHD, OCD, or anxiety often co-occur, complicating the clinical picture and requiring holistic management.
+
+The proposed polypeptides address these axes through targeted modulation to alleviate tics and restore balance. Real-world polypeptides like Dynorphin A and {beta}-Endorphin interact with opioid receptors to dampen dopaminergic hyperactivity in basal ganglia, reducing tic reinforcement; Met-enkephalin enhances inhibitory signaling to counter GABA deficits; Substance P regulates sensorimotor integration to lessen urge-driven tics; Neuropeptide Y modulates stress responses and serotonergic pathways for emotional regulation; Oxytocin promotes social calm and HPA axis normalization to mitigate stress-induced exacerbations; VIP supports gut-brain axis integrity and anti-inflammatory effects; Somatostatin inhibits excessive neuronal firing in CSTC circuits. Designed polypeptides (flagged as such) fill gaps: for histaminergic modulation, histidine-lysine repeats inhibit H3 receptors to prevent tic-like behaviors; for cannabinoid system, leucine-phenylalanine motifs mimic CB1 activation to suppress neurotransmitter release; for vitamin-related neuroprotection, aspartate-glutamate sequences enhance vitamin D-like anti-inflammatory actions; for cholinergic enhancement, serine-threonine patterns boost acetylcholine signaling; for additional neuroinflammation, asparagine-arginine designs scavenge cytokines; for serotonergic balance, proline-glutamine mimics serotonin receptor agonists; for GABA-glutamate equilibrium, tyrosine-phenylalanine promotes GABA release; for dopaminergic fine-tuning, valine-lysine inhibits D1 receptors; for stress/HPA, glutamate-glutamine reduces cortisol effects; for sensorimotor gating, arginine-serine improves circuit inhibition. Rationale is grounded in pathophysiology, with modes of action including receptor agonism/antagonism, enzyme modulation, and anti-inflammatory properties; feasibility includes short sequences for easy synthesis, potential PEGylation for stability, and delivery via nasal spray or injection for CNS access, with low toxicity based on natural analogs. Synergistic use could optimize outcomes without over-reliance on antipsychotics.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Motor Tic Disorder p01"
+"Loaded_Programs=Motor Tic Disorder p02"
+"Loaded_Programs=Motor Tic Disorder p03"
+"Loaded_Programs=Motor Tic Disorder p04"
+"Loaded_Programs=Motor Tic Disorder p05"
+"Loaded_Programs=Motor Tic Disorder p06"
+"Loaded_Programs=Motor Tic Disorder p07"
+"Loaded_Programs=Motor Tic Disorder p08"
+"Loaded_Programs=Motor Tic Disorder p09"
+"Loaded_Programs=Motor Tic Disorder p10"
+"Loaded_Programs=Motor Tic Disorder p11"
+"Loaded_Programs=Motor Tic Disorder p12"
+"Loaded_Programs=Motor Tic Disorder p13"
+"Loaded_Programs=Motor Tic Disorder p14"
+"Loaded_Programs=Motor Tic Disorder p15"
+"Loaded_Programs=Motor Tic Disorder p16"
+"Loaded_Programs=Motor Tic Disorder p17"
+"Loaded_Programs=Motor Tic Disorder p18"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M113.084,M156.101,M156.101,M113.084,M156.101,M97.053,M128.095,M113.084,M128.095,M186.079,M115.027,M114.043,M128.058,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.04,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.043,M97.053,M57.021,M129.043,M115.027,M71.037,M97.053,M71.037,M129.043,M115.027,M113.084,M71.037,M156.101,M163.063,M163.063,M87.032,M71.037,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M113.084,M101.048,M156.101,M128.058,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,M101.048,M87.032,M129.043,M128.095,M87.032,M128.058,M101.048,M97.053,M113.084,M99.068,M101.048,M113.084,M147.068,M128.095,M114.043,M71.037,M113.084,M113.084,M128.095,M114.043,M71.037,M163.063,M128.095,M128.095,M57.021,M129.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M137.059,M128.095,M137.059,M128.095,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M147.068,M113.084,M147.068,M113.084,M147.068,M113.084,M147.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.058,M97.053,M128.058,M97.053,M128.058,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M114.043=1,M156.101,M114.043,M156.101,M114.043,M156.101,M114.043,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M147.068,M163.063,M147.068,M163.063,M147.068,M163.063,M147.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.095,M99.068,M128.095,M99.068,M128.095,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.058,M129.043,M128.058,M129.043,M128.058,M129.043,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M87.032,M156.101,M87.032,M156.101,M87.032,M156.101,M87.032,0=4,"
+"[/Preset]"

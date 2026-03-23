@@ -1,0 +1,15 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=For Despondency or despair (P)"
+"Preset_Notes=For Despondency or despair / Spooky Plasma
+
+Estimated Time: Run this preset for 24:00 minutes.
+Larch - Lack of confidence. Pine - Helps when you feel guilt and self-reproach, often for other people's mistakes or just anything that goes wrong. You are never content with your effort and results. Elm - Overwhelmed by responsibility. Sweet Chestnut - Extreme mental anguish,when everything has been tried and there is no light left. Star of Bethlehem - Shock. Willow - Self-pity and resentment. Oak - The plodder who keeps going past the point of exhaustion. Crab Apple - The cleansing remedy, also for self-hatred.
+
+Connect Out 1 to Input. Connect Out 2 to Modulation.
+"
+"Loaded_Programs=For Despondency or despair (P)"
+"Loaded_Frequencies=336.52,280.93,463.13,421.51,276.57,264.74,318.03,359.21,"
+"[/Preset]"

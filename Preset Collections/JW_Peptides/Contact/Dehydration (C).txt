@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dehydration (C)"
+"Preset_Notes=Dehydration for Contact
+
+Dehydration occurs when body water losses exceed intake, disrupting fluid balance and causing hyperosmolality, hypovolemia, and impaired cellular function. Common causes include inadequate fluid consumption, excessive sweating, diarrhea, vomiting, polyuria (e.g., from diabetes insipidus), or environmental factors like heat exposure. Symptoms progress from mild (thirst, dry mouth, fatigue) to severe (tachycardia, hypotension, confusion, organ failure). Pathophysiology involves compensatory mechanisms such as RAAS activation, ADH release, and sympathetic stimulation to conserve water and maintain perfusion, but failure leads to electrolyte imbalances, reduced tissue perfusion, and potential shock.
+
+The proposed polypeptides provide adjunctive support for fluid restoration and protection. Vasopressin is a real-world nonapeptide hormone that acts on renal V2 receptors to insert aquaporin-2 channels, increasing water reabsorption and directly countering dehydrating water loss. The designed perfusion enhancer is a rationally engineered N-acetylated and C-amidated peptide with amphipathic properties derived from motifs promoting receptor interaction and stability, aimed at improving tissue perfusion during hypovolemia. The designed tissue hydrator is a head-to-tail cyclic peptide featuring Gly-Pro-Hyp repeats based on bioactive collagen hydrolysate motifs shown in studies to enhance moisture retention and structural integrity, supporting recovery from dehydration-induced tissue stress.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dehydration p01"
+"Loaded_Programs=Dehydration p02"
+"Loaded_Programs=Dehydration p03"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M170.106=1,M128.095,M113.084,M156.101,M128.058,M128.095,M113.084,M156.101,M163.063,M186.079,M128.095,M57.021,M156.101,M113.084,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,0=4,"
+"[/Preset]"

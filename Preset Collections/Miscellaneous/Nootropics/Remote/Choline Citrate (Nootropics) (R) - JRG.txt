@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Choline Citrate (Nootropics) (R) - JRG"
+"Loaded_Programs=Choline Citrate (CUST)"
+"Loaded_Frequencies=M501.32614,"
+"Preset_Notes=Like other sources of choline, Choline Citrate acts as a precursor to acetylcholine in the brain. This is a slightly more concentrated form of choline. It's a combination of choline and a derivative of citric acid.|Choline Citrate is effective as a nootropic when use in large enough doses. It assists in boosting memory and recall, cognitive abilities, helps concentration and even used to treat brain diseases such as Alzheimer's.|Athletes like choline citrate for its ability to assist in cellular and muscle health and repair.|Choline citrate is available in powder, capsule or pill form. And you'll find it as a main ingredient in many pre-formulated nootropic stacks. Since its water soluble you can take it with water, or mixed with your favorite juice.|Dosage can be from 500 mg. to 3 grams per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

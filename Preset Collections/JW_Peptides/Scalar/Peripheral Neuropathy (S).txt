@@ -1,0 +1,57 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Peripheral Neuropathy (S)"
+"Preset_Notes=Peripheral Neuropathy for Scalar
+
+Peripheral neuropathy involves damage to peripheral nerves, causing chronic pain, sensory deficits, motor impairment, and autonomic issues, often from diabetes, chemotherapy, trauma, or inflammation. Proposed peptides target evidence-based axes including incretin signaling for metabolic neuroprotection, neuropeptide analgesia, neurotrophic support, anxiolysis, sleep restoration, antioxidant defense, mitochondrial regulation, peptide normalization, microtubule stabilization, and adhesion-promoted regeneration.
+
+1. GLP-1 receptor agonism: Exenatide - Degradation-resistant GLP-1 mimic alleviating neuropathic pain and improving nerve conduction
+2. Amylin receptor agonism: Pramlintide - Amylin analog supporting glycemic control and reducing diabetic neuropathy progression
+3. Cortistatin signaling: Cortistatin - Neuropeptide with anti-inflammatory and analgesic effects in peripheral nerve injury models
+4. Neuroregulatory protection: Semax - ACTH(4-10) analog enhancing neurotrophins and nerve repair
+5. Anxiolytic modulation: Selank - Tuftsin analog reducing anxiety and stress amplification of neuropathic pain
+6. Delta sleep induction: DSIP - Promotes deep sleep to aid recovery from pain-disrupted sleep cycles
+7. Antioxidant defense: Carnosine - Dipeptide scavenging reactive oxygen species to protect nerve tissues
+8. Mitochondrial regulation: MOTS-c - Mitochondrial-derived peptide improving energy homeostasis in damaged nerves
+9. Peptide normalization: Pinealon - Tripeptide restoring brain and peripheral nerve peptide balance
+10. Microtubule stabilization: NAP-8 - Designed NAPVSIPQ peptide stabilizing tubulin and promoting axonal regeneration
+11. Laminin-mimetic regeneration: LaminReg-1 - Designed IKVAV peptide enhancing Schwann cell adhesion and axon guidance
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Peripheral Neuropathy p01"
+"Loaded_Programs=Peripheral Neuropathy p02"
+"Loaded_Programs=Peripheral Neuropathy p03"
+"Loaded_Programs=Peripheral Neuropathy p04"
+"Loaded_Programs=Peripheral Neuropathy p05"
+"Loaded_Programs=Peripheral Neuropathy p06"
+"Loaded_Programs=Peripheral Neuropathy p07"
+"Loaded_Programs=Peripheral Neuropathy p08"
+"Loaded_Programs=Peripheral Neuropathy p09"
+"Loaded_Programs=Peripheral Neuropathy p10"
+"Loaded_Programs=Peripheral Neuropathy p11"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M102.001,M114.043,M101.048,M71.037,M101.048,M102.001,M71.037,M101.048,M128.058,M156.101,M113.084,M71.037,M114.043,M147.068,M113.084,M99.068,M137.059,M87.032,M87.032,M114.043,M97.053,M97.053,M97.053,M101.048,M163.063,M113.084,M97.053,M87.032,M101.048,M163.063,M114.043,M99.068,M57.021,M101.048,M162.079,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M99.068,M71.037,M99.068,0=4,"
+"[/Preset]"

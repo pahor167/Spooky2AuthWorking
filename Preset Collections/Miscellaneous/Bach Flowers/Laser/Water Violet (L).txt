@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=Water Violet (L)"
+"Preset_Notes=Water Violet / Spooky Laser
+
+Estimated Time: Run this preset for 3:00 minutes.
+Water Violet - Quiet self-reliance leading to isolation.
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Water Violet (L)"
+"Loaded_Frequencies=370.22,"
+"[/Preset]"

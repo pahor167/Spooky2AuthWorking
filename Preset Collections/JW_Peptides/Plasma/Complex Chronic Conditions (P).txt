@@ -1,0 +1,68 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Complex Chronic Conditions (P)"
+"Preset_Notes=Complex Chronic Conditions for Plasma
+
+Complex chronic conditions including heart problems (bradycardia, pericarditis), autoimmune diseases (MS, lupus, arthritis, OA), muscle weakness, multiple cancers, severe leg and joint pain, daily headaches, poor circulation and phlebitis, high cholesterol, type 2 diabetes, food allergies and difficult digestion, severe obesity with uncontrollable appetite, anxiety and depression.
+
+1. Cardiovascular protection and inflammation reduction: Cortistatin reduces inflammation and protects cardiac tissue in models of heart disease.
+2. Cardiac repair and regeneration: Thymosin beta 4 promotes myocardial regeneration and tissue repair in heart failure models.
+3. Vascular function enhancement: VIP improves vasodilation and vascular function, supporting circulation.
+4. Immunomodulation for autoimmune conditions: Thymosin alpha 1 enhances immune regulation and tolerance in autoimmune diseases.
+5. Neuroprotection and myelin repair: Humanin provides neuroprotection and reduces apoptosis in neurological conditions.
+6. Joint cartilage repair: HGH Fragment 176-191 supports cartilage regeneration and joint health in osteoarthritis.
+7. Muscle regeneration and anti-sarcopenia: MGF enhances muscle repair and prevents wasting in sarcopenia models.
+8. Anti-cancer immunotherapy: Magainin 2 induces anti-tumor effects through membrane disruption in cancer cells.
+9. Pain modulation: ARA-290 alleviates neuropathic and chronic pain by reducing inflammation.
+10. Migraine prevention via CGRP modulation: CGRP antagonizes CGRP receptors to prevent headaches.
+11. Circulation improvement and anti-phlebitis: ANP enhances blood flow and reduces vascular inflammation.
+12. Cholesterol lowering: GHRP-2 improves lipid profiles and reduces cholesterol in dyslipidemia models.
+13. Glucose regulation for T2D: Liraglutide enhances insulin sensitivity and glucose control in diabetes.
+14. Allergy immune tolerance: KPV modulates immune responses to reduce allergic reactions.
+15. Gut health and digestion improvement: Glutathione supports gut barrier integrity and reduces oxidative stress in digestive disorders.
+16. Appetite suppression for obesity: Tirzepatide regulates appetite and promotes weight loss through multi-hormone mimicry.
+17. Mood enhancement for anxiety/depression: Selank reduces anxiety and improves mood via neurotransmitter modulation.
+18. Novel optimization (engineered axis): MultiRepair-Eng, an engineered peptide fusing motifs from TB-500 and BPC-157, optimizes multi-system repair for combined autoimmune, muscle, and pain benefits.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Complex Chronic Conditions p01"
+"Loaded_Programs=Complex Chronic Conditions p02"
+"Loaded_Programs=Complex Chronic Conditions p03"
+"Loaded_Programs=Complex Chronic Conditions p04"
+"Loaded_Programs=Complex Chronic Conditions p05"
+"Loaded_Programs=Complex Chronic Conditions p06"
+"Loaded_Programs=Complex Chronic Conditions p07"
+"Loaded_Programs=Complex Chronic Conditions p08"
+"Loaded_Programs=Complex Chronic Conditions p09"
+"Loaded_Programs=Complex Chronic Conditions p10"
+"Loaded_Programs=Complex Chronic Conditions p11"
+"Loaded_Programs=Complex Chronic Conditions p12"
+"Loaded_Programs=Complex Chronic Conditions p13"
+"Loaded_Programs=Complex Chronic Conditions p14"
+"Loaded_Programs=Complex Chronic Conditions p15"
+"Loaded_Programs=Complex Chronic Conditions p16"
+"Loaded_Programs=Complex Chronic Conditions p17"
+"Loaded_Programs=Complex Chronic Conditions p18"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M156.101,M113.084,M99.068,M128.058,M103.009,M156.101,M87.032,M99.068,M129.043,M57.021,M87.032,M103.009,M57.021,M147.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M129.043,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M101.048,M57.021,M163.063,M57.021,M147.068,M128.058,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M205.074,M71.037,M186.079,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M113.084,M85.053,M113.084,M115.027,M128.095,M113.084,M128.058,M85.053,M71.037,M147.068,M99.068,M128.058,M186.079,M113.084,M113.084,M57.021,M97.053,M97.053,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M128.095,M113.084,M97.053,M113.084,M128.095,M97.053,M113.084,M57.021,M57.021,M128.095,M97.053,M113.084,M113.084,M57.021,M57.021,M128.095,M113.084,M113.084,0=4,"
+"[/Preset]"

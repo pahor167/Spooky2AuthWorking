@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Age/Liver Spots (L)"
+"Preset_Notes=Age/Liver Spots for Laser
+
+Age spots, also known as liver spots, are benign hyperpigmented macules resulting from chronic UV exposure, oxidative stress, and increased melanin deposition in the epidermis. Mechanistic rationale: Peptides address key axes including tyrosinase inhibition to block melanogenesis, antioxidant activity to neutralize free radicals, anti-inflammatory effects to mitigate UV-induced damage, and stimulation of collagen and cell turnover for skin rejuvenation and spot fading. The set covers all aspects with real-world peptides prioritized for the first 10, focusing on validated tyrosinase inhibitors; supplemented by two designed peptides (flagged as designed) for enhanced antioxidant and extracellular matrix support.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Age/Liver Spots p01"
+"Loaded_Programs=Age/Liver Spots p02"
+"Loaded_Programs=Age/Liver Spots p03"
+"Loaded_Programs=Age/Liver Spots p04"
+"Loaded_Programs=Age/Liver Spots p05"
+"Loaded_Programs=Age/Liver Spots p06"
+"Loaded_Programs=Age/Liver Spots p07"
+"Loaded_Programs=Age/Liver Spots p08"
+"Loaded_Programs=Age/Liver Spots p09"
+"Loaded_Programs=Age/Liver Spots p10"
+"Loaded_Programs=Age/Liver Spots p11"
+"Loaded_Programs=Age/Liver Spots p12"
+"Loaded_Frequencies=M97.053=1,M128.095,M129.043,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M57.021,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,M163.063,M147.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M71.037,M97.053,M97.053,M129.043,M156.101,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M99.068=1,M115.027,M57.021,M163.063,M97.053,M71.037,M71.037,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M147.068=1,M97.053,M163.063,0=4,"
+"Loaded_Frequencies=M103.009=1,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M198.112=1,M87.032,M156.101,M147.068,M128.095,0=4,"
+"Loaded_Frequencies=M170.106=1,M87.032,M156.101,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M170.106=1,M87.032,M87.032,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M57.021,M128.058,M97.053,M102.001,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M156.101,M57.021,M115.027,0=4,"
+"[/Preset]"

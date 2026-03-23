@@ -1,0 +1,14 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Exam Remedy Mix (S)"
+"Preset_Notes=Exam Remedy Mix / Spooky Scalar
+
+Estimated Time: Run this preset for 15:00 minutes.
+
+Exam Remedy: Gentian, Elm, Clematis, Larch & White Chestnut - to keep the student on track in the exam
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Exam Remedy Mix (S)"
+"Loaded_Frequencies=265.67,463.13,415.26,336.52,247.09,"
+"[/Preset]"

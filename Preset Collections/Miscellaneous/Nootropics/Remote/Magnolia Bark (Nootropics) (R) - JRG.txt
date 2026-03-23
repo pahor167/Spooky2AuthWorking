@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Magnolia Bark (Nootropics) (R) - JRG"
+"Loaded_Programs=Magnolia Bark (CUST)"
+"Loaded_Frequencies=M266.13068,"
+"Preset_Notes=Magnolia Bark (Magnolia officinalis) comes from the Magnolia tree originally found in Southeast Asia, Eastern North America, Central America, and the Himalayas.|Magnolia Bark has been used in Traditional Chinese Medicine since the Qin and Han Dynasty (221 B.C. to 220 A.D) for treating anxiety, asthma, depression, gastrointestinal disorders, headache, and more.|As a nootropic, honokiol which is one of the main active compounds found in Magnolia Bark has been shown in clinical studies to be as effective for anxiety as Valium (diazepam).|Neurohackers report that using Magnolia Bark as a sleep supplement helps them fall asleep faster and stay asleep throughout the night.|Manufacturers of Magnolia Bark extract generally recommend a nootropic dosage of up to 500 mg per day. Effective dosage depends on the strength of the extract.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

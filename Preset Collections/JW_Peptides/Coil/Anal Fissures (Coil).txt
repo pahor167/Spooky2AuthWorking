@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Anal Fissures (Coil)"
+"Preset_Notes=Anal Fissures for Coil
+
+Anal fissures are painful linear tears in the anoderm, often becoming chronic due to internal anal sphincter hypertonia, local ischemia, persistent inflammation, secondary infection risk, and impaired mucosal healing from repeated trauma. Proposed polypeptides target evidence-based axes from rectal/anal wound healing studies (particularly BPC-157 efficacy in fistula and defect closure), inflammation modulation, antimicrobial defense, and regenerative repair to promote rapid epithelialization, reduce pain/inflammation, prevent complications, and support durable recovery.
+
+1. Stable gastric pentadecapeptide-mediated mucosal healing: BPC-157 rapidly closes anal/rectal defects and fistulas in preclinical models.
+2. Acetylated Thymosin {beta}4 fragment-enhanced re-epithelialization: TB-500 accelerates cell migration and wound closure.
+3. Copper-binding tripeptide regenerative stimulation: GHK-Cu promotes growth factors, antioxidants, and tissue remodeling.
+4. {alpha}-MSH-derived tripeptide anti-inflammatory effects: KPV suppresses cytokines to alleviate local inflammation and pain.
+5. Human cathelicidin antimicrobial protection: LL-37 prevents secondary bacterial infections.
+6. EPO-mimetic innate repair activation: ARA-290 supports tissue protection and reduces inflammation.
+7. Engineered collagen-mimetic structural optimization: Ac-(GPP)7-NH2 reinforces healing tissue and enhances tensile strength.
+
+"
+"Loaded_Programs=Anal Fissures p01"
+"Loaded_Programs=Anal Fissures p02"
+"Loaded_Programs=Anal Fissures p03"
+"Loaded_Programs=Anal Fissures p04"
+"Loaded_Programs=Anal Fissures p05"
+"Loaded_Programs=Anal Fissures p06"
+"Loaded_Programs=Anal Fissures p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Powassan Virus Disease (R)"
+"Preset_Notes=Powassan Virus Disease for Remote
+
+Powassan Virus Disease is a rare but severe tick-borne flavivirus infection transmitted primarily by Ixodes ticks in North America and other regions. The majority of infections are asymptomatic, but symptomatic cases present with fever, headache, vomiting, weakness, and confusion, progressing in severe cases to meningoencephalitis, seizures, and coma. Pathophysiology involves viral replication at the bite site, viremia, breach of the blood-brain barrier, and intense neuroinflammation causing neuronal injury. Approximately 50% of survivors suffer permanent neurologic sequelae (memory problems, paralysis), with a case fatality rate of ~10-15%. No specific antiviral therapy or vaccine exists; treatment is supportive (IV fluids, respiratory support, seizure management, reduced intracranial pressure).
+
+The proposed polypeptides address all identified therapeutic axes through a prioritized real-first approach. Real-world polypeptides (CP2, CP20, CP23, LP16) derived from phage display against related tick-borne encephalitis virus E protein domain III provide direct entry blockade, with demonstrated neutralization of live virus and applicability to POWV due to conserved flavivirus envelope structures. Designed polypeptides supplement coverage for fusion inhibition, replication/protease disruption, immune enhancement, and neuroprotection using novel short sequences with non-standard residues and cyclic scaffolds for stability/specificity (all designed flagged here for clarity).
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Powassan Virus Disease p01"
+"Loaded_Programs=Powassan Virus Disease p02"
+"Loaded_Programs=Powassan Virus Disease p03"
+"Loaded_Programs=Powassan Virus Disease p04"
+"Loaded_Programs=Powassan Virus Disease p05"
+"Loaded_Programs=Powassan Virus Disease p06"
+"Loaded_Programs=Powassan Virus Disease p07"
+"Loaded_Programs=Powassan Virus Disease p08"
+"Loaded_Programs=Powassan Virus Disease p09"
+"Loaded_Programs=Powassan Virus Disease p10"
+"Loaded_Programs=Powassan Virus Disease p11"
+"Loaded_Programs=Powassan Virus Disease p12"
+"Loaded_Programs=Powassan Virus Disease p13"
+"Loaded_Programs=Powassan Virus Disease p14"
+"Loaded_Programs=Powassan Virus Disease p15"
+"Loaded_Programs=Powassan Virus Disease p16"
+"Loaded_Programs=Powassan Virus Disease p17"
+"Loaded_Programs=Powassan Virus Disease p18"
+"Loaded_Frequencies=M102.001=1,M114.043,M87.032,M87.032,M128.095,M113.084,M137.059,M131.040,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M115.027,M57.021,M156.101,M97.053,M115.027,M156.101,M71.037,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M131.040,M128.095,M129.043,M87.032,M113.084,M156.101,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M71.037=1,M147.068,M137.059,M97.053,M156.101,M128.058,M131.040,M129.043,M101.048,M128.058,M131.040,M163.063,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M113.048,M150.954,M113.084,M237.148,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M150.954,M113.048,M85.053,M237.148,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M147.068,M114.079,M163.063,M86.048,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M186.079,M86.048,M114.079,M113.048,M237.148,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M156.101,M113.048,M128.095,M114.079,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M128.059=1,M114.079,M113.048,M150.954,M86.048,M237.148,M114.079,M113.095,0=4,"
+"Loaded_Frequencies=M156.090=1,M86.048,M113.084,M113.048,M114.079,M237.148,M85.064,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M150.954,M86.048,M113.048,M237.148,M102.001,M85.053,0=4,"
+"Loaded_Frequencies=M128.059=1,M150.954,M86.048,M114.079,M113.048,M85.064,M237.148,M113.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M237.148,M114.079,M86.048,M113.048,M150.954,M102.001,M113.084,0=4,"
+"Loaded_Frequencies=M156.090=1,M113.048,M86.048,M150.954,M114.079,M237.148,M85.064,M113.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M85.053,M114.079,M237.148,M113.048,M86.048,M102.001,M150.954,0=4,"
+"Loaded_Frequencies=M128.059=1,M237.148,M86.048,M113.048,M114.079,M85.064,M150.954,M113.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M86.048,M114.079,M237.148,M150.954,M102.001,M85.053,0=4,"
+"[/Preset]"

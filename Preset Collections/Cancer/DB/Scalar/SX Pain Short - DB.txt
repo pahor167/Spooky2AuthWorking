@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=SX Pain Short - DB"
+"Preset_Notes=Cancer Protocol, Extras. Spooky Scalar.
+
+Update: March 2020.
+
+This preset runs continuously, and beeps at the end of each loop. Run this preset for at least 1 loop.
+
+This preset addresses cancer pain. Use as required, and repeat after four hours if necessary.
+
+IMPORTANT: Use ALL Detox (R) - DB on another generator while running this.
+
+PROGRAM: START STEPS
+Endorphin Release XTRA:
+Cancer Pain CAFL
+Endorphin Release XTRA:
+Cancer Pain XTRA
+Endorphin Release XTRA
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost."
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Cancer Pain (CAFL)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Cancer Pain (XTRA)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=3000=180,95=180,2127=180,2008=180,727=180,690=180,666=180,"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=95=180,660=180,690=180,727.5=180,2008=180,2127.5=180,2720=180,3000=180,10000=180,"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

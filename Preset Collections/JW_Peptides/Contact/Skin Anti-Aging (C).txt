@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Skin Anti-Aging (C)"
+"Preset_Notes=Skin Anti-Aging for Contact
+
+Advanced dermatological intervention strategy for 2026 utilizing multi-pathway peptide signaling to reverse structural degradation and neurogenic expression lines. 1. Neurotransmitter Inhibitor: Argireline - SNARE complex destabilization to reduce expression lines. 2. Signal Peptide: Matrixyl - Stimulates collagen I, III, and IV synthesis. 3. Carrier Peptide: GHK-Cu - Copper transport for wound healing and enzymatic antioxidant support. 4. Enzyme Inhibitor: Progeline - Inhibits progerin synthesis to improve jawline contour. 5. Anti-inflammatory: Rigin - Downregulates IL-6 to prevent saccharification and sagging. 6. ECM Reorganizer: Dermacell-26 - Hybrid collagen-fibronectin mimetic for rapid dermal density recovery.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Skin Anti-Aging p01"
+"Loaded_Programs=Skin Anti-Aging p02"
+"Loaded_Programs=Skin Anti-Aging p03"
+"Loaded_Programs=Skin Anti-Aging p04"
+"Loaded_Programs=Skin Anti-Aging p05"
+"Loaded_Programs=Skin Anti-Aging p06"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M366.325=1,M101.048,M101.048,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M196.053=1,M163.063,M99.068,0=4,"
+"Loaded_Frequencies=M335.251=1,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M394.331=1,M113.084,M163.063,M128.095,M86.048,0=4,"
+"[/Preset]"

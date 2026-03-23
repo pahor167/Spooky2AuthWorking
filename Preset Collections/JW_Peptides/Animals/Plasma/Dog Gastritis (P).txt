@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Dog Gastritis (P)"
+"Preset_Notes=Dog Gastritis for Plasma
+
+Dog gastritis is an inflammation of the stomach lining in canines, often caused by dietary indiscretion, ingestion of irritants or toxins, infections (bacterial like Helicobacter or viral), parasites, stress, medications such as NSAIDs, or underlying conditions like allergies or endocrine disorders. Symptoms include vomiting, loss of appetite, abdominal pain, diarrhea, lethargy, and dehydration. Pathophysiology involves disruption of the gastric mucosal barrier, leading to acid damage, increased permeability, and potential ulceration or bleeding. Proposed polypeptides address this through multiple mechanisms: anti-inflammatory actions to reduce mucosal swelling, antimicrobial effects to combat infectious causes, gastroprotective properties to enhance mucus production and barrier integrity, and modulation of gastric motility or acid secretion. For instance, real-world polypeptides like gastrin-releasing peptide analogs may regulate acid but are supplemented here with designed ones for broader coverage. Designed polypeptides, flagged as such, are conceptual and aim at specific targets like cytokine inhibition or epithelial repair without established clinical use in dogs.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Dog Gastritis p01"
+"Loaded_Programs=Dog Gastritis p02"
+"Loaded_Programs=Dog Gastritis p03"
+"Loaded_Programs=Dog Gastritis p04"
+"Loaded_Programs=Dog Gastritis p05"
+"Loaded_Programs=Dog Gastritis p06"
+"Loaded_Programs=Dog Gastritis p07"
+"Loaded_Programs=Dog Gastritis p08"
+"Loaded_Programs=Dog Gastritis p09"
+"Loaded_Programs=Dog Gastritis p10"
+"Loaded_Frequencies=M57.021=1,M71.037,M57.021,M97.053,M128.058,M71.037,M57.021,M71.037,M71.037,M99.068,M87.032,M128.095,M129.043,M99.068,M99.068,M113.084,M99.068,M87.032,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M87.032,M71.037,M71.037,M99.068,M87.032,M128.095,M129.043,M99.068,M99.068,M113.084,M99.068,M87.032,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M99.068,M87.032,M99.068,M99.068,M99.068,M87.032,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M87.032,M99.068,M99.068,M99.068,M87.032,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M87.032,M99.068,M99.068,M99.068,M87.032,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M87.032,M99.068,M99.068,M99.068,M87.032,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M87.032,M99.068,M99.068,M99.068,M87.032,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M87.032,M99.068,M99.068,M99.068,M87.032,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M87.032,M99.068,M99.068,M99.068,M87.032,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M87.032,M99.068,M99.068,M99.068,M87.032,M99.068,M99.068,0=4,"
+"[/Preset]"

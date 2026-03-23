@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Whipple’s Disease (C)"
+"Preset_Notes=Whipple’s Disease for Contact
+
+Whipple's Disease is a rare systemic infectious disease caused by the bacterium Tropheryma whipplei, primarily affecting the small intestine but capable of involving multiple organs including joints, central nervous system, heart, and lungs. Causes include genetic susceptibility such as IRF4 haploinsufficiency leading to impaired immune responses, environmental exposure to the ubiquitous soil-dwelling actinobacterium, and host factors like defective macrophage phagocytosis and reduced antimicrobial peptide expression that allow bacterial survival and dissemination. Symptoms often present insidiously with chronic diarrhea, malabsorption leading to weight loss and nutritional deficiencies (e.g., anemia, hypoproteinemia), migratory arthralgias or arthritis, abdominal pain, fever, lymphadenopathy, and in advanced cases, neurological manifestations such as cognitive decline, seizures, oculomasticatory myorhythmia, or psychiatric symptoms, as well as cardiac involvement like endocarditis or pulmonary hypertension. Pathophysiology centers on T. whipplei infecting macrophages, resulting in foamy PAS-positive inclusions, villous atrophy and lymphangiectasia in the duodenum causing malabsorption, increased intestinal permeability facilitating bacterial translocation, chronic inflammation via persistent antigen stimulation, and multisystem granulomatous reactions due to ineffective Th1-mediated clearance and dendritic cell dysfunction.
+The proposed polypeptides address Whipple's Disease through antimicrobial, immune-modulatory, vaccine, anti-inflammatory, barrier restoration, and complication management mechanisms. LL-37, a cathelicidin antimicrobial peptide, disrupts bacterial membranes and modulates innate immunity to target T. whipplei persistence in macrophages. Human beta-defensin 1 and Human beta-defensin 2 provide epithelial antimicrobial defense, reducing bacterial load and supporting mucosal integrity. Human alpha-defensin 1 enhances intracellular bacterial killing within neutrophils and macrophages. The vaccine epitopes MPSRGANGS, SGKTNQTQG, TGSGKTNQT, and GGKDYSQQI are B-cell derived T-cell epitopes designed to bind MHC-I and stimulate adaptive immune responses against T. whipplei antigens for prophylactic or therapeutic vaccination. The designed polypeptides supplement these: Designed peptide D1 inhibits proinflammatory cytokines to alleviate arthralgias and systemic inflammation; Designed peptide D2 promotes tight junction assembly to restore intestinal barrier function and prevent translocation; Designed peptide D3 mimics neurotrophic factors to protect against CNS involvement and neurological damage; Designed peptide D4 activates macrophage pathways to improve phagocytosis and bacterial degradation.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Whipple’s Disease p01"
+"Loaded_Programs=Whipple’s Disease p02"
+"Loaded_Programs=Whipple’s Disease p03"
+"Loaded_Programs=Whipple’s Disease p04"
+"Loaded_Programs=Whipple’s Disease p05"
+"Loaded_Programs=Whipple’s Disease p06"
+"Loaded_Programs=Whipple’s Disease p07"
+"Loaded_Programs=Whipple’s Disease p08"
+"Loaded_Programs=Whipple’s Disease p09"
+"Loaded_Programs=Whipple’s Disease p10"
+"Loaded_Programs=Whipple’s Disease p11"
+"Loaded_Programs=Whipple’s Disease p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M163.063,M114.043,M103.009,M99.068,M87.032,M87.032,M57.021,M57.021,M128.058,M103.009,M113.084,M163.063,M87.032,M71.037,M103.009,M97.053,M113.084,M147.068,M101.048,M128.095,M113.084,M128.058,M57.021,M101.048,M103.009,M163.063,M156.101,M57.021,M128.095,M71.037,M128.095,M103.009,M103.009,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M103.009,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M103.009,M137.059,M97.053,M99.068,M147.068,M103.009,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M103.009,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M103.009,M103.009,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M103.009,M163.063,M103.009,M156.101,M113.084,M97.053,M71.037,M103.009,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M103.009,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M103.009,M103.009,0=4,"
+"Loaded_Frequencies=M131.040=1,M97.053,M87.032,M156.101,M57.021,M71.037,M114.043,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M57.021,M128.095,M101.048,M114.043,M128.058,M101.048,M128.058,M57.021,0=4,"
+"Loaded_Frequencies=M101.048=1,M57.021,M87.032,M57.021,M128.095,M101.048,M114.043,M128.058,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M128.095,M115.027,M163.063,M87.032,M128.058,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M128.058=1,M186.079,M129.043,M71.037,M87.032,M115.027,M128.095,M113.084,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M101.048,M156.101,M97.053,M113.084,M128.095,M131.040,M114.043,M128.058,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M115.027,M87.032,M71.037,M97.053,M128.095,M137.059,M113.084,M129.043,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.095,M113.084,M131.040,M156.101,M128.058,M97.053,M163.063,M101.048,M114.043,0=4,"
+"[/Preset]"

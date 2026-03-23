@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Cardiac Amyloidosis (P)"
+"Preset_Notes=Cardiac Amyloidosis for Plasma
+
+Cardiac amyloidosis is a restrictive infiltrative cardiomyopathy caused by extracellular deposition of misfolded protein fibrils in the myocardium, leading to thickened ventricular walls, diastolic dysfunction, impaired relaxation, atrial enlargement, arrhythmias, conduction disturbances, and progressive heart failure. Symptoms include exertional dyspnea, peripheral edema, fatigue, orthostatic hypotension, and syncope, with poor prognosis if untreated due to high mortality from heart failure or sudden death. The two primary forms are immunoglobulin light-chain (AL) amyloidosis, stemming from plasma cell dyscrasia producing excess monoclonal light chains that misfold, and transthyretin (ATTR) amyloidosis, arising from dissociation of the transthyretin tetramer into monomers that aggregate, either in wild-type (age-related) or variant (hereditary) forms. Pathophysiology involves proteotoxic stress from soluble oligomers, mechanical disruption of tissue architecture by insoluble fibrils, oxidative stress, inflammation, endothelial dysfunction, and direct cytotoxicity to cardiomyocytes. All proposed polypeptides are designed conceptual short sequences using standard amino acids without PTMs. They address key mechanisms by binding amyloid structures to inhibit fibril formation or extension, disrupting stacking interactions to destabilize aggregates, electrostatically targeting fibrils for immune clearance, and neutralizing oligomeric toxicity to mitigate cellular damage, offering potential multi-modal interference across AL and ATTR types to slow progression, improve cardiac function, and enhance organ response.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Cardiac Amyloidosis p01"
+"Loaded_Programs=Cardiac Amyloidosis p02"
+"Loaded_Programs=Cardiac Amyloidosis p03"
+"Loaded_Programs=Cardiac Amyloidosis p04"
+"Loaded_Frequencies=M128.095=1,M113.084,M99.068,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M128.095,M156.101,M156.101,M156.101,M128.095,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M186.079,M163.063,M186.079,M163.063,M186.079,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.095,M115.027,M128.095,M115.027,M128.095,M115.027,M128.095,M115.027,0=4,"
+"[/Preset]"

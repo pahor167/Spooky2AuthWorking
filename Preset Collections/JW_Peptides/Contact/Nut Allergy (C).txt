@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Nut Allergy (C)"
+"Preset_Notes=Nut Allergy for Contact
+
+Nut allergy is an immune-mediated hypersensitivity reaction triggered by proteins in nuts like peanuts and tree nuts, involving IgE antibodies that bind allergens, leading to mast cell degranulation, inflammation, and symptoms ranging from hives to life-threatening anaphylaxis. 
+
+The peptides address therapeutic axes including IgE inhibition by competing with allergen epitopes, immunomodulation via T-cell targeting for long-term desensitization, basophil and mast cell stabilization to prevent mediator release, anti-inflammatory effects to reduce tissue damage, and barrier enhancement to limit sensitization; the first 10 are real-world IgE-binding epitopes from the major peanut allergen Ara h 2, validated for diagnostic and therapeutic potential in blocking allergic responses; peptides 11 and 12 are designed to cover mast cell stabilization and anti-inflammatory axes with enhanced specificity.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Nut Allergy p01"
+"Loaded_Programs=Nut Allergy p02"
+"Loaded_Programs=Nut Allergy p03"
+"Loaded_Programs=Nut Allergy p04"
+"Loaded_Programs=Nut Allergy p05"
+"Loaded_Programs=Nut Allergy p06"
+"Loaded_Programs=Nut Allergy p07"
+"Loaded_Programs=Nut Allergy p08"
+"Loaded_Programs=Nut Allergy p09"
+"Loaded_Programs=Nut Allergy p10"
+"Loaded_Programs=Nut Allergy p11"
+"Loaded_Programs=Nut Allergy p12"
+"Loaded_Frequencies=M137.059=1,M71.037,M87.032,M71.037,M156.101,M128.058,M128.058,M186.079,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M128.058=1,M186.079,M129.043,M113.084,M128.058,M57.021,M115.027,M156.101,M156.101,M103.009,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M156.101,M103.009,M128.058,M87.032,M128.058,M113.084,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M128.058=1,M113.084,M129.043,M156.101,M71.037,M114.043,M113.084,M156.101,M97.053,M103.009,0=4,"
+"Loaded_Frequencies=M71.037=1,M114.043,M113.084,M156.101,M97.053,M103.009,M129.043,M128.058,M137.059,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M128.058,M128.095,M113.084,M128.058,M156.101,M115.027,M129.043,M115.027,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M163.063,M129.043,M156.101,M115.027,M97.053,M163.063,M87.032,M97.053,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M87.032,M128.058,M115.027,M97.053,M163.063,M87.032,M97.053,M87.032,0=4,"
+"Loaded_Frequencies=M128.058=1,M128.058,M128.058,M128.058,M147.068,M128.095,M156.101,M129.043,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M115.027,M97.053,M163.063,M87.032,M97.053,M87.032,M97.053,M163.063,M115.027,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M113.048,M102.001,M200.095,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M237.148=1,M100.064,M113.084,M128.095,M85.053,M758.675,0=4,"
+"[/Preset]"

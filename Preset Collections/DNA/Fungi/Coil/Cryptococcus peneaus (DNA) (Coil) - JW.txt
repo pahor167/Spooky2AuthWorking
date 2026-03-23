@@ -1,0 +1,8 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Coil\Spooky Coil (Generator Direct) - JW"
+"PresetName=Cryptococcus peneaus (DNA) (Coil) - JW"
+"Remove_Duplicate_Frequencies_Tolerance=0"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||Spooky Coil can be connected directly to the generator. For more power, use the High Power port of Spooky Boost. The side marked 'BN' should be placed against your skin.||This preset contains the following strains:||Cryptococcus peneaus gene for ITS1, 5.8S rRNA, ITS2, strain:CBS 2409"
+"Loaded_Programs=Cryptococcus peneaus (DNA) (Coil) - JW (CUST)"
+"Loaded_Frequencies=~5101BL730,"
+"[/Preset]"

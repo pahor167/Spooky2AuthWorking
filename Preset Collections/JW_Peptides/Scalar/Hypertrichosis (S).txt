@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Hypertrichosis (S)"
+"Preset_Notes=Hypertrichosis for Scalar
+
+Hypertrichosis is a rare dermatological disorder characterized by excessive hair growth on various parts of the body, often exceeding what is considered normal for an individual's age, gender, ethnicity, and cultural norms. This condition can manifest as congenital hypertrichosis, present at birth due to genetic mutations affecting hair follicle development and cycling, or as acquired hypertrichosis, which develops later in life secondary to underlying systemic conditions, medications, or malignancies. Common causes include hormonal imbalances such as hyperandrogenism in polycystic ovary syndrome (PCOS), growth hormone excess in acromegaly, thyroid dysfunction, insulin resistance, and exposure to drugs like minoxidil or C-type natriuretic peptide analogs. Genetic forms may involve mutations in genes like ARID1B, ABCC9 (affecting potassium channels in Cantu syndrome), or FGF13, leading to dysregulated signaling pathways. Symptoms typically include dense, pigmented hair covering the face, trunk, limbs, and sometimes the entire body, resulting in significant psychological distress, social stigma, low self-esteem, and potential physical complications like skin irritation or infection from hair removal attempts. Pathophysiologically, hypertrichosis arises from perturbations in the hair follicle cycle, with prolonged anagen (growth) phase and shortened telogen (resting) phase, driven by overactivation of key signaling cascades such as Wnt/{beta}-catenin for stem cell activation, Sonic Hedgehog (Shh) for follicle morphogenesis, fibroblast growth factors (FGFs) for proliferation, and alterations in extracellular matrix components like proteoglycans in the dermal papilla. Hormonal influences exacerbate this by stimulating androgen receptors or insulin/IGF-1 pathways, while epigenetic modifications via histone acetylation or methylation can alter gene expression in hair-related genes. Additionally, ion channel dysfunctions and natriuretic peptide signaling can disrupt normal hair quiescence, leading to unchecked proliferation.
+
+The proposed polypeptides provide a multifaceted mechanistic approach to addressing hypertrichosis by targeting its diverse pathophysiological axes, ensuring comprehensive coverage of hormonal, signaling, ion channel, and epigenetic mechanisms. The real-world polypeptide FOL-005, derived from osteopontin, directly inhibits the production of fibroblast growth factor-7 (FGF7) in outer root sheath keratinocytes of the hair follicle, thereby shortening the anagen phase and reducing hair elongation and density, with demonstrated efficacy in ex vivo and in vivo models for inhibiting human hair growth. Similarly, the real-world exenatide, a glucagon-like peptide-1 (GLP-1) analog, enhances insulin sensitivity and reduces hyperinsulinemia, which in turn lowers ovarian androgen production in conditions like PCOS, mitigating androgen-driven hirsutism; its feasibility is supported by clinical use in metabolic disorders, with good bioavailability via subcutaneous administration and favorable physicochemical properties for stability. The designed polypeptides supplement these by addressing uncovered axes: one binds and antagonizes androgen receptors to prevent transcriptional activation of hair growth genes, feasible through peptide mimicry of inhibitory domains with high affinity and low immunogenicity; another mimics somatostatin motifs to suppress pituitary growth hormone release, reducing GH/IGF-1 stimulated hypertrichosis in acromegaly-like states, with rationale based on existing analogs' success; a third interferes with thyroid hormone receptor binding to normalize HPT axis effects on dermal proteoglycans and hair cycling; a fourth blocks ATP-sensitive potassium channels to counteract gain-of-function mutations in syndromes like Cantu, restoring normal follicle quiescence via altered membrane potential; a fifth antagonizes C-type natriuretic peptide receptors to prevent signaling cascades that prolong anagen, informed by side effects of CNP therapies; a sixth inhibits histone acetyltransferases to epigenetically repress hair-promoting genes, leveraging peptide-based enzyme inhibitors with targeted delivery; a seventh disrupts Wnt ligand-receptor interactions to dampen {beta}-catenin activation and stem cell proliferation in follicles; an eighth blocks Shh pathway components to inhibit morphogenetic signals; a ninth modulates proteoglycan synthesis in the dermal papilla to alter extracellular matrix support for hair growth; and a tenth reduces pro-inflammatory cytokines that may secondarily enhance follicle activity. These designed polypeptides are conceptualized with lengths and compositions optimizing solubility, stability against proteases, and skin penetration for topical or systemic use, with scientific rationale drawn from pathway-specific literature and feasibility confirmed by analogous peptide therapeutics in dermatology and endocrinology.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Hypertrichosis p01"
+"Loaded_Programs=Hypertrichosis p02"
+"Loaded_Programs=Hypertrichosis p03"
+"Loaded_Programs=Hypertrichosis p04"
+"Loaded_Programs=Hypertrichosis p05"
+"Loaded_Programs=Hypertrichosis p06"
+"Loaded_Programs=Hypertrichosis p07"
+"Loaded_Programs=Hypertrichosis p08"
+"Loaded_Programs=Hypertrichosis p09"
+"Loaded_Programs=Hypertrichosis p10"
+"Loaded_Programs=Hypertrichosis p11"
+"Loaded_Programs=Hypertrichosis p12"
+"Loaded_Frequencies=M99.068=1,M115.027,M101.048,M163.063,M115.027,M57.021,M115.027,M113.084,M87.032,M99.068,M99.068,M163.063,M57.021,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M186.079=1,M128.095,M113.084,M128.058,M156.101,M147.068,M147.068,M137.059,0=4,"
+"Loaded_Frequencies=M147.068=1,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M103.009,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M97.053,M163.063,M97.053,M147.068,M97.053,M163.063,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M156.101,M128.095,M156.101,M156.101,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M71.037,M128.095,M156.101,M131.040,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M57.021,M101.048,M113.084,M137.059,M156.101,M113.084,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M129.043=1,M57.021,M147.068,M57.021,M115.027,M99.068,M57.021,M186.079,M147.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M87.032,M115.027,M87.032,M115.027,M87.032,M115.027,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.058,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,0=4,"
+"[/Preset]"

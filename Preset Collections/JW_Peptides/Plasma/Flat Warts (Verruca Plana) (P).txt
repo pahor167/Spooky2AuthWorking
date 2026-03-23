@@ -1,0 +1,50 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Flat Warts (Verruca Plana) (P)"
+"Preset_Notes=Flat Warts (Verruca Plana) for Plasma
+
+A strategic polypeptide intervention targeting Human Papillomavirus (HPV) replication, lesional hyperkeratosis, and the elicitation of localized cell-mediated immunity to clear persistent viral papules.
+
+1. Antiviral Synergy: Indolicidin - Direct disruption of viral envelopes and inhibition of early-stage HPV replication.
+2. Immune Recruitment: KR-12 - A fragment of human cathelicidin (LL-37) that recruits macrophages and T-cells to the site of infection.
+3. Keratinocyte Turnover: Hexapeptide-11 - Upregulates epidermal turnover genes to accelerate the shedding of HPV-infected cells.
+4. Tissue Regeneration: BPC-157 - Accelerates healing of the skin barrier and modulates local inflammatory responses.
+5. Apoptosis Induction: KLA-14 - Pro-apoptotic peptide designed to selectively target and disrupt mitochondria in hyperproliferative infected cells.
+6. Barrier Support: GHK-Cu - Promotes structural integrity of the basement membrane to prevent viral spread to adjacent tissue.
+7. Cell Penetration: TAT (47-57) - Arginine-rich peptide used for deep dermal delivery of therapeutic payloads through keratinized lesions.
+8. TLR Activation: TLR2-P - Synthetic fragment that acts as a Toll-like receptor agonist to stimulate innate antiviral defenses.
+9. Viral Entry Blockade: HBP-Mimetic - Mimics heparin-binding sites on cell surfaces to competitively inhibit HPV attachment.
+10. Interferon Elicitation: Poly-L-Lysine (Short) - Stimulates localized interferon-alpha production to inhibit intracellular viral protein synthesis.
+11. Angiogenesis Inhibition: KV11 - Starves the vascular supply of larger lesional clusters to induce regression.
+12. Targeted Viral Disruption: Verr-X - Engineered cyclic peptide designed to bind and disrupt the L2 capsid protein of HPV.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Flat Warts (Verruca Plana) p01"
+"Loaded_Programs=Flat Warts (Verruca Plana) p02"
+"Loaded_Programs=Flat Warts (Verruca Plana) p03"
+"Loaded_Programs=Flat Warts (Verruca Plana) p04"
+"Loaded_Programs=Flat Warts (Verruca Plana) p05"
+"Loaded_Programs=Flat Warts (Verruca Plana) p06"
+"Loaded_Programs=Flat Warts (Verruca Plana) p07"
+"Loaded_Programs=Flat Warts (Verruca Plana) p08"
+"Loaded_Programs=Flat Warts (Verruca Plana) p09"
+"Loaded_Programs=Flat Warts (Verruca Plana) p10"
+"Loaded_Programs=Flat Warts (Verruca Plana) p11"
+"Loaded_Programs=Flat Warts (Verruca Plana) p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M71.037,M97.053,M147.068,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M147.068=1,M87.032,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M101.048,M131.040,M114.043,M97.053,M156.101,M128.095,M113.084,M147.068,M115.027,M163.063,0=4,"
+"Loaded_Frequencies=M103.009=1,M186.079,M156.101,M186.079,M103.009,0=4,"
+"[/Preset]"

@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Dengue Fever (P)"
+"Preset_Notes=Dengue Fever for Plasma
+
+Dengue fever is a mosquito-borne viral disease caused by any of four dengue virus serotypes (DENV-1 to DENV-4), belonging to the Flavivirus genus, primarily transmitted by Aedes aegypti and Aedes albopictus mosquitoes. It manifests as a spectrum from asymptomatic or mild febrile illness (fever, headache, retro-orbital pain, myalgia, arthralgia, rash, minor hemorrhagic manifestations) to severe dengue (plasma leakage leading to shock, severe bleeding, organ impairment, potentially fatal). Pathophysiology involves viral entry into dendritic cells/monocytes/macrophages via receptors, endosomal fusion, replication, release; in secondary heterologous infections, antibody-dependent enhancement (ADE) amplifies viral load; excessive immune activation triggers cytokine storm (TNF-{alpha}, IL-6, IFN-{gamma}), endothelial glycocalyx degradation, vascular permeability, coagulopathy, and thrombocytopenia.
+
+The proposed polypeptides comprehensively target major therapeutic axes derived from literature (pathophysiology reviews, antiviral studies): viral entry/fusion inhibition (E protein domain/stem targeting to block attachment/post-fusion), protease inhibition (NS2B-NS3 to halt replication), direct virucidal/envelope disruption, capsid/assembly interference, and immunomodulatory/vascular protection to mitigate cytokine storm and leakage (supplemented with designed polypeptides, flagged clearly, incorporating non-standard residues for stability/diversity). Real-world polypeptides (14 verifiable from peer-reviewed papers/patents with demonstrated anti-DENV activity) prioritized for primary axes; designed supplement for full coverage and quotas.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Dengue Fever p01"
+"Loaded_Programs=Dengue Fever p02"
+"Loaded_Programs=Dengue Fever p03"
+"Loaded_Programs=Dengue Fever p04"
+"Loaded_Programs=Dengue Fever p05"
+"Loaded_Programs=Dengue Fever p06"
+"Loaded_Programs=Dengue Fever p07"
+"Loaded_Programs=Dengue Fever p08"
+"Loaded_Programs=Dengue Fever p09"
+"Loaded_Programs=Dengue Fever p10"
+"Loaded_Programs=Dengue Fever p11"
+"Loaded_Programs=Dengue Fever p12"
+"Loaded_Programs=Dengue Fever p13"
+"Loaded_Programs=Dengue Fever p14"
+"Loaded_Programs=Dengue Fever p15"
+"Loaded_Programs=Dengue Fever p16"
+"Loaded_Programs=Dengue Fever p17"
+"Loaded_Programs=Dengue Fever p18"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M113.084,M113.084,M57.021,M115.027,M101.048,M71.037,M186.079,M115.027,M147.068,M57.021,M87.032,M113.084,M57.021,M57.021,M99.068,M147.068,M101.048,M87.032,M113.084,M57.021,M128.095,M71.037,M113.084,M147.068,M128.095,M147.068,M71.037,M99.068,M147.068,M71.037,M113.084,M163.063,0=4,"
+"Loaded_Frequencies=M147.068=1,M186.079,M147.068,M101.048,M113.084,M113.084,M128.095,M101.048,M128.058,M71.037,M128.095,M128.058,M97.053,M71.037,M156.101,M163.063,M156.101,M156.101,M147.068,M103.009,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M131.040,M99.068,M186.079,M156.101,M137.059,M186.079,M147.068,M137.059,M156.101,M113.084,M156.101,M113.084,M97.053,M163.063,M114.043,M97.053,M57.021,M128.095,M114.043,M128.095,M128.058,M114.043,M128.058,M186.079,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M99.068,M128.095,M115.027,M57.021,M128.095,M113.084,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M71.037,M113.084,M99.068,M97.053,M137.059,M99.068,M57.021,M113.084,M129.043,M101.048,M156.101,M101.048,M186.079,M131.040,M87.032,M87.032,M129.043,M57.021,M71.037,M186.079,M128.095,M137.059,M99.068,M156.101,M113.084,M129.043,M101.048,M186.079,M113.084,M113.084,M156.101,M137.059,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M71.037,M156.101,M115.027,M71.037,M57.021,M128.095,M71.037,M129.043,M186.079,M186.079,0=4,"
+"Loaded_Frequencies=M114.043=1,M131.040,M113.084,M128.095,M156.101,M71.037,M156.101,M114.043,M156.101,M99.068,0=4,"
+"Loaded_Frequencies=M103.009=1,M128.095,M156.101,M128.095,M103.009,0=4,"
+"Loaded_Frequencies=M103.009=1,M57.021,M128.095,M156.101,M128.095,M87.032,M103.009,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M128.095,M128.095,M147.068,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M101.048,M87.032,M128.095,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M186.021,M147.068,M57.021,M87.032,M113.084,M57.021,M99.068,M147.068,M128.095,M113.084,M99.068,M147.068,M57.021,M101.048,M71.037,M163.063,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M186.021,M147.068,M57.021,M87.032,M99.068,M147.068,M57.021,M101.048,M71.037,M163.063,M99.068,M113.084,M147.068,M128.095,M71.037,M163.063,M99.068,M113.084,M147.068,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M114.079,M86.048,M156.101,M113.048,M150.954,M57.021,M87.032,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M150.954=1,M128.095,M114.079,M86.048,M156.101,M129.043,M128.058,M87.032,M150.954,M114.079,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.058,M113.048,M114.079,M86.048,M128.095,M156.101,M101.048,M87.032,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M113.048,M150.954,M114.079,M128.095,M86.048,M156.101,M128.058,M129.043,0=4,"
+"[/Preset]"

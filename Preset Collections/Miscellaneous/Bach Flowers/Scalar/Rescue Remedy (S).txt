@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Rescue Remedy (S)"
+"Preset_Notes=Rescue Remedy / Spooky Scalar
+
+Estimated Time: Run this preset for 15:00 minutes.
+Bach Remedy: Impatiens (CUST)
+Bach Remedy: Cherry Plum (CUST)
+Bach Remedy: Clematis (CUST)
+Bach Remedy: Rock Rose (CUST)
+Bach Remedy: Star of Bethlehem (CUST)
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Rescue Remedy (S)"
+"Loaded_Frequencies=463.06,262.01,415.26,277.99,276.57,"
+"[/Preset]"

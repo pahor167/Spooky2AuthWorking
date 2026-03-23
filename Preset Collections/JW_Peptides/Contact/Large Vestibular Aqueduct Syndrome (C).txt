@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Large Vestibular Aqueduct Syndrome (C)"
+"Preset_Notes=Large Vestibular Aqueduct Syndrome for Contact
+
+Large Vestibular Aqueduct Syndrome (LVAS), also known as Enlarged Vestibular Aqueduct Syndrome, is a rare congenital malformation of the inner ear characterized by an abnormally large vestibular aqueduct, the bony canal that contains the endolymphatic duct and sac. This enlargement disrupts normal fluid homeostasis in the inner ear, leading to sensorineural hearing loss that is often progressive, fluctuating, or sudden in onset. The condition is frequently associated with mutations in the SLC26A4 gene, which encodes the pendrin protein responsible for anion exchange and pH regulation in the endolymph. Causes include genetic factors, with autosomal recessive inheritance in many cases, and it can occur in isolation or as part of Pendred syndrome, which also involves thyroid dysfunction. Symptoms typically manifest in childhood and include bilateral or unilateral hearing loss, tinnitus, vertigo, imbalance, and increased susceptibility to hearing deterioration following minor head trauma, barotrauma (e.g., from flying or scuba diving), or even strenuous exercise. Pathophysiology involves abnormal pressure transmission from the cerebrospinal fluid to the endolymphatic system, causing mechanical stress on cochlear hair cells and spiral ganglion neurons, leading to apoptosis, oxidative stress, mitochondrial dysfunction, and inflammation. This can result in endolymphatic hydrops similar to Meniere's disease, contributing to vestibular symptoms. Without intervention, hearing loss can progress to profound levels, impacting speech development, social interaction, and quality of life. Current management is supportive, focusing on avoiding triggers, using hearing aids, or cochlear implantation for severe cases, but no curative treatments exist.
+
+The proposed polypeptides address LVAS by targeting key pathophysiological mechanisms, including mitochondrial dysfunction, cellular stress, neuronal survival, regeneration, inflammation, and ion transport imbalances. SS-31 penetrates mitochondria to reduce oxidative stress and preserve energy production in hair cells, mitigating trauma-induced damage. D-JNKI-1 inhibits the JNK pathway to prevent apoptosis in response to stress signals from pressure changes. HNG and SHLP3, mitochondrial-derived peptides, enhance cellular resilience and protect against gentamicin-like toxicities that mirror LVAS hair cell loss. ANP promotes neurite outgrowth and survival of cochlear neurons, aiding in maintaining auditory function. TGF-alpha stimulates proliferation and repair in inner ear epithelia, potentially slowing progression. For designed polypeptides (flagged below), they are conceptual constructs to fill gaps: designed peptides mimic pendrin domains to restore anion exchange, modulate inflammatory cytokines to reduce hydrops, stabilize vestibular receptors to alleviate dizziness, and provide senolytic action to clear damaged cells, all with scientific rationale based on known inner ear biology, feasibility via local delivery (e.g., intratympanic), modes of action through receptor binding or enzyme modulation, and physicochemical properties like solubility and stability for otic administration.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p01"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p02"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p03"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p04"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p05"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p06"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p07"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p08"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p09"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p10"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p11"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p12"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p13"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p14"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p15"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p16"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p17"
+"Loaded_Programs=Large Vestibular Aqueduct Syndrome p18"
+"Loaded_Frequencies=M156.101=1,M191.094,M128.095,M146.084,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.058,M87.032,M156.101,M97.053,M99.068,M128.058,M97.053,M113.084,M114.043,M113.084,M101.048,M101.048,M97.053,M156.101,M128.095,M97.053,M156.101,M97.053,M97.053,M97.053,M156.101,M156.101,M156.101,M128.058,M156.101,M156.101,M128.095,M128.095,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M57.021,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M99.068=1,M99.068,M87.032,M137.059,M147.068,M114.043,M115.027,M102.001,M97.053,M115.027,M87.032,M137.059,M101.048,M128.058,M147.068,M102.001,M147.068,M137.059,M57.021,M101.048,M102.001,M156.101,M147.068,M113.084,M99.068,M128.058,M129.043,M115.027,M128.095,M97.053,M71.037,M102.001,M99.068,M102.001,M137.059,M87.032,M57.021,M163.063,M99.068,M57.021,M71.037,M156.101,M102.001,M129.043,M137.059,M71.037,M115.027,M113.084,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.095,M115.027,M156.101,M129.043,M128.095,M115.027,M156.101,M129.043,M128.095,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M97.053=1,M87.032,M101.048,M99.068,M186.079,M163.063,M137.059,M113.084,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M156.101,M57.021,M128.058,M99.068,M147.068,M114.043,M87.032,M103.009,M57.021,M103.009,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M113.084,M137.059,M114.043,M97.053,M113.084,M99.068,M87.032,M156.101,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M99.068,M156.101,M163.063,M114.043,M147.068,M87.032,M87.032,M147.068,M97.053,M103.009,M57.021,M101.048,M113.084,M87.032,M113.084,M71.037,M97.053,M57.021,M147.068,M128.095,M147.068,M115.027,M101.048,M87.032,M87.032,M87.032,M128.058,M156.101,M97.053,M128.058,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M128.095,M99.068,M114.043,M147.068,M87.032,M57.021,M57.021,M113.084,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M114.043,M99.068,M57.021,M87.032,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M71.037,M97.053,M99.068,M99.068,M113.084,M147.068,M97.053,M99.068,M57.021,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.095,M156.101,M97.053,M113.084,M113.084,M99.068,M57.021,M128.058,M99.068,M57.021,M71.037,M113.084,M113.084,M103.009,M99.068,M71.037,M156.101,M156.101,M99.068,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M99.068,M113.084,M156.101,M57.021,M99.068,M113.084,M57.021,M97.053,M71.037,M71.037,M156.101,M57.021,M97.053,M57.021,M99.068,M71.037,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M57.021,M87.032,M113.084,M57.021,M99.068,M129.043,M97.053,M129.043,M129.043,M128.095,M97.053,M99.068,M99.068,M57.021,M113.084,M57.021,M113.084,M99.068,M156.101,M57.021,M99.068,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M114.043,M99.068,M57.021,M87.032,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M99.068,M57.021,M97.053,M57.021,M87.032,M99.068,M57.021,M147.068,M71.037,M99.068,M57.021,M113.084,M113.084,M113.084,M113.084,M101.048,M57.021,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M97.053=1,M87.032,M101.048,M99.068,M99.068,M99.068,M57.021,M87.032,M57.021,M113.084,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M114.043,M99.068,M57.021,M87.032,M71.037,M147.068,0=4,"
+"[/Preset]"

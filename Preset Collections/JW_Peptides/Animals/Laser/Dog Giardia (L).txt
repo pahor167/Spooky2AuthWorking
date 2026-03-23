@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Dog Giardia (L)"
+"Preset_Notes=Dog Giardia for Laser
+
+Dog Giardia, or Giardiasis in canines, is a common intestinal infection caused by the protozoan parasite Giardia duodenalis (also known as Giardia lamblia or Giardia intestinalis), transmitted through ingestion of contaminated water, food, or feces containing cysts. Symptoms typically include chronic or intermittent diarrhea, foul-smelling stools, abdominal cramps, weight loss, flatulence, and dehydration, though some dogs may be asymptomatic carriers. The pathophysiology involves the trophozoites attaching to the small intestinal mucosa, disrupting the brush border, impairing nutrient absorption, and inducing secretory diarrhea via enterotoxin release and immune-mediated inflammation, potentially leading to malabsorption syndromes and secondary bacterial overgrowth if untreated.
+
+The proposed polypeptides target Dog Giardia via antiprotozoal elimination, immune enhancement, and intestinal restoration. For antiprotozoal action, a designed polypeptide is engineered to permeabilize Giardia membranes by forming pores, akin to natural defensins, leading to parasite lysis and reduced cyst shedding; this conceptual design's feasibility is supported by in vitro antiparasitic peptide studies, with short length for oral bioavailability and minimal host toxicity. For immunomodulation, a designed polypeptide stimulates macrophage activation and nitric oxide production to improve intracellular killing of trophozoites, addressing the parasite's immune evasion; it draws from cytokine-mimetic peptides, ensuring targeted response without hypersensitivity. For GI repair, the real-world BPC-157 promotes mucosal healing by upregulating growth factors like VEGF and modulating nitric oxide synthase, countering epithelial damage and restoring barrier function; extensively studied in gastrointestinal models, its application here leverages anti-inflammatory properties to alleviate symptoms complementary to metronidazole therapy.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Dog Giardia p01"
+"Loaded_Programs=Dog Giardia p02"
+"Loaded_Programs=Dog Giardia p03"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M113.084,M99.068,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M99.068,M113.084,M128.095,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M99.068,M113.084,M128.095,M99.068,0=4,"
+"[/Preset]"

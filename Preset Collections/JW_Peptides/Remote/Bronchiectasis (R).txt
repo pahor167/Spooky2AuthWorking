@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Bronchiectasis (R)"
+"Preset_Notes=Bronchiectasis for Remote
+
+Bronchiectasis is a chronic respiratory condition characterized by irreversible dilation of the bronchi, leading to recurrent infections, persistent inflammation, impaired mucociliary clearance, and progressive lung damage. 
+
+The polypeptides address key therapeutic axes including antimicrobial activity to combat persistent infections, protease inhibition to mitigate tissue damage, anti-inflammatory effects to reduce neutrophilic and eosinophilic inflammation, immune modulation to restore balance in cytokine signaling and T-cell responses, epithelial repair to maintain airway integrity, macrophage modulation via the gut-lung axis, and airway remodeling inhibition. Designed polypeptides are flagged where real-world options are insufficient to cover specific axes like gut-lung regulation and eosinophilic inflammation, ensuring comprehensive coverage.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Bronchiectasis p01"
+"Loaded_Programs=Bronchiectasis p02"
+"Loaded_Programs=Bronchiectasis p03"
+"Loaded_Programs=Bronchiectasis p04"
+"Loaded_Programs=Bronchiectasis p05"
+"Loaded_Programs=Bronchiectasis p06"
+"Loaded_Programs=Bronchiectasis p07"
+"Loaded_Programs=Bronchiectasis p08"
+"Loaded_Programs=Bronchiectasis p09"
+"Loaded_Programs=Bronchiectasis p10"
+"Loaded_Programs=Bronchiectasis p11"
+"Loaded_Programs=Bronchiectasis p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M163.063,M114.043,M102.001,M99.068,M87.032,M87.032,M57.021,M57.021,M128.058,M102.001,M113.084,M163.063,M87.032,M71.037,M102.001,M97.053,M113.084,M147.068,M101.048,M128.095,M113.084,M128.058,M57.021,M101.048,M102.001,M163.063,M156.101,M57.021,M128.095,M71.037,M128.095,M102.001,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M102.001,M137.059,M97.053,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M102.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M102.001,M102.001,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M115.027=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M87.032=1,M57.021,M128.095,M87.032,M147.068,M128.095,M71.037,M57.021,M99.068,M102.001,M97.053,M97.053,M128.095,M128.095,M87.032,M71.037,M128.058,M102.001,M113.084,M156.101,M163.063,M128.095,M128.095,M97.053,M129.043,M102.001,M128.058,M87.032,M115.027,M186.079,M128.058,M102.001,M97.053,M57.021,M128.095,M128.095,M156.101,M102.001,M102.001,M97.053,M115.027,M101.048,M102.001,M57.021,M113.084,M128.095,M102.001,M113.084,M115.027,M97.053,M99.068,M115.027,M101.048,M97.053,M114.043,M97.053,M101.048,M156.101,M156.101,M128.095,M97.053,M57.021,M128.095,M102.001,M97.053,M99.068,M101.048,M163.063,M57.021,M128.058,M102.001,M113.084,M131.04,M113.084,M114.043,M97.053,M97.053,M114.043,M147.068,M102.001,M129.043,M131.04,M115.027,M57.021,M128.058,M102.001,M128.095,M156.101,M115.027,M113.084,M128.095,M102.001,M102.001,M131.04,M57.021,M131.04,M102.001,M57.021,M128.095,M87.032,M102.001,M99.068,M87.032,M97.053,M99.068,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M113.059,0=4,"
+"Loaded_Frequencies=M100.064=1,M101.048,M100.064,M100.064,M100.064,M147.068,M113.084,M100.064,M100.064,M101.048,0=4,"
+"Loaded_Frequencies=M86.048=1,M128.095,M114.079,M156.101,M113.048,M150.954,M100.064,M86.048,M113.084,M101.048,0=4,"
+"Loaded_Frequencies=M237.148=1,M200.095,M85.053,M100.064,M114.079,M129.043,M87.032,M113.048,M128.058,M128.095,0=4,"
+"[/Preset]"

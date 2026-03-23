@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Fatty Liver (L)"
+"Preset_Notes=Fatty Liver for Laser
+
+Fatty liver disease, including NAFLD, involves key mechanisms such as excessive lipid accumulation (steatosis), insulin resistance, hepatic inflammation, oxidative stress, fibrosis progression, disrupted lipid metabolism, and impaired hepatocyte regeneration. Biological targets include GLP-1 receptors for metabolic regulation, FATP2 for fatty acid transport, lipid synthesis pathways, inflammatory cytokines, and oxidative enzymes. The proposed peptides primarily target these axes through receptor agonism, gene expression modulation, anti-inflammatory actions, and hepatoprotection. All 10 peptides are real-world validated (from clinical, preclinical, or literature sources like studies on GLP-1 agonists, hepatoprotective peptides, and patents), covering the condition comprehensively without need for conceptual designs. Modes of action include improving insulin sensitivity and reducing appetite (GLP-1 mimicry), inhibiting fat absorption and lipogenesis, downregulating fatty acid transporters, alleviating oxidative damage, and promoting tissue repair. Physicochemical considerations: most are linear peptides with good stability; longer ones like Exendin-4 have extended half-life due to structure; pharmacodynamics favor subcutaneous administration for systemic effects on liver metabolism.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Fatty Liver p01"
+"Loaded_Programs=Fatty Liver p02"
+"Loaded_Programs=Fatty Liver p03"
+"Loaded_Programs=Fatty Liver p04"
+"Loaded_Programs=Fatty Liver p05"
+"Loaded_Programs=Fatty Liver p06"
+"Loaded_Programs=Fatty Liver p07"
+"Loaded_Programs=Fatty Liver p08"
+"Loaded_Programs=Fatty Liver p09"
+"Loaded_Programs=Fatty Liver p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M97.053=1,M57.021,M97.053,M113.084,M97.053,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M131.04=1,M99.068,M129.043,M128.095,M156.101,M99.068,M113.084,M71.037,M113.084,M113.084,M115.027,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M97.053=1,M147.068,M113.084,M101.048,M128.059,M113.084,M137.059,M87.032,M103.009,M147.068,M128.059,M101.048,M99.068,M115.027,M156.101,M113.084,M163.063,M147.068,M99.068,M131.04,0=4,"
+"Loaded_Frequencies=M131.04=1,M115.027,M57.021,M99.068,M101.048,M101.048,M156.101,M101.048,M147.068,M103.009,M57.021,M101.048,M97.053,0=4,"
+"Loaded_Frequencies=M131.04=1,M101.048,M128.095,M137.059,M97.053,M71.037,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M99.068=1,M129.043,M103.009,M101.048,M131.04,M99.068,M129.043,M128.095,M156.101,M99.068,M113.084,M71.037,M113.084,M113.084,M115.027,M128.095,M97.053,M97.053,M147.068,M113.084,M101.048,M128.059,M113.084,M137.059,M87.032,0=4,"
+"Loaded_Frequencies=M131.04=1,M103.009,M128.095,M129.043,M137.059,M131.04,M131.04,M115.027,M57.021,M99.068,M101.048,M101.048,M156.101,M101.048,M147.068,M103.009,M57.021,M101.048,M97.053,M115.027,0=4,"
+"[/Preset]"

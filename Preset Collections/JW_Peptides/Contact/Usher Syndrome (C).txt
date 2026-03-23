@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Usher Syndrome (C)"
+"Preset_Notes=Usher Syndrome for Contact
+
+Usher Syndrome is the leading genetic cause of combined deafness and blindness, affecting approximately 1 in 6,000 people worldwide. This autosomal recessive disorder manifests through three clinical types, each characterized by progressive sensorineural hearing loss, retinitis pigmentosa leading to tunnel vision and eventual blindness, and variable vestibular dysfunction. The syndrome results from mutations in genes encoding proteins of the Usher protein complex, which is crucial for both inner ear hair cell function and retinal photoreceptor integrity. As rod photoreceptors degenerate first, they cease producing protective factors like RdCVF, leading to secondary cone death and central vision loss that typically progresses over decades.
+
+The proposed polypeptide therapeutic strategy targets multiple pathophysiological mechanisms simultaneously. SS-31 provides mitochondrial protection by stabilizing cardiolipin in photoreceptor mitochondria, preserving ATP production and reducing oxidative stress that accelerates retinal degeneration. The designed antioxidant peptide mimics glutathione-like activity to scavenge reactive oxygen species that damage photoreceptors after rod death. The neurotrophic peptide supports residual photoreceptor survival through growth factor signaling pathways. The anti-inflammatory peptide reduces retinal gliosis and chronic inflammation that exacerbates photoreceptor death. The cell-penetrating peptide enhances ocular bioavailability and could serve as a delivery vehicle for additional therapeutics. This multi-modal approach addresses both the primary photoreceptor degeneration and secondary pathological processes, offering gene-independent neuroprotection that could benefit all Usher Syndrome subtypes regardless of their underlying genetic mutation.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Usher Syndrome p01"
+"Loaded_Programs=Usher Syndrome p02"
+"Loaded_Programs=Usher Syndrome p03"
+"Loaded_Programs=Usher Syndrome p04"
+"Loaded_Programs=Usher Syndrome p05"
+"Loaded_Frequencies=M156.101=1,M191.095,M128.095,M147.068,0=4,"
+"Loaded_Frequencies=M103.009=1,M163.063,M57.021,M103.009,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M156.101,M99.068,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M57.021,M87.032,0=4,"
+"[/Preset]"

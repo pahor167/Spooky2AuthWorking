@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Alopecia Areata (L)"
+"Preset_Notes=Alopecia Areata for Laser
+
+Alopecia areata is a common autoimmune disorder characterized by non-scarring, patchy hair loss, most often on the scalp but potentially affecting any hair-bearing area, including eyebrows, eyelashes, beard, and body. It can progress to alopecia totalis (complete scalp hair loss) or alopecia universalis (total body hair loss), with significant psychological impact due to visible disfigurement. Symptoms include sudden onset of round or oval bald patches, 'exclamation mark' hairs (short, broken hairs tapering toward the scalp), nail pitting or dystrophy in some cases, and occasional itching or tingling preceding hair loss. The pathophysiology involves genetic predisposition (strong HLA associations), environmental triggers (stress, infection), and loss of immune privilege in anagen hair follicles, leading to peribulbar infiltration by CD8+ NKG2D+ T cells and CD4+ T cells, elevated IFN-{gamma} signature genes, IL-15/IL-15R{alpha} upregulation on follicle epithelium, and downstream JAK-STAT activation that inhibits hair shaft production and forces premature catagen transition.
+
+The proposed polypeptides target the core therapeutic axes: broad immunomodulation to restore follicle immune privilege and suppress pathogenic T-cell activity, specific interference with JAK-STAT/cytokine signaling, and direct promotion of hair follicle regeneration and dermal support. VIP (vasoactive intestinal peptide), a real-world neuropeptide with documented immunosuppressive and anti-inflammatory effects in skin and autoimmune models, attenuates pro-inflammatory cytokine release and favors regulatory immune responses to reduce follicular attack. The designed cyclic IL-15 antagonist, derived from IL-15 receptor-binding motifs in literature with disulfide cyclization and C-amide for enhanced stability and reduced susceptibility to proteolysis, competitively blocks IL-15 signaling to limit cytotoxic T-cell recruitment and activation. The designed cyclic STAT-decoy polypeptide, based on phosphotyrosine-containing sequences known to disrupt STAT dimerization and JAK-STAT propagation with disulfide cyclization for conformational rigidity and pharmacokinetic improvement, inhibits downstream inflammatory signaling critical to disease maintenance. GHK (glycyl-L-histidyl-L-lysine), a real-world copper-binding tripeptide with established roles in wound healing and hair growth studies, stimulates dermal remodeling, enlarges hair follicles, exerts antioxidant effects, and supports stem cell activity for regrowth.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Alopecia Areata p01"
+"Loaded_Programs=Alopecia Areata p02"
+"Loaded_Programs=Alopecia Areata p03"
+"Loaded_Programs=Alopecia Areata p04"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.058,M99.068,M71.037,M128.058,M163.063,M128.095,M71.037,M113.084,M97.053,M99.068,M99.068,M113.084,M129.043,M114.043,M71.037,M156.101,M113.084,M113.084,M128.095,M101.017,0=4,"
+"Loaded_Frequencies=M102.001=1,M147.068,M115.027,M128.095,M113.084,M99.068,M114.043,M156.101,M99.068,M128.095,M101.048,M128.095,M129.043,M113.084,M128.058,M128.095,M129.043,M113.084,M115.027,M128.095,M101.017,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"[/Preset]"

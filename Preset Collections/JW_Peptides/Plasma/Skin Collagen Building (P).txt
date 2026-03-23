@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Skin Collagen Building (P)"
+"Preset_Notes=Skin Collagen Building for Plasma
+
+The peptides target key mechanisms in skin collagen building, such as stimulating collagen synthesis, enhancing fibroblast proliferation, inhibiting collagen degradation, promoting extracellular matrix remodeling, providing antioxidant protection, improving skin elasticity and hydration, facilitating wound healing, and reducing inflammation associated with skin aging.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Skin Collagen Building p01"
+"Loaded_Programs=Skin Collagen Building p02"
+"Loaded_Programs=Skin Collagen Building p03"
+"Loaded_Programs=Skin Collagen Building p04"
+"Loaded_Programs=Skin Collagen Building p05"
+"Loaded_Programs=Skin Collagen Building p06"
+"Loaded_Programs=Skin Collagen Building p07"
+"Loaded_Programs=Skin Collagen Building p08"
+"Loaded_Programs=Skin Collagen Building p09"
+"Loaded_Programs=Skin Collagen Building p10"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M101.048,M101.048,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M57.021,M99.068,M71.037,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M99.068,M163.063,M57.021,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M113.048,0=4,"
+"[/Preset]"

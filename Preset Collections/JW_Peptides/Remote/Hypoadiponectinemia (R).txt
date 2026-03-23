@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Hypoadiponectinemia (R)"
+"Preset_Notes=Hypoadiponectinemia for Remote
+
+Hypoadiponectinemia features reduced circulating adiponectin, promoting insulin resistance, inflammation, metabolic dysfunction, and cardiovascular risk through impaired glucose/lipid regulation and anti-inflammatory effects. The proposed polypeptides target evidence-based axes to elevate adiponectin levels, mimic its signaling, reduce suppressing inflammation, and support metabolic health.
+
+1. GLP-1 receptor agonism for adiponectin upregulation and insulin sensitization: Exenatide (real)
+2. Natriuretic receptor activation for direct adiponectin production enhancement: CNP (real)
+3. Innate repair receptor agonism for anti-inflammatory tissue protection: ARA-290 (real)
+4. Gastric pentadecapeptide for systemic stability and metabolic support: BPC-157 (real)
+5. Actin-sequestering for adipose tissue remodeling and repair: TB-500 (real)
+6. Vasoactive intestinal peptide for inflammation and secretion modulation: VIP (real)
+7. Mitochondrial-derived regulator for improved insulin sensitivity and metabolism: MOTS-c (real)
+8. Optimized AdipoR agonist motif derived from ADP355 with acetylation/amidation for stability: Ac-DNIPLYsFAs-NH2 (designed)
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Hypoadiponectinemia p01"
+"Loaded_Programs=Hypoadiponectinemia p02"
+"Loaded_Programs=Hypoadiponectinemia p03"
+"Loaded_Programs=Hypoadiponectinemia p04"
+"Loaded_Programs=Hypoadiponectinemia p05"
+"Loaded_Programs=Hypoadiponectinemia p06"
+"Loaded_Programs=Hypoadiponectinemia p07"
+"Loaded_Programs=Hypoadiponectinemia p08"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.054=1,M113.084,M97.053,M113.084,M163.063,M87.032,M147.068,M71.037,M87.032,0=4,"
+"[/Preset]"

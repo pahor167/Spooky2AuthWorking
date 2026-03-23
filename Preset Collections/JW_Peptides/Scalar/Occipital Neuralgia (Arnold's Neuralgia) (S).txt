@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Occipital Neuralgia (Arnold’s Neuralgia) (S)"
+"Preset_Notes=Occipital Neuralgia (Arnold’s Neuralgia) for Scalar
+
+Occipital neuralgia, also known as Arnold's neuralgia, is a chronic pain disorder characterized by sharp, shooting, or throbbing pain originating from the occipital nerves, which emerge from the upper cervical spine (C2-C3 roots) and innervate the posterior scalp, often extending to the forehead, temples, or eyes. Named after Friedrich Arnold who described the greater occipital nerve in the 19th century, it typically arises from nerve compression, irritation, or injury due to trauma (e.g., whiplash), cervical spine disorders like osteoarthritis or disc herniation, muscle tension from poor posture or stress, vascular compression, or inflammatory conditions such as rheumatoid arthritis; less commonly, it can stem from tumors, infections, or iatrogenic causes like post-surgical scarring. Symptoms include paroxysmal lancinating pain triggered by head movement, touch (allodynia), or even hair brushing, accompanied by tenderness over the occipital region, sensory changes like numbness or paresthesia, autonomic features such as lacrimation or rhinorrhea mimicking cluster headaches, and potential overlap with migraines or tension headaches, leading to misdiagnosis. Pathophysiologically, it involves peripheral sensitization of the greater, lesser, and third occipital nerves through neurogenic inflammation mediated by release of substance P, CGRP, and cytokines (IL-1{beta}, TNF-{alpha}) from activated mast cells and microglia; central sensitization via convergence in the trigeminocervical complex amplifying pain signals; autonomic dysregulation with sympatho-afferent coupling; mitochondrial dysfunction causing oxidative stress and energy deficits in neurons; and potential autoimmune components with autoantibodies targeting neuronal receptors, perpetuating a cycle of hyperexcitability, glial activation, and maladaptive neuroplasticity that sustains chronic pain and disability.
+
+The proposed polypeptides address occipital neuralgia through targeted axes. BPC-157 reduces neuroinflammation by modulating cytokine profiles, stabilizing mast cells, and inhibiting microglial activation to alleviate inflammatory pain cascades. The designed polypeptide for neuroinflammation incorporates anti-cytokine motifs to further suppress IL-1{beta} and TNF-{alpha}, mitigating glial reactivity. ARA-290 modulates pain signaling by activating innate repair receptors, reducing neuropathic hypersensitivity and promoting neuronal stability. The designed polypeptide for pain modulation targets TRPA1 channels to desensitize nociceptors and interrupt central amplification. VIP regulates autonomic function by normalizing vaso- and sudomotor responses via vagal pathways, countering sympatho-afferent dysregulation. The designed polypeptide for autonomic enhances adrenergic balance to prevent abnormal sweating and temperature changes. MOTS-c supports mitochondrial integrity by optimizing biogenesis and ROS scavenging, addressing energy deficits in irritated nerves. The designed polypeptide for mitochondrial facilitates nanotube-mediated transfer for neuronal repair. Humanin provides neuroprotection by preventing apoptosis and promoting regeneration in damaged occipital nerves. The designed polypeptide for neuroprotection activates survival pathways to enhance resilience against compression-induced injury. These real and designed polypeptides (flagged where designed) offer a multifaceted approach, with feasibility from preclinical models showing pain reduction, improved nerve function, and reduced inflammation, considering bioavailability, enzymatic stability, and targeted delivery.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Occipital Neuralgia (Arnold’s Neuralgia) p01"
+"Loaded_Programs=Occipital Neuralgia (Arnold’s Neuralgia) p02"
+"Loaded_Programs=Occipital Neuralgia (Arnold’s Neuralgia) p03"
+"Loaded_Programs=Occipital Neuralgia (Arnold’s Neuralgia) p04"
+"Loaded_Programs=Occipital Neuralgia (Arnold’s Neuralgia) p05"
+"Loaded_Programs=Occipital Neuralgia (Arnold’s Neuralgia) p06"
+"Loaded_Programs=Occipital Neuralgia (Arnold’s Neuralgia) p07"
+"Loaded_Programs=Occipital Neuralgia (Arnold’s Neuralgia) p08"
+"Loaded_Programs=Occipital Neuralgia (Arnold’s Neuralgia) p09"
+"Loaded_Programs=Occipital Neuralgia (Arnold’s Neuralgia) p10"
+"Loaded_Programs=Occipital Neuralgia (Arnold’s Neuralgia) p11"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M99.068,M113.084,M128.095,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.058,M186.079,M101.048,M87.032,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M99.068,M128.095,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M156.101,M97.053,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M99.068,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M113.084,M128.095,M113.084,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M156.101,M147.068,M57.021,M137.059,0=4,"
+"[/Preset]"

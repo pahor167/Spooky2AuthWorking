@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Scheie Syndrome (L)"
+"Preset_Notes=Scheie Syndrome for Laser
+
+Scheie syndrome (MPS IS) is the attenuated (mildest) phenotypic form of mucopolysaccharidosis type I (MPS I), an autosomal recessive lysosomal storage disorder caused by biallelic pathogenic variants in the IDUA gene encoding alpha-L-iduronidase, resulting in profoundly reduced or absent enzyme activity. This leads to progressive intralysosomal accumulation of incompletely degraded glycosaminoglycans (GAGs), specifically dermatan sulfate and heparan sulfate, in various tissues. Clinical onset is typically after age 5, with preserved intelligence and normal life expectancy distinguishing it from intermediate (Hurler-Scheie) and severe (Hurler) forms. Characteristic features include joint stiffness and contractures (often affecting hands/shoulders), carpal tunnel syndrome, corneal clouding causing visual impairment, mild coarse facial features, aortic and mitral valve thickening/regurgitation, short stature, spinal deformities, and occasional airway obstruction or hearing loss. Unlike severe MPS I, there is no significant central nervous system involvement, cognitive impairment, or hepatosplenomegaly.
+
+Pathophysiology involves GAG deposition disrupting connective tissue architecture (joints, valves), extracellular matrix integrity, and cellular signaling, triggering secondary inflammation, fibrosis, and tissue remodeling. Standard management includes enzyme replacement therapy with recombinant full-length alpha-L-iduronidase (laronidase), surgical interventions (e.g., carpal tunnel release, valve replacement, corneal transplant), physical/occupational therapy, and monitoring.
+
+Searches confirmed no short polypeptide or peptide-based therapies for Scheie syndrome; the approved enzyme replacement is a large glycoprotein beyond scope here. Thus, the proposed set consists entirely of designed conceptual short polypeptides. These are hypothetically tailored for potential advantages in tissue penetration, reduced immunogenicity, or adjunctive effects:
+
+- The first designed peptide (D1) incorporates mixed polar and hydrophobic residues to conceptually promote lysosomal membrane interaction and GAG mobilization.
+
+- The second designed peptide (D2) features acidic and aromatic motifs aimed at supporting connective tissue remodeling and anti-inflammatory signaling.
+
+- The third designed peptide (D3) includes bulky residues for potential corneal matrix stabilization.
+
+- The fourth designed peptide (D4) is cationic-rich to hypothetically enhance cellular uptake and cardioprotective pathways.
+
+Feasibility considerations: 10-residue lengths enable rapid, low-cost synthesis, predicted high aqueous solubility, stability against proteolysis via residue selection, and potential for intrathecal/topical/systemic delivery modifications. Physicochemical properties are favorable, but these remain theoretical constructs requiring validation in IDUA-deficient cellular/fibroblast models or animal studies for efficacy in GAG clearance, symptom amelioration, specificity, and safety without exacerbating storage.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Scheie Syndrome p01"
+"Loaded_Programs=Scheie Syndrome p02"
+"Loaded_Programs=Scheie Syndrome p03"
+"Loaded_Programs=Scheie Syndrome p04"
+"Loaded_Frequencies=M71.037=1,M57.021,M128.095,M156.101,M97.053,M99.068,M137.059,M113.084,M101.048,M147.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M129.043,M115.027,M128.058,M163.063,M113.084,M156.101,M131.040,M114.043,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M186.079,M147.068,M87.032,M128.095,M101.048,M99.068,M163.063,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M113.084,M115.027,M129.043,M71.037,M128.095,M97.053,M128.058,M99.068,M147.068,0=4,"
+"[/Preset]"

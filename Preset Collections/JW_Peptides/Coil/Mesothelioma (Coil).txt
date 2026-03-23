@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Mesothelioma (Coil)"
+"Preset_Notes=Mesothelioma for Coil
+
+Mesothelioma is an aggressive asbestos-associated malignancy, primarily pleural, with dysregulated immune surveillance, overexpression of antigens like WT1 and mesothelin, chronic inflammation, aberrant metabolism, and resistance to apoptosis. The proposed polypeptides target key therapeutic axes derived from clinical and preclinical evidence, emphasizing immune activation, antigen-specific responses, direct tumor cytotoxicity via multiple mechanisms, and supportive modulation.
+
+1. Broad immune restoration: Thymosin_alpha_1 enhances T-cell and dendritic cell function, with evidence in lung cancer and immunomodulation.
+2. WT1 antigen-specific cytotoxicity: WT1-RMFPNAPYL stimulates CD8+ T-cell responses against WT1-expressing mesothelioma cells in vaccine trials.
+3. Cancer cell penetration and growth inhibition: Azurin_p28 selectively enters tumor cells and disrupts proliferation pathways.
+4. Mitochondrial membrane disruption: KLAK_LAK induces targeted apoptosis in malignant cells.
+5. Beta-defensin mediated lysis: hBD-3 provides selective membrane disruption and anticancer activity in tumor models.
+6. Intracellular histone interference: Buforin II translocates into cells to bind DNA and trigger apoptosis.
+7. Tumor microenvironment inflammation control: KPV inhibits proinflammatory cytokines to reduce tumor-promoting inflammation.
+8. Metabolic reprogramming: MOTS-c activates AMPK pathways to impair tumor energy metabolism.
+9. Tryptophan-enriched membrane targeting: TrpLytic-Eng (designed) is an engineered amphipathic peptide optimized for enhanced selectivity and lytic efficiency against cancer cell membranes.
+
+"
+"Loaded_Programs=Mesothelioma p01"
+"Loaded_Programs=Mesothelioma p02"
+"Loaded_Programs=Mesothelioma p03"
+"Loaded_Programs=Mesothelioma p04"
+"Loaded_Programs=Mesothelioma p05"
+"Loaded_Programs=Mesothelioma p06"
+"Loaded_Programs=Mesothelioma p07"
+"Loaded_Programs=Mesothelioma p08"
+"Loaded_Programs=Mesothelioma p09"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M131.040,M147.068,M97.053,M114.043,M71.037,M97.053,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M101.048,M71.037,M71.037,M115.027,M131.040,M128.058,M57.021,M99.068,M99.068,M101.048,M115.027,M57.021,M131.040,M71.037,M87.032,M57.021,M113.084,M115.027,M128.095,M115.027,M163.063,M113.084,M128.095,M97.053,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M114.043,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M113.084,M156.101,M113.084,M128.095,M71.037,M186.079,M113.084,M113.084,M156.101,M113.084,M128.095,M71.037,M186.079,M113.084,M156.101,M156.101,M113.084,0=4,"
+"[/Preset]"

@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Dog Pyometra (R)"
+"Preset_Notes=Dog Pyometra for Remote
+
+Dog pyometra is a potentially life-threatening bacterial infection of the uterus in intact female dogs, often occurring during diestrus due to progesterone-induced endometrial changes that promote bacterial growth (primarily E. coli), leading to purulent accumulation, inflammation, oxidative stress, lipid dysregulation, sepsis, and multiorgan dysfunction if untreated. 
+
+The proposed polypeptides address key therapeutic axes including progesterone antagonism, luteolysis, uterine contraction, cervical relaxation, prolactin inhibition, GnRH suppression, antimicrobial activity, anti-endotoxin effects, anti-inflammatory modulation, antioxidant protection, lipid metabolism regulation, and endocannabinoid system modulation. Real-world polypeptides are prioritized for available axes; designed polypeptides (flagged as designed) are conceptual constructs based on scientific principles to cover remaining axes, with rationale, feasibility (conceptual viability based on similar peptide therapeutics), modes of action (targeted binding or modulation), and physicochemical considerations (stability, solubility, size for bioavailability) provided in descriptions.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Dog Pyometra p01"
+"Loaded_Programs=Dog Pyometra p02"
+"Loaded_Programs=Dog Pyometra p03"
+"Loaded_Programs=Dog Pyometra p04"
+"Loaded_Programs=Dog Pyometra p05"
+"Loaded_Programs=Dog Pyometra p06"
+"Loaded_Programs=Dog Pyometra p07"
+"Loaded_Programs=Dog Pyometra p08"
+"Loaded_Programs=Dog Pyometra p09"
+"Loaded_Programs=Dog Pyometra p10"
+"Loaded_Programs=Dog Pyometra p11"
+"Loaded_Programs=Dog Pyometra p12"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M239.095=1,M181.052,M148.063,M87.032,M204.090,M204.090,M113.084,M170.142,M97.053,M70.053,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M114.079,M87.032,M128.095,M99.068,M131.040,0=4,"
+"Loaded_Frequencies=M150.954=1,M237.148,M113.048,M113.084,M200.095,0=4,"
+"Loaded_Frequencies=M758.675=1,M86.048,M114.079,M100.064,M86.048,M85.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M97.053,M128.095,M87.032,M99.068,M131.040,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.058,M156.101,M87.032,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M150.954,M237.148,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M114.079=1,M100.064,M86.048,M85.053,M113.084,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M87.032,M99.068,M131.040,M114.043,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M87.032,M101.048,M99.068,M163.063,M150.954,0=4,"
+"Loaded_Frequencies=M237.148=1,M113.048,M113.084,M200.095,M758.675,M86.048,0=4,"
+"[/Preset]"

@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Melanocyte (Enhancing Survival, Function, and Proliferation) (S)"
+"Preset_Notes=Melanocyte (Enhancing Survival, Function, and Proliferation) for Scalar
+
+Melanocytes are neural crest-derived cells responsible for producing melanin, the pigment that colors skin, hair, and eyes while providing critical photoprotection against UV radiation. Enhancing their survival counters apoptotic loss from oxidative stress, autoimmunity, or aging; improving function increases melanin synthesis and tyrosinase activity for better pigmentation and protection; promoting proliferation supports repopulation of depigmented areas in vitiligo and sustains melanocyte stem cell pools to prevent or reverse hair graying. Dysfunctional melanocytes contribute to disorders like vitiligo (autoimmune destruction), premature graying (stem cell exhaustion), and increased skin cancer risk from reduced photoprotection.
+
+The proposed polypeptides target validated pathways for comprehensive enhancement. Afamelanotide, a real-world potent linear analog of {alpha}-MSH, activates MC1R to stimulate eumelanin production, promote proliferation, enhance DNA repair, reduce oxidative damage, and improve overall survival based on clinical use and extensive studies. Melanotan II, a real-world cyclic lactam analog of {alpha}-MSH, provides sustained MC1R agonism for stronger and longer-lasting melanocyte stimulation, function, and proliferative effects. Endothelin-3, a natural real-world peptide, binds EdnrB to drive melanocyte stem cell proliferation, differentiation, and regenerative repigmentation through crosstalk with Wnt signaling, addressing stem cell niche support. The designed cyclic core analog (flagged as designed), derived from the conserved {alpha}-MSH active motif (His-D-Phe-Arg-Trp) with flanking cysteines for disulfide cyclization plus N-acetylation and C-amidation, constrains conformation for receptor affinity, boosts proteolytic stability, and extends bioavailability using established principles from cyclic melanocortin peptide development.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Melanocyte (Enhancing Survival, Function, and Proliferation) p01"
+"Loaded_Programs=Melanocyte (Enhancing Survival, Function, and Proliferation) p02"
+"Loaded_Programs=Melanocyte (Enhancing Survival, Function, and Proliferation) p03"
+"Loaded_Programs=Melanocyte (Enhancing Survival, Function, and Proliferation) p04"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M113.084,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M155.095=1,M115.027,M137.059,M147.068,M156.101,M186.079,M127.111,0=4,"
+"Loaded_Frequencies=M102.001=1,M101.048,M102.001,M147.068,M101.048,M163.063,M128.095,M115.027,M128.095,M129.043,M102.001,M99.068,M163.063,M163.063,M102.001,M137.059,M113.084,M115.027,M113.084,M113.084,M186.079,0=4,"
+"Loaded_Frequencies=M144.012=1,M137.059,M147.068,M156.101,M186.079,M101.017,0=4,"
+"[/Preset]"

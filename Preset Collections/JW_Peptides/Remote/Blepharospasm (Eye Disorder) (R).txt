@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Blepharospasm (Eye Disorder) (R)"
+"Preset_Notes=Blepharospasm (Eye Disorder) for Remote
+
+Blepharospasm is a focal dystonia characterized by involuntary, forceful spasms of the orbicularis oculi muscles causing excessive blinking and sustained eyelid closure that severely impairs vision and quality of life. Core pathophysiology includes basal ganglia disinhibition, sensorimotor integration failure, synaptic plasticity defects, GABAergic hypo-function, cholinergic hyperactivity, dopamine dysregulation, trigeminal blink-reflex hyperexcitability, and secondary ocular-surface inflammation/oxidative stress. The peptides below target these distinct therapeutic axes with high specificity and minimal off-target risk.
+
+1. SNAP25/SNARE inhibition: Argireline - Competitive SNAP25 inhibitor mimicking botulinum toxin to block acetylcholine release and relax eyelid muscles 
+2. GABAergic potentiation: GABAPep-1 - Potentiates GABA-A/B signaling to restore inhibitory tone in blink reflex circuits 
+3. Dopaminergic modulation: DopModPep - Normalizes dopamine receptor sensitivity in basal ganglia to reduce motor hyperexcitability 
+4. Sensorimotor integration: SensIntPep - Enhances sensorimotor filtering to prevent aberrant reflex activation 
+5. Synaptic plasticity restoration: PlastPep - Promotes adaptive synaptic changes for long-term dystonia relief 
+6. Blink reflex suppression: BlinkPep - Suppresses trigeminal hyperexcitability underlying spasm initiation 
+7. Cholinergic antagonism: CholPep - Antagonizes excessive cholinergic drive to orbicularis oculi 
+8. Ocular neuroprotection: OcularNeuroPep - Provides neurotrophic support and antioxidant defense for ocular motor neurons 
+9. Ocular anti-inflammatory: OcuInfPep - Mitigates periocular inflammation that triggers or worsens spasms 
+10. Mitochondrial support: MitoPep - Optimizes mitochondrial function to maintain neuronal stability under dystonic stress 
+11. Ion channel stabilization: IonPep - Stabilizes voltage-gated channels to prevent abnormal muscle contractions
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Blepharospasm (Eye Disorder) p01"
+"Loaded_Programs=Blepharospasm (Eye Disorder) p02"
+"Loaded_Programs=Blepharospasm (Eye Disorder) p03"
+"Loaded_Programs=Blepharospasm (Eye Disorder) p04"
+"Loaded_Programs=Blepharospasm (Eye Disorder) p05"
+"Loaded_Programs=Blepharospasm (Eye Disorder) p06"
+"Loaded_Programs=Blepharospasm (Eye Disorder) p07"
+"Loaded_Programs=Blepharospasm (Eye Disorder) p08"
+"Loaded_Programs=Blepharospasm (Eye Disorder) p09"
+"Loaded_Programs=Blepharospasm (Eye Disorder) p10"
+"Loaded_Programs=Blepharospasm (Eye Disorder) p11"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M170.069=1,M128.095,M156.101,M57.021,M155.117,0=4,"
+"Loaded_Frequencies=M205.074=1,M147.068,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M99.032=1,M128.095,M97.053,M128.058,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M156.054=1,M97.053,M57.021,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M179.070=1,M57.021,M57.021,M128.095,M155.117,0=4,"
+"Loaded_Frequencies=M228.090=1,M128.095,M97.053,M155.117,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M147.068,M57.021,M136.075,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M173.051=1,M57.021,M128.095,M86.048,0=4,"
+"Loaded_Frequencies=M170.106=1,M156.101,M128.058,M112.100,0=4,"
+"[/Preset]"

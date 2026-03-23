@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Chlamydia Pneumoniae (L)"
+"Preset_Notes=Chlamydia Pneumoniae for Laser
+
+Chlamydia pneumoniae is an obligate intracellular bacterium that causes respiratory infections and is associated with chronic inflammatory conditions like atherosclerosis. Peptide therapies target its unique lifecycle, including direct killing, intracellular disruption, and host immune enhancement to overcome antibiotic resistance challenges.
+
+1. Direct bactericidal activity: SMAP-29 - Potent {alpha}-helical cathelicidin with broad-spectrum killing of chlamydial elementary and reticulate bodies
+2. Intracellular replication inhibition: Pep-1 - Cell-penetrating peptide that selectively blocks chlamydial growth within host cells
+3. Inflammasome-mediated clearance: acALY18 - Acetylated peptide activating NLRP3 pathway to enhance monocyte elimination of persistent infection
+4. Mitochondrial-targeted apoptosis: KLAK - Amphipathic peptide inducing selective apoptosis in infected host cells via membrane disruption
+5. Arginine-tryptophan rich penetration: ChlamArg-RW - Designed peptide with enhanced cell entry and membrane insertion for intracellular targeting
+6. High-charge helical disruption: ChlamKL-16 - Designed highly cationic amphipathic helix optimized for electrostatic binding and pore formation in bacterial membranes
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Chlamydia Pneumoniae p01"
+"Loaded_Programs=Chlamydia Pneumoniae p02"
+"Loaded_Programs=Chlamydia Pneumoniae p03"
+"Loaded_Programs=Chlamydia Pneumoniae p04"
+"Loaded_Programs=Chlamydia Pneumoniae p05"
+"Loaded_Programs=Chlamydia Pneumoniae p06"
+"Loaded_Frequencies=M156.101=1,M57.021,M113.084,M156.101,M156.101,M113.084,M57.021,M156.101,M128.095,M113.084,M71.037,M137.059,M57.021,M99.068,M128.095,M128.095,M163.063,M57.021,M97.053,M101.048,M99.068,M113.084,M156.101,M113.084,M113.084,M156.101,M113.084,M71.037,M56.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,M101.048,M186.079,M186.079,M129.043,M101.048,M186.079,M186.079,M101.048,M129.043,M186.079,M87.032,M128.058,M97.053,M128.095,M128.095,M128.095,M156.101,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M163.063,M115.027,M128.095,M57.021,M163.063,M101.048,M87.032,M128.095,M129.043,M128.058,M128.095,M115.027,M103.009,M99.068,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M128.095,M156.101,M186.079,M186.079,M156.101,M156.101,M186.079,M186.079,M128.095,M156.101,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,0=4,"
+"[/Preset]"

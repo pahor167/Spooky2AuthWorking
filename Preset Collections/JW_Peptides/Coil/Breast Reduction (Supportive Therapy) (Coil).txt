@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Breast Reduction (Supportive Therapy) (Coil)"
+"Preset_Notes=Breast Reduction (Supportive Therapy) for Coil
+
+Supportive polypeptide therapy for breast tissue reduction targets androgen/estrogen hormonal balance, lipolysis in adipose components (common in pseudogynecomastia or mixed cases), metabolic fat loss, and tissue remodeling. Permanent glandular reduction has limited direct peptide evidence, but these selections are mechanistically supportive for improving hormone ratios, reducing fat deposition, and optimizing breast tissue health based on literature, preclinical data, and emerging applications.
+
+1. Kisspeptin receptor activation: Kisspeptin-10 stimulates gonadotropin release and testosterone production to counter estrogen dominance.
+2. GnRH receptor stimulation: Gonadorelin directly activates pituitary LH/FSH secretion for endogenous androgen support.
+3. GH secretagogue-mediated lipolysis: Ipamorelin promotes growth hormone release to enhance fat mobilization.
+4. Direct GH fragment lipolysis: HGH Fragment 176-191 selectively targets adipose tissue breakdown.
+5. GLP-1 receptor agonism: Semaglutide facilitates systemic weight and fat loss, with noted relevance in gynecomastia management contexts.
+6. Stable gastric peptide protection: BPC-157 supports tissue integrity and anti-inflammatory effects.
+7. Copper tripeptide remodeling: GHK-Cu aids collagen and extracellular matrix optimization.
+8. Thymosin beta-4 fragment repair: TB-500 promotes actin regulation and regenerative processes.
+9. Optimized kisspeptin analog: AndroEnh-Eng, an engineered N-acetylated/C-amidated variant of kisspeptin motifs for enhanced stability and androgen axis activation.
+
+"
+"Loaded_Programs=Breast Reduction (Supportive Therapy) p01"
+"Loaded_Programs=Breast Reduction (Supportive Therapy) p02"
+"Loaded_Programs=Breast Reduction (Supportive Therapy) p03"
+"Loaded_Programs=Breast Reduction (Supportive Therapy) p04"
+"Loaded_Programs=Breast Reduction (Supportive Therapy) p05"
+"Loaded_Programs=Breast Reduction (Supportive Therapy) p06"
+"Loaded_Programs=Breast Reduction (Supportive Therapy) p07"
+"Loaded_Programs=Breast Reduction (Supportive Therapy) p08"
+"Loaded_Programs=Breast Reduction (Supportive Therapy) p09"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M111.032=1,M137.059,M186.079,M87.032,M163.063,M57.021,M113.084,M156.101,M97.053,M56.037,0=4,"
+"Loaded_Frequencies=M85.053=1,M137.059,M205.074,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M156.101,M113.084,M99.068,M128.058,M103.009,M156.101,M87.032,M99.068,M129.043,M57.021,M87.032,M103.009,M57.021,M147.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M205.074=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M162.079,0=4,"
+"[/Preset]"

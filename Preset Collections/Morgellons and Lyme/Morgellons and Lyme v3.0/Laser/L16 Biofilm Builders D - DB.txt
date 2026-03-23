@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=L16 Biofilm Builders D - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Laser.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Chlamydia Pneumoniae 1 CAFL
+Chlamydia Pneumoniae 8 XTRA
+Chlamydia Pneumoniae XTRA
+Chlamydia Trachomatis HC
+Chlamydia General CAFL
+Nisin XTRA
+Calcifications XTRA
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Chlamydia Pneumoniae 1 (CAFL)"
+"Loaded_Programs=Chlamydia Pneumoniae 8 (XTRA)"
+"Loaded_Programs=Chlamydia Pneumoniae (XTRA)"
+"Loaded_Programs=Chlamydia Trachomatis (HC)"
+"Loaded_Programs=Chlamydia General (CAFL)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=471=300,942.9=300,1885.9=300,3771.7=300,7543.4=300,"
+"Loaded_Frequencies=470=240,940.1=240,1880.09=240,3760.3=240,7520.5=240,"
+"Loaded_Frequencies=676755.5555=600,565758.5766=600,"
+"Loaded_Frequencies=379700-383950=3600,"
+"Loaded_Frequencies=3773=300,3768=300,2223=300,2218=300,2213=300,942=300,866=300,840=300,622=300,555=300,470=300,430=300,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

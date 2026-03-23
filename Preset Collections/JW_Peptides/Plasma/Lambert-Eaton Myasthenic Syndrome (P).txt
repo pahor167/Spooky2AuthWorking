@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Lambert-Eaton Myasthenic Syndrome (P)"
+"Preset_Notes=Lambert-Eaton Myasthenic Syndrome for Plasma
+
+Lambert-Eaton Myasthenic Syndrome (LEMS) is a rare autoimmune disorder of neuromuscular transmission characterized by muscle weakness (predominantly proximal), autonomic dysfunction (e.g., dry mouth, impotence, constipation), and reduced or absent tendon reflexes, with characteristic post-exercise facilitation. Approximately 50% of cases are paraneoplastic, most commonly associated with small-cell lung cancer, where the syndrome may precede cancer diagnosis by months to years; the remainder are primary autoimmune. Pathophysiology involves IgG autoantibodies targeting P/Q-type voltage-gated calcium channels on presynaptic nerve terminals, reducing calcium influx, impairing acetylcholine vesicle release, and causing failed neuromuscular transmission. This autoantibody-mediated downregulation and crosslinking of channels disrupts signaling cascades critical for neurotransmitter release, with secondary effects on autonomic cholinergic synapses.
+
+The proposed polypeptides are all conceptual designed sequences (flagged as designed), as comprehensive searches across PubMed, patents, clinical trials databases, and reviews identified no established, experimental, or investigational short polypeptide therapeutics for LEMS; primary treatments remain symptomatic (amifampridine) and immunomodulatory (e.g., IVIg, rituximab). A designed polybasic polypeptide (flagged as designed) conceptually enhances presynaptic calcium signaling or channel function to improve acetylcholine release. A designed acidic polypeptide (flagged as designed) conceptually binds and neutralizes pathogenic autoantibodies. A designed aromatic-rich polypeptide (flagged as designed) conceptually mitigates inflammatory cascades and autonomic cholinergic deficits. A designed proline-rich polypeptide (flagged as designed) conceptually provides structural stabilization at the neuromuscular junction. These short polypeptides demonstrate excellent synthetic feasibility, aqueous solubility via charged or rigid residues, low immunogenicity potential, and absence of complex modifications.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Lambert-Eaton Myasthenic Syndrome p01"
+"Loaded_Programs=Lambert-Eaton Myasthenic Syndrome p02"
+"Loaded_Programs=Lambert-Eaton Myasthenic Syndrome p03"
+"Loaded_Programs=Lambert-Eaton Myasthenic Syndrome p04"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,0=4,"
+"Loaded_Frequencies=M147.068=1,M163.063,M186.079,M147.068,M163.063,M186.079,M147.068,M163.063,M186.079,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M128.095,M97.053,M97.053,M97.053,M128.095,M97.053,M97.053,M97.053,0=4,"
+"[/Preset]"

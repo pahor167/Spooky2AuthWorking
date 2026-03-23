@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Sedoreoviridae Virus (S)"
+"Preset_Notes=Sedoreoviridae Virus for Scalar
+
+The Sedoreoviridae family consists of non-enveloped, double-stranded RNA (dsRNA) viruses characterized by a 'smooth' (sedo-) icosahedral capsid architecture, distinguishing them from the 'turreted' members of the Reovirales order. This family includes significant pathogens such as Rotavirus, the leading cause of severe dehydrating diarrhea in infants, and Orbiviruses like Bluetongue virus, which impact global livestock. The viral lifecycle involves the delivery of a transcriptionally active core into the host cytoplasm, where the dsRNA genome remains sequestered to avoid triggering innate immune sensors like RIG-I. Therapeutic design focuses on disrupting the viral 'replication factory' inclusions, inhibiting the VP4/VP7 attachment complex, and blocking the viral NSP4 enterotoxin that dysregulates intestinal calcium signaling.
+
+1. Attachment Inhibition: VP4-Targeting Peptide - Mimics the sialic acid-binding domain to competitively block Rotavirus entry into enterocytes.
+2. Enterotoxin Neutralization: NSP4(114-135) Antagonist - Inhibits the viral enterotoxin responsible for calcium-dependent secretory diarrhea.
+3. Capsid Assembly Disruption: VP7-Core Interface Peptide - Interferes with the trimerization of the outer capsid protein, preventing the formation of infectious particles.
+4. Viral Factory Dissolution: NSP2-Inhibitor - Blocks the formation of viroplasms, the cytoplasmic inclusions where viral replication and assembly occur.
+5. Endosomal Escape Blockade: VP5* Hydrophobic Loop Mimic - Prevents the membrane-permeabilization step required for the viral core to enter the cytosol.
+6. RNA Polymerase Inhibition: VP1-PA binding peptide - Targets the interaction between the viral RdRp and its cofactors to halt dsRNA synthesis.
+7. Broad-Spectrum Orbivirus Defense: VP2-Neutralizing Peptide - Targets the highly variable outer capsid protein of Orbiviruses to prevent livestock infection.
+8. Optimization Axis (Designed): Sedo-Stop-V1 - A synthetic stapled peptide designed to lock the VP6 inner capsid layer, preventing the 'uncoating' required for genome transcription.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Sedoreoviridae Virus p01"
+"Loaded_Programs=Sedoreoviridae Virus p02"
+"Loaded_Programs=Sedoreoviridae Virus p03"
+"Loaded_Programs=Sedoreoviridae Virus p04"
+"Loaded_Programs=Sedoreoviridae Virus p05"
+"Loaded_Programs=Sedoreoviridae Virus p06"
+"Loaded_Programs=Sedoreoviridae Virus p07"
+"Loaded_Programs=Sedoreoviridae Virus p08"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M156.101,M128.095,M101.048,M128.058,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M113.084,M156.101,M129.043,M113.084,M113.084,M156.101,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M128.058,M101.048,M156.101,M128.058,M101.048,M156.101,M128.058,M101.048,0=4,"
+"Loaded_Frequencies=M128.058=1,M113.084,M101.048,M129.043,M115.027,M128.058,M113.084,M101.048,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,M115.027,M163.063,M113.084,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M156.101,M57.021,M115.027,M156.101,M57.021,M115.027,M156.101,0=4,"
+"[/Preset]"

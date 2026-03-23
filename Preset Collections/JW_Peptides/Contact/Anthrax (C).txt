@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Anthrax (C)"
+"Preset_Notes=Anthrax for Contact
+
+Polypeptide designs for anthrax, addressing five key therapeutic axes derived from toxin pathophysiology and research: protective antigen (PA) pore blockade/translocation inhibition, anthrax toxin receptor (ANTXR2/CMG2) blockade, lethal factor (LF) metalloprotease inhibition, enhanced PA-targeted toxin assembly disruption, and edema factor (EF) inhibition via calmodulin interference. Three real-world polypeptides from preclinical literature (documented inhibitors), two rationally engineered from established motifs with cyclization and amidation for enhanced stability, solubility, and drug-likeness using standard amino acids.
+
+Assignments and mechanisms:
+1. PA pore-blocking dodecapeptide (real) for PA translocation inhibition via pore blockade - Binds hydrophobic pocket in PA63 channel lumen (YWWL motif), preventing LF/EF translocation into cytosol.
+2. ANTXR2-binding peptide (real) for anthrax toxin receptor blockade - Competitively binds host receptor ANTXR2, inhibiting PA attachment and toxin uptake (used in polyvalent formats preclinically).
+3. Theta-defensin RTD-1 (cyclic with three disulfides) (real) for lethal factor metalloprotease inhibition - Noncompetitive binding to LF protease domain, blocking MAPKK cleavage and macrophage cytotoxicity.
+4. Cyclic PA pore-blocking variant (disulfide cyclic, C-amidated) (designed) for enhanced PA-targeted toxin assembly disruption - Engineered cyclic analog of literature pore-blocking motif for improved affinity and stability, disrupting PA63-LF/EF interaction.
+5. Calmodulin-binding peptide (C-amidated) (designed) for edema factor inhibition - High-affinity CaM antagonist motif interferes with CaM activation of EF adenylate cyclase, reducing cAMP elevation and edema.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Anthrax p01"
+"Loaded_Programs=Anthrax p02"
+"Loaded_Programs=Anthrax p03"
+"Loaded_Programs=Anthrax p04"
+"Loaded_Programs=Anthrax p05"
+"Loaded_Frequencies=M137.059=1,M101.048,M87.032,M101.048,M163.063,M186.079,M186.079,M113.084,M115.027,M57.021,M71.037,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M186.079,M97.053,M113.084,M87.032,M128.058,M113.084,M115.027,M137.059,M87.032,M163.063,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M102.001,M156.101,M102.001,M113.084,M102.001,M156.101,M156.101,M57.021,M99.068,M102.001,M156.101,M102.001,M113.084,M102.001,M101.048,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M137.059,M101.048,M87.032,M101.048,M163.063,M186.079,M186.079,M113.084,M115.027,M57.021,M71.037,M97.053,M101.017,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M156.101,M186.079,M128.095,M128.095,M114.043,M147.068,M113.084,M71.037,M99.068,M87.032,M71.037,M71.037,M114.043,M156.101,M147.068,M128.095,M128.095,M113.084,M86.048,0=4,"
+"[/Preset]"

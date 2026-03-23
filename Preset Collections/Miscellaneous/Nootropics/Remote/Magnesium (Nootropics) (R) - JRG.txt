@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Magnesium (Nootropics) (R) - JRG"
+"Loaded_Programs=Magnesium (CUST)"
+"Loaded_Frequencies=M294.04374,"
+"Preset_Notes=Magnesium doesn't get the respect it should as a nootropic. The lack of adequate levels of magnesium in your body can result in brain fog, anxiety and depression.|Magnesium deficiency is nearly epidemic in our society because it is sorely lacking in our food supply.|Plasticity of neuron synapses is affected by the presence of adequate magnesium in brain cells. It helps improve memory and cognition. And reduces anxiety, brain fog and depression.|Magnesium can also help maintain healthy blood pressure, and help prevent sudden heart attack and stroke.|Most forms of Magnesium don't work well as a nootropic supplement because they can't easily cross the blood-brain barrier. A new form of magnesium called Magnesium-L-threonate is recommended for nootropic use. And is a great addition to any nootropic stack.|A typical adult dosage of magnesium-L-threonate is 1 gram per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

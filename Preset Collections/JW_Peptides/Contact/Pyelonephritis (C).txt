@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Pyelonephritis (C)"
+"Preset_Notes=Pyelonephritis for Contact
+
+Pyelonephritis is a bacterial infection of the kidney, typically ascending from the lower urinary tract (commonly E. coli), causing inflammation, potential abscess formation, and risk of sepsis.
+
+1. Epithelial antimicrobial defense: Human Beta-Defensin 2 (hBD-2) - Inducible cationic peptide expressed in urinary tract epithelium, disrupting gram-negative bacterial membranes.
+2. Broad-spectrum antimicrobial activity: Human Beta-Defensin 3 (hBD-3) - Highly potent defensin with bactericidal and antibiofilm effects against uropathogens in pyelonephritis.
+3. Neutrophil-derived bactericidal action: HNP-1_Alpha_Defensin - Alpha-defensin from neutrophils directly killing invading bacteria and protecting urinary tract integrity.
+4. Renal vasodilation and protection: Adrenomedullin - Endogenous peptide elevated in acute pyelonephritis, promoting renal blood flow and reducing inflammatory damage.
+5. Adaptive immune enhancement: Thymosin alpha-1 - Immunostimulatory peptide boosting T-cell and dendritic cell responses to clear persistent infection.
+6. Enhanced cationic disruption: Poly-Arg6-NH2 - Designed homo-arginine hexapeptide delivering high positive charge for rapid membrane lysis of gram-negative uropathogens.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Pyelonephritis p01"
+"Loaded_Programs=Pyelonephritis p02"
+"Loaded_Programs=Pyelonephritis p03"
+"Loaded_Programs=Pyelonephritis p04"
+"Loaded_Programs=Pyelonephritis p05"
+"Loaded_Programs=Pyelonephritis p06"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M102.001,M137.059,M97.053,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M102.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M102.001,M102.001,M128.095,M128.095,M96.069,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M102.001,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"[/Preset]"

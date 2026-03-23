@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Choline Bitartrate (Nootropics) (R) - JRG"
+"Loaded_Programs=Choline Bitartrate (CUST)"
+"Loaded_Frequencies=M253.11615,"
+"Preset_Notes=Choline Bitartrate is a choline salt, and one of the least costly sources of choline as a nootropic supplement. Its a weaker source of choline than Alpha GPC and CDP-Choline. Meaning you need to use more to achieve similar nootropic effects.|Dosing for choline bitartrate ranges from 500 mg - 5 grams daily.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

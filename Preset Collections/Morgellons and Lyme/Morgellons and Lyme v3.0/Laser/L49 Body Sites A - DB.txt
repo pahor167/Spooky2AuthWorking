@@ -1,0 +1,55 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=L49 Body Sites A - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Laser.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Osteosinusitis Max CAFL
+Sinusitis Maxillaris CAFL
+Sinusitis Frontalis CAFL
+Sinus Bacteria PROV
+Lung Sinus Bacteria CAFL
+Sinusitis KHZ
+Rhinoscleroma KHZ
+Dental Foci CAFL
+Treponema Denticola XTRA
+Porphyromonas Gingivalis XTRA
+Diplococcus Diphtheriae 2 XTRA
+Enterococcus Faecalis XTRA
+Elkanella Corrodens 2 XTRA
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Osteosinusitis Max (CAFL)"
+"Loaded_Programs=Sinusitis Maxillaris (CAFL)"
+"Loaded_Programs=Sinusitis Frontalis (CAFL)"
+"Loaded_Programs=Sinus Bacteria (PROV)"
+"Loaded_Programs=Lung Sinus Bacteria (CAFL)"
+"Loaded_Programs=Sinusitis (KHZ)"
+"Loaded_Programs=Rhinoscleroma (KHZ)"
+"Loaded_Programs=Dental Foci (CAFL)"
+"Loaded_Programs=Treponema Denticola (XTRA)"
+"Loaded_Programs=Porphyromonas Gingivalis (XTRA)"
+"Loaded_Programs=Diplococcus Diphtheriae 2 (XTRA)"
+"Loaded_Programs=Enterococcus Faecalis (XTRA)"
+"Loaded_Programs=Eikanella Corrodens 2 (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=243=420,327=420,"
+"Loaded_Frequencies=160=300,741=300,"
+"Loaded_Frequencies=952=300,320=300,682=300,"
+"Loaded_Frequencies=548=300,"
+"Loaded_Frequencies=244=240,1466=240,597=240,1311=240,"
+"Loaded_Frequencies=110=180,400=180,830=180,5500=180,25000=180,125170=180,225750=180,475190=180,527000=180,662710=180,"
+"Loaded_Frequencies=80=180,240=180,630=180,7820=180,32250=180,67500=180,155290=180,391020=180,415700=180,726070=180,"
+"Loaded_Frequencies=5170=180,3000=180,2720=180,2489=180,1800=180,1600=180,1550=180,1500=180,880=180,832=180,802=180,787=180,776=180,727=180,666=180,650=180,646=180,600=180,465=180,190=180,95=180,47.5=180,"
+"Loaded_Frequencies=842=180,"
+"Loaded_Frequencies=867=180,"
+"Loaded_Frequencies=894.83=180,17973.13=180,"
+"Loaded_Frequencies=834=180,"
+"Loaded_Frequencies=946.87=180,19018.65=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

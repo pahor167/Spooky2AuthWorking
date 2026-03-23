@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Alkaptonuria (P)"
+"Preset_Notes=Alkaptonuria for Plasma
+
+Alkaptonuria (AKU) is a rare autosomal recessive genetic disorder caused by mutations in the HGD gene on chromosome 3q13.33, leading to a deficiency in the enzyme homogentisate 1,2-dioxygenase (HGD), which is crucial in the catabolic pathway of phenylalanine and tyrosine. This deficiency results in the accumulation of homogentisic acid (HGA), a metabolite that, when oxidized, forms a dark polymeric pigment that deposits in connective tissues, a phenomenon known as ochronosis. The pigment deposition primarily affects cartilage, tendons, ligaments, heart valves, kidneys, prostate, and skin, causing progressive tissue damage. Symptoms often emerge in the third or fourth decade of life and include darkening of urine upon exposure to air (due to HGA oxidation), blue-black pigmentation of the ears (ochronotic pigmentation), sclera, and skin, chronic joint pain and stiffness particularly in the spine and large joints (ochronotic arthropathy), spinal deformities such as kyphosis or scoliosis, heart valve thickening and stenosis (especially aortic valve), kidney stones, prostate stones, and occasionally respiratory issues from spinal involvement. The pathophysiology involves multiple mechanisms: HGA-induced oxidative stress leading to cell damage and apoptosis, chronic inflammation triggered by pigment deposition, secondary amyloidosis through serum amyloid A (SAA) aggregation and fibril formation, enhanced osteoclast activity causing bone resorption and joint destruction, and altered extracellular matrix integrity. Without treatment, the disease progresses to severe disability, requiring joint replacements and cardiovascular interventions. Current management includes symptomatic relief with painkillers, physiotherapy, and surgery, while nitisinone (a small molecule inhibitor of upstream enzyme HPPD) reduces HGA levels but causes tyrosinemia, necessitating a low-phenylalanine/tyrosine diet.
+
+The mechanistic rationale for the proposed polypeptides focuses on addressing key therapeutic axes: reduction of HGA production, enhancement of HGA metabolism, prevention of ochronosis, mitigation of oxidative stress, anti-inflammatory effects, inhibition of SAA aggregation, bone and cartilage protection, and dietary support. Since extensive searches using web_search and browse_page tools across PubMed, NIH, ClinicalTrials.gov, and other sources yielded no verifiable real-world polypeptides (peptides, proteins, enzymes, antibodies, etc.) used or studied for AKU treatment-only small molecules like nitisinone and dietary approaches were found-all polypeptides here are designed conceptual ones to fill the gap and meet minimum requirements, flagged as designed. These designed homopeptides are hypothetical, based on amino acid properties: alanine for structural stability in tissues, cysteine for antioxidant thiol groups to combat oxidative stress, aspartic acid for acidic properties to potentially chelate pigments, glutamic acid for similar acidic roles in pH modulation, phenylalanine for mimicking substrate to inhibit enzymes, glycine for flexibility in cartilage repair, histidine for catalytic mimicry of enzymes, isoleucine for hydrophobic interactions in amyloid disruption, lysine for basic properties in inflammation modulation, leucine for structural support, methionine for oxidation protection, asparagine for glycosylation mimicry, proline for collagen-like structure, glutamine for amide groups in metabolic aid, arginine for positive charge in receptor binding, serine for phosphorylation sites in signaling, threonine for similar, and valine for branching in protein folding. Feasibility includes peptide synthesis ease, potential for oral or injected delivery, and low toxicity; physicochemical considerations involve hydrophobicity (affecting solubility), charge (for cell penetration), and short length (for stability and absorption). They aim to cover all axes, with multiple per axis for comprehensiveness, though clinical validation would be needed.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Alkaptonuria p01"
+"Loaded_Programs=Alkaptonuria p02"
+"Loaded_Programs=Alkaptonuria p03"
+"Loaded_Programs=Alkaptonuria p04"
+"Loaded_Programs=Alkaptonuria p05"
+"Loaded_Programs=Alkaptonuria p06"
+"Loaded_Programs=Alkaptonuria p07"
+"Loaded_Programs=Alkaptonuria p08"
+"Loaded_Programs=Alkaptonuria p09"
+"Loaded_Programs=Alkaptonuria p10"
+"Loaded_Programs=Alkaptonuria p11"
+"Loaded_Programs=Alkaptonuria p12"
+"Loaded_Programs=Alkaptonuria p13"
+"Loaded_Programs=Alkaptonuria p14"
+"Loaded_Programs=Alkaptonuria p15"
+"Loaded_Programs=Alkaptonuria p16"
+"Loaded_Programs=Alkaptonuria p17"
+"Loaded_Programs=Alkaptonuria p18"
+"Loaded_Frequencies=M71.037=1,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,M71.037,0=4,"
+"Loaded_Frequencies=M103.009=1,M103.009,M103.009,M103.009,M103.009,M103.009,M103.009,M103.009,0=4,"
+"Loaded_Frequencies=M115.027=1,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M129.043,M129.043,M129.043,M129.043,M129.043,M129.043,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M131.040,M131.040,M131.040,M131.040,M131.040,M131.040,M131.040,0=4,"
+"Loaded_Frequencies=M114.043=1,M114.043,M114.043,M114.043,M114.043,M114.043,M114.043,M114.043,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,0=4,"
+"Loaded_Frequencies=M128.058=1,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M87.032,M87.032,M87.032,M87.032,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M101.048=1,M101.048,M101.048,M101.048,M101.048,M101.048,M101.048,M101.048,0=4,"
+"Loaded_Frequencies=M99.068=1,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,0=4,"
+"[/Preset]"

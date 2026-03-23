@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Plant Acute and Chronic Pests (P)"
+"Preset_Notes=Plant Acute and Chronic Pests for Plasma
+
+Plant acute and chronic pests include sudden outbreaks of sucking/chewing insects (e.g., aphids, caterpillars) causing rapid damage and persistent fungal (Fusarium, Botrytis), bacterial (Xanthomonas, Pseudomonas), and nematode infections leading to sustained yield loss. Proposed polypeptides target 11 evidence-based therapeutic axes from peer-reviewed literature, preclinical transgenic/spray studies, and patents on AMPs, ICK toxins, cyclotides, and elicitors for direct lysis, neurotoxicity, immune induction, digestive disruption, and optimized field performance in sustainable plant protection.
+
+1. Defensin-mediated fungal membrane permeabilization and ROS induction for chronic fungal pests: RsAFP2 targets glucosylceramides, triggers ROS/apoptosis in Fusarium/Botrytis.
+2. Thionin-mediated antibacterial pore formation for acute bacterial pests: {alpha}1-purothionin lyses Xanthomonas/Pseudomonas membranes.
+3. ICK neurotoxin ion-channel blockade for acute insect paralysis: GS-{omega}/{kappa}-HXTX-Hv1a blocks Ca2+/K+ channels in aphids/thrips/caterpillars (Spear-T commercial evidence).
+4. Cyclotide pore formation and larval growth inhibition for chronic insect/nematode pests: kalata B1 disrupts gut membranes, inhibits Helicoverpa/nematode development.
+5. Flagellin PAMP elicitor for broad plant immunity activation against multiple pests: flg22 activates PR genes and systemic resistance.
+6. Engineered amphipathic helical peptide for broad-spectrum membrane disruption in mixed infections.
+7. Engineered cysteine-knot protease inhibitor motif for chronic insect gut enzyme blockade.
+8. Engineered head-to-tail cyclic peptide with D-amino acids for enhanced spray stability against acute pests.
+9. Engineered high-cationic peptide for bacterial biofilm penetration in chronic infections.
+10. Engineered hybrid motif for synergistic enhancement of endogenous plant defenses.
+11. Engineered short optimized defensin variant for nematode-specific root protection (novel axis for coverage).
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Plant Acute and Chronic Pests p01"
+"Loaded_Programs=Plant Acute and Chronic Pests p02"
+"Loaded_Programs=Plant Acute and Chronic Pests p03"
+"Loaded_Programs=Plant Acute and Chronic Pests p04"
+"Loaded_Programs=Plant Acute and Chronic Pests p05"
+"Loaded_Programs=Plant Acute and Chronic Pests p06"
+"Loaded_Programs=Plant Acute and Chronic Pests p07"
+"Loaded_Programs=Plant Acute and Chronic Pests p08"
+"Loaded_Programs=Plant Acute and Chronic Pests p09"
+"Loaded_Programs=Plant Acute and Chronic Pests p10"
+"Loaded_Programs=Plant Acute and Chronic Pests p11"
+"Loaded_Frequencies=M128.095=1,M113.084,M103.009,M128.058,M97.052,M87.032,M156.101,M99.068,M101.047,M87.032,M186.079,M87.032,M99.068,M103.009,M57.021,M114.042,M114.042,M114.042,M71.037,M103.009,M128.094,M114.042,M128.058,M113.084,M128.058,M137.058,M71.037,M128.094,M113.084,M128.058,M71.037,M128.094,M156.101,M99.068,M87.032,M103.009,M114.042,M128.094,M99.068,M101.047,M156.101,M128.094,M103.009,M113.084,M99.068,M103.009,M87.032,M103.009,0=4,"
+"Loaded_Frequencies=M128.094=1,M87.032,M103.009,M103.009,M128.094,M87.032,M101.047,M113.084,M99.068,M128.094,M103.009,M99.068,M128.094,M99.068,M128.058,M128.058,M99.068,M128.058,M103.009,M128.094,M128.058,M113.084,M113.084,M103.009,M128.058,M113.084,M128.058,M71.037,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M128.094,M103.009,M128.058,M128.058,M57.021,M99.068,M99.068,M101.047,M99.068,M103.009,M87.032,M99.068,M103.009,M128.058,M87.032,M99.068,M103.009,M128.058,M128.058,M99.068,M103.009,M128.058,M128.058,M99.068,M103.009,0=4,"
+"Loaded_Frequencies=M128.058=1,M128.058,M113.084,M113.084,M99.068,M128.058,M113.084,M128.058,M128.058,M128.058,M99.068,M103.009,M128.058,M128.058,M99.068,M128.058,M128.058,M99.068,M128.058,M103.009,M128.058,M99.068,M103.009,0=4,"
+"Loaded_Frequencies=M128.058=1,M113.084,M113.084,M128.058,M113.084,M128.058,M128.058,M99.068,M128.058,M113.084,M113.084,M99.068,M103.009,M128.058,M128.058,M99.068,M103.009,M128.058,M128.058,M99.068,M103.009,0=4,"
+"Loaded_Frequencies=M128.058=1,M113.084,M113.084,M128.058,M113.084,M128.058,M128.058,M99.068,M128.058,M113.084,M113.084,M99.068,M103.009,M128.058,M128.058,M99.068,M103.009,M128.058,M128.058,M99.068,M103.009,0=4,"
+"Loaded_Frequencies=M128.058=1,M113.084,M113.084,M128.058,M113.084,M128.058,M128.058,M99.068,M128.058,M113.084,M113.084,M99.068,M103.009,M128.058,M128.058,M99.068,M103.009,M128.058,M128.058,M99.068,M103.009,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M113.084,M99.068,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M57.021,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M103.009=1,M128.058,M113.084,M99.068,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M115.027,M147.068,M113.084,0=4,"
+"[/Preset]"

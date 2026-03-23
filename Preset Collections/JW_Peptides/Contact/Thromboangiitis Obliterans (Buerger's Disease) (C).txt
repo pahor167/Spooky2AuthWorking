@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Thromboangiitis Obliterans (Buerger’s Disease) (C)"
+"Preset_Notes=Thromboangiitis Obliterans (Buerger’s Disease) for Contact
+
+Thromboangiitis Obliterans (Buerger's Disease)
+
+Thromboangiitis obliterans, also known as Buerger's disease, is a rare, chronic, non-atherosclerotic inflammatory vasculitis characterized by segmental thrombosis and occlusion of small- and medium-sized arteries and veins, predominantly in the distal extremities. The condition is strongly linked to tobacco exposure, with smoking acting as a primary trigger and sustainer of disease progression through immune dysregulation, endothelial activation, and prothrombotic states. Pathophysiology involves acute neutrophil infiltration, microabscesses, and inflammatory thrombi in early stages, progressing to organized thrombi and vascular fibrosis, leading to severe tissue ischemia. Common causes include heavy smoking in genetically susceptible individuals (e.g., certain HLA alleles). Symptoms encompass intermittent claudication, rest pain, paresthesia, migratory superficial thrombophlebitis, Raynaud's phenomenon, digital ulcers, and gangrene, often affecting young adults (typically males under 45). Without tobacco cessation, progression is relentless, frequently resulting in amputations.
+
+The proposed designed polypeptides comprehensively address the core pathophysiological axes: (1) impaired perfusion due to vascular occlusion and lack of collateral formation; (2) persistent vascular inflammation and immune-mediated endothelial injury; (3) tissue ischemia with associated neuropathic pain and delayed wound healing. The first designed polypeptide is a disulfide-cyclized VEGF-mimetic based on the established QK motif (known from literature for replicating VEGF's angiogenic effects via receptor binding, endothelial proliferation, and tube formation), engineered with terminal cysteines for cyclization to enhance serum stability and bioavailability while promoting therapeutic angiogenesis in ischemic tissues. The second is a C-amidated analog derived from the gastric pentadecapeptide BPC-157 motif (documented in preclinical studies for potent anti-inflammatory, vasculoprotective, and regenerative properties, including NO modulation and accelerated healing), tailored to mitigate vasculitis and support ulcer resolution. The third is an EPO-derived motif analog (based on ARA290/cibinetide, an investigational peptide with demonstrated tissue-protective and immunomodulatory effects via innate repair receptor activation without erythropoietic activity), featuring N-terminal pyroglutamate for stability, to alleviate neuropathic pain and reduce inflammatory damage. These short, modified peptides exhibit favorable physicochemical profiles (hydrophilic, low instability, balanced charge) for potential therapeutic use, offering multi-modal intervention where current options (smoking cessation, iloprost, experimental cell/gene therapies) are limited.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Thromboangiitis Obliterans (Buerger’s Disease) p01"
+"Loaded_Programs=Thromboangiitis Obliterans (Buerger’s Disease) p02"
+"Loaded_Programs=Thromboangiitis Obliterans (Buerger’s Disease) p03"
+"Loaded_Frequencies=M102.001=1,M128.095,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M113.084,M102.001,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M86.048,0=4,"
+"[/Preset]"

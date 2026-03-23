@@ -1,0 +1,60 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Heart Failure with Reduced Ejection Fraction (S)"
+"Preset_Notes=Heart Failure with Reduced Ejection Fraction for Scalar
+
+Heart failure with reduced ejection fraction (HFrEF) is a syndrome where the heart's pumping efficiency is impaired (EF <=40%), often following viral myocarditis, leading to symptoms like fatigue, shortness of breath, and fluid retention due to neurohormonal activation, mitochondrial dysfunction, inflammation, and fibrosis.
+
+1. Atrial natriuretic augmentation: ANP - Stimulates diuresis, natriuresis, and vascular relaxation to reduce preload and afterload.
+2. Brain natriuretic augmentation: BNP - Promotes natriuresis, diuresis, and vasodilation to unload the heart.
+3. C-type natriuretic augmentation: CNP - Enhances endothelial vasodilation and inhibits cardiac hypertrophy.
+4. Vasodilatory protection: Adrenomedullin - Induces vasodilation, natriuresis, and suppresses aldosterone.
+5. VIPergic vasodilation: VIP - Relaxes vascular smooth muscle and reduces systemic vascular resistance.
+6. Sympathetic inhibition: Catestatin - Suppresses catecholamine release to lower adrenergic drive.
+7. Mitochondrial stabilization: Elamipretide - Targets cardiolipin to reduce oxidative stress and improve energy production.
+8. Cardiac regeneration: Thymosin_beta_4 - Promotes angiogenesis, reduces inflammation, and supports myocardial repair.
+9. Inflammation resolution: Annexin_A1_Ac2-26 - Activates formyl peptide receptors to resolve chronic inflammation.
+10. Anti-fibrotic intervention: P144 - Inhibits TGF-{beta} signaling to prevent myocardial fibrosis.
+11. Incretin-mediated cardioprotection: Tirzepatide - Reduces inflammation, improves metabolic profile, and supports cardiac function.
+12. Engineered calcium handling: CardioPep-1 - Mimics S100A1 C-terminal domain to enhance SERCA2a activity and calcium cycling.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Heart Failure with Reduced Ejection Fraction p01"
+"Loaded_Programs=Heart Failure with Reduced Ejection Fraction p02"
+"Loaded_Programs=Heart Failure with Reduced Ejection Fraction p03"
+"Loaded_Programs=Heart Failure with Reduced Ejection Fraction p04"
+"Loaded_Programs=Heart Failure with Reduced Ejection Fraction p05"
+"Loaded_Programs=Heart Failure with Reduced Ejection Fraction p06"
+"Loaded_Programs=Heart Failure with Reduced Ejection Fraction p07"
+"Loaded_Programs=Heart Failure with Reduced Ejection Fraction p08"
+"Loaded_Programs=Heart Failure with Reduced Ejection Fraction p09"
+"Loaded_Programs=Heart Failure with Reduced Ejection Fraction p10"
+"Loaded_Programs=Heart Failure with Reduced Ejection Fraction p11"
+"Loaded_Programs=Heart Failure with Reduced Ejection Fraction p12"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M87.032,M113.084,M115.027,M71.037,M87.032,M113.084,M113.084,M186.079,M71.037,M131.040,M131.040,M128.058,M114.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M113.084,M85.053,M113.084,M115.027,M128.095,M113.084,M128.058,M85.053,M71.037,M147.068,M99.068,M128.058,M186.079,M113.084,M113.084,M57.021,M97.053,M97.053,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M163.063=1,M99.068,M99.068,M113.084,M99.068,M71.037,M71.037,M113.084,M101.048,M99.068,M71.037,M103.009,M114.043,M114.043,M147.068,M147.068,M186.079,M129.043,M114.043,M87.032,0=4,"
+"[/Preset]"

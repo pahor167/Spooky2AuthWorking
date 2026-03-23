@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=SARS-CoV-2 (Coil)"
+"Preset_Notes=SARS-CoV-2 for Coil
+
+SARS-CoV-2, the causative agent of COVID-19, is an enveloped positive-sense RNA betacoronavirus that triggers respiratory infection, cytokine storm, acute respiratory distress syndrome (ARDS), vascular leakage, and multi-organ damage via spike-mediated entry/fusion, immune dysregulation, and inflammation. No specific peptide therapeutics are approved, but several show promise in preclinical antiviral assays, immunomodulation trials, and lung protection models. The proposed polypeptides target key evidence-based axes.
+
+1. Human cathelicidin direct virucidal activity: LL-37 disrupts viral envelopes, inhibits SARS-CoV-2 infectivity, and modulates host immunity.
+2. Thymosin {alpha}1 immune homeostasis restoration: Thymosin_alpha_1 reduces mortality in severe COVID-19 by reversing lymphocytopenia and T-cell exhaustion.
+3. Vasoactive intestinal peptide lung protection: VIP (aviptadil) suppresses cytokines, protects alveolar cells, and was trialed for COVID-19 ARDS.
+4. Stable gastric pentadecapeptide vascular stabilization: BPC-157 attenuates endothelial damage, leakage, and promotes organ protection relevant to COVID-19 complications.
+5. EPO-derived helical peptide innate repair: ARA-290 activates anti-inflammatory pathways and supports recovery from viral-induced damage.
+6. Copper-binding tripeptide regenerative support: GHK-Cu enhances tissue remodeling and antioxidant defenses in inflammatory states.
+7. Engineered stabilized cathelicidin core for potent antiviral optimization: Ac-KEFKRIVQRIKDFLRNLV-NH2 (amidated, acetylated for stability) targets enveloped virus disruption with enhanced pharmacokinetics.
+
+"
+"Loaded_Programs=SARS-CoV-2 p01"
+"Loaded_Programs=SARS-CoV-2 p02"
+"Loaded_Programs=SARS-CoV-2 p03"
+"Loaded_Programs=SARS-CoV-2 p04"
+"Loaded_Programs=SARS-CoV-2 p05"
+"Loaded_Programs=SARS-CoV-2 p06"
+"Loaded_Programs=SARS-CoV-2 p07"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M170.106=1,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M98.084,0=4,"
+"[/Preset]"

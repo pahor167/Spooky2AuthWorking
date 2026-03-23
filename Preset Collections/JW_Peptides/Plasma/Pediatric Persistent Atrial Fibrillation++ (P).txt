@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Pediatric Persistent Atrial Fibrillation++ (P)"
+"Preset_Notes=Pediatric Persistent Atrial Fibrillation++ for Plasma
+
+Pediatric Persistent Atrial Fibrillation with Hypertensive Heart Disease and Syncope
+
+This complex pediatric presentation involves persistent atrial fibrillation secondary to hypertension-induced cardiac remodeling, complicated by syncopal episodes indicating cerebral hypoperfusion. The polypeptide protocol addresses: (1) atrial rate control through specific ion channel modulation, (2) afterload reduction to decrease cardiac wall stress, (3) antifibrotic therapy to reverse hypertensive remodeling, (4) neuroprotection against hypoperfusion injury, (5) vasodilation for blood pressure management, (6) cytoprotection for ischemic tolerance, and (7) tissue regeneration for damaged myocardium. All peptides selected have favorable safety profiles suitable for pediatric consideration.
+
+1. Afterload reduction and volume management: Nesiritide - Brain natriuretic peptide reduces cardiac wall stress and promotes vasodilation
+2. Antifibrotic remodeling inhibition: CNP - C-type natriuretic peptide inhibits cardiac fibroblast-to-myofibroblast differentiation
+3. Neurogenic vasodilation and cardioprotection: CGRP - Calcitonin gene-related peptide induces potent vasodilation and protects against ischemia
+4. Anti-inflammatory immunomodulation: IDR-1018 - Innate defense regulator peptide suppresses pro-inflammatory cytokines
+5. Mitochondrial and neuronal protection: Humanin - Mitochondrial-derived peptide protects neurons and cardiomyocytes from ischemic injury
+6. Tissue regeneration and repair: BPC-157 - Synthetic gastric pentadecapeptide promotes angiogenesis and tissue healing
+7. Cytoprotection and ischemic tolerance: ARA-290 - Erythropoietin mimetic peptide protects against ischemia-reperfusion injury
+8. Atrial rate control (Kv1.5 inhibition): Atri-Rate - Selective Kv1.5 channel inhibitor prolongs atrial action potential duration
+9. Cerebral hypoperfusion protection: Neuro-Guard - Neuroprotective peptide prevents ischemic neuronal injury during syncopal episodes
+10. Reverse cardiac remodeling: Cardio-Remodel - Inhibits fibronectin polymerization to prevent pathological fibrosis
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Pediatric Persistent Atrial Fibrillation++ p01"
+"Loaded_Programs=Pediatric Persistent Atrial Fibrillation++ p02"
+"Loaded_Programs=Pediatric Persistent Atrial Fibrillation++ p03"
+"Loaded_Programs=Pediatric Persistent Atrial Fibrillation++ p04"
+"Loaded_Programs=Pediatric Persistent Atrial Fibrillation++ p05"
+"Loaded_Programs=Pediatric Persistent Atrial Fibrillation++ p06"
+"Loaded_Programs=Pediatric Persistent Atrial Fibrillation++ p07"
+"Loaded_Programs=Pediatric Persistent Atrial Fibrillation++ p08"
+"Loaded_Programs=Pediatric Persistent Atrial Fibrillation++ p09"
+"Loaded_Programs=Pediatric Persistent Atrial Fibrillation++ p10"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M147.063,M99.068,M128.095,M57.021,M87.032,M57.021,M103.009,M147.068,M57.021,M129.043,M128.095,M147.063,M115.027,M128.095,M99.068,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M103.009,M128.095,M113.084,M113.084,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M147.068,M87.032,M156.101,M115.027,M71.037,M163.063,M186.079,M115.027,M186.079,M156.101,M129.043,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M97.053,M71.037,M71.037,M103.009,M113.084,M99.068,M186.079,M128.095,M101.048,M103.009,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M57.021,M115.027,M87.032,M97.053,M103.009,0=4,"
+"[/Preset]"

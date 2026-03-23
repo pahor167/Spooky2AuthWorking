@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"PresetName=1. Immunomodulators"
+"Loaded_Frequencies=326=113,2655=113,21554=113,326=113,634=113,326=113,6771.59=113,6772.13=113,6749=113,6773.44=113,6772.29=113,6725.50=113,5965.19=113,5198.33=113,5543.65=113,5631.24=113,9916.73=113,8798.81=113,8661.95=113,4628.34=113,4128.50=113,2931.45=113,2208.53=113,2100.67=113,326=113,2655=113,21554=113,326=113,13543.18=113,13543.89=113,13544.26=113,13544.49=113,13546.48=113,13546.88=113,13544.59=113,13545.21=113,13546.95=113,11930.39=113,10396.66=113,9916.73=113,8798.81=113,8661.95=113,4628.34=113,4128.50=113,2931.45=113,2208.53=113,2100.67=113,326=113,7635.45=113,6653.86=113,6346.71=113,5631.24=113,5543.65=113,2962.14=113,2642.24=113,1876.13=113,1413.46=113,1344.43=113,1902=113,317=113,326=113,2655=113,21554=113,326=113,0=113,"
+"Loaded_Programs=1. Immunomodulators"
+"Preset_Notes=Cancer Protocol, Scalar Plus method, Generator 1, for Scalar. 
+
+This preset contains Scalar frequency sets for Spooky Scalar. Run this preset concurrently with the presets 'Scalar2/Gen2 (R) - BY'. See '\Cancer\BY\Cancer Presets.pdf' for a schedule to run these presets.
+
+The entire schedule for this protocol is in the notes of 'Scalar2/Gen2 (S) - BY'. Here is the schedule for this preset:
+  Generator 1, Scalar2/Gen1/Immunomodulators (S) - BY
+    Day 16
+    Day 17
+    Day 18
+
+This preset has the following programs:
+
+Immunomodulators: Calcifications - XTRA, Bacillus Licheniformis - XTRA, Calcifications - XTRA, Nanobacter - CAFL, Calcifications - XTRA, Nanobacter 2 - CUST, Calcifications - XTRA, Bacillus Licheniformis - XTRA, Calcifications - XTRA, Nanobacter 3 - CUST, Calcifications - XTRA, Nanobacterium Sanguineum TR - CUST, Calcifications - XTRA, Bacillus Licheniformis - XTRA, Calcifications - XTRA
+
+Here is a table to find the beginning of each day in this preset:
+1: Immunomodulators
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"

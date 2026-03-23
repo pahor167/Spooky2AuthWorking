@@ -1,0 +1,54 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Antimicrobial Polypeptides - Aquaspirillum Serpens (C)"
+"Preset_Notes=Antimicrobial Polypeptides - Aquaspirillum Serpens for Contact
+
+Antimicrobial Polypeptides Targeting Aquaspirillum serpens (Gram-Negative Model Bacterium)
+
+Aquaspirillum serpens is a non-pathogenic, helical Gram-negative freshwater bacterium distinguished by its crystalline S-layer protein lattice. As a model for Gram-negative envelope structures, it informs selection and design of antimicrobial polypeptides. This panel spans 12 mechanistic axes for comprehensive coverage against Gram-negative targets, including established natural sequences and novel designs.
+
+1. Alpha-helical pore-forming: Cecropin A - Insect-derived amphipathic helix that oligomerizes to form transmembrane pores
+2. Proline-rich intracellular targeting: Apidaecin Ia - Non-membrane-lytic peptide that translocates and inhibits bacterial protein biosynthesis
+3. Beta-sheet disulfide-stabilized: Protegrin-1 - Cationic beta-hairpin with cystine scaffold enabling stable pore formation
+4. Tryptophan-rich membrane insertion: Indolicidin - Short bovine peptide using aromatic wedges for interface disruption
+5. Cell-penetrating nucleic acid binding: Buforin II - Histone-derived helix that enters cells and targets DNA/RNA
+6. Carpet-model membrane lysis: Magainin_2 - Amphipathic helix binding parallel to bilayer causing detergent-like disruption
+7. Engineered alpha-helical variant: Pexiganan - Synthetic magainin analog optimized for potency and protease resistance
+8. Engineered short cationic: Omiganan - Indolicidin-derived clinical candidate with broad rapid killing
+9. Amphipathic helical lytic: Dermaseptin S1 - Long frog skin peptide with strong activity via membrane permeabilization
+10. Minimal short helical: Temporin A - Compact amphibian peptide achieving rapid Gram-negative killing
+11. High-charge repeat helical: HelixGN1 - Designed (KL) repeat motif maximizing cationic density for LPS affinity and helical stability
+12. Optimized proline/arginine-rich: ProRichGN1 - Designed sequence enhancing translocation and intracellular inhibition over natural analogs
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Antimicrobial Polypeptides - Aquaspirillum Serpens p01"
+"Loaded_Programs=Antimicrobial Polypeptides - Aquaspirillum Serpens p02"
+"Loaded_Programs=Antimicrobial Polypeptides - Aquaspirillum Serpens p03"
+"Loaded_Programs=Antimicrobial Polypeptides - Aquaspirillum Serpens p04"
+"Loaded_Programs=Antimicrobial Polypeptides - Aquaspirillum Serpens p05"
+"Loaded_Programs=Antimicrobial Polypeptides - Aquaspirillum Serpens p06"
+"Loaded_Programs=Antimicrobial Polypeptides - Aquaspirillum Serpens p07"
+"Loaded_Programs=Antimicrobial Polypeptides - Aquaspirillum Serpens p08"
+"Loaded_Programs=Antimicrobial Polypeptides - Aquaspirillum Serpens p09"
+"Loaded_Programs=Antimicrobial Polypeptides - Aquaspirillum Serpens p10"
+"Loaded_Programs=Antimicrobial Polypeptides - Aquaspirillum Serpens p11"
+"Loaded_Programs=Antimicrobial Polypeptides - Aquaspirillum Serpens p12"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M101.048,M99.068,M128.095,M114.043,M128.058,M156.101,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M114.043,M114.043,M156.101,M97.053,M99.068,M163.063,M113.084,M97.053,M128.058,M97.053,M156.101,M97.053,M97.053,M137.059,M97.053,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M186.079,M128.095,M101.048,M131.040,M113.084,M128.095,M128.095,M113.084,M57.021,M101.048,M131.040,M71.037,M113.084,M137.059,M71.037,M57.021,M128.095,M71.037,M71.037,M113.084,M57.021,M71.037,M71.037,M71.037,M115.027,M101.048,M113.084,M87.032,M128.058,M57.021,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M97.053,M113.084,M113.084,M57.021,M156.101,M99.068,M113.084,M87.032,M57.021,M113.084,M112.100,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M113.084,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M113.084,M113.084,M127.111,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M97.053,M97.053,M97.053,M99.068,M156.101,M113.084,M97.053,M97.053,M97.053,M99.068,M156.101,M113.084,M97.053,M97.053,M96.069,0=4,"
+"[/Preset]"

@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Detox Gadolinium (Coil)"
+"Preset_Notes=Detox Gadolinium for Coil
+
+Detox (Gadolinium)
+
+Gadolinium detoxification involves the removal of retained gadolinium from tissues following exposure to gadolinium-based contrast agents (GBCAs) administered during MRI scans, along with management of resulting toxicity symptoms known as gadolinium deposition disease (GDD) or related manifestations. Causes include dechelation of Gd3+ from less stable GBCAs (particularly linear types), leading to free gadolinium ion release and prolonged deposition in brain, bone, skin, kidneys, and other organs, even in individuals with normal renal function; risk factors encompass repeated GBCA exposures and potential genetic predispositions affecting metal handling. Symptoms encompass chronic burning pain in extremities, cognitive disturbances ('brain fog'), skin thickening or discoloration, joint stiffness, muscle issues, and systemic fatigue. Pathophysiology features free Gd3+ inducing oxidative stress through reactive oxygen species (ROS) generation, triggering proinflammatory cytokine release and immune activation, promoting fibroblast proliferation and extracellular matrix deposition causing fibrosis, and disrupting calcium-dependent cellular processes due to ionic radius similarity with Ca2+.
+
+The proposed polypeptides target all key therapeutic axes identified from comprehensive literature review, including chelation as primary intervention and supportive mechanisms addressing downstream damage for holistic coverage:
+
+1. Direct chelation of gadolinium ions: Critical for mobilizing deposited Gd3+ from tissues and enhancing urinary excretion, countering the core retention mechanism via high-affinity coordination preferring oxygen donors (carboxylates) for hard Gd3+ Lewis acid. Assigned polypeptides: Lanmodulin EF4 peptide (real-world, 12-residue EF-hand loop derived from bacterial lanmodulin protein with documented micromolar affinity for lanthanides via multiple aspartate/glutamate residues, selective over calcium) and designed reversed variant (rational sequence reversal based on literature showing improved binding affinity, with N-acetylation and C-amidation for proteolytic stability and drug-likeness).
+
+2. Mitigation of gadolinium-induced oxidative stress: Addresses ROS-mediated cellular damage and lipid peroxidation central to toxicity progression. Assigned polypeptide: Designed tandem GHK peptide (rational multimerization of GHK motif, established in literature for ROS scavenging, copper/zinc modulation, and cellular protection in oxidative contexts, with N-acetylation and C-amidation for enhanced stability and bioavailability).
+
+3. Reduction of inflammation: Targets chronic immune activation and cytokine-driven symptoms in GDD. Assigned polypeptide: Designed IDR analog (derived from innate defense regulator peptide motifs known preclinically for broad anti-inflammatory immune modulation without sepsis exacerbation, with N-acetylation and C-amidation for stability).
+
+4. Inhibition of fibrosis: Counters fibroblast activation and collagen deposition mimicking nephrogenic systemic fibrosis features. Assigned polypeptide: Designed P144 analog (based on established TGF-{beta}-inhibiting peptide sequence with preclinical anti-fibrotic efficacy in skin and organ models, with N-acetylation and C-amidation for improved resistance to degradation).
+
+These polypeptides offer feasible short lengths for synthesis, favorable physicochemical profiles (hydrophilic, charged for solubility), literature-derived rationales ensuring translational potential, and complementary modes of action covering retention, acute toxicity, and chronic sequelae.
+
+"
+"Loaded_Programs=Detox Gadolinium p01"
+"Loaded_Programs=Detox Gadolinium p02"
+"Loaded_Programs=Detox Gadolinium p03"
+"Loaded_Programs=Detox Gadolinium p04"
+"Loaded_Programs=Detox Gadolinium p05"
+"Loaded_Frequencies=M115.027=1,M114.043,M115.027,M57.021,M115.027,M57.021,M156.101,M113.084,M115.027,M147.068,M115.027,M129.043,0=4,"
+"Loaded_Frequencies=M171.054=1,M115.027,M147.068,M115.027,M113.084,M156.101,M57.021,M115.027,M57.021,M115.027,M114.043,M114.043,0=4,"
+"Loaded_Frequencies=M99.032=1,M137.059,M128.095,M57.021,M137.059,M128.095,M57.021,M137.059,M128.095,M57.021,M137.059,M127.111,0=4,"
+"Loaded_Frequencies=M141.079=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M143.059=1,M87.032,M113.084,M115.027,M71.037,M87.032,M113.084,M113.084,M186.079,M71.037,M131.040,M131.040,M128.058,M113.059,0=4,"
+"[/Preset]"

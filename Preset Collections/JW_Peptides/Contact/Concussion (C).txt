@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Concussion (C)"
+"Preset_Notes=Concussion for Contact
+
+Concussion, commonly referred to as mild traumatic brain injury (mTBI), is a type of head injury resulting from a sudden impact, acceleration, or deceleration force to the head, leading to temporary disruption of brain function without structural damage visible on standard imaging. Common causes include contact sports collisions, falls in the elderly or children, motor vehicle accidents, assaults, or blast exposures in military settings. Symptoms can manifest immediately or develop over hours to days and include physical issues like headache, nausea, vomiting, dizziness, balance problems, blurred vision, sensitivity to light or noise; cognitive impairments such as confusion, difficulty concentrating, memory lapses, slowed thinking; emotional changes like irritability, anxiety, depression, or mood swings; and sleep disturbances such as insomnia or excessive drowsiness. The pathophysiology of concussion involves a complex neurometabolic cascade: initial biomechanical forces cause axonal stretching and membrane disruption, leading to unregulated ion fluxes (e.g., potassium efflux, calcium influx), excitotoxicity from glutamate release, mitochondrial dysfunction, energy crisis with reduced ATP, oxidative stress from reactive oxygen species, neuroinflammation via microglial activation and cytokine release, impaired cerebral blood flow autoregulation, and potential blood-brain barrier compromise. These processes can result in secondary injury cascades, prolonging recovery and contributing to post-concussion syndrome in 10-20% of cases, where symptoms persist beyond 3 months. Vulnerability factors include age (younger brains more susceptible due to incomplete myelination), prior concussions (cumulative effects), and genetic factors like ApoE4 allele increasing risk of poor outcomes.
+
+The proposed polypeptides address concussion through comprehensive targeting of its pathophysiological axes, prioritizing real-world peptides with established evidence and supplementing with designed ones (flagged below) for complete coverage. Neuroinflammation is mitigated by ApoE mimetics like CN-105, COG1410, and COG133, which exert immunomodulatory effects to suppress microglial activation and cytokine storms, as supported by preclinical TBI models; TXM-CB3 and TXM-CB13 reverse oxidative stress-induced signaling, reducing p38MAPK and JNK phosphorylation for anti-inflammatory and anti-apoptotic actions. Oxidative stress is further targeted by these TXM peptides and COG133, which decrease ROS and neuronal degeneration. Excitotoxicity is countered by Ziconotide blocking voltage-gated calcium channels to prevent calcium overload, R18 modulating glutamate receptors to preserve mitochondrial integrity, and CN-105 antagonizing excitotoxic pathways. Cerebral blood flow improvement is achieved by Exendin-4, which regulates vascular function and reduces hypoperfusion in TBI models. Neurogenesis is promoted by Peptide 6, enhancing newborn neuron generation in the dentate gyrus and restoring synaptic density. Axonal integrity is maintained by CAQK binding to extracellular matrix at injury sites for targeted repair and reduced lesion size, and BPC-157 attenuating diffuse axonal injury. Metabolic recovery is supported by Exendin-4 and GIP as incretin mimetics, ameliorating energy deficits and cognitive impairments. Immunomodulation overlaps with ApoE peptides reducing secondary tissue injury. Apoptosis inhibition is provided by TXM peptides' anti-apoptotic properties. For uncovered axes, designed polypeptides are used: D1-cyclic enhances glymphatic clearance to remove neurotoxic waste; D2 modulates HPA axis to normalize stress-immune responses; D3 stabilizes autonomic nervous system to address dysautonomia; D4 targets brain-gut axis to mitigate gut dysfunction impacting brain recovery; D5 provides additional neuroprotection via novel residue combinations. Scientific rationale is grounded in preclinical studies showing functional improvements, reduced lesion volumes, and biomarker changes; feasibility includes BBB permeability for short peptides, low immunogenicity, and scalable synthesis. Physicochemical considerations: cationic residues aid cellular uptake, hydrophilicity ensures solubility, cyclic structures improve stability against proteolysis, and non-standard residues like Hyp or Sec enhance specificity and half-life.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Concussion p01"
+"Loaded_Programs=Concussion p02"
+"Loaded_Programs=Concussion p03"
+"Loaded_Programs=Concussion p04"
+"Loaded_Programs=Concussion p05"
+"Loaded_Programs=Concussion p06"
+"Loaded_Programs=Concussion p07"
+"Loaded_Programs=Concussion p08"
+"Loaded_Programs=Concussion p09"
+"Loaded_Programs=Concussion p10"
+"Loaded_Programs=Concussion p11"
+"Loaded_Programs=Concussion p12"
+"Loaded_Programs=Concussion p13"
+"Loaded_Programs=Concussion p14"
+"Loaded_Programs=Concussion p15"
+"Loaded_Programs=Concussion p16"
+"Loaded_Programs=Concussion p17"
+"Loaded_Programs=Concussion p18"
+"Loaded_Frequencies=M103.009=1,M71.037,M128.058,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M141.079=1,M87.032,M156.101,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M113.048=1,M87.032,M85.053,M113.084,M156.101,M128.095,M113.084,M85.053,M128.095,M156.101,M113.084,M112.10,0=4,"
+"Loaded_Frequencies=M155.095=1,M156.101,M99.068,M156.101,M113.084,M71.037,M87.032,M137.059,M113.084,M156.101,M128.095,M113.084,M156.101,M128.095,M156.101,M113.084,M112.10,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M57.021,M128.095,M57.021,M71.037,M128.095,M102.001,M87.032,M156.101,M113.084,M131.040,M163.063,M115.027,M102.001,M102.001,M101.048,M57.021,M87.032,M102.001,M156.101,M87.032,M57.021,M128.095,M101.017,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M129.043,M57.021,M101.048,M147.068,M113.084,M87.032,M115.027,M163.063,M87.032,M113.084,M71.037,M131.040,M115.027,M128.095,M113.084,M137.059,M128.058,M128.058,M115.027,M147.068,M99.068,M114.043,M186.079,M113.084,M113.084,M71.037,M128.058,M128.095,M57.021,M128.095,M128.095,M114.043,M115.027,M186.079,M128.095,M137.059,M114.043,M113.084,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M99.068=1,M57.021,M115.027,M57.021,M57.021,M113.084,M147.068,M129.043,M128.095,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M145.020=1,M97.053,M102.025,0=4,"
+"Loaded_Frequencies=M145.020=1,M131.040,M128.095,M102.025,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M113.084,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M128.095,M156.101,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M200.095,M102.001,M150.954,0=4,"
+"Loaded_Frequencies=M237.148=1,M113.084,M100.064,M85.053,M114.079,0=4,"
+"Loaded_Frequencies=M758.675=1,M86.048,M113.048,M150.954,M128.095,0=4,"
+"[/Preset]"

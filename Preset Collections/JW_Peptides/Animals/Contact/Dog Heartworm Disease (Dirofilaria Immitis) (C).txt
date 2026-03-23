@@ -1,0 +1,22 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dog Heartworm Disease (Dirofilaria Immitis) (C)"
+"Preset_Notes=Dog Heartworm Disease (Dirofilaria Immitis) for Contact
+
+Dog Heartworm Disease, caused by the parasitic nematode Dirofilaria immitis, is a serious and potentially fatal condition in dogs transmitted via mosquito bites. The larvae mature into adult worms that reside in the pulmonary arteries and right heart ventricles, leading to symptoms such as coughing, exercise intolerance, weight loss, fatigue, and in severe cases, congestive heart failure or caval syndrome. Pathophysiology includes mechanical obstruction of blood flow, endothelial damage, inflammation, and secondary pulmonary hypertension, with the symbiotic bacteria Wolbachia contributing to immune-mediated pathology through proinflammatory responses.
+The proposed polypeptides target Dog Heartworm Disease by addressing parasite elimination, symbiotic bacterial control, and host inflammatory mitigation. For antiparasitic action, a designed polypeptide is conceptualized to bind filarial surface antigens, disrupting microfilarial development and adult worm viability similar to macrocyclic lactone mechanisms but with peptide specificity for reduced resistance risk; feasibility is based on peptide antiparasitics in veterinary trials, offering targeted delivery to infected tissues. For antibacterial targeting of Wolbachia, a designed polypeptide mimics antimicrobial motifs to inhibit bacterial replication within the worms, thereby weakening the parasite's survival and reducing inflammatory triggers; this approach draws from cathelicidin-like peptides, with short chain design for enhanced penetration. For anti-inflammatory effects, a designed polypeptide modulates prostaglandin pathways to alleviate vascular inflammation and prevent thrombosis, supporting cardiac function during treatment; overall, these designed polypeptides provide a multi-pronged strategy complementary to standard melarsomine therapy, with potential for lower toxicity.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dog Heartworm Disease (Dirofilaria Immitis) p01"
+"Loaded_Programs=Dog Heartworm Disease (Dirofilaria Immitis) p02"
+"Loaded_Programs=Dog Heartworm Disease (Dirofilaria Immitis) p03"
+"Loaded_Frequencies=M113.084=1,M99.068,M131.040,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M99.068,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M113.084,M97.053,M128.095,M113.084,0=4,"
+"[/Preset]"

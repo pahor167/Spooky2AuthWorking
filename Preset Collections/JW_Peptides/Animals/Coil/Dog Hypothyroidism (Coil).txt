@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Dog Hypothyroidism (Coil)"
+"Preset_Notes=Dog Hypothyroidism for Coil
+
+Dog hypothyroidism is an endocrine disorder primarily caused by autoimmune destruction of the thyroid gland (lymphocytic thyroiditis) or idiopathic atrophy, leading to insufficient thyroid hormone production. Symptoms include weight gain, lethargy, hair loss, cold intolerance, and skin infections. Pathophysiology involves reduced T3/T4 levels, affecting metabolism, with elevated TSH. The proposed polypeptides address this through hormone stimulation and immune modulation: TRH stimulates TSH release to boost thyroid function; the designed polypeptide D1 mimics thyroid-stimulating motifs; Calcitonin regulates calcium but aids in related metabolic balance; the designed polypeptide D2 targets autoimmune suppression. Designed polypeptides are flagged as conceptual, with feasibility considering receptor affinity and bioavailability in canine systems.
+
+"
+"Loaded_Programs=Dog Hypothyroidism p01"
+"Loaded_Programs=Dog Hypothyroidism p02"
+"Loaded_Programs=Dog Hypothyroidism p03"
+"Loaded_Programs=Dog Hypothyroidism p04"
+"Loaded_Frequencies=M129.043=1,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M113.084,M99.068,M71.037,M113.084,M99.068,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M99.068,M128.095,M113.084,M99.068,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M156.101,M57.021,0=4,"
+"[/Preset]"

@@ -1,0 +1,60 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=Chlamydia (C) - MM"
+"BFB_Start_Frequency=20000"
+"BFB_Finish_Frequency=18000000"
+"BFB_Single_Scan=1"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_%=.125"
+"BFB_Start_Delay=100"
+"BFB_Threshold=.4"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"BFB_Max_HRV=20"
+"Repeat_Sequence=0"
+"Frequency_Slider_Scale=0"
+"Out1_Amplitude=15"
+"Out2_Amplitude=15"
+"Out2_Hz_Factor=.03125"
+"Out1_Shadow_Hz_Factor=1"
+"Out1_Fixed_Frequency=0"
+"Preset_Notes=Chlamydia Contact preset. By Manuel Mallo
+
+*Important*: Use the Colloidal Silver port of Spooky Boost to prevent skin burns.
+
+Chlamydia is another dangerous bacteria. Very difficult to get rid of. I hope the method of attacking the integrity of its DNA will render good results.
+
+It has included all the known strains of this bacteria, including the pneumoniae one. 
+
+The preset for contact mode has a number of steps, in order to be stopped when neccessary, allowing it to be resumed from the same point.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the Colloidal_Silver port of Spooky Boost."
+"Settings_Frequency_Wobble_Percentage=.0005"
+"Settings_Frequency_Wobble_Steps=120"
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"User_Defined_1_WCM=2"
+"User_Defined_2_WCM=2"
+"Triangle_Spike_Ratio=2"
+"F1_Factor=11"
+"Settings_Harmonic_Wobble_Down=0"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"User_Defined_1_Waveform=MM_ModSquareDC17"
+"User_Defined_2_Waveform=MM_ModSquareDC17"
+"Out1_Fixed_Frequency=False"
+"Out1_Sine=False"
+"Out1_User_Defined_1=True"
+"Out2_User_Defined_2=True"
+"InverseWave=False"
+"Enable_Reduce_Low_Frequency_Amplitude=0"
+"Enable_Tissue_Factor=1"
+"Enable_Invert_User_Defined_2=1"
+"Enable_Amplitude_RampUp=0"
+"Enable_Amplitude_Ramp_Down=0"
+"Notify_When_Zero_Hz=0"
+"Loaded_Programs=MM_Chlamydia (CUST)"
+"Loaded_Frequencies=7370000-7518865.08=14400,7518865.08-7670737.05=14400,7670737.05-7825676.66=14400,7825676.66-7983745.86=14400,7983745.86-8145007.86=14400,8145007.86-8309527.17=14400,8309527.17-8477369.56=14400,"
+"[/Preset]"

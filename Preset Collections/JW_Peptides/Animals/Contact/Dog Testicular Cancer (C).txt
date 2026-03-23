@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dog Testicular Cancer (C)"
+"Preset_Notes=Dog Testicular Cancer for Contact
+
+Testicular cancer in dogs, primarily affecting older intact males, includes seminomas, Sertoli cell tumors, and Leydig cell tumors, often presenting as unilateral or bilateral testicular enlargement, with potential metastasis to lymph nodes or lungs in malignant cases. Causes involve genetic factors, cryptorchidism (undescended testes increasing risk 13-fold), hormonal imbalances (e.g., elevated estrogen from Sertoli tumors leading to feminization syndrome), and environmental exposures. Symptoms include testicular swelling, alopecia, gynecomastia, bone marrow suppression from estrogen toxicity, infertility, and systemic signs like lethargy or anemia. Pathophysiology features neoplastic transformation of germ cells (seminomas), sustentacular cells (Sertoli), or interstitial cells (Leydig), with dysregulated proliferation, iron metabolism alterations promoting tumor growth via increased intracellular iron, and immune evasion through Treg infiltration or antigen expression. Hormonal dysregulation exacerbates progression, with androgens supporting cell growth in some subtypes.
+
+The proposed polypeptides address canine testicular cancer through key therapeutic axes. In the GnRH-mediated hormonal suppression axis, Deslorelin serves as a GnRH agonist, causing pituitary downregulation and reduced testosterone, slowing hormone-dependent tumor growth and alleviating feminization. The designed polypeptide mimics GnRH for analogous suppression, targeting early or hormone-sensitive tumors. In the androgen signaling inhibition axis, GV1001 inhibits the androgen receptor, reducing proliferation and EMT in AR-positive cancers. The designed polypeptide targets androgen pathways to block tumor progression. For the immunotherapy axis, the designed polypeptide targets inhibin-{alpha} to elicit proinflammatory T cell responses, inhibiting stromal cell tumors. In the iron metabolism modulation axis, the designed polypeptide modulates TfR2 or ferroptosis pathways to disrupt iron-dependent tumor growth.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dog Testicular Cancer p01"
+"Loaded_Programs=Dog Testicular Cancer p02"
+"Loaded_Programs=Dog Testicular Cancer p03"
+"Loaded_Programs=Dog Testicular Cancer p04"
+"Loaded_Programs=Dog Testicular Cancer p05"
+"Loaded_Programs=Dog Testicular Cancer p06"
+"Loaded_Frequencies=M111.032=1,M137.059,M186.079,M87.032,M163.063,M186.079,M113.084,M156.101,M124.100,0=4,"
+"Loaded_Frequencies=M113.084=1,M137.059,M186.079,M87.032,M163.063,M156.101,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M156.101,M97.053,M71.037,M113.084,M113.084,M101.048,M87.032,M156.101,M113.084,M156.101,M147.068,M113.084,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M147.068,M156.101,M87.032,M97.053,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M156.101,M147.068,M87.032,M101.048,M113.084,M97.053,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M115.027,M113.084,M156.101,M97.053,M128.095,0=4,"
+"[/Preset]"

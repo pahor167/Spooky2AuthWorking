@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Obesity (S)"
+"Preset_Notes=Obesity for Scalar
+
+Obesity is a multifactorial chronic disease defined by excessive adipose tissue accumulation, driven by energy imbalance, hormonal dysregulation, inflammation, and metabolic dysfunction, increasing risks for diabetes, cardiovascular disease, and reduced lifespan.
+
+1. Dual GLP-1/GIP receptor agonism: Tirzepatide - Synergistically activates GLP-1 and GIP receptors to suppress appetite, delay gastric emptying, enhance insulin sensitivity, and achieve substantial weight loss.
+2. GLP-1 receptor agonism (exendin-based): Exenatide - Potent DPP-4 resistant GLP-1 mimic that reduces caloric intake, promotes satiety, and improves glycemic control.
+3. Amylin receptor agonism: Pramlintide - Mimics amylin to slow gastric emptying, suppress glucagon, and enhance post-meal fullness for complementary weight management.
+4. PYY Y2 receptor agonism: PYY_3-36 - Gut-derived satiety signal acting on hypothalamic Y2 receptors to reduce food intake.
+5. Dual GLP-1/glucagon receptor agonism: Oxyntomodulin - Combines appetite reduction with boosted energy expenditure via balanced GLP-1 and glucagon effects.
+6. GH lipolytic fragment: HGH_Fragment_176-191 - Selectively stimulates adipose lipolysis and fat oxidation independent of growth-promoting actions.
+7. Mitochondrial metabolic regulation: MOTS-c - Endogenous peptide that activates AMPK, improves insulin sensitivity, and supports metabolic homeostasis in obesity.
+8. Optimized lipolytic stimulation: LipoRed-15 - Engineered shortened GH fragment analog designed for targeted adipose fat mobilization with minimized systemic GH effects.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Obesity p01"
+"Loaded_Programs=Obesity p02"
+"Loaded_Programs=Obesity p03"
+"Loaded_Programs=Obesity p04"
+"Loaded_Programs=Obesity p05"
+"Loaded_Programs=Obesity p06"
+"Loaded_Programs=Obesity p07"
+"Loaded_Programs=Obesity p08"
+"Loaded_Frequencies=M163.063=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M113.084,M85.053,M113.084,M115.027,M128.095,M113.084,M128.058,M85.053,M71.037,M147.068,M99.068,M128.058,M186.079,M113.084,M113.084,M57.021,M97.053,M97.053,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M102.001,M114.043,M101.048,M71.037,M101.048,M102.001,M71.037,M101.048,M128.058,M156.101,M113.084,M71.037,M114.043,M147.068,M113.084,M99.068,M137.059,M87.032,M87.032,M114.043,M97.053,M97.053,M97.053,M101.048,M163.063,M113.084,M97.053,M87.032,M101.048,M163.063,M114.043,M99.068,M57.021,M101.048,M162.079,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M97.053,M129.043,M71.037,M97.053,M57.021,M129.043,M115.027,M71.037,M87.032,M97.053,M129.043,M129.043,M113.084,M114.043,M156.101,M163.063,M163.063,M71.037,M87.032,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M99.068,M101.048,M156.101,M128.058,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M128.058,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M128.095,M163.063,M113.084,M115.027,M87.032,M156.101,M156.101,M71.037,M128.058,M115.027,M147.068,M99.068,M128.058,M186.079,M113.084,M114.043,M131.040,M114.043,M101.048,M128.095,M156.101,M114.043,M156.101,M114.043,M114.043,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M156.101,M113.084,M99.068,M128.058,M103.009,M156.101,M87.032,M99.068,M129.043,M57.021,M87.032,M103.009,M57.021,M147.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M101.048,M87.032,M163.063,M87.032,M128.095,M99.068,M113.084,M57.021,M128.058,M113.084,M87.032,M71.037,M156.101,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW"
+"PresetName=Sin Nombre orthohantavirus (DNA) (P) - JW"
+"Enable_Remove_Duplicate_Frequencies=1"
+"Remove_Duplicate_Frequencies_Tolerance=.125"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||This preset contains the following strains:||Orthohantavirus sinnombreense 202003381
+L
+Sin Nombre orthohantavirus
+2020 RNA-dependent RNA polymerase gene (2023)|Orthohantavirus sinnombreense 202000017
+L
+Sin Nombre orthohantavirus
+2020 RNA-dependent RNA polymerase gene (2023)|Orthohantavirus sinnombreense 202003380
+L
+Sin Nombre orthohantavirus
+2020 RNA-dependent RNA polymerase gene (2023)|Orthohantavirus sinnombreense 202003378
+L
+Sin Nombre orthohantavirus
+2020 RNA-dependent RNA polymerase gene (2023)"
+"Loaded_Programs=Sin Nombre orthohantavirus (DNA) (P) - JW (CUST)"
+"Loaded_Frequencies=~9379BLR5795,~0923BLR6763,~1312BLR4900,~6759BLR1721,"
+"[/Preset]"

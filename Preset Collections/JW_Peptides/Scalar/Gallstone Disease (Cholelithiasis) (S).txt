@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Gallstone Disease (Cholelithiasis) (S)"
+"Preset_Notes=Gallstone Disease (Cholelithiasis) for Scalar
+
+Gallstone disease (cholelithiasis) involves the formation of cholesterol or pigment stones in the gallbladder or bile ducts, potentially causing obstruction, pain, inflammation, and complications like acute cholecystitis or pancreatitis. The proposed polypeptides target preclinical evidence-based therapeutic axes, including multi-pathway protection against cholestasis-induced damage, modulation of bile composition to prevent cholesterol stones, and suppression of inflammation.
+
+1. Stable gastric pentadecapeptide multi-pathway biliary protection: BPC-157 effectively ameliorates liver lesions, oxidative stress, and systemic effects in bile duct ligation models of obstruction and cholestasis.
+2. GLP-1 receptor agonist cholesterol gallstone prevention: Liraglutide modulates intestinal farnesoid X receptor activity to prevent cholesterol gallstone formation in high-risk preclinical models.
+3. {alpha}-MSH-derived tripeptide inflammation suppression: KPV reduces pro-inflammatory cytokines relevant to cholecystitis and associated inflammatory responses.
+4. Engineered Aib-substituted tripeptide optimization: Ac-K(Aib)V-NH2 incorporates Aib for enhanced protease resistance and bioavailability, derived from {alpha}-MSH motif for superior anti-inflammatory action.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Gallstone Disease (Cholelithiasis) p01"
+"Loaded_Programs=Gallstone Disease (Cholelithiasis) p02"
+"Loaded_Programs=Gallstone Disease (Cholelithiasis) p03"
+"Loaded_Programs=Gallstone Disease (Cholelithiasis) p04"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M85.053,M99.068,0=4,"
+"[/Preset]"

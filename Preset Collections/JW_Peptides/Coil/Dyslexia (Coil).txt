@@ -1,0 +1,15 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Dyslexia (Coil)"
+"Preset_Notes=Dyslexia for Coil
+
+Dyslexia is a common neurodevelopmental disorder that affects reading, writing, and spelling skills despite normal intelligence and adequate education. It involves difficulties in phonological processing, rapid naming, and working memory. Therapeutic axes identified include: 1. Enhancing cognitive function and learning for reading skills. 2. Providing neurotrophic support for brain plasticity. 3. Improving attention and reducing cognitive deficits. Assignments: Semax covers axis 1, the BDNF-mimetic peptide covers axis 2, and the ACTH-derived peptide covers axis 3. Mechanisms: Semax, a synthetic analogue of ACTH(4-10), enhances learning and memory by increasing BDNF expression and modulating dopaminergic and serotonergic systems, aiding in better reading acquisition. The designed BDNF-mimetic peptide promotes neuronal plasticity and connectivity in brain regions involved in language processing, potentially improving phonological awareness. The designed ACTH-derived peptide improves focus and attention by influencing stress responses and neurotransmitter balance, helping to mitigate cognitive deficits associated with dyslexia.
+
+"
+"Loaded_Programs=Dyslexia p01"
+"Loaded_Programs=Dyslexia p02"
+"Loaded_Programs=Dyslexia p03"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M198.112=1,M57.021,M129.043,M113.084,M87.032,M99.068,M103.009,M115.027,M87.032,M113.084,M87.032,M129.043,M186.079,M99.068,M100.064,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M56.037,0=4,"
+"[/Preset]"

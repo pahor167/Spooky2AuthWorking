@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Cataplexy (S)"
+"Preset_Notes=Cataplexy for Scalar
+
+Cataplexy is a sudden and transient episode of muscle weakness or loss of muscle tone, often triggered by strong emotions such as laughter, surprise, or anger, while the individual remains fully conscious. It is a cardinal symptom of narcolepsy type 1, a chronic neurological disorder characterized by dysregulation of sleep-wake cycles. The primary cause of cataplexy in narcolepsy type 1 is the selective loss of hypocretin (orexin)-producing neurons in the lateral hypothalamus, likely due to an autoimmune process involving HLA-DQB1*06:02 genetic predisposition and environmental triggers like infections. This hypocretin deficiency disrupts the stability of wakefulness and REM sleep boundaries, leading to intrusions of REM-like atonia into wakefulness. Symptoms range from mild (e.g., drooping eyelids, jaw slackening) to severe (e.g., full body collapse lasting seconds to minutes), impacting daily activities, social interactions, and quality of life. Pathophysiologically, hypocretin normally excites monoaminergic and cholinergic systems to maintain muscle tone; its absence allows unopposed activation of REM atonia pathways involving the sublaterodorsal nucleus and ventromedial medulla, inhibiting motor neurons via glycine and GABA. Secondary cataplexy can occur in other conditions like Prader-Willi syndrome or brain lesions, but primary cases are linked to narcolepsy.
+
+The proposed polypeptides address cataplexy through multiple therapeutic axes. For orexin restoration, real-world Orexin-A directly supplements deficient hypocretin to stabilize wakefulness and prevent atonia intrusions, while a designed polypeptide (D1) mimics orexin receptor agonism for similar effects. For GABAergic modulation, a designed polypeptide (D2) enhances GABAB signaling to consolidate sleep architecture and reduce cataplexy frequency, akin to sodium oxybate's mechanism. For histaminergic enhancement, a designed polypeptide (D3) acts as an H3 receptor inverse agonist to boost histamine release, promoting arousal and countering cataplexy. For cholinergic modulation, a designed polypeptide (D4) inhibits excessive cholinergic activity in the pontine reticular formation to prevent cataplexy induction. For serotonergic/noradrenergic pathways, a designed polypeptide (D5) inhibits reuptake to suppress REM atonia spillover. For TRH pathway, real-world TRH stimulates wake-promoting systems and reduces cataplexy, while designed (D6) enhances TRH analog effects. For immunomodulation, designed (D7) targets autoimmune destruction of orexin neurons to preserve hypocretin levels. For gene therapy support, designed (D8) facilitates orexin expression via peptide-mediated delivery. Feasibility includes good CNS penetration for short peptides, low immunogenicity, and established safety profiles for real-world ones; physicochemical considerations favor amidation for stability and disulfide bonds for structure in orexin-like designs.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Cataplexy p01"
+"Loaded_Programs=Cataplexy p02"
+"Loaded_Programs=Cataplexy p03"
+"Loaded_Programs=Cataplexy p04"
+"Loaded_Programs=Cataplexy p05"
+"Loaded_Programs=Cataplexy p06"
+"Loaded_Programs=Cataplexy p07"
+"Loaded_Programs=Cataplexy p08"
+"Loaded_Programs=Cataplexy p09"
+"Loaded_Frequencies=M111.032=1,M137.059,M96.069,0=4,"
+"Loaded_Frequencies=M111.032=1,M97.053,M113.084,M97.053,M115.027,M101.001,M101.001,M156.101,M128.058,M128.095,M101.048,M101.001,M87.032,M101.001,M156.101,M113.084,M163.063,M129.043,M113.084,M113.084,M137.059,M57.021,M71.037,M57.021,M114.043,M137.059,M71.037,M71.037,M57.021,M113.084,M113.084,M101.048,M112.10,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M128.095,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M137.059=1,M113.084,M99.068,M128.095,M87.032,M99.068,0=4,"
+"Loaded_Frequencies=M114.043=1,M87.032,M156.101,M128.095,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M128.058,M114.043,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M137.059,M96.069,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M128.058,M99.068,M87.032,M114.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M99.068,M128.095,M156.101,M71.037,M99.068,0=4,"
+"[/Preset]"

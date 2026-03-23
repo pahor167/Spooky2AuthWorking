@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Poor Blood Circulation in Extremities (L)"
+"Preset_Notes=Poor Blood Circulation in Extremities for Laser
+
+Poor blood circulation in extremities involves reduced peripheral blood flow, often manifesting as cold hands/feet, numbness, pain on exertion, or ischemic complications in conditions like Raynaud's phenomenon, peripheral artery disease, or diabetic vasculopathy.
+
+1. CGRP-mediated vasodilation: CGRP - Potent vasodilator activating CGRP receptors on vascular smooth muscle to relieve vasospasm and enhance blood flow in Raynaud's and ischemic extremities.
+2. Adrenomedullin signaling: Adrenomedullin - Stimulates AM receptors for sustained vasodilation, anti-inflammatory effects, and improved endothelial function in peripheral vessels.
+3. CNP endothelial regulation: CNP - Activates natriuretic peptide receptor B to promote vasorelaxation and therapeutic angiogenesis in response to limb ischemia.
+4. Neurokinin vasodilation: Substance P - Binds NK1 receptors to induce endothelium-dependent nitric oxide release and rapid microvascular dilation.
+5. VEGF-mimetic angiogenesis: QK peptide - Designed VEGF-helix mimetic that agonizes VEGFR-2 to drive capillary growth and restore perfusion in chronic peripheral ischemia.
+6. Microvascular flow enhancement: C-Peptide - Restores endothelial nitric oxide production and increases microvascular blood flow, particularly beneficial in diabetes-associated peripheral complications.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Poor Blood Circulation in Extremities p01"
+"Loaded_Programs=Poor Blood Circulation in Extremities p02"
+"Loaded_Programs=Poor Blood Circulation in Extremities p03"
+"Loaded_Programs=Poor Blood Circulation in Extremities p04"
+"Loaded_Programs=Poor Blood Circulation in Extremities p05"
+"Loaded_Programs=Poor Blood Circulation in Extremities p06"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M112.10,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M129.043,M115.027,M113.084,M128.058,M99.068,M57.021,M128.058,M99.068,M129.043,M113.084,M57.021,M57.021,M57.021,M97.053,M57.021,M71.037,M57.021,M87.032,M113.084,M128.058,M97.053,M113.084,M71.037,M113.084,M129.043,M57.021,M87.032,M113.084,M128.058,0=4,"
+"[/Preset]"

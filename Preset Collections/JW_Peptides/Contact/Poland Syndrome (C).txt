@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Poland Syndrome (C)"
+"Preset_Notes=Poland Syndrome for Contact
+
+Poland Syndrome (also known as Poland anomaly or pectoral hand syndrome) is a rare congenital disorder occurring in approximately 1 in 20,000 to 100,000 births, characterized primarily by unilateral hypoplasia or aplasia of the pectoralis major muscle, often with associated ipsilateral upper extremity anomalies. Common features include absence of the sternocostal head of the pectoralis major, hypoplasia of the pectoralis minor, subcutaneous tissue deficiency, breast/nipple-areola complex underdevelopment (particularly in females), and hand deformities such as syndactyly, brachydactyly, ectrodactyly, or hypoplasia of the middle phalanges. Less frequently, it involves rib cage anomalies, dextrocardia, or lung herniation. The condition is typically sporadic, more common on the right side and in males, with rare familial clustering. Pathophysiology remains incompletely elucidated but is hypothesized to involve early embryonic vascular disruption (subclavian artery supply disruption syndrome hypothesis around weeks 6-8 of gestation), leading to ischemic hypoplasia of affected mesenchymal tissues; alternative theories include genetic contributions (e.g., possible roles of TBX5 or other loci) or environmental factors, though no consistent monogenic cause has been identified. Clinical impacts include chest asymmetry with potential functional limitations in shoulder mobility, hand grip/dexterity deficits, cosmetic concerns, and psychosocial effects; no preventive measures or curative medical therapies exist, with management limited to surgical reconstruction (e.g., muscle flaps, implants, fat grafting for chest; separation/release procedures for hand).
+
+No real-world polypeptide therapies (established, investigational, preclinical, or patented) were identified for Poland Syndrome across available sources, reflecting its primarily surgical management and unclear molecular targets. All proposed polypeptides are therefore conceptual designed short peptides addressing key developmental axes. Designed polypeptide 1 employs a proline-initiated motif with balanced hydrophobic and charged residues to conceptually promote myogenic differentiation and muscle tissue formation, targeting pectoralis hypoplasia. Designed polypeptide 2 features an aromatic-initiated sequence to conceptually modulate cell adhesion and tissue boundary formation, aiming to support proper digit separation and hand development. Designed polypeptide 3 incorporates a phenylalanine-rich motif to conceptually enhance vascular stability and mesenchymal tissue support, mitigating hypothesized ischemic disruptions. These designed peptides are intentionally short (7 residues) for synthetic accessibility, use exclusively standard amino acids to minimize production complexity and immunogenicity risk, and exhibit favorable physicochemical profiles (moderate hydrophobicity, positive net charge for potential cellular interaction); modes of action are hypothetical, focusing on downstream compensation for embryonic developmental deficits.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Poland Syndrome p01"
+"Loaded_Programs=Poland Syndrome p02"
+"Loaded_Programs=Poland Syndrome p03"
+"Loaded_Frequencies=M97.053=1,M113.084,M57.021,M99.068,M156.101,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,M128.095,M115.027,0=4,"
+"Loaded_Frequencies=M147.068=1,M115.027,M71.037,M87.032,M186.079,M128.095,M137.059,0=4,"
+"[/Preset]"

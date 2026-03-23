@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Hepatitis E (C)"
+"Preset_Notes=Hepatitis E for Contact
+
+Hepatitis E is a viral liver infection caused by the hepatitis E virus (HEV), a single-stranded RNA virus primarily transmitted through the fecal-oral route via contaminated water or food, with zoonotic sources like undercooked pork common in some regions. It is the leading cause of acute viral hepatitis globally, with an estimated 20 million infections annually, mostly in developing areas but increasing in developed countries via zoonosis. The disease is typically acute and self-limiting in healthy individuals (incubation 2-6 weeks, symptoms including jaundice, fatigue, nausea, vomiting, abdominal pain, fever, dark urine), resolving in 4-6 weeks, but carries high mortality (20-30%) in pregnant women, especially third trimester, due to fulminant hepatic failure. Chronic infection occurs in immunocompromised patients (e.g., transplant recipients, HIV), leading to rapid fibrosis and cirrhosis. Pathophysiologically, HEV targets hepatocytes via poorly defined receptors, replicates using ORF1-encoded enzymes (methyltransferase, helicase, RdRp), assembles quasi-enveloped virions aided by ORF3 protein interacting with host factors like TSG101 for ESCRT-dependent release, induces cytopathic effects and immune-mediated damage via CD8+ T cells and cytokines, causes extrahepatic manifestations (neurological, renal), and in severe cases, oxidative stress, inflammation, and coagulation disorders exacerbate liver injury.
+
+The proposed polypeptides address Hepatitis E through diverse mechanisms based on current research. Real-world polypeptides are cyclic peptides (CP11 and variants) that potently inhibit viral release by competitively blocking the ORF3-TSG101 interaction essential for virion egress, reducing extracellular virus levels by up to 90% in cell models without affecting replication or infectivity. Designed polypeptides supplement critical axes: multiple target replication by interfering with RdRp, helicase, or protease functions; others block entry or disrupt assembly; several enhance innate immunity or mimic interferon; cyclic variants provide stability; and additional ones reduce inflammation, oxidative stress, or support hepatocyte protection, collectively offering potential for acute treatment, chronic management, and severity reduction in vulnerable populations.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Hepatitis E p01"
+"Loaded_Programs=Hepatitis E p02"
+"Loaded_Programs=Hepatitis E p03"
+"Loaded_Programs=Hepatitis E p04"
+"Loaded_Programs=Hepatitis E p05"
+"Loaded_Programs=Hepatitis E p06"
+"Loaded_Programs=Hepatitis E p07"
+"Loaded_Programs=Hepatitis E p08"
+"Loaded_Programs=Hepatitis E p09"
+"Loaded_Programs=Hepatitis E p10"
+"Loaded_Programs=Hepatitis E p11"
+"Loaded_Programs=Hepatitis E p12"
+"Loaded_Programs=Hepatitis E p13"
+"Loaded_Programs=Hepatitis E p14"
+"Loaded_Programs=Hepatitis E p15"
+"Loaded_Programs=Hepatitis E p16"
+"Loaded_Programs=Hepatitis E p17"
+"Loaded_Programs=Hepatitis E p18"
+"Loaded_Frequencies=M103.009=1,M57.021,M186.079,M113.084,M163.063,M186.079,M114.043,M99.068,0=4,"
+"Loaded_Frequencies=M103.009=1,M57.021,M186.079,M101.048,M114.043,M186.079,M163.063,M57.021,0=4,"
+"Loaded_Frequencies=M103.009=1,M57.021,M186.079,M101.048,M113.084,M113.084,M99.068,M163.063,0=4,"
+"Loaded_Frequencies=M113.048=1,M114.079,M86.048,M57.021,M87.032,M156.101,M128.095,M114.079,M113.048,0=4,"
+"Loaded_Frequencies=M85.053=1,M100.064,M150.954,M128.095,M57.021,M114.043,M101.048,M100.064,M85.053,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.048,M114.079,M128.058,M129.043,M86.048,M113.084,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M113.048,M87.032,M101.048,M128.095,M86.048,M57.021,0=4,"
+"Loaded_Frequencies=M100.064=1,M85.053,M114.079,M156.101,M137.059,M86.048,M150.954,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M86.048,M57.021,M128.095,M114.079,M85.053,M113.048,0=4,"
+"Loaded_Frequencies=M114.079=1,M100.064,M113.048,M129.043,M128.058,M156.101,M150.954,M114.079,0=4,"
+"Loaded_Frequencies=M85.053=1,M86.048,M113.084,M101.048,M114.043,M128.095,M100.064,0=4,"
+"Loaded_Frequencies=M150.954=1,M113.048,M114.079,M57.021,M86.048,M85.053,M87.032,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M113.084,M137.059,M128.095,M101.048,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M100.064=1,M150.954,M85.053,M156.101,M129.043,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M114.079,M87.032,M57.021,M128.095,M85.053,M113.048,M100.064,0=4,"
+"Loaded_Frequencies=M114.079=1,M85.053,M86.048,M101.048,M128.058,M156.101,M150.954,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M100.064,M113.048,M128.095,M87.032,M129.043,M114.079,0=4,"
+"Loaded_Frequencies=M150.954=1,M86.048,M85.053,M57.021,M137.059,M101.048,M100.064,M113.048,0=4,"
+"[/Preset]"

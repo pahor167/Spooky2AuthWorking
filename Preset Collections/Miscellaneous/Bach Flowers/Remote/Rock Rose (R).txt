@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Rock Rose (R)"
+"Preset_Notes=Rock Rose / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Rock Rose - Terror and fright.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Rock Rose (R)"
+"Loaded_Frequencies=277.99,"
+"[/Preset]"

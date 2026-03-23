@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Dementia Prevention (P)"
+"Preset_Notes=Dementia Prevention for Plasma
+
+Dementia prevention targets multiple pathways including mitochondrial dysfunction, impaired metabolic signaling, neuroplasticity deficits, anxiety-related cognitive vulnerability, age-related cellular decline, brain insulin resistance, and amyloid-beta aggregation to reduce risk and maintain cognitive health. The proposed polypeptides address evidence-based axes from preclinical AD models, cognitive enhancement studies, observational data on diabetes drugs, and emerging research on protein misfolding.
+
+1. Mitochondrial cytoprotection and anti-apoptotic effects: Humanin protects neurons in Alzheimer's models and is reduced in affected brains.
+2. Mitochondrial metabolic regulation: MOTS-c acts as an exercise-mimetic peptide supporting homeostasis and age-related neuroprotection.
+3. Nootropic enhancement with BDNF upregulation and Abeta modulation: Semax improves cognition and interferes with amyloid-beta fibrillogenesis.
+4. Anxiolytic and neuroimmune modulation for cognitive resilience: Selank stabilizes enkephalins and supports emotional-cognitive balance.
+5. Direct brain cell bioregulation: Pinealon (EDR) normalizes neuronal function and protects against decline.
+6. Telomerase activation and pineal anti-aging effects: Epithalon (AEDG) promotes longevity and cellular repair.
+7. GLP-1 receptor agonism for brain metabolic protection and dementia risk reduction: Liraglutide (with palmitoyl modification) improves insulin signaling, reduces inflammation, and is linked to lower dementia incidence.
+8. Engineered cell-penetrating {beta}-sheet breaking for Abeta aggregation inhibition: Ac-GRKKRRQRRRPQLPFFD-NH2 (TAT-LPFFD) fuses TAT delivery motif with LPFFD breaker for enhanced brain penetration and disruption of amyloid toxicity.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Dementia Prevention p01"
+"Loaded_Programs=Dementia Prevention p02"
+"Loaded_Programs=Dementia Prevention p03"
+"Loaded_Programs=Dementia Prevention p04"
+"Loaded_Programs=Dementia Prevention p05"
+"Loaded_Programs=Dementia Prevention p06"
+"Loaded_Programs=Dementia Prevention p07"
+"Loaded_Programs=Dementia Prevention p08"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"[/Preset]"

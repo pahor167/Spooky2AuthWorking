@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Epidermolysis Bullosa (Coil)"
+"Preset_Notes=Epidermolysis Bullosa for Coil
+
+Epidermolysis bullosa (EB) encompasses a group of rare inherited mechanobullous disorders characterized by extreme skin and mucosal fragility leading to blistering, erosions, and wounding from minimal friction or trauma. Mutations in at least 16 genes encoding structural proteins of the cutaneous basement membrane zone disrupt skin integrity across four major types: EB simplex (intraepidermal cleavage, often KRT5/KRT14 mutations affecting keratin intermediate filaments), junctional EB (junctional cleavage, commonly LAMA3/LAMB3/LAMC2 or integrin mutations impairing hemidesmosomes), dystrophic EB (sub-lamina densa cleavage, COL7A1 mutations causing defective type VII collagen anchoring fibrils), and Kindler EB (mixed cleavage levels, FERMT1 mutations disrupting kindlin-1/integrin activation). Symptoms range from mild localized blistering to severe widespread wounds, chronic ulceration, scarring, pseudosyndactyly (mitten deformities), milia, nail loss, oral/esophageal strictures, corneal abrasions, malnutrition, anemia, chronic pain, infection risk, and elevated squamous cell carcinoma incidence in severe forms; recessive dystrophic EB often leads to early mortality from aggressive malignancy or sepsis. Pathophysiology involves mechanical instability at specific skin layers triggering blister formation, secondary chronic inflammation with cytokine release, impaired wound healing, progressive fibrosis/scarring via TGF-{beta} upregulation, oxidative stress, and microbial colonization exacerbating tissue damage.
+
+The proposed polypeptides are entirely conceptually designed short sequences, as comprehensive searches across PubMed, clinicaltrials.gov, patents, and related databases confirmed no real-world short polypeptide/peptide therapeutics (<=50 residues, established, investigational, preclinical, or off-label); current approaches emphasize supportive wound care, gene/cell therapies (e.g., beremagene geperpavec topical gene therapy), full-length protein replacement (intravenous recombinant collagen VII), small molecules (e.g., diacerein), or anti-inflammatory biologics exceeding length limits. These designed polypeptides target five core mechanistic axes derived from established EB pathophysiology: (1) structural protein defects and basement membrane fragility, addressed by the first designed polypeptide to enhance adhesion and stability; (2) excessive inflammation amplifying blistering and tissue damage, targeted by the second designed polypeptide to suppress cytokine-driven responses; (3) impaired re-epithelialization and chronic wounding, modulated by the third designed polypeptide to promote keratinocyte migration; (4) progressive fibrosis and scarring, countered by the fourth designed polypeptide to inhibit TGF-{beta}-mediated extracellular matrix dysregulation; (5) oxidative stress and secondary complications in wounded skin, ameliorated by the fifth designed polypeptide with protective properties. Together, these provide multi-axis conceptual coverage for topical or systemic adjunctive therapy to reduce blistering, accelerate healing, minimize scarring, and improve quality of life, with feasibility grounded in EB wound models and parallels in skin fragility disorders.
+
+"
+"Loaded_Programs=Epidermolysis Bullosa p01"
+"Loaded_Programs=Epidermolysis Bullosa p02"
+"Loaded_Programs=Epidermolysis Bullosa p03"
+"Loaded_Programs=Epidermolysis Bullosa p04"
+"Loaded_Programs=Epidermolysis Bullosa p05"
+"Loaded_Frequencies=M156.101=1,M128.095,M71.037,M87.032,M97.053,M57.021,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M128.095,M186.079,M97.053,M128.058,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M87.032,M137.059,M163.063,M87.032,M163.063,M137.059,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.095,M128.095,M156.101,M97.053,M147.068,M186.079,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M97.053,M137.059,M147.068,M57.021,M71.037,M186.079,M101.048,0=4,"
+"[/Preset]"

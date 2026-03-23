@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Immune System Stimulation (R) - JK"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Amplitude=10"
+"Out2_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=Immune System Stimulation for Remote by Jeff Kaczor
+
+Targeting pathogens directly and doing detox support is one way to combat issues.  However, have you considered boosting your body's own immune system to help in the fight?
+
+Here's one setup you can try.
+
+This preset uses a custom waveform created by Manuel Mallo.
+
+The harmonic waveforms (square, sine, sawtooth, invsawtooth) all take and produce the following: F1, F2, F4, F8, F16, F32, F64, and F128
+
+That is the fundamental frequency (F) and the next 7 octave harmonics.
+
+Using this waveform, we generate an 8 note chord instead of a single frequency -- each note is a harmonic of the fundemental frequency.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Load this preset and start the generator. DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Con"
+"User_Defined_1_Waveform=MM_Sine_Harmonic"
+"User_Defined_2_Waveform=Square"
+"Manual_Start=False"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=Immune System Stimulation 3 (PROV)"
+"Loaded_Programs=Leukocytogenesis Stimulate (XTRA)"
+"Loaded_Programs=White Blood Cell Stimulation (CAFL)"
+"Loaded_Frequencies=8=240,20=240,120=240,304=240,432=240,464=240,665=240,728=240,800=240,880=240,1488=240,1862=240,2008=240,2128=240,2180=240,2489=240,2720=240,2791=240,2855=240,2867=240,2929=240,3176=240,3347=240,3448=240,4014=240,5000=240,5611=240,10000=240,"
+"Loaded_Frequencies=30=300,727=300,"
+"Loaded_Frequencies=432=180,1862=180,2008=180,2128=180,2180=180,2791=180,2855=180,2867=180,2929=180,3347=180,3448=180,4014=180,5611=180,"
+"[/Preset]"

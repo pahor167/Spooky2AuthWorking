@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Epstein-Barr Virus (R) - LW"
+"BFB_Start_Frequency=20000000"
+"BFB_Finish_Frequency=40000000"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_Hz_Selected=False"
+"BFB_Initial_Step_Size_%=.05"
+"BFB_Initial_Step_Size_%_Selected=True"
+"BFB_Start_Delay=200"
+"BFB_Samples_Per_Step=1"
+"BFB_Threshold=.2"
+"BFB_Reverse_Lookup_Tolerance=.25"
+"BFB_Include_x_Hz_In_Search=0"
+"BFB_Calculate_Using_RA=True"
+"BFB_Calculate_Using_Peak=False"
+"BFB_HRV=True"
+"BFB_Detect_mA=False"
+"BFB_Max_HRV=20"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=Epstein-Barr Virus (R) - LW for Remote by Luiz Willhelm
+Version 20170427
+
+After running this for 24 hours, I'm (Luiz) feeling 100% better than previous weeks, much more energy,well being and mental clarity.
+
+This preset contains the following programs:
+Epstein-Barr virus (BP)
+Epstein Barr Virus_2 (HC)
+Human herpesvirus 4 (BP)
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Settings_Amplitude_Wobble_Percentage=20"
+"Triangle_Spike_Ratio=0"
+"Out1_Frequency_Limit_Harmonic_Type=Octave"
+"Out2_Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=MM_Mod_InvSawtooth"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=Epstein-Barr virus, artifactual joining of B95-8 complete genome and the sequences from Raji of the large deletion found in B95-8 (BP)"
+"Loaded_Programs=Epstein Barr Virus_2 (HC)"
+"Loaded_Programs=Human herpesvirus 4 (BP)"
+"Loaded_Frequencies=B184112=180,"
+"Loaded_Frequencies=375000=180,"
+"Loaded_Frequencies=B172764=180,B171657=180,B164668=180,B171323=180,B171687=180,B176041=180,B166182=180,B171021=180,B166107=180,B171499=180,B171751=180,B169720=180,B168509=180,B171663=180,B171627=180,B168444=180,B171440=180,B171518=180,B171733=180,B171054=180,B171822=180,B171548=180,B171609=180,B169829=180,B171394=180,B171344=180,B170059=180,B170390=180,B169425=180,B177320=180,"
+"[/Preset]"

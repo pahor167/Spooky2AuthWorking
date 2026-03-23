@@ -1,0 +1,15 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=For Over-sensitivity to influences and ideas (P)"
+"Preset_Notes=For Over-sensitivity to influences and ideas / Spooky Plasma
+
+Estimated Time: Run this preset for 12:00 minutes.
+Agrimony - Mental torture behind a cheerful face. Centaury - The inability to say 'no'. Walnut - Protection from change and unwanted influences. Any changes in your life. Holly - Hatred, envy and jealousy.
+
+Connect Out 1 to Input. Connect Out 2 to Modulation.
+"
+"Loaded_Programs=For Over-sensitivity to influences and ideas (P)"
+"Loaded_Frequencies=310.31,384.68,261.26,479.48,"
+"[/Preset]"

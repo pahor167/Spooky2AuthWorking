@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Flower 4 (C)"
+"Preset_Notes=Flower 4 / Spooky Contact
+
+Estimated Time: Run this preset for 39:00 minutes.
+Walnut - Breaking the links, any major changes in your life. White Chestnut - mind going around and around, like a hamster in a wheel. Elm - Feeling overwhelmed. Beech -Intolerance. Centaury - the inability to say 'no.' Cherry Plum - Fear of the mind giving way. Clematis - Dreaming of the future with out working on the present. Heather - Self centredness and self-concern. Oak - the plodder who keeps going past the point of exhaustion. Red Chestnut - Over-concern for the welfare of loved ones. Rock Water - Self-denial, rigidity and self-repression. Vine - Dominance and inflexibility. Willow - Self-pity and resentment.
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Flower 4 (C)"
+"Loaded_Frequencies=261.26F4096C0,247.09F4096C0,463.13F4096C0,490.87F2048C0,384.68F4096C0,262.01F4096C0,415.26F4096C0,301.78F4096C0,318.03F4096C0,292.06F4096C0,451.74F4096C0,383.91F4096C0,264.74.,"
+"[/Preset]"

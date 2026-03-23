@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Chicken Egg Binding (Coil)"
+"Preset_Notes=Chicken Egg Binding for Coil
+
+Egg binding is a life-threatening condition in laying hens where an egg cannot be expelled, often caused by hypocalcemia, oviduct fatigue, malformed eggs, inflammation, or infection. Proposed polypeptides address key axes from avian reproductive physiology and veterinary literature, focusing on contraction induction, tissue support, inflammation reduction, and complication prevention.
+
+1. Vasotocin receptor activation: Arginine vasotocin mimics the natural pre-oviposition surge to trigger uterine contractions and egg expulsion.
+2. Mesotocin-mediated potentiation: Mesotocin enhances oviduct sensitivity to vasotocin for stronger contractile response.
+3. Anti-inflammatory and neuroprotective effects: ARA-290 reduces reproductive tract inflammation and promotes innate repair.
+4. Antimicrobial defense: LL-37 combats potential bacterial infections contributing to oviduct dysfunction.
+5. Tissue regeneration and protection: BPC-157 supports oviduct healing and integrity (broad-spectrum used as gap-filler due to no specialized alternative).
+6. Localized anti-inflammatory action: KPV inhibits inflammatory pathways to reduce swelling.
+7. Optimized vasotocin analog: Lys8-AVT-Eng, an engineered variant with Lys substitution at position 8 for potential improved duration or selectivity.
+8. Calcium-binding support: PolyAsp8-Eng, an engineered aspartate-rich peptide to enhance local calcium availability and aid muscle function in hypocalcemia.
+
+"
+"Loaded_Programs=Chicken Egg Binding p01"
+"Loaded_Programs=Chicken Egg Binding p02"
+"Loaded_Programs=Chicken Egg Binding p03"
+"Loaded_Programs=Chicken Egg Binding p04"
+"Loaded_Programs=Chicken Egg Binding p05"
+"Loaded_Programs=Chicken Egg Binding p06"
+"Loaded_Programs=Chicken Egg Binding p07"
+"Loaded_Programs=Chicken Egg Binding p08"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M97.053,M156.101,M113.084,M99.068,M101.048,M129.043,M87.032,M101.048,M129.043,M87.032,M87.032,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M128.095,M56.037,0=4,"
+"Loaded_Frequencies=M157.038=1,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,M114.043,0=4,"
+"[/Preset]"

@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\MW Emulate 20v (R) - JD"
+"PresetName=Protein (R) - JW"
+"This preset uses the settings developed by Johannes_D.
+
+About the author: Johannes_D is a Professor of Mathematics who specialises in harmonic analysis (fourier, wavelets, and other orthogonal function systems).
+
+This is a Remote Mode 'Shell Preset' containing no frequencies.
+
+To improve the effectiveness, the standard MW Emulate (R) - JW preset has been modified so that the emulation frequency of the chosen substance is indeed a harmonic of two different frequencies on the output Out1 and Out2.
+
+The effectiveness of this preset has been tested by different users in the German and English Spooky2 Telegram groups.
+
+Comments, hints and feedback are very welcome! Please contact the author in the German Spooky2 Deutsch Telegram-group.
+
+The preset has been designed to emulate (copy the function of) substances within the Spooky2 MW database. Select this preset, then select the substances you wish to emulate.
+
+This preset will only function with the very high MW database frequencies. Lower frequencies will NOT function correctly
+
+The Preset has been designed to loop continuously until stopped.
+
+MW frequencies are very high. No frequency generator can reach these frequencies directly. This preset targets the sub harmonics of these frequencies.
+
+Please note that you will have no indication lights on your remote. The speeds of these frequencies are too high for the LEDs to keep up!
+
+Spooky Remote provides a convenient way to treat conditions from any distance. Sandwich your DNA in some paper tape or sticker, and place inside Spooky Remote. 
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Bone Spurs (P)"
+"Preset_Notes=Bone Spurs for Plasma
+
+Bone spurs, also known as osteophytes, are smooth, bony growths that form over time on the edges of bones, often in response to joint damage from osteoarthritis or other conditions, causing pain, stiffness, and limited mobility.
+The proposed peptides address various aspects of bone spurs, including reducing inflammation, promoting tissue repair, modulating bone remodeling by influencing osteoblast and osteoclast activity, and providing pain relief. Real-world peptides are prioritized based on existing literature for bone health and related conditions, with designed peptides flagged as such to supplement coverage where needed.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Bone Spurs p01"
+"Loaded_Programs=Bone Spurs p02"
+"Loaded_Programs=Bone Spurs p03"
+"Loaded_Programs=Bone Spurs p04"
+"Loaded_Programs=Bone Spurs p05"
+"Loaded_Programs=Bone Spurs p06"
+"Loaded_Programs=Bone Spurs p07"
+"Loaded_Programs=Bone Spurs p08"
+"Loaded_Programs=Bone Spurs p09"
+"Loaded_Programs=Bone Spurs p10"
+"Loaded_Programs=Bone Spurs p11"
+"Loaded_Programs=Bone Spurs p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M71.037,M186.079,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M101.048,M129.043,M128.058,M57.021,M71.037,M129.043,M113.084,M87.032,M114.043,M129.043,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M128.095,M71.037,M101.048,M129.043,M99.068,M137.059,M147.068,M156.101,M87.032,M113.084,M156.101,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M156.101=1,M99.068,M163.063,M147.068,M147.068,M128.095,M57.021,M128.095,M128.058,M163.063,M186.079,M128.059,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M128.095,M156.101,M128.058,M57.021,M156.101,M101.048,M113.084,M163.063,M57.021,M147.068,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M87.032,M129.043,M113.084,M128.058,M113.084,M131.040,M137.059,M114.043,M113.084,M57.021,M128.095,M137.059,M113.084,M114.043,M87.032,M131.040,M129.043,M156.101,M99.068,M129.043,M186.079,M113.084,M156.101,M128.095,M128.095,M113.084,M128.058,M115.027,M99.068,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M103.009,M147.068,M128.095,M147.068,M129.043,M87.032,M163.063,M113.084,M128.095,M129.043,M99.068,M128.095,M147.068,M57.021,M97.053,M57.021,M87.032,M113.084,M87.032,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M99.068,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M114.079,M128.095,M150.954,M128.058,M156.101,M129.043,M200.095,M86.048,0=4,"
+"Loaded_Frequencies=M279.159=1,M100.064,M166.998,M307.197,M147.035,M113.048,M758.675,M86.048,0=4,"
+"[/Preset]"

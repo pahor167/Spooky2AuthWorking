@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Bone Cancer (P)"
+"Preset_Notes=Bone Cancer for Plasma
+
+Bone cancer includes primary tumors such as osteosarcoma, Ewing sarcoma, and chondrosarcoma, as well as bone metastases, characterized by tumor proliferation, bone resorption, severe pain, and hypercalcemia. The selected real-world polypeptides target five evidence-based therapeutic axes derived from clinical applications, preclinical studies, and targeted delivery research in bone malignancies.
+
+1. Hypercalcemia management and bone pain relief: Salmon calcitonin reduces serum calcium levels and alleviates malignancy-associated bone pain through osteoclast inhibition.
+2. Osteoclastic bone resorption inhibition: Osteostatin (PTHrP[107-111] pentapeptide) suppresses osteoclast activity and bone erosion in tumor environments.
+3. Tumor-specific targeting for necroptosis induction: STP (VNTANST) binds surface vimentin on osteosarcoma cells to enable targeted intracellular delivery and enhanced cell death.
+4. Mitochondrial apoptosis induction in osteosarcoma: Piscidin-1 disrupts mitochondrial function, triggering apoptosis selectively in cancer cells.
+5. Hydroxyapatite-binding bone targeting: Asp8 (octa-aspartate) peptide exhibits strong affinity for bone resorption surfaces to facilitate site-specific therapy in bone tumors.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Bone Cancer p01"
+"Loaded_Programs=Bone Cancer p02"
+"Loaded_Programs=Bone Cancer p03"
+"Loaded_Programs=Bone Cancer p04"
+"Loaded_Programs=Bone Cancer p05"
+"Loaded_Frequencies=M102.001=1,M87.032,M114.043,M113.084,M87.032,M101.048,M102.001,M99.068,M113.084,M57.021,M128.095,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M128.095,M113.084,M128.058,M101.048,M163.063,M97.053,M156.101,M101.048,M114.043,M101.048,M57.021,M87.032,M71.037,M101.048,M96.069,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M71.037,M186.079,0=4,"
+"Loaded_Frequencies=M99.068=1,M114.043,M101.048,M71.037,M114.043,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M137.059,M137.059,M113.084,M147.068,M156.101,M57.021,M113.084,M99.068,M137.059,M99.068,M57.021,M128.095,M101.048,M113.084,M137.059,M156.101,M113.084,M99.068,M101.048,M57.021,0=4,"
+"Loaded_Frequencies=M115.027=1,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,0=4,"
+"[/Preset]"

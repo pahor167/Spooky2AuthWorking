@@ -1,0 +1,18 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW"
+"PresetName=Cancer Advanced Preset (P) - JW"
+"Dwell_Multiplier=6"
+"Preset_Notes=Advanced preset for Cancer. 
+
+The original Rife frequencies and a modern DNA frequency are transmitted over an extended duration.
+
+A slow 10% duty cycle gate on the Modulation input provides strong signal spikes.
+
+Best used with a phanotron tube. 
+
+Do not alter the Frequency Multiplier, Frequency Limit, waveforms or other settings of this preset. Doing so may render it inoperative.
+
+Connect OUT 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Cancer Frequencies (Rife) (CUST)"
+"Loaded_Frequencies=~5676BC8538298=180,12832000=180,12236160=180,12240000=180,11780000=180,17033662=180,16247820=180,"
+"[/Preset]"

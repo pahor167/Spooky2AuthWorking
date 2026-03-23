@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Allergic Hypersensitivity (L)"
+"Preset_Notes=Allergic Hypersensitivity for Laser
+
+Allergic Hypersensitivity is an IgE-mediated immune overreaction to harmless allergens, triggering mast cell and basophil degranulation, release of histamine and other mediators, and symptoms such as rhinitis, asthma, urticaria, or anaphylaxis.
+
+1. Neuropeptide immunomodulation: Vasoactive Intestinal Peptide (VIP) - Activates VPAC receptors to suppress pro-inflammatory cytokines, inhibit mast cell activity, and induce bronchodilation in allergic airway diseases.
+2. IgE-Fc{epsilon}RI disruption: [Ala^1^2]MCD Peptide - Inhibits IgE binding to the high-affinity Fc{epsilon}RI receptor on mast cells and basophils, preventing activation and mediator release.
+3. T-cell epitope tolerance: Fel d 1 T-cell Epitope Peptide - Promotes regulatory T-cell responses and IL-10 production for allergen tolerance without IgE crosslinking or mast cell activation.
+4. Histamine release inhibition: Carnosine - Stabilizes mast cell membranes and directly suppresses histamine secretion during allergic responses.
+5. Anti-IgE neutralization: Cyclic Anti-IgE Mimetic Peptide - Mimics complementarity-determining regions of anti-IgE antibodies to bind and neutralize free IgE, reducing sensitization of effector cells.
+6. Anti-inflammatory modulation: Ac-SDKP - Inhibits inflammatory cell infiltration, cytokine production, and tissue remodeling in allergic inflammation models.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Allergic Hypersensitivity p01"
+"Loaded_Programs=Allergic Hypersensitivity p02"
+"Loaded_Programs=Allergic Hypersensitivity p03"
+"Loaded_Programs=Allergic Hypersensitivity p04"
+"Loaded_Programs=Allergic Hypersensitivity p05"
+"Loaded_Programs=Allergic Hypersensitivity p06"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M102.001,M114.043,M102.001,M128.095,M156.101,M137.059,M99.068,M113.084,M128.095,M71.037,M137.059,M113.084,M102.001,M156.101,M128.095,M113.084,M102.001,M57.021,M128.095,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.058,M99.068,M71.037,M128.058,M163.063,M128.095,M71.037,M113.084,M97.053,M99.068,M99.068,M113.084,M129.043,M114.043,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M147.068,M163.063,M97.053,M87.032,M115.027,M113.084,M71.037,M99.068,M129.043,M186.079,M129.043,M87.032,M114.043,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,0=4,"
+"[/Preset]"

@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW.txt"
+"Gate_On_Off_Duration_Option=True"
+"Preset_Notes=Ear Infection Plasma preset. By Manuel Mallo
+
+Ear infections are caused mainly by Strep Pneumoniae, so this preset focuses on that pathogen.
+
+As the fluid pressure buildup could cause the eardrum rupture, better if an MD diagnoses the issue.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+Place the plasma tube near to, or touching, your body. Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Input. Out 2 to Modulation.
+
+Use at your own risk."
+"Loaded_Programs=Eustachian Tube (XTRA)"
+"Loaded_Programs=Pneumococcal Infections (KHZ)"
+"Loaded_Programs=Pneumococcus (CAFL)"
+"Loaded_Programs=Pneumococcus (VEGA)"
+"Loaded_Programs=Streptococcus Pneumoniae (CAFL)"
+"Loaded_Programs=Streptococcus Pneumoniae (HC)"
+"Loaded_Programs=Streptococcus Sweep TR (XTRA)"
+"Loaded_Programs=Ear Discharge (XTRA)"
+"Loaded_Frequencies=465=180,660=180,690=180,727.5=180,776=180,787=180,802=180,880=180,1550=180,"
+"Loaded_Frequencies=50=180,350=180,2750=180,30930=180,75810=180,187500=180,405320=180,715000=180,803510=180,905320=180,"
+"Loaded_Frequencies=231=240,232=240,683=240,846=240,8865=240,"
+"Loaded_Frequencies=683=180,"
+"Loaded_Frequencies=231=180,232=180,776=180,766=180,728=180,846=180,8865=180,"
+"Loaded_Frequencies=366850-370200=3600,"
+"Loaded_Frequencies=5632.8152-5763=1800,5763-6053.125=1800,"
+"Loaded_Frequencies=9.18=180,9.19=180,20.660=180,690=180,727.5=180,787=180,880=180,"
+"[/Preset]"

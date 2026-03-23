@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Lymph Node Regrowth/Regeneration (Coil)"
+"Preset_Notes=Lymph Node Regrowth/Regeneration for Coil
+
+Lymph node regrowth and regeneration following damage, surgery, or atrophy requires coordinated restoration of lymphatic endothelial cells (LECs), fibroblastic reticular cells (FRCs), high endothelial venules (HEVs), and proper immune cell homing mechanisms. This regenerative process involves lymphangiogenesis via VEGFR3 signaling, CCR7-mediated immune cell trafficking, LT{beta}R-dependent lymphoid tissue organization, and resolution of fibrotic scarring. The following polypeptide portfolio addresses these interconnected axes to promote functional lymph node restoration.
+
+1. Lymphangiogenesis & Vascular Growth: VEGFR3-BP - Targets VEGFR3 to promote lymphatic endothelial cell proliferation and vessel formation
+2. Immune Cell Homing Enhancement: C21TP - Boosts CCR7 signaling to enhance dendritic and T cell homing to lymph nodes by 25-fold
+3. Lymphatic Endothelial Regulation: SP5031 - Somatotropin-derived peptide regulating lymphatic endothelial cell migration and preventing hyperplasia
+4. Fibroblastic Reticular Cell Scaffold: FRC-Support - Supports FRC adhesion and reticular network formation in lymph node stroma
+5. High Endothelial Venule Formation: HEV-Form - Promotes HEV development for efficient lymphocyte trafficking
+6. Lymphoid Tissue Organization: LTBR-Supp - Supports LT{beta}R signaling for proper lymphoid architecture and neogenesis
+7. Inflammatory Resolution: Annexin_A1_Ac2-26 - Annexin A1 N-terminal peptide promoting resolution of inflammation and tissue repair
+8. General Tissue Regeneration: BPC-157 - Promotes angiogenesis, tissue healing and tendon/ligament regeneration
+9. Actin Remodeling & Cell Migration: Thymosin_beta_4 - Regulates actin polymerization, cell migration and tissue regeneration
+10. ECM Remodeling: Matrix-Remodel - Promotes extracellular matrix remodeling and MMP-mediated tissue restructuring
+
+"
+"Loaded_Programs=Lymph Node Regrowth/Regeneration p01"
+"Loaded_Programs=Lymph Node Regrowth/Regeneration p02"
+"Loaded_Programs=Lymph Node Regrowth/Regeneration p03"
+"Loaded_Programs=Lymph Node Regrowth/Regeneration p04"
+"Loaded_Programs=Lymph Node Regrowth/Regeneration p05"
+"Loaded_Programs=Lymph Node Regrowth/Regeneration p06"
+"Loaded_Programs=Lymph Node Regrowth/Regeneration p07"
+"Loaded_Programs=Lymph Node Regrowth/Regeneration p08"
+"Loaded_Programs=Lymph Node Regrowth/Regeneration p09"
+"Loaded_Programs=Lymph Node Regrowth/Regeneration p10"
+"Loaded_Frequencies=M186.079=1,M137.059,M186.079,M113.084,M97.053,M114.043,M113.084,M156.101,M137.059,M163.063,M71.037,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M57.021,M156.101,M128.095,M71.037,M156.101,M156.101,M87.032,M156.101,M87.032,M128.095,M156.101,M128.095,M57.021,M128.095,M57.021,M113.084,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M87.032,M87.032,M113.084,M113.084,M113.084,M113.084,M128.058,M57.021,M87.032,M186.079,M147.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M57.021,M87.032,M156.101,M57.021,M57.021,M128.095,M113.084,M156.101,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M128.058=1,M113.084,M115.027,M87.032,M97.053,M113.084,M87.032,M57.021,M128.095,M113.084,M128.095,M103.009,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M156.101,M156.101,M128.058,M71.037,M71.037,M57.021,M99.068,M113.084,M113.084,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M128.058,M57.021,M113.084,M113.084,M57.021,M71.037,M97.053,0=4,"
+"[/Preset]"

@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=For Insufficient interest in present circumstances (C)"
+"Preset_Notes=For Insufficient interest in present circumstances / Spooky Contact
+
+Estimated Time: Run this preset for 21:00 minutes.
+Clematis - Dreaming of the future with out working on the present. Honeysuckle - Living in the past, homesickness. Wild rose - Drifting, resignation, apathy. Olive - Exhaustion following mental or physical effert. White Chestnut - Unwanted thoughts and mental arguments, mind going around and around. Mustard - Deep gloom for not reason. Chestnut Bud - Failure to learn from mistakes.
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=For Insufficient interest in present circumstances (C)"
+"Loaded_Frequencies=415.26F4096C0,275.98F4096C0,349.54F4096C0,431.65F4096C0,247.09F4096C0,254.78F4096C0,425.77F4096C0,"
+"[/Preset]"

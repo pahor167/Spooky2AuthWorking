@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Disseminated Superficial Actinic Porokeratosis (DSAP) (R)"
+"Preset_Notes=Disseminated Superficial Actinic Porokeratosis (DSAP) for Remote
+
+DSAP is a rare keratinization disorder characterized by multiple annular, keratotic lesions on sun-exposed skin, linked to UV exposure, genetic mutations in the mevalonate pathway causing cholesterol deficiency and impaired barrier function, and abnormal keratinocyte proliferation. The proposed polypeptides target evidence-based therapeutic axes from literature on cholesterol restoration, keratinocyte modulation, inflammation reduction, barrier enhancement, antioxidant protection, wound healing, immunomodulation, and anti-pruritic effects to normalize keratinization, reduce lesions, improve barrier integrity, mitigate oxidative damage, and support skin repair.
+
+1. Immunomodulation to prevent exacerbation: Thymosin_alpha_1 enhances immune balance and reduces immunosuppression-related worsening.
+2. Anti-inflammatory cytokine modulation: KPV suppresses pro-inflammatory responses and pruritus.
+3. Anti-pruritic and Treg enhancement: VIP promotes regulatory T cells and alleviates itch and inflammation.
+4. NF-{kappa}B and barrier modulation: LL-37 inhibits inflammatory pathways and supports antimicrobial barrier.
+5. Antioxidant protection against UV damage: Glutathione neutralizes oxidative stress from UV exposure.
+6. Keratinocyte migration and differentiation: Thymosin_beta_4 promotes normal keratinocyte behavior and wound healing.
+7. Skin barrier enhancement: GHK-Cu improves collagen synthesis and barrier function.
+8. Tissue repair and gut-skin axis support: BPC-157 aids in lesion repair and barrier integrity.
+9. Novel optimization for mevalonate pathway restoration: KerDiff-Eng, an engineered peptide based on elastin motifs, modulates cholesterol synthesis and keratinocyte differentiation.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Disseminated Superficial Actinic Porokeratosis (DSAP) p01"
+"Loaded_Programs=Disseminated Superficial Actinic Porokeratosis (DSAP) p02"
+"Loaded_Programs=Disseminated Superficial Actinic Porokeratosis (DSAP) p03"
+"Loaded_Programs=Disseminated Superficial Actinic Porokeratosis (DSAP) p04"
+"Loaded_Programs=Disseminated Superficial Actinic Porokeratosis (DSAP) p05"
+"Loaded_Programs=Disseminated Superficial Actinic Porokeratosis (DSAP) p06"
+"Loaded_Programs=Disseminated Superficial Actinic Porokeratosis (DSAP) p07"
+"Loaded_Programs=Disseminated Superficial Actinic Porokeratosis (DSAP) p08"
+"Loaded_Programs=Disseminated Superficial Actinic Porokeratosis (DSAP) p09"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M141.079=1,M57.021,M99.068,M71.037,M97.053,M57.021,M115.027,M127.111,0=4,"
+"[/Preset]"

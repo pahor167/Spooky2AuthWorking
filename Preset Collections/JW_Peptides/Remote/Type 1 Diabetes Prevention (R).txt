@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Type 1 Diabetes Prevention (R)"
+"Preset_Notes=Type 1 Diabetes Prevention for Remote
+
+Type 1 diabetes prevention targets the autoimmune destruction of pancreatic beta cells in at-risk individuals, aiming to induce tolerance or modulate immunity before clinical onset. The proposed polypeptides address evidence-based therapeutic axes from preclinical models (e.g., NOD mice) and clinical trials involving antigen-specific immunotherapy and anti-inflammatory approaches.
+
+1. {alpha}-MSH-derived tripeptide anti-inflammatory modulation: KPV mitigates inflammation and supports immune regulation relevant to autoimmunity.
+2. HSP60-derived p277 peptide immunomodulation: DiaPep277 (VLGGGVALLRVIPALDSLTPANED) preserves beta cell function and slows progression in clinical studies.
+3. Insulin B chain 9-23 antigen-specific tolerance: The dominant epitope peptide (SHLVEALYLVCGERG) promotes tolerance to insulin autoantigen in preclinical and human response studies.
+4. Engineered altered peptide ligand optimization: Ac-SHLVEALYLVCGEEG-NH2 (R22E variant of B9-23 with acetylation/amidation for stability) enhances regulatory T cell responses and tolerance induction.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Type 1 Diabetes Prevention p01"
+"Loaded_Programs=Type 1 Diabetes Prevention p02"
+"Loaded_Programs=Type 1 Diabetes Prevention p03"
+"Loaded_Programs=Type 1 Diabetes Prevention p04"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M57.021,M57.021,M57.021,M99.068,M71.037,M113.084,M113.084,M156.101,M99.068,M113.084,M97.053,M71.037,M113.084,M115.027,M87.032,M113.084,M101.048,M97.053,M71.037,M114.043,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M87.032=1,M137.059,M113.084,M99.068,M129.043,M71.037,M113.084,M163.063,M113.084,M99.068,M103.009,M57.021,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M137.059,M113.084,M99.068,M129.043,M71.037,M113.084,M163.063,M113.084,M99.068,M103.009,M57.021,M129.043,M129.043,M56.037,0=4,"
+"[/Preset]"

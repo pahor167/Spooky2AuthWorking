@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Cat Diabetes Mellitus (R)"
+"Preset_Notes=Cat Diabetes Mellitus for Remote
+
+Feline diabetes mellitus is a common endocrine disorder in cats, closely resembling human type 2 diabetes, characterized by insulin resistance, progressive beta-cell dysfunction, impaired incretin response, hyperglycemia, and frequent obesity association. Key pathophysiological features include toxic islet amyloid polypeptide (IAPP/amylin) aggregation leading to beta-cell apoptosis, oxidative stress from reactive oxygen species, reduced GLP-1 signaling, and chronic low-grade inflammation in pancreatic tissue. While insulin therapy and emerging long-acting GLP-1 agonists (e.g., exenatide) represent established polypeptide treatments, no short synthetic polypeptides are currently verified for clinical use in cats based on comprehensive literature searches. All proposed polypeptides are conceptually designed to address key therapeutic axes: incretin/GLP-1 pathway activation, beta-cell protection/antioxidant effects, anti-amyloid/IAPP aggregation inhibition, insulin sensitivity enhancement, anti-inflammatory modulation, and weight loss/appetite regulation promotion. Designs incorporate non-standard residues for improved stability, affinity, or redox properties; cyclic variants employ disulfide bonds for enhanced proteolytic resistance.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Cat Diabetes Mellitus p01"
+"Loaded_Programs=Cat Diabetes Mellitus p02"
+"Loaded_Programs=Cat Diabetes Mellitus p03"
+"Loaded_Programs=Cat Diabetes Mellitus p04"
+"Loaded_Programs=Cat Diabetes Mellitus p05"
+"Loaded_Programs=Cat Diabetes Mellitus p06"
+"Loaded_Programs=Cat Diabetes Mellitus p07"
+"Loaded_Programs=Cat Diabetes Mellitus p08"
+"Loaded_Programs=Cat Diabetes Mellitus p09"
+"Loaded_Programs=Cat Diabetes Mellitus p10"
+"Loaded_Programs=Cat Diabetes Mellitus p11"
+"Loaded_Programs=Cat Diabetes Mellitus p12"
+"Loaded_Programs=Cat Diabetes Mellitus p13"
+"Loaded_Programs=Cat Diabetes Mellitus p14"
+"Loaded_Programs=Cat Diabetes Mellitus p15"
+"Loaded_Programs=Cat Diabetes Mellitus p16"
+"Loaded_Programs=Cat Diabetes Mellitus p17"
+"Loaded_Programs=Cat Diabetes Mellitus p18"
+"Loaded_Frequencies=M156.101=1,M114.079,M128.095,M86.048,M156.101,M114.079,M128.095,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M114.079,M128.095,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.048,M114.079,M57.021,M87.032,M101.048,M86.048,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.048,M97.053,M113.048,M57.021,M85.053,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M97.053,M113.048,M97.053,M113.048,M57.021,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M85.053,M113.084,M57.021,M97.053,M113.048,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M57.021,M87.032,M150.954,M101.048,M113.048,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M113.048,M57.021,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M57.021=1,M150.954,M87.032,M113.048,M101.048,M150.954,M57.021,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M113.048,M129.043,M85.053,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M129.043,M115.027,M113.048,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M113.048,M85.053,M113.084,M129.043,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M103.009,M137.059,M103.009,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M137.059,M113.048,M103.009,M85.053,M86.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M137.059,M113.084,M137.059,M150.954,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M87.032,M57.021,M101.048,M113.048,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M101.048,M86.048,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M101.048=1,M57.021,M87.032,M101.048,M57.021,M113.084,M85.053,0=4,"
+"[/Preset]"

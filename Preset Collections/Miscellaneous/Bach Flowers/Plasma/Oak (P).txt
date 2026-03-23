@@ -1,0 +1,15 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Oak (P)"
+"Preset_Notes=Oak / Spooky Plasma
+
+Estimated Time: Run this preset for 3:00 minutes.
+Oak - The plodder who keeps going past the point of exhaustion.
+
+Connect Out 1 to Input. Connect Out 2 to Modulation.
+"
+"Loaded_Programs=Oak (P)"
+"Loaded_Frequencies=318.03,"
+"[/Preset]"

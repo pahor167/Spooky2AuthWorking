@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=Beech (L)"
+"Preset_Notes=Beech / Spooky Laser
+
+Estimated Time: Run this preset for 3:00 minutes.
+Beech - Intolerance.
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Beech (L)"
+"Loaded_Frequencies=490.87,"
+"[/Preset]"

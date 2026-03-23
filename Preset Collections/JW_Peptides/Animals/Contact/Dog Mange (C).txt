@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dog Mange (C)"
+"Preset_Notes=Dog Mange for Contact
+
+Dog mange is a skin condition in dogs caused by mite infestations, such as sarcoptic or demodectic mites, leading to intense itching, hair loss, skin inflammation, and potential secondary infections. Mechanistic rationale involves targeting key axes including acaricidal action to eliminate mites, anti-inflammatory effects to reduce pruritus and swelling, immunomodulatory actions to boost host defense, antimicrobial activity against secondary pathogens, wound healing to repair damaged skin, and antioxidant effects to mitigate oxidative stress. Some polypeptides are designed (flagged as such) to supplement coverage where real-world options are limited, ensuring comprehensive therapeutic approaches.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dog Mange p01"
+"Loaded_Programs=Dog Mange p02"
+"Loaded_Programs=Dog Mange p03"
+"Loaded_Programs=Dog Mange p04"
+"Loaded_Programs=Dog Mange p05"
+"Loaded_Programs=Dog Mange p06"
+"Loaded_Programs=Dog Mange p07"
+"Loaded_Programs=Dog Mange p08"
+"Loaded_Programs=Dog Mange p09"
+"Loaded_Programs=Dog Mange p10"
+"Loaded_Programs=Dog Mange p11"
+"Loaded_Programs=Dog Mange p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M102.001,M186.079,M114.043,M113.084,M156.101,M57.021,M87.032,M102.001,M156.101,M129.043,M128.095,M102.001,M113.084,M128.095,M114.043,M129.043,M128.095,M113.084,M163.063,M113.084,M147.068,M102.001,M101.048,M87.032,M57.021,M128.095,M113.084,M102.001,M102.001,M113.084,M128.095,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M156.101,M163.063,M163.063,M102.001,M156.101,M113.084,M156.101,M87.032,M57.021,M156.101,M102.001,M71.037,M113.084,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M156.101,M102.001,M87.032,M87.032,M101.048,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M128.095,M129.043,M113.084,M113.084,M101.048,M101.048,M57.021,M57.021,M128.058,M128.095,M113.084,M57.021,M129.043,M128.095,M113.084,M156.101,M156.101,M113.084,M57.021,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M147.068,M128.095,M114.043,M113.084,M128.058,M97.053,M156.101,M129.043,M129.043,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M156.101,M128.095,M156.101,M113.084,M156.101,M128.095,M147.068,M156.101,M114.043,M128.095,M113.084,M128.095,M129.043,M128.095,M113.084,M128.095,M128.095,M113.084,M57.021,M128.058,M128.095,M113.084,M128.058,M57.021,M113.084,M113.084,M97.053,M128.095,M113.084,M71.037,M97.053,M156.101,M101.048,M115.027,M163.063,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M128.095,M147.068,M186.079,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M200.095,M156.101,M128.058,0=4,"
+"Loaded_Frequencies=M100.064=1,M86.048,M129.043,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M85.053=1,M237.148,M87.032,M101.048,M99.068,0=4,"
+"[/Preset]"

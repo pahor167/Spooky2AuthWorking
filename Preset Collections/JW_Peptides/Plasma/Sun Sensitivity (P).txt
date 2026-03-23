@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Sun Sensitivity (P)"
+"Preset_Notes=Sun Sensitivity for Plasma
+
+Sun Sensitivity: Exaggerated cutaneous response to UV or visible light exposure, seen in conditions like erythropoietic protoporphyria, solar urticaria, and polymorphous light eruption, involving phototoxicity, inflammation, oxidative stress, and immune dysregulation. Proposed peptides target photoprotective, anti-oxidative, and resolutive axes from current literature.
+
+1. Melanogenesis stimulation: Afamelanotide - Potent MC1R agonist inducing eumelanin production independent of UV damage for broad photoprotection.
+2. Cutaneous antimicrobial reinforcement: Human Beta-Defensin 3 (hBD-3) - Maintains potent membrane-disrupting activity against pathogens despite UV-induced immunosuppression.
+3. Inflammatory resolution: Annexin A1 Ac2-26 - Activates formyl peptide receptors to resolve UV-triggered proinflammatory cascades and promote healing.
+4. Mitochondrial oxidative regulation: MOTS-c - Enhances adaptive response to UV-generated reactive oxygen species via nuclear translocation.
+5. Direct radical scavenging: Carnosine - Buffers peroxyl radicals and chelates metals to prevent lipid/protein oxidation in sun-exposed skin.
+6. Singlet oxygen quenching: Indolicidin - Tryptophan-rich structure efficiently deactivates photoexcited oxygen species.
+7. Optimized melanocortin mimicry: MSH-Protect - Engineered {alpha}-MSH analog with natural substitutions for enhanced dermal penetration and stability.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Sun Sensitivity p01"
+"Loaded_Programs=Sun Sensitivity p02"
+"Loaded_Programs=Sun Sensitivity p03"
+"Loaded_Programs=Sun Sensitivity p04"
+"Loaded_Programs=Sun Sensitivity p05"
+"Loaded_Programs=Sun Sensitivity p06"
+"Loaded_Programs=Sun Sensitivity p07"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M113.084,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"[/Preset]"

@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Skin Anti-Aging (S)"
+"Preset_Notes=Skin Anti-Aging for Scalar
+
+Advanced dermatological intervention strategy for 2026 utilizing multi-pathway peptide signaling to reverse structural degradation and neurogenic expression lines. 1. Neurotransmitter Inhibitor: Argireline - SNARE complex destabilization to reduce expression lines. 2. Signal Peptide: Matrixyl - Stimulates collagen I, III, and IV synthesis. 3. Carrier Peptide: GHK-Cu - Copper transport for wound healing and enzymatic antioxidant support. 4. Enzyme Inhibitor: Progeline - Inhibits progerin synthesis to improve jawline contour. 5. Anti-inflammatory: Rigin - Downregulates IL-6 to prevent saccharification and sagging. 6. ECM Reorganizer: Dermacell-26 - Hybrid collagen-fibronectin mimetic for rapid dermal density recovery.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Skin Anti-Aging p01"
+"Loaded_Programs=Skin Anti-Aging p02"
+"Loaded_Programs=Skin Anti-Aging p03"
+"Loaded_Programs=Skin Anti-Aging p04"
+"Loaded_Programs=Skin Anti-Aging p05"
+"Loaded_Programs=Skin Anti-Aging p06"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M366.325=1,M101.048,M101.048,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M196.053=1,M163.063,M99.068,0=4,"
+"Loaded_Frequencies=M335.251=1,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M394.331=1,M113.084,M163.063,M128.095,M86.048,0=4,"
+"[/Preset]"

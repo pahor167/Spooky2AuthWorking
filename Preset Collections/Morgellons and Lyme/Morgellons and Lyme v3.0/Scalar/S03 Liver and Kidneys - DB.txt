@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"Repeat_Chain=0"
+"PresetName=S03 Liver and Kidneys - DB"
+"Preset_Notes=M&L Protocol, Phase I-Terrain. Spooky Scalar.
+
+Update: September 2019.
+
+PROGRAMS: 
+Liver 1 PROV
+Liver 2 PROV
+Liver Flukes CAFL
+Liver Function Balance XTRA
+Kidney Insufficiency CAFL
+Kidney Function Balance XTRA
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Loaded_Programs=Liver 1 (PROV)"
+"Loaded_Programs=Liver 2 (PROV)"
+"Loaded_Programs=Liver Flukes (CAFL)"
+"Loaded_Programs=Liver Function Balance (XTRA)"
+"Loaded_Programs=Kidney Insufficiency (CAFL)"
+"Loaded_Programs=Kidney Function Balance (XTRA)"
+"Loaded_Frequencies=13427.72=1800,"
+"Loaded_Frequencies=317.82=300,33.13=300,1552=300,802=300,751=300,"
+"Loaded_Frequencies=143=180,238=180,275=180,676=180,763=180,"
+"Loaded_Frequencies=33.13=180,537=180,751=180,802=180,1550=180,1552=180,"
+"Loaded_Frequencies=9.2=180,10=180,40=180,440=180,1600=180,1550=180,1500=180,880=180,802=180,650=180,625=180,600=180,444=180,1865=180,146=180,250=180,125=180,95=180,72=180,20=180,"
+"Loaded_Frequencies=1.1=180,1.19=180,6.29=180,8=180,10=180,20=180,40=180,72=180,73=180,95=180,125=180,146=180,148=180,248=180,250=180,333=180,440=180,444=180,465=180,522=180,523=180,555=180,600=180,625=180,650=180,768=180,786=180,800=180,802=180,880=180,1500=180,1550=180,1600=180,1865=180,3000=180,5000=180,10000=180,"
+"[/Preset]"

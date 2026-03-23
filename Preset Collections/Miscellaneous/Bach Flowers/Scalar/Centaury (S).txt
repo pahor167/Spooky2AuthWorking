@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Centaury (S)"
+"Preset_Notes=Centaury / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Centaury - The inability to say 'no'.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Centaury (S)"
+"Loaded_Frequencies=384.68,"
+"[/Preset]"

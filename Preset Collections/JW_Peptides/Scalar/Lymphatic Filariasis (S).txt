@@ -1,0 +1,61 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Lymphatic Filariasis (S)"
+"Preset_Notes=Lymphatic Filariasis for Scalar
+
+Lymphatic filariasis, also known as elephantiasis, is a neglected tropical disease caused by parasitic filarial nematodes including Wuchereria bancrofti (responsible for 90% of cases), Brugia malayi, and Brugia timori, transmitted through the bites of infected mosquitoes (primarily Culex, Anopheles, and Aedes species). The parasites reside in the lymphatic system, where adult worms (macrofilariae) can live for 6-8 years, producing millions of microfilariae (mf) that circulate in the blood and are taken up by mosquitoes during blood meals, completing the transmission cycle. Risk factors include living in endemic areas with poor sanitation, repeated exposure to infected vectors, and genetic susceptibility. Most infections are asymptomatic, but symptomatic cases manifest as acute adenolymphangitis (fever, painful swollen lymph nodes, and inflammation), chronic lymphedema (swelling of limbs, genitals, or breasts due to lymphatic obstruction), hydrocele (scrotal swelling), and elephantiasis (severe skin thickening and fibrosis). Pathophysiology involves worm-induced lymphatic dilation and dysfunction, endosymbiont Wolbachia-triggered inflammation, host immune responses leading to eosinophilia, IgE elevation, and Th2-skewed immunity, resulting in fibrosis, secondary bacterial infections, and impaired fluid drainage. Complications include social stigma, disability, and economic burden in endemic regions like sub-Saharan Africa, Southeast Asia, and the Pacific.
+
+The proposed polypeptides address lymphatic filariasis through multiple therapeutic axes: microfilaricidal action to eliminate circulating mf and interrupt transmission (designed cationic amphipathic polypeptides flagged as designed disrupt parasite membranes); macrofilaricidal action to kill adult worms (designed protease inhibitors with non-standard residues flagged as designed target filarial enzymes); anti-Wolbachia depletion to sterilize worms (designed selenocysteine-containing redox disruptors flagged as designed interfere with bacterial metabolism); anti-inflammatory modulation to reduce host pathology (real Substance P and CGRP promote M2 macrophage polarization and suppress NF-kB/NLRP3; designed phospho-mimetics flagged as designed further dampen inflammation); promotion of lymphangiogenesis to repair damaged vessels (real Adrenomedullin, VEGF-C, and VEGF-D induce lymphatic endothelial cell proliferation via cAMP and VEGFR-3 signaling); leukotriene pathway inhibition to alleviate lymphedema (designed maleylated polypeptides flagged as designed block lipid mediators); immune enhancement for prophylaxis (designed multi-epitope mimetics flagged as designed stimulate Th1/eosinophil responses); autophagy induction in parasites (designed farnesylated activators flagged as designed trigger worm cell death); and support for morbidity management (designed anti-fibrotic sequences flagged as designed reduce tissue scarring). Feasibility includes biocompatibility, targeted delivery to lymphatic tissues, and potential synergy with existing MDA regimens; physicochemical considerations encompass solubility, stability against proteases, and amphipathicity for membrane interaction.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Lymphatic Filariasis p01"
+"Loaded_Programs=Lymphatic Filariasis p02"
+"Loaded_Programs=Lymphatic Filariasis p03"
+"Loaded_Programs=Lymphatic Filariasis p04"
+"Loaded_Programs=Lymphatic Filariasis p05"
+"Loaded_Programs=Lymphatic Filariasis p06"
+"Loaded_Programs=Lymphatic Filariasis p07"
+"Loaded_Programs=Lymphatic Filariasis p08"
+"Loaded_Programs=Lymphatic Filariasis p09"
+"Loaded_Programs=Lymphatic Filariasis p10"
+"Loaded_Programs=Lymphatic Filariasis p11"
+"Loaded_Programs=Lymphatic Filariasis p12"
+"Loaded_Programs=Lymphatic Filariasis p13"
+"Loaded_Programs=Lymphatic Filariasis p14"
+"Loaded_Programs=Lymphatic Filariasis p15"
+"Loaded_Programs=Lymphatic Filariasis p16"
+"Loaded_Programs=Lymphatic Filariasis p17"
+"Loaded_Programs=Lymphatic Filariasis p18"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,M163.063,M114.043,M101.048,M129.043,M113.084,M128.095,M87.032,M113.084,M115.027,M114.043,M129.043,M129.043,M186.079,M156.101,M128.095,M101.048,M128.058,M103.009,M131.040,M97.053,M156.101,M129.043,M99.068,M103.009,M113.084,M115.027,M99.068,M57.021,M147.068,M57.021,M99.068,M71.037,M101.048,M114.043,M101.048,M147.068,M147.068,M128.095,M97.053,M97.053,M103.009,M99.068,M87.032,M99.068,M163.063,M156.101,M103.009,M57.021,M57.021,M103.009,M103.009,M114.043,M87.032,M129.043,M57.021,M113.084,M128.058,M103.009,M131.040,M114.043,M101.048,M87.032,M101.048,M87.032,M163.063,M113.084,M87.032,M128.095,M101.048,M113.084,M147.068,M129.043,M113.084,M101.048,M99.068,M97.053,M113.084,M87.032,M128.058,M57.021,M97.053,M128.095,M97.053,M99.068,M101.048,M113.084,M87.032,M147.068,M71.037,M114.043,M137.059,M101.048,M87.032,M103.009,M156.101,M103.009,M131.040,M87.032,M128.095,M113.084,M115.027,M128.095,M113.084,M115.027,M99.068,M163.063,M156.101,M128.058,M99.068,M137.059,M87.032,M113.084,M113.084,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M71.037,M71.037,M101.048,M147.068,M163.063,M115.027,M113.084,M129.043,M101.048,M113.084,M128.095,M99.068,M113.084,M115.027,M129.043,M129.043,M186.079,M128.058,M156.101,M101.048,M128.058,M103.009,M87.032,M97.053,M156.101,M129.043,M103.009,M99.068,M99.068,M71.037,M128.095,M113.084,M128.095,M57.021,M113.084,M114.043,M101.048,M101.048,M147.068,M147.068,M97.053,M113.084,M97.053,M103.009,M113.084,M99.068,M99.068,M156.101,M103.009,M57.021,M57.021,M103.009,M103.009,M114.043,M115.027,M129.043,M57.021,M113.084,M128.058,M113.084,M128.058,M137.059,M113.084,M57.021,M129.043,M131.040,M87.032,M147.068,M113.084,M128.058,M137.059,M87.032,M113.084,M128.095,M103.009,M129.043,M103.009,M156.101,M97.053,M128.095,M128.095,M115.027,M128.095,M101.048,M128.095,M129.043,M137.059,0=4,"
+"Loaded_Frequencies=M101.001=1,M114.079,M86.048,M128.095,M156.101,M113.048,M150.954,M128.095,M101.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M128.095,M156.101,M86.048,M114.079,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M147.068,M114.079,M128.095,M113.048,M86.048,M156.101,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M304.127,M114.079,M128.095,M290.111,M86.048,M156.101,M114.079,0=4,"
+"Loaded_Frequencies=M86.048=1,M85.053,M114.079,M113.048,M128.095,M85.053,M86.048,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M150.954,M114.079,M86.048,M150.954,M128.095,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M307.197=1,M114.079,M113.048,M128.095,M86.048,M156.101,M114.079,M128.095,0=4,"
+"Loaded_Frequencies=M113.048=1,M114.079,M128.095,M86.048,M128.095,M113.048,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M114.079,M156.101,M86.048,M147.068,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M166.998,M114.079,M181.014,M86.048,M128.095,M114.079,0=4,"
+"Loaded_Frequencies=M156.101=1,M114.079,M128.095,M86.048,M113.048,M114.079,M128.095,M86.048,M156.101,M128.095,M113.048,M114.079,M86.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M102.001,M114.079,M128.095,M86.048,M113.048,M113.084,M114.079,M128.095,M156.101,M86.048,M102.001,M57.021,0=4,"
+"Loaded_Frequencies=M317.122=1,M114.079,M304.127,M156.101,M86.048,M290.111,M128.095,0=4,"
+"[/Preset]"

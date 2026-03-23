@@ -1,0 +1,50 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Multiple Health Conditions (C)"
+"Preset_Notes=Multiple Health Conditions for Contact
+
+Multiple health conditions including excessive calcification and herniated disc in the neck, lumbar vertebral deformation, muscle tears, sinusitis, refractive eye problems, lung nodules and bronchial blockage, heart muscle pain, diabetes, prostate enlargement, blood clots, weak immune system, and toxin removal
+
+The listed conditions involve a range of musculoskeletal injuries, inflammatory respiratory issues, ocular refractive errors, pulmonary complications from smoking and COVID, cardiac pain, metabolic disorder, urological enlargement, thrombotic complications from COVID, immunodeficiency, and need for detoxification. The selected real-world polypeptides target eleven evidence-based therapeutic axes derived from preclinical studies, investigational use, and mechanistic overlap with these conditions.
+1. Stable gastric peptide-mediated regeneration: BPC-157 promotes angiogenesis, collagen deposition, and tissue healing for musculoskeletal injuries like disc herniation, rupture, lumbar deformation, and muscle tears.
+2. Calcium homeostasis regulation: Calcitonin inhibits osteoclast activity and modulates calcium levels to address excessive calcification in the neck.
+3. Antimicrobial and anti-inflammatory action: LL-37 disrupts bacterial biofilms and reduces inflammation for sinusitis and bronchial blockage.
+4. Vasoactive intestinal peptide modulation: VIP relaxes smooth muscles and reduces inflammation in the lungs for nodules and blockage due to smoking and COVID.
+5. Natriuretic peptide cardioprotection: BNP improves cardiac function and reduces pain in heart muscle by promoting vasodilation and diuresis.
+6. GLP-1 receptor agonism: Exenatide enhances insulin secretion and glucose control for diabetes.
+7. GnRH analog suppression: Leuprolide reduces androgen levels to shrink prostate tissue for enlargement.
+8. Direct thrombin inhibition: Bivalirudin prevents clot formation for excessive blood clots due to COVID.
+9. Thymopoietin mimicry: Thymosin alpha 1 stimulates T-cell function to strengthen the weak immune system.
+10. Redox balance restoration: Glutathione scavenges free radicals and aids detoxification for removal of toxins and lung protection.
+11. Tissue-protective erythropoietin signaling: ARA290 activates anti-apoptotic pathways for neuroprotection in eye problems.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Multiple Health Conditions p01"
+"Loaded_Programs=Multiple Health Conditions p02"
+"Loaded_Programs=Multiple Health Conditions p03"
+"Loaded_Programs=Multiple Health Conditions p04"
+"Loaded_Programs=Multiple Health Conditions p05"
+"Loaded_Programs=Multiple Health Conditions p06"
+"Loaded_Programs=Multiple Health Conditions p07"
+"Loaded_Programs=Multiple Health Conditions p08"
+"Loaded_Programs=Multiple Health Conditions p09"
+"Loaded_Programs=Multiple Health Conditions p10"
+"Loaded_Programs=Multiple Health Conditions p11"
+"Loaded_Frequencies=M99.032=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M98.084,0=4,"
+"Loaded_Frequencies=M101.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M101.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M113.059,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M101.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M101.001,M128.095,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M111.032=1,M137.059,M186.079,M87.032,M163.063,M113.084,M113.084,M156.101,M111.092,0=4,"
+"Loaded_Frequencies=M147.068=1,M97.053,M156.101,M97.053,M57.021,M57.021,M57.021,M57.021,M114.043,M57.021,M115.027,M147.068,M129.043,M129.043,M113.084,M97.053,M129.043,M129.043,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"[/Preset]"

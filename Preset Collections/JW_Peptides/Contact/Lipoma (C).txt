@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Lipoma (C)"
+"Preset_Notes=Lipoma for Contact
+
+Lipoma is a benign tumor of mature adipocytes, typically subcutaneous and encapsulated, often asymptomatic but potentially painful, enlarging, or cosmetically concerning, with limited non-surgical options beyond excision. The proposed polypeptides target regenerative, remodeling, lipolytic, and tissue-normalizing axes supported by preclinical healing studies, lipolysis research, and emerging anecdotal reports of peptide use for lipoma management.
+
+1. Copper-binding tripeptide-mediated ECM remodeling and regeneration: GHK-Cu promotes collagen synthesis, antioxidant activity, and tissue repair, anecdotally included in protocols for lipoma reduction.
+2. Gastric pentadecapeptide-mediated protective healing: BPC-157 enhances tissue integrity and resolution in musculoskeletal models, with anecdotal reports of lipoma shrinkage.
+3. Thymosin {beta}4 fragment-mediated actin regulation and anti-fibrotic repair: TB-500 supports cell migration and healing, frequently reported anecdotally alongside BPC-157 for reducing lipomas.
+4. hGH C-terminal fragment-mediated selective lipolysis: HGH Fragment 176-191 induces fat breakdown in adipose tissue without systemic growth effects, applicable to localized deposits.
+5. Engineered collagen-mimetic stabilization of subcutaneous matrix: Ac-(GPP)10-NH2 intercalates into connective tissue to reinforce structure and potentially limit or normalize lipomatous growth.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Lipoma p01"
+"Loaded_Programs=Lipoma p02"
+"Loaded_Programs=Lipoma p03"
+"Loaded_Programs=Lipoma p04"
+"Loaded_Programs=Lipoma p05"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M156.101,M113.084,M99.068,M128.058,M103.009,M156.101,M87.032,M99.068,M129.043,M57.021,M87.032,M103.009,M57.021,M147.068,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

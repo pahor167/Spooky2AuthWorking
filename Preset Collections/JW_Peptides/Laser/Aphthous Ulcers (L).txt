@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Aphthous Ulcers (L)"
+"Preset_Notes=Aphthous Ulcers for Laser
+
+Aphthous ulcers, also known as canker sores, are painful, recurrent ulcers in the oral mucosa, characterized by cell-mediated inflammation involving T-cells and TNF-{alpha} production. The pathogenesis involves immune dysregulation, potential microbial triggers, and oxidative stress. Treatment aims to reduce pain, promote healing, and prevent recurrence.
+
+1. Wound healing and cell proliferation: Nal-P-113 - Promotes cell proliferation, migration, and cell cycle progression by upregulating EGF and FGF-2, downregulating TGF-{beta}1; also antimicrobial
+2. Antimicrobial and immunomodulatory: LL-37 - Provides antimicrobial protection and modulates inflammation in oral mucosa, potentially reducing ulcer severity
+3. TNF-{alpha} inhibition: WP9QY - Binds to TNF-{alpha} and inhibits its interaction with TNFR, reducing inflammation
+4. Antioxidant enhancement: Carnosine - Acts as an antioxidant and buffering agent, improving antioxidant defense in aphthous ulcers
+5. Anti-inflammatory: Annexin_A1_Ac2-26 - Mimics annexin A1, promotes resolution of inflammation by inhibiting neutrophil infiltration and promoting macrophage clearance
+6. TLR signaling inhibition: MyD88 inhibitor peptide - Inhibits MyD88 homodimerization, reducing TLR signaling and downstream inflammation
+7. Angiogenesis promotion: QK - Mimics VEGF, promotes angiogenesis and wound healing
+8. Cell proliferation: EGF - Promotes epithelial cell proliferation and wound healing
+9. Pain reduction: Met-enkephalin - Opioid receptor agonist, provides analgesia for ulcer pain
+10. T-cell mediated immunity modulation: Designed T-cell modulator - Modulates T-cell response, reducing cell-mediated inflammation in aphthous ulcers
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Aphthous Ulcers p01"
+"Loaded_Programs=Aphthous Ulcers p02"
+"Loaded_Programs=Aphthous Ulcers p03"
+"Loaded_Programs=Aphthous Ulcers p04"
+"Loaded_Programs=Aphthous Ulcers p05"
+"Loaded_Programs=Aphthous Ulcers p06"
+"Loaded_Programs=Aphthous Ulcers p07"
+"Loaded_Programs=Aphthous Ulcers p08"
+"Loaded_Programs=Aphthous Ulcers p09"
+"Loaded_Programs=Aphthous Ulcers p10"
+"Loaded_Frequencies=M113.048=1,M128.095,M156.101,M197.084,M197.084,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M196.100,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M163.063=1,M102.001,M186.079,M87.032,M128.058,M163.063,M113.084,M102.001,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M115.027,M99.068,M113.084,M97.053,M57.021,M101.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M114.043=1,M87.032,M115.027,M87.032,M129.043,M102.001,M97.053,M113.084,M87.032,M137.059,M115.027,M57.021,M163.063,M102.001,M113.084,M137.059,M115.027,M57.021,M99.068,M113.084,M102.001,M163.063,M113.084,M129.043,M71.037,M128.095,M163.063,M71.037,M102.001,M102.001,M99.068,M99.068,M57.021,M163.063,M113.084,M57.021,M129.043,M156.101,M102.001,M128.058,M163.063,M156.101,M115.027,M113.084,M128.095,M186.079,M186.079,M129.043,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M99.068,M113.084,M99.068,M87.032,0=4,"
+"[/Preset]"

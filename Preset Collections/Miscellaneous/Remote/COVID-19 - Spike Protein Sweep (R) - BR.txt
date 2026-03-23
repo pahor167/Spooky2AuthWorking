@@ -1,0 +1,50 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=COVID-19 - Spike Protein Sweep (R) - BR"
+"BFB_Finish_Frequency=1800000"
+"BFB_Grade_Program=0"
+"BFB_Initial_Step_Size_%=.025"
+"BFB_Reverse_Lookup_Tolerance=.25"
+"BFB_Include_x_Hz_In_Search=0"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=IMPORTANT:
+
+'''' This preset is calibrated to use a 'MW to Hz factor' of '2.2523430883E+23'. 
+'''' Please update this on your System Tab.
+
+This preset sweeps a large range of frequencies using SARS-CoV-2 spike protein data from 7/2/2021. Due to natural mutations, as well as synthetically created mutations (from vaccines), there are many variations of the SARS-CoV-2 Spike Protein.
+
+This sweep preset may not be as efficient as using specific spike protein data from your area. I recommend first trying the 'Top 30' preset, which has a high probability of addressing most spike proteins including those created by vaccines.
+
+More data for spike proteins in your area:
+https://www.dropbox.com/s/drn2bu98h0ps7c7/SpikeProteinMutations.xlsx?dl=1
+
+Copyright 2021, All rights reserved
+
+Brad Rothman
+brad@cornerstonecodes.com
+https://www.cornerstonecodes.com"
+"Settings_Frequency_Wobble_Percentage=.5"
+"Settings_Frequency_Wobble_Steps=360"
+"Hz_Gate=8"
+"Out2_Frequency_Limit_Harmonic_Type=Scalar*"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=Sine"
+"User_Defined_2_Waveform=UDB_Square"
+"Out2_Follow_Out1_Frequency=False"
+"Out2_Follows_Program_Frequency=True"
+"Out2_Run_Every_Second_Frequency=False"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Out2_Follow_Out1_Wave=False"
+"Enable_MW_Tissue_Factor=0"
+"Enable_DNA_Tissue_Factor=0"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Packing_Frequency_Out1=0"
+"Packing_Frequency_Out2=0"
+"Enable_Invert_Follow_Out1_Wave=0"
+"Loaded_Programs=SARS-CoV-2 - Spike Protein (Average) (CUST)"
+"Loaded_Frequencies=M197439.484524=1800,"
+"[/Preset]"

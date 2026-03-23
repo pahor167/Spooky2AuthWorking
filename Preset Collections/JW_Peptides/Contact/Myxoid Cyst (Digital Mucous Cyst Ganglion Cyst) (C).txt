@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Myxoid Cyst (Digital Mucous Cyst/Ganglion Cyst) (C)"
+"Preset_Notes=Myxoid Cyst (Digital Mucous Cyst/Ganglion Cyst) for Contact
+
+Myxoid cysts are benign, fluid-filled lesions typically occurring near the distal interphalangeal joints of fingers or toes, associated with underlying osteoarthritis, synovial fluid leakage, and accumulation of hyaluronic acid-rich mucoid material. Proposed polypeptides target underlying joint degeneration, inflammation, and tissue repair to promote natural resolution.
+
+1. Joint capsule repair: BPC-157 - Accelerates healing of joint structures and synovial leaks through enhanced collagen synthesis and angiogenesis.
+2. Cellular migration enhancement: TB-500 - Promotes actin-regulated cell migration and tissue regeneration to facilitate cyst absorption.
+3. Local anti-inflammation: KPV - Potent tripeptide that suppresses inflammatory responses in synovial and peri-cystic tissues.
+4. Tissue protection: ARA-290 - Provides neuro- and tissue-protective effects while reducing chronic inflammation in degenerative joints.
+5. Extracellular matrix remodeling: GHK-Cu - Copper-complexed tripeptide that stimulates collagen production and supports dermal repair.
+6. Broad anti-inflammation: VIP - Inhibits pro-inflammatory cytokines and modulates immune responses in joint environments.
+7. Chondrocyte proliferation: P-15 - Collagen-mimetic peptide that enhances cell attachment and growth to support cartilage integrity in associated osteoarthritis.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Myxoid Cyst (Digital Mucous Cyst/Ganglion Cyst) p01"
+"Loaded_Programs=Myxoid Cyst (Digital Mucous Cyst/Ganglion Cyst) p02"
+"Loaded_Programs=Myxoid Cyst (Digital Mucous Cyst/Ganglion Cyst) p03"
+"Loaded_Programs=Myxoid Cyst (Digital Mucous Cyst/Ganglion Cyst) p04"
+"Loaded_Programs=Myxoid Cyst (Digital Mucous Cyst/Ganglion Cyst) p05"
+"Loaded_Programs=Myxoid Cyst (Digital Mucous Cyst/Ganglion Cyst) p06"
+"Loaded_Programs=Myxoid Cyst (Digital Mucous Cyst/Ganglion Cyst) p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M99.068,0=4,"
+"[/Preset]"

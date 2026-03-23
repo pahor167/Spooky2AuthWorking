@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Lewy Body Dementia (R)"
+"Preset_Notes=Lewy Body Dementia for Remote
+
+Lewy Body Dementia (LBD) is the second most common neurodegenerative dementia after Alzheimer's, characterized by alpha-synuclein aggregates forming Lewy bodies, leading to progressive cognitive decline, fluctuations in attention, visual hallucinations, REM sleep behavior disorder, and parkinsonism. Pathogenesis involves protein misfolding, neuroinflammation, mitochondrial impairment, synaptic dysfunction, and neuronal loss. The proposed polypeptides target evidence-based axes from preclinical synucleinopathy models, neuroprotective peptide studies, and emerging clinical/observational data on GLP-1 analogs in overlapping Parkinson's dementia.
+
+1. GLP-1 receptor agonism for insulin sensitization, anti-inflammation, and broad neuroprotection: Exenatide (amidated) reduces synuclein accumulation, improves mitochondrial function, and shows motor/cognitive benefits in Parkinson's models applicable to LBD.
+2. Mitochondrial-derived peptide for anti-apoptotic and metabolic protection: Humanin counters oxidative stress, preserves neuronal viability, and ameliorates cognitive decline in dementia models.
+3. Nootropic ACTH fragment analog for neurotrophic enhancement: Semax upregulates BDNF, improves cognition, and provides neuroprotection in brain injury/dysfunction.
+4. Vasoactive intestinal peptide for potent anti-inflammatory modulation: VIP suppresses pro-inflammatory cytokines and protects against neuroinflammation in degenerative conditions.
+5. EPO-derived non-erythropoietic peptide for innate repair: ARA-290 (pyroGlu-modified) activates EPOR-CD131 to reduce inflammation and promote neural recovery.
+6. Copper-triplet peptide for regenerative and antioxidant effects: GHK-Cu enhances ECM remodeling, neurogenesis, and mitigates oxidative damage relevant to aging brain.
+7. Engineered NAC-core competitive inhibitor for alpha-synuclein aggregation: Ac-EGVLYVGSKTK-NH2 (designed short fragment with N/C-terminal stabilization) disrupts fibrillization by targeting the hydrophobic core motif.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Lewy Body Dementia p01"
+"Loaded_Programs=Lewy Body Dementia p02"
+"Loaded_Programs=Lewy Body Dementia p03"
+"Loaded_Programs=Lewy Body Dementia p04"
+"Loaded_Programs=Lewy Body Dementia p05"
+"Loaded_Programs=Lewy Body Dementia p06"
+"Loaded_Programs=Lewy Body Dementia p07"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M57.021,M99.068,M113.084,M163.063,M99.068,M57.021,M87.032,M128.095,M101.048,M128.095,0=4,"
+"[/Preset]"

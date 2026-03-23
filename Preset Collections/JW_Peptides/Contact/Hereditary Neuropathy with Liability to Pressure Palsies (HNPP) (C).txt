@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Hereditary Neuropathy with Liability to Pressure Palsies (HNPP) (C)"
+"Preset_Notes=Hereditary Neuropathy with Liability to Pressure Palsies (HNPP) for Contact
+
+Hereditary Neuropathy with Liability to Pressure Palsies (HNPP), also known as tomaculous neuropathy, is an autosomal dominant inherited demyelinating neuropathy primarily caused by a heterozygous deletion of the PMP22 gene on chromosome 17p12, leading to haploinsufficiency and reduced expression of peripheral myelin protein 22, a critical component for myelin compaction and stability in peripheral nerves. Genetic mutations or deletions disrupt myelin sheath integrity, resulting in focal hypermyelination (tomacula) that predisposes nerves to compression or trauma-induced demyelination. Environmental factors such as minor mechanical stress, repetitive motions, or positional pressure exacerbate episodes, while genetic modifiers may influence severity. Symptoms often manifest in adolescence or early adulthood as recurrent, transient episodes of focal sensory or motor deficits, including numbness, tingling, weakness, or pain in affected limbs, typically resolving over days to months but potentially leading to permanent deficits with repeated insults; common sites include peroneal, ulnar, or median nerves, mimicking entrapment neuropathies like carpal tunnel syndrome. The pathophysiology involves impaired myelin maintenance, altered cholesterol trafficking, dysregulated autophagy leading to protein aggregates, and aberrant mTOR signaling that impairs Schwann cell function and nerve conduction, culminating in episodic conduction blocks, slowed nerve velocities, and secondary axonal degeneration in chronic cases, distinguishing HNPP from other Charcot-Marie-Tooth variants by its episodic nature and milder baseline phenotype.
+
+The proposed designed polypeptides target key therapeutic axes in HNPP. For the myelin maintenance and PMP22 compensation axis, the first designed polypeptide enhances PMP22 stability and myelin compaction, reducing tomacula formation and vulnerability to pressure-induced demyelination. For the mTOR signaling modulation axis, the second designed polypeptide inhibits aberrant mTOR activity, promoting Schwann cell survival and improving motor function during episodes. For the autophagy enhancement axis, the third designed polypeptide boosts autophagic clearance of misfolded proteins, preventing aggregate accumulation and supporting myelin homeostasis. For the neuroprotection against pressure-induced palsy axis, the fourth designed polypeptide shields axons from compressive damage, preserving nerve conduction and minimizing palsy recurrence. These mechanisms are feasible with short peptide designs optimizing CNS penetration, stability, and low immunogenicity for potential subcutaneous or oral delivery.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Hereditary Neuropathy with Liability to Pressure Palsies (HNPP) p01"
+"Loaded_Programs=Hereditary Neuropathy with Liability to Pressure Palsies (HNPP) p02"
+"Loaded_Programs=Hereditary Neuropathy with Liability to Pressure Palsies (HNPP) p03"
+"Loaded_Programs=Hereditary Neuropathy with Liability to Pressure Palsies (HNPP) p04"
+"Loaded_Frequencies=M71.037=1,M137.059,M128.095,M156.101,M128.058,M113.084,M97.053,0=4,"
+"Loaded_Frequencies=M115.027=1,M147.068,M113.084,M131.040,M114.043,M87.032,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M57.021,M137.059,M156.101,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M99.068=1,M101.048,M128.095,M128.058,M147.068,M131.040,M114.043,0=4,"
+"[/Preset]"

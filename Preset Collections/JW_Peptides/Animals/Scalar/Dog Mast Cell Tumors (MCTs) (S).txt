@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Dog Mast Cell Tumors (MCTs) (S)"
+"Preset_Notes=Dog Mast Cell Tumors (MCTs) for Scalar
+
+Dog Mast Cell Tumors (MCTs) are the most common skin cancer in dogs, arising from mast cells, often on trunk or limbs, influenced by genetics (e.g., in Boxers, Bulldogs) and environmental factors. Symptoms include raised, itchy masses that may ulcerate, fluctuate in size, or cause systemic effects like vomiting/diarrhea from histamine release (degranulation syndrome). Pathophysiology involves neoplastic mast cell accumulation, KIT receptor mutations driving proliferation, degranulation releasing vasoactive mediators, and potential metastasis to lymph nodes, spleen, or liver in high-grade tumors.
+
+The proposed polypeptides target Dog Mast Cell Tumors through mast cell stabilization, antitumor cytotoxicity, and anti-metastatic effects. For stabilization, a designed polypeptide inhibits KIT signaling to prevent degranulation and proliferation, akin to tyrosine kinase inhibitor peptides; feasibility from targeted therapy models, with low toxicity for cutaneous application. For cytotoxic action, a designed polypeptide induces mast cell apoptosis via caspase activation, selectively eliminating neoplastic cells; conceptual from BH3 mimetics adapted for veterinary oncology. For metastasis inhibition, a designed polypeptide blocks chemokine receptors to hinder migration; these designed polypeptides support surgical excision and chemotherapy, potentially reducing recurrence in aggressive grades.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Dog Mast Cell Tumors (MCTs) p01"
+"Loaded_Programs=Dog Mast Cell Tumors (MCTs) p02"
+"Loaded_Programs=Dog Mast Cell Tumors (MCTs) p03"
+"Loaded_Frequencies=M128.095=1,M113.084,M137.059,M128.095,M113.084,M137.059,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M115.027,M87.032,M115.027,0=4,"
+"Loaded_Frequencies=M103.009=1,M103.009,M128.095,M103.009,M103.009,M128.095,0=4,"
+"[/Preset]"

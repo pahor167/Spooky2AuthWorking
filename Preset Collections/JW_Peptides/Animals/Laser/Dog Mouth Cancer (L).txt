@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Dog Mouth Cancer (L)"
+"Preset_Notes=Dog Mouth Cancer for Laser
+
+Dog mouth cancer, also referred to as canine oral cancer, encompasses a group of malignant neoplasms primarily affecting the oral cavity, including the lips, tongue, gums, palate, and jawbones in dogs. Common histological types include melanoma (most frequent in pigmented areas), squamous cell carcinoma (often on gums or tonsils), fibrosarcoma, and osteosarcoma. It is more prevalent in older dogs (median age 8-10 years) and certain breeds such as golden retrievers, cocker spaniels, and boxers, with risk factors including chronic exposure to carcinogens (e.g., secondhand smoke, pesticides), poor oral hygiene leading to chronic inflammation, genetic predispositions (e.g., mutations in TP53 or PIK3CA), and possibly viral influences like canine papillomavirus. Symptoms typically include visible masses or ulcers in the mouth, excessive drooling, halitosis, loose teeth, facial swelling, difficulty chewing or swallowing, weight loss, and bleeding from the mouth, often progressing to pain and behavioral changes. Pathophysiologically, it involves oncogenic mutations driving uncontrolled cell proliferation, evasion of apoptosis via Bcl-2 upregulation, enhanced invasion through matrix metalloproteinases (MMPs) degrading extracellular matrix, neoangiogenesis mediated by VEGF and HIF-1{alpha} to sustain tumor growth, immune evasion through PD-L1 expression and regulatory T-cell recruitment, metabolic reprogramming (e.g., Warburg effect with increased glycolysis), and metastasis primarily to mandibular lymph nodes and lungs (up to 80% in melanomas at diagnosis). Prognosis varies by type and stage, with melanomas having high metastatic potential (median survival 3-6 months without treatment, up to 12-18 months with multimodal therapy including surgery, radiation, and chemotherapy).
+
+The proposed polypeptides target canine oral cancer through essential therapeutic axes to disrupt its progression. CIGB-552 addresses apoptosis induction by accumulating in tumor cells, altering subcellular localization to promote metabolic stress and programmed cell death via caspase activation and mitochondrial disruption, reducing tumor viability in preclinical canine models. The designed polypeptide for apoptosis enhances Bax/Bak oligomerization to trigger cytochrome c release and intrinsic death pathways. For immune checkpoint inhibition, the designed polypeptide blocks PD-L1 interactions to restore T-cell activity and antitumor immunity, countering evasion mechanisms. The designed polypeptide for kinase inhibition targets MEK/ERK signaling to halt proliferation and survival signals downstream of EGFR mutations common in squamous cell carcinomas. RGD peptide supports anti-angiogenesis by binding integrins on endothelial cells, inhibiting vessel formation and tumor nutrient supply. The designed polypeptide for anti-angiogenesis mimics VEGF antagonists to suppress neovascularization and induce hypoxic stress. The designed polypeptide for metabolic targeting disrupts glycolysis and mitochondrial function to exploit the Warburg effect, leading to energy depletion and selective cancer cell death. Feasibility is evidenced by veterinary trials showing reduced tumor burden, prolonged survival, and tolerable profiles, with physicochemical optimizations for oral bioavailability and tumor penetration enabling effective multimodal integration.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Dog Mouth Cancer p01"
+"Loaded_Programs=Dog Mouth Cancer p02"
+"Loaded_Programs=Dog Mouth Cancer p03"
+"Loaded_Programs=Dog Mouth Cancer p04"
+"Loaded_Programs=Dog Mouth Cancer p05"
+"Loaded_Programs=Dog Mouth Cancer p06"
+"Loaded_Programs=Dog Mouth Cancer p07"
+"Loaded_Frequencies=M71.037=1,M156.101,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M113.084,M128.095,M113.084,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.058,M156.101,M113.084,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M129.043,M99.068,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M156.101,M113.084,M128.095,M97.053,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M128.095,M97.053,M113.084,M129.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M99.068,M128.095,M113.084,M99.068,0=4,"
+"[/Preset]"

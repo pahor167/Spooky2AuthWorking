@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Caffeine (Nootropics) (R) - JRG"
+"Loaded_Programs=Caffeine (CUST)"
+"Loaded_Frequencies=M194.08038,"
+"Preset_Notes=Caffeine is the most widely used psychoactive drug in the world. As a nootropic, caffeine helps improve reaction time, alertness, memory and mood.|Caffeine is an adenosine antagonist which influences acetylcholine, epinephrine (adrenaline), serotonin and boosts the use of dopamine. Providing the stimulant effect experienced when consuming caffeine.|Caffeine provides a protective effect by boosting gene expression of brain-derived neurotrophic factor (BDNF). Studies show chronic caffeine consumption may protect against developing neurodegenerative diseases like Alzheimer's and Parkinson's.|Caffeine improves mood within an hour of consumption. Because it increases the density of GABA receptors, potentiates dopamine, and causes some serotonin receptors to be more responsive.|See the full review for dosage instructions, how to deal with tolerance, and the benefits of using caffeine stacked with L-Theanine.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

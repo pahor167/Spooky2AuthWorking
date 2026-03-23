@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Meckel’s Diverticulum (S)"
+"Preset_Notes=Meckel’s Diverticulum for Scalar
+
+Meckel's Diverticulum is a congenital malformation representing a true diverticulum of the small intestine, arising from incomplete obliteration of the vitelline duct during embryonic development, typically located on the antimesenteric border of the ileum about 60-80 cm from the ileocecal valve. It affects approximately 2% of the population, with a male predominance, and often remains asymptomatic, but complications occur in 4-25% of cases, manifesting primarily as gastrointestinal bleeding from peptic ulceration due to ectopic gastric mucosa, intestinal obstruction from intussusception, volvulus, or adhesions, diverticulitis resembling appendicitis with inflammation and potential perforation leading to peritonitis, fistulas, or rarely neoplasia. Symptoms include painless rectal bleeding (especially in children), abdominal pain, nausea, vomiting, or signs of obstruction like distension and constipation; severe cases involve hemodynamic instability from hemorrhage or sepsis from perforation. Pathophysiology involves ectopic heterotopic tissues (gastric, pancreatic) causing acid secretion and ulceration, mechanical torsion or inflammation triggering obstruction or perforation, bacterial overgrowth in the pouch exacerbating infection, and immune responses amplifying tissue damage.
+
+The proposed polypeptides target key axes of Meckel's Diverticulum complications through hemostatic, anti-inflammatory, healing, motility-regulating, and antimicrobial mechanisms. Real-world polypeptides include PuraStat for endoscopic hemostasis in bleeding via self-assembly into a barrier matrix; BPC-157 promotes tissue repair and reduces inflammation in diverticulitis and perforation by enhancing angiogenesis and modulating nitric oxide; LTP mitigates inflammation and preserves mucosal barrier integrity through antioxidant and LPS-neutralizing effects; Octreotide inhibits gut secretions and motility to resolve obstruction in postoperative or malignant ileus; VIP modulates smooth muscle relaxation to alleviate obstructive symptoms; Sincalide stimulates gallbladder and bowel contraction to treat vincristine-induced ileus applicable to obstructive complications; Teduglutide enhances intestinal adaptation and mucosal growth post-resection or in short bowel scenarios; LL-37 exerts antimicrobial activity against gut pathogens to prevent or treat infectious diverticulitis. Designed polypeptides supplement coverage: the oxytocin analogue peptide reduces chronic abdominal pain by activating local gut receptors; the cyclic peptide inhibits complement to curb excessive inflammation in perforation; the BTK inhibitor-like peptide disrupts inflammatory signaling in B cells for autoimmunity-related aspects; the antimicrobial modulator peptide balances microbiome to prevent bacterial overgrowth in the diverticulum. Feasibility is supported by peptide stability in GI environments, targeted delivery options like oral or injectable, and low immunogenicity; physicochemical factors include cationic charge for membrane interaction, hydrophobicity for folding, and short length for bioavailability.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Meckel’s Diverticulum p01"
+"Loaded_Programs=Meckel’s Diverticulum p02"
+"Loaded_Programs=Meckel’s Diverticulum p03"
+"Loaded_Programs=Meckel’s Diverticulum p04"
+"Loaded_Programs=Meckel’s Diverticulum p05"
+"Loaded_Programs=Meckel’s Diverticulum p06"
+"Loaded_Programs=Meckel’s Diverticulum p07"
+"Loaded_Programs=Meckel’s Diverticulum p08"
+"Loaded_Programs=Meckel’s Diverticulum p09"
+"Loaded_Programs=Meckel’s Diverticulum p10"
+"Loaded_Programs=Meckel’s Diverticulum p11"
+"Loaded_Programs=Meckel’s Diverticulum p12"
+"Loaded_Frequencies=M156.101=1,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M156.101,M128.095,M115.027,M99.068,M163.063,0=4,"
+"Loaded_Frequencies=M147.068=1,M103.009,M147.068,M186.079,M128.095,M101.048,M103.009,M101.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M243.020,M131.040,M57.021,M186.079,M131.040,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M113.084,M128.058,M101.048,M128.095,M113.084,M101.048,M115.027,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M103.009,M99.068,M99.068,M128.058,M115.027,M186.079,M57.021,M137.059,M137.059,M156.101,M103.009,M101.048,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M71.037,M128.095,M101.048,M113.084,M163.063,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,83 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=P43 Complex Parasites C - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Plasma.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Ascaris Larvae HC
+Parasites Hookworm CAFL
+Strongyloides Stercoralis 2 XTRA
+Parasites Strongyloides CAFL
+Parasites Strongyloides Secondary CAFL
+Strongyloides (Filariform Larva) HC
+Capillaria Hepatica XTRA
+Parasites Capillaria Hepatica XTRA
+
+Connect OUT 1 to Input, Out 2 to Modulation.
+"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Ascaris Larvae (HC) High"
+"Loaded_Programs=Ascaris Larvae (HC)"
+"Loaded_Frequencies=404900-409150=3600,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Parasites Hookworm (CAFL) Low"
+"Loaded_Programs=Parasites Hookworm (CAFL)"
+"Loaded_Frequencies=6.8=180,440=180,2008=180,6436=180,5868=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Strongyloides Stercoralis 2 (XTRA) High"
+"Loaded_Programs=Strongyloides Stercoralis 2 (XTRA)"
+"Loaded_Frequencies=401000=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Parasites Strongyloides (CAFL) Low"
+"Loaded_Programs=Parasites Strongyloides (CAFL)"
+"Loaded_Programs=Parasites Strongyloides Secondary (CAFL)"
+"Loaded_Frequencies=332=180,422=180,721=180,732=180,749=180,942=180,3212=180,4412=180,"
+"Loaded_Frequencies=380=180,698=180,722=180,738=180,746=180,752=180,776=180,1113=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Strongyloides (Filariform Larva) (HC) High"
+"Loaded_Programs=Strongyloides (Filariform Larva) (HC)"
+"Loaded_Frequencies=398400-402000=3600,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Capillaria Hepatica (XTRA) Low"
+"Loaded_Programs=Capillaria Hepatica (XTRA)"
+"Loaded_Programs=Parasites Capillaria Hepatica (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=1051.6=180,1060.91=180,1067.47=180,13257.8=180,13375=180,13457.8=180,"
+"Loaded_Frequencies=1060.91=180,21308.86=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"Out1_User_Defined_1=False"
+"Out1_Square_Hbomb=True"
+"Out1_Amplitude=10"
+"Out2_Amplitude=10"
+"PresetName=R07 Cancer B - DB"
+"Preset_Notes=Cancer Protocol, Phase II-Target. Remote Mode.
+
+Update: October 2016.
+
+You must replace 'Your Cancer Scan Results CUST' and 'Your System Scan Results CUST' with your own scan results programs as appropriate. The programs which must be replaced by you are indented in the list below.
+
+Instructions are provided in the protocol Guide.
+
+PROGRAMS:
+Cancer Viruses CUST
+Cancer Cell Cytoskeleton XTRA
+   Your Cancer Scan Results CUST
+   Your System Scan Results CUST
+Cancer Cell Repair CUST
+Leukocytogenesis Stimulate XTRA
+Immune System Stimulation 3 PROV
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+"
+"Loaded_Programs=Cancer Viruses (CUST)"
+"Loaded_Programs=Cancer Cell Cytoskeleton (XTRA)"
+"Loaded_Programs=Your Cancer Scan Results (CUST)"
+"Loaded_Programs=Your System Scan Results (CUST)"
+"Loaded_Programs=Cancer Cell Repair (CUST)"
+"Loaded_Programs=Leukocytogenesis Stimulate (XTRA)"
+"Loaded_Programs=Immune System Stimulation 3 (PROV)"
+"Loaded_Frequencies=1603750=360,1604000=360,1607450=360,11430000=360,11780000=360,1529520=360,1566760=360,"
+"Loaded_Frequencies=2046875=300,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"Loaded_Frequencies=2938984.040367=300,"
+"Loaded_Frequencies=30=300,727=300,"
+"Loaded_Frequencies=8=240,20=240,120=240,304=240,432=240,464=240,665=240,728=240,800=240,880=240,1488=240,1862=240,2008=240,2128=240,2180=240,2489=240,2720=240,2791=240,2855=240,2867=240,2929=240,3176=240,3347=240,3448=240,4014=240,5000=240,5611=240,10000=240,"
+"[/Preset]"

@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Farber Disease (S)"
+"Preset_Notes=Farber Disease for Scalar
+
+Farber disease, also known as Farber lipogranulomatosis or acid ceramidase deficiency, is an ultra-rare autosomal recessive lysosomal storage disorder caused by biallelic pathogenic variants in the ASAH1 gene encoding acid ceramidase, a lysosomal enzyme responsible for hydrolyzing ceramide into sphingosine and fatty acid. Deficiency leads to progressive systemic accumulation of ceramide in tissues, triggering macrophage activation, chronic granulomatous inflammation, tissue infiltration, and organ damage; clinical phenotypes form a spectrum with seven historically described types, though now viewed as continuous severity: the classic severe form (type 1) presents in early infancy with painful swollen joints, subcutaneous periarticular nodules, hoarse/weak cry from laryngeal involvement, granulomas in liver/lung/spleen, failure to thrive, and often neurological regression/seizures, resulting in death by age 2-3 years; intermediate/milder forms (types 2/3) have later onset, prolonged survival into childhood/teens with predominant joint contractures, nodules, and pulmonary insufficiency; attenuated forms (types 4-7) include neonatal visceral lethality, neurological progression, or combined with spinal muscular atrophy-progressive myoclonic epilepsy (SMA-PME). Symptoms encompass painful joint deformity/immobility, nodular skin lesions, respiratory distress, hepatosplenomegaly, developmental delay, seizures, and cherry-red macular spots in some; misdiagnosis as juvenile idiopathic arthritis is common due to overlapping arthropathy.
+
+The proposed polypeptides are entirely conceptually designed short sequences, as comprehensive searches across PubMed, clinicaltrials.gov, patents, and databases identified no real-world short polypeptide/peptide therapeutics (<=50 residues); investigational approaches include hematopoietic stem cell transplantation (partial efficacy in non-CNS inflammation), recombinant full-length human acid ceramidase enzyme replacement therapy (preclinical proof-of-concept in mice/cells, longer protein), and gene therapy vectors, none qualifying under length constraints. These designed polypeptides target five core mechanistic axes derived from established pathogenesis: (1) lysosomal ceramide accumulation and storage burden, addressed by the first designed polypeptide to conceptually facilitate degradation or reduce toxicity; (2) macrophage hyperactivation and tissue infiltration, targeted by the second designed polypeptide to suppress recruitment signals; (3) chronic granulomatous inflammation, modulated by the third designed polypeptide to dampen inflammatory cascades; (4) ceramide-induced oxidative stress and cellular damage, countered by the fourth designed polypeptide with protective/antioxidant properties; (5) progressive tissue fibrosis and joint/organ destruction, ameliorated by the fifth designed polypeptide to support remodeling and stability. Collectively, these provide multi-axis conceptual coverage to alleviate storage, halt inflammatory progression, protect tissues, and potentially extend survival/improve quality of life, with feasibility informed by mouse model responses to ceramide reduction and parallels in lysosomal storage disorders.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Farber Disease p01"
+"Loaded_Programs=Farber Disease p02"
+"Loaded_Programs=Farber Disease p03"
+"Loaded_Programs=Farber Disease p04"
+"Loaded_Programs=Farber Disease p05"
+"Loaded_Frequencies=M128.095=1,M156.101,M57.021,M87.032,M97.053,M71.037,M101.048,M163.063,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M128.095,M186.079,M128.058,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M163.063,M103.009,M101.048,M163.063,M103.009,M137.059,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.095,M128.095,M156.101,M97.053,M147.068,M186.079,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M97.053,M137.059,M147.068,M57.021,M71.037,M186.079,M101.048,0=4,"
+"[/Preset]"

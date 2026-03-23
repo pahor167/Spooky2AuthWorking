@@ -1,0 +1,58 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=L31 Other Bacteria D - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Laser.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Bacterial Capsules (Capsular) HC
+Bacterial Capsules HC
+Nisin XTRA
+Calcifications XTRA
+Bacterial Capsules 1 XTRA
+Nisin XTRA
+Calcifications XTRA
+Bacterial Capsules 2 XTRA
+Nisin XTRA
+Calcifications XTRA
+Colloidal_Silver Octave XTRA
+Nisin XTRA
+Calcifications XTRA
+Liver Support CAFL
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Bacterial Capsules (Capsular) (HC)"
+"Loaded_Programs=Bacterial Capsules (HC)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Bacterial Capsules 1 (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Bacterial Capsules 2 (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Colloidal_Silver Octal (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Liver Support (CAFL)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=416050-418750=3600,"
+"Loaded_Frequencies=362400-357600=3600,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=886.39=180,886.39=180,892.35=180,898.29=180,11175=180,11250=180,11325=180,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=892.35=180,1034.88=180,17923.34=180,20786.09=180,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=4653391.397248=300,2326695.698624=300,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=33.13=300,1552=300,802=300,751=300,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

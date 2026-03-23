@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Cancer Prevention (L)"
+"Preset_Notes=Cancer Prevention for Laser
+
+Cancer encompasses a diverse group of diseases characterized by uncontrolled cell growth, potential invasion of adjacent tissues, and metastasis to distant sites. Prevention focuses on reducing risk through lifestyle modifications, avoidance of carcinogens, vaccinations against oncogenic viruses, and chemopreventive agents that interfere with early carcinogenic processes. Major causes include tobacco use, excessive alcohol consumption, poor diet, physical inactivity leading to obesity, chronic infections (e.g., HPV, HBV, H. pylori), exposure to radiation or environmental pollutants, and genetic predispositions. Pathophysiologically, carcinogenesis is a multi-stage process involving initiation (irreversible DNA damage from mutagens or reactive oxygen species), promotion (clonal expansion of initiated cells driven by inflammation, growth signals, and epigenetic alterations), and progression (acquisition of invasive and metastatic capabilities via angiogenesis, immune evasion, and further genomic instability). Key hallmarks include sustained proliferation, evasion of apoptosis, chronic inflammation, oxidative stress, and epigenetic dysregulation.
+
+The proposed polypeptides target critical preventive axes, particularly epigenetic dysregulation and chronic inflammation, which drive early carcinogenesis across multiple cancer types. Lunasin (real): A naturally occurring soy peptide with established chemopreventive effects in preclinical models, acting via binding to deacetylated core histones to inhibit acetylation, inducing cell cycle arrest and apoptosis, and exerting anti-inflammatory properties; supported by over two decades of research demonstrating reduction in tumor incidence in animal models. Designed cyclic lunasin motif (designed): Rational derivative of lunasin's helical structure, RGD cell-adhesion motif, and functional domains, incorporating disulfide cyclization for protease resistance and improved pharmacokinetic properties while preserving epigenetic targeting. SN50 (real): Cell-permeable synthetic peptide incorporating a nuclear localization sequence to block NF-{kappa}B nuclear translocation, thereby suppressing pro-inflammatory cytokine production and proliferation signals that promote carcinogenesis; validated in numerous studies for anti-inflammatory and anti-cancer effects. Designed TAT-NBD peptide (designed): Derived from the conserved NEMO-binding domain of IKK{beta}/{alpha} fused to TAT cell-penetrating sequence for enhanced intracellular delivery; selectively disrupts IKK complex assembly to inhibit canonical NF-{kappa}B activation, offering superior potency for preventing inflammation-driven cancer initiation.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Cancer Prevention p01"
+"Loaded_Programs=Cancer Prevention p02"
+"Loaded_Programs=Cancer Prevention p03"
+"Loaded_Programs=Cancer Prevention p04"
+"Loaded_Frequencies=M87.032=1,M128.095,M186.079,M129.043,M156.101,M128.095,M129.043,M101.048,M87.032,M102.001,M156.101,M128.095,M129.043,M113.084,M156.101,M113.084,M57.021,M128.095,M156.101,M156.101,M87.032,M99.068,M129.043,M113.084,M128.095,M129.043,M147.068,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.095,M186.079,M129.043,M156.101,M128.095,M129.043,M101.048,M87.032,M102.001,M156.101,M128.095,M129.043,M113.084,M156.101,M113.084,M57.021,M128.095,M156.101,M156.101,M87.032,M99.068,M129.043,M113.084,M128.095,M129.043,M147.068,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M71.037=1,M71.037,M99.068,M71.037,M113.084,M113.084,M97.053,M71.037,M99.068,M113.084,M113.084,M71.037,M113.084,M113.084,M71.037,M97.053,M99.068,M128.058,M156.101,M128.095,M156.101,M128.058,M128.095,M113.084,M131.040,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"[/Preset]"

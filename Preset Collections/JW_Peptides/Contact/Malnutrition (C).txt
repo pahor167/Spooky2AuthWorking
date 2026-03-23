@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Malnutrition (C)"
+"Preset_Notes=Malnutrition for Contact
+
+Malnutrition is characterized by deficient nutrient intake or absorption, resulting in muscle wasting, immune impairment, delayed healing, metabolic disruption, and cachexia-like syndromes. The proposed polypeptides target evidence-based therapeutic axes to support recovery, drawing from studies on cachexia, tissue repair, hormonal regulation, and immune/metabolic function.
+
+1. Gastrointestinal integrity and anti-cachexia effects: BPC-157 protects gut mucosa, promotes healing, and counteracts proinflammatory cytokines and muscle wasting in cachexia models.
+2. Tissue regeneration and wound healing: TB-500 enhances actin dynamics, angiogenesis, and repair processes in damaged tissues.
+3. Appetite stimulation: GHRP-6 acts as a ghrelin mimetic to increase hunger and caloric intake in catabolic states.
+4. Growth hormone secretion and anabolism: Ipamorelin selectively induces GH pulses to support protein synthesis and body composition.
+5. Immune system restoration: Thymosin alpha-1 enhances T-cell function and immune homeostasis, addressing malnutrition-associated immunodeficiency.
+6. Metabolic homeostasis and muscle preservation: MOTS-c regulates energy metabolism, improves insulin sensitivity, and inhibits atrophy signaling.
+7. Cellular cytoprotection and anti-apoptosis: Humanin provides mitochondrial protection and reduces stress-induced cell death.
+8. Anti-inflammatory modulation: KPV suppresses proinflammatory pathways for reduced systemic inflammation.
+9. Multi-target tissue repair optimization: MalRepair-Eng (designed) integrates actin-binding motif with neuroprotective elements for synergistic regeneration.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Malnutrition p01"
+"Loaded_Programs=Malnutrition p02"
+"Loaded_Programs=Malnutrition p03"
+"Loaded_Programs=Malnutrition p04"
+"Loaded_Programs=Malnutrition p05"
+"Loaded_Programs=Malnutrition p06"
+"Loaded_Programs=Malnutrition p07"
+"Loaded_Programs=Malnutrition p08"
+"Loaded_Programs=Malnutrition p09"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M137.059=1,M186.079,M71.037,M186.079,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M85.053=1,M137.059,M205.074,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M115.027,M155.117,0=4,"
+"[/Preset]"

@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Polymyalgia Rheumatica (R)"
+"Preset_Notes=Polymyalgia Rheumatica for Remote
+
+Polymyalgia Rheumatica (PMR) is an inflammatory rheumatic disease predominantly affecting individuals over 50, characterized by proximal muscle pain and stiffness (shoulders, neck, hips), morning stiffness, elevated inflammatory markers (ESR/CRP), and rapid response to glucocorticoids, with pathophysiological involvement of IL-6-driven systemic inflammation, synovial neuropeptide expression, and cytokine dysregulation.
+
+The proposed polypeptides target evidence-based therapeutic axes from PMR literature, including synovial neuropeptide modulation (VIP expression in PMR tissue), melanocortin pathway cytokine suppression (effective in rheumatic inflammation), regenerative protection against muscle/connective tissue inflammation, copper-dependent anti-inflammatory remodeling, and novel optimization of IL-1 antagonism for complementary cytokine control.
+
+1. Vasoactive intestinal peptide (VIP) immunomodulation: Locally expressed in PMR synovium, VIP exerts anti-inflammatory and pain-modulating effects relevant to musculoskeletal symptoms.
+2. {alpha}-MSH-derived tripeptide cytokine suppression: KPV inhibits pro-inflammatory mediators (e.g., TNF-{alpha}, IL-1{beta}, IL-6) in rheumatic and inflammatory models.
+3. Gastric pentadecapeptide regenerative effects: BPC-157 reduces inflammation and promotes healing in muscle tissues under inflammatory stress.
+4. Copper-binding tripeptide anti-inflammatory support: GHK-Cu modulates inflammation, oxidants, and tissue remodeling applicable to chronic rheumatic conditions.
+5. Engineered IL-1{beta}-derived tripeptide analog: Stabilized KDPT variant enhances IL-1 antagonistic activity for optimized chronic inflammation control.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Polymyalgia Rheumatica p01"
+"Loaded_Programs=Polymyalgia Rheumatica p02"
+"Loaded_Programs=Polymyalgia Rheumatica p03"
+"Loaded_Programs=Polymyalgia Rheumatica p04"
+"Loaded_Programs=Polymyalgia Rheumatica p05"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M101.048,0=4,"
+"[/Preset]"

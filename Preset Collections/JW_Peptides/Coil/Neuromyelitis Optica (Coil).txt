@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Neuromyelitis Optica (Coil)"
+"Preset_Notes=Neuromyelitis Optica for Coil
+
+Neuromyelitis Optica (NMO), also known as Devic’s Disease, is a rare autoimmune inflammatory disorder primarily affecting the optic nerves and spinal cord, characterized by severe demyelination and axonal damage. It is driven by pathogenic autoantibodies, predominantly against aquaporin-4 (AQP4), a water channel protein expressed on astrocytes, leading to astrocytopathy. The causes include genetic predisposition, environmental triggers such as infections, and immune dysregulation, resulting in complement activation, cytokine release, and infiltration of inflammatory cells like neutrophils and eosinophils into the central nervous system. Symptoms typically manifest as acute attacks of optic neuritis causing vision loss, transverse myelitis leading to limb weakness, sensory disturbances, and bladder dysfunction, often with severe pain and potential respiratory involvement in extensive spinal lesions. The pathophysiology involves AQP4-IgG binding to astrocytes, triggering complement-dependent cytotoxicity, antibody-dependent cellular cytotoxicity, and disruption of the blood-brain barrier, which exacerbates inflammation and secondary demyelination. Relapsing forms predominate, with each attack contributing to cumulative neurological disability, differing from multiple sclerosis by its more aggressive course and preferential involvement of opticospinal regions.
+
+The proposed designed polypeptides address key therapeutic axes in NMO. For the complement activation axis, the first designed polypeptide inhibits C5 cleavage, reducing membrane attack complex formation and astrocyte lysis, thereby mitigating acute inflammatory damage and preventing relapses. For the IL-6 signaling pathway, the second designed polypeptide blocks IL-6 receptor binding, decreasing pro-inflammatory cytokine amplification, Th17 cell differentiation, and blood-brain barrier permeability, which helps control chronic inflammation and autoantibody production. For the B-cell mediated autoimmunity axis, the third designed polypeptide targets CD19 on B-cells, promoting depletion of autoantibody-producing cells and reducing AQP4-IgG levels, thus addressing the root immunological trigger. These mechanisms are feasible given the established roles of these pathways in NMO pathogenesis, with physicochemical considerations including short sequences for better penetration and stability, potentially allowing subcutaneous administration and reduced immunogenicity compared to full monoclonal antibodies.
+
+"
+"Loaded_Programs=Neuromyelitis Optica p01"
+"Loaded_Programs=Neuromyelitis Optica p02"
+"Loaded_Programs=Neuromyelitis Optica p03"
+"Loaded_Frequencies=M57.021=1,M137.059,M113.084,M128.058,M156.101,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M97.053,M128.058,M163.063,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M101.048,M113.084,M163.063,M128.095,M128.095,0=4,"
+"[/Preset]"

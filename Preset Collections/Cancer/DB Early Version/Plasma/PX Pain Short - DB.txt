@@ -1,0 +1,77 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Plasma Killing (P) - JW.txt"
+"PresetName=PX Pain Short - DB"
+"Padlock=1"
+"Frequency_Multiplier=1"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=152000"
+"BFB_Initial_Step_Size_Hz=20"
+"BFB_Start_Delay=30"
+"BFB_Samples_Per_Step=1"
+"Out1_Amplitude=5"
+"Out1_Offset=100"
+"Out2_Hz_Factor=1"
+"Out2_Hz_Constant=0"
+"Out2_Amplitude=5"
+"Out1_Shadow_Hz_Factor=1"
+"Out1_Fixed_Frequency=0"
+"Out2_Offset=100"
+"Preset_Notes=Cancer Protocol, Extras. Spooky Central.
+
+Update: July 2017.
+
+This Preset runs once. 10sec pause with alert between programs, 30sec pause/alert at loop point/end.
+
+This preset addresses cancer pain. Use as required, and repeat after four hours if necessary.
+
+IMPORTANT: Use ALL Detox (R) - DB on another generator while running this.
+
+PROGRAM: START STEPS
+Endorphin Release XTRA:
+Cancer Pain CAFL
+Endorphin Release XTRA:
+Cancer Pain XTRA
+Endorphin Release XTRA
+
+Connect OUT 1 to Input, Out 2 to Modulation."
+"Out1_Max_Freq=3000000"
+"Out1_Min_Freq=100000"
+"Out2_Max_Freq=0"
+"Text41=5"
+"Reduce_Amplitude_Frequency=10"
+"Triangle_Spike_Ratio=2"
+"F1_Factor=1"
+"User_Defined_1_Waveform=Alpha-Stim"
+"User_Defined_2_Waveform=Alpha-Stim"
+"Manual_Start=False"
+"Out1_Fixed_Frequency=False"
+"BFB_Calculate_Using_RA=True"
+"BFB_Calculate_Using_Peak=False"
+"BFB_HRV=True"
+"BFB_Detect_mA=False"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"Enable_Gate_Out1=1"
+"Enable_Tissue_Factor=0"
+"Enable_Invert_Spike_Waveform=1"
+"Out2_Subtract_DataBase_Frequency=1"
+"Loaded_Programs=Pause 60 Seconds (XTRA)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Cancer Pain (CAFL)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Cancer Pain (XTRA)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=60,"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=3000=180,95=180,2127=180,2008=180,727=180,690=180,666=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=95=180,660=180,690=180,727.5=180,2008=180,2127.5=180,2720=180,3000=180,10000=180,"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

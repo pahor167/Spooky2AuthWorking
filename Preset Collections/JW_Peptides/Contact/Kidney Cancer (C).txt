@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Kidney Cancer (C)"
+"Preset_Notes=Kidney Cancer for Contact
+
+Kidney cancer, primarily renal cell carcinoma (RCC), is characterized by hypervascularization, immune evasion, metastatic propensity, and resistance mechanisms. The proposed polypeptides target evidence-based therapeutic axes from preclinical models and clinical investigations, including integrin blockade to inhibit angiogenesis and invasion, antigen-specific immunotherapy against overexpressed tumor antigens, and direct induction of tumor-selective apoptosis.
+
+1. Non-RGD {alpha}5{beta}1 integrin inhibition for anti-invasive and anti-angiogenic effects: ATN-161 (Ac-PHSCN-NH2) disrupts fibronectin binding, reducing tumor growth and metastasis in solid tumors including RCC.
+2. Cyclic RGD-based {alpha}v{beta}3/{alpha}v{beta}5 integrin antagonism: Cilengitide (cyclo(RGDf(NMe)V)) potently inhibits endothelial proliferation and tumor vascularization.
+3. WT1 tumor-associated antigen-specific immunotherapy: The HLA-A*02-restricted peptide RMFPNAPYL elicits cytotoxic T cell responses against WT1-expressing RCC cells.
+4. Engineered cationic amphipathic motif for mitochondrial apoptosis: Ac-KLAKLAKKLAKLAK-NH2 selectively targets and disrupts cancer cell mitochondria, inducing apoptosis with enhanced stability.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Kidney Cancer p01"
+"Loaded_Programs=Kidney Cancer p02"
+"Loaded_Programs=Kidney Cancer p03"
+"Loaded_Programs=Kidney Cancer p04"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M156.101=1,M131.040,M147.068,M97.053,M114.043,M71.037,M97.053,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"[/Preset]"

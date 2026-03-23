@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Triple-Negative Breast Cancer (TNBC) (C)"
+"Preset_Notes=Triple-Negative Breast Cancer (TNBC) for Contact
+
+Triple-negative breast cancer (TNBC) is an aggressive subtype lacking ER, PR, and HER2 expression, with limited targeted options and reliance on chemotherapy/immunotherapy. Peptide therapies provide opportunities for selective cell penetration, membrane disruption, apoptosis induction, and pathway inhibition in TNBC.
+
+1. Cancer-specific cell penetration: BR2 - Cancer-specific cell-penetrating peptide enabling selective uptake and targeted delivery in TNBC cells via ganglioside interaction
+2. Broad anticancer penetration: Buforin II - Natural histone-derived peptide with cell-penetrating and intracellular anticancer effects in breast cancer models
+3. Mitochondrial disruption: KLAK_LAK - Synthetic amphipathic cationic peptide inducing selective mitochondrial membrane disruption and apoptosis in cancer cells
+4. TGF-{beta} inhibition: P144 - Peptide antagonist blocking TGF-{beta} signaling to suppress tumor progression and metastasis in TNBC
+5. Integrin inhibition: RGD - Tripeptide blocking integrin-mediated adhesion, migration, and angiogenesis in tumors
+6. Membrane lytic activity: Indolicidin - Cationic tryptophan-rich peptide with potent membrane-disrupting anticancer effects
+7. Pore-forming activity: Melittin - Bee venom peptide inducing membrane pores and apoptosis in cancer cells
+8. Cyclic membrane disruption: Bactenecin - Disulfide-linked cyclic peptide with anticancer membrane activity
+9. Beta-hairpin anticancer: Protegrin-1 - Disulfide-stabilized beta-sheet peptide with broad membrane-active anticancer properties
+10. Selective toxicity in proliferating cells: Crotamine - Snake venom cell-penetrating peptide with preferential toxicity to rapidly dividing cancer cells
+11. Targeted mitochondrial apoptosis: BR2-KLAK fusion - Designed fusion combining cancer-specific penetration with pro-apoptotic mitochondrial disruption for enhanced TNBC selectivity
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Triple-Negative Breast Cancer (TNBC) p01"
+"Loaded_Programs=Triple-Negative Breast Cancer (TNBC) p02"
+"Loaded_Programs=Triple-Negative Breast Cancer (TNBC) p03"
+"Loaded_Programs=Triple-Negative Breast Cancer (TNBC) p04"
+"Loaded_Programs=Triple-Negative Breast Cancer (TNBC) p05"
+"Loaded_Programs=Triple-Negative Breast Cancer (TNBC) p06"
+"Loaded_Programs=Triple-Negative Breast Cancer (TNBC) p07"
+"Loaded_Programs=Triple-Negative Breast Cancer (TNBC) p08"
+"Loaded_Programs=Triple-Negative Breast Cancer (TNBC) p09"
+"Loaded_Programs=Triple-Negative Breast Cancer (TNBC) p10"
+"Loaded_Programs=Triple-Negative Breast Cancer (TNBC) p11"
+"Loaded_Frequencies=M156.101=1,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M113.084,M113.084,M156.101,M156.101,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M87.032,M113.084,M115.027,M71.037,M87.032,M113.084,M186.079,M71.037,M131.040,M131.040,M128.058,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M156.101,M128.095,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M102.001,M156.101,M113.084,M99.068,M99.068,M113.084,M156.101,M99.068,M102.001,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M103.009,M163.063,M103.009,M156.101,M156.101,M156.101,M147.068,M103.009,M99.068,M103.009,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M128.095,M128.058,M102.001,M137.059,M128.095,M128.095,M57.021,M57.021,M137.059,M102.001,M147.068,M97.053,M128.095,M129.043,M128.095,M113.084,M102.001,M113.084,M97.053,M97.053,M87.032,M87.032,M115.027,M147.068,M57.021,M128.095,M131.040,M115.027,M102.001,M156.101,M186.079,M156.101,M186.079,M128.095,M102.001,M102.001,M128.095,M128.095,M57.021,M87.032,M57.021,0=4,"
+"Loaded_Frequencies=M156.101=1,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M113.084,M113.084,M156.101,M156.101,M113.084,M113.084,M156.101,M57.021,M57.021,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"[/Preset]"

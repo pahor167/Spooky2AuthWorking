@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Amyloid Light-Chain (AL) Amyloidosis (L)"
+"Preset_Notes=Amyloid Light-Chain (AL) Amyloidosis for Laser
+
+Amyloid light-chain (AL) amyloidosis, also known as primary systemic amyloidosis, is a rare plasma cell dyscrasia characterized by the overproduction of misfolded immunoglobulin light chains (kappa or lambda) by a clonal population of bone marrow plasma cells. These misfolded light chains aggregate into beta-pleated sheet amyloid fibrils that deposit extracellularly in multiple organs, most commonly the heart, kidneys, liver, peripheral/autonomic nerves, gastrointestinal tract, and soft tissues, leading to progressive organ dysfunction and failure. Causes stem from an underlying monoclonal gammopathy, often with low tumor burden (<10-20% plasma cells), though it can overlap with multiple myeloma in ~10-15% of cases; triggers for clonality remain unclear but involve somatic mutations and possible environmental/antigenic stimuli. Symptoms include fatigue, weight loss, edema, dyspnea/orthopnea (from cardiac restriction), proteinuria/nephrotic syndrome, peripheral neuropathy (sensory > motor), autonomic dysfunction (orthostasis, GI motility issues), macroglossia, periorbital purpura, hepatomegaly, and easy bruising; untreated median survival is ~12 months, worse (~4-6 months) with advanced cardiac involvement. Pathophysiology involves direct light chain toxicity (proteotoxicity via oxidative stress, ER stress, apoptosis), mechanical disruption from fibril deposits impairing organ architecture/compliance, secondary inflammation, endothelial dysfunction, and impaired clearance mechanisms, with cardiac involvement featuring diastolic dysfunction progressing to restrictive cardiomyopathy and arrhythmias.
+
+The proposed polypeptides are entirely conceptually designed short sequences, as comprehensive searches across PubMed, clinicaltrials.gov, patents, and databases confirmed no short (<=50 residue) real-world polypeptide/peptide therapeutics; established/investigational treatments rely on chemotherapy regimens (e.g., daratumumab-CD38 monoclonal antibody plus bortezomib/cyclophosphamide/dexamethasone) targeting the plasma cell clone or full-length antibodies (e.g., CAEL-101 targeting misfolded light chains, in phase 3) exceeding length limits, necessitating fallback to designed polypeptides. These designed polypeptides target five core mechanistic axes derived from documented pathogenesis: (1) clonal plasma cell suppression to reduce light chain production, addressed by the first designed polypeptide mimicking effects on survival/proliferative signals; (2) prevention of light chain misfolding and fibril formation, targeted by the second designed polypeptide to stabilize native conformation; (3) disruption and clearance of existing amyloid deposits, modulated by the third designed polypeptide to promote fibril destabilization; (4) mitigation of direct proteotoxicity and oxidative stress in affected organs, countered by the fourth designed polypeptide with protective/antioxidant properties; (5) reduction of secondary inflammation and endothelial dysfunction, ameliorated by the fifth designed polypeptide to dampen inflammatory cascades. Together, these provide conceptual multi-axis coverage to halt progression, facilitate organ recovery via natural clearance after source control, and improve outcomes, with feasibility based on pathway validation and parallels in amyloid disorders.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Amyloid Light-Chain (AL) Amyloidosis p01"
+"Loaded_Programs=Amyloid Light-Chain (AL) Amyloidosis p02"
+"Loaded_Programs=Amyloid Light-Chain (AL) Amyloidosis p03"
+"Loaded_Programs=Amyloid Light-Chain (AL) Amyloidosis p04"
+"Loaded_Programs=Amyloid Light-Chain (AL) Amyloidosis p05"
+"Loaded_Frequencies=M128.095=1,M156.101,M71.037,M87.032,M97.053,M57.021,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M128.095,M186.079,M97.053,M128.058,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M103.009,M137.059,M101.048,M163.063,M103.009,M137.059,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.095,M128.095,M156.101,M97.053,M147.068,M186.079,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M99.068,M156.101,M113.084,M57.021,M87.032,M101.048,M163.063,0=4,"
+"[/Preset]"

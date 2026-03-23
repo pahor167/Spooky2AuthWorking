@@ -1,0 +1,55 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Angiomas (S)"
+"Preset_Notes=Angiomas for Scalar
+
+Angiomas are benign tumors or malformations consisting of dilated blood vessels, commonly presenting as cherry angiomas, spider angiomas, infantile hemangiomas, or cavernous angiomas. They are typically harmless but may cause cosmetic concerns, bleeding, or complications in certain locations such as the brain or liver. 
+
+Therapeutic strategies target key pathophysiological axes including angiogenesis inhibition (via HIF-1{alpha}/VEGF-A pathways to suppress new vessel formation), modulation of the renin-angiotensin-aldosterone (RAA) axis (to downregulate pro-angiogenic components), regulation of glycolysis (via ALKBH5/LDHA to inhibit metabolic support for tumor cells), miRNA-mediated pathways (e.g., miR-206/VEGFA and miR-411-5p/TPD52 to control proliferation and migration), LIN28B/let-7 signaling (to promote hemangioma involution), KLF4 regulation (to deter development and progression in cavernous angiomas), and vascular proliferation control (to limit endothelial growth). The polypeptides provide scientific rationale through validated anti-angiogenic effects, feasibility in peptide delivery (e.g., stability, bioavailability), modes of action (e.g., receptor binding, enzyme inhibition), and physicochemical considerations (e.g., solubility, charge). Designed polypeptides are flagged and conceptualized to address specific axes with high specificity and minimal off-target effects.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Angiomas p01"
+"Loaded_Programs=Angiomas p02"
+"Loaded_Programs=Angiomas p03"
+"Loaded_Programs=Angiomas p04"
+"Loaded_Programs=Angiomas p05"
+"Loaded_Programs=Angiomas p06"
+"Loaded_Programs=Angiomas p07"
+"Loaded_Programs=Angiomas p08"
+"Loaded_Programs=Angiomas p09"
+"Loaded_Programs=Angiomas p10"
+"Loaded_Programs=Angiomas p11"
+"Loaded_Programs=Angiomas p12"
+"Loaded_Programs=Angiomas p13"
+"Loaded_Programs=Angiomas p14"
+"Loaded_Programs=Angiomas p15"
+"Loaded_Frequencies=M87.032=1,M129.043,M186.079,M87.032,M115.027,M103.009,M87.032,M99.068,M101.048,M103.009,M57.021,M128.095,M57.021,M131.04,M156.101,M101.048,M156.101,M128.058,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M87.032,M186.079,M87.032,M128.058,M103.009,M87.032,M128.095,M101.048,M103.009,M57.021,M101.048,M57.021,M113.084,M87.032,M101.048,M156.101,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M129.043,M186.079,M87.032,M71.037,M103.009,M87.032,M128.095,M101.048,M103.009,M57.021,M131.04,M57.021,M113.084,M87.032,M101.048,M156.101,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M129.043,M186.079,M101.048,M71.037,M103.009,M87.032,M128.095,M87.032,M103.009,M57.021,M131.04,M57.021,M147.068,M87.032,M101.048,M156.101,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M71.037,M186.079,M57.021,M97.053,M103.009,M87.032,M101.048,M101.048,M103.009,M57.021,M113.084,M57.021,M131.04,M71.037,M101.048,M156.101,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M186.079,M101.048,M97.053,M103.009,M87.032,M156.101,M101.048,M103.009,M57.021,M131.04,M57.021,M113.084,M87.032,M114.043,M156.101,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M129.043,M186.079,M87.032,M99.068,M103.009,M114.043,M87.032,M156.101,M103.009,M57.021,M156.101,M57.021,M163.063,M128.058,M128.095,M156.101,M101.048,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M129.043,M186.079,M87.032,M71.037,M103.009,M114.043,M99.068,M156.101,M103.009,M57.021,M156.101,M57.021,M186.079,M128.058,M128.095,M156.101,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M186.079,M87.032,M128.058,M103.009,M87.032,M99.068,M156.101,M103.009,M57.021,M156.101,M57.021,M128.058,M156.101,M87.032,M156.101,M128.058,M99.068,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M71.037,M186.079,M156.101,M71.037,M103.009,M87.032,M99.068,M101.048,M103.009,M57.021,M128.095,M57.021,M113.084,M128.058,M128.095,M156.101,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M113.084,M243.029,M85.053,M137.059,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M86.048,M114.079,M200.095,M102.001,0=4,"
+"Loaded_Frequencies=M237.148=1,M150.954,M113.048,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M114.079=1,M100.064,M86.048,M71.037,M99.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M200.095,M758.675,M87.032,M101.048,M87.032,M102.001,0=4,"
+"[/Preset]"

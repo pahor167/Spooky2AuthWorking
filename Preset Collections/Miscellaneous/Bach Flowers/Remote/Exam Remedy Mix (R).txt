@@ -1,0 +1,14 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Exam Remedy Mix (R)"
+"Preset_Notes=Exam Remedy Mix / Spooky Remote
+
+Estimated Time: Run this preset for 15:00 minutes.
+
+Exam Remedy: Gentian, Elm, Clematis, Larch & White Chestnut - to keep the student on track in the exam
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Exam Remedy Mix (R)"
+"Loaded_Frequencies=265.67,463.13,415.26,336.52,247.09,"
+"[/Preset]"

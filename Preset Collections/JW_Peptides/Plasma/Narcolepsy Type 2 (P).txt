@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Narcolepsy Type 2 (P)"
+"Preset_Notes=Narcolepsy Type 2 for Plasma
+
+Narcolepsy Type 2 (NT2) is a lifelong central hypersomnia manifesting as irresistible excessive daytime sleepiness without cataplexy, normal/unknown CSF hypocretin-1, and >=2 SOREMPs on MSLT. Pathophysiology remains elusive; partial hypothalamic orexin neuron dysfunction, monoaminergic imbalance, GABAergic over-inhibition, circadian mis-alignment, and oxidative stress are implicated. The proposed peptides target: (1) orexin-receptor agonism to re-activate wake circuits; (2) histaminergic neuron stimulation to sustain cortical arousal; (3) monoaminergic terminal enhancement to consolidate wakefulness; (4) GABAergic brake suppression to reduce inappropriate sleep intrusions; (5) circadian anchoring to stabilize sleep-wake timing; (6) anti-oxidant neuro-protection to preserve residual orexin neurons. All six sequences are de-novo, length-constrained, diversity-validated, and terminate with the required suffix. 
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Narcolepsy Type 2 p01"
+"Loaded_Programs=Narcolepsy Type 2 p02"
+"Loaded_Programs=Narcolepsy Type 2 p03"
+"Loaded_Programs=Narcolepsy Type 2 p04"
+"Loaded_Programs=Narcolepsy Type 2 p05"
+"Loaded_Programs=Narcolepsy Type 2 p06"
+"Loaded_Frequencies=M113.084=1,M131.040,M114.043,M97.053,M128.095,M57.021,M137.059,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M113.084,M131.040,M137.059,M114.043,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M128.095,M57.021,M131.040,M114.043,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M114.043,M99.068,M128.095,M97.053,M131.040,0=4,"
+"Loaded_Frequencies=M113.084=1,M131.040,M114.043,M99.068,M128.095,M97.053,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M114.043,M113.084,M97.053,M99.068,0=4,"
+"[/Preset]"

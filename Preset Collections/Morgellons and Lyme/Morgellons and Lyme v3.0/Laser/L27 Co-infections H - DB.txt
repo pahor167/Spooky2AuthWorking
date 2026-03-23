@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=L27 Co-infections H - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Laser.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Anaplasma XTRA
+Anaplasma Marginale HC
+Anaplasma Marginale 2nd HC
+Febris Wolhynia CAFL
+Typhoid Fever Rod Form Rife
+Typhoid Rod XTRA
+Typhoid General XTRA
+Proteus Mirabilis 2 XTRA
+Ammonia Remove XTRA
+Detox 3 Toxins in the Kidneys and Liver
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Anaplasma (XTRA)"
+"Loaded_Programs=Anaplasma Marginale (HC)"
+"Loaded_Programs=Anaplasma Marginale 2nd (HC)"
+"Loaded_Programs=Febris Wolhynia (CAFL)"
+"Loaded_Programs=Typhoid Fever Rod Form (Rife)"
+"Loaded_Programs=Typhoid Rod (XTRA)"
+"Loaded_Programs=Typhoid General (XTRA)"
+"Loaded_Programs=Proteus Mirabilis 2 (XTRA)"
+"Loaded_Programs=Ammonia Remove (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Programs=Detox 3 Toxins in the Kidneys and Liver (PROV)"
+"Loaded_Frequencies=386000=180,"
+"Loaded_Frequencies=386400-388000=3600,"
+"Loaded_Frequencies=415300-424000=3600,"
+"Loaded_Frequencies=547=480,356=480,"
+"Loaded_Frequencies=760000=180,"
+"Loaded_Frequencies=3037800=180,"
+"Loaded_Frequencies=690=180,802=180,1550=180,1800=180,"
+"Loaded_Frequencies=326000=180,16131.01=180,803.12=180,"
+"Loaded_Frequencies=1719.51=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"Loaded_Frequencies=2.4=78,6.3=78,7.8=78,9.2=78,14=78,20=78,35=78,60=78,72=78,95=78,126=78,160=78,200=78,240=78,440=78,444=78,465=78,522=78,600=78,625=78,666=78,690=78,727=78,787=78,802=78,832=78,880=78,1500=78,1550=78,1865=78,2000=78,"
+"[/Preset]"

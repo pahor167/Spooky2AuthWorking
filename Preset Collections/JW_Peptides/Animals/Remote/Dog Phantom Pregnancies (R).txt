@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Dog Phantom Pregnancies (R)"
+"Preset_Notes=Dog Phantom Pregnancies for Remote
+
+Pseudopregnancy in dogs, also known as phantom pregnancy, is a condition where non-pregnant female dogs display symptoms similar to pregnancy, such as mammary gland enlargement, lactation, and behavioral changes like nesting. This is primarily due to hormonal imbalances involving prolonged progesterone exposure followed by a rise in prolactin. The proposed peptides are all designed to target various therapeutic axes: modulating GnRH to regulate the reproductive cycle, inhibiting prolactin secretion, antagonizing progesterone effects, reducing inflammation in mammary tissues, and alleviating behavioral symptoms through neuropeptide-like actions. These designs incorporate diverse scaffolds and modifications for enhanced stability, specificity, and bioavailability in canine physiology.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Dog Phantom Pregnancies p01"
+"Loaded_Programs=Dog Phantom Pregnancies p02"
+"Loaded_Programs=Dog Phantom Pregnancies p03"
+"Loaded_Programs=Dog Phantom Pregnancies p04"
+"Loaded_Programs=Dog Phantom Pregnancies p05"
+"Loaded_Programs=Dog Phantom Pregnancies p06"
+"Loaded_Programs=Dog Phantom Pregnancies p07"
+"Loaded_Programs=Dog Phantom Pregnancies p08"
+"Loaded_Programs=Dog Phantom Pregnancies p09"
+"Loaded_Programs=Dog Phantom Pregnancies p10"
+"Loaded_Programs=Dog Phantom Pregnancies p11"
+"Loaded_Programs=Dog Phantom Pregnancies p12"
+"Loaded_Frequencies=M86.048=1,M156.101,M128.095,M114.079,M87.032,M200.095,M57.021,M100.064,M156.101,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.043,M137.059,M128.058,M147.068,M114.079,M101.048,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.048,M87.032,M129.043,M142.111,M115.027,M114.079,M57.021,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M150.954=1,M86.048,M85.053,M758.675,M114.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M100.064,M102.001,0=4,"
+"Loaded_Frequencies=M341.239=1,M137.059,M114.043,M128.058,M129.043,M200.095,M113.048,M113.084,0=4,"
+"Loaded_Frequencies=M290.111=1,M304.127,M115.027,M170.106,M156.101,M85.053,M86.048,M237.148,0=4,"
+"Loaded_Frequencies=M354.173=1,M129.043,M115.027,M57.021,M87.032,M113.048,M113.084,M100.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M147.068,M128.095,M101.048,M150.954,M102.001,M163.063,M114.079,M86.048,0=4,"
+"Loaded_Frequencies=M189.046=1,M156.101,M170.142,M166.998,M86.048,M115.027,M129.043,M113.048,M113.084,M112.100,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M101.048,M114.043,M128.058,M86.048,M114.079,M100.064,M86.048,M85.053,0=4,"
+"Loaded_Frequencies=M214.095=1,M129.043,M137.059,M113.048,M150.954,M237.148,M163.063,0=4,"
+"[/Preset]"

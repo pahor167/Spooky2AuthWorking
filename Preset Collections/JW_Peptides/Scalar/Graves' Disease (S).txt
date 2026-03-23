@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Graves’ Disease (S)"
+"Preset_Notes=Graves’ Disease for Scalar
+
+Graves' disease is the most common cause of hyperthyroidism, an autoimmune disorder where thyroid-stimulating immunoglobulin (TSI/TSAb) antibodies target the thyrotropin receptor (TSHR), mimicking TSH and causing uncontrolled thyroid hormone production. Genetic susceptibility (HLA-DR3, CTLA-4 polymorphisms) interacts with environmental triggers (stress, smoking, iodine excess, infections) to break immune tolerance, leading to B cell production of stimulating autoantibodies with T follicular helper cell support. Symptoms include weight loss despite increased appetite, palpitations, heat intolerance, tremor, anxiety, goiter, fatigue, muscle weakness, and menstrual irregularities; up to 30% develop Graves' orbitopathy (GO) with proptosis, periorbital edema, diplopia, pain, and potential vision loss from optic neuropathy; rare pretibial myxedema occurs from glycosaminoglycan deposition. Pathophysiology involves TSHR activation driving thyroid follicular hyperplasia, excessive T4/T3 synthesis/release, and systemic thyrotoxicosis with adrenergic sensitization; in GO, TSHR/IGF-1R crosstalk on orbital fibroblasts activates adipogenesis, hyaluronan overproduction, inflammation (cytokines IL-6, TNF-{alpha}), fibrosis, and extraocular muscle swelling in poorly vascularized retro-orbital space, perpetuating remodeling.
+
+Current therapies (antithyroid drugs, radioiodine, surgery) manage symptoms but not autoimmunity, with high relapse, hypothyroidism risk, or incomplete GO resolution; emerging biologics (FcRn inhibitors, rituximab) reduce antibodies but are large proteins. The proposed short polypeptides offer targeted approaches with potential for better tolerability and delivery. Real polypeptide ATX-GD-59 inspired (investigational linear TSHR peptide from phase I trial) induces antigen-specific tolerance, reducing TSAb levels and improving thyroid function without generalized immunosuppression. Real disulfide-cyclic TSHR peptide (preclinical/patent-derived) modulates pathogenic antibodies, ameliorating hyperthyroidism and orbital changes in models via tolerance or antagonism. Designed head-to-tail cyclic amidated analog (literature-derived TSHR motif with cyclization and C-terminal amidation for protease resistance/enhanced stability) provides rational optimization for bioavailability and chronic exposure. These address core axes-autoantibody persistence, TSHR stimulation, and orbital inflammation-with favorable charge/solubility for injection, low predicted immunogenicity, and in silico stability; feasibility supported by analogous peptide trials/models, potential disease-modification complementing standards.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Graves’ Disease p01"
+"Loaded_Programs=Graves’ Disease p02"
+"Loaded_Programs=Graves’ Disease p03"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M128.095,M163.063,M99.068,M87.032,M113.084,M115.027,M99.068,M101.048,M113.084,M128.058,M128.058,M113.084,M129.043,M87.032,M137.059,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M137.059,M128.058,M129.043,M129.043,M115.027,M147.068,M156.101,M99.068,M101.048,M102.001,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M113.084,M115.027,M71.037,M99.068,M163.063,M113.084,M114.043,M128.095,M114.043,M128.095,M56.037,0=4,"
+"[/Preset]"

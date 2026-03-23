@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (C)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=C56 Morgellons Infrastructure C - DB"
+"Preset_Notes=M&L Protocol, Phase III-Biotech. Contact Mode.
+
+Update: September 2019.
+
+PROGRAMS: 
+Enablers 5 CUST
+Enablers 6 CUST
+Enablers 7 CUST
+Your Scan Results CUST
+
+For a high power treatment, connect TENS cable to 'HIGH PWR CONTACT' port of Spooky Boost. For a lower power treatment, connect TENS cable to 'COLLOIDAL SILVER' port of Spooky Boost. If you don't have Spooky Boost, connect TENS cable to Out 1. Connect your Hand Cylinders/Tens Contact Kit item/TENS pads to TENS cable."
+"Loaded_Programs=Enablers 5 (CUST)"
+"Loaded_Programs=Enablers 6 (CUST)"
+"Loaded_Programs=Enablers 7 (CUST)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=3367858.42=300,3367858.43=300,1683929.21=300,1683929.22=300,3355297.78=300,3355297.79=300,1677648.89=300,1677648.9=300,3348852.54=300,3348852.55=300,1674426.27=300,1674426.28=300,3305438.39=300,3305438.4=300,1652719.19=300,1652719.2=300,"
+"Loaded_Frequencies=3229172.76=300,3229172.77=300,1614586.38=300,1614586.39=300,3161629.62=300,3161629.63=300,1580814.81=300,1580814.82=300,3306404.45=300,3306404.46=300,1653202.22=300,1653202.23=300,3003267.18=300,3003267.19=300,1501633.59=300,1501633.6=300,"
+"Loaded_Frequencies=1671173.63841=600,417793.40960=600,52224.17620=600,13056.04405=600,1632.00551=600,408.00138=600,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

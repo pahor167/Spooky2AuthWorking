@@ -1,0 +1,8 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Cryptococcus peneaus (DNA) (SS) - JW"
+"Remove_Duplicate_Frequencies_Tolerance=0"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||Please refer to the Spooky2 Scalar User's Guide for more information.||This preset contains the following strains:||Cryptococcus peneaus gene for ITS1, 5.8S rRNA, ITS2, strain:CBS 2409"
+"Loaded_Programs=Cryptococcus peneaus (DNA) (SS) - JW (CUST)"
+"Loaded_Frequencies=~5101BL730,"
+"[/Preset]"

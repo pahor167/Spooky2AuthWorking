@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Ligamentous Laxity (R)"
+"Preset_Notes=Ligamentous Laxity for Remote
+
+The peptides target key mechanisms in ligamentous laxity, such as promoting collagen synthesis and connective tissue strengthening, enhancing ligament repair and regeneration, reducing joint inflammation, improving joint stability, providing neuroprotection, managing pain, offering antioxidant protection, modulating extracellular matrix, and supporting surrounding muscle function. Peptides 9 and 10 are designed.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Ligamentous Laxity p01"
+"Loaded_Programs=Ligamentous Laxity p02"
+"Loaded_Programs=Ligamentous Laxity p03"
+"Loaded_Programs=Ligamentous Laxity p04"
+"Loaded_Programs=Ligamentous Laxity p05"
+"Loaded_Programs=Ligamentous Laxity p06"
+"Loaded_Programs=Ligamentous Laxity p07"
+"Loaded_Programs=Ligamentous Laxity p08"
+"Loaded_Programs=Ligamentous Laxity p09"
+"Loaded_Programs=Ligamentous Laxity p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M128.095,M156.101,M128.058,M57.021,M156.101,M101.048,M113.084,M163.063,M57.021,M147.068,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M101.048,M97.053,M57.021,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,M156.101,M57.021,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.058,M128.095,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M101.048=1,M97.053,M128.095,M115.027,M114.043,M137.059,0=4,"
+"[/Preset]"

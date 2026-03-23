@@ -1,0 +1,20 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW.txt"
+"Gate_On_Off_Duration_Option=True"
+"PresetName=Human Herpesvirus 4 (P) - MM"
+"Preset_Notes=Human Herpesvirus 4 Plasma preset. By Manuel Mallo
+
+I have been patiently calculating the freqs for the 34 known strains of the Human Herpesvirus 4, aka Epstein Barr virus. All those strains have their basepairs sequentiated, so exact calculations could be done.
+
+This small creature is responsible for many diseases, as mononucleosis, Guillain-Barre, meningoencephalitis, breast cancer, and also thyroid diseases. It is present on virtually every person suffering from thyroid issues.
+
+I prefer to use high harmonics, so a simple waveform is used (with WCM).
+
+As the freq is vey high, I used an amplitude of 10V even for contact mode, because the signal is more precise with a lower amplitude, and the permeability of the skin is higher at high frequencies, so no need to 20V for penetrating the outer layers of the skin.
+
+Place the plasma tube near to, or touching, your body. Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=MM_Human Herpesvirus 4 (CUST)"
+"Loaded_Frequencies=9474910.934=180,9515403.735=180,9566923.853=180,9566923.853=180,9697035.824=180,9700839.586=180,9753587.749=180,9758936.007=180,9770490.993=180,9776905.631=180,9790049.291=180,9809142.137=180,9847299.833=180,9862874.206=180,9863927.471=180,9866959.179=180,9869536.720=180,9872958.859=180,9873965.296=180,9875796.745=180,9879314.492=180,9880339.898=180,9882096.521=180,9882439.673=180,9883822.404=180,9886407.400=180,9887519.228=180,9891594.262=180,9891652.696=180,9945832.269=180,9945832.269=180,10134549.479=180,10208184.459=180,10599257.156=180,"
+"[/Preset]"

@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=X-linked Adrenoleukodystrophy (S)"
+"Preset_Notes=X-linked Adrenoleukodystrophy for Scalar
+
+X-linked adrenoleukodystrophy (ALD) is a rare peroxisomal genetic disorder caused by mutations in the ABCD1 gene on the X chromosome, encoding the adrenoleukodystrophy protein (ALDP), a peroxisomal membrane transporter responsible for importing very long-chain fatty acids (VLCFA) into peroxisomes for {beta}-oxidation. Defective ALDP leads to toxic accumulation of VLCFA (particularly C26:0 and C24:0) in plasma and tissues, most critically affecting the central nervous system white matter, spinal cord, and adrenal cortex. Clinical phenotypes vary widely even within families: the childhood cerebral form (onset 4-10 years) involves rapid progressive inflammatory demyelination with behavioral changes, cognitive decline, vision/hearing loss, seizures, and vegetative state/death within years if untreated; adrenomyeloneuropathy (AMN, adult-onset) features slowly progressive spastic paraparesis, sensory loss, bladder dysfunction, and adrenal insufficiency; Addison-only form presents primary adrenal failure; heterozygous females may develop milder AMN-like symptoms later in life. Pathophysiology encompasses direct VLCFA-induced membrane perturbation, endoplasmic reticulum stress, oxidative damage from excess ROS, mitochondrial dysfunction, microglial activation with proinflammatory cytokine release, blood-brain barrier disruption, oligodendrocyte apoptosis, and axon loss, culminating in inflammatory cerebral demyelination resembling autoimmune processes while adrenal involvement causes cortisol/aldosterone deficiency and potential life-threatening crises.
+
+The proposed polypeptides are entirely conceptually designed short sequences, as comprehensive searches across PubMed, clinicaltrials.gov, patents, and related databases identified no real-world polypeptide, peptide, antibody, or protein therapeutics (established, investigational, or preclinical) specifically for ALD; current management includes hematopoietic stem cell transplantation or ex vivo gene therapy (e.g., elivaldogene autotemcel) for early cerebral forms to halt demyelination, Lorenzo's oil (glycerol trioleate/triercuate mixture) to normalize plasma VLCFA, and hormone replacement for adrenal insufficiency, with emerging small-molecule trials targeting alternative transporters or antioxidants. These designed polypeptides target five core mechanistic axes derived from established pathogenesis: (1) VLCFA accumulation and peroxisomal impairment, addressed by the first designed polypeptide to conceptually enhance {beta}-oxidation or reduce toxicity; (2) neuroinflammation and microglial activation, targeted by the second designed polypeptide to suppress proinflammatory cascades; (3) oxidative stress and ROS-mediated damage, countered by the third designed polypeptide with antioxidant properties; (4) demyelination and oligodendrocyte/axon loss, modulated by the fourth designed polypeptide to support myelin stability; (5) mitochondrial dysfunction and energy deficit, ameliorated by the fifth designed polypeptide to improve cellular energetics. Collectively, these provide multi-axis conceptual coverage aiming to slow progression, protect neural tissue, and complement existing therapies, with feasibility informed by pathway validation in ALD models and parallels in peroxisomal/neurodegenerative disorders.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=X-linked Adrenoleukodystrophy p01"
+"Loaded_Programs=X-linked Adrenoleukodystrophy p02"
+"Loaded_Programs=X-linked Adrenoleukodystrophy p03"
+"Loaded_Programs=X-linked Adrenoleukodystrophy p04"
+"Loaded_Programs=X-linked Adrenoleukodystrophy p05"
+"Loaded_Frequencies=M156.101=1,M128.095,M57.021,M97.053,M87.032,M101.048,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M128.095,M186.079,M97.053,M128.058,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M103.009,M137.059,M101.048,M163.063,M103.009,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.095,M128.095,M156.101,M97.053,M147.068,M186.079,0=4,"
+"Loaded_Frequencies=M71.037=1,M97.053,M137.059,M147.068,M57.021,M71.037,M186.079,M87.032,0=4,"
+"[/Preset]"

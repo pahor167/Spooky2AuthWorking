@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Corneal Dystrophy (P)"
+"Preset_Notes=Corneal Dystrophy for Plasma
+
+Corneal dystrophies are a group of inherited disorders causing bilateral corneal opacities, recurrent epithelial erosions, stromal deposits, or endothelial cell loss, often resulting in pain, photophobia, and progressive vision impairment. The selected real-world polypeptides target four evidence-based therapeutic axes derived from preclinical studies on corneal wound healing, transparency restoration, endothelial protection, and tissue regeneration.
+
+1. Gastric pentadecapeptide-mediated corneal repair and transparency: BPC-157 accelerates epithelial defect closure, inhibits neovascularization, and maintains corneal integrity in perforating injury and dry eye models relevant to erosive and post-injury dystrophic changes.
+
+2. Melanocortin agonism for endothelial cytoprotection: {alpha}-MSH preserves corneal endothelial cell morphology and reduces degeneration in experimental Fuchs' endothelial corneal dystrophy models via anti-inflammatory and anti-apoptotic pathways.
+
+3. Thymosin {beta}4-driven promotion of wound healing and anti-inflammation: Thymosin {beta}4 enhances epithelial cell migration, accelerates re-epithelialization, and suppresses inflammation in corneal wounds, dry eye, and neurotrophic defects associated with dystrophies.
+
+4. Copper-chelated tripeptide stimulation of regenerative remodeling: GHK-Cu promotes growth factor release, extracellular matrix synthesis, and antioxidant effects, supporting connective tissue repair applicable to stromal and periorbital ocular regeneration.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Corneal Dystrophy p01"
+"Loaded_Programs=Corneal Dystrophy p02"
+"Loaded_Programs=Corneal Dystrophy p03"
+"Loaded_Programs=Corneal Dystrophy p04"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"[/Preset]"

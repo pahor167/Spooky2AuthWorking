@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Multiple Chemical Sensitivity (MCS) (C)"
+"Preset_Notes=Multiple Chemical Sensitivity (MCS) for Contact
+
+Multiple Chemical Sensitivity (MCS) is a condition where individuals experience multiple symptoms in response to low-level chemical exposures. Therapeutic axes include oxidative stress, NMDA sensitization and NO/ONOO- cycle, inflammatory cytokines, mast cell activation, and detoxification pathways. Assignments: Glutathione (real) for oxidative stress, Engineered Conantokin-R-like (designed) for NMDA sensitization, Vasoactive Intestinal Peptide (designed) for inflammatory cytokines, BPC-157 (real) for mast cell activation, Engineered Metallothionein fragment (designed) for detoxification. Mechanisms: Glutathione reduces oxidative stress by acting as an antioxidant and aiding detoxification. The engineered conantokin-like peptide inhibits NMDA receptors to reduce sensitization. VIP modulates immune responses and reduces pro-inflammatory cytokines. BPC-157 stabilizes mast cells and reduces inflammation. The metallothionein fragment aids in metal and toxin binding for detoxification.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Multiple Chemical Sensitivity (MCS) p01"
+"Loaded_Programs=Multiple Chemical Sensitivity (MCS) p02"
+"Loaded_Programs=Multiple Chemical Sensitivity (MCS) p03"
+"Loaded_Programs=Multiple Chemical Sensitivity (MCS) p04"
+"Loaded_Programs=Multiple Chemical Sensitivity (MCS) p05"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M129.043,M129.043,M99.068,M71.037,M128.095,M131.040,M71.037,M71.037,M129.043,M113.084,M71.037,M156.101,M129.043,M114.043,M113.084,M71.037,M128.095,M57.021,M103.009,M128.095,M99.068,M114.043,M103.009,M163.063,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M113.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M115.027,M97.053,M114.043,M103.009,M87.032,M103.009,M71.037,M71.037,M57.021,M115.027,M87.032,M103.009,M101.048,M103.009,M71.037,M57.021,M87.032,M103.009,M128.095,0=4,"
+"[/Preset]"

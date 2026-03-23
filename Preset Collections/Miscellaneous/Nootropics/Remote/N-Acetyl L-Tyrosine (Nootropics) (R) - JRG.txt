@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=N-Acetyl L-Tyrosine (Nootropics) (R) - JRG"
+"Loaded_Programs=N-Acetyl L-Tyrosine (CUST)"
+"Loaded_Frequencies=M223.08446,"
+"Preset_Notes=N-Acetyl L-Tyrosine (NALT) is a highly bio-available form of the amino acid L-Tyrosine. The brain uses L-Tyrosine to produce dopamine. And the neurotransmitter norepinephrine which affects alertness, memory, and mood.|Dopamine is involved with libido, memory, focus, goal-oriented concentration, a mood elevator and anti-depressant.|Norepinephrine helps with alertness, working memory, focus, and executive function.|L-Tyrosine supports healthy glandular function and stress response because it helps with the synthesis of thyroid hormone and epinephrine (adrenalin).|Studies have found tyrosine to be useful for cold, fatigue, prolonged work, stress, sleep deprivation, and those suffering with hypothyroidism. Particularly studies within the military.|The typical dose for N-Acetyl L-Tyrosine (NALT) is 300 - 500 mg dosed 2 or 3-times per day. Experiment to see how you respond during your day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Horse Fear, Anxiety, and past Trauma (S)"
+"Preset_Notes=Horse Fear, Anxiety, and past Trauma for Scalar
+
+Chronic fear and trauma in horses lead to dysregulation of the Autonomic Nervous System (ANS), manifesting as a persistent sympathetic 'fight or flight' state and subsequent adrenal exhaustion (hypocortisolism or maladaptive HPA axis signaling). This physiological imbalance results in heightened cortisol variability, depletion of catecholamines, and reduced neuroplasticity. Recovery requires recalibrating the sympathetic-parasympathetic tone and repairing the neurological damage caused by long-term excitotoxicity and oxidative stress in the limbic system.
+
+1. Cortisol Regulation: eOxy-Mod - A modified oxytocin fragment to lower systemic cortisol and promote social bonding/trust.
+2. Adrenal Support: eACTH-Antag - A competitive antagonist to modulate overactive adrenocorticotropic hormone receptors and prevent adrenal burnout.
+3. Neuroplasticity: eBDNF-Fragment - Derived from Brain-Derived Neurotrophic Factor to repair hippocampal neurons damaged by chronic stress.
+4. Parasympathetic Tone: eVagus-Stim - A peptide agonist targeting muscarinic receptors to enhance vagal tone and induce a 'rest and digest' state.
+5. Anxiolytic Signaling: eSelank-Eq - A synthetic tetrapeptide analogue of tuftsin that modulates GABAergic systems to reduce fear-based behavior.
+6. HPA-Reset: Equi-Calm-1 - A designed multi-target peptide combining oxytocin-like calming effects with adrenal cortex stabilization.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Horse Fear, Anxiety, and past Trauma p01"
+"Loaded_Programs=Horse Fear, Anxiety, and past Trauma p02"
+"Loaded_Programs=Horse Fear, Anxiety, and past Trauma p03"
+"Loaded_Programs=Horse Fear, Anxiety, and past Trauma p04"
+"Loaded_Programs=Horse Fear, Anxiety, and past Trauma p05"
+"Loaded_Programs=Horse Fear, Anxiety, and past Trauma p06"
+"Loaded_Frequencies=M163.063=1,M113.084,M128.058,M128.058,M97.053,M103.009,M113.084,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M129.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M57.021,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M115.027,M113.084,M156.101,M97.053,M115.027,M113.084,M156.101,M97.053,M115.027,M113.084,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M156.101,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M128.058,M128.058,M97.053,M103.009,M87.032,M163.063,M87.032,M131.040,M129.043,0=4,"
+"[/Preset]"

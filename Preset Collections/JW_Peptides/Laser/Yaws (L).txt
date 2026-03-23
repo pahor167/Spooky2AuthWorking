@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Yaws (L)"
+"Preset_Notes=Yaws for Laser
+
+Yaws is a neglected tropical disease caused by the spirochete *Treponema pallidum pertenue*, characterized by disfiguring skin ulcers, bone inflammation (osteoperiostitis), and potential tertiary deformities if untreated. Transmission occurs through direct skin contact in endemic, resource-limited regions. Current first-line therapy relies on azithromycin or benzathine penicillin, but emerging azithromycin resistance threatens eradication efforts. The pathophysiology involves bacterial evasion of host immunity via antigenic variation (e.g., TprK protein), chronic inflammation, impaired wound healing, and iron-dependent bacterial metabolism. The proposed polypeptide set addresses seven therapeutic axes: (1) direct antimicrobial activity using endogenous host defense peptides (LL-37, HBD-3, Bac7); (2) disruption of bacterial iron acquisition via lactoferricin B; (3) enhancement of adaptive immunity through thymic regulators (Epitalon, Thymosin {alpha}1); (4) acceleration of tissue repair for chronic ulcers (BPC-157, GHK); (5) suppression of destructive inflammation (D1-cyclic); (6) inhibition of spirochete motility and biofilm-like persistence (D2-linear); and (7) circumvention of antibiotic resistance using gallium-mimetic (D3-helical) and TprK-blocking (D4-stapled) designed peptides. Real-world polypeptides are prioritized for clinical translatability, while designed peptides ensure comprehensive mechanistic coverage where natural options are insufficient.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Yaws p01"
+"Loaded_Programs=Yaws p02"
+"Loaded_Programs=Yaws p03"
+"Loaded_Programs=Yaws p04"
+"Loaded_Programs=Yaws p05"
+"Loaded_Programs=Yaws p06"
+"Loaded_Programs=Yaws p07"
+"Loaded_Programs=Yaws p08"
+"Loaded_Programs=Yaws p09"
+"Loaded_Programs=Yaws p10"
+"Loaded_Programs=Yaws p11"
+"Loaded_Programs=Yaws p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M103.009,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M103.009,M99.068,M163.063,M103.009,M57.021,M128.095,M101.048,M103.009,M114.043,M128.095,M156.101,M156.101,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M97.053,M99.068,M156.101,M97.053,M97.053,M156.101,M97.053,M113.084,M156.101,M97.053,M113.084,M113.084,M97.053,M156.101,M97.053,M147.068,M113.084,M156.101,M97.053,M113.084,M156.101,M156.101,M97.053,M113.084,M156.101,M156.101,M97.053,M113.084,M97.053,M156.101,M97.053,M113.084,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M113.084,M147.068,M57.021,M128.095,M113.084,M114.043,M128.095,M128.095,M101.048,M129.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M103.009=1,M156.101,M128.095,M101.048,M128.095,M114.043,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M186.079=1,M113.084,M128.095,M71.037,M147.068,M156.101,M128.058,M129.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M97.053,M128.058,M137.059,M137.059,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M128.095,M128.058,M186.079,M129.043,M115.027,0=4,"
+"[/Preset]"

@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=White Chestnut (S)"
+"Preset_Notes=White Chestnut / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+White Chestnut - Unwanted thoughts and mental arguments, mind going around and around.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=White Chestnut (S)"
+"Loaded_Frequencies=247.09,"
+"[/Preset]"

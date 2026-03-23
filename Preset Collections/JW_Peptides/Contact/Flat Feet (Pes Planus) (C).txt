@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Flat Feet (Pes Planus) (C)"
+"Preset_Notes=Flat Feet (Pes Planus) for Contact
+
+Flat feet, or pes planus, is a common musculoskeletal condition involving partial or complete collapse of the medial longitudinal arch, causing the sole to make excessive or full contact with the ground during weight-bearing. It can be congenital (often flexible in children, with potential spontaneous improvement) or acquired (typically progressive and rigid in adults). The primary cause of acquired pes planus is posterior tibial tendon dysfunction (PTTD), also termed progressive collapsing foot deformity, where chronic overload, degeneration, or inflammation leads to tendon elongation, tenosynovitis, or rupture, resulting in loss of dynamic arch support, hindfoot valgus, forefoot abduction, and flattening. Contributing factors include obesity (increased mechanical stress), diabetes (tendon glycation vulnerability), inflammatory arthritides (seronegative associations), trauma, ligament laxity (e.g., spring ligament attenuation), and tight Achilles complex exacerbating pronation. Symptoms range from asymptomatic to medial foot pain, swelling along the tendon course, fatigue with activity, altered gait, and secondary overuse issues in ankle, knee, or lower back. Pathophysiology centers on a mechanical cascade: initial tendon insufficiency triggers compensatory ligament stretching, bony malalignment, and chronic low-grade inflammation, perpetuating deformity and functional impairment.
+
+The proposed polypeptides address all identified therapeutic axes from pathophysiological mechanisms: (1) Inflammation and tenosynovitis driving tendon damage; (2) Musculoskeletal pain and activity-related fatigue; (3) Degenerative changes in tendon and supporting ligaments; (4) Deficient tissue regeneration hindering recovery of arch integrity. Each axis is targeted by one conceptual designed polypeptide derived from validated literature motifs, incorporating termini modifications or rational substitutions for protease resistance, solubility, and drug-likeness while using short lengths for potential penetration into avascular tendon tissue.
+
+- Inflammation axis: Chronic low-grade inflammation exacerbates PTTD; the Designed complement-inhibitor-cyclic derives from the compstatin scaffold to block complement-mediated amplification in tendinopathy models, with disulfide cyclization for stability.
+- Pain axis: Pain arises from mechanical irritation and sensitization; the Designed IRR-agonist is based on the erythropoietin helix B motif (cibinetide-like), activating innate repair receptor to attenuate pain signaling and fatigue without systemic effects.
+- Degeneration axis: Oxidative and mechanical stress accelerate tendon matrix breakdown; the Designed melanocortin-mimetic uses the {alpha}-MSH core sequence to engage receptors for anti-degenerative and matrix-protective actions in connective tissue.
+- Regeneration axis: Impaired healing perpetuates deformity; the Designed collagen-mimetic incorporates proline-rich motifs with stabilization to promote fibroblast activity, collagen deposition, and structural reorganization in tendon/ligament repair studies.
+
+These designs emphasize feasibility through hydrophilic properties, moderate charges, and instability indices favoring persistence, offering complementary biological intervention to standard orthotic and physical therapy approaches.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Flat Feet (Pes Planus) p01"
+"Loaded_Programs=Flat Feet (Pes Planus) p02"
+"Loaded_Programs=Flat Feet (Pes Planus) p03"
+"Loaded_Programs=Flat Feet (Pes Planus) p04"
+"Loaded_Frequencies=M103.009=1,M137.059,M147.068,M156.101,M186.079,M128.095,M57.021,M97.053,M99.068,M103.009,0=4,"
+"Loaded_Frequencies=M111.032=1,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,M115.027,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,M57.021,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M113.084,0=4,"
+"[/Preset]"

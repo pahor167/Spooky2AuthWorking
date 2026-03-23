@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Cleft Lip and Palate (R)"
+"Preset_Notes=Cleft Lip and Palate for Remote
+
+Cleft lip and palate (CL/P) is one of the most common congenital craniofacial birth defects, occurring in approximately 1 in 700 live births worldwide, resulting from incomplete fusion of the facial processes during weeks 4-12 of embryogenesis. It includes cleft lip (unilateral or bilateral), cleft palate (hard/soft), or both, leading to functional impairments in feeding, speech articulation, hearing (due to Eustachian tube dysfunction), dentition, and psychosocial development, alongside aesthetic concerns. Pathophysiology encompasses multifactorial etiology with genetic susceptibility (e.g., variants in IRF6, MSX1, TP63), environmental influences (maternal smoking, folate deficiency, teratogens), and disrupted molecular signaling (TGF-{beta}, BMP, FGF, Wnt pathways) affecting cranial neural crest cell migration, proliferation, apoptosis, and epithelial-mesenchymal interactions essential for palatal shelf elevation and fusion.
+
+The proposed polypeptides target critical therapeutic axes informed by literature (pathophysiology reviews, surgical outcome studies, regenerative models): acceleration of post-surgical wound healing, prevention of hypertrophic scarring, promotion of angiogenesis for graft viability, alveolar bone regeneration, anti-inflammatory resolution to minimize edema/swelling, antimicrobial defense against oral pathogens, and extracellular matrix/tissue remodeling for optimal functional restoration. Real-world polypeptides (8 verifiable from studies/models of orofacial wound healing, scar modulation, angiogenesis in palate defects, bone grafting overlaps, and oral antimicrobial activity) are prioritized but short of min_real_polypeptides due to primary reliance on surgical intervention and limited peptide-specific clinical data; all included, supplemented with designed polypeptides (flagged clearly) incorporating non-standard residues for enhanced stability, bioavailability, and targeted action under strict design constraints.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Cleft Lip and Palate p01"
+"Loaded_Programs=Cleft Lip and Palate p02"
+"Loaded_Programs=Cleft Lip and Palate p03"
+"Loaded_Programs=Cleft Lip and Palate p04"
+"Loaded_Programs=Cleft Lip and Palate p05"
+"Loaded_Programs=Cleft Lip and Palate p06"
+"Loaded_Programs=Cleft Lip and Palate p07"
+"Loaded_Programs=Cleft Lip and Palate p08"
+"Loaded_Programs=Cleft Lip and Palate p09"
+"Loaded_Programs=Cleft Lip and Palate p10"
+"Loaded_Programs=Cleft Lip and Palate p11"
+"Loaded_Programs=Cleft Lip and Palate p12"
+"Loaded_Programs=Cleft Lip and Palate p13"
+"Loaded_Programs=Cleft Lip and Palate p14"
+"Loaded_Programs=Cleft Lip and Palate p15"
+"Loaded_Programs=Cleft Lip and Palate p16"
+"Loaded_Programs=Cleft Lip and Palate p17"
+"Loaded_Programs=Cleft Lip and Palate p18"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M99.068,M163.063,M57.021,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M87.032=1,M71.037,M113.084,M113.084,M156.101,M87.032,M113.084,M97.053,M71.037,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M128.095,M71.037,M87.032,M71.037,M113.048,M102.001,M128.095,M87.032,M57.021,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M114.079,M156.101,M86.048,M57.021,M113.048,M150.954,M128.095,M156.101,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M128.095,M114.079,M86.048,M156.101,M113.048,M87.032,M150.954,M114.079,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M100.064,M128.095,M57.021,M85.053,M113.048,M128.095,M100.064,M86.048,0=4,"
+"Loaded_Frequencies=M87.032=1,M129.043,M128.058,M114.079,M86.048,M57.021,M113.048,M87.032,M128.095,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M128.095,M86.048,M114.079,M57.021,M113.048,M100.064,M128.095,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M114.079,M86.048,M150.954,M57.021,M85.053,M113.048,M128.095,M114.079,M86.048,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M86.048,M156.101,M114.079,M57.021,M113.048,M87.032,M128.095,M100.064,M102.001,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M128.058,M86.048,M114.079,M150.954,M57.021,M85.053,M128.095,M86.048,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M100.064,M114.079,M57.021,M86.048,M113.048,M156.101,M128.095,M102.001,M87.032,M150.954,0=4,"
+"Loaded_Frequencies=M128.095=1,M86.048,M57.021,M114.079,M100.064,M87.032,M113.048,M128.095,M86.048,M57.021,M114.079,0=4,"
+"[/Preset]"

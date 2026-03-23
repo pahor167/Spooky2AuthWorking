@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Calluses (C)"
+"Preset_Notes=Calluses for Contact
+
+Calluses are localized hyperkeratotic lesions formed by excessive keratin buildup in response to repeated mechanical stress, causing skin thickening, dryness, potential fissuring, pain, and impaired barrier function.
+
+1. Tissue repair and anti-fibrotic remodeling: Thymosin_beta_4 - Promotes keratinocyte/fibroblast migration, angiogenesis, and organized collagen deposition to soften and normalize thickened skin.
+2. Extracellular matrix stimulation: Palmitoyl pentapeptide-4 - Activates fibroblasts to increase collagen, elastin, and glycosaminoglycan synthesis for dermal restructuring.
+3. Mechanical stress reduction: Argireline - Acetyl hexapeptide that inhibits SNARE-mediated neurotransmitter release, relaxing underlying muscles to minimize frictional forces.
+4. Antioxidant and anti-glycation: Carnosine - Scavenges reactive species and prevents advanced glycation end-products that stiffen skin proteins.
+5. Growth hormone-mediated regeneration: Sermorelin - Stimulates pituitary GH release to enhance overall skin turnover and collagen production.
+6. Anti-inflammatory modulation: Selank - Regulates cytokine balance and reduces local immune overactivation contributing to chronic irritation.
+7. Pain and stress alleviation: DSIP - Exerts analgesic properties and normalizes stress responses that amplify perceived discomfort from calluses.
+8. Collagen matrix optimization: CollRemod-10 - Designed collagen-mimetic decapeptide to competitively regulate matrix assembly and promote balanced turnover in hyperkeratotic areas.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Calluses p01"
+"Loaded_Programs=Calluses p02"
+"Loaded_Programs=Calluses p03"
+"Loaded_Programs=Calluses p04"
+"Loaded_Programs=Calluses p05"
+"Loaded_Programs=Calluses p06"
+"Loaded_Programs=Calluses p07"
+"Loaded_Programs=Calluses p08"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M366.325=1,M101.048,M101.048,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M171.054=1,M129.043,M131.040,M128.058,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M115.027,M71.037,M113.084,M147.068,M101.048,M114.043,M87.032,M163.063,M156.101,M128.095,M99.068,M113.084,M57.021,M128.058,M113.084,M87.032,M71.037,M156.101,M128.095,M113.084,M113.084,M128.058,M115.027,M113.084,M131.040,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M56.037,0=4,"
+"[/Preset]"

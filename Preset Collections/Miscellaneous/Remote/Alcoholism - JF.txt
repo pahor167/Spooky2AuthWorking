@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\MW Remove (R) - JW.txt"
+"PresetName=Alcoholism - JF"
+"Preset_Notes=Preset created by Jonathan.
+
+The vice of drinking is rampant among the poor as well as among the rich. The poor drink liquor to forget their miseries or discontent, while the rich drink it to enhance their business prospects or for fashion. Whatever may be the reason for drinking, the consequences are the same: economic, physical and mental disaster. Liquor injures the entire digestive system, particularly the liver. Will-power alone will not help to get rid of this addiction. 
+
+Hulda Clark wrote in her book The Cure for All Diseases:
+
+'There are many definitions of addiction. My definition is based on the special brain toxins, beryllium and ergot. The brain has a region called the addiction center. If this center is stimulated it produces pleasure chemicals. It is carefully controlled so that not too much pleasure or happiness can be experienced.
+
+When a toxic substance, beryllium, is inhaled it circulates with the blood to the brain and may land at the addiction center. The more beryllium is inhaled the bigger the chance that it will occupy the addiction center. The brain cells in the addiction center have receptor sites for glutamate (the same glutamic acid that comes from the protein in our food). Normally, glutamate activates the addiction center. But when beryllium has 'stolen' these seats, the glutamate is powerless to activate the joy and happiness center. The result is a low level chronic depression. The more beryllium there is to clog the receptors the worse the depression. Giving glutamic acid does not help but giving glutamine does! Addicted or depressed persons should take glutamine, no less than 3 grams (3000 mg) a day. It comes in 500 mg. tablets. It is completely harmless.
+
+When we drink alcohol or put it on the skin (as in mouthwash, tinctures, medicine) or produce it by fermentation in the intestines (Candida produces alcohol) a substance, salsol, is formed. Salsol reacts with beryllium. If the beryllium is in the pleasure center it reacts with it there. This reaction has the effect of activating the cells! Now a large amount of pleasure-chemical can be released. The amount is larger than normal because so many clogged cells are activated together. This explains the alcohol 'high'. In all the alcohol-addicted persons I studied, salsol was present, along with beryllium, on the receptor sites normally activated by glutamate (or NMDA or kainate). As we removed the beryllium we saw that the salsol also disappeared.
+
+The solution to alcoholism is to avoid ergot contaminated food and avoid beryllium inhalation. We also remove the brain beryllium using thioctic acid. Stopping the use of alcohol may save a life or career but does not correct the problem. Even after 30 years of abstinence, I still see the beryllium present in the addiction center and the salsol, derived no doubt from endogenous sources, still attached to the beryllium. This is why the addiction is never gone even after years of abstinence.
+
+If any member of the family is, or was, addicted to alcohol the house should be searched for beryllium sources. Hurricane lamps or antique lamps are the most common sources. Remove them permanently. Washing does not clean them. Remove all solvents, cleaners, lighters. Switch to a butane lighter. The air should be tested for beryllium. The garage door to the house should be permanently closed, and the car and lawnmower kept out of it. Addicted persons should not be painters! Nor walk into a dry-cleaning business. Soon you will see a more cheerful disposition in the addicted person and this will be rewarding for the whole family.'
+
+This preset contains the Molecular Weight of these two toxins (Ergot and Beryllium) and also the two main toxins in alcohol (Acetaldehyde and Acetic Acid).
+
+Run this preset using a single Remote non-stop for about a month. You should have no more cravings to drink.
+
+I used to be a very heavy drinker, drinking almost 3 Liters of Wine a day for 18 years and nothing that I tried ever helped me stop. And for me, this preset came to the rescue. Now its now been five years since I last had a drink. 
+
+Sandwich your DNA in some paper tape or sticker, and place inside Spooky Remote. Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Addiction - Cure"
+"Loaded_Frequencies=M212.29,M44.053,M9.012,M60.052,"
+[/Preset]

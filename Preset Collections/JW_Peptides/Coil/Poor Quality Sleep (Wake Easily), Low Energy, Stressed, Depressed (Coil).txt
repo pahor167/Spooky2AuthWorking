@@ -1,0 +1,22 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Poor Quality Sleep (Wake Easily), Low Energy, Stressed, Depressed (Coil)"
+"Preset_Notes=Poor Quality Sleep (Wake Easily), Low Energy, Stressed, Depressed for Coil
+
+Poor quality sleep with easy awakenings, low energy, stress, and depression are interconnected issues often linked to neurotransmitter imbalances, inflammation, and hormonal dysregulation. The selected real-world polypeptides target four evidence-based therapeutic axes derived from preclinical studies, investigational peptide research, and mechanistic insights.
+
+1. Delta sleep-inducing pathway: DSIP promotes deeper sleep and reduces awakenings by modulating EEG delta waves.
+2. Cannabinoid receptor inverse agonism: Pep19 enhances sleep quality and energy levels through fat reduction and anti-inflammatory effects.
+3. Tryptophan metabolism modulation: WSPSGR alleviates depression by inhibiting IDO1 and restoring serotonin pathways.
+4. Inflammatory and mitochondrial support: EIILEAGK reduces stress and depressive symptoms via anti-inflammatory and mitochondrial protective mechanisms.
+
+"
+"Loaded_Programs=Poor Quality Sleep (Wake Easily), Low Energy, Stressed, Depressed p01"
+"Loaded_Programs=Poor Quality Sleep (Wake Easily), Low Energy, Stressed, Depressed p02"
+"Loaded_Programs=Poor Quality Sleep (Wake Easily), Low Energy, Stressed, Depressed p03"
+"Loaded_Programs=Poor Quality Sleep (Wake Easily), Low Energy, Stressed, Depressed p04"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M57.021,M129.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M113.084,M113.084,M71.037,M115.027,M115.027,M129.043,M97.053,M113.084,M101.048,0=4,"
+"Loaded_Frequencies=M186.079=1,M87.032,M97.053,M87.032,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M113.084,M113.084,M129.043,M71.037,M57.021,M128.095,0=4,"
+"[/Preset]"

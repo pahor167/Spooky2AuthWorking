@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Acromegaly (R)"
+"Preset_Notes=Acromegaly for Remote
+
+Polypeptide designs for acromegaly, addressing five key therapeutic axes derived from pathophysiology and research: SSTR2-preferential agonism, alternative SSTR2 agonism, multi-receptor SSTR agonism, growth hormone receptor antagonism, and IGF-1 neutralization. Rationally engineered from established motifs in real-world somatostatin analogs (octreotide, lanreotide, pasireotide) and pegvisomant, optimized for stability (cyclization, amidation, acetylation), solubility, and use of standard amino acids.
+
+Assignments and mechanisms:
+1. Octreotide-inspired cyclic peptide (disulfide cyclic, C-amidated) (designed) - Core FFWKT motif with flanking cysteines for SSTR2-preferential binding, potently inhibiting GH secretion.
+2. Lanreotide-inspired cyclic peptide (disulfide cyclic, C-amidated) (designed) - Variant core with Tyr/Val substitutions mimicking structural enhancements for sustained SSTR2 agonism and GH suppression.
+3. Pasireotide-inspired cyclic peptide (head-to-tail cyclic) (designed) - Compact motif targeting multiple SSTR subtypes (including SSTR5) for broader efficacy in resistant cases.
+4. Pegvisomant-inspired antagonist peptide (N-acetylated, C-amidated) (designed) - Extended helical motif engineered to competitively block GH binding to its receptor without activation, preventing IGF-1 induction.
+5. IGFBP-derived binding peptide (C-amidated) (designed) - Adapted coordination motif to directly sequester IGF-1, attenuating downstream proliferative and metabolic effects.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Acromegaly p01"
+"Loaded_Programs=Acromegaly p02"
+"Loaded_Programs=Acromegaly p03"
+"Loaded_Programs=Acromegaly p04"
+"Loaded_Programs=Acromegaly p05"
+"Loaded_Frequencies=M102.001=1,M147.068,M147.068,M186.079,M128.095,M101.048,M102.001,M100.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M186.079,M128.095,M99.068,M102.001,M100.064,0=4,"
+"Loaded_Frequencies=M147.068=1,M186.079,M128.095,M163.063,M147.068,M97.053,0=4,"
+"Loaded_Frequencies=M155.095=1,M87.032,M115.027,M147.068,M156.101,M128.095,M113.084,M113.084,M128.058,M115.027,M113.084,M156.101,M156.101,M99.068,M147.068,M97.053,M113.084,M156.101,M129.043,M70.053,0=4,"
+"Loaded_Frequencies=M115.027=1,M128.095,M115.027,M57.021,M115.027,M57.021,M163.063,M113.084,M87.032,M71.037,M71.037,M129.043,M113.084,M156.101,M136.075,0=4,"
+"[/Preset]"

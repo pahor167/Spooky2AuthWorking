@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Steatorrhea (R)"
+"Preset_Notes=Steatorrhea for Remote
+
+Steatorrhea is the presence of excess fat in feces due to malabsorption, often from pancreatic exocrine insufficiency, bile acid malabsorption, or intestinal disorders. The selected real-world polypeptides target five evidence-based therapeutic axes derived from clinical trials, investigational peptide therapies, and mechanistic studies.
+1. Bile acid malabsorption control via GLP-1 receptor agonism: Liraglutide enhances bile acid reabsorption, reduces fecal bile acids, and alleviates diarrhea.
+2. Intestinal adaptation via GLP-2 receptor agonism: Teduglutide stimulates intestinal villus growth, increases absorptive surface, and improves nutrient uptake in short bowel syndrome.
+3. Proabsorptive effects via peptide YY: PYY(3-36) promotes fluid and electrolyte absorption, slows transit, and counters malabsorptive states.
+4. Pancreatic secretion stimulation via secretin: Secretin induces pancreatic bicarbonate and enzyme secretion to facilitate fat digestion.
+5. Gallbladder contraction and enzyme release via CCK: Sincalide stimulates gallbladder bile release and pancreatic enzymes for improved fat emulsification and absorption.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Steatorrhea p01"
+"Loaded_Programs=Steatorrhea p02"
+"Loaded_Programs=Steatorrhea p03"
+"Loaded_Programs=Steatorrhea p04"
+"Loaded_Programs=Steatorrhea p05"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M128.095,M113.084,M101.048,M115.027,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M97.053,M129.043,M71.037,M97.053,M57.021,M129.043,M115.027,M71.037,M87.032,M97.053,M129.043,M129.043,M113.084,M114.043,M156.101,M163.063,M163.063,M71.037,M87.032,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M99.068,M101.048,M156.101,M128.058,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M87.032,M101.048,M163.063,M87.032,M113.084,M128.095,M113.084,M128.095,M115.027,M87.032,M87.032,M71.037,M128.095,M113.084,M113.084,M128.095,M113.084,M113.084,M128.095,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M243.029,M131.040,M57.021,M186.079,M131.040,M115.027,M146.084,0=4,"
+"[/Preset]"

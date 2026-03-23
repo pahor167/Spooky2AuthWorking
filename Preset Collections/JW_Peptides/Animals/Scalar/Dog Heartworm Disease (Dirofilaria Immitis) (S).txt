@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Dog Heartworm Disease (Dirofilaria Immitis) (S)"
+"Preset_Notes=Dog Heartworm Disease (Dirofilaria Immitis) for Scalar
+
+Dog Heartworm Disease, caused by the parasitic nematode Dirofilaria immitis, is a serious and potentially fatal condition in dogs transmitted via mosquito bites. The larvae mature into adult worms that reside in the pulmonary arteries and right heart ventricles, leading to symptoms such as coughing, exercise intolerance, weight loss, fatigue, and in severe cases, congestive heart failure or caval syndrome. Pathophysiology includes mechanical obstruction of blood flow, endothelial damage, inflammation, and secondary pulmonary hypertension, with the symbiotic bacteria Wolbachia contributing to immune-mediated pathology through proinflammatory responses.
+The proposed polypeptides target Dog Heartworm Disease by addressing parasite elimination, symbiotic bacterial control, and host inflammatory mitigation. For antiparasitic action, a designed polypeptide is conceptualized to bind filarial surface antigens, disrupting microfilarial development and adult worm viability similar to macrocyclic lactone mechanisms but with peptide specificity for reduced resistance risk; feasibility is based on peptide antiparasitics in veterinary trials, offering targeted delivery to infected tissues. For antibacterial targeting of Wolbachia, a designed polypeptide mimics antimicrobial motifs to inhibit bacterial replication within the worms, thereby weakening the parasite's survival and reducing inflammatory triggers; this approach draws from cathelicidin-like peptides, with short chain design for enhanced penetration. For anti-inflammatory effects, a designed polypeptide modulates prostaglandin pathways to alleviate vascular inflammation and prevent thrombosis, supporting cardiac function during treatment; overall, these designed polypeptides provide a multi-pronged strategy complementary to standard melarsomine therapy, with potential for lower toxicity.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Dog Heartworm Disease (Dirofilaria Immitis) p01"
+"Loaded_Programs=Dog Heartworm Disease (Dirofilaria Immitis) p02"
+"Loaded_Programs=Dog Heartworm Disease (Dirofilaria Immitis) p03"
+"Loaded_Frequencies=M113.084=1,M99.068,M131.040,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M99.068,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M113.084,M97.053,M128.095,M113.084,0=4,"
+"[/Preset]"

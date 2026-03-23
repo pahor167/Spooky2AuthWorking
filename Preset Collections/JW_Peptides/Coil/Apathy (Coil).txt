@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Apathy (Coil)"
+"Preset_Notes=Apathy for Coil
+
+Apathy is a debilitating neuropsychiatric condition characterized by diminished motivation, emotional indifference, reduced goal-directed behavior, and lack of passion or interest in previously enjoyable activities. It manifests as impassivity, flattened affect, and decreased initiative, often independent of depression, though frequently co-occurring. Apathy arises from disruptions in reward processing, executive function, and emotional regulation, commonly seen in neurological disorders (Parkinson's disease, Alzheimer's disease, stroke, traumatic brain injury) and psychiatric conditions (major depression, schizophrenia). Pathophysiologically, it involves hypofunction of dopaminergic mesocorticolimbic pathways, prefrontal cortical networks, frontostriatal circuits, and secondary contributions from neuroinflammation, cholinergic deficits, and impaired neuroplasticity.
+
+The proposed polypeptides target core mechanisms of apathy: restoration of dopaminergic signaling to revive motivation and reward sensitivity; enhancement of prefrontal neuroplasticity for improved initiative; modulation of neuroinflammation to mitigate immune-related suppression of drive; and neuroprotection to preserve neuronal circuits supporting emotion and behavior. Real-world polypeptides include Semax, which increases BDNF expression and dopaminergic activity to combat motivational deficits; Selank, exerting anxiolytic effects while stabilizing emotional responsiveness; VIP, suppressing microglial activation and cytokine-mediated inflammation in the CNS; and BPC-157, promoting neuronal repair and balancing neurotransmitter systems. Designed polypeptides complement these: Designed Dopaminergic Enhancer (derived from ACTH(4-10) motifs with cationic extensions for penetration and cyclization for stability) activates reward pathways; Designed Emotional Regulator (based on tuftsin analogs with modifications for enhanced duration) restores affective engagement; Designed Anti-Inflammatory Modulator (inspired by VIP fragments with disulfide cyclization) targets glial inflammation; Designed Neuroprotective Agent (modeled on gastric peptide scaffolds with N-acetylation) supports circuit integrity and regeneration.
+
+"
+"Loaded_Programs=Apathy p01"
+"Loaded_Programs=Apathy p02"
+"Loaded_Programs=Apathy p03"
+"Loaded_Programs=Apathy p04"
+"Loaded_Programs=Apathy p05"
+"Loaded_Programs=Apathy p06"
+"Loaded_Programs=Apathy p07"
+"Loaded_Programs=Apathy p08"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,M128.095,M128.095,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"[/Preset]"

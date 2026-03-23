@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Chicken Sour Crop / Crop Impaction (R)"
+"Preset_Notes=Chicken Sour Crop / Crop Impaction for Remote
+
+Sour crop (Candidiasis) and crop impaction (stasis) are interlinked conditions in poultry where the upper digestive tract fails to empty, leading to yeast overgrowth and fermentation. The mechanistic rationale involves employing avian-specific prokinetic peptides to stimulate crop motility and restore flow, alongside potent antifungal peptides (AFPs) to disrupt *Candida albicans* cell membranes and biofilms. Additionally, peptides targeting the mucosal lining are included to mitigate inflammation caused by fermented crop contents. Peptides 11 and 12 are designed to maximize fungal cell wall disruption and ghrelin-receptor affinity, respectively. [Peptides 11-12 flagged as designed]
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Chicken Sour Crop / Crop Impaction p01"
+"Loaded_Programs=Chicken Sour Crop / Crop Impaction p02"
+"Loaded_Programs=Chicken Sour Crop / Crop Impaction p03"
+"Loaded_Programs=Chicken Sour Crop / Crop Impaction p04"
+"Loaded_Programs=Chicken Sour Crop / Crop Impaction p05"
+"Loaded_Programs=Chicken Sour Crop / Crop Impaction p06"
+"Loaded_Programs=Chicken Sour Crop / Crop Impaction p07"
+"Loaded_Programs=Chicken Sour Crop / Crop Impaction p08"
+"Loaded_Programs=Chicken Sour Crop / Crop Impaction p09"
+"Loaded_Programs=Chicken Sour Crop / Crop Impaction p10"
+"Loaded_Programs=Chicken Sour Crop / Crop Impaction p11"
+"Loaded_Programs=Chicken Sour Crop / Crop Impaction p12"
+"Loaded_Frequencies=M57.021=1,M87.032,M87.032,M147.068,M113.084,M87.032,M97.053,M101.048,M163.063,M128.095,M114.043,M113.084,M128.058,M128.058,M128.058,M128.095,M115.027,M101.048,M156.101,M128.095,M97.053,M101.048,M71.037,M156.101,M113.084,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M163.063,M147.068,M113.084,M147.068,M156.101,M97.053,M156.101,M114.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M156.101,M128.095,M128.095,M113.084,M103.009,M186.079,M114.043,M137.059,M147.068,M147.068,M115.027,M97.053,M103.009,M97.053,M57.021,M128.095,M137.059,M163.063,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M103.009,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M129.043,M113.084,M131.040,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M57.021,M87.032,M147.068,M147.068,M128.095,M128.095,M71.037,M71.037,M137.059,M99.068,M57.021,M128.095,M137.059,M99.068,M57.021,M128.095,M71.037,M71.037,M113.084,M101.048,M137.059,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M186.079,M128.095,M101.048,M131.040,M113.084,M128.095,M128.095,M113.084,M57.021,M101.048,M131.040,M71.037,M113.084,M137.059,M71.037,M57.021,M128.095,M71.037,M71.037,M113.084,M57.021,M71.037,M71.037,M71.037,M115.027,M101.048,M113.084,M87.032,M128.058,M57.021,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M147.068,M115.027,M113.084,M113.084,M128.095,M128.095,M113.084,M71.037,M129.043,M87.032,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M156.101,M186.079,M156.101,M156.101,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M87.032,M147.068,M113.084,M87.032,M97.053,M101.048,M163.063,0=4,"
+"[/Preset]"

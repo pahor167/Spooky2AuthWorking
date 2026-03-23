@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Paranoid Personality Disorder (L)"
+"Preset_Notes=Paranoid Personality Disorder for Laser
+
+Paranoid Personality Disorder (PPD) is characterized by a pervasive and unwarranted distrust and suspicion of others. Individuals with PPD often interpret the motives of others as malevolent, leading to social isolation, hostility, and impaired functioning. Pathophysiologically, PPD is linked to dysregulation in the dopaminergic system (associated with abnormal salience and paranoid ideation), deficits in the oxytocinergic system (impaired trust and social bonding), and hyperactivity of the hypothalamic-pituitary-adrenal (HPA) axis (chronic hypervigilance). The proposed set utilizes real-world polypeptides like Oxytocin to enhance social affiliation and Neurotensin to modulate dopamine. BPC-157 and Met-Enkephalin address neuroprotection and emotional regulation. Designed polypeptides D-PPD-1 through D-PPD-4 specifically target the Vasopressin V1a receptor, mGluR2, TNF-alpha, and D2 receptors to further stabilize the cognitive and emotional disturbances inherent in PPD.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Paranoid Personality Disorder p01"
+"Loaded_Programs=Paranoid Personality Disorder p02"
+"Loaded_Programs=Paranoid Personality Disorder p03"
+"Loaded_Programs=Paranoid Personality Disorder p04"
+"Loaded_Programs=Paranoid Personality Disorder p05"
+"Loaded_Programs=Paranoid Personality Disorder p06"
+"Loaded_Programs=Paranoid Personality Disorder p07"
+"Loaded_Programs=Paranoid Personality Disorder p08"
+"Loaded_Programs=Paranoid Personality Disorder p09"
+"Loaded_Programs=Paranoid Personality Disorder p10"
+"Loaded_Programs=Paranoid Personality Disorder p11"
+"Loaded_Programs=Paranoid Personality Disorder p12"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M111.032=1,M113.084,M128.058,M163.063,M129.043,M114.043,M128.095,M97.053,M156.101,M156.101,M97.053,M163.063,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.04,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M163.063,M87.032,M101.048,M99.068,M128.058,M131.04,0=4,"
+"Loaded_Frequencies=M186.079=1,M156.101,M97.053,M128.058,M137.059,M113.084,M113.084,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M99.068,M131.040,M114.043,M163.063,M101.048,M128.058,0=4,"
+"[/Preset]"

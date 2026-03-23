@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Plant Germination Vitality (P)"
+"Preset_Notes=Plant Germination Vitality for Plasma
+
+Plant Germination Vitality refers to the robust capacity of seeds to initiate and complete germination with high speed, uniformity, and seedling vigor under varying conditions, driven by embryo activation, reserve breakdown, oxidative management, hormonal shifts, and defense mechanisms. The proposed polypeptides target 11 evidence-based therapeutic axes derived from plant peptide hormone signaling, seed protection studies, stress response research, and germination physiology to optimize outcomes.
+1. Phytosulfokine-{alpha}-mediated mitogenic signaling for accelerated embryo cell division and germination rate: PSK-{alpha} promotes cell proliferation critical for embryo expansion and radicle emergence.
+2. BsR1-mediated broad-spectrum antimicrobial protection against seed-borne pathogens: cationic peptide disrupts bacterial membranes to safeguard imbibing seeds.
+3. OSP-10-mediated osmotic and drought stress tolerance via cell wall integrity signaling: engineered peptide stabilizes structures under dehydration.
+4. AOP-15-mediated ROS scavenging and antioxidant activity to mitigate oxidative burst during imbibition: cysteine-stabilized peptide balances redox for cell survival.
+5. HBP-9-mediated hormonal balance modulation for dormancy release and GA promotion: supports shift to germination-promoting hormone levels.
+6. REP-10-mediated radicle emergence and early root elongation promotion: facilitates timely protrusion and vigor establishment.
+7. MIP-10-mediated plasma membrane stabilization during rapid hydration: amphipathic design prevents leakage during water uptake.
+8. RMP-10-mediated hydrolytic enzyme activation for storage reserve mobilization: signals efficient breakdown of seed reserves.
+9. SGP-9-mediated germination synchronization through peptide-mediated signaling: promotes uniform population response.
+10. SSP-10-mediated salt stress mitigation via ion homeostasis regulation: maintains cellular balance under salinity.
+11. NOV-10-mediated novel multi-stress resilience and stability optimization: engineered for superior combined stress performance and bioavailability.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Plant Germination Vitality p01"
+"Loaded_Programs=Plant Germination Vitality p02"
+"Loaded_Programs=Plant Germination Vitality p03"
+"Loaded_Programs=Plant Germination Vitality p04"
+"Loaded_Programs=Plant Germination Vitality p05"
+"Loaded_Programs=Plant Germination Vitality p06"
+"Loaded_Programs=Plant Germination Vitality p07"
+"Loaded_Programs=Plant Germination Vitality p08"
+"Loaded_Programs=Plant Germination Vitality p09"
+"Loaded_Programs=Plant Germination Vitality p10"
+"Loaded_Programs=Plant Germination Vitality p11"
+"Loaded_Frequencies=M243.020=1,M113.084,M243.020,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M103.009,M156.101,M163.063,M137.059,M156.101,M128.059,M128.095,M186.079,M156.101,M101.048,M156.101,M57.021,M156.101,M129.043,M186.079,M113.084,M156.101,M156.101,M103.009,0=4,"
+"Loaded_Frequencies=M170.106=1,M97.053,M57.021,M115.027,M137.059,M97.053,M113.084,M97.053,M114.043,M114.043,0=4,"
+"Loaded_Frequencies=M144.012=1,M57.021,M128.095,M103.009,M131.040,M137.059,M102.001,M128.095,M131.040,M56.037,0=4,"
+"Loaded_Frequencies=M198.112=1,M186.079,M113.084,M71.037,M57.021,M113.084,M156.101,M186.079,M112.100,0=4,"
+"Loaded_Frequencies=M141.079=1,M71.037,M113.084,M87.032,M99.068,M71.037,M113.084,M163.063,M99.068,M70.053,0=4,"
+"Loaded_Frequencies=M170.106=1,M147.068,M113.084,M128.095,M147.068,M128.095,M147.068,M113.084,M128.095,M146.084,0=4,"
+"Loaded_Frequencies=M157.038=1,M129.043,M128.059,M114.043,M129.043,M128.059,M115.027,M129.043,M128.059,M113.059,0=4,"
+"Loaded_Frequencies=M170.070=1,M87.032,M114.043,M128.059,M87.032,M114.043,M128.059,M87.032,M113.059,0=4,"
+"Loaded_Frequencies=M171.054=1,M115.027,M71.037,M128.095,M115.027,M71.037,M71.037,M115.027,M128.095,M70.053,0=4,"
+"Loaded_Frequencies=M228.090=1,M163.063,M156.101,M57.021,M186.079,M163.063,M156.101,M57.021,M186.079,M162.079,0=4,"
+"[/Preset]"

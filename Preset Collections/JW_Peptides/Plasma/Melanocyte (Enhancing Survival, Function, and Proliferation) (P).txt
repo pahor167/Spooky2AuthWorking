@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Melanocyte (Enhancing Survival, Function, and Proliferation) (P)"
+"Preset_Notes=Melanocyte (Enhancing Survival, Function, and Proliferation) for Plasma
+
+Melanocytes are neural crest-derived cells responsible for producing melanin, the pigment that colors skin, hair, and eyes while providing critical photoprotection against UV radiation. Enhancing their survival counters apoptotic loss from oxidative stress, autoimmunity, or aging; improving function increases melanin synthesis and tyrosinase activity for better pigmentation and protection; promoting proliferation supports repopulation of depigmented areas in vitiligo and sustains melanocyte stem cell pools to prevent or reverse hair graying. Dysfunctional melanocytes contribute to disorders like vitiligo (autoimmune destruction), premature graying (stem cell exhaustion), and increased skin cancer risk from reduced photoprotection.
+
+The proposed polypeptides target validated pathways for comprehensive enhancement. Afamelanotide, a real-world potent linear analog of {alpha}-MSH, activates MC1R to stimulate eumelanin production, promote proliferation, enhance DNA repair, reduce oxidative damage, and improve overall survival based on clinical use and extensive studies. Melanotan II, a real-world cyclic lactam analog of {alpha}-MSH, provides sustained MC1R agonism for stronger and longer-lasting melanocyte stimulation, function, and proliferative effects. Endothelin-3, a natural real-world peptide, binds EdnrB to drive melanocyte stem cell proliferation, differentiation, and regenerative repigmentation through crosstalk with Wnt signaling, addressing stem cell niche support. The designed cyclic core analog (flagged as designed), derived from the conserved {alpha}-MSH active motif (His-D-Phe-Arg-Trp) with flanking cysteines for disulfide cyclization plus N-acetylation and C-amidation, constrains conformation for receptor affinity, boosts proteolytic stability, and extends bioavailability using established principles from cyclic melanocortin peptide development.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Melanocyte (Enhancing Survival, Function, and Proliferation) p01"
+"Loaded_Programs=Melanocyte (Enhancing Survival, Function, and Proliferation) p02"
+"Loaded_Programs=Melanocyte (Enhancing Survival, Function, and Proliferation) p03"
+"Loaded_Programs=Melanocyte (Enhancing Survival, Function, and Proliferation) p04"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M113.084,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M155.095=1,M115.027,M137.059,M147.068,M156.101,M186.079,M127.111,0=4,"
+"Loaded_Frequencies=M102.001=1,M101.048,M102.001,M147.068,M101.048,M163.063,M128.095,M115.027,M128.095,M129.043,M102.001,M99.068,M163.063,M163.063,M102.001,M137.059,M113.084,M115.027,M113.084,M113.084,M186.079,0=4,"
+"Loaded_Frequencies=M144.012=1,M137.059,M147.068,M156.101,M186.079,M101.017,0=4,"
+"[/Preset]"

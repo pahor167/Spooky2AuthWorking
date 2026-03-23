@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Proprioception (C)"
+"Preset_Notes=Proprioception for Contact
+
+Proprioception is the biological sense that enables awareness of body position, movement, and spatial orientation through sensory feedback from muscles, tendons, and joints. As a target, polypeptides can enhance proprioceptive signaling or address deficits in conditions like neuropathy, stroke, or neurodegenerative diseases. Mechanistic rationale: The set covers key axes including mechanosensory transduction (designed polypeptides modulate channels like PIEZO2), ion channel modulation (designed polypeptides target voltage-gated channels for excitability), neuropeptide signaling (real-world peptides like Substance P and NPY adjust sensory feedback and gain), neurotrophic support (peptides like Thymosin beta-4 promote neuron survival and regeneration), synaptic transmission (VIP enhances release and integration), and neuroprotection (Semax and Selank protect against degeneration). Designed polypeptides are used to cover underserved axes, with scientific rationale based on known peptide-channel interactions, feasibility via cyclic structures for stability, modes of action through binding and allosteric modulation, and physicochemical considerations like hydrophilicity for bioavailability.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Proprioception p01"
+"Loaded_Programs=Proprioception p02"
+"Loaded_Programs=Proprioception p03"
+"Loaded_Programs=Proprioception p04"
+"Loaded_Programs=Proprioception p05"
+"Loaded_Programs=Proprioception p06"
+"Loaded_Programs=Proprioception p07"
+"Loaded_Programs=Proprioception p08"
+"Loaded_Programs=Proprioception p09"
+"Loaded_Programs=Proprioception p10"
+"Loaded_Programs=Proprioception p11"
+"Loaded_Programs=Proprioception p12"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.043,M97.053,M57.021,M129.043,M115.027,M71.037,M97.053,M71.037,M129.043,M115.027,M131.04,M71.037,M156.101,M163.063,M163.063,M87.032,M71.037,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M113.084,M101.048,M156.101,M128.058,M156.101,M162.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M101.048,M113.084,M114.043,M87.032,M71.037,M57.021,M163.063,M113.084,M113.084,M57.021,M97.053,M137.059,M71.037,M113.084,M115.027,M114.043,M137.059,M156.101,M87.032,M147.068,M137.059,M115.027,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M147.068=1,M131.040,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M71.037,M113.084,M97.053,M147.068,M87.032,M57.021,M57.021,M131.04,M162.079,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M113.084,M86.048,M128.058,M156.101,M87.032,M128.095,M97.053,M113.084,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M142.111,M209.009,M99.068,M114.043,M128.058,M156.101,M200.095,M115.027,M102.001,0=4,"
+"[/Preset]"

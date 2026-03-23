@@ -1,0 +1,66 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"Repeat_Chain=0"
+"PresetName=M19 Biofilm Builders G - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Coil.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Torulopsis BIO
+Candida Glabrata 1 XTRA
+Candida Glabrata 2 XTRA
+Candida Lusitania XTRA
+Candida Albicans XTRA
+Candida Albicans XTRA
+Candida Albicans XTRA
+Colloidal_Silver Octave XTRA
+Biofilms 01 XTRA
+Nisin XTRA
+Calcifications XTRA
+Circulation Stimulate Normalized XTRA
+Circulatory Stasis CAFL
+General Antiseptic and Circulation Stimulation XTRA
+Immune System Stimulate Normalize XTRA
+Immune System Stimulation 2 XTRA
+Immune Support Sweep XTRA
+Leukocytogenesis Stimulate XTRA
+
+Connect Spooky PEMF Coil to the generator, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+"
+"Loaded_Programs=Torulopsis (BIO)"
+"Loaded_Programs=Candida Glabrata 1 (XTRA)"
+"Loaded_Programs=Candida Glabrata 2 (XTRA)"
+"Loaded_Programs=Candida Lusitania (XTRA)"
+"Loaded_Programs=Candida Albicans (XTRA)"
+"Loaded_Programs=Colloidal_Silver Octal (XTRA)"
+"Loaded_Programs=Biofilms 01 (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Circulation Stimulate Normalized (XTRA)"
+"Loaded_Programs=Circulatory Stasis (CAFL)"
+"Loaded_Programs=General Antiseptic and Circulation Stimulation (XTRA)"
+"Loaded_Programs=Immune System Stimulate Normalize (XTRA)"
+"Loaded_Programs=Immune System Stimulation 2 (XTRA)"
+"Loaded_Programs=Immune Support Sweep (XTRA)"
+"Loaded_Programs=Leukocytogenesis Stimulate (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=354=180,522=180,872=180,2121=180,"
+"Loaded_Frequencies=3077163.30889=180,"
+"Loaded_Frequencies=558777.7777=600,"
+"Loaded_Frequencies=878777.7787=2400,"
+"Loaded_Frequencies=2453641.54608=180,"
+"Loaded_Frequencies=4653391.397248=300,2326695.698624=300,"
+"Loaded_Frequencies=641.18=180,543.75=180,28500=180,280000=180,400=180,80=180,28.48=180,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=337=180,"
+"Loaded_Frequencies=40=240,2112=240,2145=240,2720=240,2489=240,"
+"Loaded_Frequencies=1.19=180,20=180,786=180,832=180,1050=180,5000=180,"
+"Loaded_Frequencies=835=180,"
+"Loaded_Frequencies=40.39=180,40.5=180,40.6=180,40.7=180,40.79=180,"
+"Loaded_Frequencies=6-12=900,"
+"Loaded_Frequencies=30=300,727=300,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

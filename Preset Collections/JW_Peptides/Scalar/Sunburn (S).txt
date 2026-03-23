@@ -1,0 +1,59 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Sunburn (S)"
+"Preset_Notes=Sunburn for Scalar
+
+Sunburn is an acute inflammatory skin response to excessive ultraviolet (UV) radiation, primarily UVB, causing direct DNA damage (e.g., cyclobutane pyrimidine dimers, 6-4 photoproducts), reactive oxygen species (ROS) generation, proinflammatory mediator release (e.g., prostaglandins, cytokines like IL-1, TNF-{alpha}), mast cell degranulation, keratinocyte apoptosis, vasodilation, and barrier disruption, resulting in erythema, pain, edema, and potential peeling/blistering. Key therapeutic axes include prevention via enhanced melanogenesis/photoprotection, oxidative stress mitigation, anti-inflammatory suppression, DNA repair promotion, pain modulation, and epidermal barrier/healing support. The polypeptide set prioritizes the primary real-world therapeutic (afamelanotide, clinically evidenced to increase eumelanin and significantly reduce sunburn incidence/severity via MC1R activation). Exhaustive searches confirmed limited additional real-world polypeptides with direct therapeutic sequences and evidence specifically for sunburn (only afamelanotide meets criteria); shortfall documented, supplemented with designed polypeptides (flagged) to cover all axes with conceptual enhancements via non-standard residues.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Sunburn p01"
+"Loaded_Programs=Sunburn p02"
+"Loaded_Programs=Sunburn p03"
+"Loaded_Programs=Sunburn p04"
+"Loaded_Programs=Sunburn p05"
+"Loaded_Programs=Sunburn p06"
+"Loaded_Programs=Sunburn p07"
+"Loaded_Programs=Sunburn p08"
+"Loaded_Programs=Sunburn p09"
+"Loaded_Programs=Sunburn p10"
+"Loaded_Programs=Sunburn p11"
+"Loaded_Programs=Sunburn p12"
+"Loaded_Programs=Sunburn p13"
+"Loaded_Programs=Sunburn p14"
+"Loaded_Programs=Sunburn p15"
+"Loaded_Programs=Sunburn p16"
+"Loaded_Programs=Sunburn p17"
+"Loaded_Programs=Sunburn p18"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M113.084,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M150.954=1,M57.021,M150.954,M57.021,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M57.021,M86.048,M57.021,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M113.048,M57.021,M113.048,M113.084,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M87.032,M86.048,M87.032,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M114.079,M150.954,M114.079,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M57.021,M113.048,M57.021,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M114.079,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M85.053,M57.021,M114.079,M57.021,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M113.084=1,M57.021,M113.084,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M114.079,M57.021,M150.954,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M100.064=1,M114.079,M100.064,M114.079,M100.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M113.048,M57.021,M113.084,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M113.048,M85.053,M113.048,M85.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M57.021,M86.048,M57.021,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M57.021,M114.079,M57.021,M113.048,M57.021,M150.954,M57.021,M114.079,M57.021,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M150.954,M86.048,M113.048,M86.048,M150.954,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M113.084,M114.079,M85.053,M150.954,M86.048,0=4,"
+"[/Preset]"

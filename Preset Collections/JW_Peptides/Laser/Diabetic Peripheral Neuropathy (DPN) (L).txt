@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Diabetic Peripheral Neuropathy (DPN) (L)"
+"Preset_Notes=Diabetic Peripheral Neuropathy (DPN) for Laser
+
+Diabetic Peripheral Neuropathy
+
+Diabetic peripheral neuropathy (DPN) is a frequent diabetes complication featuring chronic nerve damage with painful symptoms, sensory/motor deficits, autonomic issues, driven by hyperglycemia-induced oxidative stress, inflammation, mitochondrial dysfunction, vascular impairment, apoptosis, and axonal degeneration. The proposed polypeptides target evidence-based axes from clinical/preclinical diabetic neuropathy studies (e.g., small fiber regeneration, axonal repair, metabolic resilience) to adjunctively alleviate pain, protect/repair nerves, and improve function.
+
+1. Innate repair receptor activation for small fiber regeneration and pain relief: ARA-290 regenerates small nerves and improves neuropathic symptoms in diabetic patients.
+2. GLP-1 receptor agonism for axonal neuroprotection and function: Exenatide enhances nerve conduction, reduces degeneration, and supports metabolic control in models.
+3. Stable gastric pentadecapeptide vascular/nerve protection: BPC-157 preserves endothelial integrity and counters diabetic nerve lesions.
+4. Thymosin {beta}4 fragment migration and anti-inflammation: TB-500 promotes nerve repair processes.
+5. Copper-tripeptide antioxidant remodeling: GHK-Cu mitigates oxidative stress and aids regeneration.
+6. Mitochondrial anti-apoptotic protection: Humanin safeguards neurons from diabetic metabolic stress.
+7. Engineered multimeric {alpha}-MSH optimization for inflammation/pain: MultiKPV-9 (Ac-KPVKPVKPV-NH2) amplifies cytokine suppression via repeated motifs for enhanced neuropathic relief.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Diabetic Peripheral Neuropathy (DPN) p01"
+"Loaded_Programs=Diabetic Peripheral Neuropathy (DPN) p02"
+"Loaded_Programs=Diabetic Peripheral Neuropathy (DPN) p03"
+"Loaded_Programs=Diabetic Peripheral Neuropathy (DPN) p04"
+"Loaded_Programs=Diabetic Peripheral Neuropathy (DPN) p05"
+"Loaded_Programs=Diabetic Peripheral Neuropathy (DPN) p06"
+"Loaded_Programs=Diabetic Peripheral Neuropathy (DPN) p07"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M170.106=1,M97.053,M99.068,M128.095,M97.053,M99.068,M128.095,M97.053,M98.084,0=4,"
+"[/Preset]"

@@ -1,0 +1,94 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=P33 Fungus and Mold B - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Plasma.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Biotin MW
+Stachybotrys Chartarum XTRA
+Epidermophyton Floccosum CAFL
+Zygomycosis KHZ
+Biotin MW
+Chaetomium Globosum CAFL
+Chaetomium Globosum VEGA
+Biotin MW
+Basidomycetes CAFL
+Coccidiodes Immitis XTRA
+Valley Fever 4 XTRA
+
+Connect OUT 1 to Input, Out 2 to Modulation.
+"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Biotin (MW) High"
+"Loaded_Programs=Biotin (MW)"
+"Loaded_Frequencies=M244.088163078=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Stachybotrys Chartarum (XTRA) Low"
+"Loaded_Programs=Stachybotrys Chartarum (XTRA)"
+"Loaded_Programs=Epidermophyton Floccosum (CAFL)"
+"Loaded_Programs=Zygomycosis (KHZ)"
+"Loaded_Frequencies=540.1=180,577.9=180,604.39=180,747.39=180,764.5=180,765=180,844=180,922.2=180,952.39=180,969.6=180,"
+"Loaded_Frequencies=465=720,784=720,644=720,766=720,"
+"Loaded_Frequencies=140=180,490=180,730=180,950=180,97500=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Zygomycosis (KHZ) High"
+"Loaded_Programs=Zygomycosis (KHZ)"
+"Loaded_Programs=Biotin (MW)"
+"Loaded_Frequencies=175330=180,476500=180,527000=180,667000=180,752700=180,"
+"Loaded_Frequencies=M244.088163078=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Chaetomium Globosum (CAFL) Low"
+"Loaded_Programs=Chaetomium Globosum (CAFL)"
+"Loaded_Programs=Chaetomium Globosum (BIO)"
+"Loaded_Frequencies=221=300,102=300,862=300,"
+"Loaded_Frequencies=221=180,867=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Biotin (MW) High"
+"Loaded_Programs=Biotin (MW)"
+"Loaded_Frequencies=M244.088163078=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Basidiomycetes (CAFL) Low"
+"Loaded_Programs=Basidiomycetes (CAFL)"
+"Loaded_Programs=Coccidiodes Immitis (XTRA)"
+"Loaded_Programs=Valley Fever 4 (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=751=300,"
+"Loaded_Frequencies=336=300,337=300,20000=300,"
+"Loaded_Frequencies=80000=2400,336=300,337=300,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

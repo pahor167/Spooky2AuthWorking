@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Hepatitis A (P)"
+"Preset_Notes=Hepatitis A for Plasma
+
+Hepatitis A is an acute viral liver infection caused by the hepatitis A virus (HAV), a non-enveloped RNA picornavirus transmitted primarily via the fecal-oral route through contaminated food, water, or close personal contact. It predominantly affects the liver, leading to inflammation without progressing to chronic disease in the vast majority of cases, with full recovery typical within weeks to months. Symptoms often include fatigue, nausea, vomiting, abdominal pain, loss of appetite, low-grade fever, dark urine, jaundice, and pale stools, though many infections-especially in children-are asymptomatic. Pathophysiology involves HAV replication in hepatocytes, release as quasi-enveloped virions in blood or naked in feces, and primarily immune-mediated hepatocellular injury driven by CD8+ T-cell responses, interferon production, and cytokine release, resulting in apoptosis and necrosis rather than direct cytopathic effects; severe fulminant cases are rare but can lead to acute liver failure.
+
+The proposed polypeptides target critical mechanistic axes in Hepatitis A management: stabilization and protection of liver tissue during acute viral assault, reduction of excessive inflammation and immune-mediated damage, and promotion of regenerative healing with antioxidant support to facilitate resolution. Real-world polypeptides include BPC-157 (stable gastric pentadecapeptide with extensive preclinical evidence for hepatoprotection, anti-inflammatory effects, and tissue stabilization in acute liver injury models) and GHK (endogenous copper-binding tripeptide with documented antioxidant, remodeling, and protective activity in liver stress). Designed polypeptides include a stabilized TB4-core (derived from the LKKTET actin-sequestring motif of Thymosin beta-4 with N-acetylation and C-amidation for enhanced proteolytic resistance and bioactivity, to promote hepatocyte survival and repair), a GHK-multimer (rational repeat extension of GHK motif with terminal modifications to amplify copper-mediated antioxidant and regenerative signals), and an IDR-inspired (based on innate defense regulator motifs like IDR-1018 with C-amidation for selective immunomodulation, reducing pro-inflammatory cytokines while preserving antiviral immunity).
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Hepatitis A p01"
+"Loaded_Programs=Hepatitis A p02"
+"Loaded_Programs=Hepatitis A p03"
+"Loaded_Programs=Hepatitis A p04"
+"Loaded_Programs=Hepatitis A p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,M57.021,M57.021,M57.021,M137.059,M128.095,M57.021,M57.021,M57.021,M137.059,M127.111,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"[/Preset]"

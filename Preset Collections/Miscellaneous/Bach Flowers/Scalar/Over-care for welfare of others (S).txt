@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Over-care for welfare of others (S)"
+"Preset_Notes=Over-care for welfare of others / Spooky Scalar
+
+Estimated Time: Run this preset for 15:00 minutes.
+Chicory - Selfish, possessive love. Vervain - Over-enthusiasm. Vine - Dominance and inflexibility. Beech - Helps you be less critical toward other people and accept them as they are. Rock Water - Helps when you expect too much of yourself.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Over-care for welfare of others (S)"
+"Loaded_Frequencies=489.22,409.14,383.91,490.87,277.99,"
+"[/Preset]"

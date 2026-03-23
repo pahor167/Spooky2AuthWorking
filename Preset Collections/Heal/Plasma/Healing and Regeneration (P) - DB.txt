@@ -1,0 +1,71 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Entrainment and Healing (P) - JW"
+"PresetName=Healing and Regeneration (P) - DB"
+"Preset_Notes=Spooky Plasma preset for total body healing & regeneration which runs twice. Proceeds from DNA/cell level to macro level. Designed for overnight use. 60 second pause at start to allow you time to get ready.
+
+Since there is no killing performed, no other pauses have been inserted.
+
+Connect OUT 1 to Input. Out 2 to Modulation.
+
+PROGRAMS:
+DNA Heal XTRA
+Nicotine Cravings 2 XTRA
+Capillaries Stimulate Healing XTRA
+Nerve Healing XTRA
+Nerve Healing 2 XTRA
+Accelerate Injury Healing XTRA
+Bones Stimulate Healing XTRA
+Ligament Stimulate Healing XTRA
+Muscles Stimulate Healing XTRA
+Wound Healing CAFL
+Tissue Healing and Regeneration XTRA
+Accelerate Scar Healing XTRA
+Healing Special XTRA
+Healing Infinite XTRA
+Healing and Regeneration 1 CAFL
+Healing and Regeneration 2 XTRA
+Regeneration and Healing 1 CAFL
+Regeneration and Healing XTRA
+DNA Create New XTRA"
+"Repeat_Sequence=2"
+"Loaded_Programs=Pause 60 Seconds (XTRA)"
+"Loaded_Programs=DNA Heal (XTRA)"
+"Loaded_Programs=Nicotine Cravings 2 (XTRA)"
+"Loaded_Programs=Capillaries Stimulate Healing (XTRA)"
+"Loaded_Programs=Nerve Healing (XTRA)"
+"Loaded_Programs=Nerve Healing 2 (XTRA)"
+"Loaded_Programs=Accelerate Injury Healing (XTRA)"
+"Loaded_Programs=Bones Stimulate Healing (XTRA)"
+"Loaded_Programs=Ligament Stimulate Healing (XTRA)"
+"Loaded_Programs=Muscles Stimulate Healing (XTRA)"
+"Loaded_Programs=Wound Healing (CAFL)"
+"Loaded_Programs=Tissue Healing and Regeneration (XTRA)"
+"Loaded_Programs=Accelerate Scar Healing (XTRA)"
+"Loaded_Programs=Healing Special (XTRA)"
+"Loaded_Programs=Healing Infinite (XTRA)"
+"Loaded_Programs=Healing and Regeneration 1 (CAFL)"
+"Loaded_Programs=Healing and Regeneration 2 (XTRA)"
+"Loaded_Programs=Regeneration and Healing 1 (CAFL)"
+"Loaded_Programs=Regeneration and Healing (XTRA)"
+"Loaded_Programs=DNA Create New (XTRA)"
+"Loaded_Frequencies=0=60,"
+"Loaded_Frequencies=5333.69=180,"
+"Loaded_Frequencies=111=180,"
+"Loaded_Frequencies=15.2=180,"
+"Loaded_Frequencies=2=180,657=180,5000=180,10000=180,"
+"Loaded_Frequencies=7.63=180,10=180,200=180,"
+"Loaded_Frequencies=47=180,"
+"Loaded_Frequencies=7=180,25=180,50=180,"
+"Loaded_Frequencies=9.69=180,50=180,120=180,"
+"Loaded_Frequencies=13.5=180,"
+"Loaded_Frequencies=2720=180,880=180,787=180,727=180,220=180,190=180,20=180,40=180,"
+"Loaded_Frequencies=47=180,266=180,1360=180,2128=180,2720=180,5000=180,"
+"Loaded_Frequencies=5.9=180,"
+"Loaded_Frequencies=5.8=180,8.01=180,9.6=180,59.3=180,148=180,216=180,266=180,2720=180,3000=180,20000=180,"
+"Loaded_Frequencies=1638=180,2444=180,3127=180,"
+"Loaded_Frequencies=2720=720,266=720,47=720,"
+"Loaded_Frequencies=47=180,2720=1800,"
+"Loaded_Frequencies=2720=180,2=180,20.5=180,3.9=180,4=180,50.5=180,6.3=180,148=180,7=180,"
+"Loaded_Frequencies=20.5=180,"
+"Loaded_Frequencies=7=180,"
+"[/Preset]"

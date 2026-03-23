@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Astigmatism (L)"
+"Preset_Notes=Astigmatism for Laser
+
+The peptides target multiple therapeutic axes for astigmatism, including corneal remodeling to correct irregular shape, anti-inflammatory actions to reduce ocular irritation, antioxidant effects to protect eye tissues, epithelial healing to repair corneal surface, collagen synthesis modulation for corneal strength, and tissue regeneration for overall ocular health. The first 5 peptides are real-world with validated evidence from ocular and corneal studies, while peptides 6-12 are designed to supplement coverage in antioxidant and regenerative axes, flagged as designed.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Astigmatism p01"
+"Loaded_Programs=Astigmatism p02"
+"Loaded_Programs=Astigmatism p03"
+"Loaded_Programs=Astigmatism p04"
+"Loaded_Programs=Astigmatism p05"
+"Loaded_Programs=Astigmatism p06"
+"Loaded_Programs=Astigmatism p07"
+"Loaded_Programs=Astigmatism p08"
+"Loaded_Programs=Astigmatism p09"
+"Loaded_Programs=Astigmatism p10"
+"Loaded_Programs=Astigmatism p11"
+"Loaded_Programs=Astigmatism p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M129.043,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M156.101,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,M156.101,M87.032,M114.043,M163.063,M113.084,M163.063,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,M97.053,M113.048,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M156.101,M128.058,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M115.027,M129.043,M128.095,M99.068,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M128.095,M128.058,M99.068,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M156.101,M115.027,M129.043,M99.068,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M156.101,M128.058,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M115.027,M129.043,M128.095,M99.068,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M128.095,M128.058,M99.068,M102.001,0=4,"
+"[/Preset]"

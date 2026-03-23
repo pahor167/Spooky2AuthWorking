@@ -1,0 +1,54 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R17 Biofilm Builders E - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Serratia Marcescens 1 XTRA
+Serratia Marcescens XTRA
+Salmonella Typhimurium_1 HC
+Salmonella Typhi CAFL
+Salmonella Typhimurium CAFL
+Salmonella Typhi XTRA
+Bacteroides Fragilis HC
+Nisin XTRA
+Calcifications XTRA
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square_Hbomb=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Serratia Marcescens 1 (XTRA)"
+"Loaded_Programs=Serratia Marcescens (XTRA)"
+"Loaded_Programs=Salmonella Typhimurium_1 (HC)"
+"Loaded_Programs=Salmonella Typhi (CAFL)"
+"Loaded_Programs=Salmonella Typhimurium (CAFL)"
+"Loaded_Programs=Salmonella Typhi (XTRA)"
+"Loaded_Programs=Bacteroides Fragilis (HC)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=866.2=180,970.03=180,872.76=180,11003.12=180,21840.63=180,21937.5=180,"
+"Loaded_Frequencies=20010.1057=900,24755.6555=900,"
+"Loaded_Frequencies=382300-386550=3600,"
+"Loaded_Frequencies=420=180,664=180,8656=180,773=180,"
+"Loaded_Frequencies=693=300,754=300,762=300,"
+"Loaded_Frequencies=655555.5555=180,"
+"Loaded_Frequencies=324300-325000=3600,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

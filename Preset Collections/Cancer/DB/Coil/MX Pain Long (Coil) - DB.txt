@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=MX Pain Long (Coil) - DB"
+"Preset_Notes=Cancer Protocol, Extras. For Spooky Coil only - DO NOT USE WITH SPOOKY PLASMA.
+
+Update: March 2020.
+
+Spooky Coil converts the signals from the XM generator to a magnetic field. Any frequency or waveform can be used.
+
+Connect Spooky PEMF Coil to the generator, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+
+This preset runs continuously, and beeps at the end of each loop. Run this preset for at least 2 loops.
+
+Dr. Hulda Clark found that most pain in cancer cases is caused by Streptococcus pneumoniae, also called Diplococcus pneumoniae. Dr. Richard Loyd has reported that many sufferers are able to forego pain medication after dealing with this. Use as required, for as long as necessary.
+
+IMPORTANT: this preset kills pathogens. Use ALL Detox (R) - DB on another generator while running this.
+
+PROGRAMS:
+Diplococcus Pneumoniae_1 HC
+Streptococcus Pneumoniae HC
+Pneumococcus CAFL
+Diplococcus Pneumoniae 1 XTRA
+Diplococcus Pneumoniae 2 XTRA
+Streptococcus Pneumoniae CAFL
+"
+"Loaded_Programs=Diplococcus Pneumoniae_1 (HC)"
+"Loaded_Programs=Streptococcus Pneumoniae (HC)"
+"Loaded_Programs=Pneumococcus (CAFL)"
+"Loaded_Programs=Diplococcus Pneumoniae 1 (XTRA)"
+"Loaded_Programs=Diplococcus Pneumoniae 2 (XTRA)"
+"Loaded_Programs=Streptococcus Pneumoniae (CAFL)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=351650-386450=3600,"
+"Loaded_Frequencies=366850-370200=3600,"
+"Loaded_Frequencies=231=240,232=240,683=240,846=240,8865=240,"
+"Loaded_Frequencies=892.35=180,904.74=180,17923.34=180,18172.27=180,"
+"Loaded_Frequencies=871.64=180,892.35=180,904.74=180,957.9=180,11250=180,12076.55=180,21978.13=180,"
+"Loaded_Frequencies=231=180,232=180,776=180,766=180,728=180,846=180,8865=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

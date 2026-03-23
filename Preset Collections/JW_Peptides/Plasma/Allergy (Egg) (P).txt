@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Allergy (Egg) (P)"
+"Preset_Notes=Allergy (Egg) for Plasma
+
+Egg allergy is a prevalent IgE-mediated food hypersensitivity reaction primarily triggered by proteins such as ovalbumin and ovomucoid, resulting in symptoms from urticaria to anaphylaxis. The selected real-world polypeptides target five evidence-based therapeutic axes from preclinical mouse models of egg allergy, peptide immunotherapy research, and investigational immunomodulatory applications.
+
+1. Allergen-specific T-cell tolerance induction: OVA 323-339 engages tolerogenic pathways to promote regulatory T cells and desensitization in egg allergy models.
+2. Thymic peptide-mediated immune balance: Thymopentin modulates thymic function to restore Th1/Th2 equilibrium and reduce allergic hypersensitivity.
+3. Melanocortin-derived anti-inflammatory action: KPV suppresses pro-allergic cytokines, mast cell degranulation, and effector responses.
+4. Copper-chelated tripeptide regeneration: GHK-Cu delivers antioxidant effects and mitigates oxidative stress in allergic inflammation.
+5. Stable gastric peptide-mediated barrier repair: BPC-157 strengthens gastrointestinal epithelial integrity to limit allergen translocation and ongoing sensitization.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Allergy (Egg) p01"
+"Loaded_Programs=Allergy (Egg) p02"
+"Loaded_Programs=Allergy (Egg) p03"
+"Loaded_Programs=Allergy (Egg) p04"
+"Loaded_Programs=Allergy (Egg) p05"
+"Loaded_Frequencies=M113.084=1,M87.032,M128.058,M71.037,M99.068,M137.059,M71.037,M71.037,M137.059,M71.037,M129.043,M113.084,M114.043,M129.043,M71.037,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M128.095,M115.027,M99.068,M163.063,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"[/Preset]"

@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Salmonella Infection (P)"
+"Preset_Notes=Salmonella Infection for Plasma
+
+Salmonella infection, or salmonellosis, is a prevalent bacterial disease primarily caused by non-typhoidal Salmonella (NTS) serovars such as S. enterica Typhimurium and Enteritidis, or S. Typhi in typhoid fever. Transmission occurs through contaminated food, water, or animal contact, leading to acute gastroenteritis with diarrhea, fever, abdominal pain, vomiting, and dehydration, or systemic dissemination in vulnerable populations. Pathophysiology features bacterial adhesion and invasion via type III secretion systems, intracellular replication within macrophages, effector protein modulation of host pathways, induction of inflammatory cytokines, potential biofilm formation, and disruption of gut barrier integrity.
+
+The proposed polypeptides target essential therapeutic axes including direct membrane disruption for bactericidal effects, biofilm disruption, immunomodulation to enhance phagocytosis while controlling inflammation, LPS neutralization, inhibition of adhesion/invasion, intracellular targeting, and gut epithelial protection. All real-world polypeptides are established antimicrobial peptides with documented in vitro or in vivo activity against Salmonella from peer-reviewed sources (e.g., PubMed studies on cathelicidins, defensins, IDR peptides, and bacteriocin-like peptides). Designed polypeptides are flagged as designed; these are conceptual sequences incorporating non-standard residues for stability and specificity, supplementing coverage for resistance-related and anti-virulence axes with cyclic scaffolds for protease resistance.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Salmonella Infection p01"
+"Loaded_Programs=Salmonella Infection p02"
+"Loaded_Programs=Salmonella Infection p03"
+"Loaded_Programs=Salmonella Infection p04"
+"Loaded_Programs=Salmonella Infection p05"
+"Loaded_Programs=Salmonella Infection p06"
+"Loaded_Programs=Salmonella Infection p07"
+"Loaded_Programs=Salmonella Infection p08"
+"Loaded_Programs=Salmonella Infection p09"
+"Loaded_Programs=Salmonella Infection p10"
+"Loaded_Programs=Salmonella Infection p11"
+"Loaded_Programs=Salmonella Infection p12"
+"Loaded_Programs=Salmonella Infection p13"
+"Loaded_Programs=Salmonella Infection p14"
+"Loaded_Programs=Salmonella Infection p15"
+"Loaded_Programs=Salmonella Infection p16"
+"Loaded_Programs=Salmonella Infection p17"
+"Loaded_Programs=Salmonella Infection p18"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M114.043,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M114.043=1,M97.053,M87.032,M156.101,M128.058,M129.043,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M97.053=1,M115.027,M129.043,M114.043,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M113.084,M114.043,M129.043,M156.101,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M128.095,M128.095,M97.053,M99.068,M97.053,M113.084,M113.084,M163.063,M102.001,M114.043,M156.101,M156.101,M101.048,M57.021,M128.095,M102.001,M128.058,M156.101,M131.04,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M113.048,M128.095,M86.048,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M128.095,M113.048,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M85.053,M114.079,M147.068,M113.048,M100.064,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M86.048,M113.048,M114.079,M85.053,M57.021,M128.058,M100.064,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M128.095,M128.095,M97.053,M99.068,M97.053,M113.084,M113.084,M163.063,M102.001,M114.043,M156.101,M156.101,M101.048,M57.021,M128.095,M102.001,M128.058,M156.101,M131.040,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M86.048,M114.079,M100.064,M113.048,M87.032,M85.053,M128.058,0=4,"
+"Loaded_Frequencies=M100.064=1,M86.048,M128.095,M114.079,M113.048,M57.021,M85.053,M87.032,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M114.079,M100.064,M86.048,M128.095,M113.048,M57.021,M128.058,M147.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M57.021,M86.048,M100.064,M114.079,M85.053,M113.048,M87.032,M128.095,0=4,"
+"[/Preset]"

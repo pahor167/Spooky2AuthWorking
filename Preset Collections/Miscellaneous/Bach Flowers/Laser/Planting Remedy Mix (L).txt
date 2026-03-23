@@ -1,0 +1,14 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=Planting Remedy Mix (L)"
+"Preset_Notes=Planting Remedy Mix / Spooky Laser
+
+Estimated Time: Run this preset for 9:00 minutes.
+
+Planting Remedy: Hornbeam, Olive & Vine - Useful for newly planted seeds or seedlings
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Planting Remedy Mix (L)"
+"Loaded_Frequencies=257.45,431.65,383.91,"
+"[/Preset]"

@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Cat Chronic Gingivostomatitis (Coil)"
+"Preset_Notes=Cat Chronic Gingivostomatitis for Coil
+
+Feline chronic gingivostomatitis (FCGS), commonly known as cat stomatitis, is a severe, painful, immune-mediated oral inflammatory disease characterized by intense gingivitis, mucosal ulceration, and proliferation, often refractory to tooth extractions, with contributions from bacterial biofilm, potential viral triggers, and dysregulated immune responses. The proposed polypeptides target evidence-based and translationally relevant therapeutic axes from veterinary studies on lactoferrin administration, inflammation modulation, and tissue repair models to reduce pain, control infection/inflammation, and promote mucosal healing.
+
+1. Lactoferrin-derived antimicrobial and immunomodulatory defense: Bovine lactoferricin B provides broad-spectrum antibacterial activity and host defense enhancement, derived from documented lactoferrin efficacy in feline stomatitis.
+2. {alpha}-MSH-derived tripeptide cytokine suppression: KPV reduces pro-inflammatory mediators and mitigates oral inflammation.
+3. Stable gastric pentadecapeptide cytoprotection: BPC-157 accelerates mucosal healing and protects against oral tissue damage.
+4. Thymosin {beta}4 active fragment regeneration: TB-500 promotes cell migration, anti-inflammation, and repair in inflamed tissues.
+5. Engineered stabilized tripeptide optimization: Ac-KPV-NH2 enhances protease resistance and bioavailability for superior topical/oral anti-inflammatory action.
+
+"
+"Loaded_Programs=Cat Chronic Gingivostomatitis p01"
+"Loaded_Programs=Cat Chronic Gingivostomatitis p02"
+"Loaded_Programs=Cat Chronic Gingivostomatitis p03"
+"Loaded_Programs=Cat Chronic Gingivostomatitis p04"
+"Loaded_Programs=Cat Chronic Gingivostomatitis p05"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M170.106=1,M97.053,M98.084,0=4,"
+"[/Preset]"

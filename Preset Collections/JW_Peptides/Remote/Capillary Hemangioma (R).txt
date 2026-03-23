@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Capillary Hemangioma (R)"
+"Preset_Notes=Capillary Hemangioma for Remote
+
+Capillary Hemangioma is a benign vascular tumor commonly occurring in infants, characterized by rapid endothelial cell proliferation followed by spontaneous involution, but potentially causing complications such as ulceration, bleeding, or aesthetic concerns. The proposed polypeptides target evidence-based therapeutic axes from literature on anti-angiogenesis, anti-inflammatory effects, promotion of lesion involution, antioxidant protection, immunomodulation, vascular tone regulation, pain modulation, anti-fibrotic effects, and novel optimization to inhibit vascular growth, reduce inflammation, accelerate regression, prevent complications, and support tissue remodeling.
+
+1. Anti-angiogenesis: Somatostatin-14 inhibits VEGF and other pro-angiogenic factors to suppress excessive vascular proliferation in hemangiomas.
+2. Anti-inflammatory effects: Cortistatin reduces inflammatory responses in vascular tissues, aiding in lesion resolution.
+3. Promotion of involution: Thymosin beta 4 promotes tissue repair and accelerates the natural regression phase of hemangiomas.
+4. Antioxidant protection: Carnosine provides antioxidant effects to mitigate oxidative stress contributing to hemangioma persistence.
+5. Immunomodulation: Thymosin alpha 1 enhances immune responses to facilitate lesion clearance and prevent infections.
+6. Vascular tone regulation: Urotensin-II modulates vascular tone to stabilize abnormal vessels in hemangiomas.
+7. Pain modulation: Neurotensin offers analgesic effects for discomfort associated with ulcerated or bleeding lesions.
+8. Anti-fibrotic effects: E4_Antifibrotic inhibits fibrosis formation that may contribute to lesion recurrence or scarring.
+9. Novel optimization for comprehensive regression: CH-Eng, an engineered peptide derived from somatostatin and PDGF motifs with enhanced stability, targets multiple pathways for improved anti-angiogenic and pro-apoptotic action.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Capillary Hemangioma p01"
+"Loaded_Programs=Capillary Hemangioma p02"
+"Loaded_Programs=Capillary Hemangioma p03"
+"Loaded_Programs=Capillary Hemangioma p04"
+"Loaded_Programs=Capillary Hemangioma p05"
+"Loaded_Programs=Capillary Hemangioma p06"
+"Loaded_Programs=Capillary Hemangioma p07"
+"Loaded_Programs=Capillary Hemangioma p08"
+"Loaded_Programs=Capillary Hemangioma p09"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M101.048,M97.053,M115.027,M102.001,M147.068,M186.079,M128.095,M163.063,M102.001,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M113.084,M128.058,M163.063,M129.043,M114.043,M128.095,M97.053,M156.101,M156.101,M97.053,M163.063,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M102.001,M129.043,M101.048,M186.079,M156.101,M101.048,M129.043,M71.037,M97.053,M87.032,M71.037,M101.048,M57.021,M128.058,M71.037,M87.032,M87.032,M113.084,M113.084,M57.021,M57.021,M156.101,M113.084,M113.084,M57.021,M128.058,M87.032,M71.037,M71.037,M87.032,M102.001,M137.059,M137.059,M71.037,M163.063,M113.084,M99.068,M113.084,M102.001,M113.084,M129.043,M114.043,M87.032,M147.068,M131.040,M101.048,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M102.001,M128.095,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M101.048,M71.037,M102.001,0=4,"
+"[/Preset]"

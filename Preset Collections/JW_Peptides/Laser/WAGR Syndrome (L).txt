@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=WAGR Syndrome (L)"
+"Preset_Notes=WAGR Syndrome for Laser
+
+WAGR syndrome is a rare contiguous gene deletion syndrome caused by heterozygous deletions on chromosome 11p13, primarily affecting the WT1 and PAX6 genes, with variable involvement of adjacent genes such as BDNF in larger deletions. This leads to haploinsufficiency, disrupting critical developmental processes. Clinically, it manifests with greatly increased risk of Wilms tumor (approximately 50-60% lifetime risk due to loss of WT1 tumor suppressor function in renal progenitors), aniridia (absent or malformed iris from PAX6 loss, often with secondary glaucoma, cataracts, corneal opacification, and vision impairment), genitourinary anomalies (e.g., hypospadias, cryptorchidism, renal malformations, gonadoblastoma risk, stemming from WT1's role in urogenital differentiation), and a range of intellectual disabilities or developmental delays (mild to severe, influenced by the deletion extent and possible BDNF involvement). Additional features in some patients include early-onset obesity with hyperphagia, pancreatic dysfunction, autism spectrum traits, and psychiatric issues. The condition is sporadic in most cases, with incidence around 1 in 500,000-1,000,000 births, and diagnosis is confirmed by chromosomal microarray or FISH showing 11p13 deletion.
+
+Pathophysiology centers on WT1 as a zinc-finger transcription factor essential for podocyte maintenance, renal blastema regulation, and suppression of proliferation pathways (e.g., IGF2 dysregulation in Wilms tumor pathogenesis); its haploinsufficiency predisposes to neoplastic transformation. PAX6 is a master regulator of eye morphogenesis, with loss causing arrested iris development and foveal hypoplasia. Overlapping WT1 effects contribute to gonadal dysgenesis. Neurocognitive impacts arise from disrupted transcriptional networks during brain development.
+
+Standard care is multidisciplinary surveillance (frequent renal imaging for early Wilms detection, ophthalmologic monitoring, endocrine/developmental assessments) and symptomatic interventions (tumor resection/chemotherapy, glaucoma surgery, hormonal/surgical GU correction, educational support). No curative or gene-corrective therapies exist currently.
+
+Given the absence of any documented real-world polypeptide therapies for WAGR syndrome or its specific axes across comprehensive searches of PubMed, patents, clinical trials, and databases, the proposed set relies entirely on designed conceptual polypeptides. These short peptides are rationally designed with sequences selected for potential cell penetration, stability, and bioactivity mimicry of lost transcriptional or supportive functions:
+
+- The first designed peptide (D1) conceptually mimics zinc-finger-like cationic motifs to potentially restore WT1-dependent transcriptional suppression of oncogenic pathways in renal cells, reducing Wilms tumor predisposition.
+
+- The second designed peptide (D2) is an amphipathic sequence intended to stabilize ocular cell membranes and exert anti-inflammatory effects, mitigating aniridia-associated complications.
+
+- The third designed peptide (D3) incorporates motifs for tissue differentiation signaling, aiming to support WT1-downstream pathways in urogenital organogenesis.
+
+- The fourth designed peptide (D4) features residues promoting potential neuroprotection and synaptic support to ameliorate developmental delays.
+
+Feasibility considerations include short lengths (10 residues) for synthetic ease and potential bioavailability, cationic/amphipathic properties for cellular uptake, and absence of complex PTMs for manufacturing simplicity. Physicochemical profiles suggest good solubility; however, these are hypothetical designs requiring validation for specificity, off-target effects, delivery (e.g., via conjugation for BBB/ocular penetration), and efficacy in models of WT1/PAX6 haploinsufficiency.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=WAGR Syndrome p01"
+"Loaded_Programs=WAGR Syndrome p02"
+"Loaded_Programs=WAGR Syndrome p03"
+"Loaded_Programs=WAGR Syndrome p04"
+"Loaded_Frequencies=M71.037=1,M57.021,M128.095,M156.101,M97.053,M99.068,M57.021,M101.048,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M115.027=1,M113.084,M87.032,M128.095,M113.084,M186.079,M57.021,M147.068,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M97.053,M97.053,M163.063,M87.032,M99.068,M57.021,M156.101,M99.068,M131.040,0=4,"
+"Loaded_Frequencies=M128.058=1,M129.043,M114.043,M113.084,M128.095,M156.101,M147.068,M147.068,M57.021,M113.084,0=4,"
+"[/Preset]"

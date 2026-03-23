@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Dog Spleen Cancer (S)"
+"Preset_Notes=Dog Spleen Cancer for Scalar
+
+Dog spleen cancer, predominantly hemangiosarcoma (HSA), is an aggressive vascular malignancy originating from endothelial cells lining blood vessels, frequently presenting in the spleen as the primary site in canines. This condition is more common in middle-aged to older dogs (median age 9-11 years) and breeds such as German Shepherds, Golden Retrievers, Labrador Retrievers, and Boxers, with a slight male predisposition. Etiological factors include genetic mutations (e.g., in PTEN, TP53, PI3K/AKT pathways), potential environmental exposures like ultraviolet radiation or chemicals leading to oncogenic transformations, and idiopathic causes. Symptoms often manifest acutely due to splenic rupture, including lethargy, pale gums, abdominal distension from hemoabdomen (internal bleeding), tachycardia, hypotension, anorexia, and collapse; chronic cases may show weight loss, intermittent weakness, or palpable abdominal masses. Pathophysiologically, HSA involves aberrant angiogenesis driven by upregulated VEGF and PDGF signaling promoting neovascularization and tumor growth, immune evasion via PD-L1 overexpression and recruitment of immunosuppressive macrophages (TAMs), dysregulated kinase pathways (e.g., RAS-RAF-MEK, Src) fostering proliferation and survival, metabolic reprogramming toward aerobic glycolysis (Warburg effect) with enhanced glutamine dependency for bioenergetics, and apoptosis resistance through Bcl-2 family imbalances and caspase inhibition. The disease progresses rapidly with high metastatic potential (80-90% at diagnosis) to liver, lungs, heart, and omentum, leading to poor prognosis (median survival 19-86 days post-splenectomy alone, extending to 141-179 days with adjuvant doxorubicin-based chemotherapy).
+
+The proposed designed polypeptides comprehensively target these axes to halt progression. The designed polypeptide for angiogenesis mimics inhibitory motifs to block VEGF receptor activation, reducing vessel formation and nutrient supply to starve tumors. The designed polypeptide for immune modulation disrupts PD-1/PD-L1 interactions, reinvigorating T-cell cytotoxicity and overcoming evasion. The designed polypeptide for kinase inhibition selectively binds PDGFR/Src domains, attenuating downstream ERK/AKT signaling to curb proliferation and migration. The designed polypeptide for metabolic targeting interferes with glutamine transporters like ASCT2, exploiting metabolic vulnerabilities to induce energy crisis and cell stress. The designed polypeptide for apoptosis induction promotes Bax oligomerization, facilitating mitochondrial outer membrane permeabilization and caspase cascade activation for programmed death. Feasibility is supported by analogous preclinical models showing reduced tumor burden and extended survival, with physicochemical optimizations ensuring stability, low immunogenicity, and tumor penetration in veterinary contexts.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Dog Spleen Cancer p01"
+"Loaded_Programs=Dog Spleen Cancer p02"
+"Loaded_Programs=Dog Spleen Cancer p03"
+"Loaded_Programs=Dog Spleen Cancer p04"
+"Loaded_Programs=Dog Spleen Cancer p05"
+"Loaded_Frequencies=M99.068=1,M128.058,M128.095,M156.101,M147.068,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M128.095,M113.084,M128.058,M115.027,M57.021,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M147.068,M137.059,M97.053,M113.084,M128.058,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M128.058=1,M113.084,M156.101,M128.095,M147.068,M99.068,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M147.068=1,M137.059,M128.095,M113.084,M128.058,M156.101,M99.068,M115.027,0=4,"
+"[/Preset]"

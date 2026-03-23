@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Coil\Spooky Coil (Generator Direct) - JW"
+"PresetName=Chestnut Bud (Coil)"
+"Preset_Notes=Chestnut Bud / Spooky Coil
+
+Estimated Time: Run this preset for 3:00 minutes.
+Chestnut Bud - Failure to learn from mistakes.
+
+Connect the Spooky PEMF Coil to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Chestnut Bud (Coil)"
+"Loaded_Frequencies=425.77,"
+"[/Preset]"

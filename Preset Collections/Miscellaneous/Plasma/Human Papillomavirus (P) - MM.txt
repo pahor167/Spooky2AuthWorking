@@ -1,0 +1,47 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW.txt"
+"Gate_On_Off_Duration_Option=True"
+"PresetName=Human Papillomavirus (P) - MM"
+"Preset_Notes=Human Papillomavirus Plasma preset. By Manuel Mallo
+
+Here you have the presets for probably the most dangerous pathogen there is, the Human Papillomavirus. There are over 1,180 different strains of the 100 types with their DNA sequenciated.
+
+I have studied the distribution of freqs, and computed a repetitive multi sweep with a dwell of 28 hours for contact and plasma, and 84:09 for remote mode.
+
+As being tied to the machine 28 hours is a bit boring, it has been fractioned in steps of 4 hours to be more easy to receive.
+
+As virtually every one of us are carrying a high load of any of the HPV targeted by this preset, it is expected to have some herx reactions during the session, so be properly hydrated to minimize the effect, and maximize the transmission efficiency.
+
+These presets are especially computed to target the following conditions:
+
+Cancer, anorectal - squamous cell carcinom
+Cancer, brain, glioblastoma
+Cancer, cervical
+Cancer, colon / colorectal
+Cancer, esophageal - squamous cell carcinoma
+Cancer, head & neck squamous cell carcinoma
+Cancer, lung
+Cancer, nasal inverted papilloma
+Cancer, ovarian
+Cancer, penile - squamous cell carcinoma
+Cancer, prostate
+Cancer, skin - squamous cell carcinoma
+Cancer, tonsil
+Condyloma acuminatum (genital warts)
+Genital warts
+Warts, common (Verruca vulgaris)
+Warts, filiform
+Warts, flat (Verruca plana)
+Warts, genital
+Warts, plantar
+
+It would be useful to write down the freqs which produce any reaction, to repeat them if neccessary.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+Place the plasma tube near to, or touching, your body. Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=MM_Human Papillomavirus (CUST)"
+"Loaded_Frequencies=8150000-8314620.13=14400,8314620.13-8482565.4=14400,8482565.4-8653902.96=14400,8653902.96-8828701.32=14400,8828701.32-9007030.41=14400,9007030.41-9188961.52=14400,9188961.52-9374567.43=14400,11998407=180,"
+"[/Preset]"

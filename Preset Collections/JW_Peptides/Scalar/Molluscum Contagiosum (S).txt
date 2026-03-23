@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Molluscum Contagiosum (S)"
+"Preset_Notes=Molluscum Contagiosum for Scalar
+
+Molluscum Contagiosum is a benign viral skin infection caused by the molluscum contagiosum virus (MCV), a double-stranded DNA poxvirus that primarily infects the epidermis through direct contact, autoinoculation, or fomites, with higher prevalence in children, sexually active adults, and immunocompromised individuals such as those with HIV/AIDS or atopic dermatitis. The incubation period ranges from 2 weeks to 6 months, leading to characteristic dome-shaped, umbilicated papules measuring 2-5 mm, often pearl-like with a central core containing viral particles, appearing on the face, trunk, limbs, or genital areas; clusters can number from a few to hundreds in severe cases. Symptoms are typically minimal, including pruritus, erythema, or tenderness, but complications arise from secondary bacterial infections, eczematous reactions, or scarring upon scratching, while in immunosuppressed patients, lesions may persist for years, become giant (>1 cm), and resist resolution, contributing to significant morbidity and social stigma. Pathophysiology encompasses viral entry via abrasions, replication in keratinocytes with formation of Henderson-Patterson bodies (cytoplasmic inclusions), immune evasion through MCV-encoded proteins like MC148 (CCR8 antagonist blocking chemokine-mediated recruitment of immune cells), inhibition of NF-{kappa}B and inflammasome pathways to suppress apoptosis and inflammation, modulation of TLR7/8 signaling and IL-23/IL-17 axis favoring persistence, disruption of skin barrier integrity exacerbating atopic conditions, and limited adaptive immunity due to poor antigen presentation, resulting in delayed clearance.
+
+The proposed polypeptides address Molluscum Contagiosum through multifaceted mechanisms targeting viral replication, immune evasion, and symptom management. Real-world polypeptides like LL-37, hBD-2, hBD-3, HNP-1, and Melittin provide direct antiviral activity by disrupting poxvirus envelopes, inhibiting entry and replication, and exerting broad antimicrobial effects to prevent secondary infections. MC148 modulates chemokine responses to reduce excessive inflammation while enhancing targeted immunity. CPXV012 peptide interferes with antigen processing to limit viral spread, and IAMP29 activates inflammasomes to boost antimicrobial and innate responses. Designed polypeptides supplement these: the viral entry inhibitor peptide binds MCV fusion proteins to block infection; the IL-17 neutralizer peptide balances the Th17 axis to mitigate inflammation; the skin healing promoter peptide stimulates epidermal regeneration for faster lesion resolution; the barrier enhancer peptide reinforces tight junctions to restore skin integrity and restrict viral dissemination. Scientific rationale is grounded in AMP efficacy against poxviruses from peer-reviewed studies, with feasibility via topical formulations for localized delivery, and physicochemical considerations including amphipathicity for membrane targeting, positive charge for viral binding, and protease resistance for stability.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Molluscum Contagiosum p01"
+"Loaded_Programs=Molluscum Contagiosum p02"
+"Loaded_Programs=Molluscum Contagiosum p03"
+"Loaded_Programs=Molluscum Contagiosum p04"
+"Loaded_Programs=Molluscum Contagiosum p05"
+"Loaded_Programs=Molluscum Contagiosum p06"
+"Loaded_Programs=Molluscum Contagiosum p07"
+"Loaded_Programs=Molluscum Contagiosum p08"
+"Loaded_Programs=Molluscum Contagiosum p09"
+"Loaded_Programs=Molluscum Contagiosum p10"
+"Loaded_Programs=Molluscum Contagiosum p11"
+"Loaded_Programs=Molluscum Contagiosum p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M102.001,M137.059,M97.053,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M102.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M102.001,M102.001,M128.095,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M114.043,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M163.063,M102.001,M156.101,M113.084,M97.053,M71.037,M102.001,M113.084,M71.037,M57.021,M129.043,M156.101,M156.101,M163.063,M57.021,M101.048,M113.084,M163.063,M128.058,M57.021,M156.101,M113.084,M186.079,M71.037,M147.068,M102.001,M102.001,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M113.084=1,M57.021,M87.032,M99.068,M101.048,M147.068,M137.059,M57.021,M128.095,M115.027,M113.084,M87.032,M87.032,M113.084,M156.101,M156.101,M156.101,M147.068,M113.084,M137.059,M57.021,M87.032,M156.101,M156.101,M71.037,M99.068,M115.027,M163.063,M113.084,M129.043,M113.084,M99.068,M113.084,M115.027,M113.084,M99.068,M156.101,M156.101,M147.068,M71.037,M186.079,M87.032,M87.032,M147.068,M57.021,M115.027,M115.027,M115.027,M115.027,M99.068,M128.095,M113.084,M101.048,M99.068,M114.043,M114.043,M186.079,M113.084,M97.053,M156.101,M99.068,M113.084,M87.032,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.058=1,M129.043,M57.021,M113.084,M87.032,M156.101,M147.068,M113.084,M102.001,M97.053,M97.053,M163.063,M137.059,M186.079,M163.063,M128.095,M128.058,M137.059,M131.040,M87.032,M113.084,M113.084,M147.068,M156.101,M156.101,M163.063,M137.059,M128.095,M115.027,M115.027,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M128.095,M114.043,M147.068,M128.058,M87.032,M99.068,M113.084,M113.084,M113.084,M99.068,M102.001,M113.084,M87.032,M147.068,M113.084,M99.068,M113.084,M99.068,M87.032,M87.032,M97.053,M128.058,M114.043,M71.037,M99.068,M128.058,M71.037,M115.027,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M128.095,M147.068,M137.059,M113.084,M163.063,M97.053,M128.058,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M128.095,M113.084,M147.068,M156.101,M156.101,M71.037,M137.059,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M97.053,M147.068,M163.063,M97.053,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M186.079=1,M113.084,M128.095,M131.040,M147.068,M163.063,M156.101,M156.101,0=4,"
+"[/Preset]"

@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Kidney Disease (P)"
+"Preset_Notes=Kidney Disease for Plasma
+
+Kidney disease, encompassing acute kidney injury and chronic kidney disease, involves inflammation, oxidative stress, mitochondrial dysfunction, fibrosis, and impaired tissue repair. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical studies, investigational applications, and mechanistic literature.
+
+1. Broad renoprotective and healing effects: BPC-157 stabilizes endothelial function, reduces inflammation, and promotes recovery across multiple kidney injury models (ischemia, toxins, surgery).
+2. Actin-mediated cellular migration and regeneration: TB-500 enhances motility, angiogenesis, and repair processes to support tubular and vascular restoration.
+3. Copper-dependent matrix remodeling and anti-fibrosis: GHK-Cu regulates collagen synthesis, stimulates regenerative pathways, and mitigates fibrotic progression.
+4. Targeted mitochondrial stabilization: Elamipretide (SS-31) binds cardiolipin, reduces ROS, and preserves ATP production in renal cells during stress.
+5. Protective RAS axis activation: Angiotensin (1-7) engages Mas receptors to exert vasodilatory, anti-inflammatory, and anti-apoptotic actions against progressive renal damage.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Kidney Disease p01"
+"Loaded_Programs=Kidney Disease p02"
+"Loaded_Programs=Kidney Disease p03"
+"Loaded_Programs=Kidney Disease p04"
+"Loaded_Programs=Kidney Disease p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"[/Preset]"

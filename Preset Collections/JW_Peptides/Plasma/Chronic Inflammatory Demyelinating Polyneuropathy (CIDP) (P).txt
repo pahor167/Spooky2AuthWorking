@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Chronic Inflammatory Demyelinating Polyneuropathy (CIDP) (P)"
+"Preset_Notes=Chronic Inflammatory Demyelinating Polyneuropathy (CIDP) for Plasma
+
+Chronic Inflammatory Demyelinating Polyneuropathy (CIDP) is a rare, acquired, immune-mediated neurological disorder affecting the peripheral nervous system. It is characterized by progressive or relapsing-remitting symmetric weakness in proximal and distal muscles, sensory disturbances (numbness, paresthesia, or loss of vibration/proprioception), impaired gait and balance, and reduced or absent deep tendon reflexes. Symptoms develop over at least 8 weeks, distinguishing it from acute inflammatory neuropathies. Untreated, CIDP can lead to significant disability, including inability to walk, but many patients respond to immunomodulatory therapies.
+
+The pathophysiology involves autoimmune attack on peripheral nerve myelin, with contributions from both humoral and cellular immunity. Key features include disruption of the blood-nerve barrier, infiltration by macrophages and T-cells leading to segmental demyelination, complement deposition and membrane attack complex formation on myelin, and in subsets (~10%), node/paranode disruption by specific autoantibodies (e.g., anti-NF155 or anti-CNTN1 IgG4). These processes impair nerve conduction, causing clinical deficits. Emerging evidence highlights roles for pathogenic IgG recycling via FcRn, B-cell/plasma cell dysregulation, and pro-inflammatory cytokines.
+
+The proposed set includes four conceptual designed short polypeptides, each targeting a distinct therapeutic axis derived from CIDP pathophysiology and current/emerging treatment mechanisms. All are designed; no real-world short polypeptides (3-50 residues) with documented use or investigation in CIDP were identified across sources, leading to exclusive use of designed ones for coverage.
+
+The first designed polypeptide is conceptualized as a C3-binding inhibitor analog, targeting complement activation to prevent complement-mediated myelin damage and macrophage recruitment.
+
+The second designed polypeptide is conceptualized to disrupt FcRn-IgG interactions, aiming to accelerate clearance of pathogenic autoantibodies.
+
+The third designed polypeptide targets B-cell signaling or autoantibody interfaces for modulation of humoral immunity.
+
+The fourth designed polypeptide provides broad anti-inflammatory effects, potentially inhibiting pro-inflammatory pathways while supporting regulatory responses.
+
+These designed polypeptides are short (8-13 residues), enabling chemical synthesis, potential modifications for stability/bioavailability (e.g., cyclization, pegylation), and targeted action with reduced off-target effects compared to systemic therapies. Feasibility is supported by success of similar short peptides in other immune-mediated diseases.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Chronic Inflammatory Demyelinating Polyneuropathy (CIDP) p01"
+"Loaded_Programs=Chronic Inflammatory Demyelinating Polyneuropathy (CIDP) p02"
+"Loaded_Programs=Chronic Inflammatory Demyelinating Polyneuropathy (CIDP) p03"
+"Loaded_Programs=Chronic Inflammatory Demyelinating Polyneuropathy (CIDP) p04"
+"Loaded_Frequencies=M113.084=1,M103.009,M156.101,M99.068,M99.068,M128.058,M115.027,M186.079,M57.021,M137.059,M103.009,M156.101,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M137.059,M113.084,M129.043,M71.037,M113.084,M115.027,M114.043,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M115.027,M99.068,M128.058,M87.032,M156.101,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M99.068=1,M97.053,M97.053,M57.021,M128.095,M129.043,M115.027,M71.037,M113.084,0=4,"
+"[/Preset]"

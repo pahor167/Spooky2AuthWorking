@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Adenomyomatosis (C)"
+"Preset_Notes=Adenomyomatosis for Contact
+
+Gallbladder adenomyomatosis is a benign, acquired hyperplastic cholecystosis characterized by epithelial proliferation into the thickened muscularis propria, forming intramural diverticula known as Rokitansky-Aschoff sinuses, resulting in gallbladder wall thickening. It is often asymptomatic and incidentally detected on imaging, but symptomatic cases present with right upper quadrant pain, biliary colic-like symptoms, or dyspepsia, potentially related to chronic irritation or gallstones. Pathophysiology involves excessive mucosal hyperplasia, smooth muscle hypertrophy, possible chronic low-grade inflammation, and dysmotility with impaired relaxation or increased intraluminal pressure contributing to sinus formation. Although generally non-premalignant, certain forms (e.g., segmental) may carry controversial elevated risk for dysplasia, and it frequently mimics gallbladder carcinoma radiologically, complicating diagnosis.
+
+The proposed designed polypeptides target all key mechanistic axes with literature-derived motifs modified by N-acetylation and C-amidation for enhanced stability, solubility, and drug-likeness:
+
+- Axis 1: Chronic inflammation in the gallbladder wall - Addressed by the Designed protective scaffold (BPC motif-derived), promoting anti-inflammatory and tissue repair effects based on established gastrin-related peptide protection in epithelial tissues.
+- Axis 2: Excessive epithelial hyperplasia - Addressed by the Designed remodeling peptide (GHK multimer-derived), facilitating collagen regulation and antiproliferative remodeling based on copper-binding tripeptide motifs.
+- Axis 3: Smooth muscle hypertrophy - Addressed by the Designed smooth muscle relaxant (VIP motif-derived), inducing relaxation to counteract hypertrophic changes based on vasoactive intestinal peptide's effects on gastrointestinal smooth muscle.
+- Axis 4: Dysmotility and pressure dysregulation - Addressed by the Designed motility modulator (GLP-2 motif-derived), supporting gallbladder refilling and normal volume regulation based on glucagon-like peptide-2's role in postprandial gallbladder dynamics.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Adenomyomatosis p01"
+"Loaded_Programs=Adenomyomatosis p02"
+"Loaded_Programs=Adenomyomatosis p03"
+"Loaded_Programs=Adenomyomatosis p04"
+"Loaded_Frequencies=M99.032=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M98.084,0=4,"
+"Loaded_Frequencies=M99.032=1,M137.059,M128.095,M57.021,M137.059,M128.095,M57.021,M137.059,M128.095,M57.021,M137.059,M128.095,M57.021,M137.059,M127.111,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M128.095,M113.084,M101.048,M115.027,M101.048,M113.084,0=4,"
+"[/Preset]"

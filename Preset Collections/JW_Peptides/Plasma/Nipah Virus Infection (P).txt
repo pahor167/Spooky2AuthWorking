@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Nipah Virus Infection (P)"
+"Preset_Notes=Nipah Virus Infection for Plasma
+
+Nipah virus infection is a highly lethal zoonotic disease causing acute encephalitis and respiratory distress, with mortality rates up to 75%, driven by viral fusion-mediated entry, endothelial tropism, cytokine storm, immune dysregulation, and neurological invasion. The proposed polypeptides target validated preclinical axes from henipavirus studies, including immunostimulation, direct antiviral membrane disruption, inflammation suppression, pulmonary modulation, cytoprotection, neuroprotection, and specific blockade of viral fusion.
+
+1. Thymosin {alpha}1-mediated immunostimulation: Promotes T-cell and dendritic cell function to bolster antiviral immunity.
+2. Cathelicidin LL-37 broad-spectrum antiviral activity: Disrupts enveloped viral membranes with potential against paramyxoviruses.
+3. {alpha}-MSH-derived KPV anti-inflammatory effects: Mitigates cytokine storm and immune overactivation.
+4. VIP receptor agonism for pulmonary protection: Relaxes airways, reduces inflammation, and supports respiratory integrity.
+5. Stable gastric pentadecapeptide BPC-157 cytoprotection: Maintains endothelial barrier and promotes multi-organ recovery.
+6. Semax nootropic neuroprotection: Enhances BDNF and protects against encephalitis-related damage.
+7. NiV HR2-derived fusion inhibition: Directly interferes with F protein six-helix bundle formation to block viral entry.
+8. Engineered HPIV3 HR2-based optimization for broad henipavirus fusion blockade: Ac-VALDPIDISIVLNKIKSDLEESKEWIRRSNKILDSI-NH2 derives from cross-reactive motif with enhanced inhibitory potential.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Nipah Virus Infection p01"
+"Loaded_Programs=Nipah Virus Infection p02"
+"Loaded_Programs=Nipah Virus Infection p03"
+"Loaded_Programs=Nipah Virus Infection p04"
+"Loaded_Programs=Nipah Virus Infection p05"
+"Loaded_Programs=Nipah Virus Infection p06"
+"Loaded_Programs=Nipah Virus Infection p07"
+"Loaded_Programs=Nipah Virus Infection p08"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M170.106=1,M99.068,M115.027,M113.084,M87.032,M87.032,M128.059,M113.084,M87.032,M87.032,M131.040,M114.043,M128.059,M87.032,M113.084,M128.059,M128.059,M87.032,M128.095,M115.027,M163.063,M113.084,M128.095,M129.043,M71.037,M128.059,M156.101,M113.084,M113.084,M115.027,M101.048,M99.068,M114.043,M97.053,M87.032,M112.10,0=4,"
+"Loaded_Frequencies=M141.079=1,M71.037,M113.084,M115.027,M97.053,M113.084,M115.027,M113.084,M87.032,M113.084,M99.068,M113.084,M114.043,M128.095,M113.084,M128.095,M87.032,M115.027,M113.084,M129.043,M129.043,M87.032,M128.095,M129.043,M186.079,M113.084,M156.101,M156.101,M87.032,M114.043,M128.095,M113.084,M113.084,M115.027,M87.032,M112.10,0=4,"
+"[/Preset]"

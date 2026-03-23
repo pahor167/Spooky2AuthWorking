@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Tinnitus (L)"
+"Preset_Notes=Tinnitus for Laser
+
+Tinnitus is the perception of phantom sound without external source, frequently associated with noise exposure, aging, ototoxicity, oxidative stress, inflammation, apoptosis in the cochlea, and central neural hyperactivity or malplasticity. The proposed polypeptides target evidence-based therapeutic axes from otoprotection, anti-apoptosis, regeneration, anti-inflammatory, and neurotrophic mechanisms in preclinical models, clinical trials, and emerging research.
+
+1. JNK stress kinase inhibition to prevent apoptosis in cochlear hair cells and neurons: D-JNKI-1 (real, clinical trials for acute hearing loss with tinnitus remission endpoints, strong otoprotective evidence).
+2. APJ receptor agonism to reduce oxidative stress and apoptosis in noise-damaged cochlea: Apelin-13 (real, preclinical evidence of otoprotection and hearing preservation).
+3. Pleiotropic tissue regeneration and gut-brain axis stabilization: BPC-157 (real, broad regenerative effects, community/preclinical support for neural repair).
+4. Innate repair receptor activation for anti-inflammatory and neuropathic relief: ARA 290 (real, proven in neuropathic conditions, relevant to neuropathic tinnitus).
+5. Actin sequestration for cell migration and tissue repair: TB-500 (real, Thymosin {beta}4 fragment with regenerative potential in injury models).
+6. Copper-binding antioxidant and ECM remodeling support: GHK-Cu (real, stimulates repair and reduces oxidative damage).
+7. Microtubule stabilization and activity-dependent neurotrophic protection: NAPVSIPQ (real, neuroprotective in neural stress models, applicable to central tinnitus).
+8. Engineered stabilized apelin-13 analog for optimized bioavailability and otoprotection: Ac-QRPRLSHKGPMPF-NH2 (designed, modified for stability based on apelin motif with added PTMs).
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Tinnitus p01"
+"Loaded_Programs=Tinnitus p02"
+"Loaded_Programs=Tinnitus p03"
+"Loaded_Programs=Tinnitus p04"
+"Loaded_Programs=Tinnitus p05"
+"Loaded_Programs=Tinnitus p06"
+"Loaded_Programs=Tinnitus p07"
+"Loaded_Programs=Tinnitus p08"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M97.053,M128.058,M156.101,M97.053,M128.095,M156.101,M97.053,M101.048,M101.048,M113.084,M114.043,M113.084,M147.068,M97.053,M128.058,M99.068,M97.053,M156.101,M87.032,M128.058,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"[/Preset]"

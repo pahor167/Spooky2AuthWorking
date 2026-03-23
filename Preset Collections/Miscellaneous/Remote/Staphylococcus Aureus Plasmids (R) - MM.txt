@@ -1,0 +1,66 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Staphylococcus Aureus Plasmids (R) - MM"
+"BFB_Start_Frequency=20000"
+"BFB_Finish_Frequency=18000000"
+"BFB_Single_Scan=1"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_Hz_Selected=False"
+"BFB_Initial_Step_Size_%=.125"
+"BFB_Initial_Step_Size_%_Selected=True"
+"BFB_Start_Delay=100"
+"BFB_Samples_Per_Step=1"
+"BFB_Threshold=.4"
+"BFB_Reverse_Lookup_Tolerance=.25"
+"BFB_Include_x_Hz_In_Search=0"
+"BFB_Calculate_Using_RA=True"
+"BFB_Calculate_Using_Peak=False"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"BFB_Max_HRV=20"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Amplitude=10"
+"Out2_Amplitude=10"
+"Out2_Hz_Factor=.03125"
+"Out1_Fixed_Frequency=0"
+"Preset_Notes=Staphylococcus Aureus Plasmids Remote preset. By Manuel Mallo
+
+Attached you can find two very hopeful links:
+https://www.advancedtissue.com/the-link-between-staph-infection-and-diabetes/
+http://www.iflscience.com/health-and-medicine/type-2-diabetes-might-be-caused-your-bacteria/
+
+It makes perfect sense, so I have prepared two presets for this lethal creature.
+
+The first one runs for 192 hours (8 days), so it is for remote mode only. Staphylococcus Aureus Stepped Sweep(R) - MM.
+
+The second one is for the plasmids inside the bug, and runs for 45 minutes, so I have prepared a preset for contact mode, remote mode, and also for plasma.
+Staphylococcus Aureus Plasmids presets.
+
+The first preset also covers the Methicillin-resistant Staphylococcus Aureus (MRSA), so it would also be helpful for people not suffering only from diabetes2.
+
+I have noticed several herxs as the program progresses, so when this happens, write down the program step so you can repeat it, if necessary.
+The programs are a bit long, but definitely they worth the time to complete them.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"User_Defined_1_WCM=3"
+"User_Defined_2_WCM=3"
+"Triangle_Spike_Ratio=2"
+"F1_Factor=11"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"User_Defined_1_Waveform=MM_ModSquareDC83"
+"User_Defined_2_Waveform=MM_ModSquareDC83"
+"Out1_Fixed_Frequency=False"
+"Gate_Hz_Option=False"
+"Gate_On_Off_Duration_Option=True"
+"Out2_User_Defined_2=True"
+"InverseWave=False"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Enable_Invert_User_Defined_2=1"
+"Loaded_Programs=Staphylococcus aureus Plasmids (CUST)"
+"Loaded_Frequencies=11424283.618=180,12212514.976=180,10709098.968=180,9107358.863=180,9656101.885=180,10709098.968=180,8175531.080=180,8869808.145=180,8242017.708=180,9506561.467=180,9509324.354=180,10146938.314=180,13654709.799=180,12464709.799=180,12884638.419=180,"
+"[/Preset]"

@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Coil\Spooky Coil (Generator Direct) - JW.txt"
+"PresetName=MX Pain Long (Coil) - DB"
+"Repeat_Sequence=2"
+"Repeat_Chain=1"
+"BFB_Finish_Frequency=152000"
+"Preset_Notes=Cancer Protocol, Extras. For Spooky Coil only - DO NOT USE WITH SPOOKY CENTRAL.
+
+Update: December 2016.
+
+Spooky Coil converts the signals from the generator to a magnetic field. Any frequency or waveform can be used.
+
+Connect Spooky Coil can be directly to the generator. For more power, use the High Power port of Spooky Boost. The side marked 'BN' should be placed against your skin."
+"Text41=5"
+"Triangle_Spike_Ratio=2"
+"Out1_Frequency_Limit_Harmonic_Type=Octave"
+"Out2_Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal Silver"
+"Manual_Start=False"
+"BFB_BPM=False"
+"BFB_HRV=True"
+"Out1_Sine=False"
+"Out1_Square=True"
+"Enable_Tissue_Factor=0"
+"Enable_Invert_Spike_Waveform=0"
+"Loaded_Programs=Diplococcus Pneumoniae_1 (HC)"
+"Loaded_Programs=Streptococcus Pneumoniae (HC)"
+"Loaded_Programs=Pneumococcus (CAFL)"
+"Loaded_Programs=Diplococcus Pneumoniae 1 (XTRA)"
+"Loaded_Programs=Diplococcus Pneumoniae 2 (XTRA)"
+"Loaded_Programs=Streptococcus Pneumoniae (CAFL)"
+"Loaded_Frequencies=351650-386450=3600,"
+"Loaded_Frequencies=366850-370200=3600,"
+"Loaded_Frequencies=231=240,232=240,683=240,846=240,8865=240,"
+"Loaded_Frequencies=892.35=180,904.74=180,17923.34=180,18172.27=180,"
+"Loaded_Frequencies=871.64=180,892.35=180,904.74=180,957.9=180,11250=180,12076.55=180,21978.13=180,"
+"Loaded_Frequencies=231=180,232=180,776=180,766=180,728=180,846=180,8865=180,"
+"[/Preset]"

@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"Repeat_Chain=0"
+"PresetName=S37 Simple Parasites B - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Scalar.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Babesia Microti XTRA
+Babesia WA1 XTRA
+Babesia Divergens XTRA
+Babesia PROV
+Nisin XTRA
+Babesiosis KHZ
+Babesiosis XTRA
+Giardia Lamblia Trophozoites HC
+Nisin XTRA
+Parasites Giardia XTRA
+Parasites Giardia Lamblia Type 2 XTRA
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Loaded_Programs=Babesia Microti (XTRA)"
+"Loaded_Programs=Babesia WA 1 (XTRA)"
+"Loaded_Programs=Babesia Divergens (XTRA)"
+"Loaded_Programs=Babesia (PROV)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Babesiosis (KHZ)"
+"Loaded_Programs=Babesiosis (XTRA)"
+"Loaded_Programs=Giardia Lamblia Trophozoites (HC)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Parasites Giardia (XTRA)"
+"Loaded_Programs=Parasites Giardia Lamblia Type 2 (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=465.7=180,"
+"Loaded_Frequencies=467.7=180,"
+"Loaded_Frequencies=470.46=180,"
+"Loaded_Frequencies=76=180,570=180,1583=180,1584=180,432=180,753=180,5776=180,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=40=180,180=180,700=180,900=180,7500=180,45750=180,71500=180,95000=180,219340=180,379930=180,"
+"Loaded_Frequencies=76=180,432=180,570=180,753=180,1583=180,1584=180,5776=180,"
+"Loaded_Frequencies=421400-426300=3600,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=50=180,120=180,900=180,5500=180,27500=180,15410=180,45000=180,421400=180,426300=180,424000=180,"
+"Loaded_Frequencies=40=180,320=180,650=180,900=180,5870=180,7500=180,37500=180,421400=180,426300=180,424000=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

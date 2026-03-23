@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Chalazion (S)"
+"Preset_Notes=Chalazion for Scalar
+
+Chalazion is a chronic lipogranulomatous inflammation of the meibomian gland caused by duct obstruction and lipid leakage into surrounding tissue, often associated with blepharitis or meibomian gland dysfunction, leading to eyelid swelling and potential recurrence. The proposed polypeptides target evidence-based axes from ocular inflammation resolution, granuloma modulation, epithelial/glandular repair, and surface defense mechanisms in eyelid wound models.
+
+1. Stable gastric pentadecapeptide-mediated inflammation resolution and tissue protection: BPC-157 supports healing and integrity in inflammatory glandular obstructions.
+2. Acetylated thymosin {beta}4 fragment-enhanced migration and anti-fibrosis: TB-500 promotes re-epithelialization, actin sequestration, and scarring reduction in eyelid injury contexts.
+3. Copper-binding tripeptide ECM remodeling and antioxidant support: GHK-Cu stimulates physiological repair, growth factors, and counters oxidative stress in periocular tissues.
+4. {alpha}-MSH-derived tripeptide potent anti-granulomatous inflammation: KPV suppresses pro-inflammatory cytokines relevant to lipogranuloma formation.
+5. Human cathelicidin multifunctional ocular defense: LL-37 reinforces antimicrobial barrier and immunomodulation on the eyelid surface and meibomian glands.
+6. Engineered hybrid motif optimization: Ac-GHKLKKTETQ-NH2 fuses GHK repair domain with LKKTETQ actin-binding sequence for synergistic anti-fibrotic and regenerative effects.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Chalazion p01"
+"Loaded_Programs=Chalazion p02"
+"Loaded_Programs=Chalazion p03"
+"Loaded_Programs=Chalazion p04"
+"Loaded_Programs=Chalazion p05"
+"Loaded_Programs=Chalazion p06"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.059,0=4,"
+"[/Preset]"

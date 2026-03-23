@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Alexander Disease (Coil)"
+"Preset_Notes=Alexander Disease for Coil
+
+Alexander Disease is a rare leukodystrophy caused by GFAP mutations leading to astrocyte dysfunction, Rosenthal fibers, and progressive neurological decline. This proposal targets the condition with the following therapeutic axes:
+1. Autophagy induction: TAT-Beclin-1 - Induces autophagy to clear Rosenthal fibers in Alexander disease
+2. STAT3 inhibition: STAT3-IP1 - Inhibits STAT3 to reduce GFAP expression in Alexander disease
+3. NF-kB inhibition: AD-NFKB1 - Inhibits NF-kB pathway to reduce inflammation in Alexander disease
+4. Antioxidant: AD-AntiOx1 - Reduces oxidative stress associated with Rosenthal fibers
+5. Neuroprotection: Pinealon - Provides neuroprotection against astrocyte dysfunction in Alexander disease
+6. Myelin protection: AD-Myelin1 - Protects myelin integrity in Alexander disease
+
+"
+"Loaded_Programs=Alexander Disease p01"
+"Loaded_Programs=Alexander Disease p02"
+"Loaded_Programs=Alexander Disease p03"
+"Loaded_Programs=Alexander Disease p04"
+"Loaded_Programs=Alexander Disease p05"
+"Loaded_Programs=Alexander Disease p06"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M243.029=1,M113.084,M128.095,M101.048,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.058,M156.101,M128.095,M156.101,M128.058,M128.095,M113.084,M131.040,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M137.059,M115.027,M57.021,M71.037,M87.032,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,0=4,"
+"[/Preset]"

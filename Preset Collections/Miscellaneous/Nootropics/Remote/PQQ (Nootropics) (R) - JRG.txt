@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=PQQ (Nootropics) (R) - JRG"
+"Loaded_Programs=PQQ (CUST)"
+"Loaded_Frequencies=M330.01242,M373.97630,"
+"Preset_Notes=(The more active PQQ Di-sodium)|PQQ (pyrroloquinoline quinone) is an enzyme cofactor, and the only nutrient known to facilitate the growth of new mitochondria in your brain cells.|Researchers found PQQ supplementation can boost the production and release of nerve growth factors in cells that support creation of new neurons in the brain. And promotes neuroplasticity that helps neurons develop the connections needed for learning and developing memories.|More studies support PQQ's ability to increase mitochondrial density, reduce inflammation and oxidative stress, and improve learning and memory. As an antioxidant, PQQ is thousands of times more potent than Vitamin C.|Without PQQ, mitochondria wear out and brain cells age faster. Supplementing with PQQ should give you a brain energy boost. And provide anti-aging benefits.|Dosing PQQ as a nootropic is typically 10 - 20 mg per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

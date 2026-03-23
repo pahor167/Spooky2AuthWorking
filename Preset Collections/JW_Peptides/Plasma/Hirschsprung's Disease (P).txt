@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Hirschsprung’s Disease (P)"
+"Preset_Notes=Hirschsprung’s Disease for Plasma
+
+Hirschsprung’s disease (HSCR), also known as congenital aganglionic megacolon, is a rare developmental disorder occurring in approximately 1 in 5000 live births, characterized by the absence of enteric nervous system ganglia in variable lengths of the distal bowel due to failed migration, proliferation, differentiation, or survival of neural crest-derived enteric neural crest cells (ENCCs) during embryogenesis. This aganglionosis results in tonic contraction of the affected segment, causing functional intestinal obstruction, severe constipation, abdominal distension, failure to pass meconium in neonates, and a high risk of Hirschsprung-associated enterocolitis (HAEC), a potentially life-threatening inflammatory complication. The primary pathophysiological mechanisms involve disruptions in key signaling pathways, predominantly RET/GDNF and EDNRB/endothelin-3, with contributions from genetic mutations (e.g., in RET, EDNRB, GDNF, EDN3) and microenvironmental factors affecting ENCC dynamics.
+
+Current treatment is predominantly surgical (pull-through procedures to resect aganglionic bowel), with supportive care for complications, but many patients experience persistent bowel dysfunction, incontinence, or HAEC postoperatively. No established polypeptide therapies exist, and searches across PubMed, clinical trials, patents, and databases yielded no real-world polypeptides with documented therapeutic application in HSCR meeting validation criteria.
+
+The proposed polypeptides are all conceptual designed sequences addressing core axes: the first designed polypeptide hypothetically mimics neurotrophic effects to activate RET signaling, promoting ENCC migration, proliferation, and survival; the second designed polypeptide conceptually emulates endothelin-like signaling via EDNRB to support ENCC proliferation and differentiation; the third designed polypeptide provides potential anti-inflammatory modulation to mitigate HAEC risk by dampening neuroimmune dysregulation. These short peptides use standard residues for synthetic feasibility, stability, and low immunogenicity potential, with modes of action inspired by pathway deficiencies, though requiring preclinical testing for efficacy and delivery (e.g., targeted enteric administration).
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Hirschsprung’s Disease p01"
+"Loaded_Programs=Hirschsprung’s Disease p02"
+"Loaded_Programs=Hirschsprung’s Disease p03"
+"Loaded_Frequencies=M128.095=1,M156.101,M57.021,M115.027,M87.032,M97.053,M71.037,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M103.009=1,M101.048,M103.009,M147.068,M87.032,M156.101,M87.032,M115.027,M129.043,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M87.032,M99.068,M128.095,M57.021,M113.084,M113.084,M97.053,0=4,"
+"[/Preset]"

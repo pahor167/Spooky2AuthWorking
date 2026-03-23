@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Von Willebrand Disease (P)"
+"Preset_Notes=Von Willebrand Disease for Plasma
+
+Von Willebrand Disease (VWD) is the most common inherited bleeding disorder, characterized by deficiencies or dysfunctions in von Willebrand factor (VWF), a large multimeric glycoprotein synthesized in endothelial cells and megakaryocytes that mediates platelet adhesion to damaged vascular endothelium and stabilizes factor VIII in plasma. Causes include autosomal dominant or recessive mutations in the VWF gene on chromosome 12, resulting in type 1 (mild quantitative deficiency), type 2 (qualitative defects subdivided into 2A, 2B, 2M, 2N based on multimer pattern or binding defects), and type 3 (severe quantitative deficiency); acquired forms arise from autoantibodies, high shear stress in aortic stenosis, or paraneoplastic syndromes. Symptoms encompass mucocutaneous bleeding such as epistaxis, menorrhagia, gastrointestinal hemorrhage (often from angiodysplasia), easy bruising, and prolonged bleeding after trauma or surgery, with severe cases mimicking hemophilia A due to low factor VIII; complications include iron deficiency anemia, joint damage, and life-threatening hemorrhage. Pathophysiologically, VWD involves disrupted primary hemostasis from impaired VWF-GPIb-IX-V interaction under high shear, reduced factor VIII half-life leading to secondary coagulation impairment, abnormal VWF-ADAMTS13 axis causing loss of high-molecular-weight multimers (HMWM) in type 2A or enhanced platelet binding in type 2B, VWF-angiopoietin axis dysregulation promoting vascular malformations, inflammatory amplification via VWF-neutrophil NETosis and SLC44A2 interactions, oxidative stress from endothelial damage, epigenetic suppression of VWF expression, metabolic alterations in platelet function, and adenosinergic signaling modulating thrombosis risk.
+
+The proposed polypeptides address VWD through comprehensive targeting of its mechanisms, prioritizing real-world ones for core pathways and supplementing with designed polypeptides (flagged as designed) for full coverage. Real-world desmopressin and arginine vasopressin stimulate endogenous VWF and factor VIII release from Weibel-Palade bodies via V2 receptor activation, effective for type 1 and some type 2 VWD with high feasibility from decades of clinical use (intranasal/intravenous, half-life 6-8 hours). VWF-derived heparin-binding peptide (from A1 domain) enhances endothelial migration and vascular stability, supported by in vitro studies. Collagen-binding peptides from VWF (e.g., SITTIDV) promote platelet adhesion to subendothelium. VWF fragments like VDVMQRE and YLTSEMH inhibit abnormal collagen interactions in qualitative defects. GPIb-binding domain peptides from VWF modulate platelet-VWF interactions in type 2B. VWF propeptide fragments aid in multimer assembly. Due to shortfall in real-world polypeptides (searches on PubMed, NIH, ClinicalTrials.gov, patents yielded only 8 verifiable polypeptides with sequences <150 aa, mainly VWF fragments and desmopressin analogs; large VWF excluded per length rules; document: limited emerging research on peptide therapies beyond desmopressin), supplemented with designed to meet mins. Designed D1 targets ADAMTS13 to preserve HMWM; designed D2 modulates angiopoietin for angiodysplasia prevention; designed D3 inhibits NETosis to reduce inflammation; designed D4 provides antioxidant protection; designed D5 enhances factor VIII binding; designed D6 promotes VWF gene expression; designed D7 balances Protein S-coagulation axis; designed D8 inhibits fibrinolysis; designed D9 improves endothelial integrity; designed D10 reduces oxidative stress via non-standard residues. Physicochemically, real polypeptides show established pharmacokinetics, designed ones optimized with non-standard residues, cyclic structures (30%), and short lengths for enhanced stability and delivery feasibility via subcutaneous or nasal routes.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Von Willebrand Disease p01"
+"Loaded_Programs=Von Willebrand Disease p02"
+"Loaded_Programs=Von Willebrand Disease p03"
+"Loaded_Programs=Von Willebrand Disease p04"
+"Loaded_Programs=Von Willebrand Disease p05"
+"Loaded_Programs=Von Willebrand Disease p06"
+"Loaded_Programs=Von Willebrand Disease p07"
+"Loaded_Programs=Von Willebrand Disease p08"
+"Loaded_Programs=Von Willebrand Disease p09"
+"Loaded_Programs=Von Willebrand Disease p10"
+"Loaded_Programs=Von Willebrand Disease p11"
+"Loaded_Programs=Von Willebrand Disease p12"
+"Loaded_Programs=Von Willebrand Disease p13"
+"Loaded_Programs=Von Willebrand Disease p14"
+"Loaded_Programs=Von Willebrand Disease p15"
+"Loaded_Programs=Von Willebrand Disease p16"
+"Loaded_Programs=Von Willebrand Disease p17"
+"Loaded_Programs=Von Willebrand Disease p18"
+"Loaded_Frequencies=M87.032=1,M113.084,M101.048,M101.048,M113.084,M115.027,M99.068,0=4,"
+"Loaded_Frequencies=M99.068=1,M115.027,M99.068,M131.040,M128.058,M156.101,M129.043,0=4,"
+"Loaded_Frequencies=M97.053=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M137.059,M156.101,M128.095,M156.101,M97.053,M87.032,M99.068,M113.084,M71.037,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M99.068=1,M115.027,M99.068,M131.040,M128.058,M156.101,M129.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M101.048,M87.032,M129.043,M131.040,M137.059,0=4,"
+"Loaded_Frequencies=M128.095=1,M137.059,M156.101,M128.095,M156.101,M97.053,M87.032,M99.068,M113.084,M71.037,M57.021,M87.032,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M114.079,M128.095,M150.954,0=4,"
+"Loaded_Frequencies=M237.148=1,M113.084,M100.064,M86.048,M237.148,0=4,"
+"Loaded_Frequencies=M101.001=1,M114.079,M113.048,M150.954,M101.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M85.053,M128.095,M156.101,M100.064,0=4,"
+"Loaded_Frequencies=M113.048=1,M200.095,M86.048,M114.079,M113.048,0=4,"
+"Loaded_Frequencies=M150.954=1,M237.148,M100.064,M86.048,M150.954,0=4,"
+"Loaded_Frequencies=M101.001=1,M114.079,M113.048,M758.675,M101.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M85.053,M128.095,M156.101,M86.048,0=4,"
+"Loaded_Frequencies=M113.048=1,M200.095,M114.079,M150.954,M113.048,0=4,"
+"Loaded_Frequencies=M237.148=1,M100.064,M86.048,M237.148,M100.064,0=4,"
+"[/Preset]"

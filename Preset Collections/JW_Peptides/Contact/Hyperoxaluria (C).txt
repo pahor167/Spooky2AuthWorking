@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Hyperoxaluria (C)"
+"Preset_Notes=Hyperoxaluria for Contact
+
+The therapeutic approach for hyperoxaluria focuses on five primary axes: restoring gut barrier integrity to minimize passive absorption of dietary oxalate, stimulating active intestinal oxalate secretion via the SLC26A6 transporter, protecting renal tubular cells from calcium oxalate crystal-induced inflammation, modulating the gut-kidney axis to enhance systemic elimination, and inhibiting endogenous oxalate synthesis in the liver. Real-world peptides include gut-healing sequences like BPC-157 and Larazotide, along with *Oxalobacter formigenes*-derived factors and VIP fragments that promote oxalate transport. Designed peptides (flagged) extend these mechanisms by providing targeted metabolic inhibition of oxalate precursors and cationic sequestration within the digestive lumen.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Hyperoxaluria p01"
+"Loaded_Programs=Hyperoxaluria p02"
+"Loaded_Programs=Hyperoxaluria p03"
+"Loaded_Programs=Hyperoxaluria p04"
+"Loaded_Programs=Hyperoxaluria p05"
+"Loaded_Programs=Hyperoxaluria p06"
+"Loaded_Programs=Hyperoxaluria p07"
+"Loaded_Programs=Hyperoxaluria p08"
+"Loaded_Programs=Hyperoxaluria p09"
+"Loaded_Programs=Hyperoxaluria p10"
+"Loaded_Programs=Hyperoxaluria p11"
+"Loaded_Programs=Hyperoxaluria p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M87.032,M147.068,M113.084,M87.032,M97.053,M129.043,M137.059,M128.058,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.058,M99.068,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M57.021,M128.058,0=4,"
+"Loaded_Frequencies=M99.068=1,M186.079,M128.095,M156.101,M115.027,M129.043,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M128.095,M156.101,M128.095,M156.101,M57.021,M57.021,0=4,"
+"[/Preset]"

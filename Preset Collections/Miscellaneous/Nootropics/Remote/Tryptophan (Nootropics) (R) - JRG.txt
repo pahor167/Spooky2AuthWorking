@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Tryptophan (Nootropics) (R) - JRG"
+"Loaded_Programs=Tryptophan (CUST)"
+"Loaded_Frequencies=M204.08988,"
+"Preset_Notes=Tryptophan is an essential amino acid and precursor to serotonin, melatonin and niacin (Vitamin B3) in your body.|Serotonin, the happiness molecule relies on an adequate supply of Tryptophan for synthesis. Low levels of serotonin in the brain are often due to an inadequate supply of Tryptophan.|Tryptophan is found in abundance in oats, bananas, dried prunes, milk, tuna, cheese, bread, chicken, turkey, peanuts, and chocolate. But our bodies often have problems converting this Tryptophan to serotonin in our brain.|Adding L-Tryptophan to your nootropic stack can help you boost serotonin levels. As a nootropic supplement, L-Tryptophan is used to treat anxiety, ADHD, depression, insomnia, memory loss, pain and eating disorders.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

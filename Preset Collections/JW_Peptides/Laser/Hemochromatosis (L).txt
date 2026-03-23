@@ -1,0 +1,24 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Hemochromatosis (L)"
+"Preset_Notes=Hemochromatosis for Laser
+
+Hemochromatosis is an inherited disorder of excessive iron absorption and deposition in organs such as the liver, heart, and pancreas, causing oxidative damage, fibrosis, cardiomyopathy, diabetes, and arthropathy due to deficient hepcidin regulation. The proposed polypeptides target evidence-based therapeutic axes from preclinical models and investigational studies, including direct hepcidin supplementation to restrict iron uptake, iron chelation/antioxidant effects to mitigate ROS, and cytoprotection to preserve organ function.
+
+1. Hepcidin hormone replacement for ferroportin inhibition: Synthetic human hepcidin (LJPC-401) supplements deficient hepcidin to reduce systemic iron levels in overload disorders.
+2. Tripeptide iron binding and oxidative stress reduction: GHK-Cu chelates iron, blocks Fenton reactions, and supports remodeling in iron-damaged tissues.
+3. Gastric pentadecapeptide organ cytoprotection: BPC-157 counters toxicity, inflammation, and damage in liver and other affected organs.
+4. Engineered minimal hepcidin N-terminal motif: Ac-DTHFPICIF-NH2 (acetylated/amidated for stability) retains ferroportin-binding core for targeted iron regulation optimization.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Hemochromatosis p01"
+"Loaded_Programs=Hemochromatosis p02"
+"Loaded_Programs=Hemochromatosis p03"
+"Loaded_Programs=Hemochromatosis p04"
+"Loaded_Frequencies=M115.027=1,M101.048,M137.059,M147.068,M97.053,M113.084,M102.001,M113.084,M147.068,M102.001,M102.001,M57.021,M102.001,M102.001,M137.059,M156.101,M87.032,M128.095,M102.001,M57.021,M131.040,M102.001,M102.001,M128.095,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M157.038=1,M101.048,M137.059,M147.068,M97.053,M113.084,M103.009,M113.084,M146.084,0=4,"
+"[/Preset]"

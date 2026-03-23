@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Leaky Gut Syndrome (R)"
+"Preset_Notes=Leaky Gut Syndrome for Remote
+
+The peptides target multiple therapeutic axes for leaky gut syndrome, including barrier restoration to tighten junctions, anti-inflammatory actions to reduce gut inflammation, antimicrobial effects to control pathogens, microbiome modulation to balance flora, immune modulation to prevent autoimmunity, tissue regeneration to heal lining, and mucosal protection to enhance barrier. The first 10 peptides are real-world with validated evidence from studies on intestinal permeability and gut health, while peptides 11 and 12 are designed to supplement coverage in antioxidant and regenerative axes, flagged as designed.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Leaky Gut Syndrome p01"
+"Loaded_Programs=Leaky Gut Syndrome p02"
+"Loaded_Programs=Leaky Gut Syndrome p03"
+"Loaded_Programs=Leaky Gut Syndrome p04"
+"Loaded_Programs=Leaky Gut Syndrome p05"
+"Loaded_Programs=Leaky Gut Syndrome p06"
+"Loaded_Programs=Leaky Gut Syndrome p07"
+"Loaded_Programs=Leaky Gut Syndrome p08"
+"Loaded_Programs=Leaky Gut Syndrome p09"
+"Loaded_Programs=Leaky Gut Syndrome p10"
+"Loaded_Programs=Leaky Gut Syndrome p11"
+"Loaded_Programs=Leaky Gut Syndrome p12"
+"Loaded_Frequencies=M57.021=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M103.009,M113.084,M71.037,M113.084,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M115.027,M71.037,M113.084,M99.068,M128.095,M129.043,M128.095,M128.095,M113.084,M128.058,M57.021,M128.095,M57.021,M97.053,M57.021,M57.021,M97.053,M97.053,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M71.037,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M71.037=1,M101.048,M103.009,M163.063,M103.009,M156.101,M101.048,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M128.058,M87.032,M101.048,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M115.027,M128.095,M97.053,M129.043,M87.032,0=4,"
+"[/Preset]"

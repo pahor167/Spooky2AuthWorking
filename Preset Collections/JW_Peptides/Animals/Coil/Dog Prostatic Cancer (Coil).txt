@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Dog Prostatic Cancer (Coil)"
+"Preset_Notes=Dog Prostatic Cancer for Coil
+
+Prostatic cancer in dogs, also known as prostatic adenocarcinoma or carcinoma, is a rare but aggressive malignancy primarily affecting older intact male dogs, with a higher incidence in neutered dogs compared to other species. Causes include genetic predisposition, hormonal influences (though less androgen-dependent than in humans, with many cases AR-negative), environmental factors, and potential viral or inflammatory triggers. Symptoms include dysuria, hematuria, stranguria, tenesmus, weight loss, lameness from bone metastases, and lethargy. Pathophysiology involves malignant transformation of glandular epithelial cells, leading to local invasion, lymphatic and hematogenous metastasis (commonly to bones, lungs, lymph nodes), and paraneoplastic syndromes like cachexia or coagulopathies. Unlike human prostate cancer, canine cases often lack AR expression, exhibit neuroendocrine features, and have poor response to ADT, with median survival <6 months post-diagnosis. PI3K/AKT/mTOR activation, WNT/{beta}-catenin deregulation, EMT, and immunosuppressive Treg infiltration contribute to progression and resistance.
+
+The proposed polypeptides target key therapeutic axes for canine prostatic cancer. In the GnRH-mediated hormonal suppression axis, Deslorelin, a GnRH agonist, induces pituitary downregulation, reducing testosterone levels to slow tumor growth in androgen-sensitive subsets and alleviate symptoms. The designed polypeptide mimics GnRH for similar hormonal suppression, potentially effective in early or hormone-responsive cases. In the androgen signaling inhibition axis, GV1001 binds the androgen receptor, inhibiting proliferation and EMT, addressing residual androgen signaling in AR-positive tumors. The designed polypeptide targets androgen pathways to block cancer cell growth and invasion. For the immunotherapy/Treg depletion axis, the designed polypeptide targets CCR4 to deplete tumor-infiltrating Tregs, enhancing antitumor immunity and improving survival as shown in canine models. In the estrogen signaling modulation axis, the designed polypeptide modulates estrogen receptors to counter proliferative ER-{alpha} effects and promote anti-tumor ER-{beta} activity, mitigating estrogen-driven progression.
+
+"
+"Loaded_Programs=Dog Prostatic Cancer p01"
+"Loaded_Programs=Dog Prostatic Cancer p02"
+"Loaded_Programs=Dog Prostatic Cancer p03"
+"Loaded_Programs=Dog Prostatic Cancer p04"
+"Loaded_Programs=Dog Prostatic Cancer p05"
+"Loaded_Programs=Dog Prostatic Cancer p06"
+"Loaded_Frequencies=M111.032=1,M137.059,M186.079,M87.032,M163.063,M186.079,M113.084,M156.101,M124.100,0=4,"
+"Loaded_Frequencies=M113.084=1,M137.059,M186.079,M87.032,M163.063,M156.101,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M156.101,M97.053,M71.037,M113.084,M113.084,M101.048,M87.032,M156.101,M113.084,M156.101,M147.068,M113.084,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M147.068,M156.101,M87.032,M97.053,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M156.101,M147.068,M87.032,M101.048,M113.084,M97.053,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M115.027,M113.084,M156.101,M97.053,M128.095,0=4,"
+"[/Preset]"

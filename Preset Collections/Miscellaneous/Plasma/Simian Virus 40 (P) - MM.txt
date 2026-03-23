@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW.txt"
+"Gate_On_Off_Duration_Option=True"
+"PresetName=Simian Virus 40 (P) - MM"
+"Preset_Notes=Simian Virus 40 Plasma preset. By Manuel Mallo
+
+This preset is for a deadly creature, the Simian Virus 40. I have processed the 35 known strains of its DNA to create a one and a half hour program.
+
+This pathogen is involved in several types of cancer, as breast cancer, osteosarcomas, brain tumors, etc.
+
+https://www.ncbi.nlm.nih.gov/pubmed/9776222
+https://www.ncbi.nlm.nih.gov/pubmed/25877010
+https://www.ncbi.nlm.nih.gov/pubmed/25377935
+https://www.ncbi.nlm.nih.gov/pubmed/25244358
+https://www.ncbi.nlm.nih.gov/pubmed/23549184
+https://www.ncbi.nlm.nih.gov/pubmed/19505648
+
+Sadly, the discovery of SV40 revealed that between 1955 and 1963 around 90% of children and 60% of adults in USA were inoculated with SV40-contaminated polio vaccines.
+
+Ideally, the plasma preset could be used once a day. Same thing with the contact mode one. The remote mode one could be run 24/7.
+
+Contact and remote modes uses the boost device to combine the outputs to generate two harmonics that serve to target the high frequency of the MOR when combined.
+
+Carefully write down the frequencies that cause discomfort or herxs, to be prepared to insist on them, if necessary.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+Place the plasma tube near to, or touching, your body. Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=MM_Simian Virus 40 (CUST)"
+"Loaded_Frequencies=9478035.2-9438440.2=5400,"
+"[/Preset]"

@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Unilateral Clubfoot (C)"
+"Preset_Notes=Unilateral Clubfoot for Contact
+
+Unilateral clubfoot (congenital talipes equinovarus affecting one foot) features shortened/stiff tendons (especially Achilles), fibrosis, increased collagen crosslinking, muscle imbalance, and potential vascular/hypoxic elements contributing to deformity and relapse risk. The proposed polypeptides target evidence-based axes from tendon healing, fibrosis reduction, ECM remodeling, and regenerative studies to support correction, prevent relapse, and promote tissue normalization.
+
+1. Tendon healing and remodeling: BPC-157 (real), accelerates tendon fibroblast outgrowth, angiogenesis, and functional recovery in Achilles models relevant to clubfoot tendon shortening.
+2. Actin sequestration for tissue flexibility and repair: TB-500 (real), synthetic thymosin fragment promotes migration and remodeling during corrective stress.
+3. Copper tripeptide ECM modulation: GHK-Cu (real), supports collagen organization and anti-fibrotic effects in connective tissue.
+4. Comprehensive regenerative support: Thymosin_beta_4 (real), full-length promotes broad healing, anti-fibrosis, and stem cell mobilization.
+5. Selective tissue protection: ARA-290 (real), innate repair receptor agonist reduces inflammation and protects during remodeling.
+6. Vascular and inflammatory modulation: VIP (real), regulates blood flow and immune responses potentially aiding vascular anomalies.
+7. Mitochondrial protection and anti-apoptosis: Humanin (real), mitigates cellular stress and hypoxia-related issues in relapsed tissue.
+8. Enhanced TGF-{beta} inhibition for anti-fibrosis: Ac-LSKL-NH2 (designed), N-acetylated/C-amidated LSKL variant improves stability and targets latent TGF-{beta} activation to reduce fibrosis.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Unilateral Clubfoot p01"
+"Loaded_Programs=Unilateral Clubfoot p02"
+"Loaded_Programs=Unilateral Clubfoot p03"
+"Loaded_Programs=Unilateral Clubfoot p04"
+"Loaded_Programs=Unilateral Clubfoot p05"
+"Loaded_Programs=Unilateral Clubfoot p06"
+"Loaded_Programs=Unilateral Clubfoot p07"
+"Loaded_Programs=Unilateral Clubfoot p08"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M155.095=1,M87.032,M128.095,M112.10,0=4,"
+"[/Preset]"

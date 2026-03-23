@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Hormone Balance (Women) (Coil)"
+"Preset_Notes=Hormone Balance (Women) for Coil
+
+Hormone balance in women involves coordinated regulation of reproductive (estrogen, progesterone, LH/FSH), metabolic (insulin, GLP-1), growth (GH), and bone-protective hormones, frequently disrupted in PCOS, perimenopause, and menopause by insulin resistance, gonadotropin dysregulation, GH decline, and reduced bone density. The proposed polypeptides target evidence-based axes from clinical promotions, trials (e.g., GLP-1 in PCOS), and studies (e.g., kisspeptin in fertility, GH peptides in menopause, calcitonin in osteoporosis) to restore physiological signaling and support.
+
+1. Selective ghrelin mimetic GH secretagogue for vitality and body composition in menopause: Ipamorelin stimulates pituitary GH release with minimal impact on other hormones, aiding energy, sleep, and muscle maintenance.
+2. Kisspeptin receptor agonism for upstream reproductive hormone regulation: Kisspeptin-10 activates GnRH neurons to promote physiological LH/FSH pulses, supporting fertility and hypothalamic-pituitary-ovarian axis balance.
+3. Long-acting GLP-1 receptor agonist for metabolic and androgen correction in PCOS: Liraglutide (palmitoyl-modified) improves insulin sensitivity, reduces hyperandrogenism, and restores ovulation.
+4. Calcitonin-mediated osteoclast inhibition for postmenopausal bone health: Salmon-Calcitonin reduces bone resorption, preserving density and reducing fracture risk.
+5. Copper-chelated tripeptide for regenerative and antioxidant support: GHK-Cu promotes ECM remodeling and growth factor expression relevant to age-related hormonal changes.
+6. Engineered collagen-mimetic peptide for structural reinforcement: Ac-(GPP)10-NH2 intercalates into collagen fibrils to stabilize connective tissues impacted by estrogen decline.
+
+"
+"Loaded_Programs=Hormone Balance (Women) p01"
+"Loaded_Programs=Hormone Balance (Women) p02"
+"Loaded_Programs=Hormone Balance (Women) p03"
+"Loaded_Programs=Hormone Balance (Women) p04"
+"Loaded_Programs=Hormone Balance (Women) p05"
+"Loaded_Programs=Hormone Balance (Women) p06"
+"Loaded_Frequencies=M85.053=1,M137.059,M205.074,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M87.032,M114.043,M113.084,M87.032,M101.048,M102.001,M99.068,M113.084,M57.021,M128.095,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M128.095,M113.084,M128.058,M101.048,M163.063,M97.053,M156.101,M101.048,M114.043,M101.048,M57.021,M87.032,M71.037,M101.048,M96.069,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

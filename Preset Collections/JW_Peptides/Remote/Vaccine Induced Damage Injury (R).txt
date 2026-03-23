@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Vaccine Induced Damage/Injury (R)"
+"Preset_Notes=Vaccine Induced Damage/Injury for Remote
+
+Covid-19 vaccine induced damage/injury encompasses rare adverse effects such as myocarditis, thrombosis, neurological disorders, and persistent symptoms potentially caused by spike protein, inflammation, and microclots. This proposal includes anticoagulants, chelators, and peptides targeting endogenously produced spike proteins.
+1. Anti-inflammatory: KPV - Suppresses inflammation to reduce tissue damage from vaccine injury
+2. Immunomodulatory: Thymosin alpha 1 - Modulates immune response to prevent autoimmunity
+3. Antioxidant therapy: Glutathione - Reduces oxidative stress to protect tissues
+4. Neuroplasticity enhancement: Semax - Upregulates BDNF to improve synaptic plasticity and reduce neurological damage
+5. Tissue repair: BPC-157 - Promotes healing of damaged tissues from vaccine injury
+6. Vasoactive regulation: VIP - Modulates autonomic balance to reduce vascular damage
+7. Mitochondrial protection: Elamipretide - Targets cardiolipin to reduce ROS in cardiac and other tissues
+8. Mitochondrial stabilization: Humanin - Prevents stress-induced mitochondrial dysfunction in neurons
+9. Anticoagulation: Bivalirudin - Inhibits thrombin to prevent thrombosis associated with vaccine injury
+10. Chelation: HexaHis - Chelates potential toxic metals to aid detoxification in vaccine injury
+11. Spike protein neutralization: 13AApi - Binds to RBD of spike protein to neutralize its effects and prevent further damage
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Vaccine Induced Damage/Injury p01"
+"Loaded_Programs=Vaccine Induced Damage/Injury p02"
+"Loaded_Programs=Vaccine Induced Damage/Injury p03"
+"Loaded_Programs=Vaccine Induced Damage/Injury p04"
+"Loaded_Programs=Vaccine Induced Damage/Injury p05"
+"Loaded_Programs=Vaccine Induced Damage/Injury p06"
+"Loaded_Programs=Vaccine Induced Damage/Injury p07"
+"Loaded_Programs=Vaccine Induced Damage/Injury p08"
+"Loaded_Programs=Vaccine Induced Damage/Injury p09"
+"Loaded_Programs=Vaccine Induced Damage/Injury p10"
+"Loaded_Programs=Vaccine Induced Damage/Injury p11"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M147.068=1,M97.053,M156.101,M97.053,M57.021,M57.021,M57.021,M57.021,M114.043,M57.021,M115.027,M147.068,M129.043,M129.043,M113.084,M97.053,M129.043,M129.043,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M137.059,M137.059,M137.059,M137.059,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M115.027,M128.095,M147.068,M114.043,M137.059,M114.043,M147.068,M128.095,M115.027,M113.084,M147.068,0=4,"
+"[/Preset]"

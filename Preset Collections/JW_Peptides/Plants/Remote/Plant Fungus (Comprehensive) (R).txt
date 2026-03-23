@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Plant Fungus (Comprehensive) (R)"
+"Preset_Notes=Plant Fungus (Comprehensive) for Remote
+
+Plant Fungus (Comprehensive) encompasses major fungal and oomycete pathogens (Botrytis, Fusarium, Rhizoctonia, Alternaria, Phytophthora etc.) across crops, involving direct pathogen killing, membrane/cell-wall disruption, immune elicitation, hormonal signaling amplification, and physical barrier reinforcement to minimize infection, sporulation, and yield loss. The proposed polypeptides target 11 evidence-based therapeutic axes derived from plant antifungal peptide literature and exogenous application studies (RsAFP2, NaD1, Systemin, AtPep1 plus motif optimizations) for broad-spectrum foliar or seed protection.
+1. RsAFP2-mediated plant defensin glucosylceramide binding and direct fungal growth inhibition: RsAFP2 binds fungal glucosylceramides, inhibits hyphal extension and spore germination across multiple phytopathogens.
+2. NaD1-mediated plant defensin fungal cell penetration and ROS induction: NaD1 enters hyphae, triggers ROS burst and apoptosis-like death in Fusarium and Botrytis.
+3. Systemin-mediated systemic jasmonate/ethylene defense signaling for necrotrophs: Systemin activates long-distance JA/ET responses and protease inhibitors effective against necrotrophic fungi.
+4. AtPep1-mediated endogenous DAMP elicitor immune amplification: AtPep1 activates PEPR receptors, upregulates PR genes and PTI against diverse fungal invaders.
+5. Cationic amphipathic motif direct fungal membrane pore-forming lysis: disrupts fungal plasma membrane integrity leading to leakage and death.
+6. Gamma-core motif multi-mode intracellular fungal targeting: interferes with fungal cell processes, entry and viability.
+7. Balanced ROS modulation for pathogen-targeted hypersensitive response: induces controlled ROS in fungi while protecting plant tissue.
+8. Proline-rich motif promotion of fungal cell-wall callose and lignin deposition: fortifies physical barriers at penetration sites.
+9. WRG-repeat motif salicylic acid pathway priming and SAR: primes SA-dependent systemic resistance against biotrophic fungi.
+10. Motif enhancement of JA-ET hormonal crosstalk: coordinates defense against necrotrophic fungal complexes.
+11. Lysine-rich stabilized motif for foliar delivery, uptake and protease resistance: engineered optimization for field stability, leaf penetration and prolonged activity.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Plant Fungus (Comprehensive) p01"
+"Loaded_Programs=Plant Fungus (Comprehensive) p02"
+"Loaded_Programs=Plant Fungus (Comprehensive) p03"
+"Loaded_Programs=Plant Fungus (Comprehensive) p04"
+"Loaded_Programs=Plant Fungus (Comprehensive) p05"
+"Loaded_Programs=Plant Fungus (Comprehensive) p06"
+"Loaded_Programs=Plant Fungus (Comprehensive) p07"
+"Loaded_Programs=Plant Fungus (Comprehensive) p08"
+"Loaded_Programs=Plant Fungus (Comprehensive) p09"
+"Loaded_Programs=Plant Fungus (Comprehensive) p10"
+"Loaded_Programs=Plant Fungus (Comprehensive) p11"
+"Loaded_Frequencies=M71.037=1,M99.068,M128.059,M87.032,M128.095,M97.053,M97.053,M87.032,M128.095,M156.101,M115.027,M97.053,M97.053,M128.095,M131.040,M128.059,M101.048,M115.027,0=4,"
+"Loaded_Frequencies=M71.037=1,M101.048,M128.095,M99.068,M128.095,M71.037,M128.095,M128.059,M156.101,M57.021,M128.095,M129.043,M128.095,M99.068,M87.032,M87.032,M57.021,M156.101,M97.053,M57.021,M128.059,M137.059,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M87.032,M128.095,M156.101,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M103.009,M128.059,M156.101,M97.053,M87.032,M57.021,M101.048,M186.079,M87.032,M57.021,M99.068,M103.009,M57.021,M114.043,M114.043,M114.043,M71.037,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M103.009,M156.101,M156.101,M186.079,M128.059,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M156.101,M156.101,M156.101,M87.032,M99.068,M128.059,M186.079,M103.009,M71.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M113.084,M128.095,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,0=4,"
+"[/Preset]"

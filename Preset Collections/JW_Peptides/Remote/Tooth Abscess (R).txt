@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Tooth Abscess (R)"
+"Preset_Notes=Tooth Abscess for Remote
+
+Tooth abscess is a localized bacterial infection (commonly involving anaerobes such as Streptococcus, Actinomyces, Porphyromonas, and Fusobacterium) leading to pus accumulation, severe pain, swelling, and potential systemic complications. The proposed polypeptides target evidence-based therapeutic axes from oral microbiology, periodontal research, and wound healing studies, focusing on antimicrobial clearance, biofilm disruption, inflammation resolution, and tissue regeneration.
+
+1. Human cathelicidin broad-spectrum antimicrobial and anti-biofilm activity: LL-37 directly kills oral pathogens, disrupts biofilms, and is natively expressed in oral epithelium and saliva.
+2. Stable gastric pentadecapeptide periodontal and mucosal healing: BPC-157 promotes fibroblast activity, collagen organization, and bone/tissue regeneration in dental extraction and periodontal defect models.
+3. Modified thymosin {beta}4 fragment cell migration and repair: TB-500 (Ac-LKKTETQ-NH2) enhances actin dynamics, angiogenesis, and anti-inflammatory effects for periapical tissue recovery.
+4. {alpha}-MSH-derived tripeptide inflammation resolution: KPV potently suppresses pro-inflammatory cytokines to reduce swelling and pain.
+5. Copper-binding tripeptide regenerative and antioxidant support: GHK-Cu stimulates ECM remodeling, growth factors, and protective effects in oral tissues.
+6. Engineered minimal cationic core from LL-37 for optimized short-length antimicrobial action: KR-12-NH2 provides potent bactericidal activity with improved stability, lower toxicity, and better penetration for novel oral pathogen targeting.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Tooth Abscess p01"
+"Loaded_Programs=Tooth Abscess p02"
+"Loaded_Programs=Tooth Abscess p03"
+"Loaded_Programs=Tooth Abscess p04"
+"Loaded_Programs=Tooth Abscess p05"
+"Loaded_Programs=Tooth Abscess p06"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"[/Preset]"

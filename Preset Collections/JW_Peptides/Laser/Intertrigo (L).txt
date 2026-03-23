@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Intertrigo (L)"
+"Preset_Notes=Intertrigo for Laser
+
+Intertrigo is an inflammatory dermatosis in skin folds resulting from moisture, friction, and maceration, often complicated by secondary candidal or bacterial infections, leading to erythema, pruritus, and potential fissuring.
+
+1. Antifungal activity: Histatin 5 - Salivary peptide exerting potent candidacidal effects via membrane permeabilization and intracellular targeting in moist environments.
+2. Broad-spectrum antimicrobial: hBD-3 - Human skin defensin with direct microbicidal action against bacteria, fungi, and enveloped viruses while modulating innate immunity.
+3. Antibacterial activity: Indolicidin - Cathelicidin-derived peptide with rapid membrane-disrupting activity against Gram-positive and Gram-negative bacteria.
+4. Anti-inflammatory: Annexin_A1_Ac2-26 - Mimics annexin A1 to promote inflammation resolution, inhibit neutrophil recruitment, and support epithelial repair.
+5. Antioxidant protection: Carnosine - Dipeptide scavenging reactive oxygen species and inhibiting glycation to mitigate oxidative damage in inflamed folds.
+6. Tissue regeneration: Thymosin_beta_4 - Actin-binding peptide accelerating keratinocyte migration, collagen deposition, and wound closure with anti-fibrotic effects.
+7. Optimized topical antimicrobial: (RW)3-NH2 - Designed short alternating arginine-tryptophan hexapeptide disrupting microbial membranes via carpet-like mechanism with high selectivity for pathogens in intertriginous areas.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Intertrigo p01"
+"Loaded_Programs=Intertrigo p02"
+"Loaded_Programs=Intertrigo p03"
+"Loaded_Programs=Intertrigo p04"
+"Loaded_Programs=Intertrigo p05"
+"Loaded_Programs=Intertrigo p06"
+"Loaded_Programs=Intertrigo p07"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M114.043,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M156.101,M186.079,M156.101,M185.095,0=4,"
+"[/Preset]"

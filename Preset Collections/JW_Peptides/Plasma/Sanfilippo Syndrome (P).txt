@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Sanfilippo Syndrome (P)"
+"Preset_Notes=Sanfilippo Syndrome for Plasma
+
+Sanfilippo syndrome (mucopolysaccharidosis type III, MPS III) is a rare group of four autosomal recessive lysosomal storage disorders (subtypes A-D) caused by pathogenic variants in genes encoding enzymes essential for heparan sulfate catabolism: SGSH (type A), NAGLU (type B), HGSNAT (type C), and GNS (type D). Deficient activity leads to progressive intralysosomal accumulation of undegraded heparan sulfate, disrupting cellular homeostasis and eliciting secondary pathologies including ganglioside storage, autophagy impairment, mitochondrial dysfunction, oxidative stress, and robust neuroinflammation driven by microglial activation, inflammasome signaling, and cytokine release. Clinical features emerge in early childhood with developmental delay, hyperactivity, behavioral disturbances, sleep disruption, loss of speech and motor skills, seizures, spasticity, dysphagia, and eventual profound dementia, with death typically in the second or third decade; somatic manifestations are relatively mild, including coarse facial features, hirsutism, joint stiffness, and visceral enlargement.
+
+No approved disease-modifying treatments exist, with care limited to symptomatic support; investigational strategies encompass gene therapy, intracerebroventricular enzyme replacement using large recombinant proteins, substrate reduction with small molecules, and anti-inflammatory biologics, though central nervous system penetration remains a major barrier. The proposed polypeptides are all designed conceptual short C-terminally amidated amphipathic cationic peptides exploiting established cell-penetrating and membrane-active peptide paradigms for synthetic feasibility, proteolytic resistance, potential blood-brain barrier crossing, and targeted intracellular modulation. These incorporate alternating hydrophobic/aromatic and cationic residues to promote helical amphipathicity: the first designed polypeptide utilizes phenylalanine-arginine alternation to reinforce lysosomal integrity and support heparan sulfate trafficking; the second employs lysine-tryptophan for enhanced brain delivery and substrate accumulation mitigation; the third features histidine-tyrosine for reactive oxygen species scavenging and neuroinflammatory suppression; the fourth applies lysine-leucine alternation to facilitate autophagic flux and neuronal survival signaling. Together, these complementary designs address primary storage, secondary neuroinflammation, oxidative damage, and autophagic deficits in a multifaceted manner.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Sanfilippo Syndrome p01"
+"Loaded_Programs=Sanfilippo Syndrome p02"
+"Loaded_Programs=Sanfilippo Syndrome p03"
+"Loaded_Programs=Sanfilippo Syndrome p04"
+"Loaded_Frequencies=M147.068=1,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M155.117,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M186.079,M128.095,M186.079,M128.095,M186.079,M128.095,M185.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M162.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M112.100,0=4,"
+"[/Preset]"

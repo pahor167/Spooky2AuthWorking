@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=Rescue Remedy (L)"
+"Preset_Notes=Rescue Remedy / Spooky Laser
+
+Estimated Time: Run this preset for 15:00 minutes.
+Bach Remedy: Impatiens (CUST)
+Bach Remedy: Cherry Plum (CUST)
+Bach Remedy: Clematis (CUST)
+Bach Remedy: Rock Rose (CUST)
+Bach Remedy: Star of Bethlehem (CUST)
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Rescue Remedy (L)"
+"Loaded_Frequencies=463.06,262.01,415.26,277.99,276.57,"
+"[/Preset]"

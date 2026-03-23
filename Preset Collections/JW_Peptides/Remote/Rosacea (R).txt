@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Rosacea (R)"
+"Preset_Notes=Rosacea for Remote
+
+Rosacea is a chronic inflammatory skin disorder primarily affecting the central face, characterized by recurrent flushing, persistent erythema, telangiectasia, papules, pustules, and in advanced cases, phymatous changes such as rhinophyma. It predominantly impacts adults with fair skin, often triggered or exacerbated by environmental factors (UV light, heat, spicy foods, alcohol), stress, or microbial stimuli. Symptoms include burning, stinging, dryness, ocular involvement (blepharitis, conjunctivitis), and significant psychosocial distress due to visible changes. Pathophysiology involves multifaceted dysregulation including neurovascular hyperreactivity leading to vasodilation and flushing, innate immune overactivation with aberrant processing of cathelicidin (LL-37) by kallikrein 5 promoting inflammation, mast cell degranulation, skin barrier impairment facilitating microbial triggers (Demodex mites, associated bacteria), oxidative stress, and potential gut-skin axis contributions.
+
+The proposed polypeptides target key therapeutic axes in rosacea: modulation of excessive innate immunity and cathelicidin-driven inflammation, neurovascular stabilization with reduced flushing and erythema, antioxidant support and extracellular matrix remodeling for barrier restoration, and selective anti-inflammatory resolution preserving protective responses. Real-world polypeptides include BPC-157 (stable gastric pentadecapeptide with preclinical evidence for anti-inflammatory effects and tissue protection applicable to dermal inflammation) and GHK (endogenous copper-binding tripeptide widely used in topical formulations for rosacea-prone skin, promoting remodeling, antioxidant activity, and collagen synthesis). Designed polypeptides include a stabilized TB4-core (derived from the LKKTET actin-binding motif of Thymosin beta-4 with N-acetylation and C-amidation for enhanced stability and resistance to proteases, to support barrier repair and anti-inflammatory migration), a GHK-multimer (rational repeat extension of GHK motif with terminal modifications to amplify copper chelation, antioxidant effects, and remodeling signals tailored for rosacea erythema and texture improvement), and an IDR-inspired (based on innate defense regulator motifs like IDR-1018 with C-amidation for selective immunomodulation, attenuating excessive LL-37/cathelicidin-mediated inflammation while maintaining antimicrobial defense).
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Rosacea p01"
+"Loaded_Programs=Rosacea p02"
+"Loaded_Programs=Rosacea p03"
+"Loaded_Programs=Rosacea p04"
+"Loaded_Programs=Rosacea p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,M57.021,M57.021,M57.021,M137.059,M128.095,M57.021,M57.021,M57.021,M137.059,M127.111,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"[/Preset]"

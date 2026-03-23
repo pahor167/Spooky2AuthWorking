@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Mimulus (R)"
+"Preset_Notes=Mimulus / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Mimulus - Fear of known things.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Mimulus (R)"
+"Loaded_Frequencies=492.23,"
+"[/Preset]"

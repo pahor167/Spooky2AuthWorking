@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Trichothiodystrophy (Coil)"
+"Preset_Notes=Trichothiodystrophy for Coil
+
+Trichothiodystrophy (TTD) is a rare autosomal recessive neuroectodermal disorder characterized by sulfur-deficient brittle hair, leading to the hallmark 'tiger-tail' banding pattern under polarized light microscopy due to alternating light and dark bands from low cysteine content in hair keratins. The condition arises primarily from mutations in genes encoding subunits of the transcription factor IIH (TFIIH) complex, such as ERCC2 (XPD), ERCC3 (XPB), and GTF2H5 (TTDA), which impair nucleotide excision repair (NER) of DNA damage and basal transcription processes. Approximately half of TTD cases exhibit photosensitivity linked to defective NER, resulting in heightened vulnerability to UV-induced DNA lesions like cyclobutane pyrimidine dimers and 6-4 photoproducts, though without the elevated skin cancer risk seen in xeroderma pigmentosum due to partial retention of global genome repair. Non-photosensitive forms may involve mutations in MPLKIP or other genes affecting RNA splicing or protein stability. Symptoms manifest variably, including ichthyosis, nail dystrophy, short stature, intellectual disability, neurological deficits such as ataxia or seizures, recurrent infections from immune dysregulation, progeroid features like premature aging, and fertility issues. Pathophysiologically, unstable TFIIH leads to transcriptional stalling, reduced expression of cysteine-rich matrix proteins in hair, heightened oxidative stress from mitochondrial dysfunction and altered redox homeostasis, and accumulation of unrepaired oxidative DNA damage like 8-oxoguanine, exacerbating cellular senescence and tissue degeneration. Environmental triggers like UV exposure worsen symptoms, while intrinsic factors include disrupted sulfur metabolism and ectodermal differentiation, contributing to multisystem failure if unmanaged.
+
+The proposed designed polypeptides target core mechanisms of TTD to mitigate its progression. For NER DNA repair enhancement, the designed polypeptide facilitates TFIIH recruitment to damaged sites, improving lesion excision and resynthesis, with feasibility rooted in peptide-based stabilizers of repair complexes and modes of action via allosteric modulation of XPD helicase activity; physicochemical properties ensure cellular penetration and resistance to proteolysis. For TFIIH stabilization in transcription, the designed polypeptide binds the ARCH domain of XPD to prevent complex dissociation, restoring RNA polymerase II initiation, feasible through mimetic peptides of TTDA interactions, acting by enhancing subunit affinity with considerations for nuclear localization. For redox homeostasis improvement, the designed polypeptide scavenges reactive oxygen species and bolsters NRF2 pathway activation, reducing mitochondrial oxidative burden, supported by antioxidant peptide precedents, via thiol-based redox buffering and stability in oxidative environments. For sulfur metabolism correction aiding hair integrity, the designed polypeptide promotes cysteine incorporation into keratins by modulating transsulfuration pathways, feasible in sulfur-mimetic peptides, functioning through enzyme activation with emphasis on bioavailability and non-toxicity.
+
+"
+"Loaded_Programs=Trichothiodystrophy p01"
+"Loaded_Programs=Trichothiodystrophy p02"
+"Loaded_Programs=Trichothiodystrophy p03"
+"Loaded_Programs=Trichothiodystrophy p04"
+"Loaded_Frequencies=M57.021=1,M137.059,M156.101,M97.053,M128.095,M87.032,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M115.027,M128.058,M99.068,M113.084,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M103.009=1,M163.063,M97.053,M131.040,M137.059,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M103.009=1,M87.032,M57.021,M128.095,M131.040,M97.053,M156.101,0=4,"
+"[/Preset]"

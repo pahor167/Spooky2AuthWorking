@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Dog Coronavirus (L)"
+"Preset_Notes=Dog Coronavirus for Laser
+
+Dog coronavirus infection is a viral disease affecting the gastrointestinal tract of dogs, caused by canine coronavirus (CCoV), often leading to mild to severe diarrhea, vomiting, lethargy, and dehydration, particularly in puppies. Pathophysiology involves viral replication in enterocytes, leading to villous atrophy, malabsorption, and secondary bacterial infections. The proposed polypeptides address this through antiviral and immune-boosting mechanisms: Interferon omega (truncated form) stimulates antiviral responses by inducing interferon-stimulated genes; the designed polypeptide D1 inhibits viral entry; Defensin-alpha provides broad antimicrobial activity against secondary infections; the designed polypeptide D2 enhances mucosal immunity. Designed polypeptides are flagged as conceptual, with rationale including membrane-penetrating properties and stability in GI environments for feasibility.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Dog Coronavirus p01"
+"Loaded_Programs=Dog Coronavirus p02"
+"Loaded_Programs=Dog Coronavirus p03"
+"Loaded_Programs=Dog Coronavirus p04"
+"Loaded_Frequencies=M57.021=1,M137.059,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M156.101,M113.084,M156.101,M128.095,M128.058,M71.037,M99.068,M113.084,M128.095,M114.043,M99.068,0=4,"
+"Loaded_Frequencies=M103.009=1,M87.032,M113.084,M103.009,M87.032,M113.084,M103.009,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M99.068,M128.095,M113.084,M99.068,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M156.101,M97.053,M156.101,0=4,"
+"[/Preset]"

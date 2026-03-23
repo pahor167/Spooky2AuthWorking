@@ -1,0 +1,50 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Dyshidrotic Eczema (Pompholyx) (S)"
+"Preset_Notes=Dyshidrotic Eczema (Pompholyx) for Scalar
+
+Dyshidrotic eczema (pompholyx) is a recurrent, pruritic vesicular eruption on palms, soles, and lateral fingers, involving inflammation, epidermal barrier disruption, intense itching (with possible neuropathic components), and risk of secondary infections due to scratching or dysbiosis.
+
+The proposed polypeptides target evidence-based axes from eczema literature, preclinical skin inflammation models, and mechanistic overlap with barrier dysfunction, pruritus, and repair processes.
+
+1. {alpha}-MSH-derived tripeptide anti-inflammatory effects: KPV potently suppresses inflammatory cytokines and resolves skin inflammation/pruritus.
+2. Copper tripeptide-mediated regeneration and antioxidant support: GHK-Cu promotes ECM synthesis, wound healing, and oxidative stress reduction in damaged skin.
+3. Gastric pentadecapeptide-mediated tissue healing: BPC-157 accelerates repair, angiogenesis, and integrity in inflammatory lesions.
+4. Thymosin {beta}4 fragment-mediated actin regulation and migration: TB-500 enhances epithelial cell migration, reduces fibrosis, and supports vesicle resolution.
+5. Human cathelicidin antimicrobial and immunomodulatory effects: LL-37 defends against bacterial/viral pathogens and modulates immunity in barrier-impaired skin.
+6. Tryptophan-rich cathelicidin antimicrobial effects: Indolicidin provides broad-spectrum activity and anti-biofilm protection suited to moist palmoplantar areas.
+7. EPO-derived peptide tissue protection: ARA 290 (Cibinetide) reduces inflammation, promotes repair, and alleviates neuropathic pruritus via innate repair receptor.
+8. Engineered stable {alpha}-MSH analog optimization: K(D)PT incorporates D-proline for proteolytic resistance, extending anti-inflammatory duration.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Dyshidrotic Eczema (Pompholyx) p01"
+"Loaded_Programs=Dyshidrotic Eczema (Pompholyx) p02"
+"Loaded_Programs=Dyshidrotic Eczema (Pompholyx) p03"
+"Loaded_Programs=Dyshidrotic Eczema (Pompholyx) p04"
+"Loaded_Programs=Dyshidrotic Eczema (Pompholyx) p05"
+"Loaded_Programs=Dyshidrotic Eczema (Pompholyx) p06"
+"Loaded_Programs=Dyshidrotic Eczema (Pompholyx) p07"
+"Loaded_Programs=Dyshidrotic Eczema (Pompholyx) p08"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M170.106=1,M97.053,M100.064,0=4,"
+"[/Preset]"

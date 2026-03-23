@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Phenylethylamine (PEA) (Nootropics) (R) - JRG"
+"Loaded_Programs=Phenylethylamine (PEA) (CUST)"
+"Loaded_Frequencies=M121.08915,"
+"Preset_Notes=Phenylethylamine (PEA) is a trace amino acid synthesized from Phenylalanine in your brain.|PEA is an endogenous (natural) amphetamine in your brain. And its structure is the basis for dozens of amphetamine-based drugs including Adderall (amphetamine), appetite suppressants, decongestants, antidepressants, and psychedelics like MDMA and mescaline.|PEA activates TAAR1 and TAAR2 receptors which in turn prevent the uptake and boosts the release of the 'feel-good' neurotransmitters serotonin and dopamine.|PEA has a very short half-life including as a nootropic because it's quickly degraded by monoamine oxidase-B. So many neurohackers stack PEA with a MAO-B inhibitor like low-dose selegiline (L-deprenyl), hordenine, or Oat Straw.|Dosage of Phenylethylamine (PEA) is 500 mg up to 3-times per day. More is NOT better of this nootropic and too much can cause severe side effects including rapid heart rate.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

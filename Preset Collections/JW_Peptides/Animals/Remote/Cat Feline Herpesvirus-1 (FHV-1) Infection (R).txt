@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Cat Feline Herpesvirus-1 (FHV-1) Infection (R)"
+"Preset_Notes=Cat Feline Herpesvirus-1 (FHV-1) Infection for Remote
+
+Feline herpesvirus-1 (FHV-1) is a prevalent alphaherpesvirus causing acute upper respiratory tract disease, conjunctivitis, and corneal ulcers in cats, with lifelong latency and stress-induced reactivation. Standard care includes systemic/topical antivirals (e.g., famciclovir, cidofovir), L-lysine (limited efficacy), and supportive measures against secondary infections. The proposed polypeptides target complementary axes from antiviral peptide research, immune modulation studies, and tissue repair models to inhibit virus, bolster host defenses, reduce symptoms, and accelerate recovery.
+
+1. Broad antiviral envelope disruption and secondary infection prevention: LL-37 exhibits direct virucidal activity against enveloped herpesviruses and broad antimicrobial effects.
+2. Thymic immune enhancement and T-cell support: Thymosin_alpha_1 promotes immune function with reported benefits in herpesvirus models.
+3. Anti-inflammatory cytokine modulation: KPV suppresses excessive inflammation in mucosal and ocular tissues.
+4. Mucosal stabilization and epithelial protection: BPC-157 accelerates healing in respiratory and conjunctival epithelia.
+5. Actin-mediated cell migration and wound repair: TB-500 facilitates faster tissue recovery and anti-fibrotic remodeling.
+6. Regenerative matrix stimulation: GHK-Cu enhances collagen organization and skin/mucosal regeneration.
+7. Non-erythropoietic innate immune regulation: ARA-290 provides tissue protection during inflammatory viral episodes.
+8. Optimized core antiviral motif: LL37-Core-Eng (designed Ac-FKRIVQRIKDFLR-NH2) is an engineered LL-37 fragment refined for enhanced herpesvirus entry inhibition and stability.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Cat Feline Herpesvirus-1 (FHV-1) Infection p01"
+"Loaded_Programs=Cat Feline Herpesvirus-1 (FHV-1) Infection p02"
+"Loaded_Programs=Cat Feline Herpesvirus-1 (FHV-1) Infection p03"
+"Loaded_Programs=Cat Feline Herpesvirus-1 (FHV-1) Infection p04"
+"Loaded_Programs=Cat Feline Herpesvirus-1 (FHV-1) Infection p05"
+"Loaded_Programs=Cat Feline Herpesvirus-1 (FHV-1) Infection p06"
+"Loaded_Programs=Cat Feline Herpesvirus-1 (FHV-1) Infection p07"
+"Loaded_Programs=Cat Feline Herpesvirus-1 (FHV-1) Infection p08"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M97.053,M156.101,M113.084,M99.068,M101.048,M129.043,M87.032,M101.048,M129.043,M87.032,M87.032,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M71.037,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M127.074,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M189.079=1,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M155.117,0=4,"
+"[/Preset]"

@@ -1,0 +1,15 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Peutz-Jeghers Syndrome (Coil)"
+"Preset_Notes=Peutz-Jeghers Syndrome for Coil
+
+Peutz-Jeghers Syndrome (PJS) is an autosomal dominant hereditary disorder caused by germline loss-of-function mutations in the STK11 (LKB1) tumor suppressor gene, which encodes a master kinase regulating cellular energy homeostasis, polarity, and growth. The absence of functional LKB1 leads to constitutive activation of the mTORC1 signaling pathway due to impaired AMPK-mediated inhibition, resulting in uncontrolled protein synthesis, cell proliferation, and the development of characteristic hamartomatous polyps throughout the gastrointestinal tract. Patients face a dramatically elevated lifetime risk of gastrointestinal, breast, pancreatic, and gynecologic malignancies, necessitating rigorous surveillance protocols. While current management relies on endoscopic and surgical polypectomy alongside cancer screening, there is no approved medical therapy to prevent polyp formation or progression. Preclinical studies highlight three key therapeutic axes: (1) restoration of LKB1 function, (2) inhibition of hyperactive mTORC1 signaling, and (3) modulation of downstream translational effectors like S6K and 4E-BP1. The proposed set includes one real-world investigational peptide-the LKB1 nuclear localization signal (NLS) peptide (YARAAARQARA)-demonstrated in peer-reviewed studies to restore LKB1 nuclear trafficking and function in STK11-deficient cells. Complementing this, two designed peptides are introduced: D1-mTORC1inhibitor, a short motif hypothesized to disrupt mTORC1 assembly, and D2-4EBP1mimetic, engineered to mimic the eIF4E-binding domain of hypophosphorylated 4E-BP1, thereby suppressing cap-dependent translation. Together, these candidates offer a multi-pronged theoretical approach to counteract the core molecular pathology of PJS.
+
+"
+"Loaded_Programs=Peutz-Jeghers Syndrome p01"
+"Loaded_Programs=Peutz-Jeghers Syndrome p02"
+"Loaded_Programs=Peutz-Jeghers Syndrome p03"
+"Loaded_Frequencies=M163.063=1,M71.037,M156.101,M71.037,M71.037,M71.037,M156.101,M156.101,M128.058,M71.037,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M113.084,M97.053,M115.027,0=4,"
+"Loaded_Frequencies=M131.040=1,M147.068,M113.084,M115.027,M156.101,0=4,"
+"[/Preset]"

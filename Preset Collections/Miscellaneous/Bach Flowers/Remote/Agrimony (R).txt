@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Agrimony (R)"
+"Preset_Notes=Agrimony / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Agrimony - Mental torture behind a cheerful face.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Agrimony (R)"
+"Loaded_Frequencies=310.31,"
+"[/Preset]"

@@ -1,0 +1,81 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (C)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=CX Healing B - DB"
+"Preset_Notes=M&L Protocol, Extras. Contact Mode.
+
+Update: September 2019.
+
+This Preset runs five times, then stops. There's a one-minute delay at the start to allow you to get prepared. This Preset runs five times, then stops. There's a one-minute delay at the start to allow you to get prepared. If necessary, the preset may be run on four successive days/nights.
+
+In extreme cirumstances, it can be used for longer, but PLEASE MONITOR VERY CAREFULLY FOR POSSIBLE VITAMIN INTOXICATION. Use when you need a break from killing.
+
+For normal supplementation use, it may be used for one day every week.
+
+These are the essential micronutrients recommended by nutrition consultant Clive de Carle, our guest expert on the SAMA 07 webinar transmitted on 21 April 2017.
+
+http://www.spooky2videos.com/video/episode-07-minerals-and-the-secrets-to-health/
+
+Run once a day for a month, then once daily for seven successive days every second week.
+
+For a high power treatment, connect TENS cable to 'HIGH PWR CONTACT' port of Spooky Boost. For a lower power treatment, connect TENS cable to 'COLLOIDAL SILVER' port of Spooky Boost. If you don't have Spooky Boost, connect TENS cable to Out 1. Connect your Hand Cylinders/Tens Contact Kit item/TENS pads to TENS cable."
+"Loaded_Programs=Magnesium Sulfate (MW)"
+"Loaded_Programs=Lugol's Iodine (MW)"
+"Loaded_Programs=Minerals - Selenium (MW)"
+"Loaded_Programs=Minerals - Zinc (MW)"
+"Loaded_Programs=Minerals - Chromium (MW)"
+"Loaded_Programs=V-23 Vanadium (MW)"
+"Loaded_Programs=Lithium Orotate (MW)"
+"Loaded_Programs=Minerals - Phosphorus (MW)"
+"Loaded_Programs=Minerals - Potassium (MW)"
+"Loaded_Programs=Minerals - Sulfur (MW)"
+"Loaded_Programs=Fulvic Acid (MW)"
+"Loaded_Programs=Humic Acid Sodium Salt (MW)"
+"Loaded_Programs=Humic Acid Potassium Salt (MW)"
+"Loaded_Programs=Vitamin A (MW)"
+"Loaded_Programs=Vitamin B1 (MW)"
+"Loaded_Programs=Vitamin B2 (MW)"
+"Loaded_Programs=Vitamin B3 (MW)"
+"Loaded_Programs=Vitamin B5 (MW)"
+"Loaded_Programs=Vitamin B6 (MW)"
+"Loaded_Programs=Vitamin B7 (MW)"
+"Loaded_Programs=Vitamin B9 (MW)"
+"Loaded_Programs=Methylcobalamin (MW)"
+"Loaded_Programs=Hydroxocobalamin (MW)"
+"Loaded_Programs=Vitamin B12 (MW)"
+"Loaded_Programs=Vitamin C (MW)"
+"Loaded_Programs=Vitamin D (MW)"
+"Loaded_Programs=Vitamin E (MW)"
+"Loaded_Programs=Vitamin K (MW)"
+"Loaded_Programs=Glutathione (MW)"
+"Loaded_Frequencies=~7540M570.287=180,"
+"Loaded_Frequencies=M419.812=180,"
+"Loaded_Frequencies=M78.971=180,"
+"Loaded_Frequencies=M65.38=180,"
+"Loaded_Frequencies=M51.996=180,"
+"Loaded_Frequencies=M50.9415=180,"
+"Loaded_Frequencies=M162.029=180,"
+"Loaded_Frequencies=M33.998=180,"
+"Loaded_Frequencies=M39.098=180,"
+"Loaded_Frequencies=M34.076=180,"
+"Loaded_Frequencies=M308.242=180,"
+"Loaded_Frequencies=M226.139=180,"
+"Loaded_Frequencies=M258.356=180,"
+"Loaded_Frequencies=M286.459=180,"
+"Loaded_Frequencies=M265.355=180,"
+"Loaded_Frequencies=M376.369=180,"
+"Loaded_Frequencies=M123.111=180,"
+"Loaded_Frequencies=M476.536=180,"
+"Loaded_Frequencies=M169.18=180,"
+"Loaded_Frequencies=M244.309=180,"
+"Loaded_Frequencies=M441.404=180,"
+"Loaded_Frequencies=~6470M0842.5566=180,"
+"Loaded_Frequencies=~8673M9558.3540=180,"
+"Loaded_Frequencies=M1355.388=180,"
+"Loaded_Frequencies=M176.124=180,"
+"Loaded_Frequencies=M384.648=180,"
+"Loaded_Frequencies=M430.717=180,"
+"Loaded_Frequencies=M450.707=180,"
+"Loaded_Frequencies=~8275M290.223=180,"
+"[/Preset]"

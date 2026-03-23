@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Ginkgo Biloba (Nootropics) (R) - JRG"
+"Loaded_Programs=Ginkgo Biloba (CUST)"
+"Loaded_Frequencies=M215.02523,"
+"Preset_Notes=Ginkgo Biloba comes from the leaves of the Ginkgo tree native to China. The leaves have been used for thousands of years to boost mental alertness, improve cerebral circulation, and the overall function of the brain.|As a nootropic, Ginkgo has been shown to be particularly effective in elderly memory loss, slow thinking and reasoning, and tinnitus. One study shows significant improvement in Parkinson's and Alzheimer patients.|Nootropics-GINKGO-Biloba-tree. Most noticeable in adults suffering cognitive decline, Ginkgo Biloba seems to improve short term memory and recall. It's also effective in reducing stress and anxiety, and boosting mood.|Dosage of Ginkgo Biloba is typically 120 - 240 mg. per day with food. Caution should be taken because Ginkgo can increase internal bleeding in some users.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"PresetName=Cancer (Bacillus Licheniformis) (C) - JW"
+"Preset_Notes=This preset was modelled using information from Jeff Sutherland. He wrote:
+
+'Some years ago Lancet published an article where researchers in the U.K. had DNA sequenced the organism found in every cancer cell. It was bacillus licheniformis. Eliminating this in the body will cause cancer cells to die off and generate 'sponaneous remission.'
+
+An interesting example of this was a client that insisted on agressive treatment. Ultrasound led to malignant biopsy in a leading Boston Hospital affiliated with Harvard. She opted for immediate lumpectomy which showed malignancy had spread to lymph nodes. A mastectomy was scheduled. I told the surgeon that as a previous Professor of Radiology and cancer researcher I knew a lot about this problem and would be eliminating bacillus licheniformis while the client was waiting for surgury.
+
+At the time of mastectomy there was not a single living cancer cell in the body and the client was declared cancer free. They had a Grand Rounds presentation of this remarkable case of 'spontaneous remission.' No one could figure it out. The surgeon, to her credit, halted all further treatment and the client is well and happy some years later. She is under regular review by her physician team and is regularly treated for bacillus licheniformis to avoid recurrence. This organism is widespread in the population and the environment. People are easily reinfected and it needs constant checkup in a person who has had cancer.'
+
+This preset targets bacillus licheniformis using all the database entries within Spooky.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.||The signal has no offset to cause skin burns.||For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the Colloidal_Silver port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.||Stop treatment if you experience any discomfort."
+"Loaded_Programs=Bacillus Licheniformis (XTRA)"
+"Loaded_Programs=Bacillus licheniformis #1 (DNA)"
+"Loaded_Programs=Bacillus licheniformis #2 (DNA)"
+"Loaded_Programs=Bacillus licheniformis (DNA)"
+"Loaded_Frequencies=2655=180,21554=180,"
+"Loaded_Frequencies=~9341BC3128387=180,~0095BC7648058=180,~1384BC3917735=180,~6722BC3769257=180,~4328BC3750362=180,~5982BC8829133=180,~6271BC3974644=180,~4131BC2793582=180,~2627BC3796028=180,~0868BC7798684=180,~4670BC3282373=180,~9017BC3243281=180,~7513BC3586925=180,~5844BC9592120=180,~9556BC8928904=180,~4994BC4317702=180,~2599BC8980732=180,~3153BC0504922=180,~5443BC3846593=180,~9880BC8070031=180,"
+"Loaded_Frequencies=~8058BC9396480=180,~9602BC3571257=180,~0091BC0342758=180,~5439BC9319595=180,~3935BC0306821=180,~4689BC6826811=180,~5978BC8219140=180,~3738BC9328713=180,~8811BC0394784=180,~9575BC4093602=180,~3277BC7905421=180,~8625BC9719803=180,~6220BC0054413=180,"
+"Loaded_Frequencies=~9755BC4030619=180,"
+"[/Preset]"

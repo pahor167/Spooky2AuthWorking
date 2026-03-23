@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Ankyloblepharon (R)"
+"Preset_Notes=Ankyloblepharon for Remote
+
+Ankyloblepharon is a rare congenital ocular anomaly characterized by partial or complete fusion of the upper and lower eyelid margins, resulting in restricted or absent eyelid opening at birth. The most common variant is ankyloblepharon filiforme adnatum (AFA), featuring thin filamentous tissue bands connecting the eyelids, often allowing limited visibility but impairing full movement; other forms include partial or total fusion. It may occur isolated (sporadic or familial) or syndromically, notably in Hay-Wells/Ankyloblepharon-Ectodermal Defects-Clefting (AEC) syndrome due to heterozygous mutations in TP63, Van der Woude/popliteal pterygium syndromes linked to IRF6 mutations, or rarer associations with FOXE3, RIPK4 (CHAND syndrome), or other genes. Symptoms include potential amblyopia from visual deprivation if severe, exposure keratopathy, corneal ulceration, tearing abnormalities, and associated systemic features in syndromic cases (e.g., ectodermal dysplasia with sparse hair, dental anomalies, nail dystrophy, cleft lip/palate, skin erosions). Pathophysiology stems from disrupted fetal eyelid development: eyelids normally fuse around 8-9 weeks gestation for protection and separate by 20-28 weeks via coordinated apoptosis, epithelial keratinization, migration, and junction dissolution at the lid margins; mutations in key transcription factors (e.g., p63 regulating stratification, proliferation, and apoptosis; IRF6 influencing intercellular adhesion) or downstream effectors impair this separation, leading to persistent fusion or fibrotic bands, with possible secondary inflammation or scarring.
+
+The proposed polypeptides are entirely conceptually designed short sequences, as comprehensive searches across PubMed, clinicaltrials.gov, patents, and databases identified no real-world polypeptide, peptide, or protein therapeutics (established, investigational, or preclinical) for ankyloblepharon; management is exclusively surgical (e.g., band excision, lid reconstruction) with supportive care to prevent complications, and no targeted molecular therapies exist due to rarity and developmental etiology. These designed polypeptides target five core mechanistic axes derived from established genetic and developmental pathophysiology: (1) TP63/p63 signaling dysregulation, addressed by the first designed polypeptide to restore transcriptional control over epithelial proliferation and apoptosis; (2) IRF6 pathway impairment, targeted by the second designed polypeptide to normalize adhesion molecule expression and lid margin dissolution; (3) defective programmed cell death in the eyelid fusion zone, enhanced by the third designed polypeptide to promote apoptotic clearance; (4) abnormal ectodermal/epithelial differentiation and stratification, modulated by the fourth designed polypeptide to support keratinization and maturation; (5) fibrotic tissue persistence in connecting bands, countered by the fifth designed polypeptide to inhibit collagen deposition and promote resolution. Collectively, these provide conceptual multi-axis coverage for potential preventive or adjunctive therapy in at-risk genetic cases or to facilitate non-surgical separation, with feasibility informed by parallels in ectodermal dysplasia models and developmental biology.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Ankyloblepharon p01"
+"Loaded_Programs=Ankyloblepharon p02"
+"Loaded_Programs=Ankyloblepharon p03"
+"Loaded_Programs=Ankyloblepharon p04"
+"Loaded_Programs=Ankyloblepharon p05"
+"Loaded_Frequencies=M156.101=1,M71.037,M128.095,M87.032,M97.053,M57.021,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M97.053=1,M113.084,M128.095,M156.101,M147.068,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M163.063=1,M147.068,M137.059,M186.079,M163.063,M147.068,M137.059,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.095,M128.095,M156.101,M147.068,M99.068,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M128.095,M137.059,M71.037,M57.021,M186.079,M101.048,0=4,"
+"[/Preset]"

@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Insulin Receptor (IR) Correction (S)"
+"Preset_Notes=Insulin Receptor (IR) Correction for Scalar
+
+Insulin receptor (IR) dysfunction, characterized by impaired ligand binding, reduced receptor tyrosine kinase activity, or accelerated receptor degradation, is the primary driver of severe insulin resistance syndromes and type 2 diabetes. Correcting IR function involves enhancing the structural stability of the receptor dimer, mimicking insulin-induced conformational changes without triggering mitogenic pathways, and preventing the inhibitory phosphorylation of the insulin receptor substrate (IRS) proteins. Therapeutic intervention targets the extracellular alpha-subunits to facilitate allosteric activation or the intracellular beta-subunits to sustain autophosphorylation. Modern polypeptide design focuses on biased signaling to favor metabolic glucose uptake over cellular proliferation, ensuring homeostatic glucose control while minimizing oncogenic risk.
+
+1. Insulin Mimicry: S597 - An insulin receptor agonist that binds to a site distinct from insulin, promoting glucose uptake with reduced mitogenic activity.
+2. Tyrosine Kinase Sensitization: IR-A-Agonist - Enhances the catalytic efficiency of the IR beta-subunit to sustain downstream PI3K/Akt signaling.
+3. Degradation Inhibition: Grb10-Inhibitor - Disrupts the binding of Grb10 to the activated receptor, preventing premature ubiquitination and degradation.
+4. Allosteric Modulation: Site-2 Peptide - Binds to the secondary interaction surface of the IR to stabilize the high-affinity 'active' conformation.
+5. IRS-1 Stabilization: Phospho-YMXM-Peptide - Acts as a competitive decoy for protein tyrosine phosphatases (PTPs) to maintain IRS-1 in its active phosphorylated state.
+6. Internalization Delay: Clathrin-Blocker-P4 - Specifically inhibits the clathrin-mediated endocytosis of the IR complex to increase cell-surface density.
+7. Receptor Chaperoning: BIP-Mimetic - Assists in the proper folding and membrane trafficking of mutated IR variants in Congenital Insulin Resistance.
+8. Optimization Axis (Designed): IR-Sync-1 - A synthetic bivalent peptide designed to cross-link IR monomers and force the closure of the kinase domains in the absence of insulin.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Insulin Receptor (IR) Correction p01"
+"Loaded_Programs=Insulin Receptor (IR) Correction p02"
+"Loaded_Programs=Insulin Receptor (IR) Correction p03"
+"Loaded_Programs=Insulin Receptor (IR) Correction p04"
+"Loaded_Programs=Insulin Receptor (IR) Correction p05"
+"Loaded_Programs=Insulin Receptor (IR) Correction p06"
+"Loaded_Programs=Insulin Receptor (IR) Correction p07"
+"Loaded_Programs=Insulin Receptor (IR) Correction p08"
+"Loaded_Frequencies=M147.068=1,M163.063,M115.027,M129.043,M113.084,M113.084,M128.058,M113.084,M163.063,M113.084,M113.084,M57.021,M147.068,M128.058,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M113.084,M156.101,M129.043,M113.084,M113.084,M156.101,M129.043,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M113.084,M113.084,M113.084,M113.084,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M128.058=1,M113.084,M101.048,M129.043,M115.027,M128.058,M113.084,M101.048,M129.043,M115.027,0=4,"
+"Loaded_Frequencies=M163.063=1,M131.040,M57.021,M131.040,M163.063,M131.040,M57.021,M131.040,M243.029,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M113.084,M113.084,M113.084,M97.053,M97.053,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M115.027,M129.043,M113.084,M113.084,M115.027,M129.043,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,0=4,"
+"[/Preset]"

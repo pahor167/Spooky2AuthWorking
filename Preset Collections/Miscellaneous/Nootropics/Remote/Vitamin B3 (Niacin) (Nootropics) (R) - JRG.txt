@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Vitamin B3 (Niacin) (Nootropics) (R) - JRG"
+"Loaded_Programs=Vitamin B3 (Niacin) (CUST)"
+"Loaded_Frequencies=M123.03203,"
+"Preset_Notes=Vitamin B3 (Niacin or nicotinic acid) is used in the synthesis of Coenzyme A which helps to form Acetyl-CoA. Acetyl-CoA joins with choline to form acetylcholine.|Vitamin B3 also supports over 200 other chemical reactions in your body including cellular energy production and fatty acid synthesis.|Food sources of Vitamin B3 include beef, poultry, fish, peanuts and lentils.|Vitamin B3 (Niacin) is the only B vitamin that can be synthesized in the liver from the amino acid Tryptophan.|Niacin causes blood vessels to dilate or open up which is especially noticeable near the skin. Taking regular niacin as a nootropic supplement can cause a tingling sensation or red flushing of the skin.|1,000 mg of extended-release Niacin taken 3-times per day can improve memory, and correct some senility problems. Dosing 50 - 1,000 mg at bedtime taken at bedtime may help you sleep better.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

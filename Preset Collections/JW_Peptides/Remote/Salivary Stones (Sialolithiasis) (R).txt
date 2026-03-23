@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Salivary Stones (Sialolithiasis) (R)"
+"Preset_Notes=Salivary Stones (Sialolithiasis) for Remote
+
+Salivary stones (sialolithiasis) are calcified obstructions primarily in submandibular ducts, caused by calcium phosphate deposition, saliva stagnation, inflammation, and occasional bacterial involvement. Proposed polypeptides target mechanisms identified in current literature: enhancing salivary flow for expulsion, inhibiting crystal growth, providing antimicrobial defense, suppressing inflammation, and protecting glandular tissue.
+
+1. Salivary flow stimulation: VIP - Neuropeptide that potently induces fluid and electrolyte secretion from salivary glands to promote duct clearance.
+2. Hydroxyapatite crystallization inhibition: StN-15 - Designed analog of statherin N-terminal domain that adsorbs to crystal surfaces preventing growth and stone progression.
+3. Broad-spectrum antimicrobial: LL-37 - Cathelicidin peptide active against bacteria linked to ductal biofilm and secondary infections.
+4. Salivary antimicrobial enhancement: Histatin 5 - Endogenous salivary peptide with antibacterial, antifungal, and wound-healing activities.
+5. Targeted anti-inflammation: KPV - Tripeptide that potently inhibits pro-inflammatory cytokines in glandular tissues.
+6. Salivary gland-derived anti-inflammation: feG - Submandibular-derived tripeptide attenuating leukocyte activation and inflammatory responses.
+7. Tissue neuroprotection: ARA-290 - Selective non-hematopoietic erythropoietin analog reducing inflammation and protecting salivary gland integrity.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Salivary Stones (Sialolithiasis) p01"
+"Loaded_Programs=Salivary Stones (Sialolithiasis) p02"
+"Loaded_Programs=Salivary Stones (Sialolithiasis) p03"
+"Loaded_Programs=Salivary Stones (Sialolithiasis) p04"
+"Loaded_Programs=Salivary Stones (Sialolithiasis) p05"
+"Loaded_Programs=Salivary Stones (Sialolithiasis) p06"
+"Loaded_Programs=Salivary Stones (Sialolithiasis) p07"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M87.032,M129.043,M129.043,M128.095,M147.068,M113.084,M156.101,M156.101,M113.084,M57.021,M156.101,M147.068,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M129.043,M57.021,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"[/Preset]"

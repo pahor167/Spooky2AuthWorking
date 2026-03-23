@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Progressive Supranuclear Palsy (PSP) (P)"
+"Preset_Notes=Progressive Supranuclear Palsy (PSP) for Plasma
+
+Progressive Supranuclear Palsy (PSP) is a rare 4R tauopathy involving abnormal tau aggregation, neuronal and glial pathology, neuroinflammation, oxidative stress, mitochondrial dysfunction, and disrupted copper homeostasis, leading to rapid progression with gaze palsy, postural instability, and cognitive decline. No disease-modifying treatments exist, but emerging evidence supports targeting these mechanisms. The proposed polypeptides prioritize real-world options with direct PSP clinical evidence or strong tauopathy relevance, supplemented by an engineered design for critical gaps.
+
+1. Microtubule stabilization and tau-microtubule enhancement: Davunetide (NAPVSIPQ) from ADNP, tested in Phase 2/3 PSP trial with established neuroprotective effects.
+2. Neuroinflammation modulation, antioxidant activity, and tau reduction: GV1001 (16-mer telomerase peptide), advancing in PSP clinical trials with promising subgroup efficacy.
+3. GLP-1 receptor agonism for neuroprotection and tau amelioration: Semaglutide, with preclinical evidence reducing motor deficits and pathology in tau mouse models.
+4. Copper binding, antioxidant support, and tissue remodeling: GHK-Cu, addressing copper imbalance implicated in PSP pathology.
+5. Mitochondrial protection and anti-apoptotic signaling: Humanin, with broad neuroprotective effects in neurodegeneration models applicable to PSP mitochondrial deficits.
+6. Direct tau aggregation inhibition via PHF6 hotspot capping: Engineered Ac-RRLVQIVYK-NH2, rationally designed from tau VQIVYK motif for blocking fibrillization, with acetylation/amidation for stability and low toxicity.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Progressive Supranuclear Palsy (PSP) p01"
+"Loaded_Programs=Progressive Supranuclear Palsy (PSP) p02"
+"Loaded_Programs=Progressive Supranuclear Palsy (PSP) p03"
+"Loaded_Programs=Progressive Supranuclear Palsy (PSP) p04"
+"Loaded_Programs=Progressive Supranuclear Palsy (PSP) p05"
+"Loaded_Programs=Progressive Supranuclear Palsy (PSP) p06"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M156.101,M97.053,M71.037,M113.084,M113.084,M101.048,M87.032,M156.101,M113.084,M156.101,M147.068,M113.084,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M198.112=1,M156.101,M113.084,M99.068,M128.058,M113.084,M99.068,M163.063,M127.111,0=4,"
+"[/Preset]"

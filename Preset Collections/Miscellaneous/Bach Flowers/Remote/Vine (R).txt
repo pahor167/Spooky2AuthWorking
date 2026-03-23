@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Vine (R)"
+"Preset_Notes=Vine / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Vine - Dominance and inflexibility.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Vine (R)"
+"Loaded_Frequencies=383.91,"
+"[/Preset]"

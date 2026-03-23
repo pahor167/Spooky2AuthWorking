@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Diverticulosis (P)"
+"Preset_Notes=Diverticulosis for Plasma
+
+Diverticulosis refers to the formation of numerous small, bulging pouches (diverticula) in the lining of the digestive tract, most commonly in the lower portion of the large intestine (sigmoid colon). It develops when weak spots in the colonic wall give way under elevated intraluminal pressure, allowing the mucosa and submucosa to herniate outward. The condition is highly prevalent in Western populations over age 50, often linked to low-fiber diets that result in smaller stool volume, slower transit, constipation, and segmental high-pressure contractions. Additional contributing factors include age-related changes in connective tissue (altered collagen crosslinking and elastin), smooth muscle thickening, disordered motility with exaggerated segmentation, chronic low-grade inflammation, and gut microbiome dysbiosis favoring pro-inflammatory species. While frequently asymptomatic, it may present with nonspecific symptoms like abdominal discomfort, bloating, or irregular bowel habits; complications such as diverticulitis (inflammation or infection of diverticula), abscess, perforation, bleeding, or fistula can arise, though the proposed polypeptides focus on prevention and management of underlying mechanisms rather than acute complications.
+
+The proposed polypeptides target three primary therapeutic axes informed by pathophysiology: (1) enhancement of colonic mucosal healing and structural integrity to counteract wall weakness and lesion risk, addressed by the real-world stable gastric pentadecapeptide BPC-157 (preclinical evidence from multiple models of gastrointestinal damage, including colitis, fistulas, and anastomosis healing, demonstrating promotion of angiogenesis, collagen organization, and anti-ulcer effects) and a designed cationic C-terminally extended analog with N-acetylation and C-amidation for improved pharmacokinetic stability and mucosal adhesion while preserving the core PPG-rich motif; (2) mitigation of chronic colonic inflammation to prevent progression to diverticulitis, addressed by a designed multimeric KPV peptide (derived from the C-terminal anti-inflammatory motif of alpha-melanocyte-stimulating hormone, repeated for enhanced potency, with termini modifications for protease resistance); (3) restoration of gut microbiome equilibrium and reduction of pathogenic biofilm/inflammation triggers, addressed by a designed cationic peptide based on the innate defense regulator IDR-1018 motif (known for broad immunomodulatory and anti-biofilm activity without excessive microbial killing), incorporating termini protection for colonic delivery suitability.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Diverticulosis p01"
+"Loaded_Programs=Diverticulosis p02"
+"Loaded_Programs=Diverticulosis p03"
+"Loaded_Programs=Diverticulosis p04"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M141.079=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"[/Preset]"

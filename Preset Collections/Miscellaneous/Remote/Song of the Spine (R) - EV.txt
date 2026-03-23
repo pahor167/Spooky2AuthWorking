@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Song of the Spine (R) - EV"
+"Repeat_Sequence=0"
+"Out1_Amplitude=10"
+"Out2_Amplitude=10"
+"Out2_Hz_Constant=.1"
+"Preset_Notes=Songs of the Spine is based on the 440 Hz scale. The source of these frequencies came from Dr. June Leslie Wieder who used tuning forks and a frequency sound generator from said scale to identify and tone each vertebrae of the spine.  
+
+This preset uses Manuel Mallos' remote figured frequencies for these areas.  Tuning fork/Remote frequency permeability and the speed of E.M. for different vertebra was also calculated.  Uses MM_modsquareDC83 waveform.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost.
+
+A future preset is in the works for contact mode.  Please feel free to give your feedback on this experimental preset in the user forum.  User input so far includes that this preset has longer-term stability than other similar presets and helps stiff neck issues. "
+"Enable_Remove_Duplicate_Frequencies=0"
+"Settings_Frequency_Wobble_Percentage=.025"
+"Hz_Gate=7.83"
+"Dwell_Multiplier=.35"
+"User_Defined_1_WCM=5"
+"User_Defined_2_WCM=5"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=MM_ModSquareDC83"
+"User_Defined_2_Waveform=MM_ModSquareDC83"
+"Out2_User_Defined_2=True"
+"InverseWave=False"
+"Enable_Gate_Out1=1"
+"Enable_Gate_Out2=1"
+"Enable_Invert_User_Defined_2=1"
+"Enable_Invert_Spike_Waveform=1"
+"Enable_Amplitude_RampUp=1"
+"Enable_Amplitude_Ramp_Down=1"
+"Loaded_Programs=Song of the Spine (R) EV (CUST)"
+"Loaded_Frequencies=19879833.31265=180,17710860.59453=180,15778999.32573=180,13268006.13573=180,11818896.95441=180,19879833.31265=180,17710860.59453=180,15778999.32573=180,13268006.13573=180,11818896.95441=180,21061978.88376=180,18781273.79203=180,16717210.09645=180,14892816.60684=180,14056956.10202=180,12523407.95133=180,11157031.90161=180,21061978.88376=180,18781273.79203=180,16717210.09645=180,14892816.60684=180,14056956.10202=180,12523407.95133=180,11157031.90161=180,12523407.95133=180,14056956.10202=180,14892816.60684=180,16717210.09645=180,18781273.79203=180,21061978.88376=180,11157031.90161=180,12523407.95133=180,14056956.10202=180,14892816.60684=180,16717210.09645=180,18781273.79203=180,21061978.88376=180,11818896.95441=180,13268006.13573=180,15778999.32573=180,17710860.59453=180,19879833.31265=180,11818896.95441=180,13268006.13573=180,15778999.32573=180,17710860.59453=180,19879833.31265=180,17710860.59453=180,15778999.32573=180,13268006.13573=180,11818896.95441=180,19879833.31265=180,17710860.59453=180,15778999.32573=180,13268006.13573=180,11818896.95441=180,21061978.88376=180,18781273.79203=180,16717210.09645=180,14892816.60684=180,14056956.10202=180,12523407.95133=180,11157031.90161=180,21061978.88376=180,18781273.79203=180,16717210.09645=180,14892816.60684=180,14056956.10202=180,12523407.95133=180,11157031.90161=180,12523407.95133=180,14056956.10202=180,14892816.60684=180,16717210.09645=180,18781273.79203=180,21061978.88376=180,11157031.90161=180,12523407.95133=180,14056956.10202=180,14892816.60684=180,16717210.09645=180,18781273.79203=180,21061978.88376=180,11818896.95441=180,13268006.13573=180,15778999.32573=180,17710860.59453=180,19879833.31265=180,11818896.95441=180,13268006.13573=180,15778999.32573=180,17710860.59453=180,"
+"[/Preset]"

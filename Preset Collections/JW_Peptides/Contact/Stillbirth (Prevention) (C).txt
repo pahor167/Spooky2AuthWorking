@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Stillbirth (Prevention) (C)"
+"Preset_Notes=Stillbirth (Prevention) for Contact
+
+Stillbirth is defined as fetal death in utero after 20 weeks gestation, with many cases linked to preventable factors. Major pathophysiological axes include placental insufficiency and impaired nutrient/oxygen transport, angiogenic imbalance/endothelial dysfunction, oxidative stress and placental mitochondrial dysfunction, systemic/local inflammation, thrombotic/coagulation disorders, immune dysregulation, metabolic disturbances (e.g., glucose intolerance), and infection-related cascades-all contributing to fetal hypoxia, growth restriction, or direct damage. Comprehensive tool searches (web_search on mechanisms/reviews and peptide/polypeptide therapies in stillbirth, placental insufficiency, preeclampsia, IUGR) confirmed these axes from sources like NIH/PubMed reviews but identified no verifiable real-world therapeutic polypeptides with sequences directly applied to stillbirth prevention (some biomarkers e.g., kisspeptin levels predictive, or novel research peptides like AEDPPE in preeclampsia models, but no established or multi-source therapeutic use). Shortfall from min_real_polypeptides documented; using 0 real-world, supplemented with 18 designed polypeptides for full conceptual axis coverage, incorporating non-standard residues for potential enhanced stability/activity; all flagged as designed.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Stillbirth (Prevention) p01"
+"Loaded_Programs=Stillbirth (Prevention) p02"
+"Loaded_Programs=Stillbirth (Prevention) p03"
+"Loaded_Programs=Stillbirth (Prevention) p04"
+"Loaded_Programs=Stillbirth (Prevention) p05"
+"Loaded_Programs=Stillbirth (Prevention) p06"
+"Loaded_Programs=Stillbirth (Prevention) p07"
+"Loaded_Programs=Stillbirth (Prevention) p08"
+"Loaded_Programs=Stillbirth (Prevention) p09"
+"Loaded_Programs=Stillbirth (Prevention) p10"
+"Loaded_Programs=Stillbirth (Prevention) p11"
+"Loaded_Programs=Stillbirth (Prevention) p12"
+"Loaded_Programs=Stillbirth (Prevention) p13"
+"Loaded_Programs=Stillbirth (Prevention) p14"
+"Loaded_Programs=Stillbirth (Prevention) p15"
+"Loaded_Programs=Stillbirth (Prevention) p16"
+"Loaded_Programs=Stillbirth (Prevention) p17"
+"Loaded_Programs=Stillbirth (Prevention) p18"
+"Loaded_Frequencies=M150.954=1,M57.021,M150.954,M57.021,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M57.021,M86.048,M57.021,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M113.048,M57.021,M113.048,M113.084,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M87.032,M86.048,M87.032,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M114.079,M150.954,M114.079,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M57.021,M113.048,M57.021,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M114.079,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M85.053,M57.021,M114.079,M57.021,M85.053,M102.001,0=4,"
+"Loaded_Frequencies=M113.084=1,M57.021,M113.084,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M114.079,M57.021,M150.954,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M100.064=1,M114.079,M100.064,M114.079,M100.064,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.084,M113.048,M57.021,M113.084,M113.048,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M113.048,M85.053,M113.048,M85.053,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M57.021,M86.048,M57.021,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M57.021,M114.079,M57.021,M113.048,M57.021,M150.954,M57.021,M114.079,M57.021,M113.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M150.954,M86.048,M113.048,M86.048,M150.954,M114.079,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M113.084,M114.079,M85.053,M150.954,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M100.064,M57.021,M114.079,M57.021,M100.064,M102.001,0=4,"
+"[/Preset]"

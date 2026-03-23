@@ -1,0 +1,71 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW.txt"
+"PresetName=Spooky Cold Laser Ear Infection (L) GX Offline - MM"
+"BFB_Start_Frequency=41000"
+"BFB_Finish_Frequency=18000000"
+"BFB_Include_Octave=0"
+"BFB_Single_Scan=0"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_Hz=100"
+"BFB_Initial_Step_Size_%=.125"
+"BFB_Max_Hits_To_Find=10"
+"BFB_Start_Delay=30"
+"BFB_Threshold=.2"
+"BFB_Refine_Percentage=10"
+"BFB_Reverse_Lookup_Tolerance=.0625"
+"BFB_Include_x_Hz_In_Search=0"
+"BFB_BPM=True"
+"BFB_Angle=False"
+"BFB_After_Scan_Run_Hits=0"
+"BFB_Repeat_BFB=1"
+"BFB_After_Scan_Run_On_Gen=0"
+"BFB_Continue_Refining_Hits=0"
+"BFB_Max_HRV=20"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Offset=-100"
+"Out2_Offset=-100"
+"Preset_Notes=Ear Infection Cold Laser. By Manuel Mallo
+
+Cold Laser Therapy, or Low Level Laser Therapy (LLLT) is a treatment that uses a precise specific wavelength of light to interact with tissue. This helps to accelerate the body natural healing process. People who suffer from a variety of acute and chronic conditions can use Cold Laser Therapy to help eliminate pain, swelling, reduce spasms and increase functionality.
+
+Cold lasers are low power lasers which provide non-thermal photons of light. These photons pass through the dermis, epidermis, and the subcutaneous tissue or tissue fat under the skin. They are often used for up to 30 minutes at a time, though longer treatment durations cause no adverse effects.
+
+The light energy is absorbed and interacts with the light sensitive elements within the cell. This process is very similar to photosynthesis in plants. Sunlight is absorbed by plants, which is then converted to energy for the plant to grow. 
+
+The light energy absorbed by cells allows each cell to 'normalize'. This increasing intracellular metabolism results in a reduction in pain, inflammation, edema and reduced healing time. Photons absorbed by the cells through laser therapy stimulate the mitochondria to accelerate production of ATP. This biochemical increase in cell energy is used to transform live cells from a state of illness to a stable, healthy state. 
+
+Cold laser therapy can stimulate most cell types, including muscle, ligament, cartilage, nerves, and many more.
+
+Several treatments may be required before any improvement is observed. Old injuries may initially become irritated during the initial stages of treatment.
+
+Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided.
+
+Use at your own risk."
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"Triangle_Spike_Ratio=2"
+"Schedule_Run_From=Midnight"
+"Schedule_Run_To=Midnight"
+"User_Defined_1_Waveform=Alpha-Stim"
+"User_Defined_2_Waveform=Alpha-Stim"
+"InverseWave=False"
+"Loaded_Programs=Eustachian Tube (XTRA)"
+"Loaded_Programs=Pneumococcal Infections (KHZ)"
+"Loaded_Programs=Pneumococcus (CAFL)"
+"Loaded_Programs=Pneumococcus (VEGA)"
+"Loaded_Programs=Streptococcus Pneumoniae (CAFL)"
+"Loaded_Programs=Streptococcus Pneumoniae (HC)"
+"Loaded_Programs=Streptococcus Sweep TR (XTRA)"
+"Loaded_Programs=Ear Discharge (XTRA)"
+"Loaded_Frequencies=465=180,660=180,690=180,727.5=180,776=180,787=180,802=180,880=180,1550=180,"
+"Loaded_Frequencies=50=180,350=180,2750=180,30930=180,75810=180,187500=180,405320=180,715000=180,803510=180,905320=180,"
+"Loaded_Frequencies=231=240,232=240,683=240,846=240,8865=240,"
+"Loaded_Frequencies=683=180,"
+"Loaded_Frequencies=231=180,232=180,776=180,766=180,728=180,846=180,8865=180,"
+"Loaded_Frequencies=366850=33.5,366883.5,366917,366950.5,366984,367017.5,367051,367084.5,367118,367151.5,367185,367218.5,367252,367285.5,367319,367352.5,367386,367419.5,367453,367486.5,367520,367553.5,367587,367620.5,367654,367687.5,367721,367754.5,367788,367821.5,367855,367888.5,367922,367955.5,367989,368022.5,368056,368089.5,368123,368156.5,368190,368223.5,368257,368290.5,368324,368357.5,368391,368424.5,368458,368491.5,368525,368558.5,368592,368625.5,368659,368692.5,368726,368759.5,368793,368826.5,368860,368893.5,368927,368960.5,368994,369027.5,369061,369094.5,369128,369161.5,369195,369228.5,369262,369295.5,369329,369362.5,369396,369429.5,369463,369496.5,369530,369563.5,369597,369630.5,369664,369697.5,369731,369764.5,369798,369831.5,369865,369898.5,369932,369965.5,369999,370032.5,370066,370099.5,370133,370166.5,370200,"
+"Loaded_Frequencies=5632.8152=90,5639.32444,5645.83368,5652.34292,5658.85216,5665.3614,5671.87064,5678.37988,5684.88912,5691.39836,5697.9076,5704.41684,5710.92608,5717.43532,5723.94456,5730.4538,5736.96304,5743.47228,5749.98152,5756.49076,5763,5777.50625,5792.0125,5806.51875,5821.025,5835.53125,5850.0375,5864.54375,5879.05,5893.55625,5908.0625,5922.56875,5937.075,5951.58125,5966.0875,5980.59375,5995.1,6009.60625,6024.1125,6038.61875,6053.125,"
+"Loaded_Frequencies=9.18=180,9.19=180,20.660=180,690=180,727.5=180,787=180,880=180,"
+"[/Preset]"

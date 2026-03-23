@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=RX Brain Fog (R) - JW"
+"Out1_Amplitude=4"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=4"
+"Preset_Notes=Paul Gruszka has discovered that 991.5 Hz on a 296.6394352 Hz carrier clears the brain (Hypermnesia) by reducing the viral load. This preset applies his findings.
+
+Run it non-stop remotely.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost."
+"F1_Factor=296.6394352"
+"F1_Modulation_Type=Modulate F2 using F1 (AM DSB)"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Manual_Start=False"
+"Out1_Sine=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Enable_F2_Modulation=1"
+"Enable_Tissue_Factor=0"
+"Loaded_Programs=Paul Gruzska's Brain Frequency (CUST)"
+"Loaded_Frequencies=991.5=300,"
+"[/Preset]"

@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Impatiens (S)"
+"Preset_Notes=Impatiens / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Impatiens - Impatience.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Impatiens (S)"
+"Loaded_Frequencies=463.06,"
+"[/Preset]"

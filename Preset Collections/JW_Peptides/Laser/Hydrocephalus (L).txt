@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Hydrocephalus (L)"
+"Preset_Notes=Hydrocephalus for Laser
+
+Hydrocephalus is characterized by excessive cerebrospinal fluid accumulation, ventricular enlargement, elevated intracranial pressure, and risks of neuronal damage, inflammation, fibrosis, and cognitive deficits. The proposed polypeptides target key axes from preclinical models and mechanistic studies, prioritizing real-world candidates with direct or analogous evidence while including one engineered for optimization.
+
+1. CSF production inhibition: CNP (real) activates natriuretic receptors on choroid plexus epithelium, increasing cGMP and reducing CSF secretion.
+2. Intracranial pressure reduction: Exenatide (real) is a GLP-1 receptor agonist that directly lowers ICP in hydrocephalus animal models.
+3. Brain edema and hypertension attenuation: BPC-157 (real) rapidly reduces swelling, stabilizes BBB, and normalizes intracranial pressure in relevant injury paradigms.
+4. Neurorepair promotion: TB-500 (real), a thymosin {beta}4 fragment, regulates actin dynamics and supports tissue regeneration/neurological recovery.
+5. Selective neuroprotection: ARA-290 (real) activates the innate repair receptor for anti-inflammatory and neuroprotective effects without erythropoiesis.
+6. Mitochondrial protection/anti-apoptosis: Humanin (real) mitigates mitochondrial dysfunction and apoptotic neuronal loss under compressive stress.
+7. Anti-fibrotic action: LSKL (real) inhibits thrombospondin-1-mediated TGF-{beta} activation, reducing subarachnoid fibrosis and hydrocephalus progression in models.
+8. Optimized brain-targeted anti-fibrotic: TAT-LSKL (designed), a TAT-fused LSKL variant with N-acetylation and C-amidation, enhances BBB penetration for improved delivery and stability.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Hydrocephalus p01"
+"Loaded_Programs=Hydrocephalus p02"
+"Loaded_Programs=Hydrocephalus p03"
+"Loaded_Programs=Hydrocephalus p04"
+"Loaded_Programs=Hydrocephalus p05"
+"Loaded_Programs=Hydrocephalus p06"
+"Loaded_Programs=Hydrocephalus p07"
+"Loaded_Programs=Hydrocephalus p08"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M128.095,M57.021,M102.001,M147.068,M57.021,M113.084,M128.095,M113.084,M115.027,M156.101,M113.084,M57.021,M87.032,M131.040,M87.032,M57.021,M113.084,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"[/Preset]"

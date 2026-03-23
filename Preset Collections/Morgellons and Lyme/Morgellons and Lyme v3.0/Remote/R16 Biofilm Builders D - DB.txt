@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R16 Biofilm Builders D - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Chlamydia Pneumoniae 1 CAFL
+Chlamydia Pneumoniae 8 XTRA
+Chlamydia Pneumoniae XTRA
+Chlamydia Trachomatis HC
+Chlamydia General CAFL
+Nisin XTRA
+Calcifications XTRA
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square_Hbomb=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Chlamydia Pneumoniae 1 (CAFL)"
+"Loaded_Programs=Chlamydia Pneumoniae 8 (XTRA)"
+"Loaded_Programs=Chlamydia Pneumoniae (XTRA)"
+"Loaded_Programs=Chlamydia Trachomatis (HC)"
+"Loaded_Programs=Chlamydia General (CAFL)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=471=300,942.9=300,1885.9=300,3771.7=300,7543.4=300,"
+"Loaded_Frequencies=470=240,940.1=240,1880.09=240,3760.3=240,7520.5=240,"
+"Loaded_Frequencies=676755.5555=600,565758.5766=600,"
+"Loaded_Frequencies=379700-383950=3600,"
+"Loaded_Frequencies=3773=300,3768=300,2223=300,2218=300,2213=300,942=300,866=300,840=300,622=300,555=300,470=300,430=300,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

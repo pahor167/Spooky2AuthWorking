@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Tetralogy of Fallot (P)"
+"Preset_Notes=Tetralogy of Fallot for Plasma
+
+Tetralogy of Fallot (TOF) is a congenital cyanotic heart defect featuring ventricular septal defect, pulmonary stenosis, right ventricular hypertrophy, and overriding aorta, typically requiring early surgical repair with risks of postoperative RV dysfunction, fibrosis, arrhythmias, and remodeling challenges. Proposed polypeptides draw from clinical natriuretic peptide use in pediatric post-repair settings and preclinical evidence in cardiac protection, regeneration, vascular integrity, and matrix support to adjunctively promote RV resilience and recovery.
+
+1. Natriuretic peptide-mediated hemodynamic unloading and cardioprotection: BNP (or rhBNP) aids RV function and reduces strain post-corrective surgery.
+2. Gastric pentadecapeptide cytoprotective effects: BPC-157 supports myocardial integrity, vascular function, and counters heart failure-related lesions.
+3. Thymosin {beta}4 fragment actin regulation: TB-500 promotes cell migration, survival, and repair in cardiac injury models.
+4. Copper-tripeptide regenerative stimulation: GHK-Cu enhances ECM remodeling, antioxidant defenses, and tissue healing.
+5. EPO-derived innate repair activation: ARA-290 delivers anti-inflammatory and tissue-protective signaling.
+6. Mitochondrial peptide anti-stress protection: Humanin mitigates apoptosis and metabolic dysfunction under hypoxic or ischemic conditions.
+7. Engineered collagen-mimetic matrix optimization: Ac-(GPP)7-NH2 intercalates into collagen to stabilize myocardial structure and reduce fibrosis in pressure-overloaded RV.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Tetralogy of Fallot p01"
+"Loaded_Programs=Tetralogy of Fallot p02"
+"Loaded_Programs=Tetralogy of Fallot p03"
+"Loaded_Programs=Tetralogy of Fallot p04"
+"Loaded_Programs=Tetralogy of Fallot p05"
+"Loaded_Programs=Tetralogy of Fallot p06"
+"Loaded_Programs=Tetralogy of Fallot p07"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

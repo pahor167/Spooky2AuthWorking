@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"Repeat_Chain=0"
+"PresetName=S51 Body Sites C - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Scalar.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Osteomyelitis KHZ
+Osteomyelitis CAFL
+Fasciitis KHZ
+Thymus Gland Stimulant XTRA
+Chakra Base Root CAFL
+Polymyositis KHZ
+Pityriasis KHZ
+Porphyria BIO
+Nogier A XTRA
+Paresthesia CAFL
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Loaded_Programs=Osteomyelitis (KHZ)"
+"Loaded_Programs=Osteomyelitis (CAFL)"
+"Loaded_Programs=Fasciitis (KHZ)"
+"Loaded_Programs=Thymus Gland Stimulant (XTRA)"
+"Loaded_Programs=Chakra Base Root (CAFL)"
+"Loaded_Programs=Polymyositis (KHZ)"
+"Loaded_Programs=Pityriasis (KHZ)"
+"Loaded_Programs=Porphyria (BIO)"
+"Loaded_Programs=Nogier A (XTRA)"
+"Loaded_Programs=Paresthesia (CAFL)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=160=180,230=180,7730=180,72250=180,105290=180,207000=180,332500=180,547500=180,750000=180,875000=180,"
+"Loaded_Frequencies=2720=180,2489=180,2170=180,2127=180,2008=180,1800=180,1600=180,1550=180,802=180,1500=180,880=180,832=180,787=180,776=180,727=180,690=180,666=180,"
+"Loaded_Frequencies=50=180,120=180,600=180,3870=180,72250=180,125430=180,387500=180,525910=180,712500=180,825440=180,"
+"Loaded_Frequencies=20=180,727=180,787=180,880=180,5000=180,"
+"Loaded_Frequencies=20=480,"
+"Loaded_Frequencies=70=180,930=180,2950=180,17500=180,78890=180,182390=180,332500=180,537500=180,732010=180,896520=180,"
+"Loaded_Frequencies=200=180,320=180,2880=180,5250=180,132500=180,237500=180,496500=180,626070=180,875340=180,927000=180,"
+"Loaded_Frequencies=698=180,"
+"Loaded_Frequencies=2.28=300,293.625=300,"
+"Loaded_Frequencies=5.5=360,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

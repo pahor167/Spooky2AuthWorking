@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Ashwagandha (Nootropics) (R) - JRG"
+"Loaded_Programs=Ashwagandha (CUST)"
+"Loaded_Frequencies=M974.52140,"
+"Preset_Notes=Ashwagandha has been used in Ayurvedic medicine for several thousand years. In Sanskrit it literally means the smell of a horse which implies this herb provides the vigor and strength of a stallion.|As a nootropic, Ashwagandha helps relieve stress, fatigue, restore energy and boosts concentration. As an adaptogen, it helps your entire body by normalizing blood sugar, boosts insulin sensitivity, works as an antioxidant, promotes breast, lung and colon health, and protects against inflammation.|The typical recommended dose of Ashwagandha is 250 - 500 mg per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

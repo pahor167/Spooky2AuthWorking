@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Cancer (SS) - JW"
+"Preset_Notes=This preset holds frequencies for cancer||Included are two select DNA frequencies targeting all known types of cancer.||Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Cancer (SS) - JW (CUST)"
+"Loaded_Frequencies=~5676BC8538298=720,~2194BC3760457=720,"
+"[/Preset]"

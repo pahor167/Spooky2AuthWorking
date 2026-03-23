@@ -1,0 +1,57 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=M05 Immunomodulators (Coil) - DB"
+"Preset_Notes=Cancer Protocol, Phase I-Terrain. For Spooky Coil only - DO NOT USE WITH SPOOKY PLASMA.
+
+Update: March 2020.
+
+Spooky Coil converts the signals from the XM generator to a magnetic field. Any frequency or waveform can be used.
+
+Connect Spooky PEMF Coil to the generator, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+
+This preset runs continuously, and beeps at the end of each loop. Run this preset for at least 2 loops.
+
+PROGRAMS:
+Calcifications XTRA
+Bacillus Licheniformis XTRA
+Calcifications XTRA
+Nanobacter XTRA
+Calcifications XTRA
+Nanobacter 2 XTRA
+Calcifications XTRA
+Bacillus Licheniformis XTRA
+Calcifications XTRA
+Nanobacter 3 XTRA
+Calcifications XTRA
+Nanobacterium Sanguineum TR XTRA
+"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Bacillus Licheniformis (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nanobacter (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nanobacter 2 (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Bacillus Licheniformis (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nanobacter 3 (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nanobacterium Sanguineum TR (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=2655=180,21554=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=634=180,317=180,1268=180,1902=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=6771.59=180,6772.13=180,6749=180,6773.44=180,6772.29=180,6725.50=180,5965.19=180,5198.33=180,5543.65=180,5631.24=180,9916.73=180,8798.81=180,8661.95=180,4628.34=180,4128.50=180,2931.45=180,2208.53=180,2100.67=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=2655=180,21554=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=13543.18=180,13543.89=180,13544.26=180,13544.49=180,13546.48=180,13546.88=180,13544.59=180,13545.21=180,13546.95=180,11930.39=180,10396.66=180,9916.73=180,8798.81=180,8661.95=180,4628.34=180,4128.50=180,2931.45=180,2208.53=180,2100.67=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=7635.45=180,6653.86=180,6346.71=180,5631.24=180,5543.65=180,2962.14=180,2642.24=180,1876.13=180,1413.46=180,1344.43=180,1902=180,317=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

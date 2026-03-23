@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Dog SIBO (R)"
+"Preset_Notes=Dog SIBO for Remote
+
+Dog SIBO, or Small Intestinal Bacterial Overgrowth, involves excessive bacterial proliferation in the small intestine, often secondary to motility disorders, EPI, or anatomical issues. Symptoms include chronic diarrhea, bloating, weight loss, flatulence, and malabsorption leading to deficiencies. Pathophysiology features bacterial deconjugation of bile acids, toxin production, mucosal damage, increased permeability, and competition for nutrients, fostering inflammation and further dysbiosis.
+
+The proposed polypeptides combat Dog SIBO by antibacterial clearance, barrier restoration, and inflammation reduction. For antibacterial action, the real-world LL-37 disrupts bacterial membranes, targeting overgrowth without broad-spectrum resistance; as a cathelicidin, it's effective in GI infections. For barrier repair, a designed polypeptide tightens tight junctions via zonulin modulation, preventing leaky gut and translocation; based on larazotide analogs, it supports mucosal integrity. For anti-inflammatory effects, a designed polypeptide inhibits NF-kB to dampen cytokine storms from bacterial products; these polypeptides enhance antibiotic therapy, promoting faster resolution and preventing recurrence.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Dog SIBO p01"
+"Loaded_Programs=Dog SIBO p02"
+"Loaded_Programs=Dog SIBO p03"
+"Loaded_Frequencies=M113.084=1,M113.084,M71.037,M113.084,M113.084,M128.095,M99.068,M113.084,M113.084,M113.084,M128.095,M99.068,M113.084,M113.084,M71.037,M113.084,M113.084,M128.095,M99.068,M113.084,M113.084,M113.084,M128.095,M99.068,M113.084,M113.084,M71.037,M113.084,M113.084,M128.095,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.095,M99.068,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M97.053,M137.059,M97.053,M137.059,0=4,"
+"[/Preset]"

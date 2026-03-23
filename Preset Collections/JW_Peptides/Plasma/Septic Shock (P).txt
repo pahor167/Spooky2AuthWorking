@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Septic Shock (P)"
+"Preset_Notes=Septic Shock for Plasma
+
+Septic shock is a life-threatening syndrome triggered by infection, characterized by dysregulated immune response, excessive inflammation (cytokine storm), endotoxin effects, vascular/endothelial dysfunction, coagulopathy, complement overactivation, immunosuppression, and hemodynamic collapse leading to multi-organ failure.
+
+The proposed set addresses all key axes: hyperinflammation, endotoxin neutralization, antimicrobial action, immune modulation, complement inhibition, endothelial protection, coagulopathy mitigation, and hemodynamic support. Real-world polypeptides (8 identified from literature, shortfall of 6 documented due to limited verifiable sequences with direct septic shock evidence) are prioritized; 10 designed polypeptides supplement for full axis coverage, diversity, and minimum requirements (flagged as designed).
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Septic Shock p01"
+"Loaded_Programs=Septic Shock p02"
+"Loaded_Programs=Septic Shock p03"
+"Loaded_Programs=Septic Shock p04"
+"Loaded_Programs=Septic Shock p05"
+"Loaded_Programs=Septic Shock p06"
+"Loaded_Programs=Septic Shock p07"
+"Loaded_Programs=Septic Shock p08"
+"Loaded_Programs=Septic Shock p09"
+"Loaded_Programs=Septic Shock p10"
+"Loaded_Programs=Septic Shock p11"
+"Loaded_Programs=Septic Shock p12"
+"Loaded_Programs=Septic Shock p13"
+"Loaded_Programs=Septic Shock p14"
+"Loaded_Programs=Septic Shock p15"
+"Loaded_Programs=Septic Shock p16"
+"Loaded_Programs=Septic Shock p17"
+"Loaded_Programs=Septic Shock p18"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M131.040,M97.053,M102.001,M156.101,M114.043,M147.068,M147.068,M186.079,M128.095,M101.048,M147.068,M87.032,M87.032,M102.001,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M128.095,M128.095,M97.053,M99.068,M97.053,M113.084,M113.084,M163.063,M102.001,M114.043,M156.101,M156.101,M101.048,M57.021,M128.095,M102.001,M128.058,M156.101,M131.040,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M113.048,M85.053,M150.954,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M85.053,M113.048,M113.084,0=4,"
+"Loaded_Frequencies=M113.048=1,M86.048,M150.954,M114.079,M85.053,0=4,"
+"Loaded_Frequencies=M85.053=1,M150.954,M86.048,M113.084,M114.079,0=4,"
+"Loaded_Frequencies=M114.079=1,M128.095,M86.048,M156.101,M113.048,0=4,"
+"Loaded_Frequencies=M86.048=1,M156.101,M114.079,M128.095,M85.053,0=4,"
+"Loaded_Frequencies=M113.048=1,M85.053,M86.048,M114.079,M150.954,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M128.095,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M156.101,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M85.053,M114.079,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M113.084,M86.048,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M113.048,M86.048,M85.053,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M150.954=1,M86.048,M114.079,M85.053,M113.048,M128.095,M86.048,0=4,"
+"[/Preset]"

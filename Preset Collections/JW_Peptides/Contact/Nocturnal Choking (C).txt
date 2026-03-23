@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Nocturnal Choking (C)"
+"Preset_Notes=Nocturnal Choking for Contact
+
+Nocturnal choking involves sudden awakenings with a choking sensation or difficulty breathing during sleep, most commonly due to obstructive sleep apnea (airway collapse), sleep-related laryngospasm (vocal cord spasm, often reflux-triggered), or related factors like anxiety and gastric reflux. Proposed peptides target diverse axes supported by current literature on OSA pharmacotherapy, sleep modulation, reflux management, and laryngeal protection.
+
+1. Dual incretin agonism: Tirzepatide - Dual GLP-1/GIP receptor agonist recently approved for moderate-to-severe OSA, significantly reducing apnea-hypopnea index via weight loss and potential direct airway benefits
+2. GLP-1 receptor agonism: Semaglutide - Promotes substantial weight loss and metabolic improvements, alleviating OSA severity and nocturnal breathing disruptions
+3. Delta sleep induction: DSIP - Neuropeptide that enhances deep restorative sleep, stabilizing sleep stages to minimize choking awakenings
+4. Amylin receptor agonism: Pramlintide - Amylin analog that delays gastric emptying and suppresses glucagon, potentially reducing reflux-induced laryngospasm
+5. Exendin-based GLP-1 agonism: Exenatide - Potent, degradation-resistant GLP-1 mimic supporting weight control and metabolic health relevant to OSA
+6. Anxiolytic peptide: Selank - Tuftsin-derived peptide with anti-anxiety effects, mitigating stress or panic contributions to nocturnal choking episodes
+7. Neuroregulatory peptide: Semax - ACTH-derived peptide with neuroprotective and adaptogenic properties, supporting neurological stability in sleep disorders
+8. Natriuretic peptide signaling: ANP - Promotes vasodilation and diuresis, addressing cardiovascular strain from intermittent hypoxia in OSA
+9. Bombesin receptor agonism: Bombesin - Modulates gastric motility and reduces inflammatory/oxidative stress in GERD models, targeting reflux-linked choking
+10. Laryngeal muscle relaxation: LaroRelax-1 - Designed short VIP core analog to activate VIP receptors, promoting selective relaxation of laryngeal muscles and preventing spasmodic closures
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Nocturnal Choking p01"
+"Loaded_Programs=Nocturnal Choking p02"
+"Loaded_Programs=Nocturnal Choking p03"
+"Loaded_Programs=Nocturnal Choking p04"
+"Loaded_Programs=Nocturnal Choking p05"
+"Loaded_Programs=Nocturnal Choking p06"
+"Loaded_Programs=Nocturnal Choking p07"
+"Loaded_Programs=Nocturnal Choking p08"
+"Loaded_Programs=Nocturnal Choking p09"
+"Loaded_Programs=Nocturnal Choking p10"
+"Loaded_Frequencies=M163.063=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M113.084,M85.053,M113.084,M115.027,M128.095,M113.084,M128.058,M85.053,M71.037,M147.068,M99.068,M128.058,M186.079,M113.084,M113.084,M57.021,M97.053,M97.053,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M102.001,M114.043,M101.048,M71.037,M101.048,M102.001,M71.037,M101.048,M128.058,M156.101,M113.084,M71.037,M114.043,M147.068,M113.084,M99.068,M137.059,M87.032,M87.032,M114.043,M97.053,M97.053,M97.053,M101.048,M163.063,M113.084,M97.053,M87.032,M101.048,M163.063,M114.043,M99.068,M57.021,M101.048,M162.079,0=4,"
+"Loaded_Frequencies=M137.059=1,M57.021,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M113.084,M87.032,M128.095,M128.058,M131.040,M129.043,M129.043,M129.043,M71.037,M99.068,M156.101,M113.084,M147.068,M113.084,M129.043,M186.079,M113.084,M128.095,M114.043,M57.021,M57.021,M97.053,M87.032,M87.032,M57.021,M71.037,M97.053,M97.053,M97.053,M86.048,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M111.032=1,M128.095,M156.101,M113.084,M57.021,M114.043,M128.095,M186.079,M71.037,M99.068,M57.021,M156.101,M113.084,M149.051,0=4,"
+"Loaded_Frequencies=M189.079=1,M101.048,M115.027,M114.043,M163.063,M101.048,M155.117,0=4,"
+"[/Preset]"

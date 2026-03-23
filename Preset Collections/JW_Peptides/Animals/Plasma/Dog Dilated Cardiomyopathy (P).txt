@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Dog Dilated Cardiomyopathy (P)"
+"Preset_Notes=Dog Dilated Cardiomyopathy for Plasma
+
+Dog dilated cardiomyopathy (DCM) is a primary myocardial disease characterized by ventricular dilation, systolic dysfunction, and often arrhythmias, leading to progressive heart failure in canines. It predominantly affects large and giant breeds such as Doberman Pinschers, Great Danes, Irish Wolfhounds, and Boxers, with a genetic predisposition involving mutations in genes like PDK4, TTN, and RBM20, though environmental factors like taurine-deficient diets (e.g., grain-free) have been implicated in atypical breeds. Symptoms include lethargy, exercise intolerance, coughing, dyspnea, ascites, syncope, and sudden death due to ventricular arrhythmias. Pathophysiologically, DCM involves impaired contractility from sarcomere dysfunction, calcium handling abnormalities (e.g., reduced SERCA2a activity, RyR2 leak), neurohormonal activation (RAAS and sympathetic overdrive causing volume overload), mitochondrial energy deficits (impaired ATP production, oxidative stress), fibrosis from extracellular matrix remodeling, and reduced regenerative capacity leading to cardiomyocyte loss via apoptosis/necrosis. These cascades result in eccentric hypertrophy, chamber enlargement, and reduced ejection fraction (<40%), with secondary complications like mitral regurgitation and atrial fibrillation exacerbating the condition.
+
+The proposed polypeptides target these axes mechanistically. Atrial natriuretic peptide modulates neurohormonal pathways by promoting natriuresis, vasodilation, and RAAS inhibition to reduce preload and afterload, alleviating congestion in DCM. The designed polypeptide for neurohormonal enhances similar effects through receptor agonism for volume management. GLP-1 (7-36) improves mitochondrial function by restoring insulin sensitivity, enhancing glucose uptake, and reducing oxidative stress to support energy metabolism in failing myocytes. The designed polypeptide for mitochondrial boosts ATP production via mitophagy activation. Hexarelin enhances contractility by stimulating growth hormone release, improving inotropy and preventing ischemic damage in DCM models. The designed polypeptide for contractility mimics secretagogue actions to augment sarcomere function. SHLP2 promotes regenerative pathways by stabilizing mitochondrial components and aiding cardiomyocyte repair. The designed polypeptide for regenerative facilitates progenitor cell recruitment for tissue restoration. The designed polypeptide for anti-fibrotic inhibits matrix metalloproteinases and TGF-{beta} signaling to mitigate scar formation and preserve ventricular compliance. Feasibility stems from preclinical canine models showing functional improvements, with considerations for bioavailability, half-life extension, and targeted delivery to minimize off-target effects.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Dog Dilated Cardiomyopathy p01"
+"Loaded_Programs=Dog Dilated Cardiomyopathy p02"
+"Loaded_Programs=Dog Dilated Cardiomyopathy p03"
+"Loaded_Programs=Dog Dilated Cardiomyopathy p04"
+"Loaded_Programs=Dog Dilated Cardiomyopathy p05"
+"Loaded_Programs=Dog Dilated Cardiomyopathy p06"
+"Loaded_Programs=Dog Dilated Cardiomyopathy p07"
+"Loaded_Programs=Dog Dilated Cardiomyopathy p08"
+"Loaded_Programs=Dog Dilated Cardiomyopathy p09"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M103.009,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M103.009,M114.043,M87.032,M147.068,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M156.101,M147.068,M57.021,M137.059,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M186.079,M113.084,M99.068,M128.095,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M129.043,M99.068,M113.084,M147.068,M128.058,M57.021,M97.053,M137.059,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M186.079,M128.095,M147.068,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M114.043,M113.084,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M99.068,M103.009,M113.084,M156.101,M113.084,M57.021,M87.032,M128.095,M113.084,M113.084,M137.059,M87.032,M71.037,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M87.032,M101.048,M99.068,M103.009,0=4,"
+"Loaded_Frequencies=M186.079=1,M113.084,M156.101,M156.101,M113.084,0=4,"
+"[/Preset]"

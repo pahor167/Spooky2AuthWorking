@@ -1,0 +1,16 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Stuttering Remedy Mix (S)"
+"Preset_Notes=Stuttering Remedy Mix / Spooky Scalar
+
+Estimated Time: Run this preset for 9:00 minutes.
+
+Mimulus: This Essence helps you when you have fear known things such as;  fear of spiders, fear of not being good enough, fear of being old, fear of not succeeding, fear of heights, fear of public speaking etc. You might also be shy, tongue-tied in company, you might even be blushing and stuttering.
+Larch: Helps you regain courage to face difficulties with humor and confidence. You will be able to stand up for yourself, and with the emotions under control can enjoy life without fear.
+Impatiens: Helps you from getting impatient with yourself trying to speak as fast as you think.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Stuttering Remedy Mix (S)"
+"Loaded_Frequencies=492.23,336.52,463.06,"
+"[/Preset]"

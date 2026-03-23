@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Alpha-Lipoic Acid (ALA) (Nootropics) (R) - JRG"
+"Loaded_Programs=Alpha-Lipoic Acid (ALA) (CUST)"
+"Loaded_Frequencies=M206.04352,"
+"Preset_Notes=Alpha-Lipoic Acid used as a nootropic is a synthetic version of lipoic acid. A compound naturally occurring in your body. This antioxidant is necessary for cellular energy production. And helps eliminate the free radicals created when nutrients convert to cellular energy.|ALA boosts energy levels, protects brain cells from free radical damage, and improves memory.|Recommended dosage for Alpha-Lipoic Acid is 200 - 400 mg per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

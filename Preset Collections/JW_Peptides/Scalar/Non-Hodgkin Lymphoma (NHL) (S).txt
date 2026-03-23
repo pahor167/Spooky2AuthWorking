@@ -1,0 +1,43 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Non-Hodgkin Lymphoma (NHL) (S)"
+"Preset_Notes=Non-Hodgkin Lymphoma (NHL) for Scalar
+
+The set of peptides addresses key therapeutic axes for non-Hodgkin lymphoma, including membrane disruption, induction of cell death in resistant cells, targeting of specific proteins like CD30L and BRAF, and immunomodulation. All proposed peptides are real-world examples from literature.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Non-Hodgkin Lymphoma (NHL) p01"
+"Loaded_Programs=Non-Hodgkin Lymphoma (NHL) p02"
+"Loaded_Programs=Non-Hodgkin Lymphoma (NHL) p03"
+"Loaded_Programs=Non-Hodgkin Lymphoma (NHL) p04"
+"Loaded_Programs=Non-Hodgkin Lymphoma (NHL) p05"
+"Loaded_Programs=Non-Hodgkin Lymphoma (NHL) p06"
+"Loaded_Programs=Non-Hodgkin Lymphoma (NHL) p07"
+"Loaded_Programs=Non-Hodgkin Lymphoma (NHL) p08"
+"Loaded_Programs=Non-Hodgkin Lymphoma (NHL) p09"
+"Loaded_Programs=Non-Hodgkin Lymphoma (NHL) p10"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M129.043,M131.040,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M128.058,M186.079,M147.068,M87.032,M128.095,M147.068,M113.084,M57.021,M156.101,M113.084,M112.100,0=4,"
+"Loaded_Frequencies=M186.079=1,M147.068,M57.021,M137.059,M113.084,M113.084,M156.101,M57.021,M113.084,M99.068,M87.032,M99.068,M57.021,M128.095,M137.059,M113.084,M137.059,M57.021,M113.084,M113.084,M101.048,M57.021,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M87.032,M128.058,M113.084,M163.063,M156.101,M57.021,M113.084,M99.068,M87.032,M99.068,M57.021,M128.095,M137.059,M113.084,M137.059,M57.021,M113.084,M113.084,M87.032,M57.021,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M97.053,M113.084,M113.084,M57.021,M156.101,M99.068,M113.084,M87.032,M57.021,M113.084,M112.100,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M113.084,M99.068,M57.021,M114.043,M113.084,M113.084,M128.095,M87.032,M113.084,M112.1,0=4,"
+"Loaded_Frequencies=M147.068=1,M147.068,M97.053,M99.068,M113.084,M57.021,M156.101,M113.084,M113.084,M114.043,M57.021,M113.084,M112.100,0=4,"
+"Loaded_Frequencies=M131.040=1,M137.059,M97.053,M114.043,M71.037,M57.021,M137.059,M57.021,M87.032,M113.084,M131.040,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M137.059,M99.068,M114.043,M113.084,M113.084,M113.084,M147.068,M131.04,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"[/Preset]"

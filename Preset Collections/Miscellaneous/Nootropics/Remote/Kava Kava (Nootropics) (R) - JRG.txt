@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Kava Kava (Nootropics) (R) - JRG"
+"Loaded_Programs=Kava Kava (CUST)"
+"Loaded_Frequencies=M232.10994,"
+"Preset_Notes=Kava (piper methysticum) is native to the South Pacific. Pacific Islanders traditionally use the plant for its sedative effects.|Kava can help to reduce anxiety, improve mood, and promote an overall sense of well-being. And unlike benzodiazepines, kava does not impair cognitive function. In fact, studies show kava may boost cognitive function.|Of the 105 varieties of kava, Noble and Tudei Kava has been traditionally used in the South Pacific Islands. And has been safely consumed for hundreds of years.|Daily dosage of Kava Kava is 250 - 500 mg. Some experts suggest taking less as it will have less impact on your liver. Experiment to find out what works for you.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

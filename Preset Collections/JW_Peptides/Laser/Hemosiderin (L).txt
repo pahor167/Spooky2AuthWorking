@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Hemosiderin (L)"
+"Preset_Notes=Hemosiderin for Laser
+
+Hemosiderin is an iron-storage complex in tissues, and its excessive deposition is a marker of iron overload disorders such as hemochromatosis, thalassemia, and transfusion-related siderosis, causing organ damage through oxidative stress, inflammation, ferroptosis, and disrupted iron homeostasis. 
+
+The polypeptides address key therapeutic axes including iron chelation to bind and excrete excess iron, hepcidin mimicry to regulate ferroportin and iron absorption, antioxidant activity to reduce reactive oxygen species, anti-inflammatory effects to mitigate cytokine-driven iron sequestration, ferroptosis inhibition to prevent lipid peroxidation, erythropoiesis modulation to balance red cell production and iron utilization, liver protection to prevent cirrhosis, and cardiac protection to avoid cardiomyopathy; due to limited verifiable real-world polypeptides with matching monoisotopic masses (documented in CoT: only short peptides passed validation, shortfall of 2 for min_real), the set uses 8 real-world and 4 designed (flagged as such) to meet mins and cover all axes.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Hemosiderin p01"
+"Loaded_Programs=Hemosiderin p02"
+"Loaded_Programs=Hemosiderin p03"
+"Loaded_Programs=Hemosiderin p04"
+"Loaded_Programs=Hemosiderin p05"
+"Loaded_Programs=Hemosiderin p06"
+"Loaded_Programs=Hemosiderin p07"
+"Loaded_Programs=Hemosiderin p08"
+"Loaded_Programs=Hemosiderin p09"
+"Loaded_Programs=Hemosiderin p10"
+"Loaded_Programs=Hemosiderin p11"
+"Loaded_Programs=Hemosiderin p12"
+"Loaded_Frequencies=M147.068=1,M97.053,M129.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M115.027,M128.058,M114.043,M97.053,M137.059,0=4,"
+"Loaded_Frequencies=M114.043=1,M129.043,M129.043,M128.095,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M113.084,M129.043,M128.058,M129.043,0=4,"
+"Loaded_Frequencies=M99.068=1,M71.037,M57.021,M101.048,M186.079,M163.063,0=4,"
+"Loaded_Frequencies=M163.063=1,M115.027,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M101.048=1,M115.027,M97.053,M113.084,M71.037,M71.037,M103.009,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.058,M186.079,M128.058,M156.101,M114.043,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M113.048=1,M150.954,M115.027,M129.043,M137.059,M114.079,0=4,"
+"Loaded_Frequencies=M237.148=1,M86.048,M163.063,M128.095,M100.064,0=4,"
+"Loaded_Frequencies=M85.053=1,M150.954,M131.040,M99.068,M113.048,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M147.068,M237.148,M150.954,0=4,"
+"[/Preset]"

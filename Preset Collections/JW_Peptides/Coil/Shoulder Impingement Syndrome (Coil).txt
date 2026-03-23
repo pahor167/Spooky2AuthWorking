@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Shoulder Impingement Syndrome (Coil)"
+"Preset_Notes=Shoulder Impingement Syndrome for Coil
+
+Shoulder Impingement Syndrome is a condition involving compression of the rotator cuff tendons and subacromial bursa, leading to pain and limited mobility. Key therapeutic axes identified: Inflammation reduction, Muscle strengthening and stabilization, Pain modulation via neuromodulation, Tissue regeneration/repair, Biomechanical optimization. Assignments: Peptide 1 targets Inflammation reduction mimicking cationic motifs. Peptide 2 provides muscle growth via IGF-like domain. Peptide 3 modulates pain through endorphin mimic. Peptide 4 regenerates tissue as documented peptide. Peptide 5 optimizes biomechanics with collagen motif. Mechanisms involve rational engineering based on literature motifs for stability and efficacy.
+
+"
+"Loaded_Programs=Shoulder Impingement Syndrome p01"
+"Loaded_Programs=Shoulder Impingement Syndrome p02"
+"Loaded_Programs=Shoulder Impingement Syndrome p03"
+"Loaded_Programs=Shoulder Impingement Syndrome p04"
+"Loaded_Programs=Shoulder Impingement Syndrome p05"
+"Loaded_Frequencies=M141.079=1,M101.048,M113.084,M101.048,M128.095,M128.058,M128.095,M128.095,M113.084,M99.068,M128.095,M99.068,M71.037,M128.095,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M129.043,M101.048,M113.084,M102.001,M57.021,M71.037,M129.043,M113.084,M99.068,M115.027,M71.037,M113.084,M128.058,M147.068,M99.068,M102.001,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,M101.048,M87.032,M129.043,M128.095,M87.032,M128.058,M101.048,M97.053,M113.084,M99.068,M101.048,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M128.095,M57.021,M115.027,M156.101,M57.021,M147.068,M128.058,M57.021,M97.053,M97.053,M57.021,M97.053,M128.095,M56.037,0=4,"
+"[/Preset]"

@@ -1,0 +1,32 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Calcific Tendinitis (P)"
+"Preset_Notes=Calcific Tendinitis for Plasma
+
+Calcific tendinitis involves hydroxyapatite deposits in tendons causing chronic pain, acute inflammation during the macrophage-driven resorptive phase, and subsequent remodeling needs. The proposed polypeptides address key therapeutic axes derived from pathogenesis literature emphasizing macrophage phagocytosis for deposit clearance, signaling modulation for resolution, inflammation control, and tendon matrix restoration, drawing on preclinical tendon repair studies and mechanistic evidence.
+
+1. Stable gastric pentadecapeptide-mediated tendon healing and remodeling: BPC-157 enhances fibroblast outgrowth, collagen organization, angiogenesis, and overall integrity in tendon injury models.
+2. Modified thymosin {beta}4 fragment-mediated cell migration and repair: TB-500 (Ac-LKKTETQ-NH2) promotes actin dynamics, cell motility, and anti-inflammatory effects to support tendon regeneration.
+3. {alpha}-MSH-derived tripeptide anti-inflammatory resolution: KPV strongly inhibits pro-inflammatory cytokines and accelerates healing processes.
+4. Copper-binding tripeptide ECM modulation and antioxidant support: GHK-Cu stimulates remodeling, growth factor release, and reduces oxidative stress in damaged tissue.
+5. EPO-derived innate repair peptide for macrophage modulation: ARA-290 (pGlu-EQLERALNSS) activates the innate repair receptor to shift macrophages toward anti-inflammatory phenotypes and protect tendon tissue.
+6. Bovidae cathelicidin-derived innate defense regulator for macrophage recruitment and controlled activation: IDR-1018 (VRLIVAVRIWRR-NH2, engineered) selectively enhances monocyte/macrophage infiltration and protective immune responses to facilitate calcification clearance.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Calcific Tendinitis p01"
+"Loaded_Programs=Calcific Tendinitis p02"
+"Loaded_Programs=Calcific Tendinitis p03"
+"Loaded_Programs=Calcific Tendinitis p04"
+"Loaded_Programs=Calcific Tendinitis p05"
+"Loaded_Programs=Calcific Tendinitis p06"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M156.101,0=4,"
+"[/Preset]"

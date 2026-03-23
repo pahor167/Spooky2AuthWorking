@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R43 Complex Parasites C - DB"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Ascaris Larvae HC
+Parasites Hookworm CAFL
+Strongyloides Stercoralis 2 XTRA
+Parasites Strongyloides CAFL
+Parasites Strongyloides Secondary CAFL
+Strongyloides (Filariform Larva) HC
+Capillaria Hepatica XTRA
+Parasites Capillaria Hepatica XTRA
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Inverted_Sawtooth=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Ascaris Larvae (HC)"
+"Loaded_Programs=Parasites Hookworm (CAFL)"
+"Loaded_Programs=Strongyloides Stercoralis 2 (XTRA)"
+"Loaded_Programs=Parasites Strongyloides (CAFL)"
+"Loaded_Programs=Parasites Strongyloides Secondary (CAFL)"
+"Loaded_Programs=Strongyloides (Filariform Larva) (HC)"
+"Loaded_Programs=Capillaria Hepatica (XTRA)"
+"Loaded_Programs=Parasites Capillaria Hepatica (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=404900-409150=3600,"
+"Loaded_Frequencies=6.8=180,440=180,2008=180,6436=180,5868=180,"
+"Loaded_Frequencies=401000=180,"
+"Loaded_Frequencies=332=180,422=180,721=180,732=180,749=180,942=180,3212=180,4412=180,"
+"Loaded_Frequencies=380=180,698=180,722=180,738=180,746=180,752=180,776=180,1113=180,"
+"Loaded_Frequencies=398400-402000=3600,"
+"Loaded_Frequencies=1051.6=180,1060.91=180,1067.47=180,13257.8=180,13375=180,13457.8=180,"
+"Loaded_Frequencies=1060.91=180,21308.86=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

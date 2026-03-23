@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=P00 Immune Support - DB"
+"Preset_Notes=Cancer Protocol, Phase I-Terrain. Spooky Plasma.
+
+Update: March 2020.
+
+This preset runs continuously, and beeps at the end of each loop. Run this preset for at least 3 loops.
+
+PROGRAMS:
+Immune Support Sweep XTRA
+Immune System Stimulation 3 PROV
+Immune System Improve XTRA
+Essential Oil - Ravensara XTRA
+Essential Oil - Frankincense XTRA
+Essential Oil - Thieves XTRA
+Essential Oil - Citrus Fresh XTRA
+
+Connect OUT 1 to Input, Out 2 to Modulation."
+"Loaded_Programs=Immune Support Sweep (XTRA)"
+"Loaded_Programs=Immune System Stimulation 3 (PROV)"
+"Loaded_Programs=Immune System Improve (XTRA)"
+"Loaded_Frequencies=6-12=900,"
+"Loaded_Frequencies=8=240,20=240,120=240,304=240,432=240,464=240,665=240,728=240,800=240,880=240,1488=240,1862=240,2008=240,2128=240,2180=240,2489=240,2720=240,2791=240,2855=240,2867=240,2929=240,3176=240,3347=240,3448=240,4014=240,5000=240,5611=240,10000=240,"
+"Loaded_Frequencies=3=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Essential Oil - Ravensara (XTRA) High"
+"Loaded_Programs=Essential Oil - Ravensara (XTRA)"
+"Loaded_Programs=Essential Oil - Frankincense (XTRA)"
+"Loaded_Programs=Essential Oil - Thieves (XTRA)"
+"Loaded_Programs=Essential Oil - Citrus Fresh (XTRA)"
+"Loaded_Frequencies=16750000=180,"
+"Loaded_Frequencies=18375000=180,"
+"Loaded_Frequencies=18750000=180,"
+"Loaded_Frequencies=22500000=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Pause 30 Seconds (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

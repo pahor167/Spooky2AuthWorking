@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Aniracetam (Nootropics) (R) - JRG"
+"Loaded_Programs=Aniracetam (CUST)"
+"Loaded_Frequencies=M219.08954,"
+"Preset_Notes=Aniracetam (1-(4-methoxybenzoyl)-2-pyrrolidinone) is an N-side chain derivative of piracetam. It is thought to be 5 to 8-times more potent than piracetam. Aniracetam is fat-soluble and has a shorter half-life compared to other racetams.|A potent nootropic, Aniracetam reduces anxiety and depression with no sedative effects. It seems to do this by activating the D2 and D3 Dopamine receptors in the brain. Aniracetam helps improve memory, learning, cognition, along with heightened reflexes and perception.|Dosing Aniracetam is 750 - 1,500 mg per day. Do half your daily dose twice per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

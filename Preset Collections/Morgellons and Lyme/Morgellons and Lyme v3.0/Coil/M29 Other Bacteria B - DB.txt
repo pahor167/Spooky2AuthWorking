@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"Repeat_Chain=0"
+"PresetName=M29 Other Bacteria B - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Coil.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Campylobacter Pyloridis HC
+Brucella Melitensis XTRA
+Brucella Abort Bang XTRA
+Calcifications XTRA
+Nisin XTRA
+Amyloidosis KHZ
+Neisseria Gonorrheae HC
+Leptospirosis KHZ
+
+Connect Spooky PEMF Coil to the generator, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+"
+"Loaded_Programs=Campylobacter Pyloridis (HC)"
+"Loaded_Programs=Brucella Melitensis (CAFL)"
+"Loaded_Programs=Brucella Abort Bang (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Amyloidosis (KHZ)"
+"Loaded_Programs=Neisseria Gonorrheae (HC)"
+"Loaded_Programs=Leptospirosis (KHZ)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=352000-357200=3600,"
+"Loaded_Frequencies=748=360,643=360,695=360,"
+"Loaded_Frequencies=1423=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=60=180,10830=180,7500=180,322530=180,452590=180,519680=180,689410=180,712000=180,833210=180,995380=180,"
+"Loaded_Frequencies=333850-336500=3600,"
+"Loaded_Frequencies=70=180,240=180,10570=180,37290=180,132810=180,313750=180,437500=180,520500=180,631940=180,771000=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

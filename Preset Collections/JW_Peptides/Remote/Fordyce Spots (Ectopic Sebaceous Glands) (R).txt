@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Fordyce Spots (Ectopic Sebaceous Glands) (R)"
+"Preset_Notes=Fordyce Spots (Ectopic Sebaceous Glands) for Remote
+
+Fordyce spots are benign ectopic sebaceous glands commonly occurring on the vermilion border of the lips and oral mucosa, appearing as small, discrete, white-to-yellowish papules. These lesions represent enlarged heterotopic sebaceous glands that become prominent after puberty due to androgen stimulation. While not pathological, they cause cosmetic concern and psychological distress. The therapeutic strategy targets sebaceous gland modulation, keratinization regulation of the sebaceous duct, antimicrobial defense, stress response (as emotional stress exacerbates the condition), and cosmetic improvement through tissue tightening.
+
+1. Sebogenesis inhibition: Tripeptide-85 - MC5R antagonist reducing lipid droplet formation and sebum production via PLIN2 and MYC downregulation
+2. Local antimicrobial defense: Histatin 5 - Salivary antimicrobial peptide providing defense against oral microbiota colonizing lip Fordyce spots
+3. Stress response modulation: Corticogen - Short neuropeptide targeting stress-associated exacerbation of sebaceous gland prominence
+4. Inflammatory microenvironment modulation: Catestatin - Chromogranin A-derived peptide with anti-inflammatory and catecholamine-modulating properties
+5. Epithelial barrier reinforcement: Human Beta-Defensin 1 - Constitutive antimicrobial peptide expressed in sebaceous glands maintaining barrier integrity
+6. Melanocortin receptor modulation: SeboStat-1 (designed) - Engineered MC5R modulator targeting sebocyte differentiation pathways
+7. Keratinization regulation: KeratinoReg-1 (designed) - RGD-containing peptide regulating sebaceous duct keratinization and cell-matrix interaction
+8. Tissue tightening/Astringent: AstringoTight-1 (designed) - Highly basic/aromatic peptide for cosmetic improvement of gland prominence
+9. Differentiation regulation: SeboDiff-1 (designed) - Hydrophobic peptide modulating PPAR{gamma} pathways in sebocyte maturation
+10. Androgen response modulation: AndroMod-1 (designed) - Aromatic-rich peptide targeting androgen receptor signaling in sebaceous glands
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Fordyce Spots (Ectopic Sebaceous Glands) p01"
+"Loaded_Programs=Fordyce Spots (Ectopic Sebaceous Glands) p02"
+"Loaded_Programs=Fordyce Spots (Ectopic Sebaceous Glands) p03"
+"Loaded_Programs=Fordyce Spots (Ectopic Sebaceous Glands) p04"
+"Loaded_Programs=Fordyce Spots (Ectopic Sebaceous Glands) p05"
+"Loaded_Programs=Fordyce Spots (Ectopic Sebaceous Glands) p06"
+"Loaded_Programs=Fordyce Spots (Ectopic Sebaceous Glands) p07"
+"Loaded_Programs=Fordyce Spots (Ectopic Sebaceous Glands) p08"
+"Loaded_Programs=Fordyce Spots (Ectopic Sebaceous Glands) p09"
+"Loaded_Programs=Fordyce Spots (Ectopic Sebaceous Glands) p10"
+"Loaded_Frequencies=M129.043=1,M99.068,M147.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M87.032=1,M97.053,M113.084,M127.074,0=4,"
+"Loaded_Frequencies=M87.032=1,M87.032,M131.040,M128.095,M113.084,M87.032,M147.068,M156.101,M71.037,M156.101,M71.037,M163.063,M57.021,M147.068,M156.101,M57.021,M97.053,M97.053,M97.053,M128.058,M113.084,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M163.063,M114.043,M102.001,M99.068,M87.032,M87.032,M57.021,M57.021,M128.058,M102.001,M113.084,M163.063,M87.032,M71.037,M102.001,M97.053,M113.084,M147.068,M101.048,M128.095,M113.084,M128.058,M57.021,M101.048,M102.001,M163.063,M156.101,M57.021,M128.095,M71.037,M128.095,M102.001,M102.001,M127.111,0=4,"
+"Loaded_Frequencies=M129.043=1,M131.040,M147.068,M156.101,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M87.032,M129.043,M97.053,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M156.101,M186.079,M156.101,M186.079,0=4,"
+"Loaded_Frequencies=M99.068=1,M99.068,M113.084,M101.048,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M137.059,M137.059,M147.068,M163.063,M147.068,0=4,"
+"[/Preset]"

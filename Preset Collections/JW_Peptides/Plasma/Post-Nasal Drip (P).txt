@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Post-Nasal Drip (P)"
+"Preset_Notes=Post-Nasal Drip for Plasma
+
+Post-nasal drip is the chronic sensation of mucus accumulating or dripping down the pharynx, arising from sinonasal mucin hypersecretion, goblet-cell hyperplasia, cholinergic over-drive, histaminic inflammation, IL-4/IL-13-biased immune responses, and neuropathic TRPV1/NK1 signaling. Contributing factors include thickened mucus, bacterial colonization, and loss of normal mucociliary clearance. The proposed polypeptide set targets each axis: real-world RRLRRLR directly suppresses MUC5AC secretion; RWRRKPTIRRLKKR antagonizes TRPV1/NK1 to reduce nerve-mediated drip; VIP fragment VPTDNV reverses goblet-cell metaplasia; KR-12 eliminates sinonasal bacteria; and seven designed peptides provide H1-blocking antihistaminic activity, M3 anticholinergic inhibition, IL-4/IL-13 pathway suppression, DNAse-like mucus thinning, and keratinocyte-guided restoration of nasal epithelial integrity. Together they offer a comprehensive, non-surgical approach to normalize mucus quantity, viscosity, and clearance while damping inflammation and neuropathic signaling.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Post-Nasal Drip p01"
+"Loaded_Programs=Post-Nasal Drip p02"
+"Loaded_Programs=Post-Nasal Drip p03"
+"Loaded_Programs=Post-Nasal Drip p04"
+"Loaded_Programs=Post-Nasal Drip p05"
+"Loaded_Programs=Post-Nasal Drip p06"
+"Loaded_Programs=Post-Nasal Drip p07"
+"Loaded_Programs=Post-Nasal Drip p08"
+"Loaded_Programs=Post-Nasal Drip p09"
+"Loaded_Programs=Post-Nasal Drip p10"
+"Loaded_Programs=Post-Nasal Drip p11"
+"Loaded_Frequencies=M156.101=1,M156.101,M113.084,M156.101,M156.101,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M128.095,M97.053,M113.084,M156.101,M113.084,M113.084,M156.101,M128.095,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M163.063,M115.027,M163.063,M97.053,M163.063,M163.063,M97.053,M163.063,M97.053,M163.063,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M128.095,M113.084,M156.101,M113.084,M128.095,M156.101,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M115.027=1,M115.027,M156.101,M115.027,M115.027,M115.027,M115.027,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M115.027,M128.095,M113.084,M128.095,M115.027,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M128.095,M113.084,M156.101,M128.095,M156.101,M113.084,M156.101,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M57.021,M113.084,M57.021,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M113.084,M128.095,M156.101,M113.084,M128.095,M113.084,M156.101,M113.084,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"[/Preset]"

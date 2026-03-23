@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Heartburn (R)"
+"Preset_Notes=Heartburn for Remote
+
+Heartburn is a hallmark symptom of gastroesophageal reflux disease (GERD), resulting from acid reflux causing esophageal mucosal irritation, inflammation, esophagitis, and potential epithelial damage, often linked to lower esophageal sphincter dysfunction and oxidative stress.
+
+The proposed polypeptides target evidence-based therapeutic axes from reflux esophagitis models and mucosal protection studies, emphasizing healing, sphincter support, epithelial migration, inflammation reduction, regenerative remodeling, and novel acid-stable optimization.
+
+1. Stable gastric pentadecapeptide mucosal healing and sphincter reinforcement: BPC-157 counteracts reflux-induced esophagitis, promotes healing, and restores lower esophageal sphincter tone in dedicated models.
+2. Acetylated thymosin {beta}4 fragment actin-mediated repair: TB-500 enhances cell migration, reduces inflammation, and supports epithelial regeneration applicable to esophageal wound healing.
+3. Copper-binding tripeptide antioxidant and remodeling support: GHK-Cu protects against oxidative damage and stimulates tissue repair in gastric/esophageal mucosa.
+4. {alpha}-MSH-derived tripeptide inflammation suppression: KPV inhibits pro-inflammatory cytokines relevant to esophageal inflammatory responses.
+5. Engineered capped melanocortin tripeptide stability optimization: Ac-KPV-NH2 provides enhanced acid resistance and bioavailability for sustained anti-inflammatory action in reflux conditions.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Heartburn p01"
+"Loaded_Programs=Heartburn p02"
+"Loaded_Programs=Heartburn p03"
+"Loaded_Programs=Heartburn p04"
+"Loaded_Programs=Heartburn p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"[/Preset]"

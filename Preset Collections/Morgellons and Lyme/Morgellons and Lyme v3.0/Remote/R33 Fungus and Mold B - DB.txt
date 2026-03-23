@@ -1,0 +1,60 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R33 Fungus and Mold B - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Biotin MW
+Stachybotrys Chartarum XTRA
+Epidermophyton Floccosum CAFL
+Zygomycosis KHZ
+Biotin MW
+Chaetomium Globosum CAFL
+Chaetomium Globosum VEGA
+Biotin MW
+Basidomycetes CAFL
+Coccidiodes Immitis XTRA
+Valley Fever 4 XTRA
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square_Hbomb=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Biotin (MW)"
+"Loaded_Programs=Stachybotrys Chartarum (XTRA)"
+"Loaded_Programs=Epidermophyton Floccosum (CAFL)"
+"Loaded_Programs=Zygomycosis (KHZ)"
+"Loaded_Programs=Biotin (MW)"
+"Loaded_Programs=Chaetomium Globosum (CAFL)"
+"Loaded_Programs=Chaetomium Globosum (BIO)"
+"Loaded_Programs=Biotin (MW)"
+"Loaded_Programs=Basidiomycetes (CAFL)"
+"Loaded_Programs=Coccidiodes Immitis (XTRA)"
+"Loaded_Programs=Valley Fever 4 (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=M244.088163078=180,"
+"Loaded_Frequencies=540.1=180,577.9=180,604.39=180,747.39=180,764.5=180,765=180,844=180,922.2=180,952.39=180,969.6=180,"
+"Loaded_Frequencies=465=720,784=720,644=720,766=720,"
+"Loaded_Frequencies=140=180,490=180,730=180,950=180,97500=180,175330=180,476500=180,527000=180,667000=180,752700=180,"
+"Loaded_Frequencies=M244.088163078=180,"
+"Loaded_Frequencies=221=300,102=300,862=300,"
+"Loaded_Frequencies=221=180,867=180,"
+"Loaded_Frequencies=M244.088163078=180,"
+"Loaded_Frequencies=751=300,"
+"Loaded_Frequencies=336=300,337=300,20000=300,"
+"Loaded_Frequencies=80000=2400,336=300,337=300,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

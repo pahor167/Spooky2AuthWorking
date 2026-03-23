@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Spina Calcanei (C)"
+"Preset_Notes=Spina Calcanei for Contact
+
+Spina calcanei (Calcaneal Spur/Plantar Fasciitis Complex)
+
+Spina calcanei represents a calcaneal bony projection associated with chronic plantar fasciitis, characterized by localized heel pain, inflammation of the plantar fascia insertion, and degenerative changes in connective tissue. Therapeutic intervention targets eleven distinct biological axes to address tissue repair, inflammation, bone remodeling, and pain management.
+
+1. Tendon/Ligament regeneration: BPC-157 - Accelerates collagen synthesis and tendon remodeling via FAK-paxillin pathway activation
+2. Cytoskeletal remodeling: Thymosin Beta-4 - Sequesters G-actin to promote cell migration and tissue remodeling at injury site
+3. ECM remodeling/Collagen synthesis: GHK-Cu - Upregulates collagen and glycosaminoglycan synthesis, modulates metalloproteinases
+4. Anti-inflammatory (TNF-{alpha}/IL-6 suppression): SpurShield-1 - Modulates pro-inflammatory cytokine expression to reduce plantar fascia inflammation
+5. Angiogenesis (VEGF upregulation): VascuGrow-1 - Stimulates neovascularization to improve blood supply to damaged fascia
+6. Bone remodeling (Osteoclast regulation): CalcifyReg-1 - Regulates calcium deposition and osteoclast activity to address calcaneal spur formation
+7. Pain modulation (Substance P inhibition): NeuroCalm-1 - Modulates nociceptive signaling to reduce heel pain without opioid effects
+8. Anti-fibrotic (TGF-{beta}1 modulation): FibroBlock-1 - Prevents excessive scar tissue formation in plantar fascia during healing
+9. Nerve protection (NGF support): NeuroGuard-1 - Protects sensory nerves in heel from compression and inflammatory damage
+10. Oxidative stress reduction: OxiClear-1 - Scavenges reactive oxygen species to protect fascial tissue from oxidative damage
+11. MMP regulation (ECM remodeling): MatrixMod-1 - Balances matrix metalloproteinase activity for optimal extracellular matrix turnover
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Spina Calcanei p01"
+"Loaded_Programs=Spina Calcanei p02"
+"Loaded_Programs=Spina Calcanei p03"
+"Loaded_Programs=Spina Calcanei p04"
+"Loaded_Programs=Spina Calcanei p05"
+"Loaded_Programs=Spina Calcanei p06"
+"Loaded_Programs=Spina Calcanei p07"
+"Loaded_Programs=Spina Calcanei p08"
+"Loaded_Programs=Spina Calcanei p09"
+"Loaded_Programs=Spina Calcanei p10"
+"Loaded_Programs=Spina Calcanei p11"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M128.058,M147.068,M97.053,M129.043,M99.068,M101.048,M186.079,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M163.063,M87.032,M97.053,M128.058,M128.095,M147.068,M101.048,M101.048,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M115.027,M113.084,M115.027,M57.021,M115.027,M99.068,M163.063,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M57.021,M147.068,M131.040,M101.048,M87.032,M129.043,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.058,M113.084,M97.053,M156.101,M71.037,M57.021,M99.068,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M128.095,M99.068,M71.037,M99.068,M71.037,M87.032,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M103.009=1,M71.037,M57.021,M71.037,M103.009,M71.037,M57.021,M103.009,M71.037,M103.009,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M128.058,M57.021,M113.084,M71.037,M57.021,M128.058,0=4,"
+"[/Preset]"

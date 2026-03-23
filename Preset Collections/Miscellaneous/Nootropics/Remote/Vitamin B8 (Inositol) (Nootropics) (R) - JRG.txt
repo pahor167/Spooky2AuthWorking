@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Vitamin B8 (Inositol) (Nootropics) (R) - JRG"
+"Loaded_Programs=Vitamin B8 (Inositol) (CUST)"
+"Loaded_Frequencies=M180.06339,"
+"Preset_Notes=Vitamin B8 (Inositol) as a nootropic can boost serotonin levels which results in feelings of calm, heightened mental energy, and easy thought flow.|But it turns out Vitamin B8 is not a true vitamin because your body can produce small quantities of this compound on its own.|Vitamin B8 supports messenger signals throughout the body, including all the messenger signals between neurons in your brain.|Vitamin B8 (Inositol) is also used to control the symptoms of Obsessive Compulsive Disorder (OCD) and panic attacks.|Best food sources of Inositol are citrus fruits, green leaf vegetables, liver, brown rice, and cereals.|As a nootropic, Vitamin B8 (Inositol) dosage is from 500 - 3,000 mg per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

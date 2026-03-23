@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"PresetName=P09 Cancer Sweep (P) - JW"
+"Preset_Notes=
+Update: March 2020.
+
+This preset runs continuously, and beeps at the end of each loop. Run this preset for at least 1 loop.
+
+This overnight Preset uses a modified Carrier Sweep to target all known pathogens using sidebands. The Carrier is always harmonically related to the Modulation. This directs more energy where it is needed.
+
+Most power is focussed around the Cancer frequencies of 1.604 and 1.607 MHz, but all frequencies are targeted during some point of the sweep.
+
+Place the plasma tube near to, or touching, your body. 
+Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Input, Out 2 to Modulation."
+"Loaded_Programs=Cancer Carrier Sweep (CUST)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=1525238-1686212=28800,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

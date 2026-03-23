@@ -1,0 +1,59 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW.txt"
+"PresetName=CX Pain Short - DB"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=152000"
+"BFB_Initial_Step_Size_Hz=20"
+"BFB_Start_Delay=30"
+"Swap_Waveform_Time=60"
+"Preset_Notes=Cancer Protocol, Extras. Contact Mode.
+
+Update: November 2016.
+
+This Preset runs once. 10sec pause with alert between programs, 30sec pause/alert at loop point/end.
+
+This preset addresses cancer pain. Use as required, and repeat after four hours if necessary.
+
+IMPORTANT: Use ALL Detox (R) - DB on another generator while running this.
+
+PROGRAM: START STEPS
+Endorphin Release XTRA:
+Cancer Pain CAFL
+Endorphin Release XTRA:
+Cancer Pain XTRA
+Endorphin Release XTRA
+
+For comfortable treatment, connect your TENS pads or Spooky Hand Cylinders to the Colloidal Silver port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Out1_Max_Freq=0"
+"Out2_Max_Freq=0"
+"Text41=5"
+"Triangle_Spike_Ratio=2"
+"User_Defined_1_Waveform=Square"
+"User_Defined_2_Waveform=Square"
+"Manual_Start=False"
+"BFB_HRV=True"
+"BFB_Detect_mA=False"
+"Out1_Sine=False"
+"Out1_Inverted_Sawtooth=True"
+"BFB_Single_Scan=1"
+"BFB_2DP_Max=1"
+"Enable_Tissue_Factor=0"
+"Loaded_Programs=Pause 60 Seconds (XTRA)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Cancer Pain (CAFL)"
+"Loaded_Programs=Pause 10 Seconds (XTRA)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Cancer Pain (XTRA)"
+"Loaded_Programs=Endorphin Release (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=60,"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=3000=180,95=180,2127=180,2008=180,727=180,690=180,666=180,"
+"Loaded_Frequencies=0=10,"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=95=180,660=180,690=180,727.5=180,2008=180,2127.5=180,2720=180,3000=180,10000=180,"
+"Loaded_Frequencies=38=180,"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

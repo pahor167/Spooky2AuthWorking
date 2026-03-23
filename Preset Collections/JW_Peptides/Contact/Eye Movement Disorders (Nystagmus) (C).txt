@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Eye Movement Disorders (Nystagmus) (C)"
+"Preset_Notes=Eye Movement Disorders (Nystagmus) for Contact
+
+Nystagmus involves involuntary oscillatory eye movements, often linked to vestibular, cerebellar, neurological, or retinal dysfunctions, causing oscillopsia and reduced visual acuity. The selected real-world polypeptides target five evidence-based therapeutic axes from preclinical and clinical research on neuroprotection, inflammation control, retinal health, and neurotransmitter modulation.
+
+1. Gastric pentadecapeptide-mediated neuroprotection: BPC-157 supports CNS integrity and functional recovery relevant to cerebellar and vestibular pathways.
+2. Innate repair receptor agonism: ARA 290 activates tissue-protective pathways to mitigate inflammation and neuropathy in sensory systems.
+3. Pineal tetrapeptide retinal restoration: Epithalon enhances retinal cell function and visual processing in degenerative conditions.
+4. Anxiolytic neurotransmitter modulation: Selank improves GABAergic and serotonergic balance, alleviating symptoms similar to established pharmacotherapies.
+5. Bioregulatory tripeptide neural protection: Pinealon normalizes peptide biogenesis and epigenetic regulation in brain neurons.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Eye Movement Disorders (Nystagmus) p01"
+"Loaded_Programs=Eye Movement Disorders (Nystagmus) p02"
+"Loaded_Programs=Eye Movement Disorders (Nystagmus) p03"
+"Loaded_Programs=Eye Movement Disorders (Nystagmus) p04"
+"Loaded_Programs=Eye Movement Disorders (Nystagmus) p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"[/Preset]"

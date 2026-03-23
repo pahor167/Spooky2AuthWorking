@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Maroteaux-Lamy Syndrome (S)"
+"Preset_Notes=Maroteaux-Lamy Syndrome for Scalar
+
+Maroteaux-Lamy Syndrome (MPS VI) is a rare autosomal recessive lysosomal storage disorder caused by pathogenic variants in the ARSB gene, leading to profound deficiency of N-acetylgalactosamine-4-sulfatase (arylsulfatase B) activity. This enzymatic defect impairs the stepwise degradation of glycosaminoglycans (GAGs), particularly dermatan sulfate and chondroitin-4-sulfate, resulting in progressive intracellular and extracellular accumulation within connective tissues, bones, organs, and valves. Clinical manifestations include coarse facial features, skeletal dysplasia with dysostosis multiplex, short stature, joint contractures and stiffness, spinal cord compression, cardiac valve thickening with potential heart failure, obstructive airway disease, corneal clouding, hepatosplenomegaly, and recurrent infections, while intelligence is typically preserved unlike in some other MPS types. Symptom onset varies, with severe forms presenting in early childhood and rapidly progressive, while attenuated forms allow longer survival but still significant morbidity from accumulated storage material driving inflammation, fibrosis, and organ dysfunction.
+
+The proposed polypeptides are all conceptual designed sequences (flagged as designed) as no short real-world polypeptide therapeutics were identified for MPS VI, with the approved enzyme replacement therapy utilizing a full-length recombinant protein exceeding length constraints. A designed polybasic polypeptide (flagged as designed) conceptually binds negatively charged accumulated GAGs to facilitate urinary excretion or enhanced lysosomal processing. A designed acidic polypeptide (flagged as designed) conceptually mimics aspects of the sulfatase catalytic environment to support residual enzyme function or substrate turnover. A designed aromatic-rich polypeptide (flagged as designed) conceptually dampens secondary inflammatory cascades triggered by storage material. A designed proline-rich polypeptide (flagged as designed) conceptually reinforces extracellular matrix stability to mitigate joint and skeletal deterioration. These short polypeptides offer synthetic feasibility, favorable solubility from charged or structured residues, minimal immunogenicity risk due to simple compositions, and potential for intrathecal or systemic delivery optimization.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Maroteaux-Lamy Syndrome p01"
+"Loaded_Programs=Maroteaux-Lamy Syndrome p02"
+"Loaded_Programs=Maroteaux-Lamy Syndrome p03"
+"Loaded_Programs=Maroteaux-Lamy Syndrome p04"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M147.068,M186.079,M163.063,M147.068,M186.079,M163.063,M147.068,M186.079,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M128.095,M97.053,M97.053,M97.053,M128.095,M97.053,M97.053,M97.053,0=4,"
+"[/Preset]"

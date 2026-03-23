@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Holly (S)"
+"Preset_Notes=Holly / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Holly - Hatred, envy and jealousy.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Holly (S)"
+"Loaded_Frequencies=479.48,"
+"[/Preset]"

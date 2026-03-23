@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Krabbe Disease (S)"
+"Preset_Notes=Krabbe Disease for Scalar
+
+Krabbe disease, also known as globoid cell leukodystrophy, is a rare autosomal recessive lysosomal storage disorder caused by pathogenic variants in the GALC gene, resulting in deficient activity of the enzyme galactocerebrosidase (GALC). This deficiency impairs the degradation of galactosylceramide and, more critically, the highly cytotoxic metabolite psychosine (galactosylsphingosine). Psychosine accumulation is particularly toxic to oligodendrocytes and Schwann cells, disrupting lipid rafts, inducing apoptosis, mitochondrial dysfunction, oxidative stress, and widespread demyelination in both the central and peripheral nervous systems. The pathophysiology involves formation of characteristic multinucleated globoid cells (macrophages engorged with undigested lipids), robust neuroinflammation with elevated proinflammatory cytokines, microgliosis/astrogliosis, and secondary axonal degeneration. Infantile-onset forms present with extreme irritability, hypertonia, developmental arrest, seizures, vision/hearing loss, and typically death by age 2-3 years; later-onset variants show slower progression with variable spasticity, ataxia, and cognitive decline.
+
+Current treatments are limited: hematopoietic stem cell transplantation can slow progression if performed presymptomatically in infants, but outcomes remain suboptimal with persistent neurologic deficits. No curative therapies exist, and experimental approaches (gene therapy, substrate reduction, chaperones) face challenges like blood-brain barrier penetration and incomplete efficacy. The proposed set of four conceptual designed polypeptides targets core pathogenic axes to complement existing strategies. All polypeptides are designed short synthetic peptides without posttranslational modifications for feasibility of synthesis, potential stability, and reduced immunogenicity.
+
+The first designed peptide conceptually acts as a pharmacological chaperone, binding and stabilizing residual mutant GALC to enhance lysosomal folding, trafficking, and partial enzymatic restoration, thereby lowering psychosine buildup. The second designed peptide, rich in basic residues, is intended to electrostatically bind and sequester anionic psychosine, neutralizing its detergent-like toxicity and preventing oligodendrocyte apoptosis. The third designed peptide targets neuroinflammatory cascades, potentially interfering with cytokine signaling or microglial activation to attenuate secondary damage and globoid cell recruitment. The fourth designed peptide provides direct neuroprotective support, promoting anti-apoptotic pathways and cell survival in myelinating glia to preserve myelin integrity. Physicochemically, these low-molecular-weight peptides (7 residues each) exhibit varied charge profiles for axis-specific interactions, potential adsorptive-mediated CNS entry (especially cationic variants), and favorable synthesis/scalability; no excessive residue repeats ensure structural diversity and reduced aggregation risk.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Krabbe Disease p01"
+"Loaded_Programs=Krabbe Disease p02"
+"Loaded_Programs=Krabbe Disease p03"
+"Loaded_Programs=Krabbe Disease p04"
+"Loaded_Frequencies=M57.021=1,M129.043,M147.068,M128.095,M113.084,M99.068,M71.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M128.095,M57.021,M137.059,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M163.063=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.058,M137.059,M113.084,M156.101,M128.095,M114.043,0=4,"
+"[/Preset]"

@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Empty Nose Syndrome (ENS) (S)"
+"Preset_Notes=Empty Nose Syndrome (ENS) for Scalar
+
+Empty Nose Syndrome (ENS) is a debilitating iatrogenic condition arising from over-resection of nasal turbinates, resulting in paradoxical obstruction, severe dryness, crusting, pain, altered sensation, and frequent comorbid anxiety despite an open airway, due to loss of mucosal function, disrupted airflow resistance, sensory nerve dysregulation, and chronic low-grade inflammation. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical mucosal healing studies, regenerative models, neuropathy research, and emerging investigational/anecdotal applications in nasal disorders.
+
+1. Gastric pentadecapeptide mucosal regeneration: BPC-157 promotes rapid epithelial repair, angiogenesis, and tissue protection, with reported benefits in nasal mucosa.
+2. Acetylated actin-sequestering heptapeptide tissue remodeling: TB-500 enhances cellular migration, wound healing, and structural recovery in atrophic tissues.
+3. Copper-chelated tripeptide barrier restoration: GHK-Cu stimulates extracellular matrix reorganization, antioxidant activity, and epithelial integrity.
+4. Pyroglutamate erythropoietin-derived sensory neuroprotection: ARA 290 selectively mitigates neuropathic pain and inflammation in damaged sensory nerves.
+5. Acetylated melanocortin tripeptide inflammation control: Ac-KPV-NH2 delivers potent cytokine suppression for resolving chronic nasal inflammation.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Empty Nose Syndrome (ENS) p01"
+"Loaded_Programs=Empty Nose Syndrome (ENS) p02"
+"Loaded_Programs=Empty Nose Syndrome (ENS) p03"
+"Loaded_Programs=Empty Nose Syndrome (ENS) p04"
+"Loaded_Programs=Empty Nose Syndrome (ENS) p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"[/Preset]"

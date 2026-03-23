@@ -1,0 +1,61 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Cholinergic Urticaria (Heat/Sweat-Induced) (S)"
+"Preset_Notes=Cholinergic Urticaria (Heat/Sweat-Induced) for Scalar
+
+Complex multi-factorial cutaneous condition characterized by overlapping pathologies: (1) Cholinergic urticaria triggered by heat/sweat via acetylcholine release and sympathetic nervous system activation; (2) Topical Steroid Withdrawal (TSW) following chronic cyclosporine and corticosteroid use resulting in HPA axis dysregulation, cortisol rhythm disruption, skin barrier collapse (filaggrin/ceramide deficiency), and nitric oxide-mediated rebound vasodilation; (3) IgE-mediated allergic sensitization to dust mites (Dermatophagoides) and pet dander with elevated specific IgE; (4) Histamine intolerance from DAO deficiency and high cortisol-histamine positive feedback; (5) Neurogenic inflammation via substance P and CGRP. Pathophysiology involves CRH-mediated mast cell activation, Fc{epsilon}RI hypersensitivity, and defective skin barrier allowing allergen penetration. Therapeutic strategy requires mast cell stabilization, HPA axis normalization, IgE blocking, histamine degradation, skin barrier repair, and neurogenic inflammation control.
+
+Therapeutic peptide interventions:
+1. Mast cell stabilization/IgE-Fc{epsilon}RI blockade (Allergy component): C3a9 - Complement C3a-derived 8-mer peptide that binds Fc{epsilon}RI {beta}-chain, inhibiting IgE-mediated mast cell degranulation; blocks immediate hypersensitivity reactions to dust mite and pet allergens; reduces histamine and tryptase release from sensitized mast cells in TSW-affected skin
+2. Melanocortin anti-inflammatory/HPA axis modulation: {alpha}-MSH - Alpha-melanocyte stimulating hormone with N-terminal acetylation and C-terminal amidation; potently suppresses pro-inflammatory cytokines (IL-1{beta}, IL-6, TNF-{alpha}) and NF{kappa}B signaling; modulates melanocortin system to counteract cortisol dysregulation in TSW; reduces neurogenic inflammation in cholinergic urticaria
+3. CRH receptor antagonism/HPA axis normalization (TSW): CRH-Antag-1 - Designed CRHR1 antagonist peptide based on astressin structure; blocks corticotropin-releasing hormone signaling to normalize HPA axis dysfunction from chronic steroid use; reduces peripheral CRH-mediated mast cell activation and restores endogenous cortisol rhythm in TSW recovery
+4. Antimicrobial barrier/Inflammation regulation (TSW skin repair): LL-37 - Endogenous 37-aa cathelicidin antimicrobial peptide; restores innate immune defense compromised by topical steroid-induced skin atrophy; promotes wound healing and barrier repair; modulates TLR signaling to reduce inflammation; protects against secondary infection in TSW-compromised skin
+5. Neurogenic inflammation marker/NK1-MRGPRX2 target: Substance P - Endogenous tachykinin neuropeptide elevated in both cholinergic urticaria and TSW; activates mast cells via MRGPRX2 and NK1 receptors; serves as therapeutic target to break neurogenic inflammation cycle linking stress, sweat, and mast cell activation in steroid-withdrawal context
+6. Tissue repair/Barrier restoration (TSW skin healing): GHK - Endogenous copper-binding tripeptide glycyl-histidyl-lysine; stimulates collagen synthesis, angiogenesis, and keratinocyte migration; upregulates over 4000 skin-repair genes; restores skin barrier function damaged by chronic topical corticosteroid use; supports filaggrin and ceramide production
+7. Filaggrin support/Skin barrier repair (TSW-specific): FilaggrinBoost-1 - Designed 5-aa peptide mimicking filaggrin monomer N-terminal sequence; promotes keratinocyte differentiation and filaggrin processing; enhances natural moisturizing factor (NMF) production and stratum corneum acidification; repairs steroid-induced barrier dysfunction and reduces allergen penetration
+8. DAO mimetic/Histamine degradation (Histamine intolerance): HistamineDegrade-1 - Designed 5-aa histidine-rich peptide mimicking diamine oxidase (DAO) active site; catalyzes oxidative deamination of excess histamine accumulated from high cortisol and mast cell activation; supports endogenous histamine clearance in TSW-related histamine intolerance and cholinergic urticaria
+9. IgE blocking/Dust mite allergy desensitization: IgE-Block-DM - Designed N-acetylated 5-aa peptide based on Der p 7 IgE epitope P1 sequence; induces blocking IgG antibodies that compete with patient IgE for dust mite allergen binding; reduces basophil activation and allergic sensitization without triggering anaphylaxis; specific for Dermatophagoides pteronyssinus
+10. HPA axis modulation/Cortisol rhythm restoration: CortisolMod-1 - Designed 4-aa peptide modulating cortisol-cortisone shuttle enzymes; supports 11{beta}-HSD1/2 balance to normalize tissue cortisol exposure; mitigates steroid-withdrawal rebound inflammation and HPA axis suppression from chronic cyclosporine and corticosteroid use
+11. Lipid barrier/Ceramide analog (Skin barrier sealing): BarrierSeal-1 - Designed hydrophobic 4-aa peptide mimicking ceramide structure; integrates into stratum corneum lipid lamellae to restore barrier integrity; reduces transepidermal water loss (TEWL) characteristic of TSW; prevents allergen penetration and irritant entry in compromised skin
+12. Mast cell stabilization/TSW-specific inflammation control: MastCalm-TSW - Designed 4-aa basic peptide with cysteine for redox sensing; specifically stabilizes mast cells in steroid-withdrawal context; inhibits spontaneous and triggered degranulation; reduces CRH-induced mast cell activation and blocks substance P priming effects on mast cells
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Cholinergic Urticaria (Heat/Sweat-Induced) p01"
+"Loaded_Programs=Cholinergic Urticaria (Heat/Sweat-Induced) p02"
+"Loaded_Programs=Cholinergic Urticaria (Heat/Sweat-Induced) p03"
+"Loaded_Programs=Cholinergic Urticaria (Heat/Sweat-Induced) p04"
+"Loaded_Programs=Cholinergic Urticaria (Heat/Sweat-Induced) p05"
+"Loaded_Programs=Cholinergic Urticaria (Heat/Sweat-Induced) p06"
+"Loaded_Programs=Cholinergic Urticaria (Heat/Sweat-Induced) p07"
+"Loaded_Programs=Cholinergic Urticaria (Heat/Sweat-Induced) p08"
+"Loaded_Programs=Cholinergic Urticaria (Heat/Sweat-Induced) p09"
+"Loaded_Programs=Cholinergic Urticaria (Heat/Sweat-Induced) p10"
+"Loaded_Programs=Cholinergic Urticaria (Heat/Sweat-Induced) p11"
+"Loaded_Programs=Cholinergic Urticaria (Heat/Sweat-Induced) p12"
+"Loaded_Frequencies=M115.027=1,M103.009,M103.009,M114.043,M163.063,M113.084,M101.048,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,M57.021,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M113.084,M113.084,M156.101,M129.043,M99.068,M129.043,M113.084,M129.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M147.068=1,M87.032,M87.032,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M113.084,M137.059,M57.021,0=4,"
+"Loaded_Frequencies=M131.040=1,M115.027,M113.084,M97.053,M101.048,0=4,"
+"Loaded_Frequencies=M129.043=1,M99.068,M113.084,M128.058,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M103.009,M156.101,0=4,"
+"[/Preset]"

@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Milk-Alkali Syndrome (P)"
+"Preset_Notes=Milk-Alkali Syndrome for Plasma
+
+Milk-alkali syndrome (MAS) is a resurgent cause of the triad of hypercalcemia, metabolic alkalosis, and renal impairment resulting from excessive intake of calcium and absorbable alkali, most commonly calcium carbonate supplements taken for osteoporosis prevention or dyspepsia relief, often combined with vitamin D. It presents with symptoms including nausea, vomiting, anorexia, polyuria, polydipsia, dehydration, weakness, mental status changes (confusion, lethargy), pruritus, and in severe cases, arrhythmias, seizures, or coma. Pathophysiologically, high calcium load suppresses parathyroid hormone (PTH), reducing renal calcium excretion while alkalosis increases tubular calcium reabsorption and decreases glomerular filtration rate (GFR); this creates a vicious cycle of worsening hypercalcemia, volume contraction, and acute kidney injury, with potential for chronic kidney disease or soft tissue calcification if prolonged.
+
+Standard management prioritizes cessation of calcium/alkali intake, aggressive intravenous hydration for volume expansion and calciuresis, and loop diuretics if needed; severe/refractory hypercalcemia may require calcitonin or bisphosphonates, with hemodialysis for life-threatening cases or severe renal failure. The proposed polypeptides target core axes of calcium dysregulation. Salmon calcitonin (real-world) provides established acute hypocalcemic action through osteoclast inhibition (reduced bone resorption) and enhanced renal calcium excretion. The designed polypeptides are conceptual C-terminally amidated 12-residue sequences for improved stability and bioavailability: D1 (polybasic) conceptually exploits charge interactions to promote renal tubular calcium handling; D2 (amphipathic) integrates into membranes to modulate transporter activity favoring excretion; D3 (hydrophobic) disrupts lipid-dependent pathological retention mechanisms. These short designs are synthetically feasible with low anticipated immunogenicity, drawing from proven peptide classes in endocrine/renal models, though requiring preclinical testing for MAS-specific efficacy.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Milk-Alkali Syndrome p01"
+"Loaded_Programs=Milk-Alkali Syndrome p02"
+"Loaded_Programs=Milk-Alkali Syndrome p03"
+"Loaded_Programs=Milk-Alkali Syndrome p04"
+"Loaded_Frequencies=M102.001=1,M87.032,M114.043,M113.084,M87.032,M101.048,M102.001,M99.068,M113.084,M57.021,M128.095,M113.084,M87.032,M128.058,M129.043,M113.084,M137.059,M128.095,M113.084,M128.058,M101.048,M163.063,M97.053,M156.101,M101.048,M114.043,M101.048,M57.021,M87.032,M71.037,M101.048,M96.069,0=4,"
+"Loaded_Frequencies=M128.095=1,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,M155.117,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M112.10,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M147.068,M113.084,M147.068,M113.084,M147.068,M113.084,M147.068,M113.084,M147.068,M112.10,0=4,"
+"[/Preset]"

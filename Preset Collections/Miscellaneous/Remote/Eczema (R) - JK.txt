@@ -1,0 +1,39 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Eczema (R) - JK"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Amplitude=20"
+"Out2_Amplitude=20"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=Eczema for Remote by Jeff Kaczor
+
+This is a Remote Mode setup that took me a while to develop.
+
+It utilizes Eczema 2 (XTRA) which when researched, is a frequency set designed to target pathogenic factors.
+
+This remote version is recommended only as a way to limit potential outbreaks should you find yourself heading into environments/situations that will expose you to your trigger.
+
+The frequency set had little effect until I stumbled on this configuration.  It is best used in contact mode -- especially with active outbreaks.  Please find the contact version if this applies to you.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Load this preset and start the generator. DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Enable_Remove_Duplicate_Frequencies=0"
+"F1_Factor=64"
+"F1_Modulation_Type=Modulate F2 using F1 (AM DSB)"
+"Out1_Frequency_Limit_Harmonic_Type=Octave"
+"Out2_Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Square"
+"User_Defined_2_Waveform=Square"
+"Manual_Start=False"
+"Out1_Inverted_Sawtooth=True"
+"Out1_User_Defined_1=False"
+"Enable_F2_Modulation=1"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Notify_When_Zero_Hz=1"
+"Loaded_Programs=Eczema 2 (XTRA)"
+"Loaded_Frequencies=9.18=180,9.19=180,9.39=180,9.4=180,20=180,120=180,415=180,660=180,664=180,690=180,707=180,727.5=180,770=180,787=180,802=180,916=180,1550=180,2127.5=180,2180=180,2720=180,5000=180,10000=180,"
+[/Preset]

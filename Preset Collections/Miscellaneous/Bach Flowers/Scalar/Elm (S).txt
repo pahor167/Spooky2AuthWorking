@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Elm (S)"
+"Preset_Notes=Elm / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Elm - Overwhelmed by responsibility.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Elm (S)"
+"Loaded_Frequencies=463.13,"
+"[/Preset]"

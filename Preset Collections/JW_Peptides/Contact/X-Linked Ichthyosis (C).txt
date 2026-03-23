@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=X-Linked Ichthyosis (C)"
+"Preset_Notes=X-Linked Ichthyosis for Contact
+
+X-Linked Ichthyosis (XLI) is a genetic skin disorder caused by mutations or deletions in the STS gene on the X chromosome, leading to steroid sulfatase deficiency that impairs the hydrolysis of cholesterol sulfate, resulting in accumulation of cholesterol-3-sulfate and disrupted corneocyte desquamation. This manifests as adherent, dark brown or gray scales on the extensor surfaces, trunk, and neck, with sparing of flexures, palms, soles, and face; symptoms include dryness, pruritus, and potential corneal opacities or cryptorchidism in some cases. Pathophysiology involves altered lipid composition in the stratum corneum, increased corneocyte cohesion from elevated cholesterol sulfate, impaired barrier function with heightened transepidermal water loss, and secondary inflammation from microbiome dysbiosis or Th17 skewing. Triggers include low humidity or hormonal changes, while chronic scaling can lead to ectropion, infections, or psychosocial impacts.
+
+The proposed designed polypeptides target key axes of XLI. For inflammation inhibition, the designed polypeptide modulates IL-17/Th17 pathways to reduce cytokine-driven scaling, feasible via peptide antagonists with competitive binding and considerations for topical delivery. For barrier function enhancement, the designed polypeptide promotes lipid transport mimicking STS activity, supported by enzyme mimetic peptides, acting through substrate facilitation with stability in stratum corneum. For keratinocyte differentiation, the designed polypeptide activates retinoid-like pathways to improve desquamation, feasible in differentiation-modulating peptides, via receptor agonism with solubility enhancements. For STS restoration, the designed polypeptide acts as a chaperone to stabilize residual enzyme, based on protein stabilization precedents, functioning by binding interactions with proteolytic resistance. For redox homeostasis, the designed polypeptide scavenges ROS to mitigate oxidative damage, using antioxidant peptides, through thiol buffering with cellular penetration.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=X-Linked Ichthyosis p01"
+"Loaded_Programs=X-Linked Ichthyosis p02"
+"Loaded_Programs=X-Linked Ichthyosis p03"
+"Loaded_Programs=X-Linked Ichthyosis p04"
+"Loaded_Programs=X-Linked Ichthyosis p05"
+"Loaded_Frequencies=M137.059=1,M128.095,M156.101,M97.053,M87.032,M128.058,M101.048,0=4,"
+"Loaded_Frequencies=M163.063=1,M147.068,M87.032,M113.084,M156.101,M101.048,0=4,"
+"Loaded_Frequencies=M103.009=1,M163.063,M97.053,M131.040,M137.059,M114.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M87.032,M71.037,M57.021,M115.027,M129.043,0=4,"
+"Loaded_Frequencies=M103.009=1,M163.063,M156.101,M137.059,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Dog Benign Prostatic Hyperplasia (BPH) (L)"
+"Preset_Notes=Dog Benign Prostatic Hyperplasia (BPH) for Laser
+
+Benign Prostatic Hyperplasia (BPH) in dogs is a prevalent condition affecting primarily intact male dogs over the age of 5 years, characterized by the non-malignant enlargement of the prostate gland. The primary cause is hormonal imbalance, particularly the influence of androgens like dihydrotestosterone (DHT), derived from testosterone via 5-alpha reductase, combined with age-related increases in estrogen levels relative to androgens. Symptoms include difficulty urinating (dysuria), straining to defecate (tenesmus), blood in urine or semen (hematuria or hemospermia), and occasionally infertility or lethargy. Pathophysiology involves hyperplasia of both glandular epithelial and stromal cells, leading to increased prostate volume, compression of the urethra and rectum, and potential secondary complications like prostatitis, cysts, or abscesses. Chronic exposure to DHT promotes cell proliferation and inhibits apoptosis, while estrogens contribute to stromal fibrosis and inflammation. Prolactin also plays a role in exacerbating hyperplasia through autocrine/paracrine signaling.
+
+The proposed polypeptides address BPH through multiple therapeutic axes. In the GnRH-mediated hormonal suppression axis, Deslorelin acts as a GnRH agonist, initially stimulating but ultimately downregulating pituitary gonadotropin release, leading to reduced testosterone and DHT levels, thereby decreasing prostate size and alleviating symptoms. The designed polypeptide for this axis conceptually mimics GnRH to achieve similar suppression of androgen drive. In the androgen signaling inhibition axis, GV1001 interacts with the androgen receptor to inhibit cell proliferation and epithelial-mesenchymal transition, reducing hyperplasia. The designed polypeptide for this axis targets androgen pathways to block proliferative signals. For the prolactin signaling inhibition axis, the designed polypeptide antagonizes the prolactin receptor, preventing JAK/STAT activation and associated stromal and epithelial growth. In the estrogen signaling modulation axis, the designed polypeptide modulates estrogen receptors to balance ER-{alpha} promoted proliferation and ER-{beta} inhibitory effects, mitigating estrogen-androgen imbalance contributions to BPH.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Dog Benign Prostatic Hyperplasia (BPH) p01"
+"Loaded_Programs=Dog Benign Prostatic Hyperplasia (BPH) p02"
+"Loaded_Programs=Dog Benign Prostatic Hyperplasia (BPH) p03"
+"Loaded_Programs=Dog Benign Prostatic Hyperplasia (BPH) p04"
+"Loaded_Programs=Dog Benign Prostatic Hyperplasia (BPH) p05"
+"Loaded_Programs=Dog Benign Prostatic Hyperplasia (BPH) p06"
+"Loaded_Frequencies=M111.032=1,M137.059,M186.079,M87.032,M163.063,M186.079,M113.084,M156.101,M124.100,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M156.101,M97.053,M71.037,M113.084,M113.084,M101.048,M87.032,M156.101,M113.084,M156.101,M147.068,M113.084,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M186.079,M87.032,M163.063,M113.084,M156.101,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M71.037,M156.101,M97.053,M71.037,M113.084,M113.084,M101.048,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M156.101,M147.068,M87.032,M101.048,M113.084,M113.084,M113.084,M147.068,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M115.027,M113.084,M156.101,M97.053,0=4,"
+"[/Preset]"

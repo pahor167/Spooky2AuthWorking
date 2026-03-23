@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Sickle Cell Anemia (L)"
+"Preset_Notes=Sickle Cell Anemia for Laser
+
+The peptides target multiple therapeutic axes for sickle cell anemia, including anti-sickling to prevent hemoglobin polymerization, antioxidant to reduce oxidative stress, pain management to alleviate crises, tissue repair to address complications, and anti-inflammatory to manage vaso-occlusive events. Designed peptides are flagged and provide conceptual supplements for additional regenerative and neuroprotective mechanisms.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Sickle Cell Anemia p01"
+"Loaded_Programs=Sickle Cell Anemia p02"
+"Loaded_Programs=Sickle Cell Anemia p03"
+"Loaded_Programs=Sickle Cell Anemia p04"
+"Loaded_Programs=Sickle Cell Anemia p05"
+"Loaded_Programs=Sickle Cell Anemia p06"
+"Loaded_Programs=Sickle Cell Anemia p07"
+"Loaded_Programs=Sickle Cell Anemia p08"
+"Loaded_Programs=Sickle Cell Anemia p09"
+"Loaded_Programs=Sickle Cell Anemia p10"
+"Loaded_Programs=Sickle Cell Anemia p11"
+"Loaded_Programs=Sickle Cell Anemia p12"
+"Loaded_Frequencies=M99.068=1,M129.043,M101.048,M97.053,0=4,"
+"Loaded_Frequencies=M147.068=1,M129.043,M101.048,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M99.068,M99.068,M163.063,M97.053,M186.079,M101.048,0=4,"
+"Loaded_Frequencies=M128.058=1,M156.101,M97.053,M156.101,M113.084,M87.032,M128.095,M97.053,M131.040,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M128.095,M97.053,M128.058,M128.058,M147.068,M147.068,M57.021,M113.084,M130.056,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,M57.021,M128.095,M156.101,M163.063,M128.095,M128.058,M156.101,M99.068,M128.095,M114.043,M128.095,0=4,"
+"Loaded_Frequencies=M101.001=1,M115.027,M156.101,M128.095,M128.058,M101.001,0=4,"
+"Loaded_Frequencies=M198.112=1,M99.068,M128.095,M115.027,M129.043,M87.032,0=4,"
+"[/Preset]"

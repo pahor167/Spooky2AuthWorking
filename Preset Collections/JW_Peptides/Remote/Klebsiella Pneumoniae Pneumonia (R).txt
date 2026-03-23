@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Klebsiella Pneumoniae Pneumonia (R)"
+"Preset_Notes=Klebsiella Pneumoniae Pneumonia for Remote
+
+Klebsiella pneumoniae pneumonia is a severe, often hospital-acquired respiratory infection caused by the gram-negative, encapsulated bacterium Klebsiella pneumoniae. It is frequently multidrug-resistant, limiting conventional antibiotic options and increasing mortality risk. Antimicrobial peptides provide diverse mechanisms to combat this pathogen, including direct bactericidal effects, biofilm disruption, and immune modulation.
+
+1. LPS transport inhibition: Thanatin - Binds LptA to disrupt lipopolysaccharide transport in the outer membrane
+2. Intracellular inhibition: Indolicidin - Tryptophan-rich peptide that crosses membranes to inhibit macromolecular synthesis
+3. Beta-sheet pore formation: Protegrin-1 - Forms barrel-stave pores in bacterial membranes
+4. Broad-spectrum defensin activity: Human Beta-Defensin 3 (hBD-3) - Disrupts membranes and modulates innate immunity
+5. Rapid membrane disruption: Omiganan - Synthetic indolicidin analog with fast bactericidal action
+6. Anti-biofilm immunomodulation: IDR-1018 - Inhibits biofilm formation and enhances protective immune responses
+7. MDR strain targeting: SAAP-148 - Synthetic peptide optimized for activity against resistant pathogens
+8. Alpha-helical disruption: Cecropin A - Insect-derived peptide that forms pores in gram-negative membranes
+9. Beta-hairpin gram-negative targeting: Arenicin-1 - Marine-derived peptide with potent gram-negative activity
+10. Hybrid helical with in vivo efficacy: A20L - Hybrid peptide effective in K. pneumoniae infection models via membrane disruption
+11. Optimized beta-hairpin for MDR: AA139 - Arenicin variant engineered for multidrug-resistant gram-negative bacteria
+12. Engineered alpha-helical disruption: Designed-Helical-Kp - Designed high-cationic helical peptide for enhanced membrane penetration and disruption in encapsulated strains
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Klebsiella Pneumoniae Pneumonia p01"
+"Loaded_Programs=Klebsiella Pneumoniae Pneumonia p02"
+"Loaded_Programs=Klebsiella Pneumoniae Pneumonia p03"
+"Loaded_Programs=Klebsiella Pneumoniae Pneumonia p04"
+"Loaded_Programs=Klebsiella Pneumoniae Pneumonia p05"
+"Loaded_Programs=Klebsiella Pneumoniae Pneumonia p06"
+"Loaded_Programs=Klebsiella Pneumoniae Pneumonia p07"
+"Loaded_Programs=Klebsiella Pneumoniae Pneumonia p08"
+"Loaded_Programs=Klebsiella Pneumoniae Pneumonia p09"
+"Loaded_Programs=Klebsiella Pneumoniae Pneumonia p10"
+"Loaded_Programs=Klebsiella Pneumoniae Pneumonia p11"
+"Loaded_Programs=Klebsiella Pneumoniae Pneumonia p12"
+"Loaded_Frequencies=M57.021=1,M87.032,M128.095,M128.095,M97.053,M99.068,M97.053,M113.084,M113.084,M163.063,M102.001,M114.043,M156.101,M156.101,M101.048,M57.021,M128.095,M102.001,M128.058,M156.101,M131.040,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M156.101,M99.068,M186.079,M128.095,M156.101,M99.068,M147.068,M128.095,M113.084,M113.084,M128.095,M156.101,M163.063,M186.079,M156.101,M128.058,M113.084,M128.095,M128.095,M97.053,M99.068,M155.117,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M101.048,M99.068,M128.095,M114.043,M128.058,M156.101,M115.027,0=4,"
+"Loaded_Frequencies=M156.101=1,M186.079,M102.001,M99.068,M163.063,M71.037,M163.063,M99.068,M156.101,M99.068,M156.101,M57.021,M99.068,M113.084,M99.068,M156.101,M163.063,M156.101,M156.101,M102.001,M186.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M87.032,M147.068,M113.084,M128.095,M101.048,M147.068,M128.095,M87.032,M71.037,M128.095,M128.095,M101.048,M99.068,M113.084,M137.059,M101.048,M113.084,M113.084,M128.095,M71.037,M113.084,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M103.009,M186.079,M163.063,M99.068,M103.009,M71.037,M156.101,M156.101,M114.043,M57.021,M71.037,M156.101,M99.068,M103.009,M163.063,M156.101,M156.101,M103.009,M114.043,0=4,"
+"Loaded_Frequencies=M147.068=1,M71.037,M128.095,M128.095,M147.068,M71.037,M128.095,M128.095,M147.068,M128.095,M128.095,M147.068,M71.037,M128.095,M128.095,M147.068,M71.037,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Oppositional Defiant Disorder (C)"
+"Preset_Notes=Oppositional Defiant Disorder for Contact
+
+Oppositional Defiant Disorder (ODD) is a childhood behavioral disorder characterized by a persistent pattern of angry/irritable mood, argumentative/defiant behavior, and vindictiveness, often co-occurring with ADHD or conduct disorder, leading to significant social, academic, and familial impairments.
+
+1. Social bonding enhancement: Oxytocin - Enhances social recognition, approach behavior, and empathy while reducing social avoidance and aggression
+2. Aggression regulation: Vasopressin - Modulates social and aggressive behaviors through central nervous system effects, potentially reducing defiant responses
+3. Emotional regulation: Selank - Balances neurotransmitters like GABA, dopamine, and serotonin to reduce anxiety and improve mood stability
+4. Stress reduction: DSIP - Promotes better sleep and stress response, alleviating irritability and oppositional tendencies
+5. Mood stabilization: Galanin - Regulates mood and aggression via neuromodulation, supporting behavioral control
+6. Reward system modulation: Neurotensin - Influences dopamine pathways to enhance motivation and mitigate reward processing deficits
+7. Dopamine regulation: TAT-DAT NT - Disrupts D2R-DAT interaction to elevate extracellular dopamine, addressing co-morbid ADHD-like symptoms
+8. Impulse control enhancement: LCGM-10 (designed) - Attenuates mGluR5 activity to reduce impulsive aggression and improve decision-making
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Oppositional Defiant Disorder p01"
+"Loaded_Programs=Oppositional Defiant Disorder p02"
+"Loaded_Programs=Oppositional Defiant Disorder p03"
+"Loaded_Programs=Oppositional Defiant Disorder p04"
+"Loaded_Programs=Oppositional Defiant Disorder p05"
+"Loaded_Programs=Oppositional Defiant Disorder p06"
+"Loaded_Programs=Oppositional Defiant Disorder p07"
+"Loaded_Programs=Oppositional Defiant Disorder p08"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M147.068,M128.058,M114.043,M102.001,M97.053,M156.101,M56.037,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M186.079=1,M71.037,M57.021,M57.021,M115.027,M71.037,M87.032,M87.032,M129.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M186.079,M101.048,M113.084,M114.043,M87.032,M71.037,M57.021,M163.063,M113.084,M113.084,M57.021,M97.053,M137.059,M71.037,M113.084,M115.027,M114.043,M137.059,M156.101,M87.032,M147.068,M137.059,M115.027,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M111.032=1,M113.084,M128.058,M163.063,M129.043,M114.043,M128.095,M97.053,M156.101,M156.101,M97.053,M163.063,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,M115.027,M99.068,0=4,"
+"[/Preset]"

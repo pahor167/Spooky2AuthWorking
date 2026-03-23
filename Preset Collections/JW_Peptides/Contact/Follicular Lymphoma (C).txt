@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Follicular Lymphoma (C)"
+"Preset_Notes=Follicular Lymphoma for Contact
+
+Follicular Lymphoma is the most common indolent non-Hodgkin B-cell lymphoma, characterized by t(14;18) translocation causing BCL2 overexpression, suppressed apoptosis, follicular architecture, and often prolonged but relapsing course with potential transformation to aggressive disease. The polypeptides below target diverse axes including kinase signaling disruption, p53 restoration, angiogenesis inhibition, immune enhancement, and selective cancer cell cytotoxicity suitable for adjunctive or targeted therapy.
+
+1. Oncogenic kinase inhibition: CIGB-300 - Cell-permeable cyclic peptide inhibiting CK2 to disrupt survival signaling and induce apoptosis
+2. p53 pathway activation: Azurin_p28 - Cancer cell-preferential penetrating peptide stabilizing p53 for G1 arrest and apoptosis
+3. Thrombospondin-mimetic anti-angiogenesis: ABT-510 - Nonapeptide analog inhibiting endothelial activation and tumor vascular support
+4. Innate immune enhancement: IDR-1018 - Synthetic immunomodulatory peptide boosting anti-tumor macrophage and dendritic cell responses
+5. Beta-sheet pore-forming cytotoxicity: Protegrin-1 - Natural cyclic peptide forming pores in cancer cell membranes
+6. Tryptophan-rich membrane lysis: Indolicidin - Highly cationic bovine peptide with rapid disruption of lymphoma cell membranes
+7. Optimized cationic anticancer: Omiganan - Indolicidin-derived clinical analog with enhanced anticancer potency
+8. Amphipathic helical disruption: Pexiganan - Engineered magainin analog selectively lysing cancer cells via membrane interaction
+9. Mitochondrial pro-apoptotic: KLAK_LAK - D-amino acid peptide inducing mitochondrial membrane permeabilization and apoptosis
+10. LK-repeat helical anticancer: MP1_Anticancer - Designed amphipathic alpha-helical peptide for selective cancer cell lysis
+11. Histidine-lysine beta anticancer: HKH20 - Designed beta-structured peptide with high selectivity for lymphoma cell membranes
+12. Integrin antagonism: RGD - Tripeptide blocking {alpha}v{beta}3/{alpha}5{beta}1 integrins to inhibit angiogenesis and tumor adhesion
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Follicular Lymphoma p01"
+"Loaded_Programs=Follicular Lymphoma p02"
+"Loaded_Programs=Follicular Lymphoma p03"
+"Loaded_Programs=Follicular Lymphoma p04"
+"Loaded_Programs=Follicular Lymphoma p05"
+"Loaded_Programs=Follicular Lymphoma p06"
+"Loaded_Programs=Follicular Lymphoma p07"
+"Loaded_Programs=Follicular Lymphoma p08"
+"Loaded_Programs=Follicular Lymphoma p09"
+"Loaded_Programs=Follicular Lymphoma p10"
+"Loaded_Programs=Follicular Lymphoma p11"
+"Loaded_Programs=Follicular Lymphoma p12"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M114.043,M156.101,M97.053,M129.043,M113.084,M101.048,M128.058,M186.079,M87.032,M156.101,M114.043,M113.084,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M101.048,M71.037,M71.037,M115.027,M131.040,M128.058,M57.021,M99.068,M99.068,M101.048,M115.027,M57.021,M131.040,M71.037,M87.032,M57.021,M113.084,M115.027,M128.095,M115.027,M163.063,M113.084,M128.095,M97.053,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M129.043=1,M99.068,M113.084,M101.048,M156.101,M114.043,M128.058,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M101.048,M113.084,M113.084,M57.021,M113.084,M113.084,M128.095,M87.032,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M137.059,M57.021,M137.059,M57.021,M137.059,M57.021,M128.095,M137.059,M128.095,M114.043,M128.095,M57.021,M128.095,M128.095,M114.043,M57.021,M128.095,M137.059,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"[/Preset]"

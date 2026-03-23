@@ -1,0 +1,48 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Meralgia Parethetica (L)"
+"Preset_Notes=Meralgia Parethetica for Laser
+
+Meralgia Parethetica, also known as Bernhardt-Roth syndrome, is a sensory mononeuropathy caused by compression or entrapment of the lateral femoral cutaneous nerve (LFCN) near the inguinal ligament or fascial tunnels, leading to burning pain, paresthesia, numbness, and hypersensitivity strictly in the anterolateral thigh. Contributing factors include obesity, tight clothing, pregnancy, diabetes-induced nerve swelling, trauma, surgery, or anatomical variants; pathophysiology encompasses focal ischemia, demyelination, axonal degeneration, perineural edema/fibrosis, neuroinflammation, oxidative stress, and nociceptor hyperexcitability without motor involvement. Polypeptide therapeutics address these core pathophysiologic axes comprehensively. 
+
+1. Pleiotropic neuroprotection and nerve regeneration: BPC-157 - Stable gastric pentadecapeptide that promotes rapid nerve repair, angiogenesis, reduces inflammation and oxidative stress, and counteracts entrapment-induced damage via NO, VEGF, and growth factor signaling pathways. 
+2. Perineural anti-inflammatory modulation: InflaMod-1 - Suppresses NF-{kappa}B activation and pro-inflammatory cytokine release to resolve edema and inflammation around the compressed LFCN. 
+3. Axonal regeneration and sprouting: AxonReg-1 - Upregulates neurotrophic factors like BDNF and GDNF to promote axonal outgrowth and reinnervation across damaged segments. 
+4. Myelin repair and remyelination: MyelinRep-1 - Enhances Schwann cell differentiation and myelin protein expression to restore conduction in demyelinated LFCN fibers. 
+5. Neuroprotection against ischemic damage: NeuroProt-1 - Activates AKT/PI3K survival pathways to protect sensory neurons and Schwann cells from compression-induced apoptosis and hypoxia. 
+6. Neuropathic pain signal modulation: PainMod-1 - Inhibits voltage-gated sodium channels and TRPV1 receptors to dampen hyperexcitability and burning paresthesias. 
+7. Angiogenesis and vasa nervorum restoration: VasoNerv-1 - Stimulates endothelial proliferation and VEGF-like signaling to improve microvascular supply to the ischemic nerve. 
+8. Antioxidant defense and oxidative stress reduction: AntiOx-1 - Activates Nrf2 pathway to boost endogenous antioxidants, mitigating ROS damage especially in diabetic cases. 
+9. Anti-fibrotic remodeling of perineural sheath: AntiFib-1 - Inhibits TGF-{beta} signaling and excessive collagen deposition to prevent scarring and recurrent entrapment. 
+10. Schwann cell proliferation and support: SchwannAct-1 - Promotes Schwann cell migration, proliferation and survival to facilitate debris clearance and axonal guidance. 
+11. Neurotrophic factor enhancement: NeuroTroph-1 - Mimics/upregulates NGF and CNTF to sustain sensory neuron viability and accelerate regeneration. 
+12. Immune modulation and macrophage resolution: ImmunoMod-1 - Promotes shift to M2 pro-resolving macrophages to clear debris and terminate chronic neuroinflammation around the LFCN.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Meralgia Parethetica p01"
+"Loaded_Programs=Meralgia Parethetica p02"
+"Loaded_Programs=Meralgia Parethetica p03"
+"Loaded_Programs=Meralgia Parethetica p04"
+"Loaded_Programs=Meralgia Parethetica p05"
+"Loaded_Programs=Meralgia Parethetica p06"
+"Loaded_Programs=Meralgia Parethetica p07"
+"Loaded_Programs=Meralgia Parethetica p08"
+"Loaded_Programs=Meralgia Parethetica p09"
+"Loaded_Programs=Meralgia Parethetica p10"
+"Loaded_Programs=Meralgia Parethetica p11"
+"Loaded_Programs=Meralgia Parethetica p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.058,M101.048,M71.037,M129.043,M163.063,M156.101,M113.084,M147.068,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M57.021,M115.027,M57.021,M57.021,M113.084,M113.084,M87.032,M114.043,M57.021,0=4,"
+"Loaded_Frequencies=M131.040=1,M97.053,M87.032,M156.101,M97.053,M113.084,M128.095,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M101.048,M97.053,M129.043,M97.053,M113.084,M97.053,M128.095,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M99.068,M113.084,M114.043,M137.059,M147.068,M113.084,M97.053,0=4,"
+"Loaded_Frequencies=M99.068=1,M129.043,M57.021,M147.068,M87.032,M101.048,M113.084,M131.040,M129.043,M103.009,0=4,"
+"Loaded_Frequencies=M114.043=1,M156.101,M147.068,M71.037,M103.009,M101.048,M57.021,M128.095,M163.063,0=4,"
+"Loaded_Frequencies=M101.048=1,M57.021,M147.068,M113.084,M114.043,M137.059,M113.084,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M87.032=1,M103.009,M137.059,M186.079,M71.037,M114.043,M114.043,M97.053,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M114.043=1,M57.021,M147.068,M103.009,M114.043,M101.048,M147.068,M131.040,M113.084,M131.04,0=4,"
+"Loaded_Frequencies=M131.040=1,M87.032,M137.059,M113.084,M147.068,M101.048,M97.053,M129.043,M97.053,M113.084,0=4,"
+"[/Preset]"

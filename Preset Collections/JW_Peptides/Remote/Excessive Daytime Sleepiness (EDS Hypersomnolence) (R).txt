@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Excessive Daytime Sleepiness (EDS/Hypersomnolence) (R)"
+"Preset_Notes=Excessive Daytime Sleepiness (EDS/Hypersomnolence) for Remote
+
+Excessive daytime sleepiness (EDS) is a prevalent condition defined by persistent, inappropriate, and overwhelming sleep propensity during waking hours, often leading to involuntary lapses into drowsiness or sleep, even after sufficient nighttime sleep. Symptoms include difficulty maintaining alertness, impaired concentration, fatigue, and increased risk of accidents; it significantly reduces quality of life and productivity. Pathophysiology varies by etiology: in narcolepsy type 1, autoimmune loss of hypothalamic orexin-producing neurons destabilizes wake promotion; narcolepsy type 2 and idiopathic hypersomnia involve unclear dysregulation in arousal systems; residual EDS in obstructive sleep apnea persists despite CPAP due to chronic fragmentation or comorbid factors; other causes include circadian misalignment, psychiatric conditions, or neurologic disorders. Key mechanisms involve deficient orexin signaling, reduced histaminergic tone, altered dopaminergic/noradrenergic activity, and disrupted sleep consolidation via GABA pathways.
+
+The proposed polypeptides address these core mechanisms to promote sustained wakefulness. Orexin-A, a real-world neuropeptide, directly activates orexin receptors (OX1R/OX2R) to stabilize arousal, countering deficiency in narcolepsy type 1; evidence from patents and preclinical studies supports its wake-promoting effects via receptor binding and downstream signaling. The designed polypeptides are conceptual: one short peptide mimics orexin motifs for potential receptor agonism with improved stability; another is conceptually tailored to enhance histaminergic neurotransmission, inspired by H3 inverse agonism but in peptide format for targeted arousal promotion; a third aims at monoaminergic enhancement, conceptually boosting DA/NE signaling similar to reuptake inhibitors; the fourth targets GABAergic stabilization for better nighttime sleep integrity, indirectly alleviating EDS. Feasibility considerations include peptide challenges like protease sensitivity and BBB penetration, mitigated in designs by short length and simple composition; orexin-A benefits from natural disulfide stabilization. Physicochemical profiles favor aqueous solubility for basic/acidic residues, with low consecutive repeats aiding synthesis.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Excessive Daytime Sleepiness (EDS/Hypersomnolence) p01"
+"Loaded_Programs=Excessive Daytime Sleepiness (EDS/Hypersomnolence) p02"
+"Loaded_Programs=Excessive Daytime Sleepiness (EDS/Hypersomnolence) p03"
+"Loaded_Programs=Excessive Daytime Sleepiness (EDS/Hypersomnolence) p04"
+"Loaded_Programs=Excessive Daytime Sleepiness (EDS/Hypersomnolence) p05"
+"Loaded_Frequencies=M129.043=1,M97.053,M113.084,M97.053,M115.027,M102.001,M102.001,M156.101,M128.058,M128.095,M101.048,M102.001,M87.032,M102.001,M156.101,M113.084,M163.063,M129.043,M113.084,M113.084,M137.059,M57.021,M71.037,M57.021,M114.043,M137.059,M71.037,M71.037,M57.021,M113.084,M113.084,M101.048,M112.100,0=4,"
+"Loaded_Frequencies=M113.084=1,M163.063,M129.043,M113.084,M113.084,M137.059,M57.021,M71.037,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M156.101,M97.053,M137.059,M128.095,M156.101,M97.053,0=4,"
+"Loaded_Frequencies=M147.068=1,M163.063,M101.048,M128.095,M147.068,M163.063,M101.048,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M87.032,M101.048,M57.021,M57.021,M87.032,M71.037,0=4,"
+"[/Preset]"

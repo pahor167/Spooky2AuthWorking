@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=For Loneliness (C)"
+"Preset_Notes=For Loneliness / Spooky Contact
+
+Estimated Time: Run this preset for 9:00 minutes.
+Water Violet - Quiet self-reliance leading to isolation.  Impatiens - those who act and think quickly, and have no patience for what they see as the slowness of others. Heather - Self centredness and self-concern.
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=For Loneliness (C)"
+"Loaded_Frequencies=370.22F4096C0,463.06F4096C0,301.78F4096C0,"
+"[/Preset]"

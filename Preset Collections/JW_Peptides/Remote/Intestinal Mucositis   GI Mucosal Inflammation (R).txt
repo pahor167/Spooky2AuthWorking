@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Intestinal Mucositis / GI Mucosal Inflammation (R)"
+"Preset_Notes=Intestinal Mucositis / GI Mucosal Inflammation for Remote
+
+A targeted, multi-pathway therapeutic peptide array designed to repair the intestinal epithelial barrier, quench localized inflammation, restore tight junctions, and promote rapid mucosal healing.
+
+1. Intestinal Crypt Growth: Teduglutide - GLP-2 analog that promotes mucosal growth and restores intestinal lining integrity.
+2. Tissue Repair & Angiogenesis: BPC-157 - Accelerates wound healing and modulates the gut-brain axis for systemic anti-inflammatory effects.
+3. Mast Cell Stabilization: KPV - Alpha-MSH derivative that exerts potent localized anti-inflammatory activity.
+4. Tight Junction Restoration: Larazotide - Zonulin antagonist that reduces mucosal permeability and 'leaky gut' phenotypes.
+5. Immune Homeostasis: VIP_Frag - Vasoactive intestinal peptide fragment downregulating pro-inflammatory cytokine secretion.
+6. Mucosal Restitution: TFF3_Frag - Trefoil factor-derived peptide enhancing epithelial cell migration across denuded mucosa.
+7. TLR4 Antagonism: VIPER - Viral inhibitory peptide engineered to block TLR4-mediated inflammation pathways.
+8. Antimicrobial Modulation: LFcinB - Lactoferricin derivative that neutralizes gut pathogens without disrupting commensal flora.
+9. Cytokine Normalization: Colostrinin_Frag - Proline-rich peptide fragment that normalizes TNF-alpha and immune responses.
+10. Peripheral Analgesia: Dalargin - Synthetic enkephalin analog that targets peripheral mu-opioid receptors to reduce GI pain.
+11. Inflammation Resolution: Ac2-26 - Annexin A1 mimic that actively resolves acute inflammation and stops neutrophil infiltration.
+12. Targeted ROS Scavenging: Muco-Shield - Engineered cyclic peptide for mucosal adherence and direct neutralization of oxidative stress.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Intestinal Mucositis / GI Mucosal Inflammation p01"
+"Loaded_Programs=Intestinal Mucositis / GI Mucosal Inflammation p02"
+"Loaded_Programs=Intestinal Mucositis / GI Mucosal Inflammation p03"
+"Loaded_Programs=Intestinal Mucositis / GI Mucosal Inflammation p04"
+"Loaded_Programs=Intestinal Mucositis / GI Mucosal Inflammation p05"
+"Loaded_Programs=Intestinal Mucositis / GI Mucosal Inflammation p06"
+"Loaded_Programs=Intestinal Mucositis / GI Mucosal Inflammation p07"
+"Loaded_Programs=Intestinal Mucositis / GI Mucosal Inflammation p08"
+"Loaded_Programs=Intestinal Mucositis / GI Mucosal Inflammation p09"
+"Loaded_Programs=Intestinal Mucositis / GI Mucosal Inflammation p10"
+"Loaded_Programs=Intestinal Mucositis / GI Mucosal Inflammation p11"
+"Loaded_Programs=Intestinal Mucositis / GI Mucosal Inflammation p12"
+"Loaded_Frequencies=M137.059=1,M57.021,M115.027,M57.021,M87.032,M147.068,M87.032,M115.027,M129.043,M131.040,M114.043,M101.048,M113.084,M113.084,M115.027,M114.043,M113.084,M71.037,M71.037,M156.101,M115.027,M147.068,M113.084,M114.043,M186.079,M113.084,M113.084,M128.058,M101.048,M128.095,M113.084,M101.048,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M99.068,M113.084,M99.068,M128.058,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M97.053=1,M114.043,M156.101,M99.068,M114.043,M103.009,M103.009,0=4,"
+"Loaded_Frequencies=M128.095=1,M163.063,M87.032,M147.068,M128.095,M113.084,M113.084,M113.084,M71.037,M129.043,M163.063,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M99.068=1,M129.043,M87.032,M163.063,M99.068,M97.053,M113.084,M147.068,M97.053,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M57.021,M147.068,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M131.040,M99.068,M87.032,M129.043,M147.068,M113.084,M128.095,M128.058,M71.037,M186.079,M147.068,M113.084,M129.043,M114.043,M129.043,M129.043,M128.058,M129.043,M163.063,M99.068,M128.058,M101.048,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M103.009=1,M128.058,M156.101,M186.079,M163.063,M128.058,M128.058,M103.009,0=4,"
+"[/Preset]"

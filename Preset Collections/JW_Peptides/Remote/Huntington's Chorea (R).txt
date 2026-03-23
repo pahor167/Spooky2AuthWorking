@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Huntington’s Chorea (R)"
+"Preset_Notes=Huntington’s Chorea for Remote
+
+Huntington's Chorea, also known as Huntington's Disease (HD), is a progressive, inherited neurodegenerative disorder caused by an autosomal dominant mutation in the huntingtin gene (HTT) on chromosome 4, characterized by an expanded CAG trinucleotide repeat that encodes an abnormally long polyglutamine tract in the huntingtin protein, typically exceeding 36 repeats. This mutation leads to the production of mutant huntingtin (mHTT), which misfolds, aggregates, and triggers a cascade of pathological events. Symptoms usually emerge in mid-adulthood, around ages 30-50, and include involuntary choreiform movements, psychiatric disturbances such as depression, anxiety, and irritability, cognitive decline progressing to dementia, and motor impairments like bradykinesia, rigidity, and gait instability in later stages. Pathophysiology involves neuronal loss primarily in the striatum (caudate and putamen) and cerebral cortex, with mHTT aggregates forming intranuclear inclusions that disrupt cellular functions. Key mechanisms include transcriptional dysregulation, impaired protein degradation via autophagy and the ubiquitin-proteasome system, mitochondrial dysfunction leading to energy deficits and oxidative stress, excitotoxicity from glutamate overload, neuroinflammation with activated microglia and elevated cytokines, defective axonal transport, apoptosis, metabolic and hormonal imbalances, and alterations in the gut-brain axis via microbiota dysbiosis. Systemic effects extend beyond the brain, affecting peripheral tissues like muscles, adipose, and the gastrointestinal system, contributing to weight loss, metabolic disturbances, and increased susceptibility to infections. Disease progression is relentless, leading to severe disability and death within 15-20 years of symptom onset, with no curative treatments currently available, only symptomatic management.
+
+The proposed polypeptides address HD through multifaceted mechanisms targeting its core pathophysiological axes. Exendin-4, a real-world GLP-1 receptor agonist, modulates metabolic regulation by improving insulin sensitivity, reducing energy deficits, and providing neuroprotection against mHTT-induced brain and peripheral pathology. Humanin and MOTS-c, real-world mitochondrial-derived peptides, enhance mitochondrial function by mitigating dysfunction, reducing oxidative stress, and promoting cellular energy homeostasis disrupted by mHTT. P42 and QBP1, real-world peptides, inhibit mHTT aggregation by binding to polyglutamine tracts or interfering with misfolding processes, thereby preventing toxic inclusion formation. The TAT-IVLD peptide, a real-world caspase inhibitor, blocks caspase-6-mediated proteolysis of mHTT and inhibits apoptosis, protecting neurons from programmed cell death. BDNF, a real-world growth factor, supports transcriptional regulation and neuroprotection by promoting neuronal survival, synaptic plasticity, and compensating for reduced BDNF levels in HD. IGF-1, a real-world hormone, addresses hormonal and metabolic imbalances by enhancing growth signaling, reducing oxidative stress, and supporting neuronal maintenance. The designed polypeptides supplement coverage: one modulates the gut-brain axis by influencing microbiota composition and reducing neuroinflammation via gut-derived signals; another improves axonal transport by stabilizing microtubule interactions and preventing mHTT-induced disruptions; a third enhances protein degradation by activating autophagy pathways to clear mHTT aggregates; and the fourth reduces oxidative stress by scavenging reactive oxygen species and bolstering antioxidant defenses. Feasibility includes biocompatibility, potential for blood-brain barrier penetration via modifications, and low immunogenicity, with rationales grounded in HD models showing efficacy in reducing aggregation, inflammation, and neuronal loss, though clinical translation requires further safety and delivery optimization.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Huntington’s Chorea p01"
+"Loaded_Programs=Huntington’s Chorea p02"
+"Loaded_Programs=Huntington’s Chorea p03"
+"Loaded_Programs=Huntington’s Chorea p04"
+"Loaded_Programs=Huntington’s Chorea p05"
+"Loaded_Programs=Huntington’s Chorea p06"
+"Loaded_Programs=Huntington’s Chorea p07"
+"Loaded_Programs=Huntington’s Chorea p08"
+"Loaded_Programs=Huntington’s Chorea p09"
+"Loaded_Programs=Huntington’s Chorea p10"
+"Loaded_Programs=Huntington’s Chorea p11"
+"Loaded_Programs=Huntington’s Chorea p12"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M128.058,M113.084,M97.053,M128.058,M97.053,M97.053,M97.053,M128.058,M71.037,M128.058,M97.053,M113.084,M113.084,M97.053,M128.058,M97.053,M97.053,0=4,"
+"Loaded_Frequencies=M87.032=1,M114.043,M186.079,M128.095,M186.079,M186.079,M97.053,M57.021,M113.084,M147.068,M115.027,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M97.053,M71.037,M156.101,M156.101,M57.021,M129.043,M113.084,M87.032,M99.068,M103.009,M115.027,M87.032,M113.084,M87.032,M129.043,M186.079,M99.068,M101.048,M71.037,M99.068,M115.027,M129.043,M128.095,M128.095,M101.048,M71.037,M99.068,M115.027,M131.040,M87.032,M57.021,M97.053,M131.040,M57.021,M163.063,M101.048,M128.095,M129.043,M57.021,M103.009,M156.101,M57.021,M113.084,M115.027,M137.059,M186.079,M114.043,M87.032,M128.058,M103.009,M156.101,M101.048,M101.048,M128.058,M87.032,M163.063,M99.068,M156.101,M71.037,M113.084,M101.048,M131.040,M115.027,M87.032,M128.095,M128.095,M156.101,M113.084,M57.021,M186.079,M156.101,M147.068,M113.084,M156.101,M113.084,M115.027,M101.048,M87.032,M103.009,M99.068,M103.009,M101.048,M113.084,M113.084,M128.095,M156.101,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M115.027,M71.037,M156.101,M156.101,M57.021,M129.043,M113.084,M87.032,M99.068,M103.009,M115.027,M57.021,M113.084,M128.058,M147.068,M99.068,M103.009,M57.021,M115.027,M156.101,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M97.053,M101.048,M57.021,M163.063,M57.021,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,M57.021,M113.084,M99.068,M115.027,M129.043,M103.009,M103.009,M147.068,M156.101,M87.032,M103.009,M115.084,M156.101,M156.101,M113.084,M129.043,M163.063,M103.009,M71.037,M97.053,M113.084,M128.095,M97.053,M71.037,M128.095,M87.032,M71.037,0=4,"
+"Loaded_Frequencies=M71.037=1,M103.009,M115.027,M129.043,M147.068,M57.021,M137.059,M113.084,M128.095,M113.084,M131.040,M114.043,0=4,"
+"Loaded_Frequencies=M97.053=1,M128.058,M156.101,M87.032,M101.048,M99.068,M186.079,M163.063,M57.021,M87.032,M71.037,M97.053,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M113.084,M147.068,M163.063,M186.079,M128.095,M131.040,M114.043,M156.101,M128.058,M115.027,0=4,"
+"Loaded_Frequencies=M87.032=1,M57.021,M97.053,M101.048,M137.059,M129.043,M128.095,M113.084,M156.101,M131.040,M114.043,M147.068,0=4,"
+"[/Preset]"

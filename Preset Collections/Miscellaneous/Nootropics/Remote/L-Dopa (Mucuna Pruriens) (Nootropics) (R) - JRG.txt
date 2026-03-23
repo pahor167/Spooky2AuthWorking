@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=L-Dopa (Mucuna Pruriens) (Nootropics) (R) - JRG"
+"Loaded_Programs=L-Dopa (Mucuna Pruriens) (CUST)"
+"Loaded_Frequencies=M197.06881,"
+"Preset_Notes=L-Dopa (L-3,4-dihydroxyphenylalanine) is a precursor to the formation of dopamine, norepinephrine, and epinephrine in your brain. In your body, L-dopa is synthesized from the amino acid L-tyrosine.|Dopamine deficiency is directly correlated with Parkinson's Disease.|L-dopa easily crosses the blood-brain barrier when used as a nootropic supplement. L-dopa can increase libido, testosterone, enhances memory and learning retention. It is also reported to increase human growth hormone (HGH) levels.|You can easily get extracts of Mucuna Pruriens of up to 98% pure L-Dopa taken from velvet bean or cowitch. Dosage depends on the strength of the extract and can range from 150 mg to 1 gm per day.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

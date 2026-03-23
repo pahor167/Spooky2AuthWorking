@@ -1,0 +1,14 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\GX Online or Offline General (P) - JW"
+"PresetName=GX Offline Cancer (P) - JW"
+"Dwell_Multiplier=3.33"
+"Preset_Notes=*GX offline plasma preset for Cancer. 
+
+The original Rife frequencies are transmitted over a one-hour duration.
+
+A 4 Hz 20% duty cycle gate of this preset provides strong signal spikes whilst keeping the tube cooler than most other presets.
+
+Connect OUT 1 to Spooky Plasma Input. Out 2 to Spooky Plasma Modulation."
+"Loaded_Programs=Cancer Frequencies (Rife Original) (CUST)"
+"Loaded_Frequencies=12832000=180,12236160=180,12240000=180,11780000=180,17033662=180,16247820=180,"
+"[/Preset]"

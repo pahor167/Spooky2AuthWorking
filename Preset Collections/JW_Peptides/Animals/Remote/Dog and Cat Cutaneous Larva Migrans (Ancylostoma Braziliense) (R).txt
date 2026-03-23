@@ -1,0 +1,30 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Dog and Cat Cutaneous Larva Migrans (Ancylostoma Braziliense) (R)"
+"Preset_Notes=Dog and Cat Cutaneous Larva Migrans (Ancylostoma Braziliense) for Remote
+
+Cutaneous larva migrans is a zoonotic dermatosis caused by percutaneous penetration and epidermal migration of Ancylostoma braziliense larvae, producing serpiginous erythematous tracks with intense pruritus and inflammation; the condition is self-limited but symptomatic treatment accelerates resolution and prevents secondary infection.
+
+The proposed polypeptides target evidence-based therapeutic axes from antimicrobial peptide studies showing in vitro activity against helminths and anti-inflammatory peptides for pruritus/inflammation relief in dermatological conditions conditions.
+
+1. Frog skin-derived antimicrobial peptide membrane disruption for potential larvicidal effects: Magainin 2
+2. Human cathelicidin multifunctional skin defense and immunomodulation: LL-37
+3. {alpha}-MSH-derived tripeptide potent suppression of inflammation and pruritus: KPV
+4. Engineered magainin-KPV fusion for combined larvicidal and anti-inflammatory optimization: Ac-GIGKFLHSAKKFGKAFVGEIMNSKPV-NH2 enhances stability, dual mechanism coverage, and topical efficacy.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Dog and Cat Cutaneous Larva Migrans (Ancylostoma Braziliense) p01"
+"Loaded_Programs=Dog and Cat Cutaneous Larva Migrans (Ancylostoma Braziliense) p02"
+"Loaded_Programs=Dog and Cat Cutaneous Larva Migrans (Ancylostoma Braziliense) p03"
+"Loaded_Programs=Dog and Cat Cutaneous Larva Migrans (Ancylostoma Braziliense) p04"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M129.043,M113.084,M131.040,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.059,M156.101,M113.084,M128.095,M97.053,M156.101,M113.084,M99.068,M101.048,M129.043,M87.032,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M99.032=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M129.043,M113.084,M131.040,M114.043,M87.032,M128.095,M97.053,M98.084,0=4,"
+"[/Preset]"

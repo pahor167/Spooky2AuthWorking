@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Meissner’s Corpuscles (C)"
+"Preset_Notes=Meissner’s Corpuscles for Contact
+
+Meissner’s corpuscles (MCs) are specialized, encapsulated mechanoreceptors located within the dermal papillae of glabrous skin (e.g., fingertips, lips). They are primarily responsible for detecting low-frequency vibrations (10-50 Hz) and fine discriminative touch, facilitating essential tasks such as grip control and texture perception. Pathologically, MC density and structural integrity decline with age and are significantly compromised in diabetic neuropathy and other peripheral nerve disorders, leading to tactile hyposensitivity.
+
+1. Neurotrophic Signaling (TrkB Agonism): Activation of the Tropomyosin receptor kinase B (TrkB) pathway is essential for the development and maintenance of MC-innervating neurons. BDNF-mimetic peptides support axonal survival and lamellar cell organization.
+2. Glial Cell Modulation (Schwann Cell Support): MCs consist of stacked, non-myelinating Schwann cells (lamellar cells). Peptides that promote Schwann cell proliferation or dedifferentiation are critical for repairing the corpuscle's internal architecture after injury.
+3. Extracellular Matrix (ECM) Stabilization: The MC capsule is composed of collagen and microfilaments. Stabilizing this fibroblastic envelope ensures proper mechanical force transduction to the internal neurites.
+4. GDNF/RET Pathway Activation: A subset of MC-innervating fibers relies on RET signaling (activated by Glial cell line-derived neurotrophic factor). Peptides targeting this pathway promote the re-innervation of specialized mechanoreceptor organs.
+5. Anti-Apoptotic Protection: Chronic oxidative stress in the dermal niche leads to MC atrophy. Peptides that inhibit caspase cascades or stabilize mitochondrial membranes prevent the age-related loss of these sensors.
+6. Neuropeptide Modulation (CGRP/Substance P): MCs are multiafferented and contain peptidergic C-fibers. Modulating Calcitonin Gene-Related Peptide (CGRP) and Substance P levels can influence the sensory 'set point' and nociceptive crosstalk within the corpuscle.
+7. Sirtuin-1 (SIRT1) Activation: SIRT1 signaling regulates cellular aging and stress resistance in peripheral nerves. Peptides that enhance SIRT1 activity can slow the atrophic degeneration of tactile receptors.
+8. Vascular Support (Angiogenesis): Adequate perfusion of the dermal papillae is necessary for MC metabolic health. Pro-angiogenic peptides ensure a robust nutrient supply to the superficial mechanosensory niche.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Meissner’s Corpuscles p01"
+"Loaded_Programs=Meissner’s Corpuscles p02"
+"Loaded_Programs=Meissner’s Corpuscles p03"
+"Loaded_Programs=Meissner’s Corpuscles p04"
+"Loaded_Programs=Meissner’s Corpuscles p05"
+"Loaded_Programs=Meissner’s Corpuscles p06"
+"Loaded_Programs=Meissner’s Corpuscles p07"
+"Loaded_Programs=Meissner’s Corpuscles p08"
+"Loaded_Frequencies=M71.037=1,M156.101,M57.021,M113.084,M156.101,M115.027,M113.084,M113.084,M113.084,M114.043,M128.095,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M87.032,M113.084,M115.027,M71.037,M87.032,M113.084,M113.084,M186.079,M71.037,M131.040,M131.040,M128.058,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M115.027,M163.063,M147.068,M156.101,M113.084,M114.043,M57.021,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M71.037=1,M103.009,M115.027,M115.027,M156.101,M113.084,M114.043,M113.084,M113.084,M156.101,M163.063,M113.084,M114.043,M156.101,0=4,"
+"Loaded_Frequencies=M128.058=1,M128.058,M113.084,M156.101,M128.095,M113.084,M113.084,M128.095,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M129.043,M147.068,M115.027,M156.101,M156.101,M57.021,M129.043,M115.027,0=4,"
+"[/Preset]"

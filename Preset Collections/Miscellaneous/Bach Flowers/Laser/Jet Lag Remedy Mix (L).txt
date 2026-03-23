@@ -1,0 +1,18 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=Jet Lag Remedy Mix (L)"
+"Preset_Notes=Jet Lag Remedy Mix / Spooky Laser
+
+Estimated Time: Run this preset for 24:00 minutes.
+
+Jet Lag Remedy: This combination helps you adjust to the time change and with the physical tiredness and impatience that comes from sitting in a plane for hours. Start taking this combination a couple of days before the flight and continue while flying and afterward until all symptoms are gone.
+Olive: Helps you over the physical exhaustion of traveling and being on the road for several hours.
+Walnut: Helps you adjust to a new time zone and place.
+Impatiens: Helps you from getting impatient while sitting in a plane for several hours without much to do.
+Rescue Sleep: A wonderful combination of Rescue Remedy and White Chestnut which helps when you feel restless and have cluttered unwanted thoughts.
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Jet Lag Remedy Mix (L)"
+"Loaded_Frequencies=431.65,261.26,463.06,262.01,415.26,277.99,276.57,425.77,"
+"[/Preset]"

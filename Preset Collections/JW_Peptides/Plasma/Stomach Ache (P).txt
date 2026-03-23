@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Stomach Ache (P)"
+"Preset_Notes=Stomach Ache for Plasma
+
+Stomach ache refers to abdominal or gastric discomfort often arising from gastritis, peptic ulcers, mucosal damage, inflammation, infection, or functional disturbances. The proposed polypeptides target evidence-based therapeutic axes derived from extensive preclinical studies on gastric cytoprotection, anti-inflammatory pathways, antimicrobial defense, and regenerative mechanisms.
+
+1. Stable gastric pentadecapeptide cytoprotection and ulcer healing: BPC-157 accelerates epithelial rebuilding, protects against noxious agents, and maintains gastric integrity.
+2. {alpha}-MSH-derived tripeptide anti-inflammatory action: KPV (acetylated/amidated) potently suppresses GI inflammation and preserves mucosal barrier function.
+3. Vasoactive intestinal peptide modulation: VIP reduces inflammatory severity, regulates secretion, and supports GI motility in distress models.
+4. Human cathelicidin multifunctional defense: LL-37 exerts antimicrobial effects against pathogens like H. pylori while promoting immunomodulation and healing.
+5. Copper-chelated tripeptide regeneration: GHK-Cu enhances growth factor release, ECM remodeling, and antioxidant protection for tissue repair.
+6. Acetylated thymosin immune enhancement: Thymosin {alpha}1 bolsters immune responses and provides regenerative support in inflammatory gastric conditions.
+7. Engineered collagen-mimetic structural reinforcement: Ac-(GPP)10-NH2 stabilizes extracellular matrix based on collagen peptide motifs shown to aid mucosal healing.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Stomach Ache p01"
+"Loaded_Programs=Stomach Ache p02"
+"Loaded_Programs=Stomach Ache p03"
+"Loaded_Programs=Stomach Ache p04"
+"Loaded_Programs=Stomach Ache p05"
+"Loaded_Programs=Stomach Ache p06"
+"Loaded_Programs=Stomach Ache p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

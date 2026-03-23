@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Smith-Lemli-Opitz Syndrome (S)"
+"Preset_Notes=Smith-Lemli-Opitz Syndrome for Scalar
+
+Smith-Lemli-Opitz syndrome (SLOS) is a rare autosomal recessive multiple congenital anomaly and intellectual disability disorder caused by biallelic pathogenic variants in the DHCR7 gene, encoding 7-dehydrocholesterol reductase, the enzyme catalyzing the final step in the Kandutsch-Russell cholesterol biosynthesis pathway. This defect leads to profound hypocholesterolemia with accumulation of toxic precursors 7-dehydrocholesterol (7-DHC) and 8-dehydrocholesterol, disrupting embryonic development through impaired cholesterol modification of Sonic Hedgehog protein (defective Hedgehog signaling morphogenesis), altered membrane raft function and fluidity, deficient neurosteroid synthesis, and heightened oxidative stress via reactive 7-DHC-derived oxysterols that propagate lipid peroxidation and cellular damage particularly in the central nervous system. Clinical manifestations form a severity continuum: lethal forms with holoprosencephaly and extensive malformations; classic presentations with distinctive dysmorphism (microcephaly, bitemporal narrowing, ptosis, anteverted nares, micrognathia), postaxial polydactyly or 2-3 toe syndactyly, ambiguous genitalia in males, congenital heart/kidney defects, failure to thrive, photosensitivity, self-injurious behaviors, autism spectrum traits, and moderate-to-severe neurocognitive impairment.
+
+Current management is supportive with dietary cholesterol supplementation to partially correct plasma levels (though limited brain penetration) and exploratory adjuncts like antioxidants or statins to reduce precursors, but no curative or disease-modifying therapy exists. The proposed polypeptides are all designed conceptual short C-terminally amidated amphipathic cationic peptides leveraging established cell-penetrating and bioactive peptide principles for synthetic feasibility, proteolytic resistance, and potential blood-brain barrier crossing. These provide multifaceted complementary actions addressing core pathomechanisms: the first designed polypeptide uses phenylalanine-arginine alternation for hydrophobic stacking mimicking cholesterol to stabilize deficient membranes; the second incorporates tryptophan-lysine for superior partitioning and intracellular sterol homeostasis support; the third employs histidine-tyrosine for direct scavenging of oxysterol-induced reactive species and pH-sensitive neuroprotection; the fourth features leucine-lysine alternation for helical reinforcement of lipid rafts and developmental signaling rescue. Collectively, these target cholesterol deficiency, precursor toxicity, oxidative damage, and downstream morphogenic disruptions.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Smith-Lemli-Opitz Syndrome p01"
+"Loaded_Programs=Smith-Lemli-Opitz Syndrome p02"
+"Loaded_Programs=Smith-Lemli-Opitz Syndrome p03"
+"Loaded_Programs=Smith-Lemli-Opitz Syndrome p04"
+"Loaded_Frequencies=M147.068=1,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M155.117,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M186.079,M128.095,M186.079,M128.095,M186.079,M128.095,M185.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M162.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M112.100,0=4,"
+"[/Preset]"

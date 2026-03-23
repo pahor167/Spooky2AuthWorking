@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Urinary Tract Infection 1 (R) - JE"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"BFB_Start_Frequency=76000"
+"BFB_Finish_Frequency=100000"
+"BFB_Decimal_Places=2"
+"BFB_Max_Hits_To_Find=4"
+"BFB_Start_Delay=20"
+"BFB_Samples_Per_Step=6"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=Urinary Tract Infection Generator 1 by Jason Elliott
+
+This remote program can be used in conjunction with \Miscellaneous\Contact\Urinary Tract Infection (C) - JE. In addtion, 3 other generators run concurrently with this preset found in \Miscellaneous\Remote\ -- Urinary Tract Infection 2 (R) - JE, Urinary Tract Infection 3 (R) - JE, Urinary Tract Infection 4 (R) - JE.
+
+This preset contains the following:
+Urinary Tract Infection (CUST)
+Urinary Tract Infections (CAFL)
+Urinary Tract Infections (KHZ)
+Bladder Infection (XTRA)
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator. DNA Entanglement transfers the frequencies directly to your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote-BN to the 'BN' port of Spooky Boost."
+"Settings_Frequency_Wobble_Percentage=.02"
+"Frequency_Wobble_Type=Triangle"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Manual_Start=False"
+"BFB_BPM=True"
+"BFB_Detect_mA=False"
+"Out1_Inverted_Sawtooth=True"
+"Out1_User_Defined_1=False"
+"BFB_Grade_Program=0"
+"Enable_Remove_Duplicate_Frequencies=0"
+"Loaded_Programs=Urinary Tract Infection (CUST)"
+"Loaded_Programs=Urinary Tract Infections (CAFL)"
+"Loaded_Programs=Urinary Tract Infections (KHZ)"
+"Loaded_Programs=Bladder Infection (XTRA)"
+"Loaded_Frequencies=834=600,802=600,"
+"Loaded_Frequencies=2050=180,880=180,1550=180,802=180,787=180,727=180,465=180,20=180,9.39=180,642=180,358=180,539=180,"
+"Loaded_Frequencies=490=180,730=180,800=180,7500=180,20000=180,50000=180,124370=180,376290=180,496010=180,689930=180,"
+"Loaded_Frequencies=1.1=180,1.2=180,9.39=180,9.4=180,10=180,20=180,40=180,72=180,73=180,95=180,125=180,246=180,250=180,360=180,444=180,465=180,498=180,530=180,600=180,625=180,630=180,642=180,650=180,660=180,690=180,724=180,726=180,727.5=180,771=180,776=180,787=180,802=180,832=180,880=180,1500=180,1550=180,1600=180,1800=180,1865=180,2045=180,2127.5=180,2170=180,2250=180,2720=180,10000=180,"
+"[/Preset]"

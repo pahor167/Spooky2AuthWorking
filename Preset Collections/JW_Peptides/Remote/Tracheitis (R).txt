@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Tracheitis (R)"
+"Preset_Notes=Tracheitis for Remote
+
+Tracheitis is an acute inflammation of the trachea, typically bacterial (often S. aureus or streptococci) following a viral prelude, leading to mucosal pseudomembranes, edema, and potential airway obstruction. The polypeptides below cover diverse axes of local host defense enhancement, direct antimicrobial action, and inflammation control suitable for adjunctive therapy.
+
+1. Tracheal beta-defensin activity: Tracheal Antimicrobial Peptide (TAP) - Potent direct antimicrobial activity against key respiratory bacteria, inspired by natural tracheal defense
+2. Broad-spectrum beta-defensin: Human Beta-Defensin 3 (hBD-3) - High potency against gram-positive, gram-negative, and fungi in airway infections
+3. Inducible epithelial beta-defensin: Human Beta-Defensin 2 (hBD-2) - Induced by infection for targeted antimicrobial response in respiratory mucosa
+4. Constitutive airway defense: Human Beta-Defensin 1 (hBD-1) - Provides baseline protection in tracheal epithelium
+5. Tryptophan-rich bactericidal: Indolicidin - Rapid bacterial membrane disruption, effective against staphylococcal infections
+6. Beta-sheet pore-forming: Protegrin-1 - Broad-spectrum activity including against resistant pathogens
+7. Innate immune modulation: IDR-1018 - Enhances host immunity and reduces excessive inflammation while controlling infection
+8. Clinical-optimized cationic: Omiganan - Designed analog with improved pharmacokinetics for potential inhaled delivery
+9. Lactoferrin-derived loop: Lactoferricin B - Potent bactericidal fragment active in mucosal environments
+10. Alpha-helical membrane-active: FAKLLAKALKKLL (amidated) - Synthetic design for selective bacterial killing with suitability for tracheal application
+11. Anti-gram-negative specialized: Thanatin - Targets outer membrane of gram-negative bacteria relevant in some tracheitis cases
+12. Magainin-based broad spectrum: Pexiganan - Engineered analog with enhanced stability and activity for airway bacterial control
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Tracheitis p01"
+"Loaded_Programs=Tracheitis p02"
+"Loaded_Programs=Tracheitis p03"
+"Loaded_Programs=Tracheitis p04"
+"Loaded_Programs=Tracheitis p05"
+"Loaded_Programs=Tracheitis p06"
+"Loaded_Programs=Tracheitis p07"
+"Loaded_Programs=Tracheitis p08"
+"Loaded_Programs=Tracheitis p09"
+"Loaded_Programs=Tracheitis p10"
+"Loaded_Programs=Tracheitis p11"
+"Loaded_Programs=Tracheitis p12"
+"Loaded_Frequencies=M114.043=1,M97.053,M99.068,M87.032,M103.009,M99.068,M156.101,M114.043,M128.095,M57.021,M113.084,M103.009,M99.068,M97.053,M113.084,M156.101,M103.009,M97.053,M57.021,M87.032,M131.040,M128.095,M128.058,M113.084,M57.021,M101.048,M103.009,M99.068,M57.021,M156.101,M71.037,M99.068,M128.095,M103.009,M103.009,M156.101,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M115.027,M97.053,M99.068,M101.048,M102.001,M113.084,M128.095,M87.032,M57.021,M71.037,M113.084,M102.001,M137.059,M97.053,M99.068,M147.068,M102.001,M97.053,M156.101,M156.101,M163.063,M128.095,M128.058,M113.084,M57.021,M101.048,M102.001,M57.021,M113.084,M97.053,M57.021,M101.048,M128.095,M102.001,M102.001,M128.095,M128.095,M96.069,0=4,"
+"Loaded_Frequencies=M115.027=1,M137.059,M163.063,M114.043,M102.001,M99.068,M87.032,M87.032,M57.021,M57.021,M128.058,M102.001,M113.084,M163.063,M87.032,M71.037,M102.001,M97.053,M113.084,M147.068,M101.048,M128.095,M113.084,M128.058,M57.021,M101.048,M102.001,M163.063,M156.101,M57.021,M128.095,M71.037,M128.095,M102.001,M102.001,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M99.068=1,M156.101,M113.084,M113.084,M99.068,M71.037,M99.068,M156.101,M113.084,M186.079,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M147.068=1,M128.095,M102.001,M156.101,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,M71.037,M97.053,M87.032,M113.084,M101.048,M102.001,M99.068,M156.101,M156.101,M71.037,M147.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M71.037,M128.095,M113.084,M113.084,M71.037,M128.095,M71.037,M113.084,M128.095,M128.095,M113.084,M112.10,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M128.095,M128.095,M97.053,M99.068,M97.053,M113.084,M113.084,M163.063,M102.001,M114.043,M156.101,M156.101,M101.048,M57.021,M128.095,M102.001,M128.058,M156.101,M131.040,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,52 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"PresetName=1. Lymphatic System 1"
+"Loaded_Frequencies=10000=288,3177=288,3176=288,3175=288,880=288,787=288,751=288,727=288,676=288,635=288,625=288,522=288,465=288,444=288,440=288,304=288,148=288,146=288,15.2=288,15.05=288,10.36=288,10=288,7.83=288,6.3=288,2.5=288,0=288,"
+"Loaded_Programs=1. Lymphatic System 1"
+"Preset_Notes=Terrain Protocol for Laser.
+
+This preset is one of many Laser presets for the Terrain Protocol. Each frequency set runs for 2 hours, and is followed by a 3 minute beep. You may want to run this protocol in conjunction with 'Terrain (R) - BY' on another generator, or using the same generator. See \Detox\GUIDE Terrain Protocol - Click Me.pdf for a schedule to run these presets.
+
+To use the same generator, after a plasma set is finished, first change the hardware on the generator to the Spooky Remote, then choose 'Terrain (R) - BY' preset and skip to the frequency set that corresponds to the plasma set you just finished. When you are ready to do another plasma session, change the hardware on the generator to plasma/Spooky Central, reload this preset, and jump to the appropriate set.
+
+Entire Schedule for Terrain (Laser)
+------------------------------------
+Each line has day, generator, preset, and frequency set. If the preset is empty, use the same preset as the last preset for the same generator. If the frequency set is empty, there is not need to skip to a particular frequency set. If the day for a generator is missing, this means you continue to run the previous program.
+
+Day, Gen, Preset
+1, 1, Laser/Remove Metals (P) - BY
+1, 2, Remote/Terrain (R) - BY
+2, 1, Laser/Remove Metals (P) - BY
+2, 1, Laser/Remove Metals (P) - BY
+3, 1, Laser/Remove Chemical Materials (P) - BY
+3, 1, Laser/Remove Chemical Materials (P) - BY
+4, 1, Laser/Remove Systemic Toxins 1 (P) - BY
+4, 1, Laser/Remove Systemic Toxins 1 (P) - BY
+5, 1, Laser/Remove Systemic Toxins 2 (P) - BY
+5, 1, Laser/Remove Systemic Toxins 2 (P) - BY
+6, 1, Laser/Remove Intestinal Toxins (P) - BY
+6, 1, Laser/Remove Systemic Toxins 3 (P) - BY
+7, 1, Laser/Parasites and Liver Function (P) - BY
+7, 1, Laser/Parasites and Liver Function (P) - BY
+8, 1, Laser/Kidney Function 1 (P) - BY
+8, 1, Laser/Kidney Function 1 (P) - BY
+9, 1, Laser/Kidney Function 2 (P) - BY
+9, 1, Laser/Cleanse Blood (P) - BY
+10, 1, Laser/Kidney and Liver Toxins (P) - BY
+10, 1, Laser/Intestinal Parasites (P) - BY
+11, 1, Laser/Lymphatic System 1 (P) - BY
+11, 1, Laser/Lymphatic System 1 (P) - BY
+
+This preset has the following programs:
+
+Lymphatic System 1: Lymphs and Detox - PROV
+
+Here is a table to find the beginning of each day in this preset:
+1: Lymphatic System 1
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"

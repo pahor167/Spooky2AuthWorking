@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Metachromatic Leukodystrophy (C)"
+"Preset_Notes=Metachromatic Leukodystrophy for Contact
+
+Metachromatic leukodystrophy (MLD) is a rare autosomal-recessive lysosomal storage disorder caused by mutations in the ARSA gene leading to deficient arylsulfatase A enzyme activity. Accumulation of sulfatide lipids in central and peripheral nervous system myelin triggers progressive demyelination, neuroinflammation, and neurodegeneration. Clinical variants include late-infantile, juvenile, and adult forms, all culminating in motor and cognitive decline. 
+The proposed polypeptide set targets six mechanistic axes: (1) ARSA-mimetic peptide designed to restore catalytic activity within lysosomes; (2) saposin-B-mimetic designed to enhance residual ARSA folding and stability; (3) lysosomal-export enhancer designed to accelerate sulfatide efflux; (4) neurotrophic mimic designed to support oligodendrocyte survival and axonal integrity; (5) microglial-quieting motif designed to attenuate neuroinflammation; (6) OPC-differentiation peptide designed to promote remyelination. All six peptides are designed de novo to fit strict length and diversity rules while addressing the multifactorial pathology of MLD. 
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Metachromatic Leukodystrophy p01"
+"Loaded_Programs=Metachromatic Leukodystrophy p02"
+"Loaded_Programs=Metachromatic Leukodystrophy p03"
+"Loaded_Programs=Metachromatic Leukodystrophy p04"
+"Loaded_Programs=Metachromatic Leukodystrophy p05"
+"Loaded_Programs=Metachromatic Leukodystrophy p06"
+"Loaded_Frequencies=M113.084=1,M131.040,M57.021,M137.059,M97.053,M113.084,M114.043,M99.068,M113.084,M71.037,M97.053,0=4,"
+"Loaded_Frequencies=M97.053=1,M71.037,M114.043,M137.059,M57.021,M113.084,M131.040,M113.084,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M114.043,M99.068,M128.095,M97.053,M113.084,M131.040,M71.037,M114.043,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M99.068,M114.043,M128.095,M57.021,M113.084,M131.040,0=4,"
+"Loaded_Frequencies=M57.021=1,M99.068,M113.084,M131.040,M114.043,M97.053,M128.095,M113.084,M71.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M131.040,M114.043,M99.068,M128.095,M97.053,M113.084,M57.021,M71.037,M113.084,0=4,"
+"[/Preset]"

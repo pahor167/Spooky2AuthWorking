@@ -1,0 +1,44 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Nail Fungus (P)"
+"Preset_Notes=Nail Fungus for Plasma
+
+Nail fungus (onychomycosis) is a persistent fungal infection primarily caused by dermatophytes (e.g., Trichophyton spp.), leading to nail discoloration, thickening, deformation, and potential pain. Peptides provide topical antifungal activity, membrane disruption, host defense amplification, and enhanced nail penetration to target infection while minimizing systemic side effects.
+
+1. Lactoferrin-derived antifungal: hLF1-11 - N-terminal human lactoferrin peptide with broad-spectrum activity, demonstrated efficacy in topical onychomycosis models
+2. Salivary antifungal: Histatin 5 - Potent inhibition of Candida and dermatophytes commonly involved in nail infections
+3. Beta-defensin defense: Human Beta-Defensin 3 (hBD-3) - Strong fungicidal action via membrane permeabilization and immune modulation
+4. Cathelicidin disruption: LL-37 - Disrupts fungal membranes and enhances local innate immunity in skin/nail
+5. Synthetic cationic: Omiganan - Broad antifungal developed for topical use with rapid killing
+6. Magainin analog: Pexiganan - Potent membrane-lytic activity against fungal pathogens
+7. Tryptophan-rich: Indolicidin - Highly effective short peptide against resistant fungi
+8. Pore-forming: Protegrin-1 - Forms pores in fungal membranes leading to rapid cell death
+9. Arginine-rich cyclic: NP213 (Novexatin) - Specifically engineered for onychomycosis with superior nail penetration and fungicidal speed
+10. Optimized amphipathic: NF-Amphi1 - Designed cationic-hydrophobic balance for selective fungal targeting and nail delivery
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Nail Fungus p01"
+"Loaded_Programs=Nail Fungus p02"
+"Loaded_Programs=Nail Fungus p03"
+"Loaded_Programs=Nail Fungus p04"
+"Loaded_Programs=Nail Fungus p05"
+"Loaded_Programs=Nail Fungus p06"
+"Loaded_Programs=Nail Fungus p07"
+"Loaded_Programs=Nail Fungus p08"
+"Loaded_Programs=Nail Fungus p09"
+"Loaded_Programs=Nail Fungus p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M129.043,M129.043,M87.032,M99.068,M147.068,M103.009,M71.037,M99.068,0=4,"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M128.095,M186.079,M186.079,M128.095,M147.068,M186.079,M156.101,M156.101,0=4,"
+"[/Preset]"

@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Facial Asymmetry Post Stroke (Hemiparesis) (R)"
+"Preset_Notes=Facial Asymmetry Post Stroke (Hemiparesis) for Remote
+
+Facial asymmetry following stroke results from upper motor neuron damage affecting the facial nerve nucleus or corticobulbar pathways, leading to hemiparesis of facial musculature. The pathophysiology involves acute excitotoxicity, oxidative stress, mitochondrial dysfunction, neuroinflammation, and loss of neurotrophic support. Recovery depends on neuroprotection of viable neurons, axonal regeneration, remyelination, and synaptic plasticity to restore neuromuscular connectivity. The following polypeptide design targets multimodal neuroprotection, facial nerve-specific regeneration signaling via CGRP and PACAP pathways, mitochondrial preservation, cytoskeletal remodeling for axonal growth, and synaptic stabilization to optimize functional recovery of facial motor control.
+1. Neuroprotection/BDNF upregulation: Semax (real) - Synthetic ACTH fragment analog upregulating BDNF and dopamine signaling, proven in acute ischemic stroke to accelerate neurological recovery and reduce motor deficits
+2. Facial nerve regeneration/CGRP signaling: CGRP (real) - Alpha-calcitonin gene-related peptide acting as neuromodulator for neuroglial interactions and neuromuscular junction regeneration, serving as marker for axonal regrowth in facial motoneurons
+3. Facial nerve regeneration/GDNF induction: PACAP (real) - Pituitary adenylyl cyclase-activating peptide stimulating GDNF expression, promoting myelination and accelerating compound muscle action potential recovery in facial nerve injury
+4. Neuroprotection/Anxiolytic support: Selank (real) - Synthetic tuftsin derivative modulating GABA/serotonin, reducing stress-related neuroinflammation and supporting cognitive-emotional recovery post-stroke
+5. Tissue healing/Axonal repair: BPC-157 (real) - Pentadecapeptide promoting actin cytoskeleton remodeling, enhancing axonal regeneration and soft tissue healing in neurological trauma
+6. Actin remodeling/Cell migration: TB-500 (real) - Thymosin beta-4 fragment regulating actin polymerization, facilitating cell migration and axonal pathfinding during nerve regeneration
+7. Mitochondrial protection: Humanin (real) - Endogenous mitochondrial-derived peptide preventing apoptosis, reducing oxidative stress, and preserving neuronal bioenergetics in ischemic injury
+8. Angiogenesis/Nerve growth support: GHK-Cu (real) - Glycyl-histidyl-lysine copper complex stimulating angiogenesis and nerve growth factor synthesis to restore vascular supply and trophic support
+9. Synaptic plasticity/Axonal guidance: SynaptoGuide-1 (designed) - RGD-containing integrin-binding peptide promoting synaptic adhesion and axonal guidance for facial motor neuron reinnervation
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Facial Asymmetry Post Stroke (Hemiparesis) p01"
+"Loaded_Programs=Facial Asymmetry Post Stroke (Hemiparesis) p02"
+"Loaded_Programs=Facial Asymmetry Post Stroke (Hemiparesis) p03"
+"Loaded_Programs=Facial Asymmetry Post Stroke (Hemiparesis) p04"
+"Loaded_Programs=Facial Asymmetry Post Stroke (Hemiparesis) p05"
+"Loaded_Programs=Facial Asymmetry Post Stroke (Hemiparesis) p06"
+"Loaded_Programs=Facial Asymmetry Post Stroke (Hemiparesis) p07"
+"Loaded_Programs=Facial Asymmetry Post Stroke (Hemiparesis) p08"
+"Loaded_Programs=Facial Asymmetry Post Stroke (Hemiparesis) p09"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,M57.021,M128.095,M156.101,M163.063,M128.095,M128.058,M156.101,M99.068,M128.095,M114.043,M127.111,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M71.037,M128.095,M156.101,M57.021,M115.027,M147.068,0=4,"
+"[/Preset]"

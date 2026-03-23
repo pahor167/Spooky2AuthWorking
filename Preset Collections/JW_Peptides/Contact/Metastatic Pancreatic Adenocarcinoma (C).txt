@@ -1,0 +1,46 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Metastatic Pancreatic Adenocarcinoma (C)"
+"Preset_Notes=Metastatic Pancreatic Adenocarcinoma for Contact
+
+Metastatic pancreatic adenocarcinoma is an aggressive form of pancreatic cancer that has spread to distant sites such as bones, lungs, and spine, characterized by poor prognosis, chemoresistance, and limited treatment options. Proposed polypeptides from current literature target key therapeutic axes to inhibit proliferation, enhance drug delivery, induce apoptosis, and suppress metastasis.
+
+1. Tumor penetration enhancement: iRGD - Cyclic peptide that binds integrins to improve drug permeability into solid tumors
+2. CD44v6 inhibition: v6pep - Interferes with CD44v6-c-Met signaling to block cell migration and metastasis
+3. Angiogenesis targeting: NGR - Binds aminopeptidase N on tumor vessels to inhibit neovascularization and growth
+4. MMP-2 inhibition: CTTHWGFTLC - Targets MMP-2 to reduce extracellular matrix degradation and tumor invasion
+5. Apoptosis induction: RR-171 - Derived peptide that triggers apoptosis and pyroptosis in cancer cells
+6. Oncolytic immunotherapy: LTX-315 - Induces immunogenic cell death and downregulates PD-L1 via ATP11B
+7. Signaling inhibition: DN-C16orf74 - Dominant-negative peptide that disrupts calcineurin interaction to halt proliferation
+8. Receptor radionuclide targeting: Minigastrin - Binds CCK-2 receptors for targeted imaging and therapy in tumors
+9. Mitochondrial disruption: (KLAKLAK)2 - Amphipathic peptide that permeabilizes mitochondria to cause apoptosis
+10. Multi-metastatic targeting: PanMetDes - Designed hybrid peptide combining integrin-binding and apoptotic motifs to inhibit spread to bones and lungs
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Metastatic Pancreatic Adenocarcinoma p01"
+"Loaded_Programs=Metastatic Pancreatic Adenocarcinoma p02"
+"Loaded_Programs=Metastatic Pancreatic Adenocarcinoma p03"
+"Loaded_Programs=Metastatic Pancreatic Adenocarcinoma p04"
+"Loaded_Programs=Metastatic Pancreatic Adenocarcinoma p05"
+"Loaded_Programs=Metastatic Pancreatic Adenocarcinoma p06"
+"Loaded_Programs=Metastatic Pancreatic Adenocarcinoma p07"
+"Loaded_Programs=Metastatic Pancreatic Adenocarcinoma p08"
+"Loaded_Programs=Metastatic Pancreatic Adenocarcinoma p09"
+"Loaded_Programs=Metastatic Pancreatic Adenocarcinoma p10"
+"Loaded_Frequencies=M102.001=1,M156.101,M57.021,M115.027,M128.095,M57.021,M97.053,M115.027,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M129.043,M128.058,M186.079,M147.068,M57.021,M114.043,M156.101,M186.079,M137.059,M129.043,M57.021,M163.063,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.043,M57.021,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M101.048,M101.048,M137.059,M186.079,M57.021,M147.068,M101.048,M113.084,M102.001,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M113.084,M99.068,M71.037,M57.021,M99.068,M113.084,M99.068,M113.084,M113.084,M156.101,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M186.079,M186.079,M128.095,M128.095,M251.131,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M57.021,M57.021,M57.021,M128.095,M137.059,M113.084,M115.027,M99.068,M97.053,M99.068,M113.084,M99.068,M113.084,M101.048,M97.053,M97.053,M101.048,M97.053,M101.048,0=4,"
+"Loaded_Frequencies=M113.084=1,M129.043,M129.043,M129.043,M129.043,M129.043,M71.037,M163.063,M57.021,M186.079,M131.040,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M57.021,M115.027,M128.095,M156.101,M156.101,M156.101,M128.095,M113.084,M71.037,M128.095,0=4,"
+"[/Preset]"

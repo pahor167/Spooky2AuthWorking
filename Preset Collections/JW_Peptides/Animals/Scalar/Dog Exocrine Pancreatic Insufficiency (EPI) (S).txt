@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Dog Exocrine Pancreatic Insufficiency (EPI) (S)"
+"Preset_Notes=Dog Exocrine Pancreatic Insufficiency (EPI) for Scalar
+
+Dog Exocrine Pancreatic Insufficiency (EPI) is a condition where the pancreas fails to produce sufficient digestive enzymes, leading to maldigestion and malabsorption of nutrients, primarily affecting breeds like German Shepherds. Causes include pancreatic acinar atrophy (autoimmune in origin), chronic pancreatitis, or neoplasia, with symptoms such as chronic diarrhea, weight loss despite polyphagia, steatorrhea, flatulence, and poor coat quality. Pathophysiology involves deficient secretion of amylase, lipase, and proteases, resulting in undigested food in the gut, osmotic diarrhea, bacterial overgrowth (SIBO), dysbiosis, vitamin deficiencies (e.g., cobalamin), and secondary malnutrition or cachexia.
+
+The proposed polypeptides address EPI through enzyme augmentation, microbiome correction, and pancreatic/intestine repair. For digestive enzyme support, a designed polypeptide mimics protease motifs to enhance protein breakdown in the small intestine, improving nutrient absorption and reducing osmotic load; feasibility is based on peptide enzyme analogs in maldigestion models, with acid-resistant design for oral efficacy. For microbiome modulation, a designed polypeptide targets overgrown bacteria selectively, restoring eubiosis and reducing toxin production that exacerbates malabsorption; this draws from antimicrobial peptides, ensuring minimal disruption to beneficial flora. For tissue repair, the real-world BPC-157 stimulates angiogenesis and collagen deposition to regenerate acinar cells and mucosal integrity, countering atrophy; studied in veterinary GI disorders, it offers anti-inflammatory benefits to alleviate symptoms.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Dog Exocrine Pancreatic Insufficiency (EPI) p01"
+"Loaded_Programs=Dog Exocrine Pancreatic Insufficiency (EPI) p02"
+"Loaded_Programs=Dog Exocrine Pancreatic Insufficiency (EPI) p03"
+"Loaded_Frequencies=M128.095=1,M99.068,M156.101,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M128.095,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"[/Preset]"

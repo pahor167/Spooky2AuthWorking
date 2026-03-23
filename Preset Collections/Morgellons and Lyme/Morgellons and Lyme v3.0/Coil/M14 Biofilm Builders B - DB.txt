@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"Repeat_Chain=0"
+"PresetName=M14 Biofilm Builders B - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Coil.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Staphylococcus General 1 CAFL
+Streptococcus Mitis Abscesses Stiff Knees HC
+Streptococcus Mitis XTRA
+Streptococcus Infection General CAFL
+Biofilms 01 XTRA
+Nisin XTRA
+Calcifications XTRA
+
+Connect Spooky PEMF Coil to the generator, using Spooky Boost for best results. The side marked 'BN' should be placed against your skin.
+"
+"Loaded_Programs=Staphylococcus General 1 (CAFL)"
+"Loaded_Programs=Streptococcus Mitis Abscesses Stiff Knees (HC)"
+"Loaded_Programs=Streptococcus Mitis (XTRA)"
+"Loaded_Programs=Streptococcus Infection General (CAFL)"
+"Loaded_Programs=Biofilms 01 (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=48=180,146=180,160=180,300.2=180,424=180,727=180,736=180,738.3=180,740.7=180,742.2=180,786=180,943=180,"
+"Loaded_Frequencies=313800-321100=3600,"
+"Loaded_Frequencies=565655.5555=1200,"
+"Loaded_Frequencies=2000=180,1266=180,885=180,884=180,883=180,882=180,881=180,880=180,879=180,878=180,877=180,876=180,875=180,848=180,802=180,800=180,787=180,784=180,727=180,"
+"Loaded_Frequencies=641.18=180,543.75=180,28500=180,280000=180,400=180,80=180,28.48=180,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

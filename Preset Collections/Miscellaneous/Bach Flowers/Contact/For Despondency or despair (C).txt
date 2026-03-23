@@ -1,0 +1,17 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\Healing (C) - JW"
+"InverseWave=False"
+"Out2_Square=True"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=For Despondency or despair (C)"
+"Preset_Notes=For Despondency or despair / Spooky Contact
+
+Estimated Time: Run this preset for 24:00 minutes.
+Larch - Lack of confidence. Pine - Helps when you feel guilt and self-reproach, often for other people's mistakes or just anything that goes wrong. You are never content with your effort and results. Elm - Overwhelmed by responsibility. Sweet Chestnut - Extreme mental anguish,when everything has been tried and there is no light left. Star of Bethlehem - Shock. Willow - Self-pity and resentment. Oak - The plodder who keeps going past the point of exhaustion. Crab Apple - The cleansing remedy, also for self-hatred.
+
+Connect the Spooky Cylinders or the TENS pads to the Colloidal Silver port of Spooky Boost, or for a high power treatment, to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=For Despondency or despair (C)"
+"Loaded_Frequencies=336.52F4096C0,280.93F4096C0,463.13F4096C0,421.51F4096C0,276.57F4096C0,264.74F4096C0,318.03F4096C0,359.21F4096C0,"
+"[/Preset]"

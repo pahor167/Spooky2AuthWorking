@@ -1,0 +1,36 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Vocal Cord Paralysis (L)"
+"Preset_Notes=Vocal Cord Paralysis for Laser
+
+Vocal cord paralysis is immobility of one or both vocal folds due to recurrent laryngeal (or vagus) nerve injury, most often iatrogenic from thyroidectomy, anterior cervical surgery, or cardiothoracic procedures; pathogenesis includes axonal degeneration with Wallerian changes, incomplete or synkinetic reinnervation, progressive thyroarytenoid muscle atrophy and fibrosis, oxidative stress with mitochondrial dysfunction and apoptosis in denervated tissue, persistent local inflammation, impaired angiogenesis limiting nutrient delivery, disrupted mucosal hydration, and deficient neuromuscular junction stabilization leading to glottal incompetence, breathy dysphonia, aspiration risk, and reduced quality of life. 
+
+1. Nerve regeneration: RADA16-I - Self-assembling peptide hydrogel that promotes neurite outgrowth, myelination, and RLN regeneration to restore vocal fold mobility. 
+2. Muscle atrophy prevention: VocalParalysisAtrophyPep - Upregulates mTOR/IGF-1 signaling to prevent thyroarytenoid muscle atrophy following denervation. 
+3. Anti-fibrotic protection: VocalParalysisFibroPep - Inhibits TGF-{beta}1 to reduce collagen crosslinking and fibrosis in denervated vocal fold and muscle tissue. 
+4. Inflammation suppression: VocalParalysisInflamPep - Blocks NF-{kappa}B and cytokine release to resolve acute inflammation around injured RLN. 
+5. Antioxidant and cytoprotection: VocalParalysisAntiOxPep - Mitochondrial-targeted ROS scavenging to protect denervated muscle fibers from oxidative damage. 
+6. Angiogenesis and vascular repair: VocalParalysisAngioPep - Stimulates VEGF to improve microvascular perfusion for nerve and muscle regeneration. 
+7. Mucosal lubrication and protection: VocalParalysisMucosaPep - Enhances hyaluronan and mucus production for maintained vocal fold hydration despite paralysis. 
+8. Neuromuscular modulation: VocalParalysisNeuroPep - Facilitates selective reinnervation and NMJ stabilization to minimize synkinesis.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Vocal Cord Paralysis p01"
+"Loaded_Programs=Vocal Cord Paralysis p02"
+"Loaded_Programs=Vocal Cord Paralysis p03"
+"Loaded_Programs=Vocal Cord Paralysis p04"
+"Loaded_Programs=Vocal Cord Paralysis p05"
+"Loaded_Programs=Vocal Cord Paralysis p06"
+"Loaded_Programs=Vocal Cord Paralysis p07"
+"Loaded_Programs=Vocal Cord Paralysis p08"
+"Loaded_Frequencies=M156.101=1,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,M156.101,M71.037,M115.027,M71.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M128.058=1,M129.043,M129.043,M128.058,M129.043,M129.043,M128.058,M129.043,M129.043,M128.058,M129.043,M129.043,M128.058,M129.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M87.032,M87.032,M163.063,M87.032,M87.032,M163.063,M87.032,M87.032,M163.063,M87.032,M87.032,M163.063,M87.032,0=4,"
+"Loaded_Frequencies=M99.068=1,M129.043,M57.021,M129.043,M99.068,M57.021,M129.043,M99.068,M57.021,M129.043,M99.068,M57.021,M129.043,M99.068,0=4,"
+"Loaded_Frequencies=M114.043=1,M114.043,M97.053,M114.043,M114.043,M97.053,M114.043,M114.043,M97.053,M114.043,M114.043,M97.053,M114.043,M114.043,0=4,"
+"Loaded_Frequencies=M186.079=1,M128.095,M128.095,M186.079,M128.095,M128.095,M186.079,M128.095,M128.095,M186.079,M128.095,M128.095,M186.079,M128.095,0=4,"
+"[/Preset]"

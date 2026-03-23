@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Gentian (S)"
+"Preset_Notes=Gentian / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Gentian - Discouragement after a setback.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Gentian (S)"
+"Loaded_Frequencies=265.67,"
+"[/Preset]"

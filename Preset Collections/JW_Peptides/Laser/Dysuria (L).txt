@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Dysuria (L)"
+"Preset_Notes=Dysuria for Laser
+
+Dysuria is characterized by painful, burning, or uncomfortable sensations during urination, typically originating from the urethra or bladder neck. This clinical symptom often indicates underlying conditions such as urinary tract infections (UTIs), interstitial cystitis, or lower urinary tract symptoms (LUTS) associated with prostatic hypertrophy. The pathophysiology involves the activation of nociceptors in the urothelium due to bacterial invasion, chemical irritation, or mechanical obstruction, leading to localized inflammation and potentially chronic neuropathic pain hallmarks. The proposed therapeutic strategy employs a four-axis approach. First, the antimicrobial axis utilizes LL-37 and the designed polypeptide D1-AM to neutralize uropathogens and prevent biofilm formation. Second, the anti-inflammatory and urothelial repair axis incorporates BPC-157 and the designed polypeptide D2-IR to accelerate the healing of the bladder lining and suppress pro-inflammatory cytokine cascades. Third, the nociceptive axis targets the sensory signaling pathways using Ziconotide and the designed polypeptide D3-NP to inhibit the transmission of pain signals from the pelvic nerves. Finally, the smooth muscle relaxation axis employs Urodilatin and the designed polypeptide D4-SR to alleviate dysuria-associated urgency and obstructive pressure by relaxing the bladder neck and prostate smooth muscle.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Dysuria p01"
+"Loaded_Programs=Dysuria p02"
+"Loaded_Programs=Dysuria p03"
+"Loaded_Programs=Dysuria p04"
+"Loaded_Programs=Dysuria p05"
+"Loaded_Programs=Dysuria p06"
+"Loaded_Programs=Dysuria p07"
+"Loaded_Programs=Dysuria p08"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M57.021,M115.027,M87.032,M97.053,0=4,"
+"Loaded_Frequencies=M103.009=1,M128.095,M57.021,M128.095,M57.021,M71.037,M128.095,M103.009,M87.032,M156.101,M113.084,M131.040,M163.063,M115.027,M103.009,M103.009,M101.048,M57.021,M87.032,M103.009,M156.101,M87.032,M57.021,M128.095,M103.009,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M101.048=1,M71.037,M97.053,M129.043,M87.032,M113.084,M129.043,M129.043,M87.032,M87.032,M103.009,M147.068,M57.021,M57.021,M129.043,M147.063,M115.027,M113.084,M99.068,M113.084,M113.084,M57.021,M71.037,M71.037,M128.095,M128.095,M87.032,M57.021,M113.084,M103.009,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M156.101,M156.101,M147.068,0=4,"
+"[/Preset]"

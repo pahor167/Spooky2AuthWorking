@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Peripheral Vision Loss (Tunnel Vision) (Coil)"
+"Preset_Notes=Peripheral Vision Loss (Tunnel Vision) for Coil
+
+Peripheral vision loss, or tunnel vision, refers to the constriction of the visual field where peripheral sight diminishes while central vision persists, often leading to challenges in spatial awareness, mobility, and daily activities. This condition stems from multiple etiologies, including glaucoma characterized by elevated intraocular pressure damaging the optic nerve and retinal ganglion cells; retinitis pigmentosa involving progressive photoreceptor degeneration due to genetic mutations; optic neuropathies from inflammation, ischemia, or toxicity disrupting nerve signaling; vascular abnormalities compromising retinal blood supply; and neurological insults like strokes affecting visual pathways. Symptoms manifest as difficulty detecting side objects, night blindness, photopsia, and potential progression to total blindness if unchecked. Pathophysiologically, it encompasses retinal ganglion cell apoptosis, photoreceptor loss, inflammatory cytokine surges, blood-retinal barrier breakdown causing leakage and edema, and impaired retinal regeneration, compounded by oxidative stress and angiogenesis dysregulation.
+
+The proposed polypeptides target key therapeutic axes to mitigate these mechanisms. For intraocular pressure reduction, real-world Bradykinin enhances aqueous outflow to lower pressure and preserve optic nerve integrity, while a designed peptide (flagged as designed) conceptually mimics this to augment drainage efficiency. In neuroprotection, PACAP38 activates survival pathways to shield retinal ganglion cells from apoptosis and oxidative damage, complemented by a designed peptide modulating similar neuroprotective signals. For retinal regeneration, PEDF 34-mer inhibits aberrant angiogenesis and fosters photoreceptor and retinal pigment epithelium renewal, with a designed variant stimulating cellular repair and differentiation. Anti-inflammatory action is addressed by KPV, which curbs cytokine production and reduces optic nerve inflammation, augmented by a designed peptide enhancing immune modulation. Finally, for blood-retinal barrier improvement, SOCS1-derived peptide inhibits inflammatory signaling to maintain tight junctions and prevent vascular leakage, supported by a designed peptide reinforcing barrier stability and reducing edema.
+
+"
+"Loaded_Programs=Peripheral Vision Loss (Tunnel Vision) p01"
+"Loaded_Programs=Peripheral Vision Loss (Tunnel Vision) p02"
+"Loaded_Programs=Peripheral Vision Loss (Tunnel Vision) p03"
+"Loaded_Programs=Peripheral Vision Loss (Tunnel Vision) p04"
+"Loaded_Programs=Peripheral Vision Loss (Tunnel Vision) p05"
+"Loaded_Programs=Peripheral Vision Loss (Tunnel Vision) p06"
+"Loaded_Programs=Peripheral Vision Loss (Tunnel Vision) p07"
+"Loaded_Programs=Peripheral Vision Loss (Tunnel Vision) p08"
+"Loaded_Programs=Peripheral Vision Loss (Tunnel Vision) p09"
+"Loaded_Programs=Peripheral Vision Loss (Tunnel Vision) p10"
+"Loaded_Frequencies=M156.101=1,M97.053,M97.053,M57.021,M147.068,M87.032,M97.053,M147.068,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M156.101,M163.063,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M87.032,M156.101,M163.063,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M71.037,M71.037,M99.068,M113.084,M57.021,M128.095,M156.101,M163.063,M128.095,M128.058,M156.101,M99.068,M128.095,M114.043,M127.111,0=4,"
+"Loaded_Frequencies=M71.037=1,M99.068,M128.095,M128.095,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M115.027=1,M97.053,M147.068,M147.068,M128.095,M99.068,M97.053,M99.068,M114.043,M128.095,M113.084,M71.037,M71.037,M71.037,M99.068,M87.032,M114.043,M147.068,M57.021,M163.063,M115.027,M113.084,M163.063,M156.101,M99.068,M156.101,M87.032,M87.032,M101.048,M87.032,M97.053,M101.048,M101.048,M114.043,0=4,"
+"Loaded_Frequencies=M87.032=1,M71.037,M113.084,M87.032,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M156.101,M113.084,M128.095,M101.048,M147.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M156.101,M115.027,M101.048,M137.059,M147.068,M156.101,M101.048,M147.068,M156.101,M87.032,M137.059,M87.032,M115.027,M163.063,M156.101,M156.101,M113.084,0=4,"
+"Loaded_Frequencies=M115.027=1,M101.048,M137.059,M147.068,M156.101,M101.048,0=4,"
+"[/Preset]"

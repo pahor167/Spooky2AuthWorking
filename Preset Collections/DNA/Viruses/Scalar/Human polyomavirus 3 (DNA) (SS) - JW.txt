@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Human polyomavirus 3 (DNA) (SS) - JW"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||Please refer to the Spooky2 Scalar User's Guide for more information.||This preset contains the following strains:||Human polyomavirus 3 NMKI001|Human polyomavirus 3 vzki1"
+"Loaded_Programs=Human polyomavirus 3 (DNA) (SS) - JW (CUST)"
+"Loaded_Frequencies=~9029BC3969,"
+"[/Preset]"

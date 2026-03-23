@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Hypogonadism (Age Related) (R)"
+"Preset_Notes=Hypogonadism (Age Related) for Remote
+
+Age-related hypogonadism involves a progressive decline in gonadal hormone production, primarily testosterone in men, resulting in symptoms like reduced energy, muscle mass, bone density, libido, and cognitive function, alongside increased risk of metabolic disorders. 
+
+Peptides are chosen to stimulate hormone axes, enhance metabolic health, support immune function, improve sexual performance, and promote tissue regeneration and neuroprotection. Real-world peptides from validated research on hypogonadism and aging are prioritized, with designed peptides flagged for additional coverage of antioxidant and immunomodulatory aspects.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Hypogonadism (Age Related) p01"
+"Loaded_Programs=Hypogonadism (Age Related) p02"
+"Loaded_Programs=Hypogonadism (Age Related) p03"
+"Loaded_Programs=Hypogonadism (Age Related) p04"
+"Loaded_Programs=Hypogonadism (Age Related) p05"
+"Loaded_Programs=Hypogonadism (Age Related) p06"
+"Loaded_Programs=Hypogonadism (Age Related) p07"
+"Loaded_Programs=Hypogonadism (Age Related) p08"
+"Loaded_Programs=Hypogonadism (Age Related) p09"
+"Loaded_Programs=Hypogonadism (Age Related) p10"
+"Loaded_Programs=Hypogonadism (Age Related) p11"
+"Loaded_Programs=Hypogonadism (Age Related) p12"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M186.079,M71.037,M186.079,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M137.059=1,M200.095,M71.037,M186.079,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M163.063=1,M114.043,M186.079,M114.043,M87.032,M147.068,M57.021,M113.084,M156.101,M146.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M115.027,M71.037,M113.084,M147.068,M101.048,M114.043,M87.032,M163.063,M156.101,M128.095,M99.068,M113.084,M57.021,M128.058,M113.084,M87.032,M71.037,M156.101,M128.095,M113.084,M113.084,M128.058,M115.027,M113.084,M131.040,M87.032,M156.101,0=4,"
+"Loaded_Frequencies=M155.095=1,M115.027,M137.059,M147.068,M156.101,M186.079,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M99.068,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M137.059,M97.053,M129.043,0=4,"
+"Loaded_Frequencies=M128.095=1,M101.048,M114.043,M99.068,M156.101,0=4,"
+"[/Preset]"

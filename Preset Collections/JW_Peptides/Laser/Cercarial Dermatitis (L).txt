@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Cercarial Dermatitis (L)"
+"Preset_Notes=Cercarial Dermatitis for Laser
+
+Cercarial Dermatitis (Swimmer's Itch from Bird Flukes)
+
+Cercarial dermatitis, known as swimmer's itch, is an allergic skin inflammation triggered by penetration of avian schistosome cercariae (bird fluke larvae) into human skin during water contact, resulting in pruritic papules and macules from immune response to dying parasites. The proposed polypeptides target evidence-based axes from AMP activity against schistosomes/cercariae in vitro and anti-inflammatory peptides for symptom relief in dermatological models.
+
+1. Human cathelicidin broad-spectrum defense and potential cercaricidal activity: LL-37 exhibits antimicrobial effects and modulates skin immunity relevant to parasite penetration and inflammation.
+2. Amphibian pore-forming peptide parasite membrane disruption: Magainin 2 displays broad antiparasitic potential applicable to trematode larvae.
+3. {alpha}-MSH-derived tripeptide allergic inflammation suppression: KPV potently reduces cytokine release and pruritus in skin allergy models.
+4. Engineered LL-37 core fusion optimization: Ac-KEFKRIVQRIKPV-NH2 combines active LL-37 antimicrobial motif with KPV for enhanced stability, dual antiparasitic/anti-inflammatory action, and topical efficacy.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Cercarial Dermatitis p01"
+"Loaded_Programs=Cercarial Dermatitis p02"
+"Loaded_Programs=Cercarial Dermatitis p03"
+"Loaded_Programs=Cercarial Dermatitis p04"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"[/Preset]"

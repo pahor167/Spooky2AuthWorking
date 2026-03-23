@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"Repeat_Chain=0"
+"PresetName=S18 Biofilm Builders F - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Scalar.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Bacteroides Fragilis XTRA
+Fusobacterium Infections XTRA
+Fusobacterium-Periodontitis XTRA
+Mycoplasma Salivarium XTRA
+Mycoplasma Salivarium 1 XTRA
+Colloidal_Silver Octave XTRA
+Nisin XTRA
+Calcifications XTRA
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Loaded_Programs=Bacteroides Fragilis (XTRA)"
+"Loaded_Programs=Fusobacterium Infections (XTRA)"
+"Loaded_Programs=Fusobacterium-Periodontitis (XTRA)"
+"Loaded_Programs=Mycoplasma Salivarium (XTRA)"
+"Loaded_Programs=Mycoplasma Salivarium 1 (XTRA)"
+"Loaded_Programs=Colloidal_Silver Octal (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=556776.6677=1800,"
+"Loaded_Frequencies=190=180,180=180,750=180,9000=180,11090=180,22500=180,47500=180,115700=180,377910=180,470120=180,"
+"Loaded_Frequencies=655557.5776=600,"
+"Loaded_Frequencies=832.6=180,"
+"Loaded_Frequencies=32384=1080,35712=1080,53760=1080,57984=1080,48704=1080,53248=1080,"
+"Loaded_Frequencies=4653391.397248=300,2326695.698624=300,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

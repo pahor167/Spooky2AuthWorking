@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Burns (R)"
+"Preset_Notes=Burns for Remote
+
+Burns are injuries to the skin and underlying tissues primarily caused by thermal sources (e.g., flame, scald, contact), but also chemical, electrical, or radiation exposure, leading to coagulative necrosis and varying depths of damage classified as superficial, partial-thickness, or full-thickness. Pathophysiology involves immediate cellular destruction from protein denaturation, vascular thrombosis in the zone of stasis (potentially convertible to necrosis if untreated), massive inflammatory cytokine release triggering local edema and systemic responses in severe cases (>20% TBSA), hypermetabolic state with catabolism, immunosuppression increasing infection risk due to barrier loss, oxidative stress, and delayed re-epithelialization with potential hypertrophic scarring or contractures. Symptoms range from pain, erythema, and blistering in superficial burns to painless charring and eschar in full-thickness, with severe burns causing hypovolemic shock, sepsis, or multi-organ failure.
+
+The proposed polypeptides combine established real-world peptides with a conceptual designed one to target key aspects comprehensively. BPC-157, a synthetic stable pentadecapeptide derived from gastric juices, accelerates burn healing through enhanced angiogenesis, improved collagen deposition, reduced inflammation, and protection against systemic complications, as evidenced in preclinical rodent burn models. GHK, a naturally occurring tripeptide released during tissue injury, promotes skin regeneration by stimulating collagen and glycosaminoglycan synthesis, attracting immune and capillary cells, exerting antioxidant effects, and improving wound contraction, with established use in skin repair formulations applicable to burns. The designed polypeptide, clearly flagged as such, is derived from the magainin 2 antimicrobial peptide motif from frog skin with rational sequence optimization for amphipathicity; it provides broad-spectrum antimicrobial action against burn-associated pathogens (e.g., Pseudomonas, Staphylococcus) while supporting re-epithelialization and modulating excessive inflammation for better outcomes. All exhibit favorable physicochemical profiles (soluble, stable, low immunogenicity), with feasibility for topical gels/creams (GHK and designed) or subcutaneous administration (BPC-157), offering multi-mechanistic coverage without reliance on antibiotics alone.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Burns p01"
+"Loaded_Programs=Burns p02"
+"Loaded_Programs=Burns p03"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M129.043,M113.084,M131.040,M114.043,M87.032,0=4,"
+"[/Preset]"

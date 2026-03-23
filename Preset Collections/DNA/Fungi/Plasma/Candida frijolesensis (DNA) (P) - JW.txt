@@ -1,0 +1,8 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW"
+"PresetName=Candida frijolesensis (DNA) (P) - JW"
+"Remove_Duplicate_Frequencies_Tolerance=0"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||This preset contains the following strains:||Candida frijolesensis NRRL Y-48060 mitochondrion|Candida frijolesensis mitochondrion"
+"Loaded_Programs=Candida frijolesensis (DNA) (P) - JW (CUST)"
+"Loaded_Frequencies=~1707BC91563,"
+"[/Preset]"

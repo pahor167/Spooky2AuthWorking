@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Horse Head Shaking (R)"
+"Preset_Notes=Horse Head Shaking for Remote
+
+Horse head shaking, specifically Trigeminal-Mediated Headshaking (TMHS), is a complex neuropathic facial pain condition. It is characterized by a 'functional' abnormality of the trigeminal nerve, where the nerve remains structurally intact but fires at a significantly lower threshold than in healthy horses. Affected horses experience spontaneous sensations described as burning, itching, or electric shock-like tics, often triggered by sunlight, wind, or exercise. Research from 2024-2026 highlights a significant correlation between elevated Calcitonin Gene-Related Peptide (CGRP) in cerebrospinal fluid and the severity of headshaking, suggesting a neuroinflammatory component similar to human trigeminal neuralgia.
+
+1. Trigeminal Desensitization: CGRP-Antagonist Peptide - A designed peptide analog targeting the CGRP receptor to block the transmission of neuropathic pain signals in the maxillary nerve branch.
+2. Neural Membrane Stabilization: PGB-1 (Pregabalin-mimetic) - A synthetic ligand designed to modulate alpha-2-delta subunits of voltage-gated calcium channels, raising the nerve firing threshold.
+3. Neuroinflammation Mitigation: ARA-290 (Cibinetide) - An erythropoietin-derived peptide that activates the innate repair receptor to reduce pro-inflammatory cytokine expression in the trigeminal ganglion.
+4. Synaptic Plasticity Repair: BPC-157 - A stable gastric pentadecapeptide utilized for its neuroprotective effects and ability to promote the healing of functional nerve hypersensitivity.
+5. Axonal Protection: Thymosin Beta-4 (TB-500) - A peptide that promotes actin sequestration and cellular migration, supporting the maintenance of the myelin sheath in sensitized facial nerves.
+6. Ion Channel Modulation: GHK-Cu - A copper-binding tripeptide that influences gene expression for nerve growth factors and antioxidant enzymes, potentially reversing functional nerve 'wind-up.'
+7. Endocrine-Photic Regulation: Melatonin-related Peptide - A designed sequence to stabilize seasonal hormone surges that correlate with photic-triggered headshaking in spring and summer.
+8. Optimization Axis: TMHS-Relief-V1 - An engineered polypeptide combining magnesium-binding motifs and substance P inhibitors to provide a multi-modal reduction in trigeminal hypersensitivity.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Horse Head Shaking p01"
+"Loaded_Programs=Horse Head Shaking p02"
+"Loaded_Programs=Horse Head Shaking p03"
+"Loaded_Programs=Horse Head Shaking p04"
+"Loaded_Programs=Horse Head Shaking p05"
+"Loaded_Programs=Horse Head Shaking p06"
+"Loaded_Programs=Horse Head Shaking p07"
+"Loaded_Programs=Horse Head Shaking p08"
+"Loaded_Frequencies=M71.037=1,M156.101,M57.021,M156.101,M156.101,M163.063,M156.101,M103.009,M129.043,M114.043,M113.084,M129.043,M128.095,M131.040,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M128.058,M113.084,M129.043,M156.101,M131.040,M156.101,M156.101,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M113.084,M71.037,M101.048,M113.084,M114.043,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M137.059,M115.027,M129.043,M137.059,M156.101,M128.058,M113.084,M147.068,M128.095,M129.043,0=4,"
+"[/Preset]"

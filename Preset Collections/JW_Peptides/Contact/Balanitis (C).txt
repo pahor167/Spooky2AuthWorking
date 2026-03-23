@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Balanitis (C)"
+"Preset_Notes=Balanitis for Contact
+
+Balanitis is inflammation of the glans penis, commonly triggered by Candida albicans overgrowth, bacterial infections, irritants, or hygiene factors, leading to redness, swelling, itching, discharge, and risk of complications like phimosis. The proposed polypeptides target evidence-based therapeutic axes from genital mucosal innate defense, direct antifungal/bacterial membrane disruption, anti-inflammatory modulation, and regenerative repair to clear pathogens, alleviate symptoms, and restore tissue integrity.
+
+1. Gastric pentadecapeptide-mediated mucosal healing: BPC-157 enhances endothelial protection and tissue repair in inflamed genital areas.
+2. {alpha}-MSH-derived tripeptide anti-inflammatory modulation: Ac-KPV-NH2 suppresses inflammatory cytokines and edema.
+3. Copper-binding tripeptide regenerative support: GHK-Cu promotes ECM synthesis, antioxidant effects, and skin/mucosal regeneration.
+4. Human cathelicidin direct antifungal activity: LL-37 disrupts Candida membranes and supports immunomodulation.
+5. Human beta-defensin 3 innate broad-spectrum defense: hBD-3 (with disulfides) targets fungal and bacterial pathogens effectively.
+6. Bovine indolicidin potent candidacidal disruption: Indolicidin-NH2 delivers Trp-rich membrane targeting against resistant Candida.
+7. Magainin analog broad-spectrum lytic action: Pexiganan-NH2 provides helical permeabilization of fungal/bacterial envelopes.
+8. Engineered lactoferricin-derived cationic fragment: Ac-RRWQWRMKKL-NH2 optimizes potent and selective anti-Candida activity.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Balanitis p01"
+"Loaded_Programs=Balanitis p02"
+"Loaded_Programs=Balanitis p03"
+"Loaded_Programs=Balanitis p04"
+"Loaded_Programs=Balanitis p05"
+"Loaded_Programs=Balanitis p06"
+"Loaded_Programs=Balanitis p07"
+"Loaded_Programs=Balanitis p08"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M114.043,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M156.101,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M128.095=1,M103.009,M147.068,M128.095,M147.068,M129.043,M87.032,M163.063,M113.084,M128.095,M129.043,M99.068,M128.095,M147.068,M57.021,M97.053,M57.021,M87.032,M113.084,M87.032,M128.095,M99.068,0=4,"
+"[/Preset]"

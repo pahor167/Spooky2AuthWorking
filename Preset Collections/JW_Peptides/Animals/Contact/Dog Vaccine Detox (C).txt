@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dog Vaccine Detox (C)"
+"Preset_Notes=Dog Vaccine Detox for Contact
+
+Dog Vaccine Detox refers to the purported process of mitigating or eliminating perceived adverse effects from vaccinations in dogs, often associated with concerns over heavy metals, adjuvants, or immune overstimulation, though this concept is controversial and not widely supported in mainstream veterinary medicine. Potential symptoms attributed include lethargy, skin issues, behavioral changes, gastrointestinal upset, or autoimmune-like reactions post-vaccination. Pathophysiology, if any, might involve hypersensitivity to vaccine components, leading to oxidative stress, inflammation, or temporary immune dysregulation, but evidence is anecdotal and often overlaps with unrelated conditions.
+
+The proposed polypeptides for Dog Vaccine Detox aim at detoxification support, antioxidant protection, and immune balancing, though emphasizing evidence-based veterinary care. For detoxification, a designed polypeptide chelates potential toxins via cysteine-rich motifs, facilitating excretion similar to metallothionein analogs; this conceptual design's feasibility relies on peptide chelators in toxicology, with safety for canine use. For antioxidant action, a designed polypeptide mimics glutathione peroxidase to neutralize reactive oxygen species from vaccine-induced stress, reducing cellular damage; based on selenopeptide models, it offers rapid action. For immune regulation, a designed polypeptide downregulates proinflammatory cytokines while supporting T-regulatory cells, preventing exaggerated responses; these designed polypeptides provide supportive therapy, potentially alongside holistic approaches, but not substituting core vaccines.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dog Vaccine Detox p01"
+"Loaded_Programs=Dog Vaccine Detox p02"
+"Loaded_Programs=Dog Vaccine Detox p03"
+"Loaded_Frequencies=M103.009=1,M87.032,M103.009,M87.032,M103.009,0=4,"
+"Loaded_Frequencies=M150.954=1,M129.043,M150.954,M129.043,M150.954,0=4,"
+"Loaded_Frequencies=M128.095=1,M137.059,M128.095,M137.059,M128.095,0=4,"
+"[/Preset]"

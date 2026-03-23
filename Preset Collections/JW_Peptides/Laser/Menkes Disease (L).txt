@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Menkes Disease (L)"
+"Preset_Notes=Menkes Disease for Laser
+
+Menkes Disease is a rare X-linked recessive disorder caused by mutations in the ATP7A gene, which encodes a copper-transporting P-type ATPase essential for copper absorption and distribution throughout the body. This genetic defect leads to systemic copper deficiency despite adequate dietary intake, as copper cannot be properly absorbed from the gastrointestinal tract or transported across cellular membranes. The pathophysiology involves progressive neurological deterioration due to impaired function of copper-dependent enzymes such as cytochrome c oxidase (affecting cellular energy production), superoxide dismutase (reducing antioxidant defenses), dopamine beta-hydroxylase (disrupting neurotransmitter synthesis), and lysyl oxidase (causing connective tissue abnormalities). Clinical manifestations typically appear in infancy and include hypotonia, seizures, developmental delay, failure to thrive, distinctive kinky or steely hair (pili torti), hypothermia, and connective tissue defects leading to vascular fragility, joint laxity, and skeletal abnormalities. Without treatment, the condition is fatal in early childhood. Current standard therapy involves subcutaneous copper-histidine injections, which can improve outcomes if initiated neonatally but have limited efficacy in reversing neurological damage once symptoms appear. The proposed polypeptide designs address five key therapeutic axes: D1-CuTransporter (designed) enhances cellular copper uptake and intracellular delivery by mimicking natural copper chaperone proteins, bypassing the defective ATP7A transporter; D2-ATP7Aenhancer (designed) stabilizes the folding and functional activity of mutant ATP7A proteins to restore partial copper transport capacity in cells with hypomorphic mutations; D3-Neuroprotectant (designed) activates endogenous antioxidant pathways and supports mitochondrial function to protect neurons from copper deficiency-induced oxidative stress and energy failure; D4-BBBshuttle (designed) facilitates copper transport across the blood-brain barrier by engaging endogenous transport systems, addressing the critical limitation of current therapies in reaching the central nervous system; D5-ConnectiveShield (designed) stabilizes extracellular matrix proteins by supporting residual activity of copper-dependent enzymes like lysyl oxidase, preventing vascular complications and connective tissue deterioration. These designed polypeptides work synergistically to address the multifaceted pathophysiology of Menkes Disease while offering potential advantages over current copper supplementation alone.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Menkes Disease p01"
+"Loaded_Programs=Menkes Disease p02"
+"Loaded_Programs=Menkes Disease p03"
+"Loaded_Programs=Menkes Disease p04"
+"Loaded_Programs=Menkes Disease p05"
+"Loaded_Frequencies=M71.037=1,M87.032,M113.084,M99.068,M71.037,M87.032,M113.084,M99.068,M71.037,M87.032,M113.084,M99.068,M71.037,M87.032,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M71.037,M99.068,M114.043,M113.084,M71.037,M99.068,M114.043,M113.084,M71.037,M99.068,M114.043,M113.084,M71.037,M99.068,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M114.043,M99.068,M71.037,M113.084,M114.043,M99.068,M71.037,M113.084,M114.043,M99.068,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M99.068=1,M71.037,M87.032,M114.043,M99.068,M71.037,M87.032,M114.043,M99.068,M71.037,M87.032,M114.043,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M71.037,M87.032,M101.048,M71.037,M87.032,M101.048,M71.037,M87.032,M101.048,M71.037,0=4,"
+"[/Preset]"

@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Cherry Plum (S)"
+"Preset_Notes=Cherry Plum / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Cherry Plum - Fear of the mind giving way.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Cherry Plum (S)"
+"Loaded_Frequencies=262.01,"
+"[/Preset]"

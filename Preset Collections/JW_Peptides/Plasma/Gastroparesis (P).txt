@@ -1,0 +1,29 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Gastroparesis (P)"
+"Preset_Notes=Gastroparesis for Plasma
+
+Gastroparesis is characterized by delayed gastric emptying in the absence of mechanical obstruction, commonly associated with diabetic autonomic neuropathy, mucosal damage, inflammation, and impaired contractile function, resulting in nausea, vomiting, bloating, and malnutrition. The proposed polypeptides target mechanistic axes supported by preclinical studies, investigational trials of ghrelin/motilin mimetics, and evidence for neuroprotection and tissue healing in gastrointestinal disorders.
+
+1. Ghrelin receptor agonism for prokinetic stimulation: GHRP-6 accelerates gastric emptying and improves motility in diabetic gastroparesis models.
+2. Erythropoietin-derived neuroprotection: ARA-290 reduces diabetic neuropathy and supports nerve regeneration applicable to vagal dysfunction.
+3. Thymosin {beta}4-derived actin modulation: TB-500 promotes cell migration, anti-fibrosis, and tissue repair in gastric contexts.
+4. Stable gastric pentadecapeptide cytoprotection: BPC-157 protects gastric mucosa, supports integrity, and aids healing.
+5. Stabilized motilin N-terminal fragment for enhanced prokinetic targeting: Ac-FVPIFTYGELQR-NH2 is an engineered analog optimized for stability and motilin receptor-mediated phase III contractions.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Gastroparesis p01"
+"Loaded_Programs=Gastroparesis p02"
+"Loaded_Programs=Gastroparesis p03"
+"Loaded_Programs=Gastroparesis p04"
+"Loaded_Programs=Gastroparesis p05"
+"Loaded_Frequencies=M137.059=1,M186.079,M71.037,M186.079,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M97.053,M113.084,M147.068,M101.048,M163.063,M57.021,M129.043,M113.084,M128.058,M156.101,0=4,"
+"[/Preset]"

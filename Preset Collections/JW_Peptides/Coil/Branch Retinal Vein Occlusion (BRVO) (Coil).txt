@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Branch Retinal Vein Occlusion (BRVO) (Coil)"
+"Preset_Notes=Branch Retinal Vein Occlusion (BRVO) for Coil
+
+Branch Retinal Vein Occlusion (BRVO) is a common retinal vascular disorder caused by blockage in a branch retinal vein, leading to macular edema, retinal ischemia, oxidative stress, inflammation, and potential neovascularization or vision loss.
+
+1. GLP-1 receptor agonism: Semaglutide - Long-acting GLP-1 receptor agonist linked to reduced BRVO risk via vascular protection and anti-inflammatory effects in diabetic patients.
+2. Adrenomedullin signaling: Adrenomedullin - Pleiotropic peptide with vasodilatory, anti-permeability, and anti-ischemic effects shown in retinal vein occlusion models.
+3. Neuropilin-1 inhibition: ATWLPPR - Heptapeptide selectively blocking VEGF165-NRP1 interaction to preserve retinal vascular integrity and reduce permeability.
+4. Tyrosine kinase/integrin inhibition: AXT107 - Collagen IV-derived mimetic suppressing VEGFR2, c-Met, PDGFR{beta} signaling and promoting receptor degradation to inhibit leakage and neovascularization.
+5. Antioxidant defense: Carnosine - Natural dipeptide scavenging ROS to protect retinal cells from oxidative damage during ischemia.
+6. Integrin antagonism: GRGDSP (designed) - Synthetic RGD-motif peptide competitively inhibiting integrin-mediated adhesion to reduce pathologic angiogenesis and vessel leakage.
+7. Anti-inflammatory modulation: Tuftsin - Tetrapeptide stimulating macrophages while providing anti-inflammatory effects to mitigate retinal inflammation.
+8. Neuroprotection: Pinealon - Synthetic tripeptide promoting neuronal survival and regeneration in degenerative retinal conditions.
+9. Anti-apoptotic neuroprotection: ProTa-Mimic (designed) - Acidic heptapeptide inspired by prothymosin-{alpha} domain to inhibit ischemia-induced necrosis and apoptosis in retinal cells.
+10. Immune/neuroprotection: Thymogen - Dipeptide with immune-modulating properties supporting tissue repair and neuroprotection in stress conditions.
+
+"
+"Loaded_Programs=Branch Retinal Vein Occlusion (BRVO) p01"
+"Loaded_Programs=Branch Retinal Vein Occlusion (BRVO) p02"
+"Loaded_Programs=Branch Retinal Vein Occlusion (BRVO) p03"
+"Loaded_Programs=Branch Retinal Vein Occlusion (BRVO) p04"
+"Loaded_Programs=Branch Retinal Vein Occlusion (BRVO) p05"
+"Loaded_Programs=Branch Retinal Vein Occlusion (BRVO) p06"
+"Loaded_Programs=Branch Retinal Vein Occlusion (BRVO) p07"
+"Loaded_Programs=Branch Retinal Vein Occlusion (BRVO) p08"
+"Loaded_Programs=Branch Retinal Vein Occlusion (BRVO) p09"
+"Loaded_Programs=Branch Retinal Vein Occlusion (BRVO) p10"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M128.058,M87.032,M131.040,M114.043,M114.043,M147.068,M128.058,M57.021,M113.084,M156.101,M87.032,M147.068,M57.021,M102.001,M156.101,M147.068,M57.021,M101.048,M102.001,M101.048,M99.068,M128.058,M128.095,M113.084,M71.037,M137.059,M128.058,M113.084,M163.063,M128.058,M147.068,M101.048,M115.027,M128.095,M115.027,M128.095,M115.027,M114.043,M99.068,M71.037,M97.053,M156.101,M87.032,M128.095,M113.084,M87.032,M97.053,M128.058,M57.021,M162.079,0=4,"
+"Loaded_Frequencies=M71.037=1,M101.048,M186.079,M113.084,M97.053,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M156.101,M156.101,M147.068,M87.032,M101.048,M71.037,M97.053,M147.068,M71.037,M147.068,M113.084,M115.027,M113.084,M114.043,M115.027,M99.068,M113.084,M114.043,M147.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M57.021,M115.027,M87.032,M97.053,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M129.043,M115.027,M129.043,M129.043,M129.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M186.079,0=4,"
+"[/Preset]"

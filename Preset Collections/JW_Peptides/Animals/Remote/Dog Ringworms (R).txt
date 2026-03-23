@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Dog Ringworms (R)"
+"Preset_Notes=Dog Ringworms for Remote
+
+Ringworm in dogs, also known as dermatophytosis, is a highly contagious fungal infection primarily caused by dermatophyte fungi such as Microsporum canis, Trichophyton mentagrophytes, or Microsporum gypseum. These fungi thrive on keratin found in the skin, hair, and nails, leading to invasion of the superficial layers of the skin. Transmission occurs through direct contact with infected animals, contaminated environments, or fomites like grooming tools. Puppies, immunocompromised dogs, and those in crowded conditions are particularly susceptible. Symptoms typically include circular patches of hair loss (alopecia), scaly or crusty skin, redness, itching (pruritus), and sometimes brittle or broken hairs. In severe cases, it can lead to secondary bacterial infections, folliculitis, or generalized skin involvement. Pathophysiology involves fungal spores adhering to the skin, germinating, and penetrating the hair follicle or stratum corneum, triggering an inflammatory response mediated by cytokines and immune cells. This can result in hyperkeratosis, epidermal hyperplasia, and dermal infiltration by neutrophils and macrophages. Chronic cases may involve hypersensitivity reactions. Diagnosis is confirmed via Wood's lamp examination, fungal culture, or PCR.
+
+The proposed polypeptides address the condition through multiple therapeutic axes to ensure comprehensive coverage. For antifungal cell membrane disruption, LL-37, a cathelicidin antimicrobial peptide, disrupts fungal lipid bilayers by forming pores, leading to cell lysis and death of dermatophytes; the designed polypeptide (flagged as designed) incorporates cationic and hydrophobic residues tailored for enhanced amphipathicity against Microsporum canis membranes in dogs, with feasibility supported by similar synthetic peptides in veterinary mycology showing low toxicity and high specificity. For inhibition of fungal cell wall synthesis, the designed polypeptide (flagged as designed) mimics echinocandin-like action by binding beta-glucan synthase, preventing cell wall integrity; physicochemical considerations include cyclic structure for stability in topical applications, with short length ensuring penetration into infected follicles. For immune system modulation, Thymosin alpha 1 stimulates thymopoiesis and T-cell maturation, enhancing adaptive immunity to clear fungal antigens; the designed polypeptide (flagged as designed) draws from indolicidin motifs adapted for canine macrophages, promoting phagocytosis with rationale based on upregulated defensin expression in ringworm resolution studies. For anti-inflammatory effects, VIP inhibits pro-inflammatory cytokines like TNF-alpha via cAMP pathways, reducing pruritus and erythema; the designed polypeptide (flagged as designed) uses GLP-1 analog sequences to target NF-kB in keratinocytes, with solubility and stability optimized for dermal delivery. Overall feasibility includes topical or oral administration, with real-world polypeptides backed by clinical evidence and designed ones conceptualized for low immunogenicity in dogs, covering all aspects from direct antifungal action to symptom management.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Dog Ringworms p01"
+"Loaded_Programs=Dog Ringworms p02"
+"Loaded_Programs=Dog Ringworms p03"
+"Loaded_Programs=Dog Ringworms p04"
+"Loaded_Programs=Dog Ringworms p05"
+"Loaded_Programs=Dog Ringworms p06"
+"Loaded_Programs=Dog Ringworms p07"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M147.068,M147.068,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M186.079,M103.009,M156.101,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M99.068,M128.095,M128.095,M163.063,M114.043,M87.032,M113.084,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M128.058,M71.037,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,0=4,"
+"[/Preset]"

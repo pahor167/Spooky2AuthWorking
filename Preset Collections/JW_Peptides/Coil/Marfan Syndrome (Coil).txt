@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Marfan Syndrome (Coil)"
+"Preset_Notes=Marfan Syndrome for Coil
+
+Marfan syndrome is a heritable connective tissue disorder caused by FBN1 mutations leading to defective fibrillin-1, dysregulated TGF-{beta} signaling, extracellular matrix instability, aortic aneurysm risk, skeletal overgrowth, and ocular issues. The proposed polypeptides target evidence-based axes from preclinical models and mechanistic studies, including direct TGF-{beta} blockade, protective renin-angiotensin modulation, growth factor regulation for vascular integrity, multi-tissue repair promotion, copper-mediated remodeling, and novel matrix stabilization.
+
+1. Betaglycan-derived TGF-{beta} inhibitory peptide: P144 blocks TGF-{beta} binding to receptors, preventing aortic aneurysm onset in Marfan mouse models.
+2. Angiotensin heptapeptide Mas receptor agonism: Angiotensin (1-7) counters Ang II effects, supporting vascular protection and reducing dilatation risk via the protective RAS axis.
+3. Thymosin {beta}4 active fragment-mediated regulation: TB-500 modulates endocytic growth factor signaling, protecting against aortic aneurysm progression.
+4. Stable gastric pentadecapeptide multi-tissue repair: BPC-157 enhances connective tissue integrity, angiogenesis, and healing relevant to vascular and skeletal manifestations.
+5. Copper-binding tripeptide ECM support: GHK-Cu promotes remodeling, antioxidant activity, and growth factor expression in connective tissue pathologies akin to Marfan.
+6. Engineered collagen-mimetic proline-rich stabilization: Ac-(GPP)10-NH2 mimics collagen triple helix to reinforce aortic extracellular matrix and reduce aneurysm vulnerability.
+
+"
+"Loaded_Programs=Marfan Syndrome p01"
+"Loaded_Programs=Marfan Syndrome p02"
+"Loaded_Programs=Marfan Syndrome p03"
+"Loaded_Programs=Marfan Syndrome p04"
+"Loaded_Programs=Marfan Syndrome p05"
+"Loaded_Programs=Marfan Syndrome p06"
+"Loaded_Frequencies=M101.048=1,M87.032,M113.084,M115.027,M71.037,M87.032,M113.084,M113.084,M186.079,M71.037,M131.040,M131.040,M128.058,M114.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,0=4,"
+"[/Preset]"

@@ -1,0 +1,28 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Hypoplastic Left Heart Syndrome (Coil)"
+"Preset_Notes=Hypoplastic Left Heart Syndrome for Coil
+
+Hypoplastic Left Heart Syndrome (HLHS) is a severe congenital heart defect involving underdevelopment of the left ventricle, mitral/aortic valves, and aorta, requiring staged surgical interventions and associated with right ventricular strain, heart failure risk, and need for regenerative support. The proposed polypeptides target evidence-based axes from cardiac repair, developmental regeneration, cytoprotection, angiogenesis, tissue remodeling, and innate repair studies to potentially enhance myocardial function, vascularization, and tissue protection as adjuncts to surgery.
+
+1. Full-length thymosin {beta}4-mediated epicardial progenitor activation, vasculogenesis, and regeneration relevant to congenital heart development: Thymosin_beta_4
+2. Acetylated actin-binding fragment for cardiomyocyte migration, anti-apoptosis, and repair in stressed myocardium: TB-500
+3. Stable gastric pentadecapeptide for cytoprotection, angiogenesis, and recovery from cardiovascular lesions: BPC-157
+4. Copper-bound tripeptide for ECM remodeling, growth factor induction, and antioxidant effects in cardiac tissue: GHK-Cu
+5. Pyrrolidine-modified EPO-derived peptide for innate repair receptor activation and cardiac tissue protection: ARA-290
+6. Optimized helical VEGF-mimetic for targeted pro-angiogenic signaling to support vascular growth in hypoplastic structures: Ac-KLTWQELYQLKYKGI-NH2 (engineered)
+
+"
+"Loaded_Programs=Hypoplastic Left Heart Syndrome p01"
+"Loaded_Programs=Hypoplastic Left Heart Syndrome p02"
+"Loaded_Programs=Hypoplastic Left Heart Syndrome p03"
+"Loaded_Programs=Hypoplastic Left Heart Syndrome p04"
+"Loaded_Programs=Hypoplastic Left Heart Syndrome p05"
+"Loaded_Programs=Hypoplastic Left Heart Syndrome p06"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.059,M129.043,M128.095,M71.037,M129.043,M113.084,M128.059,M71.037,M57.021,M129.043,M71.037,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M128.059,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M170.106=1,M113.084,M101.048,M186.079,M128.059,M129.043,M113.084,M163.063,M128.059,M113.084,M128.095,M163.063,M128.095,M57.021,M112.100,0=4,"
+"[/Preset]"

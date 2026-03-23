@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Sanfilippo Syndrome (S)"
+"Preset_Notes=Sanfilippo Syndrome for Scalar
+
+Sanfilippo syndrome (mucopolysaccharidosis type III, MPS III) is a rare group of four autosomal recessive lysosomal storage disorders (subtypes A-D) caused by pathogenic variants in genes encoding enzymes essential for heparan sulfate catabolism: SGSH (type A), NAGLU (type B), HGSNAT (type C), and GNS (type D). Deficient activity leads to progressive intralysosomal accumulation of undegraded heparan sulfate, disrupting cellular homeostasis and eliciting secondary pathologies including ganglioside storage, autophagy impairment, mitochondrial dysfunction, oxidative stress, and robust neuroinflammation driven by microglial activation, inflammasome signaling, and cytokine release. Clinical features emerge in early childhood with developmental delay, hyperactivity, behavioral disturbances, sleep disruption, loss of speech and motor skills, seizures, spasticity, dysphagia, and eventual profound dementia, with death typically in the second or third decade; somatic manifestations are relatively mild, including coarse facial features, hirsutism, joint stiffness, and visceral enlargement.
+
+No approved disease-modifying treatments exist, with care limited to symptomatic support; investigational strategies encompass gene therapy, intracerebroventricular enzyme replacement using large recombinant proteins, substrate reduction with small molecules, and anti-inflammatory biologics, though central nervous system penetration remains a major barrier. The proposed polypeptides are all designed conceptual short C-terminally amidated amphipathic cationic peptides exploiting established cell-penetrating and membrane-active peptide paradigms for synthetic feasibility, proteolytic resistance, potential blood-brain barrier crossing, and targeted intracellular modulation. These incorporate alternating hydrophobic/aromatic and cationic residues to promote helical amphipathicity: the first designed polypeptide utilizes phenylalanine-arginine alternation to reinforce lysosomal integrity and support heparan sulfate trafficking; the second employs lysine-tryptophan for enhanced brain delivery and substrate accumulation mitigation; the third features histidine-tyrosine for reactive oxygen species scavenging and neuroinflammatory suppression; the fourth applies lysine-leucine alternation to facilitate autophagic flux and neuronal survival signaling. Together, these complementary designs address primary storage, secondary neuroinflammation, oxidative damage, and autophagic deficits in a multifaceted manner.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Sanfilippo Syndrome p01"
+"Loaded_Programs=Sanfilippo Syndrome p02"
+"Loaded_Programs=Sanfilippo Syndrome p03"
+"Loaded_Programs=Sanfilippo Syndrome p04"
+"Loaded_Frequencies=M147.068=1,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M155.117,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M186.079,M128.095,M186.079,M128.095,M186.079,M128.095,M185.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M162.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M112.100,0=4,"
+"[/Preset]"

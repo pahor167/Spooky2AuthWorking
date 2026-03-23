@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Aging Joints, Cartilage, Knees, Shoulders, Ligaments, Tendons, and Poor Eye Vision (Coil)"
+"Preset_Notes=Aging Joints, Cartilage, Knees, Shoulders, Ligaments, Tendons, and Poor Eye Vision for Coil
+
+Aging-related degeneration of joints, cartilage, knees, shoulders, ligaments, and tendons involves chronic inflammation, reduced collagen integrity, impaired healing, and oxidative damage, often manifesting as osteoarthritis and tendinopathy. Concurrent poor eye vision in aging commonly stems from oxidative stress, inflammation, and tissue decline in the lens, retina, or cornea. The selected real-world polypeptides target four evidence-based therapeutic axes derived from preclinical studies, investigational research, and mechanistic evidence in musculoskeletal and ocular degeneration.
+
+1. Gastric pentadecapeptide-mediated multi-tissue regeneration: BPC-157 accelerates tendon, ligament, joint, and cartilage repair while maintaining tissue integrity in aging and injury models relevant to knees, shoulders, and connective tissues.
+
+2. Thymosin {beta}4-driven enhancement of cell migration and anti-inflammation: Thymosin {beta}4 promotes healing, reduces fibrosis, and supports repair in cartilage, tendons, ligaments, and ocular surfaces affected by age-related decline.
+
+3. Melanocortin agonism for cytoprotective anti-inflammation: {alpha}-MSH provides anti-apoptotic and immunomodulatory effects in ocular tissues, countering inflammation and degeneration linked to aging vision impairment.
+
+4. Copper-chelated tripeptide remodeling and antioxidation: GHK-Cu stimulates collagen synthesis, extracellular matrix regeneration, and antioxidant activity in aging connective tissues of joints and periocular regions.
+
+"
+"Loaded_Programs=Aging Joints, Cartilage, Knees, Shoulders, Ligaments, Tendons, and Poor Eye Vision p01"
+"Loaded_Programs=Aging Joints, Cartilage, Knees, Shoulders, Ligaments, Tendons, and Poor Eye Vision p02"
+"Loaded_Programs=Aging Joints, Cartilage, Knees, Shoulders, Ligaments, Tendons, and Poor Eye Vision p03"
+"Loaded_Programs=Aging Joints, Cartilage, Knees, Shoulders, Ligaments, Tendons, and Poor Eye Vision p04"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"[/Preset]"

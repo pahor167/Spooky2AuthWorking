@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Enlarged Spleen (Splenomegaly) (C)"
+"Preset_Notes=Enlarged Spleen (Splenomegaly) for Contact
+
+Splenomegaly, or enlarged spleen, is a condition where the spleen becomes abnormally large due to underlying issues such as infections, portal hypertension from liver disease, hemolytic anemias, hematologic malignancies, autoimmune disorders, infiltrative or metabolic storage diseases, congestive conditions like heart failure, and inflammatory processes. It can lead to complications like hypersplenism, pain, and increased risk of rupture. The mechanistic rationale for the proposed polypeptides is to address these therapeutic axes through mechanisms like anti-inflammatory effects, immune modulation, antimicrobial activity, vascular decompression, correction of blood cell destruction, antineoplastic action, reduction of cellular infiltration, decongestion, and regulation of hematopoiesis to reduce spleen size and improve function. Designed polypeptides are flagged as conceptual and supplement real-world ones to ensure comprehensive coverage of all axes.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p01"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p02"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p03"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p04"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p05"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p06"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p07"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p08"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p09"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p10"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p11"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p12"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p13"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p14"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p15"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p16"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p17"
+"Loaded_Programs=Enlarged Spleen (Splenomegaly) p18"
+"Loaded_Frequencies=M57.021=1,M87.032,M213.136,M147.068,M113.084,M87.032,M97.053,M129.043,M137.059,M128.058,M156.101,M99.068,M128.058,M128.058,M156.101,M128.095,M129.043,M87.032,M128.095,M128.095,M97.053,M97.053,M71.037,M128.095,M113.084,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M71.037=1,M97.053,M113.084,M71.037,M101.048,M129.043,M113.084,M103.009,M128.058,M103.009,M113.084,M128.058,M101.048,M113.084,M128.058,M99.068,M137.059,M113.084,M128.095,M71.037,M128.058,M156.101,M71.037,M103.009,M71.037,M128.058,M101.048,M129.043,M99.068,M71.037,M101.048,M113.084,M71.037,M101.048,M113.084,M99.068,M71.037,M103.009,M113.084,M114.043,M97.053,M71.037,M115.027,M97.053,M115.027,M99.068,M113.084,M99.068,M128.095,M128.095,M71.037,M71.037,M113.084,M71.037,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M57.021,M147.068,M163.063,M128.095,M128.095,M128.095,M128.058,M103.009,M156.101,M97.053,M115.027,M128.095,M57.021,M156.101,M128.095,M156.101,M57.021,M103.009,M99.068,M186.079,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M131.040,M131.040,M156.101,M101.048,M128.095,M131.040,M156.101,M131.040,M156.101,M156.101,M128.095,M131.040,M97.053,M71.037,M156.101,M97.053,M156.101,M101.048,M103.009,M156.101,M129.043,M71.037,M103.009,M113.084,M128.058,M57.021,M186.079,M101.048,M129.043,M71.037,0=4,"
+"Loaded_Frequencies=M87.032=1,M99.068,M101.048,M129.043,M128.058,M57.021,M71.037,M129.043,M113.084,M87.032,M114.043,M129.043,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M147.068=1,M102.001,M163.063,M186.079,M128.095,M101.048,M102.001,M101.048,0=4,"
+"Loaded_Frequencies=M115.027=1,M101.048,M137.059,M147.068,M97.053,M113.084,M102.001,M113.084,M147.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M86.048,M128.095,M156.101,M237.148,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M200.095,M86.048,M114.079,M100.064,0=4,"
+"Loaded_Frequencies=M150.954=1,M237.148,M85.053,M100.064,M86.048,0=4,"
+"Loaded_Frequencies=M758.675=1,M237.148,M150.954,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M200.095,M114.079,M150.954,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M100.064,M86.048,M113.084,M113.048,0=4,"
+"Loaded_Frequencies=M114.079=1,M113.048,M113.084,M86.048,M200.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M100.064,M85.053,M200.095,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M101.048=1,M71.037,M113.048,M758.675,M237.148,0=4,"
+"[/Preset]"

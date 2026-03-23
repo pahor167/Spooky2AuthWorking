@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"PresetName=1. SC Metals and Chemicals"
+"Loaded_Frequencies=364.56=270,393=270,16724.61=270,47=450,48=450,49=450,75=450,317=270,1902=270,4202.3=270,5333.69=270,9887=270,14164.1=270,15952.79=270,19007.15=270,19007.2=270,19169.38=270,19516.29=270,21822.15=270,1=270,6=270,26=270,73=270,19169.38=270,0=270,"
+"Loaded_Programs=1. SC Metals and Chemicals"
+"Preset_Notes=Cancer Protocol, Plasma Plus method, Generator 1, for Plasma. 
+
+This preset contains Plasma frequency sets for Spooky Central/Plasma. Run this preset concurrently with the presets 'Plasma2/Gen2 (R) - BY'. See '\Cancer\BY\GUIDE Cancer BY - Click Me.pdf' for a schedule to run these presets.
+
+The entire schedule for this protocol is in the notes of 'Plasma2/Gen2 (P) - BY'. Here is the schedule for this preset:
+  Generator 1, Plasma2/Gen1/Metals and Chemicals (P) - BY
+    Day 1
+    Day 2
+
+This preset has the following programs:
+
+SC Metals and Chemicals: Arsenic as - XTRA, Mercury Toxicity V - CAFL, Heavy Metal Toxicity - XTRA, Detox Pesticide - XTRA, Detox Fluoride - XTRA
+
+Here is a table to find the beginning of each day in this preset:
+1: SC Metals and Chemicals
+
+Connect Generator 1 Out 1 to the Spooky Central/Plasma Input port. Out 2 to the Spooky Central/Plasma Modulation port.
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"

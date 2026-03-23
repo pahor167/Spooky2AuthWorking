@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=RX Ropeworm - DB"
+"Out1_Amplitude=20"
+"Out2_Amplitude=20"
+"Preset_Notes=M&L Protocol, Extras. Remote Mode.
+
+Update: February 2017.
+
+This Preset runs 20 times over two hours. This is equivalent to one Contact Mode treatment.
+
+This program is already present in the 47th preset, Complex Parasites G - DB. However, these large parasites usually require additional treatments. This preset has been augmented with a high octave harmonic.
+
+PROGRAMS:
+Parasites Ropeworm XTRA
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost."
+"F1_Factor=64"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"User_Defined_2_Waveform=Colloidal_Silver"
+"Manual_Start=False"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Enable_F2_Modulation=1"
+"Enable_Gate_Out1=1"
+"Enable_Tissue_Factor=0"
+"Enable_Invert_Spike_Waveform=1"
+"Notify_When_Zero_Hz=1"
+"Loaded_Programs=Parasites Ropeworm (XTRA)"
+"Loaded_Frequencies=1359=360,"
+"[/Preset]"

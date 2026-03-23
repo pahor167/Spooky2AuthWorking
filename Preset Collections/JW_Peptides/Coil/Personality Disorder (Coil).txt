@@ -1,0 +1,24 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Personality Disorder (Coil)"
+"Preset_Notes=Personality Disorder for Coil
+
+Personality disorder comprises enduring, inflexible patterns of inner experience, behavior, cognition, and interpersonal relations that markedly deviate from cultural norms, often leading to distress, impaired functioning, or interpersonal conflict across multiple contexts. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical behavioral models, Russian investigational pharmacopeia, and mechanistic research on neuropeptide modulation of emotional regulation and neuroplasticity.
+1. Gastric pentadecapeptide-mediated monoamine stabilization: BPC-157 modulates dopamine and serotonin pathways, counteracting disrupted behaviors in animal psychiatric models.
+2. Tuftsin-derived anxiolytic adaptation: Selank enhances enkephalin preservation, BDNF expression, and GABAergic balance for anxiety reduction and emotional resilience.
+3. ACTH fragment-like nootropic enhancement: Semax induces neurotrophic factors, serotonin, and dopamine activity to support cognitive-emotional integration.
+4. Bioregulatory tripeptide neuroprotection: Pinealon normalizes gene expression and protects central neurons from degenerative stress.
+5. Telomerase-activating tetrapeptide rejuvenation: Epitalon promotes genomic stability, pineal function, and melatonin pathways linked to long-term mental resilience.
+
+"
+"Loaded_Programs=Personality Disorder p01"
+"Loaded_Programs=Personality Disorder p02"
+"Loaded_Programs=Personality Disorder p03"
+"Loaded_Programs=Personality Disorder p04"
+"Loaded_Programs=Personality Disorder p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M57.021,0=4,"
+"[/Preset]"

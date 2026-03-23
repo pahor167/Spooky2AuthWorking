@@ -1,0 +1,14 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Contact\MW Emulate 20VT (C) - JD"
+"Preset_Notes=This is a Contact Mode 'Shell Preset' containing no frequencies.
+
+The preset has been designed to emulate substances. Select this preset, then select the substances you wish to emulate.
+
+MW frequencies are very high. No frequency generator can reach these frequencies directly. This preset targets the sub harmonics of these frequencies.
+
+Note that this preset will ONLY work with MW database entries. Lower frequencies will NOT function correctly.
+
+Connect your TENS pads or Spooky Hand Cylinders to the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"[/Preset]"

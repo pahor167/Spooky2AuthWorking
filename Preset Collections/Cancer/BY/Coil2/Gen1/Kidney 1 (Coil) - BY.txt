@@ -1,0 +1,26 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (Coil)"
+"PresetName=1. Kidney 1"
+"Loaded_Frequencies=9.2=180,10=180,40=180,440=180,1600=180,1550=180,1500=180,880=180,802=180,650=180,625=180,600=180,444=180,1865=180,146=180,250=180,125=180,95=180,72=180,20=180,9.2=180,10=180,40=180,440=180,1600=180,1550=180,1500=180,880=180,802=180,650=180,625=180,600=180,444=180,1865=180,146=180,250=180,125=180,95=180,72=180,20=180,0=180,"
+"Loaded_Programs=1. Kidney 1"
+"Preset_Notes=Cancer Protocol, Coil Plus method, Generator 1, for Coil. 
+
+This preset contains Coil frequency sets for Spooky Coil. Run this preset concurrently with the presets 'Coil2/Gen2 (R) - BY'. See '\Cancer\BY\Cancer Presets.pdf' for a schedule to run these presets.
+
+The entire schedule for this protocol is in the notes of 'Coil2/Gen2 (Coil) - BY'. Here is the schedule for this preset:
+  Generator 1, Coil2/Gen1/Kidney 1 (Coil) - BY
+    Day 9
+    Day 10
+
+This preset has the following programs:
+
+Kidney 1: Kidney Insufficiency - CAFL
+
+Here is a table to find the beginning of each day in this preset:
+1: Kidney 1
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost on Generator 1, or to Out 1 of Generator 1 if you don't have Spooky Boost.
+"
+"Repeat_Chain=1"
+"Repeat_Sequence=1"
+"[/Preset]"

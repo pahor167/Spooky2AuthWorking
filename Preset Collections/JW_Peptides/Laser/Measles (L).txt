@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Measles (L)"
+"Preset_Notes=Measles for Laser
+
+Measles is a highly contagious viral infection caused by the measles virus (MeV), characterized by fever, cough, runny nose, conjunctivitis, and a distinctive rash; it can lead to severe complications such as pneumonia, encephalitis, and immune amnesia. 
+
+The polypeptides target key axes including viral entry inhibition via fusion protein blockade, viral replication inhibition through polymerase targeting, viral neutralization by mimicking antibody binding, immune modulation to mitigate amnesia and enhance response, supportive immune enhancement analogous to vitamin A effects, anti-inflammatory action to reduce symptom severity, antimicrobial activity against secondary bacterial infections, and prevention of neurological complications by protecting neuronal integrity. Real-world polypeptides are prioritized for viral entry; designed polypeptides (flagged) supplement to cover remaining axes, incorporating non-standard residues for specificity, stability, and bioavailability, with cyclic structures in some for conformational rigidity; feasibility draws from peptide antiviral precedents, with physicochemical optimization for solubility, membrane penetration, and low toxicity.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Measles p01"
+"Loaded_Programs=Measles p02"
+"Loaded_Programs=Measles p03"
+"Loaded_Programs=Measles p04"
+"Loaded_Programs=Measles p05"
+"Loaded_Programs=Measles p06"
+"Loaded_Programs=Measles p07"
+"Loaded_Programs=Measles p08"
+"Loaded_Programs=Measles p09"
+"Loaded_Programs=Measles p10"
+"Loaded_Programs=Measles p11"
+"Loaded_Programs=Measles p12"
+"Loaded_Programs=Measles p13"
+"Loaded_Programs=Measles p14"
+"Loaded_Frequencies=M281.105=1,M147.068,M57.021,0=4,"
+"Loaded_Frequencies=M281.105=1,M147.068,M56.037,0=4,"
+"Loaded_Frequencies=M281.105=1,M147.068,M155.117,0=4,"
+"Loaded_Frequencies=M191.058=1,M147.068,M147.068,0=4,"
+"Loaded_Frequencies=M281.105=1,M147.068,M57.021,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M113.084,M87.032,M113.084,M129.043,M156.101,M113.084,M115.027,M99.068,M57.021,M101.048,M114.043,M113.084,M57.021,M114.043,M71.037,M113.084,M71.037,M128.095,M113.084,M129.043,M115.027,M71.037,M128.095,M129.043,M113.084,M113.084,M129.043,M87.032,M87.032,M115.027,M128.058,M113.084,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M139.064=1,M97.053,M113.084,M87.032,M113.084,M129.043,M156.101,M113.084,M115.027,M99.068,M57.021,M101.048,M114.043,M113.084,M57.021,M114.043,M71.037,M113.084,M71.037,M128.095,M113.084,M129.043,M115.027,M71.037,M128.095,M129.043,M113.084,M113.084,M129.043,M87.032,M87.032,M115.027,M128.058,M113.084,M113.084,M156.101,M57.021,M87.032,M57.021,M87.032,M57.021,M159.046,0=4,"
+"Loaded_Frequencies=M101.001=1,M113.048,M128.095,M114.079,M150.954,M237.148,M101.001,0=4,"
+"Loaded_Frequencies=M86.048=1,M156.101,M113.084,M128.058,M200.095,M137.059,0=4,"
+"Loaded_Frequencies=M101.001=1,M86.048,M128.095,M114.079,M150.954,M101.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M85.053,M87.032,M101.048,M237.148,0=4,"
+"Loaded_Frequencies=M114.079=1,M100.064,M128.095,M156.101,M114.079,M100.064,0=4,"
+"Loaded_Frequencies=M101.001=1,M150.954,M113.048,M86.048,M101.001,0=4,"
+"Loaded_Frequencies=M237.148=1,M200.095,M113.084,M114.079,M86.048,0=4,"
+"[/Preset]"

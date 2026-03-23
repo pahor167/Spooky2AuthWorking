@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Central Core Disease (L)"
+"Preset_Notes=Central Core Disease for Laser
+
+Central Core Disease (RYR1 Variant c.14818G>A (p.Ala4940Thr), SCN4A Variant c.3303C>G (p.Asp1101Glu) and SYNE2 Variant c.15484-3T>C (Intronic). Include peptides AICAR & Rycal S107)
+
+Central Core Disease is a congenital myopathy primarily driven by dominant RYR1 mutations that cause excessive calcium leak from the sarcoplasmic reticulum, leading to muscle weakness, core formation, oxidative/nitrosative stress, mitochondrial depletion, and malignant hyperthermia susceptibility. The specified RYR1 variant is pathogenic for CCD/MHS, while the SCN4A and SYNE2 variants may act as modifiers affecting channel function or nuclear positioning. The proposed polypeptides target key pathophysiological axes identified in preclinical literature, providing peptide-based approaches that complement or extend the mechanisms of small-molecule candidates AICAR (AMPK activator) and Rycal S107 (RyR1 stabilizer).
+
+1. RyR1 channel stabilization to reduce calcium leak: RyRStab-Eng (designed helical peptide inspired by Rycal S107 mechanisms).
+2. AMPK activation and metabolic rescue: MOTS-c improves mitochondrial function and energy homeostasis (parallels AICAR effects).
+3. Broad cytoprotection and muscle healing: BPC-157 promotes membrane stability and repair in stressed muscle.
+4. Actin dynamics and regenerative migration: TB-500 enhances tissue regeneration and recovery.
+5. Collagen remodeling and antioxidant defense: GHK-Cu supports extracellular matrix repair and reduces oxidative damage.
+6. Mitochondrial anti-apoptotic protection: Humanin mitigates apoptosis and supports cellular survival under stress.
+7. Anti-inflammatory and tissue-protective effects: ARA-290 provides non-hematopoietic EPO-receptor-mediated repair.
+8. Inflammatory resolution: KPV reduces pro-inflammatory signaling in muscle tissue.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Central Core Disease p01"
+"Loaded_Programs=Central Core Disease p02"
+"Loaded_Programs=Central Core Disease p03"
+"Loaded_Programs=Central Core Disease p04"
+"Loaded_Programs=Central Core Disease p05"
+"Loaded_Programs=Central Core Disease p06"
+"Loaded_Programs=Central Core Disease p07"
+"Loaded_Programs=Central Core Disease p08"
+"Loaded_Frequencies=M189.079=1,M71.037,M128.095,M113.084,M113.084,M71.037,M128.095,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M70.053,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"[/Preset]"

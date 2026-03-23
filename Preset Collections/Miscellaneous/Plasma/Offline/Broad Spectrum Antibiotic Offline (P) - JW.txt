@@ -1,0 +1,15 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\GX Online or Offline General (P) - JW"
+"PresetName=Broad Spectrum Antibiotic Offline (P) - JW"
+"Preset_Notes=This is an Offline Plasma preset. Once loaded into GeneratorX, a computer is no longer needed.
+
+Run this Preset to apply the 63 most common frequencies in the Spooky database. If you are unsure 'What Ails Ye' this is the Preset for you!
+
+Place the plasma tube near to, or touching, your body. 
+Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Spooky Plasma Input. Out 2 to Spooky Plasma Modulation."
+"Dwell_Multiplier=2"
+"Loaded_Programs=Broad Spectrum Antibiotic (CUST)"
+"Loaded_Frequencies=880=180,787=180,20=180,727=180,7500=180,1550=180,802=180,10000=180,728=180,465=180,690=180,120=180,660=180,2500=180,800=180,600=180,650=180,776=180,5000=180,40=180,527000=180,950=180,10=180,9=180,70=180,95=180,850=180,2720=180,80=180,444=180,2008=180,620=180,250=180,72=180,240=180,570=180,125=180,832=180,8=180,30=180,230=180,625=180,50=180,830=180,60=180,2128=180,160=180,522=180,520=180,180=180,130=180,440=180,730=180,930=180,1=180,1500=180,350=180,1865=180,410=180,550=180,1600=180,32500=180,780=180,"
+"[/Preset]"

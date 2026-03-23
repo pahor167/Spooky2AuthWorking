@@ -1,0 +1,19 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Mitochondrial Biogenesis (Coil)"
+"Preset_Notes=Mitochondrial Biogenesis for Coil
+
+Mitochondrial biogenesis is the process by which cells increase their mitochondrial mass and is a potential therapeutic target for various diseases including metabolic disorders, neurodegenerative diseases, and aging. Therapeutic axes include: 1. AMPK activation. 2. SIRT1 activation. 3. PGC-1{alpha} coactivation. 4. NRF1/2 and TFAM enhancement. 5. MDP protective pathways. Assignments: MOTS-c covers axis 1; SIRT1Target-Pep1 covers axis 2; Elamipretide covers axis 3; PDBSN covers axis 4; Humanin covers axis 5. Mechanisms: MOTS-c activates AMPK, leading to PGC-1{alpha} phosphorylation and enhanced mitochondrial biogenesis. SIRT1Target-Pep1 is rationally engineered with cationic and aromatic motifs for mitochondrial targeting and potential SIRT1 activation based on literature designs. Elamipretide stabilizes cardiolipin, restoring mitochondrial function and PGC-1{alpha}-mediated biogenesis. PDBSN upregulates PGC-1{alpha}, NRF1, and TFAM, promoting mitochondrial biogenesis in adipocytes. Humanin, a mitochondrial-derived peptide, activates protective signaling pathways to enhance mitochondrial biogenesis and function.
+
+"
+"Loaded_Programs=Mitochondrial Biogenesis p01"
+"Loaded_Programs=Mitochondrial Biogenesis p02"
+"Loaded_Programs=Mitochondrial Biogenesis p03"
+"Loaded_Programs=Mitochondrial Biogenesis p04"
+"Loaded_Programs=Mitochondrial Biogenesis p05"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M147.068,M156.101,M128.095,M97.053,M156.101,M147.068,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M87.032,M99.068,M71.037,M115.027,M113.084,M71.037,M129.043,M87.032,M113.084,M131.040,M128.095,M114.043,M113.084,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"[/Preset]"

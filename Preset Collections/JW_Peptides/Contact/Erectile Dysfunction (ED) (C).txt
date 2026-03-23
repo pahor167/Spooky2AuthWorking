@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Erectile Dysfunction (ED) (C)"
+"Preset_Notes=Erectile Dysfunction (ED) for Contact
+
+Erectile dysfunction involves a complex interplay of vascular, neurological, and hormonal factors. Effective peptide design must target mechanisms that: 1) Enhance vasodilation by increasing nitric oxide (NO) bioavailability or cGMP signaling; 2) Regulate smooth muscle tone in the corpus cavernosum; 3) Support neurovascular health and peripheral nerve function; 4) Address underlying endothelial dysfunction and oxidative stress; 5) Modulate the Renin-Angiotensin System (RAS), which can impact vascular fibrosis and vasoconstriction; and 6) Provide metabolic/endocrine support where testosterone or IGF-1 signaling is compromised.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Erectile Dysfunction (ED) p01"
+"Loaded_Programs=Erectile Dysfunction (ED) p02"
+"Loaded_Programs=Erectile Dysfunction (ED) p03"
+"Loaded_Programs=Erectile Dysfunction (ED) p04"
+"Loaded_Programs=Erectile Dysfunction (ED) p05"
+"Loaded_Programs=Erectile Dysfunction (ED) p06"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M103.009=1,M168.964,M156.101,M137.059,M128.059,M87.032,M115.027,M131.040,M114.043,M129.043,M103.009,M147.068,M97.053,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M156.101,M137.059,M57.021,M128.059,M147.068,M142.111,M101.048,M128.095,M163.063,M115.027,M113.048,M99.068,M137.059,M147.068,M156.101,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M163.063=1,M156.101,M114.043,M101.048,M163.063,M113.084,M128.095,M129.043,M115.027,M115.027,M71.037,M131.040,M147.068,M128.059,M101.048,M87.032,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M147.068,M113.084,M156.101,M103.009,M147.068,M113.084,M129.043,M103.009,M156.101,M137.059,M128.095,M113.084,M128.059,M156.101,M129.043,0=4,"
+"Loaded_Frequencies=M147.035=1,M163.063,M113.084,M101.048,M87.032,M156.101,M128.095,M115.027,M147.068,M97.053,M113.084,M113.084,M115.027,M128.095,M129.043,M163.063,0=4,"
+"[/Preset]"

@@ -1,0 +1,11 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Angry DNA (P) - JW"
+"PresetName=Mold and Slime 2 Day Home Treatment (P) - JW"
+"Preset_Notes=Mold Environmental Mold and Slime preset for Spooky Plasma / Spooky Plasma. Total run time 2 days.
+
+Place plasma tube as close as possible to affected area. Larger areas may require multiple treatments, treating one section at a time.
+
+Connect OUT 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Molds and Slime 2-Day Comprehensive Sweep (CUST)"
+"Loaded_Frequencies=170382.5-205617.5c35000f0=172426,"
+"[/Preset]"

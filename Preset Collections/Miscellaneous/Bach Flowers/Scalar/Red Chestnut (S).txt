@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Red Chestnut (S)"
+"Preset_Notes=Red Chestnut / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Red Chestnut - Over-concern for the welfare of loved ones.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Red Chestnut (S)"
+"Loaded_Frequencies=292.06,"
+"[/Preset]"

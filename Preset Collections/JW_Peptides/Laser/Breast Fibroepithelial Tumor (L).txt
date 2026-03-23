@@ -1,0 +1,42 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Breast Fibroepithelial Tumor (L)"
+"Preset_Notes=Breast Fibroepithelial Tumor for Laser
+
+Breast fibroepithelial tumors include fibroadenomas and a spectrum of phyllodes tumors ranging from benign to malignant, characterized by biphasic stromal-epithelial proliferation with risk of local recurrence and distant metastasis in malignant cases. Recent molecular insights highlight actionable pathways for peptide therapeutics including immune neoantigen targeting, growth factor signaling (PDGFR, EGFR, FGFR), PI3K/AKT, TP53 restoration, immune microenvironment modulation (CCL5/CCR5), anti-angiogenesis, telomerase inhibition, and stromal ECM remodeling.
+
+1. Neoantigen immunotherapy: PTNeo-SLC44A5 - Induces specific T-cell responses against neoantigens in breast phyllodes tumor, resulting in pathological complete response in lung metastasis.
+2. PDGFR inhibition: PDGFR-Des1 - Arg-rich peptide designed to disrupt PDGFR ligand binding and signaling in stromal cells of fibroepithelial tumors, reducing proliferation and recurrence risk.
+3. PI3K/AKT blockade: AKT-Des2 - Gly-Lys alternating peptide optimized to inhibit AKT phosphorylation in malignant phyllodes cells, promoting apoptosis.
+4. EGFR inhibition: EGFR-Des3 - Leu-Pro repeat peptide designed to interfere with EGFR extracellular domain interactions in borderline phyllodes tumors.
+5. FGFR suppression: FGFR-Des4 - Poly-valine peptide engineered to block FGFR1 activation and downstream RAS/PI3K in fibroepithelial neoplasms.
+6. TP53 apoptosis induction: p53-Des5 - p53-mimetic peptide designed to restore apoptotic function in TP53-mutated malignant phyllodes tumors.
+7. CCL5/CCR5 modulation: CCR5-Des6 - Trp-Gly rich peptide designed to antagonize CCR5, inhibiting macrophage recruitment and malignant progression in phyllodes tumors.
+8. Anti-angiogenic: Angio-Des7 - Repeated RGD motif peptide targeting {alpha}v{beta}3 integrins to inhibit neovascularization in growing fibroepithelial tumors.
+9. TERT inhibition: TERT-Des8 - Poly-histidine peptide designed to suppress TERT promoter mutations and telomerase activity in malignant phyllodes tumors.
+10. Stromal ECM remodeling: ECM-Des10 - Poly-proline peptide to alter collagen and ECM structure in fibroepithelial lesions, reducing leaf-like growth and stromal overgrowth.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Breast Fibroepithelial Tumor p01"
+"Loaded_Programs=Breast Fibroepithelial Tumor p02"
+"Loaded_Programs=Breast Fibroepithelial Tumor p03"
+"Loaded_Programs=Breast Fibroepithelial Tumor p04"
+"Loaded_Programs=Breast Fibroepithelial Tumor p05"
+"Loaded_Programs=Breast Fibroepithelial Tumor p06"
+"Loaded_Programs=Breast Fibroepithelial Tumor p07"
+"Loaded_Programs=Breast Fibroepithelial Tumor p08"
+"Loaded_Programs=Breast Fibroepithelial Tumor p09"
+"Loaded_Programs=Breast Fibroepithelial Tumor p10"
+"Loaded_Frequencies=M147.068=1,M113.084,M57.021,M113.084,M99.068,M71.037,M186.079,M99.068,M137.059,M57.021,M115.027,M97.053,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M97.053,M156.101,M97.053,M156.101,M97.053,M156.101,M97.053,M156.101,M97.053,M156.101,M97.053,M156.101,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M128.095,M57.021,M128.095,M57.021,M128.095,M57.021,M128.095,M57.021,M128.095,M57.021,M128.095,M57.021,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M113.084=1,M97.053,M113.084,M97.053,M113.084,M97.053,M113.084,M97.053,M113.084,M97.053,M113.084,M97.053,M113.084,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M99.068=1,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M128.058,M129.043,M101.048,M147.068,M87.032,M115.027,M113.084,M186.079,M128.095,M113.084,M113.084,M97.053,M129.043,0=4,"
+"Loaded_Frequencies=M186.079=1,M57.021,M57.021,M186.079,M57.021,M57.021,M186.079,M57.021,M57.021,M186.079,M57.021,M57.021,M186.079,M57.021,M57.021,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,M156.101,M57.021,M115.027,M156.101,M57.021,M115.027,M156.101,M57.021,M115.027,M156.101,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M137.059=1,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,M137.059,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,M97.053,0=4,"
+"[/Preset]"

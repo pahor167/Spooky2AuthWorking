@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=For Over-sensitivity to influences and ideas (S)"
+"Preset_Notes=For Over-sensitivity to influences and ideas / Spooky Scalar
+
+Estimated Time: Run this preset for 12:00 minutes.
+Agrimony - Mental torture behind a cheerful face. Centaury - The inability to say 'no'. Walnut - Protection from change and unwanted influences. Any changes in your life. Holly - Hatred, envy and jealousy.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=For Over-sensitivity to influences and ideas (S)"
+"Loaded_Frequencies=310.31,384.68,261.26,479.48,"
+"[/Preset]"

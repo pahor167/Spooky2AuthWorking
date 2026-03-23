@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Testicular Cancer (C)"
+"Preset_Notes=Testicular Cancer for Contact
+
+Testicular cancer, predominantly germ cell tumors with excellent cure rates using standard therapies, features high expression of cancer-testis antigens suitable for peptide-based immunotherapy; complementary axes target direct tumor cell killing through cell penetration, p53 stabilization, and mitochondrial disruption.
+
+1. NY-ESO-1 immunotherapy: NY-ESO-1 (157-165) - HLA-A2-restricted epitope eliciting CD8+ T cell responses against NY-ESO-1-positive testicular germ cell tumors
+2. Glypican-3 immunotherapy: GPC3 (144-152) - HLA-A2-restricted epitope inducing cytotoxic T cells targeting GPC3-expressing tumors
+3. WT1 immunotherapy: WT1 (126-134) - HLA-A2-restricted epitope from WT1 for immune attack on WT1+ cancer cells
+4. MAGE-A immunotherapy: MAGE-A1 (278-286) - Epitope targeting MAGE-A family cancer-testis antigens in germ cell tumors
+5. Cell-penetrating anticancer: Azurin p28 - Preferentially penetrates cancer cells to stabilize p53 and induce apoptosis
+6. Proapoptotic mitochondrial disruption: KLAKLAKKLAKLAK - Amphipathic peptide disrupting mitochondrial membranes leading to apoptosis
+7. Targeted intracellular apoptosis: TAT-KLAK fusion - Cell-penetrating TAT domain delivers proapoptotic KLAK sequence for cancer-selective mitochondrial disruption and apoptosis
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Testicular Cancer p01"
+"Loaded_Programs=Testicular Cancer p02"
+"Loaded_Programs=Testicular Cancer p03"
+"Loaded_Programs=Testicular Cancer p04"
+"Loaded_Programs=Testicular Cancer p05"
+"Loaded_Programs=Testicular Cancer p06"
+"Loaded_Programs=Testicular Cancer p07"
+"Loaded_Frequencies=M87.032=1,M113.084,M113.084,M131.040,M186.079,M113.084,M101.048,M128.058,M103.009,0=4,"
+"Loaded_Frequencies=M147.068=1,M99.068,M57.021,M129.043,M147.068,M147.068,M101.048,M115.027,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M131.040,M147.068,M97.053,M114.043,M71.037,M97.053,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M99.068,M113.084,M129.043,M163.063,M99.068,M113.084,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M101.048,M71.037,M71.037,M115.027,M131.040,M128.058,M57.021,M99.068,M99.068,M101.048,M115.027,M57.021,M131.040,M71.037,M87.032,M57.021,M113.084,M115.027,M128.095,M115.027,M163.063,M113.084,M128.095,M97.053,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"[/Preset]"

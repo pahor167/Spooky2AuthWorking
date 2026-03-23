@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Pericardial Effusion (P)"
+"Preset_Notes=Pericardial Effusion for Plasma
+
+Pericardial effusion is the accumulation of excess fluid in the pericardial sac, often due to pericarditis (idiopathic, viral, autoimmune, post-procedural, or malignant), potentially progressing to life-threatening tamponade from impaired cardiac filling. Conventional management includes anti-inflammatory drugs (NSAIDs, colchicine, corticosteroids), IL-1 inhibitors for recurrent cases, and pericardiocentesis or surgery as needed. The proposed polypeptides target complementary axes from cardioprotective, regenerative, anti-inflammatory, antimicrobial, and mitochondrial stabilization research to support pericardial resolution, protect cardiac function, prevent fibrosis, and mitigate complications.
+
+1. Cytoprotective gastric peptide for cardiac healing and stabilization: BPC-157 demonstrates broad cardioprotection in preclinical models of heart stress and injury.
+2. Copper-tripeptide for extracellular matrix regeneration: GHK-Cu promotes collagen remodeling and tissue repair relevant to pericardial integrity.
+3. Thymosin beta-4 fragment for actin-mediated repair and anti-fibrosis: TB-500 accelerates wound healing and reduces scarring in tissue models.
+4. Alpha-MSH-derived anti-inflammatory: KPV potently suppresses cytokines implicated in pericarditis.
+5. Cathelicidin antimicrobial and immunomodulatory: LL-37 combats potential infectious triggers and modulates inflammation.
+6. EPO-derived non-erythropoietic protection: ARA-290 reduces inflammatory tissue damage without hematopoietic effects.
+7. Mitochondrial-targeted tetrapeptide cardioprotection: Elamipretide (SS-31) preserves mitochondrial function and reduces oxidative stress in cardiac pressure overload and failure models.
+8. Elastin-like polypeptide for pericardial flexibility: Elasto-Eng (designed Ac-(VPGVG)3-NH2) incorporates repetitive elastin motifs to enhance tissue elasticity and counter fibrotic constriction.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Pericardial Effusion p01"
+"Loaded_Programs=Pericardial Effusion p02"
+"Loaded_Programs=Pericardial Effusion p03"
+"Loaded_Programs=Pericardial Effusion p04"
+"Loaded_Programs=Pericardial Effusion p05"
+"Loaded_Programs=Pericardial Effusion p06"
+"Loaded_Programs=Pericardial Effusion p07"
+"Loaded_Programs=Pericardial Effusion p08"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M141.079=1,M97.053,M57.021,M99.068,M57.021,M99.068,M97.053,M57.021,M99.068,M57.021,M99.068,M97.053,M57.021,M99.068,M56.037,0=4,"
+"[/Preset]"

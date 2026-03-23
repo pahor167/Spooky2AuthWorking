@@ -104,7 +104,7 @@ public partial class MainViewModel : ObservableObject
                 IsDiscoveringGenerators = true;
                 StatusBarText = "Discovering generators... (scanning serial ports)";
                 _logger.LogDebug("Discovering generators");
-                var found = await _generatorService.FindGenerators();
+                var found = await Task.Run(() => _generatorService.FindGenerators());
                 foreach (var state in found)
                 {
                     var vm = new GeneratorViewModel(_generatorService)
@@ -293,7 +293,7 @@ public partial class MainViewModel : ObservableObject
             IsDiscoveringGenerators = true;
             _logger.LogInformation("Rescanning for devices");
             StatusBarText = "Rescanning for devices... (scanning serial ports)";
-            var found = await _generatorService.FindGenerators();
+            var found = await Task.Run(() => _generatorService.FindGenerators());
             Generators.Clear();
             foreach (var state in found)
             {

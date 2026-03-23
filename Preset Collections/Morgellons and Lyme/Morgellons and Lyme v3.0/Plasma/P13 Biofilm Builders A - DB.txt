@@ -1,0 +1,108 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=P13 Biofilm Builders A - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Plasma.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Staphylococcus Aureus XTRA
+Staphylococcus Aureus 1 XTRA
+Staphylococcus Coagulae Positive BIO
+Streptococcus Aureus 1 XTRA
+Staphylococcus Aureus CA/HA Wavelength XTRA
+Staphylococcus Pyogenes Albus Rife
+Staphylococcus Pyogenes Albus 1 XTRA
+Staphylococcus Pyogenes Albus Rife
+Staphylococcus Epidermis XTRA
+Bisphenol A XTRA
+Calficifications XTRA
+Nisin XTRA
+
+Connect OUT 1 to Input, Out 2 to Modulation.
+"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Staphylococcus Aureus (XTRA) High"
+"Loaded_Programs=Staphylococcus Aureus (XTRA)"
+"Loaded_Frequencies=876657.7655=900,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Staphylococcus Coagulae Positive (BIO) Low"
+"Loaded_Programs=Staphylococcus Coagulae Positive (BIO)"
+"Loaded_Programs=Staphylococcus Aureus 1 (XTRA)"
+"Loaded_Programs=Staphylococcus Aureus 1a (XTRA)"
+"Loaded_Frequencies=786.5=180,"
+"Loaded_Frequencies=643=180,"
+"Loaded_Frequencies=424=180,478=180,555=180,644=180,647=180,727=180,728=180,738=180,745=180,784=180,786=180,787=180,824=180,943=180,999=180,1050=180,7270=180,8697=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Staphylococcus Aureus CA/HA Wavelength (XTRA) High"
+"Loaded_Programs=Staphylococcus Aureus CA/HA Wavelength (XTRA)"
+"Loaded_Programs=Staphylococcus Pyogenes Aureus (Rife)"
+"Loaded_Frequencies=L470=180,"
+"Loaded_Frequencies=478000=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Staphylococcus Pyogenes Albus 1 (XTRA) Low"
+"Loaded_Programs=Staphylococcus Pyogenes Albus 1 (XTRA)"
+"Loaded_Frequencies=333=180,424=180,523=180,644=180,647=180,660=180,690=180,727.5=180,738=180,744=180,745=180,768=180,786=180,932.67=180,936.97=180,943=180,944.02=180,944.39=180,1050=180,5906.25=180,8697=180,11758.44=180,11812.5=180,11901.55=180,11906.25=180,14937.5=180,18819.5=180,18968.86=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Staphylococcus Pyogenes Albus (Rife) High"
+"Loaded_Programs=Staphylococcus Pyogenes Albus (Rife)"
+"Loaded_Programs=Staphylococcus Epidermis (XTRA)"
+"Loaded_Frequencies=549070=180,"
+"Loaded_Frequencies=7755766.6555=1800,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Bisphenol A (XTRA) Low"
+"Loaded_Programs=Bisphenol A (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Frequencies=1055.525=360,"
+"Loaded_Frequencies=326=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Advanced (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=Nisin (XTRA) High"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Frequencies=20476554.6609045=180,"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (P)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"Notify_When_Zero_Hz=1"
+"PresetName=Pause 30 Seconds (XTRA)"
+"Loaded_Programs=Pause 30 Seconds (XTRA)"
+"Loaded_Frequencies=0=30,"
+"[/Preset]"

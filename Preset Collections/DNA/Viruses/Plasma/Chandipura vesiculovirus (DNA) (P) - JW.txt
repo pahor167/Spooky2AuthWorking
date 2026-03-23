@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Plasma Killing (P) - JW"
+"PresetName=Chandipura vesiculovirus (DNA) (P) - JW"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||This preset contains the following strains:||Chandipura vesiculovirus 653514"
+"Loaded_Programs=Chandipura vesiculovirus (DNA) (P) - JW (CUST)"
+"Loaded_Frequencies=~1921BLR60031,"
+"[/Preset]"

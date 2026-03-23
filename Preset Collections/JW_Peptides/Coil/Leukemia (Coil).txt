@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Leukemia (Coil)"
+"Preset_Notes=Leukemia for Coil
+
+Leukemia encompasses malignant disorders of hematopoietic cells, with acute myeloid leukemia (AML) featuring prominently in peptide therapy research due to overexpressed leukemia-associated antigens and potential for immune targeting or differentiation induction. The proposed polypeptides address evidence-based axes from clinical trials of peptide vaccines and recent preclinical studies on differentiation agents, aiming to elicit specific T-cell responses, reduce leukemic burden, and promote maturation.
+
+1. PR1 epitope-specific CTL induction: PR1 (VLQELNVTV) targets proteinase 3/neutrophil elastase, eliciting leukemia-specific immunity with molecular remissions in AML/CML/MDS trials.
+2. WT1 antigen-specific vaccination: WT1 peptide (RMFPNAPYL) stimulates CD8+ T-cell responses against overexpressed WT1, showing durable responses in AML.
+3. RHAMM/CD168 receptor targeting: RHAMM-R3 (ILSLELMKL) induces immunological and clinical responses in AML/MDS patients via high-dose vaccination.
+4. TLR2-mediated differentiation induction: d-pep-P6 (all-D QFPGFGTELPSS) activates TLR2 signaling to mature AML cells, suppressing growth in models with low toxicity.
+5. Engineered amphipathic pro-apoptotic motif: KLAK-14 (KLAKLAKKLAKLAK-NH2) selectively disrupts leukemic mitochondria for targeted apoptosis induction.
+
+"
+"Loaded_Programs=Leukemia p01"
+"Loaded_Programs=Leukemia p02"
+"Loaded_Programs=Leukemia p03"
+"Loaded_Programs=Leukemia p04"
+"Loaded_Programs=Leukemia p05"
+"Loaded_Frequencies=M99.068=1,M113.084,M128.058,M129.043,M113.084,M114.043,M99.068,M101.048,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M131.040,M147.068,M97.053,M114.043,M71.037,M97.053,M163.063,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M87.032,M113.084,M129.043,M113.084,M131.040,M128.095,M113.084,0=4,"
+"Loaded_Frequencies=M128.058=1,M147.068,M97.053,M57.021,M147.068,M57.021,M101.048,M129.043,M113.084,M97.053,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M127.111,0=4,"
+"[/Preset]"

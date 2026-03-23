@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Detox (Microbial Transglutaminase (mTG) Exposure) (C)"
+"Preset_Notes=Detox (Microbial Transglutaminase (mTG) Exposure) for Contact
+
+Microbial transglutaminase (mTG), a common food additive known as 'meat glue,' is associated with increased intestinal permeability, suppression of enteric protective pathways, enhanced microbial translocation, inflammation, and potential autoimmunity contributions in sensitive individuals. The proposed polypeptides target evidence-based axes from gut barrier disruption and inflammatory models to support detoxification by restoring barrier integrity, modulating inflammation, bolstering innate defense, and promoting regenerative healing.
+
+1. Stable gastric pentadecapeptide-mediated cytoprotection and barrier restoration: BPC-157 protects endothelium and heals permeability defects relevant to mTG effects.
+2. Human cathelicidin innate antimicrobial and immunomodulation: LL-37 counters suppressed protective pathways and microbial overgrowth risks.
+3. {alpha}-MSH-derived tripeptide potent anti-inflammation: KPV suppresses proinflammatory cytokines in mucosal tissues.
+4. Acetylated Thymosin {beta}4 fragment repair enhancement: TB-500 promotes cell migration, anti-inflammation, and tissue recovery.
+5. Copper-binding tripeptide antioxidant and remodeling: GHK-Cu mitigates oxidative stress and supports ECM integrity.
+6. Pyroglutamate-modified EPO-mimetic protection: ARA-290 activates tissue-protective signaling for repair and anti-inflammation.
+7. Engineered multimeric {alpha}-MSH analog amplification: TriKPV-9 (Ac-KPVKPVKPV-NH2) repeats KPV motif for enhanced cytokine suppression and stability.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Detox (Microbial Transglutaminase (mTG) Exposure) p01"
+"Loaded_Programs=Detox (Microbial Transglutaminase (mTG) Exposure) p02"
+"Loaded_Programs=Detox (Microbial Transglutaminase (mTG) Exposure) p03"
+"Loaded_Programs=Detox (Microbial Transglutaminase (mTG) Exposure) p04"
+"Loaded_Programs=Detox (Microbial Transglutaminase (mTG) Exposure) p05"
+"Loaded_Programs=Detox (Microbial Transglutaminase (mTG) Exposure) p06"
+"Loaded_Programs=Detox (Microbial Transglutaminase (mTG) Exposure) p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M170.106=1,M97.053,M99.068,M128.095,M97.053,M99.068,M128.095,M97.053,M98.084,0=4,"
+"[/Preset]"

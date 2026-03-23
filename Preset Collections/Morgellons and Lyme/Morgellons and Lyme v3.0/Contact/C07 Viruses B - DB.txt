@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (C)"
+"Repeat_Sequence=1"
+"Repeat_Chain=0"
+"PresetName=C07 Viruses B - DB"
+"Preset_Notes=M&L Protocol, Phase I-Terrain. Contact Mode.
+
+Update: September 2019.
+
+PROGRAMS: 
+Arbovirus Infections KHZ
+HHV6 XTRA
+Herpes Type 6 1 XTRA
+Herpes Type 6 2 XTRA
+HHV5 2 XTRA
+Your Scan Results CUST
+
+For a high power treatment, connect TENS cable to 'HIGH PWR CONTACT' port of Spooky Boost. For a lower power treatment, connect TENS cable to 'COLLOIDAL SILVER' port of Spooky Boost. If you don't have Spooky Boost, connect TENS cable to Out 1. Connect your Hand Cylinders/Tens Contact Kit item/TENS pads to TENS cable."
+"Loaded_Programs=Arbovirus Infections (KHZ)"
+"Loaded_Programs=HHV6 (XTRA)"
+"Loaded_Programs=Herpes Type 6 1 (XTRA)"
+"Loaded_Programs=Herpes Type 6 2 (XTRA)"
+"Loaded_Programs=HHV5 2 (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=70=180,680=180,2330=180,35000=180,87500=180,476500=180,527000=180,667000=180,753230=180,987230=180,"
+"Loaded_Frequencies=228=900,1820=900,3640.1=900,7281=900,"
+"Loaded_Frequencies=227.3=180,454.5=180,1818.09=180,3636.19=180,"
+"Loaded_Frequencies=228=180,1820=180,3640=180,7281=180,"
+"Loaded_Frequencies=20362.91=600,1013.81=600,12537=600,41514=600,47425=600,47524=600,48579=600,48586=600,48587=600,48765=600,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

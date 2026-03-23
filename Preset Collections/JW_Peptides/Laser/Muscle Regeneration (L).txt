@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Muscle Regeneration (L)"
+"Preset_Notes=Muscle Regeneration for Laser
+
+Skeletal muscle regeneration after injury, exercise, or in degenerative conditions requires satellite cell activation, myoblast proliferation/differentiation, angiogenesis, inflammation modulation, and ECM remodeling. The proposed polypeptides target evidence-based therapeutic axes from preclinical rodent models of muscle crush/transection injuries, overload, and in vitro studies showing enhanced fiber regeneration, functional recovery, and reduced damage.
+
+1. Copper-binding tripeptide-mediated ECM remodeling and growth factor stimulation: GHK-Cu induces collagen synthesis, antioxidant effects, and remodeling factors supporting muscle repair.
+2. Thymosin {beta}4 active fragment actin sequestration and migration: TB-500 (Ac-LKKTETQ-NH2) promotes myoblast migration/differentiation, anti-inflammation, and regeneration in muscle injury models.
+3. Gastric pentadecapeptide multi-pathway protection: BPC-157 accelerates myogenesis, angiogenesis, and functional recovery in severe muscle damage.
+4. IGF-1 Ea splice variant E-domain for local repair signaling: MGF activates satellite cells, enhances proliferation/fusion for hypertrophy and post-damage regeneration.
+5. Engineered cell-penetrating actin motif optimization: Ac-GRKKRRQRRRPPQLKKTETQ-NH2 fuses TAT delivery sequence with TB-500 core for improved uptake, stability, and intracellular regenerative efficacy.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Muscle Regeneration p01"
+"Loaded_Programs=Muscle Regeneration p02"
+"Loaded_Programs=Muscle Regeneration p03"
+"Loaded_Programs=Muscle Regeneration p04"
+"Loaded_Programs=Muscle Regeneration p05"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M163.063=1,M129.043,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M101.048,M57.021,M163.063,M57.021,M147.068,M128.058,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"[/Preset]"

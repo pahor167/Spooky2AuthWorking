@@ -1,0 +1,73 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (L)"
+"Notify_When_Zero_Hz=0"
+"PresetName=L34 Fungus and Mold C - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Laser.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Biotin MS
+Cladosporium Fulvum CAFL
+Hormodendrum CAFL
+Fusarium General CAFL
+Fusarium Oxysporum CAFL
+Zearalenone HC
+Biotin MS
+Alternaria Tenuis XTRA
+Mucor Racemosus CAFL
+Mucor Plumbeus BIO
+Mucor Mucedo HC
+Mucor Mucedo CAFL
+Biotin MS
+Parasites Helminthosporium CAFL
+Histoplasma CAFL
+Histoplasma Capsulatum 1 XTRA
+Biotin MS
+Botrytis Cinereas CAFL
+Penicillium Rubrum CAFL
+
+Connect Spooky Laser to Out1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Biotin (MW)"
+"Loaded_Programs=Cladosporium Fulvum (CAFL)"
+"Loaded_Programs=Hormodendrum (CAFL)"
+"Loaded_Programs=Fusarium General (CAFL)"
+"Loaded_Programs=Fusarium Oxysporum (CAFL)"
+"Loaded_Programs=Zearalenone (HC)"
+"Loaded_Programs=Biotin (MW)"
+"Loaded_Programs=Alternaria Tenuis (XTRA)"
+"Loaded_Programs=Mucor Racemosus (CAFL)"
+"Loaded_Programs=Mucor Plumbeus (BIO)"
+"Loaded_Programs=Mucor Mucedo (HC)"
+"Loaded_Programs=Mucor Mucedo (CAFL)"
+"Loaded_Programs=Biotin (MW)"
+"Loaded_Programs=Parasites Helminthosporium (CAFL)"
+"Loaded_Programs=Histoplasma (CAFL)"
+"Loaded_Programs=Histoplasma Capsulatum 1 (XTRA)"
+"Loaded_Programs=Biotin (MW)"
+"Loaded_Programs=Botrytis Cinereas (CAFL)"
+"Loaded_Programs=Penicillium Rubrum (CAFL)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=M244.088163078=180,"
+"Loaded_Frequencies=438=300,233=300,776=300,510=300,"
+"Loaded_Frequencies=663=240,678=240,695=240,532=240,627=240,"
+"Loaded_Frequencies=768=300,625=300,746=300,"
+"Loaded_Frequencies=102=240,332=240,705=240,795=240,780=240,"
+"Loaded_Frequencies=100000=180,"
+"Loaded_Frequencies=M244.088163078=180,"
+"Loaded_Frequencies=853=180,304=180,"
+"Loaded_Frequencies=310=180,474=180,875=180,"
+"Loaded_Frequencies=361=180,"
+"Loaded_Frequencies=288000=180,"
+"Loaded_Frequencies=612=180,1000=180,488=180,766=180,9788=180,735=180,"
+"Loaded_Frequencies=M244.088163078=180,"
+"Loaded_Frequencies=793=180,969=180,164=180,5243=180,"
+"Loaded_Frequencies=424=300,616=300,749=300,"
+"Loaded_Frequencies=727.01=180,748.58=180,754.4=180,18331.25=180,18875=180,19021.88=180,"
+"Loaded_Frequencies=M244.088163078=180,"
+"Loaded_Frequencies=1132=600,212=600,"
+"Loaded_Frequencies=332=180,457=180,460=180,462=180,766=180,1015=180,1018=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

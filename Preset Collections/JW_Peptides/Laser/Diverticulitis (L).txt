@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Diverticulitis (L)"
+"Preset_Notes=Diverticulitis for Laser
+
+Diverticulitis is the inflammation and infection of colonic diverticula, often leading to pain, fever, and complications such as abscess, perforation, or fistula due to bacterial overgrowth, mucosal barrier breach, excessive inflammation, and impaired tissue repair. The proposed polypeptides target evidence-based axes from preclinical models of colonic injury, colitis, and infection, including mucosal healing, antimicrobial defense, cytokine suppression, ECM remodeling, secretory modulation, immunostimulation, and structural reinforcement.
+
+1. Stable gastric pentadecapeptide-mediated mucosal healing and cytoprotection: BPC-157 accelerates repair and protects against perforation in intestinal damage models.
+2. Human cathelicidin antimicrobial activity: LL-37 disrupts bacterial membranes and supports innate defense in colonic infections.
+3. {alpha}-MSH-derived tripeptide anti-inflammatory modulation: KPV suppresses pro-inflammatory cytokines in gut inflammation.
+4. Copper-binding tripeptide ECM remodeling: GHK-Cu promotes collagen synthesis and tissue integrity in colonic wall.
+5. Vasoactive intestinal peptide secretory and anti-inflammatory effects: VIP regulates gut motility, secretion, and inflammation.
+6. Thymic peptide immunostimulation: Thymosin_alpha_1 enhances adaptive immunity for infection resolution.
+7. Engineered proline-rich collagen-mimetic stabilization: Ac-(GPP)10-NH2 reinforces triple-helix structure to support diverticular wall strength.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Diverticulitis p01"
+"Loaded_Programs=Diverticulitis p02"
+"Loaded_Programs=Diverticulitis p03"
+"Loaded_Programs=Diverticulitis p04"
+"Loaded_Programs=Diverticulitis p05"
+"Loaded_Programs=Diverticulitis p06"
+"Loaded_Programs=Diverticulitis p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

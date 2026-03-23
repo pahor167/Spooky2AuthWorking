@@ -1,0 +1,117 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Cancer Killer (C)"
+"Preset_Notes=Cancer Killer for Contact
+
+Cancer Killer (Comprehensive Anti-Cancer Therapy for All Malignancies)
+
+Cancer is characterized by uncontrolled cell proliferation, evasion of apoptosis, sustained angiogenesis, tissue invasion and metastasis, reprogrammed energy metabolism, immune system evasion, and genomic instability. This comprehensive therapeutic approach targets all known cancer hallmarks through a multi-pronged peptide strategy.
+
+1. Tumor penetration: iRGD - Tumor-penetrating peptide that binds integrins and NRP-1, enhances tissue permeability, improves drug delivery deep into tumor parenchyma
+2. Apoptosis induction: NuBCP-9 - Nur77-derived Bcl-2 converting peptide that transforms anti-apoptotic Bcl-2 into pro-apoptotic protein
+3. Antimicrobial/Immunomodulation: LL-37 - Human cathelicidin with dual anticancer activity - directly cytotoxic to cancer cells and immunomodulatory
+4. Immune checkpoint blockade: DPPA-1 - All-D amino acid peptide targeting PD-L1, blocks PD-1/PD-L1 interaction
+5. TIGIT/PVR blockade: DTBP-3 - D-peptide inhibitor blocking TIGIT/PVR interaction, enhances T cell and NK cell function
+6. LAG-3 inhibition: C25 - Cyclic peptide inhibitor of LAG-3/MHC-II interaction
+7. Angiogenesis inhibition: HRH - VEGFR-binding peptide that inhibits VEGF-dependent endothelial cell proliferation
+8. VEGFR targeting: VEGF-QR - VEGF125-136 peptide that competitively inhibits VEGF binding to VEGFR-1/2
+9. Metastasis inhibition: NLN - CD44v6 peptide inhibitor that blocks c-Met internalization and inhibits tumor cell migration
+10. Cancer stem cell targeting: CSC-HP-hP1 - Cancer stem cell homing peptide binding Globo H and Lewis Y glycans
+11. Macrophage activation: Pep-20 - CD47/SIRP{alpha} blocking peptide that enhances macrophage phagocytosis of tumor cells
+12. Angiogenesis Inhibition: KV11 - Targets cSrc and ERK signaling to block new blood vessel formation.
+13. Immune Checkpoint Blockade: L1 - Small peptide fragment of PD-L1 that competitively blocks PD-1/PD-L1 interaction.
+14. Signal Transduction Inhibition: KRpep-2d - Binds and inhibits KRAS G12D mutant signaling.
+15. Anti-Metastasis: X4-2-6 - Inhibits tumor cell migration and invasion by targeting CXCR4.
+16. Mitochondrial Disruption: KLA-14 - Amphipathic peptide that disrupts mitochondrial membranes to trigger cytochrome C release.
+17. DNA Synthesis Inhibition: wrwycr - Binds to Holliday junction intermediates to block DNA replication and repair.
+18. Integrin Targeting: pA - Binds to alpha-v beta-3 integrins on neovascular endothelial cells.
+19. Cell Penetration: PepH3 - Amphipathic cell-penetrating peptide for efficient intracellular drug delivery.
+20. Matrix Interaction: C16Y - Laminin-derived peptide that inhibits integrin-mediated tumor growth.
+21. Targeted Protein Degradation: VGYRRR - Chimeric conjugate designed to recruit E3 ligases for oncogenic protein degradation.
+22. Membrane disruption and cytolysis: Melittin - Directly disrupts cancer cell plasma membranes via pore formation leading to lysis and apoptosis
+23. p53 stabilization and apoptosis induction: p28 - Binds p53 to prevent MDM2 ubiquitination, activating p53-mediated apoptosis in cancer cells
+24. Angiogenesis inhibition: KV11 - Inhibits c-Src/ERK signaling to suppress endothelial cell migration and tumor blood vessel formation
+25. Integrin {alpha}v{beta}3 targeting: RGD-4C - Binds {alpha}v{beta}3 integrins overexpressed on tumor endothelium and cells for targeted anti-angiogenic and homing effects
+26. Tumor stroma homing: CREKA - Specifically binds to clotted plasma proteins within the tumor stroma for precise accumulation and enhanced therapeutic delivery
+27. Immune modulation: LFcinB 26-36 - Enhances anti-tumor immunity by promoting lymphocyte infiltration and activation against cancer cells
+28. Cell-penetrating delivery: TAT - Enables efficient translocation across cancer cell membranes for intracellular therapeutic delivery
+29. LRP1-mediated tumor targeting: Angiopep-2 - Facilitates receptor-mediated transport and targeting, particularly effective for brain cancers via BBB penetration
+30. BCL-2 downregulation and apoptosis: AtMP1 - Downregulates BCL-2 to trigger apoptosis in breast and other cancer cells
+31. Anti-metastasis via VEGFR2 blockade: KAI - Inhibits KIF13B-mediated VEGFR2 trafficking to reduce tumor metastasis and angiogenesis
+32. Death receptor and mitochondrial apoptosis: MSP-4 - Activates both extrinsic Fas/FasL and intrinsic mitochondrial pathways for comprehensive apoptosis induction
+33. Protease-resistant cytolysis: D-K6L9 - Provides sustained membrane disruption resistant to proteolytic degradation in the tumor microenvironment
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Cancer Killer p01"
+"Loaded_Programs=Cancer Killer p02"
+"Loaded_Programs=Cancer Killer p03"
+"Loaded_Programs=Cancer Killer p04"
+"Loaded_Programs=Cancer Killer p05"
+"Loaded_Programs=Cancer Killer p06"
+"Loaded_Programs=Cancer Killer p07"
+"Loaded_Programs=Cancer Killer p08"
+"Loaded_Programs=Cancer Killer p09"
+"Loaded_Programs=Cancer Killer p10"
+"Loaded_Programs=Cancer Killer p11"
+"Loaded_Programs=Cancer Killer p12"
+"Loaded_Programs=Cancer Killer p13"
+"Loaded_Programs=Cancer Killer p14"
+"Loaded_Programs=Cancer Killer p15"
+"Loaded_Programs=Cancer Killer p16"
+"Loaded_Programs=Cancer Killer p17"
+"Loaded_Programs=Cancer Killer p18"
+"Loaded_Programs=Cancer Killer p19"
+"Loaded_Programs=Cancer Killer p20"
+"Loaded_Programs=Cancer Killer p21"
+"Loaded_Programs=Cancer Killer p22"
+"Loaded_Programs=Cancer Killer p23"
+"Loaded_Programs=Cancer Killer p24"
+"Loaded_Programs=Cancer Killer p25"
+"Loaded_Programs=Cancer Killer p26"
+"Loaded_Programs=Cancer Killer p27"
+"Loaded_Programs=Cancer Killer p28"
+"Loaded_Programs=Cancer Killer p29"
+"Loaded_Programs=Cancer Killer p30"
+"Loaded_Programs=Cancer Killer p31"
+"Loaded_Programs=Cancer Killer p32"
+"Loaded_Programs=Cancer Killer p33"
+"Loaded_Frequencies=M103.009=1,M156.101,M57.021,M115.027,M128.095,M57.021,M97.053,M115.027,M103.009,0=4,"
+"Loaded_Frequencies=M147.068=1,M87.032,M156.101,M87.032,M113.084,M137.059,M87.032,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M114.043=1,M163.063,M87.032,M128.095,M97.053,M101.048,M115.027,M156.101,M128.059,M163.063,M137.059,M147.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M57.021,M163.063,M101.048,M147.068,M137.059,M186.079,M156.101,M113.084,M114.043,M97.053,0=4,"
+"Loaded_Frequencies=M103.009=1,M99.068,M97.053,M131.041,M101.048,M163.063,M156.101,M71.037,M103.009,0=4,"
+"Loaded_Frequencies=M137.059=1,M156.101,M137.059,M101.048,M128.095,M128.059,M156.101,M137.059,M101.048,M71.037,M113.084,M137.059,0=4,"
+"Loaded_Frequencies=M128.059=1,M128.095,M156.101,M128.095,M156.101,M128.095,M128.095,M87.032,M156.101,M163.063,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M103.009=1,M114.043,M113.084,M114.043,M101.048,M113.084,M115.027,M101.048,M103.009,0=4,"
+"Loaded_Frequencies=M57.021=1,M97.053,M128.095,M99.068,M101.048,M113.084,M186.079,0=4,"
+"Loaded_Frequencies=M71.037=1,M186.079,M87.032,M71.037,M101.048,M186.079,M87.032,M114.043,M163.063,M186.079,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M163.063=1,M101.048,M131.040,M114.043,M97.053,M156.101,M128.095,M113.084,M147.068,M115.027,M163.063,0=4,"
+"Loaded_Frequencies=M147.068=1,M101.048,M99.068,M101.048,M99.068,M97.053,M128.095,M115.027,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M156.101,M156.101,M103.009,M97.053,M113.084,M163.063,M113.084,M87.032,M163.063,M115.027,M97.053,M99.068,M103.009,M156.101,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M147.068,M99.068,M113.084,M101.048,M113.084,M97.053,M147.068,M186.079,M71.037,M99.068,M115.027,M71.037,M99.068,M71.037,M114.043,M186.079,M163.063,M147.068,M57.021,M114.043,M115.027,M115.027,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,M128.095,M113.084,M71.037,M128.095,M113.084,M71.037,M128.095,0=4,"
+"Loaded_Frequencies=M186.079=1,M156.101,M186.079,M163.063,M103.009,M156.101,0=4,"
+"Loaded_Frequencies=M103.009=1,M114.043,M57.021,M128.058,M57.021,M129.043,M128.058,M103.009,0=4,"
+"Loaded_Frequencies=M71.037=1,M57.021,M113.084,M113.084,M128.095,M156.101,M186.079,0=4,"
+"Loaded_Frequencies=M115.027=1,M147.068,M128.095,M113.084,M147.068,M71.037,M99.068,M163.063,M113.084,M128.095,M163.063,M156.101,0=4,"
+"Loaded_Frequencies=M99.068=1,M57.021,M163.063,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M113.084=1,M87.032,M101.048,M71.037,M71.037,M115.027,M131.040,M128.058,M57.021,M99.068,M99.068,M101.048,M115.027,M57.021,M131.040,M71.037,M87.032,M57.021,M113.084,M115.027,M128.095,M115.027,M163.063,M113.084,M128.095,M97.053,M115.027,M114.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M101.048,M131.040,M114.043,M97.053,M156.101,M128.095,M113.084,M147.068,M115.027,M162.079,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M115.027,0=4,"
+"Loaded_Frequencies=M103.009=1,M156.101,M129.043,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M128.058,M186.079,M156.101,M131.040,M128.095,M128.095,M113.084,M57.021,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M101.048=1,M147.068,M147.068,M163.063,M57.021,M57.021,M87.032,M156.101,M57.021,M128.095,M156.101,M114.043,M114.043,M147.068,M128.095,M101.048,M129.043,M129.043,M163.063,0=4,"
+"Loaded_Frequencies=M101.048=1,M137.059,M97.053,M97.053,M101.048,M101.048,M101.048,M101.048,M101.048,M101.048,M101.048,M101.048,M101.048,M101.048,M101.048,M101.048,M101.048,M71.037,M71.037,M97.053,M71.037,M101.048,M101.048,M101.048,0=4,"
+"Loaded_Frequencies=M87.032=1,M156.101,M57.021,M101.048,M97.053,M99.068,M115.027,M129.043,M156.101,M113.084,M147.068,M113.084,M113.084,M99.068,M156.101,M99.068,M101.048,M99.068,M128.058,M113.084,M87.032,M137.059,M97.053,0=4,"
+"Loaded_Frequencies=M147.068=1,M113.084,M137.059,M137.059,M113.084,M113.084,M57.021,M57.021,M113.084,M147.068,M87.032,M71.037,M57.021,M128.095,M71.037,M113.084,M137.059,M156.101,M113.084,M113.084,M156.101,M156.101,M156.101,M156.101,M156.101,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M128.095,M113.084,M113.084,0=4,"
+"[/Preset]"

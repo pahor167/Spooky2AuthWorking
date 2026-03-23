@@ -1,0 +1,23 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Laser"
+"PresetName=Gaucher Disease (L)"
+"Preset_Notes=Gaucher Disease for Laser
+
+Gaucher disease is the most common lysosomal storage disorder, caused by biallelic mutations in the GBA1 gene leading to deficient activity of the lysosomal enzyme {beta}-glucocerebrosidase (GCase). This deficiency results in progressive accumulation of glucosylceramide (GlcCer) and its deacylated toxic derivative glucosylsphingosine (lyso-GlcCer or GluSph) primarily in macrophages, forming characteristic lipid-laden 'Gaucher cells.' Pathophysiology involves visceral organ enlargement (hepatosplenomegaly), bone marrow infiltration causing cytopenias (anemia, thrombocytopenia), skeletal complications (osteopenia, infarcts, fractures), pulmonary involvement, and in neuronopathic forms (types 2 and 3) severe central nervous system degeneration with seizures, cognitive impairment, and early lethality. Secondary mechanisms include chronic inflammation driven by cytokine release (IL-1{beta}, IL-6, TNF-{alpha}), complement activation, oxidative stress, and in GBA1 heterozygotes an elevated risk for Parkinson's disease via impaired {alpha}-synuclein clearance and bidirectional pathogenic loops.
+
+Approved therapies include enzyme replacement therapy (recombinant GCase infusions) and substrate reduction therapy (glucosylceramide synthase inhibitors), which effectively manage visceral and hematologic manifestations in type 1 but show limited CNS penetration for neuronopathic forms. No short real-world polypeptide therapeutics fitting length constraints were identified across sources, with standard treatments relying on full-length recombinant enzymes (>400 residues) or small molecules; emerging cyclic peptide chaperones/activators remain preclinical without publicly verifiable short sequences. The proposed four conceptual designed polypeptides address core axes complementarily. All are short synthetic peptides (8 residues, no PTMs) designed for synthetic feasibility, potential cell penetration, and low immunogenicity.
+
+The first designed peptide functions as a pharmacological chaperone mimic, with hydrophobic/aromatic residues to bind and stabilize mutant GCase conformations, promoting lysosomal trafficking and residual activity to reduce GlcCer/GluSph buildup. The second designed peptide, highly cationic, electrostatically sequesters anionic glucolipids, neutralizing toxicity and preventing Gaucher cell formation. The third designed peptide targets inflammatory cascades, interfering with cytokine-receptor interactions or macrophage activation to attenuate chronic inflammation. The fourth designed peptide provides neuroprotection, potentially disrupting {alpha}-synuclein aggregation or supporting lysosomal-autophagy pathways in neurons/glia. Physicochemically, these peptides exhibit diverse charge/hydrophobicity profiles for axis-specific targeting, minimal consecutive repeats to avoid aggregation, and high sequence diversity (>50% difference) for broad coverage; short length supports scalability and potential CNS entry via adsorptive transcytosis.
+
+Spooky Cold Laser has adapter cables that plug directly into your Spooky2 generator. Connect Spooky Laser directly to Out 1 of your generator. Do not use a boosted output.
+
+As with all laser products, do not shine the light directly into your eyes. Use the protection glasses provided."
+"Loaded_Programs=Gaucher Disease p01"
+"Loaded_Programs=Gaucher Disease p02"
+"Loaded_Programs=Gaucher Disease p03"
+"Loaded_Programs=Gaucher Disease p04"
+"Loaded_Frequencies=M71.037=1,M156.101,M113.084,M128.095,M147.068,M186.079,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M156.101,M97.053,M57.021,M113.084,M131.040,M137.059,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M101.048,M115.027,M114.043,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M113.084,M57.021,M137.059,M128.095,M147.068,M71.037,0=4,"
+"[/Preset]"

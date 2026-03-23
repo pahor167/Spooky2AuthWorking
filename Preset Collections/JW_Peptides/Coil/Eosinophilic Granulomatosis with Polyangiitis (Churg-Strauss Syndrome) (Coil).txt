@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss Syndrome) (Coil)"
+"Preset_Notes=Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss Syndrome) for Coil
+
+Eosinophilic Granulomatosis with Polyangiitis (EGPA), formerly known as Churg-Strauss Syndrome, is a rare systemic autoimmune vasculitis classified among the ANCA-associated vasculitides. It typically presents in three phases: a prodromal phase with adult-onset asthma, allergic rhinitis, and sinusitis; an eosinophilic phase with marked blood and tissue eosinophilia affecting lungs, gastrointestinal tract, and skin; and a vasculitic phase with life-threatening small-to-medium vessel necrotizing vasculitis involving peripheral nerves, heart, kidneys, and other organs. Symptoms include severe asthma exacerbations, nasal polyps, pulmonary infiltrates, mononeuritis multiplex, skin purpura or nodules, cardiac dysfunction (leading cause of mortality), abdominal pain, and fatigue. Untreated or severe cases carry high morbidity due to organ damage from eosinophil degranulation (releasing toxic proteins like major basic protein and eosinophil cationic protein) and ischemic complications from vasculitis.
+
+The pathophysiology involves a Th2-dominant immune response driving eosinophil production, activation, and recruitment primarily via IL-5, with contributions from IL-4, IL-13, and eotaxins. Approximately 30-40% of patients are ANCA-positive (mostly MPO-ANCA), linking to neutrophil activation and more prominent vasculitic features. Complement activation (C5a) amplifies inflammation in subsets, while B-cell dysregulation sustains autoantibody production. Cardiac involvement reflects direct eosinophilic infiltration and granuloma formation.
+
+No real-world short polypeptides with documented therapeutic use in EGPA were identified across comprehensive searches of PubMed, patents, and clinical trial databases; current treatments rely on glucocorticoids, conventional immunosuppressants, and biologics (mepolizumab, benralizumab, rituximab). The proposed set comprises four conceptual designed short polypeptides, each addressing a key mechanistic axis to provide targeted modulation with potential for reduced systemic toxicity.
+
+The first designed polypeptide conceptually antagonizes IL-5 signaling to inhibit eosinophil survival, maturation, and tissue recruitment, addressing the core driver of eosinophilia.
+
+The second designed polypeptide targets B-cell activation or autoantibody interfaces to dampen ANCA-driven vasculitic components.
+
+The third designed polypeptide inhibits complement activation pathways to reduce inflammatory amplification and tissue injury.
+
+The fourth designed polypeptide modulates broader Th2 cytokine responses to attenuate the allergic and eosinophil-promoting environment.
+
+These designed polypeptides are short (8-10 residues), facilitating chemical synthesis, potential cyclization or pegylation for stability, and favorable pharmacokinetics compared to larger biologics.
+
+"
+"Loaded_Programs=Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss Syndrome) p01"
+"Loaded_Programs=Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss Syndrome) p02"
+"Loaded_Programs=Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss Syndrome) p03"
+"Loaded_Programs=Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss Syndrome) p04"
+"Loaded_Frequencies=M128.095=1,M113.084,M115.027,M129.043,M147.068,M156.101,M57.021,M137.059,0=4,"
+"Loaded_Frequencies=M163.063=1,M186.079,M97.053,M128.058,M87.032,M101.048,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M147.068,M97.053,M131.040,M156.101,M103.009,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M87.032=1,M128.058,M101.048,M99.068,M114.043,M137.059,M163.063,M97.053,M113.084,M186.079,0=4,"
+"[/Preset]"

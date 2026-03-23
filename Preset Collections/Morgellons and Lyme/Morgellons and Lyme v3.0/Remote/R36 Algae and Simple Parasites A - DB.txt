@@ -1,0 +1,60 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R36 Algae and Simple Parasites A - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Stigeoclonium_1 HC
+Stigeoclonium_2 HC
+Stigeoclonium 3 XTRA
+Oospora CAFL
+Chilomonas Whole Mount HC
+Nisin XTRA
+Parasites Chilomonas Whole Mount XTRA
+Chilomonas 2 XTRA
+Toxoplasma (Human Strain) HC
+Toxoplasma Special ODD
+Nisin XTRA
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square_Hbomb=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Stigeoclonium_1 (HC)"
+"Loaded_Programs=Stigeoclonium_2 (HC)"
+"Loaded_Programs=Stigeoclonium 3 (XTRA)"
+"Loaded_Programs=Oospora (CAFL)"
+"Loaded_Programs=Chilomonas Whole Mount (HC)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Parasites Chilomonas Whole Mount (XTRA)"
+"Loaded_Programs=Chilomonas 2 (XTRA)"
+"Loaded_Programs=Toxoplasma (Human Strain) (HC)"
+"Loaded_Programs=Toxoplasma Special (XTRA)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=404250-415250=3600,"
+"Loaded_Frequencies=407000=180,"
+"Loaded_Frequencies=405000=180,"
+"Loaded_Frequencies=9599=300,5346=300,"
+"Loaded_Frequencies=393750-400000=3600,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=2500=180,13930=180,204510=180,337300=180,388950=180,390700=180,389000=180,393750=180,400000=180,398000=180,"
+"Loaded_Frequencies=986.53=180,19815.25=180,"
+"Loaded_Frequencies=395000=180,"
+"Loaded_Frequencies=12343.74=300,19665.88=300,979.11=300,434=300,853=300,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Plasma Killing (P) - JW"
+"PresetName=Human polyomavirus 3 (DNA) (P) - JW"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||This preset contains the following strains:||Human polyomavirus 3 NMKI001|Human polyomavirus 3 vzki1"
+"Loaded_Programs=Human polyomavirus 3 (DNA) (P) - JW (CUST)"
+"Loaded_Frequencies=~9029BC3969,"
+"[/Preset]"

@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Spooky Cold Laser (L) - JW"
+"PresetName=Flower 4 (L)"
+"Preset_Notes=Flower 4 / Spooky Laser
+
+Estimated Time: Run this preset for 39:00 minutes.
+Walnut - Breaking the links, any major changes in your life. White Chestnut - mind going around and around, like a hamster in a wheel. Elm - Feeling overwhelmed. Beech -Intolerance. Centaury - the inability to say 'no.' Cherry Plum - Fear of the mind giving way. Clematis - Dreaming of the future with out working on the present. Heather - Self centredness and self-concern. Oak - the plodder who keeps going past the point of exhaustion. Red Chestnut - Over-concern for the welfare of loved ones. Rock Water - Self-denial, rigidity and self-repression. Vine - Dominance and inflexibility. Willow - Self-pity and resentment.
+
+Connect the Spooky Laser to Out 1. Do not use Spooky Boost.
+"
+"Loaded_Programs=Flower 4 (L)"
+"Loaded_Frequencies=261.26,247.09,463.13,490.87,384.68,262.01,415.26,301.78,318.03,292.06,451.74,383.91,264.74.,"
+"[/Preset]"

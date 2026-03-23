@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Reye’s Syndrome (P)"
+"Preset_Notes=Reye’s Syndrome for Plasma
+
+Reye's Syndrome is a rare, life-threatening pediatric disorder involving acute encephalopathy and hepatic fatty degeneration, primarily linked to mitochondrial dysfunction, hyperammonemia, oxidative stress, impaired fatty acid oxidation, and inflammation, often post-viral with aspirin exposure. Supportive care is standard; the proposed polypeptides target key mechanistic axes supported by analogous evidence in mitochondrial disorders, hepatic encephalopathy, toxin-induced liver injury, and oxidative/hyperammonemic models to protect mitochondria, support liver function, mitigate ammonia toxicity, reduce oxidative damage, and promote repair.
+
+1. Mitochondrial protection and anti-apoptosis: Humanin counters apoptotic stress and supports cell survival in mitochondrial dysfunction models.
+2. Mitochondrial-derived metabolic regulation: MOTS-c regulates energy homeostasis and protects against metabolic and brain injury.
+3. Hepatoprotection against toxin-induced damage: BPC-157 prevents liver necrosis and fatty changes in various injury models.
+4. Hyperammonemia mitigation and brain mitochondrial protection: Carnosine alleviates ammonia-induced mitochondrial impairment and oxidative stress.
+5. Oxidative stress detoxification and glutathione support: Glutathione maintains redox balance and mitochondrial function in encephalopathy.
+6. Anti-inflammatory and neuroprotective modulation: VIP elevates cAMP to reduce inflammation and protect neurons.
+7. Innate repair receptor activation and anti-inflammation: ARA-290 promotes repair and reduces inflammatory damage.
+8. Tissue regeneration and anti-inflammation: Thymosin_beta_4 accelerates healing and modulates inflammation in damaged tissues.
+9. Optimized integrated mitochondrial-ammonia targeting: ReySyn-Eng, an engineered peptide derived from Humanin core motifs with added histidine for enhanced ammonia buffering and mitochondrial support (Ac-HRGFSLLL-NH2).
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Reye’s Syndrome p01"
+"Loaded_Programs=Reye’s Syndrome p02"
+"Loaded_Programs=Reye’s Syndrome p03"
+"Loaded_Programs=Reye’s Syndrome p04"
+"Loaded_Programs=Reye’s Syndrome p05"
+"Loaded_Programs=Reye’s Syndrome p06"
+"Loaded_Programs=Reye’s Syndrome p07"
+"Loaded_Programs=Reye’s Syndrome p08"
+"Loaded_Programs=Reye’s Syndrome p09"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M156.101,M57.021,M147.068,M87.032,M113.084,M113.084,M113.084,0=4,"
+"[/Preset]"

@@ -1,0 +1,185 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=1. Metals and Chemicals"
+"Loaded_Frequencies=364.56=180 W2,393=180,16724.61=180,47=300,48=300,49=300,75=300,317=180,1902=180,4202.3=180,5333.69=180,9887=180,14164.1=180,15952.79=180,19007.15=180,19007.2=180,19169.38=180,19516.29=180,21822.15=180,1=180,6=180,26=180,73=180,19169.38=180,"
+"Loaded_Programs=1. Metals and Chemicals"
+"Preset_Notes=Cancer Protocol, Contact Plus 2 method, Generator 1, for Remote. 
+
+This preset contains Remote frequency sets for days 1-14 of the protocol. Run this preset concurrently with the preset 'Contact2/Gen2 (R) - BY'. See '\Cancer\BY\Cancer Presets.pdf' for a schedule to run these presets.
+
+Entire Schedule for Contact Plus 2 method
+-----------------------------------------
+Each line has day, generator, preset, and frequency set. If the preset is empty, use the same preset as the last preset for the same generator. If the frequency set is empty, there is not need to skip to a particular frequency set. If the day for a generator is missing, this means you continue to run the previous program. 'My Scan' is a preset you create based on a Spooky Pulse biofeedback scan. 'My Target' is a preset you create that has the specific Cancer you are targeting.
+
+Day, Gen, Preset, Frequency Set
+1, 1, Contact2/Gen1 (R) - BY, 
+1, 2, Contact2/Gen2 (R) - BY, 
+15, 1, My Scan,
+15, 1, My Target,
+15, 1, Contact2/Gen1/Liver (C) - BY
+16, 1, My Scan,
+16, 1, My Target,
+16, 1, Contact2/Gen1/Kidney (C) - BY
+17, 1, My Scan,
+17, 1, My Target,
+17, 1, Contact2/Gen1/Blood Liver Kidney (C) - BY
+18, 1, My Scan,
+18, 1, My Target,
+18, 1, Contact2/Gen1/Immune System (C) - BY
+19, 1, My Scan,
+19, 1, My Target,
+19, 1, Contact2/Gen1/Liver (C) - BY
+20, 1, My Scan,
+20, 1, My Target,
+20, 1, Contact2/Gen1/Kidney (C) - BY
+21, 1, My Scan,
+21, 1, My Target,
+21, 1, Contact2/Gen1/Blood Liver Kidney (C) - BY
+22, 1, My Scan,
+22, 1, My Target,
+22, 1, Contact2/Gen1/Immune System (C) - BY
+
+Here is the schedule for this preset:
+  Generator 1, Contact2/Gen1 (R) - BY
+    Day 1-14
+
+This preset has the following programs:
+
+Immunomodulators: Calcifications - XTRA, Bacillus Licheniformis - XTRA, Calcifications - XTRA, Nanobacter - CAFL, Calcifications - XTRA, Nanobacter 2 - CUST, Calcifications - XTRA, Bacillus Licheniformis - XTRA, Calcifications - XTRA, Nanobacter 3 - CUST, Calcifications - XTRA, Nanobacterium Sanguineum TR - CUST, Calcifications - XTRA, Bacillus Licheniformis - XTRA, Calcifications - XTRA
+
+Kidney: Kidney Function Balance - XTRA, Kidney Insufficiency - CAFL
+
+Liver: Liver 1 - PROV, Liver 2 - PROV, Liver Flukes - CAFL, Liver Function Balance - XTRA
+
+Metals and Chemicals: Arsenic as - XTRA, Mercury Toxicity V - CAFL, Heavy Metal Toxicity - XTRA, Detox Pesticide - XTRA, Detox Fluoride - XTRA
+
+Parasites & Lymph: Detox 2 Parasites in the Intestines - CAFL, Lymphs and Detox - PROV, Lymph Support - CAFL
+
+System Detox 1: Detox Toxic Proteins - XTRA, Detox Toxins Elimination 1 - XTRA, Detox Toxins Elimination 2 - XTRA
+
+Here is a table to find the beginning of each day in this preset:
+1: Metals and Chemicals
+2: Metals and Chemicals
+3: Metals and Chemicals
+4: System Detox 1
+5: System Detox 1
+6: Liver
+7: Liver
+8: Kidney
+9: Kidney
+10: Parasites & Lymph
+11: Parasites & Lymph
+12: Immunomodulators
+13: Immunomodulators
+14: Immunomodulators
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost on Generator 1, or to Out 1 of Generator 1 if you don't have Spooky Boost.
+"
+"Repeat_Chain=0"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=2. Metals and Chemicals"
+"Loaded_Frequencies=364.56=180 W2,393=180,16724.61=180,47=300,48=300,49=300,75=300,317=180,1902=180,4202.3=180,5333.69=180,9887=180,14164.1=180,15952.79=180,19007.15=180,19007.2=180,19169.38=180,19516.29=180,21822.15=180,1=180,6=180,26=180,73=180,19169.38=180,"
+"Loaded_Programs=2. Metals and Chemicals"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=3. Metals and Chemicals"
+"Loaded_Frequencies=364.56=180 W2,393=180,16724.61=180,47=300,48=300,49=300,75=300,317=180,1902=180,4202.3=180,5333.69=180,9887=180,14164.1=180,15952.79=180,19007.15=180,19007.2=180,19169.38=180,19516.29=180,21822.15=180,1=180,6=180,26=180,73=180,19169.38=180,"
+"Loaded_Programs=3. Metals and Chemicals"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=4. System Detox 1"
+"Loaded_Frequencies=9887=180 W2,0.5=240,146=240,522=240,800=240,1552=240,0.5=180,2.5=180,6.29=180,9.18=180,9.19=180,20=180,146=180,148=180,333=180,428=180,444=180,522=180,523=180,555=180,660=180,690=180,727.5=180,768=180,786=180,787=180,802=180,880=180,1550=180,1865=180,10000=180,"
+"Loaded_Programs=4. System Detox 1"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=5. System Detox 1"
+"Loaded_Frequencies=9887=180 W2,0.5=240,146=240,522=240,800=240,1552=240,0.5=180,2.5=180,6.29=180,9.18=180,9.19=180,20=180,146=180,148=180,333=180,428=180,444=180,522=180,523=180,555=180,660=180,690=180,727.5=180,768=180,786=180,787=180,802=180,880=180,1550=180,1865=180,10000=180,"
+"Loaded_Programs=5. System Detox 1"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=6. Liver"
+"Loaded_Frequencies=13427.72=1800 W4,317.82=300,33.13=300,1552=300,802=300,751=300,143=180,238=180,275=180,676=180,763=180,33.13=180,537=180,751=180,802=180,1550=180,1552=180,"
+"Loaded_Programs=6. Liver"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=7. Liver"
+"Loaded_Frequencies=13427.72=1800 W4,317.82=300,33.13=300,1552=300,802=300,751=300,143=180,238=180,275=180,676=180,763=180,33.13=180,537=180,751=180,802=180,1550=180,1552=180,"
+"Loaded_Programs=7. Liver"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=8. Kidney"
+"Loaded_Frequencies=1.1=180 W2,1.19=180,6.29=180,8=180,10=180,20=180,40=180,72=180,73=180,95=180,125=180,146=180,148=180,248=180,250=180,333=180,440=180,444=180,465=180,522=180,523=180,555=180,600=180,625=180,650=180,768=180,786=180,800=180,802=180,880=180,1500=180,1550=180,1600=180,1865=180,3000=180,5000=180,10000=180,9.2=180,10=180,40=180,440=180,1600=180,1550=180,1500=180,880=180,802=180,650=180,625=180,600=180,444=180,1865=180,146=180,250=180,125=180,95=180,72=180,20=180,"
+"Loaded_Programs=8. Kidney"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=9. Kidney"
+"Loaded_Frequencies=1.1=180 W2,1.19=180,6.29=180,8=180,10=180,20=180,40=180,72=180,73=180,95=180,125=180,146=180,148=180,248=180,250=180,333=180,440=180,444=180,465=180,522=180,523=180,555=180,600=180,625=180,650=180,768=180,786=180,800=180,802=180,880=180,1500=180,1550=180,1600=180,1865=180,3000=180,5000=180,10000=180,9.2=180,10=180,40=180,440=180,1600=180,1550=180,1500=180,880=180,802=180,650=180,625=180,600=180,444=180,1865=180,146=180,250=180,125=180,95=180,72=180,20=180,"
+"Loaded_Programs=9. Kidney"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=10. Parasites & Lymph"
+"Loaded_Frequencies=9.6=78 W4,15=78,26=78,35=78,48=78,60=78,95=78,125=78,160=78,200=78,230=78,410=78,440=78,465=78,588=78,760=78,776=78,1000=78,2000=78,2127=78,10000=180,3177=180,3176=180,3175=180,880=180,787=180,751=180,727=180,676=180,635=180,625=180,522=180,465=180,444=180,440=180,304=180,148=180,146=180,15.2=180,15.05=180,10.36=180,10=180,7.83=180,6.3=180,2.5=180,15.05=180,10.36=180,3176=180,"
+"Loaded_Programs=10. Parasites & Lymph"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=11. Parasites & Lymph"
+"Loaded_Frequencies=9.6=78 W4,15=78,26=78,35=78,48=78,60=78,95=78,125=78,160=78,200=78,230=78,410=78,440=78,465=78,588=78,760=78,776=78,1000=78,2000=78,2127=78,10000=180,3177=180,3176=180,3175=180,880=180,787=180,751=180,727=180,676=180,635=180,625=180,522=180,465=180,444=180,440=180,304=180,148=180,146=180,15.2=180,15.05=180,10.36=180,10=180,7.83=180,6.3=180,2.5=180,15.05=180,10.36=180,3176=180,"
+"Loaded_Programs=11. Parasites & Lymph"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=12. Immunomodulators"
+"Loaded_Frequencies=326=180 W2,2655=180,21554=180,326=180,634=180,326=180,6771.59=180,6772.13=180,6749=180,6773.44=180,6772.29=180,6725.50=180,5965.19=180,5198.33=180,5543.65=180,5631.24=180,9916.73=180,8798.81=180,8661.95=180,4628.34=180,4128.50=180,2931.45=180,2208.53=180,2100.67=180,326=180,2655=180,21554=180,326=180,13543.18=180,13543.89=180,13544.26=180,13544.49=180,13546.48=180,13546.88=180,13544.59=180,13545.21=180,13546.95=180,11930.39=180,10396.66=180,9916.73=180,8798.81=180,8661.95=180,4628.34=180,4128.50=180,2931.45=180,2208.53=180,2100.67=180,326=180,7635.45=180,6653.86=180,6346.71=180,5631.24=180,5543.65=180,2962.14=180,2642.24=180,1876.13=180,1413.46=180,1344.43=180,1902=180,317=180,326=180,2655=180,21554=180,326=180,"
+"Loaded_Programs=12. Immunomodulators"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=13. Immunomodulators"
+"Loaded_Frequencies=326=180 W2,2655=180,21554=180,326=180,634=180,326=180,6771.59=180,6772.13=180,6749=180,6773.44=180,6772.29=180,6725.50=180,5965.19=180,5198.33=180,5543.65=180,5631.24=180,9916.73=180,8798.81=180,8661.95=180,4628.34=180,4128.50=180,2931.45=180,2208.53=180,2100.67=180,326=180,2655=180,21554=180,326=180,13543.18=180,13543.89=180,13544.26=180,13544.49=180,13546.48=180,13546.88=180,13544.59=180,13545.21=180,13546.95=180,11930.39=180,10396.66=180,9916.73=180,8798.81=180,8661.95=180,4628.34=180,4128.50=180,2931.45=180,2208.53=180,2100.67=180,326=180,7635.45=180,6653.86=180,6346.71=180,5631.24=180,5543.65=180,2962.14=180,2642.24=180,1876.13=180,1413.46=180,1344.43=180,1902=180,317=180,326=180,2655=180,21554=180,326=180,"
+"Loaded_Programs=13. Immunomodulators"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=14. Immunomodulators"
+"Loaded_Frequencies=326=180 W2,2655=180,21554=180,326=180,634=180,326=180,6771.59=180,6772.13=180,6749=180,6773.44=180,6772.29=180,6725.50=180,5965.19=180,5198.33=180,5543.65=180,5631.24=180,9916.73=180,8798.81=180,8661.95=180,4628.34=180,4128.50=180,2931.45=180,2208.53=180,2100.67=180,326=180,2655=180,21554=180,326=180,13543.18=180,13543.89=180,13544.26=180,13544.49=180,13546.48=180,13546.88=180,13544.59=180,13545.21=180,13546.95=180,11930.39=180,10396.66=180,9916.73=180,8798.81=180,8661.95=180,4628.34=180,4128.50=180,2931.45=180,2208.53=180,2100.67=180,326=180,7635.45=180,6653.86=180,6346.71=180,5631.24=180,5543.65=180,2962.14=180,2642.24=180,1876.13=180,1413.46=180,1344.43=180,1902=180,317=180,326=180,2655=180,21554=180,326=180,"
+"Loaded_Programs=14. Immunomodulators"
+"Repeat_Sequence=0"
+"Schedule_Run_For=24"
+"[/Preset]"

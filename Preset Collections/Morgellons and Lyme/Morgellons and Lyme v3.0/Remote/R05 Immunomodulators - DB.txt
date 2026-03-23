@@ -1,0 +1,63 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R05 Immunomodulators - DB"
+"Out1_Shadow_Hz_Factor=0"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: February 2017.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Calcifications XTRA
+Bacillus Licheniformis XTRA
+Calcifications XTRA
+Nanobacter XTRA
+Calcifications XTRA
+Nanobacter 2 XTRA
+Calcifications XTRA
+Bacillus Licheniformis XTRA
+Calcifications XTRA
+Nanobacter 3 XTRA
+Calcifications XTRA
+Nanobacterium Sanguineum TR XTRA
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Manual_Start=False"
+"Out1_Inverted_Sawtooth=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Enable_Tissue_Factor=0"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Bacillus Licheniformis (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nanobacter (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nanobacter 2 (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Bacillus Licheniformis (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nanobacter 3 (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Nanobacterium Sanguineum TR (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=2655=180,21554=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=634=180,317=180,1268=180,1902=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=6771.59=180,6772.13=180,6749=180,6773.44=180,6772.29=180,6725.50=180,5965.19=180,5198.33=180,5543.65=180,5631.24=180,9916.73=180,8798.81=180,8661.95=180,4628.34=180,4128.50=180,2931.45=180,2208.53=180,2100.67=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=2655=180,21554=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=13543.18=180,13543.89=180,13544.26=180,13544.49=180,13546.48=180,13546.88=180,13544.59=180,13545.21=180,13546.95=180,11930.39=180,10396.66=180,9916.73=180,8798.81=180,8661.95=180,4628.34=180,4128.50=180,2931.45=180,2208.53=180,2100.67=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=7635.45=180,6653.86=180,6346.71=180,5631.24=180,5543.65=180,2962.14=180,2642.24=180,1876.13=180,1413.46=180,1344.43=180,1902=180,317=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

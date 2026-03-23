@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Progressive Multifocal Leukoencephalopathy (S)"
+"Preset_Notes=Progressive Multifocal Leukoencephalopathy for Scalar
+
+Progressive Multifocal Leukoencephalopathy (PML) is a rare and frequently fatal demyelinating opportunistic infection of the central nervous system caused by lytic reactivation of the JC polyomavirus (JCV) in the context of profound cellular immunodeficiency. It most commonly occurs in patients with HIV/AIDS (prior to effective antiretroviral therapy), hematologic malignancies, organ transplantation, primary immunodeficiencies, or iatrogenically from immunosuppressive monoclonal antibodies (e.g., natalizumab, rituximab, ofatumumab) and other agents. Clinical presentation is subacute and progressive, encompassing cognitive impairment, motor weakness, gait ataxia, visual deficits, aphasia, and seizures, reflecting multifocal white matter lesions predominantly in cerebral hemispheres, cerebellum, and brainstem. Pathophysiology centers on JCV tropism for oligodendrocytes and astrocytes, mediated by VP1 binding to {alpha}2,6-linked sialic acid and 5-HT2A receptors for entry, followed by intracellular replication driven by large T antigen, non-coding control region rearrangements, and evasion or absence of robust CD8+ cytotoxic T-lymphocyte surveillance due to impaired immunity, culminating in oligodendrocyte death, demyelination, and axonal preservation with minimal inflammation (except in immune reconstitution inflammatory syndrome cases).
+
+No approved direct antiviral therapy exists with proven efficacy against JCV, and management relies primarily on rapid immune reconstitution (e.g., cART initiation in HIV, drug discontinuation and plasma exchange in natalizumab-associated cases). Emerging immunotherapies show promise but remain investigational. The proposed polypeptides are all designed conceptual short amidated cationic amphipathic peptides leveraging established principles of antiviral and cell-penetrating peptide design to address complementary mechanisms in the absence of established polypeptide therapeutics. These designs prioritize blood-brain barrier penetration via cationic charge, enhanced plasma stability through C-terminal amidation, and multifaceted actions: the first designed polypeptide employs alternating aromatic (phenylalanine) and cationic (arginine) residues to potentially interfere with JCV capsid stability or receptor-mediated entry through electrostatic and hydrophobic disruption; the second incorporates tryptophan for superior membrane partitioning and intracellular delivery to inhibit viral replication processes; the third utilizes histidine and tyrosine for pH-sensitive interactions and potent reactive oxygen species scavenging to protect neural tissue from secondary oxidative injury; the fourth features leucine-lysine alternation for helical amphipathicity to stabilize membranes and potentially facilitate immune effector cell engagement at sites of infection. All polypeptides are designed with physicochemical properties supporting feasibility as injectable therapeutics, including short length for synthesis, resistance to proteolysis via amidation, and low predicted immunogenicity.
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Progressive Multifocal Leukoencephalopathy p01"
+"Loaded_Programs=Progressive Multifocal Leukoencephalopathy p02"
+"Loaded_Programs=Progressive Multifocal Leukoencephalopathy p03"
+"Loaded_Programs=Progressive Multifocal Leukoencephalopathy p04"
+"Loaded_Frequencies=M147.068=1,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M156.101,M147.068,M155.117,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M186.079,M128.095,M186.079,M128.095,M186.079,M128.095,M185.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M163.063,M137.059,M162.079,0=4,"
+"Loaded_Frequencies=M128.095=1,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M112.100,0=4,"
+"[/Preset]"

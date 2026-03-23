@@ -1,0 +1,50 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Streptococcus Pneumoniae Infection (P)"
+"Preset_Notes=Streptococcus Pneumoniae Infection for Plasma
+
+Streptococcus pneumoniae is a Gram-positive bacterium and leading cause of community-acquired pneumonia, meningitis, sepsis, and otitis media, with growing antibiotic resistance challenges. The following polypeptides cover diverse therapeutic axes against pneumococcal infections:
+
+1. Trp-rich intracellular targeting: Indolicidin - Penetrates membrane without lysis and inhibits nucleic acid/protein synthesis
+2. Clinical-optimized membrane disruption: Omiganan - Rapid bactericidal action with reduced toxicity for potential topical/systemic use
+3. Beta-sheet pore formation: Protegrin-1 - Forms barrel-stave pores causing osmotic lysis
+4. Natural human defensin: Human Beta-Defensin 3 (hBD-3) - Disrupts membrane and recruits immune cells for enhanced clearance
+5. Non-lytic cell-penetrating: Buforin II - Translocates into cytoplasm to bind and inhibit nucleic acid function
+6. Synthetic alpha-helical: Pexiganan - Potent amphipathic helix for membrane permeabilization in clinical development
+7. Cyclic cathelicidin: Bactenecin - Disulfide-bonded loop for protease resistance and sustained membrane activity
+8. Beta-sheet disulfide-stabilized: Tachyplesin I - Rigid structure for strong envelope binding and disruption
+9. Unique binding mechanism: Thanatin - Targets intermembrane components with minimal resistance induction
+10. Alpha-helical amphipathic: Magainin_2 - Classic carpet/pore mechanism from amphibian source
+11. Optimized alpha-helical variant: SP-Alpha1 - Engineered modification for improved bacterial selectivity and pneumococcal potency
+12. Minimalist Arg-Trp rich: SP-Short1 - Compact high-charge design for efficient synthesis and membrane targeting
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Streptococcus Pneumoniae Infection p01"
+"Loaded_Programs=Streptococcus Pneumoniae Infection p02"
+"Loaded_Programs=Streptococcus Pneumoniae Infection p03"
+"Loaded_Programs=Streptococcus Pneumoniae Infection p04"
+"Loaded_Programs=Streptococcus Pneumoniae Infection p05"
+"Loaded_Programs=Streptococcus Pneumoniae Infection p06"
+"Loaded_Programs=Streptococcus Pneumoniae Infection p07"
+"Loaded_Programs=Streptococcus Pneumoniae Infection p08"
+"Loaded_Programs=Streptococcus Pneumoniae Infection p09"
+"Loaded_Programs=Streptococcus Pneumoniae Infection p10"
+"Loaded_Programs=Streptococcus Pneumoniae Infection p11"
+"Loaded_Programs=Streptococcus Pneumoniae Infection p12"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M156.101,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M156.101,M127.111,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,M128.095,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M128.095,M113.084,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M102.001,M156.101,M113.084,M99.068,M99.068,M113.084,M156.101,M99.068,M102.001,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M147.068,M103.009,M147.068,M87.032,M128.095,M103.009,M163.063,M87.032,M147.068,M57.021,M113.084,M103.009,M147.068,M163.063,M147.068,M87.032,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M128.095,M128.095,M97.053,M99.068,M97.053,M113.084,M113.084,M163.063,M102.001,M114.043,M156.101,M156.101,M101.048,M57.021,M128.095,M102.001,M128.058,M156.101,M131.040,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M129.043,M113.084,M131.040,M114.043,M113.084,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M186.079,M156.101,M156.101,M186.079,M186.079,M155.093,0=4,"
+"[/Preset]"

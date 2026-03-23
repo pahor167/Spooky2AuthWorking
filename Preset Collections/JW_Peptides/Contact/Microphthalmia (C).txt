@@ -1,0 +1,40 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Microphthalmia (C)"
+"Preset_Notes=Microphthalmia for Contact
+
+Microphthalmia is a congenital developmental disorder characterized by abnormally small eyes, often accompanied by structural anomalies such as coloboma or cataract, arising from disruptions in embryonic signaling pathways (e.g., BMP, FGF, Wnt, SHH). Current management is primarily supportive and prosthetic, with emerging interest in regenerative approaches to stimulate postnatal ocular growth. The proposed polypeptides target mechanistically relevant axes drawn from ocular regeneration models, neuroprotection studies, and tissue repair literature to support tissue formation, protection, and potential growth in affected eyes.
+
+1. Ocular tissue regeneration and anti-inflammation: Thymosin_beta_4 promotes cell migration, wound healing, and anti-inflammatory effects, with direct evidence from corneal and dry eye clinical trials.
+2. Retinal neuronal survival and neuroprotection: VIP elevates cAMP to prevent ganglion cell death and supports retinal health in stress models.
+3. Innate repair receptor-mediated neuroprotection: ARA-290 reduces inflammation and protects retinal neurons in degenerative models.
+4. Mitochondrial protection and anti-apoptosis: Humanin mitigates apoptotic stress and supports retinal cell survival.
+5. Angiogenesis and tissue integrity promotion: BPC-157 enhances blood vessel formation and repair, mechanistically supporting ocular tissue growth.
+6. Ocular surface antimicrobial defense: LL-37 provides immunomodulatory and antimicrobial protection relevant to congenital ocular vulnerabilities.
+7. Ocular antioxidant defense: Carnosine neutralizes oxidative stress, with established use in eye health.
+8. Postnatal progenitor proliferation and signaling optimization: OculGrow-Eng, an engineered cationic amphipathic peptide derived from regenerative and cell-penetrating motifs, designed for enhanced stability and multi-pathway support of ocular development.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Microphthalmia p01"
+"Loaded_Programs=Microphthalmia p02"
+"Loaded_Programs=Microphthalmia p03"
+"Loaded_Programs=Microphthalmia p04"
+"Loaded_Programs=Microphthalmia p05"
+"Loaded_Programs=Microphthalmia p06"
+"Loaded_Programs=Microphthalmia p07"
+"Loaded_Programs=Microphthalmia p08"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,M115.027,M131.040,M71.037,M129.043,M113.084,M129.043,M128.095,M147.068,M115.027,M128.095,M87.032,M128.095,M113.084,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,M129.043,M128.095,M114.043,M97.053,M113.084,M97.053,M87.032,M128.095,M129.043,M101.048,M113.084,M129.043,M128.058,M129.043,M128.095,M128.058,M71.037,M57.021,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,0=4,"
+"Loaded_Frequencies=M128.095=1,M114.043,M57.021,M147.068,M113.084,M57.021,M147.068,M113.084,M128.095,M87.032,M113.084,M128.095,M147.068,M113.084,M57.021,M128.095,M147.068,M113.084,M128.095,0=4,"
+"[/Preset]"

@@ -1,0 +1,33 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Remote"
+"PresetName=Osteoarthritis of the Hips (R)"
+"Preset_Notes=Osteoarthritis of the Hips for Remote
+
+Osteoarthritis of the hips, also known as hip OA, is a degenerative joint disease characterized by the progressive breakdown of articular cartilage, subchondral bone remodeling, osteophyte formation, synovial inflammation, and joint space narrowing. It primarily affects older adults but can occur earlier due to factors like joint injury, obesity, genetic predisposition, or biomechanical abnormalities such as hip dysplasia or femoroacetabular impingement. Symptoms include chronic pain, stiffness, reduced mobility, and functional limitations, often leading to disability and the need for hip replacement surgery. Pathophysiologically, hip OA involves an imbalance between cartilage anabolism and catabolism, driven by mechanical stress, inflammatory cytokines (e.g., IL-1, TNF-{alpha}), matrix-degrading enzymes (e.g., MMPs, ADAMTS), and altered signaling pathways like Wnt/{beta}-catenin or TGF-{beta}. Metabolic factors, including dysregulated bile acid metabolism and gut microbiota influences, contribute via the gut-joint axis, exacerbating inflammation and cartilage loss. Advanced stages feature subchondral bone sclerosis, cyst formation, and nociceptive sensitization, amplifying pain.
+
+The proposed polypeptides address hip OA through multiple therapeutic axes: anti-inflammatory (reducing cytokine-mediated damage), cartilage regeneration (promoting matrix synthesis and repair), pain modulation (targeting nociceptive pathways), and metabolic modulation (influencing GLP-1 signaling and systemic factors). Real-world polypeptides like VIP inhibit pro-inflammatory mediators in synovial tissue, BPC-157 stimulates tissue healing and angiogenesis, calcitonin suppresses osteoclast activity and pain signaling, and GLP-1 enhances chondroprotection via anti-catabolic effects. Designed polypeptides complement these: Designed cyclic anti-inflammatory (derived from VIP motifs with cyclization for enhanced stability) targets cytokine suppression; Designed regenerative (based on BPC-157 scaffold with substitutions for improved solubility) boosts extracellular matrix production; Designed analgesic (inspired by calcitonin fragments with disulfide for conformational stability) modulates nerve growth factor pathways; Designed metabolic modulator (from GLP-1 analogs with N-acetylation for prolonged activity) regulates insulin-like growth factors and inflammation. Feasibility is supported by preclinical data showing reduced cartilage degradation, improved joint function, and biocompatibility; physicochemical properties favor intra-articular delivery with low immunogenicity and favorable pharmacokinetics.
+
+Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.
+
+DNA Entanglement transfers the frequencies directly into your DNA.
+
+The Preset has been designed to loop continuously until stopped.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"Loaded_Programs=Osteoarthritis of the Hips p01"
+"Loaded_Programs=Osteoarthritis of the Hips p02"
+"Loaded_Programs=Osteoarthritis of the Hips p03"
+"Loaded_Programs=Osteoarthritis of the Hips p04"
+"Loaded_Programs=Osteoarthritis of the Hips p05"
+"Loaded_Programs=Osteoarthritis of the Hips p06"
+"Loaded_Programs=Osteoarthritis of the Hips p07"
+"Loaded_Programs=Osteoarthritis of the Hips p08"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M102.001=1,M57.021,M114.043,M113.084,M87.032,M101.048,M102.001,M131.040,M113.084,M57.021,M101.048,M163.063,M101.048,M128.058,M115.027,M147.068,M114.043,M128.095,M147.068,M137.059,M101.048,M147.068,M97.053,M128.058,M101.048,M71.037,M113.084,M57.021,M99.068,M57.021,M71.037,M96.069,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"[/Preset]"

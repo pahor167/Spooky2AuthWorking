@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Pine (R)"
+"Preset_Notes=Pine / Spooky Remote
+
+Estimated Time: Run this preset for 3:00 minutes.
+Pine - Guilt.
+
+Connect Spooky Remote to the BN port of Spooky Boost.
+"
+"Loaded_Programs=Pine (R)"
+"Loaded_Frequencies=280.93,"
+"[/Preset]"

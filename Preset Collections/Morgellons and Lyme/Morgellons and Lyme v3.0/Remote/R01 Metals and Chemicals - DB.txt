@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R01 Metals and Chemicals - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase I-Terrain. Remote Mode.
+
+Update: February 2017.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Arsenic as XTRA
+Mercury Toxicity V CAFL
+Heavy Metal Toxicity XTRA
+Pesticide Detox CAFL
+Detox Fluoride 2 XTRA
+Detox Fluoride XTRA
+Calcifications XTRA
+Detox Matrix XTRA"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Manual_Start=False"
+"Out1_Square_Hbomb=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Enable_Tissue_Factor=0"
+"Loaded_Programs=Arsenic as (XTRA)"
+"Loaded_Programs=Mercury Toxicity V (CAFL)"
+"Loaded_Programs=Heavy Metal Toxicity (XTRA)"
+"Loaded_Programs=Pesticide Detox (CAFL)"
+"Loaded_Programs=Detox Fluoride 2 (XTRA)"
+"Loaded_Programs=Detox Fluoride (XTRA)"
+"Loaded_Programs=Calcifications (XTRA)"
+"Loaded_Programs=Detox Matrix (XTRA)"
+"Loaded_Frequencies=364.56=180,393=180,16724.61=180,"
+"Loaded_Frequencies=47=300,48=300,49=300,75=300,"
+"Loaded_Frequencies=317=180,1902=180,4202.3=180,5333.69=180,9887=180,14164.1=180,15952.79=180,19007.15=180,19007.2=180,19169.38=180,19516.29=180,21822.15=180,"
+"Loaded_Frequencies=73=180,26=180,6=180,1=180,"
+"Loaded_Frequencies=158.87=420,56656.4=420,"
+"Loaded_Frequencies=19169.38=180,"
+"Loaded_Frequencies=326=180,"
+"Loaded_Frequencies=10000=180,3176=180,3040=180,880=180,787=180,751=180,727=180,625=180,522=180,465=180,444=180,440=180,1505=180,1035.9=180,3176=180,676=180,635=180,146=180,250=180,304=180,306=180,148=180,152=180,63=180,"
+"[/Preset]"

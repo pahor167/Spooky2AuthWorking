@@ -1,0 +1,21 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Feline Infectious Peritonitis (FIP) (Coil)"
+"Preset_Notes=Feline Infectious Peritonitis (FIP) for Coil
+
+Cat Feline Infectious Peritonitis (FIP)
+
+Feline Infectious Peritonitis (FIP) is a highly fatal, immune-mediated disease in cats triggered by virulent mutants of feline coronavirus (FCoV). Benign enteric FCoV infections commonly mutate to enable replication in macrophages, causing widespread pyogranulomatous vasculitis, immune complex deposition, and hyperinflammation. The effusive (wet) form features protein-rich effusions in body cavities, leading to abdominal distension, dyspnea, and organ failure. The non-effusive (dry) form presents granulomas in organs, uveitis, and neurological signs like ataxia or seizures. Symptoms include persistent fever, anorexia, weight loss, jaundice, and lethargy, with rapid progression to death in untreated cases due to vasculitis and cytokine storm involving TNF-alpha and other mediators.
+
+The proposed polypeptides target key pathophysiological axes: viral entry, inflammatory dysregulation, and replication. The real-world polypeptide I-S1-9, derived from the spike S1 domain, interferes with viral adsorption to host cells, potently inhibiting both type I and type II FIPV in vitro by blocking initial attachment. The designed polypeptides provide complementary actions: one amphipathic helical designed polypeptide disrupts membrane interactions during entry for broad interference; another designed polypeptide modulates excessive inflammation to mitigate cytokine-driven damage and vasculitis; a substrate-mimetic designed polypeptide conceptually competes at the viral protease active site to impair polyprotein processing. This multi-axis coverage combines entry blockade with immune modulation and replication inhibition for comprehensive control, feasible via short lengths for stability and delivery, with physicochemical properties supporting low immunogenicity and protease resistance.
+
+"
+"Loaded_Programs=Feline Infectious Peritonitis (FIP) p01"
+"Loaded_Programs=Feline Infectious Peritonitis (FIP) p02"
+"Loaded_Programs=Feline Infectious Peritonitis (FIP) p03"
+"Loaded_Programs=Feline Infectious Peritonitis (FIP) p04"
+"Loaded_Frequencies=M163.063=1,M57.021,M147.068,M186.079,M101.048,M113.084,M71.037,M163.063,M101.048,M114.043,M163.063,M101.048,M115.027,M99.068,M131.040,M99.068,M115.027,M99.068,M114.043,M57.021,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M113.084,M113.084,M57.021,M57.021,M113.084,M113.084,M128.095,M128.095,M57.021,M57.021,M113.084,M113.084,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M115.027,M113.084,M113.084,M128.095,0=4,"
+"Loaded_Frequencies=M71.037=1,M101.048,M87.032,M71.037,M99.068,M113.084,M128.058,M87.032,M57.021,0=4,"
+"[/Preset]"

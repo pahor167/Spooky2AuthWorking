@@ -1,0 +1,44 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW.txt"
+"PresetName=Generator Signal Test (R) - JW"
+"BFB_Finish_Frequency=18000000"
+"BFB_Grade_Program=0"
+"BFB_2DP_Max=1"
+"BFB_Initial_Step_Size_Hz_Selected=False"
+"BFB_Initial_Step_Size_%=.125"
+"BFB_Initial_Step_Size_%_Selected=True"
+"BFB_Start_Delay=30"
+"BFB_Samples_Per_Step=1"
+"BFB_Threshold=.2"
+"BFB_Reverse_Lookup_Tolerance=.0625"
+"BFB_Include_x_Hz_In_Search=0"
+"BFB_Calculate_Using_RA=True"
+"BFB_Calculate_Using_Peak=False"
+"BFB_BPM=True"
+"BFB_After_Scan_Run_Hits=0"
+"BFB_Detect_mA=False"
+"BFB_Max_HRV=20"
+"Repeat_Sequence=0"
+"Repeat_Chain=1"
+"Out1_Amplitude=20"
+"Out2_Amplitude=20"
+"Preset_Notes=This Preset checks the signal from a generator. Both LEDs on the Remote should start flashing 4 times a second.
+
+If the LEDs are not alternately flashing, make sure everything is connected correctly and turned on.
+
+If this does not fix the problem, restart the generator and the Spooky software.
+
+Finally, try a different USB cable and connect the USB cable directly to your computer.
+
+You can search for further solutions at https://www.spooky2support.com/hc/en-us"
+"F1_Factor=11"
+"Schedule_Run_From=08:00 pm"
+"Schedule_Run_To=08:00 pm"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"User_Defined_2_Waveform=Colloidal_Silver"
+"Out1_Square=True"
+"Out1_User_Defined_1=False"
+"Enable_Remove_Duplicate_Frequencies=1"
+"Loaded_Programs=Slow Signal Test (XTRA)"
+"Loaded_Frequencies=4=180,"
+"[/Preset]"

@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Collagen (Increase) (Coil)"
+"Preset_Notes=Collagen (Increase) for Coil
+
+1. Fibroblast activation: BPC-157 - Promotes rapid fibroblast proliferation and collagen deposition through FAK-paxillin and growth factor pathways.
+2. Collagen precursor mimicry: Palmitoyl pentapeptide-4 - Mimics the pentapeptide fragment of procollagen I to stimulate collagen types I, III and IV biosynthesis.
+3. TGF-{beta} pathway activation: Palmitoyl tripeptide-5 - Activates TGF-{beta} signaling cascade to boost collagen fibrillogenesis while inhibiting MMP-mediated breakdown.
+4. COL1A1 gene upregulation: GEKG tetrapeptide - Directly elevates type I collagen expression at both mRNA and protein levels in human fibroblasts.
+5. ECM reinforcement: Palmitoyl tetrapeptide-7 - Promotes deposition of fibrillin-rich microfibrils and fibronectin to stabilize and organize collagen networks.
+6. Lysyl oxidase activation: LOXAct-D1 - Designed copper-binding peptide that enhances enzymatic cross-linking of collagen chains for improved tensile strength.
+7. Oxidative stress protection: Antiox-D2 - Antioxidant-rich sequence that shields dermal fibroblasts from reactive oxygen species to sustain collagen synthesis.
+8. Fibronectin synergy: FibroSyn-D3 - Engineered motif to strengthen collagen-fibronectin interactions within the extracellular matrix.
+9. Triple helix stabilization: HelixStab-D4 - Peptide supporting prolyl hydroxylation and proper folding for mature, stable collagen triple helices.
+10. Multi-pathway optimization: SynergOpt-D5 - Comprehensive designed peptide integrating multiple mechanisms for maximal collagen production and maturation.
+
+"
+"Loaded_Programs=Collagen (Increase) p01"
+"Loaded_Programs=Collagen (Increase) p02"
+"Loaded_Programs=Collagen (Increase) p03"
+"Loaded_Programs=Collagen (Increase) p04"
+"Loaded_Programs=Collagen (Increase) p05"
+"Loaded_Programs=Collagen (Increase) p06"
+"Loaded_Programs=Collagen (Increase) p07"
+"Loaded_Programs=Collagen (Increase) p08"
+"Loaded_Programs=Collagen (Increase) p09"
+"Loaded_Programs=Collagen (Increase) p10"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M238.230=1,M128.095,M101.048,M101.048,M128.095,M87.032,0=4,"
+"Loaded_Frequencies=M238.230=1,M128.095,M99.068,M128.095,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M128.095,M57.021,0=4,"
+"Loaded_Frequencies=M238.230=1,M57.021,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M137.059=1,M128.095,M97.053,M57.021,M128.058,0=4,"
+"Loaded_Frequencies=M186.079=1,M103.009,M97.053,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M87.032,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M99.068=1,M128.058,M97.053,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M71.037,M57.021,M97.053,M128.058,0=4,"
+"[/Preset]"

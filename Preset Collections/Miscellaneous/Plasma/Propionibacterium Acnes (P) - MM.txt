@@ -1,0 +1,24 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Plasma\Spooky Plasma Advanced (P) - JW.txt"
+"Gate_On_Off_Duration_Option=True"
+"PresetName=Propionibacterium Acnes (P) - MM"
+"Preset_Notes=Propionibacterium Acnes Plasma preset. By Manuel Mallo
+
+This preset has the frequencies for all the 36 known strains of this dangerous pathogen.
+
+It is involved in some cancers (prostate cancer included), as well as some other diseases, as acne, ankilosing spondylitis, sciatica (it attaks the nerves), arthitits, etc, etc.
+
+It has an active role in chronic inflammation, and systemic infections, preparing the field for other organisms to attack, as streptoccoccus.
+
+Also has an important role in morgellons disease, helping to the worsening of that condition.
+
+Boost device is needed, except fot the plasma one.
+
+You can run detox sets on another generator 24/7. Proper hydration is a must.
+
+Place the plasma tube near to, or touching, your body. Ensure the plasma tube has free ventilation.
+
+Connect OUT 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=MM_Propionibacterium acnes (CUST)"
+"Loaded_Frequencies=8887259.46=180,8954286.49=180,8957848.95=180,8966285.19=180,8966285.19=180,8973546.31=180,8973546.31=180,8974316.33=180,8975635.76=180,8975696.92=180,8975696.92=180,8978431.62=180,8978431.62=180,8990770.15=180,9063584.69=180,9075937.12=180,9077558.09=180,9105591.21=180,9139174.80=180,9212045.36=180,9212045.36=180,9212106.44=180,9212106.44=180,9212365.54=180,"
+"[/Preset]"

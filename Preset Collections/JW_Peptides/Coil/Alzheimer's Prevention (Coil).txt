@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Alzheimer’s Prevention (Coil)"
+"Preset_Notes=Alzheimer’s Prevention for Coil
+
+Preventing Alzheimer's disease focuses on intervening in early pathological processes-including amyloid-beta aggregation, neuroinflammation, mitochondrial dysfunction, insulin resistance, oxidative stress, and impaired neuroplasticity-before irreversible damage occurs. The proposed polypeptides are drawn from documented preclinical, observational, and clinical evidence to strengthen neuronal resilience and mitigate key risk factors.
+
+1. GLP-1 receptor agonism for brain insulin sensitization and pathology reduction: Liraglutide improves cerebral glucose metabolism, reduces amyloid and tau burden, suppresses inflammation, and demonstrates cognitive benefits in clinical studies of early Alzheimer's.
+
+2. Mitochondrial-derived anti-apoptotic protection: Humanin inhibits amyloid-beta-induced cell death, preserves mitochondrial integrity, and counters metabolic stress linked to Alzheimer's progression.
+
+3. Exercise-mimetic metabolic regulation: MOTS-c enhances systemic and brain insulin sensitivity, reduces oxidative stress, and exerts direct neuroprotective effects in neurodegenerative models.
+
+4. Nootropic enhancement of BDNF and neuroplasticity: Semax elevates BDNF levels, supports dopaminergic and serotonergic signaling, and improves cognitive reserve in models relevant to Alzheimer's prevention.
+
+5. Copper-tripletide remodeling and antioxidant activity: GHK-Cu restores copper homeostasis, stimulates regenerative pathways, and mitigates oxidative damage associated with Alzheimer's metal dysbalance.
+
+6. Selective erythropoietin receptor modulation for innate repair: ARA-290 activates tissue-protective anti-inflammatory pathways without hematopoietic effects, promoting repair in chronic neuroinflammatory states.
+
+7. Vasoactive intestinal peptide signaling for neuroimmune balance: VIP inhibits pro-inflammatory microglial activation, protects neurons from amyloid toxicity, and supports blood-brain barrier function.
+
+8. Engineered cationic amyloid-binding disruption: Ac-RKLVFFKR-NH2 integrates the established KLVFF amyloid-recognition motif with flanking cationic residues for enhanced solubility, protease resistance, and potential cell penetration to directly block A{beta} fibrillization.
+
+"
+"Loaded_Programs=Alzheimer’s Prevention p01"
+"Loaded_Programs=Alzheimer’s Prevention p02"
+"Loaded_Programs=Alzheimer’s Prevention p03"
+"Loaded_Programs=Alzheimer’s Prevention p04"
+"Loaded_Programs=Alzheimer’s Prevention p05"
+"Loaded_Programs=Alzheimer’s Prevention p06"
+"Loaded_Programs=Alzheimer’s Prevention p07"
+"Loaded_Programs=Alzheimer’s Prevention p08"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M113.084,M99.068,M147.068,M147.068,M128.095,M156.101,0=4,"
+"[/Preset]"

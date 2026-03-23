@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Depression (C)"
+"Preset_Notes=Depression for Contact
+
+Depression is a prevalent mood disorder involving persistent low mood, anhedonia, cognitive deficits, and physiological changes such as reduced neuroplasticity, neuroinflammation, altered neurotransmitter balance, and disrupted circadian rhythms. The proposed polypeptides target evidence-based therapeutic axes from neuropeptide and bioregulatory research to modulate mood pathways, enhance resilience, and reduce inflammation.
+
+1. Tuftsin-derived anxiolytic and antidepressant modulation: Selank reduces anxiety and depression-like behaviors in models with sustained effects.
+2. ACTH(4-10)-derived neuroplasticity and BDNF enhancement: Semax promotes BDNF signaling and exhibits antidepressant-like effects in stress models.
+3. Bioregulatory tripeptide neural and epigenetic protection: Pinealon supports brain cell health and mood stabilization.
+4. Pineal tetrapeptide telomerase activation and mood regulation: Epitalon regulates circadian rhythms and pineal function relevant to mood.
+5. Oxytocinergic modulation of social bonding and emotional regulation: Oxytocin (amidated, cyclic) serves as adjunct for depressive symptoms.
+6. {alpha}-MSH-derived potent anti-inflammatory effects: KPV (Ac- and amidated) mitigates neuroinflammation associated with depression.
+7. Optimized sortilin-derived TREK-1 blockade with enhanced stability: Ac-YAPLPRWSGPIGVSWGLR-NH2 provides rapid, sustained antidepressant action via improved pharmacokinetics.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Depression p01"
+"Loaded_Programs=Depression p02"
+"Loaded_Programs=Depression p03"
+"Loaded_Programs=Depression p04"
+"Loaded_Programs=Depression p05"
+"Loaded_Programs=Depression p06"
+"Loaded_Programs=Depression p07"
+"Loaded_Frequencies=M101.048=1,M128.095,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M115.027,M57.021,0=4,"
+"Loaded_Frequencies=M102.001=1,M163.063,M113.084,M128.058,M114.043,M102.001,M97.053,M113.084,M56.037,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M205.074=1,M71.037,M97.053,M113.084,M97.053,M156.101,M186.079,M87.032,M57.021,M97.053,M113.084,M57.021,M99.068,M87.032,M186.079,M57.021,M113.084,M155.117,0=4,"
+"[/Preset]"

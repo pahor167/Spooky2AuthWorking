@@ -1,0 +1,27 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Muscle Hypertrophy (Bodybuilding) (Coil)"
+"Preset_Notes=Muscle Hypertrophy (Bodybuilding) for Coil
+
+Enhancing skeletal muscle hypertrophy for bodybuilding requires stimulation of anabolic pathways, increased protein synthesis, improved body composition, satellite cell activation, metabolic support, and enhanced vascularization to sustain growth and recovery under resistance training stress.
+1. Selective GH secretagogue: Ipamorelin - Highly selective ghrelin receptor agonist that potently stimulates physiological GH pulses to drive muscle anabolism with minimal impact on cortisol or prolactin.
+2. Long-acting GHRH analog: CJC-1295 - Drug affinity complex-modified growth hormone-releasing hormone that extends plasma half-life for sustained GH and systemic IGF-1 elevation to support ongoing hypertrophy.
+3. Mechano-growth factor: MGF - Mechanical loading-induced IGF-1 Ec splice variant that locally activates satellite cells, promotes fiber repair, and drives training-specific muscle growth.
+4. Lipolytic GH fragment: HGH Fragment 176-191 - C-terminal human growth hormone peptide that accelerates fat mobilization while contributing to lean mass gains and improved muscle definition.
+5. Mitochondrial metabolic regulator: MOTS-c - Mitochondrial open reading frame peptide that enhances AMPK signaling, insulin sensitivity, and glucose handling in skeletal muscle for optimized anabolic environment.
+6. Therapeutic angiogenesis: Stabilized QK - Engineered VEGF-mimetic peptide with improved stability that promotes capillary density in muscle tissue for superior nutrient/oxygen delivery and sustained growth support.
+
+"
+"Loaded_Programs=Muscle Hypertrophy (Bodybuilding) p01"
+"Loaded_Programs=Muscle Hypertrophy (Bodybuilding) p02"
+"Loaded_Programs=Muscle Hypertrophy (Bodybuilding) p03"
+"Loaded_Programs=Muscle Hypertrophy (Bodybuilding) p04"
+"Loaded_Programs=Muscle Hypertrophy (Bodybuilding) p05"
+"Loaded_Programs=Muscle Hypertrophy (Bodybuilding) p06"
+"Loaded_Frequencies=M85.053=1,M137.059,M205.074,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M163.063=1,M71.037,M115.027,M71.037,M113.084,M147.068,M101.048,M114.043,M87.032,M163.063,M156.101,M128.095,M99.068,M113.084,M57.021,M128.058,M113.084,M87.032,M71.037,M156.101,M128.095,M113.084,M113.084,M115.027,M87.032,M113.084,M87.032,0=4,"
+"Loaded_Frequencies=M163.063=1,M129.043,M57.021,M147.068,M163.063,M147.068,M114.043,M128.095,M101.048,M57.021,M163.063,M57.021,M147.068,M128.058,M87.032,M87.032,M87.032,M156.101,M156.101,M71.037,M97.053,M128.058,M101.048,0=4,"
+"Loaded_Frequencies=M163.063=1,M113.084,M156.101,M113.084,M99.068,M128.058,M103.009,M156.101,M87.032,M99.068,M129.043,M57.021,M87.032,M103.009,M57.021,M147.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M170.106=1,M113.084,M101.048,M186.079,M128.058,M129.043,M113.084,M163.063,M128.058,M113.084,M128.095,M163.063,M128.095,M57.021,M112.10,0=4,"
+"[/Preset]"

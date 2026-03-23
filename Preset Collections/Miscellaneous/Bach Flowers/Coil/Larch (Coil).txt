@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Coil\Spooky Coil (Generator Direct) - JW"
+"PresetName=Larch (Coil)"
+"Preset_Notes=Larch / Spooky Coil
+
+Estimated Time: Run this preset for 3:00 minutes.
+Larch - Lack of confidence.
+
+Connect the Spooky PEMF Coil to the High Power port of Spooky Boost.
+"
+"Loaded_Programs=Larch (Coil)"
+"Loaded_Frequencies=336.52,"
+"[/Preset]"

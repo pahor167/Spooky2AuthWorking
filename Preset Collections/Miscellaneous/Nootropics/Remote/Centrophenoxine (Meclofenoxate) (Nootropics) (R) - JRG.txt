@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Centrophenoxine (Meclofenoxate) (Nootropics) (R) - JRG"
+"Loaded_Programs=Centrophenoxine (Meclofenoxate) (CUST)"
+"Loaded_Frequencies=M257.08187,"
+"Preset_Notes=Centrophenoxine is a water-soluble derivative of DMAE. It is a precursor to acetylcholine in the brain. And once metabolized by your liver, it readily crosses the blood-brain barrier.|DMAE is a natural chemical found in your body. It works on boosting cognition and mood. Centrophenoxine seems to be more effective than DMAE when used as a supplement.|Marketed in Europe as Lucidril, its prescribed to treat Alzheimer's and ADHD.|Centrophenoxine is an excellent source of acetylcholine. You can boost the effectiveness of certain nootropics like Piracetam when combined with Centrophenoxine.|A dosage range of 500 - 1000 mg. is considered safe.||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

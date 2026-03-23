@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Veillonella Alcalescens (C)"
+"Preset_Notes=Veillonella Alcalescens for Contact
+
+Veillonella alcalescens (synonymous with Veillonella parvula) is a Gram-negative anaerobic coccus commonly found in the oral cavity, gastrointestinal tract, and respiratory tract. This fastidious bacterium is increasingly recognized as an opportunistic pathogen causing serious infections including native and prosthetic valve endocarditis, osteomyelitis, prosthetic joint infections, and abscess formation. As a member of the oral microbiota, it forms biofilms and exhibits resistance to multiple antibiotics including metronidazole and variable susceptibility to penicillins. The bacterium's survival depends on lactate fermentation from neighboring streptococci, creating metabolic dependencies that can be targeted therapeutically. Treatment approaches require biofilm-penetrating agents and membrane-active compounds effective against anaerobic Gram-negative bacteria.
+
+1. Direct Membrane Disruption: LL-37 - Broad-spectrum antimicrobial peptide disrupts bacterial membranes via carpet-like mechanism and inhibits biofilm formation
+2. Gram-negative Specific Targeting: Thanatin - Insect-derived antimicrobial peptide with specific activity against Gram-negative bacteria via membrane disruption and LPS binding
+3. Biofilm Disruption: Human Beta-Defensin 3 - Human defensin disrupts bacterial biofilms and membranes via electrostatic interactions, effective in high salt environments like oral cavity
+4. Membrane Permeabilization: Indolicidin - Tryptophan-rich peptide permeabilizes bacterial membranes and disrupts energy transduction in anaerobic bacteria
+5. Oxidative Stress Induction: Protegrin-1 - Beta-hairpin structured peptide forms pores in bacterial membranes inducing rapid cell death via oxidative burst
+6. Metabolic Pathway Inhibition: VeilloStat-1 - Designed cationic peptide targets lactate metabolism enzymes and disrupts energy production in Veillonella species
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Veillonella Alcalescens p01"
+"Loaded_Programs=Veillonella Alcalescens p02"
+"Loaded_Programs=Veillonella Alcalescens p03"
+"Loaded_Programs=Veillonella Alcalescens p04"
+"Loaded_Programs=Veillonella Alcalescens p05"
+"Loaded_Programs=Veillonella Alcalescens p06"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M128.095,M128.095,M97.053,M99.068,M97.053,M113.084,M113.084,M163.063,M102.001,M114.043,M156.101,M156.101,M101.048,M57.021,M128.095,M102.001,M128.058,M156.101,M131.040,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M113.084,M114.043,M101.048,M113.084,M128.058,M128.095,M163.063,M163.063,M102.001,M156.101,M99.068,M156.101,M57.021,M57.021,M156.101,M102.001,M71.037,M99.068,M113.084,M87.032,M102.001,M113.084,M97.053,M128.095,M129.043,M129.043,M128.058,M113.084,M57.021,M128.095,M102.001,M87.032,M101.048,M57.021,M156.101,M128.095,M102.001,M102.001,M156.101,M156.101,M128.095,M127.111,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M156.101=1,M57.021,M57.021,M156.101,M113.084,M102.001,M163.063,M102.001,M156.101,M156.101,M156.101,M147.068,M102.001,M99.068,M102.001,M99.068,M57.021,M156.101,0=4,"
+"Loaded_Frequencies=M156.101=1,M156.101,M186.079,M99.068,M186.079,M156.101,M99.068,M186.079,M156.101,0=4,"
+"[/Preset]"

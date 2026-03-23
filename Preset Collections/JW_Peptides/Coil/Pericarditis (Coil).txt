@@ -1,0 +1,35 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Pericarditis (Coil)"
+"Preset_Notes=Pericarditis for Coil
+
+Pericarditis is an inflammatory condition of the pericardium, the sac surrounding the heart, often caused by viral infections, autoimmune disorders, or post-cardiac injury, presenting with sharp chest pain, fever, and potential complications such as pericardial effusion or constrictive pericarditis. 
+
+Peptides are selected to mitigate inflammation, provide cardioprotection, prevent fibrosis, exert antimicrobial effects against infectious causes, modulate immune responses, and support hemodynamic stability; real-world peptides from validated cardiac and inflammatory studies are prioritized, with designed peptides flagged to enhance antioxidant and additional anti-fibrotic coverage for comprehensive therapeutic axes.
+
+"
+"Loaded_Programs=Pericarditis p01"
+"Loaded_Programs=Pericarditis p02"
+"Loaded_Programs=Pericarditis p03"
+"Loaded_Programs=Pericarditis p04"
+"Loaded_Programs=Pericarditis p05"
+"Loaded_Programs=Pericarditis p06"
+"Loaded_Programs=Pericarditis p07"
+"Loaded_Programs=Pericarditis p08"
+"Loaded_Programs=Pericarditis p09"
+"Loaded_Programs=Pericarditis p10"
+"Loaded_Programs=Pericarditis p11"
+"Loaded_Programs=Pericarditis p12"
+"Loaded_Frequencies=M87.032=1,M97.053,M128.095,M131.040,M99.068,M128.058,M57.021,M87.032,M57.021,M102.001,M147.068,M57.021,M156.101,M128.095,M131.040,M115.027,M156.101,M113.084,M87.032,M87.032,M87.032,M87.032,M57.021,M113.084,M57.021,M99.068,M113.084,M156.101,M156.101,M137.059,0=4,"
+"Loaded_Frequencies=M87.032=1,M113.084,M156.101,M156.101,M87.032,M87.032,M102.001,M147.068,M57.021,M57.021,M156.101,M131.040,M115.027,M156.101,M113.084,M57.021,M71.037,M128.058,M87.032,M57.021,M113.084,M57.021,M102.001,M114.043,M87.032,M163.063,M156.101,M147.068,M163.063,0=4,"
+"Loaded_Frequencies=M57.021=1,M87.032,M87.032,M147.068,M113.084,M87.032,M97.053,M129.043,M137.059,M128.058,M156.101,M99.068,M128.058,M128.058,M156.101,M128.095,M129.043,M87.032,M128.095,M128.095,M97.053,M97.053,M71.037,M128.095,M113.084,M128.058,M97.053,M156.101,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M102.001,M115.027,M101.048,M71.037,M101.048,M102.001,M99.068,M101.048,M137.059,M156.101,M113.084,M71.037,M57.021,M113.084,M113.084,M87.032,M156.101,M87.032,M57.021,M57.021,M99.068,M99.068,M128.095,M114.043,M114.043,M147.068,M99.068,M97.053,M101.048,M101.048,M99.068,M71.037,M128.095,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M163.063=1,M97.053,M87.032,M128.095,M97.053,M115.027,M114.043,M97.053,M57.021,M129.043,M115.027,M71.037,M97.053,M71.037,M129.043,M115.027,M131.040,M71.037,M156.101,M163.063,M163.063,M87.032,M71.037,M113.084,M156.101,M137.059,M163.063,M113.084,M114.043,M113.084,M101.048,M156.101,M128.058,M156.101,M163.063,0=4,"
+"Loaded_Frequencies=M102.001=1,M156.101,M57.021,M115.027,M87.032,M102.001,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M87.032,M128.095,M156.101,M128.095,0=4,"
+"[/Preset]"

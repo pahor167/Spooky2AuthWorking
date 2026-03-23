@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\DNA (Dual) (R) - JW"
+"PresetName=Brachybacterium rhamnosum (DNA) (R) - JW"
+"Preset_Notes=Run this preset for as long as possible. We recommend you also run detox programs in Remote mode.||Please note that you will have no indication lights on your remote. The speeds of these frequencies are too high for the LEDs to keep up!||Connect your Spooky Remote to the 'BN' port of Spooky Boost.||This preset contains the following strains:||Brachybacterium rhamnosum NBEC-018 chromosome"
+"Loaded_Programs=Brachybacterium rhamnosum (DNA) (R) - JW (CUST)"
+"Loaded_Frequencies=~6973BC4999983,"
+"[/Preset]"

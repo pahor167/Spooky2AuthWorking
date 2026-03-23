@@ -1,0 +1,57 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Scalar"
+"PresetName=Primary Angle-Closure Glaucoma (PACG) (S)"
+"Preset_Notes=Primary Angle-Closure Glaucoma (PACG) for Scalar
+
+Primary Angle-Closure Glaucoma (PACG) is a major cause of irreversible blindness worldwide, particularly in Asian populations, involving anatomic narrow angles leading to acute or chronic IOP elevation, optic nerve damage, and retinal ganglion cell (RGC) loss. Peptide therapies target key mechanisms including RGC neuroprotection, IOP reduction via receptor agonism or outflow facilitation, and mitochondrial stabilization to prevent progression.
+
+1. PACAP receptor activation: PACAP-27 - Delivers retinoprotective and anti-apoptotic effects to RGCs in glaucoma models via topical eye drops
+2. GLP-1 receptor agonism (topical): Liraglutide - Directly lowers IOP through topical application in experimental models
+3. GLP-1 receptor agonism (systemic): Semaglutide - Reduces glaucoma incidence and progression risk in clinical observations
+4. Dual GLP-1/GIP receptor agonism: Tirzepatide - Provides superior risk reduction for glaucoma and ocular hypertension
+5. Mitochondrial targeting: Elamipretide - Stabilizes cardiolipin and protects RGC mitochondria from oxidative damage
+6. Mitochondrial-derived regulation: MOTS-c - Modulates cellular metabolism and stress response in retinal tissues
+7. Mitochondrial micropeptide protection: SHLP2 - Exerts anti-apoptotic and anti-inflammatory effects on RGCs
+8. AlphaB-crystallin chaperone mimicry: Peptain-1 - Systemically inhibits RGC apoptosis and capillary degeneration in ocular hypertension and ischemia models
+9. Nuclear phosphoprotein interaction: CDR1 - Binds ANP32A to enhance RGC survival in retinal explants
+10. Cell-penetrating enhanced neuroprotection: TAT-CDR1 fusion - Designed fusion improves intracellular delivery of CDR1 motif for amplified RGC protective effects
+11. Chaperone-enhanced penetration: Designed variant - Optimized amphipathic extension of peptain-1 core for better ocular bioavailability and RGC rescue
+
+Scalar fields are unlike regular electro-magnetic waves. Scalar fields move information. The field envelope is static, and has the ability to vast distances without the loss of strength. If no-one is in the field, the strength increases.
+
+Scalar fields do not produce frequency fatigue.  Your body takes what it needs, and disregards the rest. However, you may initially experience a slight headache while your cell mitochondria recharges.
+
+1. Connect generator Out 1 or Out 2 to the Spooky Scalar generator input.
+
+2. Turn Spooky2 Scalar on. 
+
+3. Tune Spooky2 Scalar as per the manual.
+
+4. Select the programs you wish to run, and load into the generator.
+
+5. Start the generator.
+
+Please refer to the Spooky2 Scalar User's Guide for more information."
+"Loaded_Programs=Primary Angle-Closure Glaucoma (PACG) p01"
+"Loaded_Programs=Primary Angle-Closure Glaucoma (PACG) p02"
+"Loaded_Programs=Primary Angle-Closure Glaucoma (PACG) p03"
+"Loaded_Programs=Primary Angle-Closure Glaucoma (PACG) p04"
+"Loaded_Programs=Primary Angle-Closure Glaucoma (PACG) p05"
+"Loaded_Programs=Primary Angle-Closure Glaucoma (PACG) p06"
+"Loaded_Programs=Primary Angle-Closure Glaucoma (PACG) p07"
+"Loaded_Programs=Primary Angle-Closure Glaucoma (PACG) p08"
+"Loaded_Programs=Primary Angle-Closure Glaucoma (PACG) p09"
+"Loaded_Programs=Primary Angle-Closure Glaucoma (PACG) p10"
+"Loaded_Programs=Primary Angle-Closure Glaucoma (PACG) p11"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M57.021,M113.084,M147.068,M101.048,M115.027,M87.032,M163.063,M101.048,M128.095,M163.063,M128.095,M128.095,M128.095,M147.063,M71.037,M99.068,M128.095,M128.095,M163.063,M71.037,M71.037,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M137.059=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M85.053,M129.043,M156.101,M57.021,0=4,"
+"Loaded_Frequencies=M163.063=1,M85.053,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M163.063,M87.032,M113.084,M85.053,M113.084,M115.027,M128.095,M113.084,M128.058,M85.053,M71.037,M147.068,M99.068,M128.058,M186.079,M113.084,M113.084,M57.021,M97.053,M97.053,M87.032,M86.048,0=4,"
+"Loaded_Frequencies=M129.043=1,M147.068,M87.032,M156.101,M128.095,M163.063,M115.027,M147.068,0=4,"
+"Loaded_Frequencies=M131.040=1,M156.101,M186.079,M128.058,M129.043,M131.040,M57.021,M163.063,M113.084,M147.068,M163.063,M97.053,M156.101,M128.095,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M131.040=1,M57.021,M99.068,M128.095,M147.068,M147.068,M101.048,M113.084,M87.032,M101.048,M156.101,M147.068,M147.068,M97.053,M87.032,M99.068,M128.058,M156.101,M71.037,M99.068,M97.053,M113.084,M186.079,M101.048,M114.043,M87.032,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M147.068,M87.032,M99.068,M114.043,M113.084,M115.027,M99.068,M128.095,M137.059,M147.068,M87.032,M97.053,M129.043,M129.043,M113.084,M128.095,M99.068,M128.095,M99.068,0=4,"
+"Loaded_Frequencies=M87.032=1,M103.009,M101.048,M57.021,M101.048,M87.032,M87.032,M115.027,M99.068,M57.021,M57.021,M163.063,M114.043,M163.063,M99.068,M87.032,M186.079,M163.063,M128.058,0=4,"
+"Loaded_Frequencies=M163.063=1,M57.021,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M87.032,M103.009,M101.048,M57.021,M101.048,M87.032,M87.032,M115.027,M99.068,M57.021,M57.021,M163.063,M114.043,M163.063,M99.068,M87.032,M186.079,M163.063,M128.058,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M147.068,M87.032,M99.068,M114.043,M113.084,M115.027,M99.068,M128.095,M137.059,M147.068,M87.032,M97.053,M129.043,M129.043,M113.084,M128.095,M99.068,M128.095,M99.068,M128.095,M128.095,M128.095,M128.095,M128.095,0=4,"
+"[/Preset]"

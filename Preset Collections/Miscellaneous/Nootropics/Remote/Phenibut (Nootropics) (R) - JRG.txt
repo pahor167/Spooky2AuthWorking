@@ -1,0 +1,7 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Remote\Healing (R) - JW"
+"PresetName=Phenibut (Nootropics) (R) - JRG"
+"Loaded_Programs=Phenibut (CUST)"
+"Loaded_Frequencies=M179.09463,"
+"Preset_Notes=Phenibut was developed in the Soviet Union in the 1960's. Phenibut is a GABA agonist and primarily binds to the GABAb receptor. GABAa receptor agonists include alcohol and benzodiazepines.|Phenibut can have a sedative effect and has strong anti-anxiety qualities. It can be used to combat depression, improve mood, cognitive function and motivation.|A safe starting dose of Phenibut is 200 - 300 mg. Take it on an empty stomach and expect to feel its full effect in 2 - 6 hours. Experienced Phenibut users will dose as high as 1.5 grams per day (NOT recommended when you're starting out).||Spooky Remote provides a convenient way to send frequencies from any distance. Sandwich your DNA in some paper tape and place inside Spooky Remote. Choose the programs you wish to run, and start the generator.||DNA Entanglement transfers the frequencies directly into your DNA.||The Preset has been designed to loop continuously until stopped.||Connect your Spooky Remote to the 'BN' port of Spooky Boost."
+"[/Preset]"

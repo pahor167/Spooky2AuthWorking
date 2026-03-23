@@ -1,0 +1,60 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (R)"
+"PresetName=R37 Simple Parasites B - DB"
+"Out1_Amplitude=10"
+"Out1_Shadow_Hz_Factor=0"
+"Out2_Amplitude=10"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Remote Mode.
+
+Update: September 2016.
+
+Connect your Spooky Remote to the 'BN' port of Spooky Boost, or to the Out 1 port of your generator if you don't have Spooky Boost.
+
+This Preset is set to run non-stop. To use it, please consult its entry in the timetable for your Spooky rig in the Guide document, and enter the 'Hours' value shown. To do this, click the 'Settings' tab, go to the 'Schedule' pane, and click in 'Run for.' You can save the edited preset to your 'User' collection if you wish.
+
+PROGRAMS:
+Babesia Microti XTRA
+Babesia WA1 XTRA
+Babesia Divergens XTRA
+Babesia PROV
+Nisin XTRA
+Babesiosis KHZ
+Babesiosis XTRA
+Giardia Lamblia Trophozoites HC
+Nisin XTRA
+Parasites Giardia XTRA
+Parasites Giardia Lamblia Type 2 XTRA
+Your Scan Results CUST
+"
+"Frequency_Limit_Harmonic_Type=Octave"
+"User_Defined_1_Waveform=Colloidal_Silver"
+"Out1_Square_Hbomb=True"
+"Out1_User_Defined_1=False"
+"Follow_Out1_Wave=False"
+"SpikeWave=False"
+"InverseWave=True"
+"Loaded_Programs=Babesia Microti (XTRA)"
+"Loaded_Programs=Babesia WA 1 (XTRA)"
+"Loaded_Programs=Babesia Divergens (XTRA)"
+"Loaded_Programs=Babesia (PROV)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Babesiosis (KHZ)"
+"Loaded_Programs=Babesiosis (XTRA)"
+"Loaded_Programs=Giardia Lamblia Trophozoites (HC)"
+"Loaded_Programs=Nisin (XTRA)"
+"Loaded_Programs=Parasites Giardia (XTRA)"
+"Loaded_Programs=Parasites Giardia Lamblia Type 2 (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=465.7=180,"
+"Loaded_Frequencies=467.7=180,"
+"Loaded_Frequencies=470.46=180,"
+"Loaded_Frequencies=76=180,570=180,1583=180,1584=180,432=180,753=180,5776=180,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=40=180,180=180,700=180,900=180,7500=180,45750=180,71500=180,95000=180,219340=180,379930=180,"
+"Loaded_Frequencies=76=180,432=180,570=180,753=180,1583=180,1584=180,5776=180,"
+"Loaded_Frequencies=421400-426300=3600,"
+"Loaded_Frequencies=20476554.6609045=180,"
+"Loaded_Frequencies=50=180,120=180,900=180,5500=180,27500=180,15410=180,45000=180,421400=180,426300=180,424000=180,"
+"Loaded_Frequencies=40=180,320=180,650=180,900=180,5870=180,7500=180,37500=180,421400=180,426300=180,424000=180,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

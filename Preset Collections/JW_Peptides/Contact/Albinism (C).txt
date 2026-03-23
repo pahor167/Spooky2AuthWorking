@@ -1,0 +1,51 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Albinism (C)"
+"Preset_Notes=Albinism for Contact
+
+Albinism is a group of inherited genetic conditions characterized by a significant reduction or complete absence of melanin pigment in the skin, hair, and eyes, leading to hypopigmentation. It is caused by mutations in genes involved in the production, transport, or distribution of melanin, such as TYR (tyrosinase), OCA2, TYRP1, SLC45A2, and GPR143. These mutations disrupt the normal function of melanocytes, the cells responsible for melanin synthesis. Symptoms include very pale skin that burns easily in the sun, white or light-colored hair, light blue or pinkish eyes, severe visual impairments like nystagmus (involuntary eye movements), strabismus (misaligned eyes), photophobia (sensitivity to light), reduced visual acuity due to foveal hypoplasia (underdeveloped macula in the retina), and increased risk of skin cancer from UV exposure without protective pigment. Pathophysiology involves impaired melanin biosynthesis pathways, including the rate-limiting step catalyzed by tyrosinase, leading to accumulation of toxic intermediates or lack of pigment granule maturation in melanosomes. In ocular albinism, abnormal routing of optic nerve fibers results in poor binocular vision. The condition can be oculocutaneous (affecting skin, hair, eyes) or ocular (primarily eyes), with syndromic forms like Hermansky-Pudlak syndrome involving additional bleeding or lung issues. There is no cure, but management includes sun protection, visual aids, and surgery for eye issues. The proposed polypeptides address albinism by targeting key therapeutic axes, including enhancing melanin biosynthesis through MC1R activation to increase pigment production, stabilizing tyrosinase activity to overcome enzymatic defects, improving retinal pigmentation to mitigate visual deficits, modulating ubiquitin-mediated proteolysis to prevent protein degradation, and providing photoprotection. Real-world polypeptides like {alpha}-MSH, afamelanotide, ACTH, {beta}-MSH, VIP, angiotensin II, and synthetic tetrapeptides activate the cAMP/PKA/CREB/MITF pathway to upregulate TYR, TYRP1, and DCT expression, promoting melanin synthesis with feasibility demonstrated in skin tanning and hypopigmentation models. Designed polypeptides (flagged as designed) conceptually mimic tyrosinase fragments or GPR143 signaling for retinal development, with physicochemical considerations for stability (e.g., amidation), solubility, and ocular/skin delivery via topical or injectable formulations, supported by peptide therapeutics in dermatology and ophthalmology.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Albinism p01"
+"Loaded_Programs=Albinism p02"
+"Loaded_Programs=Albinism p03"
+"Loaded_Programs=Albinism p04"
+"Loaded_Programs=Albinism p05"
+"Loaded_Programs=Albinism p06"
+"Loaded_Programs=Albinism p07"
+"Loaded_Programs=Albinism p08"
+"Loaded_Programs=Albinism p09"
+"Loaded_Programs=Albinism p10"
+"Loaded_Programs=Albinism p11"
+"Loaded_Programs=Albinism p12"
+"Loaded_Programs=Albinism p13"
+"Loaded_Programs=Albinism p14"
+"Loaded_Programs=Albinism p15"
+"Loaded_Programs=Albinism p16"
+"Loaded_Programs=Albinism p17"
+"Loaded_Programs=Albinism p18"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M129.043=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M98.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M163.063,M87.032,M131.040,M129.043,M137.059,M147.068,M156.101,M186.079,M57.021,M128.095,M97.053,M99.068,M128.095,M128.095,M156.101,M156.101,M97.053,M99.068,M128.095,M99.068,M163.063,M97.053,M114.043,M57.021,M71.037,M129.043,M115.027,M129.043,M87.032,M71.037,M129.043,M71.037,M147.068,M97.053,M129.043,M147.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M129.043,M128.095,M128.095,M115.027,M129.043,M57.021,M97.053,M163.063,M156.101,M129.043,M137.059,M147.068,M156.101,M186.079,M87.032,M97.053,M97.053,M128.095,M115.027,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M115.027=1,M156.101,M99.068,M163.063,M113.084,M137.059,M97.053,M147.068,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,M147.068,M115.027,M147.068,M156.101,M186.079,M98.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M137.059,M147.068,M115.027,M147.068,M156.101,M186.079,M98.084,0=4,"
+"Loaded_Frequencies=M147.068=1,M156.101,M186.079,M57.021,M98.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M147.068,M156.101,M186.079,M57.021,M98.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M147.068,M115.027,M147.068,M156.101,M186.079,M98.084,0=4,"
+"Loaded_Frequencies=M71.037=1,M103.009,M115.027,M129.043,M147.068,M57.021,M137.059,M113.084,M128.095,M129.043,0=4,"
+"Loaded_Frequencies=M131.040=1,M114.043,M97.053,M128.058,M156.101,M87.032,M101.048,M99.068,M186.079,M163.063,0=4,"
+"Loaded_Frequencies=M163.063=1,M186.079,M99.068,M101.048,M87.032,M156.101,M97.053,M114.043,M97.053,M131.04,0=4,"
+"Loaded_Frequencies=M113.084=1,M129.043,M128.095,M137.059,M147.068,M57.021,M156.101,M115.027,M71.037,M129.043,0=4,"
+"Loaded_Frequencies=M97.053=1,M97.053,M128.058,M87.032,M101.048,M99.068,M186.079,M163.063,M131.040,M114.043,0=4,"
+"Loaded_Frequencies=M147.068=1,M57.021,M137.059,M113.084,M128.095,M129.043,M131.040,M97.053,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M156.101=1,M87.032,M101.048,M99.068,M186.079,M71.037,M103.027,M115.027,M129.043,M147.068,0=4,"
+"[/Preset]"

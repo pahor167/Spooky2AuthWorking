@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Sweet Chestnut (S)"
+"Preset_Notes=Sweet Chestnut / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Sweet Chestnut - Extreme mental anguish,when everything has been tried and there is no light left.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Sweet Chestnut (S)"
+"Loaded_Frequencies=421.51,"
+"[/Preset]"

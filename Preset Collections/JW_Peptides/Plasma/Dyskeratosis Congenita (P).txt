@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Dyskeratosis Congenita (P)"
+"Preset_Notes=Dyskeratosis Congenita for Plasma
+
+Dyskeratosis congenita (DC) is a rare inherited telomere biology disorder characterized by critically short telomeres due to germline mutations in genes essential for telomere maintenance, most commonly DKC1 (encoding dyskerin), TERT (telomerase reverse transcriptase), TERC (telomerase RNA component), RTEL1, PARN, NOP10, NHP2, WRAP53, and others. This leads to impaired telomerase function or telomere shelterin complex stability, accelerating telomere attrition with each cell division. Clinically, classic DC presents with the diagnostic triad of abnormal skin pigmentation, nail dystrophy, and oral leukoplakia; however, the hallmark complication is bone marrow failure (aplastic anemia) in ~80-90% of cases, often by adolescence or early adulthood. Additional manifestations include pulmonary fibrosis, liver cirrhosis, esophageal stenosis, premature hair graying, increased cancer predisposition (especially squamous cell carcinomas and hematologic malignancies), developmental delay, and immune deficiencies. Very short telomeres trigger cellular senescence, replicative exhaustion of stem/progenitor cells, genomic instability, p53 activation, and chronic DNA damage responses, driving multi-organ failure.
+
+Current management is supportive and disease-modifying: androgen therapy (e.g., danazol, oxymetholone) can transiently elongate telomeres and improve hematologic parameters in some patients; hematopoietic stem cell transplantation is curative for bone marrow failure but carries high risks due to regimen-related toxicity in telomere-deficient patients; lung or liver transplantation for end-stage fibrosis. No approved therapies directly correct the underlying telomerase deficiency, and gene therapy remains experimental. No short polypeptide therapeutics are established or in clinical use; recombinant full-length proteins or small molecules dominate research. The four proposed conceptual designed polypeptides are all short synthetic peptides (8 residues, no PTMs) to address principal pathogenic axes with synthetic feasibility, potential cell penetration, and low immunogenicity risk.
+
+The first designed peptide, rich in basic and aromatic residues, conceptually enhances telomerase recruitment or activity to promote telomere elongation and counteract attrition. The second designed peptide targets hematopoietic stem cell preservation, potentially shielding progenitors from senescence and supporting marrow function. The third designed peptide aims to attenuate fibrogenic signaling in lung and liver to reduce progressive fibrosis. The fourth designed peptide supports DNA damage response pathways, potentially stabilizing shelterin or reducing genomic instability. Physicochemically, these peptides display diverse charge and hydrophobicity profiles for axis-specific interactions, no excessive consecutive repeats to minimize aggregation propensity, high pairwise sequence diversity (>50% differences) for broad mechanistic coverage, and short length facilitating scalable synthesis and potential intracellular delivery.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Dyskeratosis Congenita p01"
+"Loaded_Programs=Dyskeratosis Congenita p02"
+"Loaded_Programs=Dyskeratosis Congenita p03"
+"Loaded_Programs=Dyskeratosis Congenita p04"
+"Loaded_Frequencies=M156.101=1,M128.095,M128.095,M101.048,M156.101,M137.059,M147.068,M97.053,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M115.027,M99.068,M87.032,M114.043,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M163.063=1,M87.032,M129.043,M147.068,M115.027,M128.058,M97.053,M113.084,0=4,"
+"Loaded_Frequencies=M186.079=1,M113.084,M131.040,M128.095,M156.101,M99.068,M57.021,M71.037,0=4,"
+"[/Preset]"

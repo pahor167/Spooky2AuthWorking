@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Ganglion Cyst (P)"
+"Preset_Notes=Ganglion Cyst for Plasma
+
+Ganglion cysts are benign, fluid-filled sacs that commonly develop along tendons or joints, often causing pain, swelling, or restricted movement. Relevant therapeutic axes include tissue regeneration to repair joint capsules and tendons, anti-inflammatory effects to reduce swelling, analgesic properties for pain relief, promotion of angiogenesis for improved healing, enhancement of collagen synthesis and extracellular matrix remodeling, modulation of fluid accumulation for cyst resolution, and strengthening of connective tissues to prevent recurrence. The selected peptides cover these axes: real-world peptides prioritize validated options like BPC-157 for healing and anti-inflammation, PEDF-29 for tendon stem cell proliferation, GHK for tissue repair, VIP for anti-inflammatory modulation, LL-37 for wound healing and antimicrobial support, CBD3 for neuropathic pain inhibition, TAT-CBD3 for enhanced delivery in pain relief, KPV for reducing inflammation, Thymosin alpha-1 for immune-mediated repair, and GHRP-6 for growth hormone stimulation aiding recovery. The final two are designed peptides: one for promoting fluid resorption through hydrophilic interactions, and a cyclic one for structural reinforcement via disulfide stabilization.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Ganglion Cyst p01"
+"Loaded_Programs=Ganglion Cyst p02"
+"Loaded_Programs=Ganglion Cyst p03"
+"Loaded_Programs=Ganglion Cyst p04"
+"Loaded_Programs=Ganglion Cyst p05"
+"Loaded_Programs=Ganglion Cyst p06"
+"Loaded_Programs=Ganglion Cyst p07"
+"Loaded_Programs=Ganglion Cyst p08"
+"Loaded_Programs=Ganglion Cyst p09"
+"Loaded_Programs=Ganglion Cyst p10"
+"Loaded_Programs=Ganglion Cyst p11"
+"Loaded_Programs=Ganglion Cyst p12"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M113.084,M57.021,M71.037,M129.043,M128.058,M156.101,M101.048,M129.043,M87.032,M113.084,M113.084,M137.059,M156.101,M71.037,M113.084,M163.063,M163.063,M115.027,M113.084,M113.084,M87.032,M87.032,M97.053,M115.027,M113.084,M137.059,M57.021,M100.064,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M137.059=1,M87.032,M115.027,M71.037,M99.068,M147.068,M101.048,M115.027,M114.043,M163.063,M101.048,M156.101,M113.084,M156.101,M128.095,M128.058,M131.040,M71.037,M99.068,M128.095,M128.095,M163.063,M113.084,M114.043,M87.032,M113.084,M113.084,M114.043,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M71.037=1,M156.101,M87.032,M156.101,M113.084,M71.037,M129.043,M113.084,M156.101,M57.021,M99.068,M97.053,M156.101,M57.021,M113.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M71.037,M71.037,M99.068,M115.027,M101.048,M87.032,M87.032,M129.043,M113.084,M101.048,M101.048,M128.095,M115.027,M113.084,M128.095,M129.043,M128.095,M128.095,M129.043,M99.068,M99.068,M129.043,M129.043,M71.037,M129.043,M114.043,0=4,"
+"Loaded_Frequencies=M137.059=1,M186.079,M71.037,M186.079,M147.068,M127.111,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M115.027,M87.032,M128.058,M129.043,0=4,"
+"Loaded_Frequencies=M102.001=1,M128.095,M156.101,M87.032,M97.053,M102.001,0=4,"
+"[/Preset]"

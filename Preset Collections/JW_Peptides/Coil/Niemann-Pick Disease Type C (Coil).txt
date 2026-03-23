@@ -1,0 +1,24 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Niemann-Pick Disease Type C (Coil)"
+"Preset_Notes=Niemann-Pick Disease Type C for Coil
+
+Niemann-Pick Disease Type C is a rare autosomal recessive lysosomal storage disorder caused by mutations in NPC1 or NPC2 genes, resulting in defective lipid transport, accumulation of cholesterol and glycosphingolipids in lysosomes, leading to progressive neurological deterioration, visceral organ involvement, and reduced life expectancy. The selected real-world polypeptides target five evidence-based therapeutic axes derived from preclinical studies, investigational research, and mechanistic parallels in lipid storage and neurodegenerative disorders.
+1. ApoA-I mimetic cholesterol efflux: Ac-18A-NH2 promotes ABCA1-mediated cholesterol efflux to reduce lysosomal accumulation.
+2. Multi-organ cytoprotection: BPC-157 stabilizes endothelial and cellular integrity, countering organ damage.
+3. Autophagic flux restoration: Tat-Beclin 1 induces autophagy to enhance clearance of stored lipids.
+4. Anti-inflammatory peptide action: Ac-KPV-NH2 inhibits NF-{kappa}B and reduces chronic inflammation.
+5. Bioregulatory neuroprotection: Pinealon normalizes peptide biogenesis and protects against neuronal loss.
+
+"
+"Loaded_Programs=Niemann-Pick Disease Type C p01"
+"Loaded_Programs=Niemann-Pick Disease Type C p02"
+"Loaded_Programs=Niemann-Pick Disease Type C p03"
+"Loaded_Programs=Niemann-Pick Disease Type C p04"
+"Loaded_Programs=Niemann-Pick Disease Type C p05"
+"Loaded_Frequencies=M157.038=1,M186.079,M113.084,M128.095,M71.037,M147.068,M163.063,M115.027,M128.095,M99.068,M71.037,M129.043,M128.095,M147.068,M128.095,M129.043,M71.037,M146.084,0=4,"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M156.101,M128.095,M128.095,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M129.043=1,M115.027,M156.101,0=4,"
+"[/Preset]"

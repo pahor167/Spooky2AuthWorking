@@ -1,0 +1,53 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Post-Concussion Syndrome (C)"
+"Preset_Notes=Post-Concussion Syndrome for Contact
+
+Post-Concussion Syndrome (PCS) involves persistent symptoms following concussion/mild traumatic brain injury, including headaches, dizziness, cognitive impairment, fatigue, and mood disturbances. Key pathophysiological mechanisms include neuroinflammation, glutamate excitotoxicity, oxidative stress, mitochondrial dysfunction, axonal injury, blood-brain barrier disruption, and impaired neural repair.
+
+This polypeptide set prioritizes real-world examples targeting neuroinflammation, immunomodulation, and broad neuroprotection (e.g., CAQK for injury-specific targeting, ApoE-mimetics CN-105 and COG1410 for anti-inflammatory effects, Exendin-4 for GLP-1-mediated anti-apoptotic and metabolic support). Only 4 verifiable real-world polypeptides with confirmed sequences and sources were identified via searches (shortfall from min_real_polypeptides=14 documented; all used). Supplemented with 14 designed polypeptides to reach min_total_polypeptides=18 and ensure coverage of additional axes (oxidative stress, excitotoxicity, repair promotion), using strict design rules for diversity, non-standard residues (>=2 per designed), and stability (including >=30% cyclic). Designed flagged as conceptual.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Post-Concussion Syndrome p01"
+"Loaded_Programs=Post-Concussion Syndrome p02"
+"Loaded_Programs=Post-Concussion Syndrome p03"
+"Loaded_Programs=Post-Concussion Syndrome p04"
+"Loaded_Programs=Post-Concussion Syndrome p05"
+"Loaded_Programs=Post-Concussion Syndrome p06"
+"Loaded_Programs=Post-Concussion Syndrome p07"
+"Loaded_Programs=Post-Concussion Syndrome p08"
+"Loaded_Programs=Post-Concussion Syndrome p09"
+"Loaded_Programs=Post-Concussion Syndrome p10"
+"Loaded_Programs=Post-Concussion Syndrome p11"
+"Loaded_Programs=Post-Concussion Syndrome p12"
+"Loaded_Programs=Post-Concussion Syndrome p13"
+"Loaded_Programs=Post-Concussion Syndrome p14"
+"Loaded_Programs=Post-Concussion Syndrome p15"
+"Loaded_Programs=Post-Concussion Syndrome p16"
+"Loaded_Programs=Post-Concussion Syndrome p17"
+"Loaded_Programs=Post-Concussion Syndrome p18"
+"Loaded_Frequencies=M103.009=1,M71.037,M128.058,M128.095,0=4,"
+"Loaded_Frequencies=M141.079=1,M87.032,M156.101,M156.101,M155.117,0=4,"
+"Loaded_Frequencies=M137.059=1,M71.037,M129.043,M57.021,M101.048,M147.068,M101.048,M87.032,M115.027,M99.068,M87.032,M87.032,M163.063,M113.084,M129.043,M57.021,M128.058,M71.037,M71.037,M128.095,M129.043,M147.068,M113.084,M71.037,M156.101,M129.043,M156.101,0=4,"
+"Loaded_Frequencies=M113.048=1,M87.032,M85.053,M113.084,M156.101,M128.095,M113.084,M85.053,M128.095,M156.101,M113.084,M112.10,0=4,"
+"Loaded_Frequencies=M86.048=1,M114.079,M113.048,M86.048,M114.079,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M85.053,M114.079,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M113.048,M156.101,M102.001,0=4,"
+"Loaded_Frequencies=M102.001=1,M150.954,M114.079,M86.048,M57.021,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M113.048=1,M113.084,M114.079,M113.048,M113.084,0=4,"
+"Loaded_Frequencies=M102.001=1,M114.079,M100.064,M113.048,M57.021,M86.048,M102.001,0=4,"
+"Loaded_Frequencies=M150.954=1,M86.048,M150.954,M114.079,M128.095,0=4,"
+"Loaded_Frequencies=M102.001=1,M113.048,M85.053,M114.079,M86.048,M57.021,M102.001,0=4,"
+"Loaded_Frequencies=M114.079=1,M86.048,M200.095,M114.079,M86.048,0=4,"
+"Loaded_Frequencies=M102.001=1,M86.048,M114.079,M113.084,M156.101,M128.095,M102.001,0=4,"
+"Loaded_Frequencies=M85.053=1,M114.079,M85.053,M86.048,M156.101,M57.021,M128.095,0=4,"
+"Loaded_Frequencies=M113.048=1,M100.064,M150.954,M114.079,M86.048,0=4,"
+"Loaded_Frequencies=M86.048=1,M113.048,M114.079,M100.064,M128.095,M156.101,0=4,"
+"Loaded_Frequencies=M114.079=1,M85.053,M86.048,M113.048,M113.084,M156.101,0=4,"
+"[/Preset]"

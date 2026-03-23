@@ -1,0 +1,38 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Plasma"
+"PresetName=Horse Sarcoids (P)"
+"Preset_Notes=Horse Sarcoids for Plasma
+
+Horse sarcoids are the most common dermatological neoplasms in equids, representing locally aggressive, non-metastatic fibroblastic skin tumors. They are etiologically linked to infection by Bovine Papillomavirus types 1 and 2 (BPV-1, BPV-2), and more recently BPV-13. Clinical presentation is categorized into six distinct forms: occult (flat/hairless), verrucose (wart-like), nodular (firm lumps), fibroblastic (fleshy/ulcerated), mixed, and the rare, highly invasive malevolent form. Current therapeutic strategies in 2024-2026 emphasize multi-modal approaches, including high-frequency irreversible electroporation (H-FIRE), viral vector-based immunotherapies (delNS technology), and peptide-based vaccines targeting the viral oncoproteins E5, E6, and E7 which maintain the transformed phenotype.
+
+1. Viral Oncoprotein Targeting: BPV-1 E6-derived Peptide (iNSA/E6E7equ) - Immunogenic peptide fragment used in viral vector systems to induce CD8+ T-cell responses against tumor-expressing E6 antigens.
+2. Viral Oncoprotein Targeting: BPV-1 E7-derived Peptide - Antigenic sequence designed to trigger systemic antitumor responses, specifically targeting BPV-transformed fibroblasts.
+3. Oncogenic Pathway Inhibition: E5-Blocking Peptide - A synthetic sequence designed to disrupt the BPV-1 E5 oncoprotein's interaction with the PDGF receptor, inhibiting cell hyperproliferation.
+4. Innate Immune Activation: eNAP-2 (Equine Neutrophil Antimicrobial Peptide) - A natural equine cathelicidin-like peptide that serves as an endogenous antibiotic and immune modulator against viral-associated lesions.
+5. Antiviral Enzymatic Support: Lysozyme-based Peptide - A recombinant or synthetic fragment of equine lysozyme showing activity against papillomavirus by disrupting viral entry and replication.
+6. Tumor Suppressor Support: p53-Stabilizing Peptide - A designed sequence that counteracts E6-mediated downregulation of p53-related pathways, promoting apoptosis in sarcoid cells.
+7. Adhesion Disruption: Paxillin-mimetic Peptide - Engineered peptide that competitively binds to the E6 oncoprotein to prevent its interference with focal adhesion proteins, reducing tissue invasiveness.
+8. Optimization Axis: Sarcoid-Regress-V1 - An engineered polypeptide combining BPV-antigens with a cell-penetrating motif (TAT) to enhance intracellular delivery and MHC-I presentation for complete lesion clearance.
+
+In addition to running each frequency directly, this preset creates strong sideband harmonics that also hit the program frequencies. Using this technique, each program frequency will be hit twice .. once by Out1 and again by sidebands created by the modulation created by Out2. This feature will only work in Spooky version 20240315 or later.
+
+A preset setting reduces the amplitude from 10 down to 5v. This setting is the 'Only allow positive waveform values', which has the effect of halving the amplitude.
+
+Connect Out 1 to Input. Out 2 to Modulation."
+"Loaded_Programs=Horse Sarcoids p01"
+"Loaded_Programs=Horse Sarcoids p02"
+"Loaded_Programs=Horse Sarcoids p03"
+"Loaded_Programs=Horse Sarcoids p04"
+"Loaded_Programs=Horse Sarcoids p05"
+"Loaded_Programs=Horse Sarcoids p06"
+"Loaded_Programs=Horse Sarcoids p07"
+"Loaded_Programs=Horse Sarcoids p08"
+"Loaded_Frequencies=M128.095=1,M128.095,M128.095,M128.095,M163.063,M99.068,M87.032,M113.084,M115.027,M99.068,M101.048,M113.084,M128.058,M128.058,M113.084,M129.043,M87.032,M137.059,M128.095,M128.095,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M131.040,M128.095,M137.059,M114.043,M113.084,M99.068,M114.043,M115.027,M128.095,M163.063,M128.095,0=4,"
+"Loaded_Frequencies=M186.079=1,M163.063,M156.101,M156.101,M113.084,M113.084,M156.101,M128.095,M137.059,M114.043,M128.058,M115.027,M129.043,0=4,"
+"Loaded_Frequencies=M71.037=1,M113.084,M129.043,M129.043,M114.043,M113.084,M113.084,M113.084,M147.068,M113.084,M115.027,M128.095,M128.095,M113.084,M113.084,M128.095,M71.037,M113.084,M115.027,M128.095,M114.043,M128.058,M156.101,M113.084,M113.084,0=4,"
+"Loaded_Frequencies=M128.095=1,M114.043,M113.084,M113.084,M156.101,M128.095,M113.084,M101.048,M114.043,M113.084,M129.043,M128.095,M156.101,M113.084,M128.058,M114.043,0=4,"
+"Loaded_Frequencies=M129.043=1,M129.043,M128.058,M113.084,M129.043,M156.101,M131.040,M156.101,M156.101,M163.063,M113.084,M156.101,0=4,"
+"Loaded_Frequencies=M114.043=1,M101.048,M113.084,M114.043,M137.059,M113.084,M115.027,M128.095,M163.063,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M156.101,M156.101,M128.058,M156.101,M156.101,M156.101,M128.058,M128.058,M128.095,M128.095,M128.095,M128.095,0=4,"
+"[/Preset]"

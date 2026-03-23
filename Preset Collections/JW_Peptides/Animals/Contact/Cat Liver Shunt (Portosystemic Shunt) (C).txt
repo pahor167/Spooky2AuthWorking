@@ -1,0 +1,37 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Cat Liver Shunt (Portosystemic Shunt) (C)"
+"Preset_Notes=Cat Liver Shunt (Portosystemic Shunt) for Contact
+
+Portosystemic shunt (PSS) in cats is a congenital vascular anomaly where blood from the digestive tract bypasses the liver, leading to toxin accumulation (especially ammonia), hepatic encephalopathy, neurological signs (seizures, ataxia, behavioral changes), stunted growth, urinary issues, and liver atrophy. While surgical ligation is curative when feasible and medical management (low-protein diet, lactulose, antibiotics) is standard, proposed polypeptides target adjunctive axes from hepatic/vascular injury models to support detoxification, hepatoprotection, neuroprotection, regeneration, endothelial stability, and matrix reinforcement.
+
+1. Stable gastric pentadecapeptide-mediated cytoprotection and vascular integrity: BPC-157 counters toxin-induced lesions and maintains endothelial function relevant to shunt bypass.
+2. Copper-binding tripeptide regenerative and antioxidant actions: GHK-Cu promotes liver remodeling and mitigates oxidative damage.
+3. Acetylated Thymosin {beta}4 fragment-enhanced repair: TB-500 facilitates actin dynamics, migration, and tissue healing.
+4. Mitochondrial-derived peptide neuroprotection: Humanin protects against ammonia toxicity and metabolic stress.
+5. Pyroglutamate EPO-mimetic innate repair: ARA-290 delivers anti-inflammatory and tissue-protective effects.
+6. Gamma-glutamyl tripeptide detoxification support: Glutathione bolsters redox balance and aids ammonia handling.
+7. Engineered collagen-mimetic vascular matrix stabilization: ShuntStab-21 Ac-(GPP)7-NH2 reinforces abnormal vessel structures and supports stability.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Cat Liver Shunt (Portosystemic Shunt) p01"
+"Loaded_Programs=Cat Liver Shunt (Portosystemic Shunt) p02"
+"Loaded_Programs=Cat Liver Shunt (Portosystemic Shunt) p03"
+"Loaded_Programs=Cat Liver Shunt (Portosystemic Shunt) p04"
+"Loaded_Programs=Cat Liver Shunt (Portosystemic Shunt) p05"
+"Loaded_Programs=Cat Liver Shunt (Portosystemic Shunt) p06"
+"Loaded_Programs=Cat Liver Shunt (Portosystemic Shunt) p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.059,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M111.032=1,M128.059,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M129.043=1,M103.009,M57.021,0=4,"
+"Loaded_Frequencies=M99.032=1,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M97.053,M57.021,M97.053,M96.069,0=4,"
+"[/Preset]"

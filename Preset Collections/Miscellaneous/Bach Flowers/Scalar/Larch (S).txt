@@ -1,0 +1,13 @@
+"[Preset]"
+"Base_Preset=\Shell (Empty) Presets\Scalar\Spooky Scalar General (SS) - JW"
+"PresetName=Larch (S)"
+"Preset_Notes=Larch / Spooky Scalar
+
+Estimated Time: Run this preset for 3:00 minutes.
+Larch - Lack of confidence.
+
+Connect Out 1 to the Spooky Scalar BNC port.
+"
+"Loaded_Programs=Larch (S)"
+"Loaded_Frequencies=336.52,"
+"[/Preset]"

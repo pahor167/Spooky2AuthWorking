@@ -1,0 +1,31 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Stomatitis (Coil)"
+"Preset_Notes=Stomatitis for Coil
+
+Stomatitis encompasses inflammatory conditions of the oral mucosa leading to pain, ulceration, erythema, and functional impairment, often triggered by infections, chemotherapy/radiation, recurrent aphthous ulcers, or autoimmune factors. The proposed polypeptides target documented therapeutic axes from oral mucositis and stomatitis research, emphasizing healing promotion, inflammation control, antimicrobial defense, and tissue protection.
+
+1. Stable gastric pentadecapeptide-mediated mucosal barrier restoration: BPC-157 accelerates oral ulcer healing and protects epithelial integrity in relevant models.
+2. Acetylated thymosin {beta}4 fragment-promoted re-epithelialization and migration: TB-500 enhances wound closure and actin dynamics in oral/palatal mucosal injuries.
+3. {alpha}-MSH-derived tripeptide cytokine suppression: KPV reduces inflammation and supports resolution in oral mucositis models.
+4. Copper-binding tripeptide antioxidant and remodeling support: GHK-Cu aids ECM regeneration and mitigates oxidative stress applicable to mucosal damage.
+5. Human cathelicidin innate defense and immunomodulation: LL-37 provides antimicrobial activity and balanced inflammation control in the oral cavity.
+6. Pyroglutamate-modified EPO fragment innate repair activation: ARA-290 suppresses inflammation and promotes tissue protection.
+7. Engineered cationic melanocortin tetrapeptide for enhanced anti-inflammatory mucoadhesion: Ac-RKPV-NH2 augments the KPV motif with arginine for improved potency, stability, and targeting in oral environments.
+
+"
+"Loaded_Programs=Stomatitis p01"
+"Loaded_Programs=Stomatitis p02"
+"Loaded_Programs=Stomatitis p03"
+"Loaded_Programs=Stomatitis p04"
+"Loaded_Programs=Stomatitis p05"
+"Loaded_Programs=Stomatitis p06"
+"Loaded_Programs=Stomatitis p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M155.095=1,M128.095,M128.095,M101.048,M129.043,M101.048,M128.058,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M137.059,M128.095,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M97.053,M99.068,0=4,"
+"[/Preset]"

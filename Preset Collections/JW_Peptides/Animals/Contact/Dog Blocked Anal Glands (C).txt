@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Dog Blocked Anal Glands (C)"
+"Preset_Notes=Dog Blocked Anal Glands for Contact
+
+Dog blocked anal glands, encompassing anal sac impaction, sacculitis, and abscessation, involve the failure of paired scent sacs to evacuate during defecation. This often results from poor stool consistency, obesity, or underlying atopy, leading to painful inflammation, bacterial overgrowth, and potential rupture. 1. Tissue Repair Axis: BPC-157 - A gastric-derived pentadecapeptide that accelerates the healing of fistulas and inflammatory tissue damage in the perianal region. 2. Inflammation Modulation Axis: KPV - A tripeptide fragment of alpha-MSH that inhibits NF-kB signaling to reduce localized swelling and cytokine release within the anal sac. 3. Antimicrobial Defense Axis: Pardaxin - A 33-residue marine-derived peptide with potent lytic activity against common perianal pathogens and secondary neoplastic growths. 4. Mucosal Integrity Axis: Ac-SDKP - A Thymosin beta-4 derivative that promotes angiogenesis and prevents fibrosis during the resolution of chronic sacculitis. 5. Viscosity Optimization Axis: Gland-Relief-1 - A designed peptide combining the muco-obstructive neutralizing properties of lactoferrin fragments with proline-rich sequences to reduce secretion thickness and facilitate natural expression.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Dog Blocked Anal Glands p01"
+"Loaded_Programs=Dog Blocked Anal Glands p02"
+"Loaded_Programs=Dog Blocked Anal Glands p03"
+"Loaded_Programs=Dog Blocked Anal Glands p04"
+"Loaded_Programs=Dog Blocked Anal Glands p05"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M99.068,0=4,"
+"Loaded_Frequencies=M57.021=1,M147.068,M147.068,M113.084,M113.084,M137.059,M113.084,M113.084,M113.084,M128.095,M71.037,M113.084,M113.084,M128.095,M128.095,M113.084,M113.084,M113.084,M113.084,M113.084,M128.095,M113.084,M71.037,M115.027,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M128.095,M113.084,M115.027,0=4,"
+"Loaded_Frequencies=M87.032=1,M115.027,M128.095,M97.053,0=4,"
+"Loaded_Frequencies=M128.095=1,M97.053,M156.101,M97.053,M156.101,M147.068,M147.068,M156.101,M156.101,M156.101,M115.027,M115.027,M115.027,0=4,"
+"[/Preset]"

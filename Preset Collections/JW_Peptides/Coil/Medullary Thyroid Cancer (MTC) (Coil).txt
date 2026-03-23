@@ -1,0 +1,25 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Medullary Thyroid Cancer (MTC) (Coil)"
+"Preset_Notes=Medullary Thyroid Cancer (MTC) for Coil
+
+Medullary thyroid cancer (MTC) is a rare neuroendocrine malignancy arising from the parafollicular C-cells of the thyroid gland, accounting for approximately 1-4% of all thyroid cancers. It occurs in sporadic (70-80%) and hereditary (20-30%) forms, the latter associated with multiple endocrine neoplasia type 2 (MEN2A/MEN2B) syndromes or familial MTC due to germline RET proto-oncogene mutations. Sporadic cases often involve somatic RET mutations, with additional alterations in RAS, HRAS/KRAS, or rarely ALK fusions. Causes center on activating mutations driving constitutive oncogenic signaling, leading to uncontrolled proliferation, survival, and metastasis. Symptoms include a palpable neck mass, dysphagia, hoarseness, chronic diarrhea and flushing from ectopic hormone production (calcitonin, calcitonin gene-related peptide, serotonin, ACTH), Cushing's syndrome in some cases, and advanced metastatic disease to lymph nodes, liver, lungs, and bone causing pain or organ dysfunction. Pathophysiology features hyperactivation of RET downstream pathways (MAPK/ERK, PI3K/AKT/mTOR) promoting growth and survival, VEGF-mediated angiogenesis supporting tumor vascularization, excessive hormone secretion causing systemic effects, inflammatory tumor microenvironment with immune evasion, enhanced cellular invasiveness, and frequent early metastasis.
+
+The proposed polypeptides target principal therapeutic axes to inhibit progression and alleviate symptoms. BPC-157 (real) demonstrates cytoprotective, anti-inflammatory, anti-angiogenic, and antitumor effects in preclinical models, addressing tumor microenvironment inflammation, vascular support, and growth suppression. Designed polypeptides (flagged as designed) complement coverage: D1 interferes with RET-driven signaling via cationic charge; D2 counters angiogenesis through hydrophobic interactions; D3 modulates neuroendocrine secretion with polar residues; D4 resolves inflammation using flexible structural motifs; D5 disrupts proliferation/survival pathways with acidic patterning; D6 inhibits metastasis and invasion via aromatic motifs. These conceptual designs emphasize stability, potential receptor interference, and bioavailability for feasibility in targeting extracellular or membrane-associated processes.
+
+"
+"Loaded_Programs=Medullary Thyroid Cancer (MTC) p01"
+"Loaded_Programs=Medullary Thyroid Cancer (MTC) p02"
+"Loaded_Programs=Medullary Thyroid Cancer (MTC) p03"
+"Loaded_Programs=Medullary Thyroid Cancer (MTC) p04"
+"Loaded_Programs=Medullary Thyroid Cancer (MTC) p05"
+"Loaded_Programs=Medullary Thyroid Cancer (MTC) p06"
+"Loaded_Programs=Medullary Thyroid Cancer (MTC) p07"
+"Loaded_Frequencies=M57.021=1,M129.043,M97.053,M97.053,M97.053,M57.021,M128.095,M97.053,M71.037,M115.027,M115.027,M71.037,M57.021,M113.084,M99.068,0=4,"
+"Loaded_Frequencies=M156.101=1,M128.095,M156.101,M128.095,M156.101,M128.095,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M99.068=1,M113.084,M99.068,M113.084,M99.068,M113.084,M99.068,M113.084,0=4,"
+"Loaded_Frequencies=M87.032=1,M101.048,M87.032,M101.048,M87.032,M101.048,M87.032,M101.048,0=4,"
+"Loaded_Frequencies=M97.053=1,M57.021,M97.053,M57.021,M97.053,M57.021,M97.053,M57.021,0=4,"
+"Loaded_Frequencies=M115.027=1,M129.043,M115.027,M129.043,M115.027,M129.043,M115.027,M129.043,0=4,"
+"Loaded_Frequencies=M163.063=1,M186.079,M163.063,M186.079,M163.063,M186.079,M163.063,M186.079,0=4,"
+"[/Preset]"

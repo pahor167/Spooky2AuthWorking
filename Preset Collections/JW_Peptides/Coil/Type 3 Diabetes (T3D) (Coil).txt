@@ -1,0 +1,34 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Coil"
+"PresetName=Type 3 Diabetes (T3D) (Coil)"
+"Preset_Notes=Type 3 Diabetes (T3D) for Coil
+
+Type 3 diabetes (T3D) refers to Alzheimer's disease as a form of brain-specific insulin resistance, involving impaired neuronal glucose metabolism, amyloid-beta accumulation, tau pathology, neuroinflammation, oxidative stress, mitochondrial dysfunction, and progressive cognitive decline. The proposed polypeptides target evidence-based therapeutic axes derived from preclinical studies, neuronal models, and links to insulin/diabetes pathways in AD.
+
+1. Mitochondrial-derived cytoprotection and insulin sensitization: Humanin S14G (HNG) reduces apoptosis, oxidative stress, and supports insulin sensitivity in neuronal mitochondria.
+2. Potent hybrid neurotrophic-Humanin protection: Colivelin delivers strong resistance to amyloid-beta toxicity, neuronal death, and AD-like pathologies.
+3. ADNP-derived microtubule stabilization: NAPVSIPQ counters tau hyperphosphorylation and synaptic loss.
+4. Activity-dependent neurotrophic support: ADNF-9 enhances neuronal survival and outgrowth against toxic insults.
+5. ACTH analog-mediated cognitive enhancement: Semax boosts BDNF, reduces amyloid oligomers, and improves memory/learning.
+6. FGF mimetic synaptic plasticity promotion: FGL peptide stimulates neurite outgrowth and synaptic function.
+7. EPO-derived tissue protection and repair: ARA 290 provides anti-inflammatory and regenerative effects without hematopoietic activity.
+8. Engineered alpha-MSH-prosaposin hybrid optimization: Ac-KPVTDLDKAWG-NH2 combines potent anti-inflammatory action with neurotrophic motifs for enhanced multi-target efficacy in neuroinflammation and degeneration.
+
+"
+"Loaded_Programs=Type 3 Diabetes (T3D) p01"
+"Loaded_Programs=Type 3 Diabetes (T3D) p02"
+"Loaded_Programs=Type 3 Diabetes (T3D) p03"
+"Loaded_Programs=Type 3 Diabetes (T3D) p04"
+"Loaded_Programs=Type 3 Diabetes (T3D) p05"
+"Loaded_Programs=Type 3 Diabetes (T3D) p06"
+"Loaded_Programs=Type 3 Diabetes (T3D) p07"
+"Loaded_Programs=Type 3 Diabetes (T3D) p08"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M71.037,M97.053,M156.101,M57.021,M147.068,M87.032,M103.009,M113.084,M113.084,M113.084,M113.084,M101.048,M87.032,M129.043,M113.084,M115.027,M113.084,M97.053,M99.068,M128.095,M156.101,M156.101,M71.037,0=4,"
+"Loaded_Frequencies=M114.043=1,M71.037,M97.053,M99.068,M87.032,M113.084,M97.053,M128.058,0=4,"
+"Loaded_Frequencies=M87.032=1,M71.037,M113.084,M113.084,M156.101,M87.032,M113.084,M97.053,M71.037,0=4,"
+"Loaded_Frequencies=M131.040=1,M129.043,M137.059,M147.068,M97.053,M57.021,M97.053,0=4,"
+"Loaded_Frequencies=M129.043=1,M99.068,M163.063,M99.068,M99.068,M71.037,M129.043,M114.043,M128.058,M128.058,M57.021,M128.095,M87.032,M128.095,M71.037,0=4,"
+"Loaded_Frequencies=M111.032=1,M129.043,M128.058,M113.084,M129.043,M156.101,M71.037,M113.084,M114.043,M87.032,M87.032,0=4,"
+"Loaded_Frequencies=M170.106=1,M97.053,M99.068,M101.048,M115.027,M113.084,M115.027,M128.095,M71.037,M186.079,M56.037,0=4,"
+"[/Preset]"

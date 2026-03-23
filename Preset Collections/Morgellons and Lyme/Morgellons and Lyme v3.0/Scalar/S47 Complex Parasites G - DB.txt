@@ -1,0 +1,49 @@
+"[Preset]"
+"Base_Preset=\Detox\Shells\Healing (S)"
+"Repeat_Chain=0"
+"PresetName=S47 Complex Parasites G - DB"
+"Preset_Notes=M&L Protocol, Phase II-Organisms. Spooky Scalar.
+
+Update: September 2019.
+
+PROGRAMS: 
+Your Scan Results CUST
+Fasciola Hepatica Miracidia XTRA
+Parasites Hepatica Miracidia 1 XTRA
+Fasciola Hepatica Eggs XTRA
+Parasites Fasciola Hepatica Eggs XTRA
+Fasciolopsis Buski Adult HC
+Fasciolopsis Fluke XTRA
+Fasciolopsis Cercariae XTRA
+Fasciolopsis Rediae XTRA
+Fasciolopsis Miracidia XTRA
+Parasites Brain and Spinal Flukes CAFL
+Parasites Ropeworm XTRA
+
+Connect OUT 1 to Spooky Scalar input. Do not use Spooky Boost.
+"
+"Loaded_Programs=Fasciola Hepatica Miracidia (XTRA)"
+"Loaded_Programs=Parasites Fasciola Hepatica Miracidia 1 (XTRA)"
+"Loaded_Programs=Fasciola Hepatica Eggs (XTRA)"
+"Loaded_Programs=Parasites Fasciola Hepatica Eggs (XTRA)"
+"Loaded_Programs=Fasciolopsis Buski Adult (HC)"
+"Loaded_Programs=Fasciolopsis Fluke (XTRA)"
+"Loaded_Programs=Fasciolopsis Cercariae (XTRA)"
+"Loaded_Programs=Fasciolopsis Rediae (XTRA)"
+"Loaded_Programs=Fasciolopsis Miracidia (XTRA)"
+"Loaded_Programs=Parasites Brain and Spinal Flukes (CAFL)"
+"Loaded_Programs=Parasites Ropeworm (XTRA)"
+"Loaded_Programs=Your Scan Results (CUST)"
+"Loaded_Frequencies=1045.41=180,1048.5=180,1052.73=180,13179.69=180,13218.75=180,13271.87=180,"
+"Loaded_Frequencies=1048.5=180,21059.93=180,"
+"Loaded_Frequencies=1046.02=180,1053.47=180,1059.91=180,13187.5=180,13281.25=180,13362.5=180,"
+"Loaded_Frequencies=1053.47=180,21159.5=180,"
+"Loaded_Frequencies=427700-435100=3600,"
+"Loaded_Frequencies=15=180,55=180,1070.81=180,1075.77=180,2000=180,21508=180,21607.59=180,"
+"Loaded_Frequencies=1064.61=180,1075.77=180,1078.88=180,13421.87=180,13562.5=180,13601.55=180,"
+"Loaded_Frequencies=1059.17=180,1070.81=180,1073.29=180,13353.12=180,13500=180,13531.25=180,"
+"Loaded_Frequencies=1059.28=180,1075.77=180,1978.75=180,13354.69=180,13562.5=180,13600=180,"
+"Loaded_Frequencies=421=180,434=180,"
+"Loaded_Frequencies=1359=360,"
+"Loaded_Frequencies=7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,7.83=180,"
+"[/Preset]"

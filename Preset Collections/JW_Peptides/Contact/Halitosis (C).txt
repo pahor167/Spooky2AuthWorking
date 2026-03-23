@@ -1,0 +1,41 @@
+"[Preset]"
+"Base_Preset=\JW_Peptides\Shells\Contact"
+"PresetName=Halitosis (C)"
+"Preset_Notes=Halitosis for Contact
+
+Halitosis, commonly known as bad breath, is a condition characterized by unpleasant odors emanating from the mouth, primarily caused by volatile sulfur compounds produced by anaerobic bacteria in the oral cavity, often linked to poor oral hygiene, periodontal disease, dry mouth, or dietary factors. 
+
+The proposed polypeptides target key axes including antimicrobial action to eliminate VSC-producing bacteria, inhibition of VSC production through enzyme modulation, biofilm disruption to reduce plaque accumulation, microbiome rebalancing to promote beneficial flora, anti-inflammatory effects to soothe oral tissues, and stimulation of salivary flow to maintain moisture and dilute odors; real-world polypeptides are prioritized for these axes based on established antimicrobial and oral health applications, with designed polypeptides flagged and used for VSC neutralization and enhanced salivary stimulation where real-world options are limited, ensuring feasibility through peptide stability, oral delivery, receptor-targeted modes of action, and physicochemical properties like high solubility in saliva.
+
+The Amplitude of low frequencies is automatically reduced to prevent painful sensations. High frequencies induce no sensation.
+
+To prevent skin burns, the signal has no offset.
+
+For safe treatment, connect your TENS pads or Spooky Hand Cylinders to the 'Colloidal Silver' port of Spooky Boost. For higher power, use the 'High Power' port of Spooky Boost v3.0.
+
+Stop treatment if you experience any discomfort."
+"Loaded_Programs=Halitosis p01"
+"Loaded_Programs=Halitosis p02"
+"Loaded_Programs=Halitosis p03"
+"Loaded_Programs=Halitosis p04"
+"Loaded_Programs=Halitosis p05"
+"Loaded_Programs=Halitosis p06"
+"Loaded_Programs=Halitosis p07"
+"Loaded_Programs=Halitosis p08"
+"Loaded_Programs=Halitosis p09"
+"Loaded_Programs=Halitosis p10"
+"Loaded_Programs=Halitosis p11"
+"Loaded_Programs=Halitosis p12"
+"Loaded_Frequencies=M115.027=1,M87.032,M137.059,M71.037,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,M129.043,M128.095,M137.059,M137.059,M87.032,M137.059,M156.101,M57.021,M163.063,0=4,"
+"Loaded_Frequencies=M71.037=1,M128.095,M156.101,M137.059,M137.059,M57.021,M163.063,M128.095,M156.101,M128.095,M147.068,M137.059,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M57.021,M115.027,M147.068,M147.068,M156.101,M128.095,M87.032,M128.095,M129.043,M128.095,M113.084,M57.021,M128.095,M129.043,M147.068,M128.095,M156.101,M113.084,M99.068,M128.058,M156.101,M113.084,M128.095,M115.027,M147.068,M113.084,M156.101,M114.043,M113.084,M99.068,M97.053,M156.101,M101.048,M129.043,M87.032,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M128.095,M147.068,M113.084,M137.059,M87.032,M71.037,M128.095,M128.095,M147.068,M57.021,M128.095,M71.037,M147.068,M99.068,M57.021,M113.084,M131.040,M114.043,M86.048,0=4,"
+"Loaded_Frequencies=M128.095=1,M186.079,M128.095,M113.084,M147.068,M128.095,M128.095,M113.084,M129.043,M128.095,M99.068,M57.021,M128.058,M114.043,M113.084,M156.101,M115.027,M57.021,M113.084,M113.084,M128.095,M71.037,M71.037,M97.053,M71.037,M99.068,M71.037,M99.068,M99.068,M57.021,M128.058,M71.037,M101.048,M128.058,M113.084,M71.037,M127.111,0=4,"
+"Loaded_Frequencies=M57.021=1,M113.084,M57.021,M71.037,M99.068,M113.084,M128.095,M99.068,M113.084,M101.048,M101.048,M57.021,M113.084,M97.053,M71.037,M113.084,M113.084,M87.032,M186.079,M113.084,M128.095,M128.095,M156.101,M156.101,M128.058,M127.074,0=4,"
+"Loaded_Frequencies=M113.084=1,M113.084,M97.053,M186.079,M128.095,M186.079,M97.053,M186.079,M186.079,M97.053,M186.079,M156.101,M155.093,0=4,"
+"Loaded_Frequencies=M101.048=1,M156.101,M87.032,M87.032,M156.101,M71.037,M57.021,M113.084,M128.058,M147.068,M97.053,M99.068,M57.021,M156.101,M99.068,M137.059,M156.101,M113.084,M113.084,M156.101,M128.095,0=4,"
+"Loaded_Frequencies=M156.101=1,M113.084,M102.001,M156.101,M113.084,M99.068,M99.068,M113.084,M156.101,M99.068,M102.001,M156.101,0=4,"
+"Loaded_Frequencies=M128.095=1,M128.095,M99.068,M99.068,M147.068,M128.095,M99.068,M128.095,M147.068,M128.095,0=4,"
+"Loaded_Frequencies=M113.048=1,M114.079,M128.095,M156.101,M86.048,M147.068,M150.954,0=4,"
+"Loaded_Frequencies=M237.148=1,M128.095,M156.101,M137.059,M86.048,M150.954,0=4,"
+"[/Preset]"
