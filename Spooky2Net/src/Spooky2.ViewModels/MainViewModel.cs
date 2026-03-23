@@ -116,11 +116,11 @@ public partial class MainViewModel : ObservableObject
                     Generators.Add(vm);
                 }
 
-                // Assign first generator to the Control tab
-                if (found.Count > 0 && Control != null)
+                // Add all generators to the Control tab selector
+                if (Control != null)
                 {
-                    Control.AssignGenerator(found[0].Id, found[0].Port, found[0].CurrentProgram);
-                    _logger.LogInformation("Assigned generator {Id} to Control tab", found[0].Id);
+                    foreach (var s in found)
+                        Control.AddGenerator(s.Id, s.Port, s.CurrentProgram);
                 }
 
                 _logger.LogInformation("Initialization complete, {Count} generator(s) found", found.Count);
@@ -306,9 +306,11 @@ public partial class MainViewModel : ObservableObject
                 Generators.Add(vm);
             }
 
-            if (found.Count > 0 && Control != null)
+            if (Control != null)
             {
-                Control.AssignGenerator(found[0].Id, found[0].Port, found[0].CurrentProgram);
+                Control.ClearGenerators();
+                foreach (var s in found)
+                    Control.AddGenerator(s.Id, s.Port, s.CurrentProgram);
             }
 
             _logger.LogInformation("Rescan complete, found {Count} generator(s)", found.Count);

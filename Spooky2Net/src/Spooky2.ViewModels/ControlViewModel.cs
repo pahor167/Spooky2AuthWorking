@@ -42,6 +42,11 @@ public partial class ControlViewModel : ObservableObject, IDisposable
 
     // ── Generator Selection ──
 
+    public ObservableCollection<GeneratorItem> AvailableGenerators { get; } = new();
+
+    [ObservableProperty]
+    private GeneratorItem? _selectedGenerator;
+
     [ObservableProperty]
     private int _selectedGeneratorId = -1;
 
@@ -50,6 +55,27 @@ public partial class ControlViewModel : ObservableObject, IDisposable
 
     [ObservableProperty]
     private string _generatorStatusText = "Idle";
+
+    partial void OnSelectedGeneratorChanged(GeneratorItem? value)
+    {
+        if (value != null)
+        {
+            SelectedGeneratorId = value.Id;
+            GeneratorTitle = value.DisplayName;
+            _logger.LogInformation("User selected generator {Id}: {Name}", value.Id, value.DisplayName);
+        }
+        else
+        {
+            SelectedGeneratorId = -1;
+            GeneratorTitle = "No Generator Selected";
+        }
+    }
+
+    public sealed record GeneratorItem(int Id, string Port, string Type)
+    {
+        public string DisplayName => $"Gen {Id} ({Type}) on {Port}";
+        public override string ToString() => DisplayName;
+    }
 
     [ObservableProperty]
     private bool _isRunning;
@@ -185,12 +211,26 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         _logger.LogInformation("Loaded {Count} frequencies for '{Program}'", frequencies.Count, programName);
     }
 
-    /// <summary>Assigns a generator to this control tab.</summary>
-    public void AssignGenerator(int generatorId, string port, string type)
+    /// <summary>Adds a discovered generator to the selection list.</summary>
+    public void AddGenerator(int generatorId, string port, string type)
     {
-        SelectedGeneratorId = generatorId;
-        GeneratorTitle = $"Generator {generatorId} ({type}) on {port}";
-        _logger.LogInformation("Assigned generator {Id} ({Type}) on {Port}", generatorId, type, port);
+        var item = new GeneratorItem(generatorId, port, type);
+        AvailableGenerators.Add(item);
+
+        // Auto-select first generator
+        if (SelectedGenerator == null)
+        {
+            SelectedGenerator = item;
+        }
+
+        _logger.LogInformation("Added generator {Id} ({Type}) on {Port}", generatorId, type, port);
+    }
+
+    /// <summary>Clears the generator list (before rescan).</summary>
+    public void ClearGenerators()
+    {
+        AvailableGenerators.Clear();
+        SelectedGenerator = null;
     }
 
     // ── Commands ──

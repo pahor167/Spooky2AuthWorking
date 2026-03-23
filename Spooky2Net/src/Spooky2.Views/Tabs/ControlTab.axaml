@@ -6,6 +6,13 @@
 
         <!-- ═══ LEFT: Controls ═══ -->
         <StackPanel Grid.Column="0" Spacing="2" Margin="0,0,4,0">
+            <!-- Generator selector -->
+            <ComboBox ItemsSource="{Binding AvailableGenerators}"
+                      SelectedItem="{Binding SelectedGenerator}"
+                      HorizontalAlignment="Stretch"
+                      FontSize="10" Height="28"
+                      PlaceholderText="Select generator..." />
+
             <!-- Action buttons -->
             <Button Content="▶ Start" Command="{Binding StartCommand}"
                     HorizontalAlignment="Stretch" Height="28" FontSize="11"
