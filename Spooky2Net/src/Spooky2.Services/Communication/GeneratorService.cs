@@ -237,10 +237,10 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
         ArgumentNullException.ThrowIfNull(frequencies);
         _loadedFrequencies[generatorId] = new List<double>(frequencies);
 
+        // Only :w24 — sets BOTH channels. :w25 is NEVER used (verified from dump).
         foreach (var frequency in frequencies)
         {
             SendCommand(generatorId, GeneratorProtocol.BuildSetFrequency1(frequency));
-            SendCommand(generatorId, GeneratorProtocol.BuildSetFrequency2(frequency));
         }
 
         if (frequencies.Count > 0)

@@ -408,11 +408,10 @@ public class GeneratorServiceTests
         await svc.WriteFrequencies(0, [76000.5, 152000.0]);
 
         var newCommands = conn.SentData.Skip(sentBefore).ToList();
-        // Each frequency generates :w24=nanoHz, and :w25=nanoHz, commands
+        // Only :w24 is used — sets BOTH channels (verified from serial dump: zero :w25 commands)
         Assert.Contains(":w24=76000500000000,\r\n", newCommands);
-        Assert.Contains(":w25=76000500000000,\r\n", newCommands);
         Assert.Contains(":w24=152000000000000,\r\n", newCommands);
-        Assert.Contains(":w25=152000000000000,\r\n", newCommands);
+        Assert.DoesNotContain(":w25=76000500000000,\r\n", newCommands);
     }
 
     // ─────────────────────────────────────────────────────────────
