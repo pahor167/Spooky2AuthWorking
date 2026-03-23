@@ -34,12 +34,13 @@ public sealed record ScanParameters
     // Amplitude ramp-up (from preset: Enable_Amplitude_RampUp, Ramp_Amplitude_Up_Rate)
     /// <summary>Enable gradual amplitude ramp from near-zero to target before scanning.</summary>
     public bool EnableAmplitudeRampUp { get; init; } = true;
-    /// <summary>Ramp rate: centivolt increment per step (from preset Ramp_Amplitude_Up_Rate * 1.5).</summary>
-    public int RampUpRateCv { get; init; } = 6;
+    /// <summary>Number of ramp steps (verified from dump: 330 steps, formula round((i+1)*target/330)).</summary>
+    public int RampSteps { get; init; } = 330;
     /// <summary>Target amplitude in centivolt (2000 = 20.00V).</summary>
     public int TargetAmplitudeCv { get; init; } = 2000;
     /// <summary>Enable amplitude ramp-down after scan.</summary>
     public bool EnableAmplitudeRampDown { get; init; } = true;
-    /// <summary>Number of baseline sensor reads to fill RA buffer before sweeping.</summary>
-    public int BaselineReadCount { get; init; } = 42;
+    /// <summary>Number of baseline :r11/:r12 read pairs before sweeping.
+    /// Dump shows 203 pairs (+ 1 initial standalone :r11 = 407 total reads).</summary>
+    public int BaselineReadCount { get; init; } = 203;
 }

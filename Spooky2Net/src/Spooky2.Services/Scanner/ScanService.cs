@@ -70,36 +70,34 @@ public sealed class ScanService : IScanService
 
             if (parameters.EnableAmplitudeRampUp)
             {
-                // Start at near-zero amplitude
-                int startCv = parameters.RampUpRateCv;
-                await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv1(startCv));
-                await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv2(startCv));
+                int targetCv = parameters.TargetAmplitudeCv;
+                // Ramp uses N steps: value[i] = round((i+1) * targetCv / N)
+                // Verified from dump: round((i+1)*2000/330) gives 0 mismatches
+                int rampDivisor = parameters.RampSteps;
+
+                // First step: near-zero amplitude
+                int firstCv = (int)Math.Round((double)targetCv / rampDivisor);
+                await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv1(firstCv));
+                await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv2(firstCv));
 
                 // Enable outputs (uses :w11=1,, / :w11=,1, — NOT :w611/:w621)
                 await Send(generatorId, GeneratorProtocol.EnableOutput1);  // :w11=1,,
                 await Send(generatorId, GeneratorProtocol.EnableOutput2);  // :w11=,1,
 
-                // Ramp amplitude from near-zero to target (330 steps, ~2 seconds)
-                int targetCv = parameters.TargetAmplitudeCv;
-                int stepCv = parameters.RampUpRateCv;
-                int rampSteps = 0;
-
                 progress?.Report(new ScanProgress { StatusText = "Ramping amplitude up..." });
 
-                for (int cv = startCv + stepCv; cv <= targetCv; cv += stepCv)
+                // Ramp from step 2 to 330 using exact formula: round((i+1) * target / 330)
+                for (int i = 1; i <= rampDivisor; i++)
                 {
                     cts.Token.ThrowIfCancellationRequested();
+                    int cv = (int)Math.Round((double)(i + 1) * targetCv / rampDivisor);
+                    if (cv > targetCv) cv = targetCv;
                     await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv1(cv));
                     await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv2(cv));
-                    rampSteps++;
                 }
 
-                // Ensure we hit exactly the target
-                await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv1(targetCv));
-                await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv2(targetCv));
-
-                _logger.LogInformation("Amplitude ramp-up: {Steps} steps, {Start}→{End} cV ({StartV:.2f}V→{EndV:.2f}V)",
-                    rampSteps, startCv, targetCv, startCv / 100.0, targetCv / 100.0);
+                _logger.LogInformation("Amplitude ramp-up: 330 steps → {Target} cV ({TargetV}V)",
+                    targetCv, targetCv / 100.0);
             }
             else
             {
@@ -126,9 +124,21 @@ public sealed class ScanService : IScanService
             var angleWindow2 = new SlidingWindow(parameters.RaWindow2 > 0 ? parameters.RaWindow2 : parameters.RaWindow);
 
             progress?.Report(new ScanProgress { StatusText = "Reading baseline..." });
-            _logger.LogDebug("Taking {Count} baseline reads at {Freq} Hz",
-                parameters.BaselineReadCount, parameters.StartFrequency);
 
+            // Baseline pattern from dump: 1 initial :r11 (standalone), then N × (:r11, :r12) pairs
+            // Dump shows 204 :r11 + 203 :r12 = 1 + 203 pairs
+            _logger.LogDebug("Taking baseline reads at {Freq} Hz: 1 initial + {Count} pairs",
+                parameters.StartFrequency, parameters.BaselineReadCount);
+
+            // Initial standalone angle read
+            {
+                var initAngle = await Send(generatorId, GeneratorProtocol.ReadAngle);
+                double a = GeneratorProtocol.ParseSensorReading(initAngle ?? "");
+                angleWindow1.Add(a);
+                angleWindow2.Add(a);
+            }
+
+            // Then paired :r11, :r12 reads
             for (int b = 0; b < parameters.BaselineReadCount; b++)
             {
                 cts.Token.ThrowIfCancellationRequested();
@@ -249,12 +259,14 @@ public sealed class ScanService : IScanService
             await Send(generatorId, GeneratorProtocol.ClearFrequency1);
             await Send(generatorId, GeneratorProtocol.ClearFrequency2);
 
-            // Amplitude ramp-down if enabled
+            // Amplitude ramp-down if enabled (reverse of ramp-up formula)
             if (parameters.EnableAmplitudeRampDown)
             {
-                int stepCv = parameters.RampUpRateCv;
-                for (int cv = parameters.TargetAmplitudeCv - stepCv; cv >= stepCv; cv -= stepCv)
+                int n = parameters.RampSteps;
+                int target = parameters.TargetAmplitudeCv;
+                for (int i = n - 1; i >= 1; i--)
                 {
+                    int cv = (int)Math.Round((double)(i + 1) * target / n);
                     await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv1(cv));
                     await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv2(cv));
                 }

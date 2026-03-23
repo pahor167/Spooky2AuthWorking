@@ -222,11 +222,11 @@ public class ScanServiceTests
         Assert.Equal(3, freqWrites.Count); // setup + 1000 Hz + 1100 Hz
         Assert.Equal(":w24=1000,", freqWrites[0]); // setup: raw Hz
 
-        // Count angle reads
+        // Count angle reads: 1 initial baseline + 2 scan = 3
         var angleReads = mock.CommandLog.Count(c => c == GeneratorProtocol.ReadAngle);
-        Assert.Equal(2, angleReads);
+        Assert.Equal(3, angleReads);
 
-        // Count current reads
+        // Count current reads: 2 scan (baseline has 0 pairs when BaselineReadCount=0)
         var currentReads = mock.CommandLog.Count(c => c == GeneratorProtocol.ReadCurrent);
         Assert.Equal(2, currentReads);
 
