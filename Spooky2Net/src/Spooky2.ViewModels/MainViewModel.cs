@@ -101,6 +101,8 @@ public partial class MainViewModel : ObservableObject
             // Try to discover generators
             try
             {
+                IsDiscoveringGenerators = true;
+                StatusBarText = "Discovering generators... (scanning serial ports)";
                 _logger.LogDebug("Discovering generators");
                 var found = await _generatorService.FindGenerators();
                 foreach (var state in found)
@@ -122,15 +124,18 @@ public partial class MainViewModel : ObservableObject
                 }
 
                 _logger.LogInformation("Initialization complete, {Count} generator(s) found", found.Count);
-                if (found.Count > 0)
-                {
-                    StatusBarText = $"Spooky2 (c) John White - Ready ({found.Count} generator(s) found)";
-                }
+                StatusBarText = found.Count > 0
+                    ? $"Ready - {found.Count} generator(s) found"
+                    : "Ready - No generators found (connect USB and use System > Rescan)";
             }
             catch (Exception ex)
             {
                 _logger.LogWarning(ex, "Generator discovery failed (non-fatal)");
-                // Generator discovery failure is non-fatal
+                StatusBarText = "Ready - Generator scan failed (connect USB and retry)";
+            }
+            finally
+            {
+                IsDiscoveringGenerators = false;
             }
         }
         catch (Exception ex)
@@ -169,6 +174,9 @@ public partial class MainViewModel : ObservableObject
 
     [ObservableProperty]
     private string _statusBarText = "Ready";
+
+    [ObservableProperty]
+    private bool _isDiscoveringGenerators;
 
     [ObservableProperty]
     private int _selectedTabIndex;
@@ -282,8 +290,9 @@ public partial class MainViewModel : ObservableObject
     {
         try
         {
+            IsDiscoveringGenerators = true;
             _logger.LogInformation("Rescanning for devices");
-            StatusBarText = "Rescanning for devices...";
+            StatusBarText = "Rescanning for devices... (scanning serial ports)";
             var found = await _generatorService.FindGenerators();
             Generators.Clear();
             foreach (var state in found)
@@ -296,13 +305,25 @@ public partial class MainViewModel : ObservableObject
                 };
                 Generators.Add(vm);
             }
+
+            if (found.Count > 0 && Control != null)
+            {
+                Control.AssignGenerator(found[0].Id, found[0].Port, found[0].CurrentProgram);
+            }
+
             _logger.LogInformation("Rescan complete, found {Count} generator(s)", found.Count);
-            StatusBarText = $"Found {found.Count} generator(s)";
+            StatusBarText = found.Count > 0
+                ? $"Found {found.Count} generator(s)"
+                : "No generators found";
         }
         catch (Exception ex)
         {
             _logger.LogError(ex, "Device rescan failed");
             StatusBarText = $"Rescan failed: {ex.Message}";
+        }
+        finally
+        {
+            IsDiscoveringGenerators = false;
         }
     }
 

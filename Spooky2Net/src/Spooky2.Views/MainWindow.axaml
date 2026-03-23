@@ -104,8 +104,14 @@
                 Background="{DynamicResource SystemControlBackgroundChromeMediumBrush}"
                 Padding="8,4"
                 Height="33">
-            <TextBlock Text="{Binding StatusBarText}"
-                       VerticalAlignment="Center" />
+            <StackPanel Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
+                <ProgressBar IsIndeterminate="True"
+                             IsVisible="{Binding IsDiscoveringGenerators}"
+                             Width="100" Height="12"
+                             VerticalAlignment="Center" />
+                <TextBlock Text="{Binding StatusBarText}"
+                           VerticalAlignment="Center" />
+            </StackPanel>
         </Border>
 
         <!-- Generator Panels -->

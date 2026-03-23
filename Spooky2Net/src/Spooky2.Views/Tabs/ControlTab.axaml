@@ -49,21 +49,33 @@
                 <Button Content="Scan" Command="{Binding ScanCommand}"
                         HorizontalAlignment="Stretch" Height="26" FontSize="11"
                         HorizontalContentAlignment="Center"/>
+                <Button Content="Hunt and Kill" Command="{Binding HuntAndKillCommand}"
+                        HorizontalAlignment="Stretch" Height="26" FontSize="11"
+                        FontWeight="Bold"
+                        HorizontalContentAlignment="Center" Background="#FFFFD0"/>
                 <Button Content="Pause" Command="{Binding PauseCommand}"
                         HorizontalAlignment="Stretch" Height="26" FontSize="11"
                         HorizontalContentAlignment="Center"/>
                 <Button Content="Hold" Command="{Binding HoldCommand}"
                         HorizontalAlignment="Stretch" Height="26" FontSize="11"
                         HorizontalContentAlignment="Center"/>
-                <Button Content="Amplitude Wobble" Command="{Binding AmplitudeWobbleCommand}"
-                        HorizontalAlignment="Stretch" Height="26" FontSize="11"
-                        HorizontalContentAlignment="Center"/>
-                <Button Content="Frequency Wobble" Command="{Binding FrequencyWobbleCommand}"
-                        HorizontalAlignment="Stretch" Height="26" FontSize="11"
-                        HorizontalContentAlignment="Center"/>
                 <Button Content="Stop" Command="{Binding StopCommand}"
                         HorizontalAlignment="Stretch" Height="26" FontSize="11"
                         HorizontalContentAlignment="Center" Background="#FFE0E0"/>
+
+                <Separator Margin="0,4"/>
+
+                <!-- Scan status -->
+                <ProgressBar IsIndeterminate="{Binding IsScanning}"
+                             IsVisible="{Binding IsScanning}"
+                             Height="8" Margin="0,2"/>
+                <TextBlock Text="{Binding ScanStatusText}"
+                           FontSize="9" TextWrapping="Wrap"
+                           IsVisible="{Binding IsScanning}"
+                           Margin="0,2"/>
+                <TextBlock Text="{Binding GeneratorStatusText}"
+                           FontSize="10" FontWeight="Bold"
+                           Margin="0,4,0,0"/>
             </StackPanel>
         </Border>
 
