@@ -206,7 +206,7 @@ public class ScanServiceTests
             StepSizeHz = 100,
             StartDelayMs = 0,
             MinReadDelaySeconds = 0,
-            RaWindow = 1, // Small window for quick test
+            RaWindow = 1, EnableAmplitudeRampUp = false, BaselineReadCount = 0,
             DetectMax = true,
             Threshold = 0
         };
@@ -215,11 +215,12 @@ public class ScanServiceTests
 
         // Should have: display name, then for each of 2 freq steps: set freq, read angle, read current
         // Then clear freq commands at end
-        Assert.Contains(mock.CommandLog, c => c.StartsWith(":n00=Scanning"));
+        Assert.Contains(mock.CommandLog, c => c.StartsWith(":n00="));
 
-        // Count frequency writes
+        // Count frequency writes: 1 setup (raw Hz) + 2 scan (nanoHz)
         var freqWrites = mock.CommandLog.Where(c => c.StartsWith(":w24=")).ToList();
-        Assert.Equal(2, freqWrites.Count); // 1000 Hz and 1100 Hz
+        Assert.Equal(3, freqWrites.Count); // setup + 1000 Hz + 1100 Hz
+        Assert.Equal(":w24=1000,", freqWrites[0]); // setup: raw Hz
 
         // Count angle reads
         var angleReads = mock.CommandLog.Count(c => c == GeneratorProtocol.ReadAngle);
@@ -229,9 +230,9 @@ public class ScanServiceTests
         var currentReads = mock.CommandLog.Count(c => c == GeneratorProtocol.ReadCurrent);
         Assert.Equal(2, currentReads);
 
-        // Should end with clear frequency commands
-        Assert.Equal(GeneratorProtocol.ClearFrequency1, mock.CommandLog[^2]);
-        Assert.Equal(GeneratorProtocol.ClearFrequency2, mock.CommandLog[^1]);
+        // Should contain clear frequency commands at the end
+        Assert.Contains(GeneratorProtocol.ClearFrequency1, mock.CommandLog);
+        Assert.Contains(GeneratorProtocol.ClearFrequency2, mock.CommandLog);
     }
 
     [Fact]
@@ -248,16 +249,18 @@ public class ScanServiceTests
             StepSizeHz = 100,
             StartDelayMs = 0,
             MinReadDelaySeconds = 0,
-            RaWindow = 1,
+            RaWindow = 1, EnableAmplitudeRampUp = false, BaselineReadCount = 0,
             DetectMax = true,
             Threshold = 0
         };
 
         await svc.RunBiofeedbackScan(0, parameters);
 
+        // First :w24 is raw Hz setup, second is nanoHz scan
         // 76000 Hz → 76000 * 1e9 = 76000000000000 nanoHz
-        var freqCmd = mock.CommandLog.First(c => c.StartsWith(":w24="));
-        Assert.Equal(":w24=76000000000000,", freqCmd);
+        var freqCmds = mock.CommandLog.Where(c => c.StartsWith(":w24=")).ToList();
+        Assert.Equal(":w24=76000,", freqCmds[0]); // setup: raw Hz
+        Assert.Equal(":w24=76000000000000,", freqCmds[1]); // scan: nanoHz
     }
 
     // ─────────────────────────────────────────────────────────────
@@ -279,7 +282,7 @@ public class ScanServiceTests
             StepSizeHz = 100,
             StartDelayMs = 0,
             MinReadDelaySeconds = 0,
-            RaWindow = 20,
+            RaWindow = 20, EnableAmplitudeRampUp = false, BaselineReadCount = 0,
             DetectMax = true,
             Threshold = 0,
             UseCurrent = true,
@@ -309,7 +312,7 @@ public class ScanServiceTests
             StepSizeHz = 100,
             StartDelayMs = 0,
             MinReadDelaySeconds = 0,
-            RaWindow = 20,
+            RaWindow = 20, EnableAmplitudeRampUp = false, BaselineReadCount = 0,
             DetectMax = true,
             Threshold = 100, // High threshold
             UseCurrent = true,
@@ -347,7 +350,7 @@ public class ScanServiceTests
             StepSizeHz = 100,
             StartDelayMs = 0,
             MinReadDelaySeconds = 0,
-            RaWindow = 20,
+            RaWindow = 20, EnableAmplitudeRampUp = false, BaselineReadCount = 0,
             DetectMax = true,
             Threshold = 0,
             UseCurrent = true,

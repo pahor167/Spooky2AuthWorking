@@ -160,7 +160,13 @@ public static class GeneratorProtocol
 
     /// <summary>Build output on/off command. (Main.frm:37886, 37938)</summary>
     public static string BuildOutputOnOff(bool output1On, bool output2On) =>
-        $":w11={(output1On ? 1 : 0)},{(output2On ? 1 : 0)},"; // Sends ":w11=<out1>,<out2>,"
+        $":w11={(output1On ? 1 : 0)},{(output2On ? 1 : 0)},";
+
+    /// <summary>Enable output 1 only. From dump: :w11=1,,</summary>
+    public static readonly string EnableOutput1 = ":w11=1,,";
+
+    /// <summary>Enable output 2 only. From dump: :w11=,1,</summary>
+    public static readonly string EnableOutput2 = ":w11=,1,";
 
     /// <summary>Build gating on/off command. (Main.frm:53618)</summary>
     public static string BuildGatingOnOff(bool output1On, bool output2On) =>
@@ -201,6 +207,12 @@ public static class GeneratorProtocol
     /// <summary>Build set output 2 frequency in nanoHz.</summary>
     public static string BuildSetFrequency2(double frequencyHz) =>
         $":w25={(long)(frequencyHz * 1e9)},"; // Sends ":w25=<nanoHz>,"
+
+    /// <summary>Set frequency as raw integer Hz (used during setup/ramp-up, NOT scanning).
+    /// From dump: :w24=41009, before amplitude ramp.</summary>
+    public static string BuildSetFrequencyRawHz(int frequencyHz) =>
+        $":w24={frequencyHz},";
+
 
     /// <summary>Set output 1 amplitude in centivolt. :w28=2000, = 20.00V</summary>
     public static string BuildSetAmplitudeCv1(int centivolt) =>

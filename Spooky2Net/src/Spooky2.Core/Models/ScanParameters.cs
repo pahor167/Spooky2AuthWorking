@@ -30,4 +30,16 @@ public sealed record ScanParameters
     public int RunOnGeneratorId { get; init; }
     public double DwellSeconds { get; init; } = 180;
     public string LogName { get; init; } = "";
+
+    // Amplitude ramp-up (from preset: Enable_Amplitude_RampUp, Ramp_Amplitude_Up_Rate)
+    /// <summary>Enable gradual amplitude ramp from near-zero to target before scanning.</summary>
+    public bool EnableAmplitudeRampUp { get; init; } = true;
+    /// <summary>Ramp rate: centivolt increment per step (from preset Ramp_Amplitude_Up_Rate * 1.5).</summary>
+    public int RampUpRateCv { get; init; } = 6;
+    /// <summary>Target amplitude in centivolt (2000 = 20.00V).</summary>
+    public int TargetAmplitudeCv { get; init; } = 2000;
+    /// <summary>Enable amplitude ramp-down after scan.</summary>
+    public bool EnableAmplitudeRampDown { get; init; } = true;
+    /// <summary>Number of baseline sensor reads to fill RA buffer before sweeping.</summary>
+    public int BaselineReadCount { get; init; } = 42;
 }

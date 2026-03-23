@@ -205,6 +205,11 @@ public sealed class GeneratorService : IGeneratorService
     {
         ValidateGeneratorExists(generatorId);
 
+        // Clean slate before starting (matches original Spooky2 stop/idle sequence)
+        SendCommand(generatorId, GeneratorProtocol.BuildModulationOnOff(false, false)); // :w13=0,
+        SendCommand(generatorId, GeneratorProtocol.ClearFrequency1);                   // :w12=0,,
+        SendCommand(generatorId, GeneratorProtocol.ClearFrequency2);                   // :w12=,0,
+
         _startTimes[generatorId] = DateTime.UtcNow;
         _generatorStates[generatorId] = _generatorStates[generatorId] with
         {
@@ -230,9 +235,14 @@ public sealed class GeneratorService : IGeneratorService
             CurrentFrequency = 0
         };
 
-        // Stop output 1 (:w610) and output 2 (:w620) - Main.frm:37772, 37794
+        // Stop outputs
         SendCommand(generatorId, GeneratorProtocol.StopOutput1);
         SendCommand(generatorId, GeneratorProtocol.StopOutput2);
+
+        // Clean slate (matches original Spooky2 idle sequence from serial dump)
+        SendCommand(generatorId, GeneratorProtocol.BuildModulationOnOff(false, false)); // :w13=0,
+        SendCommand(generatorId, GeneratorProtocol.ClearFrequency1);                   // :w12=0,,
+        SendCommand(generatorId, GeneratorProtocol.ClearFrequency2);                   // :w12=,0,
         await Task.CompletedTask;
     }
 
