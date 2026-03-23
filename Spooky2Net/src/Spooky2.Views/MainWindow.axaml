@@ -4,7 +4,7 @@
         xmlns:controls="clr-namespace:Spooky2.Views.Controls"
         x:Class="Spooky2.Views.MainWindow"
         Title="FreqGen"
-        Icon="/Assets/icon.png"
+        Icon="avares://Spooky2.Views/Assets/icon.png"
         WindowState="Maximized"
         FontFamily="Arial"
         FontSize="11.25"
