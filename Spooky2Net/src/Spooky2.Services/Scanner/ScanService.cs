@@ -59,21 +59,28 @@ public sealed class ScanService : IScanService
             // ══════════════════════════════════════════════════════════
             progress?.Report(new ScanProgress { StatusText = "Uploading waveform tables..." });
 
-            // Upload DDS waveform tables — CRITICAL: without these, frequency output is garbage.
-            // 12 tables × 1024 samples each, extracted from original Spooky2 dump.
+            // Upload DDS waveform tables (13 tables × 1024 samples)
             _logger.LogInformation("Uploading {Count} waveform tables", WaveformTables.Commands.Length);
             await _generatorService.SendCommandsBatch(generatorId, WaveformTables.Commands);
 
+            // Initial sensor reads before setting frequency (matches original sequence)
+            await Send(generatorId, GeneratorProtocol.ReadAngle);
+            await Send(generatorId, GeneratorProtocol.ReadAngle);
+            await Send(generatorId, GeneratorProtocol.ReadCurrent);
+
             progress?.Report(new ScanProgress { StatusText = "Setting up generator..." });
+
+            // Set start frequency (raw Hz, NOT nanoHz — matches dump)
+            await Send(generatorId, GeneratorProtocol.BuildSetFrequencyRawHz((int)parameters.StartFrequency));
+
+            // Set waveform types (matches original: sine=11, inverse=25)
+            await Send(generatorId, $":w21=25,");  // waveform 2 = inverse
 
             // Display name
             var displayName = string.IsNullOrEmpty(parameters.LogName)
                 ? "Running Biofeedback"
                 : parameters.LogName;
             await Send(generatorId, GeneratorProtocol.BuildSetDisplayName(displayName));
-
-            // Set start frequency (raw Hz, NOT nanoHz — matches dump)
-            await Send(generatorId, GeneratorProtocol.BuildSetFrequencyRawHz((int)parameters.StartFrequency));
 
             if (parameters.EnableAmplitudeRampUp)
             {
@@ -86,6 +93,11 @@ public sealed class ScanService : IScanService
                 await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv2(firstCv));
                 await Send(generatorId, GeneratorProtocol.EnableOutput1);
                 await Send(generatorId, GeneratorProtocol.EnableOutput2);
+                await Send(generatorId, $":w20=11,");  // waveform 1 = sine (after output enable, matching original)
+
+                // Baseline sensor reads before ramp (matching original)
+                await Send(generatorId, GeneratorProtocol.ReadAngle);
+                await Send(generatorId, GeneratorProtocol.ReadCurrent);
 
                 progress?.Report(new ScanProgress
                 {

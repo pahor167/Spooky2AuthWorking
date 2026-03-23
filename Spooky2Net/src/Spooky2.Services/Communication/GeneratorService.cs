@@ -88,14 +88,35 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
 
                         _logger.LogInformation("  Authenticated on {Port}!", port);
 
-                        SendOnConnection(connection, GeneratorProtocol.ReadHardwareInfo);
-                        SendOnConnection(connection, GeneratorProtocol.QueryFirmwareName);
-                        // Minimal init — do NOT send :w25 or extra :w24 resets.
-                        // The original Spooky2 doesn't send these during discovery.
-                        // Sending :w25 or wrong :w24 format may change the generator's
-                        // frequency interpretation mode (nanoHz scale factor).
-                        SendOnConnection(connection, GeneratorProtocol.BuildSetAmplitude1(120));
-                        SendOnConnection(connection, GeneratorProtocol.BuildSetAmplitude2(120));
+                        // Full init sequence matching original Spooky2 line-by-line
+                        // (verified from Data/LatestComparison/OldSpooky dump)
+                        SendOnConnection(connection, GeneratorProtocol.ReadHardwareInfo);       // :r02=0,
+                        SendOnConnection(connection, GeneratorProtocol.QueryFirmwareName);       // :n00=$
+                        SendOnConnection(connection, GeneratorProtocol.BuildSyncOnOff(false));   // :w14=0,
+                        SendOnConnection(connection, GeneratorProtocol.BuildWaveformInversion(false, false)); // :w17=0,0,
+                        SendOnConnection(connection, $":w24=0,");                               // :w24=0,
+                        SendOnConnection(connection, $":w25=0,");                               // :w25=0,
+                        SendOnConnection(connection, GeneratorProtocol.BuildLowFrequencyMode(true, true)); // :w15=1,1, CRITICAL!
+                        SendOnConnection(connection, $":w24=00,");                              // :w24=00,
+                        SendOnConnection(connection, GeneratorProtocol.BuildSetAmplitude1(120)); // :w32=120,
+                        SendOnConnection(connection, GeneratorProtocol.BuildSetAmplitude2(120)); // :w33=120,
+                        SendOnConnection(connection, GeneratorProtocol.BuildSetDisplayName("Stopped")); // :n00=...Stopped
+                        SendOnConnection(connection, $":w13=0,");                               // modulation off
+                        SendOnConnection(connection, $":w28=0,");                               // amplitude cv1 = 0
+                        SendOnConnection(connection, $":w29=0,");                               // amplitude cv2 = 0
+                        SendOnConnection(connection, $":w24=00,");                              // freq 0
+                        SendOnConnection(connection, GeneratorProtocol.ClearFrequency1);        // :w12=0,,
+                        SendOnConnection(connection, GeneratorProtocol.ClearFrequency2);        // :w12=,0,
+                        SendOnConnection(connection, GeneratorProtocol.BuildSetAmplitude1(120)); // :w32=120,
+                        SendOnConnection(connection, $":w40=0,");                               // duty cycle 0
+                        SendOnConnection(connection, GeneratorProtocol.BuildSetAmplitude2(120)); // :w33=120,
+                        SendOnConnection(connection, $":w40=0,");                               // duty cycle 0
+                        SendOnConnection(connection, $":w13=0,");                               // modulation off
+                        SendOnConnection(connection, $":w20=11,");                              // waveform 1 = sine
+                        SendOnConnection(connection, GeneratorProtocol.BuildSyncOnOff(true));    // :w14=1, sync ON
+                        SendOnConnection(connection, GeneratorProtocol.ClearFrequency1);        // :w12=0,,
+                        SendOnConnection(connection, GeneratorProtocol.ClearFrequency2);        // :w12=,0,
+                        SendOnConnection(connection, $":w21=25,");                              // waveform 2 = inverse
 
                         generatorType = "GeneratorX";
                     }
