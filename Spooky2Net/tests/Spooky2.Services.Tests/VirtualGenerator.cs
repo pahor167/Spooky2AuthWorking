@@ -118,6 +118,12 @@ public sealed class VirtualGenerator : IGeneratorService
         return Task.FromResult<string?>(response);
     }
 
+        public Task SendCommandsBatch(int generatorId, IReadOnlyList<string> commands)
+        {
+            foreach (var cmd in commands) CommandLog.Add(cmd);
+            return Task.CompletedTask;
+        }
+
     // ── Command processing ──
 
     private string ProcessCommand(string command)

@@ -16,4 +16,7 @@ public interface IGeneratorService
     Task IdentifyGenerators();
     Task SendRawCommand(int generatorId, string command);
     Task<string?> SendCommandWithResponse(int generatorId, string command);
+    /// <summary>Send multiple commands rapidly without waiting for individual responses.
+    /// Used for amplitude ramp-up (330 steps in ~2s, matching original Spooky2).</summary>
+    Task SendCommandsBatch(int generatorId, IReadOnlyList<string> commands);
 }

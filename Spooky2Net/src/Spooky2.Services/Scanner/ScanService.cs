@@ -71,33 +71,31 @@ public sealed class ScanService : IScanService
             if (parameters.EnableAmplitudeRampUp)
             {
                 int targetCv = parameters.TargetAmplitudeCv;
-                // Ramp uses N steps: value[i] = round((i+1) * targetCv / N)
-                // Verified from dump: round((i+1)*2000/330) gives 0 mismatches
                 int rampDivisor = parameters.RampSteps;
 
-                // First step: near-zero amplitude
+                // First step + output enable (these need responses)
                 int firstCv = (int)Math.Round((double)targetCv / rampDivisor);
                 await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv1(firstCv));
                 await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv2(firstCv));
-
-                // Enable outputs (uses :w11=1,, / :w11=,1, — NOT :w611/:w621)
-                await Send(generatorId, GeneratorProtocol.EnableOutput1);  // :w11=1,,
-                await Send(generatorId, GeneratorProtocol.EnableOutput2);  // :w11=,1,
+                await Send(generatorId, GeneratorProtocol.EnableOutput1);
+                await Send(generatorId, GeneratorProtocol.EnableOutput2);
 
                 progress?.Report(new ScanProgress { StatusText = "Ramping amplitude up..." });
 
-                // Ramp from step 2 to 330 using exact formula: round((i+1) * target / 330)
+                // Build ramp commands in batch — fire-and-forget for speed
+                // Original Spooky2 does 660 commands in ~2 seconds (no response wait)
+                var rampCmds = new List<string>();
                 for (int i = 1; i <= rampDivisor; i++)
                 {
-                    cts.Token.ThrowIfCancellationRequested();
-                    int cv = (int)Math.Round((double)(i + 1) * targetCv / rampDivisor);
-                    if (cv > targetCv) cv = targetCv;
-                    await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv1(cv));
-                    await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv2(cv));
+                    int cv = Math.Min((int)Math.Round((double)(i + 1) * targetCv / rampDivisor), targetCv);
+                    rampCmds.Add(GeneratorProtocol.BuildSetAmplitudeCv1(cv));
+                    rampCmds.Add(GeneratorProtocol.BuildSetAmplitudeCv2(cv));
                 }
 
-                _logger.LogInformation("Amplitude ramp-up: 330 steps → {Target} cV ({TargetV}V)",
-                    targetCv, targetCv / 100.0);
+                await _generatorService.SendCommandsBatch(generatorId, rampCmds);
+
+                _logger.LogInformation("Amplitude ramp-up: {Steps} steps → {Target} cV ({TargetV}V)",
+                    rampDivisor, targetCv, targetCv / 100.0);
             }
             else
             {
@@ -259,17 +257,19 @@ public sealed class ScanService : IScanService
             await Send(generatorId, GeneratorProtocol.ClearFrequency1);
             await Send(generatorId, GeneratorProtocol.ClearFrequency2);
 
-            // Amplitude ramp-down if enabled (reverse of ramp-up formula)
+            // Amplitude ramp-down if enabled (batch for speed)
             if (parameters.EnableAmplitudeRampDown)
             {
                 int n = parameters.RampSteps;
                 int target = parameters.TargetAmplitudeCv;
+                var rampDownCmds = new List<string>();
                 for (int i = n - 1; i >= 1; i--)
                 {
                     int cv = (int)Math.Round((double)(i + 1) * target / n);
-                    await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv1(cv));
-                    await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv2(cv));
+                    rampDownCmds.Add(GeneratorProtocol.BuildSetAmplitudeCv1(cv));
+                    rampDownCmds.Add(GeneratorProtocol.BuildSetAmplitudeCv2(cv));
                 }
+                await _generatorService.SendCommandsBatch(generatorId, rampDownCmds);
             }
 
             return hits;

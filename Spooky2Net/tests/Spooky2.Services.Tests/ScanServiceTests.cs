@@ -60,6 +60,12 @@ public class ScanServiceTests
 
             return Task.FromResult<string?>("ok");
         }
+
+        public Task SendCommandsBatch(int generatorId, IReadOnlyList<string> commands)
+        {
+            foreach (var cmd in commands) CommandLog.Add(cmd);
+            return Task.CompletedTask;
+        }
     }
 
     /// <summary>
@@ -94,6 +100,7 @@ public class ScanServiceTests
         public Task IdentifyGenerators() => Task.CompletedTask;
         public Task SendRawCommand(int generatorId, string command) => Task.CompletedTask;
 
+        public Task SendCommandsBatch(int generatorId, IReadOnlyList<string> commands) => Task.CompletedTask;
         public Task<string?> SendCommandWithResponse(int generatorId, string command)
         {
             CommandLog.Add(command);
@@ -393,6 +400,7 @@ public class ScanServiceTests
         public Task IdentifyGenerators() => Task.CompletedTask;
         public Task SendRawCommand(int generatorId, string command) => Task.CompletedTask;
 
+        public Task SendCommandsBatch(int generatorId, IReadOnlyList<string> commands) => Task.CompletedTask;
         public Task<string?> SendCommandWithResponse(int generatorId, string command)
         {
             if (command == GeneratorProtocol.ReadCurrent)

@@ -425,6 +425,42 @@ public sealed class GeneratorService : IGeneratorService
         return Task.FromResult(response);
     }
 
+    public Task SendCommandsBatch(int generatorId, IReadOnlyList<string> commands)
+    {
+        ValidateGeneratorExists(generatorId);
+        if (!_portConfigs.TryGetValue(generatorId, out var config))
+            return Task.CompletedTask;
+
+        try
+        {
+            _logger.LogDebug("[GEN {Id}] Batch sending {Count} commands", generatorId, commands.Count);
+            using var connection = _serialPortFactory.Open(config.PortName, config.BaudRate);
+            Thread.Sleep(50); // settle
+
+            foreach (var command in commands)
+            {
+                var fullCommand = command + GeneratorProtocol.CommandTerminator;
+                connection.Write(fullCommand);
+                // Tiny delay between commands (~3ms matches original dump timing)
+                Thread.Sleep(3);
+                // Drain any response bytes without blocking
+                try { if (connection.BytesAvailable > 0) connection.ReadExisting(); } catch { }
+            }
+
+            // Final flush — read any remaining responses
+            Thread.Sleep(50);
+            try { if (connection.BytesAvailable > 0) connection.ReadExisting(); } catch { }
+
+            _logger.LogDebug("[GEN {Id}] Batch complete", generatorId);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "[GEN {Id}] Batch send failed", generatorId);
+        }
+
+        return Task.CompletedTask;
+    }
+
     /// <summary>
     /// Sends a text-based command to a generator over serial port and reads the response.
     /// Commands are ASCII-encoded with CRLF terminator, matching the VB6

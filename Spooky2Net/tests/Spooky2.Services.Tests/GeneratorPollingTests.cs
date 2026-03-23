@@ -42,6 +42,7 @@ public class GeneratorPollingTests
         public Task IdentifyGenerators() => Task.CompletedTask;
         public Task SendRawCommand(int generatorId, string command) => Task.CompletedTask;
         public Task<string?> SendCommandWithResponse(int generatorId, string command) => Task.FromResult<string?>("ok");
+        public Task SendCommandsBatch(int generatorId, IReadOnlyList<string> commands) => Task.CompletedTask;
     }
 
     private sealed class MockErrorLoggingService : IErrorLoggingService
@@ -213,6 +214,7 @@ public class GeneratorPollingTests
         public Task IdentifyGenerators() => Task.CompletedTask;
         public Task SendRawCommand(int generatorId, string command) => Task.CompletedTask;
         public Task<string?> SendCommandWithResponse(int generatorId, string command) => Task.FromResult<string?>("ok");
+        public Task SendCommandsBatch(int generatorId, IReadOnlyList<string> commands) => Task.CompletedTask;
     }
 
     // ─────────────────────────────────────────────────────────────
