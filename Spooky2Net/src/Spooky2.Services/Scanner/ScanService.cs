@@ -421,6 +421,92 @@ public sealed class ScanService : IScanService
         return Task.CompletedTask;
     }
 
+    public async Task<List<ReverseLookupResult>> ReverseLookup(
+        double frequency, ReverseLookupParameters parameters, IDatabaseService databaseService)
+    {
+        _logger.LogInformation("Reverse lookup for {Freq} Hz with tolerance {Tol}%, harmonics={H}, sub-harmonics={S}",
+            frequency, parameters.TolerancePercent, parameters.IncludeHarmonics, parameters.IncludeSubHarmonics);
+
+        var results = new List<ReverseLookupResult>();
+
+        // Build list of frequencies to search for
+        var searchFreqs = new List<(double freq, string matchType)>
+        {
+            (frequency, "Direct")
+        };
+
+        if (parameters.IncludeHarmonics)
+        {
+            for (int m = 2; m <= parameters.MaxHarmonics; m++)
+            {
+                searchFreqs.Add((frequency * m, $"Harmonic {m}x"));
+            }
+        }
+
+        if (parameters.IncludeSubHarmonics)
+        {
+            for (int d = 2; d <= parameters.MaxHarmonics; d++)
+            {
+                searchFreqs.Add((frequency / d, $"Sub-harmonic 1/{d}"));
+            }
+        }
+
+        // Search each database
+        foreach (var dbName in parameters.Databases)
+        {
+            List<DatabaseEntry> entries;
+            try
+            {
+                entries = await databaseService.LoadDatabase(dbName);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogWarning(ex, "Failed to load database '{Database}', skipping", dbName);
+                continue;
+            }
+
+            foreach (var entry in entries)
+            {
+                foreach (var progFreq in entry.Frequencies)
+                {
+                    foreach (var (searchFreq, matchType) in searchFreqs)
+                    {
+                        double tolerance = searchFreq * parameters.TolerancePercent / 100.0;
+                        if (parameters.IncludeHz > 0)
+                        {
+                            tolerance = Math.Max(tolerance, parameters.IncludeHz);
+                        }
+
+                        if (Math.Abs(progFreq - searchFreq) <= tolerance)
+                        {
+                            results.Add(new ReverseLookupResult
+                            {
+                                ProgramName = entry.Name,
+                                Category = entry.Category,
+                                SourceDatabase = dbName,
+                                MatchedFrequency = progFreq,
+                                SearchFrequency = searchFreq,
+                                MatchType = matchType,
+                                ToleranceHz = tolerance
+                            });
+                        }
+                    }
+                }
+            }
+        }
+
+        // Deduplicate by program name, keep best match (Direct > Harmonic > Sub-harmonic)
+        results = results
+            .GroupBy(r => r.ProgramName)
+            .Select(g => g.OrderBy(r => r.MatchType == "Direct" ? 0 : 1).First())
+            .OrderBy(r => r.MatchType)
+            .ThenBy(r => r.ProgramName)
+            .ToList();
+
+        _logger.LogInformation("Reverse lookup found {Count} matching programs", results.Count);
+        return results;
+    }
+
     // ── Helpers ──
 
     private async Task<string?> Send(int generatorId, string command) =>

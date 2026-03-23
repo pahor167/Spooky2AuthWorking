@@ -11,4 +11,8 @@ public interface IScanService
     Task StopScan(int generatorId);
     Task<List<ScanResult>> GetScanResults(int generatorId);
     Task ReverseLookup(double frequency, bool harmonics, bool subHarmonics, double tolerance);
+    Task<List<ReverseLookupResult>> ReverseLookup(
+        double frequency,
+        ReverseLookupParameters parameters,
+        IDatabaseService databaseService);
 }

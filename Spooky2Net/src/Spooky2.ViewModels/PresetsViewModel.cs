@@ -4,6 +4,7 @@ using CommunityToolkit.Mvvm.Input;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Spooky2.Core.Interfaces;
+using Spooky2.Core.Models;
 
 namespace Spooky2.ViewModels;
 
@@ -12,6 +13,8 @@ public partial class PresetsViewModel : ObservableObject
     private readonly IPresetService _presetService;
     private readonly IFileService _fileService;
     private readonly ILogger<PresetsViewModel> _logger;
+    private Action<Preset>? _onPresetLoaded;
+    private Preset? _currentPreset;
 
     public PresetsViewModel(IPresetService presetService, IFileService fileService, ILogger<PresetsViewModel>? logger = null)
     {
@@ -19,6 +22,12 @@ public partial class PresetsViewModel : ObservableObject
         _fileService = fileService;
         _logger = logger ?? NullLogger<PresetsViewModel>.Instance;
         _logger.LogDebug("PresetsViewModel initialized");
+    }
+
+    /// <summary>Sets the callback invoked when a preset is loaded, passing it to the Control tab.</summary>
+    public void SetOnPresetLoaded(Action<Preset> callback)
+    {
+        _onPresetLoaded = callback;
     }
 
     [ObservableProperty]
@@ -44,6 +53,12 @@ public partial class PresetsViewModel : ObservableObject
 
     [ObservableProperty]
     private string _currentDirectory = "";
+
+    [ObservableProperty]
+    private string? _selectedChainItem;
+
+    [ObservableProperty]
+    private int _selectedChainIndex = -1;
 
     public ObservableCollection<string> PresetFiles { get; } = new();
 
@@ -89,13 +104,29 @@ public partial class PresetsViewModel : ObservableObject
     [RelayCommand]
     private void NavigateUp()
     {
-        // Stub: navigate to parent directory
+        if (string.IsNullOrWhiteSpace(CurrentDirectory))
+        {
+            return;
+        }
+
+        var parent = Path.GetDirectoryName(CurrentDirectory);
+        CurrentDirectory = parent ?? "";
+        _logger.LogDebug("Navigated up to '{Directory}'", CurrentDirectory);
     }
 
     [RelayCommand]
     private void NavigateUser()
     {
-        // Stub: navigate to user presets directory
+        var userDir = Path.Combine(CurrentDirectory, "User");
+        if (_fileService.IsDirectory(userDir))
+        {
+            CurrentDirectory = userDir;
+            _logger.LogDebug("Navigated to user directory '{Directory}'", CurrentDirectory);
+        }
+        else
+        {
+            _logger.LogDebug("User directory not found at '{Directory}'", userDir);
+        }
     }
 
     [RelayCommand]
@@ -110,9 +141,14 @@ public partial class PresetsViewModel : ObservableObject
         {
             _logger.LogDebug("Loading preset from '{Path}'", SelectedPresetPath);
             var preset = await _presetService.LoadPreset(SelectedPresetPath);
+            _currentPreset = preset;
             _logger.LogInformation("Loaded preset '{Name}' with {Count} programs", preset.Name, preset.Programs.Count);
             ProgramsDisplay = string.Join(Environment.NewLine, preset.Programs.Select(p => p.Name));
             NotesText = preset.Name;
+
+            // Notify the Control tab to load frequencies
+            _onPresetLoaded?.Invoke(preset);
+            _logger.LogInformation("Preset '{Name}' sent to Control tab", preset.Name);
         }
         catch (Exception ex)
         {
@@ -123,8 +159,26 @@ public partial class PresetsViewModel : ObservableObject
     [RelayCommand]
     private async Task SavePreset()
     {
-        // Stub: save current preset
-        await Task.CompletedTask;
+        if (_currentPreset == null)
+        {
+            _logger.LogWarning("SavePreset: no preset currently loaded");
+            return;
+        }
+
+        var savePath = string.IsNullOrWhiteSpace(SelectedPresetPath)
+            ? Path.Combine(CurrentDirectory, $"{_currentPreset.Name}.txt")
+            : SelectedPresetPath;
+
+        try
+        {
+            _logger.LogInformation("Saving preset '{Name}' to '{Path}'", _currentPreset.Name, savePath);
+            await _presetService.SavePreset(_currentPreset, savePath);
+            _logger.LogInformation("Preset saved successfully to '{Path}'", savePath);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to save preset to '{Path}'", savePath);
+        }
     }
 
     [RelayCommand]
@@ -136,6 +190,11 @@ public partial class PresetsViewModel : ObservableObject
             {
                 _logger.LogInformation("Deleting preset at '{Path}'", SelectedPresetPath);
                 await _presetService.DeletePreset(SelectedPresetPath);
+                PresetFiles.Remove(SelectedPresetPath);
+                SelectedPresetPath = "";
+                _currentPreset = null;
+                ProgramsDisplay = "";
+                NotesText = "";
             }
             catch (Exception ex)
             {
@@ -147,7 +206,15 @@ public partial class PresetsViewModel : ObservableObject
     [RelayCommand]
     private void EditPreset()
     {
-        // Stub: open preset editor
+        if (_currentPreset == null)
+        {
+            _logger.LogWarning("EditPreset: no preset currently loaded");
+            return;
+        }
+
+        // Toggle notes to editable mode so user can update the preset name/notes
+        _logger.LogDebug("Edit preset '{Name}' - notes field is now editable", _currentPreset.Name);
+        NotesText = _currentPreset.Name;
     }
 
     [RelayCommand]
@@ -156,20 +223,60 @@ public partial class PresetsViewModel : ObservableObject
         if (!string.IsNullOrWhiteSpace(SelectedPresetPath))
         {
             PresetChainItems.Add(SelectedPresetPath);
+            ChainInfoDisplay = $"{PresetChainItems.Count} presets in chain";
+            _logger.LogDebug("Added '{Path}' to chain, total {Count}", SelectedPresetPath, PresetChainItems.Count);
         }
     }
 
     [RelayCommand]
     private void RemoveFromChain()
     {
-        // Stub: remove selected item from chain
+        if (SelectedChainItem != null && PresetChainItems.Contains(SelectedChainItem))
+        {
+            _logger.LogDebug("Removing '{Item}' from chain", SelectedChainItem);
+            PresetChainItems.Remove(SelectedChainItem);
+            ChainInfoDisplay = PresetChainItems.Count > 0
+                ? $"{PresetChainItems.Count} presets in chain"
+                : "";
+        }
     }
 
     [RelayCommand]
     private async Task SaveChain()
     {
-        // Stub: save current chain
-        await Task.CompletedTask;
+        if (PresetChainItems.Count == 0)
+        {
+            _logger.LogWarning("SaveChain: chain is empty");
+            return;
+        }
+
+        try
+        {
+            var presets = new List<Preset>();
+            foreach (var path in PresetChainItems)
+            {
+                presets.Add(new Preset
+                {
+                    Name = Path.GetFileNameWithoutExtension(path),
+                    FilePath = path
+                });
+            }
+
+            var chain = new PresetChain
+            {
+                Name = "Preset Chain",
+                Presets = presets
+            };
+
+            var savePath = Path.Combine(CurrentDirectory, "chain.txt");
+            _logger.LogInformation("Saving chain with {Count} presets to '{Path}'", presets.Count, savePath);
+            await _presetService.SavePresetChain(chain, savePath);
+            _logger.LogInformation("Chain saved successfully");
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to save chain");
+        }
     }
 
     [RelayCommand]
@@ -182,12 +289,38 @@ public partial class PresetsViewModel : ObservableObject
     [RelayCommand]
     private void MoveChainUp()
     {
-        // Stub: move selected chain item up
+        if (SelectedChainItem == null)
+        {
+            return;
+        }
+
+        var index = PresetChainItems.IndexOf(SelectedChainItem);
+        if (index > 0)
+        {
+            var item = PresetChainItems[index];
+            PresetChainItems.RemoveAt(index);
+            PresetChainItems.Insert(index - 1, item);
+            SelectedChainItem = item;
+            _logger.LogDebug("Moved chain item up from {From} to {To}", index, index - 1);
+        }
     }
 
     [RelayCommand]
     private void MoveChainDown()
     {
-        // Stub: move selected chain item down
+        if (SelectedChainItem == null)
+        {
+            return;
+        }
+
+        var index = PresetChainItems.IndexOf(SelectedChainItem);
+        if (index >= 0 && index < PresetChainItems.Count - 1)
+        {
+            var item = PresetChainItems[index];
+            PresetChainItems.RemoveAt(index);
+            PresetChainItems.Insert(index + 1, item);
+            SelectedChainItem = item;
+            _logger.LogDebug("Moved chain item down from {From} to {To}", index, index + 1);
+        }
     }
 }

@@ -15,6 +15,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
     private readonly IGeneratorService _generatorService;
     private readonly IWaveformService _waveformService;
     private readonly IScanService _scanService;
+    private readonly IDatabaseService? _databaseService;
     private readonly ILogger<ControlViewModel> _logger;
     private readonly System.Timers.Timer _statusTimer;
 
@@ -26,11 +27,13 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         IGeneratorService generatorService,
         IWaveformService waveformService,
         IScanService scanService,
-        ILogger<ControlViewModel>? logger = null)
+        ILogger<ControlViewModel>? logger = null,
+        IDatabaseService? databaseService = null)
     {
         _generatorService = generatorService;
         _waveformService = waveformService;
         _scanService = scanService;
+        _databaseService = databaseService;
         _logger = logger ?? NullLogger<ControlViewModel>.Instance;
 
         // Timer to poll generator status every 500ms
@@ -163,6 +166,13 @@ public partial class ControlViewModel : ObservableObject, IDisposable
 
     [ObservableProperty]
     private double _scanProgress;
+
+    // ── Reverse Lookup ──
+
+    public ObservableCollection<string> ReverseLookupResults { get; } = new();
+
+    [ObservableProperty]
+    private string? _selectedBiofeedbackHit;
 
     // ── Program Options ──
 
@@ -559,6 +569,134 @@ public partial class ControlViewModel : ObservableObject, IDisposable
     {
         // TODO: paste from clipboard
         _logger.LogDebug("PasteFrequencies stub");
+    }
+
+    [RelayCommand]
+    private async Task ReverseLookup()
+    {
+        if (_databaseService == null)
+        {
+            _logger.LogWarning("ReverseLookup: no database service available");
+            return;
+        }
+
+        // Parse the selected biofeedback hit frequency
+        double frequency = 0;
+        var hitText = SelectedBiofeedbackHit;
+        if (string.IsNullOrWhiteSpace(hitText))
+        {
+            _logger.LogWarning("ReverseLookup: no biofeedback hit selected");
+            return;
+        }
+
+        // Parse frequency from hit display format: "1234.56 Hz (dev: 78.90)"
+        var hzIndex = hitText.IndexOf(" Hz", StringComparison.OrdinalIgnoreCase);
+        if (hzIndex > 0)
+        {
+            var freqStr = hitText[..hzIndex].Replace(",", "").Trim();
+            double.TryParse(freqStr, System.Globalization.NumberStyles.Float,
+                System.Globalization.CultureInfo.InvariantCulture, out frequency);
+        }
+
+        if (frequency <= 0)
+        {
+            _logger.LogWarning("ReverseLookup: could not parse frequency from '{Hit}'", hitText);
+            return;
+        }
+
+        try
+        {
+            _logger.LogInformation("Starting reverse lookup for {Freq} Hz", frequency);
+            ScanStatusText = $"Reverse lookup for {frequency:N2} Hz...";
+
+            var parameters = new ReverseLookupParameters();
+            var results = await Task.Run(() =>
+                _scanService.ReverseLookup(frequency, parameters, _databaseService));
+
+            ReverseLookupResults.Clear();
+            foreach (var result in results)
+            {
+                ReverseLookupResults.Add(
+                    $"{result.ProgramName} [{result.SourceDatabase}] " +
+                    $"({result.MatchType}: {result.MatchedFrequency:N2} Hz)");
+            }
+
+            ScanStatusText = $"Reverse lookup: {results.Count} programs found for {frequency:N2} Hz";
+            _logger.LogInformation("Reverse lookup complete: {Count} results for {Freq} Hz",
+                results.Count, frequency);
+        }
+        catch (Exception ex)
+        {
+            ScanStatusText = $"Reverse lookup error: {ex.Message}";
+            _logger.LogError(ex, "Reverse lookup failed for {Freq} Hz", frequency);
+        }
+    }
+
+    /// <summary>Loads a preset's frequencies and settings into the control.</summary>
+    public void LoadPreset(Preset preset)
+    {
+        _logger.LogInformation("Loading preset '{Name}' with {Count} programs",
+            preset.Name, preset.Programs.Count);
+
+        FrequencyItems.Clear();
+        LoadedPrograms.Clear();
+
+        var allFrequencies = new List<double>();
+        foreach (var program in preset.Programs)
+        {
+            LoadedPrograms.Add(program.Name);
+            allFrequencies.AddRange(program.Frequencies);
+        }
+
+        foreach (var freq in allFrequencies)
+        {
+            FrequencyItems.Add(freq.ToString("N7", CultureInfo.InvariantCulture));
+        }
+
+        _currentFrequencyIndex = 0;
+        UpdateProgress();
+
+        // Apply preset settings
+        if (preset.Settings.TryGetValue("DwellMultiplier", out var dwellMulStr) &&
+            double.TryParse(dwellMulStr, CultureInfo.InvariantCulture, out var dwellMul))
+        {
+            DwellMultiplier = dwellMul;
+        }
+
+        if (preset.Settings.TryGetValue("RepeatSequence", out var repSeqStr) &&
+            int.TryParse(repSeqStr, out var repSeq))
+        {
+            RepeatSequence = repSeq;
+        }
+
+        if (preset.Settings.TryGetValue("RepeatProgram", out var repProgStr) &&
+            int.TryParse(repProgStr, out var repProg))
+        {
+            RepeatProgram = repProg;
+        }
+
+        if (preset.Settings.TryGetValue("Amplitude", out var ampStr) &&
+            double.TryParse(ampStr, CultureInfo.InvariantCulture, out var amp))
+        {
+            Output1Amplitude = amp;
+            Output2Amplitude = amp;
+            Output1AmplitudeDisplay = $"{amp}v";
+            Output2AmplitudeDisplay = $"{amp}v";
+        }
+
+        if (preset.Settings.TryGetValue("DwellSeconds", out var dwellStr) &&
+            int.TryParse(dwellStr, out var dwell))
+        {
+            DwellValue = dwell;
+        }
+        else if (preset.Programs.Count > 0 && preset.Programs[0].DwellSeconds > 0)
+        {
+            DwellValue = (int)preset.Programs[0].DwellSeconds;
+        }
+
+        GeneratorTitle = preset.Name;
+        _logger.LogInformation("Preset '{Name}' loaded: {FreqCount} frequencies, dwell={Dwell}s",
+            preset.Name, allFrequencies.Count, DwellValue);
     }
 
     // ── Private Logic ──
