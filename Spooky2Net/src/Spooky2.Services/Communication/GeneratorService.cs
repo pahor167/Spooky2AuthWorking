@@ -324,6 +324,9 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
             conn.Write(command + GeneratorProtocol.CommandTerminator);
             BlockingRead(conn);
         }
+        // Flush any leftover responses so the next SendCommand starts clean
+        Thread.Sleep(10);
+        try { if (conn.BytesAvailable > 0) conn.ReadExisting(); } catch { }
         return Task.CompletedTask;
     }
 
@@ -374,8 +377,9 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
         {
             _logger.LogDebug("[GEN {Id}] TX: {Command}", generatorId, command);
 
-            // Flush stale data
-            try { if (conn.BytesAvailable > 0) conn.ReadExisting(); } catch { }
+            // NO flush — ReadLine() handles synchronization via CRLF terminators.
+            // Flushing here would discard valid responses during fast scan loops
+            // and cause response desynchronization.
 
             conn.Write(command + GeneratorProtocol.CommandTerminator);
 
