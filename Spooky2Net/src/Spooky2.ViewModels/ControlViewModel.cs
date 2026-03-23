@@ -14,19 +14,23 @@ public partial class ControlViewModel : ObservableObject, IDisposable
 {
     private readonly IGeneratorService _generatorService;
     private readonly IWaveformService _waveformService;
+    private readonly IScanService _scanService;
     private readonly ILogger<ControlViewModel> _logger;
     private readonly System.Timers.Timer _statusTimer;
 
     private int _currentFrequencyIndex;
     private CancellationTokenSource? _runCts;
+    private CancellationTokenSource? _scanCts;
 
     public ControlViewModel(
         IGeneratorService generatorService,
         IWaveformService waveformService,
+        IScanService scanService,
         ILogger<ControlViewModel>? logger = null)
     {
         _generatorService = generatorService;
         _waveformService = waveformService;
+        _scanService = scanService;
         _logger = logger ?? NullLogger<ControlViewModel>.Instance;
 
         // Timer to poll generator status every 500ms
@@ -124,6 +128,15 @@ public partial class ControlViewModel : ObservableObject, IDisposable
     // ── Biofeedback ──
 
     public ObservableCollection<string> BiofeedbackHits { get; } = new();
+
+    [ObservableProperty]
+    private bool _isScanning;
+
+    [ObservableProperty]
+    private string _scanStatusText = "";
+
+    [ObservableProperty]
+    private double _scanProgress;
 
     // ── Program Options ──
 
@@ -233,8 +246,10 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         {
             _logger.LogInformation("Stopping generator {Id}", SelectedGeneratorId);
             _runCts?.Cancel();
+            _scanCts?.Cancel();
             _statusTimer.Stop();
 
+            await _scanService.StopScan(SelectedGeneratorId);
             await _generatorService.Stop(SelectedGeneratorId);
 
             IsRunning = false;
@@ -376,6 +391,114 @@ public partial class ControlViewModel : ObservableObject, IDisposable
     }
 
     [RelayCommand]
+    private async Task Scan()
+    {
+        if (SelectedGeneratorId < 0)
+        {
+            _logger.LogWarning("Scan: no generator selected");
+            return;
+        }
+
+        try
+        {
+            IsScanning = true;
+            ScanStatusText = "Starting scan...";
+            _scanCts?.Cancel();
+            _scanCts = new CancellationTokenSource();
+
+            var parameters = new ScanParameters();
+            var scanProgress = new Progress<ScanProgress>(p =>
+            {
+                ScanProgress = p.PercentComplete;
+                ScanStatusText = p.StatusText;
+
+                if (p.HitsFound > 0)
+                {
+                    // Update hits display on progress
+                }
+            });
+
+            _logger.LogInformation("Starting biofeedback scan on generator {Id}", SelectedGeneratorId);
+            var hits = await _scanService.RunBiofeedbackScan(
+                SelectedGeneratorId, parameters, scanProgress, _scanCts.Token);
+
+            BiofeedbackHits.Clear();
+            foreach (var hit in hits)
+            {
+                BiofeedbackHits.Add($"{hit.Frequency:N2} Hz (dev: {hit.Deviation:N2})");
+            }
+
+            ScanStatusText = $"Scan complete: {hits.Count} hits";
+            _logger.LogInformation("Scan complete: {Count} hits", hits.Count);
+        }
+        catch (OperationCanceledException)
+        {
+            ScanStatusText = "Scan cancelled";
+            _logger.LogInformation("Scan cancelled");
+        }
+        catch (Exception ex)
+        {
+            ScanStatusText = $"Scan error: {ex.Message}";
+            _logger.LogError(ex, "Scan failed for generator {Id}", SelectedGeneratorId);
+        }
+        finally
+        {
+            IsScanning = false;
+        }
+    }
+
+    [RelayCommand]
+    private async Task HuntAndKill()
+    {
+        if (SelectedGeneratorId < 0)
+        {
+            _logger.LogWarning("HuntAndKill: no generator selected");
+            return;
+        }
+
+        try
+        {
+            IsScanning = true;
+            ScanStatusText = "Starting Hunt and Kill...";
+            _scanCts?.Cancel();
+            _scanCts = new CancellationTokenSource();
+
+            var parameters = new ScanParameters();
+            var scanProgress = new Progress<ScanProgress>(p =>
+            {
+                ScanProgress = p.PercentComplete;
+                ScanStatusText = p.StatusText;
+            });
+
+            _logger.LogInformation("Starting Hunt and Kill on generator {Id}", SelectedGeneratorId);
+            var hits = await _scanService.RunHuntAndKill(
+                SelectedGeneratorId, parameters, scanProgress, _scanCts.Token);
+
+            BiofeedbackHits.Clear();
+            foreach (var hit in hits)
+            {
+                BiofeedbackHits.Add($"{hit.Frequency:N2} Hz (dev: {hit.Deviation:N2})");
+            }
+
+            ScanStatusText = $"Hunt and Kill complete: {hits.Count} final hits";
+            _logger.LogInformation("Hunt and Kill complete: {Count} hits", hits.Count);
+        }
+        catch (OperationCanceledException)
+        {
+            ScanStatusText = "Hunt and Kill cancelled";
+        }
+        catch (Exception ex)
+        {
+            ScanStatusText = $"Hunt and Kill error: {ex.Message}";
+            _logger.LogError(ex, "Hunt and Kill failed for generator {Id}", SelectedGeneratorId);
+        }
+        finally
+        {
+            IsScanning = false;
+        }
+    }
+
+    [RelayCommand]
     private void RefreshDisplay()
     {
         UpdateProgress();
@@ -484,6 +607,8 @@ public partial class ControlViewModel : ObservableObject, IDisposable
     {
         _runCts?.Cancel();
         _runCts?.Dispose();
+        _scanCts?.Cancel();
+        _scanCts?.Dispose();
         _statusTimer.Stop();
         _statusTimer.Dispose();
     }

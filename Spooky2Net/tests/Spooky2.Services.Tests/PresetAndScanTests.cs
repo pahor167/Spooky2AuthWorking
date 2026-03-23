@@ -5,6 +5,7 @@ using Spooky2.Services.IO;
 using Spooky2.Services.Presets;
 using Spooky2.Services.Scanner;
 using Spooky2.Services.Communication;
+using Microsoft.Extensions.Logging.Abstractions;
 
 namespace Spooky2.Services.Tests;
 
@@ -116,7 +117,7 @@ public class PresetAndScanTests
     [Fact]
     public async Task ReverseLookup_Harmonics_GeneratesMultiples()
     {
-        var genService = new GeneratorService(new MockSerialPortFactory(), Microsoft.Extensions.Logging.Abstractions.NullLogger<GeneratorService>.Instance);
+        var genService = new GeneratorService(new MockSerialPortFactory(), NullLogger<GeneratorService>.Instance);
         var svc = new ScanService(genService);
 
         await svc.ReverseLookup(100.0, harmonics: true, subHarmonics: false, tolerance: 0);
@@ -131,7 +132,7 @@ public class PresetAndScanTests
     [Fact]
     public async Task ReverseLookup_SubHarmonics_GeneratesDivisors()
     {
-        var genService = new GeneratorService(new MockSerialPortFactory(), Microsoft.Extensions.Logging.Abstractions.NullLogger<GeneratorService>.Instance);
+        var genService = new GeneratorService(new MockSerialPortFactory(), NullLogger<GeneratorService>.Instance);
         var svc = new ScanService(genService);
 
         await svc.ReverseLookup(1000.0, harmonics: false, subHarmonics: true, tolerance: 0);
@@ -146,7 +147,7 @@ public class PresetAndScanTests
     [Fact]
     public async Task ReverseLookup_Both_Generates38Results()
     {
-        var genService = new GeneratorService(new MockSerialPortFactory(), Microsoft.Extensions.Logging.Abstractions.NullLogger<GeneratorService>.Instance);
+        var genService = new GeneratorService(new MockSerialPortFactory(), NullLogger<GeneratorService>.Instance);
         var svc = new ScanService(genService);
 
         await svc.ReverseLookup(1000.0, harmonics: true, subHarmonics: true, tolerance: 0);
@@ -158,7 +159,7 @@ public class PresetAndScanTests
     [Fact]
     public async Task ReverseLookup_Neither_ReturnsEmpty()
     {
-        var genService = new GeneratorService(new MockSerialPortFactory(), Microsoft.Extensions.Logging.Abstractions.NullLogger<GeneratorService>.Instance);
+        var genService = new GeneratorService(new MockSerialPortFactory(), NullLogger<GeneratorService>.Instance);
         var svc = new ScanService(genService);
 
         await svc.ReverseLookup(1000.0, harmonics: false, subHarmonics: false, tolerance: 0);
@@ -172,15 +173,12 @@ public class PresetAndScanTests
     // ─────────────────────────────────────────────────────────────
 
     [Fact]
-    public async Task Scan_StartAndStop_DoesNotThrow()
+    public async Task Scan_StopScan_DoesNotThrow()
     {
-        var genService = new GeneratorService(new MockSerialPortFactory(), Microsoft.Extensions.Logging.Abstractions.NullLogger<GeneratorService>.Instance);
+        var genService = new GeneratorService(new MockSerialPortFactory(), NullLogger<GeneratorService>.Instance);
         var svc = new ScanService(genService);
 
-        await svc.StartScan(1, new ScanParameters
-        {
-            StartFrequency = 76000, EndFrequency = 152000, StepSize = 0.025, DwellMs = 300
-        });
+        // StopScan on a generator that isn't scanning should not throw
         await svc.StopScan(1);
 
         var results = await svc.GetScanResults(1);

@@ -15,4 +15,5 @@ public interface IGeneratorService
     Task EraseMemory(int generatorId);
     Task IdentifyGenerators();
     Task SendRawCommand(int generatorId, string command);
+    Task<string?> SendCommandWithResponse(int generatorId, string command);
 }

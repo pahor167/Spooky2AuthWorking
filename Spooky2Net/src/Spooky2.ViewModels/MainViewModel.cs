@@ -45,6 +45,7 @@ public partial class MainViewModel : ObservableObject
         IColloidalSilverCalculator colloidalSilverCalculator,
         ICarrierSweepService carrierSweepService,
         IMicroGenService microGenService,
+        IScanService scanService,
         ILogger<MainViewModel>? logger = null,
         string? rootPath = null)
     {
@@ -65,7 +66,7 @@ public partial class MainViewModel : ObservableObject
         Database = new DatabaseViewModel(databaseService, microGenService);
         Settings = new SettingsViewModel();
         System = new SystemViewModel(settingsService);
-        Control = new ControlViewModel(generatorService, new Spooky2.Services.Waveform.WaveformService());
+        Control = new ControlViewModel(generatorService, new Spooky2.Services.Waveform.WaveformService(), scanService);
 
         _ = InitializeAsync();
     }

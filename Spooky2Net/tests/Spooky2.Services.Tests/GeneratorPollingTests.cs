@@ -41,6 +41,7 @@ public class GeneratorPollingTests
         public Task EraseMemory(int generatorId) => Task.CompletedTask;
         public Task IdentifyGenerators() => Task.CompletedTask;
         public Task SendRawCommand(int generatorId, string command) => Task.CompletedTask;
+        public Task<string?> SendCommandWithResponse(int generatorId, string command) => Task.FromResult<string?>("ok");
     }
 
     private sealed class MockErrorLoggingService : IErrorLoggingService
@@ -211,6 +212,7 @@ public class GeneratorPollingTests
         public Task EraseMemory(int generatorId) => Task.CompletedTask;
         public Task IdentifyGenerators() => Task.CompletedTask;
         public Task SendRawCommand(int generatorId, string command) => Task.CompletedTask;
+        public Task<string?> SendCommandWithResponse(int generatorId, string command) => Task.FromResult<string?>("ok");
     }
 
     // ─────────────────────────────────────────────────────────────

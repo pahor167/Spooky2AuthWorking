@@ -408,6 +408,13 @@ public sealed class GeneratorService : IGeneratorService
         await Task.CompletedTask;
     }
 
+    public Task<string?> SendCommandWithResponse(int generatorId, string command)
+    {
+        ValidateGeneratorExists(generatorId);
+        var response = SendCommand(generatorId, command);
+        return Task.FromResult(response);
+    }
+
     /// <summary>
     /// Sends a text-based command to a generator over serial port and reads the response.
     /// Commands are ASCII-encoded with CRLF terminator, matching the VB6
