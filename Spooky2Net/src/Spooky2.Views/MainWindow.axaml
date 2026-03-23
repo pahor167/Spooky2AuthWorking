@@ -3,7 +3,8 @@
         xmlns:tabs="clr-namespace:Spooky2.Views.Tabs"
         xmlns:controls="clr-namespace:Spooky2.Views.Controls"
         x:Class="Spooky2.Views.MainWindow"
-        Title="Spooky2"
+        Title="FreqGen"
+        Icon="/Assets/icon.png"
         WindowState="Maximized"
         FontFamily="Arial"
         FontSize="11.25"
@@ -103,7 +104,7 @@
         <Border Name="LoadingSplash" Background="#1A1A2E" IsVisible="True"
                 ZIndex="100">
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="16">
-                <TextBlock Text="Spooky2" FontSize="48" FontWeight="Bold"
+                <TextBlock Text="FreqGen" FontSize="48" FontWeight="Bold"
                            Foreground="White" HorizontalAlignment="Center"/>
                 <TextBlock Text="Loading..." FontSize="16"
                            Foreground="#80FFFFFF" HorizontalAlignment="Center"/>

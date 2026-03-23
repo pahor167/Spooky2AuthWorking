@@ -451,11 +451,10 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             {
                 ScanProgress = p.PercentComplete;
                 ScanStatusText = p.StatusText;
-
-                if (p.HitsFound > 0)
-                {
-                    // Update hits display on progress
-                }
+                Output1Frequency = p.CurrentFrequency;
+                Output2Frequency = p.CurrentFrequency;
+                if (p.AmplitudeCv > 0)
+                    Output1AmplitudeDisplay = $"{p.AmplitudeCv / 100.0:F1}v";
             });
 
             _logger.LogInformation("Starting biofeedback scan on generator {Id}", SelectedGeneratorId);
@@ -508,6 +507,10 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             {
                 ScanProgress = p.PercentComplete;
                 ScanStatusText = p.StatusText;
+                Output1Frequency = p.CurrentFrequency;
+                Output2Frequency = p.CurrentFrequency;
+                if (p.AmplitudeCv > 0)
+                    Output1AmplitudeDisplay = $"{p.AmplitudeCv / 100.0:F1}v";
             });
 
             _logger.LogInformation("Starting Hunt and Kill on generator {Id}", SelectedGeneratorId);

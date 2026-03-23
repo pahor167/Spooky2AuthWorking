@@ -80,10 +80,14 @@ public sealed class ScanService : IScanService
                 await Send(generatorId, GeneratorProtocol.EnableOutput1);
                 await Send(generatorId, GeneratorProtocol.EnableOutput2);
 
-                progress?.Report(new ScanProgress { StatusText = "Ramping amplitude up..." });
+                progress?.Report(new ScanProgress
+                {
+                    StatusText = "Ramping amplitude up...",
+                    AmplitudeCv = firstCv,
+                    CurrentFrequency = parameters.StartFrequency
+                });
 
-                // Build ramp commands in batch — fire-and-forget for speed
-                // Original Spooky2 does 660 commands in ~2 seconds (no response wait)
+                // Build ramp commands in batch for speed
                 var rampCmds = new List<string>();
                 for (int i = 1; i <= rampDivisor; i++)
                 {
@@ -93,6 +97,13 @@ public sealed class ScanService : IScanService
                 }
 
                 await _generatorService.SendCommandsBatch(generatorId, rampCmds);
+
+                progress?.Report(new ScanProgress
+                {
+                    StatusText = "Amplitude ramp complete",
+                    AmplitudeCv = targetCv,
+                    CurrentFrequency = parameters.StartFrequency
+                });
 
                 _logger.LogInformation("Amplitude ramp-up: {Steps} steps → {Target} cV ({TargetV}V)",
                     rampDivisor, targetCv, targetCv / 100.0);

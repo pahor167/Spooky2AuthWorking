@@ -9,4 +9,5 @@ public sealed record ScanProgress
     public int HitsFound { get; init; }
     public string StatusText { get; init; } = "";
     public int CycleNumber { get; init; }
+    public int AmplitudeCv { get; init; }
 }
