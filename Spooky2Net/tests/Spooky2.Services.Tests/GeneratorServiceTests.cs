@@ -409,9 +409,9 @@ public class GeneratorServiceTests
 
         var newCommands = conn.SentData.Skip(sentBefore).ToList();
         // Only :w24 is used — sets BOTH channels (verified from serial dump: zero :w25 commands)
-        Assert.Contains(":w24=76000500000000,\r\n", newCommands);
-        Assert.Contains(":w24=152000000000000,\r\n", newCommands);
-        Assert.DoesNotContain(":w25=76000500000000,\r\n", newCommands);
+        Assert.Contains(":w24=76000500,\r\n", newCommands);
+        Assert.Contains(":w24=152000000,\r\n", newCommands);
+        Assert.DoesNotContain(":w25=76000500,\r\n", newCommands);
     }
 
     // ─────────────────────────────────────────────────────────────
@@ -490,6 +490,6 @@ public class GeneratorServiceTests
         // Frequency is now encoded as nanoHz (integer), so locale is not an issue
         var freqCmd = newCommands.FirstOrDefault(c => c.StartsWith(":w24="));
         Assert.NotNull(freqCmd);
-        Assert.Contains("76000500000000", freqCmd);
+        Assert.Contains("76000500", freqCmd);
     }
 }

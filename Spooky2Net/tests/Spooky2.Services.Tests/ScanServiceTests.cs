@@ -224,7 +224,7 @@ public class ScanServiceTests
         // Then clear freq commands at end
         Assert.True(mock.CommandLog.Any(c => c.StartsWith(":n00=")), "Should contain display name command");
 
-        // Count frequency writes: 1 setup (raw Hz) + 2 scan (nanoHz)
+        // Count frequency writes: 1 setup (raw Hz) + 2 scan (milliHz)
         var freqWrites = mock.CommandLog.Where(c => c.StartsWith(":w24=")).ToList();
         Assert.True(freqWrites.Count >= 3, $"Expected at least 3 :w24 writes, got {freqWrites.Count}");
         // Init sends :w24=0, and :w24=00, before scan sends :w24=startFreq,
@@ -264,12 +264,12 @@ public class ScanServiceTests
 
         await svc.RunBiofeedbackScan(0, parameters);
 
-        // First :w24 is raw Hz setup, second is nanoHz scan
-        // 76000 Hz → 76000 * 1e9 = 76000000000000 nanoHz
+        // First :w24 is raw Hz setup, second is milliHz scan
+        // 76000 Hz → 76000 * 1e9 = 76000000 milliHz
         var freqCmds = mock.CommandLog.Where(c => c.StartsWith(":w24=")).ToList();
-        // Init sends :w24=0, and :w24=00, first, then scan sends raw Hz + nanoHz
+        // Init sends :w24=0, and :w24=00, first, then scan sends raw Hz + milliHz
         Assert.Contains(":w24=76000,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
-        Assert.Contains(":w24=76000000000000,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
+        Assert.Contains(":w24=76000000,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
     }
 
     // ─────────────────────────────────────────────────────────────

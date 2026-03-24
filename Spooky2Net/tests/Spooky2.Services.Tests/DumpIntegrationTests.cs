@@ -66,7 +66,7 @@ public class DumpIntegrationTests
         // First command: display name
         Assert.StartsWith(":n00=Port 4 - Running Biofeedback", txCommands[0]);
 
-        // Second command: raw Hz frequency (NOT nanoHz)
+        // Second command: raw Hz frequency (NOT milliHz)
         Assert.Equal(":w24=41009,", txCommands[1]);
 
         // Third and fourth: near-zero amplitude
@@ -127,14 +127,14 @@ public class DumpIntegrationTests
         int firstR11 = txCommands.FindIndex(c => c == ":r11=,");
         Assert.True(firstR11 > 0, "Should have :r11 commands");
 
-        // Count r11 reads before the first nanoHz frequency command
+        // Count r11 reads before the first milliHz frequency command
         int baselineR11Count = 0;
         for (int i = firstR11; i < txCommands.Count; i++)
         {
             if (txCommands[i].StartsWith(":w24="))
             {
                 var valStr = txCommands[i][5..].TrimEnd(',');
-                if (valStr.Length >= 10) // nanoHz
+                if (valStr.Length >= 5) // milliHz
                     break;
             }
             if (txCommands[i] == ":r11=,")
@@ -154,14 +154,14 @@ public class DumpIntegrationTests
         var path = GetDumpPath("StartHuntAndKillLonger");
         var txCommands = DumpParser.ExtractTxCommands(path);
 
-        // Find the first nanoHz frequency command (scan start)
+        // Find the first milliHz frequency command (scan start)
         int scanStart = -1;
         for (int i = 0; i < txCommands.Count; i++)
         {
             if (txCommands[i].StartsWith(":w24="))
             {
                 var valStr = txCommands[i][5..].TrimEnd(',');
-                if (valStr.Length >= 13) // clearly nanoHz (13+ digits)
+                if (valStr.Length >= 7) // clearly milliHz (13+ digits)
                 {
                     scanStart = i;
                     break;
@@ -169,9 +169,9 @@ public class DumpIntegrationTests
             }
         }
 
-        Assert.True(scanStart > 0, "Should find nanoHz scan commands");
+        Assert.True(scanStart > 0, "Should find milliHz scan commands");
 
-        // Verify pattern: :w24=nanoHz, :r11=, :r12=, repeating
+        // Verify pattern: :w24=milliHz, :r11=, :r12=, repeating
         for (int i = scanStart; i + 2 < txCommands.Count && i < scanStart + 30; i += 3)
         {
             Assert.StartsWith(":w24=", txCommands[i]);
@@ -212,7 +212,7 @@ public class DumpIntegrationTests
         // Display name update
         Assert.StartsWith(":n00=Port 4 - GX Hunt and Kill (C)", txCommands[clearIdx2 + 3]);
 
-        // Idle frequency (nanoHz)
+        // Idle frequency (milliHz)
         Assert.StartsWith(":w24=", txCommands[clearIdx2 + 4]);
 
         // Final amplitude 2000
@@ -267,14 +267,14 @@ public class DumpIntegrationTests
         var path = GetDumpPath("StartHuntAndKillLonger");
         var txCommands = DumpParser.ExtractTxCommands(path);
 
-        // Extract nanoHz scan frequencies (long values from :w24=)
+        // Extract milliHz scan frequencies (long values from :w24=)
         var scanFreqsNanoHz = new List<long>();
         foreach (var cmd in txCommands)
         {
             if (cmd.StartsWith(":w24="))
             {
                 var valStr = cmd[5..].TrimEnd(',');
-                if (valStr.Length >= 13 && long.TryParse(valStr, out var val))
+                if (valStr.Length >= 7 && long.TryParse(valStr, out var val))
                     scanFreqsNanoHz.Add(val);
             }
         }
@@ -361,10 +361,10 @@ public class DumpIntegrationTests
         Assert.True(r11Count >= 42, $"Expected >=42 r11 reads, got {r11Count}");
         Assert.True(r12Count >= 42, $"Expected >=42 r12 reads, got {r12Count}");
 
-        // Should have nanoHz frequency writes during scan
-        var nanoHzWrites = vgen.CommandLog.Where(c =>
-            c.StartsWith(":w24=") && c[5..].TrimEnd(',').Length >= 10).ToList();
-        Assert.True(nanoHzWrites.Count > 0, "Should have nanoHz frequency writes during scan");
+        // Should have milliHz frequency writes during scan
+        var milliHzWrites = vgen.CommandLog.Where(c =>
+            c.StartsWith(":w24=") && c[5..].TrimEnd(',').Length >= 5).ToList();
+        Assert.True(milliHzWrites.Count > 0, "Should have milliHz frequency writes during scan");
 
         // Should have cleanup commands
         Assert.Contains(":w12=0,,", log);
@@ -574,13 +574,13 @@ public class DumpIntegrationTests
     }
 
     // ─────────────────────────────────────────────────────────────
-    // Frequency nanoHz detection test
+    // Frequency milliHz detection test
     // ─────────────────────────────────────────────────────────────
 
     [Theory]
     [InlineData(":w24=41009,", 41009, false)]  // Raw Hz
-    [InlineData(":w24=41020502562510,", 41020.50256251, true)]  // nanoHz
-    [InlineData(":w24=1652608154681650,", 1652608.15468165, true)]  // nanoHz
+    [InlineData(":w24=41020502562510,", 41020.50256251, true)]  // milliHz
+    [InlineData(":w24=1652608154681650,", 1652608.15468165, true)]  // milliHz
     public async Task VirtualGenerator_FrequencyDetection_RawVsNanoHz(string command, double expectedHz, bool isNanoHz)
     {
         var vgen = new VirtualGenerator();

@@ -68,16 +68,16 @@ public class GeneratorProtocolTests
 
     // ─────────────────────────────────────────────────────────────
     // Frequency encoding (verified from Data/FinishHuntAndKill dump)
-    // Encoding: Hz * 1e9 (nanoHz)
+    // Encoding: Hz * 1000 (milliHz)
     // ─────────────────────────────────────────────────────────────
 
     [Fact]
     public void BuildSetFrequency1_EncodesAsNanoHz()
     {
         // From dump: frequency ~1652608.15 Hz -> :w24=1652608154681650,
-        // We verify the encoding formula: Hz * 1e9
+        // We verify the encoding formula: Hz * 1000
         var cmd = GeneratorProtocol.BuildSetFrequency1(1000.0);
-        Assert.Equal(":w24=1000000000000,", cmd);
+        Assert.Equal(":w24=1000000,", cmd);
     }
 
     [Theory]
@@ -94,8 +94,8 @@ public class GeneratorProtocolTests
 
         // Verify we can decode back
         var valStr = cmd.Replace(":w24=", "").TrimEnd(',');
-        var nanoHz = long.Parse(valStr);
-        var decodedHz = nanoHz / 1e9;
+        var milliHz = long.Parse(valStr);
+        var decodedHz = milliHz / 1000.0;
         Assert.Equal(freqHz, decodedHz, precision: 5);
     }
 
@@ -103,7 +103,7 @@ public class GeneratorProtocolTests
     public void BuildSetFrequency2_EncodesAsNanoHz()
     {
         var cmd = GeneratorProtocol.BuildSetFrequency2(880.0);
-        Assert.Equal(":w25=880000000000,", cmd);
+        Assert.Equal(":w25=880000,", cmd);
     }
 
     // ─────────────────────────────────────────────────────────────
@@ -117,8 +117,8 @@ public class GeneratorProtocolTests
         long v1 = 1652608154681650;
         long v2 = 1653021306720320;
 
-        double freq1 = v1 / 1e9; // Hz
-        double freq2 = v2 / 1e9;
+        double freq1 = v1 / 1000.0; // Hz
+        double freq2 = v2 / 1000.0;
         double step = freq2 - freq1;
         double expectedStep = freq1 * 0.00025; // 0.025%
 

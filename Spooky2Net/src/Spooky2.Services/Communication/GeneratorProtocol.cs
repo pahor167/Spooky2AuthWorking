@@ -200,13 +200,14 @@ public static class GeneratorProtocol
     public static string BuildSetDwellTime(string value) =>
         $":w23={value}"; // Sends ":w23=<dwell>" — originally BuildSetParam23
 
-    /// <summary>Build set output 1 frequency in nanoHz. From serial dump: freq 1652608.15 Hz → :w24=1652608154681650,</summary>
+    /// <summary>Build set output 1 frequency in milliHz (Hz × 1000).
+    /// Verified from Data/LatestComparison/OldSpooky: 41010.256 Hz → :w24=41010256,</summary>
     public static string BuildSetFrequency1(double frequencyHz) =>
-        $":w24={(long)(frequencyHz * 1e9)},"; // Sends ":w24=<nanoHz>,"
+        $":w24={(long)(frequencyHz * 1000)},"; // Sends ":w24=<milliHz>,"
 
-    /// <summary>Build set output 2 frequency in nanoHz.</summary>
+    /// <summary>Build set output 2 frequency in milliHz.</summary>
     public static string BuildSetFrequency2(double frequencyHz) =>
-        $":w25={(long)(frequencyHz * 1e9)},"; // Sends ":w25=<nanoHz>,"
+        $":w25={(long)(frequencyHz * 1000)},"; // Sends ":w25=<milliHz>,"
 
     /// <summary>Set frequency as raw integer Hz (used during setup/ramp-up, NOT scanning).
     /// From dump: :w24=41009, before amplitude ramp.</summary>
