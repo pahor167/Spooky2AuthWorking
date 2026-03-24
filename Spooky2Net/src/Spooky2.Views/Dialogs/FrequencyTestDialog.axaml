@@ -1,0 +1,70 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Spooky2.Views.Dialogs.FrequencyTestDialog"
+        Title="Frequency Test"
+        Width="700" Height="600"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="Arial"
+        FontSize="12">
+    <Grid RowDefinitions="Auto,Auto,Auto,*" Margin="12">
+
+        <!-- Row 0: Init button -->
+        <Button Grid.Row="0" Content="Send Full Init Sequence"
+                Command="{Binding SendInitCommand}"
+                HorizontalAlignment="Stretch" Height="36" FontWeight="Bold"
+                Background="#D0E8FF" Margin="0,0,0,8"/>
+
+        <!-- Row 1: Frequency input + send -->
+        <Grid Grid.Row="1" ColumnDefinitions="*,Auto,Auto" Margin="0,0,0,8">
+            <TextBox Grid.Column="0" Text="{Binding FrequencyInput}"
+                     Watermark="Enter frequency in Hz (e.g. 41000.256)"
+                     FontSize="14" FontFamily="Courier New"/>
+            <Button Grid.Column="1" Content="Send (G14 format)"
+                    Command="{Binding SendFrequencyCommand}"
+                    Width="140" Margin="4,0,0,0" Background="#D0F0D0"/>
+            <Button Grid.Column="2" Content="Send RAW"
+                    Command="{Binding SendRawW24Command}"
+                    Width="90" Margin="4,0,0,0" Background="#FFE0D0"
+                    ToolTip.Tip="Send the input as raw :w24 value (no formatting)"/>
+        </Grid>
+
+        <!-- Row 2: Preview + status -->
+        <StackPanel Grid.Row="2" Margin="0,0,0,8">
+            <TextBlock Text="{Binding W24Preview}" FontFamily="Courier New" FontSize="13" FontWeight="Bold"/>
+            <TextBlock Text="{Binding StatusText}" FontSize="11" Foreground="Gray"/>
+            <TextBlock Text="{Binding LastSentCommand}" FontSize="11" Foreground="Blue" FontFamily="Courier New"/>
+        </StackPanel>
+
+        <!-- Row 3: Two columns - scan frequencies + command log -->
+        <Grid Grid.Row="3" ColumnDefinitions="200,*">
+            <!-- Left: clickable scan frequencies -->
+            <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="1" Margin="0,0,4,0">
+                <Grid RowDefinitions="Auto,*">
+                    <TextBlock Grid.Row="0" Text="Scan Frequencies (click to use)"
+                               FontWeight="Bold" FontSize="10" Padding="4,2"
+                               Background="#E0E0E0"/>
+                    <ListBox Grid.Row="1" Name="ScanFreqList"
+                             ItemsSource="{Binding ScanFrequencies}"
+                             FontFamily="Courier New" FontSize="11">
+                        <ListBox.Styles>
+                            <Style Selector="ListBoxItem">
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Style>
+                        </ListBox.Styles>
+                    </ListBox>
+                </Grid>
+            </Border>
+
+            <!-- Right: command log -->
+            <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="1">
+                <Grid RowDefinitions="Auto,*">
+                    <TextBlock Grid.Row="0" Text="Command Log"
+                               FontWeight="Bold" FontSize="10" Padding="4,2"
+                               Background="#E0E0E0"/>
+                    <ListBox Grid.Row="1" ItemsSource="{Binding CommandLog}"
+                             FontFamily="Courier New" FontSize="10"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>

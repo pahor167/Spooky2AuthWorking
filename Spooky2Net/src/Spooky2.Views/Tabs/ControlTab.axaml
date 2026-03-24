@@ -69,6 +69,14 @@
                         Width="46" Height="22" FontSize="9" Margin="0,0,2,2"/>
             </WrapPanel>
 
+            <Separator Margin="0,4"/>
+            <Button Content="Freq Test"
+                    Command="{Binding OpenFrequencyTestCommand}"
+                    HorizontalAlignment="Stretch" Height="24" FontSize="10"
+                    HorizontalContentAlignment="Center"
+                    Background="#F0E0FF"
+                    ToolTip.Tip="Open frequency test dialog for troubleshooting"/>
+
             <!-- Timing -->
             <StackPanel Spacing="1" Margin="0,4,0,0">
                 <StackPanel Orientation="Horizontal" Spacing="4">

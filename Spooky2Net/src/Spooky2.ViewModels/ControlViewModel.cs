@@ -16,6 +16,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
     private readonly IWaveformService _waveformService;
     private readonly IScanService _scanService;
     private readonly IDatabaseService? _databaseService;
+    private readonly IDialogService? _dialogService;
     private readonly ILogger<ControlViewModel> _logger;
     private readonly System.Timers.Timer _statusTimer;
 
@@ -28,12 +29,14 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         IWaveformService waveformService,
         IScanService scanService,
         ILogger<ControlViewModel>? logger = null,
-        IDatabaseService? databaseService = null)
+        IDatabaseService? databaseService = null,
+        IDialogService? dialogService = null)
     {
         _generatorService = generatorService;
         _waveformService = waveformService;
         _scanService = scanService;
         _databaseService = databaseService;
+        _dialogService = dialogService;
         _logger = logger ?? NullLogger<ControlViewModel>.Instance;
 
         // Timer to poll generator status every 500ms
@@ -782,6 +785,25 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             }
         }
         return result;
+    }
+
+    [RelayCommand]
+    private async Task OpenFrequencyTest()
+    {
+        if (SelectedGeneratorId < 0)
+        {
+            _logger.LogWarning("FreqTest: no generator selected");
+            return;
+        }
+
+        if (_dialogService == null)
+        {
+            _logger.LogWarning("FreqTest: no dialog service available");
+            return;
+        }
+
+        var vm = new Dialogs.FrequencyTestViewModel(_generatorService, SelectedGeneratorId);
+        await _dialogService.ShowDialogAsync(vm);
     }
 
     public void Dispose()
