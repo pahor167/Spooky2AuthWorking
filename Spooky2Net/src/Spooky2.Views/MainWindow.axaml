@@ -113,6 +113,32 @@
         </Border>
 
     <DockPanel>
+        <!-- Menu Bar (visible on Windows/Linux, macOS uses NativeMenu above) -->
+        <Menu DockPanel.Dock="Top" IsVisible="{OnPlatform False, Windows=True, Linux=True}">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Save" Command="{Binding SaveCommand}" />
+                <Separator />
+                <MenuItem Header="E_xit" Command="{Binding ExitApplicationCommand}" />
+            </MenuItem>
+            <MenuItem Header="_System">
+                <MenuItem Header="_Rescan Devices" Command="{Binding RescanDevicesCommand}" />
+                <MenuItem Header="_Identify Generators" Command="{Binding IdentifyGeneratorsCommand}" />
+                <Separator />
+                <MenuItem Header="Refresh _Database" Command="{Binding RefreshDatabaseCommand}" />
+                <MenuItem Header="Refresh _Waveforms" Command="{Binding RefreshWaveformsCommand}" />
+                <MenuItem Header="_Update Presets" Command="{Binding UpdatePresetsCommand}" />
+                <Separator />
+                <MenuItem Header="Restore _Defaults" Command="{Binding RestoreDefaultsCommand}" />
+                <MenuItem Header="_About" Command="{Binding ShowAboutCommand}" />
+            </MenuItem>
+            <MenuItem Header="_Tools">
+                <MenuItem Header="GX Screen _On" Command="{Binding GxScreenOnCommand}" />
+                <MenuItem Header="GX Screen O_ff" Command="{Binding GxScreenOffCommand}" />
+                <Separator />
+                <MenuItem Header="_Save Settings" Command="{Binding SaveSettingsCommand}" />
+            </MenuItem>
+        </Menu>
+
         <!-- Status Bar -->
         <Border DockPanel.Dock="Bottom"
                 Background="{DynamicResource SystemControlBackgroundChromeMediumBrush}"
