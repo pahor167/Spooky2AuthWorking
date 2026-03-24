@@ -67,7 +67,7 @@ public partial class MainViewModel : ObservableObject
         Settings = new SettingsViewModel();
         System = new SystemViewModel(settingsService);
         Control = new ControlViewModel(generatorService, new Spooky2.Services.Waveform.WaveformService(), scanService,
-            databaseService: databaseService);
+            databaseService: databaseService, dialogService: dialogService);
 
         // Wire preset loading: when a preset is loaded in the Presets tab,
         // pass it to the Control tab so its frequencies appear there
