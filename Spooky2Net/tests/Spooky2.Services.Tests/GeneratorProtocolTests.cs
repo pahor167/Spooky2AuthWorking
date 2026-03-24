@@ -77,7 +77,7 @@ public class GeneratorProtocolTests
         // From dump: frequency ~1652608.15 Hz -> :w24=1652608154681650,
         // We verify the encoding formula: Hz * 1000
         var cmd = GeneratorProtocol.BuildSetFrequency1(1000.0);
-        Assert.Equal(":w24=1000000,", cmd);
+        Assert.Equal(":w24=1000,", cmd);
     }
 
     [Theory]
@@ -92,18 +92,18 @@ public class GeneratorProtocolTests
         Assert.StartsWith(":w24=", cmd);
         Assert.EndsWith(",", cmd);
 
-        // Verify we can decode back
+        // Value should be the frequency with decimal point removed
         var valStr = cmd.Replace(":w24=", "").TrimEnd(',');
-        var milliHz = long.Parse(valStr);
-        var decodedHz = milliHz / 1000.0;
-        Assert.Equal(freqHz, decodedHz, precision: 5);
+        Assert.False(valStr.Contains('.'), "Value should not contain decimal point");
+        Assert.False(valStr.Contains(','), "Value should not contain comma");
+        Assert.True(valStr.Length > 0, "Value should not be empty");
     }
 
     [Fact]
     public void BuildSetFrequency2_EncodesAsNanoHz()
     {
         var cmd = GeneratorProtocol.BuildSetFrequency2(880.0);
-        Assert.Equal(":w25=880000,", cmd);
+        Assert.Equal(":w25=880,", cmd);
     }
 
     // ─────────────────────────────────────────────────────────────

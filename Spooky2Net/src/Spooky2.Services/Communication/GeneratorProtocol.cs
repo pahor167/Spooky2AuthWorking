@@ -200,14 +200,24 @@ public static class GeneratorProtocol
     public static string BuildSetDwellTime(string value) =>
         $":w23={value}"; // Sends ":w23=<dwell>" — originally BuildSetParam23
 
-    /// <summary>Build set output 1 frequency in milliHz (Hz × 1000).
-    /// Verified from Data/LatestComparison/OldSpooky: 41010.256 Hz → :w24=41010256,</summary>
-    public static string BuildSetFrequency1(double frequencyHz) =>
-        $":w24={(long)(frequencyHz * 1000)},"; // Sends ":w24=<milliHz>,"
+    /// <summary>Build set output 1 frequency. VB6 formats the frequency as a string,
+    /// strips trailing zeros, then removes the decimal point.
+    /// Example: 41020.50256251 → "41020.50256251" → "4102050256251"
+    /// Verified from Data/LatestComparison/OldOldSpooky dump.</summary>
+    public static string BuildSetFrequency1(double frequencyHz)
+    {
+        var s = frequencyHz.ToString("G15", System.Globalization.CultureInfo.InvariantCulture);
+        s = s.Replace(".", "");
+        return $":w24={s},";
+    }
 
-    /// <summary>Build set output 2 frequency in milliHz.</summary>
-    public static string BuildSetFrequency2(double frequencyHz) =>
-        $":w25={(long)(frequencyHz * 1000)},"; // Sends ":w25=<milliHz>,"
+    /// <summary>Build set output 2 frequency (same format as output 1).</summary>
+    public static string BuildSetFrequency2(double frequencyHz)
+    {
+        var s = frequencyHz.ToString("G15", System.Globalization.CultureInfo.InvariantCulture);
+        s = s.Replace(".", "");
+        return $":w25={s},";
+    }
 
     /// <summary>Set frequency as raw integer Hz (used during setup/ramp-up, NOT scanning).
     /// From dump: :w24=41009, before amplitude ramp.</summary>
