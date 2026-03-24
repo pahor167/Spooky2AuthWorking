@@ -20,6 +20,9 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
 
     private sealed record PortConfig(string PortName, int BaudRate);
 
+    /// <summary>Errors from the last FindGenerators call, keyed by port name.</summary>
+    public Dictionary<string, string> LastScanErrors { get; } = new();
+
     public GeneratorService(ISerialPortFactory serialPortFactory, ILogger<GeneratorService> logger)
     {
         _serialPortFactory = serialPortFactory ?? throw new ArgumentNullException(nameof(serialPortFactory));
@@ -32,6 +35,7 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
         _logger.LogInformation("Scanning {Count} serial port(s): {Ports}", ports.Count, string.Join(", ", ports));
 
         var foundGenerators = new List<GeneratorState>();
+        LastScanErrors.Clear();
 
         foreach (var port in ports)
         {
@@ -156,6 +160,7 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
                 catch (Exception ex)
                 {
                     _logger.LogDebug("  Failed to probe {Port} at {Baud}: {Error}", port, baudRate, ex.Message);
+                    LastScanErrors[port] = ex.Message;
                 }
             }
         }

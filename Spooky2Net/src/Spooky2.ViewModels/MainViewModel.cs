@@ -133,9 +133,26 @@ public partial class MainViewModel : ObservableObject
                 }
 
                 _logger.LogInformation("Initialization complete, {Count} generator(s) found", found.Count);
-                StatusBarText = found.Count > 0
-                    ? $"Ready - {found.Count} generator(s) found"
-                    : "Ready - No generators found (connect USB and use System > Rescan)";
+                if (found.Count > 0)
+                {
+                    StatusBarText = $"Ready - {found.Count} generator(s) found";
+                }
+                else
+                {
+                    var svc = _generatorService as Spooky2.Services.Communication.GeneratorService;
+                    var errors = svc?.LastScanErrors;
+                    if (errors != null && errors.Count > 0)
+                    {
+                        var accessDenied = errors.Values.Any(e => e.Contains("denied", StringComparison.OrdinalIgnoreCase));
+                        StatusBarText = accessDenied
+                            ? "No generators found - ports in use by another application (close Spooky2 first)"
+                            : $"No generators found - {errors.Values.First()}";
+                    }
+                    else
+                    {
+                        StatusBarText = "Ready - No generators found (connect USB and use System > Rescan)";
+                    }
+                }
             }
             catch (Exception ex)
             {
@@ -323,9 +340,26 @@ public partial class MainViewModel : ObservableObject
             }
 
             _logger.LogInformation("Rescan complete, found {Count} generator(s)", found.Count);
-            StatusBarText = found.Count > 0
-                ? $"Found {found.Count} generator(s)"
-                : "No generators found";
+            if (found.Count > 0)
+            {
+                StatusBarText = $"Found {found.Count} generator(s)";
+            }
+            else
+            {
+                var svc = _generatorService as Spooky2.Services.Communication.GeneratorService;
+                var errors = svc?.LastScanErrors;
+                if (errors != null && errors.Count > 0)
+                {
+                    var accessDenied = errors.Values.Any(e => e.Contains("denied", StringComparison.OrdinalIgnoreCase));
+                    StatusBarText = accessDenied
+                        ? "No generators found - ports in use (close other applications)"
+                        : $"No generators found - {errors.Values.First()}";
+                }
+                else
+                {
+                    StatusBarText = "No generators found";
+                }
+            }
         }
         catch (Exception ex)
         {
