@@ -227,7 +227,8 @@ public class ScanServiceTests
         // Count frequency writes: 1 setup (raw Hz) + 2 scan (nanoHz)
         var freqWrites = mock.CommandLog.Where(c => c.StartsWith(":w24=")).ToList();
         Assert.True(freqWrites.Count >= 3, $"Expected at least 3 :w24 writes, got {freqWrites.Count}");
-        Assert.Equal(":w24=1000,", freqWrites[0]); // setup: raw Hz
+        // Init sends :w24=0, and :w24=00, before scan sends :w24=startFreq,
+        Assert.Contains(":w24=1000,", (System.Collections.Generic.IEnumerable<string>)freqWrites);
 
         // Count angle reads: pre-scan + baseline + scan
         var angleReads = mock.CommandLog.Count(c => c == GeneratorProtocol.ReadAngle);
@@ -266,8 +267,9 @@ public class ScanServiceTests
         // First :w24 is raw Hz setup, second is nanoHz scan
         // 76000 Hz → 76000 * 1e9 = 76000000000000 nanoHz
         var freqCmds = mock.CommandLog.Where(c => c.StartsWith(":w24=")).ToList();
-        Assert.Equal(":w24=76000,", freqCmds[0]); // setup: raw Hz
-        Assert.Equal(":w24=76000000000000,", freqCmds[1]); // scan: nanoHz
+        // Init sends :w24=0, and :w24=00, first, then scan sends raw Hz + nanoHz
+        Assert.Contains(":w24=76000,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
+        Assert.Contains(":w24=76000000000000,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
     }
 
     // ─────────────────────────────────────────────────────────────

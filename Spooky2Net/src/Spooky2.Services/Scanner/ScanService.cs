@@ -57,30 +57,56 @@ public sealed class ScanService : IScanService
             // Matches serial dump: :n00 → :w24=Hz → :w28/:w29=6 →
             //   :w11=1,, → :w11=,1, → ramp 6→2000 in ~330 steps
             // ══════════════════════════════════════════════════════════
-            progress?.Report(new ScanProgress { StatusText = "Uploading waveform tables..." });
+            // ── Generator init (commands 4-28 from original dump) ──
+            // These MUST run before every scan, not just during discovery.
+            // They set Low Frequency Mode, sync, waveform types, etc.
+            progress?.Report(new ScanProgress { StatusText = "Initializing generator..." });
 
-            // Upload DDS waveform tables (13 tables × 1024 samples)
+            await Send(generatorId, $":w14=0,");    // sync off
+            await Send(generatorId, $":w17=0,0,");  // waveform inversion off
+            await Send(generatorId, $":w24=0,");     // freq 0
+            await Send(generatorId, $":w25=0,");     // freq ch2 0
+            await Send(generatorId, $":w15=1,1,");   // LOW FREQUENCY MODE — CRITICAL for Hz scale
+            await Send(generatorId, $":w24=00,");    // freq 0 raw
+            await Send(generatorId, $":w32=120,");   // amplitude ch1
+            await Send(generatorId, $":w33=120,");   // amplitude ch2
+            await Send(generatorId, GeneratorProtocol.BuildSetDisplayName("Stopped"));
+            await Send(generatorId, $":w13=0,");     // modulation off
+            await Send(generatorId, $":w28=0,");     // amplitude cv1 = 0
+            await Send(generatorId, $":w29=0,");     // amplitude cv2 = 0
+            await Send(generatorId, $":w24=00,");    // freq 0
+            await Send(generatorId, GeneratorProtocol.ClearFrequency1);  // :w12=0,,
+            await Send(generatorId, GeneratorProtocol.ClearFrequency2);  // :w12=,0,
+            await Send(generatorId, $":w32=120,");   // amplitude
+            await Send(generatorId, $":w40=0,");     // duty cycle
+            await Send(generatorId, $":w33=120,");   // amplitude ch2
+            await Send(generatorId, $":w40=0,");     // duty cycle
+            await Send(generatorId, $":w13=0,");     // modulation off
+            await Send(generatorId, $":w20=11,");    // waveform 1 = sine
+            await Send(generatorId, $":w14=1,");     // sync ON
+            await Send(generatorId, GeneratorProtocol.ClearFrequency1);
+            await Send(generatorId, GeneratorProtocol.ClearFrequency2);
+            await Send(generatorId, $":w21=25,");    // waveform 2 = inverse
+
+            // ── Display name ──
+            var displayName = string.IsNullOrEmpty(parameters.LogName)
+                ? "Running Biofeedback"
+                : parameters.LogName;
+            await Send(generatorId, GeneratorProtocol.BuildSetDisplayName($"Port - {displayName}"));
+
+            // ── Waveform tables ──
+            progress?.Report(new ScanProgress { StatusText = "Uploading waveform tables..." });
             _logger.LogInformation("Uploading {Count} waveform tables", WaveformTables.Commands.Length);
             await _generatorService.SendCommandsBatch(generatorId, WaveformTables.Commands);
 
-            // Initial sensor reads before setting frequency (matches original sequence)
+            // ── Pre-scan sensor reads + frequency set (matches original order) ──
             await Send(generatorId, GeneratorProtocol.ReadAngle);
             await Send(generatorId, GeneratorProtocol.ReadAngle);
             await Send(generatorId, GeneratorProtocol.ReadCurrent);
 
-            progress?.Report(new ScanProgress { StatusText = "Setting up generator..." });
-
-            // Set start frequency (raw Hz, NOT nanoHz — matches dump)
+            // Set start frequency (raw Hz)
             await Send(generatorId, GeneratorProtocol.BuildSetFrequencyRawHz((int)parameters.StartFrequency));
-
-            // Set waveform types (matches original: sine=11, inverse=25)
-            await Send(generatorId, $":w21=25,");  // waveform 2 = inverse
-
-            // Display name
-            var displayName = string.IsNullOrEmpty(parameters.LogName)
-                ? "Running Biofeedback"
-                : parameters.LogName;
-            await Send(generatorId, GeneratorProtocol.BuildSetDisplayName(displayName));
+            await Send(generatorId, $":w21=25,");    // waveform 2 = inverse (again, matching original)
 
             if (parameters.EnableAmplitudeRampUp)
             {

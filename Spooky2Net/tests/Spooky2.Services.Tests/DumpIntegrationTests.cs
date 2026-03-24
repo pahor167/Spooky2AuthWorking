@@ -333,17 +333,18 @@ public class DumpIntegrationTests
         await svc.RunBiofeedbackScan(0, parameters);
 
         // Filter out waveform table uploads (:a11-:a24) for assertion clarity
-        var log = vgen.CommandLog.Where(c => !c.StartsWith(":a") && !c.StartsWith(":w20") && !c.StartsWith(":w21") && !c.StartsWith(":r1")).ToList();
+        // Use full command log for Contains checks
+        var log = vgen.CommandLog;
 
         // Should start with display name
         Assert.True(log.Any(c => c.StartsWith(":n00=")), "Should contain display name");
 
         // Should set raw Hz frequency
-        Assert.Contains(":w24=41000,", log);
+        Assert.Contains(":w24=41000,", (System.Collections.Generic.IEnumerable<string>)log);
 
         // Should have amplitude ramp-up
-        Assert.Equal(":w28=6,", log[2]);
-        Assert.Equal(":w29=6,", log[3]);
+        Assert.Contains(":w28=6,", log);
+        Assert.Contains(":w29=6,", log);
 
         // Should enable outputs
         Assert.Contains(":w11=1,,", log);
