@@ -206,7 +206,9 @@ public static class GeneratorProtocol
     /// Verified from Data/LatestComparison/OldOldSpooky dump.</summary>
     public static string BuildSetFrequency1(double frequencyHz)
     {
-        var s = frequencyHz.ToString("G15", System.Globalization.CultureInfo.InvariantCulture);
+        // VB6 CStr produces max 14 significant digits. Generator firmware
+        // can't parse more than 14 digits (overflow). G14 matches VB6 CStr.
+        var s = frequencyHz.ToString("G14", System.Globalization.CultureInfo.InvariantCulture);
         s = s.Replace(".", "");
         return $":w24={s},";
     }
@@ -214,7 +216,7 @@ public static class GeneratorProtocol
     /// <summary>Build set output 2 frequency (same format as output 1).</summary>
     public static string BuildSetFrequency2(double frequencyHz)
     {
-        var s = frequencyHz.ToString("G15", System.Globalization.CultureInfo.InvariantCulture);
+        var s = frequencyHz.ToString("G14", System.Globalization.CultureInfo.InvariantCulture);
         s = s.Replace(".", "");
         return $":w25={s},";
     }
