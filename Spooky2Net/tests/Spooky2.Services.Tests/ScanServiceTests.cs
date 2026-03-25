@@ -268,8 +268,8 @@ public class ScanServiceTests
         // 76000 Hz → 76000 * 1e9 = 76000000 milliHz
         var freqCmds = mock.CommandLog.Where(c => c.StartsWith(":w24=")).ToList();
         // Init sends :w24=0, and :w24=00, first, then scan sends raw Hz + milliHz
-        Assert.Contains(":w24=76000,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
-        Assert.Contains(":w24=76000,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
+        Assert.Contains(":w24=7600000000000,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
+        Assert.Contains(":w24=7600000000000,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
     }
 
     // ─────────────────────────────────────────────────────────────

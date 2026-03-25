@@ -77,7 +77,7 @@ public class GeneratorProtocolTests
         // From dump: frequency ~1652608.15 Hz -> :w24=1652608154681650,
         // We verify the encoding formula: Hz * 1000
         var cmd = GeneratorProtocol.BuildSetFrequency1(1000.0);
-        Assert.Equal(":w24=1000,", cmd);
+        Assert.Equal(":w24=100000000000,", cmd);
     }
 
     [Theory]
@@ -103,7 +103,7 @@ public class GeneratorProtocolTests
     public void BuildSetFrequency2_EncodesAsNanoHz()
     {
         var cmd = GeneratorProtocol.BuildSetFrequency2(880.0);
-        Assert.Equal(":w25=880,", cmd);
+        Assert.Equal(":w25=88000000000,", cmd);
     }
 
     // ─────────────────────────────────────────────────────────────
@@ -335,7 +335,7 @@ public class GeneratorProtocolTests
     [Fact]
     public void EncodeCommandToBytes_AppendsCorrectTerminator()
     {
-        var bytes = GeneratorProtocol.EncodeCommandToBytes(":w24=1000,");
+        var bytes = GeneratorProtocol.EncodeCommandToBytes(":w24=100000000000,");
         var text = System.Text.Encoding.ASCII.GetString(bytes);
         Assert.EndsWith("\r\n", text);
     }

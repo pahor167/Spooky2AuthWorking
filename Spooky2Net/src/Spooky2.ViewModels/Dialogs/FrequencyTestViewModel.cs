@@ -32,7 +32,9 @@ public partial class FrequencyTestViewModel : ObservableObject
         var freq = 41000.0;
         for (var i = 0; i < 20; i++)
         {
-            ScanFrequencies.Add($"{freq:G14} Hz");
+            var f8 = freq.ToString("F8", CultureInfo.InvariantCulture);
+            var w24 = f8.Replace(".", "").TrimStart('0');
+            ScanFrequencies.Add($"{freq:F3} Hz → :w24={w24}");
             freq += freq * 0.00025;
         }
 
@@ -45,8 +47,9 @@ public partial class FrequencyTestViewModel : ObservableObject
     {
         if (double.TryParse(FrequencyInput, NumberStyles.Float, CultureInfo.InvariantCulture, out var freq))
         {
-            var s = freq.ToString("G14", CultureInfo.InvariantCulture);
-            var noDot = s.Replace(".", "");
+            var s = freq.ToString("F8", CultureInfo.InvariantCulture);
+            var noDot = s.Replace(".", "").TrimStart('0');
+            if (noDot.Length == 0) noDot = "0";
             W24Preview = $":w24={noDot},";
         }
         else
@@ -94,8 +97,9 @@ public partial class FrequencyTestViewModel : ObservableObject
             return;
         }
 
-        var s = freq.ToString("G14", CultureInfo.InvariantCulture);
-        var noDot = s.Replace(".", "");
+        var s = freq.ToString("F8", CultureInfo.InvariantCulture);
+        var noDot = s.Replace(".", "").TrimStart('0');
+        if (noDot.Length == 0) noDot = "0";
         var cmd = $":w24={noDot},";
 
         LastSentCommand = cmd;

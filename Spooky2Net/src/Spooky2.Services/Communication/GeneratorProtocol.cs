@@ -206,18 +206,22 @@ public static class GeneratorProtocol
     /// Verified from Data/LatestComparison/OldOldSpooky dump.</summary>
     public static string BuildSetFrequency1(double frequencyHz)
     {
-        // VB6 CStr produces max 14 significant digits. Generator firmware
-        // can't parse more than 14 digits (overflow). G14 matches VB6 CStr.
-        var s = frequencyHz.ToString("G14", System.Globalization.CultureInfo.InvariantCulture);
-        s = s.Replace(".", "");
+        // Generator firmware interprets :w24 value as XXXXX.YYYYYYYY (dot after 5th digit).
+        // MUST have exactly 8 decimal places (13+ total digits). Shorter values get
+        // interpreted with wrong scaling. F8 guarantees 8 decimal places always.
+        // Original VB6 CStr also produces 8+ decimal digits due to float accumulation.
+        var s = frequencyHz.ToString("F8", System.Globalization.CultureInfo.InvariantCulture);
+        s = s.Replace(".", "").TrimStart('0');
+        if (s.Length == 0) s = "0";
         return $":w24={s},";
     }
 
     /// <summary>Build set output 2 frequency (same format as output 1).</summary>
     public static string BuildSetFrequency2(double frequencyHz)
     {
-        var s = frequencyHz.ToString("G14", System.Globalization.CultureInfo.InvariantCulture);
-        s = s.Replace(".", "");
+        var s = frequencyHz.ToString("F8", System.Globalization.CultureInfo.InvariantCulture);
+        s = s.Replace(".", "").TrimStart('0');
+        if (s.Length == 0) s = "0";
         return $":w25={s},";
     }
 
