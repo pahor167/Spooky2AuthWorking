@@ -200,29 +200,46 @@ public static class GeneratorProtocol
     public static string BuildSetDwellTime(string value) =>
         $":w23={value}"; // Sends ":w23=<dwell>" — originally BuildSetParam23
 
-    /// <summary>Build set output 1 frequency. VB6 formats the frequency as a string,
-    /// strips trailing zeros, then removes the decimal point.
-    /// Example: 41020.50256251 → "41020.50256251" → "4102050256251"
-    /// Verified from Data/LatestComparison/OldOldSpooky dump.</summary>
+    /// <summary>Build set output 1 frequency for GeneratorX Pro.
+    /// Format: [frequency_digits][decimal_position_code]
+    /// The LAST digit is a code that tells the firmware where to place the decimal:
+    ///   0 = 4 integer digits, 1 = 5, 2 = 6, 3 = 7, etc.
+    /// Frequency is formatted with F8 (8 decimal places), dot removed.
+    /// Decimal position code = (number of integer digits) - 4.
+    /// Example: 41000 Hz (5 int digits) → "4100000000000" + "1" → ":w24=41000000000001,"
+    /// Verified by user testing on GeneratorX Pro hardware.</summary>
     public static string BuildSetFrequency1(double frequencyHz)
     {
-        // Generator firmware interprets :w24 value as XXXXX.YYYYYYYY (dot after 5th digit).
-        // MUST have exactly 8 decimal places (13+ total digits). Shorter values get
-        // interpreted with wrong scaling. F8 guarantees 8 decimal places always.
-        // Original VB6 CStr also produces 8+ decimal digits due to float accumulation.
-        var s = frequencyHz.ToString("F8", System.Globalization.CultureInfo.InvariantCulture);
-        s = s.Replace(".", "").TrimStart('0');
-        if (s.Length == 0) s = "0";
-        return $":w24={s},";
+        return $":w24={FormatFrequency(frequencyHz)},";
     }
 
     /// <summary>Build set output 2 frequency (same format as output 1).</summary>
     public static string BuildSetFrequency2(double frequencyHz)
     {
+        return $":w25={FormatFrequency(frequencyHz)},";
+    }
+
+    /// <summary>Formats frequency for GX Pro: F8 with dot removed + decimal position code.</summary>
+    public static string FormatFrequency(double frequencyHz)
+    {
+        // Format with 8 decimal places, remove dot
         var s = frequencyHz.ToString("F8", System.Globalization.CultureInfo.InvariantCulture);
-        s = s.Replace(".", "").TrimStart('0');
+
+        // Count integer digits (before the dot)
+        var dotIdx = s.IndexOf('.');
+        var intDigits = dotIdx > 0 ? dotIdx : s.Length;
+
+        // Remove the dot
+        s = s.Replace(".", "");
+
+        // Trim leading zeros (but keep at least 1 char)
+        s = s.TrimStart('0');
         if (s.Length == 0) s = "0";
-        return $":w25={s},";
+
+        // Append decimal position code: (integer_digits - 4)
+        // 4 int digits → 0, 5 → 1, 6 → 2, etc.
+        var posCode = Math.Max(0, intDigits - 4);
+        return s + posCode.ToString();
     }
 
     /// <summary>Set frequency as raw integer Hz (used during setup/ramp-up, NOT scanning).
