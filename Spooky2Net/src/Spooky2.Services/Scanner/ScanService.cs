@@ -288,7 +288,9 @@ public sealed class ScanService : IScanService
                         TotalSteps = frequencies.Count,
                         HitsFound = hits.Count,
                         StatusText = $"Scanning {freq:N0} Hz ({i + 1}/{frequencies.Count})",
-                        CycleNumber = loop + 1
+                        CycleNumber = loop + 1,
+                        CurrentReading = reading,
+                        CurrentRunningAverage = primaryWindow.IsFull ? primaryWindow.WeightedAverage() : 0
                     });
                 }
             }

@@ -170,6 +170,23 @@ public partial class ControlViewModel : ObservableObject, IDisposable
     [ObservableProperty]
     private double _scanProgress;
 
+    // ── Biofeedback Graph ──
+
+    [ObservableProperty]
+    private IReadOnlyList<double> _graphReadings = Array.Empty<double>();
+
+    [ObservableProperty]
+    private double _graphRunningAverage;
+
+    [ObservableProperty]
+    private double _graphMinValue;
+
+    [ObservableProperty]
+    private double _graphMaxValue = 100;
+
+    [ObservableProperty]
+    private string _graphFrequencyRange = "41000 - 1800000";
+
     // ── Reverse Lookup ──
 
     public ObservableCollection<string> ReverseLookupResults { get; } = new();
@@ -460,6 +477,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             _scanCts = new CancellationTokenSource();
 
             var parameters = new ScanParameters();
+            var graphData = new List<double>();
             var scanProgress = new Progress<ScanProgress>(p =>
             {
                 ScanProgress = p.PercentComplete;
@@ -468,6 +486,25 @@ public partial class ControlViewModel : ObservableObject, IDisposable
                 Output2Frequency = p.CurrentFrequency;
                 if (p.AmplitudeCv > 0)
                     Output1AmplitudeDisplay = $"{p.AmplitudeCv / 100.0:F1}v";
+
+                // Update biofeedback graph
+                if (p.CurrentReading > 0)
+                {
+                    graphData.Add(p.CurrentReading);
+                    // Keep last 500 points
+                    if (graphData.Count > 500) graphData.RemoveRange(0, graphData.Count - 500);
+                    GraphReadings = new List<double>(graphData);
+                    GraphRunningAverage = p.CurrentRunningAverage;
+
+                    // Auto-scale Y axis
+                    if (graphData.Count > 0)
+                    {
+                        GraphMinValue = graphData.Min() - 10;
+                        GraphMaxValue = graphData.Max() + 10;
+                    }
+
+                    GraphFrequencyRange = $"{p.CurrentFrequency:N0} Hz";
+                }
             });
 
             _logger.LogInformation("Starting biofeedback scan on generator {Id}", SelectedGeneratorId);
@@ -516,6 +553,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             _scanCts = new CancellationTokenSource();
 
             var parameters = new ScanParameters();
+            var hkGraphData = new List<double>();
             var scanProgress = new Progress<ScanProgress>(p =>
             {
                 ScanProgress = p.PercentComplete;
@@ -524,6 +562,23 @@ public partial class ControlViewModel : ObservableObject, IDisposable
                 Output2Frequency = p.CurrentFrequency;
                 if (p.AmplitudeCv > 0)
                     Output1AmplitudeDisplay = $"{p.AmplitudeCv / 100.0:F1}v";
+
+                // Update biofeedback graph
+                if (p.CurrentReading > 0)
+                {
+                    hkGraphData.Add(p.CurrentReading);
+                    if (hkGraphData.Count > 500) hkGraphData.RemoveRange(0, hkGraphData.Count - 500);
+                    GraphReadings = new List<double>(hkGraphData);
+                    GraphRunningAverage = p.CurrentRunningAverage;
+
+                    if (hkGraphData.Count > 0)
+                    {
+                        GraphMinValue = hkGraphData.Min() - 10;
+                        GraphMaxValue = hkGraphData.Max() + 10;
+                    }
+
+                    GraphFrequencyRange = $"{p.CurrentFrequency:N0} Hz";
+                }
             });
 
             _logger.LogInformation("Starting Hunt and Kill on generator {Id}", SelectedGeneratorId);

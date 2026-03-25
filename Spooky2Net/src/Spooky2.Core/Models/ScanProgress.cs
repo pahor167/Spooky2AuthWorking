@@ -10,4 +10,6 @@ public sealed record ScanProgress
     public string StatusText { get; init; } = "";
     public int CycleNumber { get; init; }
     public int AmplitudeCv { get; init; }
+    public double CurrentReading { get; init; }
+    public double CurrentRunningAverage { get; init; }
 }

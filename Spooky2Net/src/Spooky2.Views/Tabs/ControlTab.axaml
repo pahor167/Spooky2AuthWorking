@@ -1,5 +1,6 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:controls="using:Spooky2.Views.Controls"
              x:Class="Spooky2.Views.Tabs.ControlTab">
 
     <Grid ColumnDefinitions="160,*,300" Margin="4,2">
@@ -122,20 +123,31 @@
         <!-- ═══ RIGHT: Hits + Output ═══ -->
         <Grid Grid.Column="2" RowDefinitions="*,Auto">
 
-            <!-- Biofeedback Hits -->
-            <Border Grid.Row="0" BorderBrush="Gray" BorderThickness="1" CornerRadius="3"
-                    Margin="0,0,0,4">
-                <Grid RowDefinitions="Auto,*">
-                    <Border Grid.Row="0" Background="#000060" Padding="4,2"
-                            CornerRadius="3,3,0,0">
-                        <TextBlock Text="Biofeedback Hits" Foreground="White"
-                                   FontSize="10" FontWeight="Bold"/>
-                    </Border>
-                    <ListBox Grid.Row="1"
-                             ItemsSource="{Binding BiofeedbackHits}"
-                             FontSize="10" FontFamily="Courier New"/>
-                </Grid>
-            </Border>
+            <!-- Biofeedback Graph + Hits -->
+            <Grid Grid.Row="0" RowDefinitions="*,Auto">
+                <!-- Biofeedback Graph -->
+                <Border Grid.Row="0" BorderBrush="Gray" BorderThickness="1" CornerRadius="3"
+                        Margin="0,0,0,4" MinHeight="200">
+                    <controls:BiofeedbackGraphControl
+                        Readings="{Binding GraphReadings}"
+                        RunningAverage="{Binding GraphRunningAverage}"
+                        MinValue="{Binding GraphMinValue}"
+                        MaxValue="{Binding GraphMaxValue}"
+                        FrequencyRangeText="{Binding GraphFrequencyRange}" />
+                </Border>
+
+                <!-- Biofeedback Hits (compact list below graph) -->
+                <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1" CornerRadius="3"
+                        MaxHeight="120">
+                    <Grid RowDefinitions="Auto,*">
+                        <Border Grid.Row="0" Background="#000060" Padding="4,2" CornerRadius="3,3,0,0">
+                            <TextBlock Text="Hits" Foreground="White" FontSize="10" FontWeight="Bold"/>
+                        </Border>
+                        <ListBox Grid.Row="1" ItemsSource="{Binding BiofeedbackHits}"
+                                 FontSize="9" FontFamily="Courier New"/>
+                    </Grid>
+                </Border>
+            </Grid>
 
             <!-- Generator Output (compact) -->
             <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1"
