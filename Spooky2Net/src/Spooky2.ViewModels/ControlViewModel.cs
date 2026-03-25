@@ -477,7 +477,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             _scanCts = new CancellationTokenSource();
 
             var parameters = new ScanParameters();
-            var graphData = new List<double>();
+            var graphData = new List<(DateTime time, double value)>();
             var scanProgress = new Progress<ScanProgress>(p =>
             {
                 ScanProgress = p.PercentComplete;
@@ -487,22 +487,18 @@ public partial class ControlViewModel : ObservableObject, IDisposable
                 if (p.AmplitudeCv > 0)
                     Output1AmplitudeDisplay = $"{p.AmplitudeCv / 100.0:F1}v";
 
-                // Update biofeedback graph
                 if (p.CurrentReading > 0)
                 {
-                    graphData.Add(p.CurrentReading);
-                    // Keep last 500 points
-                    if (graphData.Count > 500) graphData.RemoveRange(0, graphData.Count - 500);
-                    GraphReadings = new List<double>(graphData);
+                    graphData.Add((DateTime.UtcNow, p.CurrentReading));
+                    // Sliding 10-second window
+                    var cutoff = DateTime.UtcNow.AddSeconds(-10);
+                    graphData.RemoveAll(x => x.time < cutoff);
+
+                    var vals = graphData.Select(x => x.value).ToList();
+                    GraphReadings = vals;
                     GraphRunningAverage = p.CurrentRunningAverage;
-
-                    // Auto-scale Y axis
-                    if (graphData.Count > 0)
-                    {
-                        GraphMinValue = graphData.Min() - 10;
-                        GraphMaxValue = graphData.Max() + 10;
-                    }
-
+                    GraphMinValue = vals.Min() - 10;
+                    GraphMaxValue = vals.Max() + 10;
                     GraphFrequencyRange = $"{p.CurrentFrequency:N0} Hz";
                 }
             });
@@ -553,7 +549,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             _scanCts = new CancellationTokenSource();
 
             var parameters = new ScanParameters();
-            var hkGraphData = new List<double>();
+            var hkGraphData = new List<(DateTime time, double value)>();
             var scanProgress = new Progress<ScanProgress>(p =>
             {
                 ScanProgress = p.PercentComplete;
@@ -563,20 +559,17 @@ public partial class ControlViewModel : ObservableObject, IDisposable
                 if (p.AmplitudeCv > 0)
                     Output1AmplitudeDisplay = $"{p.AmplitudeCv / 100.0:F1}v";
 
-                // Update biofeedback graph
                 if (p.CurrentReading > 0)
                 {
-                    hkGraphData.Add(p.CurrentReading);
-                    if (hkGraphData.Count > 500) hkGraphData.RemoveRange(0, hkGraphData.Count - 500);
-                    GraphReadings = new List<double>(hkGraphData);
+                    hkGraphData.Add((DateTime.UtcNow, p.CurrentReading));
+                    var cutoff = DateTime.UtcNow.AddSeconds(-10);
+                    hkGraphData.RemoveAll(x => x.time < cutoff);
+
+                    var vals = hkGraphData.Select(x => x.value).ToList();
+                    GraphReadings = vals;
                     GraphRunningAverage = p.CurrentRunningAverage;
-
-                    if (hkGraphData.Count > 0)
-                    {
-                        GraphMinValue = hkGraphData.Min() - 10;
-                        GraphMaxValue = hkGraphData.Max() + 10;
-                    }
-
+                    GraphMinValue = vals.Min() - 10;
+                    GraphMaxValue = vals.Max() + 10;
                     GraphFrequencyRange = $"{p.CurrentFrequency:N0} Hz";
                 }
             });
