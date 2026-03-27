@@ -256,6 +256,7 @@ public class ReverseLookupTests
         public Task SendRawCommand(int id, string cmd) => Task.CompletedTask;
         public Task<string?> SendCommandWithResponse(int id, string cmd) => Task.FromResult<string?>("ok");
         public Task SendCommandsBatch(int id, IReadOnlyList<string> cmds) => Task.CompletedTask;
+        public Task WriteWaveformTables(int id) => Task.CompletedTask;
     }
 
     /// <summary>

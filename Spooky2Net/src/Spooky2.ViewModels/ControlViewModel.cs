@@ -17,6 +17,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
     private readonly IScanService _scanService;
     private readonly IDatabaseService? _databaseService;
     private readonly IDialogService? _dialogService;
+    private readonly IClipboardService? _clipboardService;
     private readonly ILogger<ControlViewModel> _logger;
     private readonly System.Timers.Timer _statusTimer;
 
@@ -30,13 +31,15 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         IScanService scanService,
         ILogger<ControlViewModel>? logger = null,
         IDatabaseService? databaseService = null,
-        IDialogService? dialogService = null)
+        IDialogService? dialogService = null,
+        IClipboardService? clipboardService = null)
     {
         _generatorService = generatorService;
         _waveformService = waveformService;
         _scanService = scanService;
         _databaseService = databaseService;
         _dialogService = dialogService;
+        _clipboardService = clipboardService;
         _logger = logger ?? NullLogger<ControlViewModel>.Instance;
 
         // Timer to poll generator status every 500ms
@@ -110,6 +113,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
     [ObservableProperty]
     private double _progressMaximum = 100;
 
+    /// <summary>Dwell time per frequency in seconds. Default 180s (3 min) from dump analysis, not preset.</summary>
     [ObservableProperty]
     private int _dwellValue = 180;
 
@@ -197,6 +201,33 @@ public partial class ControlViewModel : ObservableObject, IDisposable
 
     [ObservableProperty]
     private string? _selectedBiofeedbackHit;
+
+    // ── Scan Parameters ──
+
+    [ObservableProperty]
+    private double _scanStartFrequency = 41000;
+
+    [ObservableProperty]
+    private double _scanEndFrequency = 1800000;
+
+    [ObservableProperty]
+    private int _scanMaxHits = 10;
+
+    [ObservableProperty]
+    private int _scanRaWindow = 20;
+
+    /// <summary>Kill-phase dwell per frequency. 180s from dump analysis, not preset.</summary>
+    [ObservableProperty]
+    private double _scanDwellSeconds = 180;
+
+    private ScanParameters BuildScanParameters() => new()
+    {
+        StartFrequency = ScanStartFrequency,
+        EndFrequency = ScanEndFrequency,
+        MaxHits = ScanMaxHits,
+        RaWindow = ScanRaWindow,
+        DwellSeconds = ScanDwellSeconds,
+    };
 
     // ── Program Options ──
 
@@ -453,13 +484,15 @@ public partial class ControlViewModel : ObservableObject, IDisposable
 
         try
         {
-            _logger.LogInformation("Writing waveforms to generator {Id}", SelectedGeneratorId);
-            // Send waveform type commands to generator
-            // TODO: map UI waveform selections to generator protocol commands
-            await Task.CompletedTask;
+            _logger.LogInformation("Writing waveform tables to generator {Id}", SelectedGeneratorId);
+            GeneratorStatusText = "Uploading waveform tables...";
+            await Task.Run(() => _generatorService.WriteWaveformTables(SelectedGeneratorId));
+            GeneratorStatusText = "Waveform tables uploaded";
+            _logger.LogInformation("Waveform tables written to generator {Id}", SelectedGeneratorId);
         }
         catch (Exception ex)
         {
+            GeneratorStatusText = $"Waveform upload failed: {ex.Message}";
             _logger.LogError(ex, "WriteWaveforms failed for generator {Id}", SelectedGeneratorId);
         }
     }
@@ -480,7 +513,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             _scanCts?.Cancel();
             _scanCts = new CancellationTokenSource();
 
-            var parameters = new ScanParameters();
+            var parameters = BuildScanParameters();
             var graphData = new List<(DateTime time, double value)>();
             var scanProgress = new Progress<ScanProgress>(p =>
             {
@@ -552,7 +585,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             _scanCts?.Cancel();
             _scanCts = new CancellationTokenSource();
 
-            var parameters = new ScanParameters();
+            var parameters = BuildScanParameters();
             var hkGraphData = new List<(DateTime time, double value)>();
             var scanProgress = new Progress<ScanProgress>(p =>
             {
@@ -613,17 +646,55 @@ public partial class ControlViewModel : ObservableObject, IDisposable
     }
 
     [RelayCommand]
-    private void CopyFrequencies()
+    private async Task CopyFrequencies()
     {
-        // TODO: copy to clipboard
-        _logger.LogDebug("CopyFrequencies stub");
+        if (_clipboardService == null)
+        {
+            _logger.LogWarning("CopyFrequencies: no clipboard service available");
+            return;
+        }
+
+        if (FrequencyItems.Count == 0)
+        {
+            _logger.LogDebug("CopyFrequencies: no frequencies to copy");
+            return;
+        }
+
+        var text = string.Join(",", FrequencyItems);
+        await _clipboardService.SetTextAsync(text);
+        _logger.LogInformation("Copied {Count} frequencies to clipboard", FrequencyItems.Count);
     }
 
     [RelayCommand]
-    private void PasteFrequencies()
+    private async Task PasteFrequencies()
     {
-        // TODO: paste from clipboard
-        _logger.LogDebug("PasteFrequencies stub");
+        if (_clipboardService == null)
+        {
+            _logger.LogWarning("PasteFrequencies: no clipboard service available");
+            return;
+        }
+
+        var text = await _clipboardService.GetTextAsync();
+        if (string.IsNullOrWhiteSpace(text))
+        {
+            _logger.LogDebug("PasteFrequencies: clipboard is empty");
+            return;
+        }
+
+        var parts = text.Split([',', '\n', '\r', '\t'], StringSplitOptions.RemoveEmptyEntries);
+        var added = 0;
+        foreach (var part in parts)
+        {
+            var cleaned = part.Trim();
+            if (double.TryParse(cleaned, NumberStyles.Float, CultureInfo.InvariantCulture, out var freq) && freq > 0)
+            {
+                FrequencyItems.Add(freq.ToString("N7", CultureInfo.InvariantCulture));
+                added++;
+            }
+        }
+
+        UpdateProgress();
+        _logger.LogInformation("Pasted {Count} frequencies from clipboard", added);
     }
 
     [RelayCommand]
@@ -640,6 +711,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         var hitText = SelectedBiofeedbackHit;
         if (string.IsNullOrWhiteSpace(hitText))
         {
+            ScanStatusText = "Select a biofeedback hit before reverse lookup";
             _logger.LogWarning("ReverseLookup: no biofeedback hit selected");
             return;
         }
@@ -655,6 +727,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
 
         if (frequency <= 0)
         {
+            ScanStatusText = $"Could not parse frequency from '{hitText}'";
             _logger.LogWarning("ReverseLookup: could not parse frequency from '{Hit}'", hitText);
             return;
         }
@@ -664,7 +737,11 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             _logger.LogInformation("Starting reverse lookup for {Freq} Hz", frequency);
             ScanStatusText = $"Reverse lookup for {frequency:N2} Hz...";
 
-            var parameters = new ReverseLookupParameters();
+            var parameters = new ReverseLookupParameters
+            {
+                Databases = ["Rife", "CAFL", "XTRA", "CUST", "DNA", "HC", "ALT", "BIO",
+                             "PROV", "MW", "VEGA", "ETDFL", "BFB", "KHZ", "SD", "RUSS", "RRM"]
+            };
             var results = await Task.Run(() =>
                 _scanService.ReverseLookup(frequency, parameters, _databaseService));
 
@@ -814,7 +891,8 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             var totalSeconds = FrequencyItems.Count * DwellValue * DwellMultiplier * RepeatProgram;
             EstimatedTotalRunTime = TimeSpan.FromSeconds(totalSeconds).ToString(@"hh\:mm\:ss");
         }
-        catch { /* timer callback, don't throw */ }
+        catch (ObjectDisposedException) { /* timer fired after dispose, expected */ }
+        catch (Exception ex) { _logger.LogDebug(ex, "Status timer error"); }
     }
 
     private void UpdateProgress()

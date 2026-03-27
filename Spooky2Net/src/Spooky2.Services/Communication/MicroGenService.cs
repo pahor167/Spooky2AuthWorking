@@ -99,6 +99,8 @@ public sealed class MicroGenService : IMicroGenService
 
             SendCommand(connection, MaybePrefix(commandPrefix, GeneratorProtocol.BuildSetDwellTime($"{dwellSeconds},")));
 
+            // MicroGen has independent output 1 and output 2 channels (unlike GeneratorX Pro
+            // where :w24 sets both). Send :w24 (output 1) and :w25 (output 2) separately.
             foreach (var frequency in frequencies)
             {
                 SendCommand(connection, MaybePrefix(commandPrefix, GeneratorProtocol.BuildSetFrequency1(frequency)));
@@ -117,11 +119,27 @@ public sealed class MicroGenService : IMicroGenService
         return prefix is null ? command : $"{prefix}{command}";
     }
 
+    /// <summary>
+    /// Send a command and read back the response (blocking until CRLF or timeout).
+    /// The original code used Thread.Sleep(50) as a blind delay between commands,
+    /// which blocked the thread pool for ~50ms per command. Reading the response
+    /// instead ensures we proceed as soon as the device is ready.
+    /// </summary>
     private void SendCommand(ISerialPortConnection connection, string command)
     {
         var fullCommand = command + GeneratorProtocol.CommandTerminator;
         connection.Write(fullCommand);
         _logger.LogDebug("TX: {Command}", command);
-        Thread.Sleep(50);
+
+        try
+        {
+            var response = connection.ReadLine()?.Trim();
+            _logger.LogDebug("RX: {Response}", response);
+        }
+        catch (TimeoutException)
+        {
+            // Timeout is acceptable — MicroGen may not echo all commands.
+            _logger.LogDebug("RX: (timeout) for {Command}", command);
+        }
     }
 }

@@ -21,8 +21,9 @@
         <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" ColumnDefinitions="*,Auto,Auto" Margin="0,0,0,6">
 
             <!-- Results ListBox -->
-            <ListBox Grid.Column="0" ItemsSource="{Binding ScanResults}" SelectedItems="{Binding SelectedResults}"
+            <ListBox x:Name="HitsListBox" Grid.Column="0" ItemsSource="{Binding ScanResults}"
                      SelectionMode="Multiple" Margin="0,0,6,0"
+                     SelectionChanged="OnHitsSelectionChanged"
                      FontFamily="Courier New" FontSize="12" />
 
             <!-- Action buttons -->

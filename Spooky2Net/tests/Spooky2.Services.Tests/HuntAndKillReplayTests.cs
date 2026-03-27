@@ -573,6 +573,7 @@ public class HuntAndKillReplayTests
         public Task EraseMemory(int generatorId) => Task.CompletedTask;
         public Task IdentifyGenerators() => Task.CompletedTask;
         public Task SendRawCommand(int generatorId, string command) => Task.CompletedTask;
+        public Task WriteWaveformTables(int generatorId) => Task.CompletedTask;
         public Task SendCommandsBatch(int generatorId, IReadOnlyList<string> commands) => Task.CompletedTask;
 
         public Task<string?> SendCommandWithResponse(int generatorId, string command)

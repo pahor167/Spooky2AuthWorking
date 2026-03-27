@@ -106,6 +106,41 @@ public class GeneratorProtocolTests
         Assert.Equal(":w25=880000000000,", cmd);
     }
 
+    [Fact]
+    public void FormatFrequency_41000Hz_Produces14CharString()
+    {
+        // Dump-verified: 41000 Hz → "41000000000001" (14 chars)
+        var result = GeneratorProtocol.FormatFrequency(41000.0);
+        Assert.Equal("41000000000001", result);
+        Assert.Equal(14, result.Length);
+    }
+
+    [Fact]
+    public void FormatFrequency_1796956Hz_Produces16CharString()
+    {
+        // Dump-verified: 1796956.27039622 Hz → 16-char string
+        var result = GeneratorProtocol.FormatFrequency(1796956.27039622);
+        Assert.Equal(16, result.Length);
+    }
+
+    [Fact]
+    public void FormatFrequency_SubKHz_PreservesLeadingZeros()
+    {
+        // Sub-Hz: 0.5 Hz → "0500000000" (leading zero preserved, posCode=0)
+        var result = GeneratorProtocol.FormatFrequency(0.5);
+        Assert.Equal("0500000000", result);
+        Assert.StartsWith("0", result);
+    }
+
+    [Fact]
+    public void FormatFrequency_100Hz_PreservesFullWidth()
+    {
+        // 100 Hz: 3 integer digits, posCode=0
+        // "100.00000000" → "100000000000" (no leading zeros to lose)
+        var result = GeneratorProtocol.FormatFrequency(100.0);
+        Assert.Equal("100000000000", result);
+    }
+
     // ─────────────────────────────────────────────────────────────
     // Frequency step verification (from biofeedback scan dump)
     // ─────────────────────────────────────────────────────────────

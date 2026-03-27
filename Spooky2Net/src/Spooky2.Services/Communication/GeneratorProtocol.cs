@@ -229,12 +229,9 @@ public static class GeneratorProtocol
         var dotIdx = s.IndexOf('.');
         var intDigits = dotIdx > 0 ? dotIdx : s.Length;
 
-        // Remove the dot
+        // Remove the dot — keep the full fixed-width string (VB6 original uses fixed-width formatting).
+        // Do NOT trim leading zeros: they encode the magnitude for sub-kHz frequencies.
         s = s.Replace(".", "");
-
-        // Trim leading zeros (but keep at least 1 char)
-        s = s.TrimStart('0');
-        if (s.Length == 0) s = "0";
 
         // Append decimal position code: (integer_digits - 4)
         // 4 int digits → 0, 5 → 1, 6 → 2, etc.

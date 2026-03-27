@@ -33,16 +33,23 @@ public sealed record ScanParameters
     public double Threshold { get; init; }
     public bool ContinueRefining { get; init; } = true;
     public bool RunHitsAfterScan { get; init; } = true;
+    /// <summary>Generator ID for kill phase output. 0 = same generator as scan.
+    /// Maps to preset BFB_After_Scan_Run_On_Gen=0.</summary>
     public int RunOnGeneratorId { get; init; }
+    /// <summary>Kill phase dwell time per frequency. Default 180s (3 minutes) from dump analysis.
+    /// No preset field — derived from observed behavior.</summary>
     public double DwellSeconds { get; init; } = 180;
     public string LogName { get; init; } = "";
 
     // Amplitude ramp-up (from preset: Enable_Amplitude_RampUp, Ramp_Amplitude_Up_Rate)
     /// <summary>Enable gradual amplitude ramp from near-zero to target before scanning.</summary>
     public bool EnableAmplitudeRampUp { get; init; } = true;
-    /// <summary>Number of ramp steps (verified from dump: 330 steps, formula round((i+1)*target/330)).</summary>
+    /// <summary>Number of amplitude ramp steps. Default 330 from dump analysis.
+    /// Preset has Ramp_Amplitude_Up_Rate=4 but the mapping formula is unknown.
+    /// Verified from dump: 330 steps, formula round((i+1)*target/330).</summary>
     public int RampSteps { get; init; } = 330;
-    /// <summary>Target amplitude in centivolt (2000 = 20.00V).</summary>
+    /// <summary>Target amplitude in centivolt. Default 2000 = 20V.
+    /// Maps to preset Out1_Amplitude=20.</summary>
     public int TargetAmplitudeCv { get; init; } = 2000;
     /// <summary>Enable amplitude ramp-down after scan.</summary>
     public bool EnableAmplitudeRampDown { get; init; } = true;

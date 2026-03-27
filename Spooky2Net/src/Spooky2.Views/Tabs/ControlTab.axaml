@@ -38,6 +38,32 @@
                     FontWeight="Bold"
                     HorizontalContentAlignment="Center" Background="#FFE060"/>
 
+            <!-- Scan Settings -->
+            <Expander Header="Scan Settings" FontSize="9" Padding="2" IsExpanded="False">
+                <StackPanel Spacing="2">
+                    <StackPanel Orientation="Horizontal" Spacing="2">
+                        <TextBlock Text="Start Hz" FontSize="8" VerticalAlignment="Center" Width="48"/>
+                        <TextBox Text="{Binding ScanStartFrequency}" FontSize="9" Height="22" Width="90"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Spacing="2">
+                        <TextBlock Text="End Hz" FontSize="8" VerticalAlignment="Center" Width="48"/>
+                        <TextBox Text="{Binding ScanEndFrequency}" FontSize="9" Height="22" Width="90"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Spacing="2">
+                        <TextBlock Text="Max Hits" FontSize="8" VerticalAlignment="Center" Width="48"/>
+                        <TextBox Text="{Binding ScanMaxHits}" FontSize="9" Height="22" Width="90"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Spacing="2">
+                        <TextBlock Text="RA Win" FontSize="8" VerticalAlignment="Center" Width="48"/>
+                        <TextBox Text="{Binding ScanRaWindow}" FontSize="9" Height="22" Width="90"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Spacing="2">
+                        <TextBlock Text="Dwell (s)" FontSize="8" VerticalAlignment="Center" Width="48"/>
+                        <TextBox Text="{Binding ScanDwellSeconds}" FontSize="9" Height="22" Width="90"/>
+                    </StackPanel>
+                </StackPanel>
+            </Expander>
+
             <Separator Margin="0,4"/>
 
             <!-- Scan progress -->

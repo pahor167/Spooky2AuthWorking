@@ -19,4 +19,7 @@ public interface IGeneratorService
     /// <summary>Send multiple commands rapidly without waiting for individual responses.
     /// Used for amplitude ramp-up (330 steps in ~2s, matching original Spooky2).</summary>
     Task SendCommandsBatch(int generatorId, IReadOnlyList<string> commands);
+    /// <summary>Upload DDS waveform lookup tables to the generator.
+    /// Must be called before biofeedback scanning.</summary>
+    Task WriteWaveformTables(int generatorId);
 }

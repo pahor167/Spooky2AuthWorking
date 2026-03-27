@@ -13,15 +13,21 @@ public partial class ScanResultsViewModel : ObservableObject
 {
     private readonly IScanService _scanService;
     private readonly IDatabaseService _databaseService;
+    private readonly IClipboardService? _clipboardService;
+    private readonly IDialogService? _dialogService;
     private readonly ILogger<ScanResultsViewModel> _logger;
 
     public ScanResultsViewModel(
         IScanService scanService,
         IDatabaseService databaseService,
-        ILogger<ScanResultsViewModel>? logger = null)
+        ILogger<ScanResultsViewModel>? logger = null,
+        IClipboardService? clipboardService = null,
+        IDialogService? dialogService = null)
     {
         _scanService = scanService;
         _databaseService = databaseService;
+        _clipboardService = clipboardService;
+        _dialogService = dialogService;
         _logger = logger ?? NullLogger<ScanResultsViewModel>.Instance;
 
         DatabaseOptions = new ObservableCollection<string>(
@@ -86,15 +92,53 @@ public partial class ScanResultsViewModel : ObservableObject
     }
 
     [RelayCommand]
-    private void Copy()
+    private async Task Copy()
     {
-        // Stub: copy results to clipboard
+        if (_clipboardService == null)
+        {
+            _logger.LogWarning("Copy: no clipboard service available");
+            return;
+        }
+
+        var results = SelectedResults.Count > 0 ? SelectedResults : ScanResults;
+        if (results.Count == 0)
+        {
+            _logger.LogDebug("Copy: no scan results to copy");
+            return;
+        }
+
+        var lines = results.Select(r => $"{r.Frequency:N2}\t{r.Deviation:N2}");
+        var text = string.Join(Environment.NewLine, lines);
+        await _clipboardService.SetTextAsync(text);
+        _logger.LogInformation("Copied {Count} scan results to clipboard", results.Count);
     }
 
     [RelayCommand]
-    private void CreateProgram()
+    private async Task CreateProgram()
     {
-        // Stub: create frequency program from selected results
+        if (_dialogService == null)
+        {
+            _logger.LogWarning("CreateProgram: no dialog service available");
+            return;
+        }
+
+        var results = SelectedResults.Count > 0 ? SelectedResults : ScanResults;
+        if (results.Count == 0)
+        {
+            _logger.LogWarning("CreateProgram: no scan results selected");
+            return;
+        }
+
+        var frequencies = results.Select(r => r.Frequency.ToString("N2", CultureInfo.InvariantCulture));
+        var vm = new CreateProgramViewModel
+        {
+            FrequencyText = string.Join(",", frequencies),
+            FrequencySource = "Biofeedback Scan",
+            ProgramName = $"BFB_{DateTime.Now:yyyyMMdd_HHmmss}"
+        };
+
+        await _dialogService.ShowDialogAsync(vm);
+        _logger.LogInformation("CreateProgram dialog opened with {Count} frequencies", results.Count);
     }
 
     [RelayCommand]

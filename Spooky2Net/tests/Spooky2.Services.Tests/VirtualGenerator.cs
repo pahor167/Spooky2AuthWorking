@@ -124,6 +124,12 @@ public sealed class VirtualGenerator : IGeneratorService
             return Task.CompletedTask;
         }
 
+        public Task WriteWaveformTables(int generatorId)
+        {
+            CommandLog.Add("[WriteWaveformTables]");
+            return Task.CompletedTask;
+        }
+
     // ── Command processing ──
 
     private string ProcessCommand(string command)

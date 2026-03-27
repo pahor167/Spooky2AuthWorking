@@ -365,6 +365,13 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
         return Task.CompletedTask;
     }
 
+    public Task WriteWaveformTables(int generatorId)
+    {
+        _logger.LogInformation("[GEN {Id}] Uploading {Count} waveform table commands",
+            generatorId, WaveformTables.Commands.Length);
+        return SendCommandsBatch(generatorId, WaveformTables.Commands);
+    }
+
     // ── Port management ──
 
     private ISerialPortConnection? GetOrOpenPort(int generatorId)

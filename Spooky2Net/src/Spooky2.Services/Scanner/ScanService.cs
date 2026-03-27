@@ -689,6 +689,8 @@ public sealed class ScanService : IScanService
 
         public double SimpleAverage() => _buffer.Count > 0 ? _buffer.Average() : 0;
 
+        /// <summary>LWMA implementation kept for compatibility.
+        /// Production scan detection uses SimpleAverage() as decoded from VB6 Proc_0_331.</summary>
         public double WeightedAverage()
         {
             if (_buffer.Count == 0) return 0;
