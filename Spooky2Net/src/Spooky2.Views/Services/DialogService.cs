@@ -20,6 +20,7 @@ public class DialogService : IDialogService
         { typeof(DebugViewModel), () => new DebugView() },
         { typeof(AboutViewModel), () => new AboutView() },
         { typeof(FrequencyTestViewModel), () => new FrequencyTestDialog() },
+        { typeof(ReverseLookupViewModel), () => new ReverseLookupView() },
     };
 
     public async Task ShowDialogAsync<TViewModel>(TViewModel viewModel) where TViewModel : class

@@ -124,7 +124,7 @@
         <Grid Grid.Column="2" RowDefinitions="*,Auto">
 
             <!-- Biofeedback Graph + Hits -->
-            <Grid Grid.Row="0" RowDefinitions="*,Auto">
+            <Grid Grid.Row="0" RowDefinitions="*,Auto,Auto">
                 <!-- Biofeedback Graph -->
                 <Border Grid.Row="0" BorderBrush="Gray" BorderThickness="1" CornerRadius="3"
                         Margin="0,0,0,4" MinHeight="200">
@@ -139,12 +139,32 @@
                 <!-- Biofeedback Hits (compact list below graph) -->
                 <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1" CornerRadius="3"
                         MaxHeight="120">
-                    <Grid RowDefinitions="Auto,*">
+                    <Grid RowDefinitions="Auto,*,Auto">
                         <Border Grid.Row="0" Background="#000060" Padding="4,2" CornerRadius="3,3,0,0">
                             <TextBlock Text="Hits" Foreground="White" FontSize="10" FontWeight="Bold"/>
                         </Border>
                         <ListBox Grid.Row="1" ItemsSource="{Binding BiofeedbackHits}"
+                                 SelectedItem="{Binding SelectedBiofeedbackHit}"
                                  FontSize="9" FontFamily="Courier New"/>
+                        <Button Grid.Row="2" Content="🔎 Reverse Lookup"
+                                Command="{Binding ReverseLookupCommand}"
+                                IsEnabled="{Binding SelectedBiofeedbackHit, Converter={x:Static ObjectConverters.IsNotNull}}"
+                                HorizontalAlignment="Stretch" Height="24" FontSize="9"
+                                HorizontalContentAlignment="Center"
+                                Margin="2"/>
+                    </Grid>
+                </Border>
+
+                <!-- Reverse Lookup Results -->
+                <Border Grid.Row="2" BorderBrush="Gray" BorderThickness="1" CornerRadius="3"
+                        MaxHeight="100" Margin="0,4,0,0"
+                        IsVisible="{Binding ReverseLookupResults.Count}">
+                    <Grid RowDefinitions="Auto,*">
+                        <Border Grid.Row="0" Background="#400060" Padding="4,2" CornerRadius="3,3,0,0">
+                            <TextBlock Text="Reverse Lookup Results" Foreground="White" FontSize="9" FontWeight="Bold"/>
+                        </Border>
+                        <ListBox Grid.Row="1" ItemsSource="{Binding ReverseLookupResults}"
+                                 FontSize="8" FontFamily="Courier New"/>
                     </Grid>
                 </Border>
             </Grid>
