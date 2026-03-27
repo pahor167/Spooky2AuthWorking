@@ -82,6 +82,7 @@ public class App : Application
         services.AddSingleton<ICarrierSweepService, CarrierSweepService>();
         services.AddSingleton<IMicroGenService, MicroGenService>();
         services.AddSingleton<IDialogService, DialogService>();
+        services.AddSingleton<IClipboardService, ClipboardService>();
 
         // Register ViewModels
         services.AddTransient<MainViewModel>();

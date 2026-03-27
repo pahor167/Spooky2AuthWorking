@@ -87,12 +87,15 @@
             <Separator Margin="0,4"/>
 
             <!-- Quick actions -->
+            <!-- Note: Erase and Reset both clear/erase frequencies on the generator -->
             <WrapPanel Orientation="Horizontal">
                 <Button Content="Erase" Command="{Binding EraseFrequenciesCommand}"
                         Width="50" Height="22" FontSize="9" Margin="0,0,2,2"/>
                 <Button Content="Reset" Command="{Binding ResetGeneratorCommand}"
                         Width="50" Height="22" FontSize="9" Margin="0,0,2,2"/>
                 <Button Content="Copy" Command="{Binding CopyFrequenciesCommand}"
+                        Width="46" Height="22" FontSize="9" Margin="0,0,2,2"/>
+                <Button Content="Paste" Command="{Binding PasteFrequenciesCommand}"
                         Width="46" Height="22" FontSize="9" Margin="0,0,2,2"/>
             </WrapPanel>
 
@@ -103,6 +106,12 @@
                     HorizontalContentAlignment="Center"
                     Background="#F0E0FF"
                     ToolTip.Tip="Open frequency test dialog for troubleshooting"/>
+            <Button Content="View Scan Results"
+                    Command="{Binding ViewScanResultsCommand}"
+                    HorizontalAlignment="Stretch" Height="24" FontSize="10"
+                    HorizontalContentAlignment="Center"
+                    Background="#E0F0FF"
+                    ToolTip.Tip="Re-open scan results dialog with current biofeedback hits"/>
 
             <!-- Timing -->
             <StackPanel Spacing="1" Margin="0,4,0,0">

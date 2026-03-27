@@ -7,6 +7,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Spooky2.Core.Interfaces;
 using Spooky2.Core.Models;
+using Spooky2.ViewModels.Dialogs;
 
 namespace Spooky2.ViewModels;
 
@@ -552,6 +553,12 @@ public partial class ControlViewModel : ObservableObject, IDisposable
 
             ScanStatusText = $"Scan complete: {hits.Count} hits";
             _logger.LogInformation("Scan complete: {Count} hits", hits.Count);
+
+            // Open Scan Results dialog so the user can review, reverse-lookup, and save
+            if (BiofeedbackHits.Count > 0)
+            {
+                await ShowScanResultsDialogAsync(BiofeedbackHits);
+            }
         }
         catch (OperationCanceledException)
         {
@@ -623,6 +630,12 @@ public partial class ControlViewModel : ObservableObject, IDisposable
 
             ScanStatusText = $"Hunt and Kill complete: {hits.Count} final hits";
             _logger.LogInformation("Hunt and Kill complete: {Count} hits", hits.Count);
+
+            // Open Scan Results dialog so the user can review, reverse-lookup, and save
+            if (BiofeedbackHits.Count > 0)
+            {
+                await ShowScanResultsDialogAsync(BiofeedbackHits);
+            }
         }
         catch (OperationCanceledException)
         {
@@ -756,6 +769,13 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             ScanStatusText = $"Reverse lookup: {results.Count} programs found for {frequency:N2} Hz";
             _logger.LogInformation("Reverse lookup complete: {Count} results for {Freq} Hz",
                 results.Count, frequency);
+
+            // Also open the ReverseLookup dialog so the user can save results
+            if (_dialogService != null && results.Count > 0)
+            {
+                var rlVm = new ReverseLookupViewModel(frequency, parameters, results);
+                await _dialogService.ShowDialogAsync(rlVm);
+            }
         }
         catch (Exception ex)
         {
@@ -933,6 +953,68 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         }
 
         var vm = new Dialogs.FrequencyTestViewModel(_generatorService, SelectedGeneratorId);
+        await _dialogService.ShowDialogAsync(vm);
+    }
+
+    [RelayCommand]
+    private async Task ViewScanResults()
+    {
+        if (_dialogService == null)
+        {
+            _logger.LogWarning("ViewScanResults: no dialog service available");
+            return;
+        }
+
+        if (BiofeedbackHits.Count == 0)
+        {
+            _logger.LogDebug("ViewScanResults: no biofeedback hits to display");
+            return;
+        }
+
+        await ShowScanResultsDialogAsync(BiofeedbackHits);
+    }
+
+    private async Task ShowScanResultsDialogAsync(IEnumerable<string> hitDisplayStrings)
+    {
+        if (_dialogService == null) return;
+
+        var vm = new ScanResultsViewModel(_scanService, _databaseService!,
+            clipboardService: _clipboardService, dialogService: _dialogService);
+
+        foreach (var hitText in hitDisplayStrings)
+        {
+            // Parse "1234.56 Hz (dev: 78.90)" back into a ScanResult
+            double frequency = 0;
+            double deviation = 0;
+
+            var hzIndex = hitText.IndexOf(" Hz", StringComparison.OrdinalIgnoreCase);
+            if (hzIndex > 0)
+            {
+                var freqStr = hitText[..hzIndex].Replace(",", "").Trim();
+                double.TryParse(freqStr, NumberStyles.Float, CultureInfo.InvariantCulture, out frequency);
+            }
+
+            var devIndex = hitText.IndexOf("dev:", StringComparison.OrdinalIgnoreCase);
+            if (devIndex > 0)
+            {
+                var afterDev = hitText[(devIndex + 4)..];
+                var endIndex = afterDev.IndexOf(')');
+                if (endIndex > 0)
+                {
+                    var devStr = afterDev[..endIndex].Replace(",", "").Trim();
+                    double.TryParse(devStr, NumberStyles.Float, CultureInfo.InvariantCulture, out deviation);
+                }
+            }
+
+            vm.ScanResults.Add(new ScanResult
+            {
+                Frequency = frequency,
+                Deviation = deviation,
+                Timestamp = DateTime.UtcNow
+            });
+        }
+
+        _logger.LogInformation("Opening Scan Results dialog with {Count} hits", vm.ScanResults.Count);
         await _dialogService.ShowDialogAsync(vm);
     }
 

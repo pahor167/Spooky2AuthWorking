@@ -66,6 +66,12 @@
                     <Button Content="Go" Command="{Binding ReverseLookupCommand}"
                             HorizontalAlignment="Right" Width="80"
                             ToolTip.Tip="Find frequency matches from the selected Spooky2 databases" />
+
+                    <!-- Reverse Lookup Results - visible only when results exist -->
+                    <ListBox ItemsSource="{Binding ReverseLookupResults}"
+                             IsVisible="{Binding HasReverseLookupResults}"
+                             FontFamily="Courier New" FontSize="11"
+                             MaxHeight="200" Margin="0,6,0,0" />
                 </StackPanel>
             </Border>
         </Grid>

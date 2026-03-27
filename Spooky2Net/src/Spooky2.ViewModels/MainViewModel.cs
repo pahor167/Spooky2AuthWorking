@@ -46,6 +46,8 @@ public partial class MainViewModel : ObservableObject
         ICarrierSweepService carrierSweepService,
         IMicroGenService microGenService,
         IScanService scanService,
+        IWaveformService waveformService,
+        IClipboardService? clipboardService = null,
         ILogger<MainViewModel>? logger = null,
         string? rootPath = null)
     {
@@ -66,8 +68,9 @@ public partial class MainViewModel : ObservableObject
         Database = new DatabaseViewModel(databaseService, microGenService);
         Settings = new SettingsViewModel();
         System = new SystemViewModel(settingsService);
-        Control = new ControlViewModel(generatorService, new Spooky2.Services.Waveform.WaveformService(), scanService,
-            databaseService: databaseService, dialogService: dialogService);
+        Control = new ControlViewModel(generatorService, waveformService, scanService,
+            databaseService: databaseService, dialogService: dialogService,
+            clipboardService: clipboardService);
 
         // Wire preset loading: when a preset is loaded in the Presets tab,
         // pass it to the Control tab so its frequencies appear there
@@ -307,8 +310,17 @@ public partial class MainViewModel : ObservableObject
     private async Task IdentifyGenerators()
     {
         StatusBarText = "Identifying generators...";
-        await _generatorService.IdentifyGenerators();
+        var vm = new IdentifyGeneratorsViewModel();
+        var identifyTask = _generatorService.IdentifyGenerators();
+
+        // Show the dialog while identification runs
+        var dialogTask = _dialogService.ShowDialogAsync(vm);
+
+        await identifyTask;
+        vm.StatusText = $"Identification complete - {Generators.Count} generator(s) found";
         StatusBarText = "Generator identification complete";
+
+        await dialogTask;
     }
 
     [RelayCommand]
