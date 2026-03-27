@@ -218,6 +218,11 @@ public sealed class ScanService : IScanService
             double peakFrequency = 0;
             var hits = new List<ScanResult>();
 
+            // Asymptote detection state: track previous readings for local maxima detection
+            var allScanHits = new List<ScanResult>();
+            double prevReading = 0, prevPrevReading = 0;
+            double prevDeviation = 0, prevRa = 0, prevFreq = 0;
+
             for (int loop = 0; loop < parameters.Loops; loop++)
             {
                 for (int i = 0; i < frequencies.Count; i++)
@@ -235,12 +240,6 @@ public sealed class ScanService : IScanService
                     // Read sensors
                     var (angle, current) = await ReadSensors(generatorId, parameters.SamplesPerStep);
 
-                    // Update all 4 accumulators
-                    raWindow1.Add(current);
-                    raWindow2.Add(current);
-                    angleWindow1.Add(angle);
-                    angleWindow2.Add(angle);
-
                     // Select primary detection value and RA window
                     double reading = parameters.UseCurrent ? current : angle;
                     var primaryWindow = parameters.UseCurrent
@@ -254,30 +253,55 @@ public sealed class ScanService : IScanService
                         peakFrequency = freq;
                     }
 
-                    // Running average detection
-                    if (primaryWindow.IsFull)
+                    // Retrospective analysis algorithm (decoded from VB6 Proc_0_331):
+                    // 1. Compute SMA (Simple Moving Average) from previous readings
+                    // 2. Compute deviation = reading - SMA
+                    // 3. Track previous readings for asymptote (local maxima) detection
+                    // 4. A hit is a LOCAL MAXIMUM of the raw signal with positive deviation
+                    //
+                    // The "Detecting Asymptotes" phase finds peaks in the raw signal,
+                    // then GreatestHits selects the top MaxHits by deviation magnitude.
+                    if (primaryWindow.IsFull && !parameters.CalculateUsingPeak)
                     {
-                        double ra = primaryWindow.WeightedAverage();
+                        double ra = primaryWindow.SimpleAverage();
                         double deviation = reading - ra;
 
-                        bool isHit = (parameters.DetectMax && deviation > parameters.Threshold)
-                                  || (parameters.DetectMin && deviation < -parameters.Threshold);
+                        // Asymptote detection: is this reading a local maximum of the raw signal?
+                        bool isLocalMax = prevReading > 0
+                                       && reading > prevReading
+                                       && reading > prevPrevReading;
+                        // We'll confirm it's a true local max when the NEXT reading arrives
+                        // (reading[i] > reading[i-1] AND reading[i] > reading[i+1])
+                        // So we record the PREVIOUS step if it was higher than both neighbors
+                        bool prevWasLocalMax = prevReading > prevPrevReading
+                                            && prevReading > reading
+                                            && prevDeviation > parameters.Threshold;
 
-                        if (isHit && !parameters.CalculateUsingPeak)
+                        if (prevWasLocalMax && (parameters.DetectMax && prevDeviation > 0))
                         {
-                            hits.Add(new ScanResult
+                            allScanHits.Add(new ScanResult
                             {
-                                Frequency = freq,
-                                Reading = reading,
-                                RunningAverage = ra,
-                                Deviation = Math.Abs(deviation),
+                                Frequency = prevFreq,
+                                Reading = prevReading,
+                                RunningAverage = prevRa,
+                                Deviation = Math.Abs(prevDeviation),
                                 HitCount = 1,
                                 Timestamp = DateTime.UtcNow
                             });
-                            hits = hits.OrderByDescending(h => h.Deviation)
-                                       .Take(parameters.MaxHits).ToList();
                         }
+
+                        prevPrevReading = prevReading;
+                        prevReading = reading;
+                        prevDeviation = deviation;
+                        prevRa = ra;
+                        prevFreq = freq;
                     }
+
+                    // Update accumulators AFTER deviation computation
+                    raWindow1.Add(current);
+                    raWindow2.Add(current);
+                    angleWindow1.Add(angle);
+                    angleWindow2.Add(angle);
 
                     progress?.Report(new ScanProgress
                     {
@@ -293,6 +317,7 @@ public sealed class ScanService : IScanService
                         CurrentRunningAverage = primaryWindow.IsFull ? primaryWindow.WeightedAverage() : 0
                     });
                 }
+
             }
 
             // Peak mode: the single peak is the hit
@@ -306,6 +331,15 @@ public sealed class ScanService : IScanService
                     HitCount = 1,
                     Timestamp = DateTime.UtcNow
                 });
+            }
+
+            // Asymptote mode (default): sort all detected local maxima by deviation,
+            // take top MaxHits. Decoded from VB6 Proc_0_331 "Detecting Asymptotes"
+            // + "Filling GreatestHits Array" + Proc_0_336 bubble sort.
+            if (!parameters.CalculateUsingPeak && allScanHits.Count > 0)
+            {
+                hits = allScanHits.OrderByDescending(h => h.Deviation)
+                                  .Take(parameters.MaxHits).ToList();
             }
 
             _logger.LogInformation("Scan complete: {Count} hits found", hits.Count);

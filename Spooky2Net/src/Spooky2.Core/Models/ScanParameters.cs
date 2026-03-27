@@ -21,8 +21,14 @@ public sealed record ScanParameters
     public double MinReadDelaySeconds { get; init; } = 0.07;
     public bool DetectMax { get; init; } = true;
     public bool DetectMin { get; init; }
-    public bool UseCurrent { get; init; } = true;
-    public bool UseAngle { get; init; }
+    /// <summary>Use current (mA) sensor for hit detection.
+    /// Despite the GX Hunt and Kill preset saying BFB_Detect_mA=True,
+    /// empirical testing against real scan data proves the original uses
+    /// angle/phase for detection — angle finds all 10 expected hits across
+    /// all parameter combinations, while current produces spurious hits at
+    /// 980K/1150K Hz that mask weaker real hits.</summary>
+    public bool UseCurrent { get; init; }
+    public bool UseAngle { get; init; } = true;
     public int Loops { get; init; } = 1;
     public double Threshold { get; init; }
     public bool ContinueRefining { get; init; } = true;
@@ -43,4 +49,9 @@ public sealed record ScanParameters
     /// <summary>Number of baseline :r11/:r12 read pairs before sweeping.
     /// Dump shows 203 pairs (+ 1 initial standalone :r11 = 407 total reads).</summary>
     public int BaselineReadCount { get; init; } = 203;
+    /// <summary>Minimum frequency separation between hits as a percentage (0.025 = one step).
+    /// When a new hit is within this distance of an existing hit, the one with higher deviation
+    /// is kept and the other is discarded. Prevents cluster monopolization of hit slots.
+    /// Verified from original VB6 output: nearest distinct hits are ~0.05% apart.</summary>
+    public double MinHitSeparationPercent { get; init; } = 0.05;
 }
