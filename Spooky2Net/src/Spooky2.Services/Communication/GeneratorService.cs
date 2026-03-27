@@ -333,6 +333,11 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
     {
         ValidateGeneratorExists(generatorId);
         var response = SendCommand(generatorId, command);
+        if (response == null)
+        {
+            _logger.LogWarning("Retry: {Command}", command);
+            response = SendCommand(generatorId, command);
+        }
         return Task.FromResult(response);
     }
 
@@ -346,7 +351,13 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
         foreach (var command in commands)
         {
             conn.Write(command + GeneratorProtocol.CommandTerminator);
-            BlockingRead(conn);
+            var response = BlockingRead(conn);
+            var parsed = GeneratorProtocol.ParseResponse(response ?? "");
+            if (!parsed.IsSuccess)
+            {
+                _logger.LogWarning("[GEN {Id}] Batch command failed: {Command} → {Response}",
+                    generatorId, command, parsed.RawResponse);
+            }
         }
         // Flush any leftover responses so the next SendCommand starts clean
         Thread.Sleep(10);
@@ -434,7 +445,8 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
             var line = conn.ReadLine(); // blocks until \n or timeout
             return line?.Trim();
         }
-        catch { return null; }
+        catch (TimeoutException) { return null; } // timeout is expected
+        catch (IOException) { throw; } // IO error should propagate for port reset
     }
 
     /// <summary>For discovery probing — uses the old slow method with proper timeouts.</summary>

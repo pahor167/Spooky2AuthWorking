@@ -151,7 +151,7 @@ public class HuntAndKillReplayTests
 
             if (raWindow.IsFull)
             {
-                double ra = raWindow.WeightedAverage();
+                double ra = raWindow.SimpleAverage();
                 double deviation = current - ra;
                 result.Add((frequencies[i], deviation, current, ra));
             }
@@ -419,67 +419,29 @@ public class HuntAndKillReplayTests
     }
 
     [Theory]
-    [InlineData(80, 0.10, true)]
-    [InlineData(80, 0.15, true)]
-    [InlineData(100, 0.10, true)]
-    [InlineData(100, 0.15, true)]
-    [InlineData(120, 0.10, true)]
-    [InlineData(120, 0.15, true)]
-    [InlineData(150, 0.10, true)]
-    [InlineData(150, 0.15, true)]
-    [InlineData(200, 0.10, true)]
-    [InlineData(200, 0.15, true)]
-    public void Exploration_DifferentParams(int windowSize, double minSep, bool useSimpleAvg)
+    [InlineData(80)]
+    [InlineData(100)]
+    [InlineData(120)]
+    [InlineData(150)]
+    [InlineData(200)]
+    public void Exploration_DifferentWindowSizes(int windowSize)
     {
         if (!DumpFileAvailable()) return;
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
-        var parameters = new ScanParameters { RaWindow = windowSize, MinHitSeparationPercent = minSep };
-        var frequencies = ScanService.CalculateFrequencySteps(parameters);
-        int stepCount = Math.Min(frequencies.Count, session.SweepSteps.Count);
+        var parameters = new ScanParameters { RaWindow = windowSize };
+        var hits = RunDetection(session, parameters);
 
-        var raWindow = new ScanService.SlidingWindow(parameters.RaWindow);
-        foreach (var (_, current) in session.BaselineReadings)
-            raWindow.Add(current);
-
-        var hits = new List<ScanResult>();
-        for (int i = 0; i < stepCount; i++)
-        {
-            double current = session.SweepSteps[i].CurrentReading;
-            raWindow.Add(current);
-            if (!raWindow.IsFull) continue;
-
-            double ra = useSimpleAvg ? raWindow.SimpleAverage() : raWindow.WeightedAverage();
-            double deviation = current - ra;
-            if (deviation <= 0) continue;
-
-            var newHit = new ScanResult
-            {
-                Frequency = frequencies[i], Reading = current, RunningAverage = ra,
-                Deviation = Math.Abs(deviation), HitCount = 1, Timestamp = DateTime.UtcNow
-            };
-
-            int nearbyIdx = -1;
-            for (int hi = 0; hi < hits.Count; hi++)
-                if (Math.Abs(hits[hi].Frequency - frequencies[i]) / frequencies[i] * 100.0 < minSep)
-                { nearbyIdx = hi; break; }
-
-            if (nearbyIdx >= 0) { if (newHit.Deviation > hits[nearbyIdx].Deviation) hits[nearbyIdx] = newHit; }
-            else hits.Add(newHit);
-
-            hits = hits.OrderByDescending(h => h.Deviation).Take(10).ToList();
-        }
-
-        _output.WriteLine($"Window={windowSize}, minSep={minSep}%, simple={useSimpleAvg}: {hits.Count} hits");
+        _output.WriteLine($"Window={windowSize}: {hits.Count} hits");
         int expectedMatchCount = 0;
         foreach (var hit in hits)
         {
             bool isExpected = ExpectedHitFrequenciesHz.Any(e => Math.Abs(e - hit.Frequency) / hit.Frequency * 100 < 1.0);
-            string marker = isExpected ? " ✓" : "";
+            string marker = isExpected ? " *" : "";
             if (isExpected) expectedMatchCount++;
             _output.WriteLine($"  {hit.Frequency,14:F2} Hz  dev={hit.Deviation,8:F2}{marker}");
         }
-        _output.WriteLine($"  → {expectedMatchCount}/10 match expected frequencies");
+        _output.WriteLine($"  -> {expectedMatchCount}/10 match expected frequencies");
 
         Assert.True(hits.Any(h => h.Frequency > 1_780_000 && h.Frequency < 1_800_000));
     }

@@ -1,6 +1,7 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
+using Avalonia.Threading;
 using Spooky2.Core.Interfaces;
 using Spooky2.ViewModels.Dialogs;
 using Spooky2.Views.Dialogs;
@@ -33,6 +34,11 @@ public class DialogService : IDialogService
 
         var window = windowFactory();
         window.DataContext = viewModel;
+
+        if (viewModel is ICloseable closeable)
+        {
+            closeable.CloseAction = () => Dispatcher.UIThread.Post(() => window.Close());
+        }
 
         var parentWindow = GetParentWindow();
         if (parentWindow is not null)

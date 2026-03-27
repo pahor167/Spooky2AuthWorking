@@ -6,10 +6,12 @@ using Spooky2.Core.Models;
 
 namespace Spooky2.ViewModels.Dialogs;
 
-public partial class ReverseLookupViewModel : ObservableObject
+public partial class ReverseLookupViewModel : ObservableObject, ICloseable
 {
     private readonly IFileService? _fileService;
     private readonly Action? _closeAction;
+
+    public Action? CloseAction { get; set; }
 
     [ObservableProperty]
     private string _headerText = "";
@@ -72,7 +74,7 @@ public partial class ReverseLookupViewModel : ObservableObject
             await File.WriteAllTextAsync(filePath, content.ToString());
         }
 
-        _closeAction?.Invoke();
+        (_closeAction ?? CloseAction)?.Invoke();
     }
 
     private static string BuildHeader(

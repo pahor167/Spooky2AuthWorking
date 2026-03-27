@@ -184,6 +184,9 @@ public sealed class ScanService : IScanService
             _logger.LogDebug("Taking baseline reads at {Freq} Hz: 1 initial + {Count} pairs",
                 parameters.StartFrequency, parameters.BaselineReadCount);
 
+            // Collect baseline readings for pre-seeding the SMA window later.
+            var baselineReadings = new List<double>();
+
             // Initial standalone angle read
             {
                 var initAngle = await Send(generatorId, GeneratorProtocol.ReadAngle);
@@ -202,6 +205,8 @@ public sealed class ScanService : IScanService
                 raWindow2.Add(current);
                 angleWindow1.Add(angle);
                 angleWindow2.Add(angle);
+
+                baselineReadings.Add(parameters.UseCurrent ? current : angle);
             }
 
             _logger.LogInformation("Baseline complete: RA buffer filled with {Count} samples", parameters.BaselineReadCount);
@@ -221,6 +226,11 @@ public sealed class ScanService : IScanService
             // The VB6 original (Proc_0_331) writes readings to CSV during the scan,
             // then post-processes them in "Detecting Asymptotes" + "Filling GreatestHits".
             var scanReadings = new List<(double Frequency, double Reading)>();
+
+            // Prepend baseline tail (up to RaWindow entries) so the SMA window
+            // is pre-seeded when DetectHits processes the first sweep step.
+            foreach (var val in baselineReadings.TakeLast(parameters.RaWindow))
+                scanReadings.Add((0, val)); // freq=0 marks baseline entries
 
             for (int loop = 0; loop < parameters.Loops; loop++)
             {
@@ -289,11 +299,12 @@ public sealed class ScanService : IScanService
 
             if (parameters.CalculateUsingPeak && peakFrequency > 0)
             {
+                double baselineAvg = baselineReadings.Count > 0 ? baselineReadings.Average() : 0;
                 hits.Add(new ScanResult
                 {
                     Frequency = peakFrequency,
                     Reading = peakReading,
-                    Deviation = peakReading,
+                    Deviation = peakReading - baselineAvg,
                     HitCount = 1,
                     Timestamp = DateTime.UtcNow
                 });
@@ -306,6 +317,13 @@ public sealed class ScanService : IScanService
             _logger.LogInformation("Scan complete: {Count} hits found", hits.Count);
             _scanResults[generatorId] = hits;
 
+            progress?.Report(new ScanProgress
+            {
+                StatusText = $"Scan complete - {hits.Count} hits found",
+                PercentComplete = 100,
+                HitsFound = hits.Count
+            });
+
             // Cleanup: clear frequencies
             await Send(generatorId, GeneratorProtocol.ClearFrequency1);
             await Send(generatorId, GeneratorProtocol.ClearFrequency2);
@@ -316,12 +334,14 @@ public sealed class ScanService : IScanService
                 int n = parameters.RampSteps;
                 int target = parameters.TargetAmplitudeCv;
                 var rampDownCmds = new List<string>();
-                for (int i = n - 1; i >= 1; i--)
+                for (int i = n - 2; i >= 0; i--)
                 {
                     int cv = (int)Math.Round((double)(i + 1) * target / n);
                     rampDownCmds.Add(GeneratorProtocol.BuildSetAmplitudeCv1(cv));
                     rampDownCmds.Add(GeneratorProtocol.BuildSetAmplitudeCv2(cv));
                 }
+                rampDownCmds.Add(GeneratorProtocol.BuildSetAmplitudeCv1(0));
+                rampDownCmds.Add(GeneratorProtocol.BuildSetAmplitudeCv2(0));
                 await _generatorService.SendCommandsBatch(generatorId, rampDownCmds);
             }
 
@@ -343,7 +363,7 @@ public sealed class ScanService : IScanService
         IProgress<ScanProgress>? progress = null, CancellationToken ct = default)
     {
         _logger.LogInformation("Starting Hunt and Kill on generator {Id}", generatorId);
-        var allHits = new List<ScanResult>();
+        var lastCycleHits = new List<ScanResult>();
         int cycle = 0;
 
         while (!ct.IsCancellationRequested)
@@ -365,7 +385,7 @@ public sealed class ScanService : IScanService
                 break;
             }
 
-            allHits = hits;
+            lastCycleHits = hits;
 
             // KILL phase
             progress?.Report(new ScanProgress
@@ -379,11 +399,16 @@ public sealed class ScanService : IScanService
             // Set amplitude for kill
             await Send(targetGen, GeneratorProtocol.BuildSetAmplitudeCv1(parameters.TargetAmplitudeCv));
             await Send(targetGen, GeneratorProtocol.BuildSetAmplitudeCv2(parameters.TargetAmplitudeCv));
-            await _generatorService.Start(targetGen);
 
             // Dwell at each hit frequency
             int dwellMs = (int)(parameters.DwellSeconds * 1000);
             var killFreqs = hits.Select(h => h.Frequency).ToList();
+
+            // Set first kill frequency BEFORE starting output
+            if (killFreqs.Count > 0)
+                await _generatorService.WriteFrequencies(targetGen, [killFreqs[0]]);
+
+            await _generatorService.Start(targetGen);
 
             for (int i = 0; i < killFreqs.Count && !ct.IsCancellationRequested; i++)
             {
@@ -396,7 +421,9 @@ public sealed class ScanService : IScanService
                     PercentComplete = (double)(i + 1) / killFreqs.Count * 100
                 });
 
-                await _generatorService.WriteFrequencies(targetGen, [killFreqs[i]]);
+                // First frequency already written before Start; subsequent ones set here
+                if (i > 0)
+                    await _generatorService.WriteFrequencies(targetGen, [killFreqs[i]]);
                 try { await Task.Delay(dwellMs, ct); }
                 catch (OperationCanceledException) { break; }
             }
@@ -413,8 +440,8 @@ public sealed class ScanService : IScanService
         await Send(generatorId, GeneratorProtocol.BuildSetAmplitudeCv2(parameters.TargetAmplitudeCv));
 
         _logger.LogInformation("Hunt and Kill finished after {Cycles} cycles, {Hits} final hits",
-            cycle, allHits.Count);
-        return allHits;
+            cycle, lastCycleHits.Count);
+        return lastCycleHits;
     }
 
     public Task StopScan(int generatorId)
@@ -450,7 +477,7 @@ public sealed class ScanService : IScanService
 
         if (tolerance > 0)
             results = results.Where(r => r.Frequency >= frequency - tolerance
-                && r.Frequency <= frequency + tolerance || r.Frequency > tolerance).ToList();
+                && r.Frequency <= frequency + tolerance).ToList();
 
         _scanResults.AddOrUpdate(0, results, (_, _) => results);
         return Task.CompletedTask;
@@ -594,12 +621,13 @@ public sealed class ScanService : IScanService
             double nextReading = steps[i + 1].Reading;
 
             bool isLocalMax = reading > prevReading && reading > nextReading;
+            bool isLocalMin = reading < prevReading && reading < nextReading;
 
-            // Phase 3: "Filling GreatestHits" — only local maxima with positive deviation
-            bool passesThreshold = (parameters.DetectMax && deviation > parameters.Threshold)
-                                || (parameters.DetectMin && deviation < -parameters.Threshold);
+            // Phase 3: "Filling GreatestHits" — local extrema with deviation exceeding threshold
+            bool isHit = (parameters.DetectMax && isLocalMax && deviation > parameters.Threshold)
+                      || (parameters.DetectMin && isLocalMin && deviation < -parameters.Threshold);
 
-            if (isLocalMax && passesThreshold)
+            if (isHit)
             {
                 greatestHits.Add(new ScanResult
                 {

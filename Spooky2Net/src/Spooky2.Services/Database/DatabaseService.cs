@@ -51,10 +51,10 @@ public sealed class DatabaseService : IDatabaseService
         [DatabaseNames.MW] = "MW_Frequencies",
         [DatabaseNames.CUST] = "Custom",
         [DatabaseNames.BFB] = "BFB_Frequencies",
-        [DatabaseNames.CUST1] = "Custom",
-        [DatabaseNames.CUST2] = "Custom",
-        [DatabaseNames.CUST3] = "Custom",
-        [DatabaseNames.CUST4] = "Custom",
+        [DatabaseNames.CUST1] = "Custom1",
+        [DatabaseNames.CUST2] = "Custom2",
+        [DatabaseNames.CUST3] = "Custom3",
+        [DatabaseNames.CUST4] = "Custom4",
     };
 
     public DatabaseService(IFileService fileService, IEncryptionService encryptionService, ILogger<DatabaseService> logger)
@@ -302,7 +302,7 @@ public sealed class DatabaseService : IDatabaseService
         };
     }
 
-    /// <summary>Parses CSV with quoted field support (handles commas inside quotes).</summary>
+    /// <summary>Parses CSV with RFC 4180 support (handles commas inside quotes and escaped quotes "").</summary>
     private static List<string> ParseCsvFields(string line)
     {
         var fields = new List<string>();
@@ -313,7 +313,15 @@ public sealed class DatabaseService : IDatabaseService
         {
             if (line[i] == '"')
             {
-                inQuotes = !inQuotes;
+                if (inQuotes && i + 1 < line.Length && line[i + 1] == '"')
+                {
+                    // Escaped quote ("") — skip the pair
+                    i++;
+                }
+                else
+                {
+                    inQuotes = !inQuotes;
+                }
             }
             else if (line[i] == ',' && !inQuotes)
             {
@@ -325,32 +333,68 @@ public sealed class DatabaseService : IDatabaseService
         return fields;
     }
 
-    /// <summary>Parses simple CSV: Name,freq1,freq2,... (used for .csv files).</summary>
+    /// <summary>
+    /// Determines whether the given sourceDatabase loads from a shared/merged file
+    /// (i.e. multiple categories in one CSV). When true, category filtering is required.
+    /// </summary>
+    private static bool IsSharedFile(string sourceDatabase)
+    {
+        return DatabaseFileMap.TryGetValue(sourceDatabase, out var file)
+            && string.Equals(file, "Frequencies", StringComparison.OrdinalIgnoreCase);
+    }
+
+    /// <summary>Parses simple CSV: Name,freq1,freq2,... (used for .csv files).
+    /// For merged files (e.g. Frequencies.csv), filters by category in field[1].</summary>
     private static List<DatabaseEntry> ParseSimpleCsvContent(string content, string sourceDatabase)
     {
         if (string.IsNullOrWhiteSpace(content))
             return [];
 
+        bool filterByCategory = !string.IsNullOrEmpty(sourceDatabase) && IsSharedFile(sourceDatabase);
+
         var entries = new List<DatabaseEntry>();
         foreach (var rawLine in content.Split(['\r', '\n'], StringSplitOptions.RemoveEmptyEntries))
         {
             var line = rawLine.Trim();
-            if (line.Length == 0 || line.StartsWith("//"))
+            if (line.Length == 0 || line.StartsWith("//") || line.StartsWith('#'))
                 continue;
 
-            var fields = line.Split(',');
-            if (fields.Length < 1)
+            var fields = ParseCsvFields(line);
+            if (fields.Count < 1)
                 continue;
 
-            var name = fields[0].Trim();
+            var name = Unquote(fields[0]);
             if (string.IsNullOrEmpty(name))
                 continue;
 
-            var freqs = new List<double>();
-            for (int i = 1; i < fields.Length; i++)
+            // When loading from a merged file, field[1] is the category — filter to match
+            if (filterByCategory && fields.Count > 1)
             {
-                if (double.TryParse(fields[i].Trim(), NumberStyles.Float, CultureInfo.InvariantCulture, out var f))
-                    freqs.Add(f);
+                var category = Unquote(fields[1]);
+                if (!string.Equals(category, sourceDatabase, StringComparison.OrdinalIgnoreCase))
+                    continue;
+            }
+
+            // Parse frequencies: if S2D format (field[1]=category), frequencies are in field[4]
+            // as a comma-separated string. Otherwise, simple format: freq1,freq2,... from field[1]+.
+            var freqs = new List<double>();
+            if (filterByCategory && fields.Count > 4)
+            {
+                // S2D format: field[4] contains comma-separated frequencies as a quoted string
+                var freqStr = Unquote(fields[4]);
+                foreach (var part in freqStr.Split(',', StringSplitOptions.RemoveEmptyEntries))
+                {
+                    if (double.TryParse(part.Trim(), NumberStyles.Float, CultureInfo.InvariantCulture, out var f) && f > 0)
+                        freqs.Add(f);
+                }
+            }
+            else
+            {
+                for (int i = 1; i < fields.Count; i++)
+                {
+                    if (double.TryParse(Unquote(fields[i]), NumberStyles.Float, CultureInfo.InvariantCulture, out var f))
+                        freqs.Add(f);
+                }
             }
 
             entries.Add(new DatabaseEntry
@@ -367,7 +411,7 @@ public sealed class DatabaseService : IDatabaseService
     {
         s = s.Trim();
         if (s.Length >= 2 && s[0] == '"' && s[^1] == '"')
-            return s[1..^1];
+            return s[1..^1].Replace("\"\"", "\"");
         return s;
     }
 }

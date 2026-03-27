@@ -13,7 +13,7 @@ public static class DatabaseNames
     public const string PROV = "PROV"; // Provisional/unverified frequencies
     public const string MW = "MW"; // Molecular Weight derived frequencies
     public const string VEGA = "VEGA"; // VEGA test frequencies
-    public const string ETDFL = "ETDFL"; // Extended Target Disease Frequency List
+    public const string ETDFL = "ETDF"; // Extended Target Disease Frequency List (CSV category is "ETDF")
     public const string BFB = "BFB"; // Biofeedback scan frequencies
     public const string KHZ = "KHZ"; // Kilohertz range frequencies
     public const string SD = "SD"; // Spooky Database

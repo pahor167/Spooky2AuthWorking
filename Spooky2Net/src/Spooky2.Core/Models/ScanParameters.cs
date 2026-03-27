@@ -49,9 +49,4 @@ public sealed record ScanParameters
     /// <summary>Number of baseline :r11/:r12 read pairs before sweeping.
     /// Dump shows 203 pairs (+ 1 initial standalone :r11 = 407 total reads).</summary>
     public int BaselineReadCount { get; init; } = 203;
-    /// <summary>Minimum frequency separation between hits as a percentage (0.025 = one step).
-    /// When a new hit is within this distance of an existing hit, the one with higher deviation
-    /// is kept and the other is discarded. Prevents cluster monopolization of hit slots.
-    /// Verified from original VB6 output: nearest distinct hits are ~0.05% apart.</summary>
-    public double MinHitSeparationPercent { get; init; } = 0.05;
 }

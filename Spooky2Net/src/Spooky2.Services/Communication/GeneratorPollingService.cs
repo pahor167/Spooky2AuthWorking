@@ -16,7 +16,7 @@ public sealed class GeneratorPollingService : IDisposable
     private readonly IErrorLoggingService _errorLoggingService;
     private readonly System.Timers.Timer _timer;
     private readonly object _reentryGuard = new();
-    private bool _isPolling;
+    private volatile bool _isPolling;
 
     /// <summary>Watchdog timeout: 60 seconds (matches VB6 original).</summary>
     private const int WatchdogTimeoutMs = 60_000;
@@ -29,6 +29,13 @@ public sealed class GeneratorPollingService : IDisposable
     /// for watchdog timeout detection.
     /// </summary>
     private readonly Dictionary<int, DateTime> _lastResponseTimes = new();
+
+    /// <summary>
+    /// Cached list of known generators from the last discovery.
+    /// Polling reads status from these — it does NOT re-discover every tick.
+    /// </summary>
+    private List<GeneratorState> _knownGenerators = new();
+    private readonly object _generatorsLock = new();
 
     public GeneratorPollingService(
         IGeneratorService generatorService,
@@ -54,6 +61,28 @@ public sealed class GeneratorPollingService : IDisposable
     public void Start() => _timer.Start();
     public void Stop() => _timer.Stop();
 
+    /// <summary>
+    /// Performs initial generator discovery and caches the results.
+    /// Call this once before Start(), or call RefreshGenerators() to re-discover later.
+    /// </summary>
+    public async Task DiscoverGeneratorsAsync()
+    {
+        var generators = await _generatorService.FindGenerators().ConfigureAwait(false);
+        lock (_generatorsLock)
+        {
+            _knownGenerators = generators;
+        }
+    }
+
+    /// <summary>
+    /// Forces a re-discovery of generators. Use when the user explicitly
+    /// requests a rescan or when all generators become unreachable.
+    /// </summary>
+    public async Task RefreshGeneratorsAsync()
+    {
+        await DiscoverGeneratorsAsync().ConfigureAwait(false);
+    }
+
     private async void OnTimerElapsed(object? sender, System.Timers.ElapsedEventArgs e)
     {
         // Reentrance protection (same pattern as VB6 eax+0000055Ch guard)
@@ -66,7 +95,16 @@ public sealed class GeneratorPollingService : IDisposable
 
         try
         {
-            var generators = await _generatorService.FindGenerators().ConfigureAwait(false);
+            List<GeneratorState> generators;
+            lock (_generatorsLock)
+            {
+                generators = _knownGenerators;
+            }
+
+            if (generators.Count == 0)
+            {
+                return;
+            }
 
             foreach (var generator in generators)
             {

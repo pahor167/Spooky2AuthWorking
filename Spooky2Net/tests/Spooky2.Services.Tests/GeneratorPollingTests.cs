@@ -20,9 +20,14 @@ public class GeneratorPollingTests
     {
         public List<GeneratorState> Generators { get; set; } = [];
         public int ReadStatusCallCount { get; private set; }
+        public int FindGeneratorsCallCount { get; private set; }
         public bool ReadStatusShouldThrow { get; set; }
 
-        public Task<List<GeneratorState>> FindGenerators() => Task.FromResult(new List<GeneratorState>(Generators));
+        public Task<List<GeneratorState>> FindGenerators()
+        {
+            FindGeneratorsCallCount++;
+            return Task.FromResult(new List<GeneratorState>(Generators));
+        }
         public Task<GeneratorState> ReadStatus(int generatorId)
         {
             ReadStatusCallCount++;
@@ -105,6 +110,7 @@ public class GeneratorPollingTests
         var events = new List<GeneratorStatusUpdateEventArgs>();
         poller.StatusUpdated += (_, e) => events.Add(e);
 
+        await poller.DiscoverGeneratorsAsync();
         poller.Start();
         await Task.Delay(300); // Allow a few poll cycles
         poller.Stop();
@@ -132,6 +138,7 @@ public class GeneratorPollingTests
         var generatorIds = new HashSet<int>();
         poller.StatusUpdated += (_, e) => generatorIds.Add(e.GeneratorId);
 
+        await poller.DiscoverGeneratorsAsync();
         poller.Start();
         await Task.Delay(300);
         poller.Stop();
@@ -145,7 +152,7 @@ public class GeneratorPollingTests
     // ─────────────────────────────────────────────────────────────
 
     [Fact]
-    public async Task Polling_ErrorInReadStatus_FiresErrorEvent()
+    public async Task Polling_ErrorInReadStatus_FiresWatchdogEvent()
     {
         var genService = new MockGeneratorService
         {
@@ -158,6 +165,7 @@ public class GeneratorPollingTests
         var watchdogFired = false;
         poller.WatchdogTimeout += (_, _) => watchdogFired = true;
 
+        await poller.DiscoverGeneratorsAsync();
         poller.Start();
         await Task.Delay(300);
         poller.Stop();
@@ -178,6 +186,7 @@ public class GeneratorPollingTests
         var logger = new MockErrorLoggingService();
         using var poller = new GeneratorPollingService(genService, logger);
 
+        await poller.DiscoverGeneratorsAsync();
         poller.Start();
         await Task.Delay(500); // Timer fires multiple times during slow poll
         poller.Stop();
@@ -193,17 +202,20 @@ public class GeneratorPollingTests
         private int _activeCalls;
         public int ConcurrentPollCount { get; private set; }
 
-        public async Task<List<GeneratorState>> FindGenerators()
+        public Task<List<GeneratorState>> FindGenerators()
+        {
+            return Task.FromResult<List<GeneratorState>>([new GeneratorState { Id = 0 }]);
+        }
+
+        public async Task<GeneratorState> ReadStatus(int generatorId)
         {
             var current = Interlocked.Increment(ref _activeCalls);
             if (current > ConcurrentPollCount) ConcurrentPollCount = current;
             await Task.Delay(200); // Simulate slow operation
             Interlocked.Decrement(ref _activeCalls);
-            return [new GeneratorState { Id = 0 }];
+            return new GeneratorState { Id = generatorId, Status = GeneratorStatus.Idle };
         }
 
-        public Task<GeneratorState> ReadStatus(int generatorId)
-            => Task.FromResult(new GeneratorState { Id = generatorId, Status = GeneratorStatus.Idle });
         public Task Start(int generatorId) => Task.CompletedTask;
         public Task Stop(int generatorId) => Task.CompletedTask;
         public Task Pause(int generatorId) => Task.CompletedTask;
@@ -235,6 +247,7 @@ public class GeneratorPollingTests
         GeneratorWatchdogEventArgs? watchdogEvent = null;
         poller.WatchdogTimeout += (_, e) => watchdogEvent = e;
 
+        await poller.DiscoverGeneratorsAsync();
         poller.Start();
         await Task.Delay(300);
         poller.Stop();
@@ -274,6 +287,7 @@ public class GeneratorPollingTests
         var logger = new MockErrorLoggingService();
         using var poller = new GeneratorPollingService(genService, logger);
 
+        await poller.DiscoverGeneratorsAsync();
         poller.Start();
         await Task.Delay(200);
         var countAtStop = genService.ReadStatusCallCount;
@@ -285,5 +299,30 @@ public class GeneratorPollingTests
         // After stopping, count should not increase significantly
         // (allow 1 extra for in-flight poll)
         Assert.True(countAfterStop - countAtStop <= 1);
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // Discovery is NOT called on every tick
+    // ─────────────────────────────────────────────────────────────
+
+    [Fact]
+    public async Task Polling_DoesNotCallFindGeneratorsOnEveryTick()
+    {
+        var genService = new MockGeneratorService
+        {
+            Generators = [new GeneratorState { Id = 0 }]
+        };
+        var logger = new MockErrorLoggingService();
+        using var poller = new GeneratorPollingService(genService, logger);
+
+        await poller.DiscoverGeneratorsAsync();
+        var discoveryCountAfterInit = genService.FindGeneratorsCallCount;
+
+        poller.Start();
+        await Task.Delay(500); // Many poll ticks
+        poller.Stop();
+
+        // FindGenerators should NOT have been called again during polling
+        Assert.Equal(discoveryCountAfterInit, genService.FindGeneratorsCallCount);
     }
 }

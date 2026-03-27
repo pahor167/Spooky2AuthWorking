@@ -43,6 +43,8 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         _statusTimer = new System.Timers.Timer(500);
         _statusTimer.Elapsed += OnStatusTimerElapsed;
 
+        ReverseLookupResults.CollectionChanged += (_, _) => OnPropertyChanged(nameof(HasReverseLookupResults));
+
         _logger.LogDebug("ControlViewModel initialized");
     }
 
@@ -190,6 +192,8 @@ public partial class ControlViewModel : ObservableObject, IDisposable
     // ── Reverse Lookup ──
 
     public ObservableCollection<string> ReverseLookupResults { get; } = new();
+
+    public bool HasReverseLookupResults => ReverseLookupResults.Count > 0;
 
     [ObservableProperty]
     private string? _selectedBiofeedbackHit;

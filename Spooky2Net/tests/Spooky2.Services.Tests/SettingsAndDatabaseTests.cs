@@ -156,11 +156,10 @@ public class SettingsAndDatabaseTests
         Directory.CreateDirectory(dbDir);
         var csvPath = Path.Combine(dbDir, "Frequencies.csv");
 
-        await File.WriteAllTextAsync(csvPath, """
-            Healing Program,100,200,300,400,500
-            Pain Relief,76000,152000
-            Sleep Aid,3.5,7.83,14.1
-            """);
+        await File.WriteAllTextAsync(csvPath,
+            "\"Healing Program\",RIFE,5,,\"100,200,300,400,500,\",,,180\n" +
+            "\"Pain Relief\",RIFE,2,,\"76000,152000,\",,,180\n" +
+            "\"Sleep Aid\",RIFE,3,,\"3.5,7.83,14.1,\",,,180\n");
 
         var fileService = new FileService();
         var dbService = new DatabaseService(fileService, dbDir);
@@ -184,14 +183,13 @@ public class SettingsAndDatabaseTests
         Directory.CreateDirectory(dbDir);
         var csvPath = Path.Combine(dbDir, "Frequencies.csv");
 
-        await File.WriteAllTextAsync(csvPath, """
-            // This is a comment
-
-            Program1,100,200
-
-            // Another comment
-            Program2,300,400
-            """);
+        await File.WriteAllTextAsync(csvPath,
+            "# This is a comment\n" +
+            "\n" +
+            "\"Program1\",RIFE,2,,\"100,200,\",,,180\n" +
+            "\n" +
+            "# Another comment\n" +
+            "\"Program2\",RIFE,2,,\"300,400,\",,,180\n");
 
         var fileService = new FileService();
         var dbService = new DatabaseService(fileService, dbDir);
@@ -209,12 +207,11 @@ public class SettingsAndDatabaseTests
         Directory.CreateDirectory(dbDir);
         var csvPath = Path.Combine(dbDir, "Frequencies.csv");
 
-        await File.WriteAllTextAsync(csvPath, """
-            Healing Cancer,100,200
-            Pain Relief,300,400
-            Healing Sleep,500,600
-            Detox Program,700,800
-            """);
+        await File.WriteAllTextAsync(csvPath,
+            "\"Healing Cancer\",RIFE,2,,\"100,200,\",,,180\n" +
+            "\"Pain Relief\",RIFE,2,,\"300,400,\",,,180\n" +
+            "\"Healing Sleep\",RIFE,2,,\"500,600,\",,,180\n" +
+            "\"Detox Program\",RIFE,2,,\"700,800,\",,,180\n");
 
         var fileService = new FileService();
         var dbService = new DatabaseService(fileService, dbDir);
@@ -233,7 +230,7 @@ public class SettingsAndDatabaseTests
         Directory.CreateDirectory(dbDir);
         var csvPath = Path.Combine(dbDir, "Frequencies.csv");
 
-        await File.WriteAllTextAsync(csvPath, "healing program,100\nHEALING PROGRAM2,200\n");
+        await File.WriteAllTextAsync(csvPath, "\"healing program\",RIFE,1,,\"100,\",,,180\n\"HEALING PROGRAM2\",RIFE,1,,\"200,\",,,180\n");
 
         var fileService = new FileService();
         var dbService = new DatabaseService(fileService, dbDir);
@@ -251,7 +248,7 @@ public class SettingsAndDatabaseTests
         Directory.CreateDirectory(dbDir);
         var csvPath = Path.Combine(dbDir, "Frequencies.csv");
 
-        await File.WriteAllTextAsync(csvPath, "Program1,100\n");
+        await File.WriteAllTextAsync(csvPath, "\"Program1\",RIFE,1,,\"100,\",,,180\n");
 
         var fileService = new FileService();
         var dbService = new DatabaseService(fileService, dbDir);
@@ -260,7 +257,7 @@ public class SettingsAndDatabaseTests
         Assert.Single(result1);
 
         // Modify file - should still get cached result
-        await File.WriteAllTextAsync(csvPath, "Program1,100\nProgram2,200\n");
+        await File.WriteAllTextAsync(csvPath, "\"Program1\",RIFE,1,,\"100,\",,,180\n\"Program2\",RIFE,1,,\"200,\",,,180\n");
         var result2 = await dbService.LoadDatabase("RIFE");
         Assert.Single(result2); // Still cached
 

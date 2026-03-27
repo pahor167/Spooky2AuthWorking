@@ -15,6 +15,7 @@ using Spooky2.Services.Calculator;
 using Spooky2.Services.CarrierSweep;
 using Microsoft.Extensions.Logging;
 using Spooky2.ViewModels;
+using Spooky2.ViewModels.Dialogs;
 using Spooky2.Views;
 using Avalonia.Controls;
 using Spooky2.Views.Services;
@@ -90,6 +91,8 @@ public class App : Application
         services.AddTransient<SystemViewModel>();
         services.AddTransient<ControlViewModel>();
         services.AddTransient<GeneratorViewModel>();
+        services.AddTransient<ScanResultsViewModel>();
+        services.AddTransient<ReverseLookupViewModel>();
 
         Services = services.BuildServiceProvider();
 
