@@ -97,57 +97,33 @@ public class HuntAndKillReplayTests
         var frequencies = ScanService.CalculateFrequencySteps(parameters);
         int stepCount = Math.Min(frequencies.Count, session.SweepSteps.Count);
 
-        var raWindow = new ScanService.SlidingWindow(parameters.RaWindow);
+        // Build scan readings list (baseline fills the window, then sweep readings)
+        var scanReadings = new List<(double Frequency, double Reading)>();
 
-        // Fill baseline with the detection sensor (angle by default, matching original VB6)
+        // Pre-fill: baseline readings go through the window but aren't scan steps
+        var baselineWindow = new ScanService.SlidingWindow(parameters.RaWindow);
         foreach (var (angle, current) in session.BaselineReadings)
-            raWindow.Add(parameters.UseCurrent ? current : angle);
-        // Note: window only keeps last RaWindow entries, rest slides off
+            baselineWindow.Add(parameters.UseCurrent ? current : angle);
 
-        // Decoded from VB6 Proc_0_331:
-        // 1. Compute SMA, 2. Detect asymptotes (local maxima of raw signal),
-        // 3. Collect all, 4. Sort by deviation, 5. Take top MaxHits
-        var allHits = new List<ScanResult>();
-        double prevReading = 0, prevPrevReading = 0;
-        double prevDev = 0, prevRa = 0;
+        // Build readings list with baseline pre-fill baked into the window
+        // by adding baseline tail as "pre-readings" that prime the SMA
+        var baselineTail = session.BaselineReadings
+            .TakeLast(parameters.RaWindow)
+            .Select(r => parameters.UseCurrent ? r.Current : r.Angle)
+            .ToList();
+        foreach (var val in baselineTail)
+            scanReadings.Add((0, val)); // freq=0 for baseline entries
 
         for (int i = 0; i < stepCount; i++)
         {
             double reading = parameters.UseCurrent
                 ? session.SweepSteps[i].CurrentReading
                 : session.SweepSteps[i].AngleReading;
-
-            if (!raWindow.IsFull) { raWindow.Add(reading); prevPrevReading = prevReading; prevReading = reading; continue; }
-
-            double ra = raWindow.SimpleAverage();
-            double deviation = reading - ra;
-
-            // Asymptote detection: was the PREVIOUS reading a local maximum?
-            // (prevReading > prevPrevReading AND prevReading > currentReading)
-            if (prevReading > prevPrevReading && prevReading > reading && prevDev > parameters.Threshold)
-            {
-                allHits.Add(new ScanResult
-                {
-                    Frequency = frequencies[Math.Max(0, i - 1)],
-                    Reading = prevReading,
-                    RunningAverage = prevRa,
-                    Deviation = Math.Abs(prevDev),
-                    HitCount = 1,
-                    Timestamp = DateTime.UtcNow
-                });
-            }
-
-            prevPrevReading = prevReading;
-            prevReading = reading;
-            prevDev = deviation;
-            prevRa = ra;
-
-            raWindow.Add(reading);
+            scanReadings.Add((frequencies[i], reading));
         }
 
-        // Sort all asymptote hits by deviation, take top MaxHits
-        return allHits.OrderByDescending(h => h.Deviation)
-                      .Take(parameters.MaxHits).ToList();
+        // Use the same post-processing as ScanService
+        return ScanService.DetectHits(scanReadings, parameters);
     }
 
     /// <summary>

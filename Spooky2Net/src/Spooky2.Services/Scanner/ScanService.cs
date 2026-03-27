@@ -216,12 +216,11 @@ public sealed class ScanService : IScanService
 
             double peakReading = double.MinValue;
             double peakFrequency = 0;
-            var hits = new List<ScanResult>();
 
-            // Asymptote detection state: track previous readings for local maxima detection
-            var allScanHits = new List<ScanResult>();
-            double prevReading = 0, prevPrevReading = 0;
-            double prevDeviation = 0, prevRa = 0, prevFreq = 0;
+            // Collect ALL readings during the sweep for post-processing.
+            // The VB6 original (Proc_0_331) writes readings to CSV during the scan,
+            // then post-processes them in "Detecting Asymptotes" + "Filling GreatestHits".
+            var scanReadings = new List<(double Frequency, double Reading)>();
 
             for (int loop = 0; loop < parameters.Loops; loop++)
             {
@@ -240,68 +239,27 @@ public sealed class ScanService : IScanService
                     // Read sensors
                     var (angle, current) = await ReadSensors(generatorId, parameters.SamplesPerStep);
 
-                    // Select primary detection value and RA window
                     double reading = parameters.UseCurrent ? current : angle;
-                    var primaryWindow = parameters.UseCurrent
-                        ? (parameters.UseRetentiveWindow ? raWindow2 : raWindow1)
-                        : (parameters.UseRetentiveWindow ? angleWindow2 : angleWindow1);
 
-                    // Peak detection
+                    // Peak detection mode
                     if (parameters.CalculateUsingPeak && reading > peakReading)
                     {
                         peakReading = reading;
                         peakFrequency = freq;
                     }
 
-                    // Retrospective analysis algorithm (decoded from VB6 Proc_0_331):
-                    // 1. Compute SMA (Simple Moving Average) from previous readings
-                    // 2. Compute deviation = reading - SMA
-                    // 3. Track previous readings for asymptote (local maxima) detection
-                    // 4. A hit is a LOCAL MAXIMUM of the raw signal with positive deviation
-                    //
-                    // The "Detecting Asymptotes" phase finds peaks in the raw signal,
-                    // then GreatestHits selects the top MaxHits by deviation magnitude.
-                    if (primaryWindow.IsFull && !parameters.CalculateUsingPeak)
-                    {
-                        double ra = primaryWindow.SimpleAverage();
-                        double deviation = reading - ra;
+                    // Store reading for post-processing
+                    scanReadings.Add((freq, reading));
 
-                        // Asymptote detection: is this reading a local maximum of the raw signal?
-                        bool isLocalMax = prevReading > 0
-                                       && reading > prevReading
-                                       && reading > prevPrevReading;
-                        // We'll confirm it's a true local max when the NEXT reading arrives
-                        // (reading[i] > reading[i-1] AND reading[i] > reading[i+1])
-                        // So we record the PREVIOUS step if it was higher than both neighbors
-                        bool prevWasLocalMax = prevReading > prevPrevReading
-                                            && prevReading > reading
-                                            && prevDeviation > parameters.Threshold;
-
-                        if (prevWasLocalMax && (parameters.DetectMax && prevDeviation > 0))
-                        {
-                            allScanHits.Add(new ScanResult
-                            {
-                                Frequency = prevFreq,
-                                Reading = prevReading,
-                                RunningAverage = prevRa,
-                                Deviation = Math.Abs(prevDeviation),
-                                HitCount = 1,
-                                Timestamp = DateTime.UtcNow
-                            });
-                        }
-
-                        prevPrevReading = prevReading;
-                        prevReading = reading;
-                        prevDeviation = deviation;
-                        prevRa = ra;
-                        prevFreq = freq;
-                    }
-
-                    // Update accumulators AFTER deviation computation
+                    // Update all RA windows (for progress reporting)
                     raWindow1.Add(current);
                     raWindow2.Add(current);
                     angleWindow1.Add(angle);
                     angleWindow2.Add(angle);
+
+                    var primaryWindow = parameters.UseCurrent
+                        ? (parameters.UseRetentiveWindow ? raWindow2 : raWindow1)
+                        : (parameters.UseRetentiveWindow ? angleWindow2 : angleWindow1);
 
                     progress?.Report(new ScanProgress
                     {
@@ -310,17 +268,25 @@ public sealed class ScanService : IScanService
                                           (parameters.Loops * frequencies.Count) * 100,
                         StepNumber = i + 1,
                         TotalSteps = frequencies.Count,
-                        HitsFound = hits.Count,
+                        HitsFound = 0,
                         StatusText = $"Scanning {freq:N0} Hz ({i + 1}/{frequencies.Count})",
                         CycleNumber = loop + 1,
                         CurrentReading = reading,
-                        CurrentRunningAverage = primaryWindow.IsFull ? primaryWindow.WeightedAverage() : 0
+                        CurrentRunningAverage = primaryWindow.IsFull ? primaryWindow.SimpleAverage() : 0
                     });
                 }
-
             }
 
-            // Peak mode: the single peak is the hit
+            // ══════════════════════════════════════════════════════════
+            // POST-PROCESSING: Retrospective analysis
+            // Decoded from VB6 Proc_0_331_8531A0 using 25+ analysis agents.
+            // Phase 1: Compute SMA + deviation for each step
+            // Phase 2: "Detecting Asymptotes" — find local maxima of raw signal
+            // Phase 3: "Filling GreatestHits" — collect asymptotes with positive deviation
+            // Phase 4: Sort by deviation, take top MaxHits
+            // ══════════════════════════════════════════════════════════
+            var hits = new List<ScanResult>();
+
             if (parameters.CalculateUsingPeak && peakFrequency > 0)
             {
                 hits.Add(new ScanResult
@@ -332,14 +298,9 @@ public sealed class ScanService : IScanService
                     Timestamp = DateTime.UtcNow
                 });
             }
-
-            // Asymptote mode (default): sort all detected local maxima by deviation,
-            // take top MaxHits. Decoded from VB6 Proc_0_331 "Detecting Asymptotes"
-            // + "Filling GreatestHits Array" + Proc_0_336 bubble sort.
-            if (!parameters.CalculateUsingPeak && allScanHits.Count > 0)
+            else if (scanReadings.Count > 2)
             {
-                hits = allScanHits.OrderByDescending(h => h.Deviation)
-                                  .Take(parameters.MaxHits).ToList();
+                hits = DetectHits(scanReadings, parameters);
             }
 
             _logger.LogInformation("Scan complete: {Count} hits found", hits.Count);
@@ -597,6 +558,66 @@ public sealed class ScanService : IScanService
             currentSum += GeneratorProtocol.ParseSensorReading(cr ?? "");
         }
         return (angleSum / samples, currentSum / samples);
+    }
+
+    /// <summary>
+    /// Post-processing hit detection decoded from VB6 Proc_0_331 ("Performing Retrospective Analysis").
+    /// The original collects all readings to CSV during the scan, then post-processes:
+    ///   1. Compute SMA (Simple Moving Average) for each step
+    ///   2. "Detecting Asymptotes" — find local maxima of the raw signal
+    ///   3. "Filling GreatestHits" — collect asymptotes where deviation exceeds threshold
+    ///   4. Bubble sort by deviation, take top MaxHits
+    /// </summary>
+    internal static List<ScanResult> DetectHits(
+        List<(double Frequency, double Reading)> scanReadings, ScanParameters parameters)
+    {
+        int windowSize = parameters.RaWindow;
+        var window = new SlidingWindow(windowSize);
+
+        // Phase 1: Compute SMA and deviation for each step
+        var steps = new List<(double Freq, double Reading, double Deviation, double Ra)>();
+        foreach (var (freq, reading) in scanReadings)
+        {
+            double ra = window.IsFull ? window.SimpleAverage() : 0;
+            double deviation = window.IsFull ? reading - ra : 0;
+            steps.Add((freq, reading, deviation, ra));
+            window.Add(reading);
+        }
+
+        // Phase 2: "Detecting Asymptotes" — find local maxima of the raw signal
+        // A local max at step i: reading[i] > reading[i-1] AND reading[i] > reading[i+1]
+        var greatestHits = new List<ScanResult>();
+        for (int i = 1; i < steps.Count - 1; i++)
+        {
+            var (freq, reading, deviation, ra) = steps[i];
+            double prevReading = steps[i - 1].Reading;
+            double nextReading = steps[i + 1].Reading;
+
+            bool isLocalMax = reading > prevReading && reading > nextReading;
+
+            // Phase 3: "Filling GreatestHits" — only local maxima with positive deviation
+            bool passesThreshold = (parameters.DetectMax && deviation > parameters.Threshold)
+                                || (parameters.DetectMin && deviation < -parameters.Threshold);
+
+            if (isLocalMax && passesThreshold)
+            {
+                greatestHits.Add(new ScanResult
+                {
+                    Frequency = freq,
+                    Reading = reading,
+                    RunningAverage = ra,
+                    Deviation = Math.Abs(deviation),
+                    HitCount = 1,
+                    Timestamp = DateTime.UtcNow
+                });
+            }
+        }
+
+        // Phase 4: Sort by deviation descending, take top MaxHits
+        return greatestHits
+            .OrderByDescending(h => h.Deviation)
+            .Take(parameters.MaxHits)
+            .ToList();
     }
 
     internal static List<double> CalculateFrequencySteps(ScanParameters parameters)
