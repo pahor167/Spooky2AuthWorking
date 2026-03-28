@@ -18,6 +18,7 @@ public class GeneratorPollingTests
 
     private sealed class MockGeneratorService : IGeneratorService
     {
+        public void Dispose() { }
         public List<GeneratorState> Generators { get; set; } = [];
         public int ReadStatusCallCount { get; private set; }
         public int FindGeneratorsCallCount { get; private set; }
@@ -200,6 +201,7 @@ public class GeneratorPollingTests
 
     private sealed class SlowGeneratorService : IGeneratorService
     {
+        public void Dispose() { }
         private int _activeCalls;
         public int ConcurrentPollCount { get; private set; }
 

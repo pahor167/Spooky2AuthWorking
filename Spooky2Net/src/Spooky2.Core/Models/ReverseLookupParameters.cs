@@ -7,5 +7,5 @@ public sealed record ReverseLookupParameters
     public double TolerancePercent { get; init; } = 0.25;
     public double IncludeHz { get; init; }
     public int MaxHarmonics { get; init; } = 20;
-    public List<string> Databases { get; init; } = ["Rife", "CAFL", "XTRA", "BIO", "RUSS"];
+    public IReadOnlyList<string> Databases { get; init; } = ["Rife", "CAFL", "XTRA", "BIO", "RUSS"];
 }

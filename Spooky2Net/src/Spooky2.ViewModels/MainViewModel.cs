@@ -1,5 +1,6 @@
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.Globalization;
 using System.Runtime.InteropServices;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -10,7 +11,7 @@ using Spooky2.ViewModels.Dialogs;
 
 namespace Spooky2.ViewModels;
 
-public partial class MainViewModel : ObservableObject
+public partial class MainViewModel : ObservableObject, IDisposable
 {
     private readonly IGeneratorService _generatorService;
     private readonly IPresetService _presetService;
@@ -63,7 +64,8 @@ public partial class MainViewModel : ObservableObject
 
         _logger.LogInformation("MainViewModel initializing, root path: '{RootPath}'", _rootPath);
 
-        Presets = new PresetsViewModel(presetService, fileService);
+        var presetsRoot = Path.Combine(_rootPath, Core.Constants.AppConstants.PresetCollectionsDir);
+        Presets = new PresetsViewModel(presetService, fileService, presetsRootPath: presetsRoot);
         Database = new DatabaseViewModel(databaseService, microGenService);
         Settings = new SettingsViewModel();
         System = new SystemViewModel(settingsService);
@@ -194,10 +196,10 @@ public partial class MainViewModel : ObservableObject
         if (settings.TryGetValue("MaxHRV", out string? maxHrv) && int.TryParse(maxHrv, out int maxHrvVal))
             System.MaximumHeartRateVariability = maxHrvVal;
 
-        if (settings.TryGetValue("AmplitudeWobble", out string? ampWobble) && double.TryParse(ampWobble, out double freqAmpVal))
+        if (settings.TryGetValue("AmplitudeWobble", out string? ampWobble) && double.TryParse(ampWobble, CultureInfo.InvariantCulture, out double freqAmpVal))
             System.AmplitudeWobblePercentage = freqAmpVal;
 
-        if (settings.TryGetValue("FrequencyWobble", out string? freqWobble) && double.TryParse(freqWobble, out double freqWobbleVal))
+        if (settings.TryGetValue("FrequencyWobble", out string? freqWobble) && double.TryParse(freqWobble, CultureInfo.InvariantCulture, out double freqWobbleVal))
             System.FrequencyWobblePercentage = freqWobbleVal;
     }
 
@@ -745,6 +747,13 @@ public partial class MainViewModel : ObservableObject
             await _generatorService.Resume(generator.GeneratorId);
         }
         StatusBarText = "All generators unpaused";
+    }
+
+    // ── IDisposable ─────────────────────────────────────────────────
+
+    public void Dispose()
+    {
+        Control?.Dispose();
     }
 
     // ── Helpers ────────────────────────────────────────────────────

@@ -93,6 +93,21 @@ public sealed class FileService : IFileService
         }
     }
 
+    public async Task<string> ReadAllText(string path, System.Text.Encoding encoding)
+    {
+        string normalised = NormalisePath(path);
+        _logger.LogDebug("Reading file '{Path}' with encoding {Encoding}", normalised, encoding.EncodingName);
+        try
+        {
+            return await File.ReadAllTextAsync(normalised, encoding);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to read file '{Path}'", normalised);
+            throw;
+        }
+    }
+
     public async Task WriteAllText(string path, string content)
     {
         string normalised = NormalisePath(path);

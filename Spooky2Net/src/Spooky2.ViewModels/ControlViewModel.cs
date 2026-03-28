@@ -24,6 +24,9 @@ public partial class ControlViewModel : ObservableObject, IDisposable
     private int _currentFrequencyIndex;
     private CancellationTokenSource? _runCts;
     private CancellationTokenSource? _scanCts;
+    private Task? _runTask;
+    private Task? _scanTask;
+    private readonly SemaphoreSlim _scanLock = new(1, 1);
 
     public ControlViewModel(
         IGeneratorService generatorService,
@@ -333,10 +336,12 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             _currentFrequencyIndex = 0;
             _statusTimer.Start();
 
-            // Start frequency cycling
+            // Cancel and await any existing frequency cycle
             _runCts?.Cancel();
+            if (_runTask != null) try { await _runTask; } catch { }
+            _runCts?.Dispose();
             _runCts = new CancellationTokenSource();
-            _ = RunFrequencyCycleAsync(_runCts.Token);
+            _runTask = RunFrequencyCycleAsync(_runCts.Token);
         }
         catch (Exception ex)
         {
@@ -354,6 +359,10 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             _logger.LogInformation("Stopping generator {Id}", SelectedGeneratorId);
             _runCts?.Cancel();
             _scanCts?.Cancel();
+            if (_runTask != null) try { await _runTask; } catch { }
+            if (_scanTask != null) try { await _scanTask; } catch { }
+            _runCts?.Dispose(); _runCts = null; _runTask = null;
+            _scanCts?.Dispose(); _scanCts = null; _scanTask = null;
             _statusTimer.Stop();
 
             await Task.Run(() => _scanService.StopScan(SelectedGeneratorId));
@@ -386,8 +395,11 @@ public partial class ControlViewModel : ObservableObject, IDisposable
                 await Task.Run(() => _generatorService.Resume(SelectedGeneratorId));
                 IsPaused = false;
                 GeneratorStatusText = "Running";
+                _runCts?.Cancel();
+                if (_runTask != null) try { await _runTask; } catch { }
+                _runCts?.Dispose();
                 _runCts = new CancellationTokenSource();
-                _ = RunFrequencyCycleAsync(_runCts.Token);
+                _runTask = RunFrequencyCycleAsync(_runCts.Token);
             }
             else
             {
@@ -418,8 +430,11 @@ public partial class ControlViewModel : ObservableObject, IDisposable
                 await Task.Run(() => _generatorService.Resume(SelectedGeneratorId));
                 IsHeld = false;
                 GeneratorStatusText = "Running";
+                _runCts?.Cancel();
+                if (_runTask != null) try { await _runTask; } catch { }
+                _runCts?.Dispose();
                 _runCts = new CancellationTokenSource();
-                _ = RunFrequencyCycleAsync(_runCts.Token);
+                _runTask = RunFrequencyCycleAsync(_runCts.Token);
             }
             else
             {
@@ -447,6 +462,8 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         {
             _logger.LogInformation("Erasing generator {Id} memory", SelectedGeneratorId);
             _runCts?.Cancel();
+            if (_runTask != null) try { await _runTask; } catch { }
+            _runCts?.Dispose(); _runCts = null; _runTask = null;
             _statusTimer.Stop();
 
             await Task.Run(() => _generatorService.EraseMemory(SelectedGeneratorId));
@@ -513,12 +530,18 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             return;
         }
 
+        await _scanLock.WaitAsync();
         try
         {
+            // Cancel and await any existing scan
+            _scanCts?.Cancel();
+            if (_scanTask != null) try { await _scanTask; } catch { }
+            _scanCts?.Dispose();
+
             IsScanning = true;
             ScanStatusText = "Starting scan...";
-            _scanCts?.Cancel();
             _scanCts = new CancellationTokenSource();
+            var token = _scanCts.Token;
 
             var parameters = BuildScanParameters();
             var graphData = new List<(DateTime time, double value)>();
@@ -548,8 +571,10 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             });
 
             _logger.LogInformation("Starting biofeedback scan on generator {Id}", SelectedGeneratorId);
-            var hits = await Task.Run(() => _scanService.RunBiofeedbackScan(
-                SelectedGeneratorId, parameters, scanProgress, _scanCts.Token));
+            var scanTask = Task.Run(() => _scanService.RunBiofeedbackScan(
+                SelectedGeneratorId, parameters, scanProgress, token));
+            _scanTask = scanTask;
+            var hits = await scanTask;
 
             BiofeedbackHits.Clear();
             foreach (var hit in hits)
@@ -579,6 +604,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         finally
         {
             IsScanning = false;
+            _scanLock.Release();
         }
     }
 
@@ -592,12 +618,18 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             return;
         }
 
+        await _scanLock.WaitAsync();
         try
         {
+            // Cancel and await any existing scan
+            _scanCts?.Cancel();
+            if (_scanTask != null) try { await _scanTask; } catch { }
+            _scanCts?.Dispose();
+
             IsScanning = true;
             ScanStatusText = "Starting Hunt and Kill...";
-            _scanCts?.Cancel();
             _scanCts = new CancellationTokenSource();
+            var token = _scanCts.Token;
 
             var parameters = BuildScanParameters();
             var hkGraphData = new List<(DateTime time, double value)>();
@@ -626,8 +658,10 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             });
 
             _logger.LogInformation("Starting Hunt and Kill on generator {Id}", SelectedGeneratorId);
-            var hits = await Task.Run(() => _scanService.RunHuntAndKill(
-                SelectedGeneratorId, parameters, scanProgress, _scanCts.Token));
+            var hkTask = Task.Run(() => _scanService.RunHuntAndKill(
+                SelectedGeneratorId, parameters, scanProgress, token));
+            _scanTask = hkTask;
+            var hits = await hkTask;
 
             BiofeedbackHits.Clear();
             foreach (var hit in hits)
@@ -656,6 +690,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         finally
         {
             IsScanning = false;
+            _scanLock.Release();
         }
     }
 
@@ -1063,6 +1098,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         _runCts?.Dispose();
         _scanCts?.Cancel();
         _scanCts?.Dispose();
+        _scanLock.Dispose();
         _statusTimer.Stop();
         _statusTimer.Dispose();
     }

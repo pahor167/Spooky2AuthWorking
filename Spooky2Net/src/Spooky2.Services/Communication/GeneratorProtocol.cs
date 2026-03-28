@@ -336,9 +336,11 @@ public static class GeneratorProtocol
             return new CommandResponse(IsSuccess: false, RawResponse: trimmed, Value: value);
         }
 
-        // Some responses may not have a known prefix but still contain data
+        // Responses with extractable data (e.g. read responses "r11=53001.") are treated as success;
+        // truly unknown responses with no data are treated as failure.
         var fallbackValue = ExtractResponseValue(trimmed);
-        return new CommandResponse(IsSuccess: true, RawResponse: trimmed, Value: fallbackValue);
+        var hasData = !string.IsNullOrEmpty(fallbackValue);
+        return new CommandResponse(IsSuccess: hasData, RawResponse: trimmed, Value: fallbackValue);
     }
 
     /// <summary>

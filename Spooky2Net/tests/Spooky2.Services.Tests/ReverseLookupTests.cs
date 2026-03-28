@@ -243,6 +243,7 @@ public class ReverseLookupTests
     /// </summary>
     private sealed class NullGeneratorService : IGeneratorService
     {
+        public void Dispose() { }
         public Task<List<GeneratorState>> FindGenerators() => Task.FromResult(new List<GeneratorState>());
         public Task Start(int id) => Task.CompletedTask;
         public Task Stop(int id) => Task.CompletedTask;

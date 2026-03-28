@@ -2,7 +2,7 @@ using Spooky2.Core.Models;
 
 namespace Spooky2.Core.Interfaces;
 
-public interface IGeneratorService
+public interface IGeneratorService : IDisposable
 {
     Task<List<GeneratorState>> FindGenerators();
     Task Start(int generatorId);

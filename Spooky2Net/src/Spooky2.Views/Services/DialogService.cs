@@ -38,6 +38,7 @@ public class DialogService : IDialogService
         if (viewModel is ICloseable closeable)
         {
             closeable.CloseAction = () => Dispatcher.UIThread.Post(() => window.Close());
+            window.Closed += (_, _) => closeable.CloseAction = null;
         }
 
         var parentWindow = GetParentWindow();

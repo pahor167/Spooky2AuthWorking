@@ -72,7 +72,15 @@ public class App : Application
         services.AddSingleton<ISettingsService, SettingsService>();
         services.AddSingleton<ISerialPortFactory, SerialPortFactory>();
         services.AddSingleton<IGeneratorService, GeneratorService>();
-        services.AddSingleton<IPresetService, PresetService>();
+        services.AddSingleton<IPresetService>(sp =>
+        {
+            var basePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory,
+                Spooky2.Core.Constants.AppConstants.PresetCollectionsDir);
+            return new PresetService(
+                sp.GetRequiredService<IFileService>(),
+                sp.GetRequiredService<ILogger<PresetService>>(),
+                presetsBasePath: basePath);
+        });
         services.AddSingleton<IDatabaseService, DatabaseService>();
         services.AddSingleton<IWaveformService, WaveformService>();
         services.AddSingleton<IScanService, ScanService>();

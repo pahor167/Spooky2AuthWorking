@@ -13,14 +13,16 @@ public partial class PresetsViewModel : ObservableObject
     private readonly IPresetService _presetService;
     private readonly IFileService _fileService;
     private readonly ILogger<PresetsViewModel> _logger;
+    private readonly string? _presetsRootPath;
     private Action<Preset>? _onPresetLoaded;
     private Preset? _currentPreset;
 
-    public PresetsViewModel(IPresetService presetService, IFileService fileService, ILogger<PresetsViewModel>? logger = null)
+    public PresetsViewModel(IPresetService presetService, IFileService fileService, ILogger<PresetsViewModel>? logger = null, string? presetsRootPath = null)
     {
         _presetService = presetService;
         _fileService = fileService;
         _logger = logger ?? NullLogger<PresetsViewModel>.Instance;
+        _presetsRootPath = presetsRootPath;
         _logger.LogDebug("PresetsViewModel initialized");
     }
 
@@ -142,6 +144,18 @@ public partial class PresetsViewModel : ObservableObject
         if (string.IsNullOrWhiteSpace(CurrentDirectory))
         {
             return;
+        }
+
+        // Enforce preset root boundary — don't navigate above the presets base directory
+        if (_presetsRootPath is not null)
+        {
+            var currentFull = Path.GetFullPath(CurrentDirectory);
+            var rootFull = Path.GetFullPath(_presetsRootPath);
+            if (string.Equals(currentFull, rootFull, StringComparison.OrdinalIgnoreCase))
+            {
+                _logger.LogDebug("Already at preset root '{Root}', cannot navigate further up", rootFull);
+                return;
+            }
         }
 
         var parent = Path.GetDirectoryName(CurrentDirectory);

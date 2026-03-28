@@ -32,7 +32,6 @@ public sealed record ScanParameters
     public int Loops { get; init; } = 1;
     public double Threshold { get; init; }
     public bool ContinueRefining { get; init; } = true;
-    public bool RunHitsAfterScan { get; init; } = true;
     /// <summary>Generator ID for kill phase output. 0 = same generator as scan.
     /// Maps to preset BFB_After_Scan_Run_On_Gen=0.</summary>
     public int RunOnGeneratorId { get; init; }

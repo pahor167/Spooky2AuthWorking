@@ -15,6 +15,7 @@ public class ScanServiceTests
 
     private sealed class MockGeneratorService : IGeneratorService
     {
+        public void Dispose() { }
         public List<string> CommandLog { get; } = [];
         public Dictionary<string, string> CommandResponses { get; } = new();
         public List<double> WrittenFrequencies { get; } = [];
@@ -75,6 +76,7 @@ public class ScanServiceTests
     /// </summary>
     private sealed class SpikeGeneratorService : IGeneratorService
     {
+        public void Dispose() { }
         private int _readCount;
         private readonly int _spikeAtStep;
         private readonly double _spikeValue;
@@ -270,7 +272,7 @@ public class ScanServiceTests
         // 76000 Hz → 76000 * 1e9 = 76000000 milliHz
         var freqCmds = mock.CommandLog.Where(c => c.StartsWith(":w24=")).ToList();
         // Init sends :w24=0, and :w24=00, first, then scan sends raw Hz + milliHz
-        Assert.Contains(":w24=76000000000001,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
+        Assert.Contains(":w24=76000,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
         Assert.Contains(":w24=76000000000001,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
     }
 
@@ -305,7 +307,7 @@ public class ScanServiceTests
         // Should detect the spike as a hit
         Assert.NotEmpty(hits);
         // The spike should be detected at some frequency in the scan range
-        Assert.NotEmpty(hits);
+        Assert.All(hits, h => Assert.InRange(h.Frequency, 1000, 4000));
     }
 
     [Fact]
@@ -381,6 +383,7 @@ public class ScanServiceTests
 
     private sealed class VariableReadingGeneratorService : IGeneratorService
     {
+        public void Dispose() { }
         private int _readCount;
         private readonly Dictionary<int, double> _spikes;
         private readonly double _baselineValue;

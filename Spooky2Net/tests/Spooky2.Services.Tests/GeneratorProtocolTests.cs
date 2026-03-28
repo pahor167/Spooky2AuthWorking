@@ -476,11 +476,11 @@ public class GeneratorProtocolTests
     }
 
     [Fact]
-    public void ParseResponse_UnknownPrefix_TreatedAsSuccess()
+    public void ParseResponse_UnknownPrefix_WithoutData_TreatedAsFailure()
     {
         var response = GeneratorProtocol.ParseResponse("v2.34");
 
-        Assert.True(response.IsSuccess);
+        Assert.False(response.IsSuccess);
     }
 
     [Theory]

@@ -1,3 +1,4 @@
+using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.Extensions.Logging;
@@ -18,6 +19,19 @@ public partial class SystemViewModel : ObservableObject
         _logger = logger ?? NullLogger<SystemViewModel>.Instance;
         _logger.LogDebug("SystemViewModel initialized");
     }
+
+    // ── Collections for UI bindings ──
+
+    public ObservableCollection<string> Skins { get; } = new(["None", "Dark", "Light"]);
+
+    public ObservableCollection<string> SoundPacks { get; } = new(["Paul", "Jill", "Silent"]);
+
+    public ObservableCollection<string> BlacklistFrequencies { get; } = new();
+
+    public ObservableCollection<string> ConnectedHardware { get; } = new();
+
+    public ObservableCollection<WobbleWaveform> WobbleWaveforms { get; } =
+        new(Enum.GetValues<WobbleWaveform>());
 
     // ── General Settings (Column 1) ──
 
@@ -129,6 +143,25 @@ public partial class SystemViewModel : ObservableObject
 
     [ObservableProperty]
     private int _frequencyWobbleSteps = 16;
+
+    // Aliases so XAML bindings using the short name resolve correctly
+    public double AmplitudeWobblePercent
+    {
+        get => AmplitudeWobblePercentage;
+        set => AmplitudeWobblePercentage = value;
+    }
+
+    public double FrequencyWobblePercent
+    {
+        get => FrequencyWobblePercentage;
+        set => FrequencyWobblePercentage = value;
+    }
+
+    partial void OnAmplitudeWobblePercentageChanged(double value)
+        => OnPropertyChanged(nameof(AmplitudeWobblePercent));
+
+    partial void OnFrequencyWobblePercentageChanged(double value)
+        => OnPropertyChanged(nameof(FrequencyWobblePercent));
 
     // ── Frequency Conversions ──
 

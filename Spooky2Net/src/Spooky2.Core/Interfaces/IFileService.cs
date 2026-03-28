@@ -10,6 +10,7 @@ public interface IFileService
     string[] GetDirectories(string directory);
     void CreateDirectory(string path);
     Task<string> ReadAllText(string path);
+    Task<string> ReadAllText(string path, System.Text.Encoding encoding);
     Task WriteAllText(string path, string content);
     Task AppendText(string path, string content);
 }

@@ -28,7 +28,7 @@ public sealed class GeneratorPollingService : IDisposable
     /// Tracks the last successful communication time per generator
     /// for watchdog timeout detection.
     /// </summary>
-    private readonly Dictionary<int, DateTime> _lastResponseTimes = new();
+    private readonly System.Collections.Concurrent.ConcurrentDictionary<int, DateTime> _lastResponseTimes = new();
 
     /// <summary>
     /// Cached list of known generators from the last discovery.

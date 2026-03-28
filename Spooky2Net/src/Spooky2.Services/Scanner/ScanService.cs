@@ -27,7 +27,7 @@ namespace Spooky2.Services.Scanner;
 ///
 /// Detection: Simple Moving Average (SMA) with asymptote (local maxima) detection.
 /// </summary>
-public sealed class ScanService : IScanService
+public sealed class ScanService : IScanService, IDisposable
 {
     private readonly IGeneratorService _generatorService;
     private readonly ILogger<ScanService> _logger;
@@ -354,7 +354,8 @@ public sealed class ScanService : IScanService
         }
         finally
         {
-            _activeScans.TryRemove(generatorId, out _);
+            if (_activeScans.TryRemove(generatorId, out var removedCts))
+                removedCts.Dispose();
         }
     }
 
@@ -450,6 +451,7 @@ public sealed class ScanService : IScanService
         {
             _logger.LogInformation("Stopping scan on generator {Id}", generatorId);
             cts.Cancel();
+            cts.Dispose();
         }
         return Task.CompletedTask;
     }
@@ -567,6 +569,20 @@ public sealed class ScanService : IScanService
 
         _logger.LogInformation("Reverse lookup found {Count} matching programs", results.Count);
         return results;
+    }
+
+    // ── IDisposable ──
+
+    public void Dispose()
+    {
+        foreach (var kvp in _activeScans)
+        {
+            if (_activeScans.TryRemove(kvp.Key, out var cts))
+            {
+                cts.Cancel();
+                cts.Dispose();
+            }
+        }
     }
 
     // ── Helpers ──

@@ -1,3 +1,4 @@
+using System.Collections.Concurrent;
 using Microsoft.Extensions.Logging;
 using Spooky2.Core.Interfaces;
 using Spooky2.Core.Models;
@@ -12,16 +13,17 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
 {
     private readonly ISerialPortFactory _serialPortFactory;
     private readonly ILogger<GeneratorService> _logger;
-    private readonly Dictionary<int, GeneratorState> _generatorStates = new();
-    private readonly Dictionary<int, List<double>> _loadedFrequencies = new();
-    private readonly Dictionary<int, DateTime> _startTimes = new();
-    private readonly Dictionary<int, PortConfig> _portConfigs = new();
-    private readonly Dictionary<int, ISerialPortConnection> _openPorts = new();
+    private readonly ConcurrentDictionary<int, GeneratorState> _generatorStates = new();
+    private readonly ConcurrentDictionary<int, List<double>> _loadedFrequencies = new();
+    private readonly ConcurrentDictionary<int, DateTime> _startTimes = new();
+    private readonly ConcurrentDictionary<int, PortConfig> _portConfigs = new();
+    private readonly ConcurrentDictionary<int, ISerialPortConnection> _openPorts = new();
+    private readonly SemaphoreSlim _portLock = new(1, 1);
 
     private sealed record PortConfig(string PortName, int BaudRate);
 
     /// <summary>Errors from the last FindGenerators call, keyed by port name.</summary>
-    public Dictionary<string, string> LastScanErrors { get; } = new();
+    public ConcurrentDictionary<string, string> LastScanErrors { get; } = new();
 
     public GeneratorService(ISerialPortFactory serialPortFactory, ILogger<GeneratorService> logger)
     {
@@ -203,7 +205,7 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
     {
         ValidateGeneratorExists(generatorId);
 
-        _startTimes.Remove(generatorId);
+        _startTimes.TryRemove(generatorId, out _);
         _generatorStates[generatorId] = _generatorStates[generatorId] with
         {
             Status = GeneratorStatus.Idle,
@@ -294,7 +296,7 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
             CurrentProgram = string.Empty, ElapsedTime = TimeSpan.Zero
         };
         _loadedFrequencies[generatorId] = new List<double>();
-        _startTimes.Remove(generatorId);
+        _startTimes.TryRemove(generatorId, out _);
 
         SendCommand(generatorId, GeneratorProtocol.StopOutput1);
         SendCommand(generatorId, GeneratorProtocol.StopOutput2);
@@ -379,23 +381,38 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
         if (_openPorts.TryGetValue(generatorId, out var existing))
             return existing;
 
-        if (!_portConfigs.TryGetValue(generatorId, out var config))
-        {
-            _logger.LogWarning("[GEN {Id}] No port config found", generatorId);
-            return null;
-        }
-
+        _portLock.Wait();
         try
         {
-            var conn = _serialPortFactory.Open(config.PortName, config.BaudRate);
-            Thread.Sleep(50);
-            _openPorts[generatorId] = conn;
-            return conn;
+            // Double-check after acquiring lock — another thread may have opened it.
+            if (_openPorts.TryGetValue(generatorId, out existing))
+                return existing;
+
+            if (!_portConfigs.TryGetValue(generatorId, out var config))
+            {
+                _logger.LogWarning("[GEN {Id}] No port config found", generatorId);
+                return null;
+            }
+
+            ISerialPortConnection? conn = null;
+            try
+            {
+                conn = _serialPortFactory.Open(config.PortName, config.BaudRate);
+                Thread.Sleep(50);
+                _openPorts[generatorId] = conn;
+                return conn;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "[GEN {Id}] Failed to open port", generatorId);
+                // Dispose the connection if it was opened but storing failed
+                try { conn?.Dispose(); } catch { }
+                return null;
+            }
         }
-        catch (Exception ex)
+        finally
         {
-            _logger.LogError(ex, "[GEN {Id}] Failed to open port", generatorId);
-            return null;
+            _portLock.Release();
         }
     }
 
@@ -434,7 +451,7 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
         {
             _logger.LogError(ex, "[GEN {Id}] Error sending: {Command}", generatorId, command);
             // Port might be dead, close it so next call reopens
-            _openPorts.Remove(generatorId);
+            _openPorts.TryRemove(generatorId, out _);
             try { conn.Dispose(); } catch { }
             return null;
         }
@@ -497,5 +514,9 @@ public sealed class GeneratorService : IGeneratorService, IDisposable
             ? DateTime.UtcNow - startTime
             : _generatorStates[generatorId].ElapsedTime;
 
-    public void Dispose() => CloseAllPorts();
+    public void Dispose()
+    {
+        CloseAllPorts();
+        _portLock.Dispose();
+    }
 }

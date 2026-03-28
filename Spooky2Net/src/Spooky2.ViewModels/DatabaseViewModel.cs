@@ -68,6 +68,31 @@ public partial class DatabaseViewModel : ObservableObject
     [ObservableProperty] private double _dwellMultiplier = 1;
     [ObservableProperty] private double _frequencyMultiplier = 1;
 
+    // Options panel: run/frequency options
+    [ObservableProperty]
+    private bool _runEnabled;
+
+    [ObservableProperty]
+    private double _out1Hz;
+
+    [ObservableProperty]
+    private double _out2Hz;
+
+    [ObservableProperty]
+    private bool _removeDuplicateFrequencies;
+
+    [ObservableProperty]
+    private double _duplicateTolerancePercent;
+
+    [ObservableProperty]
+    private bool _applyInhibitFactor;
+
+    [ObservableProperty]
+    private bool _applyTissueFactor;
+
+    [ObservableProperty]
+    private double _addHz;
+
     [ObservableProperty]
     private string _estimatedRunTime = "Estimated Total Run Time 00:00:00";
 

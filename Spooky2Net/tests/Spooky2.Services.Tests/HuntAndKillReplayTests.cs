@@ -547,6 +547,7 @@ public class HuntAndKillReplayTests
 
     private sealed class ReplayGeneratorService : IGeneratorService
     {
+        public void Dispose() { }
         private readonly PlainTextDumpParser.HuntAndKillSession _session;
         private readonly int _maxSweepSteps;
         private int _totalAngleReads;

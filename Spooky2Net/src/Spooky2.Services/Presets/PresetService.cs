@@ -1,3 +1,4 @@
+using System.Text;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Spooky2.Core.Interfaces;
@@ -12,20 +13,25 @@ namespace Spooky2.Services.Presets;
 /// </summary>
 public sealed class PresetService : IPresetService
 {
+    private const int MaxSearchDepth = 10;
+
     private readonly IFileService _fileService;
     private readonly ILogger<PresetService> _logger;
+    private readonly string? _presetsBasePath;
 
-    public PresetService(IFileService fileService, ILogger<PresetService>? logger = null)
+    public PresetService(IFileService fileService, ILogger<PresetService>? logger = null, string? presetsBasePath = null)
     {
         _fileService = fileService;
         _logger = logger ?? NullLogger<PresetService>.Instance;
+        _presetsBasePath = presetsBasePath is not null ? Path.GetFullPath(presetsBasePath) : null;
         _logger.LogDebug("PresetService initialized");
     }
 
     public async Task<Preset> LoadPreset(string path)
     {
         _logger.LogDebug("Loading preset from '{Path}'", path);
-        var content = await _fileService.ReadAllText(path);
+        // Use Latin1 encoding for VB6-created presets (Windows-1252 compatible)
+        var content = await _fileService.ReadAllText(path, Encoding.Latin1);
         var lines = content.Split(['\r', '\n'], StringSplitOptions.RemoveEmptyEntries);
 
         var settings = new Dictionary<string, string>();
@@ -132,13 +138,27 @@ public sealed class PresetService : IPresetService
     {
         _logger.LogDebug("Searching presets for '{SearchText}' in '{Directory}'", searchText, directory);
         var results = new List<string>();
-        SearchDirectory(directory, searchText, results);
+        var visited = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        SearchDirectory(directory, searchText, results, depth: 0, visited);
         _logger.LogInformation("Preset search for '{SearchText}' returned {Count} results", searchText, results.Count);
         return Task.FromResult(results);
     }
 
-    private void SearchDirectory(string directory, string searchText, List<string> results)
+    private void SearchDirectory(string directory, string searchText, List<string> results, int depth, HashSet<string> visited)
     {
+        if (depth > MaxSearchDepth)
+        {
+            _logger.LogWarning("Search depth limit ({MaxDepth}) reached at '{Directory}'", MaxSearchDepth, directory);
+            return;
+        }
+
+        var canonicalPath = Path.GetFullPath(directory);
+        if (!visited.Add(canonicalPath))
+        {
+            _logger.LogWarning("Symlink cycle detected, skipping already-visited '{Directory}'", canonicalPath);
+            return;
+        }
+
         var txtFiles = _fileService.GetFiles(directory, "*.txt");
         var s2dFiles = _fileService.GetFiles(directory, "*.s2d");
 
@@ -156,14 +176,15 @@ public sealed class PresetService : IPresetService
         var subdirectories = _fileService.GetDirectories(directory);
         foreach (var subdir in subdirectories)
         {
-            SearchDirectory(subdir, searchText, results);
+            SearchDirectory(subdir, searchText, results, depth + 1, visited);
         }
     }
 
     public async Task<PresetChain> LoadPresetChain(string path)
     {
         _logger.LogDebug("Loading preset chain from '{Path}'", path);
-        var content = await _fileService.ReadAllText(path);
+        // Use Latin1 encoding for VB6-created chain files
+        var content = await _fileService.ReadAllText(path, Encoding.Latin1);
         var lines = content.Split(['\r', '\n'], StringSplitOptions.RemoveEmptyEntries);
 
         if (lines.Length == 0)
@@ -183,6 +204,17 @@ public sealed class PresetService : IPresetService
             if (string.IsNullOrEmpty(presetPath))
             {
                 continue;
+            }
+
+            // Directory traversal protection: validate each path is within the allowed base directory
+            if (_presetsBasePath is not null)
+            {
+                var fullPath = Path.GetFullPath(presetPath);
+                if (!fullPath.StartsWith(_presetsBasePath, StringComparison.OrdinalIgnoreCase))
+                {
+                    _logger.LogWarning("Preset chain references path outside allowed directory, skipping: '{PresetPath}'", presetPath);
+                    continue;
+                }
             }
 
             if (_fileService.Exists(presetPath))

@@ -10,6 +10,7 @@ namespace Spooky2.Services.Tests;
 /// </summary>
 public sealed class VirtualGenerator : IGeneratorService
 {
+    public void Dispose() { }
     // ── Internal state ──
     public double CurrentFrequencyHz { get; private set; }
     public long CurrentFrequencyNanoHz { get; private set; }
