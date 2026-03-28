@@ -18,7 +18,7 @@
             <TextBlock Text="Program Name:" VerticalAlignment="Center" Margin="0,0,8,0" />
             <TextBox Grid.Column="1" Text="{Binding ProgramName}"
                      ToolTip.Tip="Give your program set a descriptive name." />
-            <Button Grid.Column="2" Command="{Binding SaveCommand}" Margin="8,0,0,0"
+            <Button Grid.Column="2" Command="{Binding SaveProgramCommand}" Margin="8,0,0,0"
                     ToolTip.Tip="Add the program to the Custom database" Content="Save" Width="60" />
         </Grid>
 
@@ -34,7 +34,7 @@
         <TextBlock Grid.Row="4" Text="Frequencies (comma-separated):" Margin="0,0,0,2" />
 
         <!-- Row 5: Frequencies TextBox -->
-        <TextBox Grid.Row="5" Text="{Binding Frequencies}" AcceptsReturn="True" TextWrapping="Wrap"
+        <TextBox Grid.Row="5" Text="{Binding FrequencyText}" AcceptsReturn="True" TextWrapping="Wrap"
                  Height="80" Margin="0,0,0,6" />
 
         <!-- Row 6: Dwell -->
@@ -44,8 +44,7 @@
                 <TextBlock Text="Dwell:" VerticalAlignment="Center" />
                 <TextBox Text="{Binding DefaultDwell, FallbackValue=180}" Width="80" HorizontalContentAlignment="Center"
                          ToolTip.Tip="This is the default number of seconds each frequency should run." />
-                <TextBlock Text="{Binding DatabaseName}" VerticalAlignment="Center" Foreground="Gray"
-                           IsVisible="{Binding DatabaseName, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+                <TextBlock Text="(Custom Database)" VerticalAlignment="Center" Foreground="Gray" />
             </StackPanel>
         </StackPanel>
 

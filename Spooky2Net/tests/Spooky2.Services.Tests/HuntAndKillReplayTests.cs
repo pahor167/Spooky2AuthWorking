@@ -9,7 +9,7 @@ namespace Spooky2.Services.Tests;
 
 /// <summary>
 /// Replays real sensor data from a full Hunt and Kill session captured on a GeneratorX Pro device.
-/// Feeds the actual hardware readings through our LWMA detection algorithm and verifies that
+/// Feeds the actual hardware readings through our SMA detection algorithm and verifies that
 /// the detected hit frequencies match the ones the original Spooky2 software selected.
 ///
 /// Data source: Data/FullHuntAndKill (96K lines, plain-text serial log)
@@ -86,7 +86,7 @@ public class HuntAndKillReplayTests
     }
 
     /// <summary>
-    /// Run the LWMA detection algorithm on parsed sweep data.
+    /// Run the SMA detection algorithm on parsed sweep data.
     /// This is the core detection logic extracted from ScanService for direct testing.
     /// </summary>
     private static List<ScanResult> RunDetection(
@@ -167,7 +167,7 @@ public class HuntAndKillReplayTests
     [Fact]
     public void Parser_ExtractsSweepSteps()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
 
@@ -185,7 +185,7 @@ public class HuntAndKillReplayTests
     [Fact]
     public void Parser_SensorReadingsAreReasonable()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
 
@@ -203,7 +203,7 @@ public class HuntAndKillReplayTests
     [Fact]
     public void Parser_KillFrequencies_MatchTopThreeFromScreenshot()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
 
@@ -217,7 +217,7 @@ public class HuntAndKillReplayTests
     [Fact]
     public void Parser_FrequencyStepCount_MatchesCalculation()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
         var frequencies = ScanService.CalculateFrequencySteps(new ScanParameters());
@@ -237,7 +237,7 @@ public class HuntAndKillReplayTests
     [Fact]
     public void RawData_AllExpectedRegions_ShowMeasurableDeviation()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
         var allDevs = ComputeAllDeviations(session);
@@ -266,7 +266,7 @@ public class HuntAndKillReplayTests
     [Fact]
     public void RawData_EachExpectedFrequency_HasDeviationAboveNoise()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
         var allDevs = ComputeAllDeviations(session);
@@ -292,7 +292,7 @@ public class HuntAndKillReplayTests
     [Fact]
     public void RawData_1_79MHz_HasStrongestDeviation()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
         var allDevs = ComputeAllDeviations(session);
@@ -310,7 +310,7 @@ public class HuntAndKillReplayTests
     [Fact]
     public void RawData_DeviationRanking_MatchesExpectedRegionOrder()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
         var allDevs = ComputeAllDeviations(session);
@@ -345,7 +345,7 @@ public class HuntAndKillReplayTests
     [Fact]
     public void CurrentAlgorithm_Finds10Hits()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
         var hits = RunDetection(session);
@@ -356,7 +356,7 @@ public class HuntAndKillReplayTests
     [Fact]
     public void CurrentAlgorithm_HitsAreOrderedByDeviation()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
         var hits = RunDetection(session);
@@ -371,7 +371,7 @@ public class HuntAndKillReplayTests
     [Fact]
     public void CurrentAlgorithm_HitsSpanMultipleRegions()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
         var hits = RunDetection(session);
@@ -398,13 +398,13 @@ public class HuntAndKillReplayTests
     [Fact]
     public void CurrentAlgorithm_TopThreeFrequencies_MatchExpectedCluster()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
         var hits = RunDetection(session);
 
         // At least some of the expected 1.79 MHz frequencies should appear
-        // (exact step may differ due to LWMA floating-point differences)
+        // (exact step may differ due to SMA floating-point differences)
         var expected1_79 = ExpectedHitFrequenciesHz.Where(f => f > 1_790_000).ToArray();
         foreach (var expectedHz in expected1_79)
         {
@@ -426,7 +426,7 @@ public class HuntAndKillReplayTests
     [InlineData(200)]
     public void Exploration_DifferentWindowSizes(int windowSize)
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
         var parameters = new ScanParameters { RaWindow = windowSize };
@@ -456,7 +456,7 @@ public class HuntAndKillReplayTests
     [Fact]
     public void ExpectedBehavior_WhenDeduped_WouldFindHitsInAllRegions()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
         var allDevs = ComputeAllDeviations(session);
@@ -509,7 +509,7 @@ public class HuntAndKillReplayTests
     [Fact]
     public async Task ScanService_WithReplayData_ProducesConsistentResults()
     {
-        if (!DumpFileAvailable()) return;
+        if (!DumpFileAvailable()) return; // skip: dump file not available
 
         var session = PlainTextDumpParser.Parse(GetDumpPath());
         var parameters = new ScanParameters

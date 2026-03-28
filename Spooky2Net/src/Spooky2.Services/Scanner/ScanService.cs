@@ -25,7 +25,7 @@ namespace Spooky2.Services.Scanner;
 ///   Phase 3 - Frequency sweep:
 ///     :w24=nanoHz, :r11=, :r12=,  (per step, 0.025% increments)
 ///
-/// Detection: Linearly Weighted Moving Average (LWMA) with dual windows.
+/// Detection: Simple Moving Average (SMA) with asymptote (local maxima) detection.
 /// </summary>
 public sealed class ScanService : IScanService
 {
