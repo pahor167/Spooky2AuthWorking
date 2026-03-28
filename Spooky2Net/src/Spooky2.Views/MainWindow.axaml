@@ -193,7 +193,7 @@
                            VerticalAlignment="Top" />
             </TabItem>
             <TabItem Header="Errors">
-                <tabs:GeneratorErrorsTab />
+                <tabs:GeneratorErrorsTab DataContext="{Binding Errors}" />
             </TabItem>
         </TabControl>
     </DockPanel>

@@ -60,9 +60,43 @@ public partial class PresetsViewModel : ObservableObject
     [ObservableProperty]
     private int _selectedChainIndex = -1;
 
+    [ObservableProperty]
+    private string? _selectedProgram;
+
+    [ObservableProperty]
+    private string? _selectedLoadedChainItem;
+
+    [ObservableProperty]
+    private string _presetCountLabel = "Presets 0";
+
+    [ObservableProperty]
+    private string _programCountLabel = "Programs 0";
+
+    [ObservableProperty]
+    private string _chainCountLabel = "Presets/Chains 0";
+
+    [ObservableProperty]
+    private string _chainLoadedLabel = "Presets/Chains";
+
+    [ObservableProperty]
+    private string _estimatedTotalRunTime = "Estimated Total Run Time 00:00:00";
+
     public ObservableCollection<string> PresetFiles { get; } = new();
 
+    public ObservableCollection<string> ProgramsList { get; } = new();
+
     public ObservableCollection<string> PresetChainItems { get; } = new();
+
+    public ObservableCollection<string> LoadedChainItems { get; } = new();
+
+    /// <summary>Auto-load preset when selection changes (if LoadProgramsOnSelect is enabled).</summary>
+    partial void OnSelectedPresetPathChanged(string value)
+    {
+        if (LoadProgramsOnSelect && !string.IsNullOrWhiteSpace(value))
+        {
+            _ = LoadPreset();
+        }
+    }
 
     [RelayCommand]
     private async Task Search()
@@ -82,6 +116,7 @@ public partial class PresetsViewModel : ObservableObject
             {
                 PresetFiles.Add(file);
             }
+            PresetCountLabel = $"Presets {PresetFiles.Count}";
         }
         catch (Exception ex)
         {
@@ -144,6 +179,12 @@ public partial class PresetsViewModel : ObservableObject
             _currentPreset = preset;
             _logger.LogInformation("Loaded preset '{Name}' with {Count} programs", preset.Name, preset.Programs.Count);
             ProgramsDisplay = string.Join(Environment.NewLine, preset.Programs.Select(p => p.Name));
+            ProgramsList.Clear();
+            foreach (var program in preset.Programs)
+            {
+                ProgramsList.Add(program.Name);
+            }
+            ProgramCountLabel = $"Programs {preset.Programs.Count}";
             NotesText = preset.Name;
 
             // Notify the Control tab to load frequencies
@@ -179,6 +220,12 @@ public partial class PresetsViewModel : ObservableObject
         {
             _logger.LogError(ex, "Failed to save preset to '{Path}'", savePath);
         }
+    }
+
+    [RelayCommand]
+    private void SavePresetAs()
+    {
+        _logger.LogDebug("SavePresetAs: not yet implemented");
     }
 
     [RelayCommand]
@@ -224,6 +271,7 @@ public partial class PresetsViewModel : ObservableObject
         {
             PresetChainItems.Add(SelectedPresetPath);
             ChainInfoDisplay = $"{PresetChainItems.Count} presets in chain";
+            ChainCountLabel = $"Presets/Chains {PresetChainItems.Count}";
             _logger.LogDebug("Added '{Path}' to chain, total {Count}", SelectedPresetPath, PresetChainItems.Count);
         }
     }
@@ -238,6 +286,7 @@ public partial class PresetsViewModel : ObservableObject
             ChainInfoDisplay = PresetChainItems.Count > 0
                 ? $"{PresetChainItems.Count} presets in chain"
                 : "";
+            ChainCountLabel = $"Presets/Chains {PresetChainItems.Count}";
         }
     }
 
@@ -277,6 +326,12 @@ public partial class PresetsViewModel : ObservableObject
         {
             _logger.LogError(ex, "Failed to save chain");
         }
+    }
+
+    [RelayCommand]
+    private void CopyChain()
+    {
+        _logger.LogDebug("CopyChain: not yet implemented");
     }
 
     [RelayCommand]

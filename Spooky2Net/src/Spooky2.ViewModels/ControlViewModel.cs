@@ -14,7 +14,6 @@ namespace Spooky2.ViewModels;
 public partial class ControlViewModel : ObservableObject, IDisposable
 {
     private readonly IGeneratorService _generatorService;
-    private readonly IWaveformService _waveformService;
     private readonly IScanService _scanService;
     private readonly IDatabaseService? _databaseService;
     private readonly IDialogService? _dialogService;
@@ -28,7 +27,6 @@ public partial class ControlViewModel : ObservableObject, IDisposable
 
     public ControlViewModel(
         IGeneratorService generatorService,
-        IWaveformService waveformService,
         IScanService scanService,
         ILogger<ControlViewModel>? logger = null,
         IDatabaseService? databaseService = null,
@@ -36,7 +34,6 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         IClipboardService? clipboardService = null)
     {
         _generatorService = generatorService;
-        _waveformService = waveformService;
         _scanService = scanService;
         _databaseService = databaseService;
         _dialogService = dialogService;
@@ -228,6 +225,9 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         MaxHits = ScanMaxHits,
         RaWindow = ScanRaWindow,
         DwellSeconds = ScanDwellSeconds,
+        // Explicitly set: angle detection is empirically correct (see ScanParameters docs)
+        UseAngle = true,
+        UseCurrent = false,
     };
 
     // ── Program Options ──
@@ -307,6 +307,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         if (SelectedGeneratorId < 0)
         {
             _logger.LogWarning("Start: no generator selected");
+            GeneratorStatusText = "No generator selected";
             return;
         }
 
@@ -368,6 +369,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         catch (Exception ex)
         {
             _logger.LogError(ex, "Stop failed for generator {Id}", SelectedGeneratorId);
+            GeneratorStatusText = $"Stop failed: {ex.Message}";
         }
     }
 
@@ -399,6 +401,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         catch (Exception ex)
         {
             _logger.LogError(ex, "Pause/Resume failed for generator {Id}", SelectedGeneratorId);
+            GeneratorStatusText = $"Pause failed: {ex.Message}";
         }
     }
 
@@ -431,6 +434,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         catch (Exception ex)
         {
             _logger.LogError(ex, "Hold failed for generator {Id}", SelectedGeneratorId);
+            GeneratorStatusText = $"Hold failed: {ex.Message}";
         }
     }
 
@@ -458,6 +462,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         catch (Exception ex)
         {
             _logger.LogError(ex, "Erase failed for generator {Id}", SelectedGeneratorId);
+            GeneratorStatusText = $"Erase failed: {ex.Message}";
         }
     }
 
@@ -504,6 +509,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         if (SelectedGeneratorId < 0)
         {
             _logger.LogWarning("Scan: no generator selected");
+            GeneratorStatusText = "No generator selected";
             return;
         }
 
@@ -582,6 +588,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         if (SelectedGeneratorId < 0)
         {
             _logger.LogWarning("HuntAndKill: no generator selected");
+            GeneratorStatusText = "No generator selected";
             return;
         }
 
@@ -664,6 +671,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         if (_clipboardService == null)
         {
             _logger.LogWarning("CopyFrequencies: no clipboard service available");
+            GeneratorStatusText = "Clipboard not available";
             return;
         }
 
@@ -684,6 +692,7 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         if (_clipboardService == null)
         {
             _logger.LogWarning("PasteFrequencies: no clipboard service available");
+            GeneratorStatusText = "Clipboard not available";
             return;
         }
 
@@ -846,6 +855,34 @@ public partial class ControlViewModel : ObservableObject, IDisposable
             DwellValue = (int)preset.Programs[0].DwellSeconds;
         }
 
+        // BFB scan parameters
+        if (preset.Settings.TryGetValue("BFB_Start_Frequency", out var bfbStartStr) &&
+            double.TryParse(bfbStartStr, CultureInfo.InvariantCulture, out var bfbStart))
+        {
+            ScanStartFrequency = bfbStart;
+        }
+
+        if (preset.Settings.TryGetValue("BFB_Finish_Frequency", out var bfbFinishStr) &&
+            double.TryParse(bfbFinishStr, CultureInfo.InvariantCulture, out var bfbFinish))
+        {
+            ScanEndFrequency = bfbFinish;
+        }
+
+        if (preset.Settings.TryGetValue("BFB_Max_Hits_To_Find", out var bfbHitsStr) &&
+            int.TryParse(bfbHitsStr, out var bfbHits))
+        {
+            ScanMaxHits = bfbHits;
+        }
+
+        if (preset.Settings.TryGetValue("BFB_RA_Window_1", out var bfbRaStr) &&
+            int.TryParse(bfbRaStr, out var bfbRa))
+        {
+            ScanRaWindow = bfbRa;
+        }
+
+        // BFB_Detect_mA and BFB_Angle are intentionally ignored:
+        // angle detection is empirically correct regardless of preset values (see ScanParameters docs).
+
         GeneratorTitle = preset.Name;
         _logger.LogInformation("Preset '{Name}' loaded: {FreqCount} frequencies, dwell={Dwell}s",
             preset.Name, allFrequencies.Count, DwellValue);
@@ -895,7 +932,9 @@ public partial class ControlViewModel : ObservableObject, IDisposable
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Error in frequency cycle");
+            _logger.LogError(ex, "Frequency cycle error");
+            GeneratorStatusText = $"Cycle error: {ex.Message}";
+            IsRunning = false;
         }
     }
 
@@ -976,9 +1015,9 @@ public partial class ControlViewModel : ObservableObject, IDisposable
 
     private async Task ShowScanResultsDialogAsync(IEnumerable<string> hitDisplayStrings)
     {
-        if (_dialogService == null) return;
+        if (_dialogService == null || _databaseService == null) return;
 
-        var vm = new ScanResultsViewModel(_scanService, _databaseService!,
+        var vm = new ScanResultsViewModel(_scanService, _databaseService,
             clipboardService: _clipboardService, dialogService: _dialogService);
 
         foreach (var hitText in hitDisplayStrings)

@@ -30,6 +30,8 @@ public partial class ScanResultsViewModel : ObservableObject
         _dialogService = dialogService;
         _logger = logger ?? NullLogger<ScanResultsViewModel>.Instance;
 
+        ReverseLookupResults.CollectionChanged += (_, _) => OnPropertyChanged(nameof(HasReverseLookupResults));
+
         DatabaseOptions = new ObservableCollection<string>(
             ["All Databases", "Rife", "CAFL", "XTRA", "BIO", "RUSS"]);
         SelectedDatabase = "All Databases";
@@ -40,6 +42,8 @@ public partial class ScanResultsViewModel : ObservableObject
     public ObservableCollection<ScanResult> SelectedResults { get; } = new();
 
     public ObservableCollection<string> ReverseLookupResults { get; } = new();
+
+    public bool HasReverseLookupResults => ReverseLookupResults.Count > 0;
 
     public ObservableCollection<string> DatabaseOptions { get; }
 

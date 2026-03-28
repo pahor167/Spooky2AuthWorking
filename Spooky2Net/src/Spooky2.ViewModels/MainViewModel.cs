@@ -46,7 +46,6 @@ public partial class MainViewModel : ObservableObject
         ICarrierSweepService carrierSweepService,
         IMicroGenService microGenService,
         IScanService scanService,
-        IWaveformService waveformService,
         IClipboardService? clipboardService = null,
         ILogger<MainViewModel>? logger = null,
         string? rootPath = null)
@@ -68,9 +67,10 @@ public partial class MainViewModel : ObservableObject
         Database = new DatabaseViewModel(databaseService, microGenService);
         Settings = new SettingsViewModel();
         System = new SystemViewModel(settingsService);
-        Control = new ControlViewModel(generatorService, waveformService, scanService,
+        Control = new ControlViewModel(generatorService, scanService,
             databaseService: databaseService, dialogService: dialogService,
             clipboardService: clipboardService);
+        Errors = new GeneratorErrorsViewModel(fileService, _rootPath);
 
         // Wire preset loading: when a preset is loaded in the Presets tab,
         // pass it to the Control tab so its frequencies appear there
@@ -219,6 +219,8 @@ public partial class MainViewModel : ObservableObject
     public SystemViewModel System { get; }
 
     public ControlViewModel Control { get; }
+
+    public GeneratorErrorsViewModel Errors { get; }
 
     public ObservableCollection<GeneratorViewModel> Generators { get; } = new();
 

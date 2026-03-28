@@ -12,7 +12,7 @@
 
             <!-- Current path -->
             <TextBox Grid.Column="0"
-                     Text="{Binding CurrentPath}"
+                     Text="{Binding CurrentDirectory}"
                      IsReadOnly="True"
                      FontSize="10"
                      VerticalAlignment="Center"
@@ -102,8 +102,10 @@
 
             <!-- Left column: Preset/folder list -->
             <ListBox Grid.Column="0"
+                     x:Name="PresetListBox"
                      ItemsSource="{Binding PresetFiles}"
                      SelectedItem="{Binding SelectedPresetPath}"
+                     DoubleTapped="PresetListBox_DoubleTapped"
                      Margin="0,0,2,0" />
 
             <!-- Center column: Action buttons -->

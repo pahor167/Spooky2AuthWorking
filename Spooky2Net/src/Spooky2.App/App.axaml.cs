@@ -15,7 +15,6 @@ using Spooky2.Services.Calculator;
 using Spooky2.Services.CarrierSweep;
 using Microsoft.Extensions.Logging;
 using Spooky2.ViewModels;
-using Spooky2.ViewModels.Dialogs;
 using Spooky2.Views;
 using Avalonia.Controls;
 using Spooky2.Views.Services;
@@ -69,7 +68,6 @@ public class App : Application
 
         // Register services
         services.AddSingleton<IEncryptionService, EncryptionService>();
-        services.AddSingleton<IFrequencyEncryptionService, FrequencyEncryptionService>();
         services.AddSingleton<IFileService, FileService>();
         services.AddSingleton<ISettingsService, SettingsService>();
         services.AddSingleton<ISerialPortFactory, SerialPortFactory>();
@@ -84,16 +82,8 @@ public class App : Application
         services.AddSingleton<IDialogService, DialogService>();
         services.AddSingleton<IClipboardService, ClipboardService>();
 
-        // Register ViewModels
+        // Register root ViewModel (child VMs are constructed manually by MainViewModel)
         services.AddTransient<MainViewModel>();
-        services.AddTransient<PresetsViewModel>();
-        services.AddTransient<DatabaseViewModel>();
-        services.AddTransient<SettingsViewModel>();
-        services.AddTransient<SystemViewModel>();
-        services.AddTransient<ControlViewModel>();
-        services.AddTransient<GeneratorViewModel>();
-        services.AddTransient<ScanResultsViewModel>();
-        services.AddTransient<ReverseLookupViewModel>();
 
         Services = services.BuildServiceProvider();
 

@@ -51,6 +51,26 @@ public partial class DatabaseViewModel : ObservableObject
     [ObservableProperty] private bool _useRussianDatabase = true;
     [ObservableProperty] private bool _useRrmDatabase = true;
 
+    // Loaded Programs panel
+    public ObservableCollection<string> LoadedPrograms { get; } = new();
+
+    [ObservableProperty]
+    private string? _selectedLoadedProgram;
+
+    [ObservableProperty]
+    private string? _selectedFrequencyItem;
+
+    // Options panel
+    [ObservableProperty] private int _repeatEachFrequency = 1;
+    [ObservableProperty] private int _repeatEachProgram = 1;
+    [ObservableProperty] private int _repeatSequence = 1;
+    [ObservableProperty] private int _repeatChain = 1;
+    [ObservableProperty] private double _dwellMultiplier = 1;
+    [ObservableProperty] private double _frequencyMultiplier = 1;
+
+    [ObservableProperty]
+    private string _estimatedRunTime = "Estimated Total Run Time 00:00:00";
+
     public ObservableCollection<string> FrequencyList { get; } = new();
 
     public DatabaseViewModel(IDatabaseService databaseService, IMicroGenService microGenService, ILogger<DatabaseViewModel>? logger = null)
@@ -216,6 +236,76 @@ public partial class DatabaseViewModel : ObservableObject
         {
             _logger.LogError(ex, "Failed to send to MicroGen BloodPurifier");
         }
+    }
+
+    [RelayCommand]
+    private void RemoveLoadedProgram()
+    {
+        if (SelectedLoadedProgram is not null && LoadedPrograms.Remove(SelectedLoadedProgram))
+        {
+            SelectedLoadedProgram = null;
+        }
+    }
+
+    [RelayCommand]
+    private void SaveLoadedPrograms()
+    {
+        _logger.LogInformation("SaveLoadedPrograms: {Count} programs (stub)", LoadedPrograms.Count);
+    }
+
+    [RelayCommand]
+    private void SaveLoadedProgramsAs()
+    {
+        _logger.LogInformation("SaveLoadedProgramsAs: {Count} programs (stub)", LoadedPrograms.Count);
+    }
+
+    [RelayCommand]
+    private void MoveLoadedProgramUp()
+    {
+        if (SelectedLoadedProgram is null) return;
+        var index = LoadedPrograms.IndexOf(SelectedLoadedProgram);
+        if (index > 0)
+        {
+            LoadedPrograms.Move(index, index - 1);
+        }
+    }
+
+    [RelayCommand]
+    private void MoveLoadedProgramTop()
+    {
+        if (SelectedLoadedProgram is null) return;
+        var index = LoadedPrograms.IndexOf(SelectedLoadedProgram);
+        if (index > 0)
+        {
+            LoadedPrograms.Move(index, 0);
+        }
+    }
+
+    [RelayCommand]
+    private void MoveLoadedProgramDown()
+    {
+        if (SelectedLoadedProgram is null) return;
+        var index = LoadedPrograms.IndexOf(SelectedLoadedProgram);
+        if (index >= 0 && index < LoadedPrograms.Count - 1)
+        {
+            LoadedPrograms.Move(index, index + 1);
+        }
+    }
+
+    [RelayCommand]
+    private void SearchInResults()
+    {
+        if (string.IsNullOrWhiteSpace(ManualFrequencyText)) return;
+        var query = ManualFrequencyText;
+        var filtered = FrequencyList
+            .Where(item => item.Contains(query, StringComparison.OrdinalIgnoreCase))
+            .ToList();
+        FrequencyList.Clear();
+        foreach (var item in filtered)
+        {
+            FrequencyList.Add(item);
+        }
+        StatusText = $"{FrequencyList.Count:N0} results matching \"{query}\" in current list";
     }
 
     private List<double> ParseFrequencyList()
