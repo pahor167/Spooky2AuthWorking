@@ -9,3 +9,11 @@ debug.log
 /tmp/
 .DS_Store
 Preset Collections/**
+
+# Android / Gradle (huntkill app)
+spooky2-huntkill-android/.gradle/
+spooky2-huntkill-android/**/build/
+spooky2-huntkill-android/local.properties
+spooky2-huntkill-android/.idea/
+spooky2-huntkill-android/captures/
+*.iml
