@@ -4,7 +4,9 @@ import android.hardware.usb.UsbDevice
 import android.hardware.usb.UsbDeviceConnection
 import android.hardware.usb.UsbManager
 import com.hoho.android.usbserial.driver.CdcAcmSerialDriver
+import com.hoho.android.usbserial.driver.Ch34xSerialDriver
 import com.hoho.android.usbserial.driver.ProbeTable
+import com.hoho.android.usbserial.driver.UsbSerialDriver
 import com.hoho.android.usbserial.driver.UsbSerialPort
 import com.hoho.android.usbserial.driver.UsbSerialProber
 import com.spooky2.huntkill.transport.SerialTransport
@@ -131,21 +133,44 @@ class UsbCdcSerialTransport(
         return line.ifEmpty { extractLine() }
     }
 
-    private fun resolveDriver(device: UsbDevice) =
-        prober().probeDevice(device)
+    private fun resolveDriver(device: UsbDevice): UsbSerialDriver? {
+        // The default prober already recognizes the common USB-serial bridges seen on
+        // Spooky2 generators: CDC-ACM, FTDI, CP210x, and WCH CH34x/CH9102 (incl.
+        // 1A86:55D2). Prefer it so the correct driver is selected per chip.
+        UsbSerialProber.getDefaultProber().probeDevice(device)?.let { return it }
 
-    private fun prober(): UsbSerialProber {
-        // Start from the default table, then force-map this device's product id to
-        // CDC-ACM so Microchip GeneratorX Pro variants are always recognized.
-        val table: ProbeTable = UsbSerialProber.getDefaultProbeTable()
-        table.addProduct(device.vendorId, device.productId, CdcAcmSerialDriver::class.java)
-        table.addProduct(GENERATORX_VENDOR_ID, device.productId, CdcAcmSerialDriver::class.java)
-        return UsbSerialProber(table)
+        // Fallback for a bridge the default table doesn't list: force a driver by
+        // vendor — WCH -> CH34x, everything else -> CDC-ACM (e.g. Microchip 0x04D8).
+        val driverClass = if (device.vendorId == WCH_VENDOR_ID) {
+            Ch34xSerialDriver::class.java
+        } else {
+            CdcAcmSerialDriver::class.java
+        }
+        val table = ProbeTable().apply {
+            addProduct(device.vendorId, device.productId, driverClass)
+        }
+        return UsbSerialProber(table).probeDevice(device)
     }
 
     companion object {
-        /** Microchip vendor id used by GeneratorX Pro. */
+        /** Microchip vendor id (some GeneratorX Pro units present a CDC-ACM bridge). */
         const val GENERATORX_VENDOR_ID: Int = 0x04D8
+
+        /** WCH/QinHeng vendor id — CH340/CH9102 bridges (e.g. 1A86:55D2). */
+        const val WCH_VENDOR_ID: Int = 0x1A86
+
+        /** USB-serial bridge vendor ids seen on Spooky2 generators (Microchip, WCH, FTDI, Silabs). */
+        val GENERATOR_VENDOR_IDS: Set<Int> = setOf(0x04D8, 0x1A86, 0x0403, 0x10C4)
+
+        /**
+         * Pick the first attached device the USB-serial stack can drive: one the
+         * default prober recognizes, else one with a known bridge vendor id.
+         */
+        fun findSupportedDevice(usbManager: UsbManager): UsbDevice? {
+            val devices = usbManager.deviceList.values
+            return devices.firstOrNull { UsbSerialProber.getDefaultProber().probeDevice(it) != null }
+                ?: devices.firstOrNull { it.vendorId in GENERATOR_VENDOR_IDS }
+        }
 
         private const val DEFAULT_TIMEOUT_MS = 2000
         private const val READ_CHUNK_SIZE = 256

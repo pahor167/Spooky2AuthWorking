@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Microchip USB VID 0x04D8 (1240) used by Spooky2 generators.
-         PID intentionally omitted: the GeneratorX serial interface PID is
-         confirmed against live hardware in Phase 5. -->
+    <!-- USB-serial bridge vendors seen on Spooky2 generators. PID omitted (match any).
+         1240 = 0x04D8 Microchip · 6790 = 0x1A86 WCH/QinHeng (CH340/CH9102) ·
+         1027 = 0x0403 FTDI · 4292 = 0x10C4 Silicon Labs CP210x. -->
     <usb-device vendor-id="1240" />
+    <usb-device vendor-id="6790" />
+    <usb-device vendor-id="1027" />
+    <usb-device vendor-id="4292" />
 </resources>

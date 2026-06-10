@@ -34,7 +34,10 @@ class UsbConnectionManager @Inject constructor(
     private val log: LogBus,
 ) {
 
-    /** First attached device matching the GeneratorX vendor id, or null. */
+    /**
+     * First attached device the USB-serial stack can drive (any supported bridge —
+     * CDC-ACM, FTDI, CP210x, WCH CH34x/CH9102 …), not just one fixed vendor id.
+     */
     fun findGenerator(): UsbDevice? {
         val devices = usbManager.deviceList.values
         log.i(TAG, "Enumerating USB devices: ${devices.size} attached")
@@ -48,10 +51,20 @@ class UsbConnectionManager @Inject constructor(
                 ),
             )
         }
-        return devices.firstOrNull { it.vendorId == GENERATORX_VENDOR_ID }
+        return UsbCdcSerialTransport.findSupportedDevice(usbManager)
             .also {
-                if (it == null) log.w(TAG, "No device with vid=0x%04X found".format(GENERATORX_VENDOR_ID))
-                else log.i(TAG, "Selected generator: ${it.deviceName}")
+                if (it == null) {
+                    log.w(TAG, "No USB-serial device the driver stack recognizes was found")
+                } else {
+                    log.i(
+                        TAG,
+                        "Selected device: vid=0x%04X pid=0x%04X name=%s".format(
+                            it.vendorId,
+                            it.productId,
+                            it.deviceName,
+                        ),
+                    )
+                }
             }
     }
 
@@ -142,7 +155,6 @@ class UsbConnectionManager @Inject constructor(
 
     companion object {
         private const val TAG = "Usb"
-        private const val GENERATORX_VENDOR_ID = UsbCdcSerialTransport.GENERATORX_VENDOR_ID
         private const val ACTION_USB_PERMISSION = "com.spooky2.huntkill.USB_PERMISSION"
     }
 }
