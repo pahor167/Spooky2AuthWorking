@@ -2,14 +2,20 @@ package com.spooky2.huntkill.ui.hunt
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.spooky2.huntkill.core.lookup.LookupMatch
+import com.spooky2.huntkill.core.lookup.ReverseLookup
+import com.spooky2.huntkill.core.lookup.ReverseLookupParameters
 import com.spooky2.huntkill.core.model.ScanParameters
 import com.spooky2.huntkill.core.model.ScanProgress
 import com.spooky2.huntkill.core.model.ScanResult
 import com.spooky2.huntkill.core.scan.PauseGate
+import com.spooky2.huntkill.data.FrequencyDatabaseSource
 import com.spooky2.huntkill.data.GeneratorSession
 import com.spooky2.huntkill.data.SessionHolder
 import com.spooky2.huntkill.data.UsbConnectionManager
 import com.spooky2.huntkill.log.LogBus
+import kotlinx.coroutines.ensureActive
+import kotlin.coroutines.coroutineContext
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -26,6 +32,12 @@ import javax.inject.Inject
 
 /** Phase the Hunt→Kill flow is currently in. */
 enum class HuntPhase { Idle, Hunting, HitsReady, Killing, Done, Cancelled, Error }
+
+/** Default reverse-lookup tolerance, mirroring the original report's .25%. */
+const val DEFAULT_LOOKUP_TOLERANCE_PERCENT = 0.25
+
+/** Tolerance presets offered as selectable chips on the Hits screen. */
+val LOOKUP_TOLERANCE_OPTIONS = listOf(0.1, 0.25, 0.5, 1.0)
 
 /**
  * Editable scan parameters surfaced to the Hunt config screen. Kept as a flat,
@@ -117,6 +129,17 @@ data class HuntUiState(
     val isPaused: Boolean = false,
     val elapsedSeconds: Int = 0,
     val errorMessage: String? = null,
+    /**
+     * Reverse-lookup matches per hit frequency, keyed by [ScanResult.frequency]. Populated
+     * after a hunt completes (phase Done/Cancelled) by matching each hit against the
+     * bundled frequency database. Empty until the lookup runs; an empty list value means
+     * "no matches" for that hit.
+     */
+    val lookupResults: Map<Double, List<LookupMatch>> = emptyMap(),
+    /** True while reverse lookup is computing (database loading or matching in flight). */
+    val lookupBusy: Boolean = false,
+    /** Tolerance (percent) the current [lookupResults] were computed at. */
+    val lookupTolerancePercent: Double = com.spooky2.huntkill.ui.hunt.DEFAULT_LOOKUP_TOLERANCE_PERCENT,
     /** Connection summary for the config screen chip; null until connected. */
     val generator: GeneratorInfo? = null,
     /** True while a generator-port switch is in flight (disables the switcher + Start). */
@@ -141,6 +164,9 @@ class HuntViewModel @Inject constructor(
     // Optional so JVM ViewModel tests can construct with just (holder, log); only the
     // generator switcher needs it and that path is USB-only.
     private val usbConnectionManager: UsbConnectionManager? = null,
+    // Optional for the same reason: reverse lookup loads a bundled Android asset, so JVM
+    // tests pass null (or an in-memory fake) and the post-hunt lookup adapts accordingly.
+    private val frequencyDatabase: FrequencyDatabaseSource? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(HuntUiState())
@@ -151,6 +177,9 @@ class HuntViewModel @Inject constructor(
     val events: Flow<String> = _events.receiveAsFlow()
 
     private var huntJob: Job? = null
+
+    /** Reverse-lookup coroutine; cancelled/replaced when the tolerance is re-selected. */
+    private var lookupJob: Job? = null
 
     init {
         refreshGeneratorInfo()
@@ -304,16 +333,20 @@ class HuntViewModel @Inject constructor(
                     )
                 }
                 stopElapsedTicker()
+                val finalHits = _state.value.hits.ifEmpty { hits }
                 _state.update {
                     it.copy(
                         phase = HuntPhase.Done,
-                        hits = if (it.hits.isNotEmpty()) it.hits else hits,
+                        hits = finalHits,
                         statusText = "Hunt & Kill complete — ${hits.size} hits",
                         killDwellRemainingSeconds = 0,
                         isPaused = false,
                         busyAction = null,
                     )
                 }
+                // Reverse lookup runs AFTER Done is published, so it never delays the
+                // kill flow, zeroing, or navigation. Cancellation-safe and off the UI.
+                runReverseLookup(finalHits, _state.value.lookupTolerancePercent)
             }.onFailure { error ->
                 if (error is kotlinx.coroutines.CancellationException) throw error
                 log.e(TAG, "Scan failed: ${error.message}")
@@ -456,6 +489,12 @@ class HuntViewModel @Inject constructor(
                 )
             }
             _events.trySend("Generator zeroed")
+            // If the cancel happened after hits were already detected, still surface
+            // their reverse-lookup matches (results not yet computed for this run).
+            val hits = _state.value.hits
+            if (hits.isNotEmpty() && _state.value.lookupResults.isEmpty()) {
+                runReverseLookup(hits, _state.value.lookupTolerancePercent)
+            }
         }
     }
 
@@ -490,6 +529,70 @@ class HuntViewModel @Inject constructor(
     }
 
     /**
+     * Re-run reverse lookup at a different [tolerancePercent] from the Hits screen.
+     * Re-uses the already-loaded database, so this is fast; cancels any in-flight lookup.
+     * No-op when there are no hits.
+     */
+    fun setLookupTolerance(tolerancePercent: Double) {
+        if (_state.value.lookupTolerancePercent == tolerancePercent && _state.value.lookupResults.isNotEmpty()) {
+            return
+        }
+        val hits = _state.value.hits
+        _state.update { it.copy(lookupTolerancePercent = tolerancePercent) }
+        if (hits.isEmpty()) return
+        runReverseLookup(hits, tolerancePercent)
+    }
+
+    /**
+     * Match each [hits] frequency against the bundled frequency database and store the
+     * results in [HuntUiState.lookupResults]. Runs on [Dispatchers.Default] off the UI
+     * thread; the database load itself happens on IO inside the repository. Cancellation
+     * of [lookupJob] (re-run with a new tolerance, or VM cleared) is honoured between hits.
+     */
+    private fun runReverseLookup(hits: List<ScanResult>, tolerancePercent: Double) {
+        val repository = frequencyDatabase ?: return
+        if (hits.isEmpty()) return
+
+        lookupJob?.cancel()
+        _state.update { it.copy(lookupBusy = true) }
+        lookupJob = viewModelScope.launch(Dispatchers.Default) {
+            val database = runCatching { repository.database() }.getOrElse { error ->
+                if (error is kotlinx.coroutines.CancellationException) throw error
+                log.e(TAG, "Reverse lookup DB load failed: ${error.message}")
+                _state.update { it.copy(lookupBusy = false) }
+                return@launch
+            }
+
+            val params = ReverseLookupParameters(tolerancePercent = tolerancePercent)
+            val results = LinkedHashMap<Double, List<LookupMatch>>(hits.size)
+            for (hit in hits) {
+                coroutineContext.ensureActive()
+                results[hit.frequency] = ReverseLookup.lookup(hit.frequency, database.entries, params)
+            }
+
+            logLookupSummary(tolerancePercent, hits, results)
+            _state.update { it.copy(lookupResults = results, lookupBusy = false) }
+        }
+    }
+
+    /** Emit a per-hit summary so the matches land in the daily log files / ZIP export. */
+    private fun logLookupSummary(
+        tolerancePercent: Double,
+        hits: List<ScanResult>,
+        results: Map<Double, List<LookupMatch>>,
+    ) {
+        log.i(TAG, "Reverse lookup @ ${tolerancePercent}% tolerance — ${hits.size} hits:")
+        hits.forEach { hit ->
+            val matches = results[hit.frequency].orEmpty()
+            val top = matches.take(LOOKUP_SUMMARY_TOP)
+                .joinToString("; ") { it.toReportLine() }
+                .ifEmpty { "No matches" }
+            val more = if (matches.size > LOOKUP_SUMMARY_TOP) " (+${matches.size - LOOKUP_SUMMARY_TOP} more)" else ""
+            log.i(TAG, "  ${"%.2f".format(hit.frequency)} Hz → $top$more")
+        }
+    }
+
+    /**
      * Close the active session and reset to a disconnected state. Used by the
      * "Disconnect" action on the post-run summary before navigating to Connect.
      */
@@ -510,10 +613,14 @@ class HuntViewModel @Inject constructor(
         super.onCleared()
         stopElapsedTicker()
         huntJob?.cancel()
+        lookupJob?.cancel()
     }
 
     companion object {
         private const val MAX_HISTORY = 200
         private const val TAG = "Hunt"
+
+        /** How many matches per hit are written to the log summary. */
+        private const val LOOKUP_SUMMARY_TOP = 5
     }
 }

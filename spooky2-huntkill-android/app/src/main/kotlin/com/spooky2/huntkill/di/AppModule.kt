@@ -2,6 +2,9 @@ package com.spooky2.huntkill.di
 
 import android.content.Context
 import android.hardware.usb.UsbManager
+import com.spooky2.huntkill.data.FrequencyDatabaseRepository
+import com.spooky2.huntkill.data.FrequencyDatabaseSource
+import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -25,4 +28,19 @@ object AppModule {
     @Singleton
     fun provideUsbManager(@ApplicationContext context: Context): UsbManager =
         context.getSystemService(Context.USB_SERVICE) as UsbManager
+}
+
+/**
+ * Binds the concrete asset-backed [FrequencyDatabaseRepository] to the
+ * [FrequencyDatabaseSource] abstraction the ViewModel depends on.
+ */
+@Module
+@InstallIn(SingletonComponent::class)
+abstract class DatabaseBindingsModule {
+
+    @Binds
+    @Singleton
+    abstract fun bindFrequencyDatabaseSource(
+        impl: FrequencyDatabaseRepository,
+    ): FrequencyDatabaseSource
 }
