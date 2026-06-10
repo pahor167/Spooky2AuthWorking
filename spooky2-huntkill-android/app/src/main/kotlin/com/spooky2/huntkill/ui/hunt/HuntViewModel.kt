@@ -30,6 +30,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 /** Phase the Hunt→Kill flow is currently in. */
@@ -100,6 +101,19 @@ data class HuntParamsUi(
     }
 }
 
+/**
+ * A clickable hit-frequency marker drawn on the scan graph. [stepIndex] is the
+ * 0-based sweep-step index, aligned to [HuntUiState.fullHistory]. [isFinal] is
+ * false for live provisional candidates (semi-transparent red) and true once
+ * detection has completed (solid red).
+ */
+data class GraphMarker(
+    val stepIndex: Int,
+    val frequency: Double,
+    val deviation: Double,
+    val isFinal: Boolean,
+)
+
 /** Connection summary shown as an info chip on the Hunt config screen. */
 data class GeneratorInfo(
     val generatorType: String,
@@ -142,6 +156,13 @@ data class HuntUiState(
     val dropoutSegments: List<DropoutSegment> = emptyList(),
     /** Total sweep steps, used to map [fullHistory] indices onto the X axis. */
     val totalSweepSteps: Int = 0,
+    /**
+     * Hit-frequency markers drawn on the scan graph. During Hunting these are the
+     * live provisional candidates (isFinal=false); after detection completes they
+     * are the real hits mapped to sweep-step indices (isFinal=true). Aligned to
+     * [fullHistory] / [angleHistory] indices.
+     */
+    val graphMarkers: List<GraphMarker> = emptyList(),
     /** True while a segment re-scan is running (drives the warning-card spinner). */
     val rescanInProgress: Boolean = false,
     val hits: List<ScanResult> = emptyList(),
@@ -208,6 +229,14 @@ class HuntViewModel @Inject constructor(
 
     /** Last sweep outcome (readings + validity + segments); spliced by a re-scan. */
     private var lastOutcome: ScanOutcome? = null
+
+    /**
+     * Incrementally-grown per-step reading history for the LIVE scrollable graph.
+     * Indexed by sweep-step (0-based), so provisional marker step indices align to
+     * it directly. Published as [HuntUiState.fullHistory] each step; replaced by the
+     * authoritative [ScanOutcome.sweepReadings] once the sweep finishes.
+     */
+    private val liveHistory = ArrayList<Float>()
 
     init {
         refreshGeneratorInfo()
@@ -290,11 +319,15 @@ class HuntViewModel @Inject constructor(
         }
 
         pauseGate.resume()
+        liveHistory.clear()
         _state.update {
             it.copy(
                 phase = HuntPhase.Hunting,
                 statusText = "Starting hunt...",
                 angleHistory = emptyList(),
+                fullHistory = FloatArray(0),
+                historyValid = BooleanArray(0),
+                graphMarkers = emptyList(),
                 hits = emptyList(),
                 killIndex = 0,
                 killTotal = 0,
@@ -385,13 +418,33 @@ class HuntViewModel @Inject constructor(
 
     /** Store the full reading history + dropout diagnostics into UI state. */
     private fun publishSweepOutcome(outcome: ScanOutcome) {
+        val markers = finalMarkers(outcome.hits)
         _state.update {
             it.copy(
                 fullHistory = outcome.sweepReadings,
                 historyValid = outcome.sweepValid,
                 dropoutSegments = outcome.segments,
                 totalSweepSteps = outcome.sweepReadings.size,
+                graphMarkers = markers,
             )
+        }
+    }
+
+    /**
+     * Map each detected hit to its sweep-step index so the graph can draw a FINAL
+     * (solid red) marker aligned to [HuntUiState.fullHistory]. Uses the same step
+     * frequencies the sweep produced; ties resolve to the first matching step.
+     */
+    private fun finalMarkers(hits: List<ScanResult>): List<GraphMarker> {
+        if (hits.isEmpty()) return emptyList()
+        val parameters = activeParameters ?: return emptyList()
+        val frequencies = com.spooky2.huntkill.core.scan.ScanEngine.calculateFrequencySteps(parameters)
+        // Build a freq -> first step-index map once (O(N)); hits is tiny.
+        val freqToStep = HashMap<Double, Int>(frequencies.size)
+        for (i in frequencies.indices) freqToStep.putIfAbsent(frequencies[i], i)
+        return hits.mapNotNull { hit ->
+            val step = freqToStep[hit.frequency] ?: return@mapNotNull null
+            GraphMarker(step, hit.frequency, hit.deviation, isFinal = true)
         }
     }
 
@@ -557,6 +610,27 @@ class HuntViewModel @Inject constructor(
                     "freq=${"%.2f".format(progress.currentFrequency)}",
             )
         }
+        // Grow the live per-step history during the MAIN sweep only (not kill, not the
+        // segment re-scan, which publishes its own merged outcome). The main sweep is
+        // the only path that produces provisional hits, so gate on that.
+        val isMainSweep = !isKill && !progress.statusText.startsWith("Re-scanning")
+        val liveSnapshot: FloatArray? = if (isMainSweep && progress.currentReading != 0.0) {
+            // stepNumber is 1-based; append in order. Defensive against a missed step.
+            val idx = (progress.stepNumber - 1).coerceAtLeast(liveHistory.size)
+            while (liveHistory.size <= idx) liveHistory.add(progress.currentReading.toFloat())
+            liveHistory[idx] = progress.currentReading.toFloat()
+            liveHistory.toFloatArray()
+        } else {
+            null
+        }
+        val provisionalMarkers: List<GraphMarker>? = if (isMainSweep) {
+            progress.provisionalHits.map {
+                GraphMarker(it.stepIndex, it.frequency, it.deviation, isFinal = false)
+            }
+        } else {
+            null
+        }
+
         _state.update { current ->
             val newHistory = if (progress.currentReading != 0.0 && !isKill) {
                 (current.angleHistory + progress.currentReading).takeLast(MAX_HISTORY)
@@ -577,6 +651,18 @@ class HuntViewModel @Inject constructor(
                 },
                 percentComplete = progress.percentComplete,
                 angleHistory = newHistory,
+                fullHistory = liveSnapshot ?: current.fullHistory,
+                historyValid = if (liveSnapshot != null) {
+                    BooleanArray(liveSnapshot.size) { true }
+                } else {
+                    current.historyValid
+                },
+                totalSweepSteps = if (isMainSweep && progress.totalSteps > 0) {
+                    progress.totalSteps
+                } else {
+                    current.totalSweepSteps
+                },
+                graphMarkers = provisionalMarkers ?: current.graphMarkers,
                 hits = if (progress.hitsFound > 0 && current.hits.isEmpty()) {
                     // Hits become known once a kill cycle starts; pull them from the engine.
                     sessionHolder.current()?.engine?.lastResults() ?: current.hits
@@ -752,6 +838,29 @@ class HuntViewModel @Inject constructor(
 
             logLookupSummary(tolerancePercent, hits, results)
             _state.update { it.copy(lookupResults = results, lookupBusy = false) }
+        }
+    }
+
+    /**
+     * On-demand reverse lookup for a SINGLE frequency — used by the graph marker
+     * popup, where a provisional (live) hit may not yet be in [HuntUiState.lookupResults].
+     * Returns the matches (empty list = no matches) or null when the database source is
+     * unavailable (JVM tests) or the load failed. Runs off the UI thread; cancellation-safe.
+     */
+    suspend fun lookupForFrequency(
+        frequency: Double,
+        tolerancePercent: Double = _state.value.lookupTolerancePercent,
+    ): List<LookupMatch>? {
+        _state.value.lookupResults[frequency]?.let { return it }
+        val repository = frequencyDatabase ?: return null
+        return withContext(Dispatchers.Default) {
+            val database = runCatching { repository.database() }.getOrElse { error ->
+                if (error is kotlinx.coroutines.CancellationException) throw error
+                log.e(TAG, "Marker lookup DB load failed: ${error.message}")
+                return@withContext null
+            }
+            val params = ReverseLookupParameters(tolerancePercent = tolerancePercent)
+            ReverseLookup.lookup(frequency, database.entries, params)
         }
     }
 

@@ -25,7 +25,9 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateMapOf
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -77,6 +79,27 @@ fun HitsScreen(
                 onRescan = viewModel::rescanAffectedSegments,
                 onContinueAnyway = viewModel::continueAnyway,
             )
+        }
+
+        // Compact end-of-scan view of the scrollable graph with the FINAL hit markers,
+        // so the user can review where each hit landed and tap one for its matches.
+        if (state.fullHistory.isNotEmpty()) {
+            var selectedMarker by remember { mutableStateOf<GraphMarker?>(null) }
+            Text("Scan graph", style = MaterialTheme.typography.titleSmall)
+            ScrollableReadingGraph(
+                readings = state.fullHistory,
+                valid = state.historyValid,
+                markers = state.graphMarkers,
+                onMarkerTap = { selectedMarker = it },
+                modifier = Modifier.fillMaxWidth().height(120.dp),
+            )
+            selectedMarker?.let { marker ->
+                MarkerDetailSheet(
+                    marker = marker,
+                    viewModel = viewModel,
+                    onDismiss = { selectedMarker = null },
+                )
+            }
         }
 
         if (state.hits.isEmpty()) {

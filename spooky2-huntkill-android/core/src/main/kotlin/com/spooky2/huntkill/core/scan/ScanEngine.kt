@@ -211,6 +211,16 @@ class ScanEngine(private val link: GeneratorLink) {
         var consecutiveFailures = 0
         var unstableSurfaced = false
 
+        // Live provisional hit tracker: mirrors detectHits incrementally (one-step
+        // lag) to surface red markers DURING the sweep. Display-only — it is never
+        // read back into the returned hits, so the golden replay path is unaffected.
+        // Seeded with the same baseline tail detectHits gets so it converges.
+        val provisionalTracker = ProvisionalHitTracker(parameters)
+        provisionalTracker.seedBaseline(baselinePreSeed)
+        // Hard-invalid flag aligned to sweep-step index, tracking the in-flight
+        // validity (read failures only; the deviation heuristic runs post-sweep).
+        var sweepStepIndex = 0
+
         // Minimum step period (write-to-write), derived from the original dump's
         // 14-15 steps/s ≈ 70 ms/step. This is NOT an additive sleep: the serial
         // round-trips count toward the period and we only sleep the remainder.
@@ -247,6 +257,10 @@ class ScanEngine(private val link: GeneratorLink) {
                 }
                 sweepReadings.add(reading.toFloat())
                 sweepHardInvalid.add(!sensor.valid)
+
+                // Feed the live tracker (sweep-step index == position in sweepReadings).
+                provisionalTracker.push(sweepStepIndex, freq, reading, sensor.valid)
+                sweepStepIndex++
 
                 if (parameters.calculateUsingPeak && reading > peakReading) {
                     peakReading = reading
@@ -286,6 +300,7 @@ class ScanEngine(private val link: GeneratorLink) {
                         cycleNumber = loop + 1,
                         currentReading = reading,
                         currentRunningAverage = if (primaryWindow.isFull) primaryWindow.simpleAverage() else 0.0,
+                        provisionalHits = provisionalTracker.topHits(),
                     ),
                 )
 
