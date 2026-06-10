@@ -11,6 +11,7 @@ import java.time.Instant
 import kotlin.coroutines.coroutineContext
 import kotlin.math.abs
 import kotlin.math.min
+import kotlin.time.TimeSource
 
 /**
  * Biofeedback / Hunt-and-Kill scan engine.
@@ -185,17 +186,26 @@ class ScanEngine(private val link: GeneratorLink) {
             scanReadings.add(0.0 to value) // freq=0 marks baseline entries
         }
 
+        // Minimum step period (write-to-write), derived from the original dump's
+        // 14-15 steps/s ≈ 70 ms/step. This is NOT an additive sleep: the serial
+        // round-trips count toward the period and we only sleep the remainder.
+        val periodMs = (parameters.minReadDelaySeconds * 1000).toLong()
+        // Settle pause between the frequency write and the first read mimics the
+        // original's natural ~23 ms bus latency. Skipped entirely when period is 0.
+        val settleMs = if (periodMs > 0) min(25L, periodMs / 3) else 0L
+
         for (loop in 0 until parameters.loops) {
             for (i in frequencies.indices) {
                 coroutineContext.ensureActive()
                 pauseGate.awaitResumed()
+                // Take the step start AFTER awaitResumed so paused time is not
+                // counted into the step measurement (and the next step still paces).
+                val stepStart = TimeSource.Monotonic.markNow()
                 val freq = frequencies[i]
 
                 send(GeneratorProtocol.buildSetFrequency1(freq))
 
-                if (parameters.minReadDelaySeconds > 0) {
-                    delay((parameters.minReadDelaySeconds * 1000).toLong())
-                }
+                if (settleMs > 0) delay(settleMs)
 
                 val (angle, current) = readSensors(parameters.samplesPerStep)
                 val reading = if (parameters.useCurrent) current else angle
@@ -232,6 +242,15 @@ class ScanEngine(private val link: GeneratorLink) {
                         currentRunningAverage = if (primaryWindow.isFull) primaryWindow.simpleAverage() else 0.0,
                     ),
                 )
+
+                // Pace to the minimum step period: sleep only the remainder after
+                // the serial I/O already consumed part of it. When period is 0
+                // (test/replay fast path) this is a no-op — behavior is unchanged.
+                if (periodMs > 0) {
+                    val elapsedMs = stepStart.elapsedNow().inWholeMilliseconds
+                    val remainingMs = periodMs - elapsedMs
+                    if (remainingMs > 0) delay(remainingMs)
+                }
             }
         }
 

@@ -24,6 +24,15 @@ data class ScanParameters(
     val calculateUsingPeak: Boolean = false,
     val samplesPerStep: Int = 1,
     val startDelayMs: Int = 200,
+    /**
+     * Minimum sweep-step PERIOD (write-to-write), in seconds. Default 0.07 = 70 ms.
+     *
+     * Derived from the original software's timestamped serial dump, which sweeps
+     * at 14-15 steps/s (≈70 ms/step). This is the minimum time between successive
+     * `:w24` frequency writes — NOT an additive sleep. The per-step serial I/O
+     * (frequency write + sensor reads) counts toward this period; the engine only
+     * sleeps the remainder. 0 = unpaced fast path (test/replay).
+     */
     val minReadDelaySeconds: Double = 0.07,
     val detectMax: Boolean = true,
     val detectMin: Boolean = false,

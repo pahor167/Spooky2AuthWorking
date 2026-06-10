@@ -222,6 +222,14 @@ public sealed class ScanService : IScanService, IDisposable
             double peakReading = double.MinValue;
             double peakFrequency = 0;
 
+            // Minimum step period (write-to-write), derived from the original dump's
+            // 14-15 steps/s ≈ 70 ms/step. This is NOT an additive sleep: the serial
+            // round-trips count toward the period and we only sleep the remainder.
+            long periodMs = (long)(parameters.MinReadDelaySeconds * 1000);
+            // Settle pause between the frequency write and the first read mimics the
+            // original's natural ~23 ms bus latency. Skipped entirely when period is 0.
+            int settleMs = periodMs > 0 ? (int)Math.Min(25L, periodMs / 3) : 0;
+
             // Collect ALL readings during the sweep for post-processing.
             // The VB6 original (Proc_0_331) writes readings to CSV during the scan,
             // then post-processes them in "Detecting Asymptotes" + "Filling GreatestHits".
@@ -237,14 +245,16 @@ public sealed class ScanService : IScanService, IDisposable
                 for (int i = 0; i < frequencies.Count; i++)
                 {
                     cts.Token.ThrowIfCancellationRequested();
+                    // Step start (monotonic) right before the :w24 frequency write.
+                    var stepStart = System.Diagnostics.Stopwatch.StartNew();
                     double freq = frequencies[i];
 
                     // Write frequency (nanoHz format for scanning)
                     await Send(generatorId, GeneratorProtocol.BuildSetFrequency1(freq));
 
-                    // Read delay
-                    if (parameters.MinReadDelaySeconds > 0)
-                        await Task.Delay((int)(parameters.MinReadDelaySeconds * 1000), cts.Token);
+                    // Settle pause mimicking the original's natural bus latency.
+                    if (settleMs > 0)
+                        await Task.Delay(settleMs, cts.Token);
 
                     // Read sensors
                     var (angle, current) = await ReadSensors(generatorId, parameters.SamplesPerStep);
@@ -284,6 +294,16 @@ public sealed class ScanService : IScanService, IDisposable
                         CurrentReading = reading,
                         CurrentRunningAverage = primaryWindow.IsFull ? primaryWindow.SimpleAverage() : 0
                     });
+
+                    // Pace to the minimum step period: sleep only the remainder after
+                    // the serial I/O already consumed part of it. When period is 0
+                    // (test/replay fast path) this is a no-op — behavior is unchanged.
+                    if (periodMs > 0)
+                    {
+                        long remainingMs = periodMs - stepStart.ElapsedMilliseconds;
+                        if (remainingMs > 0)
+                            await Task.Delay((int)remainingMs, cts.Token);
+                    }
                 }
             }
 

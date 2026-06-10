@@ -18,6 +18,15 @@ public sealed record ScanParameters
     public bool CalculateUsingPeak { get; init; }
     public int SamplesPerStep { get; init; } = 1;
     public int StartDelayMs { get; init; } = 200;
+    /// <summary>
+    /// Minimum sweep-step PERIOD (write-to-write), in seconds. Default 0.07 = 70 ms.
+    ///
+    /// Derived from the original software's timestamped serial dump, which sweeps
+    /// at 14-15 steps/s (≈70 ms/step). This is the minimum time between successive
+    /// :w24 frequency writes — NOT an additive sleep. The per-step serial I/O
+    /// (frequency write + sensor reads) counts toward this period; the engine only
+    /// sleeps the remainder. 0 = unpaced fast path (test/replay).
+    /// </summary>
     public double MinReadDelaySeconds { get; init; } = 0.07;
     public bool DetectMax { get; init; } = true;
     public bool DetectMin { get; init; }
