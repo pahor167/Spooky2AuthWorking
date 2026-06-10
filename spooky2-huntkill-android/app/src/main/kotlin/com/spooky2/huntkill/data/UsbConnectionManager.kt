@@ -237,6 +237,13 @@ class UsbConnectionManager @Inject constructor(
             TAG,
             "Connected: type=${connection.generatorType} baud=${connection.baudRate}",
         )
+
+        // Safety: a prior session (or one killed by an app force-stop) can leave the
+        // generator emitting at its last frequency. Zero it on every fresh connect —
+        // clear both frequency channels, set amplitude CV to 0, outputs off.
+        log.i(TAG, "Zeroing generator output on connect")
+        client.zeroOutput()
+
         lastConnectedDevice = device
         return GeneratorSession(
             baudRate = connection.baudRate,
