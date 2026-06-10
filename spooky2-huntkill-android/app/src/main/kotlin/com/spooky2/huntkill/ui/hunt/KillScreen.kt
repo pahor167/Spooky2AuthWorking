@@ -24,6 +24,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -40,8 +43,22 @@ fun KillScreen(
 ) {
     val state by viewModel.state.collectAsState()
 
-    // System back while killing = Stop & Zero (zero + back to config).
-    BackHandler(enabled = state.isRunning) { viewModel.safetyStop() }
+    // Leaving a running kill must be confirmed: back (or Stop & Zero) first opens a
+    // dialog; only confirming zeroes the generator and returns to config.
+    var showStopConfirm by remember { mutableStateOf(false) }
+    BackHandler(enabled = state.isRunning) { showStopConfirm = true }
+    if (showStopConfirm) {
+        ConfirmStopDialog(
+            title = "Stop the treatment?",
+            text = "The kill phase is still running. Stopping zeroes the generator and ends the treatment.",
+            confirmLabel = "Stop & zero",
+            onConfirm = {
+                showStopConfirm = false
+                viewModel.safetyStop()
+            },
+            onDismiss = { showStopConfirm = false },
+        )
+    }
 
     LaunchedEffect(state.phase) {
         when (state.phase) {
@@ -146,7 +163,7 @@ fun KillScreen(
                 Text(if (state.isPaused) "Resume" else "Pause", maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
             OutlinedButton(
-                onClick = viewModel::safetyStop,
+                onClick = { showStopConfirm = true },
                 enabled = !isBusy,
                 modifier = Modifier.weight(1f),
             ) {

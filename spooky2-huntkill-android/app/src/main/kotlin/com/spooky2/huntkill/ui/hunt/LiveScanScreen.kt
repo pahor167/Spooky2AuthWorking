@@ -44,8 +44,22 @@ fun LiveScanScreen(
 ) {
     val state by viewModel.state.collectAsState()
 
-    // System back while running = Cancel (zero + back to config), never a silent run.
-    BackHandler(enabled = state.isRunning) { viewModel.cancel() }
+    // Leaving a running scan must be confirmed: back (or Cancel) first opens a
+    // dialog; only confirming zeroes the generator and returns to config.
+    var showStopConfirm by remember { mutableStateOf(false) }
+    BackHandler(enabled = state.isRunning) { showStopConfirm = true }
+    if (showStopConfirm) {
+        ConfirmStopDialog(
+            title = "Stop the scan?",
+            text = "The hunt is still running. Stopping zeroes the generator and discards this sweep.",
+            confirmLabel = "Stop & zero",
+            onConfirm = {
+                showStopConfirm = false
+                viewModel.cancel()
+            },
+            onDismiss = { showStopConfirm = false },
+        )
+    }
 
     LaunchedEffect(state.phase) {
         when (state.phase) {
@@ -147,7 +161,7 @@ fun LiveScanScreen(
                 Text(if (state.isPaused) "Resume" else "Pause", maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
             OutlinedButton(
-                onClick = viewModel::cancel,
+                onClick = { showStopConfirm = true },
                 enabled = !isBusy,
                 modifier = Modifier.weight(1f),
             ) {
