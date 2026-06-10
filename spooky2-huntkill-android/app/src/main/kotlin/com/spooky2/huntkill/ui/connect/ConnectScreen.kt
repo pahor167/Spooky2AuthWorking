@@ -120,15 +120,15 @@ fun ConnectScreen(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .selectable(
-                                    selected = option.deviceName == state.selectedDeviceName,
-                                    onClick = { viewModel.selectUsbDevice(option.deviceName) },
+                                    selected = option.id == state.selectedId,
+                                    onClick = { viewModel.selectUsbDevice(option.id) },
                                 )
                                 .padding(8.dp),
                             verticalAlignment = Alignment.CenterVertically,
                         ) {
                             RadioButton(
-                                selected = option.deviceName == state.selectedDeviceName,
-                                onClick = { viewModel.selectUsbDevice(option.deviceName) },
+                                selected = option.id == state.selectedId,
+                                onClick = { viewModel.selectUsbDevice(option.id) },
                             )
                             Text(
                                 option.label,

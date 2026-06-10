@@ -36,6 +36,7 @@ import java.io.IOException
 class UsbCdcSerialTransport(
     private val usbManager: UsbManager,
     private val device: UsbDevice,
+    private val portIndex: Int = 0,
     private val readTimeoutMs: Int = DEFAULT_TIMEOUT_MS,
     private val writeTimeoutMs: Int = DEFAULT_TIMEOUT_MS,
 ) : SerialTransport {
@@ -52,11 +53,15 @@ class UsbCdcSerialTransport(
     override suspend fun open(baudRate: Int): Unit = withContext(Dispatchers.IO) {
         if (isOpen) return@withContext
 
-        val driver = resolveDriver(device)
+        val driver = resolveDriver(usbManager, device)
             ?: throw IOException("No CDC-ACM driver for device vid=${device.vendorId} pid=${device.productId}")
 
-        val serialPort = driver.ports.firstOrNull()
-            ?: throw IOException("Driver exposed no serial ports")
+        val ports = driver.ports
+        val serialPort = ports.getOrNull(portIndex)
+            ?: throw IOException(
+                "Port index $portIndex out of range (driver exposes ${ports.size} port(s)) " +
+                    "for device ${device.deviceName}",
+            )
 
         val deviceConnection = usbManager.openDevice(device)
             ?: throw IOException("Permission denied or device unavailable: ${device.deviceName}")
@@ -133,25 +138,6 @@ class UsbCdcSerialTransport(
         return line.ifEmpty { extractLine() }
     }
 
-    private fun resolveDriver(device: UsbDevice): UsbSerialDriver? {
-        // The default prober already recognizes the common USB-serial bridges seen on
-        // Spooky2 generators: CDC-ACM, FTDI, CP210x, and WCH CH34x/CH9102 (incl.
-        // 1A86:55D2). Prefer it so the correct driver is selected per chip.
-        UsbSerialProber.getDefaultProber().probeDevice(device)?.let { return it }
-
-        // Fallback for a bridge the default table doesn't list: force a driver by
-        // vendor — WCH -> CH34x, everything else -> CDC-ACM (e.g. Microchip 0x04D8).
-        val driverClass = if (device.vendorId == WCH_VENDOR_ID) {
-            Ch34xSerialDriver::class.java
-        } else {
-            CdcAcmSerialDriver::class.java
-        }
-        val table = ProbeTable().apply {
-            addProduct(device.vendorId, device.productId, driverClass)
-        }
-        return UsbSerialProber(table).probeDevice(device)
-    }
-
     companion object {
         /** Microchip vendor id (some GeneratorX Pro units present a CDC-ACM bridge). */
         const val GENERATORX_VENDOR_ID: Int = 0x04D8
@@ -183,6 +169,37 @@ class UsbCdcSerialTransport(
                 prober.probeDevice(it) != null || it.vendorId in GENERATOR_VENDOR_IDS
             }
         }
+
+        /**
+         * Resolve the usb-serial driver for [device], shared by [open] and [countPorts]
+         * so port enumeration and connect use identical driver selection logic.
+         *
+         * The default prober already recognizes the common USB-serial bridges seen on
+         * Spooky2 generators: CDC-ACM, FTDI, CP210x, and WCH CH34x/CH9102 (incl.
+         * 1A86:55D2). Prefer it so the correct driver is selected per chip; fall back to
+         * forcing a driver by vendor — WCH -> CH34x, everything else -> CDC-ACM.
+         */
+        fun resolveDriver(usbManager: UsbManager, device: UsbDevice): UsbSerialDriver? {
+            UsbSerialProber.getDefaultProber().probeDevice(device)?.let { return it }
+
+            val driverClass = if (device.vendorId == WCH_VENDOR_ID) {
+                Ch34xSerialDriver::class.java
+            } else {
+                CdcAcmSerialDriver::class.java
+            }
+            val table = ProbeTable().apply {
+                addProduct(device.vendorId, device.productId, driverClass)
+            }
+            return UsbSerialProber(table).probeDevice(device)
+        }
+
+        /**
+         * Number of serial ports [device] exposes via its resolved driver. The
+         * GeneratorX box presents two generators on one USB device as two ports.
+         * Returns 0 if no driver can drive the device.
+         */
+        fun countPorts(usbManager: UsbManager, device: UsbDevice): Int =
+            resolveDriver(usbManager, device)?.ports?.size ?: 0
 
         private const val DEFAULT_TIMEOUT_MS = 2000
         private const val READ_CHUNK_SIZE = 256

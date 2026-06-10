@@ -78,7 +78,18 @@ fun HuntKillNavHost(navController: NavHostController = rememberNavController()) 
             composable(Routes.LIVE) {
                 LiveScanScreen(
                     viewModel = sharedHuntViewModel(navController),
-                    onHitsReady = { navController.navigate(Routes.HITS) },
+                    // Kill auto-starts after the sweep: jump straight to the Kill screen,
+                    // replacing Live so Back doesn't return to the finished sweep.
+                    onKilling = {
+                        navController.navigate(Routes.KILL) {
+                            popUpTo(Routes.LIVE) { inclusive = true }
+                        }
+                    },
+                    onDone = {
+                        navController.navigate(Routes.HITS) {
+                            popUpTo(Routes.LIVE) { inclusive = true }
+                        }
+                    },
                     onCancelled = { navController.popBackStack(Routes.HUNT, inclusive = false) },
                 )
             }
@@ -91,7 +102,14 @@ fun HuntKillNavHost(navController: NavHostController = rememberNavController()) 
             composable(Routes.KILL) {
                 KillScreen(
                     viewModel = sharedHuntViewModel(navController),
-                    onFinished = { navController.popBackStack(Routes.HUNT, inclusive = false) },
+                    // After the kill completes show the post-kill summary on the Hits
+                    // screen; cancel/error pop back to Hunt config.
+                    onDone = {
+                        navController.navigate(Routes.HITS) {
+                            popUpTo(Routes.KILL) { inclusive = true }
+                        }
+                    },
+                    onStopped = { navController.popBackStack(Routes.HUNT, inclusive = false) },
                 )
             }
             composable(Routes.LOG) {

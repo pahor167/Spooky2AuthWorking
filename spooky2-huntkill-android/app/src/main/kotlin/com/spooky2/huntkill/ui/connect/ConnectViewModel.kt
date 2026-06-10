@@ -1,12 +1,12 @@
 package com.spooky2.huntkill.ui.connect
 
-import android.hardware.usb.UsbDevice
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.spooky2.huntkill.data.GeneratorSession
 import com.spooky2.huntkill.data.GeneratorSessionFactory
 import com.spooky2.huntkill.data.SessionHolder
 import com.spooky2.huntkill.data.UsbConnectionManager
+import com.spooky2.huntkill.data.UsbGeneratorPort
 import com.spooky2.huntkill.log.LogBus
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -16,9 +16,14 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-/** One selectable USB generator, identified by its stable [deviceName]. */
+/**
+ * One selectable USB generator port, identified by a stable [id] (deviceName + port).
+ * A dual-generator device shows up as two options with the same [deviceName].
+ */
 data class UsbGeneratorOption(
+    val id: String,
     val deviceName: String,
+    val portIndex: Int,
     val label: String,
 )
 
@@ -30,7 +35,7 @@ data class ConnectUiState(
     val authToken: String? = null,
     val errorMessage: String? = null,
     val usbDevices: List<UsbGeneratorOption> = emptyList(),
-    val selectedDeviceName: String? = null,
+    val selectedId: String? = null,
 ) {
     val isConnected: Boolean get() = status == ConnectStatus.Connected
 }
@@ -48,35 +53,40 @@ class ConnectViewModel @Inject constructor(
     private val _state = MutableStateFlow(ConnectUiState())
     val state: StateFlow<ConnectUiState> = _state.asStateFlow()
 
-    /** Live device handles keyed by their stable deviceName, refreshed by [refreshUsbDevices]. */
-    private var deviceCache: Map<String, UsbDevice> = emptyMap()
+    /** Live generator-port handles keyed by their stable id, refreshed by [refreshUsbDevices]. */
+    private var portCache: Map<String, UsbGeneratorPort> = emptyMap()
 
     init {
         refreshUsbDevices()
     }
 
-    /** Re-enumerate attached USB generators; default the selection to the first. */
+    /** Re-enumerate attached USB generator ports; default the selection to the first. */
     fun refreshUsbDevices() {
-        val devices = usbConnectionManager.listGenerators()
-        deviceCache = devices.associateBy { it.deviceName }
-        val options = devices.map { device ->
-            UsbGeneratorOption(
-                deviceName = device.deviceName,
-                label = "0x%04X:0x%04X %s".format(device.vendorId, device.productId, device.deviceName),
-            )
-        }
+        val ports = usbConnectionManager.listGenerators()
+        val options = ports.map { port -> port.toOption() }
+        portCache = ports.associateBy { it.id() }
         _state.update { current ->
-            val selected = current.selectedDeviceName
-                ?.takeIf { name -> options.any { it.deviceName == name } }
-                ?: options.firstOrNull()?.deviceName
-            current.copy(usbDevices = options, selectedDeviceName = selected)
+            val selected = current.selectedId
+                ?.takeIf { id -> options.any { it.id == id } }
+                ?: options.firstOrNull()?.id
+            current.copy(usbDevices = options, selectedId = selected)
         }
     }
 
-    /** Pick which attached generator a USB connect will target. */
-    fun selectUsbDevice(deviceName: String) {
-        _state.update { it.copy(selectedDeviceName = deviceName) }
+    /** Pick which attached generator port a USB connect will target. */
+    fun selectUsbDevice(id: String) {
+        _state.update { it.copy(selectedId = id) }
     }
+
+    private fun UsbGeneratorPort.id(): String = "${device.deviceName}#$portIndex"
+
+    private fun UsbGeneratorPort.toOption(): UsbGeneratorOption =
+        UsbGeneratorOption(
+            id = id(),
+            deviceName = device.deviceName,
+            portIndex = portIndex,
+            label = label,
+        )
 
     /** Demo connect: replays the bundled dump; a fresh replay is rebuilt per hunt. */
     fun connect() {
@@ -101,9 +111,9 @@ class ConnectViewModel @Inject constructor(
     fun connectUsb() {
         if (_state.value.status == ConnectStatus.Connecting) return
 
-        val selectedName = _state.value.selectedDeviceName
-        val device = selectedName?.let { deviceCache[it] }
-        if (device == null) {
+        val selectedId = _state.value.selectedId
+        val port = selectedId?.let { portCache[it] }
+        if (port == null) {
             log.w(TAG, "USB connect blocked: no generator selected/attached")
             _state.update {
                 it.copy(
@@ -115,10 +125,10 @@ class ConnectViewModel @Inject constructor(
         }
 
         _state.update { it.copy(status = ConnectStatus.Connecting, errorMessage = null) }
-        log.i(TAG, "USB connect attempt on $selectedName")
+        log.i(TAG, "USB connect attempt on ${port.device.deviceName} port ${port.portIndex}")
 
         viewModelScope.launch {
-            runCatching { usbConnectionManager.connect(device) }
+            runCatching { usbConnectionManager.connect(port.device, port.portIndex) }
                 .onSuccess { session ->
                     sessionHolder.set(session)
                     // Live USB session is reused across hunts — do NOT reconnect.

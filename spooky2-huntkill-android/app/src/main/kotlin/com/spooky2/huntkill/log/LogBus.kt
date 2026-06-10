@@ -26,7 +26,17 @@ data class LogEntry(
  * All mutations are synchronized so it is safe to call from any thread.
  */
 @Singleton
-class LogBus @Inject constructor() {
+class LogBus @Inject constructor(
+    /**
+     * Optional persistent sink. When present (Hilt runtime) every entry is mirrored to a
+     * daily log file off the I/O path. Tests use the no-arg secondary constructor, which
+     * passes null so [LogBus] stays constructible without Android.
+     */
+    private val fileWriter: FileLogWriter?,
+) {
+
+    /** No-Android constructor for unit tests: in-memory only, no file persistence. */
+    constructor() : this(null)
 
     private val lock = Any()
     private val buffer = ArrayDeque<LogEntry>(CAPACITY)
@@ -54,9 +64,17 @@ class LogBus @Inject constructor() {
         return snapshot.joinToString("\n") { format(it) }
     }
 
+    /** Force any buffered file-log lines to disk (no-op when persistence is off). */
+    fun flush() {
+        fileWriter?.flush()
+    }
+
     private fun add(level: Char, tag: String, msg: String) {
         forwardToAndroidLog(level, tag, msg)
-        val entry = LogEntry(System.currentTimeMillis(), level, tag, msg)
+        val timestampMs = System.currentTimeMillis()
+        // Persist the full history to file off the I/O path; the ring is UI-only.
+        fileWriter?.append(timestampMs, level, tag, msg)
+        val entry = LogEntry(timestampMs, level, tag, msg)
         synchronized(lock) {
             if (buffer.size >= CAPACITY) buffer.removeFirst()
             buffer.addLast(entry)

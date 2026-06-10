@@ -20,6 +20,18 @@ import javax.inject.Singleton
 import kotlin.coroutines.resume
 
 /**
+ * One selectable generator endpoint: a single serial [portIndex] on a physical
+ * [device]. The GeneratorX box enumerates as ONE USB device exposing TWO ports, so a
+ * single device yields two [UsbGeneratorPort] entries (one per generator).
+ */
+data class UsbGeneratorPort(
+    val device: UsbDevice,
+    val portIndex: Int,
+    val portCount: Int,
+    val label: String,
+)
+
+/**
  * Real USB bring-up: enumerate the attached generator, request USB permission, open a
  * CDC-ACM [UsbCdcSerialTransport] (wrapped in [LoggingSerialTransport]), run the full
  * [GeneratorClient.connect] probe + auth, and surface a live [GeneratorSession].
@@ -69,23 +81,42 @@ class UsbConnectionManager @Inject constructor(
     }
 
     /**
-     * Every attached device the USB-serial stack can drive. Logs each vid/pid/name so
-     * the user can pick which generator to run on when more than one is attached.
+     * Every selectable generator endpoint: ONE entry per serial port per supported
+     * device. The GeneratorX box is a single USB device exposing two ports (two
+     * generators), so it yields two entries. Logs the discovered port count per device.
      */
-    fun listGenerators(): List<UsbDevice> {
+    fun listGenerators(): List<UsbGeneratorPort> {
         val devices = UsbCdcSerialTransport.listSupportedDevices(usbManager)
-        log.i(TAG, "Supported USB generators: ${devices.size}")
+        log.i(TAG, "Supported USB devices: ${devices.size}")
+
+        val ports = ArrayList<UsbGeneratorPort>()
         for (device in devices) {
+            val count = UsbCdcSerialTransport.countPorts(usbManager, device).coerceAtLeast(1)
             log.i(
                 TAG,
-                "  generator vid=0x%04X pid=0x%04X name=%s".format(
+                "  device vid=0x%04X pid=0x%04X name=%s ports=%d".format(
                     device.vendorId,
                     device.productId,
                     device.deviceName,
+                    count,
                 ),
             )
+            for (index in 0 until count) {
+                val label = if (count > 1) {
+                    "0x%04X:0x%04X port %d/%d".format(
+                        device.vendorId,
+                        device.productId,
+                        index + 1,
+                        count,
+                    )
+                } else {
+                    "0x%04X:0x%04X %s".format(device.vendorId, device.productId, device.deviceName)
+                }
+                ports.add(UsbGeneratorPort(device, index, count, label))
+            }
         }
-        return devices
+        log.i(TAG, "Selectable generator ports: ${ports.size}")
+        return ports
     }
 
     /**
@@ -143,17 +174,19 @@ class UsbConnectionManager @Inject constructor(
     }
 
     /**
-     * Full live connect on a chosen [device]: request permission → open transport →
-     * probe + auth → build the [GeneratorSession]. Throws with a clear message on any
-     * failure.
+     * Full live connect on a chosen [device] / [portIndex]: request permission → open
+     * transport on that port → probe + auth → build the [GeneratorSession]. Both ports
+     * of a dual-generator device share one USB permission grant. Throws with a clear
+     * message on any failure.
      */
-    suspend fun connect(device: UsbDevice): GeneratorSession {
+    suspend fun connect(device: UsbDevice, portIndex: Int = 0): GeneratorSession {
         log.i(
             TAG,
-            "Connecting to selected generator vid=0x%04X pid=0x%04X name=%s".format(
+            "Connecting to selected generator vid=0x%04X pid=0x%04X name=%s port=%d".format(
                 device.vendorId,
                 device.productId,
                 device.deviceName,
+                portIndex,
             ),
         )
 
@@ -162,9 +195,9 @@ class UsbConnectionManager @Inject constructor(
             throw IllegalStateException("USB permission denied for ${device.deviceName}.")
         }
 
-        log.i(TAG, "Opening transport for ${device.deviceName}")
+        log.i(TAG, "Opening transport for ${device.deviceName} port $portIndex")
         val transport = LoggingSerialTransport(
-            UsbCdcSerialTransport(usbManager = usbManager, device = device),
+            UsbCdcSerialTransport(usbManager = usbManager, device = device, portIndex = portIndex),
             log,
         )
         val client = GeneratorClient(transport = transport)

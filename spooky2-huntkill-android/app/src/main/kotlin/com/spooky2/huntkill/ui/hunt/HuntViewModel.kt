@@ -30,9 +30,9 @@ enum class HuntPhase { Idle, Hunting, HitsReady, Killing, Done, Cancelled, Error
 data class HuntParamsUi(
     val startFrequencyText: String = "41000",
     val endFrequencyText: String = "1800000",
-    // Demo dwell is short (3s) so the kill countdown is visible but the replayed flow
-    // finishes in seconds. Real hardware uses the 180s ScanParameters default.
-    val dwellSecondsText: String = "3",
+    // Default is 180s (3 minutes) per frequency — the real Hunt-and-Kill dwell. The JVM
+    // demo/pause tests override this with updateDwellSeconds("0") to stay fast.
+    val dwellSecondsText: String = "180",
     val targetAmplitudeCvText: String = "2000",
 ) {
     fun toScanParameters(): ScanParameters = ScanParameters(

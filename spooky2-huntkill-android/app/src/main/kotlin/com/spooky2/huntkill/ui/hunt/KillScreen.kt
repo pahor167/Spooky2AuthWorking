@@ -8,8 +8,11 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -19,6 +22,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
@@ -28,13 +32,15 @@ import com.spooky2.huntkill.ui.common.formatElapsed
 @Composable
 fun KillScreen(
     viewModel: HuntViewModel,
-    onFinished: () -> Unit,
+    onDone: () -> Unit,
+    onStopped: () -> Unit,
 ) {
     val state by viewModel.state.collectAsState()
 
     LaunchedEffect(state.phase) {
         when (state.phase) {
-            HuntPhase.Done, HuntPhase.Cancelled, HuntPhase.Error -> onFinished()
+            HuntPhase.Done -> onDone()
+            HuntPhase.Cancelled, HuntPhase.Error -> onStopped()
             else -> Unit
         }
     }
@@ -81,6 +87,43 @@ fun KillScreen(
             progress = { (state.percentComplete / 100.0).toFloat().coerceIn(0f, 1f) },
             modifier = Modifier.fillMaxWidth(),
         )
+
+        // Detected hits being treated. The frequency currently killing (1-based
+        // killIndex) is highlighted so the user sees the chosen frequencies.
+        Text("Hits (${state.hits.size})", style = MaterialTheme.typography.titleSmall)
+        LazyColumn(
+            modifier = Modifier.fillMaxWidth().weight(1f),
+            verticalArrangement = Arrangement.spacedBy(6.dp),
+        ) {
+            itemsIndexed(state.hits) { index, hit ->
+                val isCurrent = index == state.killIndex - 1
+                Card(
+                    modifier = Modifier.fillMaxWidth(),
+                    colors = if (isCurrent) {
+                        CardDefaults.cardColors(
+                            containerColor = MaterialTheme.colorScheme.primaryContainer,
+                        )
+                    } else {
+                        CardDefaults.cardColors()
+                    },
+                ) {
+                    Column(Modifier.padding(10.dp)) {
+                        Text(
+                            "${index + 1}. ${hit.frequency.asHz()}",
+                            style = MaterialTheme.typography.titleSmall,
+                            fontWeight = if (isCurrent) FontWeight.Bold else FontWeight.Normal,
+                            maxLines = 1,
+                            softWrap = false,
+                            overflow = TextOverflow.Ellipsis,
+                        )
+                        Text(
+                            "Deviation: ${"%.2f".format(hit.deviation)}",
+                            style = MaterialTheme.typography.bodySmall,
+                        )
+                    }
+                }
+            }
+        }
 
         Spacer(Modifier.height(8.dp))
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {

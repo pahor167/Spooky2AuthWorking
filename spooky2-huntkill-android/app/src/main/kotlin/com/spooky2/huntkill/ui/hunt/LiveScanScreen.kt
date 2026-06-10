@@ -29,14 +29,19 @@ import com.spooky2.huntkill.ui.common.formatElapsed
 @Composable
 fun LiveScanScreen(
     viewModel: HuntViewModel,
-    onHitsReady: () -> Unit,
+    onKilling: () -> Unit,
+    onDone: () -> Unit,
     onCancelled: () -> Unit,
 ) {
     val state by viewModel.state.collectAsState()
 
     LaunchedEffect(state.phase) {
         when (state.phase) {
-            HuntPhase.HitsReady, HuntPhase.Killing, HuntPhase.Done -> onHitsReady()
+            // The engine auto-chains kill after the sweep, so the moment hits are found
+            // and the kill begins we jump straight to the Kill screen — no extra tap.
+            HuntPhase.HitsReady, HuntPhase.Killing -> onKilling()
+            // Done with no kill (e.g. zero hits) -> show the post-run summary.
+            HuntPhase.Done -> onDone()
             HuntPhase.Cancelled -> onCancelled()
             else -> Unit
         }
