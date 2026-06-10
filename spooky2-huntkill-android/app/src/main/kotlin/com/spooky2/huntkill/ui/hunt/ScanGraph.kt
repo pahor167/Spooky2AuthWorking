@@ -3,7 +3,6 @@ package com.spooky2.huntkill.ui.hunt
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown
-import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -35,9 +34,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.pointerInput
-import androidx.compose.ui.input.pointer.positionChanged
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.core.lookup.LookupMatch
@@ -128,42 +125,57 @@ fun ScrollableReadingGraph(
                 .fillMaxSize()
                 .horizontalScroll(scrollState)
                 .width(contentWidthDp)
-                .pointerInput(Unit) {
-                    // Observe-only (Initial pass): any actual drag disengages
-                    // auto-follow; plain taps (marker clicks) do not.
-                    awaitEachGesture {
-                        awaitFirstDown(requireUnconsumed = false)
-                        do {
-                            val event = awaitPointerEvent(PointerEventPass.Initial)
-                            if (event.changes.any { it.positionChanged() }) following = false
-                        } while (event.changes.any { it.pressed })
-                    }
-                }
+                // ONE pointer-input node handles both concerns so taps are never
+                // swallowed by a competing gesture detector. We watch the Initial pass
+                // for real drags (to disengage auto-follow) and the Main pass for taps
+                // (to open the marker sheet). The Canvas sits AFTER width() and
+                // horizontalScroll(), so its local coordinates are CONTENT coordinates —
+                // the same space as the marker x = stepIndex * pxPerPoint transform — and
+                // no scrollState.value correction is needed.
                 .pointerInput(markers, readings.size) {
-                    detectTapGestures { tap ->
-                        // tap is in CONTENT coordinates (the scrolled virtual canvas),
-                        // matching the marker x = stepIndex * pxPerPoint transform.
-                        val h = size.height.toFloat()
-                        var best: GraphMarker? = null
-                        var bestDist = Float.MAX_VALUE
-                        for (m in markers) {
-                            if (m.stepIndex >= readings.size) continue
-                            val mx = m.stepIndex * pxPerPoint
-                            val my = h * (1f - (readings[m.stepIndex] - minV) / range)
-                            val dx = mx - tap.x
-                            val dy = my - tap.y
-                            val dist = abs(dx) + abs(dy)
-                            if (dist < bestDist) {
-                                bestDist = dist
-                                best = m
+                    awaitEachGesture {
+                        val down = awaitFirstDown(requireUnconsumed = false)
+                        val downPos = down.position
+                        var dragged = false
+                        // Track the gesture: a real positional drag disengages
+                        // auto-follow (and is treated as a scroll, not a tap). A press
+                        // that ends near where it started is a tap → hit-test markers.
+                        do {
+                            val event = awaitPointerEvent()
+                            val moved = event.changes.any {
+                                (it.position - downPos).getDistance() > touchSlop
                             }
+                            if (moved) {
+                                dragged = true
+                                following = false
+                            }
+                        } while (event.changes.any { it.pressed })
+
+                        if (!dragged) {
+                            val tap = downPos
+                            val h = size.height.toFloat()
+                            var best: GraphMarker? = null
+                            var bestDist = Float.MAX_VALUE
+                            for (m in markers) {
+                                if (m.stepIndex >= readings.size) continue
+                                val mx = m.stepIndex * pxPerPoint
+                                val my = h * (1f - (readings[m.stepIndex] - minV) / range)
+                                val dist = abs(mx - tap.x) + abs(my - tap.y)
+                                if (dist < bestDist) {
+                                    bestDist = dist
+                                    best = m
+                                }
+                            }
+                            // Horizontal slop is generous (markers are spaced along x and
+                            // the vertical reading may be off-screen tall); the y check is
+                            // looser so a vertically-mismatched tap on the right column
+                            // still opens the nearest marker.
+                            val within = best?.let { m ->
+                                val mx = m.stepIndex * pxPerPoint
+                                abs(mx - tap.x) <= touchSlop
+                            } ?: false
+                            if (within) best?.let(onMarkerTap)
                         }
-                        val within = best?.let { m ->
-                            val mx = m.stepIndex * pxPerPoint
-                            val my = h * (1f - (readings[m.stepIndex] - minV) / range)
-                            abs(mx - tap.x) <= touchSlop && abs(my - tap.y) <= touchSlop
-                        } ?: false
-                        if (within) best?.let(onMarkerTap)
                     }
                 },
         ) {

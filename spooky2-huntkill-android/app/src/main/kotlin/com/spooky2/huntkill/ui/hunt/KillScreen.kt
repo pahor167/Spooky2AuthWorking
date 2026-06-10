@@ -1,6 +1,7 @@
 package com.spooky2.huntkill.ui.hunt
 
 import androidx.activity.compose.BackHandler
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -128,6 +129,18 @@ fun KillScreen(
             )
         }
         val expanded = remember { mutableStateMapOf<Double, Boolean>() }
+
+        // Tapping a hit row opens the reverse-lookup sheet for that frequency, mirroring
+        // the graph marker behaviour on the results screen.
+        var selectedMarker by remember { mutableStateOf<GraphMarker?>(null) }
+        selectedMarker?.let { marker ->
+            MarkerDetailSheet(
+                marker = marker,
+                viewModel = viewModel,
+                onDismiss = { selectedMarker = null },
+            )
+        }
+
         LazyColumn(
             modifier = Modifier.fillMaxWidth().weight(1f),
             verticalArrangement = Arrangement.spacedBy(6.dp),
@@ -135,7 +148,16 @@ fun KillScreen(
             itemsIndexed(state.hits) { index, hit ->
                 val isCurrent = index == state.killIndex - 1
                 Card(
-                    modifier = Modifier.fillMaxWidth(),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clickable {
+                            selectedMarker = GraphMarker(
+                                stepIndex = Int.MAX_VALUE,
+                                frequency = hit.frequency,
+                                deviation = hit.deviation,
+                                isFinal = true,
+                            )
+                        },
                     colors = if (isCurrent) {
                         CardDefaults.cardColors(
                             containerColor = MaterialTheme.colorScheme.primaryContainer,

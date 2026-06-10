@@ -1,5 +1,6 @@
 package com.spooky2.huntkill.ui.hunt
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -60,6 +61,17 @@ fun HitsScreen(
     // Per-hit "show all matches" toggle, keyed by hit frequency. Local UI state only.
     val expanded = remember { mutableStateMapOf<Double, Boolean>() }
 
+    // Shared detail sheet: opened either by tapping a graph marker OR a hit row. A single
+    // piece of state keeps only one sheet up at a time.
+    var selectedMarker by remember { mutableStateOf<GraphMarker?>(null) }
+    selectedMarker?.let { marker ->
+        MarkerDetailSheet(
+            marker = marker,
+            viewModel = viewModel,
+            onDismiss = { selectedMarker = null },
+        )
+    }
+
     Column(
         modifier = Modifier.fillMaxSize().padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
@@ -84,7 +96,6 @@ fun HitsScreen(
         // Compact end-of-scan view of the scrollable graph with the FINAL hit markers,
         // so the user can review where each hit landed and tap one for its matches.
         if (state.fullHistory.isNotEmpty()) {
-            var selectedMarker by remember { mutableStateOf<GraphMarker?>(null) }
             Text("Scan graph", style = MaterialTheme.typography.titleSmall)
             ScrollableReadingGraph(
                 readings = state.fullHistory,
@@ -93,13 +104,6 @@ fun HitsScreen(
                 onMarkerTap = { selectedMarker = it },
                 modifier = Modifier.fillMaxWidth().height(120.dp),
             )
-            selectedMarker?.let { marker ->
-                MarkerDetailSheet(
-                    marker = marker,
-                    viewModel = viewModel,
-                    onDismiss = { selectedMarker = null },
-                )
-            }
         }
 
         if (state.hits.isEmpty()) {
@@ -118,7 +122,20 @@ fun HitsScreen(
         ) {
             itemsIndexed(state.hits) { index, hit ->
                 val matches = state.lookupResults[hit.frequency]
-                Card(modifier = Modifier.fillMaxWidth()) {
+                Card(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        // Tapping the row opens the same reverse-lookup sheet as the graph
+                        // dot — the most discoverable way to see a hit's matches.
+                        .clickable {
+                            selectedMarker = GraphMarker(
+                                stepIndex = Int.MAX_VALUE,
+                                frequency = hit.frequency,
+                                deviation = hit.deviation,
+                                isFinal = true,
+                            )
+                        },
+                ) {
                     Column(Modifier.padding(12.dp)) {
                         Text(
                             "${index + 1}. ${hit.frequency.asHz()}",

@@ -140,6 +140,54 @@ class HuntViewModelReverseLookupTest {
         assertTrue("lookupResults should be non-empty after Done", finalState.lookupResults.isNotEmpty())
     }
 
+    /**
+     * The data path behind the tappable graph dots and hit rows: tapping a found
+     * frequency opens [MarkerDetailSheet], which calls [HuntViewModel.lookupForFrequency].
+     * This verifies that path returns the expected match for a real post-hunt hit
+     * frequency — both before the bulk lookup map is populated (computed on demand) and
+     * after (served from the cached results).
+     */
+    @Test
+    fun `lookupForFrequency returns matches for a found hit frequency`() = runBlocking {
+        // First pass: discover a real hit frequency from the golden demo run.
+        val probe = buildViewModel(probeSource())
+        probe.startHunt()
+        val done = awaitDone(probe)
+        assertEquals(HuntPhase.Done, done.phase)
+        val hitFreq = done.hits.first().frequency
+
+        // Second pass: a DB pinned to that exact hit frequency.
+        val source = FakeDatabaseSource(
+            listOf(
+                ProgramEntry("Catarrh", "RIFE", "", doubleArrayOf(hitFreq)),
+                ProgramEntry("Nowhere", "XTRA", "", doubleArrayOf(12.0)),
+            ),
+        )
+        val viewModel = buildViewModel(source)
+        viewModel.startHunt()
+        awaitDone(viewModel)
+
+        // The sheet's data path: on-demand single-frequency lookup. Returns the match
+        // even if the bulk map has not finished populating yet.
+        val matches = viewModel.lookupForFrequency(hitFreq)
+        assertTrue("lookupForFrequency must return a non-null result for a found hit", matches != null)
+        assertTrue(
+            "expected the pinned Catarrh (RIFE) match for the tapped hit frequency",
+            matches!!.any { it.programName == "Catarrh" && it.database == "RIFE" },
+        )
+        assertTrue(
+            "report line must include the matched frequency in Hz",
+            matches.first { it.programName == "Catarrh" }.toReportLine().contains("Hz"),
+        )
+
+        // And once the bulk lookup completes, the same path is served from cache and the
+        // hit's frequency is present as a key in lookupResults (what the rows render).
+        val state = awaitLookupComplete(viewModel)
+        assertTrue("bulk lookup map must contain the hit frequency", state.lookupResults.containsKey(hitFreq))
+        val cached = viewModel.lookupForFrequency(hitFreq)
+        assertEquals(state.lookupResults[hitFreq], cached)
+    }
+
     @Test
     fun `changing tolerance re-runs the lookup`() = runBlocking {
         val source = FakeDatabaseSource(
