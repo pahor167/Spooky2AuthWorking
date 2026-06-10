@@ -11,7 +11,7 @@ package com.spooky2.huntkill.service
  * This is intentionally NOT wired yet. Today the scan already survives recomposition
  * and navigation because it runs in [HuntViewModel][com.spooky2.huntkill.ui.hunt.HuntViewModel]'s
  * `viewModelScope`, which is scoped to the navigation-graph back stack entry and
- * outlives individual screens. That is sufficient for the in-app, foreground demo.
+ * outlives individual screens. That is sufficient while the app stays foregrounded.
  *
  * Phase 5 work items:
  *   1. Add a `ScanForegroundService` (FGS type `connectedDevice`) started when a hunt

@@ -100,6 +100,12 @@ All commands run from the `spooky2-huntkill-android/` directory.
 
 ## No-Hardware Testing Strategy
 
+The runtime app connects to a real generator over USB only — there is no in-app demo
+mode. Dump replay is strictly a **test-only** verification mechanism: the
+`FakeTransport` and the recorded dumps live in the test source sets
+(`app/src/test/...` and `core/src/test/resources/dumps/`) and drive the golden,
+pause, and cancel unit tests. No recorded data is bundled into the shipped APK.
+
 The core algorithms are tested against real GeneratorX Pro serial dumps without any
 hardware. The dumps live in `core/src/test/resources/dumps/` (copied from
 `Spooky2Net/Data/`):

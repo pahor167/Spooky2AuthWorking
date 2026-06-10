@@ -19,9 +19,9 @@ class SessionHolder @Inject constructor() {
     val session: StateFlow<GeneratorSession?> = _session.asStateFlow()
 
     /**
-     * Optional per-hunt reconnector. The demo path sets this to rebuild a fresh
-     * single-use replay each run; the live USB path leaves it null so the open
-     * session is reused across hunts.
+     * Optional per-hunt reconnector. The live USB path leaves this null so the open
+     * session is reused across hunts. The no-hardware replay tests set it to rebuild a
+     * fresh single-use FakeTransport session each run.
      */
     private var reconnect: (suspend () -> GeneratorSession)? = null
 
@@ -35,7 +35,7 @@ class SessionHolder @Inject constructor() {
 
     /**
      * Resolve the session to run a hunt on. If a reconnector is set, build a fresh
-     * session and swap it in (demo replay reset); otherwise reuse the current one.
+     * session and swap it in (test replay reset); otherwise reuse the current one.
      */
     suspend fun acquireForHunt(): GeneratorSession? {
         val block = reconnect

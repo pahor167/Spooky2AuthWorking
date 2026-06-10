@@ -1,15 +1,13 @@
 package com.spooky2.huntkill.data
 
 /**
- * Parser for the plain-text serial dumps (line-by-line command/response) used to
- * drive a [com.spooky2.huntkill.transport.fake.FakeTransport] inside a real running app.
+ * TEST-ONLY parser for the plain-text serial dumps (line-by-line command/response)
+ * used to drive a [com.spooky2.huntkill.transport.fake.FakeTransport] from a recorded
+ * `dumps/FullHuntAndKill` fixture.
  *
- * Ported verbatim from the transport test helper
- * `com.spooky2.huntkill.transport.PlainTextDumpParser` so the app (not just tests)
- * can build a [com.spooky2.huntkill.transport.fake.FakeTransport] from the bundled
- * `dumps/FullHuntAndKill` asset. The only difference from the test helper is that
- * this version parses an in-memory line list (read from an Android asset stream),
- * keeping it free of `java.io.File`.
+ * Parses an in-memory line list (read from a `src/test/resources` dump), keeping it
+ * free of `java.io.File`. The runtime app has no demo replay path, so this lives in
+ * the test source set as part of the no-hardware verification backbone.
  */
 object PlainTextDumpParser {
 

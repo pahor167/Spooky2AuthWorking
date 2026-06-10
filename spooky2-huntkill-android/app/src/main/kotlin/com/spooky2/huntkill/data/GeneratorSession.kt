@@ -9,7 +9,7 @@ import com.spooky2.huntkill.transport.SerialTransport
  * [GeneratorClient] ([com.spooky2.huntkill.core.scan.GeneratorLink] impl) bridging
  * it onto `core`, and a [ScanEngine] driving that link.
  *
- * Created by [GeneratorSessionFactory.connect]; closed via [close].
+ * Built by [UsbConnectionManager] for the live USB path; closed via [close].
  */
 class GeneratorSession(
     val baudRate: Int,
@@ -19,12 +19,19 @@ class GeneratorSession(
     val client: GeneratorClient,
     val engine: ScanEngine,
     /**
-     * USB endpoint this session was opened on, when it is a live USB session: which
-     * serial [portIndex] of how many [portCount]. Null for the demo (no-hardware)
-     * path. Used by the in-app generator switcher to re-open a different port of the
-     * SAME device without re-enumerating or re-requesting USB permission.
+     * USB endpoint this session was opened on: which serial [portIndex] of how many
+     * [portCount]. Used by the in-app generator switcher to re-open a different port of
+     * the SAME device without re-enumerating or re-requesting USB permission. Null only
+     * for the test replay sessions built off a FakeTransport.
      */
     val usbPort: UsbPortInfo? = null,
+    /**
+     * True only for the no-hardware test replay sessions (FakeTransport). Replay
+     * sessions run with fast scan timing (no settle delay / amplitude ramp) so the
+     * recorded dump reproduces; live USB sessions are always `false` and use the
+     * original Spooky2 timing. The runtime app never constructs a demo session.
+     */
+    val isDemo: Boolean = false,
 ) {
     suspend fun close() {
         client.close()
@@ -33,62 +40,3 @@ class GeneratorSession(
 
 /** Which USB serial port (0-based [index]) of how many [count] a live session uses. */
 data class UsbPortInfo(val index: Int, val count: Int)
-
-/**
- * Opens and authenticates a [GeneratorSession] from a [TransportFactory].
- *
- * Default path is the demo (fake) transport. The wiring mirrors the transport
- * end-to-end test exactly: a [GeneratorClient] is built on a fresh transport and the
- * link is opened at the GeneratorX baud (the bundled dump is a post-auth GeneratorX
- * Pro session). When a [FakeTransport][com.spooky2.huntkill.transport.fake.FakeTransport]
- * handshake fixture is present, the recorded challenge-response is exercised; the
- * resulting [GeneratorAuthentication][com.spooky2.huntkill.core.auth.GeneratorAuthentication]
- * token is surfaced as [GeneratorSession.authToken].
- *
- * The real USB path reuses [GeneratorClient.connect] (baud probe + full auth) — see
- * the `connectViaProbe` flag.
- */
-class GeneratorSessionFactory(
-    private val transportFactory: TransportFactory,
-    private val handshake: com.spooky2.huntkill.transport.fake.FakeTransport.HandshakeFixture? = null,
-    private val connectViaProbe: Boolean = false,
-) {
-    suspend fun connect(): GeneratorSession {
-        val transport = transportFactory.create()
-        val client = GeneratorClient(transport = transport)
-
-        if (connectViaProbe) {
-            // Real hardware path: probe baud rates + run full challenge-response auth.
-            val connection = client.connect()
-                ?: throw IllegalStateException("No generator answered on any baud rate")
-            return GeneratorSession(
-                baudRate = connection.baudRate,
-                generatorType = connection.generatorType,
-                authToken = null,
-                transport = transport,
-                client = client,
-                engine = ScanEngine(client),
-            )
-        }
-
-        // Demo path: open the GeneratorX link directly (the recorded dump is already
-        // post-auth), mirroring the transport end-to-end test wiring exactly.
-        transport.open(GeneratorClient.BAUD_GENERATORX)
-
-        val token = handshake?.let { fixture ->
-            // Drive the recorded challenge-response so auth is genuinely exercised.
-            val challenge = com.spooky2.huntkill.core.auth.GeneratorAuthentication.generateChallenge()
-            com.spooky2.huntkill.core.auth.GeneratorAuthentication
-                .computeAuthToken(challenge, fixture.deviceResponse)
-        }
-
-        return GeneratorSession(
-            baudRate = GeneratorClient.BAUD_GENERATORX,
-            generatorType = GeneratorClient.GENERATOR_TYPE_GENERATORX,
-            authToken = token,
-            transport = transport,
-            client = client,
-            engine = ScanEngine(client),
-        )
-    }
-}

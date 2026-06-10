@@ -11,7 +11,6 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -113,15 +112,6 @@ fun ConnectScreen(
                 style = MaterialTheme.typography.bodySmall,
                 textAlign = TextAlign.Center,
             )
-        }
-
-        Spacer(Modifier.height(12.dp))
-        OutlinedButton(
-            onClick = viewModel::connect,
-            enabled = state.status != ConnectStatus.Connecting,
-            modifier = Modifier.fillMaxWidth(),
-        ) {
-            Text("Connect (Demo)", maxLines = 1, overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis)
         }
 
         Spacer(Modifier.height(24.dp))

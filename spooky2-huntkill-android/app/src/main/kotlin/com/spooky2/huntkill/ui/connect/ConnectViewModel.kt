@@ -3,7 +3,6 @@ package com.spooky2.huntkill.ui.connect
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.spooky2.huntkill.data.GeneratorSession
-import com.spooky2.huntkill.data.GeneratorSessionFactory
 import com.spooky2.huntkill.data.SessionHolder
 import com.spooky2.huntkill.data.UsbConnectionManager
 import com.spooky2.huntkill.log.LogBus
@@ -16,10 +15,9 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 /**
- * Connect/Auth screen state. The flow is now connect-FIRST: the user taps a single
- * "Connect (USB)" (or "Connect (Demo)") button — no port picker. USB connect targets
- * port 0 by default; choosing/switching the generator happens later on the Hunt
- * config screen.
+ * Connect/Auth screen state. The flow is connect-FIRST: the user taps a single
+ * "Connect (USB)" button — no port picker. USB connect targets port 0 by default;
+ * choosing/switching the generator happens later on the Hunt config screen.
  *
  * [usbAttached] only drives a small "no device attached" hint; it is not a selector.
  */
@@ -38,7 +36,6 @@ enum class ConnectStatus { Idle, Connecting, Connected, Error }
 
 @HiltViewModel
 class ConnectViewModel @Inject constructor(
-    private val sessionFactory: GeneratorSessionFactory,
     private val sessionHolder: SessionHolder,
     private val usbConnectionManager: UsbConnectionManager,
     private val log: LogBus,
@@ -55,25 +52,6 @@ class ConnectViewModel @Inject constructor(
     fun refreshUsbDevices() {
         val attached = usbConnectionManager.findGenerator() != null
         _state.update { it.copy(usbAttached = attached) }
-    }
-
-    /** Demo connect: replays the bundled dump; a fresh replay is rebuilt per hunt. */
-    fun connect() {
-        if (_state.value.status == ConnectStatus.Connecting) return
-        _state.update { it.copy(status = ConnectStatus.Connecting, errorMessage = null) }
-        log.i(TAG, "Demo connect attempt")
-
-        viewModelScope.launch {
-            runCatching { sessionFactory.connect() }
-                .onSuccess { session ->
-                    sessionHolder.set(session)
-                    // Demo replay is single-use: rebuild a fresh session each hunt.
-                    sessionHolder.setReconnect { sessionFactory.connect() }
-                    logConnected("Demo", session)
-                    setConnected(session)
-                }
-                .onFailure { error -> fail("Demo", error) }
-        }
     }
 
     /**

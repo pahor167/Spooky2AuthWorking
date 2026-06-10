@@ -59,28 +59,40 @@ data class HuntParamsUi(
     /** True when every field parses and the range is sane. */
     fun isValid(): Boolean = validationError() == null
 
-    fun toScanParameters(): ScanParameters = ScanParameters(
-        startFrequency = startFrequencyText.toDoubleOrNull() ?: 41000.0,
-        endFrequency = endFrequencyText.toDoubleOrNull() ?: 1_800_000.0,
-        dwellSeconds = dwellSecondsText.toDoubleOrNull() ?: 180.0,
-        targetAmplitudeCv = targetAmplitudeCvText.toIntOrNull() ?: 2000,
-        // Demo dump is post-auth with no real ramp/delay; keep the engine fast and
-        // single-cycle so the replayed session reproduces the golden 10 hits.
-        startDelayMs = 0,
-        minReadDelaySeconds = 0.0,
-        enableAmplitudeRampUp = false,
-        enableAmplitudeRampDown = false,
-        continueRefining = false,
-    )
+    fun toScanParameters(isDemo: Boolean): ScanParameters {
+        val base = ScanParameters(
+            startFrequency = startFrequencyText.toDoubleOrNull() ?: 41000.0,
+            endFrequency = endFrequencyText.toDoubleOrNull() ?: 1_800_000.0,
+            dwellSeconds = dwellSecondsText.toDoubleOrNull() ?: 180.0,
+            targetAmplitudeCv = targetAmplitudeCvText.toIntOrNull() ?: 2000,
+            // Single Hunt→Kill cycle: the UI flow ends at the Done summary rather
+            // than looping scan→kill until no hits remain (original refine loop).
+            continueRefining = false,
+        )
+        // Live hardware keeps the ScanParameters defaults, which mirror the original
+        // Spooky2 timing: 0.07s settle per sweep step (~17 min over 15k steps),
+        // 200ms start delay, and the 330-step amplitude ramp up/down. Reading the
+        // sensor without the settle delay returns values before the response has
+        // stabilized, degrading hit quality.
+        if (!isDemo) return base
+        // Demo replay: the recorded dump has no real latency; run fast and skip the
+        // ramp so the replayed session reproduces the golden 10 hits.
+        return base.copy(
+            startDelayMs = 0,
+            minReadDelaySeconds = 0.0,
+            enableAmplitudeRampUp = false,
+            enableAmplitudeRampDown = false,
+        )
+    }
 }
 
 /** Connection summary shown as an info chip on the Hunt config screen. */
 data class GeneratorInfo(
     val generatorType: String,
     val baudRate: Int,
-    /** 0-based port index of the active generator, or null for the demo path. */
+    /** 0-based port index of the active generator, or null for test replay sessions. */
     val portIndex: Int?,
-    /** Total selectable ports on the device, or null for the demo path. */
+    /** Total selectable ports on the device, or null for test replay sessions. */
     val portCount: Int?,
 ) {
     /** True when the device exposes more than one generator port (switcher shown). */
@@ -164,7 +176,7 @@ class HuntViewModel @Inject constructor(
     /**
      * Switch the active generator to a different USB port of the SAME device. Closes
      * the current session, opens the chosen port (permission already granted), and
-     * swaps it into [SessionHolder]. No-op while a hunt is running or for the demo path.
+     * swaps it into [SessionHolder]. No-op while a hunt is running or with no USB manager.
      */
     fun switchGenerator(portIndex: Int) {
         if (_state.value.isRunning || _state.value.isSwitchingGenerator) return
@@ -220,12 +232,6 @@ class HuntViewModel @Inject constructor(
             return
         }
 
-        val parameters = _state.value.params.toScanParameters()
-        log.i(
-            TAG,
-            "startHunt: start=${parameters.startFrequency} end=${parameters.endFrequency} " +
-                "dwell=${parameters.dwellSeconds}s ampCv=${parameters.targetAmplitudeCv}",
-        )
         pauseGate.resume()
         _state.update {
             it.copy(
@@ -246,9 +252,9 @@ class HuntViewModel @Inject constructor(
         startElapsedTicker()
 
         huntJob = viewModelScope.launch(Dispatchers.Default) {
-            // Demo path rebuilds a fresh single-use replay each run (the FakeTransport
-            // read pointer is consumed by a scan); the live USB path reuses the open
-            // session. Both go through SessionHolder.acquireForHunt().
+            // The live USB path reuses the open session across hunts (no reconnector).
+            // Test replay sessions set a reconnector so a fresh single-use FakeTransport
+            // is rebuilt each run. Both go through SessionHolder.acquireForHunt().
             val session = runCatching { sessionHolder.acquireForHunt() }.getOrElse { error ->
                 log.e(TAG, "acquireForHunt failed: ${error.message}")
                 _state.update {
@@ -271,6 +277,17 @@ class HuntViewModel @Inject constructor(
                 }
                 return@launch
             }
+
+            // Timing depends on the session kind: live hardware uses the original
+            // Spooky2 settle delay + amplitude ramp; the demo replay runs fast.
+            val parameters = _state.value.params.toScanParameters(isDemo = session.isDemo)
+            log.i(
+                TAG,
+                "startHunt(${if (session.isDemo) "demo" else "live"}): " +
+                    "start=${parameters.startFrequency} end=${parameters.endFrequency} " +
+                    "dwell=${parameters.dwellSeconds}s ampCv=${parameters.targetAmplitudeCv} " +
+                    "readDelay=${parameters.minReadDelaySeconds}s ramp=${parameters.enableAmplitudeRampUp}",
+            )
 
             runCatching {
                 session.engine.runHuntAndKill(
