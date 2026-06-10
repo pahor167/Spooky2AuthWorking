@@ -339,8 +339,12 @@ public class DumpIntegrationTests
         // Should start with display name
         Assert.True(log.Any(c => c.StartsWith(":n00=")), "Should contain display name");
 
-        // Should set the start frequency (DUMP-DERIVED encoding: 41000 → "410008")
-        Assert.Contains(":w24=410008,", (System.Collections.Generic.IEnumerable<string>)log);
+        // Should set the start frequency (raw-Hz setup write: 41000 → "41000").
+        Assert.Contains(":w24=41000,", (System.Collections.Generic.IEnumerable<string>)log);
+        // The first ENCODED sweep write is now StartFrequency*(1+step) = 41010.25,
+        // exactly matching the original dump's first :w24 sweep frequency
+        // (41010256), because the grid advances one step before recording.
+        Assert.Contains(":w24=41010256,", (System.Collections.Generic.IEnumerable<string>)log);
 
         // Should have amplitude ramp-up
         Assert.Contains(":w28=6,", log);

@@ -141,9 +141,12 @@ public class ScanServiceTests
 
         var steps = ScanService.CalculateFrequencySteps(parameters);
 
-        Assert.Equal(6, steps.Count); // 1000, 1100, 1200, 1300, 1400, 1500
-        Assert.Equal(1000, steps[0]);
-        Assert.Equal(1500, steps[5]);
+        // The grid advances ONE step BEFORE recording (matches the original's
+        // transmitted sweep), so the first entry is start+stepHz and the grid runs
+        // one step past EndFrequency: 1100, 1200, 1300, 1400, 1500, 1600.
+        Assert.Equal(6, steps.Count);
+        Assert.Equal(1100, steps[0]);
+        Assert.Equal(1600, steps[5]);
     }
 
     [Fact]
@@ -159,9 +162,10 @@ public class ScanServiceTests
 
         var steps = ScanService.CalculateFrequencySteps(parameters);
 
-        Assert.Equal(1000, steps[0]);
-        Assert.Equal(1100, steps[1], precision: 1); // 1000 + 10%
-        Assert.Equal(1210, steps[2], precision: 1); // 1100 + 10%
+        // Advance-one-step-in grid: first recorded entry is start*(1+step).
+        Assert.Equal(1100, steps[0], precision: 1); // 1000 + 10%
+        Assert.Equal(1210, steps[1], precision: 1); // 1100 + 10%
+        Assert.Equal(1331, steps[2], precision: 1); // 1210 + 10%
         Assert.True(steps.Count >= 7); // log(2)/log(1.1) ≈ 7.27
     }
 
@@ -193,10 +197,14 @@ public class ScanServiceTests
 
         var steps = ScanService.CalculateFrequencySteps(parameters);
 
-        // Should generate thousands of steps
-        Assert.True(steps.Count > 10_000, $"Expected >10000 steps, got {steps.Count}");
-        Assert.Equal(41_000, steps[0]);
-        Assert.True(steps[^1] <= 1_800_000);
+        // Should generate thousands of steps. The advance-one-step-in grid records
+        // start*(1+step) first (41010.25, matching the dump's first :w24 sweep write)
+        // and runs one step past EndFrequency (last ≈ 1800103.30 > 1800000), exactly
+        // as the original Spooky2 transmitted.
+        Assert.Equal(15_130, steps.Count);
+        Assert.Equal(41_010.25, steps[0], precision: 2);
+        Assert.True(steps[^1] > 1_800_000, $"Expected last > 1800000, got {steps[^1]}");
+        Assert.Equal(1_800_103.3033574745, steps[^1], precision: 6);
     }
 
     // ─────────────────────────────────────────────────────────────
@@ -270,10 +278,13 @@ public class ScanServiceTests
 
         // First :w24 is raw Hz setup, then the encoded sweep write follows.
         var freqCmds = mock.CommandLog.Where(c => c.StartsWith(":w24=")).ToList();
-        // Init sends :w24=0, and :w24=00, first, then scan sends raw Hz + encoded
+        // Init sends :w24=0, and :w24=00, first, then scan sends raw Hz setup write.
         Assert.Contains(":w24=76000,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
-        // DUMP-DERIVED encoding: 76000 → "76000" + posCode 8 → "760008"
-        Assert.Contains(":w24=760008,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
+        // The sweep grid now advances ONE step BEFORE recording (matching the
+        // original's transmitted sweep), so the first ENCODED sweep write is
+        // StartFrequency + StepSizeHz = 76100, not 76000.
+        // DUMP-DERIVED encoding: 76100 → "76100" + posCode 8 → "761008".
+        Assert.Contains(":w24=761008,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
     }
 
     // ─────────────────────────────────────────────────────────────

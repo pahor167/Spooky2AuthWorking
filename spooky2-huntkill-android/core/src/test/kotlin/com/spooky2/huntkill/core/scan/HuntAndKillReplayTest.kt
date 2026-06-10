@@ -36,17 +36,22 @@ class HuntAndKillReplayTest {
         val deviation: Double,
     )
 
+    // Frequencies are derived from the CORRECTED sweep grid (advance-one-step-in),
+    // which transmits startFrequency*(1+step) first — matching the original dump's
+    // recorded :w24 sweep frequencies. Each frequency is exactly one 0.025% step
+    // above the old (buggy, one-step-low) value; readings/runningAverages/deviations
+    // are unchanged (same readings, same detection indices).
     private val goldenHits = listOf(
-        GoldenHit(1642312.8469206586, 53053.0, 52956.75, 96.25),
-        GoldenHit(1791126.369943749, 53072.0, 52989.95, 82.05000000000291),
-        GoldenHit(1796058.1290780483, 53108.0, 53030.2, 77.80000000000291),
-        GoldenHit(176821.25762329542, 52590.0, 52516.45, 73.55000000000291),
-        GoldenHit(1792470.0505853875, 53074.0, 53001.95, 72.05000000000291),
-        GoldenHit(176998.14519994234, 52605.0, 52535.65, 69.34999999999854),
-        GoldenHit(1686831.9394644983, 52961.0, 52899.65, 61.349999999998545),
-        GoldenHit(1691053.7666921832, 52986.0, 52929.5, 56.5),
-        GoldenHit(1687675.4608612268, 52958.0, 52902.1, 55.900000000001455),
-        GoldenHit(1590994.8126824652, 52965.0, 52909.3, 55.69999999999709),
+        GoldenHit(1642723.4251323887, 53053.0, 52956.75, 96.25),
+        GoldenHit(1791574.151536235, 53072.0, 52989.95, 82.05000000000291),
+        GoldenHit(1796507.1436103177, 53108.0, 53030.2, 77.80000000000291),
+        GoldenHit(176865.46293770123, 52590.0, 52516.45, 73.55000000000291),
+        GoldenHit(1792918.1680980339, 53074.0, 53001.95, 72.05000000000291),
+        GoldenHit(177042.39473624234, 52605.0, 52535.65, 69.34999999999854),
+        GoldenHit(1687253.6474493644, 52961.0, 52899.65, 61.349999999998545),
+        GoldenHit(1691476.5301338562, 52986.0, 52929.5, 56.5),
+        GoldenHit(1688097.379726442, 52958.0, 52902.1, 55.900000000001455),
+        GoldenHit(1591392.5613856358, 52965.0, 52909.3, 55.69999999999709),
     )
 
     private fun dumpPath(): String {
@@ -128,11 +133,85 @@ class HuntAndKillReplayTest {
 
     @Test
     fun `frequency steps reproduce recorded boundaries`() {
+        // Corrected grid: first recorded sweep frequency is startFrequency*(1+step)
+        // = 41010.25 (matching the dump's first :w24 sweep write), and the grid runs
+        // one step past endFrequency (last ≈ 1800103.30 > 1800000), as the original.
         val frequencies = ScanEngine.calculateFrequencySteps(ScanParameters())
         assertEquals(15130, frequencies.size)
-        assertEquals(41000.0, frequencies[0], 0.0)
-        assertEquals(41010.25, frequencies[1], 0.0)
-        assertEquals(1799653.390009972, frequencies.last(), 0.0)
+        assertEquals(41010.25, frequencies[0], 0.0)
+        assertEquals(41020.5025625, frequencies[1], 0.0)
+        assertEquals(1800103.3033574745, frequencies.last(), 0.0)
+    }
+
+    @Test
+    fun `frequency grid matches the dump's transmitted sweep frequencies for all steps`() {
+        // AUTHORITATIVE alignment pin: decode every transmitted :w24 sweep frequency
+        // recorded by the ORIGINAL Spooky2 software and assert our corrected grid
+        // reproduces each one (within 1e-6 relative). This locks the sweep grid to
+        // ground truth forever, so a one-step misalignment can never hide again.
+        val transmitted = decodeSweepTransmittedFrequencies(
+            java.io.File(dumpPath()).readLines(),
+        )
+        val grid = ScanEngine.calculateFrequencySteps(ScanParameters())
+
+        assertEquals(
+            "transmitted sweep step count vs grid",
+            transmitted.size,
+            grid.size,
+        )
+        assertEquals("expected 15130 transmitted sweep steps", 15130, transmitted.size)
+
+        for (i in transmitted.indices) {
+            val expected = transmitted[i]
+            val actual = grid[i]
+            val relErr = abs(actual - expected) / expected
+            assertTrue(
+                "grid[$i]=$actual vs dump=$expected relErr=$relErr exceeds 1e-6",
+                relErr <= 1e-6,
+            )
+        }
+    }
+
+    /**
+     * Decode the ORIGINAL software's transmitted sweep `:w24` frequencies from the
+     * dump, in file order. Skips the setup writes (`:w24=0,`, `:w24=00,`, the raw-Hz
+     * `:w24=41009,`) and stops at the kill phase. Uses the exact inverse of
+     * [GeneratorProtocol.formatFrequency]: last digit = position code P,
+     * fractional-digit count = 8 - P.
+     */
+    private fun decodeSweepTransmittedFrequencies(lines: List<String>): List<Double> {
+        val killStart = lines.indexOfFirst { it.contains("Hunt and Kill") }
+            .let { if (it < 0) lines.size else it }
+
+        fun decode(payload: String): Double {
+            val posCode = payload.last().digitToInt()
+            val mantissa = payload.dropLast(1)
+            val fracLen = 8 - posCode
+            val text = if (fracLen <= 0) {
+                mantissa
+            } else {
+                val split = mantissa.length - fracLen
+                mantissa.substring(0, split) + "." + mantissa.substring(split)
+            }
+            return java.math.BigDecimal(text).toDouble()
+        }
+
+        val out = ArrayList<Double>()
+        var started = false
+        for (i in 0 until killStart) {
+            val line = lines[i]
+            if (!line.startsWith(":w24=")) continue
+            val payload = line.substring(5).trimEnd(',').trim()
+            if (payload.isEmpty() || payload == "0" || payload == "00") continue
+            // The raw-Hz setup write (e.g. "41009") precedes the encoded sweep; skip
+            // until the first encoded sweep payload (41010.25 → "41010256").
+            if (!started) {
+                if (payload == "41009") continue
+                started = true
+            }
+            out.add(decode(payload))
+        }
+        return out
     }
 
     // ═══════════════════════════════════════════════════════════════
@@ -217,9 +296,14 @@ class HuntAndKillReplayTest {
 
         assertEquals(parameters.maxHits, hits.size)
 
-        // Deviations are identical to the direct-detection golden path; only the
-        // frequency alignment shifts by one step because the replay link maps
-        // sweep readings by read-count rather than by sweep index (matching C#).
+        // Deviations are identical to the direct-detection golden path. The exact
+        // hit FREQUENCIES differ from the direct golden here only because this fake
+        // ReplayGeneratorLink maps sweep readings by total read-COUNT (it also counts
+        // the Phase-1 pre-scan angle reads), so reading[i] lands a couple of grid
+        // slots off from the direct sweepSteps[i] pairing. That is a property of this
+        // test harness's read-count replay, NOT of the (now-corrected) sweep grid —
+        // the authoritative alignment is pinned by
+        // `frequency grid matches the dump's transmitted sweep frequencies …`.
         val expectedDeviations = goldenHits.map { it.deviation }
         assertEquals(expectedDeviations, hits.map { it.deviation })
 

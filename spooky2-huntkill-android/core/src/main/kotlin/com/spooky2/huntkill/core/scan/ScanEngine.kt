@@ -766,17 +766,38 @@ class ScanEngine(private val link: GeneratorLink) {
                 .take(parameters.maxHits)
         }
 
-        /** Port of C# `CalculateFrequencySteps`: 0.025% log or linear Hz steps. */
+        /**
+         * Port of C# `CalculateFrequencySteps`: 0.025% log (or linear Hz) steps.
+         *
+         * Alignment with the ORIGINAL Spooky2 (proven against Data/FullHuntAndKill):
+         * sweep step `i` TRANSMITS `startFrequency * (1 + step)^(i+1)`, i.e. the
+         * first recorded sweep frequency is `startFrequency * (1 + step)`
+         * (41010.25 Hz for the defaults, NOT 41000.00), and the grid runs one step
+         * PAST `endFrequency` (last ≈ 1800103.30 Hz). We therefore ADVANCE one step
+         * BEFORE recording each entry. Readings pair 1:1 with this corrected grid,
+         * so a reported/killed hit frequency matches what the original transmitted.
+         *
+         * Verified: 15130 entries for the default params; first = 41010.25,
+         * last ≈ 1800103.2959…; `calculateFrequencySteps(default)[i]` equals the
+         * dump's decoded `:w24` sweep frequency at index `i` within 1e-6 relative
+         * for all 15130 steps. The continuation condition still tests the
+         * pre-advance value so the entry count matches the dump exactly.
+         *
+         * Linear (Hz-step) mode applies the same one-step-in shift for consistency
+         * (the first recorded entry is `startFrequency + stepSizeHz`).
+         */
         fun calculateFrequencySteps(parameters: ScanParameters): List<Double> {
             val frequencies = ArrayList<Double>()
             var freq = parameters.startFrequency
             while (freq <= parameters.endFrequency) {
-                frequencies.add(freq)
+                // Advance one step BEFORE recording so the first transmitted/recorded
+                // frequency is startFrequency*(1+step), matching the original dump.
                 freq += if (parameters.usePercentageStep) {
                     freq * (parameters.stepSizePercent / 100.0)
                 } else {
                     parameters.stepSizeHz
                 }
+                frequencies.add(freq)
             }
             return frequencies
         }
