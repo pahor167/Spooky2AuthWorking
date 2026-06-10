@@ -1,5 +1,6 @@
 package com.spooky2.huntkill.ui.hunt
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -37,6 +38,9 @@ fun KillScreen(
 ) {
     val state by viewModel.state.collectAsState()
 
+    // System back while killing = Stop & Zero (zero + back to config).
+    BackHandler(enabled = state.isRunning) { viewModel.safetyStop() }
+
     LaunchedEffect(state.phase) {
         when (state.phase) {
             HuntPhase.Done -> onDone()
@@ -54,6 +58,7 @@ fun KillScreen(
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         Text("Kill Phase", style = MaterialTheme.typography.headlineSmall)
+        PhaseChip(state.phase, state.isPaused)
         Text(
             state.statusText,
             style = MaterialTheme.typography.bodyMedium,
@@ -66,7 +71,7 @@ fun KillScreen(
         Card(modifier = Modifier.fillMaxWidth()) {
             Column(Modifier.padding(16.dp)) {
                 Text(
-                    "Killing ${state.killIndex}/${state.killTotal}",
+                    "Treating ${state.killIndex} of ${state.killTotal}",
                     style = MaterialTheme.typography.titleMedium,
                     maxLines = 1,
                     softWrap = false,
@@ -131,7 +136,7 @@ fun KillScreen(
                 Text(if (state.isPaused) "Resume" else "Pause")
             }
             OutlinedButton(onClick = viewModel::safetyStop, modifier = Modifier.weight(1f)) {
-                Text("Stop (safety)")
+                Text("Stop & Zero")
             }
         }
 

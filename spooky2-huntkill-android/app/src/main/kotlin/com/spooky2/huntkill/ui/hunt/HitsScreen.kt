@@ -2,6 +2,7 @@ package com.spooky2.huntkill.ui.hunt
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -12,6 +13,7 @@ import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -21,22 +23,30 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
 import com.spooky2.huntkill.ui.common.asHz
+import kotlin.math.roundToInt
 
 @Composable
 fun HitsScreen(
     viewModel: HuntViewModel,
-    onStartKill: () -> Unit,
+    onRunAgain: () -> Unit,
+    onDisconnect: () -> Unit,
 ) {
     val state by viewModel.state.collectAsState()
+    val dwellSeconds = state.params.dwellSecondsText.toDoubleOrNull() ?: 0.0
+    val totalMinutes = (state.hits.size * dwellSeconds / 60.0).roundToInt()
 
     Column(
         modifier = Modifier.fillMaxSize().padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text("Detected Hits (${state.hits.size})", style = MaterialTheme.typography.headlineSmall)
+        Text("Hunt complete", style = MaterialTheme.typography.headlineSmall)
+        Text(
+            "${state.hits.size} hits · treated for ~$totalMinutes min total",
+            style = MaterialTheme.typography.bodyMedium,
+        )
 
         if (state.hits.isEmpty()) {
-            Text("Scanning… hits appear when a cycle completes.")
+            Text("No resonant frequencies were detected this run.")
         }
 
         LazyColumn(
@@ -61,12 +71,19 @@ fun HitsScreen(
         }
 
         Spacer(Modifier.height(8.dp))
-        Button(
-            onClick = onStartKill,
-            enabled = state.hits.isNotEmpty(),
-            modifier = Modifier.fillMaxWidth(),
-        ) {
-            Text("Start Kill")
+        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Button(onClick = onRunAgain, modifier = Modifier.weight(1f)) {
+                Text("Run again")
+            }
+            OutlinedButton(
+                onClick = {
+                    viewModel.disconnect()
+                    onDisconnect()
+                },
+                modifier = Modifier.weight(1f),
+            ) {
+                Text("Disconnect")
+            }
         }
 
         Spacer(Modifier.height(8.dp))

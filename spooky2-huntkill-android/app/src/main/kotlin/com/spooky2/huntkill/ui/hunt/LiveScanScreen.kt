@@ -1,5 +1,6 @@
 package com.spooky2.huntkill.ui.hunt
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -9,6 +10,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.AssistChip
+import androidx.compose.material3.AssistChipDefaults
 import androidx.compose.material3.Button
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
@@ -35,6 +38,9 @@ fun LiveScanScreen(
 ) {
     val state by viewModel.state.collectAsState()
 
+    // System back while running = Cancel (zero + back to config), never a silent run.
+    BackHandler(enabled = state.isRunning) { viewModel.cancel() }
+
     LaunchedEffect(state.phase) {
         when (state.phase) {
             // The engine auto-chains kill after the sweep, so the moment hits are found
@@ -52,6 +58,8 @@ fun LiveScanScreen(
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         Text("Live Scan", style = MaterialTheme.typography.headlineSmall)
+        PhaseChip(state.phase, state.isPaused)
+
         Text(
             state.statusText,
             style = MaterialTheme.typography.bodyMedium,
@@ -59,6 +67,24 @@ fun LiveScanScreen(
             softWrap = false,
             overflow = TextOverflow.Ellipsis,
         )
+
+        // Bigger frequency readout — the headline number the user watches.
+        Text(state.currentFrequency.asHz(), style = MaterialTheme.typography.headlineMedium)
+
+        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+            Text(
+                "${"%.0f".format(state.percentComplete)}% complete",
+                style = MaterialTheme.typography.bodyMedium,
+            )
+            Text(
+                if (state.estimatedRemainingSeconds > 0) {
+                    "~${formatElapsed(state.estimatedRemainingSeconds)} left"
+                } else {
+                    "estimating…"
+                },
+                style = MaterialTheme.typography.bodyMedium,
+            )
+        }
         Text("Elapsed: ${formatElapsed(state.elapsedSeconds)}", style = MaterialTheme.typography.bodyMedium)
 
         LinearProgressIndicator(
@@ -66,13 +92,6 @@ fun LiveScanScreen(
             modifier = Modifier.fillMaxWidth(),
         )
 
-        Text("Phase: ${state.phase}")
-        Text(
-            "Frequency: ${state.currentFrequency.asHz()}",
-            maxLines = 1,
-            softWrap = false,
-            overflow = TextOverflow.Ellipsis,
-        )
         Text("Amplitude CV: ${state.amplitudeCv}")
         Text("Latest reading (angle): ${"%.1f".format(state.currentReading)}")
         Text("Running average: ${"%.1f".format(state.runningAverage)}")
@@ -96,6 +115,26 @@ fun LiveScanScreen(
         Spacer(Modifier.height(8.dp))
         DisclaimerBanner()
     }
+}
+
+/** Colored status chip: Hunting=primary, Killing=error, Paused=tertiary. */
+@Composable
+internal fun PhaseChip(phase: HuntPhase, isPaused: Boolean) {
+    val (label, color) = when {
+        isPaused -> "Paused" to MaterialTheme.colorScheme.tertiaryContainer
+        phase == HuntPhase.Killing -> "Killing" to MaterialTheme.colorScheme.errorContainer
+        phase == HuntPhase.Hunting -> "Hunting" to MaterialTheme.colorScheme.primaryContainer
+        else -> phase.name to MaterialTheme.colorScheme.surfaceVariant
+    }
+    AssistChip(
+        onClick = {},
+        enabled = false,
+        label = { Text(label) },
+        colors = AssistChipDefaults.assistChipColors(
+            disabledContainerColor = color,
+            disabledLabelColor = MaterialTheme.colorScheme.onSurface,
+        ),
+    )
 }
 
 @Composable

@@ -146,6 +146,26 @@ class GeneratorClient(
         rawSend(GeneratorProtocol.CLEAR_FREQUENCY2, responseTimeoutMs)
     }
 
+    /**
+     * Full safety zero-out for Cancel / safety-stop: clear both frequency channels,
+     * set both amplitude CV outputs to 0, then run the normal [stop] path.
+     *
+     * Mirrors the engine's post-kill cleanup (clear freq + amplitude 0) plus the
+     * output-off [stop] sequence, collapsed into one explicit "make it safe now" call.
+     *
+     * Safe to call even mid-scan after the scan job has been cancelled: each command
+     * is sent under its own [runCatching] so a closed/half-open transport can never
+     * make this throw. It does NOT check coroutine activity, so a cancelled scope
+     * still completes the zero-out.
+     */
+    suspend fun zeroOutput() {
+        runCatching { rawSend(GeneratorProtocol.CLEAR_FREQUENCY1, responseTimeoutMs) }
+        runCatching { rawSend(GeneratorProtocol.CLEAR_FREQUENCY2, responseTimeoutMs) }
+        runCatching { rawSend(GeneratorProtocol.buildSetAmplitudeCv1(0), responseTimeoutMs) }
+        runCatching { rawSend(GeneratorProtocol.buildSetAmplitudeCv2(0), responseTimeoutMs) }
+        runCatching { stop() }
+    }
+
     /** Close the underlying transport. Idempotent. */
     suspend fun close() {
         connected = false

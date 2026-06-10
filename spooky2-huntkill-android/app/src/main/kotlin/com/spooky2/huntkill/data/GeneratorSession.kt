@@ -18,11 +18,21 @@ class GeneratorSession(
     private val transport: SerialTransport,
     val client: GeneratorClient,
     val engine: ScanEngine,
+    /**
+     * USB endpoint this session was opened on, when it is a live USB session: which
+     * serial [portIndex] of how many [portCount]. Null for the demo (no-hardware)
+     * path. Used by the in-app generator switcher to re-open a different port of the
+     * SAME device without re-enumerating or re-requesting USB permission.
+     */
+    val usbPort: UsbPortInfo? = null,
 ) {
     suspend fun close() {
         client.close()
     }
 }
+
+/** Which USB serial port (0-based [index]) of how many [count] a live session uses. */
+data class UsbPortInfo(val index: Int, val count: Int)
 
 /**
  * Opens and authenticates a [GeneratorSession] from a [TransportFactory].

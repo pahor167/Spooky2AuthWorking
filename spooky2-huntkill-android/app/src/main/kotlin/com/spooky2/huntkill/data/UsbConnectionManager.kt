@@ -163,14 +163,33 @@ class UsbConnectionManager @Inject constructor(
         }
     }
 
+    /** The device the most recent [connect] opened, kept so the in-app generator
+     *  switcher can re-open a different port of the SAME device without re-enumerating
+     *  or re-requesting USB permission. */
+    private var lastConnectedDevice: UsbDevice? = null
+
     /**
-     * Convenience: connect to the first auto-detected generator. Kept for callers that
-     * don't let the user pick a specific device.
+     * Convenience: connect to the first auto-detected generator on port 0. The Connect
+     * screen uses this — it no longer asks the user to pick a port up front; the
+     * generator is chosen/switched later on the Hunt config screen.
      */
     suspend fun connect(): GeneratorSession {
         val device = findGenerator()
             ?: throw IllegalStateException("No generator found. Attach a Spooky2 generator over USB-OTG.")
-        return connect(device)
+        val count = UsbCdcSerialTransport.countPorts(usbManager, device).coerceAtLeast(1)
+        return connect(device, portIndex = 0, portCount = count)
+    }
+
+    /**
+     * Re-open the SAME device on a different [portIndex]. Used by the generator
+     * switcher: permission is already granted, so this skips enumeration/permission and
+     * just opens the chosen port. Throws if no device has been connected yet.
+     */
+    suspend fun switchPort(portIndex: Int): GeneratorSession {
+        val device = lastConnectedDevice
+            ?: throw IllegalStateException("No connected device to switch ports on.")
+        val count = UsbCdcSerialTransport.countPorts(usbManager, device).coerceAtLeast(1)
+        return connect(device, portIndex = portIndex, portCount = count)
     }
 
     /**
@@ -179,14 +198,19 @@ class UsbConnectionManager @Inject constructor(
      * of a dual-generator device share one USB permission grant. Throws with a clear
      * message on any failure.
      */
-    suspend fun connect(device: UsbDevice, portIndex: Int = 0): GeneratorSession {
+    suspend fun connect(
+        device: UsbDevice,
+        portIndex: Int = 0,
+        portCount: Int = UsbCdcSerialTransport.countPorts(usbManager, device).coerceAtLeast(1),
+    ): GeneratorSession {
         log.i(
             TAG,
-            "Connecting to selected generator vid=0x%04X pid=0x%04X name=%s port=%d".format(
+            "Connecting to selected generator vid=0x%04X pid=0x%04X name=%s port=%d/%d".format(
                 device.vendorId,
                 device.productId,
                 device.deviceName,
                 portIndex,
+                portCount,
             ),
         )
 
@@ -213,6 +237,7 @@ class UsbConnectionManager @Inject constructor(
             TAG,
             "Connected: type=${connection.generatorType} baud=${connection.baudRate}",
         )
+        lastConnectedDevice = device
         return GeneratorSession(
             baudRate = connection.baudRate,
             generatorType = connection.generatorType,
@@ -220,6 +245,7 @@ class UsbConnectionManager @Inject constructor(
             transport = transport,
             client = client,
             engine = ScanEngine(client),
+            usbPort = UsbPortInfo(index = portIndex, count = portCount),
         )
     }
 
