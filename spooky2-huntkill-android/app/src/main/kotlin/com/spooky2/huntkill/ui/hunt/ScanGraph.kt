@@ -1,6 +1,8 @@
 package com.spooky2.huntkill.ui.hunt
 
 import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.gestures.awaitEachGesture
+import androidx.compose.foundation.gestures.awaitFirstDown
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
@@ -33,7 +35,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.input.pointer.positionChanged
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.core.lookup.LookupMatch
@@ -89,15 +93,33 @@ fun ScrollableReadingGraph(
     val touchSlop = with(density) { MARKER_TOUCH_DP.toPx() }
     val contentWidthDp = with(density) { (readings.size * pxPerPoint).toDp() }
 
-    val atEnd = scrollState.maxValue == 0 || scrollState.value >= scrollState.maxValue - 2
+    // Sticky auto-follow: keep snapping to the newest data until the user drags the
+    // graph; the Live button re-arms it. (Deciding per-frame from "is the scroll
+    // position at the end" breaks as soon as content grows faster than one frame.)
+    var following by remember { mutableStateOf(true) }
 
-    LaunchedEffect(readings.size) {
-        if (atEnd && scrollState.maxValue > 0) scrollState.scrollTo(scrollState.maxValue)
+    LaunchedEffect(readings.size, following) {
+        if (following && scrollState.maxValue > 0) scrollState.scrollTo(scrollState.maxValue)
     }
 
-    // Min/max over the whole history backs the Y transform for both curve and markers.
-    val minV = if (readings.isEmpty()) 0f else readings.min()
-    val maxV = if (readings.isEmpty()) 0f else readings.max()
+    // Y transform from VALID readings only: invalid steps carry 0/garbage
+    // placeholders that would pin the baseline to 0 and squash the real curve.
+    var minV = Float.MAX_VALUE
+    var maxV = -Float.MAX_VALUE
+    for (idx in readings.indices) {
+        if (idx < valid.size && !valid[idx]) continue
+        val v = readings[idx]
+        if (v < minV) minV = v
+        if (v > maxV) maxV = v
+    }
+    if (minV > maxV) { // no valid samples yet
+        minV = 0f
+        maxV = 1f
+    }
+    // Small padding so the curve doesn't hug the edges.
+    val pad = ((maxV - minV) * 0.05f).takeIf { it > 0f } ?: 0.5f
+    minV -= pad
+    maxV += pad
     val range = (maxV - minV).takeIf { it > 0f } ?: 1f
 
     Box(modifier) {
@@ -106,6 +128,17 @@ fun ScrollableReadingGraph(
                 .fillMaxSize()
                 .horizontalScroll(scrollState)
                 .width(contentWidthDp)
+                .pointerInput(Unit) {
+                    // Observe-only (Initial pass): any actual drag disengages
+                    // auto-follow; plain taps (marker clicks) do not.
+                    awaitEachGesture {
+                        awaitFirstDown(requireUnconsumed = false)
+                        do {
+                            val event = awaitPointerEvent(PointerEventPass.Initial)
+                            if (event.changes.any { it.positionChanged() }) following = false
+                        } while (event.changes.any { it.pressed })
+                    }
+                }
                 .pointerInput(markers, readings.size) {
                     detectTapGestures { tap ->
                         // tap is in CONTENT coordinates (the scrolled virtual canvas),
@@ -153,7 +186,9 @@ fun ScrollableReadingGraph(
                 }
             }
 
-            // Min/max decimation: one vertical segment per ~3px bucket.
+            // Min/max decimation: one vertical segment per ~3px bucket. Invalid steps
+            // are excluded — a bucket with no valid samples is skipped entirely,
+            // leaving a gap under the dropout band instead of a dive to 0.
             val pointsPerBucket = (3f / pxPerPoint).toInt().coerceAtLeast(1)
             var i = 0
             var prevX = -1f
@@ -163,9 +198,15 @@ fun ScrollableReadingGraph(
                 var lo = Float.MAX_VALUE
                 var hi = -Float.MAX_VALUE
                 for (j in i until end) {
+                    if (j < valid.size && !valid[j]) continue
                     val v = readings[j]
                     if (v < lo) lo = v
                     if (v > hi) hi = v
+                }
+                if (lo > hi) { // bucket fully invalid → gap; restart the polyline after it
+                    prevX = -1f
+                    i = end
+                    continue
                 }
                 val x = ((i + end - 1) / 2f) * pxPerPoint
                 val yLo = h * (1f - (lo - minV) / range)
@@ -196,9 +237,12 @@ fun ScrollableReadingGraph(
             }
         }
 
-        if (!atEnd) {
+        if (!following) {
             Button(
-                onClick = { scope.launch { scrollState.animateScrollTo(scrollState.maxValue) } },
+                onClick = {
+                    following = true
+                    scope.launch { scrollState.animateScrollTo(scrollState.maxValue) }
+                },
                 modifier = Modifier
                     .align(Alignment.BottomEnd)
                     .padding(8.dp),
