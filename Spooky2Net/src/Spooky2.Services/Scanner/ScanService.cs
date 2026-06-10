@@ -624,12 +624,21 @@ public sealed class ScanService : IScanService, IDisposable
     }
 
     /// <summary>
-    /// Post-processing hit detection decoded from VB6 Proc_0_331 ("Performing Retrospective Analysis").
-    /// The original collects all readings to CSV during the scan, then post-processes:
-    ///   1. Compute SMA (Simple Moving Average) for each step
-    ///   2. "Detecting Asymptotes" — find local maxima of the raw signal
-    ///   3. "Filling GreatestHits" — collect asymptotes where deviation exceeds threshold
-    ///   4. Bubble sort by deviation, take top MaxHits
+    /// Post-processing hit detection. Faithful port of the ORIGINAL Spooky2
+    /// detection loop decoded from Spooky.exe FUN_008531a0 (Ghidra). The original
+    /// collects all readings during the scan, then post-processes:
+    ///   1. Compute SMA (Simple Moving Average) + deviation for each step.
+    ///   2. "Detecting Asymptotes" — plateau-aware slope-change extrema of the raw
+    ///      signal. A local max is a strict rise into a flat run followed by a
+    ///      strict fall; the run collapses to its LEFT edge, mirroring the decoded
+    ///      <c>markers[left]=1</c> placed after walking back over the equal run.
+    ///   3. "Filling GreatestHits" — collect extrema whose deviation exceeds threshold.
+    ///   4. Sort by deviation descending, take top MaxHits.
+    ///
+    /// Reported frequency: the original associates a peak found at readings index
+    /// p with the frequency of the NEXT sweep step (scanReadings[p+1]). This +1
+    /// step pairing makes the reported hit frequencies equal the original
+    /// software's screenshot output exactly (see GROUND_TRUTH.md).
     /// </summary>
     internal static List<ScanResult> DetectHits(
         List<(double Frequency, double Reading)> scanReadings, ScanParameters parameters)
@@ -647,34 +656,56 @@ public sealed class ScanService : IScanService, IDisposable
             window.Add(reading);
         }
 
-        // Phase 2: "Detecting Asymptotes" — find local maxima of the raw signal
-        // A local max at step i: reading[i] > reading[i-1] AND reading[i] > reading[i+1]
+        // Phase 2 + 3: plateau-aware slope-change extrema passing the threshold.
+        // For each candidate, expand the run of equal readings around it. A local
+        // maximum exists when the neighbor BELOW the run and the neighbor ABOVE the
+        // run are both strictly smaller; the decoded loop collapses the run to its
+        // LEFT edge (markers[left]=1), so we score the run's left-edge index.
         var greatestHits = new List<ScanResult>();
-        for (int i = 1; i < steps.Count - 1; i++)
+        int i = 1;
+        while (i < steps.Count - 1)
         {
-            var (freq, reading, deviation, ra) = steps[i];
-            double prevReading = steps[i - 1].Reading;
-            double nextReading = steps[i + 1].Reading;
+            double reading = steps[i].Reading;
 
-            bool isLocalMax = reading > prevReading && reading > nextReading;
-            bool isLocalMin = reading < prevReading && reading < nextReading;
+            // Expand the equal-reading run [left..right].
+            int left = i;
+            while (left - 1 >= 0 && steps[left - 1].Reading == reading) left--;
+            int right = i;
+            while (right + 1 < steps.Count && steps[right + 1].Reading == reading) right++;
 
-            // Phase 3: "Filling GreatestHits" — local extrema with deviation exceeding threshold
-            bool isHit = (parameters.DetectMax && isLocalMax && deviation > parameters.Threshold)
-                      || (parameters.DetectMin && isLocalMin && deviation < -parameters.Threshold);
+            int prevIdx = left - 1;
+            int nextIdx = right + 1;
+            if (prevIdx < 0 || nextIdx >= steps.Count) { i = right + 1; continue; }
+
+            double prevReading = steps[prevIdx].Reading;
+            double nextReading = steps[nextIdx].Reading;
+
+            bool isLocalMax = prevReading < reading && nextReading < reading;
+            bool isLocalMin = prevReading > reading && nextReading > reading;
+
+            // Plateau representative = LEFT edge (matches decoded markers[left]).
+            var peak = steps[left];
+            bool isHit = (parameters.DetectMax && isLocalMax && peak.Deviation > parameters.Threshold)
+                      || (parameters.DetectMin && isLocalMin && peak.Deviation < -parameters.Threshold);
 
             if (isHit)
             {
+                // Report the NEXT sweep step's frequency (+1 step pairing) so the
+                // reported hit frequency matches the original software exactly.
+                double reportFreq = left + 1 < steps.Count ? steps[left + 1].Freq : peak.Freq;
                 greatestHits.Add(new ScanResult
                 {
-                    Frequency = freq,
-                    Reading = reading,
-                    RunningAverage = ra,
-                    Deviation = Math.Abs(deviation),
+                    Frequency = reportFreq,
+                    Reading = peak.Reading,
+                    RunningAverage = peak.Ra,
+                    Deviation = Math.Abs(peak.Deviation),
                     HitCount = 1,
                     Timestamp = DateTime.UtcNow
                 });
             }
+
+            // Advance past this run so a plateau is registered once.
+            i = right + 1;
         }
 
         // Phase 4: Sort by deviation descending, take top MaxHits

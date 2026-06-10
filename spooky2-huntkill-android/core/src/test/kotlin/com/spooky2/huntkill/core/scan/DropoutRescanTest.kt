@@ -147,7 +147,10 @@ class DropoutRescanTest {
 
         // The spliced region is now valid and the spike at step 405 is found.
         assertTrue("rescanned region should be valid", (400..410).all { merged.sweepValid[it] })
-        val spikeFreq = freqs[405]
+        // detectHits reports a peak found at sweep step p at the NEXT step's frequency
+        // (the +1 step pairing, matching the original software), so the spike planted
+        // at step 405 is reported at freqs[406].
+        val spikeFreq = freqs[406]
         assertTrue(
             "spike at $spikeFreq Hz should be recovered, hits=${merged.hits.map { it.frequency }}",
             merged.hits.any { kotlin.math.abs(it.frequency - spikeFreq) < 0.5 },

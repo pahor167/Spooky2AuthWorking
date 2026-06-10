@@ -667,14 +667,21 @@ class ScanEngine(private val link: GeneratorLink) {
         const val DEFAULT_RESCAN_BUFFER_STEPS = 50
 
         /**
-         * Post-processing hit detection. Verbatim port of C# `ScanService.DetectHits`:
+         * Post-processing hit detection. Faithful port of the ORIGINAL Spooky2
+         * detection loop decoded from `Spooky.exe` FUN_008531a0 (Ghidra), shared
+         * with the C# `ScanService.DetectHits`:
          *   1. Compute SMA + deviation for each step.
-         *   2. "Detecting Asymptotes" — find local maxima/minima of the raw signal.
+         *   2. "Detecting Asymptotes" — plateau-aware slope-change extrema of the
+         *      raw signal (a local max is a strict rise into a flat run followed by
+         *      a strict fall; the run collapses to its LEFT edge, mirroring the
+         *      decompiled `markers[left]=1` after the equal-walk).
          *   3. "Filling GreatestHits" — extrema whose deviation passes the threshold.
          *   4. Sort by deviation descending, take top [ScanParameters.maxHits].
          *
-         * Note: matches C# behavior INCLUDING the documented limitation that no
-         * cluster deduplication is performed.
+         * Reported frequency: the original associates a peak found at readings
+         * index `p` with the frequency of the NEXT sweep step (`scanReadings[p+1]`).
+         * This `+1` step pairing is what makes the reported hit frequencies equal
+         * the original software's screenshot output exactly (see GROUND_TRUTH.md).
          */
         fun detectHits(
             scanReadings: List<Pair<Double, Double>>,
@@ -687,8 +694,8 @@ class ScanEngine(private val link: GeneratorLink) {
          * step is skipped when picking the previous/next neighbor for the
          * local-extremum test (so the comparison uses the nearest VALID neighbors).
          *
-         * When [valid] is null or all-true the result is bit-for-bit identical to
-         * the original detection (golden replay path).
+         * When [valid] is null or all-true the result reproduces the original
+         * Spooky2 software's hit set (golden replay path, GROUND_TRUTH.md).
          */
         fun detectHits(
             scanReadings: List<Pair<Double, Double>>,
@@ -725,37 +732,64 @@ class ScanEngine(private val link: GeneratorLink) {
                 return j
             }
 
-            // Phase 2 + 3: local extrema passing the threshold.
+            // Phase 2 + 3: plateau-aware slope-change extrema passing the threshold.
+            // For each valid candidate, expand the run of equal valid readings around
+            // it. A local maximum exists when the nearest valid neighbor BELOW the run
+            // and the nearest valid neighbor ABOVE the run are both strictly smaller;
+            // the decoded loop collapses the run to its LEFT edge (`markers[left]=1`),
+            // so we score the run's left-edge index. Symmetric for minima.
             val greatestHits = ArrayList<ScanResult>()
-            for (i in 1 until steps.size - 1) {
-                if (!isValid(i)) continue
-                val prevIdx = prevValid(i)
-                val nextIdx = nextValid(i)
-                if (prevIdx < 0 || nextIdx >= steps.size) continue
+            var i = 1
+            while (i < steps.size - 1) {
+                if (!isValid(i)) { i++; continue }
 
-                val step = steps[i]
+                // Expand the equal-reading run [left..right] over VALID steps.
+                val reading = steps[i].reading
+                var left = i
+                run {
+                    var p = prevValid(left)
+                    while (p >= 0 && steps[p].reading == reading) { left = p; p = prevValid(left) }
+                }
+                var right = i
+                run {
+                    var n = nextValid(right)
+                    while (n < steps.size && steps[n].reading == reading) { right = n; n = nextValid(right) }
+                }
+
+                val prevIdx = prevValid(left)
+                val nextIdx = nextValid(right)
+                if (prevIdx < 0 || nextIdx >= steps.size) { i = right + 1; continue }
+
                 val prevReading = steps[prevIdx].reading
                 val nextReading = steps[nextIdx].reading
 
-                val isLocalMax = step.reading > prevReading && step.reading > nextReading
-                val isLocalMin = step.reading < prevReading && step.reading < nextReading
+                val isLocalMax = prevReading < reading && nextReading < reading
+                val isLocalMin = prevReading > reading && nextReading > reading
 
+                // Plateau representative = LEFT edge (matches decoded markers[left]).
+                val peak = steps[left]
                 val isHit =
-                    (parameters.detectMax && isLocalMax && step.deviation > parameters.threshold) ||
-                        (parameters.detectMin && isLocalMin && step.deviation < -parameters.threshold)
+                    (parameters.detectMax && isLocalMax && peak.deviation > parameters.threshold) ||
+                        (parameters.detectMin && isLocalMin && peak.deviation < -parameters.threshold)
 
                 if (isHit) {
+                    // Report the NEXT sweep step's frequency (`+1` step pairing) so the
+                    // reported hit frequency matches the original software exactly.
+                    val reportFreq = if (left + 1 < steps.size) steps[left + 1].freq else peak.freq
                     greatestHits.add(
                         ScanResult(
-                            frequency = step.freq,
-                            reading = step.reading,
-                            runningAverage = step.ra,
-                            deviation = abs(step.deviation),
+                            frequency = reportFreq,
+                            reading = peak.reading,
+                            runningAverage = peak.ra,
+                            deviation = abs(peak.deviation),
                             hitCount = 1,
                             timestamp = Instant.now(),
                         ),
                     )
                 }
+
+                // Advance past this run so a plateau is registered once.
+                i = right + 1
             }
 
             // Phase 4: stable sort by deviation descending, take top maxHits.

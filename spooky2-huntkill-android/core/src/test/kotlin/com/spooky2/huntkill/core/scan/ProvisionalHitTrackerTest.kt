@@ -60,9 +60,12 @@ class ProvisionalHitTrackerTest {
             val sweepIdx = i - preSeedCount
             if (sweepIdx >= 0) freqToStep.putIfAbsent(scanReadings[i].first, sweepIdx)
         }
+        // detectHits reports a peak at readings index p at the frequency of step p+1
+        // (the +1 step pairing), so the PEAK sweep-step index is the freq's step - 1.
         return hits.map {
+            val freqStep = requireNotNull(freqToStep[it.frequency])
             ProvisionalHit(
-                stepIndex = requireNotNull(freqToStep[it.frequency]),
+                stepIndex = freqStep - 1,
                 frequency = it.frequency,
                 deviation = it.deviation,
             )

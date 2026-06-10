@@ -96,40 +96,53 @@ class ProvisionalHitTracker(private val parameters: ScanParameters) {
             .take(parameters.maxHits)
 
     private fun scoreLaggedCandidate() {
-        // A candidate is scored once its NEAREST VALID next neighbor arrives, which
-        // is the just-added step — so only fire when that step is itself valid (an
-        // invalid step is never a neighbor in detectHits). The candidate is then the
-        // nearest valid step before it, and its previous neighbor the nearest valid
-        // step before THAT. Mirrors detectHits' local-extremum test exactly.
+        // Plateau-aware mirror of detectHits. A candidate run is scored once its
+        // NEAREST VALID next neighbor arrives — the just-added step — so only fire
+        // when that step is itself valid (an invalid step is never a neighbor). The
+        // candidate is the run of EQUAL valid readings immediately before it; that
+        // run collapses to its LEFT edge (matching the decoded markers[left]=1).
         val lastIdx = steps.size - 1
         if (lastIdx < 1) return
         if (!steps[lastIdx].valid) return
 
-        val candidatePos = prevValidPos(lastIdx)
-        // candidatePos < 1: no candidate, or no room for a previous neighbor (detectHits
-        // only scores combined-array indices >= 1).
-        if (candidatePos < 1) return
+        // Right edge of the candidate run = nearest valid step before the new one.
+        val right = prevValidPos(lastIdx)
+        if (right < 1) return
 
-        val prevPos = prevValidPos(candidatePos)
+        // Expand the run of equal valid readings backward to its left edge.
+        val runReading = steps[right].reading
+        var left = right
+        run {
+            var p = prevValidPos(left)
+            while (p >= 0 && steps[p].reading == runReading) {
+                left = p
+                p = prevValidPos(left)
+            }
+        }
+
+        // Previous neighbor of the whole run, and the next neighbor (the new step).
+        val prevPos = prevValidPos(left)
         if (prevPos < 0) return
 
-        val candidate = steps[candidatePos]
-
+        val candidate = steps[left]
         val prevReading = steps[prevPos].reading
         val nextReading = steps[lastIdx].reading
 
-        val isLocalMax = candidate.reading > prevReading && candidate.reading > nextReading
-        val isLocalMin = candidate.reading < prevReading && candidate.reading < nextReading
+        val isLocalMax = prevReading < runReading && nextReading < runReading
+        val isLocalMin = prevReading > runReading && nextReading > runReading
 
         val isHit =
             (parameters.detectMax && isLocalMax && candidate.deviation > parameters.threshold) ||
                 (parameters.detectMin && isLocalMin && candidate.deviation < -parameters.threshold)
 
         if (isHit) {
+            // Report the NEXT step's frequency (+1 step pairing), matching detectHits.
+            val nextStep = steps.getOrNull(left + 1)
+            val reportFreq = nextStep?.freq ?: candidate.freq
             greatestHits.add(
                 ProvisionalHit(
                     stepIndex = candidate.index,
-                    frequency = candidate.freq,
+                    frequency = reportFreq,
                     deviation = abs(candidate.deviation),
                 ),
             )

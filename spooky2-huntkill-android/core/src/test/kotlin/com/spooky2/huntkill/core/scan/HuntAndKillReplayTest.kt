@@ -36,22 +36,43 @@ class HuntAndKillReplayTest {
         val deviation: Double,
     )
 
-    // Frequencies are derived from the CORRECTED sweep grid (advance-one-step-in),
-    // which transmits startFrequency*(1+step) first — matching the original dump's
-    // recorded :w24 sweep frequencies. Each frequency is exactly one 0.025% step
-    // above the old (buggy, one-step-low) value; readings/runningAverages/deviations
-    // are unchanged (same readings, same detection indices).
+    // These hits now reproduce the ORIGINAL Spooky2 software's screenshot output
+    // EXACTLY (the 10 transmitted hit frequencies in /tmp/rev/GROUND_TRUTH.md). Two
+    // decoded corrections make this match: (1) plateau-aware slope-change peak
+    // detection (FUN_008531a0), and (2) the original reports a peak found at
+    // readings index p at the frequency of the NEXT sweep step (scanReadings[p+1]) —
+    // the +1 step pairing. readings/runningAverages/deviations are the peak's own
+    // values (unchanged); only the reported frequency is the next grid step's, which
+    // is what lands every hit on the screenshot's exact frequencies.
     private val goldenHits = listOf(
-        GoldenHit(1642723.4251323887, 53053.0, 52956.75, 96.25),
-        GoldenHit(1791574.151536235, 53072.0, 52989.95, 82.05000000000291),
-        GoldenHit(1796507.1436103177, 53108.0, 53030.2, 77.80000000000291),
-        GoldenHit(176865.46293770123, 52590.0, 52516.45, 73.55000000000291),
-        GoldenHit(1792918.1680980339, 53074.0, 53001.95, 72.05000000000291),
-        GoldenHit(177042.39473624234, 52605.0, 52535.65, 69.34999999999854),
-        GoldenHit(1687253.6474493644, 52961.0, 52899.65, 61.349999999998545),
-        GoldenHit(1691476.5301338562, 52986.0, 52929.5, 56.5),
-        GoldenHit(1688097.379726442, 52958.0, 52902.1, 55.900000000001455),
-        GoldenHit(1591392.5613856358, 52965.0, 52909.3, 55.69999999999709),
+        GoldenHit(1643134.1059886718, 53053.0, 52956.75, 96.25),
+        GoldenHit(1792022.045074119, 53072.0, 52989.95, 82.05000000000291),
+        GoldenHit(1796956.2703962203, 53108.0, 53030.2, 77.80000000000291),
+        GoldenHit(176909.67930343567, 52590.0, 52516.45, 73.55000000000291),
+        GoldenHit(1793366.3976400583, 53074.0, 53001.95, 72.05000000000291),
+        GoldenHit(177086.65533492638, 52605.0, 52535.65, 69.34999999999854),
+        GoldenHit(1687675.4608612268, 52961.0, 52899.65, 61.349999999998545),
+        GoldenHit(1691899.3992663897, 52986.0, 52929.5, 56.5),
+        GoldenHit(1688519.4040713736, 52958.0, 52902.1, 55.900000000001455),
+        GoldenHit(1591790.409525982, 52965.0, 52909.3, 55.69999999999709),
+    )
+
+    /**
+     * The ORIGINAL Spooky2 software's actual 10 hit frequencies, read off its
+     * results screenshot (see /tmp/rev/GROUND_TRUTH.md), deviation-descending.
+     * The new [detectHits] reproduces these to grid precision.
+     */
+    private val groundTruthFrequencies = listOf(
+        1643134.10598867,
+        1792022.04507412,
+        1796956.27039622,
+        176909.679303436,
+        1793366.39764006,
+        177086.655334926,
+        1687675.46086123,
+        1691899.39926639,
+        1688519.40407137,
+        1591790.40952598,
     )
 
     private fun dumpPath(): String {
@@ -231,6 +252,26 @@ class HuntAndKillReplayTest {
             assertEquals("hit[$i].reading", expected.reading, actual.reading, 0.0)
             assertEquals("hit[$i].runningAverage", expected.runningAverage, actual.runningAverage, 0.0)
             assertEquals("hit[$i].deviation", expected.deviation, actual.deviation, 0.0)
+        }
+    }
+
+    @Test
+    fun `detectHits reproduces the original software's screenshot hit frequencies`() {
+        // CALIBRATION against ground truth: the new plateau-aware detection + the
+        // +1 step frequency pairing must reproduce the ORIGINAL Spooky2 software's
+        // exact 10 hit frequencies from its results screenshot (GROUND_TRUTH.md),
+        // in deviation-descending order, to grid precision.
+        val session = loadSession()
+        val hits = runDetection(session)
+
+        assertEquals("hit count", groundTruthFrequencies.size, hits.size)
+        for (i in groundTruthFrequencies.indices) {
+            assertEquals(
+                "hit[$i] frequency must match the original software's screenshot",
+                groundTruthFrequencies[i],
+                hits[i].frequency,
+                1e-3,
+            )
         }
     }
 

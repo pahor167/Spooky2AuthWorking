@@ -369,6 +369,33 @@ public class HuntAndKillReplayTests
     }
 
     [Fact]
+    public void Detection_ReproducesOriginalSoftwareScreenshotFrequencies()
+    {
+        if (!DumpFileAvailable()) return; // skip: dump file not available
+
+        // CALIBRATION against ground truth: the plateau-aware slope-change detection
+        // plus the +1 step frequency pairing (decoded from Spooky.exe FUN_008531a0)
+        // must reproduce the ORIGINAL Spooky2 software's exact 10 hit frequencies from
+        // its results screenshot, in deviation-descending order, to grid precision.
+        var session = PlainTextDumpParser.Parse(GetDumpPath());
+        var hits = RunDetection(session);
+
+        Assert.Equal(ExpectedHitFrequenciesHz.Length, hits.Count);
+
+        // The screenshot lists the 10 hits grouped by region, not by deviation, while
+        // our detection returns them deviation-descending. Compare as a SET (each grid
+        // step is unique) so the assertion is order-independent; the deviation order is
+        // separately verified by CurrentAlgorithm_HitsAreOrderedByDeviation.
+        var expectedSorted = ExpectedHitFrequenciesHz.OrderBy(f => f).ToArray();
+        var actualSorted = hits.Select(h => h.Frequency).OrderBy(f => f).ToArray();
+        for (int i = 0; i < expectedSorted.Length; i++)
+        {
+            _output.WriteLine($"  {actualSorted[i]:F6} Hz vs expected {expectedSorted[i]:F6} Hz");
+            Assert.Equal(expectedSorted[i], actualSorted[i], 3);
+        }
+    }
+
+    [Fact]
     public void CurrentAlgorithm_HitsSpanMultipleRegions()
     {
         if (!DumpFileAvailable()) return; // skip: dump file not available
