@@ -237,6 +237,11 @@ class UsbConnectionManager @Inject constructor(
             TAG,
             "Connected: type=${connection.generatorType} baud=${connection.baudRate}",
         )
+        log.i(
+            TAG,
+            "Generator info: hw=${connection.hardwareInfo} serial=${connection.serialNumber} " +
+                "fw=${connection.firmwareVersion} type=${connection.hardwareType}",
+        )
 
         // Safety: a prior session (or one killed by an app force-stop) can leave the
         // generator emitting at its last frequency. Zero it on every fresh connect —
@@ -253,6 +258,10 @@ class UsbConnectionManager @Inject constructor(
             client = client,
             engine = ScanEngine(client),
             usbPort = UsbPortInfo(index = portIndex, count = portCount),
+            serialNumber = connection.serialNumber,
+            firmwareVersion = connection.firmwareVersion,
+            hardwareType = connection.hardwareType,
+            hardwareInfo = connection.hardwareInfo,
         )
     }
 

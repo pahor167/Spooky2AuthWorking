@@ -125,10 +125,16 @@ class GeneratorClientAuthTest {
 
         val sent = writes.map { String(it, Charsets.US_ASCII).trim() }
 
-        // Everything after :w92 is the init sequence; assert the documented opening of it.
+        // After :w92 the client reads the device-info queries (:r02/:r91/:r68/:r80) ONCE,
+        // then runs the init sequence. The init sequence opens with :r02=0, immediately
+        // followed by :n00=$ — the only place :n00=$ is sent — so anchor on that pair to
+        // skip past the device-info reads.
         val authIdx = sent.indexOf(":w92=$expectedToken.")
         assertTrue("auth token present", authIdx >= 0)
-        val init = sent.subList(authIdx + 1, sent.size)
+        val firmwareNameIdx = sent.indexOf(":n00=\$")
+        assertTrue("init firmware-name query present after auth", firmwareNameIdx > authIdx)
+        // The init sequence's first command (:r02=0,) is the entry right before :n00=$.
+        val init = sent.subList(firmwareNameIdx - 1, sent.size)
 
         val expectedHead = listOf(
             ":r02=0,",        // READ_HARDWARE_INFO

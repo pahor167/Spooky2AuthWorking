@@ -122,9 +122,26 @@ data class GeneratorInfo(
     val portIndex: Int?,
     /** Total selectable ports on the device, or null for test replay sessions. */
     val portCount: Int?,
+    /** Device serial of the active generator (`:r91`), or null when not read/timed out. */
+    val serialNumber: String? = null,
+    /** Firmware version of the active generator (`:r68`), or null when not read. */
+    val firmwareVersion: String? = null,
+    /** Hardware type of the active generator (`:r80`), or null when not read. */
+    val hardwareType: String? = null,
 ) {
     /** True when the device exposes more than one generator port (switcher shown). */
     val hasMultiplePorts: Boolean get() = (portCount ?: 1) > 1
+
+    /**
+     * Label for the ACTIVE generator: its serial when known (so a dual-generator box
+     * with distinct serials reads by serial rather than "port 1/2"), else the
+     * "Generator N" port fallback, else the generator type for single-port sessions.
+     */
+    fun activeLabel(): String = when {
+        serialNumber != null -> "S/N $serialNumber"
+        portIndex != null -> "Generator ${portIndex + 1}"
+        else -> generatorType
+    }
 }
 
 /** Live scan + kill state observed by the Live, Hits, and Kill screens. */
@@ -253,6 +270,9 @@ class HuntViewModel @Inject constructor(
                         baudRate = s.baudRate,
                         portIndex = s.usbPort?.index,
                         portCount = s.usbPort?.count,
+                        serialNumber = s.serialNumber,
+                        firmwareVersion = s.firmwareVersion,
+                        hardwareType = s.hardwareType,
                     )
                 },
             )
@@ -279,7 +299,9 @@ class HuntViewModel @Inject constructor(
             }.onSuccess {
                 refreshGeneratorInfo()
                 _state.update { it.copy(isSwitchingGenerator = false) }
-                _events.trySend("Switched to Generator ${portIndex + 1}")
+                // Prefer the new port's serial in the toast when it was read.
+                val label = _state.value.generator?.activeLabel() ?: "Generator ${portIndex + 1}"
+                _events.trySend("Switched to $label")
             }.onFailure { error ->
                 log.e(TAG, "Generator switch failed: ${error.message}")
                 _state.update {

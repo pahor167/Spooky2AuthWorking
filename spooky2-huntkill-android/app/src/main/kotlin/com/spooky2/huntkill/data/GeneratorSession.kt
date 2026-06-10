@@ -26,6 +26,15 @@ class GeneratorSession(
      */
     val usbPort: UsbPortInfo? = null,
     /**
+     * Device-info read once at connect (see [GeneratorClient.Connection]). Each is
+     * best-effort: null when that query timed out on this unit. Surfaced on the Hunt
+     * config chip and used to label generators by serial when known.
+     */
+    val serialNumber: String? = null,
+    val firmwareVersion: String? = null,
+    val hardwareType: String? = null,
+    val hardwareInfo: String? = null,
+    /**
      * True only for the no-hardware test replay sessions (FakeTransport). Replay
      * sessions run with fast scan timing (no settle delay / amplitude ramp) so the
      * recorded dump reproduces; live USB sessions are always `false` and use the

@@ -30,8 +30,27 @@ class GeneratorClient(
     private val challengeGenerator: () -> String = { GeneratorAuthentication.generateChallenge() },
 ) : GeneratorLink {
 
-    /** Outcome of [connect]: the negotiated baud and the discovered generator type. */
-    data class Connection(val baudRate: Int, val generatorType: String)
+    /**
+     * Outcome of [connect]: the negotiated baud, the discovered generator type, and the
+     * device-info values read once at connect.
+     *
+     * The device-info fields are best-effort: any query that times out (or returns a
+     * blank response) on this unit leaves its field null. They are never required for a
+     * successful connect — auth + init are what gate [connect] returning non-null.
+     *
+     * @property hardwareInfo value of `:r02=0,` (e.g. "200"), null on timeout.
+     * @property serialNumber value of `:r91` (serial number), null on timeout.
+     * @property firmwareVersion value of `:r68` (firmware version), null on timeout.
+     * @property hardwareType value of `:r80` (hardware type), null on timeout.
+     */
+    data class Connection(
+        val baudRate: Int,
+        val generatorType: String,
+        val hardwareInfo: String? = null,
+        val serialNumber: String? = null,
+        val firmwareVersion: String? = null,
+        val hardwareType: String? = null,
+    )
 
     private var connected = false
 
@@ -83,8 +102,36 @@ class GeneratorClient(
         val authResponse = sendProbe(":w92=$authToken.") ?: return null
         if (!authResponse.contains("ok")) return null
 
+        // Read device info ONCE at connect, after auth succeeds and before the timing-
+        // critical init sequence. Each query is tolerant of a timeout/blank response
+        // (some queries time out on WCH-bridged GeneratorX units): a null value is
+        // stored and the connect proceeds. The raw values are returned in [Connection]
+        // for the app layer to log; querying here keeps these OUT of the scan path.
+        val hardwareInfo = queryValue(GeneratorProtocol.READ_HARDWARE_INFO)
+        val serialNumber = queryValue(GeneratorProtocol.READ_SERIAL_NUMBER)
+        val firmwareVersion = queryValue(GeneratorProtocol.READ_FIRMWARE_VERSION)
+        val hardwareType = queryValue(GeneratorProtocol.READ_HARDWARE_TYPE)
+
         runInitSequence()
-        return Connection(baudRate = BAUD_GENERATORX, generatorType = GENERATOR_TYPE_GENERATORX)
+        return Connection(
+            baudRate = BAUD_GENERATORX,
+            generatorType = GENERATOR_TYPE_GENERATORX,
+            hardwareInfo = hardwareInfo,
+            serialNumber = serialNumber,
+            firmwareVersion = firmwareVersion,
+            hardwareType = hardwareType,
+        )
+    }
+
+    /**
+     * Send a read command and parse its `:rNN=<value>.` response into a trimmed value
+     * string, or null when the device times out (no response) or returns a blank value.
+     * Used for the one-shot device-info queries at connect; tolerant of timeouts.
+     */
+    private suspend fun queryValue(command: String): String? {
+        val raw = sendProbe(command) ?: return null
+        val value = GeneratorProtocol.parseResponse(raw).value
+        return value.ifBlank { null }
     }
 
     /** Legacy XM probe at 57600. */
@@ -93,10 +140,18 @@ class GeneratorClient(
         if (ping.isEmpty()) return null
 
         sendProbe(GeneratorProtocol.ACTION_HANDSHAKE)
-        sendProbe(GeneratorProtocol.READ_HARDWARE_TYPE)
-        sendProbe(GeneratorProtocol.READ_FIRMWARE_VERSION)
-        sendProbe(GeneratorProtocol.READ_SERIAL_NUMBER)
-        return Connection(baudRate = BAUD_XM, generatorType = GENERATOR_TYPE_XM)
+        // Capture the device-info reads into the Connection for parity with the
+        // GeneratorX path (each tolerant of a timeout/blank response).
+        val hardwareType = queryValue(GeneratorProtocol.READ_HARDWARE_TYPE)
+        val firmwareVersion = queryValue(GeneratorProtocol.READ_FIRMWARE_VERSION)
+        val serialNumber = queryValue(GeneratorProtocol.READ_SERIAL_NUMBER)
+        return Connection(
+            baudRate = BAUD_XM,
+            generatorType = GENERATOR_TYPE_XM,
+            serialNumber = serialNumber,
+            firmwareVersion = firmwareVersion,
+            hardwareType = hardwareType,
+        )
     }
 
     /**

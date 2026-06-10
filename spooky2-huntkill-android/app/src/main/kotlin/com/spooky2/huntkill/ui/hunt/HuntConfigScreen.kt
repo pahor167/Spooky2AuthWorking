@@ -118,16 +118,21 @@ private fun GeneratorSection(
     isSwitching: Boolean,
     onSwitch: (Int) -> Unit,
 ) {
-    val portLabel = generator.portIndex?.let { "Generator ${it + 1}" } ?: generator.generatorType
+    // Active generator label: serial-first (so distinct dual-generator serials read by
+    // S/N rather than "port 1/2"), falling back to "Generator N" / type when unknown.
+    val portLabel = generator.activeLabel()
     val portsText = if (generator.portCount != null && generator.portIndex != null) {
         " · port ${generator.portIndex + 1} of ${generator.portCount}"
     } else {
         ""
     }
+    // Append firmware when read (serial is already the chip's leading label when known).
+    // e.g. "S/N 12345 · port 1 of 2 · fw 201 · 115200 baud".
+    val infoText = generator.firmwareVersion?.let { " · fw $it" }.orEmpty()
     AssistChip(
         onClick = {},
         enabled = false,
-        label = { Text("$portLabel$portsText · ${generator.baudRate} baud") },
+        label = { Text("$portLabel$portsText$infoText · ${generator.baudRate} baud") },
         colors = AssistChipDefaults.assistChipColors(
             disabledLabelColor = MaterialTheme.colorScheme.onSurface,
         ),
@@ -140,13 +145,21 @@ private fun GeneratorSection(
         ) {
             SingleChoiceSegmentedButtonRow(modifier = Modifier.weight(1f)) {
                 for (index in 0 until generator.portCount) {
+                    val isActive = generator.portIndex == index
+                    // The ACTIVE segment shows its serial when known (the inactive ports'
+                    // serials aren't queried until the user switches to them).
+                    val segmentLabel = if (isActive && generator.serialNumber != null) {
+                        "S/N ${generator.serialNumber}"
+                    } else {
+                        "Generator ${index + 1}"
+                    }
                     SegmentedButton(
-                        selected = generator.portIndex == index,
+                        selected = isActive,
                         onClick = { onSwitch(index) },
                         enabled = !isSwitching,
                         shape = SegmentedButtonDefaults.itemShape(index, generator.portCount),
                     ) {
-                        Text("Generator ${index + 1}")
+                        Text(segmentLabel)
                     }
                 }
             }
