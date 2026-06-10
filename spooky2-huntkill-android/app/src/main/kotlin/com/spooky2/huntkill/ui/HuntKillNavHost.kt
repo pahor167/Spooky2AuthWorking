@@ -14,7 +14,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -70,28 +69,28 @@ fun HuntKillNavHost(navController: NavHostController = rememberNavController()) 
             composable(Routes.CONNECT) {
                 ConnectScreen(onConnected = { navController.navigate(Routes.HUNT) })
             }
-            composable(Routes.HUNT) { entry ->
+            composable(Routes.HUNT) {
                 HuntConfigScreen(
-                    viewModel = sharedHuntViewModel(navController, entry),
+                    viewModel = sharedHuntViewModel(navController),
                     onStartHunt = { navController.navigate(Routes.LIVE) },
                 )
             }
-            composable(Routes.LIVE) { entry ->
+            composable(Routes.LIVE) {
                 LiveScanScreen(
-                    viewModel = sharedHuntViewModel(navController, entry),
+                    viewModel = sharedHuntViewModel(navController),
                     onHitsReady = { navController.navigate(Routes.HITS) },
                     onCancelled = { navController.popBackStack(Routes.HUNT, inclusive = false) },
                 )
             }
-            composable(Routes.HITS) { entry ->
+            composable(Routes.HITS) {
                 HitsScreen(
-                    viewModel = sharedHuntViewModel(navController, entry),
+                    viewModel = sharedHuntViewModel(navController),
                     onStartKill = { navController.navigate(Routes.KILL) },
                 )
             }
-            composable(Routes.KILL) { entry ->
+            composable(Routes.KILL) {
                 KillScreen(
-                    viewModel = sharedHuntViewModel(navController, entry),
+                    viewModel = sharedHuntViewModel(navController),
                     onFinished = { navController.popBackStack(Routes.HUNT, inclusive = false) },
                 )
             }
@@ -103,15 +102,24 @@ fun HuntKillNavHost(navController: NavHostController = rememberNavController()) 
 }
 
 /**
- * Resolve a single [HuntViewModel] shared across Hunt/Live/Hits/Kill by scoping it to
- * the parent navigation-graph back stack entry. This keeps one running scan coroutine
- * and one state stream across the whole flow (survives recomposition + navigation).
+ * Resolve the SINGLE [HuntViewModel] shared across Hunt/Live/Hits/Kill.
+ *
+ * The ViewModel is scoped to the navigation-graph back stack entry ([Routes.GRAPH]),
+ * which is owned by the [NavHost] and lives for the whole flow. Every screen resolves
+ * the same graph entry, so they all get the exact same instance — one running scan
+ * coroutine and one [HuntViewModel.state] stream.
+ *
+ * BUG-2 FIX: previously this remembered the parent entry keyed on each screen's own
+ * back stack `entry` (`remember(entry) { … }`). On real devices that produced more
+ * than one [HuntViewModel] instance across the Hunt→Live→Hits→Kill screens, so the
+ * Pause button toggled the pause gate of an instance that was NOT the one running the
+ * scan (the sweep kept advancing), and the running instance's `isPaused = false` state
+ * later flipped the button label back to "Pause" on its own. Keying the `remember` on
+ * the stable graph entry (resolved once and not re-keyed per screen) guarantees all
+ * four screens share one instance.
  */
 @Composable
-private fun sharedHuntViewModel(
-    navController: NavHostController,
-    entry: NavBackStackEntry,
-): HuntViewModel {
-    val parentEntry = remember(entry) { navController.getBackStackEntry(Routes.GRAPH) }
+private fun sharedHuntViewModel(navController: NavHostController): HuntViewModel {
+    val parentEntry = remember(navController) { navController.getBackStackEntry(Routes.GRAPH) }
     return hiltViewModel(parentEntry)
 }

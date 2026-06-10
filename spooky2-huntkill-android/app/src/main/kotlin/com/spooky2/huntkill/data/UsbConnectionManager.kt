@@ -69,6 +69,26 @@ class UsbConnectionManager @Inject constructor(
     }
 
     /**
+     * Every attached device the USB-serial stack can drive. Logs each vid/pid/name so
+     * the user can pick which generator to run on when more than one is attached.
+     */
+    fun listGenerators(): List<UsbDevice> {
+        val devices = UsbCdcSerialTransport.listSupportedDevices(usbManager)
+        log.i(TAG, "Supported USB generators: ${devices.size}")
+        for (device in devices) {
+            log.i(
+                TAG,
+                "  generator vid=0x%04X pid=0x%04X name=%s".format(
+                    device.vendorId,
+                    device.productId,
+                    device.deviceName,
+                ),
+            )
+        }
+        return devices
+    }
+
+    /**
      * Ensure USB permission for [device]. Returns true if already granted or granted
      * by the user; false if denied. Registers a private, non-exported receiver and
      * awaits the system broadcast.
@@ -113,12 +133,29 @@ class UsbConnectionManager @Inject constructor(
     }
 
     /**
-     * Full live connect: find device → request permission → open transport → probe +
-     * auth → build the [GeneratorSession]. Throws with a clear message on any failure.
+     * Convenience: connect to the first auto-detected generator. Kept for callers that
+     * don't let the user pick a specific device.
      */
     suspend fun connect(): GeneratorSession {
         val device = findGenerator()
             ?: throw IllegalStateException("No generator found. Attach a Spooky2 generator over USB-OTG.")
+        return connect(device)
+    }
+
+    /**
+     * Full live connect on a chosen [device]: request permission → open transport →
+     * probe + auth → build the [GeneratorSession]. Throws with a clear message on any
+     * failure.
+     */
+    suspend fun connect(device: UsbDevice): GeneratorSession {
+        log.i(
+            TAG,
+            "Connecting to selected generator vid=0x%04X pid=0x%04X name=%s".format(
+                device.vendorId,
+                device.productId,
+                device.deviceName,
+            ),
+        )
 
         val granted = requestPermission(device)
         if (!granted) {

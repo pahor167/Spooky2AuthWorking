@@ -17,8 +17,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
+import com.spooky2.huntkill.ui.common.asHz
 
 @Composable
 fun HitsScreen(
@@ -45,8 +47,11 @@ fun HitsScreen(
                 Card(modifier = Modifier.fillMaxWidth()) {
                     Column(Modifier.padding(12.dp)) {
                         Text(
-                            "${index + 1}. ${"%.2f".format(hit.frequency)} Hz",
+                            "${index + 1}. ${hit.frequency.asHz()}",
                             style = MaterialTheme.typography.titleMedium,
+                            maxLines = 1,
+                            softWrap = false,
+                            overflow = TextOverflow.Ellipsis,
                         )
                         Text("Deviation: ${"%.2f".format(hit.deviation)}")
                         Text("Reading: ${"%.1f".format(hit.reading)}")

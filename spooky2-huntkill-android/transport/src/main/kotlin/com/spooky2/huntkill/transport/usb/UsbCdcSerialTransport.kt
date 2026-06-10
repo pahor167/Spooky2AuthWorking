@@ -172,6 +172,18 @@ class UsbCdcSerialTransport(
                 ?: devices.firstOrNull { it.vendorId in GENERATOR_VENDOR_IDS }
         }
 
+        /**
+         * All attached devices the USB-serial stack can drive: ones the default prober
+         * recognizes, plus any with a known bridge vendor id. Lets the user pick which
+         * generator to run on when more than one is attached.
+         */
+        fun listSupportedDevices(usbManager: UsbManager): List<UsbDevice> {
+            val prober = UsbSerialProber.getDefaultProber()
+            return usbManager.deviceList.values.filter {
+                prober.probeDevice(it) != null || it.vendorId in GENERATOR_VENDOR_IDS
+            }
+        }
+
         private const val DEFAULT_TIMEOUT_MS = 2000
         private const val READ_CHUNK_SIZE = 256
     }

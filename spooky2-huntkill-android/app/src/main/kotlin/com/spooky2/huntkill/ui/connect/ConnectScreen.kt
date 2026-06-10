@@ -2,16 +2,19 @@ package com.spooky2.huntkill.ui.connect
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.selection.selectable
 import androidx.compose.material3.Button
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Card
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -19,6 +22,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.runtime.collectAsState
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -96,13 +100,64 @@ fun ConnectScreen(
             Text(if (state.status == ConnectStatus.Error) "Retry Connect (Demo)" else "Connect (Demo)")
         }
 
-        Spacer(Modifier.height(8.dp))
-        OutlinedButton(
-            onClick = viewModel::connectUsb,
-            enabled = state.status != ConnectStatus.Connecting,
-            modifier = Modifier.fillMaxWidth(),
-        ) {
-            Text("Connect (USB)")
+        Spacer(Modifier.height(16.dp))
+        if (state.usbDevices.isEmpty()) {
+            Text("No USB generator attached", style = MaterialTheme.typography.bodyMedium)
+            Spacer(Modifier.height(8.dp))
+            OutlinedButton(
+                onClick = viewModel::refreshUsbDevices,
+                enabled = state.status != ConnectStatus.Connecting,
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Text("Refresh")
+            }
+        } else {
+            Text("Select generator", style = MaterialTheme.typography.titleSmall)
+            Card(modifier = Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(8.dp)) {
+                    state.usbDevices.forEach { option ->
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .selectable(
+                                    selected = option.deviceName == state.selectedDeviceName,
+                                    onClick = { viewModel.selectUsbDevice(option.deviceName) },
+                                )
+                                .padding(8.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            RadioButton(
+                                selected = option.deviceName == state.selectedDeviceName,
+                                onClick = { viewModel.selectUsbDevice(option.deviceName) },
+                            )
+                            Text(
+                                option.label,
+                                style = MaterialTheme.typography.bodyMedium,
+                                maxLines = 1,
+                                softWrap = false,
+                                overflow = TextOverflow.Ellipsis,
+                                modifier = Modifier.padding(start = 8.dp),
+                            )
+                        }
+                    }
+                }
+            }
+            Spacer(Modifier.height(8.dp))
+            OutlinedButton(
+                onClick = viewModel::connectUsb,
+                enabled = state.status != ConnectStatus.Connecting,
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Text("Connect (USB)")
+            }
+            Spacer(Modifier.height(8.dp))
+            OutlinedButton(
+                onClick = viewModel::refreshUsbDevices,
+                enabled = state.status != ConnectStatus.Connecting,
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Text("Refresh")
+            }
         }
 
         Spacer(Modifier.height(24.dp))

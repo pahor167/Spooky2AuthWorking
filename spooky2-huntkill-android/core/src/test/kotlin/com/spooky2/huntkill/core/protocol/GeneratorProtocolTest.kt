@@ -57,34 +57,48 @@ class GeneratorProtocolTest {
     // ─────────────────────────────────────────────────────────────
 
     @Test
-    fun formatFrequency_41000Hz_produces14CharString() {
-        // Dump-verified: 41000 Hz → "41000000000001" (14 chars).
-        val result = GeneratorProtocol.formatFrequency(41000.0)
-        assertEquals("41000000000001", result)
-        assertEquals(14, result.length)
+    fun formatFrequency_41010Hz_matchesFirstSweepStepInDump() {
+        // DUMP-DERIVED (Data/FullHuntAndKill, first sweep step = 41000 * 1.00025):
+        // 41010.25 Hz → F8 "41010.25000000" → strip → "41010.25" → "4101025" + posCode 6 → "41010256".
+        // (The old C#-port expectation "41000000000001" for 41000 Hz was WRONG — it used
+        //  posCode = intDigits-4 and a fixed 8-digit fraction, which shifted the value and
+        //  drove the generator at ×10/×100. The dump wins.)
+        val result = GeneratorProtocol.formatFrequency(41010.25)
+        assertEquals("41010256", result)
     }
 
     @Test
-    fun formatFrequency_1796956Hz_produces16CharString() {
-        // Dump-verified: 1796956.27039622 Hz → 16-char string.
+    fun formatFrequency_41000Hz_dumpRule() {
+        // DUMP-DERIVED: 41000.0 → F8 "41000.00000000" → strip all fraction → "41000" + posCode 8 → "410008".
+        // (C# port discrepancy: previously expected "41000000000001".)
+        val result = GeneratorProtocol.formatFrequency(41000.0)
+        assertEquals("410008", result)
+    }
+
+    @Test
+    fun formatFrequency_1796956Hz_matchesLastSweepStepInDump() {
+        // DUMP-DERIVED (Data/FullHuntAndKill, last ascending sweep step / first kill freq):
+        // 1796956.27039622 → "1796956270396220" (16 chars).
         val result = GeneratorProtocol.formatFrequency(1796956.27039622)
+        assertEquals("1796956270396220", result)
         assertEquals(16, result.length)
     }
 
     @Test
     fun formatFrequency_subKHz_preservesLeadingZeros() {
-        // Sub-Hz: 0.5 Hz → "0500000000" (leading zero preserved, posCode=0).
+        // DUMP-DERIVED rule: 0.5 Hz → F8 "0.50000000" → strip → "0.5" → "05" + posCode 7 → "057".
+        // (C# port discrepancy: previously expected fixed-width "0500000000".)
         val result = GeneratorProtocol.formatFrequency(0.5)
-        assertEquals("0500000000", result)
+        assertEquals("057", result)
         assertTrue(result.startsWith("0"))
     }
 
     @Test
-    fun formatFrequency_100Hz_preservesFullWidth() {
-        // 100 Hz: 3 integer digits, posCode=0.
-        // "100.00000000" → "100000000000".
+    fun formatFrequency_100Hz_dumpRule() {
+        // DUMP-DERIVED rule: 100 Hz → F8 "100.00000000" → strip all fraction → "100" + posCode 8 → "1008".
+        // (C# port discrepancy: previously expected fixed-width "100000000000".)
         val result = GeneratorProtocol.formatFrequency(100.0)
-        assertEquals("100000000000", result)
+        assertEquals("1008", result)
     }
 
     @Test
@@ -104,17 +118,21 @@ class GeneratorProtocolTest {
 
     @Test
     fun buildSetFrequency1_encodesExact() {
-        assertEquals(":w24=1000000000000,", GeneratorProtocol.buildSetFrequency1(1000.0))
+        // DUMP-DERIVED: 1000.0 → "1000" + posCode 8 → "10008".
+        assertEquals(":w24=10008,", GeneratorProtocol.buildSetFrequency1(1000.0))
     }
 
     @Test
     fun buildSetFrequency2_encodesExact() {
-        assertEquals(":w25=880000000000,", GeneratorProtocol.buildSetFrequency2(880.0))
+        // DUMP-DERIVED: 880.0 → "880" + posCode 8 → "8808".
+        assertEquals(":w25=8808,", GeneratorProtocol.buildSetFrequency2(880.0))
     }
 
     @Test
-    fun buildSetFrequency1_41000_matchesEncodedCommand() {
-        assertEquals(":w24=41000000000001,", GeneratorProtocol.buildSetFrequency1(41000.0))
+    fun buildSetFrequency1_41010_matchesEncodedCommand() {
+        // DUMP-DERIVED (first sweep step in Data/FullHuntAndKill).
+        // (C# port discrepancy: previously expected ":w24=41000000000001,".)
+        assertEquals(":w24=41010256,", GeneratorProtocol.buildSetFrequency1(41010.25))
     }
 
     @Test

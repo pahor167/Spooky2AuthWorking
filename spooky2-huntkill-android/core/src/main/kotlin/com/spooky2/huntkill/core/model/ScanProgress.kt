@@ -16,4 +16,6 @@ data class ScanProgress(
     val amplitudeCv: Int = 0,
     val currentReading: Double = 0.0,
     val currentRunningAverage: Double = 0.0,
+    /** Remaining dwell seconds for the current kill step; drives the countdown. */
+    val killDwellRemainingSeconds: Int = 0,
 )

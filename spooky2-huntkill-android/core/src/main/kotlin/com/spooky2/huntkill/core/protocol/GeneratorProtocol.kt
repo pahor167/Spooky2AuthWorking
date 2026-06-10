@@ -237,40 +237,63 @@ object GeneratorProtocol {
     /**
      * Build set output 1 frequency for GeneratorX Pro.
      *
-     * Format: `[frequency_digits][decimal_position_code]`.
-     * The LAST digit is a code that tells the firmware where to place the decimal:
-     *   0 = 4 integer digits, 1 = 5, 2 = 6, 3 = 7, etc.
-     * Frequency is formatted with F8 (8 decimal places), dot removed.
-     * Decimal position code = (number of integer digits) - 4.
-     * Example: 41000 Hz (5 int digits) → "4100000000000" + "1" → `:w24=41000000000001,`.
-     * Verified by user testing on GeneratorX Pro hardware.
+     * See [formatFrequency] for the exact encoding rule.
+     * Example: 41010.25 Hz → "41010256" → `:w24=41010256,`
+     * (matches the very first sweep step in the original `Data/FullHuntAndKill` dump).
      */
     fun buildSetFrequency1(frequencyHz: Double): String = ":w24=${formatFrequency(frequencyHz)},"
 
     /** Build set output 2 frequency (same format as output 1). */
     fun buildSetFrequency2(frequencyHz: Double): String = ":w25=${formatFrequency(frequencyHz)},"
 
-    /** Formats frequency for GX Pro: F8 with dot removed + decimal position code. */
+    /**
+     * Formats a frequency for the GeneratorX Pro `:w24`/`:w25` registers.
+     *
+     * Encoding rule (DERIVED from the ORIGINAL Spooky2 serial dumps and proven
+     * byte-for-byte against 15132/15132 `:w24=` lines in `Data/FullHuntAndKill`
+     * — a perfect decode→encode round trip):
+     *
+     *  1. Round the frequency to **8 decimal places** (banker's rounding,
+     *     matching C# `double.ToString("F8")` / `Math.Round`).
+     *  2. Remove the decimal point.
+     *  3. **Strip the trailing zeros** that came from the fractional part.
+     *  4. Append a single **position-code digit** = `8 - (fractional digits kept)`.
+     *     The firmware uses this code to re-insert the decimal point: the last
+     *     `8 - posCode` digits of the mantissa are the fractional part.
+     *
+     * Worked examples from the dump:
+     *  - 41010.25       → F8 "41010.25000000" → strip → "41010.25"       → mantissa "4101025"      + posCode 6 → "41010256"
+     *  - 41020.5025625  → F8 "41020.50256250" → strip → "41020.5025625"  → mantissa "410205025625" + posCode 1 → "4102050256251"
+     *  - 41030.75768814 → F8 "41030.75768814" (no trailing zero)         → mantissa "4103075768814"+ posCode 0 → "41030757688140"
+     *  - 1796956.27039622 (last sweep step / first kill freq)            →                              "1796956270396220"
+     *
+     * NOTE — discrepancy with the C# port: the C# reference encoded a fixed
+     * 8-fractional-digit field plus `posCode = integerDigits - 4`. That rule is
+     * WRONG (it produced e.g. 41000 → "41000000000001" and shifted real sweep
+     * values by a digit, making the generator run at ×10/×100). The dump is the
+     * ground truth and wins; see `GeneratorProtocolTest` for the corrected
+     * golden vectors and `DumpFrequencyEncodingTest` for the full replay.
+     */
     fun formatFrequency(frequencyHz: Double): String {
-        // Format with 8 decimal places, remove dot.
-        // C# double.ToString("F8") rounds half-to-even (banker's rounding) and
-        // emits a fixed-width string with exactly 8 fractional digits.
-        var s = BigDecimal(frequencyHz)
+        // 1. Round to 8 decimal places. Use Double.toString so the rounding
+        //    operates on the shortest round-trippable decimal (as C# does for
+        //    double.ToString("F8")), not on the exact binary expansion.
+        val rounded = BigDecimal(frequencyHz.toString())
             .setScale(8, RoundingMode.HALF_EVEN)
             .toPlainString()
 
-        // Count integer digits (before the dot).
-        val dotIdx = s.indexOf('.')
-        val intDigits = if (dotIdx > 0) dotIdx else s.length
+        val dotIdx = rounded.indexOf('.')
+        val intPart = if (dotIdx >= 0) rounded.substring(0, dotIdx) else rounded
+        val fracPart = if (dotIdx >= 0) rounded.substring(dotIdx + 1) else ""
 
-        // Remove the dot — keep the full fixed-width string (VB6 original uses fixed-width formatting).
-        // Do NOT trim leading zeros: they encode the magnitude for sub-kHz frequencies.
-        s = s.replace(".", "")
+        // 2-3. Drop the dot and strip trailing zeros from the fractional digits.
+        //      Leading zeros of the integer part are preserved (they encode
+        //      magnitude for sub-kHz frequencies).
+        val fracStripped = fracPart.trimEnd('0')
 
-        // Append decimal position code: (integer_digits - 4).
-        // 4 int digits → 0, 5 → 1, 6 → 2, etc.
-        val posCode = maxOf(0, intDigits - 4)
-        return s + posCode.toString()
+        // 4. Append the position code.
+        val posCode = 8 - fracStripped.length
+        return intPart + fracStripped + posCode.toString()
     }
 
     /**

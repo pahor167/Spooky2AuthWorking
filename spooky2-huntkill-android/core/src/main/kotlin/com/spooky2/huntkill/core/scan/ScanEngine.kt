@@ -40,6 +40,7 @@ class ScanEngine(private val link: GeneratorLink) {
     suspend fun runBiofeedbackScan(
         parameters: ScanParameters,
         onProgress: ((ScanProgress) -> Unit)? = null,
+        pauseGate: PauseGate = PauseGate(),
     ): List<ScanResult> {
         // ══════════════════════════════════════════════════════════
         // PHASE 1: Setup + Amplitude Ramp-Up
@@ -157,6 +158,7 @@ class ScanEngine(private val link: GeneratorLink) {
 
         for (b in 0 until parameters.baselineReadCount) {
             coroutineContext.ensureActive()
+            pauseGate.awaitResumed()
             val (angle, current) = readSensors(parameters.samplesPerStep)
 
             raWindow1.add(current)
@@ -186,6 +188,7 @@ class ScanEngine(private val link: GeneratorLink) {
         for (loop in 0 until parameters.loops) {
             for (i in frequencies.indices) {
                 coroutineContext.ensureActive()
+                pauseGate.awaitResumed()
                 val freq = frequencies[i]
 
                 send(GeneratorProtocol.buildSetFrequency1(freq))
@@ -293,6 +296,7 @@ class ScanEngine(private val link: GeneratorLink) {
     suspend fun runHuntAndKill(
         parameters: ScanParameters,
         onProgress: ((ScanProgress) -> Unit)? = null,
+        pauseGate: PauseGate = PauseGate(),
     ): List<ScanResult> {
         var lastCycleHits: List<ScanResult> = emptyList()
         var cycle = 0
@@ -307,7 +311,7 @@ class ScanEngine(private val link: GeneratorLink) {
                 ),
             )
 
-            val hits = runBiofeedbackScan(parameters, onProgress)
+            val hits = runBiofeedbackScan(parameters, onProgress, pauseGate)
 
             if (hits.isEmpty()) break
 
@@ -324,7 +328,7 @@ class ScanEngine(private val link: GeneratorLink) {
             send(GeneratorProtocol.buildSetAmplitudeCv1(parameters.targetAmplitudeCv))
             send(GeneratorProtocol.buildSetAmplitudeCv2(parameters.targetAmplitudeCv))
 
-            val dwellMs = (parameters.dwellSeconds * 1000).toLong()
+            val dwellSeconds = parameters.dwellSeconds
             val killFreqs = hits.map { it.frequency }
 
             if (killFreqs.isNotEmpty()) {
@@ -335,20 +339,37 @@ class ScanEngine(private val link: GeneratorLink) {
 
             var i = 0
             while (i < killFreqs.size && coroutineContext.isActive()) {
-                onProgress?.invoke(
-                    ScanProgress(
-                        currentFrequency = killFreqs[i],
-                        statusText = "Killing ${i + 1}/${killFreqs.size}: ${killFreqs[i]} Hz",
-                        cycleNumber = cycle,
-                        hitsFound = hits.size,
-                        stepNumber = i + 1,
-                        totalSteps = killFreqs.size,
-                        percentComplete = (i + 1).toDouble() / killFreqs.size * 100,
-                    ),
-                )
-
                 if (i > 0) link.writeFrequencies(listOf(killFreqs[i]))
-                delay(dwellMs)
+
+                // Dwell as a loop of ~1s slices so pause + cancellation are checked
+                // each second and the countdown stays accurate. While paused the loop
+                // holds: the current frequency stays set and no new commands are sent.
+                // The do/while shape emits one progress even for a zero dwell so the
+                // kill phase is always observable.
+                var remainingMs = (dwellSeconds * 1000).toLong()
+                do {
+                    pauseGate.awaitResumed()
+                    coroutineContext.ensureActive()
+
+                    val remainingSeconds = ((remainingMs + 999) / 1000).toInt()
+                    onProgress?.invoke(
+                        ScanProgress(
+                            currentFrequency = killFreqs[i],
+                            statusText = "Killing ${i + 1}/${killFreqs.size}: ${killFreqs[i]} Hz",
+                            cycleNumber = cycle,
+                            hitsFound = hits.size,
+                            stepNumber = i + 1,
+                            totalSteps = killFreqs.size,
+                            percentComplete = (i + 1).toDouble() / killFreqs.size * 100,
+                            killDwellRemainingSeconds = remainingSeconds,
+                        ),
+                    )
+
+                    if (remainingMs <= 0) break
+                    val slice = min(remainingMs, KILL_DWELL_SLICE_MS)
+                    delay(slice)
+                    remainingMs -= slice
+                } while (remainingMs > 0 && coroutineContext.isActive())
                 i++
             }
 
@@ -387,6 +408,9 @@ class ScanEngine(private val link: GeneratorLink) {
     }
 
     companion object {
+
+        /** Kill-dwell slice length: one second per tick for pause/cancel checks + countdown. */
+        private const val KILL_DWELL_SLICE_MS = 1000L
 
         /**
          * Post-processing hit detection. Verbatim port of C# `ScanService.DetectHits`:

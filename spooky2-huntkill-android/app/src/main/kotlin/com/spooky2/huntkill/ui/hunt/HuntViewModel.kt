@@ -5,11 +5,13 @@ import androidx.lifecycle.viewModelScope
 import com.spooky2.huntkill.core.model.ScanParameters
 import com.spooky2.huntkill.core.model.ScanProgress
 import com.spooky2.huntkill.core.model.ScanResult
+import com.spooky2.huntkill.core.scan.PauseGate
 import com.spooky2.huntkill.data.SessionHolder
 import com.spooky2.huntkill.log.LogBus
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -63,6 +65,8 @@ data class HuntUiState(
     val killIndex: Int = 0,
     val killTotal: Int = 0,
     val killDwellRemainingSeconds: Int = 0,
+    val isPaused: Boolean = false,
+    val elapsedSeconds: Int = 0,
     val errorMessage: String? = null,
 )
 
@@ -76,6 +80,12 @@ class HuntViewModel @Inject constructor(
     val state: StateFlow<HuntUiState> = _state.asStateFlow()
 
     private var huntJob: Job? = null
+
+    /** Drives a 1s tick so [HuntUiState.elapsedSeconds] advances while running, not paused. */
+    private var elapsedTicker: Job? = null
+
+    /** Cooperative pause for the running scan; shared between this VM and the engine. */
+    private val pauseGate = PauseGate()
 
     fun updateStartFrequency(v: String) = updateParams { it.copy(startFrequencyText = v) }
     fun updateEndFrequency(v: String) = updateParams { it.copy(endFrequencyText = v) }
@@ -103,6 +113,7 @@ class HuntViewModel @Inject constructor(
             "startHunt: start=${parameters.startFrequency} end=${parameters.endFrequency} " +
                 "dwell=${parameters.dwellSeconds}s ampCv=${parameters.targetAmplitudeCv}",
         )
+        pauseGate.resume()
         _state.update {
             it.copy(
                 phase = HuntPhase.Hunting,
@@ -112,9 +123,12 @@ class HuntViewModel @Inject constructor(
                 killIndex = 0,
                 killTotal = 0,
                 killDwellRemainingSeconds = 0,
+                isPaused = false,
+                elapsedSeconds = 0,
                 errorMessage = null,
             )
         }
+        startElapsedTicker()
 
         huntJob = viewModelScope.launch(Dispatchers.Default) {
             // Demo path rebuilds a fresh single-use replay each run (the FakeTransport
@@ -139,9 +153,11 @@ class HuntViewModel @Inject constructor(
             }
 
             runCatching {
-                session.engine.runHuntAndKill(parameters) { progress ->
-                    onProgress(progress, parameters)
-                }
+                session.engine.runHuntAndKill(
+                    parameters,
+                    { progress -> onProgress(progress, parameters) },
+                    pauseGate,
+                )
             }.onSuccess { hits ->
                 log.i(TAG, "Hunt complete — ${hits.size} hits")
                 hits.forEachIndexed { index, hit ->
@@ -150,22 +166,26 @@ class HuntViewModel @Inject constructor(
                         "  hit[$index] freq=${"%.2f".format(hit.frequency)} deviation=${hit.deviation}",
                     )
                 }
+                stopElapsedTicker()
                 _state.update {
                     it.copy(
                         phase = HuntPhase.Done,
                         hits = if (it.hits.isNotEmpty()) it.hits else hits,
                         statusText = "Hunt & Kill complete — ${hits.size} hits",
                         killDwellRemainingSeconds = 0,
+                        isPaused = false,
                     )
                 }
             }.onFailure { error ->
                 if (error is kotlinx.coroutines.CancellationException) throw error
                 log.e(TAG, "Scan failed: ${error.message}")
+                stopElapsedTicker()
                 safetyStopInternal(session)
                 _state.update {
                     it.copy(
                         phase = HuntPhase.Error,
                         errorMessage = error.message ?: "Scan failed",
+                        isPaused = false,
                     )
                 }
             }
@@ -213,7 +233,7 @@ class HuntViewModel @Inject constructor(
                 killIndex = if (isKill) progress.stepNumber else current.killIndex,
                 killTotal = if (isKill) progress.totalSteps else current.killTotal,
                 killDwellRemainingSeconds = if (isKill) {
-                    parameters.dwellSeconds.toInt()
+                    progress.killDwellRemainingSeconds
                 } else {
                     current.killDwellRemainingSeconds
                 },
@@ -224,10 +244,47 @@ class HuntViewModel @Inject constructor(
     private fun HuntPhase.coerceHunting(): HuntPhase =
         if (this == HuntPhase.Killing || this == HuntPhase.Done) this else HuntPhase.Hunting
 
+    /**
+     * Toggle pause/resume on the running hunt. While paused the engine holds at the
+     * current frequency (no new commands), the sweep progress and kill countdown
+     * freeze, and the elapsed clock stops advancing.
+     */
+    fun togglePause() {
+        val phase = _state.value.phase
+        if (phase != HuntPhase.Hunting && phase != HuntPhase.Killing) return
+
+        val nowPaused = !_state.value.isPaused
+        if (nowPaused) pauseGate.pause() else pauseGate.resume()
+        log.i(TAG, if (nowPaused) "Hunt paused (hold)" else "Hunt resumed")
+        _state.update { it.copy(isPaused = nowPaused) }
+    }
+
+    /** 1s ticker: advances elapsedSeconds only while running and not paused. */
+    private fun startElapsedTicker() {
+        elapsedTicker?.cancel()
+        elapsedTicker = viewModelScope.launch {
+            while (true) {
+                delay(1000)
+                val s = _state.value
+                val running = s.phase == HuntPhase.Hunting || s.phase == HuntPhase.Killing
+                if (running && !s.isPaused) {
+                    _state.update { it.copy(elapsedSeconds = it.elapsedSeconds + 1) }
+                }
+            }
+        }
+    }
+
+    private fun stopElapsedTicker() {
+        elapsedTicker?.cancel()
+        elapsedTicker = null
+    }
+
     /** Cancel the running scan coroutine and run the safety-stop path. */
     fun cancel() {
         log.w(TAG, "Cancel requested — running safety stop")
         val session = sessionHolder.current()
+        pauseGate.resume()
+        stopElapsedTicker()
         huntJob?.cancel()
         huntJob = null
         viewModelScope.launch {
@@ -237,6 +294,7 @@ class HuntViewModel @Inject constructor(
                     phase = HuntPhase.Cancelled,
                     statusText = "Cancelled — output stopped",
                     killDwellRemainingSeconds = 0,
+                    isPaused = false,
                 )
             }
         }
@@ -251,6 +309,7 @@ class HuntViewModel @Inject constructor(
 
     override fun onCleared() {
         super.onCleared()
+        stopElapsedTicker()
         huntJob?.cancel()
     }
 

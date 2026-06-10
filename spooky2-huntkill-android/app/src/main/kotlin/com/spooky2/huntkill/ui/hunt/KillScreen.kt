@@ -2,11 +2,13 @@ package com.spooky2.huntkill.ui.hunt
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
@@ -16,13 +18,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
-import kotlinx.coroutines.delay
+import com.spooky2.huntkill.ui.common.asHz
+import com.spooky2.huntkill.ui.common.formatElapsed
 
 @Composable
 fun KillScreen(
@@ -38,33 +39,39 @@ fun KillScreen(
         }
     }
 
-    // Local per-frequency countdown, reset whenever the engine advances to a new
-    // kill step. The engine owns the real dwell; this is the visible countdown.
-    var remaining by remember { mutableIntStateOf(0) }
-    LaunchedEffect(state.killIndex, state.killDwellRemainingSeconds, state.phase) {
-        if (state.phase == HuntPhase.Killing && state.killDwellRemainingSeconds > 0) {
-            remaining = state.killDwellRemainingSeconds
-            while (remaining > 0) {
-                delay(1000)
-                remaining -= 1
-            }
-        }
-    }
+    // Countdown is driven straight from engine progress (1s slices), so pausing
+    // freezes it automatically — no local timer that keeps ticking while paused.
+    val remaining = state.killDwellRemainingSeconds
 
     Column(
         modifier = Modifier.fillMaxSize().padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         Text("Kill Phase", style = MaterialTheme.typography.headlineSmall)
-        Text(state.statusText, style = MaterialTheme.typography.bodyMedium)
+        Text(
+            state.statusText,
+            style = MaterialTheme.typography.bodyMedium,
+            maxLines = 1,
+            softWrap = false,
+            overflow = TextOverflow.Ellipsis,
+        )
+        Text("Elapsed: ${formatElapsed(state.elapsedSeconds)}", style = MaterialTheme.typography.bodyMedium)
 
         Card(modifier = Modifier.fillMaxWidth()) {
             Column(Modifier.padding(16.dp)) {
                 Text(
-                    "Frequency ${state.killIndex}/${state.killTotal}",
+                    "Killing ${state.killIndex}/${state.killTotal}",
                     style = MaterialTheme.typography.titleMedium,
+                    maxLines = 1,
+                    softWrap = false,
+                    overflow = TextOverflow.Ellipsis,
                 )
-                Text("${"%.2f".format(state.currentFrequency)} Hz")
+                Text(
+                    state.currentFrequency.asHz(),
+                    maxLines = 1,
+                    softWrap = false,
+                    overflow = TextOverflow.Ellipsis,
+                )
                 Spacer(Modifier.height(8.dp))
                 Text("Dwell remaining: ${remaining}s", style = MaterialTheme.typography.titleLarge)
             }
@@ -76,8 +83,13 @@ fun KillScreen(
         )
 
         Spacer(Modifier.height(8.dp))
-        OutlinedButton(onClick = viewModel::safetyStop, modifier = Modifier.fillMaxWidth()) {
-            Text("Stop (safety)")
+        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Button(onClick = viewModel::togglePause, modifier = Modifier.weight(1f)) {
+                Text(if (state.isPaused) "Resume" else "Pause")
+            }
+            OutlinedButton(onClick = viewModel::safetyStop, modifier = Modifier.weight(1f)) {
+                Text("Stop (safety)")
+            }
         }
 
         Spacer(Modifier.height(8.dp))
