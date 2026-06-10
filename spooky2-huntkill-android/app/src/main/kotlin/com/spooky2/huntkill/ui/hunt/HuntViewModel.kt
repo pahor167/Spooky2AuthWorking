@@ -416,7 +416,8 @@ class HuntViewModel @Inject constructor(
         }
     }
 
-    /** Store the full reading history + dropout diagnostics into UI state. */
+    /** Store the full reading history + dropout diagnostics into UI state, and kick off
+     *  reverse lookup immediately so matches are available as soon as hits are known. */
     private fun publishSweepOutcome(outcome: ScanOutcome) {
         val markers = finalMarkers(outcome.hits)
         _state.update {
@@ -426,7 +427,13 @@ class HuntViewModel @Inject constructor(
                 dropoutSegments = outcome.segments,
                 totalSweepSteps = outcome.sweepReadings.size,
                 graphMarkers = markers,
+                hits = outcome.hits,
             )
+        }
+        // Start reverse lookup as soon as hits are known (sweep complete), so the Kill
+        // screen and dropout-warning screen can already show matches during treatment.
+        if (outcome.hits.isNotEmpty()) {
+            runReverseLookup(outcome.hits, _state.value.lookupTolerancePercent)
         }
     }
 
@@ -513,9 +520,14 @@ class HuntViewModel @Inject constructor(
                 busyAction = null,
             )
         }
-        // Reverse lookup runs AFTER Done is published, so it never delays the
-        // kill flow, zeroing, or navigation. Cancellation-safe and off the UI.
-        runReverseLookup(finalHits, _state.value.lookupTolerancePercent)
+        // Lookup was already started in publishSweepOutcome when hits were first found.
+        // Only re-run here if the hit set changed (e.g. after a re-scan merge changed hits)
+        // or if results are still absent for some reason (e.g. DB load failed earlier).
+        val currentState = _state.value
+        val hitsChanged = currentState.lookupResults.keys != finalHits.map { it.frequency }.toSet()
+        if (currentState.lookupResults.isEmpty() || hitsChanged) {
+            runReverseLookup(finalHits, currentState.lookupTolerancePercent)
+        }
     }
 
     /**

@@ -24,6 +24,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -117,7 +118,16 @@ fun KillScreen(
 
         // Detected hits being treated. The frequency currently killing (1-based
         // killIndex) is highlighted so the user sees the chosen frequencies.
+        // Reverse-lookup matches (computed at sweep end) are shown under each hit.
         Text("Hits (${state.hits.size})", style = MaterialTheme.typography.titleSmall)
+        if (state.hits.isNotEmpty()) {
+            ToleranceSelector(
+                selected = state.lookupTolerancePercent,
+                busy = state.lookupBusy,
+                onSelect = viewModel::setLookupTolerance,
+            )
+        }
+        val expanded = remember { mutableStateMapOf<Double, Boolean>() }
         LazyColumn(
             modifier = Modifier.fillMaxWidth().weight(1f),
             verticalArrangement = Arrangement.spacedBy(6.dp),
@@ -146,6 +156,15 @@ fun KillScreen(
                         Text(
                             "Deviation: ${"%.2f".format(hit.deviation)}",
                             style = MaterialTheme.typography.bodySmall,
+                        )
+                        Spacer(Modifier.height(4.dp))
+                        MatchList(
+                            matches = state.lookupResults[hit.frequency],
+                            busy = state.lookupBusy,
+                            isExpanded = expanded[hit.frequency] == true,
+                            onToggleExpanded = {
+                                expanded[hit.frequency] = !(expanded[hit.frequency] ?: false)
+                            },
                         )
                     }
                 }

@@ -21,6 +21,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
+import java.util.concurrent.CountDownLatch
 
 /**
  * Verifies the reverse-lookup wiring on [HuntViewModel]: after a demo hunt reaches Done,
@@ -96,6 +97,49 @@ class HuntViewModelReverseLookupTest {
         assertEquals(false, pinnedState.lookupBusy)
     }
 
+    /**
+     * Lookup must be started as soon as the sweep yields hits — i.e. during or before
+     * [HuntPhase.Killing], not only after [HuntPhase.Done]. This uses a blocking DB source
+     * that holds until the kill phase is confirmed, guaranteeing [lookupBusy] is true while
+     * the kill runs if (and only if) the lookup was triggered at sweep end.
+     */
+    @Test
+    fun `lookup is triggered at sweep end before kill completes`() = runBlocking {
+        // A latch that keeps the DB load blocked until we release it. This lets us
+        // observe lookupBusy == true during the Killing phase with certainty.
+        val releaseDb = CountDownLatch(1)
+        val blockingSource = object : FrequencyDatabaseSource {
+            val db = FrequencyDatabase(
+                listOf(ProgramEntry("EarlyMatch", "RIFE", "", doubleArrayOf(0.0))),
+                skippedLines = 0,
+                declaredCount = 1,
+            )
+            override suspend fun database(): FrequencyDatabase {
+                releaseDb.await() // block until test releases
+                return db
+            }
+        }
+        val viewModel = buildViewModel(blockingSource)
+
+        viewModel.startHunt()
+
+        // Wait for Killing phase. At this point the lookup job is blocked on the DB latch,
+        // so lookupBusy must be true — confirming the lookup was triggered at sweep end.
+        val killingState = awaitPhase(viewModel, HuntPhase.Killing)
+        val lookupBusyDuringKill = killingState.lookupBusy
+
+        // Release the DB so the hunt can finish.
+        releaseDb.countDown()
+        awaitDone(viewModel)
+        val finalState = awaitLookupComplete(viewModel)
+
+        assertTrue(
+            "lookupBusy should be true during Killing (lookup triggered at sweep end, not only at Done)",
+            lookupBusyDuringKill,
+        )
+        assertTrue("lookupResults should be non-empty after Done", finalState.lookupResults.isNotEmpty())
+    }
+
     @Test
     fun `changing tolerance re-runs the lookup`() = runBlocking {
         val source = FakeDatabaseSource(
@@ -132,6 +176,20 @@ class HuntViewModelReverseLookupTest {
 
         return HuntViewModel(holder, LogBus(), usbConnectionManager = null, frequencyDatabase = source)
             .apply { updateDwellSeconds("0") }
+    }
+
+    /**
+     * Blocks until [phase] or a terminal phase (Done/Error) is first observed, returning
+     * the state snapshot at that moment.
+     */
+    private fun awaitPhase(viewModel: HuntViewModel, phase: HuntPhase): HuntUiState {
+        val deadline = System.currentTimeMillis() + 60_000
+        while (System.currentTimeMillis() < deadline) {
+            val s = viewModel.state.value
+            if (s.phase == phase || s.phase == HuntPhase.Done || s.phase == HuntPhase.Error) return s
+            Thread.sleep(2)
+        }
+        throw AssertionError("Hunt did not reach $phase within 60s")
     }
 
     private fun awaitDone(viewModel: HuntViewModel): HuntUiState {

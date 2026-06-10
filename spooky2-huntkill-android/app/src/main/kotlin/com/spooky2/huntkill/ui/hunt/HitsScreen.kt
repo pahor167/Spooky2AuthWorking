@@ -37,7 +37,7 @@ import com.spooky2.huntkill.ui.common.asHz
 import kotlin.math.roundToInt
 
 /** Matches shown per hit before the "show all" expander appears. */
-private const val COLLAPSED_MATCHES = 5
+internal const val COLLAPSED_MATCHES = 5
 
 @Composable
 fun HitsScreen(
@@ -255,7 +255,7 @@ private fun DropoutWarningCard(
 
 /** Tolerance preset chips (0.1 / 0.25 / 0.5 / 1.0 %) that re-run the lookup on tap. */
 @Composable
-private fun ToleranceSelector(
+internal fun ToleranceSelector(
     selected: Double,
     busy: Boolean,
     onSelect: (Double) -> Unit,
@@ -291,7 +291,7 @@ private fun ToleranceSelector(
 
 /** Per-hit reverse-lookup matches with a collapse/"show all" expander. */
 @Composable
-private fun MatchList(
+internal fun MatchList(
     matches: List<LookupMatch>?,
     busy: Boolean,
     isExpanded: Boolean,
@@ -338,7 +338,7 @@ private fun MatchList(
 }
 
 /** Format a tolerance percent for a chip label, dropping a trailing `.0`. */
-private fun formatPercent(value: Double): String {
+internal fun formatPercent(value: Double): String {
     val text = if (value == value.toLong().toDouble()) value.toLong().toString() else value.toString()
     return "$text%"
 }
