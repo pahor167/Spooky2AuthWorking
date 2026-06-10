@@ -5,6 +5,8 @@ import androidx.lifecycle.viewModelScope
 import com.spooky2.huntkill.core.lookup.LookupMatch
 import com.spooky2.huntkill.core.lookup.ReverseLookup
 import com.spooky2.huntkill.core.lookup.ReverseLookupParameters
+import com.spooky2.huntkill.core.model.DropoutSegment
+import com.spooky2.huntkill.core.model.ScanOutcome
 import com.spooky2.huntkill.core.model.ScanParameters
 import com.spooky2.huntkill.core.model.ScanProgress
 import com.spooky2.huntkill.core.model.ScanResult
@@ -31,7 +33,7 @@ import kotlinx.coroutines.flow.update
 import javax.inject.Inject
 
 /** Phase the Hunt→Kill flow is currently in. */
-enum class HuntPhase { Idle, Hunting, HitsReady, Killing, Done, Cancelled, Error }
+enum class HuntPhase { Idle, Hunting, HitsReady, HitsReadyWithDropouts, Killing, Done, Cancelled, Error }
 
 /** Default reverse-lookup tolerance, mirroring the original report's .25%. */
 const val DEFAULT_LOOKUP_TOLERANCE_PERCENT = 0.25
@@ -121,7 +123,27 @@ data class HuntUiState(
     val currentReading: Double = 0.0,
     val runningAverage: Double = 0.0,
     val percentComplete: Double = 0.0,
+    /** Live-tail window of the most recent readings (default graph view). */
     val angleHistory: List<Double> = emptyList(),
+    /**
+     * FULL per-step reading history for the current hunt (up to ~15k points),
+     * backing the horizontally scrollable graph. Stored as a [FloatArray] so 15k
+     * points stay cheap. Grows during the sweep; replaced by the merged outcome
+     * after a re-scan.
+     */
+    val fullHistory: FloatArray = FloatArray(0),
+    /**
+     * Per-step validity mask aligned to [fullHistory]: `false` marks a flagged
+     * dropout step so the graph can tint those regions. Same length as
+     * [fullHistory] once the sweep completes.
+     */
+    val historyValid: BooleanArray = BooleanArray(0),
+    /** Merged dropout segments from the completed sweep; empty on a clean sweep. */
+    val dropoutSegments: List<DropoutSegment> = emptyList(),
+    /** Total sweep steps, used to map [fullHistory] indices onto the X axis. */
+    val totalSweepSteps: Int = 0,
+    /** True while a segment re-scan is running (drives the warning-card spinner). */
+    val rescanInProgress: Boolean = false,
     val hits: List<ScanResult> = emptyList(),
     val killIndex: Int = 0,
     val killTotal: Int = 0,
@@ -180,6 +202,12 @@ class HuntViewModel @Inject constructor(
 
     /** Reverse-lookup coroutine; cancelled/replaced when the tolerance is re-selected. */
     private var lookupJob: Job? = null
+
+    /** Parameters of the in-flight/just-finished hunt; reused by the re-scan flow. */
+    private var activeParameters: ScanParameters? = null
+
+    /** Last sweep outcome (readings + validity + segments); spliced by a re-scan. */
+    private var lastOutcome: ScanOutcome? = null
 
     init {
         refreshGeneratorInfo()
@@ -318,35 +346,26 @@ class HuntViewModel @Inject constructor(
                     "readDelay=${parameters.minReadDelaySeconds}s ramp=${parameters.enableAmplitudeRampUp}",
             )
 
+            activeParameters = parameters
+
             runCatching {
-                session.engine.runHuntAndKill(
+                // Run the SWEEP only. The kill decision is made afterwards so a
+                // dropout can be surfaced before any frequencies are treated.
+                val outcome = session.engine.runBiofeedbackScanDetailed(
                     parameters,
                     { progress -> onProgress(progress, parameters) },
                     pauseGate,
                 )
-            }.onSuccess { hits ->
-                log.i(TAG, "Hunt complete — ${hits.size} hits")
-                hits.forEachIndexed { index, hit ->
-                    log.i(
-                        TAG,
-                        "  hit[$index] freq=${"%.2f".format(hit.frequency)} deviation=${hit.deviation}",
-                    )
+                lastOutcome = outcome
+                publishSweepOutcome(outcome)
+
+                if (outcome.segments.isEmpty()) {
+                    // Clean sweep: unchanged auto-kill flow.
+                    proceedToKill(session, parameters, outcome.hits, cycle = 1)
+                } else {
+                    // Dropouts detected: STOP before the kill, surface the warning.
+                    surfaceDropouts(outcome, parameters)
                 }
-                stopElapsedTicker()
-                val finalHits = _state.value.hits.ifEmpty { hits }
-                _state.update {
-                    it.copy(
-                        phase = HuntPhase.Done,
-                        hits = finalHits,
-                        statusText = "Hunt & Kill complete — ${hits.size} hits",
-                        killDwellRemainingSeconds = 0,
-                        isPaused = false,
-                        busyAction = null,
-                    )
-                }
-                // Reverse lookup runs AFTER Done is published, so it never delays the
-                // kill flow, zeroing, or navigation. Cancellation-safe and off the UI.
-                runReverseLookup(finalHits, _state.value.lookupTolerancePercent)
             }.onFailure { error ->
                 if (error is kotlinx.coroutines.CancellationException) throw error
                 log.e(TAG, "Scan failed: ${error.message}")
@@ -357,6 +376,167 @@ class HuntViewModel @Inject constructor(
                         phase = HuntPhase.Error,
                         errorMessage = error.message ?: "Scan failed",
                         isPaused = false,
+                        busyAction = null,
+                    )
+                }
+            }
+        }
+    }
+
+    /** Store the full reading history + dropout diagnostics into UI state. */
+    private fun publishSweepOutcome(outcome: ScanOutcome) {
+        _state.update {
+            it.copy(
+                fullHistory = outcome.sweepReadings,
+                historyValid = outcome.sweepValid,
+                dropoutSegments = outcome.segments,
+                totalSweepSteps = outcome.sweepReadings.size,
+            )
+        }
+    }
+
+    /**
+     * Surface the [HuntPhase.HitsReadyWithDropouts] warning state and log the
+     * detected segments with their frequency ranges. No kill happens until the
+     * user chooses "Re-scan affected segments" or "Continue anyway".
+     */
+    private fun surfaceDropouts(outcome: ScanOutcome, parameters: ScanParameters) {
+        stopElapsedTicker()
+        val pct = (outcome.invalidFraction * 100)
+        log.w(
+            TAG,
+            "Dropout detected: ${outcome.segments.size} segment(s), " +
+                "~${"%.1f".format(pct)}% of sweep flagged",
+        )
+        outcome.segments.forEachIndexed { i, seg ->
+            log.w(
+                TAG,
+                "  dropout[$i] steps ${seg.startStep}..${seg.endStep} " +
+                    "(${"%.2f".format(seg.startFrequency)}–${"%.2f".format(seg.endFrequency)} Hz)",
+            )
+        }
+        _state.update {
+            it.copy(
+                phase = HuntPhase.HitsReadyWithDropouts,
+                hits = outcome.hits,
+                statusText = "Connection dropped during ${outcome.segments.size} segment(s)",
+                isPaused = false,
+                busyAction = null,
+            )
+        }
+    }
+
+    /** Run the kill phase for [hits], then publish Done + reverse lookup. */
+    private suspend fun proceedToKill(
+        session: GeneratorSession,
+        parameters: ScanParameters,
+        hits: List<ScanResult>,
+        cycle: Int,
+    ) {
+        if (hits.isNotEmpty()) {
+            session.engine.killHits(
+                hits,
+                parameters,
+                { progress -> onProgress(progress, parameters) },
+                pauseGate,
+                cycle,
+            )
+        }
+        session.engine.finishHuntAndKill(parameters)
+
+        log.i(TAG, "Hunt complete — ${hits.size} hits")
+        hits.forEachIndexed { index, hit ->
+            log.i(TAG, "  hit[$index] freq=${"%.2f".format(hit.frequency)} deviation=${hit.deviation}")
+        }
+        stopElapsedTicker()
+        val finalHits = _state.value.hits.ifEmpty { hits }
+        _state.update {
+            it.copy(
+                phase = HuntPhase.Done,
+                hits = finalHits,
+                statusText = "Hunt & Kill complete — ${hits.size} hits",
+                killDwellRemainingSeconds = 0,
+                isPaused = false,
+                busyAction = null,
+            )
+        }
+        // Reverse lookup runs AFTER Done is published, so it never delays the
+        // kill flow, zeroing, or navigation. Cancellation-safe and off the UI.
+        runReverseLookup(finalHits, _state.value.lookupTolerancePercent)
+    }
+
+    /**
+     * "Continue anyway": skip the re-scan and kill using the hits computed with
+     * the invalid steps already excluded. No-op outside the dropout-warning state.
+     */
+    fun continueAnyway() {
+        if (_state.value.phase != HuntPhase.HitsReadyWithDropouts) return
+        val session = sessionHolder.current() ?: return
+        val parameters = activeParameters ?: return
+        val hits = _state.value.hits
+
+        log.i(TAG, "User chose Continue anyway — killing ${hits.size} hits (dropouts ignored)")
+        pauseGate.resume()
+        _state.update { it.copy(phase = HuntPhase.Killing, busyAction = null, isPaused = false) }
+        startElapsedTicker()
+        huntJob = viewModelScope.launch(Dispatchers.Default) {
+            runCatching { proceedToKill(session, parameters, hits, cycle = 1) }
+                .onFailure { error ->
+                    if (error is kotlinx.coroutines.CancellationException) throw error
+                    log.e(TAG, "Kill failed: ${error.message}")
+                    stopElapsedTicker()
+                    safetyStopInternal(session)
+                    _state.update {
+                        it.copy(phase = HuntPhase.Error, errorMessage = error.message ?: "Kill failed", busyAction = null)
+                    }
+                }
+        }
+    }
+
+    /**
+     * "Re-scan affected segments": re-sweep the flagged segments (buffered), splice
+     * the fresh readings over the old, recompute hits, then proceed to kill with the
+     * merged hits. If the re-scan itself fails (cable still bad), surface the error
+     * and re-offer the dropout choice so the user can retry.
+     */
+    fun rescanAffectedSegments() {
+        if (_state.value.phase != HuntPhase.HitsReadyWithDropouts) return
+        val session = sessionHolder.current() ?: return
+        val parameters = activeParameters ?: return
+        val outcome = lastOutcome ?: return
+
+        log.i(TAG, "User chose Re-scan — re-sweeping ${outcome.segments.size} segment(s)")
+        pauseGate.resume()
+        _state.update { it.copy(phase = HuntPhase.Hunting, rescanInProgress = true, isPaused = false, errorMessage = null) }
+        startElapsedTicker()
+        huntJob = viewModelScope.launch(Dispatchers.Default) {
+            runCatching {
+                val merged = session.engine.rescanSegments(
+                    parameters,
+                    outcome.segments,
+                    outcome,
+                    onProgress = { progress -> onProgress(progress, parameters) },
+                    pauseGate = pauseGate,
+                )
+                lastOutcome = merged
+                log.i(
+                    TAG,
+                    "Re-scan merged: ${merged.segments.size} dropout(s) remain, ${merged.hits.size} hits",
+                )
+                publishSweepOutcome(merged)
+                _state.update { it.copy(rescanInProgress = false, hits = merged.hits) }
+                proceedToKill(session, parameters, merged.hits, cycle = 1)
+            }.onFailure { error ->
+                if (error is kotlinx.coroutines.CancellationException) throw error
+                log.e(TAG, "Re-scan failed: ${error.message}")
+                stopElapsedTicker()
+                // Re-offer the dropout choice so the user can retry the re-scan.
+                _state.update {
+                    it.copy(
+                        phase = HuntPhase.HitsReadyWithDropouts,
+                        rescanInProgress = false,
+                        isPaused = false,
+                        errorMessage = error.message ?: "Re-scan failed — cable may still be unstable",
                         busyAction = null,
                     )
                 }

@@ -82,4 +82,29 @@ data class ScanParameters(
      * Dump shows 203 pairs (+ 1 initial standalone :r11 = 407 total reads).
      */
     val baselineReadCount: Int = 203,
+
+    // ── Dropout detection (cable disconnect / half-broken connection) ──
+    /**
+     * Minimum contiguous run length (steps) for the deviation heuristic to flag
+     * a dropout. Short excursions (1-2 steps) are normal biofeedback variation;
+     * a sustained plateau of >= this many steps is cable garbage.
+     */
+    val dropoutMinRunLength: Int = 3,
+    /**
+     * Fractional deviation from the surrounding rolling median above which a step
+     * is considered an outlier candidate (0.10 = 10%). Tuned so the observed
+     * failure (collapse to a far-away plateau) is caught but normal variation
+     * (a few percent) is not.
+     */
+    val dropoutDeviationFraction: Double = 0.10,
+    /**
+     * Window radius (steps on each side) for the rolling median used by the
+     * deviation heuristic. The median is taken over valid readings in this window.
+     */
+    val dropoutMedianWindow: Int = 25,
+    /**
+     * Consecutive failed reads after which the live "connection unstable" status
+     * is surfaced (the sweep keeps going, values flagged).
+     */
+    val dropoutUnstableReadThreshold: Int = 5,
 )

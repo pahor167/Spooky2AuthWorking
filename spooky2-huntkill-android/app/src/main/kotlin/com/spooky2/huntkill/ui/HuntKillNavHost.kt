@@ -119,6 +119,12 @@ fun HuntKillNavHost(navController: NavHostController = rememberNavController()) 
                         }
                     },
                     onCancelled = { navController.popBackStack(Routes.HUNT, inclusive = false) },
+                    // Dropouts detected: stop on the Hits screen for the re-scan decision.
+                    onDropouts = {
+                        navController.navigate(Routes.HITS) {
+                            popUpTo(Routes.LIVE) { inclusive = true }
+                        }
+                    },
                 )
             }
             composable(Routes.HITS) {
@@ -130,6 +136,13 @@ fun HuntKillNavHost(navController: NavHostController = rememberNavController()) 
                     onDisconnect = {
                         navController.navigate(Routes.CONNECT) {
                             popUpTo(Routes.GRAPH) { inclusive = false }
+                        }
+                    },
+                    // Re-scan / Continue-anyway from the dropout card kicks off the kill;
+                    // jump to the Kill screen, replacing Hits so Back doesn't return here.
+                    onKilling = {
+                        navController.navigate(Routes.KILL) {
+                            popUpTo(Routes.HITS) { inclusive = true }
                         }
                     },
                 )

@@ -406,6 +406,20 @@ object GeneratorProtocol {
         return valStr.toDoubleOrNull() ?: 0.0
     }
 
+    /**
+     * True when [response] is a well-formed sensor reading that parses to a
+     * number. Used by the scan engine to distinguish a real reading from a
+     * timeout/garbage response (which [parseSensorReading] coerces to 0.0) so
+     * dropout detection can flag the failed step instead of trusting the zero.
+     */
+    fun isParseableSensorReading(response: String): Boolean {
+        val trimmed = response.trim().trimStart(':')
+        val eqIdx = trimmed.indexOf('=')
+        if (eqIdx < 0) return false
+        val valStr = trimmed.substring(eqIdx + 1).trimEnd('.')
+        return valStr.toDoubleOrNull() != null
+    }
+
     private fun extractResponseValue(response: String): String {
         val equalsIndex = response.indexOf('=')
         if (equalsIndex >= 0 && equalsIndex < response.length - 1) {

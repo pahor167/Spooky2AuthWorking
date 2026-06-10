@@ -13,6 +13,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
@@ -20,6 +21,7 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateMapOf
@@ -40,10 +42,18 @@ fun HitsScreen(
     viewModel: HuntViewModel,
     onRunAgain: () -> Unit,
     onDisconnect: () -> Unit,
+    onKilling: () -> Unit = {},
 ) {
     val state by viewModel.state.collectAsState()
+
+    // Re-scan / Continue-anyway transition the run into the kill phase; hand off to
+    // the Kill screen the moment that happens.
+    LaunchedEffect(state.phase) {
+        if (state.phase == HuntPhase.Killing) onKilling()
+    }
     val dwellSeconds = state.params.dwellSecondsText.toDoubleOrNull() ?: 0.0
     val totalMinutes = (state.hits.size * dwellSeconds / 60.0).roundToInt()
+    val hasDropouts = state.phase == HuntPhase.HitsReadyWithDropouts
 
     // Per-hit "show all matches" toggle, keyed by hit frequency. Local UI state only.
     val expanded = remember { mutableStateMapOf<Double, Boolean>() }
@@ -52,11 +62,22 @@ fun HitsScreen(
         modifier = Modifier.fillMaxSize().padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text("Hunt complete", style = MaterialTheme.typography.headlineSmall)
+        Text(
+            if (hasDropouts) "Review needed" else "Hunt complete",
+            style = MaterialTheme.typography.headlineSmall,
+        )
         Text(
             "${state.hits.size} hits · treated for ~$totalMinutes min total",
             style = MaterialTheme.typography.bodyMedium,
         )
+
+        if (hasDropouts) {
+            DropoutWarningCard(
+                state = state,
+                onRescan = viewModel::rescanAffectedSegments,
+                onContinueAnyway = viewModel::continueAnyway,
+            )
+        }
 
         if (state.hits.isEmpty()) {
             Text("No resonant frequencies were detected this run.")
@@ -101,36 +122,111 @@ fun HitsScreen(
         }
 
         Spacer(Modifier.height(8.dp))
-        val isBusy = state.busyAction != null
-        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            Button(
-                onClick = onRunAgain,
-                enabled = !isBusy,
-                modifier = Modifier.weight(1f),
-            ) {
-                Text("Run again", maxLines = 1, overflow = TextOverflow.Ellipsis)
-            }
-            OutlinedButton(
-                onClick = {
-                    viewModel.disconnect()
-                    onDisconnect()
-                },
-                enabled = !isBusy,
-                modifier = Modifier.weight(1f),
-            ) {
-                if (isBusy) {
-                    CircularProgressIndicator(
-                        modifier = Modifier.size(16.dp),
-                        strokeWidth = 2.dp,
-                    )
-                    Spacer(Modifier.size(8.dp))
+        // While dropouts are pending the user must resolve them via the warning card
+        // (Re-scan / Continue anyway); the run-again / disconnect controls return
+        // once the run has truly completed.
+        if (!hasDropouts) {
+            val isBusy = state.busyAction != null
+            Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                Button(
+                    onClick = onRunAgain,
+                    enabled = !isBusy,
+                    modifier = Modifier.weight(1f),
+                ) {
+                    Text("Run again", maxLines = 1, overflow = TextOverflow.Ellipsis)
                 }
-                Text("Disconnect", maxLines = 1, overflow = TextOverflow.Ellipsis)
+                OutlinedButton(
+                    onClick = {
+                        viewModel.disconnect()
+                        onDisconnect()
+                    },
+                    enabled = !isBusy,
+                    modifier = Modifier.weight(1f),
+                ) {
+                    if (isBusy) {
+                        CircularProgressIndicator(
+                            modifier = Modifier.size(16.dp),
+                            strokeWidth = 2.dp,
+                        )
+                        Spacer(Modifier.size(8.dp))
+                    }
+                    Text("Disconnect", maxLines = 1, overflow = TextOverflow.Ellipsis)
+                }
             }
         }
 
         Spacer(Modifier.height(8.dp))
         DisclaimerBanner()
+    }
+}
+
+/**
+ * Warning card shown when the sweep detected cable dropouts. Summarizes how many
+ * segments were affected (and the rough share of the sweep), surfaces any prior
+ * re-scan error, and offers "Re-scan affected segments" vs "Continue anyway".
+ */
+@Composable
+private fun DropoutWarningCard(
+    state: HuntUiState,
+    onRescan: () -> Unit,
+    onContinueAnyway: () -> Unit,
+) {
+    val totalSteps = state.totalSweepSteps.takeIf { it > 0 } ?: state.historyValid.size
+    val flagged = state.historyValid.count { !it }
+    val pct = if (totalSteps > 0) flagged * 100.0 / totalSteps else 0.0
+    val busy = state.rescanInProgress
+
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.errorContainer,
+        ),
+    ) {
+        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text(
+                "Connection dropped during ${state.dropoutSegments.size} segment(s) " +
+                    "(~${"%.0f".format(pct)}% of sweep)",
+                style = MaterialTheme.typography.titleSmall,
+                color = MaterialTheme.colorScheme.onErrorContainer,
+            )
+            Text(
+                "Those readings were excluded from detection. Re-scan the affected " +
+                    "bands to recover anything hidden in the dropout, or continue with " +
+                    "the hits found so far.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onErrorContainer,
+            )
+            state.errorMessage?.let { msg ->
+                Text(
+                    msg,
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.error,
+                )
+            }
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(12.dp),
+            ) {
+                Button(
+                    onClick = onRescan,
+                    enabled = !busy,
+                    modifier = Modifier.weight(1f),
+                ) {
+                    if (busy) {
+                        CircularProgressIndicator(modifier = Modifier.size(16.dp), strokeWidth = 2.dp)
+                        Spacer(Modifier.size(8.dp))
+                    }
+                    Text("Re-scan affected segments", maxLines = 1, overflow = TextOverflow.Ellipsis)
+                }
+            }
+            OutlinedButton(
+                onClick = onContinueAnyway,
+                enabled = !busy,
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Text("Continue anyway", maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
+        }
     }
 }
 

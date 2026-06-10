@@ -1,5 +1,7 @@
 package com.spooky2.huntkill.core.scan
 
+import com.spooky2.huntkill.core.model.DropoutSegment
+import com.spooky2.huntkill.core.model.ScanOutcome
 import com.spooky2.huntkill.core.model.ScanParameters
 import com.spooky2.huntkill.core.model.ScanProgress
 import com.spooky2.huntkill.core.model.ScanResult
@@ -42,7 +44,22 @@ class ScanEngine(private val link: GeneratorLink) {
         parameters: ScanParameters,
         onProgress: ((ScanProgress) -> Unit)? = null,
         pauseGate: PauseGate = PauseGate(),
-    ): List<ScanResult> {
+    ): List<ScanResult> = runBiofeedbackScanDetailed(parameters, onProgress, pauseGate).hits
+
+    /**
+     * Run a single biofeedback scan and return the full [ScanOutcome] — hits
+     * plus the dropout diagnostics (per-step readings, validity mask, merged
+     * dropout segments) the UI uses for the re-scan flow and full-history graph.
+     *
+     * On a clean sweep (no failed reads, no heuristic outliers) the hits are
+     * bit-for-bit identical to the pre-dropout behavior and [ScanOutcome.segments]
+     * is empty.
+     */
+    suspend fun runBiofeedbackScanDetailed(
+        parameters: ScanParameters,
+        onProgress: ((ScanProgress) -> Unit)? = null,
+        pauseGate: PauseGate = PauseGate(),
+    ): ScanOutcome {
         // ══════════════════════════════════════════════════════════
         // PHASE 1: Setup + Amplitude Ramp-Up
         // ══════════════════════════════════════════════════════════
@@ -182,9 +199,17 @@ class ScanEngine(private val link: GeneratorLink) {
 
         // Prepend baseline tail (up to raWindow entries) so the SMA window is
         // pre-seeded when detectHits processes the first sweep step.
-        for (value in baselineReadings.takeLast(parameters.raWindow)) {
+        val baselinePreSeed = baselineReadings.takeLast(parameters.raWindow)
+        for (value in baselinePreSeed) {
             scanReadings.add(0.0 to value) // freq=0 marks baseline entries
         }
+
+        // Per-sweep-step diagnostics for dropout detection + the full-history graph.
+        // sweepReadings/sweepHardInvalid exclude the baseline pre-seed (always valid).
+        val sweepReadings = ArrayList<Float>()
+        val sweepHardInvalid = ArrayList<Boolean>()
+        var consecutiveFailures = 0
+        var unstableSurfaced = false
 
         // Minimum step period (write-to-write), derived from the original dump's
         // 14-15 steps/s ≈ 70 ms/step. This is NOT an additive sleep: the serial
@@ -207,8 +232,21 @@ class ScanEngine(private val link: GeneratorLink) {
 
                 if (settleMs > 0) delay(settleMs)
 
-                val (angle, current) = readSensors(parameters.samplesPerStep)
+                val sensor = readSensorsTracked(parameters.samplesPerStep)
+                val angle = sensor.angle
+                val current = sensor.current
                 val reading = if (parameters.useCurrent) current else angle
+
+                // Live awareness: count consecutive failed reads and surface a
+                // status once the threshold is crossed; keep scanning regardless.
+                if (sensor.valid) {
+                    consecutiveFailures = 0
+                    unstableSurfaced = false
+                } else {
+                    consecutiveFailures++
+                }
+                sweepReadings.add(reading.toFloat())
+                sweepHardInvalid.add(!sensor.valid)
 
                 if (parameters.calculateUsingPeak && reading > peakReading) {
                     peakReading = reading
@@ -228,6 +266,14 @@ class ScanEngine(private val link: GeneratorLink) {
                     if (parameters.useRetentiveWindow) angleWindow2 else angleWindow1
                 }
 
+                val unstable = consecutiveFailures >= parameters.dropoutUnstableReadThreshold
+                if (unstable) unstableSurfaced = true
+                val statusText = if (unstable || (unstableSurfaced && !sensor.valid)) {
+                    "Connection unstable — check cable (${i + 1}/${frequencies.size})"
+                } else {
+                    "Scanning $freq Hz (${i + 1}/${frequencies.size})"
+                }
+
                 onProgress?.invoke(
                     ScanProgress(
                         currentFrequency = freq,
@@ -236,7 +282,7 @@ class ScanEngine(private val link: GeneratorLink) {
                         stepNumber = i + 1,
                         totalSteps = frequencies.size,
                         hitsFound = 0,
-                        statusText = "Scanning $freq Hz (${i + 1}/${frequencies.size})",
+                        statusText = statusText,
                         cycleNumber = loop + 1,
                         currentReading = reading,
                         currentRunningAverage = if (primaryWindow.isFull) primaryWindow.simpleAverage() else 0.0,
@@ -255,8 +301,27 @@ class ScanEngine(private val link: GeneratorLink) {
         }
 
         // ══════════════════════════════════════════════════════════
-        // POST-PROCESSING: hit detection
+        // POST-PROCESSING: dropout detection + hit detection
         // ══════════════════════════════════════════════════════════
+        // Combine hard read-failures with the deviation heuristic into a final
+        // per-sweep-step validity mask, then merge into dropout segments.
+        val sweepReadingsArr = sweepReadings.toFloatArray()
+        val sweepValid = DropoutDetector.computeValidity(
+            sweepReadingsArr,
+            sweepHardInvalid.toBooleanArray(),
+            parameters,
+        )
+        val segments = DropoutDetector.mergeSegments(sweepValid, frequencies)
+
+        // Validity mask aligned to scanReadings: the baseline pre-seed is always
+        // valid; the sweep tail mirrors sweepValid. Lets detectHits skip dropouts.
+        val readingsValid = BooleanArray(scanReadings.size) { true }
+        val preSeedCount = baselinePreSeed.size
+        for (k in sweepValid.indices) {
+            val idx = preSeedCount + k
+            if (idx < readingsValid.size) readingsValid[idx] = sweepValid[k]
+        }
+
         var hits: List<ScanResult>
 
         if (parameters.calculateUsingPeak && peakFrequency > 0) {
@@ -271,7 +336,7 @@ class ScanEngine(private val link: GeneratorLink) {
                 ),
             )
         } else if (scanReadings.size > 2) {
-            hits = detectHits(scanReadings, parameters)
+            hits = detectHits(scanReadings, parameters, readingsValid)
         } else {
             hits = emptyList()
         }
@@ -303,7 +368,12 @@ class ScanEngine(private val link: GeneratorLink) {
             link.sendCommandsBatch(rampDownCmds)
         }
 
-        return hits
+        return ScanOutcome(
+            hits = hits,
+            sweepReadings = sweepReadingsArr,
+            sweepValid = sweepValid,
+            segments = segments,
+        )
     }
 
     /**
@@ -336,77 +406,200 @@ class ScanEngine(private val link: GeneratorLink) {
 
             lastCycleHits = hits
 
-            onProgress?.invoke(
-                ScanProgress(
-                    statusText = "Hunt and Kill - Cycle $cycle - Running ${hits.size} hits...",
-                    cycleNumber = cycle,
-                    hitsFound = hits.size,
-                ),
-            )
-
-            send(GeneratorProtocol.buildSetAmplitudeCv1(parameters.targetAmplitudeCv))
-            send(GeneratorProtocol.buildSetAmplitudeCv2(parameters.targetAmplitudeCv))
-
-            val dwellSeconds = parameters.dwellSeconds
-            val killFreqs = hits.map { it.frequency }
-
-            if (killFreqs.isNotEmpty()) {
-                link.writeFrequencies(listOf(killFreqs[0]))
-            }
-
-            link.start()
-
-            var i = 0
-            while (i < killFreqs.size && coroutineContext.isActive()) {
-                if (i > 0) link.writeFrequencies(listOf(killFreqs[i]))
-
-                // Dwell as a loop of ~1s slices so pause + cancellation are checked
-                // each second and the countdown stays accurate. While paused the loop
-                // holds: the current frequency stays set and no new commands are sent.
-                // The do/while shape emits one progress even for a zero dwell so the
-                // kill phase is always observable.
-                var remainingMs = (dwellSeconds * 1000).toLong()
-                do {
-                    pauseGate.awaitResumed()
-                    coroutineContext.ensureActive()
-
-                    val remainingSeconds = ((remainingMs + 999) / 1000).toInt()
-                    onProgress?.invoke(
-                        ScanProgress(
-                            currentFrequency = killFreqs[i],
-                            statusText = "Killing ${i + 1}/${killFreqs.size}: ${killFreqs[i]} Hz",
-                            cycleNumber = cycle,
-                            hitsFound = hits.size,
-                            stepNumber = i + 1,
-                            totalSteps = killFreqs.size,
-                            percentComplete = (i + 1).toDouble() / killFreqs.size * 100,
-                            killDwellRemainingSeconds = remainingSeconds,
-                        ),
-                    )
-
-                    if (remainingMs <= 0) break
-                    val slice = min(remainingMs, KILL_DWELL_SLICE_MS)
-                    delay(slice)
-                    remainingMs -= slice
-                } while (remainingMs > 0 && coroutineContext.isActive())
-                i++
-            }
-
-            link.stop()
+            killHits(hits, parameters, onProgress, pauseGate, cycle)
 
             if (!parameters.continueRefining) break
         }
 
+        finishHuntAndKill(parameters)
+        return lastCycleHits
+    }
+
+    /**
+     * Run the kill phase for [hits]: dwell on each detected frequency in turn.
+     * Extracted from [runHuntAndKill] so the UI flow can run the sweep and the
+     * kill as separate steps (it pauses between them for the dropout re-scan
+     * decision). Pause + cancellation are honored each ~1s dwell slice.
+     */
+    suspend fun killHits(
+        hits: List<ScanResult>,
+        parameters: ScanParameters,
+        onProgress: ((ScanProgress) -> Unit)? = null,
+        pauseGate: PauseGate = PauseGate(),
+        cycle: Int = 1,
+    ) {
+        onProgress?.invoke(
+            ScanProgress(
+                statusText = "Hunt and Kill - Cycle $cycle - Running ${hits.size} hits...",
+                cycleNumber = cycle,
+                hitsFound = hits.size,
+            ),
+        )
+
+        send(GeneratorProtocol.buildSetAmplitudeCv1(parameters.targetAmplitudeCv))
+        send(GeneratorProtocol.buildSetAmplitudeCv2(parameters.targetAmplitudeCv))
+
+        val dwellSeconds = parameters.dwellSeconds
+        val killFreqs = hits.map { it.frequency }
+
+        if (killFreqs.isNotEmpty()) {
+            link.writeFrequencies(listOf(killFreqs[0]))
+        }
+
+        link.start()
+
+        var i = 0
+        while (i < killFreqs.size && coroutineContext.isActive()) {
+            if (i > 0) link.writeFrequencies(listOf(killFreqs[i]))
+
+            // Dwell as a loop of ~1s slices so pause + cancellation are checked
+            // each second and the countdown stays accurate. While paused the loop
+            // holds: the current frequency stays set and no new commands are sent.
+            // The do/while shape emits one progress even for a zero dwell so the
+            // kill phase is always observable.
+            var remainingMs = (dwellSeconds * 1000).toLong()
+            do {
+                pauseGate.awaitResumed()
+                coroutineContext.ensureActive()
+
+                val remainingSeconds = ((remainingMs + 999) / 1000).toInt()
+                onProgress?.invoke(
+                    ScanProgress(
+                        currentFrequency = killFreqs[i],
+                        statusText = "Killing ${i + 1}/${killFreqs.size}: ${killFreqs[i]} Hz",
+                        cycleNumber = cycle,
+                        hitsFound = hits.size,
+                        stepNumber = i + 1,
+                        totalSteps = killFreqs.size,
+                        percentComplete = (i + 1).toDouble() / killFreqs.size * 100,
+                        killDwellRemainingSeconds = remainingSeconds,
+                    ),
+                )
+
+                if (remainingMs <= 0) break
+                val slice = min(remainingMs, KILL_DWELL_SLICE_MS)
+                delay(slice)
+                remainingMs -= slice
+            } while (remainingMs > 0 && coroutineContext.isActive())
+            i++
+        }
+
+        link.stop()
+    }
+
+    /** Post-run cleanup: clear both frequency channels and restore target amplitude. */
+    suspend fun finishHuntAndKill(parameters: ScanParameters) {
         send(GeneratorProtocol.CLEAR_FREQUENCY1)
         send(GeneratorProtocol.CLEAR_FREQUENCY2)
         send(GeneratorProtocol.buildSetAmplitudeCv1(parameters.targetAmplitudeCv))
         send(GeneratorProtocol.buildSetAmplitudeCv2(parameters.targetAmplitudeCv))
-
-        return lastCycleHits
     }
 
     /** Latest hits produced by the most recent scan. */
     fun lastResults(): List<ScanResult> = lastResults
+
+    /**
+     * Re-sweep the frequency steps covered by the given dropout [segments]
+     * (each padded by [bufferSteps] on both sides, clamped to the sweep bounds)
+     * and SPLICE the fresh readings over the old ones in [previous]. The merged
+     * readings are re-run through [detectHits] and a new [ScanOutcome] returned.
+     *
+     * The re-sweep uses the SAME stepping math (`calculateFrequencySteps`) and
+     * pacing/settle as the main sweep. Re-scanned steps are marked valid; any
+     * step whose re-read fails again stays flagged, so a still-bad cable surfaces
+     * as a (smaller) remaining dropout the caller can retry.
+     */
+    suspend fun rescanSegments(
+        parameters: ScanParameters,
+        segments: List<DropoutSegment>,
+        previous: ScanOutcome,
+        bufferSteps: Int = DEFAULT_RESCAN_BUFFER_STEPS,
+        onProgress: ((ScanProgress) -> Unit)? = null,
+        pauseGate: PauseGate = PauseGate(),
+    ): ScanOutcome {
+        val frequencies = calculateFrequencySteps(parameters)
+        val mergedReadings = previous.sweepReadings.copyOf()
+        val mergedValid = previous.sweepValid.copyOf()
+        val n = mergedReadings.size
+        if (n == 0 || segments.isEmpty()) return previous
+
+        val periodMs = (parameters.minReadDelaySeconds * 1000).toLong()
+        val settleMs = if (periodMs > 0) min(25L, periodMs / 3) else 0L
+
+        // Clamp + de-overlap the buffered ranges so a step is never re-swept twice.
+        val ranges = segments
+            .map { (it.startStep - bufferSteps).coerceAtLeast(0) to (it.endStep + bufferSteps).coerceAtMost(n - 1) }
+            .sortedBy { it.first }
+
+        var totalSteps = 0
+        for ((lo, hi) in ranges) totalSteps += (hi - lo + 1)
+        var done = 0
+        var lastEnd = -1
+
+        for ((rawLo, hi) in ranges) {
+            val lo = maxOf(rawLo, lastEnd + 1)
+            if (lo > hi) continue
+            for (i in lo..hi) {
+                coroutineContext.ensureActive()
+                pauseGate.awaitResumed()
+                val stepStart = TimeSource.Monotonic.markNow()
+                val freq = frequencies.getOrElse(i) { frequencies.lastOrNull() ?: 0.0 }
+
+                send(GeneratorProtocol.buildSetFrequency1(freq))
+                if (settleMs > 0) delay(settleMs)
+
+                val sensor = readSensorsTracked(parameters.samplesPerStep)
+                val reading = if (parameters.useCurrent) sensor.current else sensor.angle
+                mergedReadings[i] = reading.toFloat()
+                mergedValid[i] = sensor.valid
+
+                done++
+                onProgress?.invoke(
+                    ScanProgress(
+                        currentFrequency = freq,
+                        percentComplete = if (totalSteps > 0) done.toDouble() / totalSteps * 100 else 100.0,
+                        stepNumber = done,
+                        totalSteps = totalSteps,
+                        statusText = "Re-scanning $freq Hz ($done/$totalSteps)",
+                        currentReading = reading,
+                    ),
+                )
+
+                if (periodMs > 0) {
+                    val remainingMs = periodMs - stepStart.elapsedNow().inWholeMilliseconds
+                    if (remainingMs > 0) delay(remainingMs)
+                }
+            }
+            lastEnd = hi
+        }
+
+        // Re-apply the heuristic over the merged data so a freshly-clean region is
+        // un-flagged and any still-bad re-reads remain flagged.
+        val hardInvalid = BooleanArray(n) { !mergedValid[it] }
+        val finalValid = DropoutDetector.computeValidity(mergedReadings, hardInvalid, parameters)
+        val newSegments = DropoutDetector.mergeSegments(finalValid, frequencies)
+
+        // Rebuild scanReadings (baseline pre-seed is unknown post-hoc, but detection
+        // only needs the sweep tail; the SMA simply warms up over the first window).
+        val scanReadings = ArrayList<Pair<Double, Double>>(n)
+        for (i in 0 until n) {
+            val freq = frequencies.getOrElse(i) { frequencies.lastOrNull() ?: 0.0 }
+            scanReadings.add(freq to mergedReadings[i].toDouble())
+        }
+        val hits = if (scanReadings.size > 2) {
+            detectHits(scanReadings, parameters, finalValid)
+        } else {
+            emptyList()
+        }
+        lastResults = hits
+
+        return ScanOutcome(
+            hits = hits,
+            sweepReadings = mergedReadings,
+            sweepValid = finalValid,
+            segments = newSegments,
+        )
+    }
 
     // ── Helpers ──
 
@@ -415,21 +608,48 @@ class ScanEngine(private val link: GeneratorLink) {
 
     /** Port of C# `ReadSensors`: averages [samples] angle/current read pairs. */
     suspend fun readSensors(samples: Int): Pair<Double, Double> {
+        val r = readSensorsTracked(samples)
+        return r.angle to r.current
+    }
+
+    /**
+     * Averaged sensor read that also reports whether the underlying serial
+     * reads succeeded. A step is [SensorRead.valid] = false when ANY angle or
+     * current read in the sample returned null (transport timeout, or the
+     * [GeneratorLink] retry exhausted) or was unparseable. Invalid reads are
+     * NOT coerced to a stale/zero value here — the caller flags the step so
+     * dropout detection can exclude it.
+     */
+    suspend fun readSensorsTracked(samples: Int): SensorRead {
         var angleSum = 0.0
         var currentSum = 0.0
+        var validReads = 0
         for (s in 0 until samples) {
             val ar = send(GeneratorProtocol.READ_ANGLE)
             val cr = send(GeneratorProtocol.READ_CURRENT)
+            val angleOk = ar != null && GeneratorProtocol.isParseableSensorReading(ar)
+            val currentOk = cr != null && GeneratorProtocol.isParseableSensorReading(cr)
             angleSum += GeneratorProtocol.parseSensorReading(ar ?: "")
             currentSum += GeneratorProtocol.parseSensorReading(cr ?: "")
+            if (angleOk && currentOk) validReads++
         }
-        return (angleSum / samples) to (currentSum / samples)
+        return SensorRead(
+            angle = angleSum / samples,
+            current = currentSum / samples,
+            valid = validReads == samples,
+        )
     }
+
+    /** Result of [readSensorsTracked]: averaged readings plus a validity flag. */
+    data class SensorRead(val angle: Double, val current: Double, val valid: Boolean)
 
     companion object {
 
         /** Kill-dwell slice length: one second per tick for pause/cancel checks + countdown. */
         private const val KILL_DWELL_SLICE_MS = 1000L
+
+        /** Default buffer (steps) added on both sides of each re-scanned dropout segment. */
+        const val DEFAULT_RESCAN_BUFFER_STEPS = 50
 
         /**
          * Post-processing hit detection. Verbatim port of C# `ScanService.DetectHits`:
@@ -444,26 +664,63 @@ class ScanEngine(private val link: GeneratorLink) {
         fun detectHits(
             scanReadings: List<Pair<Double, Double>>,
             parameters: ScanParameters,
+        ): List<ScanResult> = detectHits(scanReadings, parameters, valid = null)
+
+        /**
+         * Dropout-aware [detectHits]. Steps where `valid[i] == false` are EXCLUDED:
+         * they neither fill the SMA window nor are scored as hits, and a flagged
+         * step is skipped when picking the previous/next neighbor for the
+         * local-extremum test (so the comparison uses the nearest VALID neighbors).
+         *
+         * When [valid] is null or all-true the result is bit-for-bit identical to
+         * the original detection (golden replay path).
+         */
+        fun detectHits(
+            scanReadings: List<Pair<Double, Double>>,
+            parameters: ScanParameters,
+            valid: BooleanArray?,
         ): List<ScanResult> {
             val windowSize = parameters.raWindow
             val window = SlidingWindow(windowSize)
 
-            // Phase 1: SMA + deviation per step.
+            fun isValid(i: Int): Boolean = valid == null || i >= valid.size || valid[i]
+
+            // Phase 1: SMA + deviation per step. Invalid steps don't poison the
+            // window — they are skipped when filling it (their RA/deviation is left
+            // at 0 since they will never be scored as hits anyway).
             data class Step(val freq: Double, val reading: Double, val deviation: Double, val ra: Double)
             val steps = ArrayList<Step>(scanReadings.size)
-            for ((freq, reading) in scanReadings) {
+            for (i in scanReadings.indices) {
+                val (freq, reading) = scanReadings[i]
                 val ra = if (window.isFull) window.simpleAverage() else 0.0
                 val deviation = if (window.isFull) reading - ra else 0.0
                 steps.add(Step(freq, reading, deviation, ra))
-                window.add(reading)
+                if (isValid(i)) window.add(reading)
+            }
+
+            // Nearest valid neighbor on each side (skips flagged dropout steps).
+            fun prevValid(i: Int): Int {
+                var j = i - 1
+                while (j >= 0 && !isValid(j)) j--
+                return j
+            }
+            fun nextValid(i: Int): Int {
+                var j = i + 1
+                while (j < steps.size && !isValid(j)) j++
+                return j
             }
 
             // Phase 2 + 3: local extrema passing the threshold.
             val greatestHits = ArrayList<ScanResult>()
             for (i in 1 until steps.size - 1) {
+                if (!isValid(i)) continue
+                val prevIdx = prevValid(i)
+                val nextIdx = nextValid(i)
+                if (prevIdx < 0 || nextIdx >= steps.size) continue
+
                 val step = steps[i]
-                val prevReading = steps[i - 1].reading
-                val nextReading = steps[i + 1].reading
+                val prevReading = steps[prevIdx].reading
+                val nextReading = steps[nextIdx].reading
 
                 val isLocalMax = step.reading > prevReading && step.reading > nextReading
                 val isLocalMin = step.reading < prevReading && step.reading < nextReading
