@@ -5,8 +5,8 @@ import androidx.lifecycle.viewModelScope
 import com.spooky2.huntkill.core.model.ScanParameters
 import com.spooky2.huntkill.core.model.ScanProgress
 import com.spooky2.huntkill.core.model.ScanResult
-import com.spooky2.huntkill.data.GeneratorSessionFactory
 import com.spooky2.huntkill.data.SessionHolder
+import com.spooky2.huntkill.log.LogBus
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -68,8 +68,8 @@ data class HuntUiState(
 
 @HiltViewModel
 class HuntViewModel @Inject constructor(
-    private val sessionFactory: GeneratorSessionFactory,
     private val sessionHolder: SessionHolder,
+    private val log: LogBus,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(HuntUiState())
@@ -90,6 +90,7 @@ class HuntViewModel @Inject constructor(
     fun startHunt() {
         if (huntJob?.isActive == true) return
         if (sessionHolder.current() == null) {
+            log.e(TAG, "startHunt blocked: not connected")
             _state.update {
                 it.copy(phase = HuntPhase.Error, errorMessage = "Not connected. Connect first.")
             }
@@ -97,6 +98,11 @@ class HuntViewModel @Inject constructor(
         }
 
         val parameters = _state.value.params.toScanParameters()
+        log.i(
+            TAG,
+            "startHunt: start=${parameters.startFrequency} end=${parameters.endFrequency} " +
+                "dwell=${parameters.dwellSeconds}s ampCv=${parameters.targetAmplitudeCv}",
+        )
         _state.update {
             it.copy(
                 phase = HuntPhase.Hunting,
@@ -111,12 +117,11 @@ class HuntViewModel @Inject constructor(
         }
 
         huntJob = viewModelScope.launch(Dispatchers.Default) {
-            // Rebuild a fresh session per run. The demo FakeTransport is a single-use
-            // replay (its read pointer is consumed by a scan), so re-running Hunt on a
-            // stale session would yield 0 hits. A fresh connect rebuilds the transport
-            // and replays the dump from the start. (Real USB: re-probe + re-auth; cheap
-            // and harmless. A Phase-5 optimization may skip the reconnect for live HW.)
-            val session = runCatching { sessionFactory.connect() }.getOrElse { error ->
+            // Demo path rebuilds a fresh single-use replay each run (the FakeTransport
+            // read pointer is consumed by a scan); the live USB path reuses the open
+            // session. Both go through SessionHolder.acquireForHunt().
+            val session = runCatching { sessionHolder.acquireForHunt() }.getOrElse { error ->
+                log.e(TAG, "acquireForHunt failed: ${error.message}")
                 _state.update {
                     it.copy(
                         phase = HuntPhase.Error,
@@ -125,13 +130,26 @@ class HuntViewModel @Inject constructor(
                 }
                 return@launch
             }
-            sessionHolder.replace(session)
+            if (session == null) {
+                log.e(TAG, "acquireForHunt returned no session")
+                _state.update {
+                    it.copy(phase = HuntPhase.Error, errorMessage = "Not connected. Connect first.")
+                }
+                return@launch
+            }
 
             runCatching {
                 session.engine.runHuntAndKill(parameters) { progress ->
                     onProgress(progress, parameters)
                 }
             }.onSuccess { hits ->
+                log.i(TAG, "Hunt complete — ${hits.size} hits")
+                hits.forEachIndexed { index, hit ->
+                    log.i(
+                        TAG,
+                        "  hit[$index] freq=${"%.2f".format(hit.frequency)} deviation=${hit.deviation}",
+                    )
+                }
                 _state.update {
                     it.copy(
                         phase = HuntPhase.Done,
@@ -142,6 +160,7 @@ class HuntViewModel @Inject constructor(
                 }
             }.onFailure { error ->
                 if (error is kotlinx.coroutines.CancellationException) throw error
+                log.e(TAG, "Scan failed: ${error.message}")
                 safetyStopInternal(session)
                 _state.update {
                     it.copy(
@@ -155,6 +174,17 @@ class HuntViewModel @Inject constructor(
 
     private fun onProgress(progress: ScanProgress, parameters: ScanParameters) {
         val isKill = progress.statusText.startsWith("Killing")
+        if (isKill && _state.value.phase != HuntPhase.Killing) {
+            val count = sessionHolder.current()?.engine?.lastResults()?.size ?: 0
+            log.i(TAG, "Entering kill phase — $count hits to treat")
+        }
+        if (isKill) {
+            log.d(
+                TAG,
+                "Kill ${progress.stepNumber}/${progress.totalSteps} " +
+                    "freq=${"%.2f".format(progress.currentFrequency)}",
+            )
+        }
         _state.update { current ->
             val newHistory = if (progress.currentReading != 0.0 && !isKill) {
                 (current.angleHistory + progress.currentReading).takeLast(MAX_HISTORY)
@@ -196,6 +226,7 @@ class HuntViewModel @Inject constructor(
 
     /** Cancel the running scan coroutine and run the safety-stop path. */
     fun cancel() {
+        log.w(TAG, "Cancel requested — running safety stop")
         val session = sessionHolder.current()
         huntJob?.cancel()
         huntJob = null
@@ -225,5 +256,6 @@ class HuntViewModel @Inject constructor(
 
     companion object {
         private const val MAX_HISTORY = 200
+        private const val TAG = "Hunt"
     }
 }

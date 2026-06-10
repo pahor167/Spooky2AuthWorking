@@ -18,8 +18,34 @@ class SessionHolder @Inject constructor() {
     private val _session = MutableStateFlow<GeneratorSession?>(null)
     val session: StateFlow<GeneratorSession?> = _session.asStateFlow()
 
+    /**
+     * Optional per-hunt reconnector. The demo path sets this to rebuild a fresh
+     * single-use replay each run; the live USB path leaves it null so the open
+     * session is reused across hunts.
+     */
+    private var reconnect: (suspend () -> GeneratorSession)? = null
+
     fun set(session: GeneratorSession) {
         _session.value = session
+    }
+
+    fun setReconnect(block: (suspend () -> GeneratorSession)?) {
+        reconnect = block
+    }
+
+    /**
+     * Resolve the session to run a hunt on. If a reconnector is set, build a fresh
+     * session and swap it in (demo replay reset); otherwise reuse the current one.
+     */
+    suspend fun acquireForHunt(): GeneratorSession? {
+        val block = reconnect
+        return if (block != null) {
+            val session = block()
+            replace(session)
+            session
+        } else {
+            current()
+        }
     }
 
     /** Swap in a new session, closing the previous one (its transport) first. */

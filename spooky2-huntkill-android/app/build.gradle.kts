@@ -39,6 +39,11 @@ android {
     buildFeatures {
         compose = true
     }
+    testOptions {
+        // android.util.Log is called via LogBus from ViewModels under test; return
+        // default values instead of throwing "not mocked" in plain JVM unit tests.
+        unitTests.isReturnDefaultValues = true
+    }
 }
 
 dependencies {

@@ -5,6 +5,7 @@ import com.spooky2.huntkill.data.GeneratorSessionFactory
 import com.spooky2.huntkill.data.PlainTextDumpParser
 import com.spooky2.huntkill.data.SessionHolder
 import com.spooky2.huntkill.data.TransportFactory
+import com.spooky2.huntkill.log.LogBus
 import com.spooky2.huntkill.transport.fake.FakeTransport
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -65,8 +66,9 @@ class HuntViewModelTest {
         )
         val holder = SessionHolder()
         holder.set(sessionFactory.connect())
+        holder.setReconnect { sessionFactory.connect() }
 
-        val viewModel = HuntViewModel(sessionFactory, holder)
+        val viewModel = HuntViewModel(holder, LogBus())
         viewModel.updateDwellSeconds("0") // zero-dwell keeps the JVM test fast
         viewModel.startHunt()
 
@@ -91,8 +93,9 @@ class HuntViewModelTest {
         )
         val holder = SessionHolder()
         holder.set(sessionFactory.connect())
+        holder.setReconnect { sessionFactory.connect() }
 
-        val viewModel = HuntViewModel(sessionFactory, holder)
+        val viewModel = HuntViewModel(holder, LogBus())
         viewModel.updateDwellSeconds("0")
 
         // First run.

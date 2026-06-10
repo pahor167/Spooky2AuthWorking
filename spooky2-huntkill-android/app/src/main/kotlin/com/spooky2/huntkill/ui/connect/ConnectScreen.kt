@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Card
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
@@ -68,10 +69,20 @@ fun ConnectScreen(
                 }
             }
             ConnectStatus.Error -> {
-                Text(
-                    state.errorMessage ?: "Connection failed",
-                    color = MaterialTheme.colorScheme.error,
-                )
+                Card(modifier = Modifier.fillMaxWidth()) {
+                    Column(Modifier.padding(16.dp)) {
+                        Text(
+                            "Connection failed",
+                            style = MaterialTheme.typography.titleMedium,
+                            color = MaterialTheme.colorScheme.error,
+                        )
+                        Spacer(Modifier.height(8.dp))
+                        Text(
+                            state.errorMessage ?: "Connection failed",
+                            color = MaterialTheme.colorScheme.error,
+                        )
+                    }
+                }
             }
             ConnectStatus.Idle -> Unit
         }
@@ -83,6 +94,15 @@ fun ConnectScreen(
             modifier = Modifier.fillMaxWidth(),
         ) {
             Text(if (state.status == ConnectStatus.Error) "Retry Connect (Demo)" else "Connect (Demo)")
+        }
+
+        Spacer(Modifier.height(8.dp))
+        OutlinedButton(
+            onClick = viewModel::connectUsb,
+            enabled = state.status != ConnectStatus.Connecting,
+            modifier = Modifier.fillMaxWidth(),
+        ) {
+            Text("Connect (USB)")
         }
 
         Spacer(Modifier.height(24.dp))

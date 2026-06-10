@@ -1,10 +1,13 @@
 package com.spooky2.huntkill.di
 
 import android.content.Context
+import android.hardware.usb.UsbManager
 import com.spooky2.huntkill.data.DemoDumpLoader
 import com.spooky2.huntkill.data.DemoTransportFactory
 import com.spooky2.huntkill.data.GeneratorSessionFactory
 import com.spooky2.huntkill.data.TransportFactory
+import com.spooky2.huntkill.log.LogBus
+import com.spooky2.huntkill.log.LoggingSerialTransport
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -34,9 +37,20 @@ object DemoModule {
 
     @Provides
     @Singleton
+    fun provideUsbManager(@ApplicationContext context: Context): UsbManager =
+        context.getSystemService(Context.USB_SERVICE) as UsbManager
+
+    @Provides
+    @Singleton
     @Demo
-    fun provideDemoTransportFactory(demoData: DemoDumpLoader.DemoData): TransportFactory =
-        DemoTransportFactory(demoData)
+    fun provideDemoTransportFactory(
+        demoData: DemoDumpLoader.DemoData,
+        logBus: LogBus,
+    ): TransportFactory {
+        val inner = DemoTransportFactory(demoData)
+        // Wrap each produced transport with logging so demo TX/RX is captured too.
+        return TransportFactory { LoggingSerialTransport(inner.create(), logBus) }
+    }
 
     /**
      * The default session factory used by ViewModels. Bound to the [Demo] transport
