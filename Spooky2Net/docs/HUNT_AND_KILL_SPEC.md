@@ -183,29 +183,41 @@ Strip leading `:`, find `=`, take substring after it, strip trailing `.`.
 **Source:** `GeneratorProtocol.cs:223`
 
 Used for all frequency writes during the scan sweep (`:w24=`, `:w25=`).
-Format: `F8` decimal representation (8 decimal places) with the dot removed,
-followed by a single decimal-position code digit.
+
+> **CORRECTED 2026-06-10.** An earlier revision of this spec (and the C# port)
+> documented `posCode = integer_digit_count - 4` over a fixed 8-fractional-digit
+> field. That rule is **WRONG**: on real GeneratorX Pro hardware the device ran
+> at ×10/×100 the intended frequency (e.g. app 105,235.87 Hz → device
+> 10,523,587.32 Hz). The rule below was derived from the original Spooky2
+> software's own serial dump and reproduces **every** `:w24=` sweep/kill line in
+> `Data/FullHuntAndKill` byte-for-byte (15132/15132), and is hardware-verified.
+
+Encoding:
+
+1. Round the frequency to **8 decimal places** (`F8`, half-even).
+2. Remove the decimal point.
+3. **Strip the trailing zeros** that came from the fractional part
+   (leading zeros of the integer part are preserved — they encode the
+   magnitude for sub-Hz frequencies).
+4. Append one position-code digit:
 
 ```
-decimal_position_code = max(0, integer_digit_count - 4)
+position_code = 8 - fractional_digits_kept
 ```
 
-Where `integer_digit_count` = number of digits before the decimal point in the
-`F8` representation.
+The firmware re-inserts the decimal point: the last `8 - posCode` mantissa
+digits are the fractional part.
 
-**Do not trim leading zeros.** They encode the magnitude for sub-kHz frequencies.
+#### Worked Examples (from `Data/FullHuntAndKill`)
 
-#### Worked Examples
-
-| Frequency (Hz) | F8 string | intDigits | posCode | Full payload | Command |
+| Frequency (Hz) | F8 string | frac kept | posCode | Full payload | Command |
 |---|---|---|---|---|---|
-| 41000 | `41000.00000000` | 5 | 1 | `41000000000001` | `:w24=41000000000001,` |
-| 1000000 | `1000000.00000000` | 7 | 3 | `1000000000000003` | `:w24=1000000000000003,` |
-| 100 | `100.00000000` | 3 | 0 | `100000000000` | `:w24=100000000000,` |
-| 1 | `1.00000000` | 1 | 0 | `100000000` | `:w24=100000000,` |
-
-Note: For frequencies with fewer than 4 integer digits, `posCode` is 0 (clamped
-by `Math.Max(0, ...)` at `GeneratorProtocol.cs:238`).
+| 41010.25 | `41010.25000000` | `25` (2) | 6 | `41010256` | `:w24=41010256,` |
+| 41020.5025625 | `41020.50256250` | `5025625` (7) | 1 | `4102050256251` | `:w24=4102050256251,` |
+| 41030.75768814 | `41030.75768814` | `75768814` (8) | 0 | `41030757688140` | `:w24=41030757688140,` |
+| 41000 | `41000.00000000` | (0) | 8 | `410008` | `:w24=410008,` |
+| 1796956.27039622 | `1796956.27039622` | `27039622` (8) | 0 | `1796956270396220` | `:w24=1796956270396220,` |
+| 0.5 | `0.50000000` | `5` (1) | 7 | `057` | `:w24=057,` |
 
 #### Raw Hz Format (Pre-Scan Only)
 

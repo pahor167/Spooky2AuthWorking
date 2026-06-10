@@ -201,13 +201,7 @@ public static class GeneratorProtocol
         $":w23={value}"; // Sends ":w23=<dwell>" — originally BuildSetParam23
 
     /// <summary>Build set output 1 frequency for GeneratorX Pro.
-    /// Format: [frequency_digits][decimal_position_code]
-    /// The LAST digit is a code that tells the firmware where to place the decimal:
-    ///   0 = 4 integer digits, 1 = 5, 2 = 6, 3 = 7, etc.
-    /// Frequency is formatted with F8 (8 decimal places), dot removed.
-    /// Decimal position code = (number of integer digits) - 4.
-    /// Example: 41000 Hz (5 int digits) → "4100000000000" + "1" → ":w24=41000000000001,"
-    /// Verified by user testing on GeneratorX Pro hardware.</summary>
+    /// Format: [mantissa_digits][position_code_digit] — see <see cref="FormatFrequency"/>.</summary>
     public static string BuildSetFrequency1(double frequencyHz)
     {
         return $":w24={FormatFrequency(frequencyHz)},";
@@ -219,24 +213,44 @@ public static class GeneratorProtocol
         return $":w25={FormatFrequency(frequencyHz)},";
     }
 
-    /// <summary>Formats frequency for GX Pro: F8 with dot removed + decimal position code.</summary>
+    /// <summary>Formats a frequency for the GX Pro :w24/:w25 registers.
+    ///
+    /// Encoding rule (DERIVED from the original Spooky2 serial dumps and proven
+    /// byte-for-byte against all ":w24=" sweep/kill lines in Data/FullHuntAndKill):
+    ///   1. Round the frequency to 8 decimal places (F8, half-even).
+    ///   2. Remove the decimal point.
+    ///   3. Strip the trailing zeros that came from the fractional part.
+    ///   4. Append one position-code digit = 8 - (fractional digits kept).
+    ///      The firmware re-inserts the decimal point: the last (8 - posCode)
+    ///      mantissa digits are the fractional part.
+    ///
+    /// Worked examples from the dump:
+    ///   41010.25       → "4101025"       + "6" → "41010256"
+    ///   41020.5025625  → "410205025625"  + "1" → "4102050256251"
+    ///   41030.75768814 → "4103075768814" + "0" → "41030757688140"
+    ///
+    /// HISTORY: this method previously appended posCode = integerDigits - 4 over a
+    /// fixed 8-fractional-digit field. That rule was WRONG — on real GeneratorX Pro
+    /// hardware the device interpreted the frequency ×10/×100 too high (e.g. app
+    /// 105,235.87 Hz → device 10,523,587.32 Hz). Found during the Android port's
+    /// hardware bring-up; the dump replay pins the corrected rule.</summary>
     public static string FormatFrequency(double frequencyHz)
     {
-        // Format with 8 decimal places, remove dot
+        // 1. Round to 8 decimal places (invariant culture, half-even).
         var s = frequencyHz.ToString("F8", System.Globalization.CultureInfo.InvariantCulture);
 
-        // Count integer digits (before the dot)
         var dotIdx = s.IndexOf('.');
-        var intDigits = dotIdx > 0 ? dotIdx : s.Length;
+        var intPart = dotIdx >= 0 ? s[..dotIdx] : s;
+        var fracPart = dotIdx >= 0 ? s[(dotIdx + 1)..] : string.Empty;
 
-        // Remove the dot — keep the full fixed-width string (VB6 original uses fixed-width formatting).
-        // Do NOT trim leading zeros: they encode the magnitude for sub-kHz frequencies.
-        s = s.Replace(".", "");
+        // 2-3. Drop the dot and strip trailing zeros from the fractional digits.
+        //      Leading zeros of the integer part are preserved (they encode
+        //      magnitude for sub-kHz frequencies).
+        var fracStripped = fracPart.TrimEnd('0');
 
-        // Append decimal position code: (integer_digits - 4)
-        // 4 int digits → 0, 5 → 1, 6 → 2, etc.
-        var posCode = Math.Max(0, intDigits - 4);
-        return s + posCode.ToString();
+        // 4. Append the position code.
+        var posCode = 8 - fracStripped.Length;
+        return intPart + fracStripped + posCode.ToString(System.Globalization.CultureInfo.InvariantCulture);
     }
 
     /// <summary>Set frequency as raw integer Hz (used during setup/ramp-up, NOT scanning).

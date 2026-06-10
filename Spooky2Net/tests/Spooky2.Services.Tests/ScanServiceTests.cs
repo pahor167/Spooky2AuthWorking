@@ -268,12 +268,12 @@ public class ScanServiceTests
 
         await svc.RunBiofeedbackScan(0, parameters);
 
-        // First :w24 is raw Hz setup, second is milliHz scan
-        // 76000 Hz → 76000 * 1e9 = 76000000 milliHz
+        // First :w24 is raw Hz setup, then the encoded sweep write follows.
         var freqCmds = mock.CommandLog.Where(c => c.StartsWith(":w24=")).ToList();
-        // Init sends :w24=0, and :w24=00, first, then scan sends raw Hz + milliHz
+        // Init sends :w24=0, and :w24=00, first, then scan sends raw Hz + encoded
         Assert.Contains(":w24=76000,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
-        Assert.Contains(":w24=76000000000001,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
+        // DUMP-DERIVED encoding: 76000 → "76000" + posCode 8 → "760008"
+        Assert.Contains(":w24=760008,", (System.Collections.Generic.IEnumerable<string>)freqCmds);
     }
 
     // ─────────────────────────────────────────────────────────────

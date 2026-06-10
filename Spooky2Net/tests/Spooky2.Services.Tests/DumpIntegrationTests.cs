@@ -339,8 +339,8 @@ public class DumpIntegrationTests
         // Should start with display name
         Assert.True(log.Any(c => c.StartsWith(":n00=")), "Should contain display name");
 
-        // Should set raw Hz frequency
-        Assert.Contains(":w24=41000000000001,", (System.Collections.Generic.IEnumerable<string>)log);
+        // Should set the start frequency (DUMP-DERIVED encoding: 41000 → "410008")
+        Assert.Contains(":w24=410008,", (System.Collections.Generic.IEnumerable<string>)log);
 
         // Should have amplitude ramp-up
         Assert.Contains(":w28=6,", log);

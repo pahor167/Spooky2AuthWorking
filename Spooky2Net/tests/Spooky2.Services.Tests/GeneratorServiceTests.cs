@@ -408,10 +408,10 @@ public class GeneratorServiceTests
         await svc.WriteFrequencies(0, [76000.5, 152000.0]);
 
         var newCommands = conn.SentData.Skip(sentBefore).ToList();
-        // F8 format: 76000.5→"76000500000001", 152000.0→"152000000000002"
-        Assert.Contains(":w24=76000500000001,\r\n", newCommands);
-        Assert.Contains(":w24=152000000000002,\r\n", newCommands);
-        Assert.DoesNotContain(":w25=76000500000001,\r\n", newCommands);
+        // DUMP-DERIVED encoding: 76000.5 → "7600057", 152000.0 → "1520008"
+        Assert.Contains(":w24=7600057,\r\n", newCommands);
+        Assert.Contains(":w24=1520008,\r\n", newCommands);
+        Assert.DoesNotContain(":w25=7600057,\r\n", newCommands);
     }
 
     // ─────────────────────────────────────────────────────────────
@@ -487,9 +487,10 @@ public class GeneratorServiceTests
 
         var newCommands = conn.SentData.Skip(sentBefore).ToList();
 
-        // Frequency is now encoded as nanoHz (integer), so locale is not an issue
+        // Encoded as digits + position code (integer string), so locale is not an issue.
+        // DUMP-DERIVED: 76000.5 → "7600057"
         var freqCmd = newCommands.FirstOrDefault(c => c.StartsWith(":w24="));
         Assert.NotNull(freqCmd);
-        Assert.Contains("76000500000001", freqCmd);
+        Assert.Contains("7600057", freqCmd);
     }
 }

@@ -67,17 +67,19 @@ public class GeneratorProtocolTests
     }
 
     // ─────────────────────────────────────────────────────────────
-    // Frequency encoding (verified from Data/FinishHuntAndKill dump)
-    // Encoding: Hz * 1000 (milliHz)
+    // Frequency encoding — DUMP-DERIVED rule (Data/FullHuntAndKill):
+    // F8-round, strip dot, trim trailing fractional zeros, append
+    // posCode = 8 - fractionalDigitsKept. The previous fixed-width
+    // "intDigits - 4" vectors were WRONG (device ran at x10/x100); the
+    // dump replay (and real GeneratorX Pro hardware) pin these values.
     // ─────────────────────────────────────────────────────────────
 
     [Fact]
-    public void BuildSetFrequency1_EncodesAsNanoHz()
+    public void BuildSetFrequency1_EncodesWithPositionCode()
     {
-        // From dump: frequency ~1652608.15 Hz -> :w24=1652608154681650,
-        // We verify the encoding formula: Hz * 1000
+        // DUMP-DERIVED: 1000.0 → "1000" + posCode 8 → ":w24=10008,"
         var cmd = GeneratorProtocol.BuildSetFrequency1(1000.0);
-        Assert.Equal(":w24=1000000000000,", cmd);
+        Assert.Equal(":w24=10008,", cmd);
     }
 
     [Theory]
@@ -100,45 +102,57 @@ public class GeneratorProtocolTests
     }
 
     [Fact]
-    public void BuildSetFrequency2_EncodesAsNanoHz()
+    public void BuildSetFrequency2_EncodesWithPositionCode()
     {
+        // DUMP-DERIVED: 880.0 → "880" + posCode 8 → ":w25=8808,"
         var cmd = GeneratorProtocol.BuildSetFrequency2(880.0);
-        Assert.Equal(":w25=880000000000,", cmd);
+        Assert.Equal(":w25=8808,", cmd);
     }
 
     [Fact]
-    public void FormatFrequency_41000Hz_Produces14CharString()
+    public void FormatFrequency_41000Hz_DumpRule()
     {
-        // Dump-verified: 41000 Hz → "41000000000001" (14 chars)
+        // DUMP-DERIVED: 41000.0 → F8 "41000.00000000" → strip all fraction →
+        // "41000" + posCode 8 → "410008".
+        // (The old expectation "41000000000001" never appeared in any real dump.)
         var result = GeneratorProtocol.FormatFrequency(41000.0);
-        Assert.Equal("41000000000001", result);
-        Assert.Equal(14, result.Length);
+        Assert.Equal("410008", result);
     }
 
     [Fact]
-    public void FormatFrequency_1796956Hz_Produces16CharString()
+    public void FormatFrequency_FirstSweepStep_MatchesDump()
     {
-        // Dump-verified: 1796956.27039622 Hz → 16-char string
+        // DUMP-DERIVED (Data/FullHuntAndKill, first sweep step 41000 * 1.00025):
+        // 41010.25 → "4101025" + posCode 6 → "41010256".
+        var result = GeneratorProtocol.FormatFrequency(41010.25);
+        Assert.Equal("41010256", result);
+    }
+
+    [Fact]
+    public void FormatFrequency_1796956Hz_MatchesDump()
+    {
+        // DUMP-DERIVED: 1796956.27039622 → "179695627039622" + posCode 0 →
+        // "1796956270396220" (last ascending sweep step / first kill frequency).
         var result = GeneratorProtocol.FormatFrequency(1796956.27039622);
-        Assert.Equal(16, result.Length);
+        Assert.Equal("1796956270396220", result);
     }
 
     [Fact]
     public void FormatFrequency_SubKHz_PreservesLeadingZeros()
     {
-        // Sub-Hz: 0.5 Hz → "0500000000" (leading zero preserved, posCode=0)
+        // DUMP-DERIVED rule: 0.5 → F8 "0.50000000" → strip → "0.5" →
+        // "05" + posCode 7 → "057" (leading integer zero preserved).
         var result = GeneratorProtocol.FormatFrequency(0.5);
-        Assert.Equal("0500000000", result);
+        Assert.Equal("057", result);
         Assert.StartsWith("0", result);
     }
 
     [Fact]
-    public void FormatFrequency_100Hz_PreservesFullWidth()
+    public void FormatFrequency_100Hz_DumpRule()
     {
-        // 100 Hz: 3 integer digits, posCode=0
-        // "100.00000000" → "100000000000" (no leading zeros to lose)
+        // DUMP-DERIVED rule: 100.0 → strip all fraction → "100" + posCode 8 → "1008".
         var result = GeneratorProtocol.FormatFrequency(100.0);
-        Assert.Equal("100000000000", result);
+        Assert.Equal("1008", result);
     }
 
     // ─────────────────────────────────────────────────────────────
