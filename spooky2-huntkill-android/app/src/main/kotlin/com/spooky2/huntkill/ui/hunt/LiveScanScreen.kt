@@ -10,9 +10,11 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.AssistChipDefaults
 import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -59,6 +61,9 @@ fun LiveScanScreen(
     ) {
         Text("Live Scan", style = MaterialTheme.typography.headlineSmall)
         PhaseChip(state.phase, state.isPaused)
+        if (state.busyAction != null) {
+            LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
+        }
 
         Text(
             state.statusText,
@@ -103,12 +108,28 @@ fun LiveScanScreen(
         )
 
         Spacer(Modifier.height(8.dp))
-        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            Button(onClick = viewModel::togglePause, modifier = Modifier.weight(1f)) {
-                Text(if (state.isPaused) "Resume" else "Pause")
+        val isBusy = state.busyAction != null
+        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Button(
+                onClick = viewModel::togglePause,
+                enabled = !isBusy,
+                modifier = Modifier.weight(1f),
+            ) {
+                Text(if (state.isPaused) "Resume" else "Pause", maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
-            OutlinedButton(onClick = viewModel::cancel, modifier = Modifier.weight(1f)) {
-                Text("Cancel")
+            OutlinedButton(
+                onClick = viewModel::cancel,
+                enabled = !isBusy,
+                modifier = Modifier.weight(1f),
+            ) {
+                if (isBusy) {
+                    CircularProgressIndicator(
+                        modifier = Modifier.size(16.dp),
+                        strokeWidth = 2.dp,
+                    )
+                    Spacer(Modifier.size(8.dp))
+                }
+                Text("Cancel", maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
         }
 

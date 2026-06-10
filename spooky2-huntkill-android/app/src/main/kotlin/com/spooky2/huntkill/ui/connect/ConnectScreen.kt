@@ -21,6 +21,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
@@ -99,7 +100,11 @@ fun ConnectScreen(
             enabled = state.status != ConnectStatus.Connecting,
             modifier = Modifier.fillMaxWidth(),
         ) {
-            Text(if (state.status == ConnectStatus.Error) "Retry Connect (USB)" else "Connect (USB)")
+            Text(
+                if (state.status == ConnectStatus.Error) "Retry Connect (USB)" else "Connect (USB)",
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+            )
         }
         if (!state.usbAttached) {
             Spacer(Modifier.height(4.dp))
@@ -116,7 +121,7 @@ fun ConnectScreen(
             enabled = state.status != ConnectStatus.Connecting,
             modifier = Modifier.fillMaxWidth(),
         ) {
-            Text("Connect (Demo)")
+            Text("Connect (Demo)", maxLines = 1, overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis)
         }
 
         Spacer(Modifier.height(24.dp))

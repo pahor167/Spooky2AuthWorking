@@ -111,6 +111,12 @@ data class HuntUiState(
     val isSwitchingGenerator: Boolean = false,
     /** Estimated whole seconds remaining in the current sweep, 0 until measurable. */
     val estimatedRemainingSeconds: Int = 0,
+    /**
+     * Short label describing the action currently in flight (e.g. "Starting…",
+     * "Cancelling…", "Disconnecting…"). Null when no slow operation is running.
+     * Drives busy indicators and button-disabled state in the UI.
+     */
+    val busyAction: String? = null,
 ) {
     /** True while a hunt/kill is actively running (used to lock the switcher). */
     val isRunning: Boolean get() = phase == HuntPhase.Hunting || phase == HuntPhase.Killing
@@ -234,6 +240,7 @@ class HuntViewModel @Inject constructor(
                 elapsedSeconds = 0,
                 estimatedRemainingSeconds = 0,
                 errorMessage = null,
+                busyAction = "Starting…",
             )
         }
         startElapsedTicker()
@@ -248,6 +255,7 @@ class HuntViewModel @Inject constructor(
                     it.copy(
                         phase = HuntPhase.Error,
                         errorMessage = error.message ?: "Reconnect failed",
+                        busyAction = null,
                     )
                 }
                 return@launch
@@ -255,7 +263,11 @@ class HuntViewModel @Inject constructor(
             if (session == null) {
                 log.e(TAG, "acquireForHunt returned no session")
                 _state.update {
-                    it.copy(phase = HuntPhase.Error, errorMessage = "Not connected. Connect first.")
+                    it.copy(
+                        phase = HuntPhase.Error,
+                        errorMessage = "Not connected. Connect first.",
+                        busyAction = null,
+                    )
                 }
                 return@launch
             }
@@ -282,6 +294,7 @@ class HuntViewModel @Inject constructor(
                         statusText = "Hunt & Kill complete — ${hits.size} hits",
                         killDwellRemainingSeconds = 0,
                         isPaused = false,
+                        busyAction = null,
                     )
                 }
             }.onFailure { error ->
@@ -294,6 +307,7 @@ class HuntViewModel @Inject constructor(
                         phase = HuntPhase.Error,
                         errorMessage = error.message ?: "Scan failed",
                         isPaused = false,
+                        busyAction = null,
                     )
                 }
             }
@@ -321,6 +335,7 @@ class HuntViewModel @Inject constructor(
             }
             current.copy(
                 phase = if (isKill) HuntPhase.Killing else current.phase.coerceHunting(),
+                busyAction = null,
                 statusText = progress.statusText,
                 currentFrequency = progress.currentFrequency,
                 amplitudeCv = if (progress.amplitudeCv != 0) progress.amplitudeCv else current.amplitudeCv,
@@ -411,6 +426,7 @@ class HuntViewModel @Inject constructor(
         stopElapsedTicker()
         huntJob?.cancel()
         huntJob = null
+        _state.update { it.copy(busyAction = "Cancelling…") }
         viewModelScope.launch {
             session?.let { safetyStopInternal(it) }
             _state.update {
@@ -419,6 +435,7 @@ class HuntViewModel @Inject constructor(
                     statusText = "Cancelled — generator zeroed",
                     killDwellRemainingSeconds = 0,
                     isPaused = false,
+                    busyAction = null,
                 )
             }
             _events.trySend("Generator zeroed")
@@ -465,6 +482,7 @@ class HuntViewModel @Inject constructor(
         stopElapsedTicker()
         huntJob?.cancel()
         huntJob = null
+        _state.update { it.copy(busyAction = "Disconnecting…") }
         viewModelScope.launch {
             runCatching { sessionHolder.clear() }
             _state.update { HuntUiState(params = it.params) }

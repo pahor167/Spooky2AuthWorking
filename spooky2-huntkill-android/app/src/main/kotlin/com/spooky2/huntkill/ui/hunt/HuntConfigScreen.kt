@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
@@ -38,7 +39,7 @@ fun HuntConfigScreen(
     val state by viewModel.state.collectAsState()
     val params = state.params
     val validationError = params.validationError()
-    val canStart = validationError == null && !state.isSwitchingGenerator
+    val canStart = validationError == null && !state.isSwitchingGenerator && state.busyAction == null
 
     // Returning to this screen resets a finished/cancelled run so the config isn't
     // stuck and refreshes the connected-generator chip.
@@ -96,7 +97,14 @@ fun HuntConfigScreen(
             enabled = canStart,
             modifier = Modifier.fillMaxWidth(),
         ) {
-            Text("Start Hunt")
+            if (state.busyAction != null) {
+                CircularProgressIndicator(
+                    modifier = Modifier.size(16.dp),
+                    strokeWidth = 2.dp,
+                )
+                Spacer(Modifier.size(8.dp))
+            }
+            Text("Start Hunt", maxLines = 1)
         }
 
         Spacer(Modifier.height(8.dp))
