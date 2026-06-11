@@ -75,8 +75,12 @@ class FileLogWriterTest {
         val files = tmp.newFolder("files")
         val cache = tmp.newFolder("cache")
         val logsDir = File(files, "logs").apply { mkdirs() }
-        File(logsDir, "huntkill-2026-06-08.log").writeText("a\n")
-        File(logsDir, "huntkill-2026-06-09.log").writeText("b\n")
+        // Dates relative to NOW so retention (prune > 3 days old) keeps both —
+        // hardcoded calendar dates break once the wall clock passes them.
+        val today = dayFormat.format(Date())
+        val yesterday = dayFormat.format(Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(1)))
+        File(logsDir, "huntkill-$today.log").writeText("a\n")
+        File(logsDir, "huntkill-$yesterday.log").writeText("b\n")
 
         val writer = FileLogWriter(context(files, cache))
         val zip = writer.exportZip()
@@ -84,7 +88,7 @@ class FileLogWriterTest {
         assertTrue(zip.exists())
         assertTrue(zip.name.endsWith(".zip"))
         val names = ZipFile(zip).use { z -> z.entries().toList().map { it.name }.sorted() }
-        assertEquals(listOf("huntkill-2026-06-08.log", "huntkill-2026-06-09.log"), names)
+        assertEquals(listOf("huntkill-$yesterday.log", "huntkill-$today.log").sorted(), names)
     }
 
     private fun waitUntil(timeoutMs: Long = 3_000, predicate: () -> Boolean) {

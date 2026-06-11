@@ -24,6 +24,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -90,12 +91,25 @@ fun ScrollableReadingGraph(
     val touchSlop = with(density) { MARKER_TOUCH_DP.toPx() }
     val contentWidthDp = with(density) { (readings.size * pxPerPoint).toDp() }
 
-    // Sticky auto-follow: keep snapping to the newest data until the user drags the
-    // graph; the Live button re-arms it. (Deciding per-frame from "is the scroll
-    // position at the end" breaks as soon as content grows faster than one frame.)
+    // Auto-follow the newest data, driven by the SCROLL STATE (not pointer events,
+    // which horizontalScroll consumes first). Rules:
+    //  - a user drag disengages follow → the position the user set is held;
+    //  - releasing while scrolled to the front edge (newest) re-engages follow;
+    //  - the Live button re-engages follow and animates to the front.
     var following by remember { mutableStateOf(true) }
-
-    LaunchedEffect(readings.size, following) {
+    val atEnd by remember {
+        derivedStateOf { scrollState.maxValue == 0 || scrollState.value >= scrollState.maxValue - 4 }
+    }
+    LaunchedEffect(scrollState.isScrollInProgress) {
+        if (scrollState.isScrollInProgress) {
+            following = false // user grabbed the graph → hold their position
+        } else if (atEnd) {
+            following = true // settled at the newest edge → resume following
+        }
+    }
+    // New data arrives: snap to the newest only while following (instant scroll does
+    // not set isScrollInProgress, so it never trips the disengage rule above).
+    LaunchedEffect(readings.size) {
         if (following && scrollState.maxValue > 0) scrollState.scrollTo(scrollState.maxValue)
     }
 
@@ -137,18 +151,16 @@ fun ScrollableReadingGraph(
                         val down = awaitFirstDown(requireUnconsumed = false)
                         val downPos = down.position
                         var dragged = false
-                        // Track the gesture: a real positional drag disengages
-                        // auto-follow (and is treated as a scroll, not a tap). A press
-                        // that ends near where it started is a tap → hit-test markers.
+                        // Track the gesture: a real positional move means the user is
+                        // scrolling (handled by horizontalScroll + the scroll-state
+                        // follow rules), so it is NOT a tap. A press that ends near where
+                        // it started is a tap → hit-test markers.
                         do {
                             val event = awaitPointerEvent()
                             val moved = event.changes.any {
                                 (it.position - downPos).getDistance() > touchSlop
                             }
-                            if (moved) {
-                                dragged = true
-                                following = false
-                            }
+                            if (moved) dragged = true
                         } while (event.changes.any { it.pressed })
 
                         if (!dragged) {
@@ -252,8 +264,10 @@ fun ScrollableReadingGraph(
         if (!following) {
             Button(
                 onClick = {
+                    // Instant (not animated) so it doesn't set isScrollInProgress, which
+                    // would otherwise immediately disengage the follow we just enabled.
                     following = true
-                    scope.launch { scrollState.animateScrollTo(scrollState.maxValue) }
+                    scope.launch { scrollState.scrollTo(scrollState.maxValue) }
                 },
                 modifier = Modifier
                     .align(Alignment.BottomEnd)

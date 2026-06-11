@@ -102,24 +102,17 @@ class GeneratorClient(
         val authResponse = sendProbe(":w92=$authToken.") ?: return null
         if (!authResponse.contains("ok")) return null
 
-        // Read device info ONCE at connect, after auth succeeds and before the timing-
-        // critical init sequence. Each query is tolerant of a timeout/blank response
-        // (some queries time out on WCH-bridged GeneratorX units): a null value is
-        // stored and the connect proceeds. The raw values are returned in [Connection]
-        // for the app layer to log; querying here keeps these OUT of the scan path.
+        // Read hardware info once (the GeneratorX answers :r02 quickly → e.g. "200").
+        // The serial/firmware/hw-type reads (:r91/:r68/:r80) are intentionally NOT
+        // sent: on the GeneratorX they return nothing, and each dead query blocks for
+        // the full read timeout (~2s), adding ~6s to every connect for zero benefit.
         val hardwareInfo = queryValue(GeneratorProtocol.READ_HARDWARE_INFO)
-        val serialNumber = queryValue(GeneratorProtocol.READ_SERIAL_NUMBER)
-        val firmwareVersion = queryValue(GeneratorProtocol.READ_FIRMWARE_VERSION)
-        val hardwareType = queryValue(GeneratorProtocol.READ_HARDWARE_TYPE)
 
         runInitSequence()
         return Connection(
             baudRate = BAUD_GENERATORX,
             generatorType = GENERATOR_TYPE_GENERATORX,
             hardwareInfo = hardwareInfo,
-            serialNumber = serialNumber,
-            firmwareVersion = firmwareVersion,
-            hardwareType = hardwareType,
         )
     }
 

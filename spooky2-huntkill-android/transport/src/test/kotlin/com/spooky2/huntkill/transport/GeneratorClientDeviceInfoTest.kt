@@ -10,10 +10,10 @@ import org.junit.Assert.assertNull
 import org.junit.Test
 
 /**
- * Verifies that [GeneratorClient.connect] reads the generator device-info queries once
- * at connect (after `:w92` auth, before the init sequence) and captures the parsed
- * values into [GeneratorClient.Connection] — and that a TIMEOUT (null read) on any one
- * query leaves that field null WITHOUT failing the connect.
+ * Verifies the GeneratorX connect reads [hardwareInfo] (`:r02`) and captures it into
+ * [GeneratorClient.Connection]. The serial/firmware/hw-type reads are intentionally NOT
+ * sent on the GeneratorX path (they time out on real units and only slow the connect),
+ * so those fields are null. Connect must still succeed when `:r02` times out too.
  */
 class GeneratorClientDeviceInfoTest {
 
@@ -48,16 +48,11 @@ class GeneratorClientDeviceInfoTest {
     }
 
     @Test
-    fun `connect captures serial firmware hardwareType and hardwareInfo`() = runTest {
+    fun `GeneratorX connect captures hardwareInfo only`() = runTest {
         val writes = mutableListOf<ByteArray>()
         val transport = deviceInfoTransport(
             writes,
-            mapOf(
-                GeneratorProtocol.READ_SERIAL_NUMBER to ":r91=SN123.",
-                GeneratorProtocol.READ_FIRMWARE_VERSION to ":r68=201.",
-                GeneratorProtocol.READ_HARDWARE_TYPE to ":r80=2.",
-                GeneratorProtocol.READ_HARDWARE_INFO to ":r02=200.",
-            ),
+            mapOf(GeneratorProtocol.READ_HARDWARE_INFO to ":r02=200."),
         )
 
         val client = GeneratorClient(
@@ -69,24 +64,24 @@ class GeneratorClientDeviceInfoTest {
         val connection = client.connect()
 
         assertNotNull("connect should authenticate", connection)
-        assertEquals("SN123", connection!!.serialNumber)
-        assertEquals("201", connection.firmwareVersion)
-        assertEquals("2", connection.hardwareType)
-        assertEquals("200", connection.hardwareInfo)
+        assertEquals("200", connection!!.hardwareInfo)
+        // serial/firmware/hw-type are NOT queried on the GeneratorX path.
+        assertNull(connection.serialNumber)
+        assertNull(connection.firmwareVersion)
+        assertNull(connection.hardwareType)
+        // And those dead reads were never put on the wire.
+        val sent = writes.map { String(it, Charsets.US_ASCII).trim() }
+        assertEquals(false, sent.any { it == GeneratorProtocol.READ_SERIAL_NUMBER })
+        assertEquals(false, sent.any { it == GeneratorProtocol.READ_FIRMWARE_VERSION })
+        assertEquals(false, sent.any { it == GeneratorProtocol.READ_HARDWARE_TYPE })
     }
 
     @Test
-    fun `a timed out device-info query leaves its field null but connect still succeeds`() = runTest {
+    fun `connect still succeeds when hardwareInfo query times out`() = runTest {
         val writes = mutableListOf<ByteArray>()
-        // Serial number TIMES OUT (null), the rest answer normally.
         val transport = deviceInfoTransport(
             writes,
-            mapOf(
-                GeneratorProtocol.READ_SERIAL_NUMBER to null,
-                GeneratorProtocol.READ_FIRMWARE_VERSION to ":r68=201.",
-                GeneratorProtocol.READ_HARDWARE_TYPE to ":r80=2.",
-                GeneratorProtocol.READ_HARDWARE_INFO to ":r02=200.",
-            ),
+            mapOf(GeneratorProtocol.READ_HARDWARE_INFO to null),
         )
 
         val client = GeneratorClient(
@@ -97,12 +92,8 @@ class GeneratorClientDeviceInfoTest {
 
         val connection = client.connect()
 
-        // Auth still returns a valid Connection despite the timed-out serial query.
-        assertNotNull("connect must still succeed when a device-info query times out", connection)
+        assertNotNull("connect must still succeed when :r02 times out", connection)
         assertEquals(GeneratorClient.BAUD_GENERATORX, connection!!.baudRate)
-        assertNull("timed-out serial leaves field null", connection.serialNumber)
-        assertEquals("201", connection.firmwareVersion)
-        assertEquals("2", connection.hardwareType)
-        assertEquals("200", connection.hardwareInfo)
+        assertNull(connection.hardwareInfo)
     }
 }
