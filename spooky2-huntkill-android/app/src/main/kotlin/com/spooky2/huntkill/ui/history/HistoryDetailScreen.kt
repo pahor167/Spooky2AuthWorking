@@ -17,6 +17,7 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -44,6 +45,7 @@ fun HistoryDetailScreen(
     runId: String,
     viewModel: HistoryViewModel,
     onReRun: (RunRecord) -> Unit,
+    onBack: () -> Unit = {},
 ) {
     val state by viewModel.state.collectAsState()
     LaunchedEffect(runId) { viewModel.loadDetail(runId) }
@@ -57,6 +59,14 @@ fun HistoryDetailScreen(
     ) {
         if (run == null || run.id != runId) {
             Text("Run not found.", style = MaterialTheme.typography.bodyMedium)
+            Spacer(Modifier.height(8.dp))
+            OutlinedButton(
+                onClick  = onBack,
+                modifier = Modifier.fillMaxWidth(),
+                shape    = RoundedCornerShape(8.dp),
+            ) {
+                Text("Back to history", maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
             return@Column
         }
 

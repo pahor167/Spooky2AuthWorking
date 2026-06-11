@@ -56,7 +56,7 @@ fun ConnectScreen(
             Color(0xFF15171C),   // faint neutral graphite glow at centre
             SLBackground,        // fades to flat background
         ),
-        center = Offset(Float.POSITIVE_INFINITY / 2, 0f),
+        center = Offset(Float.POSITIVE_INFINITY, 0f),
         radius = 900f,
     )
 

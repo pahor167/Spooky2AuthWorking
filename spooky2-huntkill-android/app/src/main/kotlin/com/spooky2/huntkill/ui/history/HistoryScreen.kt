@@ -25,11 +25,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.data.RunRecord
+import com.spooky2.huntkill.ui.common.ConfirmDialog
 import com.spooky2.huntkill.ui.theme.MonoNumberSmall
 import com.spooky2.huntkill.ui.theme.SLOutline
 import com.spooky2.huntkill.ui.theme.SLPrimary
@@ -103,6 +107,18 @@ private fun RunRow(
     onClick: () -> Unit,
     onDelete: () -> Unit,
 ) {
+    var showDeleteConfirm by remember { mutableStateOf(false) }
+    if (showDeleteConfirm) {
+        ConfirmDialog(
+            title        = "Delete run?",
+            text         = "This will permanently remove the run from ${formatRunTimestamp(run.timestampMs)}.",
+            confirmLabel = "Delete",
+            dismissLabel = "Cancel",
+            onConfirm    = { showDeleteConfirm = false; onDelete() },
+            onDismiss    = { showDeleteConfirm = false },
+        )
+    }
+
     Card(
         modifier  = Modifier.fillMaxWidth().clickable(onClick = onClick),
         shape     = RoundedCornerShape(10.dp),
@@ -135,7 +151,7 @@ private fun RunRow(
                     color = SLPrimary,
                 )
             }
-            IconButton(onClick = onDelete) {
+            IconButton(onClick = { showDeleteConfirm = true }) {
                 Icon(
                     Icons.Default.Delete,
                     contentDescription = "Delete run",

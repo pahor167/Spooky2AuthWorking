@@ -4,6 +4,9 @@
     <!-- USB host required: the generator connects via USB-OTG (CDC-ACM serial). -->
     <uses-feature android:name="android.hardware.usb.host" android:required="true" />
 
+    <!-- Completion vibration feedback. -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
     <application
         android:name=".HuntKillApp"
         android:allowBackup="true"
@@ -13,7 +16,9 @@
 
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:configChanges="orientation|screenSize|screenLayout">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

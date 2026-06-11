@@ -3,23 +3,19 @@ package com.spooky2.huntkill.ui.log
 import android.content.Context
 import android.content.Intent
 import androidx.core.content.FileProvider
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
-import androidx.compose.material3.TopAppBar
-import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -57,98 +53,98 @@ class LogViewModel @Inject constructor(
     suspend fun exportZip(): File = withContext(Dispatchers.IO) { fileWriter.exportZip() }
 }
 
-@OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
 @Composable
 fun LogScreen(
     onBack: () -> Unit,
     viewModel: LogViewModel = hiltViewModel(),
 ) {
-    val logBus           = viewModel.logBus
-    val entries          by logBus.entries.collectAsState()
-    val listState        = rememberLazyListState()
+    val logBus            = viewModel.logBus
+    val entries           by logBus.entries.collectAsState()
+    val listState         = rememberLazyListState()
     val clipboard: ClipboardManager = LocalClipboardManager.current
-    val context          = LocalContext.current
+    val context           = LocalContext.current
     val snackbarHostState = remember { SnackbarHostState() }
-    val scope            = rememberCoroutineScope()
+    val scope             = rememberCoroutineScope()
 
     LaunchedEffect(entries.size) {
         if (entries.isNotEmpty()) listState.scrollToItem(entries.size - 1)
     }
 
-    Scaffold(
-        topBar = {
-            TopAppBar(
-                title = {
+    // Compact action row replaces the inner TopAppBar; the outer NavHost Scaffold
+    // supplies the shared TopAppBar (title + back arrow) for this route.
+    LazyColumn(
+        state    = listState,
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(horizontal = 8.dp),
+    ) {
+        item {
+            Row(
+                modifier              = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.End,
+            ) {
+                TextButton(
+                    onClick = {
+                        clipboard.setText(AnnotatedString(logBus.dump()))
+                        scope.launch { snackbarHostState.showSnackbar("Logs copied") }
+                    },
+                    contentPadding = androidx.compose.foundation.layout.PaddingValues(
+                        horizontal = 8.dp,
+                        vertical   = 0.dp,
+                    ),
+                ) { Text("Copy", style = MaterialTheme.typography.labelMedium, color = SLPrimary) }
+                TextButton(
+                    onClick = {
+                        val send = Intent(Intent.ACTION_SEND).apply {
+                            type = "text/plain"
+                            putExtra(Intent.EXTRA_TEXT, logBus.dump())
+                        }
+                        context.startActivity(Intent.createChooser(send, "Share logs"))
+                    },
+                    contentPadding = androidx.compose.foundation.layout.PaddingValues(
+                        horizontal = 8.dp,
+                        vertical   = 0.dp,
+                    ),
+                ) { Text("Share", style = MaterialTheme.typography.labelMedium, color = SLPrimary) }
+                TextButton(
+                    onClick = {
+                        scope.launch {
+                            runCatching {
+                                logBus.flush()
+                                val zip = viewModel.exportZip()
+                                shareZip(context, zip)
+                            }.onFailure {
+                                snackbarHostState.showSnackbar("Export failed: ${it.message ?: "error"}")
+                            }
+                        }
+                    },
+                    contentPadding = androidx.compose.foundation.layout.PaddingValues(
+                        horizontal = 8.dp,
+                        vertical   = 0.dp,
+                    ),
+                ) { Text("Export", style = MaterialTheme.typography.labelMedium, color = SLPrimary) }
+                TextButton(
+                    onClick = { logBus.clear() },
+                    contentPadding = androidx.compose.foundation.layout.PaddingValues(
+                        horizontal = 8.dp,
+                        vertical   = 0.dp,
+                    ),
+                ) {
                     Text(
-                        "LOGS",
-                        style = MaterialTheme.typography.titleSmall,
+                        "Clear",
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
-                },
-                navigationIcon = {
-                    IconButton(onClick = onBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
-                    }
-                },
-                actions = {
-                    TextButton(
-                        onClick = {
-                            clipboard.setText(AnnotatedString(logBus.dump()))
-                            scope.launch { snackbarHostState.showSnackbar("Logs copied") }
-                        },
-                        contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 8.dp, vertical = 0.dp),
-                    ) { Text("Copy", style = MaterialTheme.typography.labelMedium, color = SLPrimary) }
-                    TextButton(
-                        onClick = {
-                            val send = Intent(Intent.ACTION_SEND).apply {
-                                type = "text/plain"
-                                putExtra(Intent.EXTRA_TEXT, logBus.dump())
-                            }
-                            context.startActivity(Intent.createChooser(send, "Share logs"))
-                        },
-                        contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 8.dp, vertical = 0.dp),
-                    ) { Text("Share", style = MaterialTheme.typography.labelMedium, color = SLPrimary) }
-                    TextButton(
-                        onClick = {
-                            scope.launch {
-                                runCatching {
-                                    logBus.flush()
-                                    val zip = viewModel.exportZip()
-                                    shareZip(context, zip)
-                                }.onFailure {
-                                    snackbarHostState.showSnackbar("Export failed: ${it.message ?: "error"}")
-                                }
-                            }
-                        },
-                        contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 8.dp, vertical = 0.dp),
-                    ) { Text("Export", style = MaterialTheme.typography.labelMedium, color = SLPrimary) }
-                    TextButton(
-                        onClick = { logBus.clear() },
-                        contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 8.dp, vertical = 0.dp),
-                    ) { Text("Clear", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
-                },
-                colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor       = MaterialTheme.colorScheme.surface,
-                    titleContentColor    = MaterialTheme.colorScheme.onSurface,
-                    navigationIconContentColor = MaterialTheme.colorScheme.onSurfaceVariant,
-                ),
-            )
-        },
-        snackbarHost = { SnackbarHost(snackbarHostState) },
-    ) { padding ->
-        LazyColumn(
-            state    = listState,
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(padding)
-                .padding(horizontal = 8.dp),
-        ) {
-            items(entries) { entry ->
-                Text(
-                    text  = formatLine(entry),
-                    style = MonoNumberSmall,
-                    color = MaterialTheme.colorScheme.onSurface,
-                )
+                }
             }
+            SnackbarHost(snackbarHostState)
+        }
+        items(entries) { entry ->
+            Text(
+                text  = formatLine(entry),
+                style = MonoNumberSmall,
+                color = MaterialTheme.colorScheme.onSurface,
+            )
         }
     }
 }

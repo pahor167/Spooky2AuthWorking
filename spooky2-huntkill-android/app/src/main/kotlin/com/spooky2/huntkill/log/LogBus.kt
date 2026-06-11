@@ -4,9 +4,9 @@ import android.util.Log
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import java.text.SimpleDateFormat
-import java.util.Date
-import java.util.Locale
+import java.time.Instant
+import java.time.ZoneId
+import java.time.format.DateTimeFormatter
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -93,11 +93,14 @@ class LogBus @Inject constructor(
     }
 
     private fun format(entry: LogEntry): String =
-        "${timeFormat.format(Date(entry.timestampMs))} ${entry.level}/${entry.tag}: ${entry.message}"
+        "${timeFormat.format(Instant.ofEpochMilli(entry.timestampMs))} ${entry.level}/${entry.tag}: ${entry.message}"
 
     companion object {
         const val CAPACITY = 2000
 
-        private val timeFormat = SimpleDateFormat("HH:mm:ss.SSS", Locale.US)
+        // DateTimeFormatter is immutable and thread-safe (unlike SimpleDateFormat).
+        // Device-local zone so in-app log lines match the wall clock during a run.
+        private val timeFormat: DateTimeFormatter =
+            DateTimeFormatter.ofPattern("HH:mm:ss.SSS").withZone(ZoneId.systemDefault())
     }
 }

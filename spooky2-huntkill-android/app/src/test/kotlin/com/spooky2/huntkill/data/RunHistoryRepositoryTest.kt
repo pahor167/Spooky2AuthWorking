@@ -7,10 +7,12 @@ import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
+import org.junit.Assert.fail
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.TemporaryFolder
 import java.io.File
+import java.io.IOException
 
 /**
  * JVM round-trip tests for [RunHistoryRepository]: save/all/get/delete against a real
@@ -101,5 +103,43 @@ class RunHistoryRepositoryTest {
 
         val repo = RunHistoryRepository(context(files))
         assertTrue(repo.all().isEmpty())
+    }
+
+    /**
+     * When the history directory is replaced by a plain file, mkdirs() fails and the
+     * write cannot proceed. [save] must throw [IOException] rather than silently swallow
+     * the failure and return the record as if it were persisted.
+     */
+    @Test
+    fun `save throws IOException when write is impossible`() = runBlocking {
+        val files = tmp.newFolder("files")
+        // Place a *file* where the history directory would go so mkdirs() fails.
+        File(files, "history").createNewFile()
+        val repo = RunHistoryRepository(context(files))
+
+        try {
+            repo.save(record("x", timestampMs = 1_000))
+            fail("Expected IOException but save() returned normally")
+        } catch (e: IOException) {
+            // expected — write could not proceed
+        }
+        Unit
+    }
+
+    /**
+     * When a write succeeds the old content must survive process-death mid-write.
+     * After one successful save, the runs.json must contain the record; no orphaned
+     * .tmp file should remain once the call returns.
+     */
+    @Test
+    fun `atomic write leaves no temp file on success`() = runBlocking {
+        val files = tmp.newFolder("files")
+        val repo = RunHistoryRepository(context(files))
+        repo.save(record("a", timestampMs = 1_000))
+
+        val historyDir = File(files, "history")
+        val tmpFile = File(historyDir, "runs.json.tmp")
+        assertTrue("runs.json exists after save", File(historyDir, "runs.json").exists())
+        assertTrue("no .tmp file left behind", !tmpFile.exists())
     }
 }

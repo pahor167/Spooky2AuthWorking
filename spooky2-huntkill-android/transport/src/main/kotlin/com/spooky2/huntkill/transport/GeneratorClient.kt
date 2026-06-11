@@ -3,6 +3,7 @@ package com.spooky2.huntkill.transport
 import com.spooky2.huntkill.core.auth.GeneratorAuthentication
 import com.spooky2.huntkill.core.protocol.GeneratorProtocol
 import com.spooky2.huntkill.core.scan.GeneratorLink
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.delay
 
 /**
@@ -68,10 +69,19 @@ class GeneratorClient(
             transport.open(baud)
             delayProvider(POST_OPEN_SETTLE_MS)
 
-            val connection = if (baud == BAUD_GENERATORX) {
-                tryAuthenticateGeneratorX()
-            } else {
-                tryProbeXm()
+            // Wrap the probe in try/catch so an IOException thrown by transport.write/readLine
+            // on a dead port (e.g. USB disconnect mid-probe) doesn't skip the transport.close()
+            // below, which would leak the open port and leave isOpen=true for the next connect.
+            val connection = try {
+                if (baud == BAUD_GENERATORX) {
+                    tryAuthenticateGeneratorX()
+                } else {
+                    tryProbeXm()
+                }
+            } catch (e: CancellationException) {
+                throw e                 // never swallow structured-concurrency cancellation
+            } catch (e: Exception) {
+                null                    // no answer on this baud — close and try next
             }
 
             if (connection != null) {
@@ -242,6 +252,9 @@ class GeneratorClient(
         const val GENERATOR_TYPE_GENERATORX: String = "GeneratorX"
 
         private val PROBE_BAUD_RATES = intArrayOf(BAUD_XM, BAUD_GENERATORX)
+
+        /** Number of baud rates probed by [connect]; used in tests to assert close() count. */
+        val PROBE_BAUD_COUNT: Int = PROBE_BAUD_RATES.size
 
         private const val POST_OPEN_SETTLE_MS = 50L
         private const val DEFAULT_RESPONSE_TIMEOUT_MS = 2000L

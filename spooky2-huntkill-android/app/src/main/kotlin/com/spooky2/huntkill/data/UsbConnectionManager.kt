@@ -14,6 +14,9 @@ import com.spooky2.huntkill.log.LoggingSerialTransport
 import com.spooky2.huntkill.transport.GeneratorClient
 import com.spooky2.huntkill.transport.usb.UsbCdcSerialTransport
 import dagger.hilt.android.qualifiers.ApplicationContext
+import kotlinx.coroutines.flow.MutableSharedFlow
+import kotlinx.coroutines.flow.SharedFlow
+import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.suspendCancellableCoroutine
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -45,6 +48,48 @@ class UsbConnectionManager @Inject constructor(
     private val usbManager: UsbManager,
     private val log: LogBus,
 ) {
+
+    /**
+     * Emits [Unit] when the currently-connected USB device is physically detached.
+     * Collectors (e.g. [HuntViewModel]) should treat any emission as a dead session:
+     * cancel in-flight operations and surface an error — do NOT attempt further I/O on
+     * the dead transport.
+     */
+    private val _deviceDetached = MutableSharedFlow<Unit>(extraBufferCapacity = 1)
+    val deviceDetached: SharedFlow<Unit> = _deviceDetached.asSharedFlow()
+
+    /**
+     * Dynamic BroadcastReceiver listening for USB device detach. Registered once at
+     * first [connect] / [lastConnectedDevice] assignment; stays registered for the
+     * app lifecycle (application-context singleton). Un-registration is not strictly
+     * necessary for an application-context receiver but would require a lifecycle hook
+     * that doesn't exist for a singleton without a bound scope.
+     */
+    private val detachReceiverRegistered = java.util.concurrent.atomic.AtomicBoolean(false)
+
+    private fun ensureDetachReceiverRegistered() {
+        if (!detachReceiverRegistered.compareAndSet(false, true)) return
+        val filter = IntentFilter(UsbManager.ACTION_USB_DEVICE_DETACHED)
+        ContextCompat.registerReceiver(
+            context,
+            detachReceiver,
+            filter,
+            ContextCompat.RECEIVER_NOT_EXPORTED,
+        )
+        log.i(TAG, "USB detach receiver registered")
+    }
+
+    private val detachReceiver = object : BroadcastReceiver() {
+        override fun onReceive(ctx: Context, intent: Intent) {
+            if (intent.action != UsbManager.ACTION_USB_DEVICE_DETACHED) return
+            val detached = intent.getParcelableExtra<UsbDevice>(UsbManager.EXTRA_DEVICE) ?: return
+            val connected = lastConnectedDevice ?: return
+            if (detached.deviceName != connected.deviceName) return
+            log.w(TAG, "Connected device detached: ${detached.deviceName}")
+            lastConnectedDevice = null
+            _deviceDetached.tryEmit(Unit)
+        }
+    }
 
     /**
      * First attached device the USB-serial stack can drive (any supported bridge —
@@ -250,6 +295,7 @@ class UsbConnectionManager @Inject constructor(
         client.zeroOutput()
 
         lastConnectedDevice = device
+        ensureDetachReceiverRegistered()
         return GeneratorSession(
             baudRate = connection.baudRate,
             generatorType = connection.generatorType,

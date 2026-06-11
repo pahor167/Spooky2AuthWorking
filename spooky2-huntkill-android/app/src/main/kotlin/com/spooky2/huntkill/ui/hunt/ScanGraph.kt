@@ -170,7 +170,8 @@ fun ScrollableReadingGraph(
                             }
                             val within = best?.let { m ->
                                 val mx = m.stepIndex * pxPerPoint
-                                abs(mx - tap.x) <= touchSlop
+                                val my = h * (1f - (readings[m.stepIndex] - minV) / range)
+                                abs(mx - tap.x) <= touchSlop && abs(my - tap.y) <= touchSlop
                             } ?: false
                             if (within) best?.let(onMarkerTap)
                         }

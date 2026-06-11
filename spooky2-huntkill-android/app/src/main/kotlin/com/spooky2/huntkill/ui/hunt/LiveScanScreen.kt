@@ -32,11 +32,14 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
+import com.spooky2.huntkill.ui.common.KeepScreenOn
 import com.spooky2.huntkill.ui.common.asHz
 import com.spooky2.huntkill.ui.common.formatElapsed
+import com.spooky2.huntkill.ui.common.vibrateOnce
 import com.spooky2.huntkill.ui.theme.MonoNumberLarge
 import com.spooky2.huntkill.ui.theme.MonoNumberSmall
 import com.spooky2.huntkill.ui.theme.SLError
@@ -51,8 +54,12 @@ fun LiveScanScreen(
     onDone: () -> Unit,
     onCancelled: () -> Unit,
     onDropouts: () -> Unit,
+    onError: () -> Unit,
 ) {
     val state by viewModel.state.collectAsState()
+    val context = LocalContext.current
+
+    KeepScreenOn()
 
     var showStopConfirm by remember { mutableStateOf(false) }
     BackHandler(enabled = state.isRunning) { showStopConfirm = true }
@@ -68,10 +75,11 @@ fun LiveScanScreen(
 
     LaunchedEffect(state.phase) {
         when (state.phase) {
-            HuntPhase.HitsReady, HuntPhase.Killing -> onKilling()
-            HuntPhase.HitsReadyWithDropouts        -> onDropouts()
+            HuntPhase.HitsReady, HuntPhase.Killing -> { vibrateOnce(context); onKilling() }
+            HuntPhase.HitsReadyWithDropouts        -> { vibrateOnce(context); onDropouts() }
             HuntPhase.Done                         -> onDone()
             HuntPhase.Cancelled                    -> onCancelled()
+            HuntPhase.Error                        -> onError()
             else                                   -> Unit
         }
     }

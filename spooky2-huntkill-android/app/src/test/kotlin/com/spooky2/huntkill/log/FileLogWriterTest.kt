@@ -10,9 +10,9 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.TemporaryFolder
 import java.io.File
-import java.text.SimpleDateFormat
-import java.util.Date
-import java.util.Locale
+import java.time.Instant
+import java.time.ZoneId
+import java.time.format.DateTimeFormatter
 import java.util.concurrent.TimeUnit
 import java.util.zip.ZipFile
 
@@ -26,7 +26,9 @@ class FileLogWriterTest {
     @get:Rule
     val tmp = TemporaryFolder()
 
-    private val dayFormat = SimpleDateFormat("yyyy-MM-dd", Locale.US)
+    // Match the device-local zone used by FileLogWriter's dayFormat so expected filenames align.
+    private val dayFormat: DateTimeFormatter =
+        DateTimeFormatter.ofPattern("yyyy-MM-dd").withZone(ZoneId.systemDefault())
 
     private fun context(filesDir: File, cacheDir: File): Context = mockk<Context>().also {
         every { it.filesDir } returns filesDir
@@ -42,7 +44,7 @@ class FileLogWriterTest {
         writer.append(System.currentTimeMillis(), 'i', "Test", "hello world")
         writer.flush()
 
-        val today = dayFormat.format(Date())
+        val today = dayFormat.format(Instant.now())
         val logFile = File(File(files, "logs"), "huntkill-$today.log")
         waitUntil { logFile.exists() && logFile.readText().contains("hello world") }
 
@@ -58,8 +60,8 @@ class FileLogWriterTest {
         val logsDir = File(files, "logs").apply { mkdirs() }
 
         // Old file: 5 days ago -> should be pruned. Recent: 1 day ago -> kept.
-        val old = dayFormat.format(Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(5)))
-        val recent = dayFormat.format(Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(1)))
+        val old = dayFormat.format(Instant.ofEpochMilli(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(5)))
+        val recent = dayFormat.format(Instant.ofEpochMilli(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(1)))
         val oldFile = File(logsDir, "huntkill-$old.log").apply { writeText("old\n") }
         val recentFile = File(logsDir, "huntkill-$recent.log").apply { writeText("recent\n") }
 
@@ -77,8 +79,8 @@ class FileLogWriterTest {
         val logsDir = File(files, "logs").apply { mkdirs() }
         // Dates relative to NOW so retention (prune > 3 days old) keeps both —
         // hardcoded calendar dates break once the wall clock passes them.
-        val today = dayFormat.format(Date())
-        val yesterday = dayFormat.format(Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(1)))
+        val today = dayFormat.format(Instant.now())
+        val yesterday = dayFormat.format(Instant.ofEpochMilli(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(1)))
         File(logsDir, "huntkill-$today.log").writeText("a\n")
         File(logsDir, "huntkill-$yesterday.log").writeText("b\n")
 

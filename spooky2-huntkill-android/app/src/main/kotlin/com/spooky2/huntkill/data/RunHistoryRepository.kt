@@ -9,6 +9,7 @@ import kotlinx.coroutines.withContext
 import org.json.JSONArray
 import org.json.JSONObject
 import java.io.File
+import java.io.IOException
 import java.util.UUID
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -69,21 +70,32 @@ class RunHistoryRepository @Inject constructor(
     /**
      * Persist [record], appending it to the store. A blank [RunRecord.id] is replaced
      * with a fresh UUID. Returns the saved record (with its final id).
+     *
+     * @throws IOException if the underlying file write fails (e.g. storage full or no
+     *   write permission). The caller's [runCatching] / Result handling will surface it.
      */
     suspend fun save(record: RunRecord): RunRecord = withContext(Dispatchers.IO) {
         writeMutex.withLock {
             val withId = if (record.id.isBlank()) record.copy(id = UUID.randomUUID().toString()) else record
             val current = readAll().filterNot { it.id == withId.id }
-            writeAll(current + withId)
+            if (!writeAll(current + withId)) {
+                throw IOException("Failed to persist run record to ${runsFile.path}")
+            }
             withId
         }
     }
 
-    /** Remove the run with [id]. No-op when it isn't present. */
+    /**
+     * Remove the run with [id]. No-op when it isn't present.
+     *
+     * @throws IOException if the underlying file write fails.
+     */
     suspend fun delete(id: String): Unit = withContext(Dispatchers.IO) {
         writeMutex.withLock {
             val remaining = readAll().filterNot { it.id == id }
-            writeAll(remaining)
+            if (!writeAll(remaining)) {
+                throw IOException("Failed to persist deletion of run $id to ${runsFile.path}")
+            }
         }
     }
 
@@ -97,13 +109,26 @@ class RunHistoryRepository @Inject constructor(
         }.getOrDefault(emptyList())
     }
 
-    private fun writeAll(records: List<RunRecord>) {
-        runCatching {
+    /**
+     * Write [records] atomically: serialize to a temp file in [historyDir] then rename
+     * it over [runsFile] so a process death mid-write never leaves a truncated file.
+     * Returns `true` on success, `false` if any I/O step fails.
+     */
+    private fun writeAll(records: List<RunRecord>): Boolean {
+        val tmp = File(historyDir, "runs.json.tmp")
+        return runCatching {
             historyDir.mkdirs()
             val array = JSONArray()
             records.forEach { array.put(recordToJson(it)) }
-            runsFile.writeText(array.toString())
-        }
+            tmp.writeText(array.toString())
+            if (!tmp.renameTo(runsFile)) {
+                // renameTo can fail across filesystems; fall back to copy+delete.
+                tmp.copyTo(runsFile, overwrite = true)
+            }
+        }.also {
+            // Always remove the temp file so a failed copy doesn't orphan it.
+            runCatching { tmp.delete() }
+        }.isSuccess
     }
 
     private fun recordToJson(record: RunRecord): JSONObject {

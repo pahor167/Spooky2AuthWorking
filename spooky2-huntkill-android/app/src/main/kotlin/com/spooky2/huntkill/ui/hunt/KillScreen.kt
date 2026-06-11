@@ -37,12 +37,15 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
+import com.spooky2.huntkill.ui.common.KeepScreenOn
 import com.spooky2.huntkill.ui.common.asHz
 import com.spooky2.huntkill.ui.common.formatElapsed
+import com.spooky2.huntkill.ui.common.vibrateOnce
 import com.spooky2.huntkill.ui.theme.MonoNumberLarge
 import com.spooky2.huntkill.ui.theme.MonoNumberSmall
 import com.spooky2.huntkill.ui.theme.SLActive
@@ -60,6 +63,9 @@ fun KillScreen(
     onStopped: () -> Unit,
 ) {
     val state by viewModel.state.collectAsState()
+    val context = LocalContext.current
+
+    KeepScreenOn()
 
     var showStopConfirm by remember { mutableStateOf(false) }
     BackHandler(enabled = state.isRunning) { showStopConfirm = true }
@@ -75,7 +81,7 @@ fun KillScreen(
 
     LaunchedEffect(state.phase) {
         when (state.phase) {
-            HuntPhase.Done                        -> onDone()
+            HuntPhase.Done                        -> { vibrateOnce(context); onDone() }
             HuntPhase.Cancelled, HuntPhase.Error  -> onStopped()
             else                                  -> Unit
         }

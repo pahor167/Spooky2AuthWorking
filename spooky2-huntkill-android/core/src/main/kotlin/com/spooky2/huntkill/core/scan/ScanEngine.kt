@@ -177,6 +177,9 @@ class ScanEngine(private val link: GeneratorLink) {
         for (b in 0 until parameters.baselineReadCount) {
             coroutineContext.ensureActive()
             pauseGate.awaitResumed()
+            // Re-check after resuming: a cancellation that arrived while paused
+            // must be honored before the next serial read, mirroring the sweep loop.
+            coroutineContext.ensureActive()
             val (angle, current) = readSensors(parameters.samplesPerStep)
 
             raWindow1.add(current)
@@ -681,10 +684,13 @@ class ScanEngine(private val link: GeneratorLink) {
             currentSum += GeneratorProtocol.parseSensorReading(cr ?: "")
             if (angleOk && currentOk) validReads++
         }
+        // Guard against divide-by-zero when samples == 0 (enforced upstream by
+        // ScanParameters.init but defensive here too).
+        val divisor = samples.coerceAtLeast(1)
         return SensorRead(
-            angle = angleSum / samples,
-            current = currentSum / samples,
-            valid = validReads == samples,
+            angle = angleSum / divisor,
+            current = currentSum / divisor,
+            valid = samples > 0 && validReads == samples,
         )
     }
 

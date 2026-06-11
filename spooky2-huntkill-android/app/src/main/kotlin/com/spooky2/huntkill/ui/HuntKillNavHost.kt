@@ -65,9 +65,12 @@ fun HuntKillNavHost(navController: NavHostController = rememberNavController()) 
     val snackbarHostState = remember { SnackbarHostState() }
     val scope          = rememberCoroutineScope()
 
+    // No back arrow on LIVE: terminal phases (Error/Cancelled/Done/Hits) auto-navigate
+    // away, and an arrow while running would bypass the stop-confirm dialog.
     val backAction: (() -> Unit)? = when (currentRoute) {
         Routes.HUNT             -> { { navController.popBackStack(Routes.CONNECT, inclusive = false) } }
         Routes.HITS             -> { { navController.popBackStack(Routes.HUNT, inclusive = false) } }
+        Routes.LOG              -> { { navController.popBackStack() } }
         Routes.HISTORY, Routes.HISTORY_DETAIL -> { { navController.popBackStack() } }
         else -> null
     }
@@ -169,6 +172,7 @@ fun HuntKillNavHost(navController: NavHostController = rememberNavController()) 
                             popUpTo(Routes.LIVE) { inclusive = true }
                         }
                     },
+                    onError = { navController.popBackStack(Routes.HUNT, inclusive = false) },
                 )
             }
             composable(Routes.HITS) {
@@ -222,6 +226,7 @@ fun HuntKillNavHost(navController: NavHostController = rememberNavController()) 
                 HistoryDetailScreen(
                     runId     = runId,
                     viewModel = historyViewModel,
+                    onBack    = { navController.popBackStack() },
                     onReRun   = { run ->
                         val started = huntViewModel.startKillFromFrequencies(
                             freqs          = run.hits.map { it.frequency },

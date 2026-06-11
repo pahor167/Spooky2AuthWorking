@@ -31,10 +31,6 @@ class PauseGate {
         _isPaused.value = false
     }
 
-    fun toggle() {
-        _isPaused.value = !_isPaused.value
-    }
-
     /** Suspends while paused; returns immediately once resumed (or if never paused). */
     suspend fun awaitResumed() {
         if (!_isPaused.value) return

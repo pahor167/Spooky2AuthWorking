@@ -281,6 +281,47 @@ class HuntViewModel @Inject constructor(
 
     init {
         refreshGeneratorInfo()
+        observeUsbDetach()
+    }
+
+    /**
+     * Collect USB device-detach events from [UsbConnectionManager]. On detach of the
+     * active device: cancel the running hunt job, mark the session dead, and transition
+     * to Error. We do NOT attempt zeroOutput over the dead transport — the USB link is
+     * gone so it would time out. The safety-stop path is kept intact for live cancels
+     * where the transport is still open.
+     */
+    private fun observeUsbDetach() {
+        val manager = usbConnectionManager ?: return
+        viewModelScope.launch {
+            manager.deviceDetached.collect {
+                // Guard the handler so one failure can't kill this collector — it must
+                // keep observing detach events for the whole ViewModel lifetime.
+                try {
+                    log.w(TAG, "USB device detached — aborting hunt")
+                    pauseGate.resume()
+                    stopElapsedTicker()
+                    huntJob?.cancel()
+                    huntJob = null
+                    // Mark the session dead so subsequent startHunt blocks on "not connected".
+                    sessionHolder.clear()
+                    _state.update {
+                        it.copy(
+                            phase = HuntPhase.Error,
+                            statusText = "Generator unplugged",
+                            errorMessage = "Generator unplugged",
+                            isPaused = false,
+                            rescanInProgress = false,
+                            busyAction = null,
+                        )
+                    }
+                } catch (e: kotlinx.coroutines.CancellationException) {
+                    throw e
+                } catch (e: Exception) {
+                    log.e(TAG, "Detach handling failed: ${e.message}")
+                }
+            }
+        }
     }
 
     /** Pull connection info from the current session into [HuntUiState.generator]. */
@@ -406,6 +447,7 @@ class HuntViewModel @Inject constructor(
                 killTotal = 0,
                 killDwellRemainingSeconds = 0,
                 isPaused = false,
+                rescanInProgress = false,
                 elapsedSeconds = 0,
                 estimatedRemainingSeconds = 0,
                 errorMessage = null,
@@ -1006,13 +1048,16 @@ class HuntViewModel @Inject constructor(
     /** Cancel the running scan coroutine and run the safety-stop path. */
     fun cancel() {
         log.w(TAG, "Cancel requested — running safety stop")
-        val session = sessionHolder.current()
         pauseGate.resume()
         stopElapsedTicker()
         huntJob?.cancel()
         huntJob = null
         _state.update { it.copy(busyAction = "Cancelling…") }
         viewModelScope.launch {
+            // Capture the session INSIDE the coroutine so a concurrent generator switch
+            // cannot race us: we zero the session that is current at cancellation time,
+            // not the one that was current when cancel() was first called.
+            val session = sessionHolder.current()
             session?.let { safetyStopInternal(it) }
             _state.update {
                 it.copy(
@@ -1020,6 +1065,7 @@ class HuntViewModel @Inject constructor(
                     statusText = "Cancelled — generator zeroed",
                     killDwellRemainingSeconds = 0,
                     isPaused = false,
+                    rescanInProgress = false,
                     busyAction = null,
                 )
             }

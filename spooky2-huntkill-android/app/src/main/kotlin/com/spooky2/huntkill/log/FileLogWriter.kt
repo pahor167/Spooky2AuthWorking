@@ -5,9 +5,9 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import java.io.BufferedWriter
 import java.io.File
 import java.io.FileWriter
-import java.text.SimpleDateFormat
-import java.util.Date
-import java.util.Locale
+import java.time.Instant
+import java.time.ZoneId
+import java.time.format.DateTimeFormatter
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
@@ -52,15 +52,20 @@ class FileLogWriter @Inject constructor(
 
     /** Format identical to [LogBus]; the file history reuses the on-screen line shape. */
     fun append(timestampMs: Long, level: Char, tag: String, message: String) {
-        val line = "${timeFormat.format(Date(timestampMs))} $level/$tag: $message"
         executor.execute {
             runCatching {
+                val line = "${timeFormat.format(Instant.ofEpochMilli(timestampMs))} $level/$tag: $message"
                 rolloverIfNeeded(timestampMs)
                 writer?.apply {
                     write(line)
                     newLine()
+                    // FIX 3: flush immediately after error or warn lines so those are never lost.
+                    if (level == 'e' || level == 'w') {
+                        flush()
+                        sinceFlush = 0
+                    }
                 }
-                if (++sinceFlush >= FLUSH_EVERY_LINES) {
+                if (level != 'e' && level != 'w' && ++sinceFlush >= FLUSH_EVERY_LINES) {
                     writer?.flush()
                     sinceFlush = 0
                 }
@@ -84,7 +89,7 @@ class FileLogWriter @Inject constructor(
      * executor thread and blocks the caller until the zip is written.
      */
     fun exportZip(): File {
-        val target = File(cacheDir, "logs-export-${fileStampFormat.format(Date())}.zip")
+        val target = File(cacheDir, "logs-export-${fileStampFormat.format(Instant.now())}.zip")
         val task = executor.submit<File> {
             writer?.flush()
             sinceFlush = 0
@@ -103,7 +108,7 @@ class FileLogWriter @Inject constructor(
     }
 
     private fun rolloverIfNeeded(timestampMs: Long) {
-        val day = dayFormat.format(Date(timestampMs))
+        val day = dayFormat.format(Instant.ofEpochMilli(timestampMs))
         if (day == currentDay && writer != null) return
 
         runCatching { writer?.flush() }
@@ -120,12 +125,34 @@ class FileLogWriter @Inject constructor(
         val cutoff = System.currentTimeMillis() - TimeUnit.DAYS.toMillis(RETENTION_DAYS.toLong())
         logsDir.listFiles()?.forEach { file ->
             val day = file.name.removePrefix(FILE_PREFIX).removeSuffix(FILE_SUFFIX)
-            val dayMs = runCatching { dayFormat.parse(day)?.time }.getOrNull()
+            val dayMs = runCatching {
+                dayFormat.parse(day, java.time.temporal.TemporalQueries.localDate())
+                    ?.atStartOfDay(ZoneId.systemDefault())?.toInstant()?.toEpochMilli()
+            }.getOrNull()
             // Compare by parsed day so a stale system clock doesn't delete by mtime alone.
             if (dayMs != null && dayMs < cutoff) {
                 runCatching { file.delete() }
             }
         }
+    }
+
+    /**
+     * Flush pending lines and close the underlying writer. Shuts down the executor so
+     * all queued tasks complete first (up to 5 s). Safe to call multiple times.
+     *
+     * NOTE: Do NOT wire this to `Application.onTerminate` — Android does not guarantee
+     * that callback is ever invoked. Prefer calling it from an explicit lifecycle boundary
+     * (e.g. a WorkManager finish callback or a test tear-down) where deterministic flushing
+     * is needed.
+     */
+    fun close() {
+        executor.execute {
+            runCatching { writer?.flush() }
+            runCatching { writer?.close() }
+            writer = null
+        }
+        executor.shutdown()
+        executor.awaitTermination(5, TimeUnit.SECONDS)
     }
 
     companion object {
@@ -136,8 +163,14 @@ class FileLogWriter @Inject constructor(
         private const val FILE_PREFIX = "huntkill-"
         private const val FILE_SUFFIX = ".log"
 
-        private val timeFormat = SimpleDateFormat("HH:mm:ss.SSS", Locale.US)
-        private val dayFormat = SimpleDateFormat("yyyy-MM-dd", Locale.US)
-        private val fileStampFormat = SimpleDateFormat("yyyy-MM-dd-HHmmss", Locale.US)
+        // DateTimeFormatter is immutable and thread-safe (unlike SimpleDateFormat).
+        // Device-local zone so log lines match the wall clock the user sees during a run
+        // and daily files roll at local midnight (same behavior as the old SimpleDateFormat).
+        private val timeFormat: DateTimeFormatter =
+            DateTimeFormatter.ofPattern("HH:mm:ss.SSS").withZone(ZoneId.systemDefault())
+        private val dayFormat: DateTimeFormatter =
+            DateTimeFormatter.ofPattern("yyyy-MM-dd").withZone(ZoneId.systemDefault())
+        private val fileStampFormat: DateTimeFormatter =
+            DateTimeFormatter.ofPattern("yyyy-MM-dd-HHmmss").withZone(ZoneId.systemDefault())
     }
 }

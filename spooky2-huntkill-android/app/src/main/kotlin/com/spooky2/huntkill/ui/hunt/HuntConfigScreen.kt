@@ -67,31 +67,43 @@ fun HuntConfigScreen(
 
         // Section header: small, uppercase, letter-spaced
         Text("SCAN RANGE", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        val startVal = params.startFrequencyText.toDoubleOrNull()
+        val endVal   = params.endFrequencyText.toDoubleOrNull()
         NumberField(
-            "Start frequency (Hz)",
-            params.startFrequencyText,
-            "Scan range 41 kHz – 1.8 MHz",
-            viewModel::updateStartFrequency,
+            label    = "Start frequency (Hz)",
+            value    = params.startFrequencyText,
+            helper   = "Scan range 41 kHz – 1.8 MHz",
+            onChange = viewModel::updateStartFrequency,
+            isError  = params.startFrequencyText.isNotEmpty() &&
+                (startVal == null || startVal <= 0),
         )
         NumberField(
-            "End frequency (Hz)",
-            params.endFrequencyText,
-            "Upper bound of the resonance sweep",
-            viewModel::updateEndFrequency,
+            label    = "End frequency (Hz)",
+            value    = params.endFrequencyText,
+            helper   = "Upper bound of the resonance sweep",
+            onChange = viewModel::updateEndFrequency,
+            isError  = params.endFrequencyText.isNotEmpty() &&
+                (endVal == null || endVal <= 0 || (startVal != null && endVal <= startVal)),
         )
 
         Text("TREATMENT", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        val dwellVal = params.dwellSecondsText.toDoubleOrNull()
+        val ampVal   = params.targetAmplitudeCvText.toIntOrNull()
         NumberField(
-            "Kill dwell (seconds)",
-            params.dwellSecondsText,
-            "Time spent treating each found frequency",
-            viewModel::updateDwellSeconds,
+            label    = "Kill dwell (seconds)",
+            value    = params.dwellSecondsText,
+            helper   = "Time spent treating each found frequency",
+            onChange = viewModel::updateDwellSeconds,
+            isError  = params.dwellSecondsText.isNotEmpty() &&
+                (dwellVal == null || dwellVal < 0),
         )
         NumberField(
-            "Target amplitude (cV)",
-            params.targetAmplitudeCvText,
-            "Output amplitude in centivolts (2000 = 20.00 V)",
-            viewModel::updateTargetAmplitude,
+            label    = "Target amplitude (cV)",
+            value    = params.targetAmplitudeCvText,
+            helper   = "Output amplitude in centivolts (2000 = 20.00 V)",
+            onChange = viewModel::updateTargetAmplitude,
+            isError  = params.targetAmplitudeCvText.isNotEmpty() &&
+                (ampVal == null || ampVal <= 0),
         )
 
         (state.errorMessage ?: validationError)?.let {
@@ -203,13 +215,19 @@ private fun GeneratorSection(
 }
 
 @Composable
-private fun NumberField(label: String, value: String, helper: String, onChange: (String) -> Unit) {
+private fun NumberField(
+    label: String,
+    value: String,
+    helper: String,
+    onChange: (String) -> Unit,
+    isError: Boolean = value.isNotEmpty() && value.toDoubleOrNull() == null,
+) {
     OutlinedTextField(
         value = value,
         onValueChange = onChange,
         label = { Text(label, style = MaterialTheme.typography.bodySmall) },
         supportingText = { Text(helper, style = MaterialTheme.typography.bodySmall) },
-        isError = value.isNotEmpty() && value.toDoubleOrNull() == null,
+        isError = isError,
         singleLine = true,
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
         textStyle = MonoNumberSmall,

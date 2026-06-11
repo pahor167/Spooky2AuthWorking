@@ -121,4 +121,8 @@ data class ScanParameters(
      * is surfaced (the sweep keeps going, values flagged).
      */
     val dropoutUnstableReadThreshold: Int = 5,
-)
+) {
+    init {
+        require(samplesPerStep > 0) { "samplesPerStep must be > 0, got $samplesPerStep" }
+    }
+}

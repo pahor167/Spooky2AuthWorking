@@ -1,11 +1,14 @@
 package com.spooky2.huntkill.ui.hunt
 
+import com.spooky2.huntkill.core.scan.ScanEngine
 import com.spooky2.huntkill.data.DemoDumpLoader
+import com.spooky2.huntkill.data.GeneratorSession
 import com.spooky2.huntkill.data.GeneratorSessionFactory
 import com.spooky2.huntkill.data.PlainTextDumpParser
 import com.spooky2.huntkill.data.SessionHolder
 import com.spooky2.huntkill.data.TransportFactory
 import com.spooky2.huntkill.log.LogBus
+import com.spooky2.huntkill.transport.GeneratorClient
 import com.spooky2.huntkill.transport.SerialTransport
 import com.spooky2.huntkill.transport.fake.FakeTransport
 import kotlinx.coroutines.Dispatchers
@@ -16,6 +19,7 @@ import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.setMain
 import org.junit.After
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
@@ -102,6 +106,73 @@ class HuntViewModelCancelTest {
         assertTrue("amplitude CV2 -> 0 (:w29=0,) sent", sent.contains(":w29=0,"))
         assertTrue("stop output 1 (:w610) sent", sent.contains(":w610"))
         assertTrue("stop output 2 (:w620) sent", sent.contains(":w620"))
+    }
+
+    /**
+     * Regression test for FIX 2: cancel() while a re-scan is in progress must reset
+     * [HuntUiState.rescanInProgress] to false, so the spinner does not stay stuck.
+     *
+     * Simulates the stuck-spinner scenario by directly setting [rescanInProgress] to
+     * true (via rescanAffectedSegments pre-conditions) then cancelling and asserting
+     * the flag is cleared in the Cancelled state.
+     */
+    @Test
+    fun `cancel during rescan resets rescanInProgress flag`() = runBlocking {
+        // Build a ViewModel with rescanInProgress=true injected via a forced state update.
+        // We bypass the full re-scan machinery: all we care about is that cancel() clears
+        // the flag regardless of what set it.
+        val transport = object : SerialTransport {
+            override val isOpen: Boolean = true
+            override suspend fun open(baudRate: Int) = Unit
+            override suspend fun close() = Unit
+            override suspend fun write(bytes: ByteArray) = Unit
+            override suspend fun readLine(timeoutMs: Long): String? {
+                delay(Long.MAX_VALUE)
+                return null
+            }
+        }
+        val client = GeneratorClient(transport = transport)
+        runBlocking { transport.open(GeneratorClient.BAUD_GENERATORX) }
+        val session = GeneratorSession(
+            baudRate = GeneratorClient.BAUD_GENERATORX,
+            generatorType = GeneratorClient.GENERATOR_TYPE_GENERATORX,
+            authToken = null,
+            transport = transport,
+            client = client,
+            engine = ScanEngine(client),
+            isDemo = true,
+        )
+        val holder = SessionHolder()
+        holder.set(session)
+        val viewModel = HuntViewModel(holder, LogBus())
+        viewModel.updateDwellSeconds("0")
+
+        // Start a hunt so there is an active job; the hanging transport keeps it running.
+        viewModel.startHunt()
+        awaitSweepInProgress(viewModel)
+
+        // Patch rescanInProgress to true to simulate cancel-during-rescan scenario.
+        // We reach into the ViewModel via its public state by directly calling the
+        // internal rescan path pre-condition (rescanInProgress is set by rescanAffectedSegments).
+        // Since we can't directly set state, we rely on cancel() clearing it from any truthy value.
+        // Use reflection to force the state — matching how unit tests verify internal flag invariants.
+        val stateField = viewModel.javaClass.getDeclaredField("_state")
+        stateField.isAccessible = true
+        @Suppress("UNCHECKED_CAST")
+        val mutableState = stateField.get(viewModel)
+            as kotlinx.coroutines.flow.MutableStateFlow<HuntUiState>
+        mutableState.value = mutableState.value.copy(rescanInProgress = true)
+
+        assertTrue("rescanInProgress should be true before cancel", viewModel.state.value.rescanInProgress)
+
+        viewModel.cancel()
+        awaitPhase(viewModel, HuntPhase.Cancelled)
+
+        assertFalse(
+            "rescanInProgress must be false after cancel — spinner must not stay stuck",
+            viewModel.state.value.rescanInProgress,
+        )
+        assertEquals(HuntPhase.Cancelled, viewModel.state.value.phase)
     }
 
     // Suspending polls (delay, not Thread.sleep) so the runBlocking event loop keeps
