@@ -76,50 +76,67 @@ fun HitsScreen(
         modifier = Modifier.fillMaxSize().padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text(
-            if (hasDropouts) "Review needed" else "Hunt complete",
-            style = MaterialTheme.typography.headlineSmall,
-        )
-        Text(
-            "${state.hits.size} hits · treated for ~$totalMinutes min total",
-            style = MaterialTheme.typography.bodyMedium,
-        )
-
-        if (hasDropouts) {
-            DropoutWarningCard(
-                state = state,
-                onRescan = viewModel::rescanAffectedSegments,
-                onContinueAnyway = viewModel::continueAnyway,
-            )
-        }
-
-        // Compact end-of-scan view of the scrollable graph with the FINAL hit markers,
-        // so the user can review where each hit landed and tap one for its matches.
-        if (state.fullHistory.isNotEmpty()) {
-            Text("Scan graph", style = MaterialTheme.typography.titleSmall)
-            ScrollableReadingGraph(
-                readings = state.fullHistory,
-                valid = state.historyValid,
-                markers = state.graphMarkers,
-                onMarkerTap = { selectedMarker = it },
-                modifier = Modifier.fillMaxWidth().height(120.dp),
-            )
-        }
-
-        if (state.hits.isEmpty()) {
-            Text("No resonant frequencies were detected this run.")
-        } else {
-            ToleranceSelector(
-                selected = state.lookupTolerancePercent,
-                busy = state.lookupBusy,
-                onSelect = viewModel::setLookupTolerance,
-            )
-        }
-
+        // Header block (title, summary, dropout card, graph, tolerance) plus the hit
+        // rows all live in ONE scrollable LazyColumn so the list gets real height
+        // instead of being crushed. The action buttons + disclaimer stay PINNED below.
         LazyColumn(
             modifier = Modifier.fillMaxWidth().weight(1f),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
+            item {
+                Text(
+                    if (hasDropouts) "Review needed" else "Hunt complete",
+                    style = MaterialTheme.typography.headlineSmall,
+                )
+            }
+            item {
+                Text(
+                    "${state.hits.size} hits · treated for ~$totalMinutes min total",
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+            }
+
+            if (hasDropouts) {
+                item {
+                    DropoutWarningCard(
+                        state = state,
+                        onRescan = viewModel::rescanAffectedSegments,
+                        onContinueAnyway = viewModel::continueAnyway,
+                    )
+                }
+            }
+
+            // Compact end-of-scan view of the scrollable graph with the FINAL hit markers,
+            // so the user can review where each hit landed and tap one for its matches.
+            if (state.fullHistory.isNotEmpty()) {
+                item {
+                    Text("Scan graph", style = MaterialTheme.typography.titleSmall)
+                }
+                item {
+                    ScrollableReadingGraph(
+                        readings = state.fullHistory,
+                        valid = state.historyValid,
+                        markers = state.graphMarkers,
+                        onMarkerTap = { selectedMarker = it },
+                        modifier = Modifier.fillMaxWidth().height(120.dp),
+                    )
+                }
+            }
+
+            if (state.hits.isEmpty()) {
+                item {
+                    Text("No resonant frequencies were detected this run.")
+                }
+            } else {
+                item {
+                    ToleranceSelector(
+                        selected = state.lookupTolerancePercent,
+                        busy = state.lookupBusy,
+                        onSelect = viewModel::setLookupTolerance,
+                    )
+                }
+            }
+
             itemsIndexed(state.hits) { index, hit ->
                 val matches = state.lookupResults[hit.frequency]
                 Card(

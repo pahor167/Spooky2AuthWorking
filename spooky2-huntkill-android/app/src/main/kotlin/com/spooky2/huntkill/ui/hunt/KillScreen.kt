@@ -21,6 +21,7 @@ import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -74,77 +75,102 @@ fun KillScreen(
     // freezes it automatically — no local timer that keeps ticking while paused.
     val remaining = state.killDwellRemainingSeconds
 
+    val expanded = remember { mutableStateMapOf<Double, Boolean>() }
+
+    // Tapping a hit row opens the reverse-lookup sheet for that frequency, mirroring
+    // the graph marker behaviour on the results screen.
+    var selectedMarker by remember { mutableStateOf<GraphMarker?>(null) }
+    selectedMarker?.let { marker ->
+        MarkerDetailSheet(
+            marker = marker,
+            viewModel = viewModel,
+            onDismiss = { selectedMarker = null },
+        )
+    }
+
+    // The kill phase is active while the run is Killing; the per-hit "Treat now"
+    // button is only meaningful then.
+    val isKilling = state.phase == HuntPhase.Killing
+
     Column(
         modifier = Modifier.fillMaxSize().padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text("Kill Phase", style = MaterialTheme.typography.headlineSmall)
-        PhaseChip(state.phase, state.isPaused)
-        if (state.busyAction != null) {
-            LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
-        }
-        Text(
-            state.statusText,
-            style = MaterialTheme.typography.bodyMedium,
-            maxLines = 1,
-            softWrap = false,
-            overflow = TextOverflow.Ellipsis,
-        )
-        Text("Elapsed: ${formatElapsed(state.elapsedSeconds)}", style = MaterialTheme.typography.bodyMedium)
-
-        Card(modifier = Modifier.fillMaxWidth()) {
-            Column(Modifier.padding(16.dp)) {
-                Text(
-                    "Treating ${state.killIndex} of ${state.killTotal}",
-                    style = MaterialTheme.typography.titleMedium,
-                    maxLines = 1,
-                    softWrap = false,
-                    overflow = TextOverflow.Ellipsis,
-                )
-                Text(
-                    state.currentFrequency.asHz(),
-                    maxLines = 1,
-                    softWrap = false,
-                    overflow = TextOverflow.Ellipsis,
-                )
-                Spacer(Modifier.height(8.dp))
-                Text("Dwell remaining: ${remaining}s", style = MaterialTheme.typography.titleLarge)
-            }
-        }
-
-        LinearProgressIndicator(
-            progress = { (state.percentComplete / 100.0).toFloat().coerceIn(0f, 1f) },
-            modifier = Modifier.fillMaxWidth(),
-        )
-
-        // Detected hits being treated. The frequency currently killing (1-based
-        // killIndex) is highlighted so the user sees the chosen frequencies.
-        // Reverse-lookup matches (computed at sweep end) are shown under each hit.
-        Text("Hits (${state.hits.size})", style = MaterialTheme.typography.titleSmall)
-        if (state.hits.isNotEmpty()) {
-            ToleranceSelector(
-                selected = state.lookupTolerancePercent,
-                busy = state.lookupBusy,
-                onSelect = viewModel::setLookupTolerance,
-            )
-        }
-        val expanded = remember { mutableStateMapOf<Double, Boolean>() }
-
-        // Tapping a hit row opens the reverse-lookup sheet for that frequency, mirroring
-        // the graph marker behaviour on the results screen.
-        var selectedMarker by remember { mutableStateOf<GraphMarker?>(null) }
-        selectedMarker?.let { marker ->
-            MarkerDetailSheet(
-                marker = marker,
-                viewModel = viewModel,
-                onDismiss = { selectedMarker = null },
-            )
-        }
-
+        // The header block + hits list live in ONE scrollable LazyColumn so the list
+        // gets real, usable height (instead of being crushed between fixed elements).
+        // The Pause / Stop buttons + disclaimer stay PINNED below, outside the scroll.
         LazyColumn(
             modifier = Modifier.fillMaxWidth().weight(1f),
-            verticalArrangement = Arrangement.spacedBy(6.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
+            item {
+                Text("Kill Phase", style = MaterialTheme.typography.headlineSmall)
+            }
+            item { PhaseChip(state.phase, state.isPaused) }
+            if (state.busyAction != null) {
+                item { LinearProgressIndicator(modifier = Modifier.fillMaxWidth()) }
+            }
+            item {
+                Text(
+                    state.statusText,
+                    style = MaterialTheme.typography.bodyMedium,
+                    maxLines = 1,
+                    softWrap = false,
+                    overflow = TextOverflow.Ellipsis,
+                )
+            }
+            item {
+                Text(
+                    "Elapsed: ${formatElapsed(state.elapsedSeconds)}",
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+            }
+
+            item {
+                Card(modifier = Modifier.fillMaxWidth()) {
+                    Column(Modifier.padding(16.dp)) {
+                        Text(
+                            "Treating ${state.killIndex} of ${state.killTotal}",
+                            style = MaterialTheme.typography.titleMedium,
+                            maxLines = 1,
+                            softWrap = false,
+                            overflow = TextOverflow.Ellipsis,
+                        )
+                        Text(
+                            state.currentFrequency.asHz(),
+                            maxLines = 1,
+                            softWrap = false,
+                            overflow = TextOverflow.Ellipsis,
+                        )
+                        Spacer(Modifier.height(8.dp))
+                        Text("Dwell remaining: ${remaining}s", style = MaterialTheme.typography.titleLarge)
+                    }
+                }
+            }
+
+            item {
+                LinearProgressIndicator(
+                    progress = { (state.percentComplete / 100.0).toFloat().coerceIn(0f, 1f) },
+                    modifier = Modifier.fillMaxWidth(),
+                )
+            }
+
+            // Detected hits being treated. The frequency currently killing (1-based
+            // killIndex) is highlighted so the user sees the chosen frequencies.
+            // Reverse-lookup matches (computed at sweep end) are shown under each hit.
+            item {
+                Text("Hits (${state.hits.size})", style = MaterialTheme.typography.titleSmall)
+            }
+            if (state.hits.isNotEmpty()) {
+                item {
+                    ToleranceSelector(
+                        selected = state.lookupTolerancePercent,
+                        busy = state.lookupBusy,
+                        onSelect = viewModel::setLookupTolerance,
+                    )
+                }
+            }
+
             itemsIndexed(state.hits) { index, hit ->
                 val isCurrent = index == state.killIndex - 1
                 Card(
@@ -167,14 +193,38 @@ fun KillScreen(
                     },
                 ) {
                     Column(Modifier.padding(10.dp)) {
-                        Text(
-                            "${index + 1}. ${hit.frequency.asHz()}",
-                            style = MaterialTheme.typography.titleSmall,
-                            fontWeight = if (isCurrent) FontWeight.Bold else FontWeight.Normal,
-                            maxLines = 1,
-                            softWrap = false,
-                            overflow = TextOverflow.Ellipsis,
-                        )
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        ) {
+                            Text(
+                                "${index + 1}. ${hit.frequency.asHz()}",
+                                style = MaterialTheme.typography.titleSmall,
+                                fontWeight = if (isCurrent) FontWeight.Bold else FontWeight.Normal,
+                                maxLines = 1,
+                                softWrap = false,
+                                overflow = TextOverflow.Ellipsis,
+                                modifier = Modifier.weight(1f),
+                            )
+                            // "Treat now": jump the kill straight to this frequency and
+                            // continue from it. Only during the Kill phase, and hidden for
+                            // the row currently being treated (killIndex is 1-based).
+                            if (isKilling && !isCurrent) {
+                                TextButton(
+                                    onClick = { viewModel.jumpToHit(index) },
+                                    contentPadding = androidx.compose.foundation.layout.PaddingValues(
+                                        horizontal = 8.dp,
+                                        vertical = 0.dp,
+                                    ),
+                                ) {
+                                    Text(
+                                        "Treat now",
+                                        style = MaterialTheme.typography.labelMedium,
+                                        maxLines = 1,
+                                    )
+                                }
+                            }
+                        }
                         Text(
                             "Deviation: ${"%.2f".format(hit.deviation)}",
                             style = MaterialTheme.typography.bodySmall,
@@ -193,7 +243,6 @@ fun KillScreen(
             }
         }
 
-        Spacer(Modifier.height(8.dp))
         val isBusy = state.busyAction != null
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             Button(

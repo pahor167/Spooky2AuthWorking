@@ -10,6 +10,7 @@ import com.spooky2.huntkill.core.model.ScanOutcome
 import com.spooky2.huntkill.core.model.ScanParameters
 import com.spooky2.huntkill.core.model.ScanProgress
 import com.spooky2.huntkill.core.model.ScanResult
+import com.spooky2.huntkill.core.scan.KillControl
 import com.spooky2.huntkill.core.scan.PauseGate
 import com.spooky2.huntkill.data.FrequencyDatabaseSource
 import com.spooky2.huntkill.data.GeneratorSession
@@ -320,6 +321,9 @@ class HuntViewModel @Inject constructor(
     /** Cooperative pause for the running scan; shared between this VM and the engine. */
     private val pauseGate = PauseGate()
 
+    /** Cooperative jump control for the kill phase; shared between this VM and the engine. */
+    private val killControl = KillControl()
+
     fun updateStartFrequency(v: String) = updateParams { it.copy(startFrequencyText = v) }
     fun updateEndFrequency(v: String) = updateParams { it.copy(endFrequencyText = v) }
     fun updateDwellSeconds(v: String) = updateParams { it.copy(dwellSecondsText = v) }
@@ -528,6 +532,7 @@ class HuntViewModel @Inject constructor(
                 { progress -> onProgress(progress, parameters) },
                 pauseGate,
                 cycle,
+                killControl,
             )
         }
         session.engine.finishHuntAndKill(parameters)
@@ -794,6 +799,19 @@ class HuntViewModel @Inject constructor(
         if (nowPaused) pauseGate.pause() else pauseGate.resume()
         log.i(TAG, if (nowPaused) "Hunt paused (hold)" else "Hunt resumed")
         _state.update { it.copy(isPaused = nowPaused) }
+    }
+
+    /**
+     * "Treat this now": ask the running kill to immediately jump to hit [index]
+     * (0-based) and continue treating from there onward. No-op outside the kill
+     * phase. The engine applies the jump on its next dwell slice (after resuming
+     * if paused); the kill index/countdown then update via engine progress.
+     */
+    fun jumpToHit(index: Int) {
+        if (_state.value.phase != HuntPhase.Killing) return
+        if (index !in _state.value.hits.indices) return
+        log.i(TAG, "Jump to hit $index requested (treat now)")
+        killControl.requestJump(index)
     }
 
     /** 1s ticker: advances elapsedSeconds only while running and not paused. */

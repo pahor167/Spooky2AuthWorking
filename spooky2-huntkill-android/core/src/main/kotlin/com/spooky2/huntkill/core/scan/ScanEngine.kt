@@ -442,6 +442,7 @@ class ScanEngine(private val link: GeneratorLink) {
         onProgress: ((ScanProgress) -> Unit)? = null,
         pauseGate: PauseGate = PauseGate(),
         cycle: Int = 1,
+        killControl: KillControl = KillControl(),
     ) {
         onProgress?.invoke(
             ScanProgress(
@@ -457,15 +458,14 @@ class ScanEngine(private val link: GeneratorLink) {
         val dwellSeconds = parameters.dwellSeconds
         val killFreqs = hits.map { it.frequency }
 
-        if (killFreqs.isNotEmpty()) {
-            link.writeFrequencies(listOf(killFreqs[0]))
-        }
-
         link.start()
 
         var i = 0
         while (i < killFreqs.size && coroutineContext.isActive()) {
-            if (i > 0) link.writeFrequencies(listOf(killFreqs[i]))
+            // Always write the current frequency at the top of the outer loop. A jump
+            // sets i and breaks the dwell loop to restart here, so writing here covers
+            // both the initial step and every jumped-to step uniformly.
+            link.writeFrequencies(listOf(killFreqs[i]))
 
             // Dwell as a loop of ~1s slices so pause + cancellation are checked
             // each second and the countdown stays accurate. While paused the loop
@@ -473,9 +473,21 @@ class ScanEngine(private val link: GeneratorLink) {
             // The do/while shape emits one progress even for a zero dwell so the
             // kill phase is always observable.
             var remainingMs = (dwellSeconds * 1000).toLong()
+            var jumped = false
             do {
                 pauseGate.awaitResumed()
                 coroutineContext.ensureActive()
+
+                // Apply a pending "Treat this now" jump: checked AFTER awaitResumed so
+                // a paused kill applies the jump when resumed (no deadlock). An in-range
+                // target sets i and breaks to restart the outer loop, which writes
+                // killFreqs[j] and dwells fresh; the flow then continues j, j+1, … .
+                val target = killControl.takeJump()
+                if (target != null && target in killFreqs.indices) {
+                    i = target
+                    jumped = true
+                    break
+                }
 
                 val remainingSeconds = ((remainingMs + 999) / 1000).toInt()
                 onProgress?.invoke(
@@ -496,7 +508,8 @@ class ScanEngine(private val link: GeneratorLink) {
                 delay(slice)
                 remainingMs -= slice
             } while (remainingMs > 0 && coroutineContext.isActive())
-            i++
+            // On a jump, i was already set to the target; otherwise advance normally.
+            if (!jumped) i++
         }
 
         link.stop()
