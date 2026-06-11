@@ -122,9 +122,19 @@ fun LiveScanScreen(
         Text("Latest reading (angle): ${"%.1f".format(state.currentReading)}")
         Text("Running average: ${"%.1f".format(state.runningAverage)}")
 
-        Text("Angle readings", style = MaterialTheme.typography.titleSmall)
-        // Marker tapped on the graph -> show its detail sheet (frequency + matches).
+        // Marker tapped on the graph OR a candidate chip -> show its detail sheet
+        // (frequency + reverse-lookup matches). Shared between the panel and the graph.
         var selectedMarker by remember { mutableStateOf<GraphMarker?>(null) }
+
+        // Always-visible summary of the current provisional top-N candidates so the user
+        // can see what's been found without scrolling the 15k-step graph. Updates live as
+        // state.graphMarkers changes; each chip opens the same MarkerDetailSheet.
+        LiveCandidatesPanel(
+            markers = state.graphMarkers,
+            onCandidateTap = { selectedMarker = it },
+        )
+
+        Text("Angle readings", style = MaterialTheme.typography.titleSmall)
         if (state.fullHistory.isNotEmpty()) {
             // Live + post-sweep: horizontally scrollable history with dropout tints and
             // clickable hit-frequency markers (provisional during the sweep, final after).
