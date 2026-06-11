@@ -47,4 +47,25 @@ internal class SlidingWindow(size: Int) {
     }
 
     fun peak(): Double = if (buffer.isEmpty()) 0.0 else buffer.max()
+
+    /**
+     * True when the window's spread is within [toleranceFraction] of its mean, i.e.
+     * `(max − min) ≤ toleranceFraction × mean`. Used by the detection settle warm-up
+     * to detect that the signal has stopped jumping (generator/sensor has settled).
+     * An empty or non-positive-mean window is treated as not settled.
+     */
+    fun isSettled(toleranceFraction: Double): Boolean {
+        if (buffer.isEmpty()) return false
+        var min = Double.MAX_VALUE
+        var max = -Double.MAX_VALUE
+        var sum = 0.0
+        for (value in buffer) {
+            if (value < min) min = value
+            if (value > max) max = value
+            sum += value
+        }
+        val mean = sum / buffer.size
+        if (mean <= 0.0) return false
+        return (max - min) <= toleranceFraction * mean
+    }
 }

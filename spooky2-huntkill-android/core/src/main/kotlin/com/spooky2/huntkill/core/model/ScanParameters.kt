@@ -37,6 +37,20 @@ data class ScanParameters(
     val detectMax: Boolean = true,
     val detectMin: Boolean = false,
     /**
+     * Detection settle warm-up tolerance (fraction of the window mean). Detection does
+     * not score any sweep step until the SMA window has "settled": the window's
+     * (max − min) ≤ [settleToleranceFraction] × windowMean. The first step (≥ [raWindow],
+     * so the window is full) that satisfies this is `warmupStart`; scoring begins there.
+     *
+     * This is a one-time LEADING warm-up: it suppresses a generator/sensor startup
+     * transient (the first few sweep readings sitting at the baseline level before they
+     * JUMP to the settled level) from being selected as a false top hit. It does NOT
+     * re-gate later steps — a real peak legitimately widens the window range. If no
+     * settled window is found within a cap (5 × [raWindow]) the warm-up falls back to
+     * [raWindow] so a genuinely noisy scan is never fully discarded. Default 0.01 (1%).
+     */
+    val settleToleranceFraction: Double = 0.01,
+    /**
      * Use current (mA) sensor for hit detection.
      * Despite the GX Hunt and Kill preset saying BFB_Detect_mA=True,
      * empirical testing against real scan data proves the original uses

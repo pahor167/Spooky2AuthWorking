@@ -34,6 +34,14 @@ public sealed class ScanService : IScanService, IDisposable
     private readonly ConcurrentDictionary<int, CancellationTokenSource> _activeScans = new();
     private readonly ConcurrentDictionary<int, List<ScanResult>> _scanResults = new();
 
+    /// <summary>
+    /// Upper bound (in RA windows) for the detection settle warm-up search. If no
+    /// settled window is found within WarmupCapWindows * RaWindow steps the warm-up
+    /// falls back to RaWindow, so a persistently noisy scan still scores from the first
+    /// full window rather than being fully discarded.
+    /// </summary>
+    private const int WarmupCapWindows = 5;
+
     public ScanService(IGeneratorService generatorService, ILogger<ScanService>? logger = null)
     {
         _generatorService = generatorService;
@@ -646,15 +654,33 @@ public sealed class ScanService : IScanService, IDisposable
         int windowSize = parameters.RaWindow;
         var window = new SlidingWindow(windowSize);
 
-        // Phase 1: Compute SMA and deviation for each step
+        // Phase 1: Compute SMA and deviation for each step.
+        // Settle warm-up: the FIRST scanReadings index at which the SMA window is full
+        // AND "settled" (range <= tolerance * mean). Detection scores no step before
+        // this, so a generator/sensor startup transient (early readings at the baseline
+        // level that then JUMP to the settled level) is never selected as a hit. This
+        // is a one-time LEADING gate — a real peak widens the range later and is NOT
+        // re-gated. Bounded by a cap so a noisy scan still scores from the first full
+        // window. -1 = not yet found.
+        int warmupStart = -1;
+        int warmupCap = WarmupCapWindows * windowSize;
         var steps = new List<(double Freq, double Reading, double Deviation, double Ra)>();
-        foreach (var (freq, reading) in scanReadings)
+        for (int idx = 0; idx < scanReadings.Count; idx++)
         {
+            var (freq, reading) = scanReadings[idx];
             double ra = window.IsFull ? window.SimpleAverage() : 0;
             double deviation = window.IsFull ? reading - ra : 0;
+            // Evaluate settle on the window state BEFORE this reading is added — the
+            // same window the deviation above was computed against.
+            if (warmupStart < 0 && window.IsFull && idx <= warmupCap && window.IsSettled(parameters.SettleToleranceFraction))
+                warmupStart = idx;
             steps.Add((freq, reading, deviation, ra));
             window.Add(reading);
         }
+        // Fallback: no settled window within the cap → start at the first full window
+        // (one RaWindow in) so a noisy scan is never fully discarded.
+        if (warmupStart < 0)
+            warmupStart = Math.Min(windowSize, steps.Count);
 
         // Phase 2 + 3: plateau-aware slope-change extrema passing the threshold.
         // For each candidate, expand the run of equal readings around it. A local
@@ -665,6 +691,10 @@ public sealed class ScanService : IScanService, IDisposable
         int i = 1;
         while (i < steps.Count - 1)
         {
+            // Leading settle warm-up: do not score any step before the window has
+            // settled (suppresses the startup-transient false peak).
+            if (i < warmupStart) { i++; continue; }
+
             double reading = steps[i].Reading;
 
             // Expand the equal-reading run [left..right].
@@ -789,5 +819,27 @@ public sealed class ScanService : IScanService, IDisposable
         }
 
         public double Peak() => _buffer.Count > 0 ? _buffer.Max() : 0;
+
+        /// <summary>
+        /// True when the window's spread is within <paramref name="toleranceFraction"/>
+        /// of its mean, i.e. (max - min) &lt;= toleranceFraction * mean. Used by the
+        /// detection settle warm-up to detect that the signal has stopped jumping
+        /// (the generator/sensor has settled). An empty or non-positive-mean window is
+        /// treated as not settled.
+        /// </summary>
+        public bool IsSettled(double toleranceFraction)
+        {
+            if (_buffer.Count == 0) return false;
+            double min = double.MaxValue, max = double.MinValue, sum = 0;
+            foreach (var value in _buffer)
+            {
+                if (value < min) min = value;
+                if (value > max) max = value;
+                sum += value;
+            }
+            double mean = sum / _buffer.Count;
+            if (mean <= 0) return false;
+            return (max - min) <= toleranceFraction * mean;
+        }
     }
 }

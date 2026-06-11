@@ -34,6 +34,22 @@ class ProvisionalHitTracker(private val parameters: ScanParameters) {
     /** Sentinel [Step.index] for baseline pre-seed entries (neighbors only, never hits). */
     private companion object {
         const val BASELINE_INDEX = -1
+
+        /** Mirror of [ScanEngine] `WARMUP_CAP_WINDOWS` — settle-search cap in RA windows. */
+        const val WARMUP_CAP_WINDOWS = 5
+    }
+
+    /**
+     * Record the settle warm-up for the COMBINED-steps [position] about to be added,
+     * evaluated against the window state BEFORE this reading is added (the same window
+     * the deviation is computed against), exactly as `ScanEngine.detectHits` does.
+     */
+    private fun noteSettle(position: Int) {
+        if (warmupStart < 0 && position <= warmupCap &&
+            window.isFull && window.isSettled(parameters.settleToleranceFraction)
+        ) {
+            warmupStart = position
+        }
     }
 
     /** Per-step record kept for the lagged local-extremum test. */
@@ -53,6 +69,14 @@ class ProvisionalHitTracker(private val parameters: ScanParameters) {
     // Keeping the full list is cheap (one tiny record per step).
     private val steps = ArrayList<Step>()
 
+    // Settle warm-up, mirroring ScanEngine.detectHits: the first COMBINED-steps
+    // position (pre-seed + sweep) at which the SMA window was full AND settled
+    // (range ≤ settleToleranceFraction × mean). No candidate is scored before this,
+    // so a startup transient never surfaces as a provisional hit. -1 = not yet found.
+    // The cap mirrors detectHits' WARMUP_CAP_WINDOWS × raWindow fallback.
+    private var warmupStart = -1
+    private val warmupCap = WARMUP_CAP_WINDOWS * parameters.raWindow
+
     /** Accumulated hits in detection order, mirroring detectHits' greatestHits. */
     private val greatestHits = ArrayList<ProvisionalHit>()
 
@@ -66,6 +90,7 @@ class ProvisionalHitTracker(private val parameters: ScanParameters) {
         for (value in baselineTail) {
             val ra = if (window.isFull) window.simpleAverage() else 0.0
             val deviation = if (window.isFull) value - ra else 0.0
+            noteSettle(steps.size)
             steps.add(Step(BASELINE_INDEX, 0.0, value, deviation, valid = true))
             window.add(value)
         }
@@ -80,6 +105,7 @@ class ProvisionalHitTracker(private val parameters: ScanParameters) {
     fun push(stepIndex: Int, frequency: Double, reading: Double, valid: Boolean) {
         val ra = if (window.isFull) window.simpleAverage() else 0.0
         val deviation = if (window.isFull) reading - ra else 0.0
+        noteSettle(steps.size)
         steps.add(Step(stepIndex, frequency, reading, deviation, valid))
         if (valid) window.add(reading)
 
@@ -124,6 +150,12 @@ class ProvisionalHitTracker(private val parameters: ScanParameters) {
         val prevPos = prevValidPos(left)
         if (prevPos < 0) return
 
+        // Settle warm-up gate: do not score a candidate whose combined-steps position
+        // is before the warm-up start (mirrors detectHits' `i < warmupStart` skip),
+        // suppressing the startup-transient false candidate. Once the cap is passed
+        // with no settled window found, fall back to raWindow like detectHits.
+        if (left < effectiveWarmupStart()) return
+
         val candidate = steps[left]
         val prevReading = steps[prevPos].reading
         val nextReading = steps[lastIdx].reading
@@ -147,6 +179,19 @@ class ProvisionalHitTracker(private val parameters: ScanParameters) {
                 ),
             )
         }
+    }
+
+    /**
+     * Resolved settle warm-up start for the gate. Returns the found settled position,
+     * or — once enough steps have passed the cap with no settled window — the same
+     * `raWindow` fallback `detectHits` uses. While still searching (within the cap and
+     * not yet settled) it returns a large sentinel so no candidate is scored prematurely.
+     */
+    private fun effectiveWarmupStart(): Int {
+        if (warmupStart >= 0) return warmupStart
+        // Mirror detectHits: if the search window (cap) has fully elapsed without a
+        // settled window, fall back to raWindow. steps.size-1 is the latest position.
+        return if (steps.size - 1 > warmupCap) parameters.raWindow else Int.MAX_VALUE
     }
 
     /** Nearest valid step position at or before [pos]-1 (skips flagged dropout steps). */

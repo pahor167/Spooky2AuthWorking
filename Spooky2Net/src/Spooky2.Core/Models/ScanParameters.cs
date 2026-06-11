@@ -30,6 +30,20 @@ public sealed record ScanParameters
     public double MinReadDelaySeconds { get; init; } = 0.07;
     public bool DetectMax { get; init; } = true;
     public bool DetectMin { get; init; }
+    /// <summary>
+    /// Detection settle warm-up tolerance (fraction of the window mean). Detection does
+    /// not score any sweep step until the SMA window has "settled": the window's
+    /// (max - min) &lt;= SettleToleranceFraction * windowMean. The first step (&gt;= RaWindow,
+    /// so the window is full) that satisfies this is warmupStart; scoring begins there.
+    ///
+    /// One-time LEADING warm-up that suppresses a generator/sensor startup transient
+    /// (early sweep readings at the baseline level before they JUMP to the settled
+    /// level) from being selected as a false top hit. It does NOT re-gate later steps —
+    /// a real peak legitimately widens the window range. If no settled window is found
+    /// within a cap (5 * RaWindow) the warm-up falls back to RaWindow so a genuinely
+    /// noisy scan is never fully discarded. Default 0.01 (1%).
+    /// </summary>
+    public double SettleToleranceFraction { get; init; } = 0.01;
     /// <summary>Use current (mA) sensor for hit detection.
     /// Despite the GX Hunt and Kill preset saying BFB_Detect_mA=True,
     /// empirical testing against real scan data proves the original uses

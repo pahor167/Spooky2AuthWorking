@@ -667,6 +667,14 @@ class ScanEngine(private val link: GeneratorLink) {
         const val DEFAULT_RESCAN_BUFFER_STEPS = 50
 
         /**
+         * Upper bound (in RA windows) for the detection settle warm-up search. If no
+         * settled window is found within `WARMUP_CAP_WINDOWS × raWindow` steps the
+         * warm-up falls back to `raWindow`, so a persistently noisy scan still scores
+         * from the first full window rather than being fully discarded.
+         */
+        private const val WARMUP_CAP_WINDOWS = 5
+
+        /**
          * Post-processing hit detection. Faithful port of the ORIGINAL Spooky2
          * detection loop decoded from `Spooky.exe` FUN_008531a0 (Ghidra), shared
          * with the C# `ScanService.DetectHits`:
@@ -712,13 +720,32 @@ class ScanEngine(private val link: GeneratorLink) {
             // at 0 since they will never be scored as hits anyway).
             data class Step(val freq: Double, val reading: Double, val deviation: Double, val ra: Double)
             val steps = ArrayList<Step>(scanReadings.size)
+            // Settle warm-up: the FIRST scanReadings index at which the SMA window is
+            // full AND "settled" (range ≤ tolerance × mean). Detection scores no step
+            // before this, so a generator/sensor startup transient (early readings at
+            // the baseline level that then JUMP to the settled level) is never selected
+            // as a hit. One-time leading gate only — a real peak widens the range later
+            // and is NOT re-gated. Bounded by a cap so a noisy scan still scores from
+            // the first full window. -1 = not yet found.
+            var warmupStart = -1
+            val warmupCap = WARMUP_CAP_WINDOWS * windowSize
             for (i in scanReadings.indices) {
                 val (freq, reading) = scanReadings[i]
                 val ra = if (window.isFull) window.simpleAverage() else 0.0
                 val deviation = if (window.isFull) reading - ra else 0.0
+                // Evaluate settle on the window state BEFORE this reading is added —
+                // the same window the deviation above was computed against.
+                if (warmupStart < 0 && window.isFull && i <= warmupCap &&
+                    window.isSettled(parameters.settleToleranceFraction)
+                ) {
+                    warmupStart = i
+                }
                 steps.add(Step(freq, reading, deviation, ra))
                 if (isValid(i)) window.add(reading)
             }
+            // Fallback: no settled window within the cap → start at the first full
+            // window (one raWindow in) so a noisy scan is never fully discarded.
+            if (warmupStart < 0) warmupStart = windowSize.coerceAtMost(steps.size)
 
             // Nearest valid neighbor on each side (skips flagged dropout steps).
             fun prevValid(i: Int): Int {
@@ -742,6 +769,9 @@ class ScanEngine(private val link: GeneratorLink) {
             var i = 1
             while (i < steps.size - 1) {
                 if (!isValid(i)) { i++; continue }
+                // Leading settle warm-up: do not score any step before the window has
+                // settled (suppresses the startup-transient false peak).
+                if (i < warmupStart) { i++; continue }
 
                 // Expand the equal-reading run [left..right] over VALID steps.
                 val reading = steps[i].reading
