@@ -13,6 +13,7 @@ usbSerial = "3.8.1"
 junit = "4.13.2"
 androidxJunit = "1.2.1"
 mockk = "1.13.13"
+orgJson = "20240303"
 
 [libraries]
 # Core / coroutines
@@ -47,6 +48,10 @@ junit = { module = "junit:junit", version.ref = "junit" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 androidx-junit = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+# Real org.json for JVM unit tests (android.jar ships an org.json STUB that throws
+# "Stub!"); on the unit-test classpath this concrete impl shadows the stub so the
+# RunHistoryRepository serialization round-trips under plain JVM tests.
+org-json = { module = "org.json:json", version.ref = "orgJson" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -11,6 +11,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -19,11 +20,16 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.navArgument
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.spooky2.huntkill.ui.connect.ConnectScreen
+import com.spooky2.huntkill.ui.history.HistoryDetailScreen
+import com.spooky2.huntkill.ui.history.HistoryScreen
+import com.spooky2.huntkill.ui.history.HistoryViewModel
 import com.spooky2.huntkill.ui.hunt.HitsScreen
 import com.spooky2.huntkill.ui.hunt.HuntConfigScreen
 import com.spooky2.huntkill.ui.hunt.HuntViewModel
@@ -41,6 +47,11 @@ object Routes {
     const val HITS = "hits"
     const val KILL = "kill"
     const val LOG = "logs"
+    const val HISTORY = "history"
+    const val HISTORY_DETAIL = "history/{id}"
+
+    /** Build the concrete detail route for a given run id. */
+    fun historyDetail(id: String): String = "history/$id"
 }
 
 @OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
@@ -57,6 +68,7 @@ fun HuntKillNavHost(navController: NavHostController = rememberNavController()) 
     val backAction: (() -> Unit)? = when (currentRoute) {
         Routes.HUNT -> { { navController.popBackStack(Routes.CONNECT, inclusive = false) } }
         Routes.HITS -> { { navController.popBackStack(Routes.HUNT, inclusive = false) } }
+        Routes.HISTORY, Routes.HISTORY_DETAIL -> { { navController.popBackStack() } }
         else -> null
     }
 
@@ -73,8 +85,17 @@ fun HuntKillNavHost(navController: NavHostController = rememberNavController()) 
                     }
                 },
                 actions = {
-                    // Persistent Logs button visible on every flow screen (hidden on the
-                    // Logs screen itself, which has its own back navigation).
+                    // Persistent History + Logs actions, visible on every flow screen
+                    // (hidden on the History/Logs screens themselves, which navigate back).
+                    // History uses a TextButton because Icons.Default.History lives in the
+                    // material-icons-extended artifact, which this app doesn't depend on.
+                    val onHistoryScreens =
+                        currentRoute == Routes.HISTORY || currentRoute == Routes.HISTORY_DETAIL
+                    if (!onHistoryScreens) {
+                        TextButton(onClick = { navController.navigate(Routes.HISTORY) }) {
+                            Text("History")
+                        }
+                    }
                     if (currentRoute != Routes.LOG) {
                         IconButton(onClick = { navController.navigate(Routes.LOG) }) {
                             Icon(Icons.AutoMirrored.Filled.List, contentDescription = "Logs")
@@ -164,6 +185,46 @@ fun HuntKillNavHost(navController: NavHostController = rememberNavController()) 
             }
             composable(Routes.LOG) {
                 LogScreen(onBack = { navController.popBackStack() })
+            }
+            composable(Routes.HISTORY) {
+                val historyViewModel = hiltViewModel<HistoryViewModel>()
+                HistoryScreen(
+                    viewModel = historyViewModel,
+                    onOpenRun = { id -> navController.navigate(Routes.historyDetail(id)) },
+                )
+            }
+            composable(
+                Routes.HISTORY_DETAIL,
+                arguments = listOf(navArgument("id") { type = NavType.StringType }),
+            ) { entry ->
+                val runId = entry.arguments?.getString("id").orEmpty()
+                val historyViewModel = hiltViewModel<HistoryViewModel>()
+                // Re-run drives the SHARED hunt ViewModel (the same instance the Kill
+                // screen reads) so the existing kill coroutine + Kill UI take over.
+                val huntViewModel = sharedHuntViewModel(navController)
+                HistoryDetailScreen(
+                    runId = runId,
+                    viewModel = historyViewModel,
+                    onReRun = { run ->
+                        val started = huntViewModel.startKillFromFrequencies(
+                            freqs = run.hits.map { it.frequency },
+                            dwellSeconds = run.dwellSeconds,
+                            amplitudeCv = run.targetAmplitudeCv,
+                            deviations = run.hits.map { it.deviation },
+                        )
+                        if (started) {
+                            navController.navigate(Routes.KILL)
+                        } else {
+                            // Not connected (or no frequencies): route to Connect with a hint.
+                            scope.launch {
+                                snackbarHostState.showMessage("Connect a generator first")
+                            }
+                            navController.navigate(Routes.CONNECT) {
+                                popUpTo(Routes.GRAPH) { inclusive = false }
+                            }
+                        }
+                    },
+                )
             }
         }
     }

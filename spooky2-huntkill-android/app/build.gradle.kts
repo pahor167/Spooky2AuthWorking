@@ -71,5 +71,8 @@ dependencies {
     testImplementation(libs.junit)
     testImplementation(libs.kotlinx.coroutines.test)
     testImplementation(libs.mockk)
+    // Real org.json on the unit-test classpath (shadows the android.jar "Stub!" impl)
+    // so RunHistoryRepository's JSON persistence is exercised in JVM tests.
+    testImplementation(libs.org.json)
     androidTestImplementation(libs.androidx.junit)
 }

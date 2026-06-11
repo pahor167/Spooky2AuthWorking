@@ -14,6 +14,9 @@ import com.spooky2.huntkill.core.scan.KillControl
 import com.spooky2.huntkill.core.scan.PauseGate
 import com.spooky2.huntkill.data.FrequencyDatabaseSource
 import com.spooky2.huntkill.data.GeneratorSession
+import com.spooky2.huntkill.data.RunHistoryRepository
+import com.spooky2.huntkill.data.RunHit
+import com.spooky2.huntkill.data.RunRecord
 import com.spooky2.huntkill.data.SessionHolder
 import com.spooky2.huntkill.data.UsbConnectionManager
 import com.spooky2.huntkill.log.LogBus
@@ -228,6 +231,9 @@ class HuntViewModel @Inject constructor(
     // Optional for the same reason: reverse lookup loads a bundled Android asset, so JVM
     // tests pass null (or an in-memory fake) and the post-hunt lookup adapts accordingly.
     private val frequencyDatabase: FrequencyDatabaseSource? = null,
+    // Optional so JVM ViewModel tests can construct with just (holder, log); when present
+    // every completed hunt's final frequencies are persisted as a RunRecord.
+    private val runHistory: RunHistoryRepository? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(HuntUiState())
@@ -244,6 +250,16 @@ class HuntViewModel @Inject constructor(
 
     /** Parameters of the in-flight/just-finished hunt; reused by the re-scan flow. */
     private var activeParameters: ScanParameters? = null
+
+    /**
+     * True while the current Kill is treating frequencies loaded from a saved run
+     * (Re-run from History) rather than a fresh hunt. Re-runs are NOT persisted again —
+     * they treat already-saved frequencies, so saving would just duplicate the record.
+     */
+    private var fromReRun: Boolean = false
+
+    /** Guards against double-persisting the same hunt (publishSweepOutcome can re-run). */
+    private var savedThisRun: Boolean = false
 
     /** Last sweep outcome (readings + validity + segments); spliced by a re-scan. */
     private var lastOutcome: ScanOutcome? = null
@@ -346,6 +362,9 @@ class HuntViewModel @Inject constructor(
 
         pauseGate.resume()
         liveHistory.clear()
+        // A fresh hunt: its hits ARE persisted (not a History re-run), once.
+        fromReRun = false
+        savedThisRun = false
         _state.update {
             it.copy(
                 phase = HuntPhase.Hunting,
@@ -466,6 +485,38 @@ class HuntViewModel @Inject constructor(
         // screen and dropout-warning screen can already show matches during treatment.
         if (outcome.hits.isNotEmpty()) {
             runReverseLookup(outcome.hits, _state.value.lookupTolerancePercent)
+        }
+        // Persist the run the MOMENT final hits are known — before the kill starts — so a
+        // later cancel never loses the found frequencies. Re-runs and empty-hit sweeps are
+        // not saved; the savedThisRun guard makes this idempotent across re-scan merges.
+        persistRunIfNeeded(outcome.hits)
+    }
+
+    /**
+     * Save the completed hunt's final frequencies as a [RunRecord]. No-op when there are
+     * no hits, when the frequencies came from a History re-run, when no repository is
+     * wired (JVM tests), or when this run was already saved.
+     */
+    private fun persistRunIfNeeded(hits: List<ScanResult>) {
+        if (hits.isEmpty() || fromReRun || savedThisRun) return
+        val repository = runHistory ?: return
+        savedThisRun = true
+        val params = activeParameters
+        val generatorLabel = _state.value.generator?.activeLabel()
+        val record = RunRecord(
+            id = "",
+            timestampMs = System.currentTimeMillis(),
+            generatorLabel = generatorLabel,
+            startFrequency = params?.startFrequency ?: 0.0,
+            endFrequency = params?.endFrequency ?: 0.0,
+            dwellSeconds = params?.dwellSeconds ?: 0.0,
+            targetAmplitudeCv = params?.targetAmplitudeCv ?: 0,
+            hits = hits.map { RunHit(frequency = it.frequency, deviation = it.deviation) },
+        )
+        viewModelScope.launch {
+            runCatching { repository.save(record) }
+                .onSuccess { saved -> log.i(TAG, "Saved run ${saved.id}: ${saved.hits.size} frequencies") }
+                .onFailure { error -> log.e(TAG, "Failed to save run: ${error.message}") }
         }
     }
 
@@ -589,6 +640,92 @@ class HuntViewModel @Inject constructor(
                     }
                 }
         }
+    }
+
+    /**
+     * Re-run a treatment from a saved run's frequencies (History → "Re-run treatment").
+     * Treats [freqs] again via the KILL phase only — no new hunt — on the currently
+     * connected generator, driving the same Kill screen (progress, jump, reverse lookup,
+     * zero-on-cancel) as a fresh hunt. The synthesized hits carry the saved [deviations]
+     * (aligned by index, 0.0 when absent) and a zero reading; only their frequency is
+     * treated. Requires a connected session — returns false (no state change) otherwise.
+     *
+     * Re-runs are intentionally NOT persisted again (they treat already-saved
+     * frequencies), so [fromReRun] is set to suppress the save trigger.
+     */
+    fun startKillFromFrequencies(
+        freqs: List<Double>,
+        dwellSeconds: Double,
+        amplitudeCv: Int,
+        deviations: List<Double> = emptyList(),
+    ): Boolean {
+        if (huntJob?.isActive == true) return false
+        if (freqs.isEmpty()) return false
+        val session = sessionHolder.current() ?: run {
+            log.e(TAG, "Re-run blocked: not connected")
+            return false
+        }
+
+        val parameters = ScanParameters(
+            startFrequency = freqs.min(),
+            endFrequency = freqs.max(),
+            dwellSeconds = dwellSeconds,
+            targetAmplitudeCv = amplitudeCv,
+            continueRefining = false,
+        )
+        val hits = freqs.mapIndexed { index, freq ->
+            ScanResult(
+                frequency = freq,
+                reading = 0.0,
+                runningAverage = 0.0,
+                deviation = deviations.getOrElse(index) { 0.0 },
+                hitCount = 1,
+            )
+        }
+
+        log.i(TAG, "Re-run: treating ${hits.size} saved frequencies (dwell=${dwellSeconds}s, ampCv=$amplitudeCv)")
+        activeParameters = parameters
+        lastOutcome = null
+        // Re-run: do NOT persist these frequencies again.
+        fromReRun = true
+        savedThisRun = true
+        pauseGate.resume()
+        _state.update {
+            it.copy(
+                phase = HuntPhase.Killing,
+                statusText = "Re-running ${hits.size} frequencies…",
+                hits = hits,
+                graphMarkers = emptyList(),
+                fullHistory = FloatArray(0),
+                historyValid = BooleanArray(0),
+                dropoutSegments = emptyList(),
+                killIndex = 0,
+                killTotal = hits.size,
+                killDwellRemainingSeconds = 0,
+                isPaused = false,
+                elapsedSeconds = 0,
+                estimatedRemainingSeconds = 0,
+                errorMessage = null,
+                lookupResults = emptyMap(),
+                busyAction = null,
+            )
+        }
+        // Surface reverse-lookup matches for the re-run frequencies too.
+        runReverseLookup(hits, _state.value.lookupTolerancePercent)
+        startElapsedTicker()
+        huntJob = viewModelScope.launch(Dispatchers.Default) {
+            runCatching { proceedToKill(session, parameters, hits, cycle = 1) }
+                .onFailure { error ->
+                    if (error is kotlinx.coroutines.CancellationException) throw error
+                    log.e(TAG, "Re-run kill failed: ${error.message}")
+                    stopElapsedTicker()
+                    safetyStopInternal(session)
+                    _state.update {
+                        it.copy(phase = HuntPhase.Error, errorMessage = error.message ?: "Re-run failed", busyAction = null)
+                    }
+                }
+        }
+        return true
     }
 
     /**
