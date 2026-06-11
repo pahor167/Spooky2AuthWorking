@@ -1,7 +1,9 @@
 package com.spooky2.huntkill.ui.history
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -9,8 +11,11 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -24,17 +29,15 @@ import com.spooky2.huntkill.core.lookup.LookupMatch
 import com.spooky2.huntkill.data.RunHit
 import com.spooky2.huntkill.data.RunRecord
 import com.spooky2.huntkill.ui.common.asHz
+import com.spooky2.huntkill.ui.theme.MonoNumberSmall
+import com.spooky2.huntkill.ui.theme.SLOutline
+import com.spooky2.huntkill.ui.theme.SLPrimary
+import com.spooky2.huntkill.ui.theme.SectionLabel
 
-/** Per-frequency matches shown before the list is truncated. */
 private const val DETAIL_MATCHES_SHOWN = 5
 
 /**
- * Detail view for one saved run: its metadata (date, generator, params), the list of
- * saved frequencies (formatted, with deviation and reverse-lookup matches), and a
- * prominent "Re-run treatment" button.
- *
- * [onReRun] is given the run's frequencies + dwell + amplitude; the host decides whether
- * to drive the Kill screen (connected) or route to Connect (not connected).
+ * Detail view for one saved run: metadata, frequencies, Re-run button.
  */
 @Composable
 fun HistoryDetailScreen(
@@ -47,8 +50,10 @@ fun HistoryDetailScreen(
 
     val run = state.selected
     Column(
-        modifier = Modifier.fillMaxSize().padding(24.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp),
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(horizontal = 16.dp, vertical = 16.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         if (run == null || run.id != runId) {
             Text("Run not found.", style = MaterialTheme.typography.bodyMedium)
@@ -56,37 +61,44 @@ fun HistoryDetailScreen(
         }
 
         LazyColumn(
-            modifier = Modifier.fillMaxWidth().weight(1f),
-            verticalArrangement = Arrangement.spacedBy(12.dp),
+            modifier            = Modifier.fillMaxWidth().weight(1f),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             item {
                 Text(
                     formatRunTimestamp(run.timestampMs),
-                    style = MaterialTheme.typography.headlineSmall,
+                    style = MonoNumberSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
             item { MetadataCard(run) }
             item {
                 Text(
-                    "Frequencies (${run.hits.size})",
-                    style = MaterialTheme.typography.titleSmall,
+                    "FREQUENCIES (${run.hits.size})",
+                    style = SectionLabel,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
             itemsIndexed(run.hits) { index, hit ->
                 FrequencyRow(
-                    index = index,
-                    hit = hit,
+                    index   = index,
+                    hit     = hit,
                     matches = state.lookupResults[hit.frequency],
-                    busy = state.lookupBusy,
+                    busy    = state.lookupBusy,
                 )
             }
         }
 
-        Spacer(Modifier.height(8.dp))
+        Spacer(Modifier.height(4.dp))
         Button(
-            onClick = { onReRun(run) },
+            onClick  = { onReRun(run) },
             modifier = Modifier.fillMaxWidth(),
-            enabled = run.hits.isNotEmpty(),
+            enabled  = run.hits.isNotEmpty(),
+            shape    = RoundedCornerShape(8.dp),
+            colors   = ButtonDefaults.buttonColors(
+                containerColor = SLPrimary,
+                contentColor   = MaterialTheme.colorScheme.onPrimary,
+            ),
         ) {
             Text("Re-run treatment", maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
@@ -95,12 +107,34 @@ fun HistoryDetailScreen(
 
 @Composable
 private fun MetadataCard(run: RunRecord) {
-    Card(modifier = Modifier.fillMaxWidth()) {
+    Card(
+        modifier  = Modifier.fillMaxWidth(),
+        shape     = RoundedCornerShape(12.dp),
+        colors    = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+        border    = BorderStroke(1.dp, SLOutline),
+        elevation = CardDefaults.cardElevation(0.dp),
+    ) {
         Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-            Text("Generator: ${run.generatorLabel ?: "Unknown"}")
-            Text("Sweep: ${run.startFrequency.asHz()} – ${run.endFrequency.asHz()}")
-            Text("Dwell: ${"%.0f".format(run.dwellSeconds)} s per frequency")
-            Text("Amplitude: ${run.targetAmplitudeCv} CV")
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text("GENERATOR", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text(run.generatorLabel ?: "Unknown", style = MonoNumberSmall, color = MaterialTheme.colorScheme.onSurface)
+            }
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text("SWEEP", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text(
+                    "${run.startFrequency.asHz()} – ${run.endFrequency.asHz()}",
+                    style = MonoNumberSmall,
+                    color = MaterialTheme.colorScheme.onSurface,
+                )
+            }
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text("DWELL", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text("${"%.0f".format(run.dwellSeconds)} s", style = MonoNumberSmall, color = MaterialTheme.colorScheme.onSurface)
+            }
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text("AMP", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text("${run.targetAmplitudeCv} CV", style = MonoNumberSmall, color = MaterialTheme.colorScheme.onSurface)
+            }
         }
     }
 }
@@ -112,23 +146,33 @@ private fun FrequencyRow(
     matches: List<LookupMatch>?,
     busy: Boolean,
 ) {
-    Card(modifier = Modifier.fillMaxWidth()) {
-        Column(Modifier.padding(12.dp)) {
+    Card(
+        modifier  = Modifier.fillMaxWidth(),
+        shape     = RoundedCornerShape(10.dp),
+        colors    = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+        border    = BorderStroke(1.dp, SLOutline),
+        elevation = CardDefaults.cardElevation(0.dp),
+    ) {
+        Column(Modifier.padding(10.dp)) {
             Text(
                 "${index + 1}. ${hit.frequency.asHz()}",
-                style = MaterialTheme.typography.titleMedium,
+                style    = MonoNumberSmall,
+                color    = SLPrimary,
                 maxLines = 1,
                 softWrap = false,
                 overflow = TextOverflow.Ellipsis,
             )
-            Text("Deviation: ${"%.2f".format(hit.deviation)}")
-            Spacer(Modifier.height(6.dp))
+            Text(
+                "dev ${"%.2f".format(hit.deviation)}",
+                style = MonoNumberSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Spacer(Modifier.height(4.dp))
             DetailMatches(matches, busy)
         }
     }
 }
 
-/** Reverse-lookup matches for a saved frequency: loading / no-matches / top-N list. */
 @Composable
 private fun DetailMatches(matches: List<LookupMatch>?, busy: Boolean) {
     when {
@@ -149,7 +193,7 @@ private fun DetailMatches(matches: List<LookupMatch>?, busy: Boolean) {
             if (matches.size > DETAIL_MATCHES_SHOWN) {
                 Text(
                     "+${matches.size - DETAIL_MATCHES_SHOWN} more",
-                    style = MaterialTheme.typography.labelMedium,
+                    style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }

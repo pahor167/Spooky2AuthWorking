@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Standard Google Fonts provider certificates for downloadable fonts.
+  The Compose GoogleFont.Provider requires an R.array containing the provider's
+  SHA-256 fingerprints. This file provides that array for both the debug and
+  production Play Services packages.
+
+  Source: https://developers.google.com/fonts/docs/android
+-->
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+
+    <!-- Debug / sideloaded GMS fingerprint -->
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYD
+            VQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FudGEgTW9u
+            aWNhMREwDwYDVQQKEwhBbmRyb2lkMRAwDgYDVQQLEwdBbmRyb2lkMRAwDgYDVQQD
+            EwdBbmRyb2lkMSEwHwYJKoZIhvcNAQkBFhJhbmRyb2lkQGFuZHJvaWQuY29t
+        </item>
+    </string-array>
+
+    <!-- Production GMS fingerprint -->
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHMxCzAJBgNV
+            BAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBW
+            aWV3MREwDwYDVQQKEwhBbmRyb2lkMREwDwYDVQQLEwhBbmRyb2lkMREwDwYDVQQD
+            EwhBbmRyb2lkMB4XDTA4MDkxODIwMjYzN1oXDTM2MDExMDIwMjYzN1owczELMAkG
+            A1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWlu
+            IFZpZXcxETAPBgNVBAoTCEFuZHJvaWQxETAPBgNVBAsTCEFuZHJvaWQxETAPBgNV
+            BAMTCEF
+        </item>
+    </string-array>
+</resources>

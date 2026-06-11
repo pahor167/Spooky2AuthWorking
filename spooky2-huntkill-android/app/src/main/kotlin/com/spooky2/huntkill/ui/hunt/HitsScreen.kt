@@ -1,8 +1,10 @@
 package com.spooky2.huntkill.ui.hunt
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -12,7 +14,9 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
@@ -35,6 +39,10 @@ import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.core.lookup.LookupMatch
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
 import com.spooky2.huntkill.ui.common.asHz
+import com.spooky2.huntkill.ui.theme.MonoNumberSmall
+import com.spooky2.huntkill.ui.theme.SLError
+import com.spooky2.huntkill.ui.theme.SLPrimary
+import com.spooky2.huntkill.ui.theme.SectionLabel
 import kotlin.math.roundToInt
 
 /** Matches shown per hit before the "show all" expander appears. */
@@ -49,39 +57,27 @@ fun HitsScreen(
 ) {
     val state by viewModel.state.collectAsState()
 
-    // Re-scan / Continue-anyway transition the run into the kill phase; hand off to
-    // the Kill screen the moment that happens.
     LaunchedEffect(state.phase) {
         if (state.phase == HuntPhase.Killing) onKilling()
     }
-    val dwellSeconds = state.params.dwellSecondsText.toDoubleOrNull() ?: 0.0
-    val totalMinutes = (state.hits.size * dwellSeconds / 60.0).roundToInt()
-    val hasDropouts = state.phase == HuntPhase.HitsReadyWithDropouts
-
-    // Per-hit "show all matches" toggle, keyed by hit frequency. Local UI state only.
-    val expanded = remember { mutableStateMapOf<Double, Boolean>() }
-
-    // Shared detail sheet: opened either by tapping a graph marker OR a hit row. A single
-    // piece of state keeps only one sheet up at a time.
+    val dwellSeconds  = state.params.dwellSecondsText.toDoubleOrNull() ?: 0.0
+    val totalMinutes  = (state.hits.size * dwellSeconds / 60.0).roundToInt()
+    val hasDropouts   = state.phase == HuntPhase.HitsReadyWithDropouts
+    val expanded      = remember { mutableStateMapOf<Double, Boolean>() }
     var selectedMarker by remember { mutableStateOf<GraphMarker?>(null) }
     selectedMarker?.let { marker ->
-        MarkerDetailSheet(
-            marker = marker,
-            viewModel = viewModel,
-            onDismiss = { selectedMarker = null },
-        )
+        MarkerDetailSheet(marker = marker, viewModel = viewModel, onDismiss = { selectedMarker = null })
     }
 
     Column(
-        modifier = Modifier.fillMaxSize().padding(24.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp),
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(horizontal = 16.dp, vertical = 16.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-        // Header block (title, summary, dropout card, graph, tolerance) plus the hit
-        // rows all live in ONE scrollable LazyColumn so the list gets real height
-        // instead of being crushed. The action buttons + disclaimer stay PINNED below.
         LazyColumn(
-            modifier = Modifier.fillMaxWidth().weight(1f),
-            verticalArrangement = Arrangement.spacedBy(12.dp),
+            modifier            = Modifier.fillMaxWidth().weight(1f),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             item {
                 Text(
@@ -91,84 +87,98 @@ fun HitsScreen(
             }
             item {
                 Text(
-                    "${state.hits.size} hits · treated for ~$totalMinutes min total",
+                    "${state.hits.size} hits · ~$totalMinutes min total",
                     style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
 
             if (hasDropouts) {
                 item {
                     DropoutWarningCard(
-                        state = state,
-                        onRescan = viewModel::rescanAffectedSegments,
+                        state          = state,
+                        onRescan       = viewModel::rescanAffectedSegments,
                         onContinueAnyway = viewModel::continueAnyway,
                     )
                 }
             }
 
-            // Compact end-of-scan view of the scrollable graph with the FINAL hit markers,
-            // so the user can review where each hit landed and tap one for its matches.
+            // Scan graph compact view
             if (state.fullHistory.isNotEmpty()) {
                 item {
-                    Text("Scan graph", style = MaterialTheme.typography.titleSmall)
+                    Text("SCAN GRAPH", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
                 item {
                     ScrollableReadingGraph(
-                        readings = state.fullHistory,
-                        valid = state.historyValid,
-                        markers = state.graphMarkers,
+                        readings    = state.fullHistory,
+                        valid       = state.historyValid,
+                        markers     = state.graphMarkers,
                         onMarkerTap = { selectedMarker = it },
-                        modifier = Modifier.fillMaxWidth().height(120.dp),
+                        modifier    = Modifier.fillMaxWidth().height(110.dp),
                     )
                 }
             }
 
             if (state.hits.isEmpty()) {
-                item {
-                    Text("No resonant frequencies were detected this run.")
-                }
+                item { Text("No resonant frequencies were detected this run.") }
             } else {
                 item {
                     ToleranceSelector(
                         selected = state.lookupTolerancePercent,
-                        busy = state.lookupBusy,
+                        busy     = state.lookupBusy,
                         onSelect = viewModel::setLookupTolerance,
                     )
                 }
             }
 
+            item {
+                Text("CANDIDATES (${state.hits.size})", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+
             itemsIndexed(state.hits) { index, hit ->
                 val matches = state.lookupResults[hit.frequency]
                 Card(
-                    modifier = Modifier
+                    modifier  = Modifier
                         .fillMaxWidth()
-                        // Tapping the row opens the same reverse-lookup sheet as the graph
-                        // dot — the most discoverable way to see a hit's matches.
                         .clickable {
                             selectedMarker = GraphMarker(
                                 stepIndex = Int.MAX_VALUE,
                                 frequency = hit.frequency,
                                 deviation = hit.deviation,
-                                isFinal = true,
+                                isFinal   = true,
                             )
                         },
+                    shape  = RoundedCornerShape(10.dp),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                    border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+                    elevation = CardDefaults.cardElevation(0.dp),
                 ) {
-                    Column(Modifier.padding(12.dp)) {
+                    Column(Modifier.padding(10.dp)) {
                         Text(
                             "${index + 1}. ${hit.frequency.asHz()}",
-                            style = MaterialTheme.typography.titleMedium,
+                            style    = MonoNumberSmall,
+                            color    = SLPrimary,
                             maxLines = 1,
                             softWrap = false,
                             overflow = TextOverflow.Ellipsis,
                         )
-                        Text("Deviation: ${"%.2f".format(hit.deviation)}")
-                        Text("Reading: ${"%.1f".format(hit.reading)}")
-
-                        Spacer(Modifier.height(6.dp))
+                        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                            Text(
+                                "dev ${"%.2f".format(hit.deviation)}",
+                                style = MonoNumberSmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                            Text(
+                                "rdg ${"%.1f".format(hit.reading)}",
+                                style = MonoNumberSmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                        }
+                        Spacer(Modifier.height(4.dp))
                         MatchList(
-                            matches = matches,
-                            busy = state.lookupBusy,
-                            isExpanded = expanded[hit.frequency] == true,
+                            matches          = matches,
+                            busy             = state.lookupBusy,
+                            isExpanded       = expanded[hit.frequency] == true,
                             onToggleExpanded = {
                                 expanded[hit.frequency] = !(expanded[hit.frequency] ?: false)
                             },
@@ -178,49 +188,55 @@ fun HitsScreen(
             }
         }
 
-        Spacer(Modifier.height(8.dp))
-        // While dropouts are pending the user must resolve them via the warning card
-        // (Re-scan / Continue anyway); the run-again / disconnect controls return
-        // once the run has truly completed.
+        Spacer(Modifier.height(4.dp))
         if (!hasDropouts) {
             val isBusy = state.busyAction != null
-            Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Row(
+                modifier              = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
                 Button(
-                    onClick = onRunAgain,
-                    enabled = !isBusy,
+                    onClick  = onRunAgain,
+                    enabled  = !isBusy,
                     modifier = Modifier.weight(1f),
+                    shape    = RoundedCornerShape(8.dp),
+                    colors   = ButtonDefaults.buttonColors(
+                        containerColor = SLPrimary,
+                        contentColor   = MaterialTheme.colorScheme.onPrimary,
+                    ),
                 ) {
                     Text("Run again", maxLines = 1, overflow = TextOverflow.Ellipsis)
                 }
                 OutlinedButton(
-                    onClick = {
-                        viewModel.disconnect()
-                        onDisconnect()
-                    },
-                    enabled = !isBusy,
+                    onClick  = { viewModel.disconnect(); onDisconnect() },
+                    enabled  = !isBusy,
                     modifier = Modifier.weight(1f),
+                    shape    = RoundedCornerShape(8.dp),
+                    colors   = ButtonDefaults.outlinedButtonColors(
+                        contentColor = MaterialTheme.colorScheme.onSurface,
+                    ),
+                    border   = BorderStroke(1.dp, MaterialTheme.colorScheme.outline),
                 ) {
                     if (isBusy) {
                         CircularProgressIndicator(
-                            modifier = Modifier.size(16.dp),
+                            modifier    = Modifier.size(14.dp),
                             strokeWidth = 2.dp,
+                            color       = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
-                        Spacer(Modifier.size(8.dp))
+                        Spacer(Modifier.size(6.dp))
                     }
                     Text("Disconnect", maxLines = 1, overflow = TextOverflow.Ellipsis)
                 }
             }
         }
 
-        Spacer(Modifier.height(8.dp))
+        Spacer(Modifier.height(2.dp))
         DisclaimerBanner()
     }
 }
 
 /**
- * Warning card shown when the sweep detected cable dropouts. Summarizes how many
- * segments were affected (and the rough share of the sweep), surfaces any prior
- * re-scan error, and offers "Re-scan affected segments" vs "Continue anyway".
+ * Warning card shown when the sweep detected cable dropouts.
  */
 @Composable
 private fun DropoutWarningCard(
@@ -229,19 +245,20 @@ private fun DropoutWarningCard(
     onContinueAnyway: () -> Unit,
 ) {
     val totalSteps = state.totalSweepSteps.takeIf { it > 0 } ?: state.historyValid.size
-    val flagged = state.historyValid.count { !it }
-    val pct = if (totalSteps > 0) flagged * 100.0 / totalSteps else 0.0
-    val busy = state.rescanInProgress
+    val flagged    = state.historyValid.count { !it }
+    val pct        = if (totalSteps > 0) flagged * 100.0 / totalSteps else 0.0
+    val busy       = state.rescanInProgress
 
     Card(
-        modifier = Modifier.fillMaxWidth(),
-        colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.errorContainer,
-        ),
+        modifier  = Modifier.fillMaxWidth(),
+        shape     = RoundedCornerShape(12.dp),
+        colors    = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.errorContainer),
+        border    = BorderStroke(1.dp, SLError.copy(alpha = 0.4f)),
+        elevation = CardDefaults.cardElevation(0.dp),
     ) {
-        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Text(
-                "Connection dropped during ${state.dropoutSegments.size} segment(s) " +
+                "Connection dropped — ${state.dropoutSegments.size} segment(s) " +
                     "(~${"%.0f".format(pct)}% of sweep)",
                 style = MaterialTheme.typography.titleSmall,
                 color = MaterialTheme.colorScheme.onErrorContainer,
@@ -254,32 +271,40 @@ private fun DropoutWarningCard(
                 color = MaterialTheme.colorScheme.onErrorContainer,
             )
             state.errorMessage?.let { msg ->
-                Text(
-                    msg,
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.error,
-                )
+                Text(msg, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error)
             }
             Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(12.dp),
+                modifier              = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
             ) {
                 Button(
-                    onClick = onRescan,
-                    enabled = !busy,
+                    onClick  = onRescan,
+                    enabled  = !busy,
                     modifier = Modifier.weight(1f),
+                    shape    = RoundedCornerShape(8.dp),
+                    colors   = ButtonDefaults.buttonColors(
+                        containerColor = SLError,
+                        contentColor   = MaterialTheme.colorScheme.onError,
+                    ),
                 ) {
                     if (busy) {
-                        CircularProgressIndicator(modifier = Modifier.size(16.dp), strokeWidth = 2.dp)
-                        Spacer(Modifier.size(8.dp))
+                        CircularProgressIndicator(
+                            modifier    = Modifier.size(14.dp),
+                            strokeWidth = 2.dp,
+                            color       = MaterialTheme.colorScheme.onError,
+                        )
+                        Spacer(Modifier.size(6.dp))
                     }
-                    Text("Re-scan affected segments", maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    Text("Re-scan affected", maxLines = 1, overflow = TextOverflow.Ellipsis)
                 }
             }
             OutlinedButton(
-                onClick = onContinueAnyway,
-                enabled = !busy,
+                onClick  = onContinueAnyway,
+                enabled  = !busy,
                 modifier = Modifier.fillMaxWidth(),
+                shape    = RoundedCornerShape(8.dp),
+                colors   = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onErrorContainer),
+                border   = BorderStroke(1.dp, MaterialTheme.colorScheme.onErrorContainer.copy(alpha = 0.4f)),
             ) {
                 Text("Continue anyway", maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
@@ -287,7 +312,7 @@ private fun DropoutWarningCard(
     }
 }
 
-/** Tolerance preset chips (0.1 / 0.25 / 0.5 / 1.0 %) that re-run the lookup on tap. */
+/** Tolerance preset chips: 0.1 / 0.25 / 0.5 / 1.0 % */
 @Composable
 internal fun ToleranceSelector(
     selected: Double,
@@ -296,34 +321,29 @@ internal fun ToleranceSelector(
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
         Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            modifier              = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(6.dp),
         ) {
-            Text(
-                "Match tolerance",
-                style = MaterialTheme.typography.labelLarge,
-            )
+            Text("TOLERANCE", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
             if (busy) {
-                CircularProgressIndicator(
-                    modifier = Modifier.size(14.dp),
-                    strokeWidth = 2.dp,
-                )
+                CircularProgressIndicator(modifier = Modifier.size(12.dp), strokeWidth = 2.dp, color = SLPrimary)
             }
         }
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
             LOOKUP_TOLERANCE_OPTIONS.forEach { option ->
                 FilterChip(
                     selected = option == selected,
-                    onClick = { onSelect(option) },
-                    enabled = !busy,
-                    label = { Text(formatPercent(option)) },
+                    onClick  = { onSelect(option) },
+                    enabled  = !busy,
+                    label    = { Text(formatPercent(option), style = MaterialTheme.typography.labelSmall) },
+                    shape    = RoundedCornerShape(6.dp),
                 )
             }
         }
     }
 }
 
-/** Per-hit reverse-lookup matches with a collapse/"show all" expander. */
+/** Per-hit reverse-lookup matches with collapse/"show all" expander. */
 @Composable
 internal fun MatchList(
     matches: List<LookupMatch>?,
@@ -350,15 +370,13 @@ internal fun MatchList(
             val shown = if (isExpanded) matches else matches.take(COLLAPSED_MATCHES)
             Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
                 shown.forEach { match ->
-                    Text(
-                        match.toReportLine(),
-                        style = MaterialTheme.typography.bodySmall,
-                    )
+                    Text(match.toReportLine(), style = MaterialTheme.typography.bodySmall)
                 }
                 if (matches.size > COLLAPSED_MATCHES) {
                     TextButton(
-                        onClick = onToggleExpanded,
-                        contentPadding = androidx.compose.foundation.layout.PaddingValues(0.dp),
+                        onClick        = onToggleExpanded,
+                        contentPadding = PaddingValues(0.dp),
+                        colors         = ButtonDefaults.textButtonColors(contentColor = SLPrimary),
                     ) {
                         Text(
                             if (isExpanded) "show less" else "show all (${matches.size})",

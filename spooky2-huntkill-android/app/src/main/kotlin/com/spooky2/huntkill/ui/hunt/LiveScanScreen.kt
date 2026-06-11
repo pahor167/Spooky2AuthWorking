@@ -12,10 +12,12 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.AssistChipDefaults
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
@@ -35,6 +37,12 @@ import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
 import com.spooky2.huntkill.ui.common.asHz
 import com.spooky2.huntkill.ui.common.formatElapsed
+import com.spooky2.huntkill.ui.theme.MonoNumberLarge
+import com.spooky2.huntkill.ui.theme.MonoNumberSmall
+import com.spooky2.huntkill.ui.theme.SLError
+import com.spooky2.huntkill.ui.theme.SLPrimary
+import com.spooky2.huntkill.ui.theme.SLSurface
+import com.spooky2.huntkill.ui.theme.SectionLabel
 
 @Composable
 fun LiveScanScreen(
@@ -46,184 +54,236 @@ fun LiveScanScreen(
 ) {
     val state by viewModel.state.collectAsState()
 
-    // Leaving a running scan must be confirmed: back (or Cancel) first opens a
-    // dialog; only confirming zeroes the generator and returns to config.
     var showStopConfirm by remember { mutableStateOf(false) }
     BackHandler(enabled = state.isRunning) { showStopConfirm = true }
     if (showStopConfirm) {
         ConfirmStopDialog(
-            title = "Stop the scan?",
-            text = "The hunt is still running. Stopping zeroes the generator and discards this sweep.",
+            title        = "Stop the scan?",
+            text         = "The hunt is still running. Stopping zeroes the generator and discards this sweep.",
             confirmLabel = "Stop & zero",
-            onConfirm = {
-                showStopConfirm = false
-                viewModel.cancel()
-            },
-            onDismiss = { showStopConfirm = false },
+            onConfirm    = { showStopConfirm = false; viewModel.cancel() },
+            onDismiss    = { showStopConfirm = false },
         )
     }
 
     LaunchedEffect(state.phase) {
         when (state.phase) {
-            // The engine auto-chains kill after the sweep, so the moment hits are found
-            // and the kill begins we jump straight to the Kill screen — no extra tap.
             HuntPhase.HitsReady, HuntPhase.Killing -> onKilling()
-            // Dropouts detected: stop on the Hits screen so the user can choose to
-            // re-scan the affected segments or continue anyway.
-            HuntPhase.HitsReadyWithDropouts -> onDropouts()
-            // Done with no kill (e.g. zero hits) -> show the post-run summary.
-            HuntPhase.Done -> onDone()
-            HuntPhase.Cancelled -> onCancelled()
-            else -> Unit
+            HuntPhase.HitsReadyWithDropouts        -> onDropouts()
+            HuntPhase.Done                         -> onDone()
+            HuntPhase.Cancelled                    -> onCancelled()
+            else                                   -> Unit
         }
     }
 
-    Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
-      // Scrollable content — so the readings/candidates/graph never push the
-      // Pause/Cancel controls (pinned below) off-screen.
-      Column(
-        modifier = Modifier.weight(1f).fillMaxWidth().verticalScroll(rememberScrollState()),
-        verticalArrangement = Arrangement.spacedBy(12.dp),
-      ) {
-        Text("Live Scan", style = MaterialTheme.typography.headlineSmall)
-        PhaseChip(state.phase, state.isPaused)
-        if (state.busyAction != null) {
-            LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
-        }
+    Column(modifier = Modifier.fillMaxSize().padding(horizontal = 16.dp, vertical = 16.dp)) {
+        // Scrollable readings area
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .fillMaxWidth()
+                .verticalScroll(rememberScrollState()),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            Text("Live Scan", style = MaterialTheme.typography.headlineSmall)
+            PhaseChip(state.phase, state.isPaused)
 
-        Text(
-            state.statusText,
-            style = MaterialTheme.typography.bodyMedium,
-            maxLines = 1,
-            softWrap = false,
-            overflow = TextOverflow.Ellipsis,
-        )
+            if (state.busyAction != null) {
+                LinearProgressIndicator(
+                    modifier = Modifier.fillMaxWidth(),
+                    color    = SLPrimary,
+                )
+            }
 
-        // Bigger frequency readout — the headline number the user watches.
-        Text(state.currentFrequency.asHz(), style = MaterialTheme.typography.headlineMedium)
-
-        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
             Text(
-                "${"%.0f".format(state.percentComplete)}% complete",
-                style = MaterialTheme.typography.bodyMedium,
+                state.statusText,
+                style     = MaterialTheme.typography.bodyMedium,
+                color     = MaterialTheme.colorScheme.onSurfaceVariant,
+                maxLines  = 1,
+                softWrap  = false,
+                overflow  = TextOverflow.Ellipsis,
             )
+
+            // Big frequency readout in Space Mono — the headline number
             Text(
-                if (state.estimatedRemainingSeconds > 0) {
-                    "~${formatElapsed(state.estimatedRemainingSeconds)} left"
-                } else {
-                    "estimating…"
-                },
-                style = MaterialTheme.typography.bodyMedium,
+                state.currentFrequency.asHz(),
+                style = MonoNumberLarge,
+                color = SLPrimary,
             )
-        }
-        Text("Elapsed: ${formatElapsed(state.elapsedSeconds)}", style = MaterialTheme.typography.bodyMedium)
 
-        LinearProgressIndicator(
-            progress = { (state.percentComplete / 100.0).toFloat().coerceIn(0f, 1f) },
-            modifier = Modifier.fillMaxWidth(),
-        )
+            // Progress row
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(16.dp),
+            ) {
+                Text(
+                    "${"%.0f".format(state.percentComplete)}%",
+                    style = MonoNumberSmall,
+                    color = MaterialTheme.colorScheme.onSurface,
+                )
+                Text(
+                    if (state.estimatedRemainingSeconds > 0) {
+                        "~${formatElapsed(state.estimatedRemainingSeconds)} left"
+                    } else {
+                        "estimating…"
+                    },
+                    style = MonoNumberSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                Text(
+                    formatElapsed(state.elapsedSeconds),
+                    style = MonoNumberSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
 
-        Text("Amplitude CV: ${state.amplitudeCv}")
-        Text("Latest reading (angle): ${"%.1f".format(state.currentReading)}")
-        Text("Running average: ${"%.1f".format(state.runningAverage)}")
-
-        // Marker tapped on the graph OR a candidate chip -> show its detail sheet
-        // (frequency + reverse-lookup matches). Shared between the panel and the graph.
-        var selectedMarker by remember { mutableStateOf<GraphMarker?>(null) }
-
-        // Always-visible summary of the current provisional top-N candidates so the user
-        // can see what's been found without scrolling the 15k-step graph. Updates live as
-        // state.graphMarkers changes; each chip opens the same MarkerDetailSheet.
-        LiveCandidatesPanel(
-            markers = state.graphMarkers,
-            onCandidateTap = { selectedMarker = it },
-        )
-
-        Text("Angle readings", style = MaterialTheme.typography.titleSmall)
-        if (state.fullHistory.isNotEmpty()) {
-            // Live + post-sweep: horizontally scrollable history with dropout tints and
-            // clickable hit-frequency markers (provisional during the sweep, final after).
-            ScrollableReadingGraph(
-                readings = state.fullHistory,
-                valid = state.historyValid,
-                markers = state.graphMarkers,
-                onMarkerTap = { selectedMarker = it },
-                modifier = Modifier.fillMaxWidth().height(160.dp),
+            LinearProgressIndicator(
+                progress    = { (state.percentComplete / 100.0).toFloat().coerceIn(0f, 1f) },
+                modifier    = Modifier.fillMaxWidth(),
+                color       = SLPrimary,
+                trackColor  = MaterialTheme.colorScheme.surfaceVariant,
             )
-        } else {
-            // Early tail before any step readings arrive.
-            AngleGraph(
-                readings = state.angleHistory,
-                modifier = Modifier.fillMaxWidth().height(160.dp),
+
+            // Telemetry row — all mono numbers
+            Row(
+                modifier              = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(16.dp),
+            ) {
+                Column {
+                    Text("AMP CV", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Text(state.amplitudeCv.toString(), style = MonoNumberSmall, color = MaterialTheme.colorScheme.onSurface)
+                }
+                Column {
+                    Text("ANGLE", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Text("%.1f".format(state.currentReading), style = MonoNumberSmall, color = MaterialTheme.colorScheme.onSurface)
+                }
+                Column {
+                    Text("AVG", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Text("%.1f".format(state.runningAverage), style = MonoNumberSmall, color = MaterialTheme.colorScheme.onSurface)
+                }
+            }
+
+            // Live candidates panel
+            var selectedMarker by remember { mutableStateOf<GraphMarker?>(null) }
+            LiveCandidatesPanel(
+                markers       = state.graphMarkers,
+                onCandidateTap = { selectedMarker = it },
             )
-        }
-        selectedMarker?.let { marker ->
-            MarkerDetailSheet(
-                marker = marker,
-                viewModel = viewModel,
-                onDismiss = { selectedMarker = null },
-            )
-        }
-      } // end scrollable content
+
+            // Graph section label
+            Text("ANGLE READINGS", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+
+            if (state.fullHistory.isNotEmpty()) {
+                ScrollableReadingGraph(
+                    readings    = state.fullHistory,
+                    valid       = state.historyValid,
+                    markers     = state.graphMarkers,
+                    onMarkerTap = { selectedMarker = it },
+                    modifier    = Modifier.fillMaxWidth().height(150.dp),
+                )
+            } else {
+                AngleGraph(
+                    readings = state.angleHistory,
+                    modifier = Modifier.fillMaxWidth().height(150.dp),
+                )
+            }
+
+            selectedMarker?.let { marker ->
+                MarkerDetailSheet(
+                    marker   = marker,
+                    viewModel = viewModel,
+                    onDismiss = { selectedMarker = null },
+                )
+            }
+        } // end scrollable
 
         Spacer(Modifier.height(8.dp))
+
         val isBusy = state.busyAction != null
-        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Row(
+            modifier              = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
             Button(
-                onClick = viewModel::togglePause,
-                enabled = !isBusy,
+                onClick  = viewModel::togglePause,
+                enabled  = !isBusy,
                 modifier = Modifier.weight(1f),
+                shape    = RoundedCornerShape(8.dp),
+                colors   = ButtonDefaults.buttonColors(
+                    containerColor = SLPrimary,
+                    contentColor   = MaterialTheme.colorScheme.onPrimary,
+                ),
             ) {
-                Text(if (state.isPaused) "Resume" else "Pause", maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(
+                    if (state.isPaused) "Resume" else "Pause",
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                )
             }
             OutlinedButton(
-                onClick = { showStopConfirm = true },
-                enabled = !isBusy,
+                onClick  = { showStopConfirm = true },
+                enabled  = !isBusy,
                 modifier = Modifier.weight(1f),
+                shape    = RoundedCornerShape(8.dp),
+                colors   = ButtonDefaults.outlinedButtonColors(
+                    contentColor = SLError,
+                ),
+                border   = androidx.compose.foundation.BorderStroke(1.dp, SLError.copy(alpha = 0.6f)),
             ) {
                 if (isBusy) {
                     CircularProgressIndicator(
-                        modifier = Modifier.size(16.dp),
+                        modifier    = Modifier.size(14.dp),
                         strokeWidth = 2.dp,
+                        color       = SLError,
                     )
-                    Spacer(Modifier.size(8.dp))
+                    Spacer(Modifier.size(6.dp))
                 }
                 Text("Cancel", maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
         }
 
-        Spacer(Modifier.height(8.dp))
+        Spacer(Modifier.height(4.dp))
         DisclaimerBanner()
     }
 }
 
-/** Colored status chip: Hunting=primary, Killing=error, Paused=tertiary. */
+/** Colored status chip: Hunting=primary/cyan, Killing=error/coral, Paused=tertiary. */
 @Composable
 internal fun PhaseChip(phase: HuntPhase, isPaused: Boolean) {
-    val (label, color) = when {
-        isPaused -> "Paused" to MaterialTheme.colorScheme.tertiaryContainer
-        phase == HuntPhase.Killing -> "Killing" to MaterialTheme.colorScheme.errorContainer
-        phase == HuntPhase.Hunting -> "Hunting" to MaterialTheme.colorScheme.primaryContainer
-        else -> phase.name to MaterialTheme.colorScheme.surfaceVariant
+    val (label, containerColor) = when {
+        isPaused              -> "PAUSED"   to MaterialTheme.colorScheme.tertiaryContainer
+        phase == HuntPhase.Killing  -> "KILLING"  to MaterialTheme.colorScheme.errorContainer
+        phase == HuntPhase.Hunting  -> "HUNTING"  to MaterialTheme.colorScheme.primaryContainer
+        else                        -> phase.name.uppercase() to MaterialTheme.colorScheme.surfaceVariant
     }
     AssistChip(
-        onClick = {},
-        enabled = false,
-        label = { Text(label) },
+        onClick  = {},
+        enabled  = false,
+        label    = {
+            Text(
+                label,
+                style = MaterialTheme.typography.labelMedium,
+            )
+        },
+        shape  = RoundedCornerShape(8.dp),
         colors = AssistChipDefaults.assistChipColors(
-            disabledContainerColor = color,
-            disabledLabelColor = MaterialTheme.colorScheme.onSurface,
+            disabledContainerColor = containerColor,
+            disabledLabelColor     = MaterialTheme.colorScheme.onSurface,
+        ),
+        border = androidx.compose.foundation.BorderStroke(
+            1.dp,
+            MaterialTheme.colorScheme.outlineVariant,
         ),
     )
 }
 
 @Composable
 private fun AngleGraph(readings: List<Double>, modifier: Modifier = Modifier) {
-    val lineColor = MaterialTheme.colorScheme.primary
+    val lineColor = SLPrimary
     Canvas(modifier = modifier) {
         if (readings.size < 2) return@Canvas
-        val minV = readings.min()
-        val maxV = readings.max()
+        val minV  = readings.min()
+        val maxV  = readings.max()
         val range = (maxV - minV).takeIf { it > 0.0 } ?: 1.0
         val stepX = size.width / (readings.size - 1)
 

@@ -1,5 +1,6 @@
 package com.spooky2.huntkill.ui.hunt
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -10,14 +11,17 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.AssistChipDefaults
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.SegmentedButton
 import androidx.compose.material3.SegmentedButtonDefaults
 import androidx.compose.material3.SingleChoiceSegmentedButtonRow
@@ -30,6 +34,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
+import com.spooky2.huntkill.ui.theme.MonoNumberSmall
+import com.spooky2.huntkill.ui.theme.SLOutline
+import com.spooky2.huntkill.ui.theme.SLPrimary
+import com.spooky2.huntkill.ui.theme.SectionLabel
 
 @Composable
 fun HuntConfigScreen(
@@ -41,22 +49,21 @@ fun HuntConfigScreen(
     val validationError = params.validationError()
     val canStart = validationError == null && !state.isSwitchingGenerator && state.busyAction == null
 
-    // Returning to this screen resets a finished/cancelled run so the config isn't
-    // stuck and refreshes the connected-generator chip.
     LaunchedEffect(Unit) { viewModel.prepareForConfig() }
 
     Column(
         modifier = Modifier
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
-            .padding(24.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp),
+            .padding(16.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         Text("Hunt Configuration", style = MaterialTheme.typography.headlineSmall)
 
         state.generator?.let { GeneratorSection(it, state.isSwitchingGenerator, viewModel::switchGenerator) }
 
-        Text("Scan range", style = MaterialTheme.typography.titleSmall)
+        // Section header: small, uppercase, letter-spaced
+        Text("SCAN RANGE", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
         NumberField(
             "Start frequency (Hz)",
             params.startFrequencyText,
@@ -70,11 +77,11 @@ fun HuntConfigScreen(
             viewModel::updateEndFrequency,
         )
 
-        Text("Treatment", style = MaterialTheme.typography.titleSmall)
+        Text("TREATMENT", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
         NumberField(
             "Kill dwell (seconds)",
             params.dwellSecondsText,
-            "Dwell: time spent treating each found frequency",
+            "Time spent treating each found frequency",
             viewModel::updateDwellSeconds,
         )
         NumberField(
@@ -88,7 +95,7 @@ fun HuntConfigScreen(
             Text(it, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall)
         }
 
-        Spacer(Modifier.height(8.dp))
+        Spacer(Modifier.height(4.dp))
         Button(
             onClick = {
                 viewModel.startHunt()
@@ -96,18 +103,26 @@ fun HuntConfigScreen(
             },
             enabled = canStart,
             modifier = Modifier.fillMaxWidth(),
+            shape = RoundedCornerShape(8.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = SLPrimary,
+                contentColor   = MaterialTheme.colorScheme.onPrimary,
+                disabledContainerColor = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.5f),
+                disabledContentColor   = MaterialTheme.colorScheme.onSurfaceVariant,
+            ),
         ) {
             if (state.busyAction != null) {
                 CircularProgressIndicator(
-                    modifier = Modifier.size(16.dp),
+                    modifier  = Modifier.size(14.dp),
                     strokeWidth = 2.dp,
+                    color = MaterialTheme.colorScheme.onPrimary,
                 )
-                Spacer(Modifier.size(8.dp))
+                Spacer(Modifier.size(6.dp))
             }
             Text("Start Hunt", maxLines = 1)
         }
 
-        Spacer(Modifier.height(8.dp))
+        Spacer(Modifier.height(4.dp))
         DisclaimerBanner()
     }
 }
@@ -118,24 +133,30 @@ private fun GeneratorSection(
     isSwitching: Boolean,
     onSwitch: (Int) -> Unit,
 ) {
-    // Active generator label: serial-first (so distinct dual-generator serials read by
-    // S/N rather than "port 1/2"), falling back to "Generator N" / type when unknown.
     val portLabel = generator.activeLabel()
     val portsText = if (generator.portCount != null && generator.portIndex != null) {
         " · port ${generator.portIndex + 1} of ${generator.portCount}"
     } else {
         ""
     }
-    // Append firmware when read (serial is already the chip's leading label when known).
-    // e.g. "S/N 12345 · port 1 of 2 · fw 201 · 115200 baud".
     val infoText = generator.firmwareVersion?.let { " · fw $it" }.orEmpty()
+
+    Text("GENERATOR", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
     AssistChip(
         onClick = {},
         enabled = false,
-        label = { Text("$portLabel$portsText$infoText · ${generator.baudRate} baud") },
+        label = {
+            Text(
+                "$portLabel$portsText$infoText · ${generator.baudRate} baud",
+                style = MonoNumberSmall,
+            )
+        },
+        shape = RoundedCornerShape(8.dp),
         colors = AssistChipDefaults.assistChipColors(
             disabledLabelColor = MaterialTheme.colorScheme.onSurface,
+            disabledContainerColor = MaterialTheme.colorScheme.surfaceVariant,
         ),
+        border = BorderStroke(1.dp, SLOutline),
     )
 
     if (generator.hasMultiplePorts && generator.portCount != null) {
@@ -146,8 +167,6 @@ private fun GeneratorSection(
             SingleChoiceSegmentedButtonRow(modifier = Modifier.weight(1f)) {
                 for (index in 0 until generator.portCount) {
                     val isActive = generator.portIndex == index
-                    // The ACTIVE segment shows its serial when known (the inactive ports'
-                    // serials aren't queried until the user switches to them).
                     val segmentLabel = if (isActive && generator.serialNumber != null) {
                         "S/N ${generator.serialNumber}"
                     } else {
@@ -159,12 +178,17 @@ private fun GeneratorSection(
                         enabled = !isSwitching,
                         shape = SegmentedButtonDefaults.itemShape(index, generator.portCount),
                     ) {
-                        Text(segmentLabel)
+                        Text(segmentLabel, style = MaterialTheme.typography.labelMedium)
                     }
                 }
             }
             if (isSwitching) {
-                CircularProgressIndicator(modifier = Modifier.height(24.dp).padding(start = 4.dp))
+                CircularProgressIndicator(
+                    modifier = Modifier
+                        .height(24.dp)
+                        .padding(start = 4.dp),
+                    color = SLPrimary,
+                )
             }
         }
     }
@@ -175,11 +199,17 @@ private fun NumberField(label: String, value: String, helper: String, onChange: 
     OutlinedTextField(
         value = value,
         onValueChange = onChange,
-        label = { Text(label) },
-        supportingText = { Text(helper) },
+        label = { Text(label, style = MaterialTheme.typography.bodySmall) },
+        supportingText = { Text(helper, style = MaterialTheme.typography.bodySmall) },
         isError = value.isNotEmpty() && value.toDoubleOrNull() == null,
         singleLine = true,
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
+        textStyle = MonoNumberSmall,
         modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(8.dp),
+        colors = OutlinedTextFieldDefaults.colors(
+            unfocusedBorderColor = SLOutline,
+            focusedBorderColor   = SLPrimary,
+        ),
     )
 }

@@ -19,6 +19,7 @@ import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -30,13 +31,14 @@ import androidx.compose.ui.platform.ClipboardManager
 import androidx.compose.ui.platform.LocalClipboardManager
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.AnnotatedString
-import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.ViewModel
 import com.spooky2.huntkill.log.FileLogWriter
 import com.spooky2.huntkill.log.LogBus
 import com.spooky2.huntkill.log.LogEntry
+import com.spooky2.huntkill.ui.theme.MonoNumberSmall
+import com.spooky2.huntkill.ui.theme.SLPrimary
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -47,13 +49,11 @@ import java.util.Date
 import java.util.Locale
 import javax.inject.Inject
 
-/** Thin ViewModel exposing the singleton [LogBus] + persistent [FileLogWriter]. */
 @HiltViewModel
 class LogViewModel @Inject constructor(
     val logBus: LogBus,
     private val fileWriter: FileLogWriter,
 ) : ViewModel() {
-    /** Zip all persisted log files; runs off the main thread. */
     suspend fun exportZip(): File = withContext(Dispatchers.IO) { fileWriter.exportZip() }
 }
 
@@ -63,15 +63,14 @@ fun LogScreen(
     onBack: () -> Unit,
     viewModel: LogViewModel = hiltViewModel(),
 ) {
-    val logBus = viewModel.logBus
-    val entries by logBus.entries.collectAsState()
-    val listState = rememberLazyListState()
+    val logBus           = viewModel.logBus
+    val entries          by logBus.entries.collectAsState()
+    val listState        = rememberLazyListState()
     val clipboard: ClipboardManager = LocalClipboardManager.current
-    val context = LocalContext.current
+    val context          = LocalContext.current
     val snackbarHostState = remember { SnackbarHostState() }
-    val scope = rememberCoroutineScope()
+    val scope            = rememberCoroutineScope()
 
-    // Auto-scroll to the newest entry as logs arrive.
     LaunchedEffect(entries.size) {
         if (entries.isNotEmpty()) listState.scrollToItem(entries.size - 1)
     }
@@ -79,59 +78,83 @@ fun LogScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Logs") },
+                title = {
+                    Text(
+                        "LOGS",
+                        style = MaterialTheme.typography.titleSmall,
+                    )
+                },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
                     }
                 },
                 actions = {
-                    TextButton(onClick = {
-                        clipboard.setText(AnnotatedString(logBus.dump()))
-                        scope.launch { snackbarHostState.showSnackbar("Logs copied") }
-                    }) { Text("Copy") }
-                    TextButton(onClick = {
-                        val send = Intent(Intent.ACTION_SEND).apply {
-                            type = "text/plain"
-                            putExtra(Intent.EXTRA_TEXT, logBus.dump())
-                        }
-                        context.startActivity(Intent.createChooser(send, "Share logs"))
-                    }) { Text("Share") }
-                    TextButton(onClick = {
-                        scope.launch {
-                            runCatching {
-                                logBus.flush()
-                                val zip = viewModel.exportZip()
-                                shareZip(context, zip)
-                            }.onFailure {
-                                snackbarHostState.showSnackbar("Export failed: ${it.message ?: "error"}")
+                    TextButton(
+                        onClick = {
+                            clipboard.setText(AnnotatedString(logBus.dump()))
+                            scope.launch { snackbarHostState.showSnackbar("Logs copied") }
+                        },
+                        contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 8.dp, vertical = 0.dp),
+                    ) { Text("Copy", style = MaterialTheme.typography.labelMedium, color = SLPrimary) }
+                    TextButton(
+                        onClick = {
+                            val send = Intent(Intent.ACTION_SEND).apply {
+                                type = "text/plain"
+                                putExtra(Intent.EXTRA_TEXT, logBus.dump())
                             }
-                        }
-                    }) { Text("Export ZIP") }
-                    TextButton(onClick = { logBus.clear() }) { Text("Clear") }
+                            context.startActivity(Intent.createChooser(send, "Share logs"))
+                        },
+                        contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 8.dp, vertical = 0.dp),
+                    ) { Text("Share", style = MaterialTheme.typography.labelMedium, color = SLPrimary) }
+                    TextButton(
+                        onClick = {
+                            scope.launch {
+                                runCatching {
+                                    logBus.flush()
+                                    val zip = viewModel.exportZip()
+                                    shareZip(context, zip)
+                                }.onFailure {
+                                    snackbarHostState.showSnackbar("Export failed: ${it.message ?: "error"}")
+                                }
+                            }
+                        },
+                        contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 8.dp, vertical = 0.dp),
+                    ) { Text("Export", style = MaterialTheme.typography.labelMedium, color = SLPrimary) }
+                    TextButton(
+                        onClick = { logBus.clear() },
+                        contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 8.dp, vertical = 0.dp),
+                    ) { Text("Clear", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
                 },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor       = MaterialTheme.colorScheme.surface,
+                    titleContentColor    = MaterialTheme.colorScheme.onSurface,
+                    navigationIconContentColor = MaterialTheme.colorScheme.onSurfaceVariant,
+                ),
             )
         },
         snackbarHost = { SnackbarHost(snackbarHostState) },
     ) { padding ->
         LazyColumn(
-            state = listState,
-            modifier = Modifier.fillMaxSize().padding(padding).padding(horizontal = 8.dp),
+            state    = listState,
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(padding)
+                .padding(horizontal = 8.dp),
         ) {
             items(entries) { entry ->
                 Text(
-                    text = formatLine(entry),
-                    fontFamily = FontFamily.Monospace,
-                    style = MaterialTheme.typography.bodySmall,
+                    text  = formatLine(entry),
+                    style = MonoNumberSmall,
+                    color = MaterialTheme.colorScheme.onSurface,
                 )
             }
         }
     }
 }
 
-/** Share a generated zip via [FileProvider] + ACTION_SEND as `application/zip`. */
 private fun shareZip(context: Context, zip: File) {
-    val uri = FileProvider.getUriForFile(context, "${context.packageName}.fileprovider", zip)
+    val uri  = FileProvider.getUriForFile(context, "${context.packageName}.fileprovider", zip)
     val send = Intent(Intent.ACTION_SEND).apply {
         type = "application/zip"
         putExtra(Intent.EXTRA_STREAM, uri)
