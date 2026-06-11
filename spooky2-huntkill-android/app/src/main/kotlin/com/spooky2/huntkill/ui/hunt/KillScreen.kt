@@ -45,7 +45,10 @@ import com.spooky2.huntkill.ui.common.asHz
 import com.spooky2.huntkill.ui.common.formatElapsed
 import com.spooky2.huntkill.ui.theme.MonoNumberLarge
 import com.spooky2.huntkill.ui.theme.MonoNumberSmall
+import com.spooky2.huntkill.ui.theme.SLActive
+import com.spooky2.huntkill.ui.theme.SLActiveContainer
 import com.spooky2.huntkill.ui.theme.SLError
+import com.spooky2.huntkill.ui.theme.SLOnActiveContainer
 import com.spooky2.huntkill.ui.theme.SLPrimary
 import com.spooky2.huntkill.ui.theme.SLSurface
 import com.spooky2.huntkill.ui.theme.SectionLabel
@@ -208,12 +211,12 @@ fun KillScreen(
                         },
                     shape  = RoundedCornerShape(10.dp),
                     colors = if (isCurrent) {
-                        CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer)
+                        CardDefaults.cardColors(containerColor = SLActiveContainer)
                     } else {
                         CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
                     },
                     border = if (isCurrent) {
-                        BorderStroke(1.dp, SLPrimary.copy(alpha = 0.6f))
+                        BorderStroke(1.dp, SLActive.copy(alpha = 0.6f))
                     } else {
                         BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant)
                     },
@@ -228,7 +231,7 @@ fun KillScreen(
                                 "${index + 1}. ${hit.frequency.asHz()}",
                                 style      = MonoNumberSmall,
                                 fontWeight = if (isCurrent) FontWeight.Bold else FontWeight.Normal,
-                                color      = if (isCurrent) SLPrimary else MaterialTheme.colorScheme.onSurface,
+                                color      = if (isCurrent) SLOnActiveContainer else MaterialTheme.colorScheme.onSurface,
                                 maxLines   = 1,
                                 softWrap   = false,
                                 overflow   = TextOverflow.Ellipsis,
@@ -287,14 +290,14 @@ fun KillScreen(
                 },
                 shape  = RoundedCornerShape(8.dp),
                 colors = FilterChipDefaults.filterChipColors(
-                    selectedContainerColor = MaterialTheme.colorScheme.primaryContainer,
-                    selectedLabelColor     = MaterialTheme.colorScheme.onPrimaryContainer,
+                    selectedContainerColor = SLActiveContainer,
+                    selectedLabelColor     = SLOnActiveContainer,
                 ),
                 border = FilterChipDefaults.filterChipBorder(
                     enabled              = true,
                     selected             = state.repeatKill,
                     borderColor          = MaterialTheme.colorScheme.outlineVariant,
-                    selectedBorderColor  = SLPrimary.copy(alpha = 0.5f),
+                    selectedBorderColor  = SLActive.copy(alpha = 0.5f),
                 ),
             )
         }

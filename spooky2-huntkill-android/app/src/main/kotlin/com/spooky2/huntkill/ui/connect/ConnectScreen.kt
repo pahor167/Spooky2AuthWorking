@@ -53,7 +53,7 @@ fun ConnectScreen(
     // Quiet radial gradient — a depth cue behind the hero text, not a colour splash
     val gradient = Brush.radialGradient(
         colors = listOf(
-            Color(0xFF0E2A24),   // very dark cyan tint at centre
+            Color(0xFF15171C),   // faint neutral graphite glow at centre
             SLBackground,        // fades to flat background
         ),
         center = Offset(Float.POSITIVE_INFINITY / 2, 0f),
@@ -179,7 +179,7 @@ fun ConnectScreen(
 
             Spacer(Modifier.height(16.dp))
 
-            // Primary CTA — filled cyan with dark text
+            // Primary CTA — filled platinum with dark text
             Button(
                 onClick = viewModel::connectUsb,
                 enabled = state.status != ConnectStatus.Connecting,

@@ -35,6 +35,9 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
 import com.spooky2.huntkill.ui.theme.MonoNumberSmall
+import com.spooky2.huntkill.ui.theme.SLActive
+import com.spooky2.huntkill.ui.theme.SLActiveContainer
+import com.spooky2.huntkill.ui.theme.SLOnActiveContainer
 import com.spooky2.huntkill.ui.theme.SLOutline
 import com.spooky2.huntkill.ui.theme.SLPrimary
 import com.spooky2.huntkill.ui.theme.SectionLabel
@@ -177,6 +180,11 @@ private fun GeneratorSection(
                         onClick = { onSwitch(index) },
                         enabled = !isSwitching,
                         shape = SegmentedButtonDefaults.itemShape(index, generator.portCount),
+                        colors = SegmentedButtonDefaults.colors(
+                            activeContainerColor = SLActiveContainer,
+                            activeContentColor   = SLOnActiveContainer,
+                            activeBorderColor    = SLActive.copy(alpha = 0.5f),
+                        ),
                     ) {
                         Text(segmentLabel, style = MaterialTheme.typography.labelMedium)
                     }
@@ -209,7 +217,7 @@ private fun NumberField(label: String, value: String, helper: String, onChange: 
         shape = RoundedCornerShape(8.dp),
         colors = OutlinedTextFieldDefaults.colors(
             unfocusedBorderColor = SLOutline,
-            focusedBorderColor   = SLPrimary,
+            focusedBorderColor   = SLActive,
         ),
     )
 }

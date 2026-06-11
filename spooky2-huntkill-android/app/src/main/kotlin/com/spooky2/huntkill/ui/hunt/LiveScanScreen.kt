@@ -247,7 +247,7 @@ fun LiveScanScreen(
     }
 }
 
-/** Colored status chip: Hunting=primary/cyan, Killing=error/coral, Paused=tertiary. */
+/** Status chip: Hunting=neutral/platinum, Killing=coral, Paused=cold-blue (active). */
 @Composable
 internal fun PhaseChip(phase: HuntPhase, isPaused: Boolean) {
     val (label, containerColor) = when {

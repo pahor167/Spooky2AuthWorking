@@ -47,7 +47,9 @@ import com.spooky2.huntkill.core.lookup.LookupMatch
 import com.spooky2.huntkill.ui.common.asHz
 import com.spooky2.huntkill.ui.theme.MonoNumberMedium
 import com.spooky2.huntkill.ui.theme.MonoNumberSmall
+import com.spooky2.huntkill.ui.theme.SLActive
 import com.spooky2.huntkill.ui.theme.SLError
+import com.spooky2.huntkill.ui.theme.SLOnActive
 import com.spooky2.huntkill.ui.theme.SLGraphPanel
 import com.spooky2.huntkill.ui.theme.SLOutline
 import com.spooky2.huntkill.ui.theme.SLPrimary
@@ -67,9 +69,9 @@ private val MARKER_TOUCH_DP = 24.dp
 /**
  * Horizontally scrollable, decimated full-history graph rendered on a dark scope panel.
  *
- * Trace: signal cyan. Dropout tint: translucent coral. Hit dots: solid coral with
- * white ring. Grid: 3 faint horizontal hairlines for scope readability.
- * Panel: dark inset (#0B0E13) with 1dp outline and 12dp radius.
+ * Trace: platinum. Dropout tint: translucent coral. Hit dots: solid coral with
+ * light ring. Grid: 3 faint horizontal hairlines for scope readability.
+ * Panel: dark inset (#0B0C0F) with 1dp outline and 12dp radius.
  *
  * Auto-follow: while the user has NOT scrolled away from the right edge the view snaps
  * to the newest data as [readings] grows. A "Live" button re-engages follow.
@@ -84,11 +86,11 @@ fun ScrollableReadingGraph(
 ) {
     val lineColor    = SLPrimary
     val dropoutColor = SLError.copy(alpha = 0.18f)
-    val gridColor    = Color(0xFF1E2832)
-    val baselineColor = Color(0xFF243040)
+    val gridColor    = Color(0xFF1A1E25)
+    val baselineColor = Color(0xFF222831)
     val provisionalDot = SLError.copy(alpha = 0.50f)
     val finalDot       = SLError
-    val ringColor      = Color(0xFFE6EDF3)
+    val ringColor      = Color(0xFFF2F4F7)
 
     val density    = LocalDensity.current
     val scrollState = rememberScrollState()
@@ -207,7 +209,7 @@ fun ScrollableReadingGraph(
                 }
             }
 
-            // Decimated polyline trace in signal cyan
+            // Decimated polyline trace in platinum
             val pointsPerBucket = (3f / pxPerPoint).toInt().coerceAtLeast(1)
             var i = 0
             var prevX = -1f
@@ -257,8 +259,8 @@ fun ScrollableReadingGraph(
                     .padding(6.dp),
                 shape    = RoundedCornerShape(6.dp),
                 colors   = ButtonDefaults.buttonColors(
-                    containerColor = SLPrimary,
-                    contentColor   = MaterialTheme.colorScheme.onPrimary,
+                    containerColor = SLActive,
+                    contentColor   = SLOnActive,
                 ),
             ) {
                 Text("Live", style = MaterialTheme.typography.labelMedium, maxLines = 1)

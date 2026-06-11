@@ -4,7 +4,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
 
-// ── SIGNAL LAB — dark, clinical, oscilloscope aesthetic ──────────────────────
+// ── GRAPHITE MONO — dark, clinical, near-monochrome aesthetic ────────────────
 val SignalLabColorScheme = darkColorScheme(
     // Backgrounds
     background          = SLBackground,
@@ -18,7 +18,7 @@ val SignalLabColorScheme = darkColorScheme(
     outline             = SLOutline,
     outlineVariant      = SLOutlineVariant,
 
-    // Primary — signal cyan
+    // Primary — platinum / steel
     primary             = SLPrimary,
     onPrimary           = SLOnPrimary,
     primaryContainer    = SLPrimaryContainer,
@@ -30,7 +30,7 @@ val SignalLabColorScheme = darkColorScheme(
     secondaryContainer  = SLSecondaryContainer,
     onSecondaryContainer = SLOnSecondaryContainer,
 
-    // Tertiary — slate-blue
+    // Tertiary — cold blue (active / selected)
     tertiary            = SLTertiary,
     onTertiary          = SLOnTertiary,
     tertiaryContainer   = SLTertiaryContainer,

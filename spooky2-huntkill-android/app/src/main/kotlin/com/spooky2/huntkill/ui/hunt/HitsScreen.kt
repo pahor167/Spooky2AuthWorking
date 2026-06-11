@@ -21,6 +21,7 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.FilterChip
+import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
@@ -40,7 +41,10 @@ import com.spooky2.huntkill.core.lookup.LookupMatch
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
 import com.spooky2.huntkill.ui.common.asHz
 import com.spooky2.huntkill.ui.theme.MonoNumberSmall
+import com.spooky2.huntkill.ui.theme.SLActive
+import com.spooky2.huntkill.ui.theme.SLActiveContainer
 import com.spooky2.huntkill.ui.theme.SLError
+import com.spooky2.huntkill.ui.theme.SLOnActiveContainer
 import com.spooky2.huntkill.ui.theme.SLPrimary
 import com.spooky2.huntkill.ui.theme.SectionLabel
 import kotlin.math.roundToInt
@@ -337,6 +341,16 @@ internal fun ToleranceSelector(
                     enabled  = !busy,
                     label    = { Text(formatPercent(option), style = MaterialTheme.typography.labelSmall) },
                     shape    = RoundedCornerShape(6.dp),
+                    colors   = FilterChipDefaults.filterChipColors(
+                        selectedContainerColor = SLActiveContainer,
+                        selectedLabelColor     = SLOnActiveContainer,
+                    ),
+                    border   = FilterChipDefaults.filterChipBorder(
+                        enabled             = !busy,
+                        selected            = option == selected,
+                        borderColor         = MaterialTheme.colorScheme.outlineVariant,
+                        selectedBorderColor = SLActive.copy(alpha = 0.5f),
+                    ),
                 )
             }
         }
