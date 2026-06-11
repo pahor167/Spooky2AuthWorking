@@ -67,6 +67,47 @@ public class SettleWarmupTests
     }
 
     [Fact]
+    public void BaselinePreseedJump_IsNotSelected_WhileGenuineLaterPeaksAre()
+    {
+        // Reproduces the EXACT engine path: the SMA window is pre-seeded with a
+        // RaWindow-long BASELINE plateau at ~40000 (freq=0, as ScanService prepends
+        // baselineReadings.TakeLast(RaWindow)), then the sweep readings JUMP to a
+        // settled noisy ~52000. The baseline-filled window is internally homogeneous
+        // (tiny range) so the OLD range-only settle returned true immediately and the
+        // baseline↔sweep boundary artifact (deviation ~ 52000-40000 ≈ 11000) was scored
+        // as the #1 hit. The strengthened settle (reading-vs-mean clause) must reject it.
+        var parameters = new ScanParameters { RaWindow = 20, Threshold = 0 };
+
+        var readings = new List<double>();
+        // 1. RaWindow-long BASELINE plateau at ~40000 — exactly fills the SMA window.
+        for (int i = 0; i < parameters.RaWindow; i++) readings.Add(40000.0);
+        // 2. JUMP to the settled noisy sweep level (~52000).
+        for (int i = 0; i < 80; i++) readings.Add(Settled(52000.0, 20.0));
+        // 3. A genuine peak well past the jump.
+        int genuinePeakIndexA = readings.Count;
+        readings.Add(52400.0);
+        for (int i = 0; i < 40; i++) readings.Add(Settled(52000.0, 20.0));
+        // 4. A second genuine peak.
+        int genuinePeakIndexB = readings.Count;
+        readings.Add(52350.0);
+        for (int i = 0; i < 40; i++) readings.Add(Settled(52000.0, 20.0));
+
+        var hits = ScanService.DetectHits(Scan(readings), parameters);
+
+        // (a) NO hit in the baseline/jump/boundary region, no thousands-deviation artifact.
+        int jumpRegionEnd = parameters.RaWindow + parameters.RaWindow;
+        Assert.DoesNotContain(hits, h => h.Frequency < 1000.0 + jumpRegionEnd);
+        Assert.All(hits, h => Assert.True(h.Deviation < 1000.0,
+            $"baseline↔sweep deviation artifact (~11000) must be gone, got {h.Deviation}"));
+
+        // (b) The genuine later peaks ARE selected.
+        double freqA = 1000.0 + genuinePeakIndexA + 1;
+        double freqB = 1000.0 + genuinePeakIndexB + 1;
+        Assert.Contains(hits, h => Math.Abs(h.Frequency - freqA) < 1.0);
+        Assert.Contains(hits, h => Math.Abs(h.Frequency - freqB) < 1.0);
+    }
+
+    [Fact]
     public void FullySettledSeries_WarmsUpAtRaWindow_BehaviorUnchanged()
     {
         // No startup transient: a flat settled series from step 0. warmupStart must
@@ -100,7 +141,10 @@ public class SettleWarmupTests
             if (full && i <= cap)
             {
                 double min = w.Min(), max = w.Max(), mean = w.Average();
-                if (mean > 0 && (max - min) <= parameters.SettleToleranceFraction * mean)
+                double tol = parameters.SettleToleranceFraction * mean;
+                // Strengthened settle: range small AND the incoming reading consistent
+                // with the window mean (no level discontinuity) — mirrors DetectHits.
+                if (mean > 0 && (max - min) <= tol && Math.Abs(readings[i] - mean) <= tol)
                     return i;
             }
             w.Enqueue(readings[i]);

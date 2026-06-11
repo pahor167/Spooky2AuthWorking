@@ -86,6 +86,58 @@ class SettleWarmupTest {
     }
 
     @Test
+    fun `baseline preseed jump is not selected as a hit while genuine later peaks are`() {
+        // This reproduces the EXACT engine path: the SMA window is pre-seeded with a
+        // raWindow-long BASELINE plateau at ~40000 (freq=0, as ScanEngine prepends
+        // baselineReadings.takeLast(raWindow)), then the sweep readings JUMP to a
+        // settled noisy ~52000. The baseline-filled window is internally homogeneous
+        // (tiny range) so the OLD range-only settle returned true immediately and the
+        // baseline↔sweep boundary artifact (deviation ~ 52000-40000 ≈ 11000) was scored
+        // as the #1 hit. The strengthened settle (reading-vs-mean clause) must reject it.
+        val params = ScanParameters(raWindow = 20, threshold = 0.0)
+
+        val readings = ArrayList<Double>()
+        // 1. raWindow-long BASELINE plateau at ~40000 — exactly fills the SMA window.
+        repeat(params.raWindow) { readings.add(40000.0) }
+        // 2. JUMP to the settled noisy sweep level (~52000).
+        repeat(80) { readings.add(settled(52000.0, 20.0)) }
+        // 3. A genuine peak well past the jump.
+        val genuinePeakIndexA = readings.size
+        readings.add(52400.0)
+        repeat(40) { readings.add(settled(52000.0, 20.0)) }
+        // 4. A second genuine peak.
+        val genuinePeakIndexB = readings.size
+        readings.add(52350.0)
+        repeat(40) { readings.add(settled(52000.0, 20.0)) }
+
+        val hits = ScanEngine.detectHits(scan(readings), params)
+
+        // (a) NO hit in the baseline/jump/boundary region. No ~40k/41k-level frequency
+        //     and no deviation-in-the-thousands artifact survives.
+        val jumpRegionEnd = params.raWindow + params.raWindow // baseline window + one more
+        assertTrue(
+            "no hit may land in the baseline/jump region: ${hits.map { it.frequency to it.deviation }}",
+            hits.none { it.frequency < 1000.0 + jumpRegionEnd },
+        )
+        assertTrue(
+            "baseline↔sweep deviation artifact (~11000) must be gone: ${hits.map { it.deviation }}",
+            hits.all { it.deviation < 1000.0 },
+        )
+
+        // (b) The genuine later peaks ARE selected.
+        val freqA = 1000.0 + genuinePeakIndexA + 1
+        val freqB = 1000.0 + genuinePeakIndexB + 1
+        assertTrue(
+            "genuine peak A near index $genuinePeakIndexA must be detected: ${hits.map { it.frequency }}",
+            hits.any { abs(it.frequency - freqA) < 1.0 },
+        )
+        assertTrue(
+            "genuine peak B near index $genuinePeakIndexB must be detected: ${hits.map { it.frequency }}",
+            hits.any { abs(it.frequency - freqB) < 1.0 },
+        )
+    }
+
+    @Test
     fun `fully settled series warms up at raWindow (behavior unchanged)`() {
         // No startup transient: a flat settled series from step 0. The warm-up start
         // must equal raWindow (the first full window), so detection is unchanged vs the
@@ -125,7 +177,12 @@ private object WarmupProbe {
                 val min = w.min()
                 val max = w.max()
                 val mean = w.sum() / w.size
-                if (mean > 0.0 && (max - min) <= params.settleToleranceFraction * mean) {
+                val tol = params.settleToleranceFraction * mean
+                // Strengthened settle: range small AND the incoming reading consistent
+                // with the window mean (no level discontinuity) — mirrors detectHits.
+                if (mean > 0.0 && (max - min) <= tol &&
+                    kotlin.math.abs(readings[i] - mean) <= tol
+                ) {
                     return i
                 }
             }

@@ -54,7 +54,27 @@ internal class SlidingWindow(size: Int) {
      * to detect that the signal has stopped jumping (generator/sensor has settled).
      * An empty or non-positive-mean window is treated as not settled.
      */
-    fun isSettled(toleranceFraction: Double): Boolean {
+    fun isSettled(toleranceFraction: Double): Boolean =
+        isSettled(toleranceFraction, reading = null)
+
+    /**
+     * Settle test for the detection warm-up. The window is "settled at the signal
+     * level" when BOTH:
+     *   1. its internal spread is small: `(max − min) ≤ toleranceFraction × mean`, AND
+     *   2. the incoming [reading] is consistent with the window — no level
+     *      discontinuity: `abs(reading − mean) ≤ toleranceFraction × mean`.
+     *
+     * Clause 2 is what rejects the baseline↔sweep boundary: when the SMA window is
+     * pre-seeded with the (internally homogeneous) baseline level but the incoming
+     * sweep reading has JUMPED to a different settled level, clause 1 alone returns
+     * true (the window is flat) yet the reading is far from the window mean → clause 2
+     * is false, so warm-up correctly extends past the discontinuity.
+     *
+     * Passing [reading] = null skips clause 2 (range-only settle, kept for callers
+     * that only care about the window's own homogeneity). An empty or non-positive-mean
+     * window is treated as not settled.
+     */
+    fun isSettled(toleranceFraction: Double, reading: Double?): Boolean {
         if (buffer.isEmpty()) return false
         var min = Double.MAX_VALUE
         var max = -Double.MAX_VALUE
@@ -66,6 +86,9 @@ internal class SlidingWindow(size: Int) {
         }
         val mean = sum / buffer.size
         if (mean <= 0.0) return false
-        return (max - min) <= toleranceFraction * mean
+        val tol = toleranceFraction * mean
+        if ((max - min) > tol) return false
+        if (reading != null && kotlin.math.abs(reading - mean) > tol) return false
+        return true
     }
 }

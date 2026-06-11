@@ -44,9 +44,9 @@ class ProvisionalHitTracker(private val parameters: ScanParameters) {
      * evaluated against the window state BEFORE this reading is added (the same window
      * the deviation is computed against), exactly as `ScanEngine.detectHits` does.
      */
-    private fun noteSettle(position: Int) {
+    private fun noteSettle(position: Int, reading: Double) {
         if (warmupStart < 0 && position <= warmupCap &&
-            window.isFull && window.isSettled(parameters.settleToleranceFraction)
+            window.isFull && window.isSettled(parameters.settleToleranceFraction, reading)
         ) {
             warmupStart = position
         }
@@ -90,7 +90,7 @@ class ProvisionalHitTracker(private val parameters: ScanParameters) {
         for (value in baselineTail) {
             val ra = if (window.isFull) window.simpleAverage() else 0.0
             val deviation = if (window.isFull) value - ra else 0.0
-            noteSettle(steps.size)
+            noteSettle(steps.size, value)
             steps.add(Step(BASELINE_INDEX, 0.0, value, deviation, valid = true))
             window.add(value)
         }
@@ -105,7 +105,7 @@ class ProvisionalHitTracker(private val parameters: ScanParameters) {
     fun push(stepIndex: Int, frequency: Double, reading: Double, valid: Boolean) {
         val ra = if (window.isFull) window.simpleAverage() else 0.0
         val deviation = if (window.isFull) reading - ra else 0.0
-        noteSettle(steps.size)
+        noteSettle(steps.size, reading)
         steps.add(Step(stepIndex, frequency, reading, deviation, valid))
         if (valid) window.add(reading)
 

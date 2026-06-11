@@ -125,6 +125,61 @@ class ProvisionalHitTrackerTest {
     }
 
     @Test
+    fun `tracker matches detectHits on jumpy baseline and is not capped low by phantom artifacts`() {
+        // Mirror the engine path on the user's hardware: a raWindow-long BASELINE
+        // plateau at ~40000 pre-seeds the SMA window, then the sweep JUMPS to a settled
+        // ~52000 with >= maxHits genuine later peaks. The old range-only settle let the
+        // baseline↔sweep boundary spawn phantom early candidates that permanently ate
+        // top-N slots (panel stuck ~5). The strengthened settle must (1) make the
+        // tracker's top-N equal detectHits, and (2) let it reach maxHits genuine peaks.
+        val rng = java.util.Random(99)
+        fun settled(center: Double, jitter: Double) = center + (rng.nextDouble() * 2 - 1) * jitter
+
+        val parameters = ScanParameters(raWindow = 20, threshold = 0.0, maxHits = 10)
+        val baselineTail = List(parameters.raWindow) { 40000.0 }
+
+        // Build the sweep: settled ~52000 with 12 genuine peaks spaced apart (> maxHits).
+        val sweep = ArrayList<Double>()
+        repeat(40) { sweep.add(settled(52000.0, 15.0)) }
+        val peakSweepIndices = ArrayList<Int>()
+        repeat(12) { k ->
+            peakSweepIndices.add(sweep.size)
+            sweep.add(52300.0 + k * 10.0) // distinct peak heights → deterministic ordering
+            repeat(15) { sweep.add(settled(52000.0, 15.0)) }
+        }
+
+        // detectHits over the SAME combined [baseline pre-seed + sweep] readings.
+        val scanReadings = ArrayList<Pair<Double, Double>>()
+        for (v in baselineTail) scanReadings.add(0.0 to v)
+        for (i in sweep.indices) scanReadings.add((1000.0 + i) to sweep[i])
+        val expected = detectHitsAsProvisional(scanReadings, parameters, baselineTail.size)
+
+        // Live tracker fed the same data.
+        val tracker = ProvisionalHitTracker(parameters)
+        tracker.seedBaseline(baselineTail)
+        for (i in sweep.indices) tracker.push(i, 1000.0 + i, sweep[i], valid = true)
+        val actual = tracker.topHits()
+
+        // Reaches maxHits (not capped low by hidden phantom artifacts).
+        assertEquals("tracker reaches maxHits genuine peaks", parameters.maxHits, actual.size)
+        assertEquals("matches detectHits hit count", expected.size, actual.size)
+
+        // No phantom early/boundary candidate: every hit sits in the settled sweep
+        // region (sweep step index >= raWindow, i.e. past the jump), never the boundary.
+        assertTrue(
+            "no phantom boundary candidate in tracker top-N: ${actual.map { it.stepIndex to it.deviation }}",
+            actual.all { it.stepIndex >= 0 && it.deviation < 1000.0 },
+        )
+
+        // Tracker top-N equals detectHits (same step indices, freqs, deviations, order).
+        for (i in expected.indices) {
+            assertEquals("hit[$i].stepIndex", expected[i].stepIndex, actual[i].stepIndex)
+            assertEquals("hit[$i].frequency", expected[i].frequency, actual[i].frequency, 0.0)
+            assertEquals("hit[$i].deviation", expected[i].deviation, actual[i].deviation, 0.0)
+        }
+    }
+
+    @Test
     fun `tracker honors maxHits cap`() {
         val parameters = ScanParameters(raWindow = 4, threshold = 0.0, maxHits = 2)
         val tracker = ProvisionalHitTracker(parameters)

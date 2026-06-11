@@ -671,8 +671,12 @@ public sealed class ScanService : IScanService, IDisposable
             double ra = window.IsFull ? window.SimpleAverage() : 0;
             double deviation = window.IsFull ? reading - ra : 0;
             // Evaluate settle on the window state BEFORE this reading is added — the
-            // same window the deviation above was computed against.
-            if (warmupStart < 0 && window.IsFull && idx <= warmupCap && window.IsSettled(parameters.SettleToleranceFraction))
+            // same window the deviation above was computed against. The window must be
+            // settled AT THIS READING's LEVEL (range small AND the incoming reading
+            // consistent with the window mean), so the baseline↔sweep boundary (window
+            // full of the baseline level, reading jumped to the settled sweep level) is
+            // NOT mistaken for a settled window.
+            if (warmupStart < 0 && window.IsFull && idx <= warmupCap && window.IsSettled(parameters.SettleToleranceFraction, reading))
                 warmupStart = idx;
             steps.Add((freq, reading, deviation, ra));
             window.Add(reading);
@@ -827,7 +831,24 @@ public sealed class ScanService : IScanService, IDisposable
         /// (the generator/sensor has settled). An empty or non-positive-mean window is
         /// treated as not settled.
         /// </summary>
-        public bool IsSettled(double toleranceFraction)
+        public bool IsSettled(double toleranceFraction) => IsSettled(toleranceFraction, null);
+
+        /// <summary>
+        /// Settle test for the detection warm-up. The window is "settled at the signal
+        /// level" when BOTH: (1) its internal spread is small,
+        /// (max - min) &lt;= toleranceFraction * mean, AND (2) the incoming
+        /// <paramref name="reading"/> is consistent with the window — no level
+        /// discontinuity: abs(reading - mean) &lt;= toleranceFraction * mean.
+        ///
+        /// Clause 2 rejects the baseline↔sweep boundary: when the SMA window is
+        /// pre-seeded with the (internally homogeneous) baseline level but the incoming
+        /// sweep reading has JUMPED to a different settled level, clause 1 alone returns
+        /// true (the window is flat) yet the reading is far from the window mean → clause 2
+        /// is false, so warm-up correctly extends past the discontinuity. Passing
+        /// <paramref name="reading"/> = null skips clause 2 (range-only settle). An empty
+        /// or non-positive-mean window is treated as not settled.
+        /// </summary>
+        public bool IsSettled(double toleranceFraction, double? reading)
         {
             if (_buffer.Count == 0) return false;
             double min = double.MaxValue, max = double.MinValue, sum = 0;
@@ -839,7 +860,10 @@ public sealed class ScanService : IScanService, IDisposable
             }
             double mean = sum / _buffer.Count;
             if (mean <= 0) return false;
-            return (max - min) <= toleranceFraction * mean;
+            double tol = toleranceFraction * mean;
+            if ((max - min) > tol) return false;
+            if (reading.HasValue && Math.Abs(reading.Value - mean) > tol) return false;
+            return true;
         }
     }
 }

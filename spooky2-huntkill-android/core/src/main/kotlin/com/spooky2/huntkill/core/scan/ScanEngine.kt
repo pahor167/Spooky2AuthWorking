@@ -747,9 +747,13 @@ class ScanEngine(private val link: GeneratorLink) {
                 val ra = if (window.isFull) window.simpleAverage() else 0.0
                 val deviation = if (window.isFull) reading - ra else 0.0
                 // Evaluate settle on the window state BEFORE this reading is added —
-                // the same window the deviation above was computed against.
+                // the same window the deviation above was computed against. The window
+                // must be settled AT THIS READING's LEVEL (range small AND the incoming
+                // reading consistent with the window mean), so the baseline↔sweep
+                // boundary (window full of the baseline level, reading jumped to the
+                // settled sweep level) is NOT mistaken for a settled window.
                 if (warmupStart < 0 && window.isFull && i <= warmupCap &&
-                    window.isSettled(parameters.settleToleranceFraction)
+                    window.isSettled(parameters.settleToleranceFraction, reading)
                 ) {
                     warmupStart = i
                 }
