@@ -442,10 +442,16 @@ class HuntViewModel @Inject constructor(
      *  reverse lookup immediately so matches are available as soon as hits are known. */
     private fun publishSweepOutcome(outcome: ScanOutcome) {
         val markers = finalMarkers(outcome.hits)
+        // Overlay the display lead-in onto the validity mask for the FINAL graph too, so
+        // the unsettled lead-in (which would re-introduce the leading vertical spike) stays
+        // excluded after the sweep completes — matching the live view. This is a DISPLAY
+        // copy; detection ran on outcome.sweepValid untouched, and lastOutcome (used by the
+        // re-scan splice) still holds the original engine mask. Real dropouts are preserved.
+        val displayValid = displayValidWithLeadIn(outcome.sweepValid)
         _state.update {
             it.copy(
                 fullHistory = outcome.sweepReadings,
-                historyValid = outcome.sweepValid,
+                historyValid = displayValid,
                 dropoutSegments = outcome.segments,
                 totalSweepSteps = outcome.sweepReadings.size,
                 graphMarkers = markers,
@@ -648,6 +654,15 @@ class HuntViewModel @Inject constructor(
         // segment re-scan, which publishes its own merged outcome). The main sweep is
         // the only path that produces provisional hits, so gate on that.
         val isMainSweep = !isKill && !progress.statusText.startsWith("Re-scanning")
+        // Lead-in length: the first `raWindow` sweep steps are the unsettled lead-in
+        // (the amplitude is still physically settling from the ramp and the detection
+        // SMA window has not warmed up). Their low/rising readings are real on the wire
+        // but would stretch the live graph's Y-scale (a leading vertical spike at index 0)
+        // and trigger false "rising" provisional peaks at the far left. We mark them
+        // INVALID for DISPLAY only — detection is unchanged (the engine's ScanOutcome
+        // drives the final published history/markers). The mask keeps indices aligned so
+        // later markers still map to the correct sweep-step X.
+        val leadIn = leadInSteps(parameters)
         val liveSnapshot: FloatArray? = if (isMainSweep && progress.currentReading != 0.0) {
             // stepNumber is 1-based; append in order. Defensive against a missed step.
             val idx = (progress.stepNumber - 1).coerceAtLeast(liveHistory.size)
@@ -658,9 +673,11 @@ class HuntViewModel @Inject constructor(
             null
         }
         val provisionalMarkers: List<GraphMarker>? = if (isMainSweep) {
-            progress.provisionalHits.map {
-                GraphMarker(it.stepIndex, it.frequency, it.deviation, isFinal = false)
-            }
+            // Drop provisional hits that land in the lead-in region so there are no
+            // false red dots bunched at the far left while the signal is still settling.
+            progress.provisionalHits
+                .filter { it.stepIndex >= leadIn }
+                .map { GraphMarker(it.stepIndex, it.frequency, it.deviation, isFinal = false) }
         } else {
             null
         }
@@ -687,7 +704,12 @@ class HuntViewModel @Inject constructor(
                 angleHistory = newHistory,
                 fullHistory = liveSnapshot ?: current.fullHistory,
                 historyValid = if (liveSnapshot != null) {
-                    BooleanArray(liveSnapshot.size) { true }
+                    // Lead-in steps are marked invalid so ScanGraph excludes them from
+                    // the Y-scale and draws a gap (instead of a leading vertical spike).
+                    // Real read-failure dropouts during the live sweep are surfaced after
+                    // post-processing via publishSweepOutcome; the live mask only encodes
+                    // the display lead-in.
+                    BooleanArray(liveSnapshot.size) { it >= leadIn }
                 } else {
                     current.historyValid
                 },
@@ -732,6 +754,32 @@ class HuntViewModel @Inject constructor(
 
     private fun HuntPhase.coerceHunting(): HuntPhase =
         if (this == HuntPhase.Killing || this == HuntPhase.Done) this else HuntPhase.Hunting
+
+    /**
+     * Number of leading SWEEP steps excluded from the LIVE graph display. These are
+     * the unsettled lead-in readings: the amplitude is still physically settling after
+     * the ramp and the detection SMA window has not warmed up, so they read low/rising
+     * before the curve flattens. Equal to one RA window ([ScanParameters.raWindow]),
+     * clamped to >= 0. Display-only — does not affect detection or the final published
+     * [ScanOutcome] history/markers.
+     */
+    private fun leadInSteps(parameters: ScanParameters): Int =
+        parameters.raWindow.coerceAtLeast(0)
+
+    /**
+     * Return a DISPLAY copy of [sweepValid] with the leading lead-in steps additionally
+     * marked invalid, so the final graph excludes the unsettled lead-in just like the live
+     * view. The input array is never mutated (the engine [ScanOutcome] keeps the true
+     * detection mask). Falls through unchanged when no active parameters are known.
+     */
+    private fun displayValidWithLeadIn(sweepValid: BooleanArray): BooleanArray {
+        val leadIn = activeParameters?.let { leadInSteps(it) } ?: 0
+        if (leadIn <= 0) return sweepValid
+        val copy = sweepValid.copyOf()
+        val end = leadIn.coerceAtMost(copy.size)
+        for (i in 0 until end) copy[i] = false
+        return copy
+    }
 
     /**
      * Toggle pause/resume on the running hunt. While paused the engine holds at the

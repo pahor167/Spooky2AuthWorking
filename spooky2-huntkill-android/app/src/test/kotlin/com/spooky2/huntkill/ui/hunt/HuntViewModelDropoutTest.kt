@@ -173,6 +173,14 @@ class HuntViewModelDropoutTest {
         viewModel.rescanAffectedSegments()
         val done = awaitPhase(viewModel, HuntPhase.Done, HuntPhase.Error)
         assertEquals(HuntPhase.Done, done.phase)
-        assertTrue("re-scanned history should be clean", viewModel.state.value.historyValid.all { it })
+        // After a clean re-scan only the display lead-in (first raWindow steps) stays
+        // flagged; everything past it is valid again. raWindow defaults to 20.
+        val leadIn = com.spooky2.huntkill.core.model.ScanParameters().raWindow
+        val valid = viewModel.state.value.historyValid
+        assertTrue(
+            "re-scanned history past the lead-in should be clean",
+            valid.drop(leadIn).all { it },
+        )
+        assertTrue("lead-in should be flagged invalid for display", valid.take(leadIn).all { !it })
     }
 }
