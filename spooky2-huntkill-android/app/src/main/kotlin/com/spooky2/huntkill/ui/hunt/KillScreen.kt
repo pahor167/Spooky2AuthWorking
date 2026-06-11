@@ -17,6 +17,8 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -244,6 +246,26 @@ fun KillScreen(
         }
 
         val isBusy = state.busyAction != null
+
+        // Repeat toggle (default ON): when selected the kill loops over all frequencies
+        // continuously until turned off or stopped. Tinted/filled when on, outlined when
+        // off, so the state is obvious. Uses a FilterChip because the Repeat icon is not
+        // in material-icons-core (this app depends on -core only, not -extended).
+        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            FilterChip(
+                selected = state.repeatKill,
+                onClick = viewModel::toggleRepeatKill,
+                label = {
+                    Text(
+                        if (state.repeatKill) "Repeat: On" else "Repeat: Off",
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                    )
+                },
+                colors = FilterChipDefaults.filterChipColors(),
+            )
+        }
+
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             Button(
                 onClick = viewModel::togglePause,

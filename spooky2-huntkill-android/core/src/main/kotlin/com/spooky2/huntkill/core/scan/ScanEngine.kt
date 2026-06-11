@@ -443,6 +443,12 @@ class ScanEngine(private val link: GeneratorLink) {
         pauseGate: PauseGate = PauseGate(),
         cycle: Int = 1,
         killControl: KillControl = KillControl(),
+        // Read at the END of each full frequency pass. When it returns true (and the
+        // coroutine is still active) the kill loops back and treats all frequencies
+        // again — "repeat" mode. Read live (lambda/StateFlow getter) so a mid-kill UI
+        // toggle is honored on the next pass-end. Default false = single pass, so
+        // existing kill/golden tests are unchanged (back-compat).
+        repeatEnabled: () -> Boolean = { false },
     ) {
         onProgress?.invoke(
             ScanProgress(
@@ -460,57 +466,71 @@ class ScanEngine(private val link: GeneratorLink) {
 
         link.start()
 
-        var i = 0
-        while (i < killFreqs.size && coroutineContext.isActive()) {
-            // Always write the current frequency at the top of the outer loop. A jump
-            // sets i and breaks the dwell loop to restart here, so writing here covers
-            // both the initial step and every jumped-to step uniformly.
-            link.writeFrequencies(listOf(killFreqs[i]))
+        // Outer repeat loop: one iteration = one full pass over killFreqs. With repeat
+        // OFF (default) this runs exactly once. With repeat ON it re-runs until the flag
+        // is toggled off (checked at pass end) or the coroutine is cancelled. passCount
+        // counts completed passes; the emitted cycleNumber reflects the current pass so
+        // the UI can show "(cycle N)" while looping.
+        var passCount = 0
+        do {
+            val passCycle = cycle + passCount
+            var i = 0
+            while (i < killFreqs.size && coroutineContext.isActive()) {
+                // Always write the current frequency at the top of the inner loop. A jump
+                // sets i and breaks the dwell loop to restart here, so writing here covers
+                // both the initial step and every jumped-to step uniformly.
+                link.writeFrequencies(listOf(killFreqs[i]))
 
-            // Dwell as a loop of ~1s slices so pause + cancellation are checked
-            // each second and the countdown stays accurate. While paused the loop
-            // holds: the current frequency stays set and no new commands are sent.
-            // The do/while shape emits one progress even for a zero dwell so the
-            // kill phase is always observable.
-            var remainingMs = (dwellSeconds * 1000).toLong()
-            var jumped = false
-            do {
-                pauseGate.awaitResumed()
-                coroutineContext.ensureActive()
+                // Dwell as a loop of ~1s slices so pause + cancellation are checked
+                // each second and the countdown stays accurate. While paused the loop
+                // holds: the current frequency stays set and no new commands are sent.
+                // The do/while shape emits one progress even for a zero dwell so the
+                // kill phase is always observable.
+                var remainingMs = (dwellSeconds * 1000).toLong()
+                var jumped = false
+                do {
+                    pauseGate.awaitResumed()
+                    coroutineContext.ensureActive()
 
-                // Apply a pending "Treat this now" jump: checked AFTER awaitResumed so
-                // a paused kill applies the jump when resumed (no deadlock). An in-range
-                // target sets i and breaks to restart the outer loop, which writes
-                // killFreqs[j] and dwells fresh; the flow then continues j, j+1, … .
-                val target = killControl.takeJump()
-                if (target != null && target in killFreqs.indices) {
-                    i = target
-                    jumped = true
-                    break
-                }
+                    // Apply a pending "Treat this now" jump: checked AFTER awaitResumed so
+                    // a paused kill applies the jump when resumed (no deadlock). An in-range
+                    // target sets i and breaks to restart the inner loop, which writes
+                    // killFreqs[j] and dwells fresh; the flow then continues j, j+1, … within
+                    // the current pass.
+                    val target = killControl.takeJump()
+                    if (target != null && target in killFreqs.indices) {
+                        i = target
+                        jumped = true
+                        break
+                    }
 
-                val remainingSeconds = ((remainingMs + 999) / 1000).toInt()
-                onProgress?.invoke(
-                    ScanProgress(
-                        currentFrequency = killFreqs[i],
-                        statusText = "Killing ${i + 1}/${killFreqs.size}: ${killFreqs[i]} Hz",
-                        cycleNumber = cycle,
-                        hitsFound = hits.size,
-                        stepNumber = i + 1,
-                        totalSteps = killFreqs.size,
-                        percentComplete = (i + 1).toDouble() / killFreqs.size * 100,
-                        killDwellRemainingSeconds = remainingSeconds,
-                    ),
-                )
+                    val remainingSeconds = ((remainingMs + 999) / 1000).toInt()
+                    val cycleSuffix = if (passCycle > 1) " (cycle $passCycle)" else ""
+                    onProgress?.invoke(
+                        ScanProgress(
+                            currentFrequency = killFreqs[i],
+                            statusText = "Killing ${i + 1}/${killFreqs.size}$cycleSuffix: ${killFreqs[i]} Hz",
+                            cycleNumber = passCycle,
+                            hitsFound = hits.size,
+                            stepNumber = i + 1,
+                            totalSteps = killFreqs.size,
+                            percentComplete = (i + 1).toDouble() / killFreqs.size * 100,
+                            killDwellRemainingSeconds = remainingSeconds,
+                        ),
+                    )
 
-                if (remainingMs <= 0) break
-                val slice = min(remainingMs, KILL_DWELL_SLICE_MS)
-                delay(slice)
-                remainingMs -= slice
-            } while (remainingMs > 0 && coroutineContext.isActive())
-            // On a jump, i was already set to the target; otherwise advance normally.
-            if (!jumped) i++
-        }
+                    if (remainingMs <= 0) break
+                    val slice = min(remainingMs, KILL_DWELL_SLICE_MS)
+                    delay(slice)
+                    remainingMs -= slice
+                } while (remainingMs > 0 && coroutineContext.isActive())
+                // On a jump, i was already set to the target; otherwise advance normally.
+                if (!jumped) i++
+            }
+            passCount++
+            // Read the repeat flag at the END of each full pass so a mid-kill toggle is
+            // honored on the next pass boundary. Cancellation also breaks the loop.
+        } while (repeatEnabled() && coroutineContext.isActive())
 
         link.stop()
     }

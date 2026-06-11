@@ -70,6 +70,9 @@ class HuntViewModelTest {
 
         val viewModel = HuntViewModel(holder, LogBus())
         viewModel.updateDwellSeconds("0") // zero-dwell keeps the JVM test fast
+        // Repeat defaults ON (kill loops forever); turn it off so the single-pass kill
+        // completes and the run reaches Done for this end-to-end assertion.
+        viewModel.toggleRepeatKill()
         viewModel.startHunt()
 
         val terminal = awaitTerminalState(viewModel, timeoutMs = 60_000)
@@ -97,6 +100,8 @@ class HuntViewModelTest {
 
         val viewModel = HuntViewModel(holder, LogBus())
         viewModel.updateDwellSeconds("0")
+        // Repeat defaults ON; disable so each single-pass kill completes (reaches Done).
+        viewModel.toggleRepeatKill()
 
         // First run.
         viewModel.startHunt()

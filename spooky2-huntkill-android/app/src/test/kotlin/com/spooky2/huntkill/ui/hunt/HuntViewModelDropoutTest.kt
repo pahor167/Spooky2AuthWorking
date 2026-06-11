@@ -110,6 +110,9 @@ class HuntViewModelDropoutTest {
             updateStartFrequency(SWEEP_START.toString())
             updateEndFrequency(SWEEP_END.toString())
             updateDwellSeconds("0")
+            // Repeat defaults ON (kill loops forever); turn it off so the kill completes
+            // and the run reaches Done for these continue-anyway / re-scan assertions.
+            toggleRepeatKill()
         }
     }
 

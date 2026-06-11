@@ -190,6 +190,13 @@ data class HuntUiState(
     val killIndex: Int = 0,
     val killTotal: Int = 0,
     val killDwellRemainingSeconds: Int = 0,
+    /**
+     * Repeat mode for the kill phase. When true (the DEFAULT) the kill loops over all
+     * detected frequencies continuously until the user toggles it off (the current pass
+     * then finishes and the run completes) or stops. Drives the Kill screen's repeat
+     * control. Mirrors [repeatKillFlag], which the engine reads live each pass-end.
+     */
+    val repeatKill: Boolean = true,
     val isPaused: Boolean = false,
     val elapsedSeconds: Int = 0,
     val errorMessage: String? = null,
@@ -339,6 +346,27 @@ class HuntViewModel @Inject constructor(
 
     /** Cooperative jump control for the kill phase; shared between this VM and the engine. */
     private val killControl = KillControl()
+
+    /**
+     * Live repeat flag the engine's `killHits` reads at each frequency-pass boundary.
+     * Held separately from [HuntUiState.repeatKill] (which mirrors it for the UI) so a
+     * mid-kill toggle is honored on the next pass without rebuilding the kill call. Default
+     * true = repeat ON. Kept in sync by [toggleRepeatKill].
+     */
+    private val repeatKillFlag = MutableStateFlow(true)
+
+    /**
+     * Flip kill-phase repeat on/off. Updates both the UI state and the live
+     * [repeatKillFlag] the running engine reads, so a mid-kill toggle takes effect at the
+     * next pass-end: turning repeat OFF lets the current pass finish and the run complete;
+     * turning it ON keeps looping.
+     */
+    fun toggleRepeatKill() {
+        val next = !repeatKillFlag.value
+        repeatKillFlag.value = next
+        _state.update { it.copy(repeatKill = next) }
+        log.i(TAG, "Repeat kill ${if (next) "enabled" else "disabled"}")
+    }
 
     fun updateStartFrequency(v: String) = updateParams { it.copy(startFrequencyText = v) }
     fun updateEndFrequency(v: String) = updateParams { it.copy(endFrequencyText = v) }
@@ -584,6 +612,10 @@ class HuntViewModel @Inject constructor(
                 pauseGate,
                 cycle,
                 killControl,
+                // Read live so a mid-kill repeat toggle is honored at the next pass-end.
+                // With repeat ON this call does not return until the user turns repeat off
+                // (current pass finishes) or cancels — so HuntPhase.Done is reached then.
+                repeatEnabled = { repeatKillFlag.value },
             )
         }
         session.engine.finishHuntAndKill(parameters)

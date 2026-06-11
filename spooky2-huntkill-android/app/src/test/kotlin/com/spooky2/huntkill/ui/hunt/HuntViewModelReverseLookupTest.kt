@@ -223,7 +223,9 @@ class HuntViewModelReverseLookupTest {
         holder.setReconnect { sessionFactory.connect() }
 
         return HuntViewModel(holder, LogBus(), usbConnectionManager = null, frequencyDatabase = source)
-            .apply { updateDwellSeconds("0") }
+            // Repeat defaults ON (kill loops forever); turn it off so these end-to-end
+            // tests reach Done. toggleRepeatKill() flips the default true → false.
+            .apply { updateDwellSeconds("0"); toggleRepeatKill() }
     }
 
     /**

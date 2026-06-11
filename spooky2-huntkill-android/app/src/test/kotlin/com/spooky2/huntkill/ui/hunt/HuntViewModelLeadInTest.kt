@@ -138,6 +138,8 @@ class HuntViewModelLeadInTest {
             updateStartFrequency(SWEEP_START.toString())
             updateEndFrequency(SWEEP_END.toString())
             updateDwellSeconds("0")
+            // Repeat defaults ON (kill loops forever); turn it off so the run reaches Done.
+            toggleRepeatKill()
         }
 
         // Collect every provisional marker step-index seen across the LIVE sweep so we can
