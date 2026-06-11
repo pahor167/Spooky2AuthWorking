@@ -11,6 +11,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.AssistChipDefaults
 import androidx.compose.material3.Button
@@ -76,10 +78,13 @@ fun LiveScanScreen(
         }
     }
 
-    Column(
-        modifier = Modifier.fillMaxSize().padding(24.dp),
+    Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
+      // Scrollable content — so the readings/candidates/graph never push the
+      // Pause/Cancel controls (pinned below) off-screen.
+      Column(
+        modifier = Modifier.weight(1f).fillMaxWidth().verticalScroll(rememberScrollState()),
         verticalArrangement = Arrangement.spacedBy(12.dp),
-    ) {
+      ) {
         Text("Live Scan", style = MaterialTheme.typography.headlineSmall)
         PhaseChip(state.phase, state.isPaused)
         if (state.busyAction != null) {
@@ -159,6 +164,7 @@ fun LiveScanScreen(
                 onDismiss = { selectedMarker = null },
             )
         }
+      } // end scrollable content
 
         Spacer(Modifier.height(8.dp))
         val isBusy = state.busyAction != null
