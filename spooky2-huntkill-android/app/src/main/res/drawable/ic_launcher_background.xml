@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Graphite Mono launcher tile: near-black graphite with faint scope grid lines. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Base graphite -->
+    <path
+        android:fillColor="#14161A"
+        android:pathData="M0,0 H108 V108 H0 Z" />
+
+    <!-- Horizontal scope grid (hairlines, barely-there) -->
+    <path
+        android:strokeColor="#23272E"
+        android:strokeWidth="0.8"
+        android:pathData="M0,30 H108 M0,46 H108 M0,62 H108 M0,78 H108" />
+
+    <!-- Vertical grid -->
+    <path
+        android:strokeColor="#1D2127"
+        android:strokeWidth="0.8"
+        android:pathData="M30,0 V108 M54,0 V108 M78,0 V108" />
+</vector>

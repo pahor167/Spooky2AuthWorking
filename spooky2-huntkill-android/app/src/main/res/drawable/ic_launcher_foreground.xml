@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Launcher foreground: a platinum scan trace with one sharp resonance peak,
+  ringed by a cold-blue target on the apex — the "hunt" finding its hit.
+  Adaptive-icon safe zone is the centered 66dp circle of the 108dp viewport;
+  the artwork stays well inside it.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Scan trace: calm baseline wiggle, sharp peak, settle back -->
+    <path
+        android:strokeColor="#C9D1DA"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M27,64 L35,64 L38,61 L41,66 L44,62 L48,64 L52,52 L56,33 L60,57 L64,67 L67,64 L81,64" />
+
+    <!-- Target ring on the peak apex (cold blue = the active hit) -->
+    <path
+        android:strokeColor="#6E8BDF"
+        android:strokeWidth="2.5"
+        android:pathData="M56,33 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0" />
+
+    <!-- Peak dot -->
+    <path
+        android:fillColor="#6E8BDF"
+        android:pathData="M56,33 m-3.2,0 a3.2,3.2 0 1,1 6.4,0 a3.2,3.2 0 1,1 -6.4,0" />
+</vector>
