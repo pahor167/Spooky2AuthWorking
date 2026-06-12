@@ -1,6 +1,7 @@
 package com.spooky2.huntkill.ui.hunt
 
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -32,8 +33,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
@@ -68,46 +73,81 @@ fun HuntConfigScreen(
 
         state.generator?.let { GeneratorSection(it, state.isSwitchingGenerator, viewModel::switchGenerator) }
 
-        // Section header: small, uppercase, letter-spaced
-        Text("SCAN RANGE", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        // Scan-range + treatment fields are defaults for almost every run — kept in
+        // a collapsible section so the screen leads with what the user actually
+        // touches (generator choice, refine, Start). A summary row shows the values
+        // while collapsed; any validation error auto-expands it.
+        var settingsExpanded by remember { mutableStateOf(false) }
+        LaunchedEffect(validationError) { if (validationError != null) settingsExpanded = true }
         val startVal = params.startFrequencyText.toDoubleOrNull()
         val endVal   = params.endFrequencyText.toDoubleOrNull()
-        NumberField(
-            label    = "Start frequency (Hz)",
-            value    = params.startFrequencyText,
-            helper   = "Scan range 41 kHz – 1.8 MHz",
-            onChange = viewModel::updateStartFrequency,
-            isError  = params.startFrequencyText.isNotEmpty() &&
-                (startVal == null || startVal <= 0),
-        )
-        NumberField(
-            label    = "End frequency (Hz)",
-            value    = params.endFrequencyText,
-            helper   = "Upper bound of the resonance sweep",
-            onChange = viewModel::updateEndFrequency,
-            isError  = params.endFrequencyText.isNotEmpty() &&
-                (endVal == null || endVal <= 0 || (startVal != null && endVal <= startVal)),
-        )
-
-        Text("TREATMENT", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
         val dwellVal = params.dwellSecondsText.toDoubleOrNull()
         val ampVal   = params.targetAmplitudeCvText.toIntOrNull()
-        NumberField(
-            label    = "Kill dwell (seconds)",
-            value    = params.dwellSecondsText,
-            helper   = "Time spent treating each found frequency",
-            onChange = viewModel::updateDwellSeconds,
-            isError  = params.dwellSecondsText.isNotEmpty() &&
-                (dwellVal == null || dwellVal < 0),
-        )
-        NumberField(
-            label    = "Target amplitude (cV)",
-            value    = params.targetAmplitudeCvText,
-            helper   = "Output amplitude in centivolts (2000 = 20.00 V)",
-            onChange = viewModel::updateTargetAmplitude,
-            isError  = params.targetAmplitudeCvText.isNotEmpty() &&
-                (ampVal == null || ampVal <= 0),
-        )
+
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .clickable { settingsExpanded = !settingsExpanded },
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment     = Alignment.CenterVertically,
+        ) {
+            Column(Modifier.weight(1f)) {
+                Text("SCAN SETTINGS", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                if (!settingsExpanded) {
+                    Text(
+                        "${params.startFrequencyText}–${params.endFrequencyText} Hz · " +
+                            "dwell ${params.dwellSecondsText} s · ${params.targetAmplitudeCvText} cV",
+                        style = MonoNumberSmall,
+                        color = MaterialTheme.colorScheme.onSurface,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                    )
+                }
+            }
+            Text(
+                if (settingsExpanded) "Hide" else "Edit",
+                style = MaterialTheme.typography.labelMedium,
+                color = SLPrimary,
+            )
+        }
+
+        if (settingsExpanded) {
+            Text("SCAN RANGE", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            NumberField(
+                label    = "Start frequency (Hz)",
+                value    = params.startFrequencyText,
+                helper   = "Scan range 41 kHz – 1.8 MHz",
+                onChange = viewModel::updateStartFrequency,
+                isError  = params.startFrequencyText.isNotEmpty() &&
+                    (startVal == null || startVal <= 0),
+            )
+            NumberField(
+                label    = "End frequency (Hz)",
+                value    = params.endFrequencyText,
+                helper   = "Upper bound of the resonance sweep",
+                onChange = viewModel::updateEndFrequency,
+                isError  = params.endFrequencyText.isNotEmpty() &&
+                    (endVal == null || endVal <= 0 || (startVal != null && endVal <= startVal)),
+            )
+
+            Text("TREATMENT", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            NumberField(
+                label    = "Kill dwell (seconds)",
+                value    = params.dwellSecondsText,
+                helper   = "Time spent treating each found frequency",
+                onChange = viewModel::updateDwellSeconds,
+                isError  = params.dwellSecondsText.isNotEmpty() &&
+                    (dwellVal == null || dwellVal < 0),
+            )
+            NumberField(
+                label    = "Target amplitude (cV)",
+                value    = params.targetAmplitudeCvText,
+                helper   = "Output amplitude in centivolts (2000 = 20.00 V)",
+                onChange = viewModel::updateTargetAmplitude,
+                isError  = params.targetAmplitudeCvText.isNotEmpty() &&
+                    (ampVal == null || ampVal <= 0),
+            )
+        }
 
         // Refinement mode (original "Continue Refining Hits"): after each kill pass,
         // re-scan a narrow window around each hit at a halved step and treat the

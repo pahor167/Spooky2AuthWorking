@@ -199,13 +199,14 @@ data class HuntUiState(
      */
     val repeatKill: Boolean = true,
     /**
-     * Refinement mode (original Spooky2 "Continue Refining Hits"). When true, each
+     * Refinement mode (original Spooky2 "Continue Refining Hits"). When true (the
+     * DEFAULT — matches the canonical GX preset's BFB_Continue_Refining_Hits=1), each
      * kill pass runs ONCE (superseding [repeatKill]) and is followed by a refinement
      * generation: re-scan a narrow window around each hit at a halved step, kill the
      * refined hits, repeat — until no hits remain, the user toggles it off, or stops.
      * Mirrors [refineFlag], which the run loop reads live at each pass boundary.
      */
-    val refineHits: Boolean = false,
+    val refineHits: Boolean = true,
     /** Current Hunt & Kill generation (1 = initial full sweep; 2+ = refinements). */
     val refineGeneration: Int = 1,
     /**
@@ -439,9 +440,10 @@ class HuntViewModel @Inject constructor(
      * Live refinement flag the run loop reads at each kill-pass boundary, mirroring
      * [HuntUiState.refineHits] — same live-toggle pattern as [repeatKillFlag]. While
      * true the kill does NOT repeat (one pass per generation); after each pass a
-     * refinement generation re-scans around the hits at a halved step.
+     * refinement generation re-scans around the hits at a halved step. Default ON,
+     * matching the canonical GX Hunt and Kill preset (BFB_Continue_Refining_Hits=1).
      */
-    private val refineFlag = MutableStateFlow(false)
+    private val refineFlag = MutableStateFlow(true)
 
     /**
      * True while a refinement generation's sweep is running. Gates [onProgress] so the
@@ -699,6 +701,9 @@ class HuntViewModel @Inject constructor(
         parameters: ScanParameters,
         hits: List<ScanResult>,
         cycle: Int,
+        // History re-runs treat the saved frequencies as-is — no refinement sweeps
+        // around synthesized hits (their readings/deviations are not live data).
+        allowRefinement: Boolean = true,
     ) {
         var currentHits = hits
         var generation = cycle
@@ -717,12 +722,12 @@ class HuntViewModel @Inject constructor(
                 // With repeat ON this call does not return until the user turns repeat off
                 // (current pass finishes) or cancels — so HuntPhase.Done is reached then.
                 // Refinement supersedes repeat: one pass per generation, then refine.
-                repeatEnabled = { repeatKillFlag.value && !refineFlag.value },
+                repeatEnabled = { repeatKillFlag.value && !(allowRefinement && refineFlag.value) },
             )
 
             // ── Refinement generations (original "Continue Refining Hits") ──
             // Checked at each pass boundary so a mid-kill toggle is honored live.
-            if (!refineFlag.value) break
+            if (!allowRefinement || !refineFlag.value) break
             kotlin.coroutines.coroutineContext.ensureActive()
 
             generation++
@@ -906,7 +911,7 @@ class HuntViewModel @Inject constructor(
         runReverseLookup(hits, _state.value.lookupTolerancePercent)
         startElapsedTicker()
         huntJob = viewModelScope.launch(Dispatchers.Default) {
-            runCatching { proceedToKill(session, parameters, hits, cycle = 1) }
+            runCatching { proceedToKill(session, parameters, hits, cycle = 1, allowRefinement = false) }
                 .onFailure { error ->
                     if (error is kotlinx.coroutines.CancellationException) throw error
                     log.e(TAG, "Re-run kill failed: ${error.message}")
