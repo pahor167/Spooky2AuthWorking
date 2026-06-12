@@ -64,6 +64,20 @@ data class ScanParameters(
     val threshold: Double = 0.0,
     val continueRefining: Boolean = true,
     /**
+     * Refine ± window half-width in Hz (guide item #23 "Refine +/-", preset key
+     * `BFB_Include_x_Hz_In_Search`). After a generation finds a hit `f`, the next
+     * refining generation scans `[f - refinePlusMinusHz, f + refinePlusMinusHz]`
+     * (decoded `Main.frm:70211/70215`). `0` (the GX Hunt and Kill preset value)
+     * selects the derived window — see [com.spooky2.huntkill.core.scan.RefinementPlanner].
+     */
+    val refinePlusMinusHz: Double = 0.0,
+    /**
+     * Run-cycles cap (preset key `BFB_Repeat_BFB`): the number of scan→treat
+     * generations to run in [com.spooky2.huntkill.core.scan.ScanEngine.runHuntAndKill].
+     * `0` = repeat until stopped/cancelled (the GX Hunt and Kill preset value).
+     */
+    val repeatBfbCycles: Int = 0,
+    /**
      * Generator ID for kill phase output. 0 = same generator as scan.
      * Maps to preset BFB_After_Scan_Run_On_Gen=0.
      */
@@ -124,5 +138,13 @@ data class ScanParameters(
 ) {
     init {
         require(samplesPerStep > 0) { "samplesPerStep must be > 0, got $samplesPerStep" }
+        require(refinePlusMinusHz >= 0.0) { "refinePlusMinusHz must be >= 0, got $refinePlusMinusHz" }
+        require(repeatBfbCycles >= 0) { "repeatBfbCycles must be >= 0, got $repeatBfbCycles" }
+        require(stepSizeHz > 0.0 && stepSizeHz.isFinite()) {
+            "stepSizeHz must be a positive finite value, got $stepSizeHz"
+        }
+        require(stepSizePercent > 0.0 && stepSizePercent.isFinite()) {
+            "stepSizePercent must be a positive finite value, got $stepSizePercent"
+        }
     }
 }

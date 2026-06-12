@@ -36,6 +36,8 @@ class ScanParametersDefaultsTest {
         assertEquals(1, p.loops)
         assertEquals(0.0, p.threshold, 0.0)
         assertTrue(p.continueRefining)
+        assertEquals(0.0, p.refinePlusMinusHz, 0.0) // BFB_Include_x_Hz_In_Search=0 (GX Hunt and Kill preset)
+        assertEquals(0, p.repeatBfbCycles) // BFB_Repeat_BFB=0 (until stopped)
         assertEquals(0, p.runOnGeneratorId)
         assertEquals(180.0, p.dwellSeconds, 0.0)
         assertEquals("", p.logName)

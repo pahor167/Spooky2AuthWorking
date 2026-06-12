@@ -44,7 +44,9 @@ class ScanEngine(private val link: GeneratorLink) {
         parameters: ScanParameters,
         onProgress: ((ScanProgress) -> Unit)? = null,
         pauseGate: PauseGate = PauseGate(),
-    ): List<ScanResult> = runBiofeedbackScanDetailed(parameters, onProgress, pauseGate).hits
+        frequencyOverride: List<Double>? = null,
+    ): List<ScanResult> =
+        runBiofeedbackScanDetailed(parameters, onProgress, pauseGate, frequencyOverride).hits
 
     /**
      * Run a single biofeedback scan and return the full [ScanOutcome] — hits
@@ -59,6 +61,13 @@ class ScanEngine(private val link: GeneratorLink) {
         parameters: ScanParameters,
         onProgress: ((ScanProgress) -> Unit)? = null,
         pauseGate: PauseGate = PauseGate(),
+        /**
+         * Explicit sweep frequency list. When non-null it REPLACES
+         * [calculateFrequencySteps] for this sweep — used by the refinement
+         * generations to sweep the narrowed per-hit windows (see
+         * [RefinementPlanner]). Null = the normal full-range sweep (golden path).
+         */
+        frequencyOverride: List<Double>? = null,
     ): ScanOutcome {
         // ══════════════════════════════════════════════════════════
         // PHASE 1: Setup + Amplitude Ramp-Up
@@ -193,7 +202,7 @@ class ScanEngine(private val link: GeneratorLink) {
         // ══════════════════════════════════════════════════════════
         // PHASE 3: Frequency sweep
         // ══════════════════════════════════════════════════════════
-        val frequencies = calculateFrequencySteps(parameters)
+        val frequencies = frequencyOverride ?: calculateFrequencySteps(parameters)
 
         var peakReading = Double.MIN_VALUE
         var peakFrequency = 0.0
@@ -397,10 +406,21 @@ class ScanEngine(private val link: GeneratorLink) {
     }
 
     /**
-     * Run repeated scan + kill cycles. Port of C# `RunHuntAndKill`.
+     * Run the original Spooky2 Hunt & Kill: an initial full-range scan + kill,
+     * then — when [ScanParameters.continueRefining] is set — successive
+     * **refinement generations** that re-scan a narrow window around each previous
+     * hit (`[f-r, f+r]`) at a **halved** step, killing the refined hits each pass.
      *
-     * The loop terminates when the surrounding coroutine is cancelled, when a
-     * cycle finds no hits, or when [ScanParameters.continueRefining] is false.
+     * Decoded from `Spooky.exe` (`Main.frm`); see [RefinementPlanner] and
+     * `docs/REFINEMENT.md` for the evidence. Generation 1 and the detection/kill
+     * math are unchanged (the golden replay path still matches bit-for-bit).
+     *
+     * The loop terminates when the surrounding coroutine is cancelled, a generation
+     * finds no hits or yields no scannable window, [ScanParameters.continueRefining]
+     * is false (single generation), or the [ScanParameters.repeatBfbCycles] cap
+     * (`BFB_Repeat_BFB`; 0 = unlimited/until-stopped) is reached.
+     *
+     * @return the hits from the LAST completed generation (the most refined set).
      */
     suspend fun runHuntAndKill(
         parameters: ScanParameters,
@@ -408,27 +428,59 @@ class ScanEngine(private val link: GeneratorLink) {
         pauseGate: PauseGate = PauseGate(),
     ): List<ScanResult> {
         var lastCycleHits: List<ScanResult> = emptyList()
-        var cycle = 0
+        var generation = 0
+        // The params that produced [lastCycleHits]. The refine window for the NEXT
+        // generation is derived from THIS step (the coarse cell each hit sat in), and
+        // the next sweep runs at this step halved — so [huntParams] always tracks the
+        // generation that found the current hits.
+        var huntParams = parameters
 
         while (coroutineContext.isActive()) {
-            cycle++
+            generation++
 
             onProgress?.invoke(
                 ScanProgress(
-                    statusText = "Hunt and Kill - Cycle $cycle - Scanning...",
-                    cycleNumber = cycle,
+                    statusText = if (generation == 1) {
+                        "Hunt and Kill - Cycle $generation - Scanning..."
+                    } else {
+                        "Hunt and Kill - Refining (cycle $generation) - Scanning..."
+                    },
+                    cycleNumber = generation,
                 ),
             )
 
-            val hits = runBiofeedbackScan(parameters, onProgress, pauseGate)
+            // Generation 1 sweeps the full range; refining generations sweep only the
+            // narrowed per-hit windows around the previous generation's hits, at a
+            // halved step.
+            val scanParams: ScanParameters
+            val frequencyOverride: List<Double>?
+            if (generation == 1) {
+                scanParams = parameters
+                frequencyOverride = null
+            } else {
+                // Half-width basis = the ORIGINAL parameters: every generation re-scans
+                // the same-width window around its hits; only the sweep step halves.
+                val plan = RefinementPlanner.planNextGeneration(lastCycleHits, huntParams, parameters)
+                val freqs = RefinementPlanner.frequencyStepsFor(plan, huntParams)
+                if (freqs.isEmpty()) break
+                scanParams = huntParams.copy(
+                    stepSizeHz = plan.nextStepSizeHz,
+                    stepSizePercent = plan.nextStepSizePercent,
+                )
+                frequencyOverride = freqs
+            }
+
+            val hits = runBiofeedbackScan(scanParams, onProgress, pauseGate, frequencyOverride)
 
             if (hits.isEmpty()) break
 
             lastCycleHits = hits
+            huntParams = scanParams
 
-            killHits(hits, parameters, onProgress, pauseGate, cycle)
+            killHits(hits, scanParams, onProgress, pauseGate, generation)
 
             if (!parameters.continueRefining) break
+            if (parameters.repeatBfbCycles in 1..generation) break
         }
 
         finishHuntAndKill(parameters)
