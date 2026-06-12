@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
@@ -248,7 +249,9 @@ fun KillScreen(
                 ) {
                     Column(Modifier.padding(10.dp)) {
                         Row(
-                            modifier              = Modifier.fillMaxWidth(),
+                            // Same min height with or without the play button so all
+                            // frequency rows render uniformly.
+                            modifier              = Modifier.fillMaxWidth().heightIn(min = 28.dp),
                             horizontalArrangement = Arrangement.spacedBy(8.dp),
                             verticalAlignment     = Alignment.CenterVertically,
                         ) {
@@ -265,12 +268,13 @@ fun KillScreen(
                             if (isKilling && !isCurrent) {
                                 IconButton(
                                     onClick  = { viewModel.jumpToHit(index) },
-                                    modifier = Modifier.size(32.dp),
+                                    modifier = Modifier.size(28.dp),
                                 ) {
                                     Icon(
                                         Icons.Filled.PlayArrow,
                                         contentDescription = "Treat this frequency now",
                                         tint = SLPrimary,
+                                        modifier = Modifier.size(22.dp),
                                     )
                                 }
                             }
