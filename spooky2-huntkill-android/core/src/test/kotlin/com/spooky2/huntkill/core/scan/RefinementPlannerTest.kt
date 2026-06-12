@@ -51,19 +51,24 @@ class RefinementPlannerTest {
     @Test
     fun resolveHalfWidth_rZero_derivesFromLocalPercentageStep() {
         // percentage mode 0.025%: localStep @100k = 100000 * 0.00025 = 25 Hz.
-        // r = REFINE_WINDOW_STEPS(10) * 25 = 250 Hz.
+        // r = REFINE_WINDOW_STEPS * 25 (timing-calibrated constant; assert via it).
         val p = ScanParameters(refinePlusMinusHz = 0.0, usePercentageStep = true, stepSizePercent = 0.025)
-        assertEquals(250.0, RefinementPlanner.resolveHalfWidthHz(100_000.0, p), 1e-9)
+        val expectedR = RefinementPlanner.REFINE_WINDOW_STEPS * 25.0
+        assertEquals(expectedR, RefinementPlanner.resolveHalfWidthHz(100_000.0, p), 1e-9)
         val w = RefinementPlanner.windowFor(100_000.0, p)!!
-        assertEquals(99_750.0, w.startHz, 1e-9)
-        assertEquals(100_250.0, w.endHz, 1e-9)
+        assertEquals(100_000.0 - expectedR, w.startHz, 1e-9)
+        assertEquals(100_000.0 + expectedR, w.endHz, 1e-9)
     }
 
     @Test
     fun resolveHalfWidth_rZero_derivesFromLinearStep() {
-        // linear mode: localStep = stepSizeHz (100); r = 10 * 100 = 1000 Hz.
+        // linear mode: localStep = stepSizeHz (100); r = REFINE_WINDOW_STEPS * 100.
         val p = ScanParameters(refinePlusMinusHz = 0.0, usePercentageStep = false, stepSizeHz = 100.0)
-        assertEquals(1_000.0, RefinementPlanner.resolveHalfWidthHz(100_000.0, p), 0.0)
+        assertEquals(
+            RefinementPlanner.REFINE_WINDOW_STEPS * 100.0,
+            RefinementPlanner.resolveHalfWidthHz(100_000.0, p),
+            0.0,
+        )
     }
 
     // ── Step halving each generation ──
@@ -161,14 +166,15 @@ class RefinementPlannerTest {
 
     @Test
     fun planNextGeneration_halfWidthBasis_keepsWindowConstantAcrossGenerations() {
-        // Gen-1 params: 0.025% step. Derived r @100kHz = 250 Hz, window = 500 Hz wide.
+        // Gen-1 params: 0.025% step. Derived r @100kHz = REFINE_WINDOW_STEPS × 25 Hz.
         val original = ScanParameters(refinePlusMinusHz = 0.0, usePercentageStep = true, stepSizePercent = 0.025)
+        val expectedWidth = 2.0 * RefinementPlanner.REFINE_WINDOW_STEPS * 25.0
         // Simulate gen-3 planning: current params carry the twice-halved step…
         val gen3Params = original.copy(stepSizePercent = 0.025 / 4.0)
-        // …but the half-width basis is the ORIGINAL params, so the window stays ±250 Hz.
+        // …but the half-width basis is the ORIGINAL params, so the window width is constant.
         val plan = RefinementPlanner.planNextGeneration(listOf(hit(100_000.0)), gen3Params, original)
         val w = plan.windows.single()
-        assertEquals(500.0, w.widthHz, 1e-6)
+        assertEquals(expectedWidth, w.widthHz, 1e-6)
         // The sweep step still halves from the CURRENT generation's step.
         assertEquals(0.025 / 8.0, plan.nextStepSizePercent, 1e-12)
     }

@@ -114,14 +114,18 @@ class HuntAndKillRefinementTest {
         assertTrue("expected a hit near 100k", finalHits.any { kotlin.math.abs(it.frequency - 100_000.0) < 200.0 })
         val hit = finalHits.minByOrNull { kotlin.math.abs(it.frequency - 100_000.0) }!!.frequency
 
-        // Gen 2 is a strict, narrow refinement: far fewer steps than gen 1, tightly
-        // clustered around the hit. With the derived window r ≈ 10 × local 0.025% step
-        // ≈ 250 Hz, a single hit spans ≈ 500 Hz; gen-1 plateau hits whose windows merge
-        // can widen it modestly. Assert it is both narrow and centered on the hit.
-        assertTrue("gen2 must be much smaller than gen1", gen2.size < gen1.size / 5)
+        // Gen 2 is a narrower refinement: fewer steps than gen 1, clustered around the
+        // hit. Bounds derive from the timing-calibrated REFINE_WINDOW_STEPS so the test
+        // tracks the constant: r = steps × local 0.025% step (≈25 Hz at 100 kHz); gen-1
+        // plateau hits whose windows merge can widen the span modestly.
+        val r = RefinementPlanner.REFINE_WINDOW_STEPS * 25.0
+        assertTrue("gen2 must be smaller than gen1", gen2.size < gen1.size / 2)
         val span = gen2.last() - gen2.first()
-        assertTrue("gen2 span ($span Hz) should be a narrow window, not a full sweep", span < 800.0)
-        assertTrue("gen2 must be centered near the hit", gen2.all { kotlin.math.abs(it - hit) < 600.0 })
+        assertTrue(
+            "gen2 span ($span Hz) should be a window around the hit, not a full sweep",
+            span < 2 * r + 1_000.0,
+        )
+        assertTrue("gen2 must be centered near the hit", gen2.all { kotlin.math.abs(it - hit) < r + 1_000.0 })
 
         // Gen 2 step is half of gen 1's: percentage stepping means spacing scales with
         // frequency, so compare the spacing of BOTH sweeps in the same band around the

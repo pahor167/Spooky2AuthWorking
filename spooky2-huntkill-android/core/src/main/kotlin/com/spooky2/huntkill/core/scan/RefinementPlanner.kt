@@ -29,29 +29,34 @@ data class RefinedScanPlan(
 
 /**
  * Computes the "narrow around each hit" refinement generations of the original
- * Spooky2 Hunt & Kill, decoded from `Spooky.exe` (`Main.frm`, VB-Decompiler dump)
- * and the Spooky2 Users Guide. See `docs/REFINEMENT.md` for the full evidence table.
+ * Spooky2 Hunt & Kill. See `docs/REFINEMENT.md` for the evidence and its limits.
  *
- * Decoded facts:
- *  - Per-hit window: `newStart = hit - r`, `newFinish = hit + r`  (Main.frm:70211/70215)
- *  - Step halved each generation: `step = step / 2`               (Main.frm:64374/68301)
- *  - Bounds clamped to the scan range                             (Main.frm:70802-70806)
- *  - Each generation REPLACES the hit list; windows concatenated  (Main.frm:66509-66560)
- *  - `r` = `BFB_Include_x_Hz_In_Search` (guide "Refine +/-")
+ * Binary-proven (Ghidra decompile of `Spooky.exe`):
+ *  - Step halved each generation: `step = Val(Text19) / 2`  (FUN_0084b3b0, Main.frm
+ *    64374/68301 — Text19 is the ScanResults live step field)
  *
- * NOT bit-recoverable (decompiler dropped the `var_1EC` assignment on the `r == 0`
- * path): the window when `refinePlusMinusHz == 0` — the canonical preset value. We
- * derive it from the local step ([REFINE_WINDOW_STEPS] × local coarse step). This is
- * a flagged, reasoned default; an explicit `refinePlusMinusHz > 0` is used verbatim.
+ * Guide-derived (Users Guide field "Refine +/-" = preset `BFB_Include_x_Hz_In_Search`),
+ * NOT found in the binary: the per-hit re-scan window `[hit-r, hit+r]`. An earlier
+ * citation of Main.frm:70211/70215 for this was a MISATTRIBUTION — those lines are
+ * the `BFB_RA_Window_1` running-average smoothing window (array indices) inside hit
+ * DETECTION, fully recovered and unrelated to the refine grid.
+ *
+ * The derived default half-width below is therefore calibrated to the original's
+ * OBSERVED timing, not decompiled math: a refinement cycle on the original takes
+ * ~3 minutes ≈ ~2500 steps at ~70 ms/step ≈ ~250 halved steps per hit (10 hits),
+ * i.e. r ≈ 60 coarse steps each side. An explicit `refinePlusMinusHz > 0` is used
+ * verbatim.
  */
 object RefinementPlanner {
 
     /**
      * Half-window, in coarse steps each side, used to derive `r` when
-     * [ScanParameters.refinePlusMinusHz] is 0. Reasoned default (the dump's exact
-     * value was destroyed by decompilation); flagged for hardware verification.
+     * [ScanParameters.refinePlusMinusHz] is 0. Calibrated to the original's observed
+     * ~3-minute refinement cycle (~250 halved steps per hit); the binary does not
+     * encode this value anywhere we could recover. Definitive answer needs a serial
+     * capture of the original performing a refinement cycle.
      */
-    const val REFINE_WINDOW_STEPS: Int = 10
+    const val REFINE_WINDOW_STEPS: Int = 60
 
     /**
      * Smallest step (Hz) a refinement sweep may use. Below this, double-precision

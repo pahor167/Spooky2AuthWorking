@@ -18,44 +18,55 @@ Two sources, cross-checked:
    - #31 **Run Cycles** (`BFB_Repeat_BFB`): number of scan/treat pairs; `0` = repeat
      until stopped.
 
-2. **Decompiled `Spooky.exe` (VB6)** — `Main.frm` (VB-Decompiler dump). Evidence:
+2. **Decompiled `Spooky.exe` (VB6)** — Ghidra decompile + `Main.frm` (VB-Decompiler dump):
 
-| Fact | Evidence (`Main.frm`) |
-|---|---|
-| Per-hit window `newStart = CLng(hit − r)`, `newFinish = CLng(hit + r)` | lines 70211 / 70215 |
-| Step **halved** each refining generation: `step = step / 2` | lines 64374, 68301 |
-| Bounds clamped (lower floored, upper clamped to ceiling) | 70802–70806 (cleaner copy) |
-| Each generation **replaces** the hit list; per-hit windows concatenated | 66509–66560 |
-| Mode flag: 3 = initial/grade scan, 2 = refine scan | 64559/64563, 65056, 65127 |
-| Repeat-cycle counter (`BFB_Repeat_BFB`) | 32785, 68336, 68344 |
-| `Refine +/-` = preset key `BFB_Include_x_Hz_In_Search` | 48545–48550, read 68284 |
+| Fact | Status | Evidence |
+|---|---|---|
+| Step **halved** each refining generation: `step = Val(Text19)/2` | **binary-proven** | Ghidra `FUN_0084b3b0`; `Main.frm` 64374, 68301 |
+| Repeat-cycle counter (`BFB_Repeat_BFB`) | binary-supported | `Main.frm` 32785, 68336, 68344 |
+| `Refine +/-` = preset key `BFB_Include_x_Hz_In_Search` | preset/guide | 48545–48550, read 68284 |
+| Per-hit window `[hit−r, hit+r]` | **guide only** | Users Guide field #23; NOT located in the binary |
+
+> **RETRACTED misattribution** (2026-06-12 Ghidra pass): `Main.frm` lines
+> 70211/70215 (`var_84 = CLng(var_448 − var_1EC)` …) were previously cited as the
+> per-hit frequency window. Raw disassembly at 0x855D62/0x855EB1 proves `var_1EC`
+> = `Val(Text5.Text)` = **`BFB_RA_Window_1`** (default 20) and the expressions are
+> **array indices of the running-average smoothing window inside hit DETECTION**.
+> The "destroyed assignment" claim was wrong — the assignment exists and was
+> recovered. The same applies to the 70802–70806 "clamping" (array-bounds clamps)
+> and 66509–66560 (detection loop). None of those lines are refine-grid math.
 
 Canonical preset **GX Hunt and Kill (C) - JW**: `BFB_Continue_Refining_Hits=1`,
 `BFB_Repeat_BFB=0`, `BFB_Include_x_Hz_In_Search=0`, `BFB_Initial_Step_Size_Hz=100`
 (percentage step actually used = 0.025%), `BFB_Max_Hits_To_Find=10`,
 range 41000–1800000.
 
-## Not bit-recoverable (flagged)
+## Not recoverable from the binary (flagged)
 
-The VB-Decompiler **dropped the assignment** of the half-width temp (`var_1EC`) on the
-`r == 0` path in both decompiled copies (only the `hit ± var_1EC` arithmetic
-survived). So the exact window when `BFB_Include_x_Hz_In_Search = 0` — the canonical
-preset value — is **not** bit-provable from the dump.
+The refine window's size when `BFB_Include_x_Hz_In_Search = 0` (the canonical preset
+value) could not be located in the binary at all — the Ghidra pass found only the
+step-halving; no `hit ± r → Start/Finish` writes were found in the refine handlers.
 
-The surrounding evidence (the sweep is step-based and the step is explicitly halved
-each generation) ties the window to the step size. We therefore **derive**, when
-`refinePlusMinusHz == 0`:
+The default is therefore **calibrated to the original's observed timing**: a
+refinement cycle in the original takes ~3 minutes ≈ ~2500 steps at ~70 ms/step
+≈ ~250 halved steps per hit with 10 hits — i.e. a half-width of ~60 coarse steps
+per side. When `refinePlusMinusHz == 0`:
 
 ```
 r = REFINE_WINDOW_STEPS × localCoarseStep(hit)
 localCoarseStep(hit) = hit × stepSizePercent/100   (percentage mode)
                      = stepSizeHz                   (linear mode)
-REFINE_WINDOW_STEPS  = 10   (each side)
+REFINE_WINDOW_STEPS  = 60   (each side; timing-calibrated, not decompiled)
 ```
+
+**Definitive verification path:** a serial capture (Request-view export, like
+`Data/StartPauseAndStop.txt`) of the original performing a refinement cycle would
+show the exact `:w24=` grid — windows, step, and ordering — and should replace this
+calibration when available.
 
 `localCoarseStep` is always computed from the **original generation-1 step** (the
 half-width basis passed to `RefinementPlanner.planNextGeneration`), so the window
-width is CONSTANT across generations — ±250 Hz around a 1 MHz hit with the 0.025%
+width is CONSTANT across generations — ±15 kHz around a 1 MHz hit with the 0.025%
 step, every generation. Only the sweep step halves. (Deriving it from the current
 generation's already-halved step would shrink the window each pass and eventually
 miss the refined hit.)
