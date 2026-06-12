@@ -208,6 +208,11 @@ fun LiveScanScreen(
 
         Spacer(Modifier.height(8.dp))
 
+        // Run-mode toggles, pinned with the action buttons (same chips as the Kill
+        // screen) so repeat/refine can be set while the sweep is still running.
+        RunModeChips(state = state, viewModel = viewModel)
+        Spacer(Modifier.height(4.dp))
+
         val isBusy = state.busyAction != null
         Row(
             modifier              = Modifier.fillMaxWidth(),
