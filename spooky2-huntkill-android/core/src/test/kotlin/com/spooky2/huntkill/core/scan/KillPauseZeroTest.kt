@@ -64,20 +64,26 @@ class KillPauseZeroTest {
         gate.pause()
         testScheduler.advanceTimeBy(1_100)
         testScheduler.runCurrent()
-        assertTrue("freq ch1 cleared on pause", link.commands.contains(GeneratorProtocol.CLEAR_FREQUENCY1))
-        assertTrue("freq ch2 cleared on pause", link.commands.contains(GeneratorProtocol.CLEAR_FREQUENCY2))
-        assertTrue("amplitude 1 zeroed on pause", link.commands.contains(":w28=0,"))
-        assertTrue("amplitude 2 zeroed on pause", link.commands.contains(":w29=0,"))
-        assertTrue("output 1 stopped on pause", link.commands.contains(GeneratorProtocol.STOP_OUTPUT1))
-        assertTrue("output 2 stopped on pause", link.commands.contains(GeneratorProtocol.STOP_OUTPUT2))
+        // The dump-exact pause sequence (Data/StartPauseAndStop.txt lines 127-136),
+        // in order: :w13=0, → amp1 0 → amp2 0 → frequency zero → display "Paused".
+        val pauseStart = link.commands.indexOf(":w13=0,")
+        assertTrue("pause control reset sent", pauseStart >= 0)
+        assertEquals(
+            listOf(":w13=0,", ":w28=0,", ":w29=0,", ":w24=00,", ":n00=Port - Paused"),
+            link.commands.subList(pauseStart, pauseStart + 5),
+        )
+        // Outputs must NOT be stopped on pause (the original stops them only at Stop).
+        assertTrue("no output stop on pause", link.commands.none { it == GeneratorProtocol.STOP_OUTPUT1 })
         // Still paused: the hit frequency has NOT been rewritten yet.
         assertEquals(listOf(100.0), link.written)
 
-        // Resume: outputs re-started, amplitude restored, hit frequency rewritten.
+        // Resume: display restored, amplitude back to target, hit frequency rewritten.
         gate.resume()
         testScheduler.advanceUntilIdle()
-        assertTrue("output 1 restarted on resume", link.commands.contains(GeneratorProtocol.START_OUTPUT1))
-        assertTrue("output 2 restarted on resume", link.commands.contains(GeneratorProtocol.START_OUTPUT2))
+        assertTrue(
+            "display restored on resume",
+            link.commands.contains(":n00=Port - Running Biofeedback"),
+        )
         assertTrue("amplitude 1 restored on resume", link.commands.contains(":w28=2000,"))
         assertTrue("amplitude 2 restored on resume", link.commands.contains(":w29=2000,"))
         assertEquals("hit frequency rewritten on resume", listOf(100.0, 100.0), link.written)

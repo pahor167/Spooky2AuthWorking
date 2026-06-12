@@ -738,18 +738,22 @@ class ScanEngine(private val link: GeneratorLink) {
         restore: (suspend () -> Unit)? = null,
     ) {
         if (!pauseGate.isPaused.value) return
-        // Full silence = the SAME sequence the (hardware-verified) cancel path uses:
-        // clearing the frequency registers and amplitude alone is not enough on the
-        // real GX — the outputs must be STOPPED for the emission to actually cease.
-        send(GeneratorProtocol.CLEAR_FREQUENCY1)
-        send(GeneratorProtocol.CLEAR_FREQUENCY2)
+        // Byte-exact copy of the original's pause sequence, decoded from the real
+        // serial capture Data/StartPauseAndStop.txt (lines 127-136): control reset,
+        // both amplitudes to 0, frequency register to zero (`:w24=00,` — NOT the
+        // :w12 channel clears), display shows Paused. Outputs stay ON — the original
+        // only turns them off (`:w11=0,,`) at full Stop.
+        send(":w13=0,")
         send(GeneratorProtocol.buildSetAmplitudeCv1(0))
         send(GeneratorProtocol.buildSetAmplitudeCv2(0))
-        send(GeneratorProtocol.STOP_OUTPUT1)
-        send(GeneratorProtocol.STOP_OUTPUT2)
+        send(GeneratorProtocol.FREQUENCY1_ZERO)
+        send(GeneratorProtocol.buildSetDisplayName("Port - Paused"))
         pauseGate.awaitResumed()
-        send(GeneratorProtocol.START_OUTPUT1)
-        send(GeneratorProtocol.START_OUTPUT2)
+        // Resume (not in the dump — the captured session went Pause→Stop): inverse of
+        // the pause writes. Amplitude back to target, the pre-pause frequency via
+        // [restore] (sweep/re-scan rewrite theirs on the next step), display restored.
+        val displayName = parameters.logName.ifEmpty { "Running Biofeedback" }
+        send(GeneratorProtocol.buildSetDisplayName("Port - $displayName"))
         send(GeneratorProtocol.buildSetAmplitudeCv1(parameters.targetAmplitudeCv))
         send(GeneratorProtocol.buildSetAmplitudeCv2(parameters.targetAmplitudeCv))
         restore?.invoke()

@@ -175,6 +175,14 @@ object GeneratorProtocol {
     /** Clear frequency channel 2. `:w12=,0,` */
     const val CLEAR_FREQUENCY2: String = ":w12=,0,"
 
+    /**
+     * Write frequency ZERO through the frequency register — the original's pause
+     * silences the signal with this (`Data/StartPauseAndStop.txt`: `:w24=00,`),
+     * NOT with the [CLEAR_FREQUENCY1]/[CLEAR_FREQUENCY2] channel clears. Byte-exact
+     * copy of the dump (double zero included).
+     */
+    const val FREQUENCY1_ZERO: String = ":w24=00,"
+
     // ────────────────────────────────────────────────────────────────
     // Command builders for parameterized commands
     // ────────────────────────────────────────────────────────────────
