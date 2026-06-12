@@ -7,6 +7,13 @@
     <!-- Completion vibration feedback. -->
     <uses-permission android:name="android.permission.VIBRATE"/>
 
+    <!-- Foreground service keeping a run alive while backgrounded/screen-off, with a
+         live progress notification; connectedDevice type = the USB generator. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
     <application
         android:name=".HuntKillApp"
         android:allowBackup="true"
@@ -33,6 +40,12 @@
                 android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
                 android:resource="@xml/usb_device_filter" />
         </activity>
+
+        <!-- Live run-progress notification + keep-alive while backgrounded. -->
+        <service
+            android:name=".service.ScanForegroundService"
+            android:exported="false"
+            android:foregroundServiceType="connectedDevice" />
 
         <!-- Shares exported log ZIPs from cacheDir without exposing file:// URIs. -->
         <provider

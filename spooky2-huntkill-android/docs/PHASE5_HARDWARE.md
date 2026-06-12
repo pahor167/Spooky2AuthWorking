@@ -54,9 +54,12 @@ that factory + `connectViaProbe = true`. Add the runtime **USB-permission** flow
 ## Step 5 — Timing & robustness
 - [ ] Tune inter-command delays / read timeouts (`GeneratorClient.delayProvider`,
       `SerialTransport` timeouts) — the recorded dump has no real device latency.
-- [ ] Handle USB disconnect / permission-revoke mid-scan (surface error, safety-stop).
-- [ ] **Foreground service + wake-lock** so a multi-minute scan survives screen-off /
-      Doze (currently `ScanForegroundServiceStub`).
+- [x] Handle USB disconnect / permission-revoke mid-scan (surface error, safety-stop) —
+      detach receiver aborts the run with "Generator unplugged".
+- [x] **Foreground service + wake-lock** so a multi-minute scan survives screen-off /
+      Doze — `ScanForegroundService` (type connectedDevice, partial wake lock, live
+      progress notification). Remaining gap: swiping the app from Recents still tears
+      down the task + ViewModel; the engine's cancellation path zeroes the generator.
 - [ ] Verify safety-stop path clears output (`:w12=`, amplitude ramp-down) on
       cancel / error / app-exit.
 

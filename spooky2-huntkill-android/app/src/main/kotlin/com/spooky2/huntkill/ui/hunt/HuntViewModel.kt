@@ -13,6 +13,8 @@ import com.spooky2.huntkill.core.model.ScanResult
 import com.spooky2.huntkill.core.scan.KillControl
 import com.spooky2.huntkill.core.scan.PauseGate
 import com.spooky2.huntkill.core.scan.RefinementPlanner
+import com.spooky2.huntkill.service.RunStatus
+import com.spooky2.huntkill.service.ScanRunNotifier
 import com.spooky2.huntkill.data.FrequencyDatabaseSource
 import com.spooky2.huntkill.data.GeneratorSession
 import com.spooky2.huntkill.data.RunHistoryRepository
@@ -259,6 +261,9 @@ class HuntViewModel @Inject constructor(
     // Optional so JVM ViewModel tests can construct with just (holder, log); when present
     // every completed hunt's final frequencies are persisted as a RunRecord.
     private val runHistory: RunHistoryRepository? = null,
+    // Optional for the same reason: drives the foreground-service run notification
+    // (live hunt/kill progress, keep-alive + wake lock while backgrounded).
+    private val runNotifier: ScanRunNotifier? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(HuntUiState())
@@ -1136,6 +1141,7 @@ class HuntViewModel @Inject constructor(
         if (nowPaused) pauseGate.pause() else pauseGate.resume()
         log.i(TAG, if (nowPaused) "Hunt paused (hold)" else "Hunt resumed")
         _state.update { it.copy(isPaused = nowPaused) }
+        publishRunStatus()
     }
 
     /**
@@ -1151,9 +1157,16 @@ class HuntViewModel @Inject constructor(
         killControl.requestJump(index)
     }
 
-    /** 1s ticker: advances elapsedSeconds only while running and not paused. */
+    /**
+     * 1s ticker: advances elapsedSeconds only while running and not paused. Ticker
+     * start/stop maps 1:1 to run start/end, so it also drives the foreground-service
+     * run notification: started here, fed a status snapshot every tick, ended in
+     * [stopElapsedTicker] (which every terminal transition already calls).
+     */
     private fun startElapsedTicker() {
         elapsedTicker?.cancel()
+        runNotifier?.runStarted()
+        publishRunStatus()
         elapsedTicker = viewModelScope.launch {
             while (true) {
                 delay(1000)
@@ -1162,6 +1175,7 @@ class HuntViewModel @Inject constructor(
                 if (running && !s.isPaused) {
                     _state.update { it.copy(elapsedSeconds = it.elapsedSeconds + 1) }
                 }
+                publishRunStatus()
             }
         }
     }
@@ -1169,6 +1183,28 @@ class HuntViewModel @Inject constructor(
     private fun stopElapsedTicker() {
         elapsedTicker?.cancel()
         elapsedTicker = null
+        runNotifier?.runEnded()
+    }
+
+    /** Push the current run snapshot to the foreground-service notification. */
+    private fun publishRunStatus() {
+        val notifier = runNotifier ?: return
+        val s = _state.value
+        if (!s.isRunning) return
+        notifier.publish(
+            RunStatus(
+                killing = s.phase == HuntPhase.Killing,
+                paused = s.isPaused,
+                percentComplete = s.percentComplete.toInt().coerceIn(0, 100),
+                currentFrequencyHz = s.currentFrequency,
+                killIndex = s.killIndex,
+                killTotal = s.killTotal,
+                dwellRemainingSeconds = s.killDwellRemainingSeconds,
+                elapsedSeconds = s.elapsedSeconds,
+                remainingSeconds = s.estimatedRemainingSeconds,
+                generation = s.refineGeneration,
+            ),
+        )
     }
 
     /** Cancel the running scan coroutine and run the safety-stop path. */
