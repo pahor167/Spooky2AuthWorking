@@ -34,6 +34,7 @@ import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -68,6 +69,9 @@ fun HitsScreen(
     val totalMinutes  = (state.hits.size * dwellSeconds / 60.0).roundToInt()
     val hasDropouts   = state.phase == HuntPhase.HitsReadyWithDropouts
     val expanded      = remember { mutableStateMapOf<Double, Boolean>() }
+    val compactView   = state.hitsCompactView
+    // Flipping the view mode standardizes every row: clear per-row "show all" state.
+    LaunchedEffect(compactView) { expanded.clear() }
     var selectedMarker by remember { mutableStateOf<GraphMarker?>(null) }
     selectedMarker?.let { marker ->
         MarkerDetailSheet(marker = marker, viewModel = viewModel, onDismiss = { selectedMarker = null })
@@ -125,7 +129,7 @@ fun HitsScreen(
 
             if (state.hits.isEmpty()) {
                 item { Text("No resonant frequencies were detected this run.") }
-            } else {
+            } else if (!compactView) {
                 item {
                     ToleranceSelector(
                         selected = state.lookupTolerancePercent,
@@ -136,7 +140,14 @@ fun HitsScreen(
             }
 
             item {
-                Text("CANDIDATES (${state.hits.size})", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Row(
+                    modifier              = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment     = Alignment.CenterVertically,
+                ) {
+                    Text("CANDIDATES (${state.hits.size})", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    HitViewModeSwitch(compact = compactView, onChange = viewModel::setHitsCompactView)
+                }
             }
 
             itemsIndexed(state.hits) { index, hit ->
@@ -166,27 +177,29 @@ fun HitsScreen(
                             softWrap = false,
                             overflow = TextOverflow.Ellipsis,
                         )
-                        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                            Text(
-                                "dev ${"%.2f".format(hit.deviation)}",
-                                style = MonoNumberSmall,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            )
-                            Text(
-                                "rdg ${"%.1f".format(hit.reading)}",
-                                style = MonoNumberSmall,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        if (!compactView) {
+                            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                                Text(
+                                    "dev ${"%.2f".format(hit.deviation)}",
+                                    style = MonoNumberSmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                )
+                                Text(
+                                    "rdg ${"%.1f".format(hit.reading)}",
+                                    style = MonoNumberSmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                )
+                            }
+                            Spacer(Modifier.height(4.dp))
+                            MatchList(
+                                matches          = matches,
+                                busy             = state.lookupBusy,
+                                isExpanded       = expanded[hit.frequency] == true,
+                                onToggleExpanded = {
+                                    expanded[hit.frequency] = !(expanded[hit.frequency] ?: false)
+                                },
                             )
                         }
-                        Spacer(Modifier.height(4.dp))
-                        MatchList(
-                            matches          = matches,
-                            busy             = state.lookupBusy,
-                            isExpanded       = expanded[hit.frequency] == true,
-                            onToggleExpanded = {
-                                expanded[hit.frequency] = !(expanded[hit.frequency] ?: false)
-                            },
-                        )
                     }
                 }
             }
@@ -353,6 +366,45 @@ internal fun ToleranceSelector(
                     ),
                 )
             }
+        }
+    }
+}
+
+/**
+ * Compact/Details switch for the hit list, shared by the Hits and Kill screens.
+ * Compact = frequency only; Details = deviation + reverse-lookup matches. Selecting
+ * either mode standardizes the view: callers reset per-row expansion on change.
+ */
+@Composable
+internal fun HitViewModeSwitch(
+    compact: Boolean,
+    onChange: (Boolean) -> Unit,
+) {
+    Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+        listOf(true to "Compact", false to "Details").forEach { (mode, label) ->
+            val selected = compact == mode
+            FilterChip(
+                selected = selected,
+                onClick  = { onChange(mode) },
+                label    = {
+                    Text(
+                        label,
+                        style    = MaterialTheme.typography.labelMedium,
+                        maxLines = 1,
+                    )
+                },
+                shape  = RoundedCornerShape(8.dp),
+                colors = FilterChipDefaults.filterChipColors(
+                    selectedContainerColor = SLActiveContainer,
+                    selectedLabelColor     = SLOnActiveContainer,
+                ),
+                border = FilterChipDefaults.filterChipBorder(
+                    enabled             = true,
+                    selected            = selected,
+                    borderColor         = MaterialTheme.colorScheme.outlineVariant,
+                    selectedBorderColor = SLActive.copy(alpha = 0.5f),
+                ),
+            )
         }
     }
 }

@@ -36,6 +36,7 @@ import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
@@ -89,6 +90,9 @@ fun KillScreen(
 
     val remaining  = state.killDwellRemainingSeconds
     val expanded   = remember { mutableStateMapOf<Double, Boolean>() }
+    val compactView = state.hitsCompactView
+    // Flipping the view mode standardizes every row: clear per-row "show all" state.
+    LaunchedEffect(compactView) { expanded.clear() }
     var selectedMarker by remember { mutableStateOf<GraphMarker?>(null) }
     selectedMarker?.let { marker ->
         MarkerDetailSheet(
@@ -190,9 +194,16 @@ fun KillScreen(
 
             // Hits list
             item {
-                Text("HITS (${state.hits.size})", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Row(
+                    modifier              = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment     = Alignment.CenterVertically,
+                ) {
+                    Text("HITS (${state.hits.size})", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    HitViewModeSwitch(compact = compactView, onChange = viewModel::setHitsCompactView)
+                }
             }
-            if (state.hits.isNotEmpty()) {
+            if (state.hits.isNotEmpty() && !compactView) {
                 item {
                     ToleranceSelector(
                         selected = state.lookupTolerancePercent,
@@ -260,20 +271,22 @@ fun KillScreen(
                                 }
                             }
                         }
-                        Text(
-                            "dev ${"%.2f".format(hit.deviation)}",
-                            style = MonoNumberSmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        )
-                        Spacer(Modifier.height(2.dp))
-                        MatchList(
-                            matches          = state.lookupResults[hit.frequency],
-                            busy             = state.lookupBusy,
-                            isExpanded       = expanded[hit.frequency] == true,
-                            onToggleExpanded = {
-                                expanded[hit.frequency] = !(expanded[hit.frequency] ?: false)
-                            },
-                        )
+                        if (!compactView) {
+                            Text(
+                                "dev ${"%.2f".format(hit.deviation)}",
+                                style = MonoNumberSmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                            Spacer(Modifier.height(2.dp))
+                            MatchList(
+                                matches          = state.lookupResults[hit.frequency],
+                                busy             = state.lookupBusy,
+                                isExpanded       = expanded[hit.frequency] == true,
+                                onToggleExpanded = {
+                                    expanded[hit.frequency] = !(expanded[hit.frequency] ?: false)
+                                },
+                            )
+                        }
                     }
                 }
             }

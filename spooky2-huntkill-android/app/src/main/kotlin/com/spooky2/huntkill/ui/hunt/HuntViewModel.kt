@@ -197,6 +197,12 @@ data class HuntUiState(
      * control. Mirrors [repeatKillFlag], which the engine reads live each pass-end.
      */
     val repeatKill: Boolean = true,
+    /**
+     * Hit-list view mode shared by the Hits and Kill screens. Compact shows only the
+     * frequency per row; details adds deviation + reverse-lookup matches. Toggling it
+     * also standardizes per-row "show all" expansion (screens reset their local maps).
+     */
+    val hitsCompactView: Boolean = false,
     val isPaused: Boolean = false,
     val elapsedSeconds: Int = 0,
     val errorMessage: String? = null,
@@ -407,6 +413,15 @@ class HuntViewModel @Inject constructor(
         repeatKillFlag.value = next
         _state.update { it.copy(repeatKill = next) }
         log.i(TAG, "Repeat kill ${if (next) "enabled" else "disabled"}")
+    }
+
+    /**
+     * Switch the hit-list view between compact (frequency only) and details (deviation +
+     * matches). Shared across the Hits and Kill screens; screens reset their per-row
+     * "show all" expansion when this changes so every frequency renders uniformly.
+     */
+    fun setHitsCompactView(compact: Boolean) {
+        _state.update { it.copy(hitsCompactView = compact) }
     }
 
     fun updateStartFrequency(v: String) = updateParams { it.copy(startFrequencyText = v) }
