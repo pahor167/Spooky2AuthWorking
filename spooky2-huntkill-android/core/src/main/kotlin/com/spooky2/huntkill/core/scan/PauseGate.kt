@@ -8,10 +8,11 @@ import kotlinx.coroutines.flow.first
 /**
  * Cooperative pause primitive for the [ScanEngine], without busy-waiting.
  *
- * Holds a single paused flag. The engine calls [awaitResumed] at the top of each
- * sweep step and inside the kill-dwell loop: when paused it suspends until
- * [resume] is called (Spooky2 "Hold" semantics — the current frequency stays set
- * and no new commands are sent); when not paused it returns immediately.
+ * Holds a single paused flag. The engine checks it at the top of each sweep step
+ * and inside the kill-dwell loop (see `ScanEngine.pausePoint`): when paused the
+ * engine SILENCES the generator (clears both frequency channels, amplitude 0),
+ * suspends until [resume] is called, then restores the amplitude and the
+ * pre-pause frequency; when not paused the check returns immediately.
  *
  * The default instance is never paused, preserving back-compat for callers and
  * existing tests that don't pass a gate.

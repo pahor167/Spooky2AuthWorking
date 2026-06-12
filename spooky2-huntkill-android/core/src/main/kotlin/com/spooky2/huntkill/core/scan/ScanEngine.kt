@@ -185,7 +185,11 @@ class ScanEngine(private val link: GeneratorLink) {
 
         for (b in 0 until parameters.baselineReadCount) {
             coroutineContext.ensureActive()
-            pauseGate.awaitResumed()
+            // Baseline reads expect the start frequency on the output — restore it
+            // after a zeroed pause so the remaining baseline reads stay meaningful.
+            pausePoint(pauseGate, parameters) {
+                send(GeneratorProtocol.buildSetFrequencyRawHz(parameters.startFrequency.toInt()))
+            }
             // Re-check after resuming: a cancellation that arrived while paused
             // must be honored before the next serial read, mirroring the sweep loop.
             coroutineContext.ensureActive()
@@ -244,8 +248,9 @@ class ScanEngine(private val link: GeneratorLink) {
         for (loop in 0 until parameters.loops) {
             for (i in frequencies.indices) {
                 coroutineContext.ensureActive()
-                pauseGate.awaitResumed()
-                // Take the step start AFTER awaitResumed so paused time is not
+                // No restore: the next line writes this step's frequency anyway.
+                pausePoint(pauseGate, parameters)
+                // Take the step start AFTER the pause point so paused time is not
                 // counted into the step measurement (and the next step still paces).
                 val stepStart = TimeSource.Monotonic.markNow()
                 val freq = frequencies[i]
@@ -539,14 +544,17 @@ class ScanEngine(private val link: GeneratorLink) {
                 link.writeFrequencies(listOf(killFreqs[i]))
 
                 // Dwell as a loop of ~1s slices so pause + cancellation are checked
-                // each second and the countdown stays accurate. While paused the loop
-                // holds: the current frequency stays set and no new commands are sent.
+                // each second and the countdown stays accurate. While paused the
+                // generator is SILENCED (frequencies cleared, amplitude 0) and the
+                // current hit frequency is rewritten on resume before dwelling on.
                 // The do/while shape emits one progress even for a zero dwell so the
                 // kill phase is always observable.
                 var remainingMs = (dwellSeconds * 1000).toLong()
                 var jumped = false
                 do {
-                    pauseGate.awaitResumed()
+                    pausePoint(pauseGate, parameters) {
+                        link.writeFrequencies(listOf(killFreqs[i]))
+                    }
                     coroutineContext.ensureActive()
 
                     // Apply a pending "Treat this now" jump: checked AFTER awaitResumed so
@@ -646,7 +654,8 @@ class ScanEngine(private val link: GeneratorLink) {
             if (lo > hi) continue
             for (i in lo..hi) {
                 coroutineContext.ensureActive()
-                pauseGate.awaitResumed()
+                // No restore: the next line writes this step's frequency anyway.
+                pausePoint(pauseGate, parameters)
                 val stepStart = TimeSource.Monotonic.markNow()
                 val freq = frequencies.getOrElse(i) { frequencies.lastOrNull() ?: 0.0 }
 
@@ -710,6 +719,34 @@ class ScanEngine(private val link: GeneratorLink) {
 
     private suspend fun send(command: String): String? =
         link.sendCommandWithResponse(command)
+
+    /**
+     * Pause-safe point: when [pauseGate] is paused, SILENCE the generator while
+     * parked — clear both frequency channels and drop amplitude to 0 — then, once
+     * resumed, restore the amplitude and run [restore] (when given) to put the
+     * pre-pause frequency back. Loops that rewrite the frequency at the top of
+     * every iteration (sweep, re-scan) pass no [restore]; the kill dwell and the
+     * baseline restore theirs explicitly.
+     *
+     * All I/O happens here, on the engine's own command sequence, so the serial
+     * transport stays single-caller. Fast no-op when not paused — the golden
+     * (never-paused) path sends nothing extra.
+     */
+    private suspend fun pausePoint(
+        pauseGate: PauseGate,
+        parameters: ScanParameters,
+        restore: (suspend () -> Unit)? = null,
+    ) {
+        if (!pauseGate.isPaused.value) return
+        send(GeneratorProtocol.CLEAR_FREQUENCY1)
+        send(GeneratorProtocol.CLEAR_FREQUENCY2)
+        send(GeneratorProtocol.buildSetAmplitudeCv1(0))
+        send(GeneratorProtocol.buildSetAmplitudeCv2(0))
+        pauseGate.awaitResumed()
+        send(GeneratorProtocol.buildSetAmplitudeCv1(parameters.targetAmplitudeCv))
+        send(GeneratorProtocol.buildSetAmplitudeCv2(parameters.targetAmplitudeCv))
+        restore?.invoke()
+    }
 
     /** Port of C# `ReadSensors`: averages [samples] angle/current read pairs. */
     suspend fun readSensors(samples: Int): Pair<Double, Double> {
