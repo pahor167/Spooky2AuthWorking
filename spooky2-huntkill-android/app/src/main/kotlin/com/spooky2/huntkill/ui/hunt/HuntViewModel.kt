@@ -707,9 +707,6 @@ class HuntViewModel @Inject constructor(
         parameters: ScanParameters,
         hits: List<ScanResult>,
         cycle: Int,
-        // History re-runs treat the saved frequencies as-is — no refinement sweeps
-        // around synthesized hits (their readings/deviations are not live data).
-        allowRefinement: Boolean = true,
     ) {
         var currentHits = hits
         var generation = cycle
@@ -728,12 +725,12 @@ class HuntViewModel @Inject constructor(
                 // With repeat ON this call does not return until the user turns repeat off
                 // (current pass finishes) or cancels — so HuntPhase.Done is reached then.
                 // Refinement supersedes repeat: one pass per generation, then refine.
-                repeatEnabled = { repeatKillFlag.value && !(allowRefinement && refineFlag.value) },
+                repeatEnabled = { repeatKillFlag.value && !refineFlag.value },
             )
 
             // ── Refinement generations (original "Continue Refining Hits") ──
             // Checked at each pass boundary so a mid-kill toggle is honored live.
-            if (!allowRefinement || !refineFlag.value) break
+            if (!refineFlag.value) break
             kotlin.coroutines.coroutineContext.ensureActive()
 
             generation++
@@ -917,7 +914,11 @@ class HuntViewModel @Inject constructor(
         runReverseLookup(hits, _state.value.lookupTolerancePercent)
         startElapsedTicker()
         huntJob = viewModelScope.launch(Dispatchers.Default) {
-            runCatching { proceedToKill(session, parameters, hits, cycle = 1, allowRefinement = false) }
+            // Re-runs honor the refine flag like any kill: after the pass, re-scan
+            // around the saved frequencies to find today's exact resonances. The
+            // synthesized hits' zero readings don't matter — refinement plans windows
+            // from the frequencies alone.
+            runCatching { proceedToKill(session, parameters, hits, cycle = 1) }
                 .onFailure { error ->
                     if (error is kotlinx.coroutines.CancellationException) throw error
                     log.e(TAG, "Re-run kill failed: ${error.message}")

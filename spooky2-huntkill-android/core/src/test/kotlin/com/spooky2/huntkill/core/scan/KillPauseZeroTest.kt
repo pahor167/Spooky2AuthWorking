@@ -68,12 +68,16 @@ class KillPauseZeroTest {
         assertTrue("freq ch2 cleared on pause", link.commands.contains(GeneratorProtocol.CLEAR_FREQUENCY2))
         assertTrue("amplitude 1 zeroed on pause", link.commands.contains(":w28=0,"))
         assertTrue("amplitude 2 zeroed on pause", link.commands.contains(":w29=0,"))
+        assertTrue("output 1 stopped on pause", link.commands.contains(GeneratorProtocol.STOP_OUTPUT1))
+        assertTrue("output 2 stopped on pause", link.commands.contains(GeneratorProtocol.STOP_OUTPUT2))
         // Still paused: the hit frequency has NOT been rewritten yet.
         assertEquals(listOf(100.0), link.written)
 
-        // Resume: amplitude restored, current hit frequency rewritten, dwell continues.
+        // Resume: outputs re-started, amplitude restored, hit frequency rewritten.
         gate.resume()
         testScheduler.advanceUntilIdle()
+        assertTrue("output 1 restarted on resume", link.commands.contains(GeneratorProtocol.START_OUTPUT1))
+        assertTrue("output 2 restarted on resume", link.commands.contains(GeneratorProtocol.START_OUTPUT2))
         assertTrue("amplitude 1 restored on resume", link.commands.contains(":w28=2000,"))
         assertTrue("amplitude 2 restored on resume", link.commands.contains(":w29=2000,"))
         assertEquals("hit frequency rewritten on resume", listOf(100.0, 100.0), link.written)

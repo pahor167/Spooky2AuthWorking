@@ -738,11 +738,18 @@ class ScanEngine(private val link: GeneratorLink) {
         restore: (suspend () -> Unit)? = null,
     ) {
         if (!pauseGate.isPaused.value) return
+        // Full silence = the SAME sequence the (hardware-verified) cancel path uses:
+        // clearing the frequency registers and amplitude alone is not enough on the
+        // real GX — the outputs must be STOPPED for the emission to actually cease.
         send(GeneratorProtocol.CLEAR_FREQUENCY1)
         send(GeneratorProtocol.CLEAR_FREQUENCY2)
         send(GeneratorProtocol.buildSetAmplitudeCv1(0))
         send(GeneratorProtocol.buildSetAmplitudeCv2(0))
+        send(GeneratorProtocol.STOP_OUTPUT1)
+        send(GeneratorProtocol.STOP_OUTPUT2)
         pauseGate.awaitResumed()
+        send(GeneratorProtocol.START_OUTPUT1)
+        send(GeneratorProtocol.START_OUTPUT2)
         send(GeneratorProtocol.buildSetAmplitudeCv1(parameters.targetAmplitudeCv))
         send(GeneratorProtocol.buildSetAmplitudeCv2(parameters.targetAmplitudeCv))
         restore?.invoke()

@@ -89,9 +89,12 @@ class HuntViewModelReRunTest {
         )
         val holder = SessionHolder()
         holder.set(runBlocking { sessionFactory.connect() })
-        // Repeat defaults ON (kill loops forever); turn it off so the re-run's single-pass
-        // kill completes and the run reaches Done. toggleRepeatKill() flips true → false.
-        return HuntViewModel(holder, LogBus()).apply { toggleRepeatKill() }
+        // Repeat AND refine default ON (kill loops / re-runs refine after the pass);
+        // turn both off so the re-run's single-pass kill completes and reaches Done.
+        return HuntViewModel(holder, LogBus()).apply {
+            toggleRepeatKill()
+            toggleRefineHits()
+        }
     }
 
     private fun awaitDone(viewModel: HuntViewModel, timeoutMs: Long): HuntUiState {
