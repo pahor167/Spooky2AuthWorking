@@ -1,6 +1,9 @@
 package com.spooky2.huntkill.ui.hunt
 
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -8,10 +11,11 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.ui.common.asHz
@@ -76,42 +80,48 @@ fun LiveCandidatesPanel(
     }
 }
 
-/** One full-width tappable candidate row: frequency left, deviation right. */
+/**
+ * One full-width tappable candidate row: frequency left, deviation right.
+ * Deliberately a plain clickable Row (NOT a Material clickable Surface, which
+ * enforces a 48dp minimum touch height) so the list stays dense — ~30dp/row.
+ */
 @Composable
 private fun CandidateListRow(row: CandidateRow, onTap: () -> Unit) {
     val final = row.marker.isFinal
-    Surface(
-        onClick = onTap,
-        shape   = RoundedCornerShape(8.dp),
-        color   = if (final) {
-            MaterialTheme.colorScheme.primaryContainer
-        } else {
-            MaterialTheme.colorScheme.surfaceVariant
-        },
-        border  = BorderStroke(1.dp, if (final) SLPrimary.copy(alpha = 0.4f) else SLOutline),
-        modifier = Modifier.fillMaxWidth(),
-    ) {
-        Row(
-            modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
-            horizontalArrangement = Arrangement.SpaceBetween,
-        ) {
-            Text(
-                row.frequencyLabel,
-                style    = MonoNumberSmall,
-                color    = if (final) {
-                    MaterialTheme.colorScheme.onPrimaryContainer
+    val shape = RoundedCornerShape(8.dp)
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(shape)
+            .background(
+                if (final) {
+                    MaterialTheme.colorScheme.primaryContainer
                 } else {
-                    MaterialTheme.colorScheme.onSurface
+                    MaterialTheme.colorScheme.surfaceVariant
                 },
-                maxLines = 1,
-                overflow = TextOverflow.Ellipsis,
             )
-            Text(
-                row.deviationLabel,
-                style    = MonoNumberSmall,
-                color    = MaterialTheme.colorScheme.onSurfaceVariant,
-                maxLines = 1,
-            )
-        }
+            .border(BorderStroke(1.dp, if (final) SLPrimary.copy(alpha = 0.4f) else SLOutline), shape)
+            .clickable(onClick = onTap)
+            .padding(horizontal = 12.dp, vertical = 5.dp),
+        horizontalArrangement = Arrangement.SpaceBetween,
+        verticalAlignment     = Alignment.CenterVertically,
+    ) {
+        Text(
+            row.frequencyLabel,
+            style    = MonoNumberSmall,
+            color    = if (final) {
+                MaterialTheme.colorScheme.onPrimaryContainer
+            } else {
+                MaterialTheme.colorScheme.onSurface
+            },
+            maxLines = 1,
+            overflow = TextOverflow.Ellipsis,
+        )
+        Text(
+            row.deviationLabel,
+            style    = MonoNumberSmall,
+            color    = MaterialTheme.colorScheme.onSurfaceVariant,
+            maxLines = 1,
+        )
     }
 }
