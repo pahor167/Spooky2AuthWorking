@@ -171,12 +171,7 @@ fun LiveScanScreen(
                 }
             }
 
-            // Live candidates panel
             var selectedMarker by remember { mutableStateOf<GraphMarker?>(null) }
-            LiveCandidatesPanel(
-                markers       = state.graphMarkers,
-                onCandidateTap = { selectedMarker = it },
-            )
 
             // Graph section label
             Text("ANGLE READINGS", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -195,6 +190,12 @@ fun LiveScanScreen(
                     modifier = Modifier.fillMaxWidth().height(150.dp),
                 )
             }
+
+            // Live candidates list below the graph — grows with the page's vertical scroll
+            LiveCandidatesPanel(
+                markers       = state.graphMarkers,
+                onCandidateTap = { selectedMarker = it },
+            )
 
             selectedMarker?.let { marker ->
                 MarkerDetailSheet(

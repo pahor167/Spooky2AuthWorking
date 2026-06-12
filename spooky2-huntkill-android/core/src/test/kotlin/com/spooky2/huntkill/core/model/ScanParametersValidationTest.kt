@@ -2,7 +2,6 @@ package com.spooky2.huntkill.core.model
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
-import kotlin.test.assertFailsWith
 
 /**
  * Verifies the [ScanParameters.init] contract: [ScanParameters.samplesPerStep] must be > 0.
@@ -10,18 +9,14 @@ import kotlin.test.assertFailsWith
  */
 class ScanParametersValidationTest {
 
-    @Test
+    @Test(expected = IllegalArgumentException::class)
     fun `samplesPerStep zero throws IllegalArgumentException`() {
-        assertFailsWith<IllegalArgumentException> {
-            ScanParameters(samplesPerStep = 0)
-        }
+        ScanParameters(samplesPerStep = 0)
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException::class)
     fun `samplesPerStep negative throws IllegalArgumentException`() {
-        assertFailsWith<IllegalArgumentException> {
-            ScanParameters(samplesPerStep = -1)
-        }
+        ScanParameters(samplesPerStep = -1)
     }
 
     @Test

@@ -1,16 +1,14 @@
 package com.spooky2.huntkill.ui.hunt
 
 import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.SuggestionChip
-import androidx.compose.material3.SuggestionChipDefaults
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -48,8 +46,9 @@ fun candidateRows(markers: List<GraphMarker>): List<CandidateRow> =
         }
 
 /**
- * Always-visible summary of the current top-N hit candidates. Renders a horizontally-
- * scrollable single row of chips so it never grows tall. Each chip is tappable.
+ * Always-visible summary of the current top-N hit candidates. Renders a vertical list
+ * (strongest deviation first) that grows with the page's vertical scroll. Each row is
+ * tappable.
  */
 @Composable
 fun LiveCandidatesPanel(
@@ -70,42 +69,49 @@ fun LiveCandidatesPanel(
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
         } else {
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .horizontalScroll(rememberScrollState()),
-                horizontalArrangement = Arrangement.spacedBy(6.dp),
-            ) {
-                rows.forEach { row ->
-                    SuggestionChip(
-                        onClick = { onCandidateTap(row.marker) },
-                        label   = {
-                            Text(
-                                "${row.frequencyLabel}  ·  ${row.deviationLabel}",
-                                style    = MonoNumberSmall,
-                                maxLines = 1,
-                                overflow = TextOverflow.Ellipsis,
-                            )
-                        },
-                        shape  = RoundedCornerShape(8.dp),
-                        colors = if (row.marker.isFinal) {
-                            SuggestionChipDefaults.suggestionChipColors(
-                                containerColor = MaterialTheme.colorScheme.primaryContainer,
-                                labelColor     = MaterialTheme.colorScheme.onPrimaryContainer,
-                            )
-                        } else {
-                            SuggestionChipDefaults.suggestionChipColors(
-                                containerColor = MaterialTheme.colorScheme.surfaceVariant,
-                                labelColor     = MaterialTheme.colorScheme.onSurfaceVariant,
-                            )
-                        },
-                        border = SuggestionChipDefaults.suggestionChipBorder(
-                            enabled     = true,
-                            borderColor = if (row.marker.isFinal) SLPrimary.copy(alpha = 0.4f) else SLOutline,
-                        ),
-                    )
-                }
+            rows.forEach { row ->
+                CandidateListRow(row = row, onTap = { onCandidateTap(row.marker) })
             }
+        }
+    }
+}
+
+/** One full-width tappable candidate row: frequency left, deviation right. */
+@Composable
+private fun CandidateListRow(row: CandidateRow, onTap: () -> Unit) {
+    val final = row.marker.isFinal
+    Surface(
+        onClick = onTap,
+        shape   = RoundedCornerShape(8.dp),
+        color   = if (final) {
+            MaterialTheme.colorScheme.primaryContainer
+        } else {
+            MaterialTheme.colorScheme.surfaceVariant
+        },
+        border  = BorderStroke(1.dp, if (final) SLPrimary.copy(alpha = 0.4f) else SLOutline),
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        Row(
+            modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
+            horizontalArrangement = Arrangement.SpaceBetween,
+        ) {
+            Text(
+                row.frequencyLabel,
+                style    = MonoNumberSmall,
+                color    = if (final) {
+                    MaterialTheme.colorScheme.onPrimaryContainer
+                } else {
+                    MaterialTheme.colorScheme.onSurface
+                },
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+            )
+            Text(
+                row.deviationLabel,
+                style    = MonoNumberSmall,
+                color    = MaterialTheme.colorScheme.onSurfaceVariant,
+                maxLines = 1,
+            )
         }
     }
 }

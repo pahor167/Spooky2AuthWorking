@@ -118,21 +118,22 @@ class HuntViewModelCancelTest {
      */
     @Test
     fun `cancel during rescan resets rescanInProgress flag`() = runBlocking {
-        // Build a ViewModel with rescanInProgress=true injected via a forced state update.
         // We bypass the full re-scan machinery: all we care about is that cancel() clears
-        // the flag regardless of what set it.
+        // the flag regardless of what set it. No hunt needs to be running — cancel() must
+        // clear the flag unconditionally. The transport answers every readLine with a
+        // quick timeout (null) so the cancel path's zero-out completes promptly.
         val transport = object : SerialTransport {
             override val isOpen: Boolean = true
             override suspend fun open(baudRate: Int) = Unit
             override suspend fun close() = Unit
             override suspend fun write(bytes: ByteArray) = Unit
             override suspend fun readLine(timeoutMs: Long): String? {
-                delay(Long.MAX_VALUE)
+                delay(10)
                 return null
             }
         }
         val client = GeneratorClient(transport = transport)
-        runBlocking { transport.open(GeneratorClient.BAUD_GENERATORX) }
+        transport.open(GeneratorClient.BAUD_GENERATORX)
         val session = GeneratorSession(
             baudRate = GeneratorClient.BAUD_GENERATORX,
             generatorType = GeneratorClient.GENERATOR_TYPE_GENERATORX,
@@ -145,17 +146,8 @@ class HuntViewModelCancelTest {
         val holder = SessionHolder()
         holder.set(session)
         val viewModel = HuntViewModel(holder, LogBus())
-        viewModel.updateDwellSeconds("0")
 
-        // Start a hunt so there is an active job; the hanging transport keeps it running.
-        viewModel.startHunt()
-        awaitSweepInProgress(viewModel)
-
-        // Patch rescanInProgress to true to simulate cancel-during-rescan scenario.
-        // We reach into the ViewModel via its public state by directly calling the
-        // internal rescan path pre-condition (rescanInProgress is set by rescanAffectedSegments).
-        // Since we can't directly set state, we rely on cancel() clearing it from any truthy value.
-        // Use reflection to force the state — matching how unit tests verify internal flag invariants.
+        // Force the stuck-spinner state the same way rescanAffectedSegments would set it.
         val stateField = viewModel.javaClass.getDeclaredField("_state")
         stateField.isAccessible = true
         @Suppress("UNCHECKED_CAST")

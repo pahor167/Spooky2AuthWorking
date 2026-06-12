@@ -285,10 +285,12 @@ class ScanEngine(private val link: GeneratorLink) {
 
                 val unstable = consecutiveFailures >= parameters.dropoutUnstableReadThreshold
                 if (unstable) unstableSurfaced = true
+                // No frequency here — the UI already shows it as the big readout;
+                // the status line carries only sweep progress.
                 val statusText = if (unstable || (unstableSurfaced && !sensor.valid)) {
                     "Connection unstable — check cable (${i + 1}/${frequencies.size})"
                 } else {
-                    "Scanning $freq Hz (${i + 1}/${frequencies.size})"
+                    "Scanning (${i + 1}/${frequencies.size})"
                 }
 
                 onProgress?.invoke(
