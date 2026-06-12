@@ -157,7 +157,11 @@ fun KillScreen(
                             horizontalArrangement = Arrangement.SpaceBetween,
                         ) {
                             Text(
-                                "TREATING",
+                                if (state.refineGeneration > 1) {
+                                    "TREATING · GEN ${state.refineGeneration}"
+                                } else {
+                                    "TREATING"
+                                },
                                 style = SectionLabel,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                             )
@@ -294,10 +298,12 @@ fun KillScreen(
 
         val isBusy = state.busyAction != null
 
-        // Repeat toggle
+        // Repeat + Refine toggles. Refine supersedes Repeat (one kill pass per
+        // generation, then a narrowed re-scan); both are honored live at pass-end.
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             FilterChip(
-                selected = state.repeatKill,
+                selected = state.repeatKill && !state.refineHits,
+                enabled  = !state.refineHits,
                 onClick  = viewModel::toggleRepeatKill,
                 label    = {
                     Text(
@@ -313,8 +319,31 @@ fun KillScreen(
                     selectedLabelColor     = SLOnActiveContainer,
                 ),
                 border = FilterChipDefaults.filterChipBorder(
+                    enabled              = !state.refineHits,
+                    selected             = state.repeatKill && !state.refineHits,
+                    borderColor          = MaterialTheme.colorScheme.outlineVariant,
+                    selectedBorderColor  = SLActive.copy(alpha = 0.5f),
+                ),
+            )
+            FilterChip(
+                selected = state.refineHits,
+                onClick  = viewModel::toggleRefineHits,
+                label    = {
+                    Text(
+                        if (state.refineHits) "Refine: On" else "Refine: Off",
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                        style    = MaterialTheme.typography.labelMedium,
+                    )
+                },
+                shape  = RoundedCornerShape(8.dp),
+                colors = FilterChipDefaults.filterChipColors(
+                    selectedContainerColor = SLActiveContainer,
+                    selectedLabelColor     = SLOnActiveContainer,
+                ),
+                border = FilterChipDefaults.filterChipBorder(
                     enabled              = true,
-                    selected             = state.repeatKill,
+                    selected             = state.refineHits,
                     borderColor          = MaterialTheme.colorScheme.outlineVariant,
                     selectedBorderColor  = SLActive.copy(alpha = 0.5f),
                 ),

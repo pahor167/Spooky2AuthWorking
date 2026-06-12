@@ -25,11 +25,14 @@ import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.SegmentedButton
 import androidx.compose.material3.SegmentedButtonDefaults
 import androidx.compose.material3.SingleChoiceSegmentedButtonRow
+import androidx.compose.material3.Switch
+import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
@@ -105,6 +108,32 @@ fun HuntConfigScreen(
             isError  = params.targetAmplitudeCvText.isNotEmpty() &&
                 (ampVal == null || ampVal <= 0),
         )
+
+        // Refinement mode (original "Continue Refining Hits"): after each kill pass,
+        // re-scan a narrow window around each hit at a halved step and treat the
+        // refined hits — looping until no hits remain or the user stops.
+        Row(
+            modifier              = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment     = Alignment.CenterVertically,
+        ) {
+            Column(Modifier.weight(1f)) {
+                Text("Refine hits", style = MaterialTheme.typography.bodyMedium)
+                Text(
+                    "Re-scan around each hit at finer steps after every kill pass",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            Switch(
+                checked         = state.refineHits,
+                onCheckedChange = { viewModel.toggleRefineHits() },
+                colors          = SwitchDefaults.colors(
+                    checkedTrackColor = SLActive,
+                    checkedThumbColor = MaterialTheme.colorScheme.onPrimary,
+                ),
+            )
+        }
 
         (state.errorMessage ?: validationError)?.let {
             Text(it, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall)

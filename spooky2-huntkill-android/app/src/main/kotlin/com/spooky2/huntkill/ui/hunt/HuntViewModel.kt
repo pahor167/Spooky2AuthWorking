@@ -12,6 +12,7 @@ import com.spooky2.huntkill.core.model.ScanProgress
 import com.spooky2.huntkill.core.model.ScanResult
 import com.spooky2.huntkill.core.scan.KillControl
 import com.spooky2.huntkill.core.scan.PauseGate
+import com.spooky2.huntkill.core.scan.RefinementPlanner
 import com.spooky2.huntkill.data.FrequencyDatabaseSource
 import com.spooky2.huntkill.data.GeneratorSession
 import com.spooky2.huntkill.data.RunHistoryRepository
@@ -197,6 +198,16 @@ data class HuntUiState(
      * control. Mirrors [repeatKillFlag], which the engine reads live each pass-end.
      */
     val repeatKill: Boolean = true,
+    /**
+     * Refinement mode (original Spooky2 "Continue Refining Hits"). When true, each
+     * kill pass runs ONCE (superseding [repeatKill]) and is followed by a refinement
+     * generation: re-scan a narrow window around each hit at a halved step, kill the
+     * refined hits, repeat — until no hits remain, the user toggles it off, or stops.
+     * Mirrors [refineFlag], which the run loop reads live at each pass boundary.
+     */
+    val refineHits: Boolean = false,
+    /** Current Hunt & Kill generation (1 = initial full sweep; 2+ = refinements). */
+    val refineGeneration: Int = 1,
     /**
      * Hit-list view mode shared by the Hits and Kill screens. Compact shows only the
      * frequency per row; details adds deviation + reverse-lookup matches. Toggling it
@@ -424,6 +435,29 @@ class HuntViewModel @Inject constructor(
         _state.update { it.copy(hitsCompactView = compact) }
     }
 
+    /**
+     * Live refinement flag the run loop reads at each kill-pass boundary, mirroring
+     * [HuntUiState.refineHits] — same live-toggle pattern as [repeatKillFlag]. While
+     * true the kill does NOT repeat (one pass per generation); after each pass a
+     * refinement generation re-scans around the hits at a halved step.
+     */
+    private val refineFlag = MutableStateFlow(false)
+
+    /**
+     * True while a refinement generation's sweep is running. Gates [onProgress] so the
+     * narrow-window readings do NOT append to the gen-1 live graph (different grid).
+     */
+    @Volatile
+    private var refinementSweepActive = false
+
+    /** Flip refinement mode. Honored live at the next kill-pass boundary. */
+    fun toggleRefineHits() {
+        val next = !refineFlag.value
+        refineFlag.value = next
+        _state.update { it.copy(refineHits = next) }
+        log.i(TAG, "Refine hits ${if (next) "enabled" else "disabled"}")
+    }
+
     fun updateStartFrequency(v: String) = updateParams { it.copy(startFrequencyText = v) }
     fun updateEndFrequency(v: String) = updateParams { it.copy(endFrequencyText = v) }
     fun updateDwellSeconds(v: String) = updateParams { it.copy(dwellSecondsText = v) }
@@ -500,7 +534,12 @@ class HuntViewModel @Inject constructor(
 
             // Timing depends on the session kind: live hardware uses the original
             // Spooky2 settle delay + amplitude ramp; the demo replay runs fast.
-            val parameters = _state.value.params.toScanParameters(isDemo = session.isDemo)
+            // continueRefining mirrors the UI switch (the run loop reads refineFlag live;
+            // the param keeps the persisted/logged parameters honest).
+            val parameters = _state.value.params
+                .toScanParameters(isDemo = session.isDemo)
+                .copy(continueRefining = refineFlag.value)
+            _state.update { it.copy(refineGeneration = 1) }
             log.i(
                 TAG,
                 "startHunt(${if (session.isDemo) "demo" else "live"}): " +
@@ -661,33 +700,97 @@ class HuntViewModel @Inject constructor(
         hits: List<ScanResult>,
         cycle: Int,
     ) {
-        if (hits.isNotEmpty()) {
+        var currentHits = hits
+        var generation = cycle
+        // Params of the generation that found [currentHits]; refinement halves its step.
+        var huntParams = parameters
+
+        while (currentHits.isNotEmpty()) {
             session.engine.killHits(
-                hits,
-                parameters,
-                { progress -> onProgress(progress, parameters) },
+                currentHits,
+                huntParams,
+                { progress -> onProgress(progress, huntParams) },
                 pauseGate,
-                cycle,
+                generation,
                 killControl,
                 // Read live so a mid-kill repeat toggle is honored at the next pass-end.
                 // With repeat ON this call does not return until the user turns repeat off
                 // (current pass finishes) or cancels — so HuntPhase.Done is reached then.
-                repeatEnabled = { repeatKillFlag.value },
+                // Refinement supersedes repeat: one pass per generation, then refine.
+                repeatEnabled = { repeatKillFlag.value && !refineFlag.value },
             )
+
+            // ── Refinement generations (original "Continue Refining Hits") ──
+            // Checked at each pass boundary so a mid-kill toggle is honored live.
+            if (!refineFlag.value) break
+            kotlin.coroutines.coroutineContext.ensureActive()
+
+            generation++
+            // Window half-width basis = the ORIGINAL gen-1 parameters (constant width
+            // across generations); sweep step = previous generation's step halved.
+            val plan = RefinementPlanner.planNextGeneration(currentHits, huntParams, parameters)
+            val freqs = RefinementPlanner.frequencyStepsFor(plan, huntParams)
+            if (freqs.isEmpty()) {
+                log.i(TAG, "Refinement gen $generation: no scannable window — stopping")
+                break
+            }
+            val scanParams = huntParams.copy(
+                stepSizeHz = plan.nextStepSizeHz,
+                stepSizePercent = plan.nextStepSizePercent,
+            )
+            log.i(
+                TAG,
+                "Refinement gen $generation: ${plan.windows.size} window(s), " +
+                    "${freqs.size} steps at ${"%.5f".format(plan.nextStepSizePercent)}%",
+            )
+            _state.update {
+                it.copy(
+                    refineGeneration = generation,
+                    statusText = "Refining (cycle $generation) — scanning…",
+                )
+            }
+
+            // Narrow-window sweep. The UI stays on the Kill screen (phase unchanged);
+            // [refinementSweepActive] keeps these readings off the gen-1 live graph.
+            // Dropout segments are not surfaced mid-refinement (the gen-1 dropout flow
+            // already gated the run); a dropped refinement read just weakens that hit.
+            refinementSweepActive = true
+            val outcome = try {
+                session.engine.runBiofeedbackScanDetailed(
+                    scanParams,
+                    { progress -> onProgress(progress, scanParams) },
+                    pauseGate,
+                    freqs,
+                )
+            } finally {
+                refinementSweepActive = false
+            }
+
+            currentHits = outcome.hits
+            huntParams = scanParams
+            if (currentHits.isEmpty()) {
+                log.i(TAG, "Refinement gen $generation: no hits — refinement complete")
+                break
+            }
+            log.i(TAG, "Refinement gen $generation: ${currentHits.size} refined hits")
+            // Show the refined hits on the Kill screen (gen-1 graph/markers are kept —
+            // refined frequencies don't map onto the full-range step grid).
+            _state.update { it.copy(hits = currentHits) }
+            runReverseLookup(currentHits, _state.value.lookupTolerancePercent)
         }
         session.engine.finishHuntAndKill(parameters)
 
-        log.i(TAG, "Hunt complete — ${hits.size} hits")
-        hits.forEachIndexed { index, hit ->
+        log.i(TAG, "Hunt complete — ${currentHits.size} hits (generation $generation)")
+        currentHits.forEachIndexed { index, hit ->
             log.i(TAG, "  hit[$index] freq=${"%.2f".format(hit.frequency)} deviation=${hit.deviation}")
         }
         stopElapsedTicker()
-        val finalHits = _state.value.hits.ifEmpty { hits }
+        val finalHits = currentHits.ifEmpty { _state.value.hits.ifEmpty { hits } }
         _state.update {
             it.copy(
                 phase = HuntPhase.Done,
                 hits = finalHits,
-                statusText = "Hunt & Kill complete — ${hits.size} hits",
+                statusText = "Hunt & Kill complete — ${finalHits.size} hits",
                 killDwellRemainingSeconds = 0,
                 isPaused = false,
                 busyAction = null,
@@ -884,7 +987,10 @@ class HuntViewModel @Inject constructor(
         // Grow the live per-step history during the MAIN sweep only (not kill, not the
         // segment re-scan, which publishes its own merged outcome). The main sweep is
         // the only path that produces provisional hits, so gate on that.
-        val isMainSweep = !isKill && !progress.statusText.startsWith("Re-scanning")
+        // Refinement-generation sweeps run on a narrow per-hit grid that does not align
+        // with the gen-1 full-range graph — keep their readings off the live history.
+        val isMainSweep = !isKill && !progress.statusText.startsWith("Re-scanning") &&
+            !refinementSweepActive
         // Lead-in length: the first `raWindow` sweep steps are the unsettled lead-in
         // (the amplitude is still physically settling from the ramp and the detection
         // SMA window has not warmed up). Their low/rising readings are real on the wire
