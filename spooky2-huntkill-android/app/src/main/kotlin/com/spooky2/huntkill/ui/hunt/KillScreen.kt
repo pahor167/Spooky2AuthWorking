@@ -16,6 +16,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
@@ -23,11 +25,12 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.FilterChipDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -247,6 +250,7 @@ fun KillScreen(
                         Row(
                             modifier              = Modifier.fillMaxWidth(),
                             horizontalArrangement = Arrangement.spacedBy(8.dp),
+                            verticalAlignment     = Alignment.CenterVertically,
                         ) {
                             Text(
                                 "${index + 1}. ${hit.frequency.asHz()}",
@@ -259,18 +263,14 @@ fun KillScreen(
                                 modifier   = Modifier.weight(1f),
                             )
                             if (isKilling && !isCurrent) {
-                                TextButton(
-                                    onClick = { viewModel.jumpToHit(index) },
-                                    contentPadding = androidx.compose.foundation.layout.PaddingValues(
-                                        horizontal = 6.dp,
-                                        vertical   = 0.dp,
-                                    ),
-                                    colors = ButtonDefaults.textButtonColors(contentColor = SLPrimary),
+                                IconButton(
+                                    onClick  = { viewModel.jumpToHit(index) },
+                                    modifier = Modifier.size(32.dp),
                                 ) {
-                                    Text(
-                                        "Treat now",
-                                        style   = MaterialTheme.typography.labelMedium,
-                                        maxLines = 1,
+                                    Icon(
+                                        Icons.Filled.PlayArrow,
+                                        contentDescription = "Treat this frequency now",
+                                        tint = SLPrimary,
                                     )
                                 }
                             }

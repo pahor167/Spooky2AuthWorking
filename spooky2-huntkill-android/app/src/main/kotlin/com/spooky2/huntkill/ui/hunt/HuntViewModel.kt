@@ -212,11 +212,12 @@ data class HuntUiState(
     /** Current Hunt & Kill generation (1 = initial full sweep; 2+ = refinements). */
     val refineGeneration: Int = 1,
     /**
-     * Hit-list view mode shared by the Hits and Kill screens. Compact shows only the
-     * frequency per row; details adds deviation + reverse-lookup matches. Toggling it
-     * also standardizes per-row "show all" expansion (screens reset their local maps).
+     * Hit-list view mode shared by the Hits and Kill screens. Compact (the DEFAULT)
+     * shows only the frequency per row; details adds deviation + reverse-lookup
+     * matches. Toggling it also standardizes per-row "show all" expansion (screens
+     * reset their local maps).
      */
-    val hitsCompactView: Boolean = false,
+    val hitsCompactView: Boolean = true,
     val isPaused: Boolean = false,
     val elapsedSeconds: Int = 0,
     val errorMessage: String? = null,
