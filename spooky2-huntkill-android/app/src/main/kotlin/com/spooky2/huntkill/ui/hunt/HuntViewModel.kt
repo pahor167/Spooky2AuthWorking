@@ -890,9 +890,17 @@ class HuntViewModel @Inject constructor(
         fromReRun = true
         savedThisRun = true
         pauseGate.resume()
+        // Re-runs start with refine OFF by default: the typical intent is "treat the
+        // saved list again", not a new biofeedback session. The Kill-screen chip can
+        // still turn refinement on mid-run (honored at the pass boundary). The
+        // pre-re-run setting is restored when this run ends so the next normal hunt
+        // keeps its default.
+        val refineBeforeReRun = refineFlag.value
+        refineFlag.value = false
         _state.update {
             it.copy(
                 phase = HuntPhase.Killing,
+                refineHits = false,
                 statusText = "Re-running ${hits.size} frequencies…",
                 hits = hits,
                 graphMarkers = emptyList(),
@@ -914,11 +922,14 @@ class HuntViewModel @Inject constructor(
         runReverseLookup(hits, _state.value.lookupTolerancePercent)
         startElapsedTicker()
         huntJob = viewModelScope.launch(Dispatchers.Default) {
-            // Re-runs honor the refine flag like any kill: after the pass, re-scan
-            // around the saved frequencies to find today's exact resonances. The
-            // synthesized hits' zero readings don't matter — refinement plans windows
-            // from the frequencies alone.
+            // Re-runs honor the refine flag like any kill (the chip can enable it
+            // mid-run); refinement plans windows from the saved frequencies alone.
+            // Restore the pre-re-run refine setting once this run is over.
             runCatching { proceedToKill(session, parameters, hits, cycle = 1) }
+                .also {
+                    refineFlag.value = refineBeforeReRun
+                    _state.update { s -> s.copy(refineHits = refineBeforeReRun) }
+                }
                 .onFailure { error ->
                     if (error is kotlinx.coroutines.CancellationException) throw error
                     log.e(TAG, "Re-run kill failed: ${error.message}")
