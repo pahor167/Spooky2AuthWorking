@@ -69,6 +69,22 @@ class ScanEngine(private val link: GeneratorLink) {
          */
         frequencyOverride: List<Double>? = null,
     ): ScanOutcome {
+        // A refinement generation re-sweeps narrow windows immediately after a kill
+        // pass: the generator is already warmed up (waveforms loaded, amplitude at
+        // target), so the full Phase-1 setup is skipped. Critically this avoids the
+        // initial `:w24=<startFrequency>` (the 41 kHz reset) and the 330-step ramp,
+        // which would otherwise jump the output back to the bottom of the range and
+        // re-ramp on every refine. We only re-assert amplitude + outputs (the kill's
+        // link.stop() turned them off) and leave the sweep to set frequencies.
+        val isRefinement = frequencyOverride != null
+        if (isRefinement) {
+            onProgress?.invoke(ScanProgress(statusText = "Refining..."))
+            send(GeneratorProtocol.buildSetAmplitudeCv1(parameters.targetAmplitudeCv))
+            send(GeneratorProtocol.buildSetAmplitudeCv2(parameters.targetAmplitudeCv))
+            send(GeneratorProtocol.ENABLE_OUTPUT1)
+            send(GeneratorProtocol.ENABLE_OUTPUT2)
+        } else {
+
         // ══════════════════════════════════════════════════════════
         // PHASE 1: Setup + Amplitude Ramp-Up
         // ══════════════════════════════════════════════════════════
@@ -161,6 +177,7 @@ class ScanEngine(private val link: GeneratorLink) {
         }
 
         if (parameters.startDelayMs > 0) delay(parameters.startDelayMs.toLong())
+        } // end Phase-1 warm-up (fresh hunt only)
 
         // ══════════════════════════════════════════════════════════
         // PHASE 2: Baseline sensor reads (fill RA buffer)
@@ -175,6 +192,15 @@ class ScanEngine(private val link: GeneratorLink) {
 
         val baselineReadings = ArrayList<Double>()
 
+        // Frequency the baseline reads expect on the output. A fresh hunt already set
+        // the start frequency in Phase 1; a refinement starts the baseline near its
+        // first window (NOT 41 kHz), so seed that frequency here first.
+        val baselineFrequencyHz =
+            (if (isRefinement) frequencyOverride?.firstOrNull() else null) ?: parameters.startFrequency
+        if (isRefinement) {
+            send(GeneratorProtocol.buildSetFrequency1(baselineFrequencyHz))
+        }
+
         // Initial standalone angle read.
         run {
             val initAngle = send(GeneratorProtocol.READ_ANGLE)
@@ -185,10 +211,10 @@ class ScanEngine(private val link: GeneratorLink) {
 
         for (b in 0 until parameters.baselineReadCount) {
             coroutineContext.ensureActive()
-            // Baseline reads expect the start frequency on the output — restore it
-            // after a zeroed pause so the remaining baseline reads stay meaningful.
+            // Restore the baseline frequency after a zeroed pause so the remaining
+            // baseline reads stay meaningful.
             pausePoint(pauseGate, parameters) {
-                send(GeneratorProtocol.buildSetFrequencyRawHz(parameters.startFrequency.toInt()))
+                send(GeneratorProtocol.buildSetFrequency1(baselineFrequencyHz))
             }
             // Re-check after resuming: a cancellation that arrived while paused
             // must be honored before the next serial read, mirroring the sweep loop.
