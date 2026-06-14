@@ -3,6 +3,7 @@ package com.spooky2.huntkill.ui.hunt
 import com.spooky2.huntkill.core.lookup.LookupMatch
 import com.spooky2.huntkill.core.lookup.ReverseLookup
 import com.spooky2.huntkill.core.lookup.ReverseLookupParameters
+import com.spooky2.huntkill.core.model.DropoutSegment
 import com.spooky2.huntkill.core.model.ScanOutcome
 import com.spooky2.huntkill.core.model.ScanParameters
 import com.spooky2.huntkill.core.model.ScanProgress
@@ -726,6 +727,117 @@ class GeneratorRunController(
                 _state.update {
                     it.copy(
                         phase = HuntPhase.HitsReadyWithDropouts,
+                        rescanInProgress = false,
+                        isPaused = false,
+                        errorMessage = error.message ?: "Re-scan failed — cable may still be unstable",
+                        busyAction = null,
+                    )
+                }
+            }
+        }
+    }
+
+    /**
+     * MANUAL graph-selection re-scan: re-sweep the user-selected sweep-step range
+     * [[startStep], [endStep]] (long-press start, long-press end on the review graph),
+     * splice the fresh readings over the old history, re-detect hits, and land back in
+     * the SAME review state with updated hits/graph/markers/lookup — it does NOT proceed
+     * to kill. Reuses [ScanEngine.rescanSegments], which already splices the re-read
+     * steps over [lastOutcome] and re-runs [ScanEngine.detectHits].
+     *
+     * Availability: only when a completed sweep history exists ([lastOutcome] != null) —
+     * i.e. the Hits / dropout-review screen or the Done graph. It is NOT safe to invoke
+     * while a fresh sweep is actively running on the same transport: there is a single
+     * serial line, so re-entering a sweep over a live one would interleave commands on
+     * the same wire. The host only surfaces the selection affordance off an active sweep,
+     * and the [lastOutcome]/parameters guard below no-ops in any unexpected state.
+     */
+    fun rescanManualRange(startStep: Int, endStep: Int) {
+        val session = liveSession() ?: run {
+            log.e(TAG, "Manual re-scan blocked: not connected")
+            return
+        }
+        val parameters = activeParameters ?: run {
+            log.e(TAG, "Manual re-scan blocked: no active parameters")
+            return
+        }
+        val outcome = lastOutcome ?: run {
+            log.e(TAG, "Manual re-scan blocked: no completed sweep to splice")
+            return
+        }
+
+        val lastIndex = outcome.sweepReadings.lastIndex
+        if (lastIndex < 0) {
+            log.e(TAG, "Manual re-scan blocked: empty sweep history")
+            return
+        }
+        val lo = minOf(startStep, endStep).coerceIn(0, lastIndex)
+        val hi = maxOf(startStep, endStep).coerceIn(0, lastIndex)
+
+        // The review phase to restore on failure (or success): dropouts present ⇒
+        // the warning state, else the clean Hits state.
+        val reviewPhase = if (outcome.segments.isEmpty()) {
+            HuntPhase.HitsReady
+        } else {
+            HuntPhase.HitsReadyWithDropouts
+        }
+
+        val freqs = com.spooky2.huntkill.core.scan.ScanEngine.calculateFrequencySteps(parameters)
+        val seg = DropoutSegment(
+            startStep = lo,
+            endStep = hi,
+            startFrequency = freqs.getOrElse(lo) { parameters.startFrequency },
+            endFrequency = freqs.getOrElse(hi) { parameters.endFrequency },
+        )
+
+        log.i(TAG, "Manual re-scan of steps $lo..$hi (${seg.stepCount} steps)")
+        pauseGate.resume()
+        _state.update {
+            it.copy(
+                phase = HuntPhase.Hunting,
+                rescanInProgress = true,
+                isPaused = false,
+                errorMessage = null,
+                busyAction = "Re-scanning selection…",
+            )
+        }
+        startElapsedTicker()
+        huntJob = scope.launch(Dispatchers.Default) {
+            runCatching {
+                // Mutual-exclusion: this re-enters a Hunting sweep on the shared hunt
+                // slot, so pause any OTHER running hunt first (consistent with
+                // rescanAffectedSegments).
+                onAcquireHuntSlot()
+                val merged = session.engine.rescanSegments(
+                    parameters,
+                    listOf(seg),
+                    outcome,
+                    onProgress = { progress -> onProgress(progress, parameters) },
+                    pauseGate = pauseGate,
+                )
+                lastOutcome = merged
+                log.i(
+                    TAG,
+                    "Manual re-scan merged: ${merged.segments.size} dropout(s), ${merged.hits.size} hits",
+                )
+                publishSweepOutcome(merged)
+                stopElapsedTicker()
+                // Land back in the SAME review state — do NOT proceed to kill.
+                _state.update {
+                    it.copy(
+                        phase = if (merged.segments.isEmpty()) HuntPhase.HitsReady else HuntPhase.HitsReadyWithDropouts,
+                        rescanInProgress = false,
+                        busyAction = null,
+                        hits = merged.hits,
+                    )
+                }
+            }.onFailure { error ->
+                if (error is kotlinx.coroutines.CancellationException) throw error
+                log.e(TAG, "Manual re-scan failed: ${error.message}")
+                stopElapsedTicker()
+                _state.update {
+                    it.copy(
+                        phase = reviewPhase,
                         rescanInProgress = false,
                         isPaused = false,
                         errorMessage = error.message ?: "Re-scan failed — cable may still be unstable",

@@ -524,6 +524,16 @@ class HuntViewModel @Inject constructor(
     fun rescanAffectedSegments() { activeController()?.rescanAffectedSegments() }
 
     /**
+     * MANUAL graph-selection re-scan: re-sweep the user-selected sweep-step range
+     * (long-press start/end on the review graph), splice the fresh readings over the
+     * history, re-detect hits, and stay in the same review state (no auto-kill).
+     * See [GeneratorRunController.rescanManualRange].
+     */
+    fun rescanManualRange(startStep: Int, endStep: Int) {
+        activeController()?.rescanManualRange(startStep, endStep)
+    }
+
+    /**
      * Toggle pause/resume on the running hunt. While paused the engine holds at the
      * current frequency (no new commands), the sweep progress and kill countdown
      * freeze, and the elapsed clock stops advancing.

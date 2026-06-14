@@ -80,6 +80,14 @@ fun HitsScreen(
         MarkerDetailSheet(marker = marker, viewModel = viewModel, onDismiss = { selectedMarker = null })
     }
 
+    // Manual graph-selection range (long-press start/end on the scan graph). The graph
+    // is only selectable on the review screen with a completed history that is not being
+    // actively re-swept; an active fresh sweep shares the single serial line and is unsafe.
+    var graphSelection by remember { mutableStateOf<IntRange?>(null) }
+    val selectionAvailable = state.fullHistory.isNotEmpty() && !state.rescanInProgress
+    // Drop a stale selection if the underlying history changed (e.g. after a re-scan).
+    LaunchedEffect(state.fullHistory.size) { graphSelection = null }
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -124,12 +132,34 @@ fun HitsScreen(
                 }
                 item {
                     ScrollableReadingGraph(
-                        readings    = state.fullHistory,
-                        valid       = state.historyValid,
-                        markers     = state.graphMarkers,
-                        onMarkerTap = { selectedMarker = it },
-                        modifier    = Modifier.fillMaxWidth().height(110.dp),
+                        readings          = state.fullHistory,
+                        valid             = state.historyValid,
+                        markers           = state.graphMarkers,
+                        onMarkerTap       = { selectedMarker = it },
+                        modifier          = Modifier.fillMaxWidth().height(110.dp),
+                        selectionEnabled  = selectionAvailable,
+                        onSelectionChange = { graphSelection = it },
                     )
+                }
+                if (selectionAvailable) {
+                    graphSelection?.let { range ->
+                        item {
+                            ManualRescanRow(
+                                range    = range,
+                                lastStep = state.fullHistory.lastIndex,
+                                busy     = state.rescanInProgress,
+                                onRescanSelection = {
+                                    viewModel.rescanManualRange(range.first, range.last)
+                                    graphSelection = null
+                                },
+                                onRescanFromStart = {
+                                    viewModel.rescanManualRange(range.first, state.fullHistory.lastIndex)
+                                    graphSelection = null
+                                },
+                                onClear = { graphSelection = null },
+                            )
+                        }
+                    }
                 }
             }
 
@@ -335,6 +365,74 @@ private fun DropoutWarningCard(
             ) {
                 Text("Continue anyway", maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
+        }
+    }
+}
+
+/**
+ * Action row under the scan graph once the user has long-pressed a start AND end on the
+ * graph. "Re-scan selection" re-sweeps just the chosen range; "Re-scan from start"
+ * re-sweeps from the selection start to the end of the sweep; "Clear" drops the selection.
+ * All re-scans splice over the existing history and stay in the review state (no kill).
+ */
+@Composable
+private fun ManualRescanRow(
+    range: IntRange,
+    lastStep: Int,
+    busy: Boolean,
+    onRescanSelection: () -> Unit,
+    onRescanFromStart: () -> Unit,
+    onClear: () -> Unit,
+) {
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        Text(
+            "Selected steps ${range.first}–${range.last} (${range.last - range.first + 1} steps)",
+            style = MonoNumberSmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        Row(
+            modifier              = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            Button(
+                onClick  = onRescanSelection,
+                enabled  = !busy,
+                modifier = Modifier.weight(1f),
+                shape    = RoundedCornerShape(8.dp),
+                colors   = ButtonDefaults.buttonColors(
+                    containerColor = SLActive,
+                    contentColor   = SLOnActiveContainer,
+                ),
+            ) {
+                if (busy) {
+                    CircularProgressIndicator(
+                        modifier    = Modifier.size(14.dp),
+                        strokeWidth = 2.dp,
+                        color       = SLOnActiveContainer,
+                    )
+                    Spacer(Modifier.size(6.dp))
+                }
+                Text("Re-scan selection", maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
+            OutlinedButton(
+                onClick  = onClear,
+                enabled  = !busy,
+                shape    = RoundedCornerShape(8.dp),
+                colors   = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface),
+                border   = BorderStroke(1.dp, MaterialTheme.colorScheme.outline),
+            ) {
+                Text("Clear", maxLines = 1)
+            }
+        }
+        OutlinedButton(
+            onClick  = onRescanFromStart,
+            enabled  = !busy && range.first < lastStep,
+            modifier = Modifier.fillMaxWidth(),
+            shape    = RoundedCornerShape(8.dp),
+            colors   = ButtonDefaults.outlinedButtonColors(contentColor = SLActive),
+            border   = BorderStroke(1.dp, SLActive.copy(alpha = 0.5f)),
+        ) {
+            Text("Re-scan from start of selection to end", maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
     }
 }

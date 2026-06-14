@@ -5,6 +5,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -56,6 +57,7 @@ import com.spooky2.huntkill.ui.theme.SLPrimary
 import com.spooky2.huntkill.ui.theme.SectionLabel
 import kotlinx.coroutines.launch
 import kotlin.math.abs
+import kotlin.math.roundToInt
 
 /** Px width allotted per reading on the virtual (scrollable) graph canvas. */
 private val PX_PER_POINT_DP = 2.dp
@@ -83,8 +85,21 @@ fun ScrollableReadingGraph(
     markers: List<GraphMarker>,
     onMarkerTap: (GraphMarker) -> Unit,
     modifier: Modifier = Modifier,
+    /**
+     * When true, a long-press marks a selection start, a second long-press marks the end,
+     * and a third resets to a new start. Used by the review screen to let the user pick a
+     * sweep-step range to manually re-scan. Off by default so the live graph is unchanged.
+     */
+    selectionEnabled: Boolean = false,
+    /**
+     * Invoked whenever the manual selection becomes COMPLETE (both ends set) with the
+     * normalized inclusive step range, or with null when the selection is cleared/reset.
+     * The host reads this to render the "Re-scan selection" action buttons.
+     */
+    onSelectionChange: ((IntRange?) -> Unit)? = null,
 ) {
     val lineColor    = SLPrimary
+    val selectionBand = SLActive.copy(alpha = 0.18f)
     val dropoutColor = SLError.copy(alpha = 0.18f)
     val gridColor    = Color(0xFF1A1E25)
     val baselineColor = Color(0xFF222831)
@@ -100,6 +115,17 @@ fun ScrollableReadingGraph(
     val markerRadius  = with(density) { MARKER_RADIUS_DP.toPx() }
     val touchSlop     = with(density) { MARKER_TOUCH_DP.toPx() }
     val contentWidthDp = with(density) { (readings.size * pxPerPoint).toDp() }
+
+    // Manual range selection: first long-press sets selStart, second sets selEnd, a
+    // third resets to a new selStart. Both are 0-based sweep-step indices into [readings].
+    var selStart by remember(selectionEnabled) { mutableStateOf<Int?>(null) }
+    var selEnd by remember(selectionEnabled) { mutableStateOf<Int?>(null) }
+
+    fun clearSelection() {
+        selStart = null
+        selEnd = null
+        onSelectionChange?.invoke(null)
+    }
 
     var following by remember { mutableStateOf(true) }
     val atEnd by remember {
@@ -176,6 +202,37 @@ fun ScrollableReadingGraph(
                             if (within) best?.let(onMarkerTap)
                         }
                     }
+                }
+                // Long-press selection lives on a SEPARATE pointerInput so it never
+                // disturbs the tap-to-open-marker / scroll gesture above. The press X is
+                // in scrolled content coords (the Canvas is the scrolled content), mapped
+                // to a step via the same pxPerPoint the trace is drawn with.
+                .pointerInput(selectionEnabled, readings.size) {
+                    if (!selectionEnabled) return@pointerInput
+                    detectTapGestures(
+                        onLongPress = { pos ->
+                            if (readings.size < 2) return@detectTapGestures
+                            val step = (pos.x / pxPerPoint).roundToInt()
+                                .coerceIn(0, readings.lastIndex)
+                            when {
+                                // No start yet, or both already set (reset): begin anew.
+                                selStart == null || selEnd != null -> {
+                                    selStart = step
+                                    selEnd = null
+                                    onSelectionChange?.invoke(null)
+                                }
+                                // Start set, end not yet: complete the selection.
+                                else -> {
+                                    val s = selStart ?: step
+                                    val lo = minOf(s, step)
+                                    val hi = maxOf(s, step)
+                                    selStart = lo
+                                    selEnd = hi
+                                    onSelectionChange?.invoke(lo..hi)
+                                }
+                            }
+                        },
+                    )
                 },
         ) {
             if (readings.size < 2) return@Canvas
@@ -245,6 +302,48 @@ fun ScrollableReadingGraph(
                 val my = h * (1f - (readings[m.stepIndex] - minV) / range)
                 drawCircle(color = ringColor,                                      radius = markerRadius + 2f, center = Offset(mx, my))
                 drawCircle(color = if (m.isFinal) finalDot else provisionalDot,   radius = markerRadius,      center = Offset(mx, my))
+            }
+
+            // Manual-selection overlay: a translucent band between the two chosen steps
+            // plus a vertical line + handle at each end (SLActive theme accent).
+            if (selectionEnabled) {
+                val startX = selStart?.let { it * pxPerPoint }
+                val endX = selEnd?.let { it * pxPerPoint }
+                if (startX != null && endX != null) {
+                    val bandLo = minOf(startX, endX)
+                    val bandHi = maxOf(startX, endX)
+                    drawRect(
+                        color   = selectionBand,
+                        topLeft = Offset(bandLo, 0f),
+                        size    = Size((bandHi - bandLo).coerceAtLeast(1f), h),
+                    )
+                }
+                for (edge in listOfNotNull(startX, endX)) {
+                    drawLine(
+                        color = SLActive,
+                        start = Offset(edge, 0f),
+                        end   = Offset(edge, h),
+                        strokeWidth = 2f,
+                    )
+                    drawCircle(color = SLActive, radius = markerRadius, center = Offset(edge, h / 2f))
+                }
+            }
+        }
+
+        // Clear-selection affordance, shown once a start is placed.
+        if (selectionEnabled && selStart != null) {
+            Button(
+                onClick = { clearSelection() },
+                modifier = Modifier
+                    .align(Alignment.TopEnd)
+                    .padding(6.dp),
+                shape   = RoundedCornerShape(6.dp),
+                colors  = ButtonDefaults.buttonColors(
+                    containerColor = SLActive,
+                    contentColor   = SLOnActive,
+                ),
+            ) {
+                Text("✕", style = MaterialTheme.typography.labelMedium, maxLines = 1)
             }
         }
 
