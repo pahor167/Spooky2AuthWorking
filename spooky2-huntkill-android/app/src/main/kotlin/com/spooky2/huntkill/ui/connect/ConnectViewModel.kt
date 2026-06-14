@@ -56,23 +56,32 @@ class ConnectViewModel @Inject constructor(
 
     /**
      * Real USB connect: auto-detect the first supported generator, request permission
-     * once, and connect to port 0. No port picker here — switching to the other
-     * generator (if any) happens on the Hunt config screen.
+     * once, and open ALL available ports simultaneously.
+     *
+     * Each port becomes its own [GeneratorSession] stored in [SessionHolder] at its
+     * port index. The UI status is driven by the primary (port 0) session — the same
+     * single-session callers downstream (HuntViewModel, back-compat shims) observe key 0
+     * unchanged.
      */
     fun connectUsb() {
         if (_state.value.status == ConnectStatus.Connecting) return
 
         _state.update { it.copy(status = ConnectStatus.Connecting, errorMessage = null) }
-        log.i(TAG, "USB connect attempt (port 0)")
+        log.i(TAG, "USB connect attempt (all ports)")
 
         viewModelScope.launch {
-            runCatching { usbConnectionManager.connect() }
-                .onSuccess { session ->
-                    sessionHolder.set(session)
-                    // Live USB session is reused across hunts — do NOT reconnect.
+            runCatching { usbConnectionManager.connectAll() }
+                .onSuccess { sessions ->
+                    sessions.forEach { session ->
+                        val portIndex = session.usbPort?.index ?: 0
+                        sessionHolder.put(portIndex, session)
+                    }
+                    // Live USB sessions are reused across hunts — do NOT reconnect.
                     sessionHolder.setReconnect(null)
-                    logConnected("USB", session)
-                    setConnected(session)
+                    // Drive UI from the primary (port-0) session for back-compat.
+                    val primary = sessions.firstOrNull() ?: return@onSuccess
+                    logConnected("USB", primary)
+                    setConnected(primary)
                 }
                 .onFailure { error -> fail("USB", error) }
         }

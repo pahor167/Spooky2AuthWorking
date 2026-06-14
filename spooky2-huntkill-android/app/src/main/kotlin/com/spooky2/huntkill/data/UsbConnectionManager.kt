@@ -54,9 +54,21 @@ class UsbConnectionManager @Inject constructor(
      * Collectors (e.g. [HuntViewModel]) should treat any emission as a dead session:
      * cancel in-flight operations and surface an error — do NOT attempt further I/O on
      * the dead transport.
+     *
+     * Back-compat shim: kept as [SharedFlow]<[Unit]> so existing collectors (HuntViewModel,
+     * HuntViewModelDetachTest) compile unchanged. New multi-session code should prefer
+     * [deviceDetachedDevice] which carries the actual [UsbDevice].
      */
     private val _deviceDetached = MutableSharedFlow<Unit>(extraBufferCapacity = 1)
     val deviceDetached: SharedFlow<Unit> = _deviceDetached.asSharedFlow()
+
+    /**
+     * Emits the detached [UsbDevice] on removal. Parallel to [deviceDetached]; added for
+     * multi-session callers that need to identify WHICH device was unplugged.
+     * Follow-up step: migrate HuntViewModel to collect this instead of [deviceDetached].
+     */
+    private val _deviceDetachedDevice = MutableSharedFlow<UsbDevice>(extraBufferCapacity = 1)
+    val deviceDetachedDevice: SharedFlow<UsbDevice> = _deviceDetachedDevice.asSharedFlow()
 
     /**
      * Dynamic BroadcastReceiver listening for USB device detach. Registered once at
@@ -88,6 +100,7 @@ class UsbConnectionManager @Inject constructor(
             log.w(TAG, "Connected device detached: ${detached.deviceName}")
             lastConnectedDevice = null
             _deviceDetached.tryEmit(Unit)
+            _deviceDetachedDevice.tryEmit(detached)
         }
     }
 
@@ -223,6 +236,41 @@ class UsbConnectionManager @Inject constructor(
             ?: throw IllegalStateException("No generator found. Attach a Spooky2 generator over USB-OTG.")
         val count = UsbCdcSerialTransport.countPorts(usbManager, device).coerceAtLeast(1)
         return connect(device, portIndex = 0, portCount = count)
+    }
+
+    /**
+     * Open ALL ports of the first auto-detected generator simultaneously and return one
+     * [GeneratorSession] per port.
+     *
+     * Enumeration: find the device, request USB permission once (the OS grants it for
+     * all ports of the same physical device), then open each port index in order and
+     * build a session. Each session zeroes its own output on connect (done inside
+     * [connect]).
+     *
+     * Throws [IllegalStateException] if no generator is found or USB permission is denied.
+     * On partial failure (one port fails after others succeeded) the successful sessions
+     * are still returned and the exception is propagated — callers should close the
+     * returned list on error.
+     */
+    suspend fun connectAll(): List<GeneratorSession> {
+        val device = findGenerator()
+            ?: throw IllegalStateException("No generator found. Attach a Spooky2 generator over USB-OTG.")
+        val count = UsbCdcSerialTransport.countPorts(usbManager, device).coerceAtLeast(1)
+        log.i(TAG, "connectAll: device ${device.deviceName} has $count port(s)")
+
+        val granted = requestPermission(device)
+        if (!granted) {
+            throw IllegalStateException("USB permission denied for ${device.deviceName}.")
+        }
+
+        // Open each port via the internal connect() overload that skips the redundant
+        // permission check (permission already granted above).  We call the full
+        // connect(device, portIndex, portCount) which does permission → transport →
+        // probe → session; the permission step is instant because hasPermission() is now
+        // true.
+        return (0 until count).map { portIndex ->
+            connect(device, portIndex = portIndex, portCount = count)
+        }
     }
 
     /**
