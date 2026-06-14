@@ -24,11 +24,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.core.lookup.LookupMatch
 import com.spooky2.huntkill.ui.common.ConditionTags
+import com.spooky2.huntkill.ui.common.ConfirmDialog
 import com.spooky2.huntkill.data.RunHit
 import com.spooky2.huntkill.data.RunRecord
 import com.spooky2.huntkill.ui.common.asHz
@@ -48,10 +52,14 @@ fun HistoryDetailScreen(
     viewModel: HistoryViewModel,
     onReRun: (RunRecord) -> Unit,
     onBack: () -> Unit = {},
+    // True while a hunt/kill is currently running (or paused). Re-running a saved run
+    // then needs explicit confirmation — it stops the active run first.
+    isHuntRunning: Boolean = false,
 ) {
     val state by viewModel.state.collectAsState()
     LaunchedEffect(runId) { viewModel.loadDetail(runId) }
 
+    var showRunningConfirm by remember { mutableStateOf(false) }
     val run = state.selected
     Column(
         modifier = Modifier
@@ -103,7 +111,7 @@ fun HistoryDetailScreen(
 
         Spacer(Modifier.height(4.dp))
         Button(
-            onClick  = { onReRun(run) },
+            onClick  = { if (isHuntRunning) showRunningConfirm = true else onReRun(run) },
             modifier = Modifier.fillMaxWidth(),
             enabled  = run.hits.isNotEmpty(),
             shape    = RoundedCornerShape(8.dp),
@@ -114,6 +122,17 @@ fun HistoryDetailScreen(
         ) {
             Text("Re-run treatment", maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
+    }
+
+    if (showRunningConfirm) {
+        ConfirmDialog(
+            title        = "A run is in progress",
+            text         = "Hunt & Kill is currently running. Re-running these saved " +
+                "frequencies will stop the current run and start treating the saved list.",
+            confirmLabel = "Stop & re-run",
+            onConfirm    = { showRunningConfirm = false; run?.let(onReRun) },
+            onDismiss    = { showRunningConfirm = false },
+        )
     }
 }
 

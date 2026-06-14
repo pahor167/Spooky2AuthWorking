@@ -859,11 +859,19 @@ class HuntViewModel @Inject constructor(
         amplitudeCv: Int,
         deviations: List<Double> = emptyList(),
     ): Boolean {
-        if (huntJob?.isActive == true) return false
         if (freqs.isEmpty()) return false
         val session = sessionHolder.current() ?: run {
             log.e(TAG, "Re-run blocked: not connected")
             return false
+        }
+        // A hunt/kill may be running (or paused) on this session. Stop it and reuse the
+        // session for the re-run — the caller confirms this with the user first. The new
+        // kill re-programs the generator immediately, so the old frequency is overwritten.
+        if (huntJob?.isActive == true) {
+            log.i(TAG, "Re-run over an active run — cancelling it first")
+            huntJob?.cancel()
+            huntJob = null
+            stopElapsedTicker()
         }
 
         val parameters = ScanParameters(

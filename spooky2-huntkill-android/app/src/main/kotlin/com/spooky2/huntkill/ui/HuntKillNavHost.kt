@@ -17,6 +17,7 @@ import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
@@ -223,10 +224,12 @@ fun HuntKillNavHost(navController: NavHostController = rememberNavController()) 
                 val runId            = entry.arguments?.getString("id").orEmpty()
                 val historyViewModel = hiltViewModel<HistoryViewModel>()
                 val huntViewModel    = sharedHuntViewModel(navController)
+                val huntState by huntViewModel.state.collectAsState()
                 HistoryDetailScreen(
-                    runId     = runId,
-                    viewModel = historyViewModel,
-                    onBack    = { navController.popBackStack() },
+                    runId         = runId,
+                    viewModel     = historyViewModel,
+                    onBack        = { navController.popBackStack() },
+                    isHuntRunning = huntState.isRunning,
                     onReRun   = { run ->
                         val started = huntViewModel.startKillFromFrequencies(
                             freqs          = run.hits.map { it.frequency },
