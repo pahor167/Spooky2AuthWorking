@@ -148,10 +148,14 @@ class HuntViewModelCancelTest {
         val viewModel = HuntViewModel(holder, LogBus())
 
         // Force the stuck-spinner state the same way rescanAffectedSegments would set it.
-        val stateField = viewModel.javaClass.getDeclaredField("_state")
+        // State now lives in the active GeneratorRunController, so reflect on ITS `_state`.
+        val controller = requireNotNull(viewModel.activeControllerForTest()) {
+            "expected an active controller for the connected session"
+        }
+        val stateField = controller.javaClass.getDeclaredField("_state")
         stateField.isAccessible = true
         @Suppress("UNCHECKED_CAST")
-        val mutableState = stateField.get(viewModel)
+        val mutableState = stateField.get(controller)
             as kotlinx.coroutines.flow.MutableStateFlow<HuntUiState>
         mutableState.value = mutableState.value.copy(rescanInProgress = true)
 

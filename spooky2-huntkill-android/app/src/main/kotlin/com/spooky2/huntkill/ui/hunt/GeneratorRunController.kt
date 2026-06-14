@@ -26,7 +26,11 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.withContext
 
@@ -35,9 +39,9 @@ import kotlinx.coroutines.withContext
  *
  * One controller drives one generator's run lifecycle: sweep, dropout handling, kill,
  * refinement, reverse lookup, pause/jump/cancel, and the foreground-service notifier.
- * It writes to the [_state]/[_events] passed in by the coordinator (so the coordinator
- * keeps a single source of truth that the UI observes) and launches its coroutines on
- * the injected [scope].
+ * It owns its OWN [_state]/[_events] (each connected generator has an independent run
+ * snapshot the coordinator switches between by tab) and launches its coroutines on the
+ * injected [scope].
  *
  * Session resolution mirrors [HuntViewModel] exactly:
  *  - [liveSession] returns the currently-connected session (SessionHolder.current()),
@@ -47,11 +51,9 @@ import kotlinx.coroutines.withContext
  *    single-use FakeTransport session each run.
  */
 class GeneratorRunController(
-    val index: Int,
+    index: Int,
     private val scope: CoroutineScope,
     private val log: LogBus,
-    private val _state: MutableStateFlow<HuntUiState>,
-    private val _events: Channel<String>,
     private val liveSession: () -> GeneratorSession?,
     private val acquireSession: suspend () -> GeneratorSession?,
     private val frequencyDatabase: FrequencyDatabaseSource? = null,
@@ -59,6 +61,43 @@ class GeneratorRunController(
     private val runNotifier: ScanRunNotifier? = null,
     private val onAcquireHuntSlot: suspend () -> Unit = {},
 ) {
+
+    /** Position in the coordinator's controller list; updated on a list rebuild via [rebindIndex]. */
+    var index: Int = index
+        private set
+
+    /**
+     * The registry (USB port) key this controller is bound to, or null for the single-session
+     * default placeholder. Used by the coordinator to reuse a running controller when the
+     * session map changes rather than recreating it.
+     */
+    var portKey: Int? = null
+        private set
+
+    /** Bind this controller to a registry port key (coordinator only). */
+    fun bindPortKey(key: Int) { portKey = key }
+
+    /** Update this controller's tab position after a list rebuild (coordinator only). */
+    fun rebindIndex(newIndex: Int) { index = newIndex }
+
+    /**
+     * This controller's own run snapshot — the single source of truth for ONE generator.
+     * The coordinator exposes the active controller's [state] to the UI and flips between
+     * controllers on tab switch. Seeded with the generator info if a session is already
+     * connected at construction.
+     */
+    private val _state = MutableStateFlow(HuntUiState())
+    val state: StateFlow<HuntUiState> = _state.asStateFlow()
+
+    /** One-shot UI messages (snackbars) for THIS controller, e.g. "Generator zeroed". */
+    private val _events = Channel<String>(Channel.BUFFERED)
+    val events: Flow<String> = _events.receiveAsFlow()
+
+    init {
+        // Seed the connection chip from the session bound at construction (if any), so a
+        // pre-connected generator shows its info immediately without waiting for a refresh.
+        refreshGeneratorInfo()
+    }
 
     private var huntJob: Job? = null
 
@@ -866,6 +905,21 @@ class GeneratorRunController(
         }
         log.i(TAG, if (nowPaused) "Hunt paused (hold)" else "Hunt resumed")
         _state.update { it.copy(isPaused = nowPaused) }
+        publishRunStatus()
+    }
+
+    /**
+     * Pause THIS controller's hunt because ANOTHER generator is acquiring the hunt slot
+     * (hunt mutual-exclusion). Only acts when this controller is actively Hunting and not
+     * already paused; kills are unaffected. Holds the engine at the current frequency via
+     * [pauseGate] and mirrors the pause into the UI snapshot. Called by the coordinator's
+     * [HuntViewModel.pauseOtherHunts] from the acquiring controller's onAcquireHuntSlot hook.
+     */
+    fun pauseForExclusion() {
+        if (_state.value.phase != HuntPhase.Hunting || _state.value.isPaused) return
+        log.i(TAG, "Pausing hunt for mutual-exclusion (another generator acquired the slot)")
+        pauseGate.pause()
+        _state.update { it.copy(isPaused = true) }
         publishRunStatus()
     }
 

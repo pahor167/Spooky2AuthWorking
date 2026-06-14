@@ -1,5 +1,6 @@
 package com.spooky2.huntkill.ui.hunt
 
+import androidx.annotation.VisibleForTesting
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.spooky2.huntkill.core.lookup.LookupMatch
@@ -13,15 +14,20 @@ import com.spooky2.huntkill.data.SessionHolder
 import com.spooky2.huntkill.data.UsbConnectionManager
 import com.spooky2.huntkill.log.LogBus
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.channels.Channel
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.receiveAsFlow
-import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
 import javax.inject.Inject
+import kotlin.math.max
 
 /** Phase the Hunt→Kill flow is currently in. */
 enum class HuntPhase { Idle, Hunting, HitsReady, HitsReadyWithDropouts, Killing, Done, Cancelled, Error }
@@ -233,11 +239,30 @@ data class HuntUiState(
 }
 
 /**
- * Thin holder over a single [GeneratorRunController]. Owns the shared [_state]/[_events]
- * (the single source of truth the UI observes) and the [SessionHolder], and forwards every
- * public method to the controller. The run logic lives entirely in the controller; this
- * keystone keeps behaviour identical while making the run lifecycle reusable per-generator
- * for the upcoming multi-generator refactor.
+ * Lightweight, observe-only summary of ONE generator's run, used to render the generator
+ * tab strip without subscribing each tab to a full [HuntUiState]. Built by combining every
+ * controller's state; the active tab's full state still drives the screens.
+ */
+data class GeneratorTabInfo(
+    /** Position of this controller in the coordinator's controller list (= tab index). */
+    val index: Int,
+    /** Display label: the generator's serial/port label, else "Generator N". */
+    val label: String,
+    val phase: HuntPhase,
+    val isPaused: Boolean,
+    /** Seconds remaining: kill dwell while Killing, else the sweep estimate. */
+    val timeLeftSeconds: Int,
+)
+
+/**
+ * Multi-generator coordinator over N [GeneratorRunController]s — one per connected
+ * generator. Each controller owns its OWN run state; the coordinator exposes the ACTIVE
+ * controller's [state]/[events] (flipped instantly by [setActiveGenerator], no I/O) and an
+ * aggregate [tabs] strip. It rebuilds the controller list as [SessionHolder.sessions]
+ * changes (reusing running controllers), routes every public action to the active
+ * controller, and enforces hunt mutual-exclusion (starting/resuming a hunt pauses any other
+ * running hunt). Single-generator behaviour is preserved exactly: there is always at least
+ * one controller, so routed calls and [state] behave as the old single-controller holder did.
  */
 @HiltViewModel
 class HuntViewModel @Inject constructor(
@@ -257,36 +282,170 @@ class HuntViewModel @Inject constructor(
     private val runNotifier: ScanRunNotifier? = null,
 ) : ViewModel() {
 
-    // Owned here (not in the controller) so the UI observes one source of truth and the
-    // existing cancel test's reflection on `_state` continues to address the live flow.
-    private val _state = MutableStateFlow(HuntUiState())
-    val state: StateFlow<HuntUiState> = _state.asStateFlow()
+    /**
+     * One [GeneratorRunController] per connected generator, keyed by ascending registry
+     * (port) order. There is ALWAYS at least one controller: when no session is connected
+     * a single default controller at index 0 stands in so single-generator behaviour (and
+     * the empty-holder JVM tests) work exactly as the old single-controller holder did.
+     */
+    private val _controllers = MutableStateFlow<List<GeneratorRunController>>(emptyList())
 
-    /** One-shot UI messages (snackbars), e.g. "Generator zeroed". */
-    private val _events = Channel<String>(Channel.BUFFERED)
-    val events: Flow<String> = _events.receiveAsFlow()
+    /** Index of the controller whose state/events the UI currently observes (selected tab). */
+    private val _activeIndex = MutableStateFlow(0)
+    val activeIndex: StateFlow<Int> = _activeIndex.asStateFlow()
 
-    /** The single run controller this holder wraps. */
-    private val controller = GeneratorRunController(
-        index = 0,
-        scope = viewModelScope,
-        log = log,
-        _state = _state,
-        _events = _events,
-        // Live session getter: each entry method resolves the currently-connected session
-        // exactly as the monolith did (sessionHolder.current()), preserving null/error guards.
-        liveSession = { sessionHolder.current() },
-        // Per-run reconnect seam: startHunt rebuilds a fresh replay session (tests) or reuses
-        // the open live session — the SessionHolder.acquireForHunt() contract, unchanged.
-        acquireSession = { sessionHolder.acquireForHunt() },
-        frequencyDatabase = frequencyDatabase,
-        runHistory = runHistory,
-        runNotifier = runNotifier,
-    )
+    /**
+     * The active controller's run snapshot, re-pointed instantly on a tab switch. Eagerly
+     * shared so `state.value` is always current for tests that read it synchronously right
+     * after construction or a routed call.
+     */
+    @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
+    val state: StateFlow<HuntUiState> =
+        combine(_controllers, _activeIndex) { list, i -> list.getOrNull(i) }
+            .flatMapLatest { it?.state ?: flowOf(HuntUiState()) }
+            .stateIn(viewModelScope, SharingStarted.Eagerly, HuntUiState())
+
+    /** One-shot UI messages (snackbars) from the ACTIVE controller, e.g. "Generator zeroed". */
+    @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
+    val events: Flow<String> =
+        combine(_controllers, _activeIndex) { list, i -> list.getOrNull(i) }
+            .flatMapLatest { it?.events ?: flowOf() }
+
+    /**
+     * Aggregate tab strip: one [GeneratorTabInfo] per controller, recomputed whenever any
+     * controller's state changes. Eagerly shared with an empty initial value.
+     */
+    @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
+    val tabs: StateFlow<List<GeneratorTabInfo>> =
+        _controllers
+            .flatMapLatest { list ->
+                if (list.isEmpty()) {
+                    flowOf(emptyList())
+                } else {
+                    combine(list.map { it.state }) { states ->
+                        states.mapIndexed { index, s ->
+                            GeneratorTabInfo(
+                                index = index,
+                                label = s.generator?.activeLabel() ?: "Generator ${index + 1}",
+                                phase = s.phase,
+                                isPaused = s.isPaused,
+                                timeLeftSeconds = if (s.phase == HuntPhase.Killing) {
+                                    s.killDwellRemainingSeconds
+                                } else {
+                                    s.estimatedRemainingSeconds
+                                },
+                            )
+                        }
+                    }
+                }
+            }
+            .stateIn(viewModelScope, SharingStarted.Eagerly, emptyList())
 
     init {
-        controller.refreshGeneratorInfo()
+        // Build the initial controller list SYNCHRONOUSLY from the registry so a session set
+        // before construction yields a controller (and a current `state.value`) immediately —
+        // the JVM tests construct the VM then call routed methods on the same dispatch tick.
+        rebuildControllers()
+        // Reactively rebuild as sessions are connected/removed; reuses running controllers.
+        observeSessions()
         observeUsbDetach()
+    }
+
+    /** The controller the UI is currently routing actions to (selected tab), or null. */
+    private fun activeController(): GeneratorRunController? =
+        _controllers.value.getOrNull(_activeIndex.value)
+
+    /**
+     * Rebuild [_controllers] to hold one controller per registry session, keyed by ascending
+     * port order. Existing controllers for ports that still exist are REUSED (never recreated
+     * — a running controller must keep its job/state); controllers whose port disappeared are
+     * disposed. When no session is connected, a single default controller stands in at index 0
+     * so single-generator routing/state behaves exactly as before.
+     */
+    private fun rebuildControllers() {
+        val keys = sessionHolder.sessions.value.keys.sorted()
+        val previous = _controllers.value
+        val rebuilt: List<GeneratorRunController>
+
+        if (keys.isEmpty()) {
+            // No connected session. PRESERVE existing controllers as-is: an empty registry
+            // is normally the result of a detach/disconnect, and the controller that just
+            // transitioned to Error/Idle must keep showing that terminal state (the old
+            // single-controller holder survived sessionHolder.clear() the same way). Only
+            // synthesize a fresh default placeholder when there is no controller at all
+            // (first construction with nothing connected).
+            rebuilt = previous.ifEmpty { listOf(createController(index = 0, portKey = null)) }
+        } else {
+            val byKey = previous.associateBy { it.portKey }
+            rebuilt = keys.mapIndexed { index, key ->
+                // Reuse the live controller for this port; otherwise make a fresh one.
+                byKey[key]?.also { it.rebindIndex(index) }
+                    ?: createController(index = index, portKey = key)
+            }
+            // Dispose controllers whose port vanished (including any default placeholder).
+            val keptKeys = keys.toSet()
+            previous.filter { it.portKey == null || it.portKey !in keptKeys }
+                .forEach { it.dispose() }
+        }
+
+        _controllers.value = rebuilt
+        // Keep the active index in range after the list shrinks.
+        _activeIndex.value = _activeIndex.value.coerceIn(0, max(0, rebuilt.size - 1))
+    }
+
+    /**
+     * Construct a controller for [portKey] (null = the single-session/default placeholder
+     * resolving via SessionHolder.current()). Each controller gets a SupervisorJob child
+     * scope, this generator's session getters, the shared notifier, and the mutual-exclusion
+     * hook that pauses every OTHER running hunt before this one enters its sweep.
+     */
+    private fun createController(index: Int, portKey: Int?): GeneratorRunController {
+        val childScope = CoroutineScope(viewModelScope.coroutineContext + SupervisorJob())
+        return GeneratorRunController(
+            index = index,
+            scope = childScope,
+            log = log,
+            // Default placeholder resolves like the monolith (lowest registered key); a
+            // keyed controller resolves exactly its own port.
+            liveSession = { if (portKey == null) sessionHolder.current() else sessionHolder.get(portKey) },
+            acquireSession = { sessionHolder.acquireForHunt() },
+            frequencyDatabase = frequencyDatabase,
+            runHistory = runHistory,
+            runNotifier = runNotifier,
+            // Hunt mutual-exclusion: pause every OTHER running hunt before this one sweeps.
+            onAcquireHuntSlot = { pauseOtherHunts(except = index) },
+        ).apply { portKey?.let { bindPortKey(it) } }
+    }
+
+    /** Collect the registry and rebuild controllers on every change (reuses running ones). */
+    private fun observeSessions() {
+        viewModelScope.launch {
+            sessionHolder.sessions.collect { rebuildControllers() }
+        }
+    }
+
+    /**
+     * Switch the observed generator to tab [index]. Pure index flip — the active controller's
+     * already-running state becomes visible instantly with no session I/O. Coerced into range.
+     */
+    fun setActiveGenerator(index: Int) {
+        _activeIndex.value = index.coerceIn(0, max(0, _controllers.value.size - 1))
+    }
+
+    /**
+     * Hunt mutual-exclusion: pause every controller other than [except] that is actively
+     * Hunting (not Killing, not already paused). Invoked from the acquiring controller's
+     * onAcquireHuntSlot hook, which suspends until this returns — guaranteeing the other
+     * hunts are paused before the acquiring sweep enters live treatment.
+     */
+    private suspend fun pauseOtherHunts(except: Int) {
+        _controllers.value.forEachIndexed { i, controller ->
+            if (i == except) return@forEachIndexed
+            val s = controller.state.value
+            if (s.phase == HuntPhase.Hunting && !s.isPaused) {
+                controller.pauseForExclusion()
+            }
+        }
     }
 
     /**
@@ -304,7 +463,11 @@ class HuntViewModel @Inject constructor(
                 // keep observing detach events for the whole ViewModel lifetime.
                 try {
                     log.w(TAG, "USB device detached — aborting hunt")
-                    controller.onDeviceDetached(onSessionLost = { sessionHolder.clear() })
+                    // One physical device backs all sessions, so a detach kills them all:
+                    // error every controller, then clear the registry once.
+                    _controllers.value.forEach { c ->
+                        c.onDeviceDetached(onSessionLost = { sessionHolder.clear() })
+                    }
                 } catch (e: kotlinx.coroutines.CancellationException) {
                     throw e
                 } catch (e: Exception) {
@@ -314,63 +477,45 @@ class HuntViewModel @Inject constructor(
         }
     }
 
-    /** Pull connection info from the current session into [HuntUiState.generator]. */
-    fun refreshGeneratorInfo() = controller.refreshGeneratorInfo()
-
-    /**
-     * Switch the active generator to a different USB port of the SAME device. Closes
-     * the current session, opens the chosen port (permission already granted), and
-     * swaps it into [SessionHolder]. No-op while a hunt is running or with no USB manager.
-     */
-    fun switchGenerator(portIndex: Int) {
-        if (_state.value.isRunning || _state.value.isSwitchingGenerator) return
-        val manager = usbConnectionManager ?: return
-        val current = _state.value.generator
-        if (current?.portIndex == portIndex) return
-
-        log.i(TAG, "Switching generator to port $portIndex")
-        _state.update { it.copy(isSwitchingGenerator = true) }
-        viewModelScope.launch {
-            runCatching {
-                val session = manager.switchPort(portIndex)
-                sessionHolder.replace(session)
-            }.onSuccess {
-                controller.refreshGeneratorInfo()
-                _state.update { it.copy(isSwitchingGenerator = false) }
-                // Prefer the new port's serial in the toast when it was read.
-                val label = _state.value.generator?.activeLabel() ?: "Generator ${portIndex + 1}"
-                _events.trySend("Switched to $label")
-            }.onFailure { error ->
-                log.e(TAG, "Generator switch failed: ${error.message}")
-                _state.update {
-                    it.copy(
-                        isSwitchingGenerator = false,
-                        errorMessage = error.message ?: "Generator switch failed",
-                    )
-                }
-            }
-        }
+    /** Pull connection info from the active session into [HuntUiState.generator]. */
+    fun refreshGeneratorInfo() {
+        activeController()?.refreshGeneratorInfo()
     }
 
-    fun toggleRepeatKill() = controller.toggleRepeatKill()
+    /**
+     * Legacy single-port switcher seam. The generator tab selector ([setActiveGenerator])
+     * now replaces in-place port switching, so this is a no-op kept only so the not-yet-
+     * migrated [HuntConfigScreen] reference still compiles. Removed with the switcher UI.
+     */
+    fun switchGenerator(portIndex: Int) {
+        // No-op: multi-controller coordination supersedes in-place port switching.
+    }
 
-    fun setHitsCompactView(compact: Boolean) = controller.setHitsCompactView(compact)
+    fun toggleRepeatKill() {
+        activeController()?.toggleRepeatKill()
+    }
 
-    fun toggleRefineHits() = controller.toggleRefineHits()
+    fun setHitsCompactView(compact: Boolean) {
+        activeController()?.setHitsCompactView(compact)
+    }
 
-    fun updateStartFrequency(v: String) = controller.updateStartFrequency(v)
-    fun updateEndFrequency(v: String) = controller.updateEndFrequency(v)
-    fun updateDwellSeconds(v: String) = controller.updateDwellSeconds(v)
-    fun updateTargetAmplitude(v: String) = controller.updateTargetAmplitude(v)
+    fun toggleRefineHits() {
+        activeController()?.toggleRefineHits()
+    }
+
+    fun updateStartFrequency(v: String) { activeController()?.updateStartFrequency(v) }
+    fun updateEndFrequency(v: String) { activeController()?.updateEndFrequency(v) }
+    fun updateDwellSeconds(v: String) { activeController()?.updateDwellSeconds(v) }
+    fun updateTargetAmplitude(v: String) { activeController()?.updateTargetAmplitude(v) }
 
     /** Launch the full Hunt→Kill flow off the main thread; collect progress into state. */
-    fun startHunt() = controller.startHunt()
+    fun startHunt() { activeController()?.startHunt() }
 
     /**
      * "Continue anyway": skip the re-scan and kill using the hits computed with
      * the invalid steps already excluded. No-op outside the dropout-warning state.
      */
-    fun continueAnyway() = controller.continueAnyway()
+    fun continueAnyway() { activeController()?.continueAnyway() }
 
     /**
      * Re-run a treatment from a saved run's frequencies (History → "Re-run treatment").
@@ -381,41 +526,41 @@ class HuntViewModel @Inject constructor(
         dwellSeconds: Double,
         amplitudeCv: Int,
         deviations: List<Double> = emptyList(),
-    ): Boolean = controller.startKillFromFrequencies(freqs, dwellSeconds, amplitudeCv, deviations)
+    ): Boolean = activeController()?.startKillFromFrequencies(freqs, dwellSeconds, amplitudeCv, deviations) ?: false
 
     /**
      * "Re-scan affected segments": re-sweep the flagged segments, splice the fresh
      * readings over the old, recompute hits, then proceed to kill with the merged hits.
      */
-    fun rescanAffectedSegments() = controller.rescanAffectedSegments()
+    fun rescanAffectedSegments() { activeController()?.rescanAffectedSegments() }
 
     /**
      * Toggle pause/resume on the running hunt. While paused the engine holds at the
      * current frequency (no new commands), the sweep progress and kill countdown
      * freeze, and the elapsed clock stops advancing.
      */
-    fun togglePause() = controller.togglePause()
+    fun togglePause() { activeController()?.togglePause() }
 
     /**
      * "Treat this now": ask the running kill to immediately jump to hit [index]
      * (0-based) and continue treating from there onward. No-op outside the kill phase.
      */
-    fun jumpToHit(index: Int) = controller.jumpToHit(index)
+    fun jumpToHit(index: Int) { activeController()?.jumpToHit(index) }
 
     /** Cancel the running scan coroutine and run the safety-stop path. */
-    fun cancel() = controller.cancel()
+    fun cancel() { activeController()?.cancel() }
 
     /** Explicit safety-stop button: zero the generator output immediately. */
-    fun safetyStop() = controller.safetyStop()
+    fun safetyStop() { activeController()?.safetyStop() }
 
     /**
      * Reset a terminal phase (Done/Cancelled/Error) back to Idle when the user returns
      * to the Hunt config screen, so the config UI isn't stuck showing a finished run.
      */
-    fun prepareForConfig() = controller.prepareForConfig()
+    fun prepareForConfig() { activeController()?.prepareForConfig() }
 
     /** Re-run reverse lookup at a different tolerance from the Hits screen. */
-    fun setLookupTolerance(tolerancePercent: Double) = controller.setLookupTolerance(tolerancePercent)
+    fun setLookupTolerance(tolerancePercent: Double) { activeController()?.setLookupTolerance(tolerancePercent) }
 
     /**
      * On-demand reverse lookup for a SINGLE frequency — used by the graph marker popup.
@@ -423,18 +568,24 @@ class HuntViewModel @Inject constructor(
      */
     suspend fun lookupForFrequency(
         frequency: Double,
-        tolerancePercent: Double = _state.value.lookupTolerancePercent,
-    ): List<LookupMatch>? = controller.lookupForFrequency(frequency, tolerancePercent)
+        tolerancePercent: Double = state.value.lookupTolerancePercent,
+    ): List<LookupMatch>? = activeController()?.lookupForFrequency(frequency, tolerancePercent)
 
     /**
      * Close the active session and reset to a disconnected state. Used by the
      * "Disconnect" action on the post-run summary before navigating to Connect.
      */
-    fun disconnect() = controller.disconnect(onDisconnect = { sessionHolder.clear() })
+    fun disconnect() {
+        activeController()?.disconnect(onDisconnect = { sessionHolder.clear() })
+    }
+
+    /** Test-only accessor for the active controller (used to reflect on its `_state`). */
+    @VisibleForTesting
+    internal fun activeControllerForTest(): GeneratorRunController? = activeController()
 
     override fun onCleared() {
         super.onCleared()
-        controller.dispose()
+        _controllers.value.forEach { it.dispose() }
     }
 
     companion object {
