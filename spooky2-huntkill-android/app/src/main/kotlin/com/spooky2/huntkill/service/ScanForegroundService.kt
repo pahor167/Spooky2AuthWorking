@@ -51,6 +51,8 @@ class ScanForegroundService : Service() {
 
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
     private var wakeLock: PowerManager.WakeLock? = null
+    /** The single active status collector; replaced (not accumulated) on each restart. */
+    private var statusJob: kotlinx.coroutines.Job? = null
 
     override fun onBind(intent: Intent?): IBinder? = null
 
@@ -74,8 +76,11 @@ class ScanForegroundService : Service() {
         }
 
         // Render bus updates into the notification, at most ~1/s. A null status
-        // means the run ended — stop and remove the notification.
-        scope.launch {
+        // means the run ended — stop and remove the notification. Cancel any prior
+        // collector first so a restart (stopSelf pending then re-start) can't leave two
+        // collectors racing on the same notification id.
+        statusJob?.cancel()
+        statusJob = scope.launch {
             bus.status.sample(1_000).collectLatest { status ->
                 if (status == null) {
                     stopSelf()

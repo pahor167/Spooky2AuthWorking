@@ -26,6 +26,7 @@ import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.withLock
 import javax.inject.Inject
 import kotlin.math.max
 
@@ -404,9 +405,14 @@ class HuntViewModel @Inject constructor(
             scope = childScope,
             log = log,
             // Default placeholder resolves like the monolith (lowest registered key); a
-            // keyed controller resolves exactly its own port.
+            // keyed controller resolves EXACTLY its own port — for both the live getter
+            // and the hunt acquire path. The acquireForHunt() back-compat shim returns
+            // the lowest-key (port-0) session, so a keyed controller must NOT use it or a
+            // port-1 hunt would run on the port-0 session/transport.
             liveSession = { if (portKey == null) sessionHolder.current() else sessionHolder.get(portKey) },
-            acquireSession = { sessionHolder.acquireForHunt() },
+            // Port-aware: replay reconnect (tests) still rebuilds a fresh session; a live
+            // keyed controller resolves its own port (never the port-0 back-compat shim).
+            acquireSession = { sessionHolder.acquireForHunt(portKey) },
             frequencyDatabase = frequencyDatabase,
             runHistory = runHistory,
             runNotifier = runNotifier,
@@ -436,12 +442,18 @@ class HuntViewModel @Inject constructor(
      * onAcquireHuntSlot hook, which suspends until this returns — guaranteeing the other
      * hunts are paused before the acquiring sweep enters live treatment.
      */
+    /** Serializes hunt-slot acquisition so two hunts starting at once can't pause each
+     *  other and deadlock (check-then-pause is TOCTOU without it). */
+    private val huntSlotMutex = kotlinx.coroutines.sync.Mutex()
+
     private suspend fun pauseOtherHunts(except: Int) {
-        _controllers.value.forEachIndexed { i, controller ->
-            if (i == except) return@forEachIndexed
-            val s = controller.state.value
-            if (s.phase == HuntPhase.Hunting && !s.isPaused) {
-                controller.pauseForExclusion()
+        huntSlotMutex.withLock {
+            _controllers.value.forEachIndexed { i, controller ->
+                if (i == except) return@forEachIndexed
+                val s = controller.state.value
+                if (s.phase == HuntPhase.Hunting && !s.isPaused) {
+                    controller.pauseForExclusion()
+                }
             }
         }
     }

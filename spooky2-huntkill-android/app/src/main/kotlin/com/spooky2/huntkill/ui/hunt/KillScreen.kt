@@ -87,7 +87,11 @@ fun KillScreen(
         )
     }
 
-    LaunchedEffect(state.phase) {
+    // Skip the navigation effect on the first emission after a tab switch (the newly
+    // viewed generator may already be terminal) — only react to OUR generator advancing.
+    var navIndex by remember { mutableStateOf(activeIndex) }
+    LaunchedEffect(state.phase, activeIndex) {
+        if (activeIndex != navIndex) { navIndex = activeIndex; return@LaunchedEffect }
         when (state.phase) {
             HuntPhase.Done                        -> { vibrateOnce(context); onDone() }
             HuntPhase.Cancelled, HuntPhase.Error  -> onStopped()

@@ -169,10 +169,11 @@ fun ScrollableReadingGraph(
                 .fillMaxSize()
                 .horizontalScroll(scrollState)
                 .width(contentWidthDp)
-                .pointerInput(markers, readings.size) {
+                .pointerInput(markers, readings.size, selectionEnabled) {
                     awaitEachGesture {
                         val down    = awaitFirstDown(requireUnconsumed = false)
                         val downPos = down.position
+                        val pressStart = System.currentTimeMillis()
                         var dragged = false
                         do {
                             val event = awaitPointerEvent()
@@ -182,7 +183,11 @@ fun ScrollableReadingGraph(
                             if (moved) dragged = true
                         } while (event.changes.any { it.pressed })
 
-                        if (!dragged) {
+                        // When selection is on, a long hold is a selection gesture (handled
+                        // by the separate detectTapGestures below) — don't ALSO open a marker.
+                        val wasLongPress = selectionEnabled &&
+                            (System.currentTimeMillis() - pressStart) >= viewConfiguration.longPressTimeoutMillis
+                        if (!dragged && !wasLongPress) {
                             val tap = downPos
                             val h   = size.height.toFloat()
                             var best: GraphMarker? = null

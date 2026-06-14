@@ -115,14 +115,20 @@ class SessionHolder @Inject constructor() {
      * "Current" for this shim is the session at the lowest registered key (key 0 in
      * the typical single-session setup).
      */
-    suspend fun acquireForHunt(): GeneratorSession? {
+    suspend fun acquireForHunt(): GeneratorSession? = acquireForHunt(portKey = null)
+
+    /**
+     * Port-aware hunt acquire. A reconnector (test replay) always wins — it rebuilds a
+     * fresh session and swaps it in. Otherwise, a keyed controller resolves EXACTLY its
+     * own [portKey] (so a port-1 hunt never runs on the port-0 session); a null key
+     * falls back to the lowest-key "current" session (single-session/back-compat path).
+     */
+    suspend fun acquireForHunt(portKey: Int?): GeneratorSession? {
         val block = reconnect
-        return if (block != null) {
-            val session = block()
-            replace(session)
-            session
-        } else {
-            current()
+        return when {
+            block != null -> block().also { replace(it) }
+            portKey != null -> get(portKey)
+            else -> current()
         }
     }
 

@@ -75,7 +75,13 @@ fun LiveScanScreen(
         )
     }
 
-    LaunchedEffect(state.phase) {
+    // Only auto-navigate on a phase change that belongs to the generator we're VIEWING.
+    // Switching tabs swaps `state` to another controller (possibly already terminal);
+    // that must NOT fire onDone/onKilling/etc. and tear down this screen. Skip the first
+    // emission after a tab switch.
+    var navIndex by remember { mutableStateOf(activeIndex) }
+    LaunchedEffect(state.phase, activeIndex) {
+        if (activeIndex != navIndex) { navIndex = activeIndex; return@LaunchedEffect }
         when (state.phase) {
             HuntPhase.HitsReady, HuntPhase.Killing -> { vibrateOnce(context); onKilling() }
             HuntPhase.HitsReadyWithDropouts        -> { vibrateOnce(context); onDropouts() }

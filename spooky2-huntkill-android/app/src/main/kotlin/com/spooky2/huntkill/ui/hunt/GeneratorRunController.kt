@@ -102,6 +102,14 @@ class GeneratorRunController(
 
     private var huntJob: Job? = null
 
+    /**
+     * Bumped every time a run starts or is cancelled. cancel()'s async safety-stop
+     * captures the epoch and applies the terminal Cancelled state ONLY if the epoch is
+     * unchanged — so a fast Cancel→Start can't have the stale cancel coroutine stamp
+     * Cancelled over the freshly-started run's Hunting state.
+     */
+    private var runEpoch: Int = 0
+
     /** Reverse-lookup coroutine; cancelled/replaced when the tolerance is re-selected. */
     private var lookupJob: Job? = null
 
@@ -211,6 +219,8 @@ class GeneratorRunController(
             }
             return
         }
+        // New run: invalidate any in-flight cancel coroutine (see [runEpoch]).
+        runEpoch++
 
         pauseGate.resume()
         liveHistory.clear()
@@ -557,6 +567,7 @@ class GeneratorRunController(
         val hits = _state.value.hits
 
         log.i(TAG, "User chose Continue anyway — killing ${hits.size} hits (dropouts ignored)")
+        runEpoch++
         pauseGate.resume()
         _state.update { it.copy(phase = HuntPhase.Killing, busyAction = null, isPaused = false) }
         startElapsedTicker()
@@ -624,6 +635,7 @@ class GeneratorRunController(
         }
 
         log.i(TAG, "Re-run: treating ${hits.size} saved frequencies (dwell=${dwellSeconds}s, ampCv=$amplitudeCv)")
+        runEpoch++
         activeParameters = parameters
         lastOutcome = null
         // Re-run: do NOT persist these frequencies again.
@@ -696,6 +708,7 @@ class GeneratorRunController(
         val outcome = lastOutcome ?: return
 
         log.i(TAG, "User chose Re-scan — re-sweeping ${outcome.segments.size} segment(s)")
+        runEpoch++
         pauseGate.resume()
         _state.update { it.copy(phase = HuntPhase.Hunting, rescanInProgress = true, isPaused = false, errorMessage = null) }
         startElapsedTicker()
@@ -791,6 +804,7 @@ class GeneratorRunController(
         )
 
         log.i(TAG, "Manual re-scan of steps $lo..$hi (${seg.stepCount} steps)")
+        runEpoch++
         pauseGate.resume()
         _state.update {
             it.copy(
@@ -1007,17 +1021,28 @@ class GeneratorRunController(
         val nowPaused = !_state.value.isPaused
         if (nowPaused) {
             pauseGate.pause()
-        } else {
-            // Mutual-exclusion hook (no-op for now): resuming back into the hunting
-            // sweep re-acquires the shared hunt slot before the gate releases.
-            if (phase == HuntPhase.Hunting) {
-                scope.launch { onAcquireHuntSlot() }
+            log.i(TAG, "Run paused (hold)")
+            _state.update { it.copy(isPaused = true) }
+            publishRunStatus()
+        } else if (phase == HuntPhase.Hunting) {
+            // Resuming into a HUNT: acquire the shared hunt slot (pause any OTHER live
+            // hunt) BEFORE opening the gate, so the engine never sweeps concurrently with
+            // another hunt. Done inside the coroutine so the gate stays closed until the
+            // slot is held — the old code opened the gate before the async pause ran.
+            scope.launch {
+                onAcquireHuntSlot()
+                pauseGate.resume()
+                log.i(TAG, "Hunt resumed")
+                _state.update { it.copy(isPaused = false) }
+                publishRunStatus()
             }
+        } else {
+            // Resuming a KILL needs no slot (kills overlap freely).
             pauseGate.resume()
+            log.i(TAG, "Kill resumed")
+            _state.update { it.copy(isPaused = false) }
+            publishRunStatus()
         }
-        log.i(TAG, if (nowPaused) "Hunt paused (hold)" else "Hunt resumed")
-        _state.update { it.copy(isPaused = nowPaused) }
-        publishRunStatus()
     }
 
     /**
@@ -1072,9 +1097,14 @@ class GeneratorRunController(
     }
 
     private fun stopElapsedTicker() {
+        // Idempotent: runEnded() (which ref-counts the shared foreground service) fires
+        // ONLY when a ticker was actually running. Without this guard a second call —
+        // e.g. dispose() after the run already ended — would decrement the shared count
+        // again and stop the service while ANOTHER generator is still running.
+        val wasRunning = elapsedTicker != null
         elapsedTicker?.cancel()
         elapsedTicker = null
-        runNotifier?.runEnded()
+        if (wasRunning) runNotifier?.runEnded()
     }
 
     /** Push the current run snapshot to the foreground-service notification. */
@@ -1101,6 +1131,7 @@ class GeneratorRunController(
     /** Cancel the running scan coroutine and run the safety-stop path. */
     fun cancel() {
         log.w(TAG, "Cancel requested — running safety stop")
+        val epoch = ++runEpoch
         pauseGate.resume()
         stopElapsedTicker()
         huntJob?.cancel()
@@ -1112,6 +1143,10 @@ class GeneratorRunController(
             // not the one that was current when cancel() was first called.
             val session = liveSession()
             session?.let { safetyStopInternal(it) }
+            // A startHunt() between cancel() and here bumped runEpoch — don't stamp
+            // Cancelled over the new run. The safety-stop (zeroing) above still ran,
+            // and the new run re-programs the generator immediately.
+            if (runEpoch != epoch) return@launch
             _state.update {
                 it.copy(
                     phase = HuntPhase.Cancelled,

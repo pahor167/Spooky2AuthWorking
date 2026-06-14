@@ -224,6 +224,9 @@ class UsbConnectionManager @Inject constructor(
     /** The device the most recent [connect] opened, kept so the in-app generator
      *  switcher can re-open a different port of the SAME device without re-enumerating
      *  or re-requesting USB permission. */
+    // Written from connect() on a coroutine thread, read/cleared from the detach
+    // BroadcastReceiver on the main thread — needs @Volatile for cross-thread visibility.
+    @Volatile
     private var lastConnectedDevice: UsbDevice? = null
 
     /**
@@ -263,13 +266,23 @@ class UsbConnectionManager @Inject constructor(
             throw IllegalStateException("USB permission denied for ${device.deviceName}.")
         }
 
-        // Open each port via the internal connect() overload that skips the redundant
-        // permission check (permission already granted above).  We call the full
-        // connect(device, portIndex, portCount) which does permission → transport →
-        // probe → session; the permission step is instant because hasPermission() is now
-        // true.
-        return (0 until count).map { portIndex ->
-            connect(device, portIndex = portIndex, portCount = count)
+        // Open each port via connect(device, portIndex, portCount) (permission already
+        // granted above, so its check is instant). On a PARTIAL failure — e.g. the second
+        // port's open throws — close the already-opened sessions before re-throwing so we
+        // never leak an open transport with the generator left emitting.
+        val sessions = ArrayList<GeneratorSession>(count)
+        try {
+            for (portIndex in 0 until count) {
+                sessions.add(connect(device, portIndex = portIndex, portCount = count))
+            }
+            return sessions
+        } catch (e: kotlinx.coroutines.CancellationException) {
+            sessions.forEach { runCatching { it.close() } }
+            throw e
+        } catch (e: Exception) {
+            log.e(TAG, "connectAll: port open failed (${e.message}); closing ${sessions.size} opened session(s)")
+            sessions.forEach { runCatching { it.close() } }
+            throw e
         }
     }
 

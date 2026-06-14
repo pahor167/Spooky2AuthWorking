@@ -65,7 +65,11 @@ fun HitsScreen(
     val tabs by viewModel.tabs.collectAsState()
     val activeIndex by viewModel.activeIndex.collectAsState()
 
-    LaunchedEffect(state.phase) {
+    // Don't auto-navigate to Kill on the first emission after a tab switch (the newly
+    // viewed generator may already be Killing) — only when OUR generator advances.
+    var navIndex by remember { mutableStateOf(activeIndex) }
+    LaunchedEffect(state.phase, activeIndex) {
+        if (activeIndex != navIndex) { navIndex = activeIndex; return@LaunchedEffect }
         if (state.phase == HuntPhase.Killing) onKilling()
     }
     val dwellSeconds  = state.params.dwellSecondsText.toDoubleOrNull() ?: 0.0
