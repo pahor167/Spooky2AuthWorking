@@ -46,6 +46,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import com.spooky2.huntkill.ui.common.ConditionTags
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
 import com.spooky2.huntkill.ui.common.KeepScreenOn
 import com.spooky2.huntkill.ui.common.asHz
@@ -263,8 +264,9 @@ fun KillScreen(
                                 maxLines   = 1,
                                 softWrap   = false,
                                 overflow   = TextOverflow.Ellipsis,
-                                modifier   = Modifier.weight(1f),
                             )
+                            ConditionTags(matches = state.lookupResults[hit.frequency])
+                            Spacer(Modifier.weight(1f))
                             if (isKilling && !isCurrent) {
                                 IconButton(
                                     onClick  = { viewModel.jumpToHit(index) },

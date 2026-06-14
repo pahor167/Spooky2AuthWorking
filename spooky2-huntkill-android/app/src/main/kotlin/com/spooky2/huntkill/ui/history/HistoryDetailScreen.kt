@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -27,6 +28,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.core.lookup.LookupMatch
+import com.spooky2.huntkill.ui.common.ConditionTags
 import com.spooky2.huntkill.data.RunHit
 import com.spooky2.huntkill.data.RunRecord
 import com.spooky2.huntkill.ui.common.asHz
@@ -164,14 +166,18 @@ private fun FrequencyRow(
         elevation = CardDefaults.cardElevation(0.dp),
     ) {
         Column(Modifier.padding(10.dp)) {
-            Text(
-                "${index + 1}. ${hit.frequency.asHz()}",
-                style    = MonoNumberSmall,
-                color    = SLPrimary,
-                maxLines = 1,
-                softWrap = false,
-                overflow = TextOverflow.Ellipsis,
-            )
+            Row(verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
+                Text(
+                    "${index + 1}. ${hit.frequency.asHz()}",
+                    style    = MonoNumberSmall,
+                    color    = SLPrimary,
+                    maxLines = 1,
+                    softWrap = false,
+                    overflow = TextOverflow.Ellipsis,
+                )
+                Spacer(Modifier.size(6.dp))
+                ConditionTags(matches = matches)
+            }
             Text(
                 "dev ${"%.2f".format(hit.deviation)}",
                 style = MonoNumberSmall,

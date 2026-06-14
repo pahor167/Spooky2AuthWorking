@@ -39,6 +39,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.core.lookup.LookupMatch
+import com.spooky2.huntkill.ui.common.ConditionTags
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
 import com.spooky2.huntkill.ui.common.asHz
 import com.spooky2.huntkill.ui.theme.MonoNumberSmall
@@ -169,14 +170,18 @@ fun HitsScreen(
                     elevation = CardDefaults.cardElevation(0.dp),
                 ) {
                     Column(Modifier.padding(10.dp)) {
-                        Text(
-                            "${index + 1}. ${hit.frequency.asHz()}",
-                            style    = MonoNumberSmall,
-                            color    = SLPrimary,
-                            maxLines = 1,
-                            softWrap = false,
-                            overflow = TextOverflow.Ellipsis,
-                        )
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text(
+                                "${index + 1}. ${hit.frequency.asHz()}",
+                                style    = MonoNumberSmall,
+                                color    = SLPrimary,
+                                maxLines = 1,
+                                softWrap = false,
+                                overflow = TextOverflow.Ellipsis,
+                            )
+                            Spacer(Modifier.size(6.dp))
+                            ConditionTags(matches = matches)
+                        }
                         if (!compactView) {
                             Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                                 Text(
