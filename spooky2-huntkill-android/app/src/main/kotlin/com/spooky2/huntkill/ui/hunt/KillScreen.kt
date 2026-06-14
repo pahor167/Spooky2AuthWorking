@@ -69,6 +69,8 @@ fun KillScreen(
     onStopped: () -> Unit,
 ) {
     val state by viewModel.state.collectAsState()
+    val tabs by viewModel.tabs.collectAsState()
+    val activeIndex by viewModel.activeIndex.collectAsState()
     val context = LocalContext.current
 
     KeepScreenOn()
@@ -119,6 +121,9 @@ fun KillScreen(
             modifier              = Modifier.fillMaxWidth().weight(1f),
             verticalArrangement   = Arrangement.spacedBy(8.dp),
         ) {
+            item {
+                GeneratorTabs(tabs = tabs, activeIndex = activeIndex, onSelect = viewModel::setActiveGenerator)
+            }
             item {
                 Text("Kill Phase", style = MaterialTheme.typography.headlineSmall)
             }

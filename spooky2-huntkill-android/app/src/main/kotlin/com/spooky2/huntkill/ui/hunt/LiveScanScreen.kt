@@ -57,6 +57,8 @@ fun LiveScanScreen(
     onError: () -> Unit,
 ) {
     val state by viewModel.state.collectAsState()
+    val tabs by viewModel.tabs.collectAsState()
+    val activeIndex by viewModel.activeIndex.collectAsState()
     val context = LocalContext.current
 
     KeepScreenOn()
@@ -93,6 +95,7 @@ fun LiveScanScreen(
                 .verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
+            GeneratorTabs(tabs = tabs, activeIndex = activeIndex, onSelect = viewModel::setActiveGenerator)
             Text("Live Scan", style = MaterialTheme.typography.headlineSmall)
             PhaseChip(state.phase, state.isPaused)
 

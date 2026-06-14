@@ -23,9 +23,6 @@ import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
-import androidx.compose.material3.SegmentedButton
-import androidx.compose.material3.SegmentedButtonDefaults
-import androidx.compose.material3.SingleChoiceSegmentedButtonRow
 import androidx.compose.material3.Switch
 import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
@@ -44,8 +41,6 @@ import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
 import com.spooky2.huntkill.ui.theme.MonoNumberSmall
 import com.spooky2.huntkill.ui.theme.SLActive
-import com.spooky2.huntkill.ui.theme.SLActiveContainer
-import com.spooky2.huntkill.ui.theme.SLOnActiveContainer
 import com.spooky2.huntkill.ui.theme.SLOutline
 import com.spooky2.huntkill.ui.theme.SLPrimary
 import com.spooky2.huntkill.ui.theme.SectionLabel
@@ -58,7 +53,7 @@ fun HuntConfigScreen(
     val state by viewModel.state.collectAsState()
     val params = state.params
     val validationError = params.validationError()
-    val canStart = validationError == null && !state.isSwitchingGenerator && state.busyAction == null
+    val canStart = validationError == null && state.busyAction == null
 
     LaunchedEffect(Unit) { viewModel.prepareForConfig() }
 
@@ -69,9 +64,13 @@ fun HuntConfigScreen(
             .padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
+        val tabs by viewModel.tabs.collectAsState()
+        val activeTabIndex by viewModel.activeIndex.collectAsState()
+        GeneratorTabs(tabs = tabs, activeIndex = activeTabIndex, onSelect = viewModel::setActiveGenerator)
+
         Text("Hunt Configuration", style = MaterialTheme.typography.headlineSmall)
 
-        state.generator?.let { GeneratorSection(it, state.isSwitchingGenerator, viewModel::switchGenerator) }
+        state.generator?.let { GeneratorSection(it) }
 
         // Scan-range + treatment fields are defaults for almost every run — kept in
         // a collapsible section so the screen leads with what the user actually
@@ -212,11 +211,7 @@ fun HuntConfigScreen(
 }
 
 @Composable
-private fun GeneratorSection(
-    generator: GeneratorInfo,
-    isSwitching: Boolean,
-    onSwitch: (Int) -> Unit,
-) {
+private fun GeneratorSection(generator: GeneratorInfo) {
     val portLabel = generator.activeLabel()
     val portsText = if (generator.portCount != null && generator.portIndex != null) {
         " · port ${generator.portIndex + 1} of ${generator.portCount}"
@@ -242,45 +237,6 @@ private fun GeneratorSection(
         ),
         border = BorderStroke(1.dp, SLOutline),
     )
-
-    if (generator.hasMultiplePorts && generator.portCount != null) {
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
-        ) {
-            SingleChoiceSegmentedButtonRow(modifier = Modifier.weight(1f)) {
-                for (index in 0 until generator.portCount) {
-                    val isActive = generator.portIndex == index
-                    val segmentLabel = if (isActive && generator.serialNumber != null) {
-                        "S/N ${generator.serialNumber}"
-                    } else {
-                        "Generator ${index + 1}"
-                    }
-                    SegmentedButton(
-                        selected = isActive,
-                        onClick = { onSwitch(index) },
-                        enabled = !isSwitching,
-                        shape = SegmentedButtonDefaults.itemShape(index, generator.portCount),
-                        colors = SegmentedButtonDefaults.colors(
-                            activeContainerColor = SLActiveContainer,
-                            activeContentColor   = SLOnActiveContainer,
-                            activeBorderColor    = SLActive.copy(alpha = 0.5f),
-                        ),
-                    ) {
-                        Text(segmentLabel, style = MaterialTheme.typography.labelMedium)
-                    }
-                }
-            }
-            if (isSwitching) {
-                CircularProgressIndicator(
-                    modifier = Modifier
-                        .height(24.dp)
-                        .padding(start = 4.dp),
-                    color = SLPrimary,
-                )
-            }
-        }
-    }
 }
 
 @Composable

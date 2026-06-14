@@ -223,8 +223,6 @@ data class HuntUiState(
     val lookupTolerancePercent: Double = com.spooky2.huntkill.ui.hunt.DEFAULT_LOOKUP_TOLERANCE_PERCENT,
     /** Connection summary for the config screen chip; null until connected. */
     val generator: GeneratorInfo? = null,
-    /** True while a generator-port switch is in flight (disables the switcher + Start). */
-    val isSwitchingGenerator: Boolean = false,
     /** Estimated whole seconds remaining in the current sweep, 0 until measurable. */
     val estimatedRemainingSeconds: Int = 0,
     /**
@@ -480,15 +478,6 @@ class HuntViewModel @Inject constructor(
     /** Pull connection info from the active session into [HuntUiState.generator]. */
     fun refreshGeneratorInfo() {
         activeController()?.refreshGeneratorInfo()
-    }
-
-    /**
-     * Legacy single-port switcher seam. The generator tab selector ([setActiveGenerator])
-     * now replaces in-place port switching, so this is a no-op kept only so the not-yet-
-     * migrated [HuntConfigScreen] reference still compiles. Removed with the switcher UI.
-     */
-    fun switchGenerator(portIndex: Int) {
-        // No-op: multi-controller coordination supersedes in-place port switching.
     }
 
     fun toggleRepeatKill() {

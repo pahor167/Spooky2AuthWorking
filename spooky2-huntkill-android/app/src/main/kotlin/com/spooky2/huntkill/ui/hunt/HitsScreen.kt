@@ -62,6 +62,8 @@ fun HitsScreen(
     onKilling: () -> Unit = {},
 ) {
     val state by viewModel.state.collectAsState()
+    val tabs by viewModel.tabs.collectAsState()
+    val activeIndex by viewModel.activeIndex.collectAsState()
 
     LaunchedEffect(state.phase) {
         if (state.phase == HuntPhase.Killing) onKilling()
@@ -88,6 +90,9 @@ fun HitsScreen(
             modifier            = Modifier.fillMaxWidth().weight(1f),
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
+            item {
+                GeneratorTabs(tabs = tabs, activeIndex = activeIndex, onSelect = viewModel::setActiveGenerator)
+            }
             item {
                 Text(
                     if (hasDropouts) "Review needed" else "Hunt complete",
