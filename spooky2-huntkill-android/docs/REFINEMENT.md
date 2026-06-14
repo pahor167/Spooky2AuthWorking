@@ -41,28 +41,42 @@ Canonical preset **GX Hunt and Kill (C) - JW**: `BFB_Continue_Refining_Hits=1`,
 (percentage step actually used = 0.025%), `BFB_Max_Hits_To_Find=10`,
 range 41000–1800000.
 
-## Not recoverable from the binary (flagged)
+## Per-hit window — BINARY-PROVEN (2026-06-14 Ghidra pass)
 
-The refine window's size when `BFB_Include_x_Hz_In_Search = 0` (the canonical preset
-value) could not be located in the binary at all — the Ghidra pass found only the
-step-halving; no `hit ± r → Start/Finish` writes were found in the refine handlers.
-
-The default is therefore **calibrated to the original's observed timing**: a
-refinement cycle in the original takes ~3 minutes ≈ ~2500 steps at ~70 ms/step
-≈ ~250 halved steps per hit with 10 hits — i.e. a half-width of ~60 coarse steps
-per side. When `refinePlusMinusHz == 0`:
+A deeper Ghidra read of `FUN_0084b3b0` (the refine handler) recovered the window
+build directly. With `param_1[0x6d8]` = the found-hits array and `param_1[0x6e1]` =
+the scan-state struct:
 
 ```
-r = REFINE_WINDOW_STEPS × localCoarseStep(hit)
-localCoarseStep(hit) = hit × stepSizePercent/100   (percentage mode)
-                     = stepSizeHz                   (linear mode)
-REFINE_WINDOW_STEPS  = 60   (each side; timing-calibrated, not decompiled)
+start  = hit − V          ; dec_FUN_0084b3b0:1159-1160  (param_1[0x6e1]+0x18)
+finish = hit + V          ; dec_FUN_0084b3b0:1180-1181  (param_1[0x6e1]+0x1a)
+step   = V / 10.0         ; dec_FUN_0084b3b0:1357,1462  (const @ VA 0x405b48 = 10.0)
 ```
 
-**Definitive verification path:** a serial capture (Request-view export, like
-`Data/StartPauseAndStop.txt`) of the original performing a refinement cycle would
-show the exact `:w24=` grid — windows, step, and ordering — and should replace this
-calibration when available.
+So **`V = 10 × step`** — the window is **±10 sweep-steps per hit (~20 points/hit)**,
+and because the step halves each generation, the window zooms in proportionally.
+When `refinePlusMinusHz == 0` the port computes exactly this:
+
+```
+step  = previousStep / 2                       (binary: FUN_0084b3b0:2319, /2.0)
+r = REFINE_WINDOW_STEPS × localStep(hit, step)  REFINE_WINDOW_STEPS = 10
+localStep(hit) = hit × stepSizePercent/100   (percentage mode)
+               = stepSizeHz                   (linear mode)
+window = [hit − r, hit + r], swept at `step`
+```
+
+**Two earlier mistakes, now corrected:**
+1. `Main.frm:70211/70215` (`var_1EC`) was cited as the per-hit window — it is the
+   `BFB_RA_Window_1` running-average window inside hit DETECTION (`var_1EC =
+   Val(Text5.Text)`, default 20). Retracted.
+2. A follow-up pass then claimed "no per-hit window in the binary" and the window was
+   recalibrated to ~60 steps from the observed ~3-minute timing. ALSO wrong — the
+   window IS in the binary (above), at ±10 steps. The ~3 minutes is **not** the refine
+   scan (which is ~20 points/hit ≈ 10–15 s) — it is the **kill dwell** on the refined
+   hits that follows each refine generation.
+
+`param_1[0x6ed]` (once misread as the radius) is the **generation counter** — reset
+at scan start (`FUN_008378b0:2629`), `+1` per pass (`:433`), compared `≤ maxRepeats`.
 
 `localCoarseStep` is always computed from the **original generation-1 step** (the
 half-width basis passed to `RefinementPlanner.planNextGeneration`), so the window

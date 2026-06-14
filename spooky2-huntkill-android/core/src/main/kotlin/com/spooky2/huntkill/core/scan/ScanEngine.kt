@@ -463,9 +463,9 @@ class ScanEngine(private val link: GeneratorLink) {
                 scanParams = parameters
                 frequencyOverride = null
             } else {
-                // Half-width basis = the ORIGINAL parameters: every generation re-scans
-                // the same-width window around its hits; only the sweep step halves.
-                val plan = RefinementPlanner.planNextGeneration(lastCycleHits, huntParams, parameters)
+                // Window is sized to the halved step (±10 sweep-steps per hit), matching
+                // the binary; the window zooms in as the step halves each generation.
+                val plan = RefinementPlanner.planNextGeneration(lastCycleHits, huntParams)
                 val freqs = RefinementPlanner.frequencyStepsFor(plan, huntParams)
                 if (freqs.isEmpty()) break
                 scanParams = huntParams.copy(

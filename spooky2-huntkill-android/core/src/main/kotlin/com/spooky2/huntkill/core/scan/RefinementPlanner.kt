@@ -50,13 +50,13 @@ data class RefinedScanPlan(
 object RefinementPlanner {
 
     /**
-     * Half-window, in coarse steps each side, used to derive `r` when
-     * [ScanParameters.refinePlusMinusHz] is 0. Calibrated to the original's observed
-     * ~3-minute refinement cycle (~250 halved steps per hit); the binary does not
-     * encode this value anywhere we could recover. Definitive answer needs a serial
-     * capture of the original performing a refinement cycle.
+     * Half-window, in sweep-steps each side, used to derive the per-hit window when
+     * [ScanParameters.refinePlusMinusHz] is 0. BINARY-PROVEN value: Ghidra decompile
+     * of `Spooky.exe` FUN_0084b3b0 builds `start = hit − V`, `finish = hit + V`
+     * (`:1159-1181`) and sets `step = V / 10.0` (constant 0x405b48 = 10.0, `:1357/:1462`),
+     * i.e. `V = 10 × step` → 10 sweep-steps per side, ~20 points per hit.
      */
-    const val REFINE_WINDOW_STEPS: Int = 60
+    const val REFINE_WINDOW_STEPS: Int = 10
 
     /**
      * Smallest step (Hz) a refinement sweep may use. Below this, double-precision
@@ -71,59 +71,60 @@ object RefinementPlanner {
         if (p.usePercentageStep) hit * (p.stepSizePercent / 100.0) else p.stepSizeHz
 
     /**
-     * The refine half-width `r` (Hz) for [hit]: the explicit
-     * [ScanParameters.refinePlusMinusHz] when > 0 (bit-proven contract), otherwise
-     * the derived `REFINE_WINDOW_STEPS × localCoarseStep(hit)` computed from
-     * [basis] — the ORIGINAL generation-1 parameters, so the window width stays
-     * constant across generations (e.g. ±250 Hz at a 1 MHz hit with the 0.025%
-     * step) instead of shrinking with each halving.
+     * The refine half-width (Hz) for [hit]: the explicit
+     * [ScanParameters.refinePlusMinusHz] when > 0, otherwise the binary's
+     * `REFINE_WINDOW_STEPS × localCoarseStep(hit)`. [stepParams] must carry the step
+     * that will SWEEP the window — i.e. the next generation's HALVED step — so the
+     * window is `±10 × (halved step)` and the sweep yields ~20 points per hit, and
+     * the window zooms in each generation as the step halves (matching the binary,
+     * where the window and step are tied through `step = V / 10`).
      */
-    fun resolveHalfWidthHz(hit: Double, basis: ScanParameters): Double =
-        if (basis.refinePlusMinusHz > 0.0) {
-            basis.refinePlusMinusHz
+    fun resolveHalfWidthHz(hit: Double, stepParams: ScanParameters): Double =
+        if (stepParams.refinePlusMinusHz > 0.0) {
+            stepParams.refinePlusMinusHz
         } else {
-            REFINE_WINDOW_STEPS * localCoarseStepHz(hit, basis)
+            REFINE_WINDOW_STEPS * localCoarseStepHz(hit, stepParams)
         }
 
     /**
-     * The window `[hit - r, hit + r]` for [hit], with `r` from [basis] (the
-     * generation-1 parameters), clamped to `[startFrequency, endFrequency]`.
-     * Returns null if the clamped window is degenerate (zero/negative width),
-     * e.g. a hit at/over a range edge with r=0.
+     * The window `[hit - r, hit + r]` for [hit], with `r` from [stepParams] (carrying
+     * the swept/halved step), clamped to `[startFrequency, endFrequency]`. Returns
+     * null if the clamped window is degenerate (zero/negative width).
      */
-    fun windowFor(hit: Double, basis: ScanParameters): FreqWindow? {
-        val r = resolveHalfWidthHz(hit, basis)
-        val start = (hit - r).coerceAtLeast(basis.startFrequency)
-        val end = (hit + r).coerceAtMost(basis.endFrequency)
+    fun windowFor(hit: Double, stepParams: ScanParameters): FreqWindow? {
+        val r = resolveHalfWidthHz(hit, stepParams)
+        val start = (hit - r).coerceAtLeast(stepParams.startFrequency)
+        val end = (hit + r).coerceAtMost(stepParams.endFrequency)
         return if (end > start) FreqWindow(start, end) else null
     }
 
     /**
      * Build the next refining generation from [hits] found in the current
-     * generation under [p]: one window per hit (clamped), overlapping windows
-     * merged, plus the halved step. Hits outside the scan range or producing a
-     * degenerate window are dropped. Windows are returned sorted by start.
-     *
-     * [halfWidthBasis] supplies the step the window half-width is derived from —
-     * pass the ORIGINAL generation-1 parameters so every generation re-scans the
-     * same-width window around its hits; only the sweep step halves. Defaults to
-     * [p] for single-step callers/tests.
+     * generation under [p]: halve the step, then one window per hit sized to the
+     * HALVED step (`±REFINE_WINDOW_STEPS × halvedStep`), overlapping windows merged,
+     * clamped to the scan range. Per the binary, window and step are tied, so the
+     * window zooms in each generation. Hits outside the range or producing a
+     * degenerate window are dropped. Windows returned sorted by start.
      */
     fun planNextGeneration(
         hits: List<ScanResult>,
         p: ScanParameters,
-        halfWidthBasis: ScanParameters = p,
     ): RefinedScanPlan {
+        // The window is sized to the step that sweeps it — the halved step.
+        val halved = p.copy(
+            stepSizeHz = p.stepSizeHz / 2.0,
+            stepSizePercent = p.stepSizePercent / 2.0,
+        )
         val raw = hits
             .map { it.frequency }
             .filter { it in p.startFrequency..p.endFrequency }
             .sorted()
-            .mapNotNull { windowFor(it, halfWidthBasis) }
+            .mapNotNull { windowFor(it, halved) }
 
         return RefinedScanPlan(
             windows = mergeWindows(raw),
-            nextStepSizeHz = p.stepSizeHz / 2.0,
-            nextStepSizePercent = p.stepSizePercent / 2.0,
+            nextStepSizeHz = halved.stepSizeHz,
+            nextStepSizePercent = halved.stepSizePercent,
         )
     }
 

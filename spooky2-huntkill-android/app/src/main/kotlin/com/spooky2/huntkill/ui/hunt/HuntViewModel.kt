@@ -734,9 +734,9 @@ class HuntViewModel @Inject constructor(
             kotlin.coroutines.coroutineContext.ensureActive()
 
             generation++
-            // Window half-width basis = the ORIGINAL gen-1 parameters (constant width
-            // across generations); sweep step = previous generation's step halved.
-            val plan = RefinementPlanner.planNextGeneration(currentHits, huntParams, parameters)
+            // Per binary: window is sized to the halved step (±10 sweep-steps per hit)
+            // and zooms in as the step halves each generation.
+            val plan = RefinementPlanner.planNextGeneration(currentHits, huntParams)
             val freqs = RefinementPlanner.frequencyStepsFor(plan, huntParams)
             if (freqs.isEmpty()) {
                 log.i(TAG, "Refinement gen $generation: no scannable window — stopping")
