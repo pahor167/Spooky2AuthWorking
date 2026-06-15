@@ -271,11 +271,18 @@ class ScanEngine(private val link: GeneratorLink) {
         // original's natural ~23 ms bus latency. Skipped entirely when period is 0.
         val settleMs = if (periodMs > 0) min(25L, periodMs / 3) else 0L
 
+        // Steps remaining in the post-resume detection settle. After a pause the output is
+        // silenced and restored, so the first reads spike wildly; we still RECORD them
+        // (graph continuity) but mark them invalid so neither the live tracker nor the
+        // final detectHits can turn that spike into a ~300-deviation false candidate.
+        var resumeSettleRemaining = 0
         for (loop in 0 until parameters.loops) {
             for (i in frequencies.indices) {
                 coroutineContext.ensureActive()
                 // No restore: the next line writes this step's frequency anyway.
-                pausePoint(pauseGate, parameters)
+                if (pausePoint(pauseGate, parameters)) {
+                    resumeSettleRemaining = parameters.raWindow
+                }
                 // Take the step start AFTER the pause point so paused time is not
                 // counted into the step measurement (and the next step still paces).
                 val stepStart = TimeSource.Monotonic.markNow()
@@ -292,17 +299,22 @@ class ScanEngine(private val link: GeneratorLink) {
 
                 // Live awareness: count consecutive failed reads and surface a
                 // status once the threshold is crossed; keep scanning regardless.
+                // (Settling reads are NOT read failures, so don't count them here.)
                 if (sensor.valid) {
                     consecutiveFailures = 0
                     unstableSurfaced = false
                 } else {
                     consecutiveFailures++
                 }
+                // Suppress detection while settling after a resume.
+                val settling = resumeSettleRemaining > 0
+                if (settling) resumeSettleRemaining--
+                val detectValid = sensor.valid && !settling
                 sweepReadings.add(reading.toFloat())
-                sweepHardInvalid.add(!sensor.valid)
+                sweepHardInvalid.add(!detectValid)
 
                 // Feed the live tracker (sweep-step index == position in sweepReadings).
-                provisionalTracker.push(sweepStepIndex, freq, reading, sensor.valid)
+                provisionalTracker.push(sweepStepIndex, freq, reading, detectValid)
                 sweepStepIndex++
 
                 if (parameters.calculateUsingPeak && reading > peakReading) {
@@ -674,6 +686,7 @@ class ScanEngine(private val link: GeneratorLink) {
         for ((lo, hi) in ranges) totalSteps += (hi - lo + 1)
         var done = 0
         var lastEnd = -1
+        var resumeSettleRemaining = 0
 
         for ((rawLo, hi) in ranges) {
             val lo = maxOf(rawLo, lastEnd + 1)
@@ -681,7 +694,9 @@ class ScanEngine(private val link: GeneratorLink) {
             for (i in lo..hi) {
                 coroutineContext.ensureActive()
                 // No restore: the next line writes this step's frequency anyway.
-                pausePoint(pauseGate, parameters)
+                if (pausePoint(pauseGate, parameters)) {
+                    resumeSettleRemaining = parameters.raWindow
+                }
                 val stepStart = TimeSource.Monotonic.markNow()
                 val freq = frequencies.getOrElse(i) { frequencies.lastOrNull() ?: 0.0 }
 
@@ -691,7 +706,10 @@ class ScanEngine(private val link: GeneratorLink) {
                 val sensor = readSensorsTracked(parameters.samplesPerStep)
                 val reading = if (parameters.useCurrent) sensor.current else sensor.angle
                 mergedReadings[i] = reading.toFloat()
-                mergedValid[i] = sensor.valid
+                // Mark post-resume settle steps invalid so the spike isn't re-detected.
+                val settling = resumeSettleRemaining > 0
+                if (settling) resumeSettleRemaining--
+                mergedValid[i] = sensor.valid && !settling
 
                 done++
                 onProgress?.invoke(
@@ -758,12 +776,17 @@ class ScanEngine(private val link: GeneratorLink) {
      * transport stays single-caller. Fast no-op when not paused — the golden
      * (never-paused) path sends nothing extra.
      */
+    /**
+     * @return true if the engine actually paused here (and has now resumed) — callers
+     *   use this to start a post-resume detection settle (the silenced-then-restored
+     *   output makes the first reads after a resume spike wildly).
+     */
     private suspend fun pausePoint(
         pauseGate: PauseGate,
         parameters: ScanParameters,
         restore: (suspend () -> Unit)? = null,
-    ) {
-        if (!pauseGate.isPaused.value) return
+    ): Boolean {
+        if (!pauseGate.isPaused.value) return false
         // Byte-exact copy of the original's pause sequence, decoded from the real
         // serial capture Data/StartPauseAndStop.txt (lines 127-136): control reset,
         // both amplitudes to 0, frequency register to zero (`:w24=00,` — NOT the
@@ -783,6 +806,7 @@ class ScanEngine(private val link: GeneratorLink) {
         send(GeneratorProtocol.buildSetAmplitudeCv1(parameters.targetAmplitudeCv))
         send(GeneratorProtocol.buildSetAmplitudeCv2(parameters.targetAmplitudeCv))
         restore?.invoke()
+        return true
     }
 
     /** Port of C# `ReadSensors`: averages [samples] angle/current read pairs. */
