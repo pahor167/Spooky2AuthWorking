@@ -358,6 +358,7 @@ class ScanEngine(private val link: GeneratorLink) {
                         currentReading = reading,
                         currentRunningAverage = if (primaryWindow.isFull) primaryWindow.simpleAverage() else 0.0,
                         provisionalHits = provisionalTracker.topHits(),
+                        currentStepValid = detectValid,
                     ),
                 )
 

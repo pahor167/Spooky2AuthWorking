@@ -38,4 +38,10 @@ data class ScanProgress(
      * Empty outside the sweep phase. Display-only — does not affect final results.
      */
     val provisionalHits: List<ProvisionalHit> = emptyList(),
+    /**
+     * Whether THIS step's reading is valid for display + detection. False for a read
+     * failure or a post-resume settle step — the live graph marks it invalid so the
+     * pause/resume spike is excluded from the trace and Y-scale, not just from hits.
+     */
+    val currentStepValid: Boolean = true,
 )

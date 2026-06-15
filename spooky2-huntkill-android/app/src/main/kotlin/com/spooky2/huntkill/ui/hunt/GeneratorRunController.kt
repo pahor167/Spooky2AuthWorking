@@ -137,6 +137,10 @@ class GeneratorRunController(
      */
     private val liveHistory = ArrayList<Float>()
 
+    /** Parallel to [liveHistory]: per-step display validity (false = read failure or a
+     *  post-resume settle step). Lets the live graph exclude the pause/resume spike. */
+    private val liveValid = ArrayList<Boolean>()
+
     /** Drives a 1s tick so [HuntUiState.elapsedSeconds] advances while running, not paused. */
     private var elapsedTicker: Job? = null
 
@@ -224,6 +228,7 @@ class GeneratorRunController(
 
         pauseGate.resume()
         liveHistory.clear()
+        liveValid.clear()
         // A fresh hunt: its hits ARE persisted (not a History re-run), once.
         fromReRun = false
         savedThisRun = false
@@ -894,8 +899,9 @@ class GeneratorRunController(
         val liveSnapshot: FloatArray? = if (isMainSweep && progress.currentReading != 0.0) {
             // stepNumber is 1-based; append in order. Defensive against a missed step.
             val idx = (progress.stepNumber - 1).coerceAtLeast(liveHistory.size)
-            while (liveHistory.size <= idx) liveHistory.add(progress.currentReading.toFloat())
+            while (liveHistory.size <= idx) { liveHistory.add(progress.currentReading.toFloat()); liveValid.add(true) }
             liveHistory[idx] = progress.currentReading.toFloat()
+            liveValid[idx] = progress.currentStepValid
             liveHistory.toFloatArray()
         } else {
             null
@@ -932,12 +938,11 @@ class GeneratorRunController(
                 angleHistory = newHistory,
                 fullHistory = liveSnapshot ?: current.fullHistory,
                 historyValid = if (liveSnapshot != null) {
-                    // Lead-in steps are marked invalid so ScanGraph excludes them from
-                    // the Y-scale and draws a gap (instead of a leading vertical spike).
-                    // Real read-failure dropouts during the live sweep are surfaced after
-                    // post-processing via publishSweepOutcome; the live mask only encodes
-                    // the display lead-in.
-                    BooleanArray(liveSnapshot.size) { it >= leadIn }
+                    // A step is shown only when it's past the lead-in AND its read was
+                    // valid (engine flag: false for a read failure OR a post-resume settle
+                    // step). ScanGraph excludes invalid steps from the Y-scale and the
+                    // trace, so the pause/resume spike never appears nor zooms the graph.
+                    BooleanArray(liveSnapshot.size) { i -> i >= leadIn && liveValid.getOrElse(i) { true } }
                 } else {
                     current.historyValid
                 },
