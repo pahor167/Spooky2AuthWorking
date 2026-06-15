@@ -66,7 +66,6 @@ fun HuntConfigScreen(
     ) {
         val tabs by viewModel.tabs.collectAsState()
         val activeTabIndex by viewModel.activeIndex.collectAsState()
-        GeneratorTabs(tabs = tabs, activeIndex = activeTabIndex, onSelect = viewModel::setActiveGenerator)
 
         Text("Hunt Configuration", style = MaterialTheme.typography.headlineSmall)
 
@@ -207,6 +206,7 @@ fun HuntConfigScreen(
 
         Spacer(Modifier.height(4.dp))
         DisclaimerBanner()
+        GeneratorTabs(tabs = tabs, activeIndex = activeTabIndex, onSelect = viewModel::setActiveGenerator)
     }
 }
 

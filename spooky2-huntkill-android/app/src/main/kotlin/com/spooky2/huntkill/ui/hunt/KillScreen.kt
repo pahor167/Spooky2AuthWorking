@@ -126,9 +126,6 @@ fun KillScreen(
             verticalArrangement   = Arrangement.spacedBy(8.dp),
         ) {
             item {
-                GeneratorTabs(tabs = tabs, activeIndex = activeIndex, onSelect = viewModel::setActiveGenerator)
-            }
-            item {
                 Text("Kill Phase", style = MaterialTheme.typography.headlineSmall)
             }
             item { PhaseChip(state.phase, state.isPaused) }
@@ -353,6 +350,7 @@ fun KillScreen(
 
         Spacer(Modifier.height(2.dp))
         DisclaimerBanner()
+        GeneratorTabs(tabs = tabs, activeIndex = activeIndex, onSelect = viewModel::setActiveGenerator)
     }
 }
 

@@ -101,7 +101,6 @@ fun LiveScanScreen(
                 .verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
-            GeneratorTabs(tabs = tabs, activeIndex = activeIndex, onSelect = viewModel::setActiveGenerator)
             Text("Live Scan", style = MaterialTheme.typography.headlineSmall)
             PhaseChip(state.phase, state.isPaused)
 
@@ -267,6 +266,7 @@ fun LiveScanScreen(
 
         Spacer(Modifier.height(4.dp))
         DisclaimerBanner()
+        GeneratorTabs(tabs = tabs, activeIndex = activeIndex, onSelect = viewModel::setActiveGenerator)
     }
 }
 

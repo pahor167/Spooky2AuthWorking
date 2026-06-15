@@ -103,9 +103,6 @@ fun HitsScreen(
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             item {
-                GeneratorTabs(tabs = tabs, activeIndex = activeIndex, onSelect = viewModel::setActiveGenerator)
-            }
-            item {
                 Text(
                     if (hasDropouts) "Review needed" else "Hunt complete",
                     style = MaterialTheme.typography.headlineSmall,
@@ -293,6 +290,7 @@ fun HitsScreen(
 
         Spacer(Modifier.height(2.dp))
         DisclaimerBanner()
+        GeneratorTabs(tabs = tabs, activeIndex = activeIndex, onSelect = viewModel::setActiveGenerator)
     }
 }
 
