@@ -199,6 +199,12 @@ data class HuntUiState(
      * Mirrors [GeneratorRunController.refineFlag], which the run loop reads live at each pass boundary.
      */
     val refineHits: Boolean = true,
+    /**
+     * When true, a clean LIVE sweep STOPS at the Hits review (so candidates can be
+     * inspected / graph-rescanned before treatment) instead of auto-killing. Default
+     * false = go straight to the kill. Dropout sweeps always review regardless.
+     */
+    val reviewBeforeKill: Boolean = false,
     /** Current Hunt & Kill generation (1 = initial full sweep; 2+ = refinements). */
     val refineGeneration: Int = 1,
     /**
@@ -498,6 +504,11 @@ class HuntViewModel @Inject constructor(
 
     fun setHitsCompactView(compact: Boolean) {
         activeController()?.setHitsCompactView(compact)
+    }
+
+    /** Toggle "review hits before treatment" for the active generator. */
+    fun setReviewBeforeKill(review: Boolean) {
+        activeController()?.setReviewBeforeKill(review)
     }
 
     fun toggleRefineHits() {

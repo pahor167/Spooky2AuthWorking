@@ -196,6 +196,11 @@ class GeneratorRunController(
         _state.update { it.copy(hitsCompactView = compact) }
     }
 
+    /** Toggle "review hits before treatment" (clean live sweep stops at the Hits review). */
+    fun setReviewBeforeKill(review: Boolean) {
+        _state.update { it.copy(reviewBeforeKill = review) }
+    }
+
     /** Flip refinement mode. Honored live at the next kill-pass boundary. */
     fun toggleRefineHits() {
         val next = !refineFlag.value
@@ -316,14 +321,13 @@ class GeneratorRunController(
                 if (outcome.segments.isNotEmpty()) {
                     // Dropouts detected: STOP before the kill, surface the warning.
                     surfaceDropouts(outcome, parameters)
-                } else if (session.isDemo) {
-                    // Demo replay validates the full detect→kill pipeline end-to-end.
-                    proceedToKill(session, parameters, outcome.hits, cycle = 1)
-                } else {
-                    // Live hardware: STOP at the Hits review so the user can inspect /
-                    // adjust candidates (graph long-press re-scan) and then tap Start
-                    // treatment.
+                } else if (!session.isDemo && _state.value.reviewBeforeKill) {
+                    // Live + "review before treatment" on: STOP at the Hits review so the
+                    // user can inspect / graph-rescan candidates, then Start treatment.
                     surfaceHitsReady(outcome)
+                } else {
+                    // Default (and all demo replay): go straight to the kill.
+                    proceedToKill(session, parameters, outcome.hits, cycle = 1)
                 }
             }.onFailure { error ->
                 if (error is kotlinx.coroutines.CancellationException) throw error

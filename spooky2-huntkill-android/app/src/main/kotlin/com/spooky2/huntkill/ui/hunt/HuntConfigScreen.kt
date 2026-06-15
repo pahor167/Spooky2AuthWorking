@@ -173,6 +173,31 @@ fun HuntConfigScreen(
             )
         }
 
+        // Review hits before treatment: when on, a clean sweep stops at a review
+        // screen (inspect / graph-rescan candidates) instead of going straight to kill.
+        Row(
+            modifier              = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment     = Alignment.CenterVertically,
+        ) {
+            Column(Modifier.weight(1f)) {
+                Text("Review hits before treatment", style = MaterialTheme.typography.bodyMedium)
+                Text(
+                    "Stop after the sweep to inspect / re-scan candidates before treating",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            Switch(
+                checked         = state.reviewBeforeKill,
+                onCheckedChange = { viewModel.setReviewBeforeKill(it) },
+                colors          = SwitchDefaults.colors(
+                    checkedTrackColor = SLActive,
+                    checkedThumbColor = MaterialTheme.colorScheme.onPrimary,
+                ),
+            )
+        }
+
         (state.errorMessage ?: validationError)?.let {
             Text(it, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall)
         }
