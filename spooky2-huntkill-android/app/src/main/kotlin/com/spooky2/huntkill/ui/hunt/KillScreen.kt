@@ -128,7 +128,6 @@ fun KillScreen(
             item {
                 Text("Kill Phase", style = MaterialTheme.typography.headlineSmall)
             }
-            item { PhaseChip(state.phase, state.isPaused) }
 
             if (state.busyAction != null) {
                 item { LinearProgressIndicator(modifier = Modifier.fillMaxWidth(), color = SLPrimary) }

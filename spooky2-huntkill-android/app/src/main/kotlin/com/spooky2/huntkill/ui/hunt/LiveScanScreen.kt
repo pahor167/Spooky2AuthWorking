@@ -102,7 +102,6 @@ fun LiveScanScreen(
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             Text("Live Scan", style = MaterialTheme.typography.headlineSmall)
-            PhaseChip(state.phase, state.isPaused)
 
             if (state.busyAction != null) {
                 LinearProgressIndicator(
@@ -268,36 +267,6 @@ fun LiveScanScreen(
         DisclaimerBanner()
         GeneratorTabs(tabs = tabs, activeIndex = activeIndex, onSelect = viewModel::setActiveGenerator)
     }
-}
-
-/** Status chip: Hunting=neutral/platinum, Killing=coral, Paused=cold-blue (active). */
-@Composable
-internal fun PhaseChip(phase: HuntPhase, isPaused: Boolean) {
-    val (label, containerColor) = when {
-        isPaused              -> "PAUSED"   to MaterialTheme.colorScheme.tertiaryContainer
-        phase == HuntPhase.Killing  -> "KILLING"  to MaterialTheme.colorScheme.errorContainer
-        phase == HuntPhase.Hunting  -> "HUNTING"  to MaterialTheme.colorScheme.primaryContainer
-        else                        -> phase.name.uppercase() to MaterialTheme.colorScheme.surfaceVariant
-    }
-    AssistChip(
-        onClick  = {},
-        enabled  = false,
-        label    = {
-            Text(
-                label,
-                style = MaterialTheme.typography.labelMedium,
-            )
-        },
-        shape  = RoundedCornerShape(8.dp),
-        colors = AssistChipDefaults.assistChipColors(
-            disabledContainerColor = containerColor,
-            disabledLabelColor     = MaterialTheme.colorScheme.onSurface,
-        ),
-        border = androidx.compose.foundation.BorderStroke(
-            1.dp,
-            MaterialTheme.colorScheme.outlineVariant,
-        ),
-    )
 }
 
 @Composable
