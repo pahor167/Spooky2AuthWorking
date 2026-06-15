@@ -20,6 +20,8 @@ import androidx.compose.material3.AssistChipDefaults
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
@@ -41,6 +43,8 @@ import androidx.compose.ui.unit.dp
 import com.spooky2.huntkill.ui.common.DisclaimerBanner
 import com.spooky2.huntkill.ui.theme.MonoNumberSmall
 import com.spooky2.huntkill.ui.theme.SLActive
+import com.spooky2.huntkill.ui.theme.SLActiveContainer
+import com.spooky2.huntkill.ui.theme.SLOnActiveContainer
 import com.spooky2.huntkill.ui.theme.SLOutline
 import com.spooky2.huntkill.ui.theme.SLPrimary
 import com.spooky2.huntkill.ui.theme.SectionLabel
@@ -94,7 +98,8 @@ fun HuntConfigScreen(
                 if (!settingsExpanded) {
                     Text(
                         "${params.startFrequencyText}–${params.endFrequencyText} Hz · " +
-                            "dwell ${params.dwellSecondsText} s · ${params.targetAmplitudeCvText} cV",
+                            "dwell ${params.dwellSecondsText} s · ${params.targetAmplitudeCvText} cV · " +
+                            "${params.scanSpeed.label} ~${params.scanSpeed.estMinutes}m",
                         style = MonoNumberSmall,
                         color = MaterialTheme.colorScheme.onSurface,
                         maxLines = 1,
@@ -144,6 +149,41 @@ fun HuntConfigScreen(
                 onChange = viewModel::updateTargetAmplitude,
                 isError  = params.targetAmplitudeCvText.isNotEmpty() &&
                     (ampVal == null || ampVal <= 0),
+            )
+
+            Text("SCAN SPEED", style = SectionLabel, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                ScanSpeed.entries.forEach { speed ->
+                    val selected = params.scanSpeed == speed
+                    FilterChip(
+                        selected = selected,
+                        onClick  = { viewModel.setScanSpeed(speed) },
+                        label    = {
+                            Text(
+                                "${speed.label} · ~${speed.estMinutes}m",
+                                style    = MaterialTheme.typography.labelMedium,
+                                maxLines = 1,
+                            )
+                        },
+                        shape  = RoundedCornerShape(8.dp),
+                        colors = FilterChipDefaults.filterChipColors(
+                            selectedContainerColor = SLActiveContainer,
+                            selectedLabelColor     = SLOnActiveContainer,
+                        ),
+                        border = FilterChipDefaults.filterChipBorder(
+                            enabled             = true,
+                            selected            = selected,
+                            borderColor         = MaterialTheme.colorScheme.outlineVariant,
+                            selectedBorderColor = SLActive.copy(alpha = 0.5f),
+                        ),
+                    )
+                }
+            }
+            Text(
+                "Standard = validated original timing; Balanced/Fast trade a little " +
+                    "fidelity for speed (may miss very narrow hits).",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
         }
 

@@ -40,6 +40,26 @@ const val DEFAULT_LOOKUP_TOLERANCE_PERCENT = 0.25
 val LOOKUP_TOLERANCE_OPTIONS = listOf(0.1, 0.25, 0.5, 1.0)
 
 /**
+ * Sweep speed preset = step size + per-step settle. Calibrated from real phone-log
+ * analysis of the full sweep: ~5 ms of each 71 ms step is actual I/O, the rest is the
+ * settle; and the resonance peaks are 6–20 sweep-steps wide (a few spurious 1-step
+ * spikes aside), so a 2× coarser 0.05% step still resolves the real hits.
+ *  - Standard 0.025% / 0.07s ≈ 18 min — validated against the original; finds all hits.
+ *  - Balanced 0.05% / 0.07s ≈ 9 min — half the steps; keeps the broad real resonances.
+ *  - Fast 0.05% / 0.045s ≈ 6 min — also trims the settle; quickest sensible.
+ */
+enum class ScanSpeed(
+    val stepPercent: Double,
+    val readDelaySeconds: Double,
+    val label: String,
+    val estMinutes: Int,
+) {
+    Standard(0.025, 0.07, "Standard", 18),
+    Balanced(0.05, 0.07, "Balanced", 9),
+    Fast(0.05, 0.045, "Fast", 6),
+}
+
+/**
  * Editable scan parameters surfaced to the Hunt config screen. Kept as a flat,
  * UI-friendly view over [ScanParameters] (frequencies, dwell, target amplitude),
  * with sensible Hunt-and-Kill defaults.
@@ -51,6 +71,8 @@ data class HuntParamsUi(
     // demo/pause tests override this with updateDwellSeconds("0") to stay fast.
     val dwellSecondsText: String = "180",
     val targetAmplitudeCvText: String = "2000",
+    /** Sweep speed preset; Standard = the validated original timing. */
+    val scanSpeed: ScanSpeed = ScanSpeed.Standard,
 ) {
     /** First validation problem with the entered fields, or null when all valid. */
     fun validationError(): String? {
@@ -80,12 +102,13 @@ data class HuntParamsUi(
             // Single Hunt→Kill cycle: the UI flow ends at the Done summary rather
             // than looping scan→kill until no hits remain (original refine loop).
             continueRefining = false,
+            // Sweep speed preset: step size + per-step settle (Standard = original).
+            stepSizePercent = scanSpeed.stepPercent,
+            minReadDelaySeconds = scanSpeed.readDelaySeconds,
         )
-        // Live hardware keeps the ScanParameters defaults, which mirror the original
-        // Spooky2 timing: 0.07s settle per sweep step (~17 min over 15k steps),
-        // 200ms start delay, and the 330-step amplitude ramp up/down. Reading the
-        // sensor without the settle delay returns values before the response has
-        // stabilized, degrading hit quality.
+        // Live hardware uses the selected speed preset's step + settle. Standard mirrors
+        // the original Spooky2 timing (0.025% / 0.07s ≈ 18 min); coarser/faster presets
+        // trade a little fidelity for time (calibrated from real sweep logs).
         if (!isDemo) return base
         // Demo replay: the recorded dump has no real latency; run fast and skip the
         // ramp so the replayed session reproduces the golden 10 hits.
@@ -519,6 +542,7 @@ class HuntViewModel @Inject constructor(
     fun updateEndFrequency(v: String) { activeController()?.updateEndFrequency(v) }
     fun updateDwellSeconds(v: String) { activeController()?.updateDwellSeconds(v) }
     fun updateTargetAmplitude(v: String) { activeController()?.updateTargetAmplitude(v) }
+    fun setScanSpeed(speed: ScanSpeed) { activeController()?.setScanSpeed(speed) }
 
     /** Launch the full Hunt→Kill flow off the main thread; collect progress into state. */
     fun startHunt() { activeController()?.startHunt() }

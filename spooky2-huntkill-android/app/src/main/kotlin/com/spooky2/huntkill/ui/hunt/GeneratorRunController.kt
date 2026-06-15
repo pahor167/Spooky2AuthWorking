@@ -213,6 +213,7 @@ class GeneratorRunController(
     fun updateEndFrequency(v: String) = updateParams { it.copy(endFrequencyText = v) }
     fun updateDwellSeconds(v: String) = updateParams { it.copy(dwellSecondsText = v) }
     fun updateTargetAmplitude(v: String) = updateParams { it.copy(targetAmplitudeCvText = v) }
+    fun setScanSpeed(speed: ScanSpeed) = updateParams { it.copy(scanSpeed = speed) }
 
     private fun updateParams(transform: (HuntParamsUi) -> HuntParamsUi) {
         _state.update { it.copy(params = transform(it.params)) }
