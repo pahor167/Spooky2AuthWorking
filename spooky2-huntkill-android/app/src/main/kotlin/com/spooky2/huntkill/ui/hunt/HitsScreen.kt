@@ -75,6 +75,7 @@ fun HitsScreen(
     val dwellSeconds  = state.params.dwellSecondsText.toDoubleOrNull() ?: 0.0
     val totalMinutes  = (state.hits.size * dwellSeconds / 60.0).roundToInt()
     val hasDropouts   = state.phase == HuntPhase.HitsReadyWithDropouts
+    val isReview      = state.phase == HuntPhase.HitsReady
     val expanded      = remember { mutableStateMapOf<Double, Boolean>() }
     val compactView   = state.hitsCompactView
     // Flipping the view mode standardizes every row: clear per-row "show all" state.
@@ -104,7 +105,11 @@ fun HitsScreen(
         ) {
             item {
                 Text(
-                    if (hasDropouts) "Review needed" else "Hunt complete",
+                    when {
+                        hasDropouts -> "Review needed"
+                        isReview    -> "Review hits"
+                        else        -> "Hunt complete"
+                    },
                     style = MaterialTheme.typography.headlineSmall,
                 )
             }
@@ -247,8 +252,38 @@ fun HitsScreen(
         }
 
         Spacer(Modifier.height(4.dp))
-        if (!hasDropouts) {
-            val isBusy = state.busyAction != null
+        val isBusy = state.busyAction != null
+        if (isReview) {
+            // Clean-sweep review (pre-kill): the user can adjust candidates (graph
+            // re-scan) and then start treatment, or stop.
+            Row(
+                modifier              = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                Button(
+                    onClick  = viewModel::startTreatment,
+                    enabled  = !isBusy && state.hits.isNotEmpty(),
+                    modifier = Modifier.weight(1f),
+                    shape    = RoundedCornerShape(8.dp),
+                    colors   = ButtonDefaults.buttonColors(
+                        containerColor = SLPrimary,
+                        contentColor   = MaterialTheme.colorScheme.onPrimary,
+                    ),
+                ) {
+                    Text("Start treatment", maxLines = 1, overflow = TextOverflow.Ellipsis)
+                }
+                OutlinedButton(
+                    onClick  = { viewModel.cancel() },
+                    enabled  = !isBusy,
+                    modifier = Modifier.weight(1f),
+                    shape    = RoundedCornerShape(8.dp),
+                    colors   = ButtonDefaults.outlinedButtonColors(contentColor = SLError),
+                    border   = BorderStroke(1.dp, SLError.copy(alpha = 0.6f)),
+                ) {
+                    Text("Stop & zero", maxLines = 1, overflow = TextOverflow.Ellipsis)
+                }
+            }
+        } else if (!hasDropouts) {
             Row(
                 modifier              = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.spacedBy(8.dp),

@@ -169,71 +169,43 @@ fun ScrollableReadingGraph(
                 .fillMaxSize()
                 .horizontalScroll(scrollState)
                 .width(contentWidthDp)
+                // ONE detector for tap (open marker) AND long-press (selection) — they're
+                // mutually exclusive in detectTapGestures, so a long-press never also
+                // fires a marker tap, and it coexists with the horizontalScroll (a drag
+                // cancels the tap and scroll takes over). Positions are in the scrolled
+                // content's own coords (the Canvas IS the content), mapped to a step via
+                // the same pxPerPoint the trace is drawn with.
                 .pointerInput(markers, readings.size, selectionEnabled) {
-                    awaitEachGesture {
-                        val down    = awaitFirstDown(requireUnconsumed = false)
-                        val downPos = down.position
-                        val pressStart = System.currentTimeMillis()
-                        var dragged = false
-                        do {
-                            val event = awaitPointerEvent()
-                            val moved = event.changes.any {
-                                (it.position - downPos).getDistance() > touchSlop
-                            }
-                            if (moved) dragged = true
-                        } while (event.changes.any { it.pressed })
-
-                        // When selection is on, a long hold is a selection gesture (handled
-                        // by the separate detectTapGestures below) — don't ALSO open a marker.
-                        val wasLongPress = selectionEnabled &&
-                            (System.currentTimeMillis() - pressStart) >= viewConfiguration.longPressTimeoutMillis
-                        if (!dragged && !wasLongPress) {
-                            val tap = downPos
-                            val h   = size.height.toFloat()
+                    detectTapGestures(
+                        onTap = { pos ->
+                            val h = size.height.toFloat()
                             var best: GraphMarker? = null
                             var bestDist = Float.MAX_VALUE
                             for (m in markers) {
                                 if (m.stepIndex >= readings.size) continue
                                 val mx   = m.stepIndex * pxPerPoint
                                 val my   = h * (1f - (readings[m.stepIndex] - minV) / range)
-                                val dist = abs(mx - tap.x) + abs(my - tap.y)
+                                val dist = abs(mx - pos.x) + abs(my - pos.y)
                                 if (dist < bestDist) { bestDist = dist; best = m }
                             }
                             val within = best?.let { m ->
                                 val mx = m.stepIndex * pxPerPoint
                                 val my = h * (1f - (readings[m.stepIndex] - minV) / range)
-                                abs(mx - tap.x) <= touchSlop && abs(my - tap.y) <= touchSlop
+                                abs(mx - pos.x) <= touchSlop && abs(my - pos.y) <= touchSlop
                             } ?: false
                             if (within) best?.let(onMarkerTap)
-                        }
-                    }
-                }
-                // Long-press selection lives on a SEPARATE pointerInput so it never
-                // disturbs the tap-to-open-marker / scroll gesture above. The press X is
-                // in scrolled content coords (the Canvas is the scrolled content), mapped
-                // to a step via the same pxPerPoint the trace is drawn with.
-                .pointerInput(selectionEnabled, readings.size) {
-                    if (!selectionEnabled) return@pointerInput
-                    detectTapGestures(
-                        onLongPress = { pos ->
-                            if (readings.size < 2) return@detectTapGestures
-                            val step = (pos.x / pxPerPoint).roundToInt()
-                                .coerceIn(0, readings.lastIndex)
-                            when {
-                                // No start yet, or both already set (reset): begin anew.
-                                selStart == null || selEnd != null -> {
-                                    selStart = step
-                                    selEnd = null
+                        },
+                        onLongPress = if (!selectionEnabled) null else { pos ->
+                            if (readings.size >= 2) {
+                                val step = (pos.x / pxPerPoint).roundToInt()
+                                    .coerceIn(0, readings.lastIndex)
+                                if (selStart == null || selEnd != null) {
+                                    selStart = step; selEnd = null
                                     onSelectionChange?.invoke(null)
-                                }
-                                // Start set, end not yet: complete the selection.
-                                else -> {
+                                } else {
                                     val s = selStart ?: step
-                                    val lo = minOf(s, step)
-                                    val hi = maxOf(s, step)
-                                    selStart = lo
-                                    selEnd = hi
-                                    onSelectionChange?.invoke(lo..hi)
+                                    selStart = minOf(s, step); selEnd = maxOf(s, step)
+                                    onSelectionChange?.invoke(selStart!!..selEnd!!)
                                 }
                             }
                         },

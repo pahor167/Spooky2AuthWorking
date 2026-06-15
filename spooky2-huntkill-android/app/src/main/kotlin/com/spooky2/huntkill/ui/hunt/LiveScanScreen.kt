@@ -83,8 +83,10 @@ fun LiveScanScreen(
     LaunchedEffect(state.phase, activeIndex) {
         if (activeIndex != navIndex) { navIndex = activeIndex; return@LaunchedEffect }
         when (state.phase) {
-            HuntPhase.HitsReady, HuntPhase.Killing -> { vibrateOnce(context); onKilling() }
-            HuntPhase.HitsReadyWithDropouts        -> { vibrateOnce(context); onDropouts() }
+            // Both review states go to the Hits screen so candidates can be adjusted
+            // before treatment; only Killing jumps straight to the Kill screen.
+            HuntPhase.HitsReady, HuntPhase.HitsReadyWithDropouts -> { vibrateOnce(context); onDropouts() }
+            HuntPhase.Killing                      -> { vibrateOnce(context); onKilling() }
             HuntPhase.Done                         -> onDone()
             HuntPhase.Cancelled                    -> onCancelled()
             HuntPhase.Error                        -> onError()

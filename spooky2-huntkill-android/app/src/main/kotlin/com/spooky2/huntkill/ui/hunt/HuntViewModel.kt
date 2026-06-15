@@ -518,6 +518,9 @@ class HuntViewModel @Inject constructor(
      */
     fun continueAnyway() { activeController()?.continueAnyway() }
 
+    /** Begin treatment on the reviewed hits (clean-sweep Hits review → kill). */
+    fun startTreatment() { activeController()?.startTreatment() }
+
     /**
      * Re-run a treatment from a saved run's frequencies (History → "Re-run treatment").
      * See [GeneratorRunController.startKillFromFrequencies].

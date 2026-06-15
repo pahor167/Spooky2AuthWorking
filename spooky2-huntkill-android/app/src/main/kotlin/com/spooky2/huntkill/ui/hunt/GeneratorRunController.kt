@@ -313,12 +313,17 @@ class GeneratorRunController(
                 lastOutcome = outcome
                 publishSweepOutcome(outcome)
 
-                if (outcome.segments.isEmpty()) {
-                    // Clean sweep: unchanged auto-kill flow.
-                    proceedToKill(session, parameters, outcome.hits, cycle = 1)
-                } else {
+                if (outcome.segments.isNotEmpty()) {
                     // Dropouts detected: STOP before the kill, surface the warning.
                     surfaceDropouts(outcome, parameters)
+                } else if (session.isDemo) {
+                    // Demo replay validates the full detect→kill pipeline end-to-end.
+                    proceedToKill(session, parameters, outcome.hits, cycle = 1)
+                } else {
+                    // Live hardware: STOP at the Hits review so the user can inspect /
+                    // adjust candidates (graph long-press re-scan) and then tap Start
+                    // treatment.
+                    surfaceHitsReady(outcome)
                 }
             }.onFailure { error ->
                 if (error is kotlinx.coroutines.CancellationException) throw error
@@ -565,13 +570,36 @@ class GeneratorRunController(
      * "Continue anyway": skip the re-scan and kill using the hits computed with
      * the invalid steps already excluded. No-op outside the dropout-warning state.
      */
-    fun continueAnyway() {
-        if (_state.value.phase != HuntPhase.HitsReadyWithDropouts) return
+    /** Clean-sweep review state: hits ready, user decides when to treat. */
+    private fun surfaceHitsReady(outcome: ScanOutcome) {
+        stopElapsedTicker()
+        log.i(TAG, "Sweep complete — ${outcome.hits.size} hits ready for review")
+        _state.update {
+            it.copy(
+                phase = HuntPhase.HitsReady,
+                hits = outcome.hits,
+                statusText = "Sweep complete — ${outcome.hits.size} hits",
+                isPaused = false,
+                busyAction = null,
+            )
+        }
+    }
+
+    /** "Continue anyway" on the dropout review = start treatment ignoring the dropouts. */
+    fun continueAnyway() = startTreatment()
+
+    /**
+     * Begin the kill phase on the reviewed hits. Valid from either review state
+     * (HitsReady clean, or HitsReadyWithDropouts). Drives the Kill screen.
+     */
+    fun startTreatment() {
+        val phase = _state.value.phase
+        if (phase != HuntPhase.HitsReady && phase != HuntPhase.HitsReadyWithDropouts) return
         val session = liveSession() ?: return
         val parameters = activeParameters ?: return
         val hits = _state.value.hits
 
-        log.i(TAG, "User chose Continue anyway — killing ${hits.size} hits (dropouts ignored)")
+        log.i(TAG, "Start treatment — killing ${hits.size} reviewed hits")
         runEpoch++
         pauseGate.resume()
         _state.update { it.copy(phase = HuntPhase.Killing, busyAction = null, isPaused = false) }
